@@ -1,0 +1,12 @@
+PMID: 37823665
+PMCID: PMC10662344
+DOI: 10.1128/jcm.00617-23
+Title: Direct prediction of carbapenem resistance in Pseudomonas aeruginosa by whole genome sequencing and metagenomic sequencing.
+Journal: Journal of clinical microbiology
+PubDate: 2023 Nov 21
+Authors: Liu B, Gao J, Liu XF, Rao G, Luo J, Han P, Hu W, Zhang Z, Zhao Q, Han L, Jiang Z, Zhou M
+Source: PMC_EFetch_XML
+License: pmc_free_to_read
+
+## ABSTRACT
+ABSTRACT Carbapenem resistance is a major concern in the management of antibiotic-resistant Pseudomonas aeruginosa infections. The direct prediction of carbapenem-resistant phenotype from genotype in P. aeruginosa isolates and clinical samples would promote timely antibiotic therapy. The complex carbapenem resistance mechanism and the high prevalence of variant-driven carbapenem resistance in P. aeruginosa make it challenging to predict the carbapenem-resistant phenotype through the genotype. In this study, using whole genome sequencing (WGS) data of 1,622 P . aeruginosa isolates followed by machine learning, we screened 16 and 31 key gene features associated with imipenem (IPM) and meropenem (MEM) resistance in P. aeruginosa , including oprD(HIGH), and constructed the resistance prediction models. The areas under the curves of the IPM and MEM resistance prediction models were 0.906 and 0.925, respectively. For the direct prediction of carbapenem resistance in P. aeruginosa from clinical samples by the key gene features selected and prediction models constructed, 72 P . aeruginosa -positive sputum samples were collected and sequenced by metagenomic sequencing (MGS) based on next-generation sequencing (NGS) or Oxford Nanopore Technology (ONT). The prediction applicability of MGS based on NGS outperformed that of MGS based on ONT. In 72 P . aeruginosa -positive sputum samples, 65.0% (26/40) of IPM-insensitive and 63.2% (24/38) of MEM-insensitive P. aeruginosa were directly predicted by NGS-based MGS with positive predictive values of 0.897 and 0.889, respectively. By the direct detection of the key gene features associated with carbapenem resistance of P. aeruginosa , the carbapenem resistance of P. aeruginosa could be directly predicted from cultured isolates by WGS or from clinical samples by NGS-based MGS, which could assist the timely treatment and surveillance of carbapenem-resistant P. aeruginosa .

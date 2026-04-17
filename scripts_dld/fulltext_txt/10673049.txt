@@ -1,0 +1,28 @@
+PMID: 10673049
+PMCID: 
+DOI: 10.1016/s0167-4781(99)00202-x
+Title: Molecular characterisation of In51, a class 1 integron containing a novel aminoglycoside adenylyltransferase gene cassette, aadA6, in Pseudomonas aeruginosa.
+Journal: Biochimica et biophysica acta
+PubDate: 1999 Dec 23
+Authors: Naas T, Poirel L, Nordmann P
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S016747819900202X</prism:url><dc:identifier>doi:10.1016/S0167-4781(99)00202-X</dc:identifier><eid>1-s2.0-S016747819900202X</eid><prism:doi>10.1016/S0167-4781(99)00202-X</prism:doi><pii>S0167-4781(99)00202-X</pii><dc:title>Molecular characterisation of In51, a class 1 integron containing a novel aminoglycoside adenylyltransferase gene cassette, aadA6, in Pseudomonas aeruginosa
+               
+                  1
+                  The GenBank accession number of the published sequence is AF140629.
+               
+               
+                  1
+               
+             </dc:title><prism:publicationName>Biochimica et Biophysica Acta (BBA) - Gene Structure and Expression</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>01674781</prism:issn><prism:volume>1489</prism:volume><prism:issueIdentifier>2-3</prism:issueIdentifier><prism:startingPage>445</prism:startingPage><prism:endingPage>451</prism:endingPage><prism:pageRange>445-451</prism:pageRange><prism:number>2-3</prism:number><dc:format>text/xml</dc:format><prism:coverDate>1999-12-23</prism:coverDate><prism:coverDisplayDate>23 December 1999</prism:coverDisplayDate><prism:copyright>Copyright © 1999 Elsevier Science B.V. All rights reserved.</prism:copyright><prism:publisher>Elsevier Science B.V.</prism:publisher><dc:creator>Naas, Thierry</dc:creator><dc:creator>Poirel, Laurent</dc:creator><dc:creator>Nordmann, Patrice</dc:creator><dc:description>
+                  Polymerase chain reaction-amplification and subsequent sequencing of the variable region of a novel integron, In51, from Pseudomonas aeruginosa revealed the presence of a novel aminoglycoside adenylyltransferase gene, aadA6, together with an open reading frame of unknown function, orfD. AADA6 enzyme has only 75% amino acid identity with AADA1 and is able to confer high level resistance to streptomycin and spectinomycin in Escherichia coli.
+               </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><dcterms:subject>Integron</dcterms:subject><dcterms:subject>
+                     aadA
+                  </dcterms:subject><dcterms:subject>Aminoglycoside resistance</dcterms:subject><dcterms:subject>(Pseudomonas aeruginosa)</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S016747819900202X" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S016747819900202X" rel="scidir"/></coredata><scopus-id>0032738553</scopus-id><scopus-eid>2-s2.0-0032738553</scopus-eid><pubmed-id>10673049</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/0032738553" rel="abstract"/><originalText><xocs:doc><xocs:meta><xocs:open-access xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+   <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+</xocs:open-access><xocs:available-online-date xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd" yyyymmdd="19991209">1999-12-09</xocs:available-online-date></xocs:meta></xocs:doc></originalText></full-text-retrieval-response>

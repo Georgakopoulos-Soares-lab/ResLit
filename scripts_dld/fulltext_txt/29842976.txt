@@ -1,0 +1,31 @@
+PMID: 29842976
+PMCID: 
+DOI: 10.1016/j.jgar.2018.05.021
+Title: PNGM-1, a novel subclass B3 metallo-β-lactamase from a deep-sea sediment metagenome.
+Journal: Journal of global antimicrobial resistance
+PubDate: 2018 Sep
+Authors: Park KS, Kim TY, Kim JH, Lee JH, Jeon JH, Karim AM, Malik SK, Lee SH
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S221371651830105X</prism:url><dc:identifier>doi:10.1016/j.jgar.2018.05.021</dc:identifier><eid>1-s2.0-S221371651830105X</eid><prism:doi>10.1016/j.jgar.2018.05.021</prism:doi><pii>S2213-7165(18)30105-X</pii><dc:title>PNGM-1, a novel subclass B3 metallo-β-lactamase from a deep-sea sediment metagenome </dc:title><prism:publicationName>Journal of Global Antimicrobial Resistance</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>sco</pubType><prism:issn>22137165</prism:issn><prism:volume>14</prism:volume><prism:startingPage>302</prism:startingPage><prism:endingPage>305</prism:endingPage><prism:pageRange>302-305</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2018-09-30</prism:coverDate><prism:coverDisplayDate>September 2018</prism:coverDisplayDate><prism:copyright>© 2018 International Society for Chemotherapy of Infection and Cancer. Published by Elsevier Ltd. All rights reserved.</prism:copyright><prism:publisher>International Society for Chemotherapy of Infection and Cancer. Published by Elsevier Ltd.</prism:publisher><dc:creator>Park, Kwang Seung</dc:creator><dc:creator>Kim, Tae Yeong</dc:creator><dc:creator>Kim, Ji Hwan</dc:creator><dc:creator>Lee, Jung Hun</dc:creator><dc:creator>Jeon, Jeong Ho</dc:creator><dc:creator>Karim, Asad Mustafa</dc:creator><dc:creator>Malik, Sumera Kausar</dc:creator><dc:creator>Lee, Sang Hee</dc:creator><dc:description>
+                  Objectives
+                  In order to find antimicrobial resistance gene(s) pre-dating the use of antibiotics through metagenomics, functional screening of a metagenomic library from the deep-seep sediments of Edison Seamount (ca. 10000 years old) was performed.
+               
+                  Methods
+                  Among 60 antimicrobial-resistant clones, a single clone with the highest minimum inhibitory concentration (MIC) for ampicillin was selected. Sequence analysis revealed a new metallo-β-lactamase (MBL) gene, designated as bla
+                     PNGM-1. PNGM-1 retains a zinc ion-binding motif (H116XH118XD120H121, H196 and H263), conserved in subclass B3 MBLs. The catalytic parameters of purified PNGM-1 and the MICs of β-lactams for Escherichia coli TOP10 transformants harbouring the bla
+                     PNGM-1 gene were assessed.
+               
+                  Results
+                  Antimicrobial susceptibility testing indicated reduced susceptibility to penicillins, narrow- and extended-spectrum cephalosporins, and carbapenems in E. coli TOP10 transformants harbouring the bla
+                     PNGM-1 gene. In addition, kinetic analyses revealed that PNGM-1 hydrolysed almost all β-lactams.
+               
+                  Conclusions
+                  The PNGM-1 enzyme is the first case of a subclass B3 MBL derived from a functional metagenomic library of a deep-sea sediment that pre-dates the antibiotic era.
+               </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><dcterms:subject>Deep-sea Edison Seamount</dcterms:subject><dcterms:subject>Metagenome</dcterms:subject><dcterms:subject>Antimicrobial resistance</dcterms:subject><dcterms:subject>B3 metallo-β-lactamase</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S221371651830105X" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S221371651830105X" rel="scidir"/></coredata><scopus-id>85052243282</scopus-id><scopus-eid>2-s2.0-85052243282</scopus-eid><pubmed-id>29842976</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/85052243282" rel="abstract"/><originalText><xocs:doc><xocs:meta><xocs:open-access xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+   <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+</xocs:open-access><xocs:available-online-date xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd" yyyymmdd="20180526">2018-05-26</xocs:available-online-date></xocs:meta></xocs:doc></originalText></full-text-retrieval-response>

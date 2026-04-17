@@ -1,0 +1,28 @@
+PMID: 6319234
+PMCID: 
+DOI: 10.1016/0378-1119(83)90170-1
+Title: Sequence homology between the tetracycline-resistance determinants of Tn10 and pBR322.
+Journal: Gene
+PubDate: 1983 Nov
+Authors: Nguyen TT, Postle K, Bertrand KP
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/0378111983901701</prism:url><dc:identifier>doi:10.1016/0378-1119(83)90170-1</dc:identifier><eid>1-s2.0-0378111983901701</eid><prism:doi>10.1016/0378-1119(83)90170-1</prism:doi><pii>0378-1119(83)90170-1</pii><dc:title>Sequence homology between the tetracycline-resistance determinants of Tn10 and pBR322 </dc:title><prism:publicationName>Gene</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>03781119</prism:issn><prism:volume>25</prism:volume><prism:issueIdentifier>1</prism:issueIdentifier><prism:startingPage>83</prism:startingPage><prism:endingPage>92</prism:endingPage><prism:pageRange>83-92</prism:pageRange><prism:number>1</prism:number><dc:format>text/xml</dc:format><prism:coverDate>1983-11-30</prism:coverDate><prism:coverDisplayDate>November 1983</prism:coverDisplayDate><prism:copyright>Copyright © 1983 Published by Elsevier B.V.</prism:copyright><prism:publisher>Published by Elsevier B.V.</prism:publisher><dc:creator>Nguyen, Toai T.</dc:creator><dc:creator>Postle, Kathleen</dc:creator><dc:creator>Bertrand, Kevin P.</dc:creator><dc:description>
+                  The Tn10 tetracycline resistance gene, tetA, encodes a tetracycline-inducible protein with an apparent M
+                           r
+                        
+                      of 36 × 103
+                     . We have determined the nucleotide sequence of the Tn10 tetA gene. The extent of the tetA gene was determined by analysis of amino-terminal and carboxy-terminal deletion mutants. We conclude that a single Tn10 gene, the tetA gene, is sufficient to confer tetracycline resistance, The predicted M
+                           r
+                        
+                      of the tetA protein is 43.2 × 103
+                     . The sequence homology between the Tn10 tetA gene and pBR322 tetracycline resistance determinant (49% nucleotide homology, 44% amino acid homology) indicates that these phenotypically distinct tetracycline-resistance determinants must have evolved from a common ancestral sequence. The markedly hydrophobic character of the predicted amino acid sequences of the Tn10 tetA and pBR322 tet-coded proteins suggests that a substantial portion of these proteins may be embedded within the cytoplasmic membrane.
+               </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><dcterms:subject>Membrane protein</dcterms:subject><dcterms:subject>transposon</dcterms:subject><dcterms:subject>plasmid vector</dcterms:subject><dcterms:subject>recombinant DNA</dcterms:subject><dcterms:subject>
+                     Escherichia coli
+                  </dcterms:subject><link href="https://api.elsevier.com/content/article/pii/0378111983901701" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/0378111983901701" rel="scidir"/></coredata><scopus-id>0021033114</scopus-id><scopus-eid>2-s2.0-0021033114</scopus-eid><pubmed-id>6319234</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/0021033114" rel="abstract"/><originalText><xocs:doc><xocs:meta><xocs:open-access xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+   <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+</xocs:open-access><xocs:available-online-date xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd" yyyymmdd="20030128">2003-01-28</xocs:available-online-date></xocs:meta></xocs:doc></originalText></full-text-retrieval-response>

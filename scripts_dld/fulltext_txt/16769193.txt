@@ -1,0 +1,35 @@
+PMID: 16769193
+PMCID: 
+DOI: 10.1016/j.diagmicrobio.2006.04.016
+Title: Cephalosporin resistance in Klebsiella pneumoniae from Nova Scotia, Canada.
+Journal: Diagnostic microbiology and infectious disease
+PubDate: 2006 Oct
+Authors: Melano RG, Davidson RJ, Musgrave HL, Forward KR
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S0732889306001702</prism:url><dc:identifier>doi:10.1016/j.diagmicrobio.2006.04.016</dc:identifier><eid>1-s2.0-S0732889306001702</eid><prism:doi>10.1016/j.diagmicrobio.2006.04.016</prism:doi><pii>S0732-8893(06)00170-2</pii><dc:title>Cephalosporin resistance in Klebsiella pneumoniae from Nova Scotia, Canada </dc:title><prism:publicationName>Diagnostic Microbiology and Infectious Disease</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>07328893</prism:issn><prism:volume>56</prism:volume><prism:issueIdentifier>2</prism:issueIdentifier><prism:startingPage>197</prism:startingPage><prism:endingPage>205</prism:endingPage><prism:pageRange>197-205</prism:pageRange><prism:number>2</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2006-10-31</prism:coverDate><prism:coverDisplayDate>October 2006</prism:coverDisplayDate><prism:copyright>Copyright © 2006 Elsevier Inc. All rights reserved.</prism:copyright><prism:publisher>Elsevier Inc.</prism:publisher><dc:creator>Melano, Roberto G.</dc:creator><dc:creator>Davidson, Ross J.</dc:creator><dc:creator>Musgrave, Heather L.</dc:creator><dc:creator>Forward, Kevin R.</dc:creator><dc:description>
+                  From 2116 Klebsiella pneumoniae strains isolated between January 2001 and December 2002 in Nova Scotia, Canada, 25 (1.18%) showed a reduced susceptibility to cefoxitin or extended-spectrum cephalosporins. Narrow-spectrum β-lactamase genes (bla
+                     SHV-11, bla
+                     SHV-1, bla
+                     SHV-26, bla
+                     SHV-32, bla
+                     SHV-36, and bla
+                     SHV-40) were the most prevalent. Four new variants were identified (bla
+                     LEN-17, bla
+                     OKP-B-13, bla
+                     OKP-B-14, and bla
+                     OKP-A-11), representing the 1st description of bla
+                     OKP in the Americas. Among the extended-spectrum β-lactamase (ESBL) genes, bla
+                     SHV-2, bla
+                     SHV2a, bla
+                     SHV-12, and bla
+                     CTX-M-15 were detected (ESBL prevalence of 0.14%). Nineteen strains were resistant to cefoxitin (MIC, 32 to &gt;256 μg/mL). Nevertheless, an AmpC-like activity was detected in only 1 strain, which expressed CMY-2. The combined effects of narrow-spectrum β-lactamase production and decreased or nonexpression of OmpK35/36 porins did not account for the cefoxitin resistance observed in some of these strains.
+               </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><dcterms:subject>Cephalosporin</dcterms:subject><dcterms:subject>
+                     Klebsiella pneumoniae
+                  </dcterms:subject><dcterms:subject>Cephalosporin-resistance</dcterms:subject><dcterms:subject>Amp-C</dcterms:subject><dcterms:subject>Outer brain protein</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S0732889306001702" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S0732889306001702" rel="scidir"/></coredata><scopus-id>33749254459</scopus-id><scopus-eid>2-s2.0-33749254459</scopus-eid><pubmed-id>16769193</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/33749254459" rel="abstract"/><originalText><xocs:doc><xocs:meta><xocs:open-access xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+   <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+</xocs:open-access><xocs:available-online-date xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd" yyyymmdd="20060612">2006-06-12</xocs:available-online-date></xocs:meta></xocs:doc></originalText></full-text-retrieval-response>

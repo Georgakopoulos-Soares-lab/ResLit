@@ -1,0 +1,12 @@
+PMID: 34694881
+PMCID: PMC8765321
+DOI: 10.1128/AAC.01196-21
+Title: Prediction of Antimicrobial Resistance in Clinical Enterococcus faecium Isolates Using a Rules-Based Analysis of Whole-Genome Sequences.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2022 Jan 18
+Authors: Anahtar MN, Bramante JT, Xu J, Desrosiers LA, Paer JM, Rosenberg ES, Pierce VM, Kwon DS
+Source: PMC_EFetch_XML
+License: pmc_free_to_read
+
+## ABSTRACT
+ABSTRACT Enterococcus faecium is a major cause of clinical infections, often due to multidrug-resistant (MDR) strains. Whole-genome sequencing (WGS) is a powerful tool to study MDR bacteria and their antimicrobial resistance (AMR) mechanisms. In this study, we used WGS to characterize E. faecium clinical isolates and test the feasibility of rules-based genotypic prediction of AMR. Clinical isolates were divided into derivation and validation sets. Phenotypic susceptibility testing for ampicillin, vancomycin, high-level gentamicin, ciprofloxacin, levofloxacin, doxycycline, tetracycline, and linezolid was performed using the Vitek 2 automated system, with confirmation and discrepancy resolution by broth microdilution, disk diffusion, or gradient diffusion when needed. WGS was performed to identify isolate lineage and AMR genotype. AMR prediction rules were derived by analyzing the genotypic-phenotypic relationship in the derivation set. Phylogenetic analysis demonstrated that 88% of isolates in the collection belonged to hospital-associated clonal complex 17. Additionally, 12% of isolates had novel sequence types. When applied to the validation set, the derived prediction rules demonstrated an overall positive predictive value of 98% and negative predictive value of 99% compared to standard phenotypic methods. Most errors were falsely resistant predictions for tetracycline and doxycycline. Further analysis of genotypic-phenotypic discrepancies revealed potentially novel pbp5 and tet (M) alleles that provide insight into ampicillin and tetracycline class resistance mechanisms. The prediction rules demonstrated generalizability when tested on an external data set. In conclusion, known AMR genes and mutations can predict E. faecium phenotypic susceptibility with high accuracy for most routinely tested antibiotics, providing opportunities for advancing molecular diagnostics.

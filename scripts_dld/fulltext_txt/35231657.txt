@@ -1,0 +1,1933 @@
+PMID: 35231657
+PMCID: 
+DOI: 10.1016/j.jgar.2022.02.016
+Title: Genomic characterisation of three GES-producing Enterobacterales isolated in the Czech Republic.
+Journal: Journal of global antimicrobial resistance
+PubDate: 2022 Jun
+Authors: Finianos M, Kraftova L, Papagiannitsis CC, Adamkova V, Hrabak J, Bitar I
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S2213716522000509</prism:url><dc:identifier>doi:10.1016/j.jgar.2022.02.016</dc:identifier><eid>1-s2.0-S2213716522000509</eid><prism:doi>10.1016/j.jgar.2022.02.016</prism:doi><pii>S2213-7165(22)00050-9</pii><dc:title>Genomic characterisation of three GES-producing Enterobacterales isolated in the Czech Republic </dc:title><prism:publicationName>Journal of Global Antimicrobial Resistance</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>sco</pubType><prism:issn>22137165</prism:issn><prism:volume>29</prism:volume><prism:startingPage>116</prism:startingPage><prism:endingPage>119</prism:endingPage><prism:pageRange>116-119</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2022-06-30</prism:coverDate><prism:coverDisplayDate>June 2022</prism:coverDisplayDate><prism:copyright>© 2022 The Author(s). Published by Elsevier Ltd on behalf of International Society for Antimicrobial Chemotherapy.</prism:copyright><prism:publisher>The Author(s). Published by Elsevier Ltd on behalf of International Society for Antimicrobial Chemotherapy.</prism:publisher><dc:creator>Finianos, Marc</dc:creator><dc:creator>Kraftova, Lucie</dc:creator><dc:creator>Papagiannitsis, Costas C.</dc:creator><dc:creator>Adamkova, Vaclava</dc:creator><dc:creator>Hrabak, Jaroslav</dc:creator><dc:creator>Bitar, Ibrahim</dc:creator><dc:description>
+                  Objectives
+                  The aim of the study is to characterise the genomic features of three GES-producing Enterobacterales isolates from Czech hospitals.
+               
+                  Methods
+                  In 2020, during a routine screening of the hospital's surfaces in Prague General Hospital, two strains (CZ862 and CZ863) that belonged to the Enterobacter cloacae complex were found to be bla
+                     GES positive. Another bla
+                     GES positive strain identified as Klebsiella oxytoca was recovered from a patient hospitalised in Pilsen. Antibiotic susceptibility profiling was done with broth microdilution assay. Conjugation/transformation experiments were performed on all three strains. Genomic DNA of the three isolates was subjected to whole genome sequencing using PacBio platform.
+               
+                  Results
+                  Multilocus sequence types typing of CZ862 and CZ863 identified the strains as ST837 and a novel ST (ST1622). Both bla
+                     GES harbouring plasmids showed high sequence similarity and complete query coverage (100% and 99.98%) with pEcl-35771cz. Both plasmids had two copies of bla
+                     GES instead of one copy as found in pEcl-35771cz. The clinical isolate CZ598 belonged to ST180. The plasmid harboured bla
+                     GES-7 gene, cat and aac(6’)-lb and the novel variant bla
+                     OXA-1011. No similar sequences were observed, suggesting a novel plasmid.
+               
+                  Conclusion
+                  The detection of the two bla
+                     GES-positive plasmids in the same hospital environment, the first report after 3 years, suggests a hidden source. This highlights the importance of the hidden sources and evolution of such plasmids on the route of spreading into clinical settings. Also, the detection of the new bla
+                     OXA-1011, which is thought in this case to be associated with carbapenem resistance, imposes a health risk if disseminated, limiting therapeutic options.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName>Czechia: LE Tracking</openaccessSponsorName><openaccessSponsorType>FundingBody</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by/4.0/</openaccessUserLicense><dcterms:subject>blaGES-1
+                  </dcterms:subject><dcterms:subject>blaGES-5
+                  </dcterms:subject><dcterms:subject>blaGES-7
+                  </dcterms:subject><dcterms:subject>blaOXA-1011
+                  </dcterms:subject><dcterms:subject>Enterobacter cloacae</dcterms:subject><dcterms:subject>Klebsiella michiganensis</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S2213716522000509" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S2213716522000509" rel="scidir"/></coredata><objects><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="678" height="400" size="66327">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716522000509-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="129" size="8224">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716522000509-gr1.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="3000" height="1770" size="491567">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716522000509-gr1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="mmc1" category="standard" type="APPLICATION" multimediatype="Microsoft Excel file" mimetype="application/excel" size="12034">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716522000509-mmc1.xlsx?httpAccept=%2A%2F%2A</object><object ref="am" category="standard" type="AAM-PDF" multimediatype="Acrobat PDF file" mimetype="application/pdf" size="855328">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716522000509-am.pdf?httpAccept=%2A%2F%2A</object></objects><scopus-id>85126860662</scopus-id><scopus-eid>2-s2.0-85126860662</scopus-eid><pubmed-id>35231657</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/85126860662" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>286287</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291783</xocs:ssid>
+         <xocs:ssid type="subj">291832</xocs:ssid>
+         <xocs:ssid type="subj">291890</xocs:ssid>
+         <xocs:ssid type="subj">291891</xocs:ssid>
+         <xocs:ssid type="subj">291904</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Journal of Global Antimicrobial Resistance</xocs:srctitle>
+      <xocs:normalized-srctitle>JOURNALGLOBALANTIMICROBIALRESISTANCE</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20220226">2022-02-26</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20220226">2022-02-26</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20220323">2022-03-23</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20220323">2022-03-23</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2022-06-15T03:59:20</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S2213716522000509</xocs:eid>
+      <xocs:pii-formatted>S2213-7165(22)00050-9</xocs:pii-formatted>
+      <xocs:pii-unformatted>S2213716522000509</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.jgar.2022.02.016</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.1</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S2213716522X00039</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20220719">2022-07-19T07:40:33.199413Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20220601</xocs:date-search-begin>
+      <xocs:date-search-end>20220630</xocs:date-search-end>
+      <xocs:year-nav>2022</xocs:year-nav>
+      <xocs:indexeddate epoch="1645861319">2022-02-26T07:41:59.615006Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid fundingbodyid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder sponsoredaccesstype srctitle srctitlenorm srctype ssids alllist content oa subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body acknowledge affil appendices articletitle auth authfirstini authfull authkeywords authlast highlightsabst misctext orcid primabst ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>2213-7165</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>22137165</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:sponsored-access-type>UNLIMITED</xocs:sponsored-access-type>
+      <xocs:funding-body-id>CZECHILETR</xocs:funding-body-id>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>29</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>29</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 29</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>56</xocs:sort-order>
+      <xocs:first-fp>116</xocs:first-fp>
+      <xocs:last-lp>119</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>116</xocs:first-page>
+         <xocs:last-page>119</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>202206</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>June 2022</xocs:cover-date-text>
+      <xocs:cover-date-start>2022-06-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2022-06-30</xocs:cover-date-end>
+      <xocs:cover-date-year>2022</xocs:cover-date-year>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Short communications</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>sco</xocs:document-subtype>
+      <xocs:copyright-line>© 2022 The Author(s). Published by Elsevier Ltd on behalf of International Society for Antimicrobial Chemotherapy.</xocs:copyright-line>
+      <xocs:normalized-article-title>GENOMICCHARACTERISATIONTHREEGESPRODUCINGENTEROBACTERALESISOLATEDINCZECHREPUBLIC</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>FINIANOS</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>M</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>1</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Introduction</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>2</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Materials and methods</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.1</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Case study</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.2</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Species identification and antibiotic susceptibility testing</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.3</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Conjugation/Transformation experiments</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.4</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Whole genome sequencing (WGS) and data analysis</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>3</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Results and discussion</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>4</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Conclusion</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:appendices">
+            <xocs:item-toc-label>Appendix</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Supplementary materials</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0001">
+            <xocs:ref-normalized-surname>POIREL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>622</xocs:ref-first-fp>
+            <xocs:ref-last-lp>632</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0002">
+            <xocs:ref-normalized-surname>POIREL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2001</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2598</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2603</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0003">
+            <xocs:ref-normalized-surname>VOURLI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>209</xocs:ref-first-fp>
+            <xocs:ref-last-lp>213</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0004">
+            <xocs:ref-normalized-surname>NAAS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1006</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1028</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>KOTSAKIS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4864</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4871</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0006">
+            <xocs:ref-normalized-surname>TZELEPI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>542</xocs:ref-first-fp>
+            <xocs:ref-last-lp>546</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>E</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0007">
+            <xocs:ref-normalized-surname>IRRGANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0008">
+            <xocs:ref-normalized-surname>ELLINGTON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2553</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2560</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0009">
+            <xocs:ref-normalized-surname>DITELLA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3783</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3795</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0010">
+            <xocs:ref-normalized-surname>CHUDEJOVA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>148</xocs:ref-first-fp>
+            <xocs:ref-last-lp>150</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0011">
+            <xocs:ref-normalized-surname>CHUDEJOVA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2021</xocs:ref-pub-year>
+            <xocs:ref-article-number>641415</xocs:ref-article-number>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0012">
+            <xocs:ref-normalized-surname>PAPAGIANNITSIS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>277</xocs:ref-first-fp>
+            <xocs:ref-last-lp>280</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0013">
+            <xocs:ref-normalized-surname>LARSEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1355</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1361</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0014">
+            <xocs:ref-normalized-surname>CARATTOLI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3895</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3903</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0015">
+            <xocs:ref-normalized-surname>BORTOLAIA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2020</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3491</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3500</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>V</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0016">
+            <xocs:ref-normalized-surname>ZANKARI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2764</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2768</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>E</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0017">
+            <xocs:ref-normalized-surname>ORLEK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>42</xocs:ref-first-fp>
+            <xocs:ref-last-lp>52</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0018">
+            <xocs:ref-normalized-surname>ALIKHAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>402</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0019">
+            <xocs:ref-normalized-surname>XU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>485</xocs:ref-first-fp>
+            <xocs:ref-last-lp>491</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>FINIANOSX2022X116</xocs:refkey3>
+         <xocs:refkey4lp>FINIANOSX2022X116X119</xocs:refkey4lp>
+         <xocs:refkey4ai>FINIANOSX2022X116XM</xocs:refkey4ai>
+         <xocs:refkey5>FINIANOSX2022X116X119XM</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2022-02-23T10:00:32Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>FundingBody</xocs:oa-sponsor-type>
+            <xocs:oa-sponsor-name>Czechia: LE Tracking</xocs:oa-sponsor-name>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by/4.0/</xocs:oa-user-license>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2022 The Author(s). Published by Elsevier Ltd on behalf of International Society for Antimicrobial Chemotherapy.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:third-party>
+         <xocs:third-party-status>0</xocs:third-party-status>
+      </xocs:third-party>
+      <xocs:funding-list has-funding-info="1">
+         <xocs:funding-addon-generated-timestamp>2022-06-11T23:58:39.578Z</xocs:funding-addon-generated-timestamp>
+         <xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined</xocs:funding-addon-type>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>Charles University</xocs:funding-agency-matched-string>
+            <xocs:funding-id>CZ.02.1.01/0.0/0.0/16_019/0000787</xocs:funding-id>
+            <xocs:funding-id>Q39</xocs:funding-id>
+            <xocs:funding-agency-acronym>UK</xocs:funding-agency-acronym>
+            <xocs:funding-agency>Univerzita Karlova v Praze</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/100007397</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/3077311/</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>Ministry of Education Youth and Sports</xocs:funding-agency-matched-string>
+            <xocs:funding-agency-acronym>MŠMT</xocs:funding-agency-acronym>
+            <xocs:funding-agency>Ministerstvo Školství, Mládeže a Tělovýchovy</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100001823</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/3077311/</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding>
+            <xocs:funding-agency-matched-string>Czech Health Research Council</xocs:funding-agency-matched-string>
+            <xocs:funding-agency-acronym>AZV ČR</xocs:funding-agency-acronym>
+            <xocs:funding-agency>Agentura Pro Zdravotnický Výzkum České Republiky</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100009553</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/3077311/</xocs:funding-agency-country>
+         </xocs:funding>
+         <xocs:funding-text>The study was supported by the research project grants NU20J-05-00033 provided by Czech Health Research Council, by the Charles University Research Fund PROGRES (project number Q39) and by the project No. CZ.02.1.01/0.0/0.0/16_019/0000787 “Fighting Infectious Diseases” provided by the Ministry of Education Youth and Sports of the Czech Republic. Also, we would like to thank the curator of INTEGRALL, Dr. Thomas Jove, for the help in assigning integrons. </xocs:funding-text>
+      </xocs:funding-list>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S2213-7165(22)00050-9</xocs:pii-formatted>
+         <xocs:pii-unformatted>S2213716522000509</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S2213716522000509</xocs:eid>
+         <xocs:doi>10.1016/j.jgar.2022.02.016</xocs:doi>
+         <xocs:cid>286287</xocs:cid>
+         <xocs:timestamp>2022-07-19T07:40:33.199413Z</xocs:timestamp>
+         <xocs:cover-date-start>2022-06-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2022-06-30</xocs:cover-date-end>
+         <xocs:sponsored-access-type>UNLIMITED</xocs:sponsored-access-type>
+         <xocs:funding-body-id>CZECHILETR</xocs:funding-body-id>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S2213716522000509-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716522000509/MAIN/application/pdf/042ac421a60a0a3de5a2d9d3a6102515/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>588179</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>4</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S2213716522000509-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716522000509/PREVIEW/image/png/279fb113a65b597c6b8e90fc983be2b0/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>61461</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716522000509-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716522000509/gr1/DOWNSAMPLED/image/jpeg/b31370b6c683703364590ba44f31686c/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>66327</xocs:filesize>
+               <xocs:pixel-height>400</xocs:pixel-height>
+               <xocs:pixel-width>678</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716522000509-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716522000509/gr1/THUMBNAIL/image/gif/11cceaf18576c42b5b97e01f076ce710/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>8224</xocs:filesize>
+               <xocs:pixel-height>129</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716522000509-gr1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716522000509/HIGHRES/image/jpeg/c1febda4e53d3e2f2e9cc35dbd1310c1/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>491567</xocs:filesize>
+               <xocs:pixel-height>1770</xocs:pixel-height>
+               <xocs:pixel-width>3000</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716522000509-mmc1.xlsx</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716522000509/mmc1/MAIN/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet/6a2af7a9209f4859e6280deaab458523/mmc1.xlsx</xocs:ucs-locator>
+               <xocs:file-basename>mmc1</xocs:file-basename>
+               <xocs:filename>mmc1.xlsx</xocs:filename>
+               <xocs:extension>xlsx</xocs:extension>
+               <xocs:filesize>12034</xocs:filesize>
+               <xocs:attachment-type>APPLICATION</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716522000509-am.pdf</xocs:attachment-eid>
+               <xocs:file-basename>am</xocs:file-basename>
+               <xocs:filename>am.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:filesize>855328</xocs:filesize>
+               <xocs:attachment-type>AAM-PDF</xocs:attachment-type>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:105JB2RQM2Q/MAIN/application/pdf/7efd81d62fb8ff96b5acf7dfe6f47762/am.pdf</xocs:ucs-locator>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="sco" version="5.6" xml:lang="en">
+         <item-info>
+            <jid>JGAR</jid>
+            <aid>1788</aid>
+            <ce:pii>S2213-7165(22)00050-9</ce:pii>
+            <ce:doi>10.1016/j.jgar.2022.02.016</ce:doi>
+            <ce:copyright type="other" year="2022">The Author(s)</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig0001">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption id="cap0001">
+                  <ce:simple-para id="spara001" view="all">(a) Linear map of pCZ861_GES1_GES5, pCZ863_GES5_GES5 and pEcl-35771cz. Arrows show the direction of transcription of ORFs. Replicons, mobile elements, mobility transfer genes, antibiotic resistance, hypothetical proteins, <ce:italic>bla</ce:italic>GES-1 and <ce:italic>bla</ce:italic>GES-5 are designated by violet, yellow, green, red, white, orange and blue, respectively. (b) Circular map of pCZ598_GES7 compared to pAsa7 and AR-0353. Mobility transfer regions, antibiotic resistance genes, mobile genetic elements hypothetical proteins and blaGES-7 were designated by green, red, orange, grey and black curves, respectively.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0001" role="short">Fig 1</ce:alt-text>
+               <ce:link id="celink0001" locator="gr1" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S2213716522000509/gr1"/>
+            </ce:figure>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl0001" rowsep="0" colsep="0" frame="topbot">
+               <ce:label>Table 1</ce:label>
+               <ce:caption id="cap0002">
+                  <ce:simple-para id="spara002" view="all">WGS data of the three isolates producing <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES</ce:inf> recovered from the Czech hospitals</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="alt0002" role="short">Table 1</ce:alt-text>
+               <tgroup cols="9">
+                  <colspec colnum="1" colname="col1" align="left"/>
+                  <colspec colnum="2" colname="col2" align="left"/>
+                  <colspec colnum="3" colname="col3" align="left"/>
+                  <colspec colnum="4" colname="col4" align="left"/>
+                  <colspec colnum="5" colname="col5" align="left"/>
+                  <colspec colnum="6" colname="col6" align="left"/>
+                  <colspec colnum="7" colname="col7" align="left"/>
+                  <colspec colnum="8" colname="col8" align="left"/>
+                  <colspec colnum="9" colname="col9" align="left"/>
+                  <tbody>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0001" colname="col1" align="left" valign="top" role="rowhead">ID</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0002" colname="col2" align="left" valign="top">Species</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0003" colname="col3" align="left" valign="top">ST</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0004" colname="col4" valign="top">Replicons</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0005" colname="col5" valign="top">Size (bp)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0006" colname="col6" valign="top">Plasmid name</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0007" colname="col7" valign="top">Inc group</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0008" colname="col8" valign="top">
+                           <italic>bla</italic>
+                           <inf loc="post">GES</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0009" colname="col9" valign="top">Other resistance genes</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0010" colname="col1" morerows="4" align="left" valign="top" role="rowhead rowgroup">CZ862</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0011" colname="col2" morerows="4" align="left" valign="top" role="rowgroup">
+                           <italic>E. cloacae</italic>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0012" colname="col3" morerows="4" align="left" valign="top" role="rowgroup">837</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0013" colname="col4" valign="top">Chr</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0014" colname="col5" valign="top">5419017</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0015" colname="col6" valign="top">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0016" colname="col7" valign="top">IncHI2, IncHI2A,IncY</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0017" colname="col8" valign="top">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0018" colname="col9" valign="top">
+                           <italic>bla</italic>
+                           <inf loc="post">CMH-3</inf>, <italic>bla</italic>
+                           <inf loc="post">TEM-1B,</inf>
+                           <italic>fosA,,aph(3′)-la</italic>
+                           <cross-ref id="crf0038" refid="tb1fn1">*</cross-ref>
+                           <italic>, aac(6′)-lb3,sul2, carA2,</italic>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0022" colname="col4" valign="top">Plasmid</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0023" colname="col5" valign="top">35630</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0024" colname="col6" valign="top">pCZ862_IncFIB</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0025" colname="col7" valign="top">IncFIB</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0026" colname="col8" valign="top">
+                           <italic>-</italic>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0027" colname="col9" valign="top">
+                           <italic>qnrB2, aadA2B, sul1</italic>
+                           <cross-ref id="crf0039" refid="tb1fn1">*</cross-ref>
+                           <italic>, qacE</italic>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0031" colname="col4" valign="top">Plasmid</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0032" colname="col5" valign="top">8282</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0033" colname="col6" valign="top">pCZ862_ColRNAI</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0034" colname="col7" valign="top">ColRNAI</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0035" colname="col8" valign="top">
+                           <italic>-</italic>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0036" colname="col9" valign="top">-</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0040" colname="col4" valign="top">Plasmid</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0041" colname="col5" valign="top">7973</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0042" colname="col6" valign="top">pCZ862_GES1_GES5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0043" colname="col7" valign="top">NT</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0044" colname="col8" valign="top">
+                           <italic>bla</italic>
+                           <bold>
+                              <inf loc="post">GES-5</inf>
+                           </bold>, <italic>bla</italic>
+                           <bold>
+                              <inf loc="post">GES-1</inf>
+                           </bold>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0045" colname="col9" valign="top">
+                           <italic>aadA15</italic>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0049" colname="col4" valign="top">Plasmid</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0050" colname="col5" valign="top">1334</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0051" colname="col6" valign="top">pCZ862_1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0052" colname="col7" valign="top">NT</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0053" colname="col8" valign="top">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0054" colname="col9" valign="top">
+                           <italic>-</italic>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0055" colname="col1" morerows="4" align="left" valign="top" role="rowhead rowgroup">CZ863</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0056" colname="col2" morerows="4" align="left" valign="top" role="rowgroup">
+                           <italic>E. asburiae</italic>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0057" colname="col3" morerows="4" align="left" valign="top" role="rowgroup">1622</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0058" colname="col4" valign="top">Chr</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0059" colname="col5" valign="top">4581263</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0060" colname="col6" valign="top">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0061" colname="col7" valign="top">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0062" colname="col8" valign="top">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0063" colname="col9" valign="top">
+                           <italic>bla</italic>
+                           <inf loc="post">ACT-3</inf>, <italic>fosA</italic>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0067" colname="col4" valign="top">Plasmid</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0068" colname="col5" valign="top">171570</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0069" colname="col6" valign="top">pCZ863_IncFII</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0070" colname="col7" valign="top">IncFII,IncFIB</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0071" colname="col8" valign="top">
+                           <italic>-</italic>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0072" colname="col9" valign="top">
+                           <italic>aph(6)-ld, aac</italic>(6′)<italic>-lb-cr,aph(3ʺ)-lb, sul2, dfr14,catB3, bla</italic>
+                           <inf loc="post">TEM-1B,</inf> 
+                           <italic>bla</italic>
+                           <inf loc="post">OXA-1,</inf>
+                           <italic>bla</italic>
+                           <inf loc="post">CTX-M-15</inf>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0076" colname="col4" valign="top">Plasmid</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0077" colname="col5" valign="top">72524</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0078" colname="col6" valign="top">pCZ863_IncM1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0079" colname="col7" valign="top">IncM1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0080" colname="col8" valign="top">
+                           <italic>-</italic>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0081" colname="col9" valign="top">
+                           <italic>aac(6′)-lb-cr, aac(6′)-lb3,catB3, bla</italic>
+                           <inf loc="post">TEM-1D</inf>, <italic>bla</italic>
+                           <inf loc="post">OXA-1</inf>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0085" colname="col4" valign="top">Plasmid</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0086" colname="col5" valign="top">7973</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0087" colname="col6" valign="top">pCZ863_GES5_GES5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0088" colname="col7" valign="top">NT</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0089" colname="col8" valign="top">
+                           <italic>bla</italic>
+                           <bold>
+                              <inf loc="post">GES-5</inf>
+                           </bold>, <italic>bla</italic>
+                           <bold>
+                              <inf loc="post">GES-5</inf>
+                           </bold>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0090" colname="col9" valign="top">
+                           <italic>aadA15</italic>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0094" colname="col4" valign="top">Plasmid</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0095" colname="col5" valign="top">2495</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0096" colname="col6" valign="top">pCZ863_Col</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0097" colname="col7" valign="top">Col</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0098" colname="col8" valign="top">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0099" colname="col9" valign="top">-</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0100" colname="col1" morerows="4" align="left" valign="top" role="rowhead rowgroup">CZ598</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0101" colname="col2" morerows="4" align="left" valign="top" role="rowgroup">
+                           <italic>K. michiganensis</italic>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0102" colname="col3" morerows="4" align="left" valign="top" role="rowgroup">180</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0103" colname="col4" valign="top">Chr</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0104" colname="col5" valign="top">6473323</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0105" colname="col6" valign="top">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0106" colname="col7" valign="top">IncHIA</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0107" colname="col8" valign="top">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0108" colname="col9" valign="top">
+                           <italic>qnrS1, aph(3′)-la,bla</italic>
+                           <inf loc="post">CTX-M-14</inf>, <italic>bla</italic>
+                           <inf loc="post">OXY-1-4</inf>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0112" colname="col4" valign="top">Plasmid</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0113" colname="col5" valign="top">12242</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0114" colname="col6" valign="top">pCZ598_GES7</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0115" colname="col7" valign="top">NT</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0116" colname="col8" valign="top">
+                           <italic>bla</italic>
+                           <bold>
+                              <inf loc="post">GES-7</inf>
+                           </bold>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0117" colname="col9" valign="top">
+                           <italic>aac(6′)-lb-cr, cat,bla</italic>
+                           <inf loc="post">OXA-1011</inf>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0121" colname="col4" valign="top">Plasmid</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0122" colname="col5" valign="top">4096</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0123" colname="col6" valign="top">pCZ598_Col</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0124" colname="col7" valign="top">Col</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0125" colname="col8" valign="top">
+                           <italic>-</italic>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0126" colname="col9" valign="top">-</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0130" colname="col4" valign="top">Plasmid</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0131" colname="col5" valign="top">3223</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0132" colname="col6" valign="top">pCZ598_1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0133" colname="col7" valign="top">NT</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0134" colname="col8" valign="top">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0135" colname="col9" valign="top">
+                           <italic>-</italic>
+                        </entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0139" colname="col4" valign="top">Plasmid</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0140" colname="col5" valign="top">1697</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0141" colname="col6" valign="top">pCZ598_2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0142" colname="col7" valign="top">NT</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0143" colname="col8" valign="top">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" id="en0144" colname="col9" valign="top">-</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+               <ce:legend>
+                  <ce:simple-para id="spara003" view="all">NT, non-typable.</ce:simple-para>
+               </ce:legend>
+               <ce:table-footnote id="tb1fn1">
+                  <ce:label>⁎</ce:label>
+                  <ce:note-para id="notep0002" view="all">More than one copy.</ce:note-para>
+               </ce:table-footnote>
+            </ce:table>
+         </ce:floats>
+         <head>
+            <ce:title id="tte0002">Genomic characterisation of three GES-producing Enterobacterales isolated in the Czech Republic</ce:title>
+            <ce:author-group id="aut0001">
+               <ce:author id="au0001" author-id="S2213716522000509-1018c1ac38d70ecac63cb595821c3c63" orcid="0000-0002-3300-8485">
+                  <ce:given-name>Marc</ce:given-name>
+                  <ce:surname>Finianos</ce:surname>
+                  <ce:cross-ref id="crf0001" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0002" refid="aff0002">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0002" author-id="S2213716522000509-4037b94549064fc1d40409dc4b5db28c">
+                  <ce:given-name>Lucie</ce:given-name>
+                  <ce:surname>Kraftova</ce:surname>
+                  <ce:cross-ref id="crf0003" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0004" refid="aff0002">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0003" author-id="S2213716522000509-9e70fb167fc1d5045a097a13eea06681" orcid="0000-0002-9912-9028">
+                  <ce:given-name>Costas C.</ce:given-name>
+                  <ce:surname>Papagiannitsis</ce:surname>
+                  <ce:cross-ref id="crf0005" refid="aff0003">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0004" author-id="S2213716522000509-741a21bc3e47c5cc6fba30576703ceae">
+                  <ce:given-name>Vaclava</ce:given-name>
+                  <ce:surname>Adamkova</ce:surname>
+                  <ce:cross-ref id="crf0006" refid="aff0004">
+                     <ce:sup loc="post">d</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0005" author-id="S2213716522000509-2837385a9f85b12cbf6bef8d844c7dc3">
+                  <ce:given-name>Jaroslav</ce:given-name>
+                  <ce:surname>Hrabak</ce:surname>
+                  <ce:cross-ref id="crf0007" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0008" refid="aff0002">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au0006" author-id="S2213716522000509-7034f51c119a98f0c4412288f8e8edf2">
+                  <ce:given-name>Ibrahim</ce:given-name>
+                  <ce:surname>Bitar</ce:surname>
+                  <ce:cross-ref id="crf0009" refid="aff0001">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0010" refid="aff0002">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0011" refid="cor0001">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="aff0001" affiliation-id="S2213716522000509-5952bb2c5448d1986efaf6dd86ba3317">
+                  <ce:label>a</ce:label>
+                  <ce:textfn id="cetextfn0001">Department of Microbiology, Faculty of Medicine and University Hospital in Pilsen, Charles University, Pilsen, Czech Republic</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Microbiology</sa:organization>
+                     <sa:organization>Faculty of Medicine and University Hospital in Pilsen</sa:organization>
+                     <sa:organization>Charles University</sa:organization>
+                     <sa:city>Pilsen</sa:city>
+                     <sa:country>Czech Republic</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="staff0001">aDepartment of Microbiology, Faculty of Medicine and University Hospital in Pilsen, Charles University, Pilsen, Czech Republic</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="aff0002" affiliation-id="S2213716522000509-a4abe304abf96ba38d38dfb93ab9d248">
+                  <ce:label>b</ce:label>
+                  <ce:textfn id="cetextfn0002">Biomedical Center, Faculty of Medicine, Charles University, Pilsen, Czech Republic</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Biomedical Center</sa:organization>
+                     <sa:organization>Faculty of Medicine</sa:organization>
+                     <sa:organization>Charles University</sa:organization>
+                     <sa:city>Pilsen</sa:city>
+                     <sa:country>Czech Republic</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="staff0002">bBiomedical Center, Faculty of Medicine, Charles University, Pilsen, Czech Republic</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="aff0003" affiliation-id="S2213716522000509-d72fe7df5d2877f6a3706e2fc35f8ec7">
+                  <ce:label>c</ce:label>
+                  <ce:textfn id="cetextfn0003">Department of Microbiology, University Hospital Larissa, Greece</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Microbiology</sa:organization>
+                     <sa:organization>University Hospital Larissa</sa:organization>
+                     <sa:country>Greece</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="staff0003">cDepartment of Microbiology, University Hospital Larissa, Greece</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="aff0004" affiliation-id="S2213716522000509-bf3953d52412b57b29154c3a441778b4">
+                  <ce:label>d</ce:label>
+                  <ce:textfn id="cetextfn0004">Department of Clinical Microbiology, General University Hospital, Prague, Czech Republic</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Clinical Microbiology</sa:organization>
+                     <sa:organization>General University Hospital</sa:organization>
+                     <sa:city>Prague</sa:city>
+                     <sa:country>Czech Republic</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="staff0004">dDepartment of Clinical Microbiology, General University Hospital, Prague, Czech Republic</ce:source-text>
+               </ce:affiliation>
+               <ce:correspondence id="cor0001">
+                  <ce:label>⁎</ce:label>
+                  <ce:text id="cetext0001">Corresponding author. Mailing address: Department of Microbiology, Faculty of Medicine and University Hospital in Pilsen, Alej Svobody 80, 304 60 Plzen, Czech Republic.</ce:text>
+                  <sa:affiliation>
+                     <sa:organization>Department of Microbiology</sa:organization>
+                     <sa:organization>Faculty of Medicine and University Hospital in Pilsen</sa:organization>
+                     <sa:address-line>Alej Svobody 80</sa:address-line>
+                     <sa:city>Plzen</sa:city>
+                     <sa:postal-code>304 60</sa:postal-code>
+                     <sa:country>Czech Republic</sa:country>
+                  </sa:affiliation>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="11" month="11" year="2021"/>
+            <ce:date-revised day="20" month="2" year="2022"/>
+            <ce:date-accepted day="23" month="2" year="2022"/>
+            <ce:miscellaneous id="mis0001">Editor: Dr Fabio Arena</ce:miscellaneous>
+            
+            <ce:abstract id="abs0002" view="all" class="author"><ce:abstract-sec id="abss0003" view="all">
+                  <ce:section-title id="cesectitle0003">Objectives</ce:section-title>
+                  <ce:simple-para id="spara005" view="all">The aim of the study is to characterise the genomic features of three GES-producing Enterobacterales isolates from Czech hospitals.</ce:simple-para>
+               </ce:abstract-sec><ce:abstract-sec id="abss0004" role="materials-methods" view="all">
+                  <ce:section-title id="cesectitle0004">Methods</ce:section-title>
+                  <ce:simple-para id="spara006" view="all">In 2020, during a routine screening of the hospital's surfaces in Prague General Hospital, two strains (CZ862 and CZ863) that belonged to the <ce:italic>Enterobacter cloacae complex</ce:italic> were found to be <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES</ce:inf> positive. Another <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES</ce:inf> positive strain identified as <ce:italic>Klebsiella oxytoca</ce:italic> was recovered from a patient hospitalised in Pilsen. Antibiotic susceptibility profiling was done with broth microdilution assay. Conjugation/transformation experiments were performed on all three strains. Genomic DNA of the three isolates was subjected to whole genome sequencing using PacBio platform.</ce:simple-para>
+               </ce:abstract-sec><ce:abstract-sec id="abss0005" role="results" view="all">
+                  <ce:section-title id="cesectitle0005">Results</ce:section-title>
+                  <ce:simple-para id="spara007" view="all">Multilocus sequence types typing of CZ862 and CZ863 identified the strains as ST837 and a novel ST (ST1622). Both <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES</ce:inf> harbouring plasmids showed high sequence similarity and complete query coverage (100% and 99.98%) with pEcl-35771cz. Both plasmids had two copies of <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES</ce:inf> instead of one copy as found in pEcl-35771cz. The clinical isolate CZ598 belonged to ST180. The plasmid harboured <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES-7</ce:inf> gene, <ce:italic>cat</ce:italic> and <ce:italic>aac(6’)-lb</ce:italic> and the novel variant <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-1011.</ce:inf> No similar sequences were observed, suggesting a novel plasmid.</ce:simple-para>
+               </ce:abstract-sec><ce:abstract-sec id="abss0006" role="conclusion" view="all">
+                  <ce:section-title id="cesectitle0006">Conclusion</ce:section-title>
+                  <ce:simple-para id="spara008" view="all">The detection of the two <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES</ce:inf>-positive plasmids in the same hospital environment, the first report after 3 years, suggests a hidden source. This highlights the importance of the hidden sources and evolution of such plasmids on the route of spreading into clinical settings. Also, the detection of the new <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-1011</ce:inf>, which is thought in this case to be associated with carbapenem resistance, imposes a health risk if disseminated, limiting therapeutic options.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="keys0001" view="all" class="keyword">
+               <ce:section-title id="cesectitle0007">Keywords</ce:section-title>
+               <ce:keyword id="key0001">
+                  <ce:text id="cetext0002">bla<ce:inf loc="post">GES-1</ce:inf>
+                  </ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0002">
+                  <ce:text id="cetext0003">bla<ce:inf loc="post">GES-5</ce:inf>
+                  </ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0003">
+                  <ce:text id="cetext0004">bla<ce:inf loc="post">GES-7</ce:inf>
+                  </ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0004">
+                  <ce:text id="cetext0005">bla<ce:inf loc="post">OXA-1011</ce:inf>
+                  </ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0005">
+                  <ce:text id="cetext0006">Enterobacter cloacae</ce:text>
+               </ce:keyword>
+               <ce:keyword id="key0006">
+                  <ce:text id="cetext0007">Klebsiella michiganensis</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:section id="sec0001" role="introduction" view="all">
+                  <ce:label>1</ce:label>
+                  <ce:section-title id="cesectitle0008">Introduction</ce:section-title>
+                  <ce:para id="para0010" view="all">The first case of a GES family enzyme (GES-1) was reported in France in 1998 in a <ce:italic>Klebsiella pneumoniae</ce:italic> strain isolated from a 1-month-old female patient. The gene was harboured on a 140-kb non-transferable plasmid (pTK1) <ce:cross-ref id="crf0012" refid="bib0001">[1]</ce:cross-ref>. The first single point mutation, causing the substitution of Gly with Asp in GES-1, generated a new variant GES-2, detected in a <ce:italic>Pseudomonas aeruginosa</ce:italic> isolated from a 38-year-old patient from South Africa <ce:cross-ref id="crf0013" refid="bib0002">[2]</ce:cross-ref>. A few years later, the <ce:italic>Escherichia coli</ce:italic> strain was recovered in Greece that harboured the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES</ce:inf> gene with a single amino acid mutation in <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES-1</ce:inf> at position 170 (highly conserved in Class A β-lactamases as Asn), creating a variant with Ser-170, which was then identified as GES-5 <ce:cross-ref id="crf0014" refid="bib0003">[3]</ce:cross-ref>. This mutation also occurred in other GES variants (GES-4 and GES-6) and resulted in increased hydrolysis activity against cefoxitin, while another mutation that substituted Glu at position 104 by Lys (in the following variants: GES-3, GES-4, GES-6, GES-7 and GES-13) increased the activity against oxyimino-β-lactams, mainly ceftazidime and aztreonam <ce:cross-refs id="crf0015" refid="bib0004 bib0005 bib0006">[4–6]</ce:cross-refs>. Up until 19 July 2021, 48 <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES</ce:inf> variants were detected and available on the National Database of Antibiotic Resistance Organisms (NDARO). Over the last few years, there has been an increased incidence of GES-producing Enterobacterales isolates in Europe <ce:cross-refs id="crf0017" refid="bib0007 bib0008 bib0009">[7–9]</ce:cross-refs>. In the Czech Republic, the first case was reported in 2018 in a diabetic patient hospitalised in Prague General Hospital. An <ce:italic>Enterobacter cloacae</ce:italic> strain isolated from a wound swab harboured the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES-5</ce:inf> gene on an un-typable plasmid (pEcl-35771cz) <ce:cross-ref id="crf0019" refid="bib0010">[10]</ce:cross-ref>. The detected <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES-5</ce:inf> was also found on a novel class 1 integron accompanied by a novel allele of <ce:italic>aadA15</ce:italic> gene cassette.</ce:para>
+                  <ce:para id="para0011" view="all">The aim of this study is to characterise the genomes and plasmids of three Enterobacterales isolates producing GES, isolated between 2019 and 2020 in the Czech Republic.</ce:para>
+               </ce:section>
+               <ce:section id="sec0002" role="materials-methods" view="all">
+                  <ce:label>2</ce:label>
+                  <ce:section-title id="cesectitle0009">Materials and methods</ce:section-title>
+                  <ce:section id="sec0003" view="all">
+                     <ce:label>2.1</ce:label>
+                     <ce:section-title id="cesectitle0010">Case study</ce:section-title>
+                     <ce:para id="para0012" view="all">In 2020, during a routine screening of the hospital's surfaces in Prague General Hospital, two strains that belonged to the <ce:italic>Enterobacter cloacae complex</ce:italic> were <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">GES</ce:inf> positive through PCR (10). The two strains were isolated from the sinks of two different rooms of the same hospital. Another strain identified as <ce:italic>Klebsiella oxytoca</ce:italic> was recovered from a urine sample of a patient hospitalised in Pilsen and it was also positive for <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">GES</ce:inf>. Initially, the patient suffered from a malignant neoplasm of the kidney and underwent a kidney transplant. Five years later, the patient was hospitalised due to chronic kidney disease and severe fungal infection (Aspergillosis).</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0004" view="all">
+                     <ce:label>2.2</ce:label>
+                     <ce:section-title id="cesectitle0011">Species identification and antibiotic susceptibility testing</ce:section-title>
+                     <ce:para id="para0013" view="all">The three isolates were sent to the biomedical centre in Pilsen for further genomic analysis. The strains species identification was confirmed with matrix-assisted laser desorption ionization-time of flight mass spectrometry (MALDI-TOF MS) using MALDI Biotyper software (Bruker Daltonics, Bremen, Germany). The two strains from Prague General Hospital, CZ862 and CZ863, belonged to the <ce:italic>Enterobacter cloacae complex</ce:italic> (<ce:italic>E. cloacae</ce:italic> and <ce:italic>E. asburiae,</ce:italic> respectively), whereas CZ598 was identified as <ce:italic>K. oxytoca</ce:italic>. The presence of the <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">GES</ce:inf> genes was confirmed using PCR and Sanger sequencing as described elsewhere <ce:cross-ref id="crf0020" refid="bib0010">[10]</ce:cross-ref>. Antibiotic susceptibility was detected with broth microdilution assay using EUCAST 2021 breakpoints (<ce:inter-ref id="interref0001" xlink:href="https://www.eucast.org/clinical_breakpoints/" xlink:type="simple">https://www.eucast.org/clinical_breakpoints/</ce:inter-ref>). The three isolates expressed multidrug resistance (MDR) profile, showing resistance against cephalosporins, carbapenems and ceftolozane-tazobactam, yet susceptible to gentamycin, amikacin, colistin and tigecycline (Supplementary Table S1).</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0005" view="all">
+                     <ce:label>2.3</ce:label>
+                     <ce:section-title id="cesectitle0012">Conjugation/Transformation experiments</ce:section-title>
+                     <ce:para id="para0014" view="all">The three strains were subjected to conjugation experiment using the strain <ce:italic>Escherichia coli</ce:italic> A15 strain (Azd<ce:sup loc="post">R</ce:sup>) as recipient as described elsewhere <ce:cross-ref id="crf0021" refid="bib0011">[11]</ce:cross-ref>. None of the plasmids harbouring the <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">GES</ce:inf> were conjugative; therefore, plasmid DNAs of the three isolates were extracted using ZymoPure II Plasmid Midiprep Kit (Irvine, CA, USA), and transformation was performed using <ce:italic>E. coli</ce:italic> DH5α as a recipient as described elsewhere <ce:cross-ref id="crf0022" refid="bib0011">[11]</ce:cross-ref>. Transformants did not retain the carbapenem resistance, except for CZ598 (Supplementary Table S1), nor resistance against ceftolozane-tazobactam due to the Pc hybrid 1 promotor associated low expression <ce:cross-ref id="crf0023" refid="bib0012">[12]</ce:cross-ref>.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0006" view="all">
+                     <ce:label>2.4</ce:label>
+                     <ce:section-title id="cesectitle0013">Whole genome sequencing (WGS) and data analysis</ce:section-title>
+                     <ce:para id="para0015" view="all">Genomic DNAs were extracted from the three isolates using a NucleoSpin microbial DNA kit (Macherey-Nagel, Duren, Germany). The DNA was then sheared, obtaining 15Kb fragments, using Hydropore-long on the Megaruptor 2 (Diagnode). Library preparation, using the sheared DNA, was done using the Express KIt 2.0 (Pacific Biosciences, Menlo Park, CA, USA) for microbial multiplexing protocol without size selection according to the manufacturer's recommendations. Using the SMRT Link v.9.0, microbial assembly was used to assemble the sequences with a minimum seed coverage of 30. Annotation of the assembled genomes and plasmids was done using Prokaryotic Genome Annotation Pipeline (PGAP). Multilocus sequence types (MLST), plasmid replicons and antibiotic resistance genes were detected through uploading the assembled data to MLST 2.0 <ce:cross-ref id="crf0024" refid="bib0013">[13]</ce:cross-ref>, PlasmidFinder <ce:cross-ref id="crf0025" refid="bib0014">[14]</ce:cross-ref> and ResFinder 4.1 [<ce:cross-ref id="crf0026" refid="bib0015">15</ce:cross-ref>,<ce:cross-ref id="crf0027" refid="bib0016">16</ce:cross-ref>], respectively. Moreover, plasmids were typed according to the plasmid relaxases as described previously <ce:cross-ref id="crf0028" refid="bib0017">[17]</ce:cross-ref>. Mauve v.2.3.1 and Blast Ring Image Generator (BRIG) was used to perform comparative genomic alignment <ce:cross-ref id="crf0029" refid="bib0018">[18]</ce:cross-ref>. Inkscape was used to execute the diagrams and gene organisation. WGS analysis confirmed species identity, showing that CZ862, CZ863 and CZ598 were identified as <ce:italic>E. cloacae, E. asburiae</ce:italic> and <ce:italic>K. michiganensis,</ce:italic> respectively.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="sec0007" role="results" view="all">
+                  <ce:label>3</ce:label>
+                  <ce:section-title id="cesectitle0014">Results and discussion</ce:section-title>
+                  <ce:para id="para0016" view="all">The WGS sequence analysis of CZ862 produced complete circular sequence for the chromosome and four complete circular plasmids (<ce:cross-ref id="crf0030" refid="tbl0001">Table 1</ce:cross-ref>
+                     <ce:float-anchor refid="tbl0001"/>). MLST typing identified the strain belong to ST837. The results showed that the chromosome harboured three plasmid replicons (IncHI2, IncHI2A, IncY), suggesting partial integration. The analysis showed partial integration of the plasmids’ backbones, whereas the rest of the acquired antibiotic resistance genes were dispersed in the genomes. The plasmid harbouring the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES</ce:inf> was designated as pCZ862_GES1_GES5 (7973 bp). On the other hand, WGS analysis of CZ863 showed that it belonged to a novel ST (ST1622) and produced the chromosome in two pieces and four complete circular plasmids with the one harbouring the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES</ce:inf> designated as pCZ863_GES5_GES5 (7973 bp) (<ce:cross-ref id="crf0031" refid="tbl0001">Table 1</ce:cross-ref>). Both plasmids were un-typable by PlasmidFinder and plasmid relaxases schemes.</ce:para>
+                  <ce:para id="para0017" view="all">Both plasmids, when blasted against the NCBI database, showed high sequence similarity (100% and 99.98%) and complete query coverage with pEcl-35771cz (MF370188) <ce:cross-ref id="crf0032" refid="bib0010">[10]</ce:cross-ref>. Of note, the three plasmids were isolated from the same hospital within a 3-year time difference (2017–2020). Sequence comparison showed that those plasmids had the same sequence except in the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES</ce:inf> position; the plasmid had a replication initiation site (r<ce:italic>epA</ce:italic>), genes associated with plasmid mobility (<ce:italic>mobA/B/C/D</ce:italic>) and antibiotic resistance genes (<ce:italic>aadA15</ce:italic> and <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES</ce:inf>). In the antibiotic resistance coding region, pCZ862_GES1_GES5 had <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES-1</ce:inf> and <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES-5</ce:inf> on a novel integron designated as In2079, while pCZ863_GES5_GES5 had two copies of the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES-5</ce:inf> on a novel integron In2081instead of one copy of <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES-5</ce:inf> on In1406 in pEcl-35771cz (<ce:cross-ref id="crf0033" refid="fig0001">Fig. 1</ce:cross-ref>
+                     <ce:float-anchor refid="fig0001"/>a).</ce:para>
+                  <ce:para id="para0018" view="all">The clinical isolate, CZ598, identified as <ce:italic>K. michiganensis,</ce:italic> belonged to ST180. WGs analysis produced complete circular chromosome and four complete circular plasmids (<ce:cross-ref id="crf0034" refid="tbl0001">Table 1</ce:cross-ref>). The chromosome partially harboured the backbone of an IncHI1A. The plasmid harbouring the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES</ce:inf> was designated pCZ598_GES7 (12242 bp). The plasmid was not typable by PlasmidFinder and the plasmid relaxases scheme. It harboured genes coding for plasmid mobility (<ce:italic>mobC/B/D</ce:italic>), chloramphenicol resistance (<ce:italic>cat</ce:italic>), fluoroquinolone resistance (<ce:italic>aac(6’)-lb</ce:italic>) and the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES-7</ce:inf>. Moreover<ce:italic>,</ce:italic> a novel variant of <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-2</ce:inf>-like, designated <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-1011</ce:inf>, was also harboured and is suspected to be the gene responsible for the carbapenem resistance in the transformant. Upon blasting the plasmid against NCBI database, no similar sequences were observed, suggesting a novel plasmid. Nevertheless, it showed partial similarity with two sequences: a 5200 bp sequence representing pAsa7 plasmid (accession number: KU499859) detected in an <ce:italic>Aeromonas salmonicida</ce:italic> strain isolated from a sick fish in 2016 in Canada. A second 5600 bp sequence represented a partial sequence of a clinical <ce:italic>Pseudomonas aeruginosa</ce:italic> chromosome of (AR-0353; accession number: CP027172) strain isolated in 2018 in the United Stats (<ce:cross-ref id="crf0035" refid="fig0001">Fig. 1</ce:cross-ref>b).</ce:para>
+               </ce:section>
+               <ce:section id="sec0008" role="conclusion" view="all">
+                  <ce:label>4</ce:label>
+                  <ce:section-title id="cesectitle0015">Conclusion</ce:section-title>
+                  <ce:para id="para0019" view="all">These findings highlight some important aspects: the detection of the two <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES</ce:inf>-positive plasmids in the same hospital environment as the first report after three years suggests a hidden source. The plasmid structure was conserved over the three years with the acquisition of another <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES</ce:inf> gene. Recently, more reports of plasmids carrying two or three consecutive <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GES</ce:inf> genes with different variants suggest that there is a hotspot for acquiring these genes [<ce:cross-ref id="crf0036" refid="bib0007">7</ce:cross-ref>,<ce:cross-ref id="crf0037" refid="bib0019">19</ce:cross-ref>]. The mechanism of acquisition is not fully understood yet, but it is suggested that it could be through recombination or integration. Moreover, the detection of the hybrid plasmid with fragments originating from environmental sources is worrisome especially after being detected clinically in this study. This highlights the importance of the hidden sources and evolution of such plasmids on the route of spreading into clinical settings. Also, the detection of the new <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-1011</ce:inf>, which is thought in this case to be associated with carbapenem resistance, imposes a health risk if disseminated, limiting therapeutic options.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:acknowledgment id="ack0001" view="all">
+               <ce:section id="sec0009" view="all">
+                  <ce:section-title id="cesectitle0016">Nucleotide sequence accession numbers</ce:section-title>
+                  <ce:para id="para0021" view="all">The nucleotide sequences of the chromosome and plasmids of CZ862, CZ863 and CZ598 were deposited in GenBank and the following accession numbers have been assigned, respectively: CP073310-CP073314, JAGSXX000000000 and CP073305-CP073309.</ce:para>
+               </ce:section>
+               <ce:section id="sec0010" role="funding" view="all">
+                  <ce:section-title id="cesectitle0017">Funding</ce:section-title>
+                  <ce:para id="para0022" view="all">The study was supported by the research project grants NU20J-05-00033 provided by Czech Health Research Council, by the Charles University Research Fund PROGRES (project number Q39) and by the project No. CZ.02.1.01/0.0/0.0/16_019/0000787 “Fighting Infectious Diseases” provided by the Ministry of Education Youth and Sports of the Czech Republic. Also, we would like to thank the curator of INTEGRALL, Dr. Thomas Jove, for the help in assigning integrons.</ce:para>
+               </ce:section>
+               <ce:section id="sec0011" view="all">
+                  <ce:section-title id="cesectitle0018">Competing interests</ce:section-title>
+                  <ce:para id="para0023" view="all">We have no conflicts to declare.</ce:para>
+               </ce:section>
+            </ce:acknowledgment>
+            <ce:appendices view="all">
+               <ce:section id="sec0012" view="compact-standard">
+                  <ce:section-title id="cesectitle9001">Supplementary materials</ce:section-title>
+                  <ce:para id="para0010a" view="all">Supplementary material associated with this article can be found, in the online version, at <ce:inter-ref id="interref0002" xlink:href="https://doi.org/10.1016/j.jgar.2022.02.016" xlink:type="simple">doi:10.1016/j.jgar.2022.02.016</ce:inter-ref>.</ce:para>
+               </ce:section>
+               <ce:section id="sec0013" view="extended">
+                  <ce:label>Appendix</ce:label>
+                  <ce:section-title id="cesectitle9002">Supplementary materials</ce:section-title>
+                  <ce:para id="para0020a" view="all">
+                     <ce:display>
+                        <ce:e-component id="ecom0001">
+                           <ce:alt-text id="alt0003" role="short">Image, application 1</ce:alt-text>
+                           <ce:link id="celink0002" locator="mmc1" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/46.1" xlink:href="pii:S2213716522000509/mmc1"/>
+                        </ce:e-component>
+                     </ce:display>
+                  </ce:para>
+               </ce:section>
+            </ce:appendices>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="cebibl1" view="all">
+               <ce:section-title id="cesectitle0019">References</ce:section-title>
+               <ce:bibliography-sec id="cebibsec1" view="all">
+                  <ce:bib-reference id="bib0001">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="sbref0001">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Poirel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I</ce:given-name>
+                                 <ce:surname>Le Thomas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Naas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Karim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Nordmann</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Biochemical sequence analyses of GES-1, a novel class A extended-spectrum beta-lactamase, and the class 1 integron In52 from Klebsiella pneumoniae</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>44</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>622</sb:first-page>
+                              <sb:last-page>632</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1128/AAC.44.3.622-632.2000</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0001">Poirel L, Le Thomas I, Naas T, Karim A, Nordmann P. Biochemical sequence analyses of GES-1, a novel class A extended-spectrum beta-lactamase, and the class 1 integron In52 from Klebsiella pneumoniae. Antimicrob Agents Chemother2000;44:622–32.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0002">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference id="sbref0002">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Poirel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>GF</ce:given-name>
+                                 <ce:surname>Weldhagen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Naas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>De Champs</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>MG</ce:given-name>
+                                 <ce:surname>Dove</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Nordmann</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>GES-2, a class A beta-lactamase from Pseudomonas aeruginosa with increased hydrolysis of imipenem</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>45</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2001</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2598</sb:first-page>
+                              <sb:last-page>2603</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1128/AAC.45.9.2598-2603.2001</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0002">Poirel L, Weldhagen GF, Naas T, De Champs C, Dove MG, Nordmann P.GES-2, a class A beta-lactamase from Pseudomonas aeruginosa with increased hydrolysis of imipenem. Antimicrob Agents Chemother2001;45:2598–603.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0003">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference id="sbref0003">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Vourli</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Giakkoupi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V</ce:given-name>
+                                 <ce:surname>Miriagou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E</ce:given-name>
+                                 <ce:surname>Tzelepi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>AC</ce:given-name>
+                                 <ce:surname>Vatopoulos</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>LS.</ce:given-name>
+                                 <ce:surname>Tzouvelekis</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Novel GES/IBC extended-spectrum beta-lactamase variants with carbapenemase activity in clinical enterobacteria</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>FEMS Microbiol Lett</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>234</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>209</sb:first-page>
+                              <sb:last-page>213</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1111/j.1574-6968.2004.tb09535.x</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0003">Vourli S, Giakkoupi P, Miriagou V, Tzelepi E, Vatopoulos AC, Tzouvelekis LS.Novel GES/IBC extended-spectrum beta-lactamase variants with carbapenemase activity in clinical enterobacteria. FEMS Microbiol Lett2004;234:209–13.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0004">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference id="sbref0004">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Naas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Dortet</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>BI.</ce:given-name>
+                                 <ce:surname>Iorga</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Structural and functional aspects of class A carbapenemases</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Curr Drug Targets</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>17</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1006</sb:first-page>
+                              <sb:last-page>1028</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.2174/1389450117666160310144501</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0004">Naas T, Dortet L, Iorga BI.Structural and functional aspects of class A carbapenemases. Curr Drug Targets2016;17:1006–28.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>SD</ce:given-name>
+                                 <ce:surname>Kotsakis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V</ce:given-name>
+                                 <ce:surname>Miriagou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E</ce:given-name>
+                                 <ce:surname>Tzelepi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>LS.</ce:given-name>
+                                 <ce:surname>Tzouvelekis</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Comparative biochemical and computational study of the role of naturally occurring mutations at Ambler positions 104 and 170 in GES beta-lactamases</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>54</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4864</sb:first-page>
+                              <sb:last-page>4871</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1128/AAC.00771-10</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0005">Kotsakis SD, Miriagou V, Tzelepi E, Tzouvelekis LS.Comparative biochemical and computational study of the role of naturally occurring mutations at Ambler positions 104 and 170 in GES beta-lactamases. Antimicrob Agents Chemother2010;54:4864–71.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0006">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference id="sbref0006">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>E</ce:given-name>
+                                 <ce:surname>Tzelepi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Giakkoupi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Sofianou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V</ce:given-name>
+                                 <ce:surname>Loukova</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Kemeroglou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Tsakris</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Detection of extended-spectrum beta-lactamases in clinical isolates of Enterobacter cloacae and Enterobacter aerogenes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>38</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>542</sb:first-page>
+                              <sb:last-page>546</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1128/JCM.38.2.542-546.2000</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0006">Tzelepi E, Giakkoupi P, Sofianou D, Loukova V, Kemeroglou A, Tsakris A.Detection of extended-spectrum beta-lactamases in clinical isolates of Enterobacter cloacae and Enterobacter aerogenes. J Clin Microbiol2000;38:542–6.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0007">
+                     <ce:label>[7]</ce:label>
+                     <sb:reference id="sbref0007">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Irrgang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>SH</ce:given-name>
+                                 <ce:surname>Tausch</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N</ce:given-name>
+                                 <ce:surname>Pauly</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Grobbel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Kaesbohrer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JA.</ce:given-name>
+                                 <ce:surname>Hammerl</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>First detection of GES-5-producing Escherichia coli from livestock: an increasing diversity of carbapenemases recognized from German pig production</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Microorganisms</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>8</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <ce:doi>10.3390/microorganisms8101593</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0007">Irrgang A, Tausch SH, Pauly N, Grobbel M, Kaesbohrer A, Hammerl JA.First detection of GES-5-producing Escherichia coli from livestock: an increasing diversity of carbapenemases recognized from German pig production. Microorganisms2020;8.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0008">
+                     <ce:label>[8]</ce:label>
+                     <sb:reference id="sbref0008">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>MJ</ce:given-name>
+                                 <ce:surname>Ellington</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F</ce:given-name>
+                                 <ce:surname>Davies</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E</ce:given-name>
+                                 <ce:surname>Jauneikaite</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>KL</ce:given-name>
+                                 <ce:surname>Hopkins</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JF</ce:given-name>
+                                 <ce:surname>Turton</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Adams</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A multispecies cluster of GES-5 carbapenemase-producing Enterobacterales linked by a geographically disseminated plasmid</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Clin Infect Dis</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>71</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2553</sb:first-page>
+                              <sb:last-page>2560</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1093/cid/ciz1130</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0008">Ellington MJ, Davies F, Jauneikaite E, Hopkins KL, Turton JF, Adams G, et al. A multispecies cluster of GES-5 carbapenemase-producing Enterobacterales linked by a geographically disseminated plasmid. Clin Infect Dis2020;71:2553–60.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0009">
+                     <ce:label>[9]</ce:label>
+                     <sb:reference id="sbref0009">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Di Tella</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Tamburro</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Guerrizio</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I</ce:given-name>
+                                 <ce:surname>Fanelli</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>ML</ce:given-name>
+                                 <ce:surname>Sammarco</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Ripabelli</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Molecular epidemiological insights into colistin-resistant and carbapenemases-producing clinical Klebsiella pneumoniae isolates</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Infect Drug Resist</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>12</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3783</sb:first-page>
+                              <sb:last-page>3795</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.2147/IDR.S226416</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0009">Di Tella D, Tamburro M, Guerrizio G, Fanelli I, Sammarco ML, Ripabelli G.Molecular epidemiological insights into colistin-resistant and carbapenemases-producing clinical Klebsiella pneumoniae isolates. Infect Drug Resist2019;12:3783–95.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0010">
+                     <ce:label>[10]</ce:label>
+                     <sb:reference id="sbref0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Chudejova</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V</ce:given-name>
+                                 <ce:surname>Rotova</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Skalova</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Medvecky</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V</ce:given-name>
+                                 <ce:surname>Adamkova</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>CC</ce:given-name>
+                                 <ce:surname>Papagiannitsis</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Emergence of sequence type 252 Enterobacter cloacae producing GES-5 carbapenemase in a Czech hospital</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Diagn Microbiol Infect Dis</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>90</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>148</sb:first-page>
+                              <sb:last-page>150</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.diagmicrobio.2017.10.011</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0010">Chudejova K, Rotova V, Skalova A, Medvecky M, Adamkova V, Papagiannitsis CC, Hrabak J.Emergence of sequence type 252 Enterobacter cloacae producing GES-5 carbapenemase in a Czech hospital. Diagn Microbiol Infect Dis2018;90:148–50.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0011">
+                     <ce:label>[11]</ce:label>
+                     <sb:reference id="sbref0011">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Chudejova</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Kraftova</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V</ce:given-name>
+                                 <ce:surname>Mattioni Marchetti</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Hrabak</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>CC</ce:given-name>
+                                 <ce:surname>Papagiannitsis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I</ce:given-name>
+                                 <ce:surname>Bitar</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Genetic plurality of OXA/NDM-encoding features characterized from Enterobacterales recovered from Czech hospitals</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Front Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>12</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2021</sb:date>
+                           </sb:issue>
+                           <sb:article-number>641415</sb:article-number>
+                           <ce:doi>10.3389/fmicb.2021.641415</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0011">Chudejova K, Kraftova L, Mattioni Marchetti V, Hrabak J, Papagiannitsis CC, Bitar I. Genetic plurality of OXA/NDM-encoding features characterized from Enterobacterales recovered from Czech hospitals. Front Microbiol2021;12:641415.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0012">
+                     <ce:label>[12]</ce:label>
+                     <sb:reference id="sbref0012">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>CC</ce:given-name>
+                                 <ce:surname>Papagiannitsis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>LS</ce:given-name>
+                                 <ce:surname>Tzouvelekis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Miriagou</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Relative strengths of the class 1 integron promoter hybrid 2 and the combinations of strong and hybrid 1 with an active P2 promoter</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>53</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>277</sb:first-page>
+                              <sb:last-page>280</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1128/AAC.00912-08</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0012">Papagiannitsis CC, Tzouvelekis LS, Miriagou V.Relative strengths of the class 1 integron promoter hybrid 2 and the combinations of strong and hybrid 1 with an active P2 promoter. Antimicrob Agents Chemother2009;53:277–80.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0013">
+                     <ce:label>[13]</ce:label>
+                     <sb:reference id="sbref0013">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>MV</ce:given-name>
+                                 <ce:surname>Larsen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Cosentino</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Rasmussen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Friis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Hasman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>RL</ce:given-name>
+                                 <ce:surname>Marvig</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Multilocus sequence typing of total-genome-sequenced bacteria</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>50</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1355</sb:first-page>
+                              <sb:last-page>1361</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1128/JCM.06094-11</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0013">Larsen MV, Cosentino S, Rasmussen S, Friis C, Hasman H, Marvig RL, et al. Multilocus sequence typing of total-genome-sequenced bacteria. J Clin Microbiol2012;50:1355–61.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0014">
+                     <ce:label>[14]</ce:label>
+                     <sb:reference id="sbref0014">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Carattoli</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E</ce:given-name>
+                                 <ce:surname>Zankari</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Garcia-Fernandez</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Voldby Larsen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O</ce:given-name>
+                                 <ce:surname>Lund</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>In silico detection and typing of plasmids using PlasmidFinder and plasmid multilocus sequence typing</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>58</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3895</sb:first-page>
+                              <sb:last-page>3903</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1128/AAC.02412-14</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0014">Carattoli A, Zankari E, Garcia-Fernandez A, Voldby Larsen M, Lund O, et al. In silico detection and typing of plasmids using PlasmidFinder and plasmid multilocus sequence typing. Antimicrob Agents Chemother2014;58:3895–903.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0015">
+                     <ce:label>[15]</ce:label>
+                     <sb:reference id="sbref0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>V</ce:given-name>
+                                 <ce:surname>Bortolaia</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>RS</ce:given-name>
+                                 <ce:surname>Kaas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E</ce:given-name>
+                                 <ce:surname>Ruppe</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>MC</ce:given-name>
+                                 <ce:surname>Roberts</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Schwarz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V</ce:given-name>
+                                 <ce:surname>Cattoir</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>ResFinder 4.0 for predictions of phenotypes from genotypes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Antimicrob Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>75</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2020</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3491</sb:first-page>
+                              <sb:last-page>3500</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1093/jac/dkaa345</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0015">Bortolaia V, Kaas RS, Ruppe E, Roberts MC, Schwarz S, Cattoir V, et al. ResFinder 4.0 for predictions of phenotypes from genotypes. J Antimicrob Chemother2020;75:3491–500.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0016">
+                     <ce:label>[16]</ce:label>
+                     <sb:reference id="sbref0016">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>E</ce:given-name>
+                                 <ce:surname>Zankari</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R</ce:given-name>
+                                 <ce:surname>Allesoe</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>KG</ce:given-name>
+                                 <ce:surname>Joensen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>LM</ce:given-name>
+                                 <ce:surname>Cavaco</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O</ce:given-name>
+                                 <ce:surname>Lund</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>FM.</ce:given-name>
+                                 <ce:surname>Aarestrup</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>PointFinder: a novel web tool for WGS-based detection of antimicrobial resistance associated with chromosomal point mutations in bacterial pathogens</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Antimicrob Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>72</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2764</sb:first-page>
+                              <sb:last-page>2768</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1093/jac/dkx217</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0016">Zankari E, Allesoe R, Joensen KG, Cavaco LM, Lund O, Aarestrup FM.PointFinder: a novel web tool for WGS-based detection of antimicrobial resistance associated with chromosomal point mutations in bacterial pathogens. J Antimicrob Chemother2017;72:2764–68.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0017">
+                     <ce:label>[17]</ce:label>
+                     <sb:reference id="sbref0017">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Orlek</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Phan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>AE</ce:given-name>
+                                 <ce:surname>Sheppard</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Doumith</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Ellington</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Peto</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Ordering the mob: insights into replicon and MOB typing schemes from analysis of a curated dataset of publicly available plasmids</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Plasmid</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>91</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>42</sb:first-page>
+                              <sb:last-page>52</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.plasmid.2017.03.002</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0017">Orlek A, Phan H, Sheppard AE, Doumith M, Ellington M, Peto T, et al. Ordering the mob: insights into replicon and MOB typing schemes from analysis of a curated dataset of publicly available plasmids. Plasmid2017;91:42–52.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0018">
+                     <ce:label>[18]</ce:label>
+                     <sb:reference id="sbref0018">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>NF</ce:given-name>
+                                 <ce:surname>Alikhan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>NK</ce:given-name>
+                                 <ce:surname>Petty</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>NL</ce:given-name>
+                                 <ce:surname>Ben Zakour</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>SA</ce:given-name>
+                                 <ce:surname>Beatson</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>BLAST Ring Image Generator (BRIG): simple prokaryote genome comparisons</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>BMC Genomics</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>12</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>402</sb:first-page>
+                           </sb:pages>
+                           <ce:doi>10.1186/1471-2164-12-402</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0018">Alikhan NF, Petty NK, Ben Zakour NL, Beatson SA. BLAST Ring Image Generator (BRIG): simple prokaryote genome comparisons. BMC Genomics2011;12:402.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0019">
+                     <ce:label>[19]</ce:label>
+                     <sb:reference id="sbref0019">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Xu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Ying</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Zhu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Xu</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Characterisation of a class 1 integron associated with the formation of quadruple blaGES-5 cassettes from an IncP-1beta group plasmid in Pseudomonas aeruginosa</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int J Antimicrob Agents</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>52</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>485</sb:first-page>
+                              <sb:last-page>491</sb:last-page>
+                           </sb:pages>
+                           <ce:doi>10.1016/j.ijantimicag.2018.07.002</ce:doi>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="srctxt0019">Xu T, Wang J, Ying J, Zhu T, Liu Y, Xu L, et al. Characterisation of a class 1 integron associated with the formation of quadruple blaGES-5 cassettes from an IncP-1beta group plasmid in Pseudomonas aeruginosa. Int J Antimicrob Agents2018;52:485–491.</ce:source-text>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

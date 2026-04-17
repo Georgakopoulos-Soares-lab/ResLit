@@ -1,0 +1,19 @@
+PMID: 1650734
+PMCID: 
+DOI: 10.1016/0378-1119(91)90540-r
+Title: Sequence of the genes blaT-1B and blaT-2.
+Journal: Gene
+PubDate: 1991 Jun 15
+Authors: Goussard S, Courvalin P
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/037811199190540R</prism:url><dc:identifier>doi:10.1016/0378-1119(91)90540-R</dc:identifier><eid>1-s2.0-037811199190540R</eid><prism:doi>10.1016/0378-1119(91)90540-R</prism:doi><pii>0378-1119(91)90540-R</pii><dc:title>Sequences of the genes blaT-1B and blaT-2
+             </dc:title><prism:publicationName>Gene</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>sco</pubType><prism:issn>03781119</prism:issn><prism:volume>102</prism:volume><prism:issueIdentifier>1</prism:issueIdentifier><prism:startingPage>71</prism:startingPage><prism:endingPage>73</prism:endingPage><prism:pageRange>71-73</prism:pageRange><prism:number>1</prism:number><dc:format>text/xml</dc:format><prism:coverDate>1991-06-15</prism:coverDate><prism:coverDisplayDate>15 June 1991</prism:coverDisplayDate><prism:copyright>Copyright © 1991 Published by Elsevier B.V.</prism:copyright><prism:publisher>Published by Elsevier B.V.</prism:publisher><dc:creator>Goussard, Sylvie</dc:creator><dc:creator>Courvalin, Patrice</dc:creator><dc:description>
+                  We have completed the nucleotide sequence of the genes blaT-1B from transposon Tn2, and blaT-2 from Tn1, which encode the penicillinases TEM-1 and TEM-2, respectively.
+               </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><dcterms:subject>Antibiotic resistance</dcterms:subject><dcterms:subject>β-lactamases</dcterms:subject><dcterms:subject>nucleotide sequence</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/037811199190540R" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/037811199190540R" rel="scidir"/></coredata><scopus-id>0025886619</scopus-id><scopus-eid>2-s2.0-0025886619</scopus-eid><pubmed-id>1650734</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/0025886619" rel="abstract"/><originalText><xocs:doc><xocs:meta><xocs:open-access xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+   <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+</xocs:open-access><xocs:available-online-date xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd" yyyymmdd="20030117">2003-01-17</xocs:available-online-date></xocs:meta></xocs:doc></originalText></full-text-retrieval-response>

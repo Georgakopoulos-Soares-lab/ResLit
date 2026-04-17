@@ -1,0 +1,1520 @@
+PMID: 21722254
+PMCID: 
+DOI: 10.1111/j.1469-0691.2010.03416.x
+Title: A novel complex class 1 integron found in a Klebsiella pneumoniae isolate from Portugal.
+Journal: Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases
+PubDate: 2011 Jul
+Authors: Santos C, Caetano T, Ferreira S, Ramalheira E, Mendo S
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1198743X14613847</prism:url><dc:identifier>doi:10.1111/j.1469-0691.2010.03416.x</dc:identifier><eid>1-s2.0-S1198743X14613847</eid><prism:doi>10.1111/j.1469-0691.2010.03416.x</prism:doi><pii>S1198-743X(14)61384-7</pii><dc:title>A novel complex class 1 integron found in a Klebsiella pneumoniae isolate from Portugal </dc:title><prism:publicationName>Clinical Microbiology and Infection</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>1198743X</prism:issn><prism:volume>17</prism:volume><prism:issueIdentifier>7</prism:issueIdentifier><prism:startingPage>1036</prism:startingPage><prism:endingPage>1039</prism:endingPage><prism:pageRange>1036-1039</prism:pageRange><prism:number>7</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2011-07-31</prism:coverDate><prism:coverDisplayDate>July 2011</prism:coverDisplayDate><prism:copyright>Copyright © 2011 European Society of Clinical Infectious Diseases. Published by Elsevier Ltd.</prism:copyright><prism:publisher>European Society of Clinical Infectious Diseases. Published by Elsevier Ltd.</prism:publisher><dc:creator>Santos, C.</dc:creator><dc:creator>Caetano, T.</dc:creator><dc:creator>Ferreira, S.</dc:creator><dc:creator>Ramalheira, E.</dc:creator><dc:creator>Mendo, S.</dc:creator><dc:description>
+                  
+                     Klebsiella pneumoniae Kp1 carrying a novel complex class 1 integron was isolated from an inanimate surface of a female ward sanitary facility in the Hospital Infante D. Pedro, Aveiro, central Portugal. The integron consists of two variable regions (VRs); VR1 was previously described in Escherichia coli and Vibrio cholerae, and VR2 contains an ***ln37-like structure and is located downstream of an ISCR1 element. The integron was found on a plasmid of 225 kb. The qnrB10 gene, although present, is not associated with the complex class 1 integron.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>true</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>Author</openaccessSponsorType><openaccessUserLicense>http://www.elsevier.com/open-access/userlicense/1.0/</openaccessUserLicense><dcterms:subject>Complex class 1 integron</dcterms:subject><dcterms:subject>inanimate surface</dcterms:subject><dcterms:subject>ISCR1
+                  </dcterms:subject><dcterms:subject>Klebsiella pneumoniae</dcterms:subject><dcterms:subject>multidrug resistance</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1198743X14613847" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1198743X14613847" rel="scidir"/></coredata><objects><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="622" height="527" size="65420">https://api.elsevier.com/content/object/eid/1-s2.0-S1198743X14613847-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="193" height="164" size="4289">https://api.elsevier.com/content/object/eid/1-s2.0-S1198743X14613847-gr1.sml?httpAccept=%2A%2F%2A</object></objects><scopus-id>79959993806</scopus-id><scopus-eid>2-s2.0-79959993806</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/79959993806" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>312004</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291783</xocs:ssid>
+         <xocs:ssid type="subj">291890</xocs:ssid>
+         <xocs:ssid type="subj">291891</xocs:ssid>
+         <xocs:ssid type="subj">291904</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Clinical Microbiology and Infection</xocs:srctitle>
+      <xocs:normalized-srctitle>CLINICALMICROBIOLOGYINFECTION</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20141212">2014-12-12</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20141212">2014-12-12</xocs:available-online-date>
+      <xocs:ew-transaction-id>2014-12-12T19:21:02</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1198743X14613847</xocs:eid>
+      <xocs:pii-formatted>S1198-743X(14)61384-7</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1198743X14613847</xocs:pii-unformatted>
+      <xocs:doi>10.1111/j.1469-0691.2010.03416.x</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.1</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1198743X14X60829</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20150515">2015-05-15T05:23:29.459122-04:00</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20110701</xocs:date-search-begin>
+      <xocs:date-search-end>20110731</xocs:date-search-end>
+      <xocs:year-nav>2011</xocs:year-nav>
+      <xocs:indexeddate epoch="1418418145">2014-12-12T21:02:25.174084Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj subheadings tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body affil articletitle auth authfirstini authfull authkeywords authlast primabst pubtype ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1198-743X</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>1198743X</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>17</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>17</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>7</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>7</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 17, Issue 7</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>14</xocs:sort-order>
+      <xocs:first-fp>1036</xocs:first-fp>
+      <xocs:last-lp>1039</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>1036</xocs:first-page>
+         <xocs:last-page>1039</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201107</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>July 2011</xocs:cover-date-text>
+      <xocs:cover-date-start>2011-07-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2011-07-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2011</xocs:cover-date-year>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2011 European Society of Clinical Infectious Diseases. Published by Elsevier Ltd.</xocs:copyright-line>
+      <xocs:normalized-article-title>ANOVELCOMPLEXCLASS1INTEGRONFOUNDINAKLEBSIELLAPNEUMONIAEISOLATEPORTUGAL</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>SANTOS</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>C</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Acknowledgements</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Transparency Declaration</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:further-reading">
+            <xocs:item-toc-section-title>Uncited References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sbref10">
+            <xocs:ref-normalized-surname>THONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2008</xocs:ref-pub-year>
+            <xocs:ref-first-fp>E117</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref20">
+            <xocs:ref-normalized-surname>POIREL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2008</xocs:ref-pub-year>
+            <xocs:ref-first-fp>75</xocs:ref-first-fp>
+            <xocs:ref-last-lp>81</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref30">
+            <xocs:ref-normalized-surname>YAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2001</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2368</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2371</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref40">
+            <xocs:ref-normalized-surname>TOLEMAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>296</xocs:ref-first-fp>
+            <xocs:ref-last-lp>316</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref60">
+            <xocs:ref-normalized-surname>QUIROGA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4466</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4470</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref70">
+            <xocs:ref-normalized-surname>TOLEMAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-last-lp>6</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref80">
+            <xocs:ref-normalized-surname>CHANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>214</xocs:ref-first-fp>
+            <xocs:ref-last-lp>216</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref90">
+            <xocs:ref-normalized-surname>CLINICALANDLABORATORYSTANDARDSINSTITUTE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-normalized-srctitle>PERFORMANCESTANDARDSFORANTIMICROBIALDISKSUSCEPTIBILITYTESTSAPPROVEDSTANDARD</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref100">
+            <xocs:ref-normalized-surname>WEI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>405</xocs:ref-first-fp>
+            <xocs:ref-last-lp>406</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Q</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref110">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2003</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2242</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2248</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref120">
+            <xocs:ref-normalized-surname>CARATTOLI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2005</xocs:ref-pub-year>
+            <xocs:ref-first-fp>219</xocs:ref-first-fp>
+            <xocs:ref-last-lp>228</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref130">
+            <xocs:ref-normalized-surname>LEE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2008</xocs:ref-pub-year>
+            <xocs:ref-first-fp>475</xocs:ref-first-fp>
+            <xocs:ref-last-lp>480</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref140">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2008</xocs:ref-pub-year>
+            <xocs:ref-first-fp>68</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref150">
+            <xocs:ref-normalized-surname>BARLOW</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>838</xocs:ref-first-fp>
+            <xocs:ref-last-lp>842</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref160">
+            <xocs:ref-normalized-surname>BAE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3017</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3019</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>I</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref170">
+            <xocs:ref-normalized-surname>TOLEMAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>559</xocs:ref-first-fp>
+            <xocs:ref-last-lp>565</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref180">
+            <xocs:ref-normalized-surname>HENRIQUES</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>938</xocs:ref-first-fp>
+            <xocs:ref-last-lp>947</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>I</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref190">
+            <xocs:ref-normalized-surname>WU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1223</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1227</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref200">
+            <xocs:ref-normalized-surname>WEISBURG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1991</xocs:ref-pub-year>
+            <xocs:ref-first-fp>697</xocs:ref-first-fp>
+            <xocs:ref-last-lp>703</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref50">
+            <xocs:ref-normalized-surname>PARTRIDGE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2003</xocs:ref-pub-year>
+            <xocs:ref-first-fp>342</xocs:ref-first-fp>
+            <xocs:ref-last-lp>349</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>SANTOSX2011X1036</xocs:refkey3>
+         <xocs:refkey4lp>SANTOSX2011X1036X1039</xocs:refkey4lp>
+         <xocs:refkey4ai>SANTOSX2011X1036XC</xocs:refkey4ai>
+         <xocs:refkey5>SANTOSX2011X1036X1039XC</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="1">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2014-11-29T23:49:10Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>Author</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://www.elsevier.com/open-access/userlicense/1.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/1198743X_P1Y_Author" wintype="OpenArchive">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1198-743X(14)61384-7</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1198743X14613847</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1198743X14613847</xocs:eid>
+         <xocs:doi>10.1111/j.1469-0691.2010.03416.x</xocs:doi>
+         <xocs:cid>312004</xocs:cid>
+         <xocs:timestamp>2014-12-12T15:02:25.174084-05:00</xocs:timestamp>
+         <xocs:cover-date-start>2011-07-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2011-07-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1198743X14613847-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14613847/MAIN/application/pdf/4bc418032c1e8a9da37e83ab5e368af2/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14613847/MAIN/application/pdf/4bc418032c1e8a9da37e83ab5e368af2/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>89299</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>4</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1198743X14613847-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14613847/PREVIEW/image/png/8448e9f1d519e121831ba68650338859/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14613847/PREVIEW/image/png/8448e9f1d519e121831ba68650338859/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>71506</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1198743X14613847-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14613847/gr1/DOWNSAMPLED/image/jpeg/99ac39f53a11eb39bb7e1cd09c797772/gr1.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14613847/gr1/DOWNSAMPLED/image/jpeg/99ac39f53a11eb39bb7e1cd09c797772/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>65420</xocs:filesize>
+               <xocs:pixel-height>527</xocs:pixel-height>
+               <xocs:pixel-width>622</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1198743X14613847-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14613847/gr1/THUMBNAIL/image/gif/8696300a2aca2a0d9a4cb61131680e83/gr1.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14613847/gr1/THUMBNAIL/image/gif/8696300a2aca2a0d9a4cb61131680e83/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>4289</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>193</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="fla" version="5.2" xml:lang="en">
+         <item-info>
+            <jid>CMI</jid>
+            <aid>61384</aid>
+            <ce:pii>S1198-743X(14)61384-7</ce:pii>
+            <ce:doi>10.1111/j.1469-0691.2010.03416.x</ce:doi>
+            <ce:copyright type="society" year="2011">European Society of Clinical Infectious Diseases</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig1">
+               <ce:label>FIG. 1.</ce:label>
+               <ce:caption id="cecap10">
+                  <ce:simple-para id="spara10" view="all">(a) Schematic representation of the <ce:italic>Klebsiella pneumoniae</ce:italic> Kp1 complex class 1 integron reported in this study. (b) Genetic environment of the <ce:italic>qnrB10</ce:italic> gene in different species. The gene cassettes are represented by boxed arrows indicating the transcriptional orientation. A white circle represents the <ce:italic>attI1</ce:italic> site, and the black circles represent the gene cassette recombination site, <ce:italic>attC</ce:italic> element.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr1"/>
+            </ce:figure>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl1" frame="topbot" rowsep="0" colsep="0">
+               <ce:label>TABLE 1</ce:label>
+               <ce:caption id="cecap20">
+                  <ce:simple-para id="spara20" view="all">Primers used to amplify the variable regions (VR1 and VR2) of the unusual class 1 integron found in <ce:italic>Klebsiella pneumoniae</ce:italic> Kp1 isolate</ce:simple-para>
+               </ce:caption>
+               <tgroup cols="5">
+                  <colspec colname="col1" colnum="1"/>
+                  <colspec colname="col2" colnum="2"/>
+                  <colspec colname="col3" colnum="3"/>
+                  <colspec colname="col4" colnum="4"/>
+                  <colspec colname="col5" colnum="5"/>
+                  <thead>
+                     <row valign="bottom" rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Name</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">DNA sequence (5′ to 3′)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Annealing temperature (°C)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Target site</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">References</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">HS 464</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">ACA TGC GTG TAA ATC ATC GTC G</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">55</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left" morerows="1">Class 1 integrase</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left" morerows="1">[<cross-ref id="cecref10" refid="bib15">15</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">HS 463a</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">CTG GAT TTC GAT CAC GGC ACG</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">60</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">RB 317</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">GAA CCT TGA CCG AAC GCA G</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">53</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">5<italic>′</italic>-CS</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left" morerows="1">[<cross-ref id="cecref20" refid="bib15">15</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">RB 320</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">AGC TTA GTA AAG CCC TCG CTA G</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">51</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">3′-CS</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">arr-3-Fw</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">GGG GCA TCC TGT TGA ATT AA</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">52</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">
+                           <italic>arr</italic>-3 gene</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">This study</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">dfrA27-Fw</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">GTT GTT TCT GGT GGT GGA GA</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">50</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">
+                           <italic>dfrA</italic>27 gene</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">This study</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">aadA16-Fw</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">TTG CTG GTT ACT GTG ACT GC</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">52</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">
+                           <italic>aadA</italic>16 gene</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">This study</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Sul1-mF</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">ACG AGA TTG TGC GGT TCT TC</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">48</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">
+                           <italic>sul</italic>1 gene</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">[<cross-ref id="cecref30" refid="bib16">16</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">ISCR1 Fw</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">ACT GAC TCC CAG CCT GTT CG</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">54</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">IS<italic>CR1</italic> gene</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">This study</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">LECR2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">CAC TGG CTG GCA ATG TCT AG</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">59</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">IS<italic>CR1</italic> gene</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">[<cross-ref id="cecref40" refid="bib17">17</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">OXAA-Fw</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">ACA CAA TAC ATA TCA ACT TCG C</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">57</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left" morerows="1">
+                           <italic>bla</italic>
+                           <inf loc="post">OXA</inf> gene</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left" morerows="1">[<cross-ref id="cecref50" refid="bib18">18</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">OXAA-Rv</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">AGT GTG TTT AGA ATG GTG ATC</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">55</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">CatB3 Rv</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">TAG CGG GAT TGC CGC CAA CG</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">
+                           <italic>catB</italic>3 gene</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">This study</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">qnrBF</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">CCT GAG CGG CAC TGA ATT TAT</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">54</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left" morerows="1">
+                           <italic>qnrB</italic> gene</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left" morerows="1">[<cross-ref id="cecref60" refid="bib19">19</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">qnrBR</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">GTT TGC TGC TCG CCA GTC GA</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">59</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">fD1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">AGA GTT TGA TCC TGG CTC AG</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">57</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left" morerows="1">16S rRNA</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left" morerows="1">[<cross-ref id="cecref70" refid="bib20">20</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">rD1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">AAG GAG GTG ATC CAG CC</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">55</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+         </ce:floats>
+         <head>
+            <ce:article-footnote>
+               <ce:note-para id="cenpara10" view="all">Editor: R. Cantón</ce:note-para>
+               <ce:note-para id="cenpara20" view="all">Article published online: 4 November 2010</ce:note-para>
+            </ce:article-footnote>
+            <ce:dochead id="cedoch10">
+               <ce:textfn>Original Article</ce:textfn>
+               <ce:dochead id="cedoch20">
+                  <ce:textfn>Infectious Diseases</ce:textfn>
+               </ce:dochead>
+            </ce:dochead>
+            <ce:title id="cetitle10">A novel complex class 1 integron found in a <ce:italic>Klebsiella pneumoniae</ce:italic> isolate from Portugal</ce:title>
+            <ce:author-group id="aug10">
+               <ce:author id="au10">
+                  <ce:given-name>C.</ce:given-name>
+                  <ce:surname>Santos</ce:surname>
+                  <ce:cross-ref id="cecref80" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au20">
+                  <ce:given-name>T.</ce:given-name>
+                  <ce:surname>Caetano</ce:surname>
+                  <ce:cross-ref id="cecref90" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cecref100" refid="aff2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au30">
+                  <ce:given-name>S.</ce:given-name>
+                  <ce:surname>Ferreira</ce:surname>
+                  <ce:cross-ref id="cecref110" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cecref120" refid="aff3">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au40">
+                  <ce:given-name>E.</ce:given-name>
+                  <ce:surname>Ramalheira</ce:surname>
+                  <ce:cross-ref id="cecref130" refid="aff3">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au50">
+                  <ce:given-name>S.</ce:given-name>
+                  <ce:surname>Mendo</ce:surname>
+                  <ce:cross-ref id="cecref140" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cecref150" refid="cor1">
+                     <ce:sup loc="post">*</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="aff1">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>CESAM and Department of Biology, University of Aveiro, Aveiro, Portugal</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>CESAM and Department of Biology</sa:organization>
+                     <sa:address-line>University of Aveiro</sa:address-line>
+                     <sa:city>Aveiro</sa:city>
+                     <sa:country>Portugal</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff2">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>Medinfar, Pharmaceutical Products SA, Amadora, Vendas Novas, Portugal</ce:textfn>
+                  <sa:affiliation>
+                     <sa:address-line>Medinfar</sa:address-line>
+                     <sa:address-line>Pharmaceutical Products SA</sa:address-line>
+                     <sa:city>Amadora</sa:city>
+                     <sa:state>Vendas Novas</sa:state>
+                     <sa:country>Portugal</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff3">
+                  <ce:label>c</ce:label>
+                  <ce:textfn>Hospital Infante D. Pedro, EPE, Avenida Artur Ravara, Aveiro, Portugal</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Hospital Infante D. Pedro</sa:organization>
+                     <sa:address-line>EPE</sa:address-line>
+                     <sa:address-line>Avenida Artur Ravara</sa:address-line>
+                     <sa:city>Aveiro</sa:city>
+                     <sa:country>Portugal</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:correspondence id="cor1">
+                  <ce:label>*</ce:label>
+                  <ce:text>
+                     <ce:bold>Corresponding author:</ce:bold> S. Mendo, CESAM and Department of Biology, University of Aveiro, 3810 Aveiro, Portugal</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="9" month="7" year="2010"/>
+            <ce:date-revised day="15" month="10" year="2010"/>
+            <ce:date-accepted day="26" month="10" year="2010"/>
+            <ce:abstract id="ceab10" view="all" class="author"><ce:abstract-sec id="ceabs10" view="all">
+                  <ce:simple-para id="spara30" view="all">
+                     <ce:italic>Klebsiella pneumoniae</ce:italic> Kp1 carrying a novel complex class 1 integron was isolated from an inanimate surface of a female ward sanitary facility in the Hospital Infante D. Pedro, Aveiro, central Portugal. The integron consists of two variable regions (VRs); VR1 was previously described in <ce:italic>Escherichia coli</ce:italic> and <ce:italic>Vibrio cholerae</ce:italic>, and VR2 contains an ***ln<ce:italic>37</ce:italic>-like structure and is located downstream of an IS<ce:italic>CR1</ce:italic> element. The integron was found on a plasmid of 225 kb. The <ce:italic>qnrB10</ce:italic> gene, although present, is not associated with the complex class 1 integron.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="cekeyws10" view="all" class="keyword">
+               <ce:keyword id="cekeyw10">
+                  <ce:text>Complex class 1 integron</ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw20">
+                  <ce:text>inanimate surface</ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw30">
+                  <ce:text>IS<ce:italic>CR1</ce:italic>
+                  </ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw40">
+                  <ce:text>Klebsiella pneumoniae</ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw50">
+                  <ce:text>multidrug resistance</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:para id="para10" view="all">Klebsiellae are widespread in the environment and in the intestinal flora of humans and other mammals. <ce:italic>Klebsiella pneumoniae</ce:italic> is an important opportunistic pathogen causing urinary tract and intra-abdominal infections, neonatal meningitis and pneumonia in immunocompromised patients [<ce:cross-ref id="cecref160" refid="bib1">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>].</ce:para>
+               <ce:para id="para20" view="all">The intensive use of broad-spectrum antibiotics in hospitalized patients led to the development of multidrug-resistant (MDR) strains. In <ce:italic>K. pneumoniae</ce:italic>, resistance is associated with the production of <ce:italic>β</ce:italic>-lactamase enzymes, mainly extended-spectrum <ce:italic>β</ce:italic>-lactamases [<ce:cross-ref id="cecref170" refid="bib2">
+                     <ce:sup loc="post">2</ce:sup>
+                  </ce:cross-ref>]. However, more recently, metallo-<ce:italic>β</ce:italic>-lactamases have also been described [<ce:cross-ref id="cecref180" refid="bib3">
+                     <ce:sup loc="post">3</ce:sup>
+                  </ce:cross-ref>].</ce:para>
+               <ce:para id="para30" view="all">
+                  <ce:italic>K. pneumoniae</ce:italic> strains carrying complex class 1 integrons are becoming more common. Usually, within the second variable region (VR2), only one or two genes conferring resistance to <ce:italic>β</ce:italic>-lactamases, fluoroquinolones, aminoglycosides, chloramphenicol or trimethoprim are found [<ce:cross-refs id="ceref10" refid="bib4 bib5 bib6 bib7">
+                     <ce:sup loc="post">4–7</ce:sup>
+                  </ce:cross-refs>]. Thus, the use of antibiotics that are commonly used to treat infections caused by <ce:italic>Klebsiella</ce:italic> MDR strains, such as cephalosporins, <ce:italic>β</ce:italic>-lactamase-stable penicillins and aminoglycosides, can be compromised [<ce:cross-ref id="cecref190" refid="bib8">
+                     <ce:sup loc="post">8</ce:sup>
+                  </ce:cross-ref>].</ce:para>
+               <ce:para id="para40" view="all">Herein, we report and characterize a novel complex class 1 integron found in a <ce:italic>K. pneumoniae</ce:italic> isolate collected from an inanimate surface within the Hospital Infante D. Pedro, Aveiro, Central Portugal.</ce:para>
+               <ce:para id="para50" view="all">
+                  <ce:italic>K. pneumoniae</ce:italic> Kp1 was isolated from the sink of a female ward sanitary facility during an infection control study in 2005. The strain was identified with the automatic VITEK 2 Advanced Expert System (BioMérieux, Marcy L'étoile, France). The identification was confirmed by 16S rDNA (<ce:cross-ref id="cecref200" refid="tbl1">Table 1</ce:cross-ref>
+                  <ce:float-anchor refid="tbl1"/>) nucleotide sequence determination. Antibiotic susceptibilities were determined according to CLSI guidelines [<ce:cross-ref id="cecref210" refid="bib9">
+                     <ce:sup loc="post">9</ce:sup>
+                  </ce:cross-ref>]. In the Kp1 isolate, an unusual class 1 integron structure was detected by PCR, with the specific primers described in <ce:cross-ref id="cecref220" refid="tbl1">Table 1</ce:cross-ref>, and is described herein.</ce:para>
+               <ce:para id="para60" view="all">The first variable region (VR1) was approximately 2500 bp in length. By primer walking (<ce:cross-ref id="cecref230" refid="tbl1">Table 1</ce:cross-ref>), the complete array of gene cassettes was determined. Nucleotide sequence analysis confirmed an integron structure that was previously found and described in <ce:italic>Escherichia coli</ce:italic> [<ce:cross-ref id="cecref240" refid="bib10">
+                     <ce:sup loc="post">10</ce:sup>
+                  </ce:cross-ref>] and in a <ce:italic>Vibrio cholerae</ce:italic> isolate from China (unpublished: EU678897). So far, this structure has never been described in <ce:italic>K. pneumoniae.</ce:italic> VR1 of the Kp1 isolate comprises three genes: at the first position, close to the <ce:italic>intI1</ce:italic> gene, is a rifampin ADP-ribosyl transferaseencoding gene (<ce:italic>arr-3</ce:italic>), and this is followed by a dihydrofolate reductase gene (<ce:italic>dfrA27</ce:italic>), and an <ce:italic>aadA16</ce:italic> gene, encoding an aminoglycoside-(3′′)(9)-adenylyltransferase. An IS<ce:italic>CR1</ce:italic> element linked to the class 1 integron was also amplified. Specific primers for IS<ce:italic>CR1</ce:italic> and <ce:italic>qacE</ce:italic>Δ1 (<ce:cross-ref id="cecref250" refid="tbl1">Table 1</ce:cross-ref>) were employed to access the genes that compose VR2, resulting in an amplicon of approximately 6000 bp. Further nucleotide sequence determination and analysis revealed the presence of an array consisting of four gene cassettes, constituting the variable region of In<ce:italic>37</ce:italic> (<ce:cross-ref id="cecref260" refid="fig1">Fig. 1</ce:cross-ref>
+                  <ce:float-anchor refid="fig1"/>a).</ce:para>
+               <ce:para id="para70" view="all">In<ce:italic>37</ce:italic> was previously described in a <ce:italic>K. pneumoniae</ce:italic> clinical isolate from Argentina and in an <ce:italic>E. coli</ce:italic> isolate from China [<ce:cross-refs id="cecrefs20" refid="bib6 bib11">
+                     <ce:sup loc="post">6,11</ce:sup>
+                  </ce:cross-refs>]. This integron appears to be associated with IS<ce:italic>CR1</ce:italic> and <ce:italic>qnr</ce:italic> genes (<ce:cross-ref id="cecref270" refid="fig1">Fig. 1</ce:cross-ref>a). It is noteworthy that the cassette array of In<ce:italic>37</ce:italic> is always found associated with VR1, and never in VR2.</ce:para>
+               <ce:para id="para80" view="all">Herein, we report, for the first time, the association of In<ce:italic>37</ce:italic> with VR2 in this isolate, highlighting the fact that here it is not associated with the <ce:italic>intI1</ce:italic> gene. The location of the resistance genes corresponding to the In<ce:italic>37</ce:italic> array may be explained by a homologous recombination event, according to the model proposed by Toleman <ce:italic>et al.</ce:italic> [<ce:cross-ref id="cecref280" refid="bib7">
+                     <ce:sup loc="post">7</ce:sup>
+                  </ce:cross-ref>], which suggests that the IS<ce:italic>CR1</ce:italic> element is responsible for the transposition of those genes, leading to the formation of a complex class 1 integron.</ce:para>
+               <ce:para id="para90" view="all">The genes found in this complex structure may explain the resistance profile observed for trimethoprim–sulphamethoxazole (MIC ≥320 mg/L), tobramycin (MIC ≥16 mg/L), amoxycillin–clavulanic acid (MIC ≥32 mg/L), cloramphenicol (MIC ≥32 mg/L) and cephalotin and cefuroxime (MIC ≥64 mg/L). Moreover, the presence of the <ce:italic>qnrB10</ce:italic> gene may be responsible for the reduced susceptibility to ciprofloxacin (MIC ≥1 mg/L) and levofloxacin (MIC ≥0.5 mg/L). The <ce:italic>qnrB10</ce:italic> gene has been found to be linked to the IS<ce:italic>CR1</ce:italic> element in different class 1 integrons [<ce:cross-ref id="cecref290" refid="bib6">
+                     <ce:sup loc="post">6</ce:sup>
+                  </ce:cross-ref>] (<ce:cross-ref id="cecref300" refid="fig1">Fig. 1</ce:cross-ref>b), but in the Kp1 isolate, and with the primers described (<ce:cross-ref id="cecref310" refid="tbl1">Table 1</ce:cross-ref>), this association was not detected.</ce:para>
+               <ce:para id="para100" view="all">The location of the integron was investigated by pulsed-field gel electrophoresis. Genomic DNA digested with S1 (New England Biolabs, Beverly, MA, USA) was separated in a CHEF-DRIII system (Bio-Rad, Hemel Hempstead, UK), and hybridized to an <ce:italic>intI1</ce:italic> probe labelled with digoxigenin (Roche Diagnostics GmbH, Penzberg, Germany). The results revealed that the complex class 1 integron is located on a plasmid of approximately 225 kb (data not shown). Plasmid identification was attempted with the primers described by Carattoli <ce:italic>et al.</ce:italic> [<ce:cross-ref id="cecref320" refid="bib12">
+                     <ce:sup loc="post">12</ce:sup>
+                  </ce:cross-ref>]. Nevertheless, in the Kp1 isolate, no amplification was observed with any of the primers used, suggesting that no plasmid-specific sequences representative of the major plasmid incompatibility groups circulating among <ce:italic>Enterobacteriaceae</ce:italic> are present. As plasmids are the primary vehicles for horizontal resistance gene transfer among Gram-negative bacteria [<ce:cross-ref id="cecref330" refid="bib13">
+                     <ce:sup loc="post">13</ce:sup>
+                  </ce:cross-ref>], in order to evaluate their transfer capability, conjugation assays were performed with <ce:italic>E. coli</ce:italic> J53<ce:sup loc="post">AzR</ce:sup> as the recipient strain, as described by Wang <ce:italic>et al.</ce:italic> [<ce:cross-ref id="cecref340" refid="bib14">
+                     <ce:sup loc="post">14</ce:sup>
+                  </ce:cross-ref>]. <ce:italic>E. coli</ce:italic> transconjugants were selected in Mueller–Hinton agar with 200 mg/L sodium azide and 16 and 32 mg/L chloramphenicol. Under these laboratory conditions, no transconjugants were obtained. As the Kp1 isolate was collected from an inanimate surface, and also given the fact that the antibiotic resistance genes are contained in an integron-borne plasmid, this strain may be a possible reservoir of antibiotic resistance genes within the hospital environment. Given its resistance profile, this isolate could pose some risk for debilitated or immunocompromised patients.</ce:para>
+               <ce:para id="para110" view="all">This study describes the presence of a novel complex class 1 integron. Additionally, it highlights the fact that surveillance studies are of the utmost importance to provide the information needed for the implementation of appropriate control measures for dissemination of MDR microorganisms within these highly selective environments, as pathogenic bacteria can colonize and survive outside a host and therefore find their way into debilitated patients.</ce:para>
+               <ce:para id="para120" view="all">All of the nucleotide sequences reported in this article are deposited in GenBank under the accession number FJ459817.</ce:para>
+               <ce:section id="cesec10" view="all">
+                  <ce:section-title id="cestitle20">Acknowledgements</ce:section-title>
+                  <ce:para id="para130" view="all">T. Caetano is supported by FCT and Medinfar, SA grant SFRH/BDE/15559/2005. S. Ferreira is supported by FCT and Hospital Infante D. Pedro EPE grant SFRH/BDE/15573/2005. We thank hospital Infante D. Pedro de Aveiro for their strains. Also, the authors thank A. Moura and C. Oliveira for assistance in replicon typing, and A. Carattoli for providing incompatibility group reference strains.</ce:para>
+               </ce:section>
+               <ce:section id="cesec20" view="all">
+                  <ce:section-title id="cestitle30">Transparency Declaration</ce:section-title>
+                  <ce:para id="para140" view="all">The authors have no conflicts of interest to declare.</ce:para>
+               </ce:section>
+            </ce:sections>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="bibl10" view="all">
+               <ce:section-title id="cestitle40">References</ce:section-title>
+               <ce:bibliography-sec id="cebibsec10" view="all">
+                  <ce:bib-reference id="bib1">
+                     <ce:label>1</ce:label>
+                     <sb:reference id="sbref10">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Thong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Lim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Yeo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Puthucheary</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R</ce:given-name>
+                                 <ce:surname>Yasin</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Genotypic characterization of extended‐spectrum beta‐lactamases producing<ce:italic>Klebsiella pneumoniae</ce:italic> strains isolated in Malaysia</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int J Infect Dis</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>12</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2008</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>E117</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib2">
+                     <ce:label>2</ce:label>
+                     <sb:reference id="sbref20">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Poirel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Naas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Nordmann</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Genetic support of extended‐spectrum beta‐lactamases</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Clin Microbiol Infect</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>1</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2008</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>75</sb:first-page>
+                              <sb:last-page>81</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib3">
+                     <ce:label>3</ce:label>
+                     <sb:reference id="sbref30">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Yan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W</ce:given-name>
+                                 <ce:surname>Ko</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Identification of a plasmid encoding SHV‐12, TEM‐1, and a variant of IMP‐2 metallo‐beta‐lactamase, IMP‐8, from a clinical isolate of<ce:italic>Klebsiella pneumoniae</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>45</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2001</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2368</sb:first-page>
+                              <sb:last-page>2371</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib4">
+                     <ce:label>4</ce:label>
+                     <sb:reference id="sbref40">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Toleman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Bennett</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Walsh</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>IS<ce:italic>CR</ce:italic> elements: novel gene‐capturing systems of the 21st century?</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Microbiol Mol Biol Rev</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>70</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>296</sb:first-page>
+                              <sb:last-page>316</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib6">
+                     <ce:label>6</ce:label>
+                     <sb:reference id="sbref60">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Quiroga</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Andres</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Petroni</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Complex class 1 integrons with diverse variable regions, including<ce:italic>aac(6′)‐Ib‐cr</ce:italic>, and a novel allele,<ce:italic>qnrB</ce:italic>10, associated with IS<ce:italic>CR1</ce:italic> in clinical enterobacterial isolates from Argentina</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>51</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4466</sb:first-page>
+                              <sb:last-page>4470</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib7">
+                     <ce:label>7</ce:label>
+                     <sb:reference id="sbref70">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Toleman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Bennett</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Walsh</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Common regions e.g.<ce:italic>orf513</ce:italic> and antibiotic resistance: IS91‐like elements evolving complex class 1 integrons</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Antimicrob Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>58</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                              <sb:last-page>6</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib8">
+                     <ce:label>8</ce:label>
+                     <sb:reference id="sbref80">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Chang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Fang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Tsai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Chang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W</ce:given-name>
+                                 <ce:surname>Yu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Characterization of class 1 integrons and gene cassettes in clinical isolates of<ce:italic>Klebsiella pneumoniae</ce:italic> from Taiwan</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Diagn Microbiol Infect Dis</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>65</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>214</sb:first-page>
+                              <sb:last-page>216</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib9">
+                     <ce:label>9</ce:label>
+                     <sb:reference id="sbref90">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Clinical and Laboratory Standards Institute</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:title>
+                                 <sb:maintitle>Performance standards for antimicrobial disk susceptibility tests. Approved Standard</sb:maintitle>
+                              </sb:title>
+                              <sb:edition>Ninth Edition</sb:edition>
+                              <sb:date>2006</sb:date>
+                              <sb:publisher>
+                                 <sb:name>CLSI</sb:name>
+                                 <sb:location>Wayne, PA, USA</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib10">
+                     <ce:label>10</ce:label>
+                     <sb:reference id="sbref100">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Q</ce:given-name>
+                                 <ce:surname>Wei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Z</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Lu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>
+                                 <ce:italic>dfrA27</ce:italic>, a new integron‐associated trimethoprim resistance gene from<ce:italic>Escherichia coli</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Antimicrob Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>63</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>405</sb:first-page>
+                              <sb:last-page>406</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib11">
+                     <ce:label>11</ce:label>
+                     <sb:reference id="sbref110">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Tran</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Jacoby</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Zhang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Hooper</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Plasmid‐mediated quinolone resistance in clinical isolates of<ce:italic>Escherichia coli</ce:italic> from Shanghai, China</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>47</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2003</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2242</sb:first-page>
+                              <sb:last-page>2248</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib12">
+                     <ce:label>12</ce:label>
+                     <sb:reference id="sbref120">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Carattoli</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Bertini</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Villa</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V</ce:given-name>
+                                 <ce:surname>Falbo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Hopkins</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E</ce:given-name>
+                                 <ce:surname>Threlfall</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Identification of plasmids by PCR‐based replicon typing</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Microbiol Methods</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>63</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2005</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>219</sb:first-page>
+                              <sb:last-page>228</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib13">
+                     <ce:label>13</ce:label>
+                     <sb:reference id="sbref130">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Peng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Hsu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Molecular characterization of the metallo‐beta‐lactamase genes in imipenem‐resistant Gram‐negative bacteria from a university hospital in southern Taiwan</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int J Antimicrob Agents</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>32</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2008</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>475</sb:first-page>
+                              <sb:last-page>480</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib14">
+                     <ce:label>14</ce:label>
+                     <sb:reference id="sbref140">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Yang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Q</ce:given-name>
+                                 <ce:surname>Lu</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Presence of<ce:italic>qnr</ce:italic> gene in<ce:italic>Escherichia coli</ce:italic> and<ce:italic>Klebsiella pneumoniae</ce:italic> resistant to ciprofloxacin isolated from pediatric patients in China</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>BMC Infect Dis</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>8</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2008</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>68</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>(1–6).</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib15">
+                     <ce:label>15</ce:label>
+                     <sb:reference id="sbref150">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R</ce:given-name>
+                                 <ce:surname>Barlow</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Pemberton</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Desmarchelier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Gobius</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Isolation and characterization of integron‐containing bacteria without antibiotic selection</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>48</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>838</sb:first-page>
+                              <sb:last-page>842</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib16">
+                     <ce:label>16</ce:label>
+                     <sb:reference id="sbref160">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>I</ce:given-name>
+                                 <ce:surname>Bae</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Jeong</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Novel complex class 1 integron bearing an IS<ce:italic>CR1</ce:italic> element in an<ce:italic>Escherichia coli</ce:italic> isolate carrying the<ce:italic>bla</ce:italic>
+                                 <ce:inf loc="post">
+                                    <ce:italic>CTX‐M‐14</ce:italic>
+                                 </ce:inf> gene</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>51</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3017</sb:first-page>
+                              <sb:last-page>3019</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib17">
+                     <ce:label>17</ce:label>
+                     <sb:reference id="sbref170">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Toleman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Bennett</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R</ce:given-name>
+                                 <ce:surname>Jones</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Walsh</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Global emergence of trimethoprim/sulfamethoxazole resistance in<ce:italic>Stenotrophomonas maltophilia</ce:italic> mediated by acquisition of<ce:italic>sul</ce:italic> genes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Emerg Infect Dis</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>13</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>559</sb:first-page>
+                              <sb:last-page>565</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib18">
+                     <ce:label>18</ce:label>
+                     <sb:reference id="sbref180">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>I</ce:given-name>
+                                 <ce:surname>Henriques</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F</ce:given-name>
+                                 <ce:surname>Fonseca</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Alves</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Saavedra</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Correia</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Occurrence and diversity of integrons and beta‐lactamase genes among ampicillin‐resistant isolates from estuarine waters</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Res Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>157</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>938</sb:first-page>
+                              <sb:last-page>947</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib19">
+                     <ce:label>19</ce:label>
+                     <sb:reference id="sbref190">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W</ce:given-name>
+                                 <ce:surname>Ko</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Tsai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Yan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Prevalence of plasmid‐mediated quinolone resistance determinants<ce:italic>qnrA</ce:italic>,<ce:italic>qnrB</ce:italic>, and<ce:italic>qnrS</ce:italic> among clinical isolates of<ce:italic>Enterobacter cloacae</ce:italic> in a Taiwanese hospital</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>51</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1223</sb:first-page>
+                              <sb:last-page>1227</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib20">
+                     <ce:label>20</ce:label>
+                     <sb:reference id="sbref200">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W</ce:given-name>
+                                 <ce:surname>Weisburg</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Barns</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Pelletier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Lane</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>16S ribosomal DNA amplification for phylogenetic study</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Bacteriol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>173</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1991</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>697</sb:first-page>
+                              <sb:last-page>703</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+            <ce:further-reading id="fread10" view="all">
+               <ce:section-title id="cesectitle7">Uncited References</ce:section-title>
+               <ce:further-reading-sec id="freads10" view="all">
+                  <ce:bib-reference id="bib5">
+                     <ce:label>5</ce:label>
+                     <sb:reference id="sbref50">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Partridge</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R</ce:given-name>
+                                 <ce:surname>Hall</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>In34, a complex In5 family class 1 integron containing<ce:italic>orf513</ce:italic> and<ce:italic>dfrA10</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>47</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2003</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>342</sb:first-page>
+                              <sb:last-page>349</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:further-reading-sec>
+            </ce:further-reading>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

@@ -1,0 +1,526 @@
+PMID: 27965516
+PMCID: 
+DOI: 10.1038/ja.2016.144
+Title: New aminoglycoside-modifying enzymes APH(3')-VIII and APH(3')-IX in Acinetobacter rudis and Acinetobacter gerneri.
+Journal: The Journal of antibiotics
+PubDate: 2017 Apr
+Authors: Yoon EJ, Grillot-Courvalin C, Courvalin P
+Source: Publisher_HTML
+License: publisher_free_full_text
+
+## PUBLISHER_HTML
+New aminoglycoside-modifying enzymes APH(3′)-VIII and APH(3′)-IX in Acinetobacter rudis and Acinetobacter gerneri | The Journal of Antibiotics 
+
+Skip to main content 
+
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+ the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+ Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+ and JavaScript. 
+
+Advertisement 
+
+View all journals 
+
+Search 
+
+Log in 
+
+Content Explore content 
+
+About the journal 
+
+Publish with us 
+
+Sign up for alerts 
+
+RSS feed 
+
+nature 
+
+the journal of antibiotics 
+
+original article 
+
+article 
+
+New aminoglycoside-modifying enzymes APH(3′)-VIII and APH(3′)-IX in Acinetobacter rudis and Acinetobacter gerneri 
+
+Download PDF 
+
+Download PDF 
+
+Original Article 
+
+Published: 14 December 2016 
+
+New aminoglycoside-modifying enzymes APH(3′)-VIII and APH(3′)-IX in Acinetobacter rudis and Acinetobacter gerneri 
+
+Eun-Jeong Yoon 1 , 
+
+Catherine Grillot-Courvalin 1 & 
+
+Patrice Courvalin 1 
+
+The Journal of Antibiotics volume 70 , pages 400–403 ( 2017 ) Cite this article 
+
+3035 Accesses 
+
+8 Citations 
+
+1 Altmetric 
+
+Metrics details 
+
+Subjects 
+
+Antimicrobial resistance 
+
+Genomics 
+
+Abstract 
+
+Analysis of whole-genome sequences of 133 strains of Acinetobacter detected two genes for new types of aminoglycoside 3′- O -phosphotransferase [APH(3′)], type VIII in Acinetobacter rudis and IX in A. gerneri . The enzymes were related to each other (49% identity) and to APH(3′)-VI (61% and 51% identity, respectively), which is intrinsic to A. guillouiae . The cloned genes conferred kanamycin and amikacin resistance to Escherichia coli but were cryptic or expressed at low levels in the original hosts. The chromosomal location of both genes and the genetic events for acquisition of an ancestral aphA gene by A. rudis and A. gerneri , and loss by A. bereziniae were supported by the molecular phylogenetic tree of these genes. These data confirm that nonpathogenic susceptible bacterial species can be considered as potential reservoirs of resistance genes. 
+
+Similar content being viewed by others 
+
+Fragment-based drug design of a bacterial kinase inhibitor capable of increasing the antibiotic sensitivity of clinical isolates 
+
+Article Open access 27 November 2025 
+
+Genome-wide identification of fitness-genes in aminoglycoside-resistant Escherichia coli during antibiotic stress 
+
+Article Open access 20 February 2024 
+
+An antiplasmid system drives antibiotic resistance gene integration in carbapenemase-producing Escherichia coli lineages 
+
+Article Open access 15 May 2024 
+
+Introduction 
+
+Acinetobacter spp., especially Acinetobacter baumannii , are associated with epidemics of hospital-acquired infections, in particular in intensive care units. 1 The infections are difficult to cure as they occur in immunocompromised patients and because these opportunistic pathogens, notably A. baumannii , have accumulated multidrug resistance mechanisms. 1 In addition to broad intrinsic resistance, acquired resistance is the result of horizontal gene transfer 2 , 3 , 4 or of mutations affecting expression of efflux genes. 5 
+
+Aminoglycosides are, with β-lactams, the most useful drug classes for the treatment of infections due to Acinetobacter . Although resistance to aminoglycosides due to 16S ribosomal RNA methylation, in particular by ArmA, is increasingly reported, 6 the most common mechanism remains enzymatic inactivation of the drugs, primarily by 6′- N -acetyltransferases [AAC(6′)] and 3′- O -phosphotransferases [APH(3′)]. 
+
+We have analysed the genomes of 133 strains of Acinetobacter spp. covering the breadth of the known taxonomic diversity of the genus, which allowed to build a robust phylogeny of the entire genus. 7 This new evolutionary tree was used to assess pending taxonomic issues and sample the genus for key mechanisms generating genetic variability. 
+
+We have also systematically screened these genomes for the presence of genes encoding aminoglycoside-modifying enzymes. Comparative analysis of the various types (isozyme forms) and subtypes (resistance profile conferred) of APH(3′) enzymes in Acinetobacter allowed us to distinguish the known types and subtypes and also to identify new types. 8 We recently reported the origin of aminoglycoside 3′- O -phosphotransferase type VI [APH(3′)-VI] in the chromosome of A. guillouiae , 8 an environmental species distantly related to A. baumannii and rarely responsible for human infections and its intra- and inter-generic dissemination. 
+
+In the present study, we document two new types of APH(3′) enzymes, type VIII in A. rudis and type IX in A. gerneri , two species that have been isolated only from diverse environmental sources. 9 
+
+Materials and methods 
+
+Bacterial strains 
+
+The whole-genome sequences of 133 strains of Acinetobacter 7 were studied. Two additional strains of A. rudis were screened for the presence of the aphA gene and were identified as A. rudis based on comprehensive phenotypic testing, rpoB gene comparative analysis and whole-cell MALDI-TOF MS profiling (Nemec and Krizova, unpublished data). Escherichia coli One Shot TOP10 (Invitrogen, San Diego, CA, USA) was used as a recipient for cloning the aphA genes. Bacteria were grown, according to their physiological requirements, at 30 –37 °C, in brain heart infusion broth and agar (Difco Laboratory, Detroit, MI, USA). 
+
+Antimicrobial susceptibility testing 
+
+MICs were determined by agar dilution in cation-adjusted Mueller-Hinton (MH) agar according to the CLSI guideline. 10 
+
+Sequence analysis 
+
+The aphA genes were inferred from whole-genome sequences obtained previously. 7 Multiple sequence alignments and the amino acid identity calculation of the deduced protein sequences were carried out using the MUSCLE program ( http://www.ebi.ac.uk/Tools/msa/muscle/ ). 
+
+DNA manipulation and recombinant DNA techniques 
+
+Genomic DNA was extracted by boiling as described. 8 DNA amplification was performed in a GeneAmp PCR system 9700 (Perkin Elmer Cetus, Norwalk, CT, USA) with Phusion high-fidelity DNA polymerase (Thermo Scientific, Waltham, MA, USA). The PCR products were purified with a QIAquick PCR purification kit (Qiagen, Inc., Chatsworth, CA, USA). Digestion with restriction endonucleases (New England Biolabs, Ipswich, MA, USA), ligation with T4 DNA ligase (New England Biolabs) and transformation with recombinant plasmid DNA were performed by standard methods. Plasmid DNA was purified with a Nucleospin plasmid miniprep kit (Macherey-Nagel GmbH & Co., Düren, Germany). Nucleotide sequencing was carried out with a CEQ 8000 DNA analysis system automatic sequencer (Beckman Instrument, Inc., Palo Alto, CA, USA). 
+
+Identification of the APH(3′) enzymes 
+
+The putative homologs between pairs of genomes were determined with BlastP 11 based on the sequence of APH(3′)-VI (GenBank Accession ID, P09885). 12 The presence of aphA8 in the additional A. rudis strains was searched for by PCR using primers aphA8-F, 5′-ATGAAACTACCTCAGAAAAT-3′ and aphA8-R, 5′-ATTCAATTTAACTCATCAAGTTT T-3′. 
+
+Cloning of aphA genes 
+
+The 808-bp and 829-bp fragments including the ribosomal binding site (RBS) of phage T7 gene was amplified from A. rudis CIP 110305 T and from A. gerneri CIP 107464 T with primers aphA8-RBS-F, 5′-tttaagaaggagatatacat ATG AAACTACCTCAGAAAAT-3′ and aphA8-R, and aphA9-RBS-F, 5′-tttaagaaggagatatacat ATG ATCAATGATATGAAAAT-3′ and aphA9-R, 5′-GATCAATTTAACTCATCCAATT-3′, respectively (RBS in lower case, start codon underlined). The amplicons were ligated to the pCR-Blunt vector (Invitrogen), the recombinant plasmids digested with Bam HI and Xba I, the inserts ligated to Bam HI- Xba I-linearized pUC18 and transformed into E. coli TOP10 with selection on ampicillin 100 μg ml −1 and kanamycin 8 μg ml −1 . The orientation and sequence of all the inserts were verified with forward and reverse universal primers. 
+
+Results and Discussion 
+
+Analysis of the whole-genome sequences of 133 strains of Acinetobacter 7 allowed to detect two new types of APH(3′) enzymes, type VIII (GenBank accession ID, EPF73263 ) in A. rudis CIP 110305 T and type IX (GenBank accession ID, ENV34035 ) in A. gerneri CIP 107464 T with, respectively, 61% and 51% sequence identity relative to APH(3′)-VI from A. guillouiae NIPH 991 (GenBank accession ID, ENV16316 ) ( Table 1 ), which is intrinsic to this species. 8 The identity between APH(3′)-VIII and -IX proteins was 49%. The mol% G+C content of the corresponding structural genes aphA8 and aphA9 was 34% and 33%, respectively, close to those of the host species (40 and 39%) suggesting, as for aphA6 , 8 an origin in Acinetobacter for the genes. No other aminoglycoside resistance genes were detected in these strains. 
+
+Table 1 Percent identity and similarity between ancestral APH(3′) types in Acinetobacter spp. 
+Full size table 
+
+In the phylogeny of the Acinetobacter genus, 7 A. rudis ( aphA8 ) and A. gerneri ( aphA9 ) constitute a clade together with A. guillouiae ( aphA6 ) and A. bereziniae devoid of aphA gene ( Figure 1 ). As A. rudis and A. gerneri are early branches, this is consistent with acquisition of an ancestral aphA gene at the split with the neighboring clade and loss by A. bereziniae . The chromosomal location of aphA8 and aphA9 and the genetic events for acquisition and loss of the aphA genes were also supported by the molecular phylogeny of these genes and of aphA6 . 8 
+
+Figure 1 
+
+Full size image 
+
+Phylogeny of the Acinetobacter genus based on the alignment of the protein families of the core genome. Triangles mark groups of taxa that are from the same species or have more than 95% average nucleotide identity values and, therefore, might be regarded as coming from the same species. The nodes in red have bootstrap support higher than 95%. The tree was rooted using two outgroup genomes. Curved arrows, acquisition or loss of aphA gene. Modified from Yoon et al. 7 A full color version of this figure is available at The Journal of Antibiotics journal online. 
+
+In A. rudis CIP 110305 T and DSM24031 (GenBank RefSeq: NZ_BBRX01000095), the aphA8 gene was located in an 11.5-kb contig. Two additional A. rudis strains, ANC 4156 and ANC 4130, were screened for the presence of aphA8 by PCR and were found to harbor the gene, which supports the notion that it is intrinsic to this species. In A. gerneri CIP 107464 T , aphA9 was located in a 201-kb contig that also carried the gene for ribosomal protein L31 confirming a chromosomal location of aphA9 . A. rudis and A. gerneri are rarely isolated and we could not screen for the presence of the genes in more strains. 
+
+The MICs of neomycin B and amikacin against the three strains were similarly low ( Table 2 ). A. gerneri CIP 107464 T was also susceptible to both aminoglycosides ( Table 2 ). 
+
+Table 2 Susceptibility to aminoglycosides 
+Full size table 
+
+The aphA genes from A. rudis CIP 110305 T and A. gerneri CIP 107464 T , cryptic or expressed at low levels in the original hosts, were expressed and functional after cloning under the control of the P lac promoter into E. coli TOP10 where they conferred resistance to substrate aminoglycosides ( Table 2 ). As for other APH(3′) enzymes, 8 the MICs of kanamycin were higher than those of amikacin ( Table 2 ). 
+
+As we were unable to detect identical or closely related proteins in species other than A. rudis and A. gerneri in our strain collection 7 and in the GenBank database, it is likely that dissemination of the corresponding genes did not occur within or outside the Acinetobacter genus. This is in contrast with the aac(6 ′ )-Ih gene originating in A. gyllenbergii, which has disseminated in the Acinetobacter genus (JAC 2016). 
+
+APH(3′) enzymes are largely spread in Gram-negative and -positive bacteria. They display homology with eukaryotic protein kinases, 12 , 13 probably as a consequence of an adaptative process during evolution. It has also been shown that APHs can phosphorylate several eukaryotic protein kinase substrates on serine residues. 14 In addition, APH enzymes are able to catalyze hydrolysis of ATP; 15 , 16 as these enzymes are produced constitutively and the turnover of ATP leads to a fitness cost. 17 Phosphorylation involves enzymatic transfer of the γ–phosphate of ATP to an hydroxyl group. The 3′ hydroxyl group of kanamycin B is missing in tobramycin (3′-deoxykanamycin B), which accounts for lack of resistance to tobramycin ( Table 2 ). Seven APH(3′) subtypes have been reported on the basis of their substrate recognition. 8 APH(3′)-I and -II of Gram-negative bacteria have no clinical consequences as neomycin and kanamycin are not used any more in therapy of systemic infections. In contrast, APH(3′)-III of Gram-positive cocci, APH(3′)-VI common in Acinetobacter and rare in enterobacteria and Pseudomonas and, at a lesser extent, APH(3′)-VII in Campylobacter all affect the activity of amikacin and are thus clinically relevant. APH(3′)-IV and -V are confined to the aminoglycoside-producing microorganisms. 
+
+Like APH(3′)-IIb from Pseudomonas aeruginosa , 18 -IIc from Stenotrophomonas maltophilia 19 and -VI from A. guillouiae , 8 respectively, APH(3′)-VIII and -IX are new, putatively species specific, enzymes. A. rudis and A. gerneri could, therefore, represent additional examples of environmental species that act as reservoirs of resistance genes. 
+
+The notion that aminoglycoside-modifying enzymes originate from antibiotic producers is based on horizontal gene transfer between soil microorganisms and pathogenic bacteria. 20 However, in other instances, and as discussed above, a physiological role is consistent with aphA being housekeeping genes. 21 Our data confirm that resistance genes can also be found in susceptible environmental bacteria. 
+
+Accession codes 
+
+Accessions 
+
+GenBank/EMBL/DDBJ 
+
+ENV16316 
+
+ENV34035 
+
+EPF73263 
+
+References 
+
+Dijkshoorn, L., Nemec, A. & Seifert, H. An increasing threat in hospitals: multidrug-resistant Acinetobacter baumannii . Nat. Rev. Microbiol. 5 , 939–951 (2007). 
+
+Article CAS Google Scholar 
+
+Goldstein, F. W. et al . Transferable plasmid-mediated antibiotic resistance in Acinetobacter . Plasmid 10 , 138–147 (1983). 
+
+Article CAS Google Scholar 
+
+Devaud, M., Kayser, F. H. & Bachi, B. Transposon-mediated multiple antibiotic resistance in Acinetobacter strains. Antimicrob. Agents Chemother. 22 , 323–329 (1982). 
+
+Article CAS Google Scholar 
+
+Fournier, P. E. et al . Comparative genomics of multidrug resistance in Acinetobacter baumannii . PLoS Genet. 2 , e7 (2006). 
+
+Article Google Scholar 
+
+Marchand, I., Damier-Piolle, L., Courvalin, P. & Lambert, T. Expression of the RND-type efflux pump AdeABC in Acinetobacter baumannii is regulated by the AdeRS two-component system. Antimicrob. Agents Chemother. 48 , 3298–3304 (2004). 
+
+Article CAS Google Scholar 
+
+Yu, Y. S., Zhou, H., Yang, Q., Chen, Y. G. & Li, L. J. Widespread occurrence of aminoglycoside resistance due to ArmA methylase in imipenem-resistant Acinetobacter baumannii isolates in China. J. Antimicrob. Chemother. 60 , 454–455 (2007). 
+
+Article CAS Google Scholar 
+
+Yoon, E. J. et al . Origin in Acinetobacter guillouiae and dissemination of the aminoglycoside-modifying enzyme Aph(3')-VI. MBio 5 , e01972–01914 (2014). 
+
+Article CAS Google Scholar 
+
+Vaz-Moreira, I. et al . Acinetobacter rudis sp. nov., isolated from raw milk and raw wastewater. Int. J. Syst. Evol. Microbiol. 61 , 2837–2843 (2011). 
+
+Article CAS Google Scholar 
+
+Touchon, M. et al . The genomic diversification of the whole Acinetobacter genus: origins, mechanisms, and consequences. Genome Biol. Evol. 6 , 2866–2882 (2014). 
+
+Article CAS Google Scholar 
+
+Clinical and Laboratory Standards Institute Methods for Dilution Antimicrobial Susceptibility Tests for Bacteria that Grow Aerobically M07–A10 Clinical and Laboratory Standards Institute, Wayne, PA, USA, (2015). 
+
+Altschul, S. F. et al . Gapped BLAST and PSI-BLAST: a new generation of protein database search programs. Nucleic Acids Res. 25 , 3389–3402 (1997). 
+
+Article CAS Google Scholar 
+
+Martin, P., Jullien, E. & Courvalin, P. Nucleotide sequence of Acinetobacter baumannii aphA-6 gene: evolutionary and functional implications of sequence homologies with nucleotide-binding proteins, kinases and other aminoglycoside-modifying enzymes. Mol. Microbiol. 2 , 615–625 (1988). 
+
+Article CAS Google Scholar 
+
+Hon, W. C. et al . Structure of an enzyme required for aminoglycoside antibiotic resistance reveals homology to eukaryotic protein kinases. Cell 89 , 887–895 (1997). 
+
+Article CAS Google Scholar 
+
+Daigle, D. M., McKay, G. A., Thompson, P. R. & Wright, G. D. Aminoglycoside antibiotic phosphotransferases are also serine protein kinases. Chem. Biol. 6 , 11–18 (1999). 
+
+Article CAS Google Scholar 
+
+Siregar, J. J., Lerner, S. A. & Mobashery, S. Purification and characterization of aminoglycoside 3'-phosphotransferase type IIa and kinetic comparison with a new mutant enzyme. Antimicrob. Agents Chemother. 38 , 641–647 (1994). 
+
+Article CAS Google Scholar 
+
+Siregar, J. J., Miroshnikov, K. & Mobashery, S. Purification, characterization, and investigation of the mechanism of aminoglycoside 3'-phosphotransferase type Ia. Biochemistry 34 , 12681–12688 (1995). 
+
+Article CAS Google Scholar 
+
+Kim, C., Cha, J. Y., Yan, H., Vakulenko, S. B. & Mobashery, S. Hydrolysis of ATP by aminoglycoside 3'-phosphotransferases: an unexpected cost to bacteria for harboring an antibiotic resistance enzyme. J. Biol. Chem. 281 , 6964–6969 (2006). 
+
+Article CAS Google Scholar 
+
+Hachler, H., Santanam, P. & Kayser, F. H. Sequence and characterization of a novel chromosomal aminoglycoside phosphotransferase gene, aph(3')-IIb , in Pseudomonas aeruginosa . Antimicrob. Agents Chemother. 40 , 1254–1256 (1996). 
+
+Article CAS Google Scholar 
+
+Okazaki, A. & Avison, M. B. Aph(3')-IIc, an aminoglycoside resistance determinant from Stenotrophomonas maltophilia . Antimicrob. Agents Chemother. 51 , 359–360 (2007). 
+
+Article CAS Google Scholar 
+
+Courvalin, P., Weisblum, B. & Davies, J. Aminoglycoside-modifying enzyme of an antibiotic-producing bacterium acts as a determinant of antibiotic resistance in Escherichia coli . Proc. Natl Acad. Sci. USA 74 , 999–1003 (1977). 
+
+Article CAS Google Scholar 
+
+Wright, G. D. Aminoglycoside-modifying enzymes. Curr. Opin. Microbiol. 2 , 499–503 (1999). 
+
+Article CAS Google Scholar 
+
+Download references 
+
+Acknowledgements 
+
+We thank A Nemec for the gift of A. rudis strains and T Lambert for helpful discussions. E-JY was supported by an unrestricted grant from Reckitt-Benckiser. This work is dedicated to Professor Julian Davies in whose laboratory PC was a research associate from 1974 to 1977 in the Department of Biochemistry at the University of Wisconsin-Madison. Julian was very stimulating, suggesting all sorts of new research projects, collaborations and advanced techniques. He was a pioneer in the study of the origin of antibiotic resistance genes and of the most clinically important resistance mechanisms in human bacterial pathogens. 
+
+Author information 
+
+Authors and Affiliations 
+
+Microbiology Department, Institut Pasteur, Unité des Agents Antibactériens, Paris, France 
+
+Eun-Jeong Yoon, Catherine Grillot-Courvalin & Patrice Courvalin 
+
+Authors 
+
+Eun-Jeong Yoon 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+Catherine Grillot-Courvalin 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+Patrice Courvalin 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+Corresponding author 
+
+Correspondence to Patrice Courvalin . 
+
+Ethics declarations 
+
+Competing interests 
+
+The authors declare no conflict of interest. 
+
+Rights and permissions 
+
+Reprints and permissions 
+
+About this article 
+
+Cite this article 
+
+Yoon, EJ., Grillot-Courvalin, C. & Courvalin, P. New aminoglycoside-modifying enzymes APH(3′)-VIII and APH(3′)-IX in Acinetobacter rudis and Acinetobacter gerneri . J Antibiot 70 , 400–403 (2017). https://doi.org/10.1038/ja.2016.144 
+
+Download citation 
+
+Received : 12 August 2016 
+
+Revised : 03 October 2016 
+
+Accepted : 31 October 2016 
+
+Published : 14 December 2016 
+
+Issue date : April 2017 
+
+DOI : https://doi.org/10.1038/ja.2016.144 
+
+Share this article 
+
+Anyone you share the following link with will be able to read this content: 
+Get shareable link 
+
+Sorry, a shareable link is not currently available for this article. 
+
+Copy shareable link to clipboard 
+
+Provided by the Springer Nature SharedIt content-sharing initiative 
+
+Download PDF 
+
+Associated content 
+
+Focus 
+
+Julian E Davies Special Issue: In appreciation of Julian's major strides in science, from streptomycin to the parvome 
+
+Advertisement 
+
+Explore content 
+
+Research articles 
+
+Reviews & Analysis 
+
+News & Comment 
+
+Current issue 
+
+Collections 
+
+Sign up for alerts 
+
+RSS feed 
+
+About the journal 
+
+Journal Information 
+
+Open Access Fees and Funding 
+
+About the Editors 
+
+Contact 
+
+About the Partners 
+
+For Advertisers 
+
+Subscribe 
+
+JA Ōmura Award winners 
+
+Featured Articles 
+
+Publish with us 
+
+For Authors & Referees 
+
+Language editing services 
+
+Open access funding 
+
+Submit manuscript 
+
+Search 
+Search articles by subject, keyword or author 
+
+Show results from All journals This journal 
+
+Search 
+
+Advanced search 
+
+Quick links 
+
+Explore articles by subject 
+
+Find a job 
+
+Guide to authors 
+
+Editorial policies 
+
+The Journal of Antibiotics ( J Antibiot ) 
+
+ISSN 1881-1469 (online) 
+
+ISSN 0021-8820 (print) 
+
+nature.com footer links 
+
+About Nature Portfolio 
+
+About us 
+
+Press releases 
+
+Press office 
+
+Contact us 
+
+Discover content 
+
+Journals A-Z 
+
+Articles by subject 
+
+protocols.io 
+
+Nature Index 
+
+Publishing policies 
+
+Nature portfolio policies 
+
+Open access 
+
+Author & Researcher services 
+
+Reprints & permissions 
+
+Research data 
+
+Language editing 
+
+Scientific editing 
+
+Nature Masterclasses 
+
+Research Solutions 
+
+Libraries & institutions 
+
+Librarian service & tools 
+
+Librarian portal 
+
+Open research 
+
+Recommend to library 
+
+Advertising & partnerships 
+
+Advertising 
+
+Partnerships & Services 
+
+Media kits 
+
+Branded
+ content 
+
+Professional development 
+
+Nature Awards 
+
+Nature Careers 
+
+Nature Conferences 
+
+Regional websites 
+
+Nature Africa 
+
+Nature China 
+
+Nature India 
+
+Nature Japan 
+
+Nature Middle East 
+
+Privacy
+ Policy 
+
+Use
+ of cookies 
+
+Your privacy choices/Manage cookies 
+
+Legal
+ notice 
+
+Accessibility
+ statement 
+
+Terms & Conditions 
+
+Your US state privacy rights 
+
+© 2026 Springer Nature Limited

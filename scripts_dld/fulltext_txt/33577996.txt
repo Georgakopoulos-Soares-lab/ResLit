@@ -1,0 +1,741 @@
+PMID: 33577996
+PMCID: 
+DOI: 10.1016/j.jgar.2021.01.020
+Title: Complete whole-genome sequence of the novel Pseudomonas species strain TUM18999, isolated from a patient with a burn wound in Japan.
+Journal: Journal of global antimicrobial resistance
+PubDate: 2021 Mar
+Authors: Yamada K, Aoki K, Nagasawa T, Sasaki M, Murakami H, Ishii T, Ujiie S, Morita T, Ishii Y, Tateda K
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S2213716521000321</prism:url><dc:identifier>doi:10.1016/j.jgar.2021.01.020</dc:identifier><eid>1-s2.0-S2213716521000321</eid><prism:doi>10.1016/j.jgar.2021.01.020</prism:doi><pii>S2213-7165(21)00032-1</pii><dc:title>Complete whole-genome sequence of the novel Pseudomonas species strain TUM18999, isolated from a patient with a burn wound in Japan </dc:title><prism:publicationName>Journal of Global Antimicrobial Resistance</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>dis</pubType><prism:issn>22137165</prism:issn><prism:volume>24</prism:volume><prism:startingPage>395</prism:startingPage><prism:endingPage>397</prism:endingPage><prism:pageRange>395-397</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2021-03-31</prism:coverDate><prism:coverDisplayDate>March 2021</prism:coverDisplayDate><prism:copyright>© 2021 The Author(s). Published by Elsevier Ltd on behalf of International Society for Antimicrobial Chemotherapy.</prism:copyright><prism:publisher>The Author(s). Published by Elsevier Ltd on behalf of International Society for Antimicrobial Chemotherapy.</prism:publisher><dc:creator>Yamada, Kageto</dc:creator><dc:creator>Aoki, Kotaro</dc:creator><dc:creator>Nagasawa, Tatsuya</dc:creator><dc:creator>Sasaki, Masakazu</dc:creator><dc:creator>Murakami, Hinako</dc:creator><dc:creator>Ishii, Toshiaki</dc:creator><dc:creator>Ujiie, Shinji</dc:creator><dc:creator>Morita, Toshisuke</dc:creator><dc:creator>Ishii, Yoshikazu</dc:creator><dc:creator>Tateda, Kazuhiro</dc:creator><dc:description>
+                  Objectives
+                  
+                     Pseudomonas is a Gram-negative bacterial genus with numerous member species. In this study, using whole-genome sequencing, we characterized a novel Pseudomonas sp. strain TUM18999, isolated as a pathogen from a human patient.
+               
+                  Methods
+                  The TUM18999 strain was isolated from a patient’s burn wound. Minimum inhibitory concentrations (MICs) were determined using the broth microdilution method. The whole-genome sequence was obtained using Miseq and MinION, and we conducted phylogenetic analysis based on single nucleotide polymorphisms of the core genome.
+               
+                  Results
+                  Antimicrobial susceptibility testing revealed a high ceftazidime MIC (32 mg/L). Moreover, carbapenemase production was confirmed using the modified carbapenem inactivation method. We found that the complete genome of TUM18999 was 6,826,062 bp long, with 6175 coding sequences (CDS) and a DNA G+C content (non-plasmid) of 66.4 mol%. Consistent with the high similarities with the 16S rRNA sequences of P. otitidis MCC10330 (98.6%) and P. alcaligenes NBRC 14159 (99.2%), similarities (&lt;90%) were also observed with the gyrB genes of both strains. The average nucleotide identities for P. alcaligenes NBRC 14159 and P. otitidis MCC10330 were also &lt;90%. The core-genome single nucleotide polymorphism phylogenetic tree indicated that the TUM18999 strain was most closely related to P. otitidis MCC10330. In addition, the TUM18999 strain carried the novel gene, species-specific subclass B3 metallo-β-lactamase (MBL), and its similarities with P. alcaligenes metallo-β-lactamase-1 (PAM-1) and P. otitidis metallo-β-lactamase-1 (POM-1) were 90.24% and 73.14%, respectively.
+               
+                  Conclusion
+                  We characterized the complete whole genome sequence of the novel Pseudomonas sp. TUM18999 carrying the novel gene species-specific subclass B3 MBL.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierWaived</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>
+                     Pseudomonas species</dcterms:subject><dcterms:subject>Metallo-β-lactamase</dcterms:subject><dcterms:subject>Average nucleotide identity</dcterms:subject><dcterms:subject>Whole-genome sequencing</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S2213716521000321" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S2213716521000321" rel="scidir"/></coredata><objects><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="472" height="421" size="24770">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716521000321-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="472" height="245" size="12727">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716521000321-gr2.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="566" height="188" size="30554">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716521000321-gr3.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="184" height="164" size="4383">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716521000321-gr1.sml?httpAccept=%2A%2F%2A</object><object ref="gr2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="114" size="3070">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716521000321-gr2.sml?httpAccept=%2A%2F%2A</object><object ref="gr3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="73" size="7424">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716521000321-gr3.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2091" height="1865" size="214864">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716521000321-gr1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2091" height="1086" size="104384">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716521000321-gr2_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2508" height="833" size="240230">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716521000321-gr3_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="am" category="standard" type="AAM-PDF" multimediatype="Acrobat PDF file" mimetype="application/pdf" size="1642907">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716521000321-am.pdf?httpAccept=%2A%2F%2A</object></objects><scopus-id>85101578750</scopus-id><scopus-eid>2-s2.0-85101578750</scopus-eid><pubmed-id>33577996</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/85101578750" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>286287</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291783</xocs:ssid>
+         <xocs:ssid type="subj">291832</xocs:ssid>
+         <xocs:ssid type="subj">291890</xocs:ssid>
+         <xocs:ssid type="subj">291891</xocs:ssid>
+         <xocs:ssid type="subj">291904</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Journal of Global Antimicrobial Resistance</xocs:srctitle>
+      <xocs:normalized-srctitle>JOURNALGLOBALANTIMICROBIALRESISTANCE</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20210209">2021-02-09</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20210209">2021-02-09</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20210225">2021-02-25</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20210225">2021-02-25</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2021-06-21T15:55:51</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S2213716521000321</xocs:eid>
+      <xocs:pii-formatted>S2213-7165(21)00032-1</xocs:pii-formatted>
+      <xocs:pii-unformatted>S2213716521000321</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.jgar.2021.01.020</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.2</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S2213716520X00051</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20210621">2021-06-21T15:34:15.233623Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20210301</xocs:date-search-begin>
+      <xocs:date-search-end>20210331</xocs:date-search-end>
+      <xocs:year-nav>2021</xocs:year-nav>
+      <xocs:indexeddate epoch="1612886808">2021-02-09T16:06:48.554759Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid fundingbodyid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder sponsoredaccesstype srctitle srctitlenorm srctype ssids alllist content oa subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure body acknowledge affil articletitle auth authfirstini authfull authkeywords authlast primabst pubtype ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>2213-7165</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>22137165</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:sponsored-access-type>UNLIMITED</xocs:sponsored-access-type>
+      <xocs:funding-body-id>NONE</xocs:funding-body-id>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>24</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>24</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 24</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>64</xocs:sort-order>
+      <xocs:first-fp>395</xocs:first-fp>
+      <xocs:last-lp>397</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>395</xocs:first-page>
+         <xocs:last-page>397</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>202103</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>March 2021</xocs:cover-date-text>
+      <xocs:cover-date-start>2021-03-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2021-03-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2021</xocs:cover-date-year>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Genome notes</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>simple-article</xocs:document-type>
+      <xocs:document-subtype>dis</xocs:document-subtype>
+      <xocs:copyright-line>© 2021 The Author(s). Published by Elsevier Ltd on behalf of International Society for Antimicrobial Chemotherapy.</xocs:copyright-line>
+      <xocs:normalized-article-title>COMPLETEWHOLEGENOMESEQUENCENOVELPSEUDOMONASSPECIESSTRAINTUM18999ISOLATEDAPATIENTABURNWOUNDINJAPAN</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>YAMADA</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>K</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Author contributions</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Funding</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Conflict of interest</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>Acknowledgment</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>PEIX</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2018</xocs:ref-pub-year>
+            <xocs:ref-first-fp>106</xocs:ref-first-fp>
+            <xocs:ref-last-lp>116</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0010">
+            <xocs:ref-normalized-surname>GOMILA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2015</xocs:ref-pub-year>
+            <xocs:ref-first-fp>214</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0015">
+            <xocs:ref-normalized-surname>BUSH</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>969</xocs:ref-first-fp>
+            <xocs:ref-last-lp>976</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0020">
+            <xocs:ref-normalized-surname>YAMADA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2017</xocs:ref-pub-year>
+            <xocs:ref-first-fp>112</xocs:ref-first-fp>
+            <xocs:ref-last-lp>115</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>YAMADAX2021X395</xocs:refkey3>
+         <xocs:refkey4lp>YAMADAX2021X395X397</xocs:refkey4lp>
+         <xocs:refkey4ai>YAMADAX2021X395XK</xocs:refkey4ai>
+         <xocs:refkey5>YAMADAX2021X395X397XK</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2021-02-04T14:34:30Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierWaived</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2021 The Author(s). Published by Elsevier Ltd on behalf of International Society for Antimicrobial Chemotherapy.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:funding-list has-funding-info="1">
+         <xocs:funding-addon-generated-timestamp>2021-05-29T09:03:28.625Z</xocs:funding-addon-generated-timestamp>
+         <xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined</xocs:funding-addon-type>
+      </xocs:funding-list>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S2213-7165(21)00032-1</xocs:pii-formatted>
+         <xocs:pii-unformatted>S2213716521000321</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S2213716521000321</xocs:eid>
+         <xocs:doi>10.1016/j.jgar.2021.01.020</xocs:doi>
+         <xocs:cid>286287</xocs:cid>
+         <xocs:timestamp>2021-06-21T15:34:15.233623Z</xocs:timestamp>
+         <xocs:cover-date-start>2021-03-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2021-03-31</xocs:cover-date-end>
+         <xocs:sponsored-access-type>UNLIMITED</xocs:sponsored-access-type>
+         <xocs:funding-body-id>NONE</xocs:funding-body-id>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S2213716521000321-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716521000321/MAIN/application/pdf/e723047a12aa3662e2452bd215bc25aa/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>560031</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>3</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S2213716521000321-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716521000321/PREVIEW/image/png/1d6fe8103eca3aa3eb64dfde442eef3b/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>63119</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716521000321-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716521000321/gr1/DOWNSAMPLED/image/jpeg/71eb1aa33f8dead6c9e903f33cc6fdc7/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>24770</xocs:filesize>
+               <xocs:pixel-height>421</xocs:pixel-height>
+               <xocs:pixel-width>472</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716521000321-gr2.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716521000321/gr2/DOWNSAMPLED/image/jpeg/241795df074f196af9ca5def1d6602e0/gr2.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>12727</xocs:filesize>
+               <xocs:pixel-height>245</xocs:pixel-height>
+               <xocs:pixel-width>472</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716521000321-gr3.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716521000321/gr3/DOWNSAMPLED/image/jpeg/927de1ceae32e9d8cd23c7a4c0a621a7/gr3.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>30554</xocs:filesize>
+               <xocs:pixel-height>188</xocs:pixel-height>
+               <xocs:pixel-width>566</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716521000321-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716521000321/gr1/THUMBNAIL/image/gif/2e238361dad9d5e5e94b545c309c4326/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>4383</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>184</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716521000321-gr2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716521000321/gr2/THUMBNAIL/image/gif/af97bfde0e77bf1da492a87a4b8db568/gr2.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>3070</xocs:filesize>
+               <xocs:pixel-height>114</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716521000321-gr3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716521000321/gr3/THUMBNAIL/image/gif/c4e05282d84c55eba0221789fdf63771/gr3.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>7424</xocs:filesize>
+               <xocs:pixel-height>73</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716521000321-gr1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716521000321/gr1/HIGHRES/image/jpeg/2d0394bcdcb3e39b9124ec464a3d46a5/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>214864</xocs:filesize>
+               <xocs:pixel-height>1865</xocs:pixel-height>
+               <xocs:pixel-width>2091</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716521000321-gr2_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716521000321/gr2/HIGHRES/image/jpeg/eb696e9b4308a8c0200cef5d28b824b3/gr2_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>104384</xocs:filesize>
+               <xocs:pixel-height>1086</xocs:pixel-height>
+               <xocs:pixel-width>2091</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716521000321-gr3_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716521000321/gr3/HIGHRES/image/jpeg/643ade592f3d2d4e4929fb0cc6684bbf/gr3_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>240230</xocs:filesize>
+               <xocs:pixel-height>833</xocs:pixel-height>
+               <xocs:pixel-width>2508</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716521000321-am.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:101NK2SCW7N/MAIN/application/pdf/5cae8f825d3ad889825bcbdb6edd55ca/am.pdf</xocs:ucs-locator>
+               <xocs:file-basename>am</xocs:file-basename>
+               <xocs:filename>am.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>false</xocs:pdf-optimized>
+               <xocs:filesize>1642907</xocs:filesize>
+               <xocs:attachment-type>AAM-PDF</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <simple-article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.6" xml:lang="en" docsubtype="dis">
+         <item-info>
+            <jid>JGAR</jid>
+            <aid>1483</aid>
+            <ce:pii>S2213-7165(21)00032-1</ce:pii>
+            <ce:doi>10.1016/j.jgar.2021.01.020</ce:doi>
+            <ce:copyright type="other" year="2021">The Author(s)</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig0005">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption id="cap0005">
+                  <ce:simple-para id="spar0005" view="all">Phylogenetic tree of 14 <ce:italic>Pseudomonas</ce:italic> species constructed using maximum-likelihood phylogenetic analysis based on single nucleotide polymorphisms in the core genome. The core-genome region was 10.1% (691 215/6 826,062 bp) of the genome of the TUM18999 strain. The scale distance corresponds to the number of substitutions per site. The bootstrapping values were all 100%. The GenBank accession numbers were as follows: <ce:italic>Pseudomonas</ce:italic> species TUM18999, AP023189; <ce:italic>P. otitidis</ce:italic> MCC10330, FOJP00000000; <ce:italic>P. furukawaii</ce:italic> KF707, AP014862; <ce:italic>P. resinovorans</ce:italic> NBRC 106553, NC_021499<ce:italic>; P. alcaligenes</ce:italic> NBRC 14159, BATI00000000; <ce:italic>P. thermotolerans</ce:italic> DSM 14292, KB822599-KB822673; <ce:italic>P. flexibilis</ce:italic> ATCC 29606, FTMC00000000; <ce:italic>P. oryzae</ce:italic> KCTC 32247, LT629751; <ce:italic>P. aeruginosa</ce:italic> DSM 5071, CP012001; <ce:italic>P. jinjuensis</ce:italic> JCM 21621, FNIJ00000000; <ce:italic>P. nitroreducens</ce:italic> DSM 14399, NZ_JAAQXU00000000; <ce:italic>P. knackmussii</ce:italic> B13, HG322950; <ce:italic>P. citronellolis</ce:italic> DSM 50332, PISI00000000<ce:italic>; P. delhiensis</ce:italic> CCM 7361, FNEC00000000.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="at0005" role="short">Fig. 1</ce:alt-text>
+               <ce:link locator="gr1" xlink:href="pii:S2213716521000321/gr1" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4"/>
+            </ce:figure>
+            <ce:figure id="fig0010">
+               <ce:label>Fig. 2</ce:label>
+               <ce:caption id="cap0010">
+                  <ce:simple-para id="spar0010" view="all">Phylogenic tree of subclass B3 metallo-β-lactamase (MBL) based on the amino acid sequence. The phylogenetic tree was inferred using the maximum-likelihood method with bootstrapping with 1000 replications and was constructed using MEGA X; the IMP-1 MBL belonging to subclass B1 MBL is an outgroup.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="at0010" role="short">Fig. 2</ce:alt-text>
+               <ce:link locator="gr2" xlink:href="pii:S2213716521000321/gr2" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4"/>
+            </ce:figure>
+            <ce:figure id="fig0015">
+               <ce:label>Fig. 3</ce:label>
+               <ce:caption id="cap0015">
+                  <ce:simple-para id="spar0015" view="all">Comparison of partial chromosomes of <ce:italic>Pseudomonas</ce:italic> species contained subclass B3 metallo-beta-lactamase (MBL) gene drawn with EasyFig, version 2.2.2. The block arrows indicate confirmed or putative open reading frames (ORFs) and their orientation. The arrow size is proportional to the predicted ORF length. The pink arrows represent MBL genes, and the blue arrows represent other protein coding sequences which did not contain an integrase or a transposase.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="at0015" role="short">Fig. 3</ce:alt-text>
+               <ce:link locator="gr3" xlink:href="pii:S2213716521000321/gr3" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4"/>
+            </ce:figure>
+         </ce:floats>
+         <simple-head>
+            <ce:dochead id="doh0005">
+               <ce:textfn>Genome Note</ce:textfn>
+            </ce:dochead>
+            <ce:title id="tit0005">Complete whole-genome sequence of the novel <ce:italic>Pseudomonas</ce:italic> species strain TUM18999, isolated from a patient with a burn wound in Japan</ce:title>
+            <ce:author-group id="aug0005">
+               <ce:author id="aut0005" author-id="S2213716521000321-fcf2c560bee70c610f93e354f2988f90">
+                  <ce:given-name>Kageto</ce:given-name>
+                  <ce:surname>Yamada</ce:surname>
+                  <ce:cross-ref id="crf0005" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0010" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0015" refid="cor0005">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="aut0010" author-id="S2213716521000321-ee6576a0f80d9aaa9f17540d814912a6">
+                  <ce:given-name>Kotaro</ce:given-name>
+                  <ce:surname>Aoki</ce:surname>
+                  <ce:cross-ref id="crf0020" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0015" author-id="S2213716521000321-0945c4c4d561dd65660fb0bac4e64fdc">
+                  <ce:given-name>Tatsuya</ce:given-name>
+                  <ce:surname>Nagasawa</ce:surname>
+                  <ce:cross-ref id="crf0025" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0020" author-id="S2213716521000321-7a54b9cc3f3d67dcb44aa561860ffa4c">
+                  <ce:given-name>Masakazu</ce:given-name>
+                  <ce:surname>Sasaki</ce:surname>
+                  <ce:cross-ref id="crf0030" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0035" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0025" author-id="S2213716521000321-28fee48b55df18e0ac54b21ab048853d">
+                  <ce:given-name>Hinako</ce:given-name>
+                  <ce:surname>Murakami</ce:surname>
+                  <ce:cross-ref id="crf0040" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0030" author-id="S2213716521000321-1d2f414ff9e0d4ba44890c9d56fd509f">
+                  <ce:given-name>Toshiaki</ce:given-name>
+                  <ce:surname>Ishii</ce:surname>
+                  <ce:cross-ref id="crf0045" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0035" author-id="S2213716521000321-4d104118b09bcc9ca2065dc19842ff68">
+                  <ce:given-name>Shinji</ce:given-name>
+                  <ce:surname>Ujiie</ce:surname>
+                  <ce:cross-ref id="crf0050" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0040" author-id="S2213716521000321-e68b37e88eb13fbfdc30c638749e5905">
+                  <ce:given-name>Toshisuke</ce:given-name>
+                  <ce:surname>Morita</ce:surname>
+                  <ce:cross-ref id="crf0055" refid="aff0015">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0045" author-id="S2213716521000321-f7264fe626d92a2772850a0532eff8bf">
+                  <ce:given-name>Yoshikazu</ce:given-name>
+                  <ce:surname>Ishii</ce:surname>
+                  <ce:cross-ref id="crf0060" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0050" author-id="S2213716521000321-d8a1c213bee7692994fa6878d55ca71a">
+                  <ce:given-name>Kazuhiro</ce:given-name>
+                  <ce:surname>Tateda</ce:surname>
+                  <ce:cross-ref id="crf0065" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="aff0005" affiliation-id="S2213716521000321-938c0cb82f2b7ae3c1f54a6441fded28">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>Department of Clinical Laboratory, Toho University Omori Medical Center, 6-11-1 Omori-nishi, Ota-ku, Tokyo, 143-8541, Japan</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Clinical Laboratory</sa:organization>
+                     <sa:organization>Toho University Omori Medical Center</sa:organization>
+                     <sa:address-line>6-11-1 Omori-nishi</sa:address-line>
+                     <sa:address-line>Ota-ku</sa:address-line>
+                     <sa:city>Tokyo</sa:city>
+                     <sa:postal-code>143-8541</sa:postal-code>
+                     <sa:country>Japan</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="sot0005">Department of Clinical Laboratory, Toho University Omori Medical Center, 6-11-1 Omori-nishi, Ota-ku, Tokyo 143-8541, Japan</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="aff0010" affiliation-id="S2213716521000321-7db9b3f3379ea5f816952b87a2f6da5f">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>Department of Microbiology and Infectious Diseases, Toho University School of Medicine, 5-21-16, Omori-nishi, Ota-ku, Tokyo, 143-8540, Japan</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Microbiology and Infectious Diseases</sa:organization>
+                     <sa:organization>Toho University School of Medicine</sa:organization>
+                     <sa:address-line>5-21-16, Omori-nishi</sa:address-line>
+                     <sa:address-line>Ota-ku</sa:address-line>
+                     <sa:city>Tokyo</sa:city>
+                     <sa:postal-code>143-8540</sa:postal-code>
+                     <sa:country>Japan</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="sot0010">Department of Microbiology and Infectious Diseases, Toho University School of Medicine, 5-21-16, Omori-nishi, Ota-ku, Tokyo, 143-8540, Japan</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="aff0015" affiliation-id="S2213716521000321-6a28b63d90702046a1d4a81e90e489e3">
+                  <ce:label>c</ce:label>
+                  <ce:textfn>Department of Laboratory Medicine, Toho University Graduate School of Medicine, 5-21-16, Omori-nishi, Ota-ku, Tokyo, 143-8540, Japan</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Laboratory Medicine</sa:organization>
+                     <sa:organization>Toho University Graduate School of Medicine</sa:organization>
+                     <sa:address-line>5-21-16, Omori-nishi</sa:address-line>
+                     <sa:address-line>Ota-ku</sa:address-line>
+                     <sa:city>Tokyo</sa:city>
+                     <sa:postal-code>143-8540</sa:postal-code>
+                     <sa:country>Japan</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="sot0015">Department of Laboratory Medicine, Toho University Graduate School of Medicine, 5-21-16, Omori-nishi, Ota-ku, Tokyo, 143-8540, Japan</ce:source-text>
+               </ce:affiliation>
+               <ce:correspondence id="cor0005">
+                  <ce:label>⁎</ce:label>
+                  <ce:text>Corresponding author at: Department of Clinical Laboratory, Toho University Omori Medical Center, 6-11-1 Omori-nishi, Ota-ku, Tokyo, 143-8541, Japan.</ce:text>
+                  <sa:affiliation>
+                     <sa:organization>Department of Clinical Laboratory</sa:organization>
+                     <sa:organization>Toho University Omori Medical Center</sa:organization>
+                     <sa:address-line>6-11-1 Omori-nishi, Ota-ku</sa:address-line>
+                     <sa:city>Tokyo</sa:city>
+                     <sa:postal-code>143-8541</sa:postal-code>
+                     <sa:country>Japan</sa:country>
+                  </sa:affiliation>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="10" month="11" year="2020"/>
+            <ce:date-revised day="30" month="12" year="2020"/>
+            <ce:date-accepted day="18" month="1" year="2021"/>
+            <ce:abstract id="abs0005" view="all" class="author"><ce:abstract-sec id="abst0005" view="all">
+                  <ce:section-title id="sect0010">Objectives</ce:section-title>
+                  <ce:simple-para id="spar0020" view="all">
+                     <ce:italic>Pseudomonas</ce:italic> is a Gram-negative bacterial genus with numerous member species. In this study, using whole-genome sequencing, we characterized a novel <ce:italic>Pseudomonas</ce:italic> sp. strain TUM18999, isolated as a pathogen from a human patient.</ce:simple-para>
+               </ce:abstract-sec><ce:abstract-sec id="abst0010" role="materials-methods" view="all">
+                  <ce:section-title id="sect0015">Methods</ce:section-title>
+                  <ce:simple-para id="spar0025" view="all">The TUM18999 strain was isolated from a patient’s burn wound. Minimum inhibitory concentrations (MICs) were determined using the broth microdilution method. The whole-genome sequence was obtained using Miseq and MinION, and we conducted phylogenetic analysis based on single nucleotide polymorphisms of the core genome.</ce:simple-para>
+               </ce:abstract-sec><ce:abstract-sec id="abst0015" role="results" view="all">
+                  <ce:section-title id="sect0020">Results</ce:section-title>
+                  <ce:simple-para id="spar0030" view="all">Antimicrobial susceptibility testing revealed a high ceftazidime MIC (32 mg/L). Moreover, carbapenemase production was confirmed using the modified carbapenem inactivation method. We found that the complete genome of TUM18999 was 6,826,062 bp long, with 6175 coding sequences (CDS) and a DNA G+C content (non-plasmid) of 66.4 mol%. Consistent with the high similarities with the 16S rRNA sequences of <ce:italic>P. otitidis</ce:italic> MCC10330 (98.6%) and <ce:italic>P. alcaligenes</ce:italic> NBRC 14159 (99.2%), similarities (&lt;90%) were also observed with the <ce:italic>gyrB</ce:italic> genes of both strains. The average nucleotide identities for <ce:italic>P. alcaligenes</ce:italic> NBRC 14159 and <ce:italic>P. otitidis</ce:italic> MCC10330 were also &lt;90%. The core-genome single nucleotide polymorphism phylogenetic tree indicated that the TUM18999 strain was most closely related to <ce:italic>P. otitidis</ce:italic> MCC10330. In addition, the TUM18999 strain carried the novel gene, species-specific subclass B3 metallo-β-lactamase (MBL), and its similarities with <ce:italic>P. alcaligenes</ce:italic> metallo-β-lactamase-1 (PAM-1) and <ce:italic>P. otitidis</ce:italic> metallo-β-lactamase-1 (POM-1) were 90.24% and 73.14%, respectively.</ce:simple-para>
+               </ce:abstract-sec><ce:abstract-sec id="abst0020" role="conclusion" view="all">
+                  <ce:section-title id="sect0025">Conclusion</ce:section-title>
+                  <ce:simple-para id="spar0035" view="all">We characterized the complete whole genome sequence of the novel <ce:italic>Pseudomonas</ce:italic> sp. TUM18999 carrying the novel gene species-specific subclass B3 MBL.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="kwd0005" class="keyword" view="all">
+               <ce:section-title id="sect0030">Keywords</ce:section-title>
+               <ce:keyword id="kw0005">
+                  <ce:text>
+                     <ce:italic>Pseudomonas</ce:italic> species</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0010">
+                  <ce:text>Metallo-β-lactamase</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0015">
+                  <ce:text>Average nucleotide identity</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0020">
+                  <ce:text>Whole-genome sequencing</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </simple-head>
+         <body view="all">
+            <ce:sections>
+               <ce:para id="par0005" view="all">
+                  <ce:italic>Pseudomonas</ce:italic> is a Gram-negative bacterial genus that is widely distributed in animals, plants, soil, and aquatic environments and comprises many species <ce:cross-ref id="crf0070" refid="bib0005">[1]</ce:cross-ref>. <ce:italic>Pseudomonas</ce:italic> is a clinically important pathogen as it causes a wide range of severe nosocomial infections, mainly affecting immunocompromised patients. Because of the development of various molecular species identification techniques, such as multi-locus sequence analysis and whole-genome sequencing, the number of new species registrations is increasing <ce:cross-ref id="crf0075" refid="bib0010">[2]</ce:cross-ref>. Metallo-β-lactamases (MBLs), belonging to the broad-spectrum class B β-lactamases, hydrolyse most β-lactam families, including carbapenems <ce:cross-ref id="crf0080" refid="bib0015">[3]</ce:cross-ref>. Therefore, detection of these potent β-lactamases is important to understand antimicrobial resistance and improve medical treatment.</ce:para>
+               <ce:para id="par0010" view="all">Herein, we report the complete whole-genome sequence of a novel <ce:italic>Pseudomonas</ce:italic> species strain TUM18999 belonging to the <ce:italic>Pseudomonas aeruginosa</ce:italic> group, which includes <ce:italic>P. aeruginosa</ce:italic>, <ce:italic>Pseudomonas alcaligenes</ce:italic>, and <ce:italic>Pseudomonas otitidis</ce:italic>.</ce:para>
+               <ce:para id="par0015" view="all">The TUM18999 strain was isolated as a pathogen from a skin swab of the burn wound of a patient admitted to the Toho University Omori Medical Center in 2018. The strain was incubated overnight on 5% sheep blood agar at 35 °C under 5% CO<ce:inf loc="post">2</ce:inf>. The colonies showed rough, pastel-green oxidase-positive cells, which were similar to those of the <ce:italic>P. aeruginosa</ce:italic> group. Primary species identification, including carbohydrate utilization, using the VITEK®2 compact system (bioMérieux, Marcy-l'Étoile, Rhône, France), tentatively identified the strain as <ce:italic>Pseudomonas fluorescens</ce:italic>. Then, the antimicrobial susceptibility of TUM18999 was assessed using the broth microdilution method according to the Clinical and Laboratory Standards Institute methodology (document M07-A10). The minimum inhibitory concentrations (MICs) (mg/L) were determined as follows: piperacillin, 16; cephalothin, &gt;128; ceftazidime, 32; cefepime, 1; imipenem, 0.5; meropenem, 0.25; aztreonam, &lt;0.125. We attempted to detect the production of carbapenemases using the modified carbapenem inactivation method (mCIM) and sodium mercaptoacetate-combination mCIM (SMA-mCIM) <ce:cross-ref id="crf0085" refid="bib0020">[4]</ce:cross-ref>. Both mCIM and SMA-mCIM were positive, and therefore, phenotypic MBL production in TUM18999 was confirmed.</ce:para>
+               <ce:para id="par0020" view="all">The whole-genome sequence (WGS) was determined using Miseq (Illumina, San Diego, CA, USA) and MinION (Oxford Nanopore Technologies, Oxford, UK), and genomic DNA was extracted using the NucleoBond︎® AXG Column (TaKaRa Bio, Shiga, Japan) for MinION and NucleoSpin︎® Microbial DNA (TaKaRa Bio, Shiga, Japan) for Miseq. DNA libraries were generated using a 1D Rapid Barcoding Kit (Oxford Nanopore Technologies, Oxford, UK) and QIAseq FX DNA Library Kit (Qiagen, Hilden, Germany) and sequenced using an R9.4 flow cell (Oxford Nanopore Technologies, Oxford, UK) and Miseq Reagent Kit v3 with 300-bp paired-ends for MinION and Miseq, respectively. A hybrid de novo assembly was conducted using Unicycler v0.4.8-beta. The contigs were polished thrice with Pilon. The assembly genome was obtained with one circular chromosome with an average sequence depth of 304x. Gene annotation was performed using the DDBJ Fast Annotation and Submission Tool (DFAST version 1.1.15; <ce:inter-ref id="intr0005" xlink:href="https://dfast.nig.ac.jp/" xlink:type="simple">https://dfast.nig.ac.jp/</ce:inter-ref>). The TUM18999 strain was found to have a 66.4 mol% G+C circular chromosome of 6,826,062 bp with 6175 CDSs and four copies of ribosomal RNA operons. Additionally, the TUM18999 strain did not carry any plasmid.</ce:para>
+               <ce:para id="par0025" view="all">The partial 16S rRNA gene (1459 bp) similarity check was conducted using the EzBioCloud database (<ce:inter-ref id="intr0010" xlink:href="https://www.ezbiocloud.net/" xlink:type="simple">https://www.ezbiocloud.net/</ce:inter-ref>). We obtained high similarities of 99.2% and 98.6% with <ce:italic>P. alcaligenes</ce:italic> NBRC 14159 and <ce:italic>P. otitidis</ce:italic> MCC10330, respectively. In contrast, sequence similarity values of the <ce:italic>gyrB</ce:italic> genes with those in <ce:italic>P. alcaligenes</ce:italic> NBRC 14159 and <ce:italic>P. otitidis</ce:italic> MCC10330 were determined to be &lt;90% using pairwise alignment by EMBOSS Water (<ce:inter-ref id="intr0015" xlink:href="https://www.ebi.ac.uk/Tools/psa/emboss_water/" xlink:type="simple">https://www.ebi.ac.uk/Tools/psa/emboss_water/</ce:inter-ref>). Additionally, the average nucleotide identities against <ce:italic>P. otitidis</ce:italic> MCC10330, <ce:italic>P. alcaligenes</ce:italic> NBRC 14159, <ce:italic>Pseudomonas resinovorans</ce:italic> NBRC 106553, <ce:italic>Pseudomonas furukawaii</ce:italic> KF707, <ce:italic>Pseudomonas citronellolis</ce:italic> DSM 50332, <ce:italic>Pseudomonas oryzae</ce:italic> KCTC 32247, <ce:italic>Pseudomonas knackmussii</ce:italic> B13, and <ce:italic>P. aeruginosa</ce:italic> DSM 5071 were all &lt;90%. We also conducted phylogenetic analysis based on core genome single nucleotide polymorphisms using WGS. Briefly, WGS of <ce:italic>Pseudomonas</ce:italic> sp. type strains were aligned to the WGS of the TUM18999 strain, using a Burrows-Wheeler Aligner (BWA) with the MEM option. We constructed a core-genome alignment using SAMtools (version 1.11) mpileup and VarScan (2.3.9) mpileup2cns, and then constructed a maximum-likelihood phylogenetic tree using RAxML. This identified the TUM18999 strain as being most closely related to <ce:italic>P. otitidis</ce:italic> MCC10330 (<ce:cross-ref id="crf0090" refid="fig0005">Fig. 1</ce:cross-ref>
+                  <ce:float-anchor refid="fig0005"/>). These results suggest that TUM18999 is a novel <ce:italic>Pseudomonas</ce:italic> species.</ce:para>
+               <ce:para id="par0030" view="all">In this study, we identified a novel MBL gene (located at 2,672,031 to 2,672,894 with GenBank accession no. AP023189) in the TUM18999 chromosome. The amino acid similarities of MBL with PAM-1 and POM-1 were 90.24% and 73.14%, respectively, indicating that the novel MBL in the TUM18999 strain belongs to subclass B3 MBL (<ce:cross-ref id="crf0095" refid="fig0010">Fig. 2</ce:cross-ref>
+                  <ce:float-anchor refid="fig0010"/>). Moreover, we compared three <ce:italic>Pseudomonas</ce:italic> chromosomes with peripheral MBL genes using EasyFig, version 2.2.2 (<ce:cross-ref id="crf0100" refid="fig0015">Fig. 3</ce:cross-ref>
+                  <ce:float-anchor refid="fig0015"/>). The peripheral sequences with MBL genes were well conserved between the TUM18999 strain and closely related PAM-1-producing <ce:italic>Pseudomonas</ce:italic> sp., and transfer factors such as integrase and transposase were not found in these contigs. These results suggest that the novel MBL was a species-specific subclass B3 MBL. Because MBL is a broad-spectrum β-lactamase <ce:cross-ref id="crf0105" refid="bib0015">[3]</ce:cross-ref>, it confers major β-lactam resistance and is thus therapeutically important in human infections.</ce:para>
+               <ce:para id="par0035" view="all">In conclusion, we characterized the complete WGS of the novel <ce:italic>Pseudomonas</ce:italic> sp. TUM18999 carrying the novel subclass B3 MBL gene. Further studies are needed to determine its phenotype for new species registration as well as the enzymological characteristics of its novel MBL.</ce:para>
+               <ce:para id="par0040" view="all">The genome sequence of the <ce:italic>Pseudomonas</ce:italic> species strain TUM18999 was deposited at DDBJ/ENA/GenBank under BioProject number PRJDB9669 and accession number AP023189. Raw sequence data for this strain were deposited under SRA accession numbers DRR236258 (MinION) and DRR236257 (Miseq).</ce:para>
+               <ce:section id="sec0005" view="all">
+                  <ce:section-title id="sect0035">Author contributions</ce:section-title>
+                  <ce:para id="par0045" view="all">KY helped in writing the original draft; he was also involved in the conceptualization, methodology, and formal analysis of this paper. KA and TN were involved in investigation. KA contributed resources and software. MS, HM, TI, SU, TM, YI, and KT contributed to reviewing and editing and were also involved in the formal analysis and writing of the original draft.</ce:para>
+               </ce:section>
+               <ce:section id="sec0010" role="acknowledgement" view="all">
+                  <ce:section-title id="sect0040">Funding</ce:section-title>
+                  <ce:para id="par0050" view="all">None.</ce:para>
+               </ce:section>
+               <ce:section id="sec0015" role="acknowledgement" view="all">
+                  <ce:section-title id="sect0045">Conflict of interest</ce:section-title>
+                  <ce:para id="par0055" view="all">None declared.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:acknowledgment id="ack0005" view="all">
+               <ce:section-title id="sect0050">Acknowledgment</ce:section-title>
+               <ce:para id="par0060" view="all">We would like to thank Editage for the language editing of our manuscript.</ce:para>
+            </ce:acknowledgment>
+         </body>
+         <simple-tail view="all">
+            <ce:bibliography id="bibl0005" view="all">
+               <ce:section-title id="sect0055">References</ce:section-title>
+               <ce:bibliography-sec id="bibs0005" view="all">
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Peix</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.H.</ce:given-name>
+                                 <ce:surname>Ramírez-Bahena</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Velázquez</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The current status on the taxonomy of <ce:italic>Pseudomonas</ce:italic> revisited: an update</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Infect Genet Evol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>57</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2018</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>106</sb:first-page>
+                              <sb:last-page>116</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sot0020">Peix A, Ramírez-Bahena MH, and Velázquez E. The current status on the taxonomy of Pseudomonas revisited: An update. Infect Genet Evol. 2018;57:106-–16.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0010">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference id="sbref0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Gomila</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Peña</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Mulet</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Lalucat</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>García-Valdés</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Phylogenomics and systematics in <ce:italic>Pseudomonas</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Front Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>6</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2015</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>214</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sot0025">Gomila M, Peña A, Mulet M, Lalucat J, and García-Valdés E. Phylogenomics and systematics in Pseudomonas. Front Microbiol. 2015;6:214.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0015">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference id="sbref0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Bush</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.A.</ce:given-name>
+                                 <ce:surname>Jacoby</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Updated functional classification of beta-lactamases</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>54</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>969</sb:first-page>
+                              <sb:last-page>976</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sot0030">Bush K and Jacoby GA. Updated functional classification of beta-lactamases. Antimicrob Agents Chemother. 2010;54:969-–76.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0020">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference id="sbref0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Yamada</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Kashiwa</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Arai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Nagano</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Saito</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Evaluation of the modified carbapenem inactivation method and sodium mercaptoacetate-combination method for the detection of metallo-β-lactamase production by carbapenemase-producing <ce:italic>Enterobacteriaceae</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Microbiol Methods</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>132</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2017</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>112</sb:first-page>
+                              <sb:last-page>115</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sot0035">Yamada K, Kashiwa M, Arai K, Nagano N, and Saito R. Evaluation of the modified carbapenem inactivation method and sodium mercaptoacetate-combination method for the detection of metallo-β-lactamase production by carbapenemase-producing Enterobacteriaceae. J Microbiol Methods. 2017;132:112-15. 2017;132:112–15.</ce:source-text>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </simple-tail>
+      </simple-article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

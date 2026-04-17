@@ -1,0 +1,32 @@
+PMID: 1650733
+PMCID: 
+DOI: 10.1016/0378-1119(91)90530-o
+Title: Characterization of the blaCARB-3 gene encoding the carbenicillinase-3 beta-lactamase of Pseudomonas aeruginosa.
+Journal: Gene
+PubDate: 1991 Jun 15
+Authors: Lachapelle J, Dufresne J, Levesque RC
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/037811199190530O</prism:url><dc:identifier>doi:10.1016/0378-1119(91)90530-O</dc:identifier><eid>1-s2.0-037811199190530O</eid><prism:doi>10.1016/0378-1119(91)90530-O</prism:doi><pii>0378-1119(91)90530-O</pii><dc:title>Characterization of the bla
+               CARB-3 gene encoding the carbenicillinase-3 β-lactamase of Pseudomonas aeruginosa
+             </dc:title><prism:publicationName>Gene</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>03781119</prism:issn><prism:volume>102</prism:volume><prism:issueIdentifier>1</prism:issueIdentifier><prism:startingPage>7</prism:startingPage><prism:endingPage>12</prism:endingPage><prism:pageRange>7-12</prism:pageRange><prism:number>1</prism:number><dc:format>text/xml</dc:format><prism:coverDate>1991-06-15</prism:coverDate><prism:coverDisplayDate>15 June 1991</prism:coverDisplayDate><prism:copyright>Copyright © 1991 Published by Elsevier B.V.</prism:copyright><prism:publisher>Published by Elsevier B.V.</prism:publisher><dc:creator>Lachapelle, Jean</dc:creator><dc:creator>Dufresne, Julien</dc:creator><dc:creator>Levesque, Roger C.</dc:creator><dc:description>
+                  We have isolated the bla
+                     carb-3 structural gene encoding the CARB-3 carbenicillinase of Pseudomonas aeruginosa strain Cilote, tested the specificity of bla
+                     CARB-3 DNA probes and determined the nucleotide sequence of bla
+                     CARB-3. Three restriction fragment probes internal or delimiting the bla
+                     CARB-3 structural gene were hybridized with purified plasmid DNA coding for 18 other β-lactamases (Blas). Under high-stringency conditions, only bla
+                     PSE-1, bla
+                     PSE-4 and bla
+                     CARB-4 sequences crosshybridized with bla
+                     CARB-3. Sequencing of bla
+                     CARB-3 identified the structural gene which encodes a polypeptide product of 268 amino acids with a calculated estimated M
+                     r of 29246 for the mature form of the protein. Homology studies and computer analysis of primary structures confirmed that CARB-3 is a class-A Bla. The CARB-3 carbenicillinase differs from PSE-4 at two positions: Phe (PSE-4) instead of Leu188 (CARB-3), and Glu (PSE-4) instead of Ala266 (CARB-3), which changes the isoelectric value from (PSE-4) 5.4 to 5.75 (CARB-3). The possible effects of these two mutations were examined by comparisons on the 2 A crystal structure of the Staphylococcus aureus penicillinase, and they were shown to be silent substitutions causing no changes in the phenotype. The nucleic acid hybridization studies and sequence data confirmed that carbenicillinase-encoding bla genes are closely related and that bla
+                     CARB-3 is a variant of bla
+                     PSE-4.
+               </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><dcterms:subject>Recombinant DNA</dcterms:subject><dcterms:subject>ampicillin resistance</dcterms:subject><dcterms:subject>plasmid-mediated</dcterms:subject><dcterms:subject>transposon</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/037811199190530O" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/037811199190530O" rel="scidir"/></coredata><scopus-id>0025923469</scopus-id><scopus-eid>2-s2.0-0025923469</scopus-eid><pubmed-id>1650733</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/0025923469" rel="abstract"/><originalText><xocs:doc><xocs:meta><xocs:open-access xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+   <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+</xocs:open-access><xocs:available-online-date xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd" yyyymmdd="20030117">2003-01-17</xocs:available-online-date></xocs:meta></xocs:doc></originalText></full-text-retrieval-response>

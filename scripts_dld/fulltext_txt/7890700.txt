@@ -1,0 +1,2291 @@
+PMID: 7890700
+PMCID: 
+DOI: 10.1074/jbc.270.11.5729
+Title: Molecular evolution of a class C beta-lactamase extending its substrate specificity.
+Journal: The Journal of biological chemistry
+PubDate: 1995 Mar 17
+Authors: Nukaga M, Haruta S, Tanimoto K, Kogure K, Taniguchi K, Tamaki M, Sawai T
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S0021925818814181</prism:url><dc:identifier>doi:10.1074/jbc.270.11.5729</dc:identifier><eid>1-s2.0-S0021925818814181</eid><prism:doi>10.1074/jbc.270.11.5729</prism:doi><pii>S0021-9258(18)81418-1</pii><dc:title>Molecular Evolution of a Class C β-Lactamase Extending Its Substrate Specificity (∗)
+             </dc:title><prism:publicationName>Journal of Biological Chemistry</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>00219258</prism:issn><prism:volume>270</prism:volume><prism:issueIdentifier>11</prism:issueIdentifier><prism:startingPage>5729</prism:startingPage><prism:endingPage>5735</prism:endingPage><prism:pageRange>5729-5735</prism:pageRange><prism:number>11</prism:number><dc:format>text/xml</dc:format><prism:coverDate>1995-03-17</prism:coverDate><prism:coverDisplayDate>17 March 1995</prism:coverDisplayDate><prism:copyright>© 1995 ASBMB. Currently published by Elsevier Inc; originally published by American Society for Biochemistry and Molecular Biology.</prism:copyright><prism:publisher>ASBMB. Currently published by Elsevier Inc; originally published by American Society for Biochemistry and Molecular Biology.</prism:publisher><dc:creator>Nukaga, Michiyoshi</dc:creator><dc:creator>Haruta, Shin</dc:creator><dc:creator>Tanimoto, Kyoko</dc:creator><dc:creator>Kogure, Keiko</dc:creator><dc:creator>Taniguchi, Kazuo</dc:creator><dc:creator>Tamaki, Mami</dc:creator><dc:creator>Sawai, Tetsuo</dc:creator><dc:description>
+                  
+                     Enterobacter cloacae GC1, a clinical strain isolated in 1992 in Japan, was found to produce a chromosomal class C β-lactamase with extended substrate specificity to oxyimino β-lactam antibiotics, significantly differing from the known E. cloacae β-lactamases such as the P99 β-lactamase. The 1560 nucleotides including the GC1 β-lactamase gene were sequenced, and the amino acid sequence of the mature enzyme comprising 364 amino acids was deduced. A comparison of the amino acid sequence with those of known E. cloacae β-lactamases revealed the duplication of three amino acids at positions 208-213, i.e. Ala-Val-Arg-Ala-Val-Arg. This duplication was attributed to a tandem duplication of a 9-nucleotide sequence. The chimeric β-lactamases produced by the chimeric genes from the GC1 and P99 β-lactamase genes indicated that the extended substrate specificity is entirely attributed to the 3-amino acid insertion. Two mutant β-lactamases were prepared from P99 β-lactamase by site-directed mutagenesis, i.e. an Ala-Ala-Ala sequence was inserted before or after the native Ala-Val-Arg at positions 208-210. These mutant enzymes revealed that the Ala-Val-Arg located from positions 211 to 213 in the GC1 β-lactamase are the newly inserted residues, and this phenomenon is independent of the characteristics of the amino acids inserted.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>Author</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by/4.0/</openaccessUserLicense><link href="https://api.elsevier.com/content/article/pii/S0021925818814181" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S0021925818814181" rel="scidir"/></coredata><objects><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="277" height="419" size="55403">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="641" height="678" size="106929">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-gr2.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="678" height="250" size="29021">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-gr3.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="678" height="136" size="16157">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-gr4.jpg?httpAccept=%2A%2F%2A</object><object ref="gr5" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="678" height="350" size="47295">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-gr5.jpg?httpAccept=%2A%2F%2A</object><object ref="tbl1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="414" height="129" size="20050">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-tbl1.jpg?httpAccept=%2A%2F%2A</object><object ref="tbl2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="414" height="359" size="45723">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-tbl2.jpg?httpAccept=%2A%2F%2A</object><object ref="tbl3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="414" height="218" size="28954">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-tbl3.jpg?httpAccept=%2A%2F%2A</object><object ref="tbl4" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="414" height="218" size="30735">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-tbl4.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="108" height="164" size="8194">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-gr1.sml?httpAccept=%2A%2F%2A</object><object ref="gr2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="155" height="164" size="7579">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-gr2.sml?httpAccept=%2A%2F%2A</object><object ref="gr3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="81" size="3801">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-gr3.sml?httpAccept=%2A%2F%2A</object><object ref="gr4" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="44" size="2611">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-gr4.sml?httpAccept=%2A%2F%2A</object><object ref="gr5" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="113" size="5762">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-gr5.sml?httpAccept=%2A%2F%2A</object><object ref="tbl1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="68" size="5091">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-tbl1.sml?httpAccept=%2A%2F%2A</object><object ref="tbl2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="189" height="164" size="8845">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-tbl2.sml?httpAccept=%2A%2F%2A</object><object ref="tbl3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="115" size="7686">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-tbl3.sml?httpAccept=%2A%2F%2A</object><object ref="tbl4" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="115" size="7895">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-tbl4.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="737" height="1116" size="293733">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-gr1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1703" height="1800" size="362899">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-gr2_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1800" height="664" size="114020">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-gr3_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1800" height="360" size="64688">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-gr4_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr5" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1800" height="929" size="189047">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-gr5_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="tbl1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1100" height="344" size="103007">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-tbl1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="tbl2" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1100" height="954" size="189595">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-tbl2_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="tbl3" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1100" height="580" size="120092">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-tbl3_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="tbl4" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1100" height="580" size="126961">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925818814181-tbl4_lrg.jpg?httpAccept=%2A%2F%2A</object></objects><scopus-id>0028933234</scopus-id><scopus-eid>2-s2.0-0028933234</scopus-eid><pubmed-id>7890700</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/0028933234" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>778417</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291847</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Journal of Biological Chemistry</xocs:srctitle>
+      <xocs:normalized-srctitle>JOURNALBIOLOGICALCHEMISTRY</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20201023">2020-10-23</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20210104">2021-01-04</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20201023">2020-10-23</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20210104">2021-01-04</xocs:vor-available-online-date>
+      <xocs:original-available-online-date yyyymmdd="19950317">1995-03-17</xocs:original-available-online-date>
+      <xocs:ew-transaction-id>2021-05-09T07:55:36</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S0021925818814181</xocs:eid>
+      <xocs:pii-formatted>S0021-9258(18)81418-1</xocs:pii-formatted>
+      <xocs:pii-unformatted>S0021925818814181</xocs:pii-unformatted>
+      <xocs:doi>10.1074/jbc.270.11.5729</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.3</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S0021925818X8017X</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20211229">2021-12-29T16:48:55.011062Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>19950317</xocs:date-search-begin>
+      <xocs:year-nav>1995</xocs:year-nav>
+      <xocs:indexeddate epoch="1603440828">2020-10-23T08:13:48.727946Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content oa subj subheadings tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body acknowledge affil articletitle auth authfirstini authfull authlast footnotes primabst pubtype ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>0021-9258</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>00219258</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>270</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>270</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>11</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>11</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 270, Issue 11</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>70</xocs:sort-order>
+      <xocs:first-fp>5729</xocs:first-fp>
+      <xocs:last-lp>5735</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>5729</xocs:first-page>
+         <xocs:last-page>5735</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>19950317</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>17 March 1995</xocs:cover-date-text>
+      <xocs:cover-date-start>1995-03-17</xocs:cover-date-start>
+      <xocs:cover-date-year>1995</xocs:cover-date-year>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>NUCLEIC ACIDS, PROTEIN SYNTHESIS, AND MOLECULAR GENETICS</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 1995 ASBMB. Currently published by Elsevier Inc; originally published by American Society for Biochemistry and Molecular Biology.</xocs:copyright-line>
+      <xocs:normalized-article-title>MOLECULAREVOLUTIONACLASSCLACTAMASEEXTENDINGSUBSTRATESPECIFICITY</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>NUKAGA</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>M</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>INTRODUCTION</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>EXPERIMENTAL PROCEDURES</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title/>
+               <xocs:item-toc-entry ref-elem="ce:sections">
+                  <xocs:item-toc-section-title>Bacterial Strains and Plasmids</xocs:item-toc-section-title>
+               </xocs:item-toc-entry>
+               <xocs:item-toc-entry ref-elem="ce:sections">
+                  <xocs:item-toc-section-title>Media, Chemicals, and Enzymes</xocs:item-toc-section-title>
+               </xocs:item-toc-entry>
+               <xocs:item-toc-entry ref-elem="ce:sections">
+                  <xocs:item-toc-section-title>Cloning of the β-Lactamase Gene and DNA Sequencing</xocs:item-toc-section-title>
+               </xocs:item-toc-entry>
+               <xocs:item-toc-entry ref-elem="ce:sections">
+                  <xocs:item-toc-section-title>Construction of High Expression Vector</xocs:item-toc-section-title>
+               </xocs:item-toc-entry>
+               <xocs:item-toc-entry ref-elem="ce:sections">
+                  <xocs:item-toc-section-title>Site-directed Mutagenesis of the P99 β-Lactamase</xocs:item-toc-section-title>
+               </xocs:item-toc-entry>
+               <xocs:item-toc-entry ref-elem="ce:sections">
+                  <xocs:item-toc-section-title>β-Lactamase Purification and β-Lactamase Assay</xocs:item-toc-section-title>
+               </xocs:item-toc-entry>
+               <xocs:item-toc-entry ref-elem="ce:sections">
+                  <xocs:item-toc-section-title>Isoelectric Focusing</xocs:item-toc-section-title>
+               </xocs:item-toc-entry>
+               <xocs:item-toc-entry ref-elem="ce:sections">
+                  <xocs:item-toc-section-title>Antibiotic Susceptibility Testing</xocs:item-toc-section-title>
+               </xocs:item-toc-entry>
+               <xocs:item-toc-entry ref-elem="ce:sections">
+                  <xocs:item-toc-section-title>Nucleotide Sequence Accession Number</xocs:item-toc-section-title>
+               </xocs:item-toc-entry>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>RESULTS</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title/>
+               <xocs:item-toc-entry ref-elem="ce:sections">
+                  <xocs:item-toc-section-title>Properties of E. cloacae GC1</xocs:item-toc-section-title>
+               </xocs:item-toc-entry>
+               <xocs:item-toc-entry ref-elem="ce:sections">
+                  <xocs:item-toc-section-title>Cloning and Sequencing of the GC1 β-Lactamase Gene</xocs:item-toc-section-title>
+               </xocs:item-toc-entry>
+               <xocs:item-toc-entry ref-elem="ce:sections">
+                  <xocs:item-toc-section-title>Purification of the GC1 β-Lactamase and Its Kinetic Properties</xocs:item-toc-section-title>
+               </xocs:item-toc-entry>
+               <xocs:item-toc-entry ref-elem="ce:sections">
+                  <xocs:item-toc-section-title>Construction of Hybrid Genes from the GC1 and P99 β-Lactamase Genes and Their Phenotypes</xocs:item-toc-section-title>
+               </xocs:item-toc-entry>
+               <xocs:item-toc-entry ref-elem="ce:sections">
+                  <xocs:item-toc-section-title>Insertion of Ala-Ala-Ala before or after the Ala-Val-Arg Sequence of the P99 β-Lactamase and Its Effect on the Activity to Oxyimino β-Lactams</xocs:item-toc-section-title>
+               </xocs:item-toc-entry>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>DISCUSSION</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>ACKNOWLEDGEMENTS</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>REFERENCES</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sbref10">
+            <xocs:ref-normalized-surname>AMBLER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1980</xocs:ref-pub-year>
+            <xocs:ref-first-fp>321</xocs:ref-first-fp>
+            <xocs:ref-last-lp>331</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref20">
+            <xocs:ref-normalized-surname>DALE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1985</xocs:ref-pub-year>
+            <xocs:ref-first-fp>39</xocs:ref-first-fp>
+            <xocs:ref-last-lp>44</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref30">
+            <xocs:ref-normalized-surname>KNOTTHUNZIKER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1982</xocs:ref-pub-year>
+            <xocs:ref-first-fp>315</xocs:ref-first-fp>
+            <xocs:ref-last-lp>322</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>V</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref40">
+            <xocs:ref-normalized-surname>PHILIPPON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1989</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1131</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1136</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref50">
+            <xocs:ref-normalized-surname>TSUKAMOTO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1990</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4348</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4351</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref60">
+            <xocs:ref-normalized-surname>TSUKAMOTO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1992</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1123</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1127</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref70">
+            <xocs:ref-normalized-surname>GALLENI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1988</xocs:ref-pub-year>
+            <xocs:ref-first-fp>753</xocs:ref-first-fp>
+            <xocs:ref-last-lp>760</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref80">
+            <xocs:ref-normalized-surname>TAYLOR</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1985</xocs:ref-pub-year>
+            <xocs:ref-first-fp>8767</xocs:ref-first-fp>
+            <xocs:ref-last-lp>8785</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref90">
+            <xocs:ref-normalized-surname>TSUKAMOTO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1990</xocs:ref-pub-year>
+            <xocs:ref-first-fp>15</xocs:ref-first-fp>
+            <xocs:ref-last-lp>22</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref100">
+            <xocs:ref-normalized-surname>TAKESHITA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1987</xocs:ref-pub-year>
+            <xocs:ref-first-fp>63</xocs:ref-first-fp>
+            <xocs:ref-last-lp>74</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref110">
+            <xocs:ref-normalized-surname>YANISCHPERRON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1985</xocs:ref-pub-year>
+            <xocs:ref-first-fp>103</xocs:ref-first-fp>
+            <xocs:ref-last-lp>119</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref120">
+            <xocs:ref-normalized-surname>MILER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1972</xocs:ref-pub-year>
+            <xocs:ref-first-fp>433</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>EXPERIMENTSINMOLECULARGENETICS</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref130">
+            <xocs:ref-normalized-surname>OWEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1987</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3631</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref140">
+            <xocs:ref-normalized-surname>LAWYER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1989</xocs:ref-pub-year>
+            <xocs:ref-first-fp>6427</xocs:ref-first-fp>
+            <xocs:ref-last-lp>6437</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref150">
+            <xocs:ref-normalized-surname>SAIKI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1985</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1350</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1354</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref160">
+            <xocs:ref-normalized-surname>SANGER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1977</xocs:ref-pub-year>
+            <xocs:ref-first-fp>5463</xocs:ref-first-fp>
+            <xocs:ref-last-lp>5467</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref170">
+            <xocs:ref-normalized-surname>HIGUCHI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1988</xocs:ref-pub-year>
+            <xocs:ref-first-fp>7351</xocs:ref-first-fp>
+            <xocs:ref-last-lp>7367</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref180">
+            <xocs:ref-normalized-surname>HO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1989</xocs:ref-pub-year>
+            <xocs:ref-first-fp>51</xocs:ref-first-fp>
+            <xocs:ref-last-lp>59</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref190">
+            <xocs:ref-normalized-surname>SAWAI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1982</xocs:ref-pub-year>
+            <xocs:ref-first-fp>567</xocs:ref-first-fp>
+            <xocs:ref-last-lp>571</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref200">
+            <xocs:ref-normalized-surname>NOVICK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1962</xocs:ref-pub-year>
+            <xocs:ref-first-fp>236</xocs:ref-first-fp>
+            <xocs:ref-last-lp>240</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref210">
+            <xocs:ref-normalized-surname>YAMAGUCHI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1983</xocs:ref-pub-year>
+            <xocs:ref-first-fp>23</xocs:ref-first-fp>
+            <xocs:ref-last-lp>30</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref220">
+            <xocs:ref-normalized-surname>NUKAGA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1994</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1374</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1377</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref230">
+            <xocs:ref-normalized-surname>SAWAI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1981</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1318</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1326</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref240">
+            <xocs:ref-normalized-surname>OEFNER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1990</xocs:ref-pub-year>
+            <xocs:ref-first-fp>284</xocs:ref-first-fp>
+            <xocs:ref-last-lp>288</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref250">
+            <xocs:ref-normalized-surname>JORIS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1988</xocs:ref-pub-year>
+            <xocs:ref-first-fp>313</xocs:ref-first-fp>
+            <xocs:ref-last-lp>324</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref260">
+            <xocs:ref-normalized-surname>TSUKAMOTO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1990</xocs:ref-pub-year>
+            <xocs:ref-first-fp>211</xocs:ref-first-fp>
+            <xocs:ref-last-lp>214</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref270">
+            <xocs:ref-normalized-surname>LOBKOVSKY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1993</xocs:ref-pub-year>
+            <xocs:ref-first-fp>11257</xocs:ref-first-fp>
+            <xocs:ref-last-lp>11261</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>E</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref280">
+            <xocs:ref-normalized-surname>NUKAGA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1993</xocs:ref-pub-year>
+            <xocs:ref-first-fp>93</xocs:ref-first-fp>
+            <xocs:ref-last-lp>98</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref290">
+            <xocs:ref-normalized-surname>SOWEK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1991</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3179</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3188</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>NUKAGAX1995X5729</xocs:refkey3>
+         <xocs:refkey4lp>NUKAGAX1995X5729X5735</xocs:refkey4lp>
+         <xocs:refkey4ai>NUKAGAX1995X5729XM</xocs:refkey4ai>
+         <xocs:refkey5>NUKAGAX1995X5729X5735XM</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2020-10-23T02:57:54Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>Author</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/00219258_UNBOUNDED_Author">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:open-research/>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 1995 ASBMB. Currently published by Elsevier Inc; originally published by American Society for Biochemistry and Molecular Biology.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:third-party>
+         <xocs:third-party-status>0</xocs:third-party-status>
+      </xocs:third-party>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S0021-9258(18)81418-1</xocs:pii-formatted>
+         <xocs:pii-unformatted>S0021925818814181</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S0021925818814181</xocs:eid>
+         <xocs:doi>10.1074/jbc.270.11.5729</xocs:doi>
+         <xocs:cid>778417</xocs:cid>
+         <xocs:timestamp>2021-05-09T12:17:52.058269Z</xocs:timestamp>
+         <xocs:cover-date-start>1995-03-17</xocs:cover-date-start>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/MAIN/application/pdf/84e38d05645bf9a38f7c0d51f8153e83/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>1219706</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>7</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S0021925818814181-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/PREVIEW/image/png/80e8c7a3e40f560e60a8d3dc0ce76052/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>107350</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/gr1/DOWNSAMPLED/image/jpeg/221d0231c87098890070d1bcf6ee8d18/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>55403</xocs:filesize>
+               <xocs:pixel-height>419</xocs:pixel-height>
+               <xocs:pixel-width>277</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-gr2.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/gr2/DOWNSAMPLED/image/jpeg/8b160d9dac00677a708ac57a28fa8578/gr2.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>106929</xocs:filesize>
+               <xocs:pixel-height>678</xocs:pixel-height>
+               <xocs:pixel-width>641</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-gr3.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/gr3/DOWNSAMPLED/image/jpeg/2cc3bdbc976028ce73216d442a939670/gr3.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>29021</xocs:filesize>
+               <xocs:pixel-height>250</xocs:pixel-height>
+               <xocs:pixel-width>678</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-gr4.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/gr4/DOWNSAMPLED/image/jpeg/b72dd9123ec5e56100ac069ab74a8729/gr4.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>16157</xocs:filesize>
+               <xocs:pixel-height>136</xocs:pixel-height>
+               <xocs:pixel-width>678</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-gr5.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/gr5/DOWNSAMPLED/image/jpeg/015e8a901b8282a32253ce0ab66dbc4b/gr5.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>47295</xocs:filesize>
+               <xocs:pixel-height>350</xocs:pixel-height>
+               <xocs:pixel-width>678</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-tbl1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/tbl1/DOWNSAMPLED/image/jpeg/be9a0728fb005a5b5d5f097f04c192dd/tbl1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>tbl1</xocs:file-basename>
+               <xocs:filename>tbl1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>20050</xocs:filesize>
+               <xocs:pixel-height>129</xocs:pixel-height>
+               <xocs:pixel-width>414</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-tbl2.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/tbl2/DOWNSAMPLED/image/jpeg/8d62db625840bc73b1bf60eda47bc1e5/tbl2.jpg</xocs:ucs-locator>
+               <xocs:file-basename>tbl2</xocs:file-basename>
+               <xocs:filename>tbl2.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>45723</xocs:filesize>
+               <xocs:pixel-height>359</xocs:pixel-height>
+               <xocs:pixel-width>414</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-tbl3.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/tbl3/DOWNSAMPLED/image/jpeg/d304f5ea16b84cf44b0c6d5a237ca449/tbl3.jpg</xocs:ucs-locator>
+               <xocs:file-basename>tbl3</xocs:file-basename>
+               <xocs:filename>tbl3.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>28954</xocs:filesize>
+               <xocs:pixel-height>218</xocs:pixel-height>
+               <xocs:pixel-width>414</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-tbl4.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/tbl4/DOWNSAMPLED/image/jpeg/c6e191cbf76f4846fa7ffccc732771bf/tbl4.jpg</xocs:ucs-locator>
+               <xocs:file-basename>tbl4</xocs:file-basename>
+               <xocs:filename>tbl4.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>30735</xocs:filesize>
+               <xocs:pixel-height>218</xocs:pixel-height>
+               <xocs:pixel-width>414</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/gr1/THUMBNAIL/image/gif/b4dbac56ed991daa0ed760db005c347f/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>8194</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>108</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-gr2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/gr2/THUMBNAIL/image/gif/a8afd684a39a2fa6a88f55161a548b8e/gr2.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>7579</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>155</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-gr3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/gr3/THUMBNAIL/image/gif/dafeeeaa4550a5992c764cc38fb3b935/gr3.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>3801</xocs:filesize>
+               <xocs:pixel-height>81</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-gr4.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/gr4/THUMBNAIL/image/gif/e40ab4e15d9d6d8c2e0fc68669831f10/gr4.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>2611</xocs:filesize>
+               <xocs:pixel-height>44</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-gr5.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/gr5/THUMBNAIL/image/gif/cafd569822799a8ac90a058897b70629/gr5.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>5762</xocs:filesize>
+               <xocs:pixel-height>113</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-tbl1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/tbl1/THUMBNAIL/image/gif/8959dd4a2c1def99356cd19cc89b05a5/tbl1.sml</xocs:ucs-locator>
+               <xocs:file-basename>tbl1</xocs:file-basename>
+               <xocs:filename>tbl1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>5091</xocs:filesize>
+               <xocs:pixel-height>68</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-tbl2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/tbl2/THUMBNAIL/image/gif/5568a8f71a7b31e10f4b6e6ab825790f/tbl2.sml</xocs:ucs-locator>
+               <xocs:file-basename>tbl2</xocs:file-basename>
+               <xocs:filename>tbl2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>8845</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>189</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-tbl3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/tbl3/THUMBNAIL/image/gif/20288fcc1d593bc7f547d1db083802eb/tbl3.sml</xocs:ucs-locator>
+               <xocs:file-basename>tbl3</xocs:file-basename>
+               <xocs:filename>tbl3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>7686</xocs:filesize>
+               <xocs:pixel-height>115</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-tbl4.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/tbl4/THUMBNAIL/image/gif/35f96dfa42cdaad2194f6d3406b5474c/tbl4.sml</xocs:ucs-locator>
+               <xocs:file-basename>tbl4</xocs:file-basename>
+               <xocs:filename>tbl4.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>7895</xocs:filesize>
+               <xocs:pixel-height>115</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-gr1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/gr1/HIGHRES/image/jpeg/1d6d326e408a537bdd1ea33bb87bf0c5/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>293733</xocs:filesize>
+               <xocs:pixel-height>1116</xocs:pixel-height>
+               <xocs:pixel-width>737</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-gr2_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/gr2/HIGHRES/image/jpeg/98b1bccf7b7a47ca2a910698b50edf04/gr2_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>362899</xocs:filesize>
+               <xocs:pixel-height>1800</xocs:pixel-height>
+               <xocs:pixel-width>1703</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-gr3_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/gr3/HIGHRES/image/jpeg/1cee52d4942be9531c4215125bf24464/gr3_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>114020</xocs:filesize>
+               <xocs:pixel-height>664</xocs:pixel-height>
+               <xocs:pixel-width>1800</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-gr4_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/gr4/HIGHRES/image/jpeg/9c6640493fe04bd8e648abb00e07946e/gr4_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>64688</xocs:filesize>
+               <xocs:pixel-height>360</xocs:pixel-height>
+               <xocs:pixel-width>1800</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-gr5_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/gr5/HIGHRES/image/jpeg/4a039679030eb1589e8e4f07c7b32650/gr5_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr5</xocs:file-basename>
+               <xocs:filename>gr5_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>189047</xocs:filesize>
+               <xocs:pixel-height>929</xocs:pixel-height>
+               <xocs:pixel-width>1800</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-tbl1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/tbl1/HIGHRES/image/jpeg/5aca80deb92638b308fda07b769f593e/tbl1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>tbl1</xocs:file-basename>
+               <xocs:filename>tbl1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>103007</xocs:filesize>
+               <xocs:pixel-height>344</xocs:pixel-height>
+               <xocs:pixel-width>1100</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-tbl2_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/tbl2/HIGHRES/image/jpeg/4c6da6ea30e08291cdaa5bd706389811/tbl2_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>tbl2</xocs:file-basename>
+               <xocs:filename>tbl2_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>189595</xocs:filesize>
+               <xocs:pixel-height>954</xocs:pixel-height>
+               <xocs:pixel-width>1100</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-tbl3_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/tbl3/HIGHRES/image/jpeg/3f0e38f486ffc202e5a1385b96ae717a/tbl3_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>tbl3</xocs:file-basename>
+               <xocs:filename>tbl3_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>120092</xocs:filesize>
+               <xocs:pixel-height>580</xocs:pixel-height>
+               <xocs:pixel-width>1100</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925818814181-tbl4_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925818814181/tbl4/HIGHRES/image/jpeg/fb1326ecf7e33ff41cfb3cccd8b46381/tbl4_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>tbl4</xocs:file-basename>
+               <xocs:filename>tbl4_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>126961</xocs:filesize>
+               <xocs:pixel-height>580</xocs:pixel-height>
+               <xocs:pixel-width>1100</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="fla" version="5.6" xml:lang="en">
+         <item-info>
+            <jid>JBC</jid>
+            <aid>203132</aid>
+            <ce:pii>S0021-9258(18)81418-1</ce:pii>
+            <ce:doi>10.1074/jbc.270.11.5729</ce:doi>
+            <ce:copyright type="other" year="1995">© 1995 ASBMB. Currently published by Elsevier Inc; originally published by American Society for Biochemistry and Molecular Biology.</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig1">
+               <ce:label>Figure 1</ce:label>
+               <ce:caption id="cecap10">
+                  <ce:simple-para id="spara10" view="all">DNA sequence of the <ce:italic>E. cloacae</ce:italic> GC1 β-lactamase gene and flanking regions as well as the predicted amino acid sequence for the enzyme. The nucleotides are numbered from the <ce:italic>Bam</ce:italic>HI site. The position of the N-terminal amino acid of the mature enzyme is designated as position 1 of the amino acid sequence. The amino acid sequence from −20 to −1 is assumed to be the signal peptide. The active site serine at position 64 is indicated by an <ce:italic>arrowhead</ce:italic>. Amino acids in the duplicative region are indicated by <ce:italic>thick letters</ce:italic>. The stop codon is indicated by an <ce:italic>asterisk</ce:italic>. The <ce:italic>shaded</ce:italic> and <ce:italic>underlined</ce:italic> regions in the sequence indicate α-helices and β-strands, respectively, the indication being made on the basis of the sequence alignment of the enzyme with the <ce:italic>C. freundii</ce:italic> class C β-lactamase(<ce:cross-ref id="cecref10" refid="bib24">24</ce:cross-ref>).</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr1" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0021925818814181/gr1"/>
+            </ce:figure>
+            <ce:figure id="fig2">
+               <ce:label>Figure 2</ce:label>
+               <ce:caption id="cecap20">
+                  <ce:simple-para id="spara20" view="all">Comparison of the deduced amino acid sequence, in part, of the <ce:italic>E. cloacae</ce:italic> GC1 β-lactamase with those of other class C β-lactamases. The sequence alignment of the GC1 β-lactamase is performed with the enzymes of <ce:italic>E. cloacae</ce:italic> P99(<ce:cross-ref id="cecref20" refid="bib7">7</ce:cross-ref>), <ce:italic>E. cloacae</ce:italic> Q908R(<ce:cross-ref id="cecref30" refid="bib7">7</ce:cross-ref>), <ce:italic>E. cloacae</ce:italic> MHN1(<ce:cross-ref id="cecref40" refid="bib7">7</ce:cross-ref>), <ce:italic>C. freundii</ce:italic> GN346(<ce:cross-ref id="cecref50" refid="bib9">9</ce:cross-ref>), and <ce:italic>E. coli</ce:italic> K12(<ce:cross-ref id="cecref60" refid="bib25">25</ce:cross-ref>). The three variable regions are <ce:italic>boxed</ce:italic>, and the gap between the GC1 enzyme and other class C enzymes is indicated with <ce:italic>hyphens</ce:italic>.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr2" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0021925818814181/gr2"/>
+            </ce:figure>
+            <ce:figure id="fig3">
+               <ce:label>Figure 3</ce:label>
+               <ce:caption id="cecap30">
+                  <ce:simple-para id="spara30" view="all">Structures of the β-lactams used in this study. Three classical β-lactams are represented by benzylpenicillin, ampicillin, and cephalothin. Three oxyimino β-lactams include two oxyiminocephalosporins (cefuroxime and ceftazidime) and a monobactam with an oxyimino group in the side chain (aztreonam).</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr3" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0021925818814181/gr3"/>
+            </ce:figure>
+            <ce:figure id="fig4">
+               <ce:label>Figure 4</ce:label>
+               <ce:caption id="cecap40">
+                  <ce:simple-para id="spara40" view="all">Graphical illustration of the hybrid genes from the GC1 and P99 β-lactamase genes. pCS100 and pCS900 carry the GC1 and P99 β-lactamase genes, respectively. The <ce:italic>boxed areas</ce:italic> denote the cloned DNA fragments, and the large boxes represent the β-lactamase structural genes. The three variable regions in <ce:cross-ref id="cecref70" refid="fig2">Fig. 2</ce:cross-ref> are shown by <ce:italic>open</ce:italic> or <ce:italic>shaded</ce:italic> regions, and a widely shaded region denotes the AVRAVR sequence. pCS102 and pCS902 carry the hybrid genes, which were constructed by recombination at the <ce:italic>Kpn</ce:italic>l restriction site between position 88 and the AVR region.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr4" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0021925818814181/gr4"/>
+            </ce:figure>
+            <ce:figure id="fig5">
+               <ce:label>Figure 5</ce:label>
+               <ce:caption id="cecap50">
+                  <ce:simple-para id="spara50" view="all">Stereoview of the polypeptide segment including the active site serine and the HVP sequence of the <ce:italic>C. freundii</ce:italic> β-lactamase, corresponding to the AVR sequence of the P99 and GC1 β-lactamase.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr5" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0021925818814181/gr5"/>
+            </ce:figure>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl1" frame="topbot" rowsep="0" colsep="0">
+               <tgroup cols="1">
+                  <colspec colnum="1" colname="col1"/>
+                  <tbody>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">
+                           <display>
+                              <figure id="f10">
+                                 <link locator="tbl1" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0021925818814181/tbl1"/>
+                              </figure>
+                           </display>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl2" frame="topbot" rowsep="0" colsep="0">
+               <tgroup cols="1">
+                  <colspec colnum="1" colname="col1"/>
+                  <tbody>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">
+                           <display>
+                              <figure id="f20">
+                                 <link locator="tbl2" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0021925818814181/tbl2"/>
+                              </figure>
+                           </display>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl3" frame="topbot" rowsep="0" colsep="0">
+               <tgroup cols="1">
+                  <colspec colnum="1" colname="col1"/>
+                  <tbody>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">
+                           <display>
+                              <figure id="f30">
+                                 <link locator="tbl3" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0021925818814181/tbl3"/>
+                              </figure>
+                           </display>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl4" frame="topbot" rowsep="0" colsep="0">
+               <tgroup cols="1">
+                  <colspec colnum="1" colname="col1"/>
+                  <tbody>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">
+                           <display>
+                              <figure id="f40">
+                                 <link locator="tbl4" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0021925818814181/tbl4"/>
+                              </figure>
+                           </display>
+                        </entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+         </ce:floats>
+         <head>
+            <ce:dochead id="cedoch10">
+               <ce:textfn>Nucleic Acids, Protein Synthesis, and Molecular Genetics</ce:textfn>
+            </ce:dochead>
+            <ce:title id="cetitle10">Molecular Evolution of a Class C β-Lactamase Extending Its Substrate Specificity <ce:cross-ref id="cecref80" refid="FN1">(∗)</ce:cross-ref>
+            </ce:title>
+            <ce:author-group id="aug10">
+               <ce:author id="au10" author-id="S0021925818814181-16959ca23833f141e95554281882fc3d">
+                  <ce:given-name>Michiyoshi</ce:given-name>
+                  <ce:surname>Nukaga</ce:surname>
+               </ce:author>
+               <ce:author id="au20" author-id="S0021925818814181-4cc13edeee4388f0e6d9031ce42f4f60">
+                  <ce:given-name>Shin</ce:given-name>
+                  <ce:surname>Haruta</ce:surname>
+               </ce:author>
+               <ce:author id="au30" author-id="S0021925818814181-1212b44f4bfcc339fa66041487122bc1">
+                  <ce:given-name>Kyoko</ce:given-name>
+                  <ce:surname>Tanimoto</ce:surname>
+               </ce:author>
+               <ce:author id="au40" author-id="S0021925818814181-92f026b7f8d4d92dd2f50e3bc4e4fa65">
+                  <ce:given-name>Keiko</ce:given-name>
+                  <ce:surname>Kogure</ce:surname>
+               </ce:author>
+               <ce:author id="au50" author-id="S0021925818814181-c2f8b358bfa177bcabac38e6c2d959ca">
+                  <ce:given-name>Kazuo</ce:given-name>
+                  <ce:surname>Taniguchi</ce:surname>
+               </ce:author>
+               <ce:author id="au60" author-id="S0021925818814181-718d9c356456a04cbfc8aca6c1ab7126">
+                  <ce:given-name>Mami</ce:given-name>
+                  <ce:surname>Tamaki</ce:surname>
+               </ce:author>
+               <ce:author id="au70" author-id="S0021925818814181-25acd1008a9169e88b1bc33d5a35eb5a">
+                  <ce:given-name>Tetsuo</ce:given-name>
+                  <ce:surname>Sawai</ce:surname>
+                  <ce:cross-ref id="cecref90" refid="cor1">(§)</ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="aff1" affiliation-id="S0021925818814181-5651ab7e15040614ff5c9087facb6b5e">
+                  <ce:textfn>Division of Microbial Chemistry, Faculty of Pharmaceutical Sciences, Chiba University, 1-33, Yayoi-cho, Inage-ku, Chiba 263, Japan</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Division of Microbial Chemistry</sa:organization>
+                     <sa:organization>Faculty of Pharmaceutical Sciences</sa:organization>
+                     <sa:organization>Chiba University</sa:organization>
+                     <sa:address-line>1-33, Yayoi-cho</sa:address-line>
+                     <sa:city>Inage-ku</sa:city>
+                     <sa:state>Chiba</sa:state>
+                     <sa:postal-code>263</sa:postal-code>
+                     <sa:country>Japan</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="sourcetext1a">Division of Microbial Chemistry, Faculty of Pharmaceutical Sciences, Chiba University, 1-33, Yayoi-cho, Inage-ku, Chiba 263, Japan</ce:source-text>
+               </ce:affiliation>
+               <ce:correspondence id="cor1">
+                  <ce:label>§</ce:label>
+                  <ce:text>To whom correspondence should be addressed. Tel.: 81-43-290-2928; Fax: 81-43-255-1574.</ce:text>
+                  <sa:affiliation>
+                     <sa:address-line>Tel.: 81-43-290-2928</sa:address-line>
+                     <sa:address-line>Fax: 81-43-255-1574</sa:address-line>
+                  </sa:affiliation>
+               </ce:correspondence>
+               <ce:footnote id="FN1">
+                  <ce:label>∗</ce:label>
+                  <ce:note-para id="cenpara10" view="all">This work was supported in part by research grants from the Ministry of Education, Science and Culture of Japan and the Foundation for Life Science Research. The costs of publication of this article were defrayed in part by the payment of page charges. This article must therefore by hereby marked “<ce:italic>advertisement</ce:italic>” in accordance with 18 U.S.C. Section 1734 solely to indicate this fact.</ce:note-para>
+               </ce:footnote>
+            </ce:author-group>
+            <ce:date-received day="10" month="11" year="1994"/>
+            <ce:date-revised day="9" month="1" year="1995"/>
+            <ce:abstract id="ceab10" view="all" class="author"><ce:abstract-sec id="ceabs10" view="all">
+                  <ce:simple-para id="spara60" view="all">
+                     <ce:italic>Enterobacter cloacae</ce:italic> GC1, a clinical strain isolated in 1992 in Japan, was found to produce a chromosomal class C β-lactamase with extended substrate specificity to oxyimino β-lactam antibiotics, significantly differing from the known <ce:italic>E. cloacae</ce:italic> β-lactamases such as the P99 β-lactamase. The 1560 nucleotides including the GC1 β-lactamase gene were sequenced, and the amino acid sequence of the mature enzyme comprising 364 amino acids was deduced. A comparison of the amino acid sequence with those of known <ce:italic>E. cloacae</ce:italic> β-lactamases revealed the duplication of three amino acids at positions 208-213, <ce:italic>i.e.</ce:italic> Ala-Val-Arg-Ala-Val-Arg. This duplication was attributed to a tandem duplication of a 9-nucleotide sequence. The chimeric β-lactamases produced by the chimeric genes from the GC1 and P99 β-lactamase genes indicated that the extended substrate specificity is entirely attributed to the 3-amino acid insertion. Two mutant β-lactamases were prepared from P99 β-lactamase by site-directed mutagenesis, <ce:italic>i.e.</ce:italic> an Ala-Ala-Ala sequence was inserted before or after the native Ala-Val-Arg at positions 208-210. These mutant enzymes revealed that the Ala-Val-Arg located from positions 211 to 213 in the GC1 β-lactamase are the newly inserted residues, and this phenomenon is independent of the characteristics of the amino acids inserted.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:section id="cesec10" view="all">
+                  <ce:section-title id="cestitle10">INTRODUCTION</ce:section-title>
+                  <ce:para id="para10" view="all">β-Lactamases (EC 3.5.2.6) are enzymes responsible for bacterial resistance to β-lactam antibiotics and are classified into four classes, A, B, C, and D according to the homology of the primary amino acid sequence(<ce:cross-ref id="cecref100" refid="bib1">1</ce:cross-ref>, <ce:cross-ref id="cecref110" refid="bib2">2</ce:cross-ref>). β-Lactamases, except class B enzymes belonging to metallo-β-lactamases, are the serine enzymes that have serine as their active site participating in the formation of an acyl-enzyme intermediate with a β-lactam(<ce:cross-ref id="cecref120" refid="bib3">3</ce:cross-ref>). According to the traditional grouping based on substrate specificity, class A and D enzymes are penicillinases, and class C enzymes are the so-called cephalosporinases. The introduction of an oxyimino group into the side chain at position 7 of the cephalosporin nucleus or at position 3 of the monobactam nucleus is the major means of protecting a β-lactam bond from hydrolysis by the serine β-lactamases. After the introduction of oxyimino β-lactams into clinical medicine in the early 1980s, R plasmid-mediated resistance to oxyimino β-lactams as well as to usual β-lactams occurred in clinical isolates of <ce:italic>Klebsiella pneumoniae</ce:italic> and other enteric bacteria(<ce:cross-ref id="cecref130" refid="bib4">4</ce:cross-ref>). This developed resistance is attributed to the extended substrate specificity β-lactamases of class A, which originated from TEM- or SHV-type β-lactamases by the replacement of 1-4 amino acids in their ancestral enzymes.</ce:para>
+                  <ce:para id="para20" view="all">Most class C β-lactamases are produced in Gram-negative bacteria as chromosomal β-lactamases. Distinct from the case of class A β-lactamases, a class C β-lactamase with the extended substrate specificity has not yet been found from a clinical isolate. On the other hand, during the course of our investigation of the functional amino acids in the active site of a class C β-lactamase of <ce:italic>Citrobacter freundii</ce:italic> GN346, we isolated the mutant enzymes with extended substrate specificity to oxyimino β-lactams by an amino acid substitution on a loop structure between α-8 and α-9 helices of the class C β-lactamase(<ce:cross-ref id="cecref140" refid="bib5">5</ce:cross-ref>, <ce:cross-ref id="cecref150" refid="bib6">6</ce:cross-ref>). The finding of such a mutant enzyme suggested to us the appearance of a naturally occurring mutant enzyme with broad specificity.</ce:para>
+                  <ce:para id="para30" view="all">We have been conducting studies among clinical isolates of <ce:italic>C. freundii</ce:italic>, <ce:italic>Enterobacter cloacae</ce:italic>, and <ce:italic>Escherichia coli</ce:italic> and in the process discovered a new strain, <ce:italic>E. cloacae</ce:italic> GC1, which produces a class C β-lactamase capable of hydrolyzing oxyimino β-lactams. The extended substrate specificity was confirmed because of duplication of the 3-amino acid sequence on the loop structure. This is an example of molecular evolution of a bacterial enzyme against new β-lactams in nature. In this paper, we report the properties of GC1 β-lactamase.</ce:para>
+               </ce:section>
+               <ce:section id="cesec20" view="all">
+                  <ce:section-title id="cestitle20">EXPERIMENTAL PROCEDURES</ce:section-title>
+                  <ce:section id="cesec30" view="all">
+                     <ce:section id="cesec40" view="all">
+                        <ce:section-title id="cestitle30">Bacterial Strains and Plasmids</ce:section-title>
+                        <ce:para id="para40" view="all">
+                           <ce:italic>E. cloacae</ce:italic> GC1 is a clinical isolate found to be highly resistant to oxyimino β-lactams such as ceftazidime and aztreonam in the latter half of 1992 in Japan. <ce:italic>E. cloacae</ce:italic> P99 is a typical strain of this species producing a chromosomal class C β-lactamase of this species (<ce:cross-ref id="cecref160" refid="bib7">7</ce:cross-ref>) and was kindly provided by Dr. A. F. Ehrhardt of Creighton University, Omaha. <ce:italic>E. coli</ce:italic> TG1(<ce:cross-ref id="cecref170" refid="bib8">8</ce:cross-ref>), a derivative of K12, was employed for DNA technology. <ce:italic>E. coli</ce:italic> AS226-51(<ce:cross-ref id="cecref180" refid="bib9">9</ce:cross-ref>), an <ce:italic>ampD</ce:italic> mutant of C600, which also has a deletion mutation in <ce:italic>ampC</ce:italic>, was used for measuring the β-lactam susceptibility of cells bearing the cloned β-lactamase gene and as host cells for enzyme preparation in order to avoid contamination by the ampC β-lactamase of <ce:italic>E. coli.</ce:italic> Plasmids pHSG398 (<ce:cross-ref id="cecref190" refid="bib10">10</ce:cross-ref>) and M13mp18 (<ce:cross-ref id="cecref200" refid="bib11">11</ce:cross-ref>) were used as the cloning vector and the vector for DNA sequencing, respectively. pTTQ18 carrying a <ce:italic>Tac</ce:italic> promoter was purchased from Amersham Corp. and employed for preparing a high expression vector for the β-lactamase production.</ce:para>
+                     </ce:section>
+                     <ce:section id="cesec50" view="all">
+                        <ce:section-title id="cestitle40">Media, Chemicals, and Enzymes</ce:section-title>
+                        <ce:para id="para50" view="all">Nutrient broth (Eiken Chemical Co., Tokyo, Japan) was used as the culture medium for chromosomal DNA preparation. For transformation and transfection, 2 × yeast extract/tryptone (2 × YT) broth and YT agar (<ce:cross-ref id="cecref210" refid="bib12">12</ce:cross-ref>) were employed, respectively. For the β-lactamase preparation, bacteria were grown in heart infusion broth (Eiken Chemical Co., Tokyo, Japan). Heart infusion agar (Eiken Chemical Co., Tokyo, Japan) was used for measuring bacterial susceptibility to β-lactams.</ce:para>
+                        <ce:para id="para60" view="all">Enzymes and enzyme kits for DNA technology were purchased from Stratagene (La Jolla, CA), Takara Shuzo Co. (Kyoto, Japan), Toyobo Co. (Osaka, Japan), and Wako Junyaku Co. (Tokyo, Japan). [α-<ce:sup loc="post">32</ce:sup>P]dCTP was purchased from Amersham Corp. The antibiotics used in this study were kindly provided by the following pharmaceutical companies: benzylpenicillin, ampicillin, and kanamycin from Meiji Seika Kaisha Ltd., Tokyo, Japan; cephalothin from Shionogi &amp; Co., Ltd., Osaka, Japan; cefuroxime and ceftazidime from Nippon Glaxo Ltd., Tokyo, Japan; cefoxitin from Daiichi Pharmaceutical Co., Tokyo, Japan; and aztreonam from Eisai Co., Tokyo, Japan.</ce:para>
+                     </ce:section>
+                     <ce:section id="cesec60" view="all">
+                        <ce:section-title id="cestitle50">Cloning of the β-Lactamase Gene and DNA Sequencing</ce:section-title>
+                        <ce:para id="para70" view="all">Chromosomal DNA of the <ce:italic>E. cloacae</ce:italic> cells was prepared according to the procedure of Owen and Borman(<ce:cross-ref id="cecref220" refid="bib13">13</ce:cross-ref>). A 1.6-kb (<ce:cross-ref id="cecref230" refid="FN2">
+                              <ce:sup loc="post">1</ce:sup>
+                           </ce:cross-ref>
+                           <ce:footnote id="FN2">
+                              <ce:label>
+                                 <ce:sup loc="post">1</ce:sup>
+                              </ce:label>
+                              <ce:note-para id="cenpara30" view="all">The abbreviations used are: <ce:def-list id="deflist10">
+                                    <ce:def-term id="defterm10">kb</ce:def-term>
+                                    <ce:def-description id="cedefdes10">
+                                       <ce:para id="para80" view="all">kilobase pair</ce:para>
+                                    </ce:def-description>
+                                    <ce:def-term id="defterm20">bp</ce:def-term>
+                                    <ce:def-description id="cedefdes20">
+                                       <ce:para id="para90" view="all">base pair(s)</ce:para>
+                                    </ce:def-description>
+                                    <ce:def-term id="defterm30">PCR</ce:def-term>
+                                    <ce:def-description id="cedefdes30">
+                                       <ce:para id="para100" view="all">polymerase chain reaction</ce:para>
+                                    </ce:def-description>
+                                    <ce:def-term id="defterm40">MIC</ce:def-term>
+                                    <ce:def-description id="cedefdes40">
+                                       <ce:para id="para110" view="all">minimum inhibitory concentration.</ce:para>
+                                    </ce:def-description>
+                                 </ce:def-list>
+                              </ce:note-para>
+                           </ce:footnote>)DNA fragment containing the β-lactamase gene was cloned from the chromosomal DNA fractions of <ce:italic>E. cloacae</ce:italic> GC1 by the polymerase chain reaction (PCR) method (<ce:cross-ref id="cecref240" refid="bib14">14</ce:cross-ref>, <ce:cross-ref id="cecref250" refid="bib15">15</ce:cross-ref>). PCR primers were designed with reference to the known nucleotide sequence of the P99 β-lactamase gene(<ce:cross-ref id="cecref260" refid="bib7">7</ce:cross-ref>), and the primers listed in <ce:cross-ref id="cecref270" refid="tbl1">Table 1</ce:cross-ref>
+                           <ce:float-anchor refid="tbl1"/> were employed. PCR was performed using a MiniCycler (MJ Research Inc.) in a 100-μl reaction mixture comprising 0.3 μg of template DNA, 200 μM each of dNTP, 0.5 μM of each primer, and PCR buffer (10 mM Tris-HCl, pH 9.0, 50 mM KCl, 3.5 mM MgCl<ce:inf loc="post">2</ce:inf>, 0.1% Triton X-100, 0.01% bovine serum albumin). The reaction was initiated with 2.5 units of Taq DNA polymerase, and the amplified DNA fragments were digested with <ce:italic>Bam</ce:italic>HI and then ligated into the <ce:italic>Bam</ce:italic>HI site of pHSG398. The recombinant plasmid, termed pCS100, was transformed into <ce:italic>E. coli</ce:italic> AS226-51, and the positive transformants were selected with reference to their ceftazidime resistance and β-lactamase activity. A 1.6-kb DNA fragment with the β-lactamase gene was cloned from the chromosomal DNA of P99 into pHSG398 in a similar manner as above, and the recombinant plasmid was termed pCS900. Those 1.6-kb DNA fragments were sequenced by the dideoxy chain termination method (<ce:cross-ref id="cecref280" refid="bib16">16</ce:cross-ref>) using a Bca BEST(TM) Dideoxy sequencing kit or AmpliTaq(TM) sequencing kit (Takara Shuzo Co.).</ce:para>
+                     </ce:section>
+                     <ce:section id="cesec70" view="all">
+                        <ce:section-title id="cestitle60">Construction of High Expression Vector</ce:section-title>
+                        <ce:para id="para120" view="all">A high expression vector, pTTQ18K, was prepared from pTTQ18 by replacement of the ampicillin resistance gene on the original vector with a kanamycin resistance gene derived from pUC4K. Using primer 2 and primer ECPTTQ (<ce:cross-ref id="cecref290" refid="tbl1">Table 1</ce:cross-ref>), the β-lactamase genes in pCS100 and pCS900 were amplified by the use of the PCR method. The resulting DNAs carrying β-lactamase genes were digested with <ce:italic>Eco</ce:italic>RI and <ce:italic>Bam</ce:italic>HI, and then the <ce:italic>Eco</ce:italic>RI-<ce:italic>Bam</ce:italic>HI fragment was inserted into <ce:italic>Eco</ce:italic>RI-<ce:italic>Bam</ce:italic>HI site of pTTQ18K. The 750-bp DNA fragment was prepared by the digestion with <ce:italic>Kpn</ce:italic>I and <ce:italic>XbaI</ce:italic> of the recombinant plasmid, and the fragment was substituted for the counterpart in pCS100 and pCS900, respectively. The resulting plasmids were termed pCS101 and pCS901, respectively. It was confirmed by direct sequencing that an unwanted mutation in the β-lactamase genes was absent.</ce:para>
+                     </ce:section>
+                     <ce:section id="cesec80" view="all">
+                        <ce:section-title id="cestitle70">Site-directed Mutagenesis of the P99 β-Lactamase</ce:section-title>
+                        <ce:para id="para130" view="all">Site-directed mutagenesis was carried out using the overlap extension method, a modification of the PCR method, developed by Higuchi <ce:italic>et al.</ce:italic>(<ce:cross-ref id="cecref300" refid="bib17">17</ce:cross-ref>) and Ho <ce:italic>et al.</ce:italic>(<ce:cross-ref id="cecref310" refid="bib18">18</ce:cross-ref>). Insertion of 3 alanine residues at amino acid position 207 or 211 of the P99 β-lactamase was performed using oligonucleotides listed in <ce:cross-ref id="cecref320" refid="tbl1">Table 1</ce:cross-ref>. Those primers were synthesized using a Cyclone Plus DNA/RNA synthesizer (Milligen Biosearch Co.).</ce:para>
+                        <ce:para id="para140" view="all">For the primary PCR reactions, the following combinations of oligonucleotides listed in <ce:cross-ref id="cecref330" refid="tbl1">Table 1</ce:cross-ref> were employed: primer 1, 207AAAr; primer 2, 207AAA; primer 1, 211AAAr; and primer 2, 211AAA. Mutation was performed in a 100-μl reaction mixture comprising 0.1-0.3 μg of template DNA (pCS900), 200 μM each of dNTP, 0.5 μM each of oligodeoxynucleotide, 2.5 units of Taq DNA polymerase, and the PCR buffer composed of 10 mM Tris HCl, pH 9.0, 50 mM KCl, 3.5 mM MgCl<ce:inf loc="post">2</ce:inf>, 0.1% Triton X-100, and 0.01% bovine serum albumin. Amplification involved 25 cycles of 1 min of denaturation at 93°C, 2 min of annealing at 55°C, and 2 min of extension at 72°C. After the PCR reaction, 2 μl of 10 mM each of dNTP and 2.5 units of Klenow were added into the reaction mixture, followed by 10 min of incubation at 37°C. The synthesized DNA was purified by agarose gel electrophoresis and the Geneclean II kit (BIO 101, Inc., Vista, CA).</ce:para>
+                        <ce:para id="para150" view="all">The secondary PCR reaction for relocation of the mutation was performed with 0.3 μg of each first PCR products in a 100-μl reaction mixture, the composition of which was similar to that used in the first reaction except for the lack of the primer oligodeoxynucleotides. Amplification involved 5 cycles of 1 min of denaturation at 93°C, 2 min of annealing at 45°C, and 2 min of extension at 72°C. After primers 1 and 2 (50 pmol each) were added to the reaction mixture, 25 cycles of the PCR reaction were continued under the same conditions except that the annealing temperature was increased to 55°C. The synthesized DNA was purified by the same procedure as mentioned above and digested with <ce:italic>Afl</ce:italic>II. The resulting 200-nucleotide DNA fragment was replaced with the corresponding region of the P99 β-lactamase gene on pCS900. About 200 bp around the <ce:italic>Afl</ce:italic>II restriction site in the mutant gene was entirely sequenced to confirm the desired exchange in the nucleotide sequence by the chain termination method.</ce:para>
+                     </ce:section>
+                     <ce:section id="cesec90" view="all">
+                        <ce:section-title id="cestitle80">β-Lactamase Purification and β-Lactamase Assay</ce:section-title>
+                        <ce:para id="para160" view="all">
+                           <ce:italic>E. coli</ce:italic> AS226-51 cells carrying pTTQ18K with the β-lactamase gene were grown overnight in heart infusion broth containing a sublethal concentration of kanamycin (30 μg/ml) at 37°C. The preculture was diluted with a 40-fold volume of fresh medium followed by growth at the same temperature under aeration until the midlogarithmic phase and induction with 1 mM isopropyl-1-thio-β-D-galactopyranoside for 12 h. Crude β-lactamase was prepared by disruption of the cells with a French press in 50 mM sodium phosphate buffer, pH 7.0, followed by centrifugation for 1 h at 40,000 × <ce:italic>g</ce:italic> and 4°C after removal of cell debris. The crude enzyme was purified according to the procedure used for purification of the <ce:italic>C. freundii</ce:italic> β-lactamase(<ce:cross-ref id="cecref340" refid="bib19">19</ce:cross-ref>). The enzyme was purified to homogeneity by ion exchange chromatography on a CM-Sephadex C-50 column in 10 mM sodium phosphate buffer (pH 6.0) with a 0-0.6 M linear NaCl gradient followed by gel filtration on a Sephadex G-75 column in 100 mM sodium phosphate buffer (pH 7.0); its purity was confirmed by SDS-polyacrylamide gel electrophores: β-Lactamase activity was assayed by the microiodometric method of Novick (<ce:cross-ref id="cecref350" refid="bib20">20</ce:cross-ref>) with slight modification and by a UV spectrophotometric method(<ce:cross-ref id="cecref360" refid="bib21">21</ce:cross-ref>). One unit of enzyme was defined as the amount of enzyme that hydrolyzed 1 μmol of substrate in 1 min at pH 7.0 and 30°C. The kinetic parameters, <ce:italic>K</ce:italic>
+                           <ce:inf loc="post">m</ce:inf> and <ce:italic>K</ce:italic>
+                           <ce:inf loc="post">i</ce:inf>, were determined by procedures reported previously(<ce:cross-ref id="cecref370" refid="bib22">22</ce:cross-ref>).</ce:para>
+                     </ce:section>
+                     <ce:section id="cesec100" view="all">
+                        <ce:section-title id="cestitle90">Isoelectric Focusing</ce:section-title>
+                        <ce:para id="para170" view="all">Isoelectric focusing was carried out with an Atto model SJ-1071 apparatus (Atto Co., Tokyo, Japan) and a gel plate containing 5% ampholine (pH 3.5-9.5). The enzyme protein on the gel plate was detected by staining with Coomassie Brilliant Blue.</ce:para>
+                     </ce:section>
+                     <ce:section id="cesec110" view="all">
+                        <ce:section-title id="cestitle100">Antibiotic Susceptibility Testing</ce:section-title>
+                        <ce:para id="para180" view="all">Bacterial susceptibility to β-lactams was measured by the serial agar dilution method (<ce:cross-ref id="cecref380" refid="bib23">23</ce:cross-ref>) and expressed as the minimum inhibitory concentration (μg/ml) of a drug.</ce:para>
+                     </ce:section>
+                     <ce:section id="cesec120" view="all">
+                        <ce:section-title id="cestitle110">Nucleotide Sequence Accession Number</ce:section-title>
+                        <ce:para id="para190" view="all">The nucleotide sequence data reported in this paper will appear in the GSDB, DDBJ, EMBL, and NCBI nucleotide sequence data bases with the following accession number D44479.</ce:para>
+                     </ce:section>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="cesec130" view="all">
+                  <ce:section-title id="cestitle120">RESULTS</ce:section-title>
+                  <ce:section id="cesec140" view="all">
+                     <ce:section id="cesec150" view="all">
+                        <ce:section-title id="cestitle130">Properties of E. cloacae GC1</ce:section-title>
+                        <ce:para id="para200" view="all">
+                           <ce:italic>E. cloacae</ce:italic> GC1 showed higher resistance to typical β-lactams, including oxyimino cephalosporins and monobactam such as ceftazidime and aztreonam, than did <ce:italic>E. cloacae</ce:italic> P99, the latter of which is known to produce high amounts of an inducible class C β-lactamase of this bacterial species. MIC levels of ceftazidime and aztreonam to GC1 were 800 and 400 μg/ml, respectively, which were 8-63 times that to P99. <ce:italic>E. cloacae</ce:italic> GC1 produced a constitutive β-lactamase, and its specific activity in the cell extract was 2.2 units/mg of bacterial protein, using cephalothin as the substrate, which is about half that of the cell extract from the P99 cells fully induced by an inducer, cefoxitin (50 μg/ml). However, the extract from the GC1 cells exhibited a high hydrolytic activity to cefuroxime, about 100 times that of the extract from the P99 cells. The GC1 β-lactamase was estimated to have an isoelectric point higher than 8.5, which is an indication that it belongs to a chromosomal class C β-lactamase.</ce:para>
+                     </ce:section>
+                     <ce:section id="cesec160" view="all">
+                        <ce:section-title id="cestitle140">Cloning and Sequencing of the GC1 β-Lactamase Gene</ce:section-title>
+                        <ce:para id="para210" view="all">A 1.6-kb DNA fragment containing the β-lactamase gene was cloned from the chromosomal DNA fractions of <ce:italic>E. cloacae</ce:italic> GC1 and <ce:italic>E. cloacae</ce:italic> P99 by the PCR method. The 1.6-kb DNA fragments were ligated into the <ce:italic>Bam</ce:italic>HI site of pHSG398. The recombinant plasmids carrying the GC1 gene and the P99 gene were termed pCS100 and pCS900, respectively. <ce:italic>E. coli</ce:italic> AS226-51 cells harboring pCS100 showed markedly higher resistance (4-16 times higher) to oxyimino β-lactams than the bacterial cells harboring pCS900 (data not shown). The 1560-bp segment of the 1.6-kb DNA fragment in pCS100 was completely sequenced (<ce:cross-ref id="cecref390" refid="fig1">Fig. 1</ce:cross-ref>
+                           <ce:float-anchor refid="fig1"/>). The sequence region was found to contain an open reading frame starting from nucleotide position 390-1544, and the amino acid sequence composed of 364 amino acids was deduced. When the amino acid sequence was compared with that of the P99 β-lactamase(<ce:cross-ref id="cecref400" refid="bib7">7</ce:cross-ref>), 359 of the 364 amino acids were found to be identical to the corresponding residues of the P99 enzyme. On the basis of the P99 amino acid sequence, the observed differences between the two β-lactamases are as follows: Ile<ce:sup loc="post">16</ce:sup>→ Val, Ala<ce:sup loc="post">88</ce:sup>→ Pro, and Ala<ce:sup loc="post">208</ce:sup>-Val<ce:sup loc="post">209</ce:sup>-Arg<ce:sup loc="post">210</ce:sup>→ Ala-Val-Arg-Ala-Val-Arg. These differences in amino acid sequences were reconfirmed by direct sequencing of the GC1 DNA by the aid of the PCR method. <ce:cross-ref id="cecref410" refid="fig2">Fig. 2</ce:cross-ref>
+                           <ce:float-anchor refid="fig2"/> shows the alignment of the three regions with those of three known β-lactamases of <ce:italic>E. cloacae</ce:italic>, the <ce:italic>E. coli</ce:italic> β-lactamase, and the <ce:italic>C. freundii</ce:italic> β-lactamase. These alignments indicated that valine at position 16 is common in the <ce:italic>E. cloacae</ce:italic> β-lactamases and that proline at position 88 is also common in many class C β-lactamases. The most remarkable feature of the GC1 enzyme is an insertion sequence, Ala-Val-Arg, suggesting a duplicative mutation on the chromosomal gene.</ce:para>
+                     </ce:section>
+                     <ce:section id="cesec170" view="all">
+                        <ce:section-title id="cestitle150">Purification of the GC1 β-Lactamase and Its Kinetic Properties</ce:section-title>
+                        <ce:para id="para220" view="all">The observations in the preceding genetic experiments suggested that the GC1 β-lactamase is a naturally occurring mutant of the chromosomal β-lactamase. The duplicative mutation may confer on the enzyme a unique substrate specificity extending to oxyimino β-lactams. The GC1 β-lactamase and the P99 β-lactamase as the reference enzyme were extracted from the <ce:italic>E. coli</ce:italic> cells carrying the high expression vectors and completely purified. The kinetic parameters of the <ce:italic>E. cloacae</ce:italic> β-lactamases for six β-lactams are summarized in <ce:cross-ref id="cecref420" refid="tbl2">Table 2</ce:cross-ref>
+                           <ce:float-anchor refid="tbl2"/>, and chemical structures of the β-lactams are shown in <ce:cross-ref id="cecref430" refid="fig3">Fig. 3</ce:cross-ref>
+                           <ce:float-anchor refid="fig3"/>. Catalytic activity, expressed as <ce:italic>k</ce:italic>
+                           <ce:inf loc="post">cat</ce:inf>, was determined for traditional cephalosporin (cephalothin), two traditional penicillins (benzylpenicillin and ampicillin), and three oxyimino β-lactams (cefuroxime, ceftazidime, and aztreonam). The <ce:italic>k</ce:italic>
+                           <ce:inf loc="post">cat</ce:inf> value of the GC1 enzyme for cephalothin, a favorable substrate for class C β-lactamases, was 88% that of the P99 enzyme. Although the <ce:italic>K</ce:italic>
+                           <ce:inf loc="post">m</ce:inf> value of the GC1 enzyme for cephalothin was somewhat higher than that of the P99 enzyme, no significant difference in catalytic activity toward the favorable substrate was observed between the two <ce:italic>E. cloacae</ce:italic> β-lactamases. On the other hand, the catalytic activity of the GC1 enzyme for oxyimino β-lactams, unfavorable substrates for usual class C β-lactamases, was significantly higher than that of the P99 β-lactamase. Examples of the striking difference can be seen in the case of cefuroxime. It should be emphasized that the increase in the catalytic activity was accompanied by an increase in the <ce:italic>K</ce:italic>
+                           <ce:inf loc="post">m</ce:inf> or <ce:italic>K</ce:italic>
+                           <ce:inf loc="post">i</ce:inf> values for those unfavorable substrates. This result is very similar to the observation in the cases of the mutant β-lactamases of <ce:italic>C. freundii</ce:italic>, which extended its substrate spectrum toward oxyimino β-lactams by substitution of Glu<ce:sup loc="post">219</ce:sup> with other amino acids(<ce:cross-ref id="cecref440" refid="bib6">6</ce:cross-ref>).</ce:para>
+                     </ce:section>
+                     <ce:section id="cesec180" view="all">
+                        <ce:section-title id="cestitle160">Construction of Hybrid Genes from the GC1 and P99 β-Lactamase Genes and Their Phenotypes</ce:section-title>
+                        <ce:para id="para230" view="all">To confirm that the duplicative mutation on the loop structure is the sole reason for the extended substrate spectrum found in the GC1 β-lactamase, two chimeric β-lactamase genes were constructed as illustrated in <ce:cross-ref id="cecref450" refid="fig4">Fig. 4</ce:cross-ref>
+                           <ce:float-anchor refid="fig4"/>. A <ce:italic>Kpn</ce:italic>I restriction enzyme site in the <ce:italic>E. cloacae</ce:italic> β-lactamase genes was utilized as a recombination site, and the resulting recombinant plasmids were termed pCS102 and pCS902. The chimeric β-lactamase gene on pCS902 has the duplicative mutation but has the same amino acids at positions 16 and 88 as those found in the common <ce:italic>E. cloacae</ce:italic> β-lactamases. The chimeric β-lactamase gene on pCS102 corresponds to a modified GC1 β-lactamase gene in which the duplicative mutation is eliminated. MIC levels of <ce:italic>E. coli</ce:italic> AS226-51 cells harboring the plasmids were examined to five β-lactams, and the extracts from the cells were assayed for their activity toward the β-lactams (<ce:cross-ref id="cecref460" refid="tbl3">Table 3</ce:cross-ref>
+                           <ce:float-anchor refid="tbl3"/>). It was evident from the experimental facts that the duplicative mutation of the Ala-Val-Arg is solely attributed to the extended substrate spectrum of the GC1 β-lactamase toward oxyimino β-lactams.</ce:para>
+                     </ce:section>
+                     <ce:section id="cesec190" view="all">
+                        <ce:section-title id="cestitle170">Insertion of Ala-Ala-Ala before or after the Ala-Val-Arg Sequence of the P99 β-Lactamase and Its Effect on the Activity to Oxyimino β-Lactams</ce:section-title>
+                        <ce:para id="para240" view="all">It was thought to be of interest to identify which is the newly inserted Ala-Val-Arg and whether an Ala-Val-Arg sequence is essential for the unique phenotype or not. Two mutant enzymes were prepared on the basis of P99 β-lactamase, <ce:italic>i.e.</ce:italic> the mutant enzymes with an Ala-Ala-Ala insertion before Ala<ce:sup loc="post">208</ce:sup> (AAA-Ala<ce:sup loc="post">208</ce:sup>) and after Arg<ce:sup loc="post">210</ce:sup> (Arg<ce:sup loc="post">210</ce:sup>-AAA). These mutant genes were prepared by means of a modified PCR method(<ce:cross-ref id="cecref470" refid="bib17">17</ce:cross-ref>, <ce:cross-ref id="cecref480" refid="bib18">18</ce:cross-ref>), and the plasmids carrying the mutant genes were termed pCS903 and pCS904, respectively. <ce:italic>E. coli</ce:italic> AS226-51 cells harboring these plasmids were compared in terms of their MIC levels to five β-lactams, and the cell extracts were assayed for their hydrolytic activity to the β-lactams (<ce:cross-ref id="cecref490" refid="tbl4">Table 4</ce:cross-ref>
+                           <ce:float-anchor refid="tbl4"/>). It is evident from the experimental results that only an insertion after Arg<ce:sup loc="post">210</ce:sup> causes the phenotype that exhibits an extended substrate spectrum and that this phenomenon is independent of the characteristics of the amino acids inserted.</ce:para>
+                     </ce:section>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="cesec200" view="all">
+                  <ce:section-title id="cestitle180">DISCUSSION</ce:section-title>
+                  <ce:para id="para250" view="all">The work described here shows for the first time an extended specificity class C β-lactamase capable of hydrolyzing oxyimino β-lactams, produced by a clinical isolate. It should be emphasized that this finding was predicted from the preceding investigations on the <ce:italic>in vitro</ce:italic> mutants of the <ce:italic>C. freundii</ce:italic> β-lactamase(<ce:cross-ref id="cecref500" refid="bib5">5</ce:cross-ref>, <ce:cross-ref id="cecref510" refid="bib6">6</ce:cross-ref>). Oxyimino β-lactams such as cefuroxime, ceftazidime, and aztreonam act as progressive inhibitors of a class C β-lactamase of <ce:italic>C. freundii</ce:italic>, and a minimum scheme for hydrolysis of the β-lactam ring of oxyimino β-lactams by the class C β-lactamase was proposed(<ce:cross-ref id="cecref520" refid="bib22">22</ce:cross-ref>). This reaction sequence includes two kinds of acyl-enzyme intermediates, <ce:italic>i.e.</ce:italic> an unstable complex and a stable complex, and the rate-limiting step in the sequence was identified as that which converts the stable acyl-enzyme complex into an unstable one. When glutamic acid at position 219 located on the loop structure between α-8 and α-9 helices of the <ce:italic>C. freundii</ce:italic> β-lactamase was substituted for lysine, the reaction rate at the rate-limiting step for aztreonam hydrolysis became 2000 times that of the wild-type enzyme. A similar phenomenon was observed in the mutant enzyme with the substitution of aspartic acid at position 217 for lysine(<ce:cross-ref id="cecref530" refid="bib26">26</ce:cross-ref>), and position 217 is located on the loop structure as well as position 219(<ce:cross-ref id="cecref540" refid="bib24">24</ce:cross-ref>). These observations on the <ce:italic>in vitro</ce:italic> mutant enzymes suggest the existence of the extended substrate specificity class C β-lactamases in nature. The sequence alignment between <ce:italic>E. cloacae</ce:italic> and <ce:italic>C. freundii</ce:italic> β-lactamases indicated that the loop structure corresponds to a region of the <ce:italic>E. cloacae</ce:italic> enzyme from Val<ce:sup loc="post">178</ce:sup> to Asn<ce:sup loc="post">226</ce:sup> (Asn<ce:sup loc="post">229</ce:sup> in the GC1 enzyme). The inserted Ala-Val-Arg in the GC1 enzyme just locates on the loop structure. It was also confirmed that the substitution of glutamine at position 219 of the P99 β-lactamase, a counterpart of Glu<ce:sup loc="post">219</ce:sup> in the <ce:italic>C. freundii</ce:italic> enzyme, for lysine certainly changes the P99 enzyme to an extended substrate specificity enzyme. (<ce:cross-ref id="cecref550" refid="FN3">
+                        <ce:sup loc="post">2</ce:sup>
+                     </ce:cross-ref>
+                     <ce:footnote id="FN3">
+                        <ce:label>2</ce:label>
+                        <ce:note-para id="cenpara20" view="all">M. Nukaga, S. Haruta, K. Taniguchi, T. Yamashita, and T. Sawai, unpublished observation.</ce:note-para>
+                     </ce:footnote>)These observations indicate that the structure, known as a hot spot for the extended substrate specificity mutation, is common among class C β-lactamases.</ce:para>
+                  <ce:para id="para260" view="all">Recently, the crystalline structure of the P99 β-lactamase was reported(<ce:cross-ref id="cecref560" refid="bib27">27</ce:cross-ref>), and the proposed structure for the active site space shows that Ala<ce:sup loc="post">208</ce:sup>, Val<ce:sup loc="post">209</ce:sup>, and Arg<ce:sup loc="post">210</ce:sup> are not the functional residues and are unable to interact directly with a substrate adapted to the active site hollow. The Pro-Val-His at positions 208-210 of the <ce:italic>C. freundii</ce:italic> β-lactamase corresponds to the Ala-Val-Arg in the P99 enzyme. The stereoview of the Pro-Val-His in the enzyme structure was constructed as reported previously (<ce:cross-ref id="cecref570" refid="bib28">28</ce:cross-ref>) (<ce:cross-ref id="cecref580" refid="fig5">Fig. 5</ce:cross-ref>
+                     <ce:float-anchor refid="fig5"/>), and the actual distance between the 3 residues and the functional residues such as Ser<ce:sup loc="post">64</ce:sup> and Lys<ce:sup loc="post">67</ce:sup> is similar to that of the P99 enzyme.</ce:para>
+                  <ce:para id="para270" view="all">The GC1 β-lactamase showed lower affinity for oxyimino β-lactams than the P99 enzyme as can be seen by higher <ce:italic>K</ce:italic>
+                     <ce:inf loc="post">m</ce:inf> or <ce:italic>K</ce:italic>
+                     <ce:inf loc="post">i</ce:inf> values (<ce:cross-ref id="cecref590" refid="tbl3">Table 3</ce:cross-ref>), and the P99 mutant enzymes with the 3-amino acid insertion at position 211 showed similar kinetic characteristics to those of the GC1 enzyme. These results obtained from the <ce:italic>E. cloacae</ce:italic> mutant enzymes are the same as those found between the E219K mutant and the wild-type <ce:italic>C. freundii</ce:italic> β-lactamase(<ce:cross-ref id="cecref600" refid="bib5">5</ce:cross-ref>). This kinetic feature common between the <ce:italic>in vitro</ce:italic> mutant and the GC1 enzyme suggests that the high activity of the GC1 enzyme toward oxyimino β-lactams may be attributable to an acceleration of the rate-limiting step, as mentioned above. The Ala-Ala-Ala insertion after position 210 of the P99 β-lactamase showed almost the same extended substrate specificity as that found in the GC1 enzyme; however, the insertion before position 208 did not lead to the same effect. This fact is of interest in connection with the relationship between the alteration in the molecular configuration and the extended substrate specificity and may be understood if we assume that Ala-Val-Arg is relatively fixed in the molecular configuration of the enzyme and that the amino acid insertion after Ala-Val-Arg causes an effective stretching of the loop structure toward the active site center. As shown in <ce:cross-ref id="cecref610" refid="fig5">Fig. 5</ce:cross-ref>, His<ce:sup loc="post">210</ce:sup> has a possibility to interact with Thr<ce:sup loc="post">190</ce:sup> and Gln<ce:sup loc="post">196</ce:sup>. The basic amino acid in the three amino acids may act as a fixed point of the loop structure. Confirmation of this assumption is under way.</ce:para>
+                  <ce:para id="para280" view="all">Joris <ce:italic>et al.</ce:italic>(<ce:cross-ref id="cecref620" refid="bib25">25</ce:cross-ref>) demonstrated seven conserved boxes in the amino acid sequences of all the serine β-lactamases and the penicillin-binding proteins, and box V was found to locate on the loop structure in question. One of the significant differences in molecular structure found between class A and C β-lactamases is directionality of a peptide comprising the loop structure. This region in class A enzyme extends in a direction reverse of that in class C enzyme(<ce:cross-ref id="cecref630" refid="bib27">27</ce:cross-ref>). A 3-amino acid sequence of TEM-1 class A β-lactamase, corresponding to the Ala-Val-Arg in the <ce:italic>E. cloacae</ce:italic> enzyme, was estimated to be Glu-Ala-Ile at positions 171-173 by superpositioning of the two enzymes. We constructed a duplicative mutant of the 3-amino acid sequence; however, the resulting TEM-1 mutant does not show the extended substrate specificity.<ce:sup loc="post">2</ce:sup> On the other hand, Sowek <ce:italic>et al.</ce:italic>(<ce:cross-ref id="cecref640" refid="bib29">29</ce:cross-ref>) reported that TEM-1 β-lactamase greatly increased its hydrolytic activity toward ceftazidime by replacement of Arg<ce:sup loc="post">164</ce:sup> with serine. They suggested that this position is distant from the active site cleft and that this phenomenon was by an indirect effect of the substitution on the active site. It is tempting to speculate that the loop structure acts as the hot spot for modification of substrate specificity of both class A and C β-lactamases.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:acknowledgment id="ceack10" view="all">
+               <ce:section-title id="cestitle190">ACKNOWLEDGEMENTS</ce:section-title>
+               <ce:para id="para290" view="all">We are grateful to A. F. Ehrhardt for providing <ce:italic>E. cloacae</ce:italic> P99.</ce:para>
+            </ce:acknowledgment>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="bibl10" view="all">
+               <ce:section-title id="cestitle200">REFERENCES</ce:section-title>
+               <ce:bibliography-sec id="cebibsec10" view="all">
+                  <ce:bib-reference id="bib1">
+                     <ce:label>1</ce:label>
+                     <sb:reference id="sbref10">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.P.</ce:given-name>
+                                 <ce:surname>Ambler</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Philos. Trans. R. Soc. Lond. B Biol. Sci.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>289</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1980</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>321</sb:first-page>
+                              <sb:last-page>331</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext1">Ambler, R. P., (1980) Philos. Trans. R. Soc. Lond. B Biol. Sci., 289, 321–331.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib2">
+                     <ce:label>2</ce:label>
+                     <sb:reference id="sbref20">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.W.</ce:given-name>
+                                 <ce:surname>Dale</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Godwin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Mossakowska</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Stephenson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Wall</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>FEBS Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>191</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1985</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>39</sb:first-page>
+                              <sb:last-page>44</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext2">Dale, J. W., Godwin, D., Mossakowska, D., Stephenson, P., Wall, S., (1985) FEBS Lett., 191, 39–44.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib3">
+                     <ce:label>3</ce:label>
+                     <sb:reference id="sbref30">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Knott-Hunziker</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Petursson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.G.</ce:given-name>
+                                 <ce:surname>Waley</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Jaurin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Grundström</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Biochem. J.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>207</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1982</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>315</sb:first-page>
+                              <sb:last-page>322</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext3">Knott-Hunziker, V., Petursson, S., Waley, S. G., Jaurin, B., Grundström, T., (1982) Biochem. J., 207, 315–322.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib4">
+                     <ce:label>4</ce:label>
+                     <sb:reference id="sbref40">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Philippon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Labia</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Jacoby</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob. Agents Chemother.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>33</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1989</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1131</sb:first-page>
+                              <sb:last-page>1136</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext4">Philippon, A., Labia, R., Jacoby, G., (1989) Antimicrob. Agents Chemother., 33, 1131–1136.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib5">
+                     <ce:label>5</ce:label>
+                     <sb:reference id="sbref50">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Tsukamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Ohno</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Sawai</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Bacteriol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>172</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1990</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4348</sb:first-page>
+                              <sb:last-page>4351</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext5">Tsukamoto, K., Ohno, R., Sawai, T., (1990) J. Bacteriol., 172, 4348–4351.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib6">
+                     <ce:label>6</ce:label>
+                     <sb:reference id="sbref60">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Tsukamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Ohno</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Nukaga</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Sawai</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Eur. J. Biochem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>207</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1992</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1123</sb:first-page>
+                              <sb:last-page>1127</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext6">Tsukamoto, K., Ohno, R., Nukaga, M., Sawai, T., (1992) Eur. J. Biochem., 207, 1123–1127.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib7">
+                     <ce:label>7</ce:label>
+                     <sb:reference id="sbref70">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Galleni</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Lindberg</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Normark</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Cole</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Honore</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Joris</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.-M.</ce:given-name>
+                                 <ce:surname>Frere</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Biochem. J.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>250</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1988</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>753</sb:first-page>
+                              <sb:last-page>760</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext7">Galleni, M., Lindberg, F., Normark, S., Cole, S., Honore, N., Joris, B., Frere, J.-M., (1988) Biochem. J., 250, 753–760.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib8">
+                     <ce:label>8</ce:label>
+                     <sb:reference id="sbref80">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.W.</ce:given-name>
+                                 <ce:surname>Taylor</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Ott</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Eckstein</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nucleic Acids Res.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>13</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1985</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>8767</sb:first-page>
+                              <sb:last-page>8785</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext8">Taylor, J. W., Ott, J., Eckstein, F., (1985) Nucleic Acids Res., 13, 8767–8785.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib9">
+                     <ce:label>9</ce:label>
+                     <sb:reference id="sbref90">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Tsukamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Tachibana</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Yamazaki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Ishii</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Ujiie</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Nishida</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Sawai</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Eur. J. Biochem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>188</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1990</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>15</sb:first-page>
+                              <sb:last-page>22</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext9">Tsukamoto, K., Tachibana, K., Yamazaki, N., Ishii, Y., Ujiie, K., Nishida, N., Sawai, T., (1990) Eur. J. Biochem., 188, 15–22.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib10">
+                     <ce:label>10</ce:label>
+                     <sb:reference id="sbref100">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Takeshita</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Sato</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Toba</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Masahashi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Hashimoto-Gotoh</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Gene (Amst.)</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>61</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1987</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>63</sb:first-page>
+                              <sb:last-page>74</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext10">Takeshita, S., Sato, M., Toba, M., Masahashi, W., Hashimoto-Gotoh, T., (1987) Gene (Amst.), 61, 63–74.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib11">
+                     <ce:label>11</ce:label>
+                     <sb:reference id="sbref110">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Yanisch-Perron</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Vieiera</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Messing</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Gene (Amst.)</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>33</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1985</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>103</sb:first-page>
+                              <sb:last-page>119</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext11">Yanisch-Perron, C., Vieiera, J., Messing, L., (1985) Gene (Amst.), 33, 103–119.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib12">
+                     <ce:label>12</ce:label>
+                     <sb:reference id="sbref120">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.H.</ce:given-name>
+                                 <ce:surname>Miler</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:title>
+                                 <sb:maintitle>Experiments in Molecular Genetics</sb:maintitle>
+                              </sb:title>
+                              <sb:date>1972</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Cold Spring Harbor Laboratory</sb:name>
+                                 <sb:location>Cold Spring Harbor, NY</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                           <sb:pages>
+                              <sb:first-page>433</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext12">Miler, J. H., 1972 in Experiments in Molecular Genetics, p. 433, Cold Spring Harbor Laboratory, Cold Spring Harbor, NY.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib13">
+                     <ce:label>13</ce:label>
+                     <sb:reference id="sbref130">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.J.</ce:given-name>
+                                 <ce:surname>Owen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Borman</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nucleic Acids Res.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>15</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1987</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3631</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext13">Owen, R. J., Borman, P., (1987) Nucleic Acids Res., 15, 3631.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib14">
+                     <ce:label>14</ce:label>
+                     <sb:reference id="sbref140">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.C.</ce:given-name>
+                                 <ce:surname>Lawyer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Stoffel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.K.</ce:given-name>
+                                 <ce:surname>Saiki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Myambo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Drummond</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.H.</ce:given-name>
+                                 <ce:surname>Gelfand</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Biol. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>264</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1989</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>6427</sb:first-page>
+                              <sb:last-page>6437</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext14">Lawyer, F. C., Stoffel, S., Saiki, R. K., Myambo, K., Drummond, R., Gelfand, D. H., (1989) J. Biol. Chem., 264, 6427–6437.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib15">
+                     <ce:label>15</ce:label>
+                     <sb:reference id="sbref150">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.K.</ce:given-name>
+                                 <ce:surname>Saiki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Scharf</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Faloona</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.B.</ce:given-name>
+                                 <ce:surname>Mullis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.T.</ce:given-name>
+                                 <ce:surname>Horn</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.A.</ce:given-name>
+                                 <ce:surname>Erlich</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Arnheim</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Science</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>230</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1985</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1350</sb:first-page>
+                              <sb:last-page>1354</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext15">Saiki, R. K., Scharf, S., Faloona, F., Mullis, K. B., Horn, G. T., Erlich, H. A., Arnheim, N., (1985) Science, 230, 1350–1354.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib16">
+                     <ce:label>16</ce:label>
+                     <sb:reference id="sbref160">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Sanger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Nicklen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.R.</ce:given-name>
+                                 <ce:surname>Coulson</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Proc. Natl. Acad. Sci. U. S. A.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>74</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1977</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>5463</sb:first-page>
+                              <sb:last-page>5467</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext16">Sanger, F., Nicklen, S., Coulson, A. R., (1977) Proc. Natl. Acad. Sci. U. S. A., 74, 5463–5467.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib17">
+                     <ce:label>17</ce:label>
+                     <sb:reference id="sbref170">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Higuchi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Krummel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.K.</ce:given-name>
+                                 <ce:surname>Saiki</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nucleic Acids Res.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>16</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1988</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>7351</sb:first-page>
+                              <sb:last-page>7367</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext17">Higuchi, R., Krummel, B., Saiki, R. K., (1988) Nucleic Acids Res., 16, 7351–7367.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib18">
+                     <ce:label>18</ce:label>
+                     <sb:reference id="sbref180">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.N.</ce:given-name>
+                                 <ce:surname>Ho</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.D.</ce:given-name>
+                                 <ce:surname>Hunt</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.M.</ce:given-name>
+                                 <ce:surname>Horton</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.K.</ce:given-name>
+                                 <ce:surname>Pullen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.R.</ce:given-name>
+                                 <ce:surname>Pease</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Gene (Amst.)</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>77</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1989</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>51</sb:first-page>
+                              <sb:last-page>59</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext18">Ho, S. N., Hunt, H. D., Horton, R. M., Pullen, J. K., Pease, L. R., (1989) Gene (Amst.), 77, 51–59.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib19">
+                     <ce:label>19</ce:label>
+                     <sb:reference id="sbref190">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Sawai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Kanno</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Tsukamoto</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Bacteriol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>152</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1982</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>567</sb:first-page>
+                              <sb:last-page>571</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext19">Sawai, T., Kanno, M., Tsukamoto, K., (1982) J. Bacteriol., 152, 567–571.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib20">
+                     <ce:label>20</ce:label>
+                     <sb:reference id="sbref200">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.P.</ce:given-name>
+                                 <ce:surname>Novick</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Biochem. J.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>83</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1962</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>236</sb:first-page>
+                              <sb:last-page>240</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext20">Novick, R. P., (1962) Biochem. J., 83, 236–240.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib21">
+                     <ce:label>21</ce:label>
+                     <sb:reference id="sbref210">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Yamaguchi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Hirata</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Sawai</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob. Agents Chemother.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>24</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1983</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>23</sb:first-page>
+                              <sb:last-page>30</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext21">Yamaguchi, A., Hirata, T., Sawai, T., (1983) Antimicrob. Agents Chemother., 24, 23–30.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib22">
+                     <ce:label>22</ce:label>
+                     <sb:reference id="sbref220">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Nukaga</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Tsukamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Yamaguchi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Sawai</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob. Agents Chemother.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>38</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1994</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1374</sb:first-page>
+                              <sb:last-page>1377</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext22">Nukaga, M., Tsukamoto, K., Yamaguchi, H., Sawai, T., (1994) Antimicrob. Agents Chemother., 38, 1374–1377.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib23">
+                     <ce:label>23</ce:label>
+                     <sb:reference id="sbref230">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Sawai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Yoshida</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Tsukamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Yamagishi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Antibiot. (Tokyo)</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>34</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1981</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1318</sb:first-page>
+                              <sb:last-page>1326</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext23">Sawai, T., Yoshida, T., Tsukamoto, K., Yamagishi, S., (1981) J. Antibiot. (Tokyo), 34, 1318–1326.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib24">
+                     <ce:label>24</ce:label>
+                     <sb:reference id="sbref240">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Oefner</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>D'Arcy</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.J.</ce:given-name>
+                                 <ce:surname>Daly</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Gubernator</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.L.</ce:given-name>
+                                 <ce:surname>Charnas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I.</ce:given-name>
+                                 <ce:surname>Heinze</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Hubschwerlen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.K.</ce:given-name>
+                                 <ce:surname>Winkler</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nature</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>343</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1990</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>284</sb:first-page>
+                              <sb:last-page>288</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext24">Oefner, C., D'Arcy, A., Daly, J. J., Gubernator, K., Charnas, R. L., Heinze, I., Hubschwerlen, C., Winkler, F. K., (1990) Nature, 343, 284–288.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib25">
+                     <ce:label>25</ce:label>
+                     <sb:reference id="sbref250">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Joris</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.M.</ce:given-name>
+                                 <ce:surname>Ghuysen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Dive</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Renard</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Dideberg</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Charlier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.M.</ce:given-name>
+                                 <ce:surname>Frere</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.A.</ce:given-name>
+                                 <ce:surname>Kelly</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.C.</ce:given-name>
+                                 <ce:surname>Boyington</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.C.</ce:given-name>
+                                 <ce:surname>Moews</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.R.</ce:given-name>
+                                 <ce:surname>Knox</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Biochem. J.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>250</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1988</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>313</sb:first-page>
+                              <sb:last-page>324</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext25">Joris, B., Ghuysen, J. M., Dive, G., Renard, A., Dideberg, O., Charlier, P., Frere, J. M., Kelly, J. A., Boyington, J. C., Moews, P. C., Knox, J. R., (1988) Biochem. J., 250, 313–324.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib26">
+                     <ce:label>26</ce:label>
+                     <sb:reference id="sbref260">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Tsukamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Kikura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Ohno</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Sawai</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>FEBS Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>264</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1990</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>211</sb:first-page>
+                              <sb:last-page>214</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext26">Tsukamoto, K., Kikura, R., Ohno, R., Sawai, T., (1990) FEBS Lett., 264, 211–214.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib27">
+                     <ce:label>27</ce:label>
+                     <sb:reference id="sbref270">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Lobkovsky</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.C.</ce:given-name>
+                                 <ce:surname>Moews</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Liu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Zhao</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.-M.</ce:given-name>
+                                 <ce:surname>Frere</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.R.</ce:given-name>
+                                 <ce:surname>Knox</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Proc. Natl. Acad. Sci. U. S. A.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>90</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1993</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>11257</sb:first-page>
+                              <sb:last-page>11261</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext27">Lobkovsky, E., Moews, P. C., Liu, H., Zhao, H., Frere, J.-M., Knox, J. R., (1993) Proc. Natl. Acad. Sci. U. S. A., 90, 11257–11261.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib28">
+                     <ce:label>28</ce:label>
+                     <sb:reference id="sbref280">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Nukaga</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Tanimoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Tsukamoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Imajo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Ishiguro</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Sawai</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>FEBS Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>332</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1993</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>93</sb:first-page>
+                              <sb:last-page>98</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext28">Nukaga, M., Tanimoto, K., Tsukamoto, K., Imajo, S., Ishiguro, M., Sawai, T., (1993) FEBS Lett., 332, 93–98.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib29">
+                     <ce:label>29</ce:label>
+                     <sb:reference id="sbref290">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.A.</ce:given-name>
+                                 <ce:surname>Sowek</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.B.</ce:given-name>
+                                 <ce:surname>Singer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Ohringer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.F.</ce:given-name>
+                                 <ce:surname>Malley</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.J.</ce:given-name>
+                                 <ce:surname>Dougherty</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.Z.</ce:given-name>
+                                 <ce:surname>Gougoutas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Bush</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Biochemistry</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>30</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1991</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3179</sb:first-page>
+                              <sb:last-page>3188</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext29">Sowek, J. A., Singer, S. B., Ohringer, S., Malley, M. F., Dougherty, T. J., Gougoutas, J. Z., Bush, K., (1991) Biochemistry, 30, 3179–3188.</ce:source-text>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

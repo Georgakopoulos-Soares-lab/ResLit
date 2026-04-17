@@ -1,0 +1,939 @@
+PMID: 21521413
+PMCID: 
+DOI: 10.1111/j.1469-0691.2010.03424.x
+Title: A novel VIM-type metallo-beta-lactamase (VIM-14) in a Pseudomonas aeruginosa clinical isolate from a neonatal intensive care unit.
+Journal: Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases
+PubDate: 2011 May
+Authors: Mazzariol A, Mammina C, Koncan R, Di Gaetano V, Di Carlo P, Cipolla D, Corsello G, Cornaglia G
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1198743X1560266X</prism:url><dc:identifier>doi:10.1111/j.1469-0691.2010.03424.x</dc:identifier><eid>1-s2.0-S1198743X1560266X</eid><prism:doi>10.1111/j.1469-0691.2010.03424.x</prism:doi><pii>S1198-743X(15)60266-X</pii><dc:title>A novel VIM‐type metallo‐beta‐lactamase (VIM‐14) in a Pseudomonas aeruginosa clinical isolate from a neonatal intensive care unit </dc:title><prism:publicationName>Clinical Microbiology and Infection</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>1198743X</prism:issn><prism:volume>17</prism:volume><prism:issueIdentifier>5</prism:issueIdentifier><prism:startingPage>722</prism:startingPage><prism:endingPage>724</prism:endingPage><prism:pageRange>722-724</prism:pageRange><prism:number>5</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2011-05-31</prism:coverDate><prism:coverDisplayDate>May 2011</prism:coverDisplayDate><prism:copyright>Copyright © 2011 European Society of Clinical Infectious Diseases. Published by Elsevier Ltd. All rights reserved.</prism:copyright><prism:publisher>European Society of Clinical Infectious Diseases. Published by Elsevier Ltd.</prism:publisher><dc:creator>Mazzariol, A.</dc:creator><dc:creator>Mammina, C.</dc:creator><dc:creator>Koncan, R.</dc:creator><dc:creator>Di Gaetano, V.</dc:creator><dc:creator>Di Carlo, P.</dc:creator><dc:creator>Cipolla, D.</dc:creator><dc:creator>Corsello, G.</dc:creator><dc:creator>Cornaglia, G.</dc:creator><dc:description>
+                  A Pseudomonas aeruginosa highly resistant to carbapenems was isolated in a neonatal intensive care unit in Palermo, Italy. The strain was found to carry a novel VIM‐type enzyme, classified as VIM‐14. The novel enzyme differs from VIM‐4 in a G31S mutation. VIM‐14 was harboured in a class 1 integron with a new organization. The integron carried the genes aac7, blaVIM‐14, blaOXA‐20 and aac4 in that order.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>true</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>Author</openaccessSponsorType><openaccessUserLicense>http://www.elsevier.com/open-access/userlicense/1.0/</openaccessUserLicense><dcterms:subject>Antibiotic resistance</dcterms:subject><dcterms:subject>carbapenems</dcterms:subject><dcterms:subject>metallo‐β‐lactamase</dcterms:subject><dcterms:subject>
+                     Pseudomonas aeruginosa
+                  </dcterms:subject><dcterms:subject>VIM‐14</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1198743X1560266X" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1198743X1560266X" rel="scidir"/></coredata><objects><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="478" height="42" size="9829">https://api.elsevier.com/content/object/eid/1-s2.0-S1198743X1560266X-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="19" size="1107">https://api.elsevier.com/content/object/eid/1-s2.0-S1198743X1560266X-gr1.sml?httpAccept=%2A%2F%2A</object></objects><scopus-id>79955386229</scopus-id><scopus-eid>2-s2.0-79955386229</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/79955386229" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>312004</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291783</xocs:ssid>
+         <xocs:ssid type="subj">291890</xocs:ssid>
+         <xocs:ssid type="subj">291891</xocs:ssid>
+         <xocs:ssid type="subj">291904</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">80</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Clinical Microbiology and Infection</xocs:srctitle>
+      <xocs:normalized-srctitle>CLINICALMICROBIOLOGYINFECTION</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20150522">2015-05-22</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20150522">2015-05-22</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20150522">2015-05-22</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20150522">2015-05-22</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2015-05-22T17:32:23</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1198743X1560266X</xocs:eid>
+      <xocs:pii-formatted>S1198-743X(15)60266-X</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1198743X1560266X</xocs:pii-unformatted>
+      <xocs:doi>10.1111/j.1469-0691.2010.03424.x</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.1</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1198743X15X60125</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20160903">2016-09-03T10:42:49.096234-04:00</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20110501</xocs:date-search-begin>
+      <xocs:date-search-end>20110531</xocs:date-search-end>
+      <xocs:year-nav>2011</xocs:year-nav>
+      <xocs:indexeddate epoch="1432328156">2015-05-22T20:55:56.550147Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt vor datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj subheadings tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body affil articletitle auth authfirstini authfull authkeywords authlast primabst pubtype ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1198-743X</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>1198743X</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>17</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>17</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>5</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>5</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 17, Issue 5</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>15</xocs:sort-order>
+      <xocs:first-fp>722</xocs:first-fp>
+      <xocs:last-lp>724</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>722</xocs:first-page>
+         <xocs:last-page>724</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201105</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>May 2011</xocs:cover-date-text>
+      <xocs:cover-date-start>2011-05-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2011-05-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2011</xocs:cover-date-year>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2011 European Society of Clinical Infectious Diseases. Published by Elsevier Ltd. All rights reserved.</xocs:copyright-line>
+      <xocs:normalized-article-title>ANOVELVIMTYPEMETALLOBETALACTAMASEVIM14INAPSEUDOMONASAERUGINOSACLINICALISOLATEANEONATALINTENSIVECAREUNIT</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>MAZZARIOL</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>A</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Transparency Declaration</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sbref10">
+            <xocs:ref-normalized-surname>CORNAGLIA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>99</xocs:ref-first-fp>
+            <xocs:ref-last-lp>101</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref20">
+            <xocs:ref-normalized-surname>POIREL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>501</xocs:ref-first-fp>
+            <xocs:ref-last-lp>512</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref30">
+            <xocs:ref-normalized-surname>LEE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2005</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4485</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4491</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref40">
+            <xocs:ref-normalized-surname>SEKIGUCHI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2008</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4194</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4197</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref50">
+            <xocs:ref-normalized-surname>YONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>5046</xocs:ref-first-fp>
+            <xocs:ref-last-lp>5054</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref60">
+            <xocs:ref-normalized-surname>MIRIAGOU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>112</xocs:ref-first-fp>
+            <xocs:ref-last-lp>122</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>V</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref70">
+            <xocs:ref-normalized-surname>CORNAGLIA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1992</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1902</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1908</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref80">
+            <xocs:ref-normalized-surname>LAURETTI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1584</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1590</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref90">
+            <xocs:ref-normalized-surname>TRIAS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1990</xocs:ref-pub-year>
+            <xocs:ref-first-fp>15680</xocs:ref-first-fp>
+            <xocs:ref-last-lp>15684</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref100">
+            <xocs:ref-normalized-surname>TOLEMAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2005</xocs:ref-pub-year>
+            <xocs:ref-first-fp>61</xocs:ref-first-fp>
+            <xocs:ref-last-lp>70</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>MAZZARIOLX2011X722</xocs:refkey3>
+         <xocs:refkey4lp>MAZZARIOLX2011X722X724</xocs:refkey4lp>
+         <xocs:refkey4ai>MAZZARIOLX2011X722XA</xocs:refkey4ai>
+         <xocs:refkey5>MAZZARIOLX2011X722X724XA</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="1">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2015-05-22T11:50:32Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>Author</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://www.elsevier.com/open-access/userlicense/1.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/1198743X_P1Y_Author" wintype="OpenArchive">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:self-archiving>
+         <xocs:sa-embargo-status>Open</xocs:sa-embargo-status>
+         <xocs:sa-start-date>2016-05-22T00:00:00Z</xocs:sa-start-date>
+         <xocs:sa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:sa-user-license>
+      </xocs:self-archiving>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1198-743X(15)60266-X</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1198743X1560266X</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1198743X1560266X</xocs:eid>
+         <xocs:doi>10.1111/j.1469-0691.2010.03424.x</xocs:doi>
+         <xocs:cid>312004</xocs:cid>
+         <xocs:timestamp>2015-05-22T15:55:56.550147-04:00</xocs:timestamp>
+         <xocs:cover-date-start>2011-05-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2011-05-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1198743X1560266X-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X1560266X/MAIN/application/pdf/500d746e71344e28bff06bb0dcdd5733/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X1560266X/MAIN/application/pdf/500d746e71344e28bff06bb0dcdd5733/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>72918</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>3</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1198743X1560266X-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X1560266X/PREVIEW/image/png/2e77697504f122d0bc0b56f26a82a310/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X1560266X/PREVIEW/image/png/2e77697504f122d0bc0b56f26a82a310/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>79474</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1198743X1560266X-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X1560266X/gr1/DOWNSAMPLED/image/jpeg/dadbcec68460bb99c7bc211193dc7d8b/gr1.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X1560266X/gr1/DOWNSAMPLED/image/jpeg/dadbcec68460bb99c7bc211193dc7d8b/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>9829</xocs:filesize>
+               <xocs:pixel-height>42</xocs:pixel-height>
+               <xocs:pixel-width>478</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1198743X1560266X-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X1560266X/gr1/THUMBNAIL/image/gif/5044900a8e6ff86bc1882293dc81074e/gr1.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X1560266X/gr1/THUMBNAIL/image/gif/5044900a8e6ff86bc1882293dc81074e/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>1107</xocs:filesize>
+               <xocs:pixel-height>19</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="fla" version="5.2" xml:lang="en">
+         <item-info>
+            <jid>CMI</jid>
+            <aid>60266</aid>
+            <ce:pii>S1198-743X(15)60266-X</ce:pii>
+            <ce:doi>10.1111/j.1469-0691.2010.03424.x</ce:doi>
+            <ce:copyright type="society" year="2011">European Society of Clinical Infectious Diseases</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig1">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption id="cecap10">
+                  <ce:simple-para id="spara10" view="all">Schematic representation of the integron with <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">(Vim‐14)</ce:inf>. Rectangles represent the gene, the arrows the direction of the gene, the filled circle the 59 bp elements and the non‐filled circle the core site.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr1"/>
+            </ce:figure>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl1" frame="topbot" rowsep="0" colsep="0">
+               <ce:label>Table 1</ce:label>
+               <ce:caption id="cecap20">
+                  <ce:simple-para id="spara20" view="all">Minimal inhibitory concentration (MICs) of <ce:italic>P. aeruginosa</ce:italic> PA210 and <ce:italic>E. coli</ce:italic> XL10 strains</ce:simple-para>
+               </ce:caption>
+               <tgroup cols="4">
+                  <colspec colname="col1" colnum="1"/>
+                  <colspec colname="col2" colnum="2"/>
+                  <colspec colname="col3" colnum="3"/>
+                  <colspec colname="col4" colnum="4"/>
+                  <thead>
+                     <row valign="bottom" rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left" morerows="1">Antimicrobials</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left" namest="col2" nameend="col4" rowsep="1">MICs (mg/L)</entry>
+                     </row>
+                     <row valign="bottom" rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">PA210</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">
+                           <italic>E. coli</italic> XL10/vector</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">
+                           <italic>E. coli</italic> XL10/pVIM14</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Imipenem</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">&lt;0.06</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">1</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Meropenem</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">32</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">&lt;0.06</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.5</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Cefotaxime</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">&gt;128</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.12</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">8</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Ceftazidime</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.12</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">8</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Aztreonam</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.12</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.12</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Piperacillin</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">8</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">2</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Piperacillin/tazobac</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">8</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">2</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Ciprofloxacin</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">&lt;0.06</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.12</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.12</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+         </ce:floats>
+         <head>
+            <ce:article-footnote>
+               <ce:note-para id="cenpara10" view="all">Editor: D. Raoult</ce:note-para>
+               <ce:note-para id="cenpara20" view="all">
+                  <ce:bold>Article published online:</ce:bold> 13 November 2010</ce:note-para>
+            </ce:article-footnote>
+            <ce:dochead id="cedoch10">
+               <ce:textfn>RESEARCH NOTES</ce:textfn>
+            </ce:dochead>
+            <ce:title id="cetitle10">A novel VIM‐type metallo‐beta‐lactamase (VIM‐14) in a <ce:italic>Pseudomonas aeruginosa</ce:italic> clinical isolate from a neonatal intensive care unit</ce:title>
+            <ce:author-group id="aug10">
+               <ce:author id="au10">
+                  <ce:given-name>A.</ce:given-name>
+                  <ce:surname>Mazzariol</ce:surname>
+                  <ce:cross-ref id="cecref10" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cecref20" refid="cor1">
+                     <ce:sup loc="post">*</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="au20">
+                  <ce:given-name>C.</ce:given-name>
+                  <ce:surname>Mammina</ce:surname>
+                  <ce:cross-ref id="cecref30" refid="aff2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au30">
+                  <ce:given-name>R.</ce:given-name>
+                  <ce:surname>Koncan</ce:surname>
+                  <ce:cross-ref id="cecref40" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au40">
+                  <ce:given-name>V.</ce:given-name>
+                  <ce:surname>Di Gaetano</ce:surname>
+                  <ce:cross-ref id="cecref50" refid="aff2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au50">
+                  <ce:given-name>P.</ce:given-name>
+                  <ce:surname>Di Carlo</ce:surname>
+                  <ce:cross-ref id="cecref60" refid="aff3">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au60">
+                  <ce:given-name>D.</ce:given-name>
+                  <ce:surname>Cipolla</ce:surname>
+                  <ce:cross-ref id="cecref70" refid="aff4">
+                     <ce:sup loc="post">d</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au70">
+                  <ce:given-name>G.</ce:given-name>
+                  <ce:surname>Corsello</ce:surname>
+                  <ce:cross-ref id="cecref80" refid="aff4">
+                     <ce:sup loc="post">d</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au80">
+                  <ce:given-name>G.</ce:given-name>
+                  <ce:surname>Cornaglia</ce:surname>
+                  <ce:cross-ref id="cecref90" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="aff1">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>Dipartimento di Patologia e Diagnostica, Università di Verona, Verona</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Dipartimento di Patologia e Diagnostica</sa:organization>
+                     <sa:address-line>Università di Verona</sa:address-line>
+                     <sa:city>Verona</sa:city>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff2">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>Dipartimento di Scienze della Promozione per la Salute “G. D’Alessandro”, Sezione di Igiene, Università di Palermo, Palermo</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Dipartimento di Scienze della Promozione per la Salute “G. D’Alessandro”</sa:organization>
+                     <sa:address-line>Sezione di Igiene</sa:address-line>
+                     <sa:address-line>Università di Palermo</sa:address-line>
+                     <sa:city>Palermo</sa:city>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff3">
+                  <ce:label>c</ce:label>
+                  <ce:textfn>Dipartimento di Scienze della Promozione per la Salute “G. D’Alessandro”, Sezione di Malattie Infettive, Università di Palermo, Palermo</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Dipartimento di Scienze della Promozione per la Salute “G. D’Alessandro”</sa:organization>
+                     <sa:address-line>Sezione di Malattie Infettive</sa:address-line>
+                     <sa:address-line>Università di Palermo</sa:address-line>
+                     <sa:city>Palermo</sa:city>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff4">
+                  <ce:label>d</ce:label>
+                  <ce:textfn>Dipartimento Materno‐infantile, Università di Palermo, Palermo, Italy</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Dipartimento Materno‐infantile</sa:organization>
+                     <sa:address-line>Università di Palermo</sa:address-line>
+                     <sa:city>Palermo</sa:city>
+                     <sa:country>Italy</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:correspondence id="cor1">
+                  <ce:label>*</ce:label>
+                  <ce:text>
+                     <ce:bold>Corresponding author:</ce:bold> Dr A. Mazzariol, Dipartimento di Patologia e Diagnostica, Università degli Studi di Verona, Strada Le Grazie, 8, 37138 Verona, Italy</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="17" month="8" year="2010"/>
+            <ce:date-revised day="19" month="10" year="2010"/>
+            <ce:date-accepted day="2" month="11" year="2010"/>
+            <ce:abstract id="ceab10" view="all" class="author"><ce:abstract-sec id="ceabs10" view="all">
+                  <ce:simple-para id="spara30" view="all">A <ce:italic>Pseudomonas aeruginosa</ce:italic> highly resistant to carbapenems was isolated in a neonatal intensive care unit in Palermo, Italy. The strain was found to carry a novel VIM‐type enzyme, classified as VIM‐14. The novel enzyme differs from VIM‐4 in a G31S mutation. VIM‐14 was harboured in a class 1 integron with a new organization. The integron carried the genes <ce:italic>aac7</ce:italic>, <ce:italic>bla</ce:italic>VIM‐14, <ce:italic>bla</ce:italic>OXA‐20 and <ce:italic>aac4</ce:italic> in that order.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="cekeyws10" view="all" class="keyword">
+               <ce:section-title id="cestitle20">Keywords</ce:section-title>
+               <ce:keyword id="cekeyw10">
+                  <ce:text>Antibiotic resistance</ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw20">
+                  <ce:text>carbapenems</ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw30">
+                  <ce:text>metallo‐β‐lactamase</ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw40">
+                  <ce:text>
+                     <ce:italic>Pseudomonas aeruginosa</ce:italic>
+                  </ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw50">
+                  <ce:text>VIM‐14</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:para id="para10" view="all">Carbapenems are among the most effective antimicrobial agents commonly used for treatment of infections due to <ce:italic>P. aeruginosa</ce:italic>. Carbapenem resistance resulting from production of metallo‐β‐lactamases (MBLs) is possibly the most important mechanism because these enzymes reduce susceptibility to all beta‐lactams, and over recent years VIM‐type producing <ce:italic>P. aeruginosa</ce:italic> isolates have become endemic in many European countries, especially in the Mediterranean area [<ce:cross-ref id="cecref100" refid="bib1">1</ce:cross-ref>].</ce:para>
+               <ce:para id="para20" view="all">To date, nine transferable types of MBL mobile genes have been detected and studied, including <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">IMP</ce:inf>, <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">VIM</ce:inf>, <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">SPM</ce:inf>, <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">GIM</ce:inf> [<ce:cross-ref id="cecref110" refid="bib2">2</ce:cross-ref>], <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">SIM</ce:inf> [<ce:cross-ref id="cecref120" refid="bib3">3</ce:cross-ref>], <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">KHM</ce:inf> [<ce:cross-ref id="cecref130" refid="bib4">4</ce:cross-ref>] and <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">AIM</ce:inf> (D. Yong, T. R. Walsh, J. Bell, B. Ritchie, R. Pratt and M. A. Toleman, presented at the 46th Interscience Conference on Antimicrobial Agents and Chemotherapy, Washington, DC, 25–28 October 2008), <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">NDM</ce:inf> [<ce:cross-ref id="cecref140" refid="bib5">5</ce:cross-ref>] and <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">DIM</ce:inf> (L. Poirel, J. M. Rodriguez‐Martinez, N. Al Naiemi, Y. Debets‐Ossenkopp and P. Nordmann, presented at the 19th European Congress of Clinical Microbiology and Infectious Diseases, Helsinki, Finland, 16–19 May 2009). These genes have been often carried on gene cassettes of class 1 integrons and conjugative plasmids. Both <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">IMP</ce:inf> and <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">VIM</ce:inf> genes have been largely reported worldwide from among clinical isolates of Gram‐negative pathogens, all other MBL genes being reported only sporadically [<ce:cross-refs id="cecrefs10" refid="bib1 bib6">1,6</ce:cross-refs>].</ce:para>
+               <ce:para id="para30" view="all">A 1‐year prospective study of multidrug‐resistant Gram‐negative microorganisms was carried out in a neonatal intensive care unit (NICU) in Palermo, Italy, within the framework of an infection control programme. All the newborns admitted to the NICU for at least 24 h (211 cases) were enrolled in the study. All the imipenem‐resistant <ce:italic>P. aeruginosa</ce:italic> isolates from specimen types (34 isolates) were screened for possible MBL production by the EDTA disk synergy test<ce:bold>.</ce:bold> Within the 34 <ce:italic>P. aeruginosa</ce:italic> strains, 12 different pulsotypes were identified by PFGE. Genomic DNA was prepared according to previously described methods, digested by XbaI and separated using a CHEF‐DRIII apparatus (Bio‐Rad). Only the strains of pulsotype A (21 isolates) were MBL producing. The remaining 11 pulsotypes proved to be sporadic. Among the 21 isolates producing MBL that belong to the same pulsotype we selected PSE PA210 for further investigation. All these isolates were considered as colonizers and they did not confer infection.</ce:para>
+               <ce:para id="para40" view="all">Antimicrobial susceptibility testing of PSE PA210 was performed by both diffusion and microdilution tests and interpreted according to the latest EUCAST breakpoints [<ce:inter-ref id="interrefs10" xlink:href="http://www.eucast.org/clinical_breakpoints/" xlink:type="simple">http://www.eucast.org/clinical_breakpoints/</ce:inter-ref>version 1.1]. The isolate was resistant to imipenem (64 mg/L), meropenem (32 mg/L), cefotaxime (&gt;128 mg/L), ceftazidime (64 mg/L), gentamicin (64 mg/L) and amikacin (16 mg/L) but was intermediate to aztreonam (4 mg/L), and susceptible to piperacillin (8 mg/L) and ciprofloxacin (≤0.06 mg/L).</ce:para>
+               <ce:para id="para50" view="all">The resistance to carbapenems was further investigated with the MBL Etest (AB, Biomerieux, Solna, Sweden), which showed an minimal inhibitory concentration MIC decrease from &gt;32 to 1 mg/L in the presence of EDTA. MBL production was further confirmed by hydrolysis assays of crude cell extracts obtained as previously described [<ce:cross-refs id="cecref150" refid="bib7 bib8">7-8</ce:cross-refs>], which hydrolysed 100 μM imipenem at the rate of 4.94 × 10<ce:sup loc="post">−8</ce:sup> mole/min/mg protein; the hydrolysis rate dropped to 7.2 × 10<ce:sup loc="post">−10</ce:sup> when the sample was pre‐incubated for 20 min at 25°C with EDTA 2 mM.</ce:para>
+               <ce:para id="para60" view="all">The presence of <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">vim</ce:inf> or <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">imp</ce:inf> resistance genes was checked by PCR. The oligonucleotide primers used for the PCR assays were as follows:</ce:para>
+               <ce:para id="para70" view="all">VIM‐F: 5′‐CAGATTGCCGATGGTGTTTGG, and</ce:para>
+               <ce:para id="para80" view="all">VIM‐R: 5′AGGTGGGCCATTCAGCCAGA</ce:para>
+               <ce:para id="para90" view="all">IMP‐F: 5′‐CTACCGCAGCAGAGTCTTTGC, and</ce:para>
+               <ce:para id="para100" view="all">IMP‐R: 5′‐GAACAACCAGTTTTGCCTTACC</ce:para>
+               <ce:para id="para110" view="all">The PCR conditions were: 94°C 1 min, 55°C 1 min and 72°C 1 min, for 35 cycles. For direct sequencing, PCR products were purified using Quiagen microspin (Quiagen GmbH, Hilden, Germany). We obtained a 523 bp amplification product with <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">VIM</ce:inf>‐specific primers, and no amplification product with <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">IMP</ce:inf>‐specific primers. Amplification of the entire <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">VIM</ce:inf> determinant using primers VIM‐CF (5′‐GCACCCACCCTCATGGAG) and VIM‐CR (5′‐ATGCCGCATCTGCTACTC) yielded an amplicon of 836 bp. Direct sequencing of both strands confirmed the presence of an MBL, which, after comparison with VIM‐4, showed one amino‐acid change, namely G31S. The new enzyme has been termed VIM‐14 at <ce:inter-ref id="interrefs20" xlink:href="http://www.lahey.org/studies" xlink:type="simple">http://www.lahey.org/studies</ce:inter-ref> The <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">(VIM‐14)</ce:inf> sequence was deposited in GenBank and the accession number is AY635904.</ce:para>
+               <ce:para id="para120" view="all">The gene for bla(VIM‐14) was cloned in the phagemid vector pPCR Script Cam SK<ce:sup loc="post">+</ce:sup> (Stratagene, La Jolla, California, CA, USA). The entire <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">(VIM)</ce:inf> gene was amplified by PCR with the primers VIM‐CF and VIM‐CR. The PCR product was ligated with the phagemid vector pPCR script Cam SK<ce:sup loc="post">+</ce:sup>, endowed with a chloramphenicol resistance gene and a lac promotor for gene expression. Ligated vectors were transformed to <ce:italic>E. coli</ce:italic> XL10 ultracompetent cells by the ligation kit polishing protocol (Stratagene). Transformants were selected on LB agar plates with 30 mg/L of chloramphenicol and 0.25 mg/L of imipenem and then checked by PCR. In the <ce:italic>E. coli</ce:italic> XL10/pVIM‐14 strain, the plasmid caused definite increases in the MICs for imipenem (&gt;16‐fold), meropenem (&gt;8‐fold) and all other beta‐lactams tested (<ce:cross-ref id="cecref160" refid="tbl1">Table 1</ce:cross-ref>
+                  <ce:float-anchor refid="tbl1"/>).</ce:para>
+               <ce:para id="para130" view="all">The presence of class‐1 integrons was assessed using the class‐1 specific primers 5‐CS and 3‐CS designed to anneal to the 5′ and the 3′ conserved regions [<ce:cross-ref id="cecref170" refid="bib9">9</ce:cross-ref>]. The genetic structure of the MBL‐containing integron was deduced by separately amplifying the 5′ and 3′ sections by means of class‐1 specific primers and those designed for the MΒL gene, and by a set of PCR reactions. <ce:cross-ref id="cecref180" refid="fig1">Fig. 1</ce:cross-ref>
+                  <ce:float-anchor refid="fig1"/> shows that the integron from bla(VIM‐14)‐producing strain PA210 contained an <ce:italic>aac7</ce:italic> gene (coding for a 6′‐<ce:italic>N</ce:italic>‐aminoglycoside acetyltransferase I1), <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">VIM‐14</ce:inf>, <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">OXA‐20</ce:inf> (coding for a class D carbapenemase), and an <ce:italic>aac4</ce:italic> gene (coding for an aminoglycoside 6′ acetyltransferase). The integron sequence was deposited in GenBank and the accession number is FJ445404.</ce:para>
+               <ce:para id="para140" view="all">To investigate the outer membrane permeability in PA210 we adopted the protocol of Trias and Nikaido [<ce:cross-ref id="cecref190" refid="bib10">10</ce:cross-ref>], and our strain showed a normal OprD content as compared with the OprD<ce:sup loc="post">−</ce:sup> and OprD<ce:sup loc="post">+</ce:sup> control strains (3A and 3B, respectively).</ce:para>
+               <ce:para id="para150" view="all">We also studied the presence of integrase and resolvase genes of <ce:italic>Tn5051</ce:italic>, and the insertion element IsPA7 of <ce:italic>In70</ce:italic> [11]. A characteristic 530 bp PCR product was amplified from the isolate when screened with <ce:italic>tnp</ce:italic>RF/R primers. However, we did not obtain 1300 bp <ce:italic>tnp</ce:italic>AF/R products. This would indicate that the Tn<ce:italic>5051</ce:italic> transposon was present in our isolate but the transposon is defective in self‐mobilization sequences. Using the primers ISPF1/R1 and ISPF2/R2, designed to amplify the 3′ and 5′ pieces of IsPa7, respectively, we obtained the right size of amplicons showing that PSE PA210 also presents the insertion sequence IsPa7.</ce:para>
+               <ce:para id="para160" view="all">We also performed bacterial conjugation experiments by using <ce:italic>Escherichia coli</ce:italic> J53 AzR and <ce:italic>P. aeruginosa</ce:italic> PAO1 as recipient strains. All attempts at conjugation had failed, including those involving electroporation. This supports the suggestion that blaVIM‐14 is bearing a non‐conjugative/non‐mobilizable element.</ce:para>
+               <ce:para id="para170" view="all">VIM‐14 represents a further addition to the list of VIM enzymes, being described once again from an isolate from a Mediterranean country. The novel integron described also represents a disquieting addition to our understanding of how MBLs can spread in multiple ways. The insertion element IsPA7 of <ce:italic>In70</ce:italic> has been described as typical of MBL‐bearing isolates from Italy [11].</ce:para>
+               <ce:section id="cesec10" view="all">
+                  <ce:section-title id="cestitle30">Transparency Declaration</ce:section-title>
+                  <ce:para id="para180" view="all">None to declare.</ce:para>
+               </ce:section>
+            </ce:sections>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="bibl10" view="all">
+               <ce:section-title id="cestitle40">References</ce:section-title>
+               <ce:bibliography-sec id="cebibsec10" view="all">
+                  <ce:bib-reference id="bib1">
+                     <ce:label>1</ce:label>
+                     <sb:reference id="sbref10">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Cornaglia</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>GM</ce:given-name>
+                                 <ce:surname>Rossolini</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The emerging threat of acquired carbapenemases in Gram‐negative bacterial pathogens</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Clin Microbiol Infect</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>16</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>99</sb:first-page>
+                              <sb:last-page>101</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib2">
+                     <ce:label>2</ce:label>
+                     <sb:reference id="sbref20">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Poirel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JD</ce:given-name>
+                                 <ce:surname>Pitout</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Nordmann</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Carbapenemases: molecular diversity and clinical consequences</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Future Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>2</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>501</sb:first-page>
+                              <sb:last-page>512</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib3">
+                     <ce:label>3</ce:label>
+                     <sb:reference id="sbref30">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JH</ce:given-name>
+                                 <ce:surname>Yum</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Yong</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Novel acquired metallo‐beta‐lactamase gene, blaSIM‐1, in a class 1 integron from <ce:italic>Acinetobacter baumannii</ce:italic> clinical isolates from Korea</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>49</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2005</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4485</sb:first-page>
+                              <sb:last-page>4491</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib4">
+                     <ce:label>4</ce:label>
+                     <sb:reference id="sbref40">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Sekiguchi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Morita</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Kitao</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>KHM‐1, a novel plasmid‐mediated metallo‐beta‐lactamase from a <ce:italic>Citrobacter freundii</ce:italic> clinical isolate</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>52</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2008</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4194</sb:first-page>
+                              <sb:last-page>4197</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib5">
+                     <ce:label>5</ce:label>
+                     <sb:reference id="sbref50">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Yong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>MA</ce:given-name>
+                                 <ce:surname>Toleman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>CG</ce:given-name>
+                                 <ce:surname>Giske</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Characterization of a new metallo‐beta‐lactamase gene blaNDM‐1, and a novel erythromycin esterase gene carried on a unique genetic structure in <ce:italic>Klebsiella pneumoniae</ce:italic> sequence type 14 from India</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>53</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>5046</sb:first-page>
+                              <sb:last-page>5054</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib6">
+                     <ce:label>6</ce:label>
+                     <sb:reference id="sbref60">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>V</ce:given-name>
+                                 <ce:surname>Miriagou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Cornaglia</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Edelstein</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Acquired carbapenemases in Gram‐negative bacterial pathogens: detection and surveillance issues</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Clin Microbiol Infect</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>16</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>112</sb:first-page>
+                              <sb:last-page>122</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib7">
+                     <ce:label>7</ce:label>
+                     <sb:reference id="sbref70">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Cornaglia</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Guan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R</ce:given-name>
+                                 <ce:surname>Fontana</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Satta</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Diffusion of meropenem and imipenem through the outer membrane of <ce:italic>Escherichia coli</ce:italic> K‐12 and correlation with their antibacterial activities</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>36</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1992</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1902</sb:first-page>
+                              <sb:last-page>1908</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib8">
+                     <ce:label>8</ce:label>
+                     <sb:reference id="sbref80">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Lauretti</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>ML</ce:given-name>
+                                 <ce:surname>Riccio</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Mazzariol</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Cloning and characterization of blaVIM, a new integron‐borne metallo‐beta‐lactamase gene from a <ce:italic>Pseudomonas aeruginosa</ce:italic> clinical isolate</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>43</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1584</sb:first-page>
+                              <sb:last-page>1590</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib9">
+                     <ce:label>9</ce:label>
+                     <sb:reference id="sbref90">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Trias</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Nikaido</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Protein D2 channel of the <ce:italic>Pseudomonas aeruginosa</ce:italic> outer membrane has a binding site for basic amino acids and peptides</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Biol Chem</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>256</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1990</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>15680</sb:first-page>
+                              <sb:last-page>15684</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib10">
+                     <ce:label>10</ce:label>
+                     <sb:reference id="sbref100">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>MA</ce:given-name>
+                                 <ce:surname>Toleman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Biedenbach</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>DM</ce:given-name>
+                                 <ce:surname>Bennett</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>RN</ce:given-name>
+                                 <ce:surname>Jones</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>TR</ce:given-name>
+                                 <ce:surname>Walsh</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Italian metallo‐beta‐lactamases: a national problem? Report from the SENTRY Antimicrobial Surveillance Programme</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Antimicrob Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>55</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2005</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>61</sb:first-page>
+                              <sb:last-page>70</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

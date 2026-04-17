@@ -1,0 +1,860 @@
+PMID: 32169680
+PMCID: 
+DOI: 10.1016/j.jgar.2020.02.020
+Title: Genotypic and phylogenetic characterisation of a clinical Ralstonia pickettii strain carrying two novel OXA allelic variants, bla(OXA-898) and bla(OXA-899), isolated from a bloodstream infection in China.
+Journal: Journal of global antimicrobial resistance
+PubDate: 2020 Jun
+Authors: Jiang T, Xu J, He F
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S2213716520300497</prism:url><dc:identifier>doi:10.1016/j.jgar.2020.02.020</dc:identifier><eid>1-s2.0-S2213716520300497</eid><prism:doi>10.1016/j.jgar.2020.02.020</prism:doi><pii>S2213-7165(20)30049-7</pii><dc:title>Genotypic and phylogenetic characterisation of a clinical Ralstonia pickettii strain carrying two novel OXA allelic variants, bla
+               OXA-898 and bla
+               OXA-899, isolated from a bloodstream infection in China </dc:title><prism:publicationName>Journal of Global Antimicrobial Resistance</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>dis</pubType><prism:issn>22137165</prism:issn><prism:volume>21</prism:volume><prism:startingPage>46</prism:startingPage><prism:endingPage>48</prism:endingPage><prism:pageRange>46-48</prism:pageRange><dc:format>text/xml</dc:format><prism:coverDate>2020-06-30</prism:coverDate><prism:coverDisplayDate>June 2020</prism:coverDisplayDate><prism:copyright>© 2020 The Author(s). Published by Elsevier Ltd on behalf of International Society for Antimicrobial Chemotherapy.</prism:copyright><prism:publisher>The Author(s). Published by Elsevier Ltd on behalf of International Society for Antimicrobial Chemotherapy.</prism:publisher><dc:creator>Jiang, Tao</dc:creator><dc:creator>Xu, Juan</dc:creator><dc:creator>He, Fang</dc:creator><dc:description>
+                  Objectives
+                  
+                     Ralstonia pickettii has been increasingly recognised as an emerging opportunistic pathogen in hospital settings in recent years, especially in patients with prolonged hospital stay. Clinical manifestations associated with R. pickettii infection range from mild infections to severe invasive life-threatening infections. Here we report the genome sequence of a clinical R. pickettii strain (PSLESD1) carrying two novel bla
+                     OXA allelic variants in China.
+               
+                  Methods
+                  Whole-genome sequencing of strain PSLESD1 was performed using an Illumina NovaSeq 6000 platform. Antimicrobial resistance genes were identified using the BacWGSTdb server. The phylogenetic relationship betweenR. pickettii PSLESD1 and a total of 17 R. pickettii strains deposited in the NCBI GenBank database was analysed using NJ (neighbour joining)/UPGMA (unweighted pair-group method with arithmetic mean) phylogeny (MAFFT v.7) based on core genome single nucleotide polymorphism (SNP) data.
+               
+                  Results
+                  The draft genome sequence of R. pickettii strain PSLESD1 consists of 25 contigs comprising 5 267 333 bp. Three antimicrobial resistance genes were identified in the genome, including bla
+                     OXA-898, bla
+                     OXA-899 and sul2. Strain PSLESD1 was resistant to aminoglycosides and carbapenems including meropenem. Phylogenetic analysis showed that all strains retrieved from the NCBI GenBank database were epidemiologically unrelated. The closest relative of strain PSLESD1 was H2Cu2, which differed by 2908 SNPs.
+               
+                  Conclusion
+                  In summary, we report the first genome sequence of a clinicalR. pickettii strain harbouring two novel class D β-lactamase genes (bla
+                     OXA-898 and bla
+                     OXA-899) recovered from a bloodstream infection in China. These data may help to understand the genomic features and antimicrobial resistance mechanisms of this bacterial pathogen.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierWaived</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><dcterms:subject>
+                     Ralstonia pickettii
+                  </dcterms:subject><dcterms:subject>Whole-genome sequencing</dcterms:subject><dcterms:subject>Carbapenemase</dcterms:subject><dcterms:subject>
+                     bla
+                     OXA-898
+                  </dcterms:subject><dcterms:subject>
+                     bla
+                     OXA-899
+                  </dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S2213716520300497" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S2213716520300497" rel="scidir"/></coredata><objects><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="661" height="235" size="26943">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716520300497-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="78" size="5425">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716520300497-gr1.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="2925" height="1039" size="226246">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716520300497-gr1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="mmc1" category="standard" type="APPLICATION" multimediatype="Microsoft Word file" mimetype="application/word" size="17331">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716520300497-mmc1.docx?httpAccept=%2A%2F%2A</object><object ref="am" category="standard" type="AAM-PDF" multimediatype="Acrobat PDF file" mimetype="application/pdf" size="396019">https://api.elsevier.com/content/object/eid/1-s2.0-S2213716520300497-am.pdf?httpAccept=%2A%2F%2A</object></objects><scopus-id>85082435338</scopus-id><scopus-eid>2-s2.0-85082435338</scopus-eid><pubmed-id>32169680</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/85082435338" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>286287</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291783</xocs:ssid>
+         <xocs:ssid type="subj">291832</xocs:ssid>
+         <xocs:ssid type="subj">291890</xocs:ssid>
+         <xocs:ssid type="subj">291891</xocs:ssid>
+         <xocs:ssid type="subj">291904</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Journal of Global Antimicrobial Resistance</xocs:srctitle>
+      <xocs:normalized-srctitle>JOURNALGLOBALANTIMICROBIALRESISTANCE</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20200310">2020-03-10</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20200310">2020-03-10</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20200326">2020-03-26</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20200326">2020-03-26</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2020-12-20T15:55:46</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S2213716520300497</xocs:eid>
+      <xocs:pii-formatted>S2213-7165(20)30049-7</xocs:pii-formatted>
+      <xocs:pii-unformatted>S2213716520300497</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.jgar.2020.02.020</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.2</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S2213716520X00026</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20201220">2020-12-20T16:10:36.443349Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20200601</xocs:date-search-begin>
+      <xocs:date-search-end>20200630</xocs:date-search-end>
+      <xocs:year-nav>2020</xocs:year-nav>
+      <xocs:indexeddate epoch="1583856340">2020-03-10T16:05:40.722854Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid fundingbodyid hubeid indexeddate issn issnnorm itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder sponsoredaccesstype srctitle srctitlenorm srctype ssids alllist content oa subj subheadings suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body affil appendices articletitle auth authfirstini authfull authkeywords authlast footnotes grantnumber grantsponsor primabst pubtype ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>2213-7165</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>22137165</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:sponsored-access-type>UNLIMITED</xocs:sponsored-access-type>
+      <xocs:funding-body-id>NONE</xocs:funding-body-id>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>21</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>21</xocs:volume>
+      </xocs:volume-list>
+      <xocs:suppl>C</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 21</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>70</xocs:sort-order>
+      <xocs:first-fp>46</xocs:first-fp>
+      <xocs:last-lp>48</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>46</xocs:first-page>
+         <xocs:last-page>48</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>202006</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>June 2020</xocs:cover-date-text>
+      <xocs:cover-date-start>2020-06-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2020-06-30</xocs:cover-date-end>
+      <xocs:cover-date-year>2020</xocs:cover-date-year>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Genome notes</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>simple-article</xocs:document-type>
+      <xocs:document-subtype>dis</xocs:document-subtype>
+      <xocs:copyright-line>© 2020 The Author(s). Published by Elsevier Ltd on behalf of International Society for Antimicrobial Chemotherapy.</xocs:copyright-line>
+      <xocs:normalized-article-title>GENOTYPICPHYLOGENETICCHARACTERISATIONACLINICALRALSTONIAPICKETTIISTRAINCARRYINGTWONOVELOXAALLELICVARIANTSBLAOXA898BLAOXA899ISOLATEDABLOODSTREAMINFECTIONINCHINA</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>JIANG</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>T</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>1</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Introduction</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Funding</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Competing interests</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Ethical approval</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:appendices">
+            <xocs:item-toc-label>Appendix A</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Supplementary data</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>NASIR</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>e5084</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0010">
+            <xocs:ref-normalized-surname>BASSO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2391</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2395</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0015">
+            <xocs:ref-normalized-surname>WALTHERRASMUSSEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>373</xocs:ref-first-fp>
+            <xocs:ref-last-lp>383</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0020">
+            <xocs:ref-normalized-surname>EVANS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-first-fp>241</xocs:ref-first-fp>
+            <xocs:ref-last-lp>263</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0025">
+            <xocs:ref-normalized-surname>RUAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2016</xocs:ref-pub-year>
+            <xocs:ref-first-fp>D682</xocs:ref-first-fp>
+            <xocs:ref-last-lp>7</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0030">
+            <xocs:ref-normalized-surname>RUAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2019</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0035">
+            <xocs:ref-normalized-surname>DALIGAULT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2014</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0040">
+            <xocs:ref-normalized-surname>GIRLICH</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4217</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4225</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>JIANGX2020X46</xocs:refkey3>
+         <xocs:refkey4lp>JIANGX2020X46X48</xocs:refkey4lp>
+         <xocs:refkey4ai>JIANGX2020X46XT</xocs:refkey4ai>
+         <xocs:refkey5>JIANGX2020X46X48XT</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2020-02-28T03:24:48Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierWaived</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+      </xocs:open-access>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY-NC-ND license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2020 The Author(s). Published by Elsevier Ltd on behalf of International Society for Antimicrobial Chemotherapy.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:funding-list has-funding-info="1">
+         <xocs:funding-addon-generated-timestamp>2020-03-07T12:29:01.986Z</xocs:funding-addon-generated-timestamp>
+         <xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/eoas</xocs:funding-addon-type>
+         <xocs:funding>
+            <xocs:funding-agency-acronym>NSFC</xocs:funding-agency-acronym>
+            <xocs:funding-agency>National Natural Science Foundation of China</xocs:funding-agency>
+            <xocs:funding-agency-id>http://data.elsevier.com/vocabulary/SciValFunders/501100001809</xocs:funding-agency-id>
+            <xocs:funding-agency-country>http://sws.geonames.org/1814991</xocs:funding-agency-country>
+         </xocs:funding>
+      </xocs:funding-list>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S2213-7165(20)30049-7</xocs:pii-formatted>
+         <xocs:pii-unformatted>S2213716520300497</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S2213716520300497</xocs:eid>
+         <xocs:doi>10.1016/j.jgar.2020.02.020</xocs:doi>
+         <xocs:cid>286287</xocs:cid>
+         <xocs:timestamp>2020-12-20T16:10:36.443349Z</xocs:timestamp>
+         <xocs:cover-date-start>2020-06-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2020-06-30</xocs:cover-date-end>
+         <xocs:sponsored-access-type>UNLIMITED</xocs:sponsored-access-type>
+         <xocs:funding-body-id>NONE</xocs:funding-body-id>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S2213716520300497-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716520300497/MAIN/application/pdf/f0d1ca8951e6a687404d3a5c8daefc6a/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>368482</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>3</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S2213716520300497-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716520300497/PREVIEW/image/png/2af93113104a594944c3eb245525b2da/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>59434</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716520300497-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716520300497/gr1/DOWNSAMPLED/image/jpeg/4d0223e6e32aa0cc6fb7393efd5acbba/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>26943</xocs:filesize>
+               <xocs:pixel-height>235</xocs:pixel-height>
+               <xocs:pixel-width>661</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716520300497-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716520300497/gr1/THUMBNAIL/image/gif/164ec03ca913f4bb99500ade31c5194a/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>5425</xocs:filesize>
+               <xocs:pixel-height>78</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716520300497-gr1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716520300497/gr1/HIGHRES/image/jpeg/6462fd9b4851ac2444651313502853c8/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>226246</xocs:filesize>
+               <xocs:pixel-height>1039</xocs:pixel-height>
+               <xocs:pixel-width>2925</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716520300497-mmc1.docx</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S2213716520300497/mmc1/MAIN/application/vnd.openxmlformats-officedocument.wordprocessingml.document/4d2306cea9170e8891692e7620a1000a/mmc1.docx</xocs:ucs-locator>
+               <xocs:file-basename>mmc1</xocs:file-basename>
+               <xocs:filename>mmc1.docx</xocs:filename>
+               <xocs:extension>docx</xocs:extension>
+               <xocs:filesize>17331</xocs:filesize>
+               <xocs:attachment-type>APPLICATION</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S2213716520300497-am.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/egi:10HX11ZXB5B/MAIN/application/pdf/4078ef64f1f218385142edc9ba64741d/am.pdf</xocs:ucs-locator>
+               <xocs:file-basename>am</xocs:file-basename>
+               <xocs:filename>am.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>false</xocs:pdf-optimized>
+               <xocs:filesize>396019</xocs:filesize>
+               <xocs:attachment-type>AAM-PDF</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <simple-article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.6" xml:lang="en" docsubtype="dis">
+         <item-info>
+            <jid>JGAR</jid>
+            <aid>1174</aid>
+            <ce:pii>S2213-7165(20)30049-7</ce:pii>
+            <ce:doi>10.1016/j.jgar.2020.02.020</ce:doi>
+            <ce:copyright type="other" year="2020">The Author(s)</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig0005">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption id="cap0005">
+                  <ce:simple-para id="spar0005" view="all">Phylogenetic analysis of clinical isolate <ce:italic>Ralstonia pickettii</ce:italic> PSLESD1 and other <ce:italic>R. pickettii</ce:italic> strains available in the NCBI GenBank database based on core genome single nucleotide polymorphism (SNP) data.</ce:simple-para>
+               </ce:caption>
+               <ce:alt-text id="at0005" role="short">Fig. 1</ce:alt-text>
+               <ce:link locator="gr1" xlink:href="pii:S2213716520300497/gr1" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4"/>
+            </ce:figure>
+         </ce:floats>
+         <simple-head>
+            <ce:dochead id="doh0005">
+               <ce:textfn>Genome Note</ce:textfn>
+            </ce:dochead>
+            <ce:title id="tit0005">Genotypic and phylogenetic characterisation of a clinical <ce:italic>Ralstonia pickettii</ce:italic> strain carrying two novel OXA allelic variants, <ce:italic>bla</ce:italic>
+               <ce:inf loc="post">OXA-898</ce:inf> and <ce:italic>bla</ce:italic>
+               <ce:inf loc="post">OXA-899</ce:inf>, isolated from a bloodstream infection in China</ce:title>
+            <ce:author-group id="aug0005">
+               <ce:author id="aut0005" author-id="S2213716520300497-d8e934dcbd62a691dd7cb2254ddfedac">
+                  <ce:given-name>Tao</ce:given-name>
+                  <ce:surname>Jiang</ce:surname>
+                  <ce:cross-ref id="crf0005" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0010" refid="fn0005">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0010" author-id="S2213716520300497-8c5cb85c30ea619f15c6ce08d022ad02">
+                  <ce:given-name>Juan</ce:given-name>
+                  <ce:surname>Xu</ce:surname>
+                  <ce:cross-ref id="crf0015" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0020" refid="fn0005">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0015" author-id="S2213716520300497-d13147d6994c8edada7d4104209183d1">
+                  <ce:given-name>Fang</ce:given-name>
+                  <ce:surname>He</ce:surname>
+                  <ce:cross-ref id="crf0025" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0030" refid="cor0005">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="aff0005" affiliation-id="S2213716520300497-ef2c72de52742d8e89ba10e135b22e7f">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>Department of Clinical Laboratory, Zhejiang Provincial People’s Hospital, People’s Hospital of Hangzhou Medical College, Hangzhou, Zhejiang 310014, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Clinical Laboratory</sa:organization>
+                     <sa:organization>Zhejiang Provincial People’s Hospital</sa:organization>
+                     <sa:organization>People’s Hospital of Hangzhou Medical College</sa:organization>
+                     <sa:city>Hangzhou</sa:city>
+                     <sa:state>Zhejiang</sa:state>
+                     <sa:postal-code>310014</sa:postal-code>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="sot0005">Department of Clinical Laboratory, Zhejiang Provincial People’s Hospital, People’s Hospital of Hangzhou Medical College, Hangzhou, Zhejiang 310014, China</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="aff0010" affiliation-id="S2213716520300497-fc95e9758d7970d402146141bd2795af">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>Institute of Hygiene, Zhejiang Academy of Medical Sciences, Hangzhou Medical College, Hangzhou, Zhejiang 310013, China</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Institute of Hygiene</sa:organization>
+                     <sa:organization>Zhejiang Academy of Medical Sciences</sa:organization>
+                     <sa:organization>Hangzhou Medical College</sa:organization>
+                     <sa:city>Hangzhou</sa:city>
+                     <sa:state>Zhejiang</sa:state>
+                     <sa:postal-code>310013</sa:postal-code>
+                     <sa:country>China</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="sot0010">Institute of Hygiene, Zhejiang Academy of Medical Sciences, Hangzhou Medical College, Hangzhou, Zhejiang 310013, China</ce:source-text>
+               </ce:affiliation>
+               <ce:correspondence id="cor0005">
+                  <ce:label>⁎</ce:label>
+                  <ce:text>Corresponding author.</ce:text>
+               </ce:correspondence>
+               <ce:footnote id="fn0005">
+                  <ce:label>1</ce:label>
+                  <ce:note-para id="npar0005" view="all">These two authors contributed equally to this study.</ce:note-para>
+               </ce:footnote>
+            </ce:author-group>
+            <ce:date-received day="21" month="11" year="2019"/>
+            <ce:date-revised day="12" month="2" year="2020"/>
+            <ce:date-accepted day="23" month="2" year="2020"/>
+            <ce:abstract id="abs0005" view="all" class="author"><ce:abstract-sec id="abst0005" view="all">
+                  <ce:section-title id="sect0010">Objectives</ce:section-title>
+                  <ce:simple-para id="spar0010" view="all">
+                     <ce:italic>Ralstonia pickettii</ce:italic> has been increasingly recognised as an emerging opportunistic pathogen in hospital settings in recent years, especially in patients with prolonged hospital stay. Clinical manifestations associated with <ce:italic>R. pickettii</ce:italic> infection range from mild infections to severe invasive life-threatening infections. Here we report the genome sequence of a clinical <ce:italic>R. pickettii</ce:italic> strain (PSLESD1) carrying two novel <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA</ce:inf> allelic variants in China.</ce:simple-para>
+               </ce:abstract-sec><ce:abstract-sec id="abst0010" role="materials-methods" view="all">
+                  <ce:section-title id="sect0015">Methods</ce:section-title>
+                  <ce:simple-para id="spar0015" view="all">Whole-genome sequencing of strain PSLESD1 was performed using an Illumina NovaSeq 6000 platform. Antimicrobial resistance genes were identified using the BacWGSTdb server. The phylogenetic relationship between<ce:italic>R. pickettii</ce:italic> PSLESD1 and a total of 17 <ce:italic>R. pickettii</ce:italic> strains deposited in the NCBI GenBank database was analysed using NJ (neighbour joining)/UPGMA (unweighted pair-group method with arithmetic mean) phylogeny (MAFFT v.7) based on core genome single nucleotide polymorphism (SNP) data.</ce:simple-para>
+               </ce:abstract-sec><ce:abstract-sec id="abst0015" role="results" view="all">
+                  <ce:section-title id="sect0020">Results</ce:section-title>
+                  <ce:simple-para id="spar0020" view="all">The draft genome sequence of <ce:italic>R. pickettii</ce:italic> strain PSLESD1 consists of 25 contigs comprising 5 267 333 bp. Three antimicrobial resistance genes were identified in the genome, including <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-898</ce:inf>, <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-899</ce:inf> and <ce:italic>sul2</ce:italic>. Strain PSLESD1 was resistant to aminoglycosides and carbapenems including meropenem. Phylogenetic analysis showed that all strains retrieved from the NCBI GenBank database were epidemiologically unrelated. The closest relative of strain PSLESD1 was H2Cu2, which differed by 2908 SNPs.</ce:simple-para>
+               </ce:abstract-sec><ce:abstract-sec id="abst0020" role="conclusion" view="all">
+                  <ce:section-title id="sect0025">Conclusion</ce:section-title>
+                  <ce:simple-para id="spar0025" view="all">In summary, we report the first genome sequence of a clinical<ce:italic>R. pickettii</ce:italic> strain harbouring two novel class D β-lactamase genes (<ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-898</ce:inf> and <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-899</ce:inf>) recovered from a bloodstream infection in China. These data may help to understand the genomic features and antimicrobial resistance mechanisms of this bacterial pathogen.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="kwd0005" class="keyword" view="all">
+               <ce:section-title id="sect0030">Keywords</ce:section-title>
+               <ce:keyword id="kw0005">
+                  <ce:text>
+                     <ce:italic>Ralstonia pickettii</ce:italic>
+                  </ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0010">
+                  <ce:text>Whole-genome sequencing</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0015">
+                  <ce:text>Carbapenemase</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0020">
+                  <ce:text>
+                     <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-898</ce:inf>
+                  </ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0025">
+                  <ce:text>
+                     <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-899</ce:inf>
+                  </ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </simple-head>
+         <body view="all">
+            <ce:sections>
+               <ce:section id="sec0005" role="introduction" view="all">
+                  <ce:label>1</ce:label>
+                  <ce:section-title id="sect0035">Introduction</ce:section-title>
+                  <ce:para id="par0005" view="all">
+                     <ce:italic>Ralstonia pickettii</ce:italic> is a non-fermentative, Gram-negative, aerobic bacillus that often causes contamination of pharmaceutical solutions and results in nosocomial infections and outbreaks. It can be isolated from a variety of clinical samples, including sputum, blood, urine, nasopharyngeal swab and cerebrospinal fluid. Clinical manifestations associated with <ce:italic>R. pickettii</ce:italic> infection range from mild infections to severe and sometimes life-threatening invasive infections. <ce:italic>Ralstonia pickettii</ce:italic> has been increasingly recognised as an emerging opportunistic pathogen in hospital settings in recent years, especially in patients with prolonged hospital stay <ce:cross-refs id="crfs0005" refid="bib0005 bib0010">[1,2]</ce:cross-refs>. Class D β-lactamases, also known as oxacillinases or OXA-type β-lactamases (OXAs), can contribute to a high level of carbapenem resistance in Gram-negative bacilli <ce:cross-refs id="crfs0010" refid="bib0015 bib0020">[3,4]</ce:cross-refs>. Here we report the first genome sequence of a clinical <ce:italic>R. pickettii</ce:italic> strain isolated from a bloodstream infection carrying two novel <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA</ce:inf> genes in China. Genotypic and phenotypic characterisation of the strain was further analysed.</ce:para>
+                  <ce:para id="par0010" view="all">An 86-year-old female patient was hospitalised in the intensive care unit of a tertiary hospital in Zhejiang Province in August 2019. She was diagnosed with chronic renal failure and aspiration pneumonia. The patient also had other co-morbidities including hypertension and hyperlipidaemia. Sputum cultures recovered several bacterial isolates, i.e. carbapenem-resistant <ce:italic>Pseudomonas aeruginosa</ce:italic> and carbapenem-resistant <ce:italic>Acinetobacter baumannii</ce:italic>. During her hospitalisation, the patient received multiple broad-spectrum antibiotics including ceftazidime, aztreonam, fosfomycin, tigecycline and colistin. In September 2019, a <ce:italic>R. pickettii</ce:italic> strain (PSLESD1) was collected from a blood sample of the patient.</ce:para>
+                  <ce:para id="par0015" view="all">The isolate was preliminarily identified using the VITEK® MS system (bioMérieux, Marcy-l’Étoile, France). Antimicrobial susceptibility testing was performed using a VITEK®2 system (bioMérieux) with Gram-negative antimicrobial susceptibility testing card (AST-GN16) and by Etest following the guidelines of the Clinical and Laboratory Standards Institute (CLSI). Whole-genome sequencing) of the strain was performed using an Illumina NovaSeq 6000 platform (Illumina Inc., San Diego, CA, USA). The generated short reads were de novo assembled into contigs using SPAdes v.3.13.0. The whole genome sequence was automatically annotated by the NCBI Prokaryotic Genome Annotation Pipeline (PGAP). Antimicrobial resistance genes were identified using the BacWGSTdb server <ce:cross-refs id="crfs0015" refid="bib0025 bib0030">[5,6]</ce:cross-refs>.</ce:para>
+                  <ce:para id="par0020" view="all">
+                     <ce:italic>Ralstonia pickettii</ce:italic> strain PSLESD1 was further confirmed by calculating the average nucleotide identity (ANI), which compares the submitted genome sequence against the genomes of type strains and proxytype strains that are already in GenBank. The ANI results revealed that the genome of <ce:italic>R. pickettii</ce:italic> strain PSLESD1 is &gt;99.9% identical to the type strain <ce:italic>R. pickettii</ce:italic> ATCC 27511 <ce:cross-ref id="crf0035" refid="bib0035">[7]</ce:cross-ref>. The draft genome sequence of <ce:italic>R. pickettii</ce:italic> strain PSLESD1 consists of 25 contigs comprising 5 267 333 bp, and the overall GC content amounts to 63.8%. In total, 49 tRNA genes, 3 rRNA operons and 4774 protein-coding sequences were identified by the PGAP server. Three antimicrobial resistance genes were identified in the genome, including the β-lactam resistance genes <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-899</ce:inf> (located in contig 00001: 353 171–353 998) and <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-898</ce:inf> (located in contig 00001: 543 716–544 531) and the sulfonamide resistance gene <ce:italic>sul2</ce:italic>. The <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-898</ce:inf> gene is a novel variant allele of the OXA-60 family class D β-lactamases and the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-899</ce:inf> gene is a novel variant allele of the OXA-22 family class D β-lactamases. They are first reported in this study and have been submitted to GenBank with accession nos. <ce:bold>
+                        <ce:underline>MN968728.1 and</ce:underline>
+                        <ce:underline>MN968729.1, respectively. The minimum inhibitory concentrations (MICs)</ce:underline>
+                     </ce:bold> of antimicrobial agents tested against <ce:italic>R. pickettii</ce:italic> PSLESD1 are presented in Supplementary Table S1. Strain PSLESD1 was resistant to aminoglycosides and carbapenems including meropenem, but remained susceptible to third-generation cephalosporins, piperacillin/tazobactam, cefepime (fourth-generation cephalosporin) and fluoroquinolones.</ce:para>
+                  <ce:para id="par0025" view="all">The phylogenetic relationship between PSLESD1 and a total of 17 <ce:italic>R. pickettii</ce:italic> strains deposited in the NCBI GenBank database was analysed using NJ (neighbour joining)/UPGMA (unweighted pair-group method with arithmetic mean) phylogeny (MAFFT v.7) based on core genome single nucleotide polymorphism (SNP) analysis. The phylogenetic tree is presented in <ce:cross-ref id="crf0040" refid="fig0005">Fig. 1</ce:cross-ref>
+                     <ce:float-anchor refid="fig0005"/>. Seven strains were isolated from the USA, three strains from Japan, two strains each from Portugal and UK, and one strain each from China, Canada and Australia. Four strains were isolated from humans, eleven strains from the environment and two strains with unknown isolation source. One strain (namely 52) was isolated from a water sample in Zhejiang Province in 2016, which differed by 9299 SNPs compared to strain PSLESD1. Phylogenetic analysis showed that these strains were epidemiologically unrelated. The closest relative of strain PSLESD1 was H2Cu2, which differed by 2908 SNPs. Most of these strains produce OXA-22 family and OXA-60 family class D β-lactamases. It appears that chromosomally-encoded OXA-22 family and OXA-60 family class D β-lactamases are commonly identified in <ce:italic>R. pickettii</ce:italic>. Among them, OXA-60 family class D β-lactamase is an inducible oxacillinase with carbapenem-hydrolysing ability, making clinical treatment difficult <ce:cross-ref id="crf0045" refid="bib0040">[8]</ce:cross-ref>.</ce:para>
+                  <ce:para id="par0030" view="all">In summary, we report the first genome sequence of a clinical <ce:italic>R. pickettii</ce:italic> strain harbouring two novel class D β-lactamases (<ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-898</ce:inf> and <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-899</ce:inf>) recovered from a bloodstream infection in China. These data may help to understand the genomic features and antimicrobial resistance mechanisms of this bacterial pathogen. The genome sequence of <ce:italic>R. pickettii</ce:italic> PSLESD1 can be used as a reference sequence for comparative genomic analysis in the future.</ce:para>
+                  <ce:para id="par0035" view="all">This Whole Genome Shotgun project has been deposited at DDBJ/EMBL/GenBank under the accession no. <ce:bold>
+                        <ce:underline>WJYN00000000.</ce:underline>
+                     </ce:bold> The version described in this paper is the first version (<ce:bold>
+                        <ce:underline>WJYN00000000.1)</ce:underline>
+                     </ce:bold>.</ce:para>
+               </ce:section>
+               <ce:section id="sec0010" role="acknowledgement" view="all">
+                  <ce:section-title id="sect0040">Funding</ce:section-title>
+                  <ce:para id="par0040" view="all">This study was supported by grants from the N<ce:grant-sponsor id="gs0005" xlink:type="simple" xlink:role="http://www.elsevier.com/xml/linking-roles/grant-sponsor">ational Natural Science Foundation of China</ce:grant-sponsor> [<ce:grant-number refid="gs0005">81702042], the N</ce:grant-number>
+                     <ce:grant-sponsor id="gs0010" xlink:type="simple" xlink:role="http://www.elsevier.com/xml/linking-roles/grant-sponsor">atural Science Foundation of Zhejiang Province</ce:grant-sponsor> [<ce:grant-number refid="gs0010">LQ19H200003] and the Z</ce:grant-number>
+                     <ce:grant-sponsor id="gs0015" xlink:type="simple" xlink:role="http://www.elsevier.com/xml/linking-roles/grant-sponsor">hejiang Provincial Medical and Health Science and Technology Plan [</ce:grant-sponsor>
+                     <ce:grant-number refid="gs0015">2018KY344 and</ce:grant-number>
+                     <ce:grant-number refid="gs0015">2019KY311].</ce:grant-number>
+                  </ce:para>
+               </ce:section>
+               <ce:section id="sec0015" view="all">
+                  <ce:section-title id="sect0045">Competing interests</ce:section-title>
+                  <ce:para id="par0045" view="all">None declared.</ce:para>
+               </ce:section>
+               <ce:section id="sec0020" role="acknowledgement" view="all">
+                  <ce:section-title id="sect0050">Ethical approval</ce:section-title>
+                  <ce:para id="par0050" view="all">Not required.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:appendices view="all">
+               <ce:section id="sec0025" view="compact-standard">
+                  <ce:label>Appendix A</ce:label>
+                  <ce:section-title id="sect0055">Supplementary data</ce:section-title>
+                  <ce:para id="par0055" view="all">Supplementary material related to this article can be found, in the online version, at doi:<ce:inter-ref id="intr0005" xlink:href="https://doi.org/10.1016/j.jgar.2020.02.020" xlink:type="simple">https://doi.org/10.1016/j.jgar.2020.02.020</ce:inter-ref>.</ce:para>
+               </ce:section>
+               <ce:section id="sec0030" view="extended">
+                  <ce:label>Appendix A</ce:label>
+                  <ce:section-title id="sect0060">Supplementary data</ce:section-title>
+                  <ce:para id="par0060" view="all">The following is Supplementary data to this article:<ce:display>
+                        <ce:e-component id="upi0005">
+                           <ce:link xlink:href="pii:S2213716520300497/mmc1" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/46.1" locator="mmc1"/>
+                        </ce:e-component>
+                     </ce:display>
+                  </ce:para>
+               </ce:section>
+            </ce:appendices>
+         </body>
+         <simple-tail view="all">
+            <ce:bibliography id="bibl0005" view="all">
+               <ce:section-title id="sect0065">References</ce:section-title>
+               <ce:bibliography-sec id="bibs0005" view="all">
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Nasir</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.A.</ce:given-name>
+                                 <ce:surname>Sayeed</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Jamil</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>
+                                 <ce:italic>Ralstonia pickettii</ce:italic> bacteremia: an emerging infection in a tertiary care hospital setting</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Cureus</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>11</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>e5084</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sot0015">Nasir N, Sayeed MA, Jamil B. Ralstonia pickettii Bacteremia: An Emerging Infection in a Tertiary Care Hospital Setting. Cureus. 2019;11:e5084.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0010">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference id="sbref0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Basso</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Venditti</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Raponi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.S.</ce:given-name>
+                                 <ce:surname>Navazio</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Alessandri</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Giombini</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A case of persistent bacteraemia by <ce:italic>Ralstonia mannitolilytica</ce:italic> and <ce:italic>Ralstonia pickettii</ce:italic> in an intensive care unit</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Infect Drug Resist</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>12</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2391</sb:first-page>
+                              <sb:last-page>2395</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sot0020">Basso M, Venditti C, Raponi G, Navazio AS, Alessandri F, Giombini E, et al. A case of persistent bacteraemia by Ralstonia mannitolilytica and Ralstonia pickettii in an intensive care unit. Infection and drug resistance. 2019;12:2391-–5.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0015">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference id="sbref0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Walther-Rasmussen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Høiby</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>OXA-type carbapenemases</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Antimicrob Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>57</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>373</sb:first-page>
+                              <sb:last-page>383</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sot0025">Walther-Rasmussen J, Hoøiby N. OXA-type carbapenemases. The Journal of antimicrobial chemotherapy. 2006;57:373-–83.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0020">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference id="sbref0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B.A.</ce:given-name>
+                                 <ce:surname>Evans</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.G.</ce:given-name>
+                                 <ce:surname>Amyes</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>OXA β-lactamases</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Clin Microbiol Rev</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>27</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>241</sb:first-page>
+                              <sb:last-page>263</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sot0030">Evans BA, Amyes SG. OXA beta-lactamases. Clinical microbiology reviews. 2014;27:241-–63.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0025">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference id="sbref0025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Ruan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Feng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>BacWGSTdb, a database for genotyping and source tracking bacterial pathogens</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nucleic Acids Res</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>44</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2016</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>D682</sb:first-page>
+                              <sb:last-page>7</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sot0035">Ruan Z, Feng Y. BacWGSTdb, a database for genotyping and source tracking bacterial pathogens. Nucleic Acids Res. 2016;44:D682-–7.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0030">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference id="sbref0030">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Ruan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Yu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Feng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The global dissemination of bacterial infections necessitates the study of reverse genomic epidemiology</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Brief Bioinform</sb:maintitle>
+                                 </sb:title>
+                              </sb:series>
+                              <sb:issue-nr>February</sb:issue-nr>
+                              <sb:date>2019</sb:date>
+                           </sb:issue>
+                           <ce:doi>10.1093/bib/bbz010</ce:doi>
+                        </sb:host>
+                        <sb:comment>[Epub ahead of print]</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="sot0040">Ruan Z, Yu Y, Feng Y. The global dissemination of bacterial infections necessitates the study of reverse genomic epidemiology. Briefings in bioinformatics. 2019.[7]Daligault HE, Davenport KW, Minogue TD, Broomall SM, Bruce DC, Chain PS, et al. Draft Genome Assembly of Ralstonia pickettii Type S Bioinform 2019 Feb 4 [Epub ahead of print]. doi: 10.1093/bib/bbz010.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0035">
+                     <ce:label>[7]</ce:label>
+                     <sb:reference id="sbref0035">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.E.</ce:given-name>
+                                 <ce:surname>Daligault</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.W.</ce:given-name>
+                                 <ce:surname>Davenport</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.D.</ce:given-name>
+                                 <ce:surname>Minogue</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.M.</ce:given-name>
+                                 <ce:surname>Broomall</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.C.</ce:given-name>
+                                 <ce:surname>Bruce</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.S.</ce:given-name>
+                                 <ce:surname>Chain</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>
+                                 <ce:italic>Ralstonia pickettii</ce:italic>Draft genome assembly of type strain K-288 (ATCC 27853)</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Genome Announc</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>2</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2014</sb:date>
+                           </sb:issue>
+                           <ce:doi>10.1128/genomeA.00973-14</ce:doi>
+                        </sb:host>
+                        <sb:comment>pii: e00973-14</sb:comment>
+                     </sb:reference>
+                     <ce:source-text id="sot0045">Daligault HE, Davenport KW, Minogue TD, Broomall SM, Bruce DC, Chain PS, et al. Draft Genome Assembly of Ralstonia pickettii Type Strain K-288 (ATCC 27853). 2014;2.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0040">
+                     <ce:label>[8]</ce:label>
+                     <sb:reference id="sbref0040">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Girlich</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Naas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Nordmann</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>OXA-60, a chromosomal, inducible, and imipenem-hydrolyzing class D β-lactamase from <ce:italic>Ralstonia pickettii</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>48</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4217</sb:first-page>
+                              <sb:last-page>4225</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sot0050">Girlich D, Naas T, Nordmann P. OXA-60, a chromosomal, inducible, and imipenem-hydrolyzing class D betaβ-lactamase from Ralstonia pickettii. Antimicrobial agents and chemotherapy. 2004;48:4217-25. Agents Chemother 2004;48:4217–25.</ce:source-text>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </simple-tail>
+      </simple-article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

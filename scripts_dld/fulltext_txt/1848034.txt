@@ -1,0 +1,1892 @@
+PMID: 1848034
+PMCID: 
+DOI: 10.1016/0002-8703(91)90227-9
+Title: The cellular basis of contraction and relaxation in cardiac and vascular smooth muscle.
+Journal: American heart journal
+PubDate: 1991 Mar
+Authors: Morgan JP, Perreault CL, Morgan KG
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/0002870391902279</prism:url><dc:identifier>doi:10.1016/0002-8703(91)90227-9</dc:identifier><eid>1-s2.0-0002870391902279</eid><prism:doi>10.1016/0002-8703(91)90227-9</prism:doi><pii>0002-8703(91)90227-9</pii><dc:title>The cellular basis of contraction and relaxation in cardiac and vascular smooth muscle </dc:title><prism:publicationName>American Heart Journal</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>00028703</prism:issn><prism:volume>121</prism:volume><prism:issueIdentifier>3</prism:issueIdentifier><prism:startingPage>961</prism:startingPage><prism:endingPage>968</prism:endingPage><prism:pageRange>961-968</prism:pageRange><prism:number>3</prism:number><dc:format>text/xml</dc:format><prism:coverDate>1991-03-31</prism:coverDate><prism:coverDisplayDate>March 1991</prism:coverDisplayDate><prism:copyright>Copyright © 1991 Published by Mosby, Inc.</prism:copyright><prism:publisher>Published by Mosby, Inc.</prism:publisher><dc:creator>Morgan, James P.</dc:creator><dc:creator>Perreault, Cynthia L.</dc:creator><dc:creator>Morgan, Kathleen G.</dc:creator><dc:description>
+                  Changes in cytoplasmic levels of free-ionized calcium regulate the contraction and relaxation of cardiac and vascular smooth muscle. Aside from changing the intrinsic rate of energy use within the cell, an intervention that alters the strength of contraction of cardiac or vascular smooth muscle must in general alter either the intracellular calcium level, change the calcium requirements of the contractile apparatus, or exert both effects. Intracellular calcium handling is modulated by at least three other important second messengers: cyclic adenosine monophosphate, cyclic guanosine monophosphate, and inositol 1,4,5 triphosphate. These substances modulate intracellular calcium handling at multiple steps in the excitation-contraction coupling scheme. In vascular smooth muscle, diacylglycerol appears to play an important role in the regulation of myofilament calcium requirements. Intracellular calcium homeostasis is maintained through the action of sarcolemmal mechanisms that extrude calcium into the extracellular space; these mechanisms include a sodium-calcium exchange mechanism and an energy-dependent calcium pump. Abnormalities in electrophysiologic properties, sarcoplasmic reticulum function, energy use and supply, and contractile element interaction have been identified in experimental studies of animals and patients with various cardiovascular diseases. These abnormalities may be differentially affected by therapeutic agents that act on the heart or vasculature; therefore it is important to understand the underlying cellular abnormalities and subcellular actions of inotropic, vasoconstrictor, and vasodilatory drugs to apply rational therapeutics in the clinical setting.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>true</openArchiveArticle><openaccessSponsorName>NERL</openaccessSponsorName><openaccessSponsorType>FundingPartnerOpenArchive</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><link href="https://api.elsevier.com/content/article/pii/0002870391902279" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/0002870391902279" rel="scidir"/></coredata><scopus-id>0025969167</scopus-id><scopus-eid>2-s2.0-0025969167</scopus-eid><pubmed-id>1848034</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/0025969167" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>272407</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291896</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>American Heart Journal</xocs:srctitle>
+      <xocs:normalized-srctitle>AMERICANHEARTJOURNAL</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20040203">2004-02-03</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20040203">2004-02-03</xocs:available-online-date>
+      <xocs:ew-transaction-id>2019-02-06T09:59:18</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-0002870391902279</xocs:eid>
+      <xocs:pii-formatted>0002-8703(91)90227-9</xocs:pii-formatted>
+      <xocs:pii-unformatted>0002870391902279</xocs:pii-unformatted>
+      <xocs:doi>10.1016/0002-8703(91)90227-9</xocs:doi>
+      <xocs:item-stage>S350</xocs:item-stage>
+      <xocs:item-version-number>S350.2</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S0002870300X02189</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20240102">2024-01-02T22:12:52.40289Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>19910301</xocs:date-search-begin>
+      <xocs:date-search-end>19910331</xocs:date-search-end>
+      <xocs:year-nav>1991</xocs:year-nav>
+      <xocs:indexeddate epoch="1075766400">2004-02-03T00:00:00Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj suppl tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authlast primabst pubtype ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>0002-8703</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>00028703</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>121</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>121</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>3</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>3</xocs:issue>
+      </xocs:issue-list>
+      <xocs:suppl>P1</xocs:suppl>
+      <xocs:vol-iss-suppl-text>Volume 121, Issue 3, Part 1</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>46</xocs:sort-order>
+      <xocs:first-fp>961</xocs:first-fp>
+      <xocs:last-lp>968</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>961</xocs:first-page>
+         <xocs:last-page>968</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>199103</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>March 1991</xocs:cover-date-text>
+      <xocs:cover-date-start>1991-03-01</xocs:cover-date-start>
+      <xocs:cover-date-end>1991-03-31</xocs:cover-date-end>
+      <xocs:cover-date-year>1991</xocs:cover-date-year>
+      <xocs:document-type>converted-article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 1991 Published by Mosby, Inc.</xocs:copyright-line>
+      <xocs:normalized-article-title>CELLULARBASISCONTRACTIONRELAXATIONINCARDIACVASCULARSMOOTHMUSCLE</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>MORGAN</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>J</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="BIB1">
+            <xocs:ref-normalized-surname>RUEGG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1988</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-last-lp>285</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-article-title>CALCIUMINMUSCLEACTIVATION</xocs:ref-normalized-article-title>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB2">
+            <xocs:ref-normalized-surname>MORGAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1984</xocs:ref-pub-year>
+            <xocs:ref-first-fp>33</xocs:ref-first-fp>
+            <xocs:ref-last-lp>46</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB3">
+            <xocs:ref-normalized-surname>MORGAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1989</xocs:ref-pub-year>
+            <xocs:ref-first-fp>959</xocs:ref-first-fp>
+            <xocs:ref-last-lp>970</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB4">
+            <xocs:ref-normalized-surname>PERREAULT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1990</xocs:ref-pub-year>
+            <xocs:ref-first-fp>8</xocs:ref-first-fp>
+            <xocs:ref-last-lp>21</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB5">
+            <xocs:ref-normalized-surname>BLINKS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1986</xocs:ref-pub-year>
+            <xocs:ref-first-fp>671</xocs:ref-first-fp>
+            <xocs:ref-last-lp>701</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>HEARTCARDIOVASCULARSYSTEMSCIENTIFICFOUNDATIONS</xocs:ref-normalized-srctitle>
+            <xocs:ref-normalized-article-title>INTRACELLULARCA2MEASUREMENTS</xocs:ref-normalized-article-title>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB6">
+            <xocs:ref-normalized-surname>BLINKS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1987</xocs:ref-pub-year>
+            <xocs:ref-first-fp>292</xocs:ref-first-fp>
+            <xocs:ref-last-lp>328</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB7">
+            <xocs:ref-normalized-surname>MORGAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1982</xocs:ref-pub-year>
+            <xocs:ref-first-fp>75</xocs:ref-first-fp>
+            <xocs:ref-last-lp>77</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB8">
+            <xocs:ref-normalized-surname>SNOWDOWNE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1985</xocs:ref-pub-year>
+            <xocs:ref-first-fp>223</xocs:ref-first-fp>
+            <xocs:ref-last-lp>241</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB9">
+            <xocs:ref-normalized-surname>SUTHERLAND</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1980</xocs:ref-pub-year>
+            <xocs:ref-first-fp>160</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>PROCAUSTPHYSIOLPHARMACOLSOC</xocs:ref-normalized-srctitle>
+            <xocs:ref-normalized-article-title>ANOVELMETHODFORINTRODUCINGCA2SENSITIVEPHOTOPROTEINSCARDIACCELLS</xocs:ref-normalized-article-title>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB10">
+            <xocs:ref-normalized-surname>MORGAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1984</xocs:ref-pub-year>
+            <xocs:ref-first-fp>338</xocs:ref-first-fp>
+            <xocs:ref-last-lp>340</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB11">
+            <xocs:ref-normalized-surname>MACKINNON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1986</xocs:ref-pub-year>
+            <xocs:ref-first-fp>142</xocs:ref-first-fp>
+            <xocs:ref-last-lp>144</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB12">
+            <xocs:ref-normalized-surname>KIHARA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1989</xocs:ref-pub-year>
+            <xocs:ref-first-fp>402</xocs:ref-first-fp>
+            <xocs:ref-last-lp>407</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB13">
+            <xocs:ref-normalized-surname>KIHARA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1989</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1029</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1044</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB14">
+            <xocs:ref-normalized-surname>FELDMAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1987</xocs:ref-pub-year>
+            <xocs:ref-first-fp>331</xocs:ref-first-fp>
+            <xocs:ref-last-lp>339</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB15">
+            <xocs:ref-normalized-surname>GWATHMEY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1987</xocs:ref-pub-year>
+            <xocs:ref-first-fp>70</xocs:ref-first-fp>
+            <xocs:ref-last-lp>76</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB16">
+            <xocs:ref-normalized-surname>MORGAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1990</xocs:ref-pub-year>
+            <xocs:ref-first-fp>21</xocs:ref-first-fp>
+            <xocs:ref-last-lp>32</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB17">
+            <xocs:ref-normalized-surname>GROSSMAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1979</xocs:ref-pub-year>
+            <xocs:ref-first-fp>514</xocs:ref-first-fp>
+            <xocs:ref-last-lp>522</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB18">
+            <xocs:ref-normalized-surname>NABAUER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1988</xocs:ref-pub-year>
+            <xocs:ref-first-fp>600</xocs:ref-first-fp>
+            <xocs:ref-last-lp>606</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB19">
+            <xocs:ref-normalized-surname>MORGAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1989</xocs:ref-pub-year>
+            <xocs:ref-first-fp>136</xocs:ref-first-fp>
+            <xocs:ref-last-lp>144</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>HEARTDISEASEUPDATE</xocs:ref-normalized-srctitle>
+            <xocs:ref-normalized-article-title>MECHANISMACTIONINOTROPICDRUGS</xocs:ref-normalized-article-title>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB20">
+            <xocs:ref-normalized-surname>HAJJAR</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1988</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1578</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1584</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB21">
+            <xocs:ref-normalized-surname>PERREAULT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1990</xocs:ref-pub-year>
+            <xocs:ref-first-fp>707</xocs:ref-first-fp>
+            <xocs:ref-last-lp>717</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB22">
+            <xocs:ref-normalized-surname>PERREAULT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1989</xocs:ref-pub-year>
+            <xocs:ref-first-fp>305</xocs:ref-first-fp>
+            <xocs:ref-last-lp>308</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB23">
+            <xocs:ref-normalized-surname>MORGAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1989</xocs:ref-pub-year>
+            <xocs:ref-first-fp>136</xocs:ref-first-fp>
+            <xocs:ref-last-lp>144</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>HEARTDISEASEUPDATE</xocs:ref-normalized-srctitle>
+            <xocs:ref-normalized-article-title>MECHANISMACTIONINOTROPICDRUGS</xocs:ref-normalized-article-title>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB24">
+            <xocs:ref-normalized-surname>OPIE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1982</xocs:ref-pub-year>
+            <xocs:ref-first-fp>483</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB25">
+            <xocs:ref-normalized-surname>KOHL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1989</xocs:ref-pub-year>
+            <xocs:ref-first-fp>324</xocs:ref-first-fp>
+            <xocs:ref-last-lp>327</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB26">
+            <xocs:ref-normalized-surname>OPIE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1983</xocs:ref-pub-year>
+            <xocs:ref-first-fp>199</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB27">
+            <xocs:ref-normalized-surname>MORGAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1988</xocs:ref-pub-year>
+            <xocs:ref-first-fp>328</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB28">
+            <xocs:ref-normalized-surname>MORGAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1990</xocs:ref-pub-year>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB29">
+            <xocs:ref-normalized-surname>MORGAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1990</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1355</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1362</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB30">
+            <xocs:ref-normalized-surname>MORGAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1984</xocs:ref-pub-year>
+            <xocs:ref-first-fp>155</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB31">
+            <xocs:ref-normalized-surname>MORGAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1984</xocs:ref-pub-year>
+            <xocs:ref-first-fp>539</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB32">
+            <xocs:ref-normalized-surname>BRADLEY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1987</xocs:ref-pub-year>
+            <xocs:ref-first-fp>437</xocs:ref-first-fp>
+            <xocs:ref-last-lp>448</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB33">
+            <xocs:ref-normalized-surname>JIANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1987</xocs:ref-pub-year>
+            <xocs:ref-first-fp>437</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB34">
+            <xocs:ref-normalized-surname>BERRIDGE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1985</xocs:ref-pub-year>
+            <xocs:ref-first-fp>142</xocs:ref-first-fp>
+            <xocs:ref-last-lp>152</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB35">
+            <xocs:ref-normalized-surname>NISHIZUKA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1986</xocs:ref-pub-year>
+            <xocs:ref-first-fp>363</xocs:ref-first-fp>
+            <xocs:ref-last-lp>370</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB36">
+            <xocs:ref-normalized-surname>MATOZAKI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1989</xocs:ref-pub-year>
+            <xocs:ref-first-fp>14729</xocs:ref-first-fp>
+            <xocs:ref-last-lp>14734</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="BIB37">
+            <xocs:ref-normalized-surname>MARTINSON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1989</xocs:ref-pub-year>
+            <xocs:ref-first-fp>14748</xocs:ref-first-fp>
+            <xocs:ref-last-lp>14754</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>E</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>MORGANX1991X961</xocs:refkey3>
+         <xocs:refkey4lp>MORGANX1991X961X968</xocs:refkey4lp>
+         <xocs:refkey4ai>MORGANX1991X961XJ</xocs:refkey4ai>
+         <xocs:refkey5>MORGANX1991X961X968XJ</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="1">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2005-02-02T00:00:00.000Z</xocs:oa-access-effective-date>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>FundingPartnerOpenArchive</xocs:oa-sponsor-type>
+            <xocs:oa-sponsor-name>NERL</xocs:oa-sponsor-name>
+         </xocs:oa-sponsor>
+         <xocs:oa-access-inherited-from wintype="OpenArchive">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>0002-8703(91)90227-9</xocs:pii-formatted>
+         <xocs:pii-unformatted>0002870391902279</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-0002870391902279</xocs:eid>
+         <xocs:doi>10.1016/0002-8703(91)90227-9</xocs:doi>
+         <xocs:cid>272407</xocs:cid>
+         <xocs:timestamp>2024-01-02T22:12:52.40289Z</xocs:timestamp>
+         <xocs:cover-date-start>1991-03-01</xocs:cover-date-start>
+         <xocs:cover-date-end>1991-03-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-0002870391902279-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:0002870391902279/MAIN/application/pdf/48af2cb158cf03c1e7777a19883773b6/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>1701725</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>8</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-0002870391902279-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:0002870391902279/PREVIEW/image/png/ba0f2549b16d42ccc5f335a8e42600ea/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>80208</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">The cellular basis of contraction and relaxation in cardiac and vascular smooth muscle  Changes in cytoplasmic levels of free-ionized calcium regulate the contraction and relaxation of cardiac and vascular smooth muscle. Aside from changing the intrinsic rate of energy use within the cell, an intervention that alters the strength of contraction of cardiac or vascular smooth muscle must in general alter either the intracellular calcium level, change the calcium requirements of the contractile apparatus, or exert both effects. Intracellular calcium handling is modulated by at least three other important second messengers: cyclic adenosine monophosphate, cyclic guanosine monophosphate, and inositol 1,4,5 triphosphate. These substances modulate intracellular calcium handling at multiple steps in the excitation-contraction coupling scheme. In vascular smooth muscle, diacylglycerol appears to play an important role in the regulation of myofilament calcium requirements. Intracellular calcium homeostasis is maintained through the action of sarcolemmal mechanisms that extrude calcium into the extracellular space; these mechanisms include a sodium-calcium exchange mechanism and an energy-dependent calcium pump. Abnormalities in electrophysiologic properties, sarcoplasmic reticulum function, energy use and supply, and contractile element interaction have been identified in experimental studies of animals and patients with various cardiovascular diseases. These abnormalities may be differentially affected by therapeutic agents that act on the heart or vasculature; therefore it is important to understand the underlying cellular abnormalities and subcellular actions of inotropic, vasoconstrictor, and vasodilatory drugs to apply rational therapeutics in the clinical setting. (AM HEART J 1991;121:961.)  James P. Morgan, MD, PhD, Cynthia L. Perreault, BS, Kathleen G. Morgan, PhD.  Boston, Mass.  The intracellular concentration of free, ionized calcium ions ([Ca 2+ji) is a primary determinant of contractile activity in skeletal, cardiac, and vascular smooth muscle.1 Most interventions that affect the strength of contraction of muscle must in general alter either the intracellular Ca2+ level itself, change the Ca2+ requirements of the contractile apparatus, or exert both effects. The most direct way to determine which of these actions an intervention might have is to record [Ca2+ji in active muscle and correlate the results with mechanical activity. Several suitable intracellular calcium indicators are currently available for experimental application, including bioluminescent and fluorescent compounds. Aequorin is a bioluminescent calcium indicator that emits light when it combines with calcium. In our laboratories, aequorin is the Ca2+ indicator of choice for multicellular studies, because (1) it is possible to  From the Charles A. Dana Research Institute and the Harvard-Thorndike Laboratory of Beth Israel Hospital and Harvard Medical School.  Reprint requests: James P. Morgan, MD, PhD, Cardiovascular Division, Beth Israel Hospital, 330 Brookline Ave., Boston, MA 02215.  4/0/26027  follow Ca 2+ transients in actively contracting muscle; (2) it is relatively immune to signal artifacts generated by motion of the tissue; (3) it does not depress muscle function in concentrations necessary to obtain a signal; and (4) loading of the sarcoplasmic reticulum, mitochondria, and nucleus does not occur. An overview of results2-4 obtained in studies with aequorin in vascular smooth and cardiac muscle from animals and humans is presented in this review.  METHODS  Aequorin has been used to study excitation-contraction coupling processes in a wide variety of skeletal, cardiac, and smooth muscle preparations. The advantages and disadvantages of aequorin relative to other calcium indicators have been the subject of comprehensive reviews.5 The most common method for loading aequorin into the cytoplasm of cells is by pressure injection through fine-tipped glass micropipettes.s This method works well for relatively large cells, such as skeletal muscle fibers, in which injection during a single pipette penetration can produce bright aequorin signals. By way of contrast, in cardiac muscle cells, microinjection is a long and tedious process, because usually 40 to 100 superficial cells must be penetrated and loaded to obtain a detectable light response. Microinjection  961  962 Morgan et al.  March 1991  American Heart Journal  of smooth muscle cells, which are smaller than cardiac myocytes, is an even more difficult and time-consuming technical accomplishment.'  Because of the technical difficulty of microinjection of photoproteins, alternative approaches to loading have been explored in several laboratories. The attempted approaches include liposome fusion, temporary disruption of cell membranes by short high-voltage pulses or ultrasonography, exposure to hypoosmolar or "hyperpermeabilizing" solutions, centrifugation of cell suspensions, "scrape loading" of cell cultures, and fusion of cells with photoprotein-loaded ghost cells (for a review see Blinks5). Most of these techniques have not been applied successfully to cardiac or vascular smooth muscle, although hypoosmolar solutions have been used to load aequorin into dispersed rat ventricular cells.8 With regard to intact multicellular preparations of cardiac and vascular smooth muscle, the use of "hyperpermeabilizing" solutions has provided the only alternative to microinjection.9 As originally described by Sutherland et al.,' this method involves sequentially exposing muscles to three different solutions that are designed to make the cell membranes hyperpermeable (solution 1), load photoprotein into the cells (solution 2), and reverse the hyperpermeable state (solution 3). The rationale for this approach centered on the use of high concentrations of the Cat+-chelator ethyleneglycol-bis(0-aminoethylether)-N,N'-tetraacetic acid (EGTA) in solution 1 to render the sarcolemma permeable to aequorin. In 1982 we modified this technique for use with aequorin in mammalian smooth muscle and amphibian cardiac muscle.10 Incomplete recovery of mammalian working myocardium led to further modifications in 1983 and 1984 and resulted in the development of a useful alternative to microinjection, which, however, still used high concentrations of EGTA." We recently modified this approach so that the concentration of calcium chelator in the loading solutions can be reduced, thereby minimizing the chances of irreversible damage to the cell membranes, and we have described an approach for applying this technique to muscles surrounded by thickened connective tissue sheaths.12 Moreover, we have applied this technique to the isolated perfused whole heart preparation.13 Representative aequorin signals are shown in Figs. 1 to 3.  Interpretation of aequorin signals is complicated by the nonlinearity of the light response, which is directly proportional to the photoprotein concentration, but increases as a power of the free calcium concentration, that is, as [Ca2+]n. Over the range of calcium concentrations relevant to the experiments described in this article, n = 2.5; therefore a 5.7-fold increase in light will be produced by a twofold increase in [Ca2+]i. An important consequence of this nonlinear relationship is that if the [Cal+]i is nonuniform in a given cell, the intensity of the light emission will be higher than it would be if the same amount of calcium were distributed uniformly. Therefore the amplitude of the aequorin signal will be dominated by regions of the cell that contain the highest Cat+ concentrations, that is, entry and release sites, and except under conditions in which the intracellular calcium concentration reaches a steady state, does not necessarily reflect the Cat+ concentration imme  diately surrounding the myofilaments. For this reason, aequorin signals recorded in these experiments were not usually translated into quantitative calcium concentrations. Although other methods for recording Ca 2+ are available, including metallochromic and fluorescent indicators and Ca 2+-selective electrodes, bioluminescent indicators such as aequorin have several advantages for use in physiologic systems, as recently reviewed by Blinks.5  EXCITATION-CONTRACTION COUPLING IN CARDIAC MUSCLE  In the mammalian heart, excitation-contraction coupling is initiated when depolarization permits trigger Ca 2+ to enter the myoplasm through calcium channels located in the sarcolemma; this trigger Cat+ releases a much larger quantity of activator Cat+ from intracellular stores contained in the sarcoplasmic reticulum (Fig. 4).1-4,14 The released Ca 21 interacts with troponin-C of the regulatory complex on the myofilaments to initiate cardiac contraction; relaxation occurs when Ca 2+ dissociates from the contractile apparatus and is resequestered by the energydependent Ca 2+ pump of the sarcoplasmic reticulum (an adenosine triphosphatase [ATPase]). Intracellular Cat+ homeostasis is maintained by sarcolemmal mechanisms that extrude Cat+ into the extracellular space, including a sodium-calcium exchange mechanism and an energy-dependent Ca 2+ pump (not shown in Fig. 4). The initial excitatory event of membrane depolarization is also associated with intracellular entry of Na+, which is ultimately extruded by the energy-dependent Na+/K+ pump (an ATPase) or by the sodium-calcium exchanger, which operates on the basis of concentration gradients and does not appear to require adenosine triphosphate. Each of these steps represents a potential site of action for inotropic drugs. Fig. 4 also shows that Cat+ entry by way of the voltage-dependent Ca 2+ channels and resequestration of Ca 2+ by the sarcoplasmic reticulum are governed by their degree of phosphorylation (indicated by P).  The scheme outlined above focuses on the central role played by the Cat+ ion in the mediation of excitation-contraction coupling. Under normal circumstances, the cardiac myocyte is able to maintain homeostatic [Ca 2+1i against a large transsarcolemmal concentration gradient. Abnormal function at any of the steps outlined in Fig. 4 could result in systolic and/or diastolic dysfunction. Fig. 1 shows the light signals (i.e., intracellular Cat+ transients) and isometric contractions recorded in aequorin-loaded cardiac muscle of a control patient without heart failure, a patient with dilated cardiomyopathy, and a patient with hypertrophic cardiomyopathy." The light signal recorded from the control muscle consists of a single component that rises to a peak and then  Volume 121 Number 3, Part 1  Contraction/relaxation of cardiovascular muscle 963  CONTROL DILATED CARDIOMYOPATHY HYPERTROPHIC CARDIOMYOPATHY  6nA  50nA  0.6g  100 ms  0 -  -78mV -  100 ms 0 -  -76mV -  100 ms 0  -80MV -  200ms  Fig. 1. Recordings representing (from top to bottom) light tracing, tension tracing, and stimulus artifact and action potentials from control and myopathic muscles. Light expressed in nanoamperes (nA) of anode current; tension in grams (gm); action potentials in millivolts (mV). (From Gwathmey JK, Copelas L, MacKinnon R, et al. Circ Res 1987;61:70-6.)  declines toward baseline before peak tension is reached. Similar monophasic aequorin signals have been recorded from nonfailing human atrial and ventricular muscle and appear to be typical for both animal and human working myocardium.2_4 In contrast, the calcium transients recorded from myopathic muscles were not only prolonged compared with control muscles, but they also consisted of two temporally distinct components (LI and L2). In addition, the plateau phase of the cardiac action potential was prolonged in myopathic muscle versus control muscle. These data indicate that the prolonged contraction of myopathic muscle in vitro and the myocardial relaxation abnormalities seen in patients with dilated cardiomyopathy16,17 seem to correlate with changes in [Ca2+]i handling. The use of pharmacologic agents with specific subcellular sites of action allowed us to determine that the calcium signal in control human myocardium and Ll in myopathic tissue reflect Ca 2+ release from the sarcoplasmic reticulum. The L2 in myopathic muscle reflects dysfunction of both the sarcolemma and sarcoplasmic reticulum; the former can cause increased Ca 2+ entry possibly by voltage-dependent channels, and the latter can cause slowed restoration of lowresting tone during diastole as a result of a decrease in the rate of Ca 2+ resequestration." The inability of myopathic muscle to maintain Ca 2+ homeostasis may be a primary cause of contractile dysfunction in heart  10-SM PE 1 min  40mMK  1 min  Fig. 2. Effect of phenylephrine (PE) and potassium depolarization on force (top) and light (bottom) in an aequorin-loaded ferret portal vein strip. Both sets of traces from the same muscle. (From Morgan JP, Morgan KG, J Physiol [Lond] 1984;351:155.)  failure. Additional studies have indicated that deficient production of cyclic adenosine monophosphate (cyclic AMP) is an important cause of impaired calcium homeostasis. 14,16,18,19  There has been an increased appreciation in recent years that other factors besides Ca2+ may be important in modulating the cardiac contractile state.' We  55nA  964 Morgan et al.  vnarcn iaai  21 K Ca FREE -1  2.5 mM EGTA 66 K 1pM DPBA  20 min  100385 FA  Fig. 3. Recording of force (top) and light (bottom) from ferret aorta in response to 66 mmol/L K' and 1 umol/L of the phorbol ester DPBA in Cat+-free 2.5 nmol/L ethyleneglycol-bis (/3-aminoethylether)N,N' -tetraacetic acid (EGTA) -containing physiologic salt solution. Response to 21 mmol/L K+ in physiologic salt solution containing 2.5 mmol/L Cat+ is shown first for comparison. Dotted line, Resting light level in physiologic salt solution containing 2.5 mmol/L Ca". (From Jiang MJ, Morgan KG. Am J Physiol 1987;253:H1365-71.)  Fig. 4. Excitation-contraction coupling in mammalian heart (see text for details). (From Feldman MD, Copelas L, Gwathmey JK, et al. Circulation 1987;75:331-9, by permission of the American Heart Association.)  now know that changes in the responsiveness of the myofilaments to Cat+ can also play an important regulatory role. In general, the degree of activation of the myofilaments is related to the concentration of Ca 21 in the immediate vicinity of troponin-C. This relationship can be studied directly by using "skinned" cardiac muscle preparations, which have had their sarcolemmas removed as diffusion barriers by mechanical or chemical means. 21-21 Subcellular  organelles, such as the sarcoplasmic reticulum, can be destroyed by additional detergent treatment so that what is left is a functional preparation of the myofilaments with their regulatory proteins. These preparations can then be exposed to carefully prepared buffer solutions in which the [Ca"] is precisely controlled, and Ca2+ versus developed tension curves can be generated, as shown in Fig. 5. This type of experiment has indicated that tension begins to develop at  Volume 121 Number 3, Part 1  Contraction/relaxation of cardiovascular muscle 965  A  Uz ~O W lA 2 W  O~ N  B  Uz HO  W (A 2 W to  O ~  C  Uz ~O  W to  Mz OW  to ~  7 6 5  Fig. 6. Putative mechanism of agonist-induced contraction by PKC. CaM, Calmodulin; DAG, diacylglycerol; IP3, inositol 1,4,5 triphosphate; MLC-U, myosin light chain unphosphorylated; MLC-P, myosin light chain phosphorylated; PC, phosphorylated choline; PIP2, phosphatidyl inositol biphosphate; PLC, phospholipase C; PLD, phospholipase D; PM, plasma membrane; SR, sarcoplasmic reticulum. (Reprinted by permission of Elsevier Science Publishing Co., Inc., from The role of calcium in vascular smooth muscle tone by Morgan KG, Suematsu E_ Am J Hypertens [in press]. Copyright 1990 by American Journal of Hypertension, Inc.)  pCa  Fig. 5. Mechanisms for altering the tension versus pCa relationship. A illustrates a change in maximal Ca`'+activated tension; B illustrates a change in Ca 2+ sensitivity; and C illustrates movement along a single tension pCa curve. Negative log of the Ca 2+ concentration = pCa. (Reproduced from Hajjar RJ, Gwathmey JK, Briggs GM, Morgan JP. J Clin Invest 1988;82:1578-84, by copyright permission of the American Society for Clinical Investigation.)  [Ca'+]; around 10-' mol/L and reaches a peak around 10-5 mol/L.2°, 21 Because serum [Ca 2+] is close to 10-3 mol/L, the resting cardiac myocyte is able to maintain homeostatic [Ca 2+1i against a large concentration of gradient (i.e.,10,000 times). Experiments with skinned cardiac muscle have also shown that various factors, including inotropic drugs, can modify the re  sponsiveness of the myofilaments to Ca". 21, 22 The nature of these effects, although poorly understood at present, may include alteration in the affinity of troponin-C for Ca 2+, phosphorylation of the myosin light chains, phosphorylation of C protein, or changes in the lattice structure of the myofilaments. Evidence has begun to accumulate indicating that it may also be possible to make therapeutic use of this mechanism by pharmacologic interventions. 11-13 Therefore in addition to changes in [Ca 2+]j, altering the responsiveness of the myofilaments to Ca 21 is another important mechanism for control of cardiac contractility.  OTHER SECOND MESSENGER SYSTEMS  Cyclic AMP is an important second messenger in the heart that modulates intracellular [Ca`'+]i han-  966 Morgan et al.  March 1991  American Heart Journal  AGONIST  .... illell~~. 111  SUBSTRATE?  GDP  SUBSTRATE ?  Fig. 7. Putative mechanism of agonist-effect transduction (see text for details). (From Morgan KG. Cardiovasc Drugs Ther 1990;4:1355-62.)  dling through activation of a variety of cyclic AMPdependent protein kinases.24 These enzymes phosphorylate several subcellular sites, including the sarcolemma, the sarcoplasmic reticulum, and the troponin complex (Fig. 4). The result of these phosphorylations is to increase the transsarcolemmal influx of Ca 2+ and decrease the Ca 2+ sensitivity of the contractile apparatus by increasing the rate of dissociation of Ca 2+ from its binding sites on troponin-C and to increase the rate of Ca 2+ uptake by the sarcoplasmic reticulum. Most of the positive inotropic agents available for clinical use in humans, with the important exception of digitalis, act by a cyclic AMP-dependent mechanism.3  In addition to cyclic AMP and Cat+, a third second messenger system has been described in mammalian myocardium. This system involves activation of the enzyme phospholipase C through an as yet poorly characterized regulatory G protein, leading to the generation of two second messengers: (1) inositol 1,4,5 triphosphate (IP3) and (2) diacylglycerol. IP3 appears capable of releasing Ca2+ from the sarcoplasmic reticulum in certain animal tissues; diacylglycerol activates the enzyme protein kinase C, which has the potential to phosphorylate multiple sites within the cell. The significance of this system with regard to excitation-contraction coupling in the heart remains controversial '25 although protein kinase Cmediated phosphorylation plays a clear role in the modulation of these processes in vascular smooth muscle, as will be discussed.  EXCITATION-CONTRACTION COUPLING IN VASCULAR SMOOTH MUSCLE.  Many of the interventions used to treat heart failure, including common inotropic agents, afterload  and preload-reducing agents, and diuretics, have pronounced effects on vascular tone. 26 Changes in [Ca 2+], play a central role in the contractionrelaxation cycles of vascular smooth muscle, although the specific steps appear to be somewhat different. 2-4, 27-3o In smooth muscle, Ca 2' entering the cytoplasm from either the extracellular space or the intracellular stores activates the enzyme myosin light chain kinase (Fig. 6). Myosin light chain kinase mediates the phosphorylation of the 20,000 dalton light chains of myosin, which in the presence of actin will then lead to an increase in myosin-ATPase activity and promote cross-bridge cycling. Before the muscle can relax, the myosin must be dephosphorylated by a phosphatase that does not appear to be Ca t+-dependent. Therefore in contrast to cardiac muscle, Ca 2+ may serve only as a trigger to initiate contraction, since the rate of relaxation appears to be governed by factors other than the [Ca2+]i level.  Once the contraction develops, force maintenance also appears to be largely independent of [Ca''+]i, at least in the presence of certain inotropic drugs.3°, 31 For example, the lower panel of Fig. 2 shows the correlation between [Ca 2+]i and tension responses with potassium depolarization. Note that the [Ca 2+1, profile more or less parallels the force profile in response to potassium depolarization; in contrast, in response to phenylephrine (upper panel of Fig. 2), a transient increase in [Ca2+]i during the development of the tonic contraction is followed by a decline in [Ca 2+], to near basal levels during the period of tone maintenance. Also note that the amount of force maintained per unit of elevation of [Ca 2+], differs in the presence of these two agonists, that is, the steady state force versus calcium ratio is much greater in the presence of phenylephrine than in the presence of potassium  Volume 121 Number 3, Part 1  Contraction/relaxation of cardiouascular muscle 967  depolarization. These types of data suggest that the Ca" responsiveness of the contractile apparatus can be modified in vascular smooth muscle as it can in cardiac muscle." In studies of drugs with vasodilator effects that might be useful in the management of patients with heart failure, we found that agents that act to increase intracellular cyclic AMP concentrations, such as isoproterenol and papaverine, can cause an apparent increase in the [Ca2+]i requirement for contraction; thus smooth muscle relaxation may be observed in the presence of constant or even increasing levels of Ca2+ .31  In addition to the myosin light chain kinase system, there appear to be functionally calcium-independent mechanisms of contraction in vascular smooth muscle that can be activated by agonists such as prostaglandin F2., 32 and phorbol esters. 33 For example, Fig. 3 shows that contraction can occur in the absence of any significant increase in [Ca 2+]i. These types of studies suggest that a "second system," which appears to have a very low Ca2+ requirement, might involve activation of protein kinase C. The mechanism by which this might occur is illustrated in Fig. 7 as originally proposed by Berridge34 and Nishizuka.31 When most agonists bind to receptors in smooth muscle and other tissue types, the binding is transduced into a cellular response by a sequence of events. Mediated through a G protein, phospholipase C is activated and splits phosphatidyl inositol biphosphate in the cell membrane into two products, diacylglycerol and IP3. IP3 has been shown to be capable of releasing [Ca2+]i from the sarcoplasmic reticulum in smooth muscle and probably causes the initial spike-like increase in [Ca2+] with agonists that cause [Ca 2+1, signals such as that shown in the upper panel of Fig. 2. The other compound, diacylglycerol, has been shown by Nishizuka35 to be capable of activating protein kinase C. The activation of protein kinase C is [Ca 2+]i dependent, but Nishizuka has shown that in the presence of an adequate concentration of diacylglycerol, the [Ca 2+1i requirements of protein kinase C can be saturated by resting cellular Ca2+ levels. Therefore it is feasible that protein kinase C can act in a functionally [Ca 2+1 i-independent manner. Protein kinase C probably phosphorylates a presently undefined protein to cause contraction.29  The above sequence of events can explain the [Ca 2+]i-force relationship shown in the lower panel of Fig. 2, but not a third type of pattern in which there is no increase in [Ca 2+1,.29 The left-hand side of Fig. 7 shows a possible explanation for these data. When phospholipase C or D acts on other membrane lipids that do not contain IP3, such as phosphatidyl choline, diacylglycerol can be released in the absence of any increase in IP336, 3' and consequently in the absence of any change in [Ca 2+]i. Thus it is feasible that a   T Cat+ DAG   Cam    W   MLCK C-Kinase   T MLCP T ? P   Force Force  Fig. 8. Hypothetic scheme describing smooth muscle as a "two kinase system." (See text for details.) (From Morgan KG. Cardiovasc Drugs Ther 1990;4:1355-62.)  contraction of the tissue could occur through the release of diacylglycerol in the absence of any change in [Ca 2+]i. Prostaglandin F2a may be a prototype of a naturally occurring substance that uses the pathway illustrated in Fig. 7. Prostaglandin F2a causes a sizeable contraction of tissue but no convincing change in [Ca 21.32  In the suggested "two kinase system" shown in Fig. 8, the myosin light chain kinase-dependent system may function predominantly during active force development, whereas the protein kinase C-dependent system may control force maintenance in tonically reactive muscle. 29 These two systems may be differentially affected by pharmacologic agents and disease states.  REFERENCES  1. Ruegg JC. Calcium in muscle activation. New York: SpringerVerlag, 1988:1-285.  2. Morgan JP, Morgan KG. Calcium and cardiovascular function: intracellular calcium levels during contraction and relaxation of mammalian cardiac and vascular smooth muscle as detected with aequorin. Am J Med 1984;77(suppl 5A):33-46.  3. Morgan JP, Morgan KG. Intracellular calcium and cardiovascular function in heart failure: effect of pharmacoiogic agents. Cardiovasc Drugs Ther 1989;3(suppl 3):959-70.  4. Perreault CL, Meuse AJ, Bentivegna L, Morgan JP. Abnormal intracellular calcium handling in acute and chronic heart failure: role in systolic and diastolic dysfunction. Eur Heart J 1990;11(suppl C:8-21.  5. Blinks JR. Intracellular [Ca2+] measurements. In: Fozzard HA, Haber E, Jennings RB, eds. The heart and cardiovascular system. Scientific foundations. New York: Raven Press, 1986:671-701.  6. Blinks JR, Mattingly PH, Jewell BR, van Leeuwan M, Harrer GC, Allen DG. Practical aspects of the use of aequorin as a calcium indicator: assay, preparation, microinjection, and interpretation of signals. Methods Enzymol 1987;58:292-328.  7. Morgan JP, Morgan KG. Vascular smooth muscle : the first recorded Ca2+ transients. Pfliigers Arch 1982;395:75-7.  8. Snowdowne KW, Ertel RJ, Borle AB. Measurements of cytosolic Ca2+ with aequorin in dispersed rat ventricular cells. J Mol Cell Cardiol 1985;17:223-41.  9. Sutherland PJ, Stephenson DG, Wendt IR. A novel method for introducing Ca2+-sensitive photoproteins into cardiac cells. Proc Aust Physiol Pharmacol Soc 1980;11:160.  10. Morgan JP, Defeo TT, Morgan KG. A chemical procedure for  968 Morgan et al.  March 1991  American Heart Journal  the loading of the calcium indicator aequorin into mammalian working myocardium. Pflugers Arch 1984;400:338-40.  11. MacKinnon R, Morgan JP. Influence of the thyroid state on the calcium transient in ventricular muscle. Pflugers Arch 1986;407:142-4.  12. Kihara Y, Morgan JP. A comparative study of three methods for intracellular loading of the calcium indicator aequorin in ferret papillary muscles. Biochem Biophys Res Commun 1989;162:402-7.  13. Kihara Y, Grossman W, Morgan JP. Direct measurement of changes in intracellular calcium transients during hypoxia, ischemia, and reperfusion of the intact mammalian heart. Circ Res 1989;65:1029-44.  14. Feldman MD, Copelas L, Gwathmey JK, et al. Deficient production of cyclic AMP: pharmacologic evidence of an important cause of contractile dysfunction in patients with endstage heart failure. Circulation 1987;75:331-9.  15. Gwathmey JK, Copelas L, MacKinnon R, et al. Abnormal intracellular calcium handling in myocardium from patients with end-stage heart failure. Circ Res 1987;61:70-6.  16. Morgan JP, Erny RE, Allen PD, Grossman W, Gwathmey JK. Abnormal intracellular calcium handling: a major cause of systolic and diastolic dysfunction in ventricular myocardium from patients with heart failure. Circulation 1990;18(suppl IIl):21-32.  17. Grossman W, McLaurin LP, Rolett EL. Alterations in left ventricular relaxation and diastolic compliance in congestive cardiomyopathy. Cardiovasc Res 1979;13:514-22.  18. Nabauer M, Bohm M, Brown L, et al. Positive inotropic effects in isolated ventricular myocardium from non-failing and terminally failing human hearts. Eur J Clin Invest 1988;18:600-6. 19. Morgan JP. Mechanism of action of inotropic drugs. In: Braunwald E, ed. Heart disease update. Philadelphia: WB Saunders Co, 1989:136-44.  20. Hajjar RJ, Gwathmey JK, Briggs GM, Morgan JP. Differential effect of DPl 201-106 on the sensitivity of myofilaments to Cat+ in intact and skinned trabeculae from control and myopathic human hearts. J Clin Invest 1988;82:1578-84.  21. Perreault CL, Bing OHL, Brooks WR, Ransil BJ, Morgan JP. Differential effects of hypertrophy and failure on right versus left ventricular calcium activation. Circ Res 1990;67:707-17. 22. Perreault CL, Brozovich FV, Ransil BJ, Morgan JP. Effects of  MCI-154 on Cat+ activation of skinned human myocardium. Eur J Pharmacol 1989;165:305-8.  23. Morgan JP. Mechanism of action of inotropic drugs. In: Braunwald E, ed. Heart disease update. Philadelphia: WB Saunders Co, 1989:136-44.  24. Opie LH. Role of cyclic nucleotides in heart metabolism. Cardiovasc Res 1982;16:483.  25. Kohl C, Schmitz W, Scholz J, Toth M, Doring V, Kalmar P. Evidence for alpha 1-adrenoceptor-mediated increase of inositol triphosphate in the human heart. J Cardiovasc Pharmacol 1989;13:324-7.  26. Opie LH. Principles of therapy for congestive heart failure. Eur Heart J 1983;1A(suppl):199.  27. Morgan KG, Bradley AB, Defeo TT. Calcium transients in smooth muscle. Ann NY Acad Sci 1988;522:328.  28. Morgan KG, Suematsu E. The role of calcium in vascular smooth muscle tone. Am J Hypertens 1990;3.  29. Morgan KG. The role of calcium in the control of vascular tone. Cardiovasc Drugs Ther 1990;4:1355-62.  30. Morgan JP, Morgan KG. Stimulus-specific patterns of intracellular calcium levels in smooth muscle of ferret portal vein. J Physiol (Lond) 1984;351:155.  31. Morgan JP, Morgan KG. Alteration of cytoplasmic ionized calcium levels in smooth muscle by vasodilators in the ferret. J Physiol 1984;357:539.  32. Bradley AB, Morgan KG. Alteration in cytoplasmic calcium sensitivity during porcine coronary artery contractions as detected by aequorin. J Physiol (London) 1987;385:437-48.  33. Jiang MJ, Morgan KG. Intracellular calcium levels in phorbol ester-induced contractions of vascular smooth muscle. .J Physiol 1987;385:437.  34. Berridge MJ. The molecular basis of communication within the cell. Sci Am 1985;253:142-52.  35. Nishizuka Y. Perspectives on the role of protein kinase-C in stimulus-response coupling. J Natl Cancer Inst 1986;76:36370.  36. Matozaki T, Williams JA. Multiple sources of 1,2-diacylglycerol in isolated rat pancreatic acini stimulated by cholecystokinin. J Biol Chem 1989;264:14729-34.  37. Martinson EA, Goldstein D, Brown JH. Muscarinic receptor activation of phosphatidylcholine hydrolysis. J Biol Chem 1989;264:14748-54.  JP. A comparative study of three methods for intracellular loading of the calcium indicator aequorin in ferret papillary muscles. Biochem Biophys Res Commun 1989;162:402-7.  13. Kihara Y, Grossman W, Morgan JP. Direct measurement of changes in intracellular calcium transients during hypoxia, ischemia, and reperfusion of the intact mammalian heart. Circ Res 1989;65:1029-44.  14. Feldman MD, Copelas L, Gwathmey JK, et al. Deficient production of cyclic AMP: pharmacologic evidence of an important cause of contractile dysfunction in patients with endstage heart failure. Circulation 1987;75:331-9.  15. Gwathmey JK, Copelas L, MacKinnon R, et al. Abnormal intracellular calcium handling in myocardium from patients with end-stage heart failure. Circ Res 1987;61:70-6.  16. Morgan JP, Erny RE, Allen PD, Grossman W, Gwathmey JK. Abnormal intracellular calcium handling: a major cause of systolic and diastolic dysfunction in ventricular myocardium from patients with heart failure. Circulation 1990;18(suppl IIl):21-32.  17. Grossman W, McLaurin LP, Rolett EL. Alterations in left ventricular relaxation and diastolic compliance in congestive cardiomyopathy. Cardiovasc Res 1979;13:514-22.  18. Nabauer M, Bohm M, Brown L, et al. Positive inotropic effects in isolated ventricular myocardium from non-failing and terminally failing human hearts. Eur J Clin Invest 1988;18:600-6. 19. Morgan JP. Mechanism of action of inotropic drugs. In: Braunwald E, ed. Heart disease update. Philadelphia: WB Saunders Co, 1989:136-44.  2</xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <converted-article xmlns="http://www.elsevier.com/xml/ja/dtd" version="4.5.2" docsubtype="fla" xml:lang="en">
+         <item-info>
+            <jid>YMHJ</jid>
+            <aid>91902279</aid>
+            <ce:pii>0002-8703(91)90227-9</ce:pii>
+            <ce:doi>10.1016/0002-8703(91)90227-9</ce:doi>
+            <ce:copyright type="unknown" year="1991"/>
+         </item-info>
+         <head>
+            <ce:dochead>
+               <ce:textfn>Proceedings of a symposium Recent advances in the control of heart failure</ce:textfn>
+            </ce:dochead>
+            <ce:title>The cellular basis of contraction and relaxation in cardiac and vascular smooth muscle</ce:title>
+            <ce:author-group>
+               <ce:author>
+                  <ce:given-name>James P.</ce:given-name>
+                  <ce:surname>Morgan</ce:surname>
+                  <ce:degrees>MD, PhD</ce:degrees>
+                  <ce:cross-ref refid="COR1">
+                     <ce:sup loc="post">∗</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="AFF1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="AFF2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="AFF3">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>Cynthia L.</ce:given-name>
+                  <ce:surname>Perreault</ce:surname>
+                  <ce:degrees>BS</ce:degrees>
+                  <ce:cross-ref refid="AFF1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="AFF2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="AFF3">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>Kathleen G.</ce:given-name>
+                  <ce:surname>Morgan</ce:surname>
+                  <ce:degrees>PhD</ce:degrees>
+                  <ce:cross-ref refid="AFF1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="AFF2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="AFF3">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:affiliation id="AFF1">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>Charles A. Dana Research Institute Boston, Mass., USA</ce:textfn>
+               </ce:affiliation>
+               <ce:affiliation id="AFF2">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>the Harvard-Thorndike Laboratory of Beth Israel Hospital Boston, Mass., USA</ce:textfn>
+               </ce:affiliation>
+               <ce:affiliation id="AFF3">
+                  <ce:label>c</ce:label>
+                  <ce:textfn>Harvard Medical School Boston, Mass., USA</ce:textfn>
+               </ce:affiliation>
+               <ce:correspondence id="COR1">
+                  <ce:label>∗</ce:label>
+                  <ce:text>Reprint requests: James P. Morgan, MD, PhD, Cardiovascular Division, Beth Israel Hospital, 330 Brookline Ave., Boston, MA 02215.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:abstract class="author"><ce:abstract-sec>
+                  <ce:simple-para view="all" id="simple-para.0010">Changes in cytoplasmic levels of free-ionized calcium regulate the contraction and relaxation of cardiac and vascular smooth muscle. Aside from changing the intrinsic rate of energy use within the cell, an intervention that alters the strength of contraction of cardiac or vascular smooth muscle must in general alter either the intracellular calcium level, change the calcium requirements of the contractile apparatus, or exert both effects. Intracellular calcium handling is modulated by at least three other important second messengers: cyclic adenosine monophosphate, cyclic guanosine monophosphate, and inositol 1,4,5 triphosphate. These substances modulate intracellular calcium handling at multiple steps in the excitation-contraction coupling scheme. In vascular smooth muscle, diacylglycerol appears to play an important role in the regulation of myofilament calcium requirements. Intracellular calcium homeostasis is maintained through the action of sarcolemmal mechanisms that extrude calcium into the extracellular space; these mechanisms include a sodium-calcium exchange mechanism and an energy-dependent calcium pump. Abnormalities in electrophysiologic properties, sarcoplasmic reticulum function, energy use and supply, and contractile element interaction have been identified in experimental studies of animals and patients with various cardiovascular diseases. These abnormalities may be differentially affected by therapeutic agents that act on the heart or vasculature; therefore it is important to understand the underlying cellular abnormalities and subcellular actions of inotropic, vasoconstrictor, and vasodilatory drugs to apply rational therapeutics in the clinical setting.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+         </head>
+         <tail>
+            <ce:bibliography view="all" id="bibliography.0010">
+               <ce:section-title>References</ce:section-title>
+               <ce:bibliography-sec id="bibliography-sec.0010">
+                  <ce:bib-reference id="BIB1">
+                     <ce:label>1.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JC</ce:given-name>
+                                 <ce:surname>Ruegg</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Calcium in muscle activation</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:edited-book>
+                              <sb:date>1988</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Springer-Verlag</sb:name>
+                                 <sb:location>New York</sb:location>
+                              </sb:publisher>
+                           </sb:edited-book>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                              <sb:last-page>285</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB2">
+                     <ce:label>2.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JP</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>KG</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Calcium and cardiovascular function: intracellular calcium levels during contraction and relaxation of mammalian cardiac and vascular smooth muscle as detected with aequorin</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Am J Med</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>77</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>suppl 5A</sb:issue-nr>
+                              <sb:date>1984</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>33</sb:first-page>
+                              <sb:last-page>46</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB3">
+                     <ce:label>3.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JP</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>KG</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Intracellular calcium and cardiovascular function in heart failure; effect of pharmacologic agents</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Cardiovasc Drugs Ther</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>3</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>suppl 3</sb:issue-nr>
+                              <sb:date>1989</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>959</sb:first-page>
+                              <sb:last-page>970</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB4">
+                     <ce:label>4.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>CL</ce:given-name>
+                                 <ce:surname>Perreault</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>AJ</ce:given-name>
+                                 <ce:surname>Meuse</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Bentivegna</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JP</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Abnormal intracellular calcium handling in acute and chronic heart failure: role in systolic and diastolic dysfunction</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Eur Heart J</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>11</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>suppl C</sb:issue-nr>
+                              <sb:date>1990</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>8</sb:first-page>
+                              <sb:last-page>21</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB5">
+                     <ce:label>5.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JR</ce:given-name>
+                                 <ce:surname>Blinks</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Intracellular [Ca<ce:sup loc="post">2+</ce:sup>] measurements</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:edited-book>
+                              <sb:editors>
+                                 <sb:editor>
+                                    <ce:given-name>HA</ce:given-name>
+                                    <ce:surname>Fozzard</ce:surname>
+                                 </sb:editor>
+                                 <sb:editor>
+                                    <ce:given-name>E</ce:given-name>
+                                    <ce:surname>Haber</ce:surname>
+                                 </sb:editor>
+                                 <sb:editor>
+                                    <ce:given-name>RB</ce:given-name>
+                                    <ce:surname>Jennings</ce:surname>
+                                 </sb:editor>
+                              </sb:editors>
+                              <sb:title>
+                                 <sb:maintitle>The heart and cardiovascular system. Scientific foundations</sb:maintitle>
+                              </sb:title>
+                              <sb:date>1986</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Raven Press</sb:name>
+                                 <sb:location>New York</sb:location>
+                              </sb:publisher>
+                           </sb:edited-book>
+                           <sb:pages>
+                              <sb:first-page>671</sb:first-page>
+                              <sb:last-page>701</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB6">
+                     <ce:label>6.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JR</ce:given-name>
+                                 <ce:surname>Blinks</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>PH</ce:given-name>
+                                 <ce:surname>Mattingly</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>BR</ce:given-name>
+                                 <ce:surname>Jewell</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>van Leeuwan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>GC</ce:given-name>
+                                 <ce:surname>Harrer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>DG</ce:given-name>
+                                 <ce:surname>Allen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Practical aspects of the use of aequorin as a calcium indicator: assay, preparation, microinjection, and interpretation of signals</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Methods Enzymol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>58</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1987</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>292</sb:first-page>
+                              <sb:last-page>328</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB7">
+                     <ce:label>7.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JP</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>KG</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Vascular smooth muscle: the first recorded Ca<ce:sup loc="post">2+</ce:sup> transients</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Pflügers Arch</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>395</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1982</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>75</sb:first-page>
+                              <sb:last-page>77</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB8">
+                     <ce:label>8.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>KW</ce:given-name>
+                                 <ce:surname>Snowdowne</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>RJ</ce:given-name>
+                                 <ce:surname>Ertel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>AB</ce:given-name>
+                                 <ce:surname>Borle</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Measurements of cytosolic Ca<ce:sup loc="post">2+</ce:sup> with aequorin in dispersed rat ventricular cells</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Mol Cell Cardiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>17</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1985</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>223</sb:first-page>
+                              <sb:last-page>241</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB9">
+                     <ce:label>9.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>PJ</ce:given-name>
+                                 <ce:surname>Sutherland</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>DG</ce:given-name>
+                                 <ce:surname>Stephenson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>IR</ce:given-name>
+                                 <ce:surname>Wendt</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A novel method for introducing Ca<ce:sup loc="post">2+</ce:sup>-sensitive photoproteins into cardiac cells</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:edited-book>
+                              <sb:book-series>
+                                 <sb:series>
+                                    <sb:title>
+                                       <sb:maintitle>Proc Aust Physiol Pharmacol Soc</sb:maintitle>
+                                    </sb:title>
+                                    <sb:volume-nr>11</sb:volume-nr>
+                                 </sb:series>
+                              </sb:book-series>
+                              <sb:date>1980</sb:date>
+                           </sb:edited-book>
+                           <sb:pages>
+                              <sb:first-page>160</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB10">
+                     <ce:label>10.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JP</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>TT</ce:given-name>
+                                 <ce:surname>Defeo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>KG</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A chemical procedure for the loading of the calcium indicator aequorin into mammalian working myocardium</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Pflügers Arch</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>400</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1984</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>338</sb:first-page>
+                              <sb:last-page>340</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB11">
+                     <ce:label>11.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R</ce:given-name>
+                                 <ce:surname>MacKinnon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JP</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Influence of the thyroid state on the calcium transient in ventricular muscle</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Pflügers Arch</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>407</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1986</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>142</sb:first-page>
+                              <sb:last-page>144</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB12">
+                     <ce:label>12.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Kihara</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JP</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A comparative study of three methods for intracellular loading of the calcium indicator aequorin in ferret papillary muscles</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Biochem Biophys Res Commun</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>162</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1989</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>402</sb:first-page>
+                              <sb:last-page>407</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB13">
+                     <ce:label>13.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Kihara</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W</ce:given-name>
+                                 <ce:surname>Grossman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JP</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Direct measurement of changes in intracellular calcium transients during hypoxia, ischemia, and reperfusion of the intact mammalian heart</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Circ Res</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>65</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1989</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1029</sb:first-page>
+                              <sb:last-page>1044</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB14">
+                     <ce:label>14.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>MD</ce:given-name>
+                                 <ce:surname>Feldman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Copelas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JK</ce:given-name>
+                                 <ce:surname>Gwathmey</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Deficient production of cyclic AMP: pharmacologic evidence of an important cause of contractile dysfunction in patients with end-stage heart failure</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Circulation</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>75</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1987</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>331</sb:first-page>
+                              <sb:last-page>339</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB15">
+                     <ce:label>15.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JK</ce:given-name>
+                                 <ce:surname>Gwathmey</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Copelas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R</ce:given-name>
+                                 <ce:surname>MacKinnon</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Abnormal intracellular calcium handling in myocardium from patients with end-stage heart failure</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Circ Res</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>61</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1987</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>70</sb:first-page>
+                              <sb:last-page>76</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB16">
+                     <ce:label>16.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JP</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>RE</ce:given-name>
+                                 <ce:surname>Erny</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>PD</ce:given-name>
+                                 <ce:surname>Allen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W</ce:given-name>
+                                 <ce:surname>Grossman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JK</ce:given-name>
+                                 <ce:surname>Gwathmey</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Abnormal intracellular calcium handling: a major cause of systolic and diastolic dysfunction in ventricular myocardium from patients with heart failure</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Circulation</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>18</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>suppl III</sb:issue-nr>
+                              <sb:date>1990</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>21</sb:first-page>
+                              <sb:last-page>32</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB17">
+                     <ce:label>17.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W</ce:given-name>
+                                 <ce:surname>Grossman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>LP</ce:given-name>
+                                 <ce:surname>McLaurin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>EL</ce:given-name>
+                                 <ce:surname>Rolett</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Alterations in left ventricular relaxation and diastolic compliance in congestive cardiomyopathy</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Cardiovasc Res</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>13</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1979</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>514</sb:first-page>
+                              <sb:last-page>522</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB18">
+                     <ce:label>18.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Nabauer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Bohm</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Brown</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Positive inotropic effects in isolated ventricular myocardium from non-failing and terminally failing human hearts</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Eur J Clin Invest</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>18</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1988</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>600</sb:first-page>
+                              <sb:last-page>606</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB19">
+                     <ce:label>19.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JP</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Mechanism of action of inotropic drugs</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:edited-book>
+                              <sb:editors>
+                                 <sb:editor>
+                                    <ce:given-name>E</ce:given-name>
+                                    <ce:surname>Braunwald</ce:surname>
+                                 </sb:editor>
+                              </sb:editors>
+                              <sb:title>
+                                 <sb:maintitle>Heart disease update</sb:maintitle>
+                              </sb:title>
+                              <sb:date>1989</sb:date>
+                              <sb:publisher>
+                                 <sb:name>WB Saunders Co</sb:name>
+                                 <sb:location>Philadelphia</sb:location>
+                              </sb:publisher>
+                           </sb:edited-book>
+                           <sb:pages>
+                              <sb:first-page>136</sb:first-page>
+                              <sb:last-page>144</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB20">
+                     <ce:label>20.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>RJ</ce:given-name>
+                                 <ce:surname>Hajjar</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JK</ce:given-name>
+                                 <ce:surname>Gwathmey</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>GM</ce:given-name>
+                                 <ce:surname>Briggs</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JP</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Differential effect of DP1 201-106 on the sensitivity of myofilaments to Ca<ce:sup loc="post">2+</ce:sup> in intact and skinned trabeculae from control and myopathic human hearts</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Invest</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>82</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1988</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1578</sb:first-page>
+                              <sb:last-page>1584</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB21">
+                     <ce:label>21.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>CL</ce:given-name>
+                                 <ce:surname>Perreault</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>OHL</ce:given-name>
+                                 <ce:surname>Bing</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>WR</ce:given-name>
+                                 <ce:surname>Brooks</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>BJ</ce:given-name>
+                                 <ce:surname>Ransil</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JP</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Differential effects of hypertrophy and failure on right versus left ventricular calcium activation</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Circ Res</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>67</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1990</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>707</sb:first-page>
+                              <sb:last-page>717</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB22">
+                     <ce:label>22.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>CL</ce:given-name>
+                                 <ce:surname>Perreault</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>FV</ce:given-name>
+                                 <ce:surname>Brozovich</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>BJ</ce:given-name>
+                                 <ce:surname>Ransil</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JP</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Effects of MCI-154 on Ca<ce:sup loc="post">2+</ce:sup> activation of skinned human myocardium</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Eur J Pharmacol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>165</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1989</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>305</sb:first-page>
+                              <sb:last-page>308</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB23">
+                     <ce:label>23.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JP</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Mechanism of action of inotropic drugs</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:edited-book>
+                              <sb:editors>
+                                 <sb:editor>
+                                    <ce:given-name>E</ce:given-name>
+                                    <ce:surname>Braunwald</ce:surname>
+                                 </sb:editor>
+                              </sb:editors>
+                              <sb:title>
+                                 <sb:maintitle>Heart disease update</sb:maintitle>
+                              </sb:title>
+                              <sb:book-series>
+                                 <sb:series>
+                                    <sb:title>
+                                       <sb:maintitle>Philadelphia</sb:maintitle>
+                                    </sb:title>
+                                 </sb:series>
+                              </sb:book-series>
+                              <sb:date>1989</sb:date>
+                              <sb:publisher>
+                                 <sb:name>WB Saunders Co</sb:name>
+                              </sb:publisher>
+                           </sb:edited-book>
+                           <sb:pages>
+                              <sb:first-page>136</sb:first-page>
+                              <sb:last-page>144</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB24">
+                     <ce:label>24.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>LH</ce:given-name>
+                                 <ce:surname>Opie</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Role of cyclic nucleotides in heart metabolism</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Cardiovasc Res</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>16</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1982</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>483</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB25">
+                     <ce:label>25.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Kohl</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W</ce:given-name>
+                                 <ce:surname>Schmitz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Scholz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Toth</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V</ce:given-name>
+                                 <ce:surname>Doring</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Kalmar</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Evidence for alpha 1-adrenoceptor-mediated increase of inositol triphosphate in the human heart</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Cardiovasc Pharmacol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>13</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1989</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>324</sb:first-page>
+                              <sb:last-page>327</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB26">
+                     <ce:label>26.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>LH</ce:given-name>
+                                 <ce:surname>Opie</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Principles of therapy for congestive heart failure</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Eur Heart J</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>1A</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1983</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>199</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                        <sb:comment>(suppl)</sb:comment>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB27">
+                     <ce:label>27.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>KG</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>AB</ce:given-name>
+                                 <ce:surname>Bradley</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>TT</ce:given-name>
+                                 <ce:surname>Defeo</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Calcium transients in smooth muscle</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Ann NY Acad Sci</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>522</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1988</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>328</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB28">
+                     <ce:label>28.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>KG</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E</ce:given-name>
+                                 <ce:surname>Suematsu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The role of calcium in vascular smooth muscle tone</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Am J Hypertens</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>3</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1990</sb:date>
+                           </sb:issue>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB29">
+                     <ce:label>29.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>KG</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The role of calcium in the control of vascular tone</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Cardiovasc Drugs Ther</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>4</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1990</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1355</sb:first-page>
+                              <sb:last-page>1362</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB30">
+                     <ce:label>30.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JP</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>KG</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Stimulus-specific patterns of intracellular calcium levels in smooth muscle of ferret portal vein</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Physiol (Lond)</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>351</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1984</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>155</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB31">
+                     <ce:label>31.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JP</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>KG</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Alteration of cytoplasmic ionized calcium levels in smooth muscle by vasodilators in the ferret</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Physiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>357</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1984</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>539</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB32">
+                     <ce:label>32.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>AB</ce:given-name>
+                                 <ce:surname>Bradley</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>KG</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Alteration in cytoplasmic calcium sensitivity during porcine coronary artery contractions as detected by aequorin</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Physiol (London)</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>385</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1987</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>437</sb:first-page>
+                              <sb:last-page>448</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB33">
+                     <ce:label>33.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>MJ</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>KG</ce:given-name>
+                                 <ce:surname>Morgan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Intracellular calcium levels in phorbol ester-induced contractions of vascular smooth muscle</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Physiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>385</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1987</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>437</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB34">
+                     <ce:label>34.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>MJ</ce:given-name>
+                                 <ce:surname>Berridge</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The molecular basis of communication within the cell</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Sci Am</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>253</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1985</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>142</sb:first-page>
+                              <sb:last-page>152</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB35">
+                     <ce:label>35.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Nishizuka</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Perspectives on the role of protein kinase-C in stimulus-response coupling</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Natl Cancer Inst</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>76</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1986</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>363</sb:first-page>
+                              <sb:last-page>370</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB36">
+                     <ce:label>36.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Matozaki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JA</ce:given-name>
+                                 <ce:surname>Williams</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Multiple sources of 1,2-diacylglycerol in isolated rat pancreatic acini stimulated by cholecystokinin</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Biol Chem</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>264</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1989</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>14729</sb:first-page>
+                              <sb:last-page>14734</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="BIB37">
+                     <ce:label>37.</ce:label>
+                     <sb:reference>
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>EA</ce:given-name>
+                                 <ce:surname>Martinson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Goldstein</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JH</ce:given-name>
+                                 <ce:surname>Brown</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Muscarinic receptor activation of phosphatidylcholine hydrolysis</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Biol Chem</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>264</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1989</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>14748</sb:first-page>
+                              <sb:last-page>14754</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </converted-article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

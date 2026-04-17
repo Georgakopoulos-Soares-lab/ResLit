@@ -1,0 +1,32 @@
+PMID: 16678922
+PMCID: 
+DOI: 10.1016/j.ijcard.2005.11.110
+Title: Association of cardiorespiratory fitness and levels of C-reactive protein: data from the National Health and Nutrition Examination Survey 1999-2002.
+Journal: International journal of cardiology
+PubDate: 2007 Jan 2
+Authors: Kuo HK, Yen CJ, Chen JH, Yu YH, Bean JF
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S0167527306001574</prism:url><dc:identifier>doi:10.1016/j.ijcard.2005.11.110</dc:identifier><eid>1-s2.0-S0167527306001574</eid><prism:doi>10.1016/j.ijcard.2005.11.110</prism:doi><pii>S0167-5273(06)00157-4</pii><dc:title>Association of cardiorespiratory fitness and levels of C-reactive protein: Data from the National Health and Nutrition Examination Survey 1999–2002 </dc:title><prism:publicationName>International Journal of Cardiology</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>01675273</prism:issn><prism:volume>114</prism:volume><prism:issueIdentifier>1</prism:issueIdentifier><prism:startingPage>28</prism:startingPage><prism:endingPage>33</prism:endingPage><prism:pageRange>28-33</prism:pageRange><prism:number>1</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2007-01-02</prism:coverDate><prism:coverDisplayDate>2 January 2007</prism:coverDisplayDate><prism:copyright>Copyright © 2006 Elsevier Ireland Ltd. All rights reserved.</prism:copyright><prism:publisher>Elsevier Ireland Ltd.</prism:publisher><dc:creator>Kuo, Hsu-Ko</dc:creator><dc:creator>Yen, Chung-Jen</dc:creator><dc:creator>Chen, Jen-Hau</dc:creator><dc:creator>Yu, Yau-Hua</dc:creator><dc:creator>Bean, Jonathan F.</dc:creator><dc:description>
+                  Background
+                  Elevated C-reactive protein (CRP) is a risk factor for atherosclerosis. Cardiorespiratory fitness, the ability of active skeletal muscle to utilize oxygen during aerobic exercise, can be impaired by atherosclerotic changes peripherally affecting the vasculature or centrally perturbing the heart and coronary arteries. However, the association between cardiorespiratory fitness and CRP has not been adequately examined.
+               
+                  Methods
+                  We examined 1438 adults aged 20–49 years with reliable measures of fitness and non-missing values in CRP from Health and Nutrition Examination Survey 1999–2002. Subjects with major cardiovascular and respiratory conditions were excluded from fitness test which measured the estimated maximal oxygen uptake (VO2max), by a submaximal exercise test. Levels of CRP were quantified by utilizing latex-enhanced nephelometry.
+               
+                  Results
+                  In both genders, we observed inverse associations between estimated VO2max and levels of CRP after controlling for age, race, body mass index category, hypertension, diabetes, smoking status, alcohol consumption, and use of medications including aspirin, non-steroidal anti-inflammatory drugs, steroid, lipid-lowering agents, antimicrobials, or estrogen/progesterone (in women). Men in the 2nd, 3rd, and 4th quartiles of CRP concentrations had lower estimated VO2max compared to the first quartile (regression coefficients for quartile 2, −1.54 ml/kg/min, p
+                     =0.105; quartile 3, −1.46 ml/kg/min, p
+                     =0.130; quartile 4, −2.64 ml/kg/min, p
+                     =0.009; p for trend 0.013). Women in the highest quartile of CRP had a significantly lower estimated VO2max (2.40 ml/kg/min, p
+                     =0.023) compared to the lowest (p for trend 0.025).
+               
+                  Conclusions
+                  CRP levels, inversely related to cardiorespiratory fitness, are important indicators of exercise tolerance and may be useful in targeting individuals requiring endurance intervention to prevent loss of cardiovascular fitness and function.
+               </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><dcterms:subject>C-reactive protein</dcterms:subject><dcterms:subject>Physical fitness</dcterms:subject><dcterms:subject>National Health and Nutrition Examination Survey</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S0167527306001574" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S0167527306001574" rel="scidir"/></coredata><scopus-id>33751226582</scopus-id><scopus-eid>2-s2.0-33751226582</scopus-eid><pubmed-id>16678922</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/33751226582" rel="abstract"/><originalText><xocs:doc><xocs:meta><xocs:open-access xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+   <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+</xocs:open-access><xocs:available-online-date xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd" yyyymmdd="20060505">2006-05-05</xocs:available-online-date></xocs:meta></xocs:doc></originalText></full-text-retrieval-response>

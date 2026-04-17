@@ -1,0 +1,1511 @@
+PMID: 16216104
+PMCID: 
+DOI: 10.1111/j.1469-0691.2005.01252.x
+Title: Identification of a novel cephalosporinase (DHA-3) in Klebsiella pneumoniae isolated in Taiwan.
+Journal: Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases
+PubDate: 2005 Nov
+Authors: Wu LT, Hung SW, Chuang YC, Chen HE, Jones RN, Yu WL
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1198743X14626045</prism:url><dc:identifier>doi:10.1111/j.1469-0691.2005.01252.x</dc:identifier><eid>1-s2.0-S1198743X14626045</eid><prism:doi>10.1111/j.1469-0691.2005.01252.x</prism:doi><pii>S1198-743X(14)62604-5</pii><dc:title>Identification of a novel cephalosporinase (DHA-3) in Klebsiella pneumoniae isolated in Taiwan </dc:title><prism:publicationName>Clinical Microbiology and Infection</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>1198743X</prism:issn><prism:volume>11</prism:volume><prism:issueIdentifier>11</prism:issueIdentifier><prism:startingPage>893</prism:startingPage><prism:endingPage>897</prism:endingPage><prism:pageRange>893-897</prism:pageRange><prism:number>11</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2005-11-30</prism:coverDate><prism:coverDisplayDate>November 2005</prism:coverDisplayDate><prism:copyright>Copyright © 2005 European Society of Clinical Infectious Diseases. Published by Elsevier Ltd. All rights reserved.</prism:copyright><prism:publisher>European Society of Clinical Infectious Diseases. Published by Elsevier Ltd.</prism:publisher><dc:creator>Wu, L.-T.</dc:creator><dc:creator>Hung, S.-W.</dc:creator><dc:creator>Chuang, Y.-C.</dc:creator><dc:creator>Chen, H.-E.</dc:creator><dc:creator>Jones, R.N.</dc:creator><dc:creator>Yu, W.-L.</dc:creator><dc:description>
+                  A strain of Klebsiella pneumoniae resistant to cefoxitin and oxyimino-cephalosporins, but susceptible to cefepime, was isolated from an adult patient hospitalised in Taichung, Taiwan. Isoelectric focusing revealed three β-lactamases with isoelectric points of 5.4, 8.2 and 7.9, respectively. Following PCR with plasmid DNA templates and gene sequencing, these enzymes were shown to correspond to TEM-1, SHV-5 and a novel DHA-1-like enzyme (designated DHA-3). The bla genes for TEM-1 and SHV-5 were transferable, but the bla
+                     
+                        dha-3 gene was non-self-transferable in conjugation experiments. All three bla genes were successfully introduced by electrotransformation into an Escherichia coli recipient (DH5α), resulting in a similar resistance profile to that observed in the original donor strain. Other K. pneumoniae strains producing DHA-1-like enzymes have been identified previously in Taiwan, and this report suggests that DHA-type β-lactamases are continuing to emerge in this country.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>true</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>Author</openaccessSponsorType><openaccessUserLicense>http://www.elsevier.com/open-access/userlicense/1.0/</openaccessUserLicense><dcterms:subject>Antibiotic resistance</dcterms:subject><dcterms:subject>β-lactamases</dcterms:subject><dcterms:subject>DHA-type β-lactamases</dcterms:subject><dcterms:subject>
+                     Klebsiella pneumoniae
+                  </dcterms:subject><dcterms:subject>resistance</dcterms:subject><dcterms:subject>Taiwan</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1198743X14626045" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1198743X14626045" rel="scidir"/></coredata><objects><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="342" height="259" size="28901">https://api.elsevier.com/content/object/eid/1-s2.0-S1198743X14626045-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="GIF image file" mimetype="image/gif" width="509" height="208" size="11645">https://api.elsevier.com/content/object/eid/1-s2.0-S1198743X14626045-gr3.gif?httpAccept=%2A%2F%2A</object><object ref="gr2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="GIF image file" mimetype="image/gif" width="523" height="560" size="19907">https://api.elsevier.com/content/object/eid/1-s2.0-S1198743X14626045-gr2.gif?httpAccept=%2A%2F%2A</object><object ref="gr3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="89" size="2698">https://api.elsevier.com/content/object/eid/1-s2.0-S1198743X14626045-gr3.sml?httpAccept=%2A%2F%2A</object><object ref="gr2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="153" height="164" size="2272">https://api.elsevier.com/content/object/eid/1-s2.0-S1198743X14626045-gr2.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="217" height="164" size="9630">https://api.elsevier.com/content/object/eid/1-s2.0-S1198743X14626045-gr1.sml?httpAccept=%2A%2F%2A</object></objects><scopus-id>27544465610</scopus-id><scopus-eid>2-s2.0-27544465610</scopus-eid><pubmed-id>16216104</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/27544465610" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>312004</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291783</xocs:ssid>
+         <xocs:ssid type="subj">291890</xocs:ssid>
+         <xocs:ssid type="subj">291891</xocs:ssid>
+         <xocs:ssid type="subj">291904</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Clinical Microbiology and Infection</xocs:srctitle>
+      <xocs:normalized-srctitle>CLINICALMICROBIOLOGYINFECTION</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20141212">2014-12-12</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20141212">2014-12-12</xocs:available-online-date>
+      <xocs:ew-transaction-id>2014-12-12T00:59:02</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1198743X14626045</xocs:eid>
+      <xocs:pii-formatted>S1198-743X(14)62604-5</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1198743X14626045</xocs:pii-unformatted>
+      <xocs:doi>10.1111/j.1469-0691.2005.01252.x</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.1</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1198743X14X61471</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20211014">2021-10-14T13:36:04.645451Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20051101</xocs:date-search-begin>
+      <xocs:date-search-end>20051130</xocs:date-search-end>
+      <xocs:year-nav>2005</xocs:year-nav>
+      <xocs:indexeddate epoch="1418364467">2014-12-12T06:07:47.082077Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj subheadings tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body affil articletitle auth authfirstini authfull authkeywords authlast primabst pubtype ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1198-743X</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>1198743X</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>11</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>11</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>11</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>11</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 11, Issue 11</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>7</xocs:sort-order>
+      <xocs:first-fp>893</xocs:first-fp>
+      <xocs:last-lp>897</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>893</xocs:first-page>
+         <xocs:last-page>897</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>200511</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>November 2005</xocs:cover-date-text>
+      <xocs:cover-date-start>2005-11-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2005-11-30</xocs:cover-date-end>
+      <xocs:cover-date-year>2005</xocs:cover-date-year>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2005 European Society of Clinical Infectious Diseases. Published by Elsevier Ltd. All rights reserved.</xocs:copyright-line>
+      <xocs:normalized-article-title>IDENTIFICATIONANOVELCEPHALOSPORINASEDHA3INKLEBSIELLAPNEUMONIAEISOLATEDINTAIWAN</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>WU</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>L</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>INTRODUCTION</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>MATERIALS AND METHODS</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Bacterial strains</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Antimicrobial susceptibility testing</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Antagonism testing</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Analytical isoelectric focusing (IEF)</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Conjugation and electrotransformation experiments</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>PCR-based amplification of β-lactamase genes and DNA sequence analysis</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Southern blot hybridisation</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>RESULTS AND DISCUSSION</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>NUCLEOTIDE SEQUENCE ACCESSION NUMBER</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>ACKNOWLEDGEMENT</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>REFERENCES</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sbref10">
+            <xocs:ref-normalized-surname>PHILIPPON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2002</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-last-lp>11</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref20">
+            <xocs:ref-normalized-surname>YAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4320</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4325</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref30">
+            <xocs:ref-normalized-surname>YAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2002</xocs:ref-pub-year>
+            <xocs:ref-first-fp>665</xocs:ref-first-fp>
+            <xocs:ref-last-lp>668</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref40">
+            <xocs:ref-normalized-surname>YAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2002</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3121</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3126</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref50">
+            <xocs:ref-normalized-surname>YAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1438</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1442</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref60">
+            <xocs:ref-normalized-surname>YU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>277</xocs:ref-first-fp>
+            <xocs:ref-last-lp>282</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref70">
+            <xocs:ref-normalized-surname>BARNAUD</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1998</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2352</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2358</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref80">
+            <xocs:ref-normalized-surname>VERDET</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>222</xocs:ref-first-fp>
+            <xocs:ref-last-lp>225</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref90">
+            <xocs:ref-normalized-surname>FORTINEAU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2001</xocs:ref-pub-year>
+            <xocs:ref-first-fp>207</xocs:ref-first-fp>
+            <xocs:ref-last-lp>210</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref100">
+            <xocs:ref-normalized-surname>NATIONALCOMMITTEEFORCLINICALLABORATORYSTANDARDS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2003</xocs:ref-pub-year>
+            <xocs:ref-normalized-srctitle>METHODSFORDILUTIONANTIMICROBIALSUSCEPTIBILITYTESTSFORBACTERIAGROWAEROBICALLY6THEDNAPPROVEDSTANDARDM7A6</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref110">
+            <xocs:ref-normalized-surname>MATTHEW</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1975</xocs:ref-pub-year>
+            <xocs:ref-first-fp>169</xocs:ref-first-fp>
+            <xocs:ref-last-lp>178</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref120">
+            <xocs:ref-normalized-surname>RICE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-first-fp>453</xocs:ref-first-fp>
+            <xocs:ref-last-lp>501</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>ANTIBIOTICSINLABORATORYMEDICINE</xocs:ref-normalized-srctitle>
+            <xocs:ref-normalized-article-title>GENETICBIOCHEMICALMECHANISMSBACTERIALRESISTANCEANTIMICROBIALAGENTS</xocs:ref-normalized-article-title>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref130">
+            <xocs:ref-normalized-surname>WANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1992</xocs:ref-pub-year>
+            <xocs:ref-first-fp>65</xocs:ref-first-fp>
+            <xocs:ref-last-lp>68</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref140">
+            <xocs:ref-normalized-surname>POIREL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>769</xocs:ref-first-fp>
+            <xocs:ref-last-lp>776</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref150">
+            <xocs:ref-normalized-surname>PAI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1758</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1763</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref160">
+            <xocs:ref-normalized-surname>BAUERNFEIND</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2041</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2046</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref170">
+            <xocs:ref-normalized-surname>IYOBE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1114</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1115</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>WUX2005X893</xocs:refkey3>
+         <xocs:refkey4lp>WUX2005X893X897</xocs:refkey4lp>
+         <xocs:refkey4ai>WUX2005X893XL</xocs:refkey4ai>
+         <xocs:refkey5>WUX2005X893X897XL</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="1">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2014-11-30T00:59:15Z</xocs:oa-access-effective-date>
+         <xocs:oa-user-license>http://www.elsevier.com/open-access/userlicense/1.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/1198743X_P1Y_Author" wintype="OpenArchive">OA-Window</xocs:oa-access-inherited-from>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>Author</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+      </xocs:open-access>
+      <xocs:open-research/>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en"/>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en"/>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1198-743X(14)62604-5</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1198743X14626045</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1198743X14626045</xocs:eid>
+         <xocs:doi>10.1111/j.1469-0691.2005.01252.x</xocs:doi>
+         <xocs:cid>312004</xocs:cid>
+         <xocs:timestamp>2014-12-12T00:07:47.082077-05:00</xocs:timestamp>
+         <xocs:cover-date-start>2005-11-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2005-11-30</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1198743X14626045-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14626045/MAIN/application/pdf/a90444726569e4553204491157e3cb39/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14626045/MAIN/application/pdf/a90444726569e4553204491157e3cb39/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>301789</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>5</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1198743X14626045-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14626045/PREVIEW/image/png/933e85893391efd0fee98ac1056ca6a9/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14626045/PREVIEW/image/png/933e85893391efd0fee98ac1056ca6a9/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>72778</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1198743X14626045-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14626045/gr1/DOWNSAMPLED/image/jpeg/7bb8f2f0c712aff7c5206324c35e8aac/gr1.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14626045/gr1/DOWNSAMPLED/image/jpeg/7bb8f2f0c712aff7c5206324c35e8aac/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>28901</xocs:filesize>
+               <xocs:pixel-height>259</xocs:pixel-height>
+               <xocs:pixel-width>342</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1198743X14626045-gr3.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14626045/gr3/DOWNSAMPLED/image/gif/8a72d8192ee844bed5a2b6e9e076f73d/gr3.gif</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14626045/gr3/DOWNSAMPLED/image/gif/8a72d8192ee844bed5a2b6e9e076f73d/gr3.gif</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>11645</xocs:filesize>
+               <xocs:pixel-height>208</xocs:pixel-height>
+               <xocs:pixel-width>509</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1198743X14626045-gr2.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14626045/gr2/DOWNSAMPLED/image/gif/af17fb161cf0c20b260c56ff113d5741/gr2.gif</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14626045/gr2/DOWNSAMPLED/image/gif/af17fb161cf0c20b260c56ff113d5741/gr2.gif</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>19907</xocs:filesize>
+               <xocs:pixel-height>560</xocs:pixel-height>
+               <xocs:pixel-width>523</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1198743X14626045-gr3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14626045/gr3/THUMBNAIL/image/gif/b66aa440a4c4d50aec7924e725eebcd9/gr3.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14626045/gr3/THUMBNAIL/image/gif/b66aa440a4c4d50aec7924e725eebcd9/gr3.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>2698</xocs:filesize>
+               <xocs:pixel-height>89</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1198743X14626045-gr2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14626045/gr2/THUMBNAIL/image/gif/df84bebdb19eb38e74a33acc9fffa92c/gr2.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14626045/gr2/THUMBNAIL/image/gif/df84bebdb19eb38e74a33acc9fffa92c/gr2.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>2272</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>153</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1198743X14626045-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14626045/gr1/THUMBNAIL/image/gif/db277da9e8e265f8babc3d53d24b9ad6/gr1.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14626045/gr1/THUMBNAIL/image/gif/db277da9e8e265f8babc3d53d24b9ad6/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>9630</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>217</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="fla" version="5.2" xml:lang="en">
+         <item-info>
+            <jid>CMI</jid>
+            <aid>62604</aid>
+            <ce:pii>S1198-743X(14)62604-5</ce:pii>
+            <ce:doi>10.1111/j.1469-0691.2005.01252.x</ce:doi>
+            <ce:copyright type="society" year="2005">European Society of Clinical Infectious Diseases</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig1">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption id="cecap10">
+                  <ce:simple-para id="spara10" view="all">Example of results obtained with double-disk antagonism tests. ATM, aztreonam; CAZ, ceftazidime; CTX, cefotaxime; FEP, cefepime; FOX, cefoxitin.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr1"/>
+            </ce:figure>
+            <ce:figure id="fig2">
+               <ce:label>Fig. 2</ce:label>
+               <ce:caption id="cecap20">
+                  <ce:simple-para id="spara20" view="all">Alignment of deduced amino-acid sequences of DHA-3 from <ce:italic>Klebsiella pneumoniae</ce:italic> KP3 with those of DHA-1 from <ce:italic>Salmonella</ce:italic> Enteritidis [<ce:cross-ref id="cecref10" refid="bib7">7</ce:cross-ref>] and DHA-2 from <ce:italic>K. pneumoniae</ce:italic> 45956 [<ce:cross-ref id="cecref20" refid="bib9">9</ce:cross-ref>]. Identical amino-acids are marked with dashes. The underlined amino-acids are those that may be involved in the catalytic site of these AmpC enzymes, including the β-lactamase active site S–V–S–K and the conserved triad K–T–G.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr2"/>
+            </ce:figure>
+            <ce:figure id="fig3">
+               <ce:label>Fig. 3</ce:label>
+               <ce:caption id="cecap30">
+                  <ce:simple-para id="spara30" view="all">Comparison of the alignment of the deduced amino-acid sequence of the AmpR protein of <ce:italic>Klebsiella pneumoniae</ce:italic> KP3 (Kp) with that of <ce:italic>Morganella morganii</ce:italic> (Mm) [<ce:cross-ref id="cecref30" refid="bib14">14</ce:cross-ref>].</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr3"/>
+            </ce:figure>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl1" frame="topbot" rowsep="0" colsep="0">
+               <ce:label>Table 1</ce:label>
+               <ce:caption id="cecap40">
+                  <ce:simple-para id="spara40" view="all">MICs of various β-lactams for <ce:italic>Klebsiella pneumoniae</ce:italic> KP3, the <ce:italic>Escherichia coli</ce:italic> DH5α (pKP3) electroporant, <ce:italic>E. coli</ce:italic> DH5α and the <ce:italic>E. coli</ce:italic> J53 (pKP3–1) transformant, as well as pI values of the β-lactamases produced by each strain</ce:simple-para>
+               </ce:caption>
+               <tgroup cols="6">
+                  <colspec colnum="1" colname="col1"/>
+                  <colspec colnum="2" colname="col2"/>
+                  <colspec colnum="3" colname="col3"/>
+                  <colspec colnum="4" colname="col4"/>
+                  <colspec colnum="5" colname="col5"/>
+                  <colspec colnum="6" colname="col6"/>
+                  <thead>
+                     <row valign="bottom">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd"/>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left" rowsep="1" namest="col2" nameend="col6">MIC (mg/L)</entry>
+                     </row>
+                     <row valign="bottom" rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">
+                           <bold>Antimicrobial agent</bold>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">
+                           <bold>KP3 pI 5.4, 7.9, 8.2</bold>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">
+                           <bold>DH5α</bold>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">
+                           <bold>DH5α (pKP3)pI 5.4,7.9,8.2</bold>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">
+                           <bold>J53 (Azi<sup loc="post">r</sup>)</bold>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">
+                           <bold>J53 (pKP3–1)pI 5.4, 8.2</bold>
+                        </entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Ampicillin</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">&gt;512</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">128</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Cefoxitin</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">256</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">32</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">4</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Cefotaxime</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.12</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">16</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.12</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">16</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Cefotaxime–clavulanate<cross-ref id="cecref40" refid="tbl1fn1">
+                              <sup loc="post">a</sup>
+                           </cross-ref>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.25</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">8</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.12</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">4</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Ceftazidime</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">128</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">32</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.25</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">32</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Ceftazidime–clavulanate<cross-ref id="cecref50" refid="tbl1fn1">
+                              <sup loc="post">a</sup>
+                           </cross-ref>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">128</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">16</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.25</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">4</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Cefepime</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.06</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.12</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.03</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.12</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Ciprofloxacin</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.06</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.06</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.012</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.012</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Imipenem</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.25</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.25</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.25</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.12</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.25</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+               <ce:table-footnote id="tbl1fn1">
+                  <ce:label>a</ce:label>
+                  <ce:note-para id="cenpara10" view="all">Clavulanate was tested at a fixed concentration of 4 mg/L.</ce:note-para>
+               </ce:table-footnote>
+            </ce:table>
+         </ce:floats>
+         <head>
+            <ce:dochead id="cedoch10">
+               <ce:textfn>Original Article</ce:textfn>
+            </ce:dochead>
+            <ce:title id="cetitle10">Identification of a novel cephalosporinase (DHA-3) in <ce:italic>Klebsiella pneumoniae</ce:italic> isolated in Taiwan</ce:title>
+            <ce:author-group id="aug10">
+               <ce:author id="au10">
+                  <ce:given-name>L.-T.</ce:given-name>
+                  <ce:surname>Wu</ce:surname>
+                  <ce:cross-ref id="cecref60" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au20">
+                  <ce:given-name>S.-W.</ce:given-name>
+                  <ce:surname>Hung</ce:surname>
+                  <ce:cross-ref id="cecref70" refid="aff2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au30">
+                  <ce:given-name>Y.-C.</ce:given-name>
+                  <ce:surname>Chuang</ce:surname>
+                  <ce:cross-ref id="cecref80" refid="aff3">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au40">
+                  <ce:given-name>H.-E.</ce:given-name>
+                  <ce:surname>Chen</ce:surname>
+                  <ce:cross-ref id="cecref90" refid="aff3">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au50">
+                  <ce:given-name>R.N.</ce:given-name>
+                  <ce:surname>Jones</ce:surname>
+                  <ce:cross-ref id="cecref100" refid="aff4">
+                     <ce:sup loc="post">d</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au60">
+                  <ce:given-name>W.-L.</ce:given-name>
+                  <ce:surname>Yu</ce:surname>
+                  <ce:cross-ref id="cecref110" refid="aff5">
+                     <ce:sup loc="post">e</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cecref120" refid="aff6">
+                     <ce:sup loc="post">f</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cecref130" refid="cor1">*</ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="aff1">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>Institute of Medical Science and Department of Microbiology, China Medical University</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Institute of Medical Science and Department of Microbiology</sa:organization>
+                     <sa:address-line>China Medical University</sa:address-line>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff2">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>Department of Radiology, Taichung Veterans General Hospital, Taichung</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Radiology</sa:organization>
+                     <sa:address-line>Taichung Veterans General Hospital</sa:address-line>
+                     <sa:city>Taichung</sa:city>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff3">
+                  <ce:label>c</ce:label>
+                  <ce:textfn>Department of Medical Research, Chi-Mei Medical Center, Yungkang, Taiwan</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Medical Research</sa:organization>
+                     <sa:address-line>Chi-Mei Medical Center</sa:address-line>
+                     <sa:city>Yungkang</sa:city>
+                     <sa:country>Taiwan</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff4">
+                  <ce:label>d</ce:label>
+                  <ce:textfn>The JONES Group/JMI Laboratories, North Liberty, IO, USA</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>The JONES Group/JMI Laboratories</sa:organization>
+                     <sa:address-line>North Liberty</sa:address-line>
+                     <sa:state>IO</sa:state>
+                     <sa:country>USA</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff5">
+                  <ce:label>e</ce:label>
+                  <ce:textfn>Department of Critical Care Medicine, Chi-Mei Medical Center, Yungkang</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Critical Care Medicine</sa:organization>
+                     <sa:address-line>Chi-Mei Medical Center</sa:address-line>
+                     <sa:city>Yungkang</sa:city>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff6">
+                  <ce:label>f</ce:label>
+                  <ce:textfn>Department of Medicine, Taipei Medical University, Taipei, Taiwan</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Medicine</sa:organization>
+                     <sa:address-line>Taipei Medical University</sa:address-line>
+                     <sa:city>Taipei</sa:city>
+                     <sa:country>Taiwan</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:correspondence id="cor1">
+                  <ce:label>*</ce:label>
+                  <ce:text>Corresponding author and reprint requests: W.-L. Yu, Department of Critical Care Medicine, Chi-Mei Medical Center, 901 Chung Hwa Road, 710 Yungkang, Taiwan</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="13" month="9" year="2004"/>
+            <ce:date-revised day="23" month="3" year="2005"/>
+            <ce:date-accepted day="7" month="5" year="2005"/>
+            <ce:abstract id="ceab10" view="all" class="author"><ce:abstract-sec id="ceabs10" view="all">
+                  <ce:simple-para id="spara50" view="all">A strain of <ce:italic>Klebsiella pneumoniae</ce:italic> resistant to cefoxitin and oxyimino-cephalosporins, but susceptible to cefepime, was isolated from an adult patient hospitalised in Taichung, Taiwan. Isoelectric focusing revealed three β-lactamases with isoelectric points of 5.4, 8.2 and 7.9, respectively. Following PCR with plasmid DNA templates and gene sequencing, these enzymes were shown to correspond to TEM-1, SHV-5 and a novel DHA-1-like enzyme (designated DHA-3). The <ce:italic>bla</ce:italic> genes for TEM-1 and SHV-5 were transferable, but the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:small-caps>dha</ce:small-caps>-3</ce:inf> gene was non-self-transferable in conjugation experiments. All three <ce:italic>bla</ce:italic> genes were successfully introduced by electrotransformation into an <ce:italic>Escherichia coli</ce:italic> recipient (DH5α), resulting in a similar resistance profile to that observed in the original donor strain. Other <ce:italic>K. pneumoniae</ce:italic> strains producing DHA-1-like enzymes have been identified previously in Taiwan, and this report suggests that DHA-type β-lactamases are continuing to emerge in this country.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="cekeyws10" view="all" class="keyword">
+               <ce:section-title id="cestitle20">Keywords</ce:section-title>
+               <ce:keyword id="cekeyw10">
+                  <ce:text>Antibiotic resistance</ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw20">
+                  <ce:text>β-lactamases</ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw30">
+                  <ce:text>DHA-type β-lactamases</ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw40">
+                  <ce:text>
+                     <ce:italic>Klebsiella pneumoniae</ce:italic>
+                  </ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw50">
+                  <ce:text>resistance</ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw60">
+                  <ce:text>Taiwan</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:section id="cesec10" view="all">
+                  <ce:section-title id="cestitle30">INTRODUCTION</ce:section-title>
+                  <ce:para id="para10" view="all">Plasmid-mediated AmpC β-lactamases (21 types) have been detected in clinical isolates of <ce:italic>Klebsiella pneumoniae, Escherichia coli</ce:italic> and <ce:italic>Salmonella</ce:italic> spp. worldwide [<ce:cross-ref id="cecref140" refid="bib1">1</ce:cross-ref>], including Taiwan. These enzymes include CMY-2 in <ce:italic>E. coli</ce:italic> [<ce:cross-ref id="cecref150" refid="bib2">2</ce:cross-ref>] and <ce:italic>Salmonella</ce:italic> Hadar [<ce:cross-ref id="cecref160" refid="bib3">3</ce:cross-ref>], and DHA-1 [<ce:cross-ref id="cecref170" refid="bib4">4</ce:cross-ref>] and CMY-8 [<ce:cross-ref id="cecref180" refid="bib5">5</ce:cross-ref>] in <ce:italic>K. pneumoniae.</ce:italic> Isolates of <ce:italic>K. pneumoniae</ce:italic> producing DHA-1 have disseminated within a university hospital in southern Taiwan [<ce:cross-ref id="cecref190" refid="bib4">4</ce:cross-ref>] and have also been identified at a medical centre in northern Taiwan [<ce:cross-ref id="cecref200" refid="bib6">6</ce:cross-ref>]. DHA-1 was the first inducible, plasmid-encoded AmpC β-lactamase, and was created by mobilisation of the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:small-caps>dha</ce:small-caps>-1</ce:inf> gene with an upstream regulator <ce:italic>ampR</ce:italic> gene from the <ce:italic>Morganella morganii</ce:italic> chromosome [<ce:cross-ref id="cecref210" refid="bib7">7</ce:cross-ref>,<ce:cross-ref id="cecref220" refid="bib8">8</ce:cross-ref>]. Similarly, DHA-2, a point-mutant derivative of DHA-1, is an inducible, plasmid-located cephalosporinase detected in an isolate of <ce:italic>K. pneumoniae</ce:italic> from France [<ce:cross-ref id="cecref230" refid="bib9">9</ce:cross-ref>]. The present study describes the characterisation of a further novel AmpC β-lactamase in a clinical isolate of <ce:italic>K. pneumoniae</ce:italic> exhibiting resistance to cefoxitin, cefotaxime and ceftazidime.</ce:para>
+               </ce:section>
+               <ce:section id="cesec20" view="all">
+                  <ce:section-title id="cestitle40">MATERIALS AND METHODS</ce:section-title>
+                  <ce:section id="cesec30" view="all">
+                     <ce:section-title id="cestitle50">Bacterial strains</ce:section-title>
+                     <ce:para id="para20" view="all">
+                        <ce:italic>K. pneumoniae</ce:italic> strain KP3 was isolated in 2000 from an aspirated, purulent specimen from an adult patient with a liver abscess who was hospitalised at Veterans General Hospital, Taichung, Taiwan. E. <ce:italic>coli</ce:italic> J53 (Azi<ce:sup loc="post">r</ce:sup>) (sodium azide-resistant) and E. <ce:italic>coli</ce:italic> DH5α were used as recipient strains in conjugation and electroporation experiments, respectively.</ce:para>
+                  </ce:section>
+                  <ce:section id="cesec40" view="all">
+                     <ce:section-title id="cestitle60">Antimicrobial susceptibility testing</ce:section-title>
+                     <ce:para id="para30" view="all">MICs were determined by the NCCLS macrodilution tube method with Mueller–Hinton broth [<ce:cross-ref id="cecref240" refid="bib10">10</ce:cross-ref>]. Quality control was assured by testing <ce:italic>E. coli</ce:italic> ATCC 25922 and <ce:italic>Pseudomonas aeruginosa</ce:italic> ATCC 27853. The antimicrobial agents investigated included ampicillin, cephalothin, cefoxitin, cefotaxime (Sigma, St Louis, MO, USA), ceftazidime (Glaxo, Greenford, UK), cefepime (Bristol-Myers Squibb, Princeton, NJ, USA), ciprofloxacin (Bayer, Leverkusen, Germany) and imipenem (Merck Sharp &amp; Dohme, West Point, PA, USA). MICs of cefotaxime and ceftazidime, with or without clavulanic acid (United States Pharmacopoeia Convention Inc., Rockville, MD, USA) 4 mg/L, were compared as a test for the presence of extended-spectrum β-lactamases (ESBLs) [<ce:cross-ref id="cecref250" refid="bib10">10</ce:cross-ref>]. The ESBL phenotype was confirmed by a reduction of ≥3 log2 dilutions in the MICs of either cefotaxime or ceftazidime in the presence of clavulanic acid [<ce:cross-ref id="cecref260" refid="bib10">10</ce:cross-ref>].</ce:para>
+                  </ce:section>
+                  <ce:section id="cesec50" view="all">
+                     <ce:section-title id="cestitle70">Antagonism testing</ce:section-title>
+                     <ce:para id="para40" view="all">The modified disk antagonism method [<ce:cross-ref id="cecref270" refid="bib4">4</ce:cross-ref>] was used to detect induction of chromosomal fS-lactamases. Disks of inducing agents and disks of cephalosporins were placed on the surface of Mueller–Hinton agar plates, 25 mm apart. The cephalosporin disks (Becton Dickinson Microbiology Systems, Cockeysville, MD, USA) were cefotaxime (30 μg), ceftazidime (30 μg), aztreonam (30 μg) and cefepime (30 μg). Clavulanic acid (10 μg) and cefoxitin (30 μg) disks were used as inducing agents.</ce:para>
+                  </ce:section>
+                  <ce:section id="cesec60" view="all">
+                     <ce:section-title id="cestitle80">Analytical isoelectric focusing (IEF)</ce:section-title>
+                     <ce:para id="para50" view="all">Crude protein extracts containing β-lactamases were prepared by ultrasonication, followed by determination of isoelectric points (pIs) by IEF on an ampholin polyacrylamide gel (pH 3.5–9.5) [<ce:cross-ref id="cecref280" refid="bib11">11</ce:cross-ref>]. Gels were developed with 0.5 mM nitrocephin (Oxoid, Basingstoke, UK). Standards of known pI included TEM-1 (pI 5.4), TEM-4 (pI 5.9), SHV-3 (pI 7.0), SHV-1 (pI 7.6), SHV-4 (pI 7.8) and SHV-5 (pI 8.2); pI values for unknown β-lactamases were calculated by regression analysis.</ce:para>
+                  </ce:section>
+                  <ce:section id="cesec70" view="all">
+                     <ce:section-title id="cestitle90">Conjugation and electrotransformation experiments</ce:section-title>
+                     <ce:para id="para60" view="all">Plasmid conjugation experiments were performed using <ce:italic>E. coli</ce:italic> J53 (Azi<ce:sup loc="post">r</ce:sup>) as the recipient [<ce:cross-ref id="cecref290" refid="bib12">12</ce:cross-ref>]. Transconjugants were selected on Luria–Bertani agar plates supplemented with sodium azide (100 mg/L) and cefotaxime (2 mg/L). In addition, cefoxitin (8 mg/L) was added to prevent selection of ESBL-producing transconjugants, and thus to separate an AmpC-encoding plasmid if both ESBL- and AmpC-encoding plasmids were present in the same donor strain. Electrotransformation of a plasmid DNA suspension from <ce:italic>K. pneumoniae</ce:italic> KP3 into <ce:italic>E. coli</ce:italic> DH5α was performed at a pulsed-field strength of 2.5 kV/cm with a 15-μF capacitor and a 335-Ω resistor using an EasyjecT Optima electroporator (Equibio, Nottingham, UK) as described previously [<ce:cross-ref id="cecref300" refid="bib13">13</ce:cross-ref>]. Electrotransformants were selected on agar containing cefotaxime (2 mg/L) or cefoxitin (8 mg/L). Plasmid DNA was extracted from <ce:italic>K. pneumoniae</ce:italic> KP3, <ce:italic>E. coli</ce:italic> J53 transconjugants and <ce:italic>E. coli</ce:italic> DH5α electroporants with a Plasmid Miniprep Purification Kit (Amersham Biosciences, Uppsala, Sweden).</ce:para>
+                  </ce:section>
+                  <ce:section id="cesec80" view="all">
+                     <ce:section-title id="cestitle100">PCR-based amplification of β-lactamase genes and DNA sequence analysis</ce:section-title>
+                     <ce:para id="para70" view="all">TEM-, SHV- and AmpC-related genes (including those for DHA-1, FOX-1 and CMY-2) were amplified using specific primers as described previously [<ce:cross-ref id="cecref310" refid="bib2">2</ce:cross-ref>,<ce:cross-refs id="cecrefs10" refid="bib14 bib15 bib16">14–16</ce:cross-refs>]. PCR conditions comprised 3 min at 94°C, followed by 35 cycles of 1 min at 94°C, 1 min at 55°C and 2 min at 72°C, with a final extension period of 7 min at 72°C. Amplicons were separated by electrophoresis on agarose 1.5% w/v gels and were visualised by exposure to UV light in the presence of ethidium bromide. DNA sequencing was performed on an automated DNA sequencer (ABI PRISM 373; Applied Biosystems, Foster City, CA, USA). Since the set of primers corresponding to the DHA-1 gene gave a positive result, internal primers for putative <ce:italic>hybF, ampR</ce:italic> and <ce:italic>orf-1</ce:italic> sequences from the <ce:italic>M. morganii</ce:italic> chromosome were also used in an attempt to determine the genetic context of the cephalosporinase gene [<ce:cross-ref id="cecref320" refid="bib14">14</ce:cross-ref>]. To identify DHA-related integrons, primers P1 (forward, 5′-CGGATGAAGGCAACCCA-3′) and P2 (reverse, 5′-AAGCAGACTTGACCTGATAGT-3′), specific for class 1 integrons, were used in PCRs [<ce:cross-ref id="cecref330" refid="bib17">17</ce:cross-ref>]. Furthermore, a specific pair of primers, 5′-CTTTTGCCCTAGCTGCGGT-3′ (forward) and 5′-CTCACGCCCTGGCAAGGTTT-3′ (reverse), was used to amplify the common region of In6–In7 at bp 3081–3675 [<ce:cross-ref id="cecref340" refid="bib8">8</ce:cross-ref>].</ce:para>
+                  </ce:section>
+                  <ce:section id="cesec90" view="all">
+                     <ce:section-title id="cestitle110">Southern blot hybridisation</ce:section-title>
+                     <ce:para id="para80" view="all">Plasmid DNA samples were analysed by electrophoresis at 30 V for 2 h on agarose 1% w/v gels, denatured and then neutralised on Whatman (Maidstone, UK) filter paper saturated, successively, with sodium dodecyl sulphate 10% w/v, denaturation solution (0.5 M NaOH, 1.5 M NaCl) and neutralisation solution (0.5 M Tris-HCl, pH 7.5, 1.5 M NaCl) for 15 min each. Plasmid DNA was transferred to a positively charged nylon membrane (Boehringer Mannheim, Mannheim, Germany) using an electrophoretic transfer cell (Bio-Rad, Hemel Hempstead, UK). A probe for DHA-1 was prepared by random labelling of the 1140-bp <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">
+                           <ce:small-caps>dha</ce:small-caps>-1</ce:inf> PCR product with digoxigenin (Digoxigenin Labelling and Detection Kit; Roche Diagnostics, Mannheim, Germany) according to the manufacturer's instructions.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="cesec100" view="all">
+                  <ce:section-title id="cestitle120">RESULTS AND DISCUSSION</ce:section-title>
+                  <ce:para id="para90" view="all">The strain of <ce:italic>K. pneumoniae</ce:italic> (KP3) with resistance to cefoxitin and cefotaxime was isolated from a liver abscess aspirate. It remained susceptible to cefepime (0.5 mg/L) and imipenem (0.25 mg/L). The high MICs of cefotaxime and ceftazidime were not reduced by clavulanate (<ce:cross-ref id="cecref350" refid="tbl1">Table 1</ce:cross-ref>
+                     <ce:float-anchor refid="tbl1"/>), suggesting the presence of an AmpC-type enzyme rather than an ESBL [<ce:cross-ref id="cecref360" refid="bib10">10</ce:cross-ref>]. Induction of the β-lactamases of KP3 was demonstrated by the disk antagonism test, which demonstrated blunting of the zones surrounding the cephalosporin disks adjacent to the inducers, including the clavulanic acid and cefoxitin disks (<ce:cross-ref id="cecref370" refid="fig1">Fig. 1</ce:cross-ref>
+                     <ce:float-anchor refid="fig1"/>).</ce:para>
+                  <ce:para id="para100" view="all">IEF of crude extracts of KP3 and <ce:italic>E. coli</ce:italic> DH5α (pKP3) transformants identified three β-lactamases at pIs of 5.4, 7.9, and 8.2. In contrast, the <ce:italic>E. coli</ce:italic> J53 (pKP3-1) transconjugant contained only two β-lactamases with pIs of 5.4 and 8.2. The enzymes with pIs of 5.4 and 8.2 were shown to correspond to TEM-1 and SHV-5, respectively, by amplification of the genes from the plasmid DNA of the clinical KP3 strain and the J53 (pKP3–1) transconjugant, followed by DNA sequencing. The naturally occurring SHV-1 enzyme (pI 7.6) of <ce:italic>K. pneumoniae</ce:italic> was not identified on the IEF gel.</ce:para>
+                  <ce:para id="para110" view="all">The ceftazidime MIC (32 mg/L) for <ce:italic>E. coli</ce:italic> J53 (pKP3–1) was reduced significantly to 4 mg/L in the presence of clavulanic acid (<ce:cross-ref id="cecref380" refid="tbl1">Table 1</ce:cross-ref>), confirming the presence of an ESBL (SHV-5). However, clavulanic acid did not reduce the MICs of ceftazidime (128 mg/mL) and cefotaxime (64 mg/L) for the original clinical isolate of <ce:italic>K. pneumoniae</ce:italic> (KP3) (<ce:cross-ref id="cecref390" refid="tbl1">Table 1</ce:cross-ref>), suggesting that clavulanic acid itself may act as an inducer of the non-transferred enzyme (pI 7.9), rather than as an inhibitor of SHV-5, thus leading to a false-negative result with the ESBL test for KP3 (i.e., a net effect of no significant reduction in the MICs of ceftazidime and cefotaxime).</ce:para>
+                  <ce:para id="para120" view="all">Repeated conjugation experiments, regardless of whether cefotaxime or cefoxitin was used as the selecting agent, failed to demonstrate transfer of a plasmid coding for the pI 7.9 β-lactamase. However, this enzyme could be isolated from <ce:italic>E. coli</ce:italic> DH5α (pKP3) electroporants and was subsequently identified as a novel AmpC-like β-lactamase (see below), termed ‘DHA-3’. Like the plasmid carrying the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:small-caps>dha</ce:small-caps>-1</ce:inf> gene, discovered in strains of <ce:italic>Salmonella enterica</ce:italic> serovar Enteritidis [<ce:cross-ref id="cecref400" refid="bib7">7</ce:cross-ref>,<ce:cross-ref id="cecref410" refid="bib8">8</ce:cross-ref>] and <ce:italic>K. pneumoniae</ce:italic> [<ce:cross-ref id="cecref420" refid="bib4">4</ce:cross-ref>], the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:small-caps>dha</ce:small-caps>-3</ce:inf> plasmid was not self-transferable. The <ce:italic>E. coli</ce:italic> DH5α (pKP3) electroporant had a similar resistance profile to KP3 (<ce:cross-ref id="cecref430" refid="tbl1">Table 1</ce:cross-ref>).</ce:para>
+                  <ce:para id="para130" view="all">Using a set of primers specific for <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:small-caps>dha</ce:small-caps>-1</ce:inf>, a 1048-bp PCR fragment was obtained from plasmid DNA preparations of both KP3 and the <ce:italic>E. coli</ce:italic> DH5α (pKP3) transformant. DNA sequencing of both PCR products revealed a deduced protein with only two amino-acid changes (DHA-3) compared with DHA-1 (&gt; 98% similarity; <ce:cross-ref id="cecref440" refid="fig2">Fig. 2</ce:cross-ref>
+                     <ce:float-anchor refid="fig2"/>). Repeated PCR and DNA sequencing gave the same sequence for DHA-3, implying that the mutation was not caused by random change. Plasmid analysis by Southern hybridisation with a <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:small-caps>dha</ce:small-caps>-1</ce:inf>-specific probe showed that <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:small-caps>dha</ce:small-caps>
+                     </ce:inf> was localised on KP3 and DH5α (pKP3) plasmid bands of &gt;10-kb (data not shown). However, repeated electrotransformation experiments failed to obtain an <ce:italic>E. coli</ce:italic> transformant carrying DHA-3 without SHV-5 and TEM-1. Therefore, precise conclusions regarding the phenotypic effect of the mutations that differentiated DHA-3 from DHA-1 were not possible.</ce:para>
+                  <ce:para id="para140" view="all">Since DHA-1 and DHA-2 are known to be inducible because of the presence of a reverse transcribed <ce:italic>ampR</ce:italic> gene [<ce:cross-ref id="cecref450" refid="bib7">7</ce:cross-ref>,<ce:cross-ref id="cecref460" refid="bib9">9</ce:cross-ref>], primers targeted to the 3′-ends of this <ce:italic>ampR</ce:italic> gene and the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:small-caps>dha</ce:small-caps>-3</ce:inf> genes allowed amplification from the plasmids carried by KP3 and <ce:italic>E. coli</ce:italic> DH5a (pKP3). Comparison of the alignment of the deduced amino-acid sequence of the DHA-3-associated AmpR with that of the AmpR of M. <ce:italic>morganii</ce:italic> revealed 98% identity, with only three amino-acid changes (<ce:cross-ref id="cecref470" refid="fig3">Fig. 3</ce:cross-ref>
+                     <ce:float-anchor refid="fig3"/>). The 111-bp inter-cistronic region of <ce:italic>ampC</ce:italic> and <ce:italic>ampR</ce:italic> contained the promoter sequences for <ce:italic>ampC</ce:italic> and <ce:italic>ampR</ce:italic> expression. This region was 100% identical to the corresponding region of the <ce:italic>Salmonella</ce:italic> Enteritidis plasmid that contained <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:small-caps>dha</ce:small-caps>-1</ce:inf> [<ce:cross-ref id="cecref480" refid="bib7">7</ce:cross-ref>], and was 98% identical to that found in the <ce:italic>M. morganii</ce:italic> chromosome [<ce:cross-ref id="cecref490" refid="bib14">14</ce:cross-ref>]. Based on the inducible β-lactamase activity of KP3 and the <ce:italic>E. coli</ce:italic> DH5α (KP3) transformant, as shown by the disk antagonism test, the <ce:italic>ampR</ce:italic> gene should be functional, which may make the DHA-3 enzyme inducible following exposure to agents such as clavulanic acid. This may offset the inhibitory effect of clavulanic acid on the SHV-5 ESBL of KP3, resulting in uninhibited MICs of ceftazidime and cefotaxime in the presence of clavulanic acid (<ce:cross-ref id="cecref500" refid="tbl1">Table 1</ce:cross-ref>).</ce:para>
+                  <ce:para id="para150" view="all">The sequences surrounding <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:small-caps>dha</ce:small-caps>-3</ce:inf> were also investigated using PCR to search for <ce:italic>hybF</ce:italic> and <ce:italic>orf-1.</ce:italic> As observed for DHA-2 [<ce:cross-ref id="cecref510" refid="bib9">9</ce:cross-ref>], <ce:italic>hybF</ce:italic> was detected downstream of <ce:italic>ampR</ce:italic>, but <ce:italic>orf-1</ce:italic> was not identified on the plasmid from <ce:italic>E. coli</ce:italic> DH5α (pKP3). These results were also indicative of the <ce:italic>M. morganii</ce:italic> chromosomal origin of <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:small-caps>dha</ce:small-caps>-3</ce:inf>. Although <ce:italic>ampR</ce:italic> and <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:small-caps>dha</ce:small-caps>-1</ce:inf> were mobilised from the <ce:italic>M. morganii</ce:italic> chromosome into a complex of In6–In7–<ce:italic>sulI</ce:italic>-type class 1 integrons in a strain of <ce:italic>S. enterica</ce:italic> serovar Enteritidis [<ce:cross-ref id="cecref520" refid="bib8">8</ce:cross-ref>], a class 1 integron carrying <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">
+                        <ce:small-caps>dha</ce:small-caps>-3</ce:inf> was not identified in KP3, nor was an integron identified in the DHA-2-producing <ce:italic>K. pneumoniae</ce:italic> isolate described previously [<ce:cross-ref id="cecref530" refid="bib9">9</ce:cross-ref>]. Furthermore, PCRs using a pair of primers specific to the common region of In6–In7 [<ce:cross-ref id="cecref540" refid="bib8">8</ce:cross-ref>] did not produce a positive reaction. However, the possibility that point mutations in primer regions have led to these negative results cannot be ruled out.</ce:para>
+                  <ce:para id="para160" view="all">In conclusion, the present study identified and characterised the third plasmid-mediated cephalosporinase derived from the chromosomally encoded AmpC enzyme of M. <ce:italic>morganii.</ce:italic> Identification of the DHA-1 enzyme in klebsiellae in Taiwan [<ce:cross-ref id="cecref550" refid="bib4">4</ce:cross-ref>,<ce:cross-ref id="cecref560" refid="bib6">6</ce:cross-ref>], together with the discovery of DHA-3 in the present study, highlights the continued emergence of DHA-related enzymes in <ce:italic>K. pneumoniae</ce:italic> in clinical settings in Taiwan, where ESBL-producing strains and other AmpC-producing Enterobacteriaceae have also become prevalent [<ce:cross-refs id="cecrefs20" refid="bib2 bib3 bib4 bib5 bib6">2–6</ce:cross-refs>].</ce:para>
+               </ce:section>
+               <ce:section id="cesec110" view="all">
+                  <ce:section-title id="cestitle130">NUCLEOTIDE SEQUENCE ACCESSION NUMBER</ce:section-title>
+                  <ce:para id="para170" view="all">The nucleotide sequence reported in this paper will appear under GenBank accession number AY494945.</ce:para>
+               </ce:section>
+               <ce:section id="cesec120" view="all">
+                  <ce:section-title id="cestitle140">ACKNOWLEDGEMENT</ce:section-title>
+                  <ce:para id="para180" view="all">This study was supported by research grant NSC 93–2314-B-384–004 from the National Science Council, Taiwan.</ce:para>
+               </ce:section>
+            </ce:sections>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="bibl10" view="all">
+               <ce:section-title id="cestitle150">REFERENCES</ce:section-title>
+               <ce:bibliography-sec id="cebibsec10" view="all">
+                  <ce:bib-reference id="bib1">
+                     <ce:label>1</ce:label>
+                     <sb:reference id="sbref10">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Philippon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Arlet</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>GA</ce:given-name>
+                                 <ce:surname>Jacoby</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Plasmid-determined AmpC-type β-lactamases</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>46</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2002</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                              <sb:last-page>11</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib2">
+                     <ce:label>2</ce:label>
+                     <sb:reference id="sbref20">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JJ</ce:given-name>
+                                 <ce:surname>Yan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>WC</ce:given-name>
+                                 <ce:surname>Ko</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>SH</ce:given-name>
+                                 <ce:surname>Tsai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>HM</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>YT</ce:given-name>
+                                 <ce:surname>Jin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JJ</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Dissemination of CTX-M-3 and CMY-2 β-lactamases among clinical isolates of <ce:italic>Escherichia coli</ce:italic> in southern Taiwan</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>38</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4320</sb:first-page>
+                              <sb:last-page>4325</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib3">
+                     <ce:label>3</ce:label>
+                     <sb:reference id="sbref30">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JJ</ce:given-name>
+                                 <ce:surname>Yan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>CH</ce:given-name>
+                                 <ce:surname>Chiu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>WC</ce:given-name>
+                                 <ce:surname>Ko</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>CL</ce:given-name>
+                                 <ce:surname>Chuang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JJ</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Ceftriaxone-resistant <ce:italic>Salmonella enterica</ce:italic> serovar Hadar: evidence for interspecies transfer of <ce:italic>bla</ce:italic>CMY-2 in a Taiwanese university hospital</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Formos Med Assoc</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>101</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2002</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>665</sb:first-page>
+                              <sb:last-page>668</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib4">
+                     <ce:label>4</ce:label>
+                     <sb:reference id="sbref40">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JJ</ce:given-name>
+                                 <ce:surname>Yan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>WC</ce:given-name>
+                                 <ce:surname>Ko</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>YC</ce:given-name>
+                                 <ce:surname>Jung</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>CL</ce:given-name>
+                                 <ce:surname>Chuang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JJ</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Emergence of <ce:italic>Klebsiella pneumoniae</ce:italic> isolates producing inducible DHA-1 β-lactamase in a university hospital in Taiwan</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>40</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2002</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3121</sb:first-page>
+                              <sb:last-page>3126</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib5">
+                     <ce:label>5</ce:label>
+                     <sb:reference id="sbref50">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JJ</ce:given-name>
+                                 <ce:surname>Yan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>SM</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>SH</ce:given-name>
+                                 <ce:surname>Tsai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JJ</ce:given-name>
+                                 <ce:surname>Wu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>IJ</ce:given-name>
+                                 <ce:surname>Su</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Prevalence of SHV-12 among clinical isolates of <ce:italic>Klebsiella pneumoniae</ce:italic> producing extended-spectrum β-lactamases and identification of a novel AmpC enzyme (CMY-8) in Southern Taiwan</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>44</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1438</sb:first-page>
+                              <sb:last-page>1442</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib6">
+                     <ce:label>6</ce:label>
+                     <sb:reference id="sbref60">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>WL</ce:given-name>
+                                 <ce:surname>Yu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>YC</ce:given-name>
+                                 <ce:surname>Chuang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>RN</ce:given-name>
+                                 <ce:surname>Jones</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A pragmatic approach to identify extended-spectrum β-lactamase-producing <ce:italic>Klebsiella pneumoniae</ce:italic> in Taiwan: in vitro activity of newer and established antimicrobial agents</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Diagn Microbiol Infect Dis</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>48</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>277</sb:first-page>
+                              <sb:last-page>282</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib7">
+                     <ce:label>7</ce:label>
+                     <sb:reference id="sbref70">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Barnaud</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Arlet</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Verdet</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O</ce:given-name>
+                                 <ce:surname>Gaillot</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>PH</ce:given-name>
+                                 <ce:surname>Lagrange</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Philippon</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>
+                                 <ce:italic>Salmonella enteritidis</ce:italic>: AmpC plasmid-mediated inducible beta-lactamase (DHA-1) with an <ce:italic>ampR</ce:italic> gene from <ce:italic>Morganella morganii</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>42</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1998</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2352</sb:first-page>
+                              <sb:last-page>2358</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib8">
+                     <ce:label>8</ce:label>
+                     <sb:reference id="sbref80">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Verdet</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Arlet</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Barnaud</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>PH</ce:given-name>
+                                 <ce:surname>Lagrange</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Philippon</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A novel integron in <ce:italic>Salmonella enterica</ce:italic> serovar Enteritidis, carrying the <ce:italic>bla</ce:italic> (DHA-1) gene and its regulator gene <ce:italic>ampR</ce:italic>, originated from <ce:italic>Morganella morganii</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>44</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>222</sb:first-page>
+                              <sb:last-page>225</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib9">
+                     <ce:label>9</ce:label>
+                     <sb:reference id="sbref90">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N</ce:given-name>
+                                 <ce:surname>Fortineau</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Poirel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Nordmann</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Plasmid-mediated and inducible cephalosporinase DHA-2 from <ce:italic>Klebsiella pneumoniae</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Antimicrob Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>47</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2001</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>207</sb:first-page>
+                              <sb:last-page>210</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib10">
+                     <ce:label>10</ce:label>
+                     <sb:reference id="sbref100">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>National Committee for Clinical Laboratory Standards</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:title>
+                                 <sb:maintitle>
+                                    <ce:italic>Methods for dilution antimicrobial susceptibility tests for bacteria that grow aerobically</ce:italic>, 6th edn. Approved standard M7-A6</sb:maintitle>
+                              </sb:title>
+                              <sb:date>2003</sb:date>
+                              <sb:publisher>
+                                 <sb:name>NCCLS</sb:name>
+                                 <sb:location>Wayne, PA</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib11">
+                     <ce:label>11</ce:label>
+                     <sb:reference id="sbref110">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Matthew</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Harris</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>MG</ce:given-name>
+                                 <ce:surname>Marshall</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>GW</ce:given-name>
+                                 <ce:surname>Ross</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The use of analytical isoelectric focusing for detection and identification of β-lactamases</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Gen Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>88</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1975</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>169</sb:first-page>
+                              <sb:last-page>178</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib12">
+                     <ce:label>12</ce:label>
+                     <sb:reference id="sbref120">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>LB</ce:given-name>
+                                 <ce:surname>Rice</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>RA</ce:given-name>
+                                 <ce:surname>Bonomo</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Genetic and biochemical mechanisms of bacterial resistance to antimicrobial agents</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:edited-book>
+                              <sb:editors>
+                                 <sb:editor>
+                                    <ce:given-name>V</ce:given-name>
+                                    <ce:surname>Lorian</ce:surname>
+                                 </sb:editor>
+                              </sb:editors>
+                              <sb:title>
+                                 <sb:maintitle>Antibiotics in laboratory medicine</sb:maintitle>
+                              </sb:title>
+                              <sb:date>1996</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Williams &amp; Wilkins</sb:name>
+                                 <sb:location>Baltimore</sb:location>
+                              </sb:publisher>
+                           </sb:edited-book>
+                           <sb:pages>
+                              <sb:first-page>453</sb:first-page>
+                              <sb:last-page>501</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib13">
+                     <ce:label>13</ce:label>
+                     <sb:reference id="sbref130">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>TW</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>YH</ce:given-name>
+                                 <ce:surname>Tseng</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Electrotransformation of <ce:italic>Xanthomonas campestris</ce:italic> by RF DNA of filamentous phage phi Lf</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Lett Appl Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>14</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1992</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>65</sb:first-page>
+                              <sb:last-page>68</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib14">
+                     <ce:label>14</ce:label>
+                     <sb:reference id="sbref140">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Poirel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Guibert</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Girlich</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Naas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Nordmann</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Cloning, sequence analyses, expression, and distribution of <ce:italic>ampC–ampR</ce:italic> from <ce:italic>Morganella morganii</ce:italic> clinical isolates</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>43</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>769</sb:first-page>
+                              <sb:last-page>776</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib15">
+                     <ce:label>15</ce:label>
+                     <sb:reference id="sbref150">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Pai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Lyu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JH</ce:given-name>
+                                 <ce:surname>Lee</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Survey of extended-spectrum β-lactamases in clinical isolates of <ce:italic>Escherichia coli</ce:italic> and <ce:italic>Klebsiellae pneumoniae</ce:italic>: prevalence of TEM-52 in Korea</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>37</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1758</sb:first-page>
+                              <sb:last-page>1763</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib16">
+                     <ce:label>16</ce:label>
+                     <sb:reference id="sbref160">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Bauernfeind</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Wagner</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R</ce:given-name>
+                                 <ce:surname>Jungwirth</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I</ce:given-name>
+                                 <ce:surname>Schneider</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Meyer</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A novel class C β-lactamase (FOX-2) in <ce:italic>Escherichia coli</ce:italic> conferring resistance to cephamycins</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>41</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2041</sb:first-page>
+                              <sb:last-page>2046</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib17">
+                     <ce:label>17</ce:label>
+                     <sb:reference id="sbref170">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Iyobe</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Yamada</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Minami</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Insertion of a carbapenemase gene cassette into an integron of a <ce:italic>Pseudomonas aeruginosa</ce:italic> plasmid</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Antimicrob Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>38</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1996</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1114</sb:first-page>
+                              <sb:last-page>1115</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

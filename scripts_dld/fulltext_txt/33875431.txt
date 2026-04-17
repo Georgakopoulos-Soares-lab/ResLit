@@ -1,0 +1,12 @@
+PMID: 33875431
+PMCID: PMC8218647
+DOI: 10.1128/AAC.02696-20
+Title: Gene-Gene Interactions Dictate Ciprofloxacin Resistance in Pseudomonas aeruginosa and Facilitate Prediction of Resistance Phenotype from Genome Sequence Data.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2021 Jun 17
+Authors: Rehman A, Jeukens J, Levesque RC, Lamont IL
+Source: PMC_EFetch_XML
+License: pmc_free_to_read
+
+## ABSTRACT
+ABSTRACT Ciprofloxacin is one of the most widely used antibiotics for treating Pseudomonas aeruginosa infections. However, P. aeruginosa acquires mutations that confer ciprofloxacin resistance, making treatment more difficult. Resistance is multifactorial, with mutations in multiple genes influencing the resistance phenotype. However, the contributions of individual mutations and mutation combinations to the amounts of ciprofloxacin that P. aeruginosa can tolerate are not well understood. Engineering P. aeruginosa strain PAO1 to contain mutations in any one of the resistance-associated genes gyrA , nfxB , rnfC , parC , and parE showed that only gyrA mutations increased the MIC for ciprofloxacin. Mutations in parC and parE increased the MIC of a gyrA mutant, making the bacteria ciprofloxacin resistant. Mutations in nfxB and rnfC increased the MIC, conferring resistance, only if both were mutated in a gyrA background. Mutations in all of gyrA , nfxB , rnfC , and parC/E further increased the MIC. These findings reveal an epistatic network of gene-gene interactions in ciprofloxacin resistance. We used this information to predict ciprofloxacin resistance/susceptibility for 274 isolates of P. aeruginosa from their genome sequences. Antibiotic susceptibility profiles were predicted correctly for 84% of the isolates. The majority of isolates for which prediction was unsuccessful were ciprofloxacin resistant, demonstrating the involvement of additional as yet unidentified genes and mutations in resistance. Our data show that gene-gene interactions can play an important role in antibiotic resistance and can be successfully incorporated into models predicting resistance phenotype.

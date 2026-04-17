@@ -1,0 +1,31 @@
+PMID: 12044378
+PMCID: 
+DOI: 10.1016/s0140-6736(02)08713-5
+Title: Genome and virulence determinants of high virulence community-acquired MRSA.
+Journal: Lancet (London, England)
+PubDate: 2002 May 25
+Authors: Baba T, Takeuchi F, Kuroda M, Yuzawa H, Aoki K, Oguchi A, Nagai Y, Iwama N, Asano K, Naimi T, Kuroda H, Cui L, Yamamoto K, Hiramatsu K
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S0140673602087135</prism:url><dc:identifier>doi:10.1016/S0140-6736(02)08713-5</dc:identifier><eid>1-s2.0-S0140673602087135</eid><prism:doi>10.1016/S0140-6736(02)08713-5</prism:doi><pii>S0140-6736(02)08713-5</pii><dc:title>Genome and virulence determinants of high virulence community-acquired MRSA </dc:title><prism:publicationName>The Lancet</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>01406736</prism:issn><prism:volume>359</prism:volume><prism:issueIdentifier>9320</prism:issueIdentifier><prism:startingPage>1819</prism:startingPage><prism:endingPage>1827</prism:endingPage><prism:pageRange>1819-1827</prism:pageRange><prism:number>9320</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2002-05-25</prism:coverDate><prism:coverDisplayDate>25 May 2002</prism:coverDisplayDate><prism:copyright>Copyright © 2002 Elsevier Ltd. All rights reserved.</prism:copyright><prism:publisher>Elsevier Ltd.</prism:publisher><dc:creator>Baba, Tadashi</dc:creator><dc:creator>Takeuchi, Fumihiko</dc:creator><dc:creator>Kuroda, Makoto</dc:creator><dc:creator>Yuzawa, Harumi</dc:creator><dc:creator>Aoki, Ken-ichi</dc:creator><dc:creator>Oguchi, Akio</dc:creator><dc:creator>Nagai, Yoshimi</dc:creator><dc:creator>Iwama, Natsuko</dc:creator><dc:creator>Asano, Kazuyuki</dc:creator><dc:creator>Naimi, Timothy</dc:creator><dc:creator>Kuroda, Hiroko</dc:creator><dc:creator>Cui, Longzhu</dc:creator><dc:creator>Yamamoto, Kenji</dc:creator><dc:creator>Hiramatsu, Keiichi</dc:creator><dc:description>
+                  Background
+                  A new type of meticillin-resistant Staphylococcus aureus (MRSA), designated community-acquired MRSA, is becoming increasingly noticeable in the community, some strains of which cause fatal infections in otherwise healthy individuals. By contrast with hospital-acquired MRSA, community-acquired MRSA is more susceptible to non β-lactam antibiotics. We investigated the high virulence potential of certain strains of this bacterium.
+               
+                  Methods
+                  We ascertained the whole genome sequence of MW2, a strain of community-acquired MRSA, by shotgun cloning and sequencing. MW2 caused fatal septicaemia and septic arthritis in a 16-month-old girl in North Dakota, USA, in 1998. The genome of this strain was compared with those of hospital-acquired MRSA strains, including N315 and Mu50.
+               
+                  Findings
+                  Meticillin resistance gene (mecA) in MW2 was carried by a novel allelic form (type IVa) of 
+                        staphylococcal cassette chromosome
+                      
+                     mec (SCCmec), by contrast with type II in N315 and Mu50. Type IVa SCCmec did not carry any of the multiple antibiotic resistance genes reported in type II SCCmec. By contrast, 19 additional virulence genes were recorded in the MW2 genome. All but two of these virulence genes were noted in four of the seven genomic islands of MW2.
+               
+                  Interpretation
+                  MW2 carried a range of virulence and resistance genes that was distinct from those displayed on the chromosomes of extant S aureus strains. Most genes were carried by specific allelic forms of genomic islands in the MW2 chromosome. The combination of allelic forms of genomic islands is the genetic basis that determines the pathogenicity of medically important phenotypes of S aureus, including those of community-acquired MRSA strains.
+               </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><link href="https://api.elsevier.com/content/article/pii/S0140673602087135" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S0140673602087135" rel="scidir"/></coredata><scopus-id>0037172403</scopus-id><scopus-eid>2-s2.0-0037172403</scopus-eid><pubmed-id>12044378</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/0037172403" rel="abstract"/><originalText><xocs:doc><xocs:meta><xocs:open-access xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+   <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+</xocs:open-access><xocs:available-online-date xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd" yyyymmdd="20020530">2002-05-30</xocs:available-online-date></xocs:meta></xocs:doc></originalText></full-text-retrieval-response>

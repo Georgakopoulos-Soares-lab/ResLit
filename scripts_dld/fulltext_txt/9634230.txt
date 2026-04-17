@@ -1,0 +1,1082 @@
+PMID: 9634230
+PMCID: 
+DOI: 10.1038/31159
+Title: Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence.
+Journal: Nature
+PubDate: 1998 Jun 11
+Authors: Cole ST, Brosch R, Parkhill J, Garnier T, Churcher C, Harris D, Gordon SV, Eiglmeier K, Gas S, Barry CE 3rd, Tekaia F, Badcock K, Basham D, Brown D, Chillingworth T, Connor R, Davies R, Devlin K, Feltwell T, Gentles S, Hamlin N, Holroyd S, Hornsby T, Jagels K, Krogh A, McLean J, Moule S, Murphy L, Oliver K, Osborne J, Quail MA, Rajandream MA, Rogers J, Rutter S, Seeger K, Skelton J, Squares R, Squares S, Sulston JE, Taylor K, Whitehead S, Barrell BG
+Source: Publisher_HTML
+License: publisher_free_full_text
+
+## PUBLISHER_HTML
+Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence | Nature 
+
+Skip to main content 
+
+Thank you for visiting nature.com. You are using a browser version with limited support for CSS. To obtain
+ the best experience, we recommend you use a more up to date browser (or turn off compatibility mode in
+ Internet Explorer). In the meantime, to ensure continued support, we are displaying the site without styles
+ and JavaScript. 
+
+Advertisement 
+
+View all journals 
+
+Search 
+
+Log in 
+
+Content Explore content 
+
+About the journal 
+
+Publish with us 
+
+Sign up for alerts 
+
+RSS feed 
+
+nature 
+
+articles 
+
+article 
+
+Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence 
+
+Download PDF 
+
+Download PDF 
+
+Article 
+
+Published: 11 June 1998 
+
+Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence 
+
+S. T. Cole 2 , 
+
+R. Brosch 2 , 
+
+J. Parkhill 1 , 
+
+T. Garnier 2 , 
+
+C. Churcher 1 , 
+
+D. Harris 1 , 
+
+S. V. Gordon 2 , 
+
+K. Eiglmeier 2 , 
+
+S. Gas 2 , 
+
+C. E. Barry III 4 , 
+
+F. Tekaia 3 , 
+
+K. Badcock 1 , 
+
+D. Basham 1 , 
+
+D. Brown 1 , 
+
+T. Chillingworth 1 , 
+
+R. Connor 1 , 
+
+R. Davies 1 , 
+
+K. Devlin 1 , 
+
+T. Feltwell 1 , 
+
+S. Gentles 1 , 
+
+N. Hamlin 1 , 
+
+S. Holroyd 1 , 
+
+T. Hornsby 1 , 
+
+K. Jagels 1 , 
+
+A. Krogh 5 , 
+
+J. McLean 1 , 
+
+S. Moule 1 , 
+
+L. Murphy 1 , 
+
+K. Oliver 1 , 
+
+J. Osborne 1 , 
+
+M. A. Quail 1 , 
+
+M.-A. Rajandream 1 , 
+
+J. Rogers 1 , 
+
+S. Rutter 1 , 
+
+K. Seeger 1 , 
+
+J. Skelton 1 , 
+
+R. Squares 1 , 
+
+S. Squares 1 , 
+
+J. E. Sulston 1 , 
+
+K. Taylor 1 , 
+
+S. Whitehead 1 & 
+
+… 
+
+B. G. Barrell 1 
+
+Show authors 
+Nature volume 393 , pages 537–544 ( 1998 ) Cite this article 
+
+153k Accesses 
+
+7100 Citations 
+
+93 Altmetric 
+
+Metrics details 
+
+Abstract 
+
+Countless millions of people have died from tuberculosis, a chronic infectious disease caused by the tubercle bacillus. The complete genome sequence of the best-characterized strain of Mycobacterium tuberculosis , H37Rv, has been determined and analysed in order to improve our understanding of the biology of this slow-growing pathogen and to help the conception of new prophylactic and therapeutic interventions. The genome comprises 4,411,529 base pairs, contains around 4,000 genes, and has a very high guanine + cytosine content that is reflected in the biased amino-acid content of the proteins. M. tuberculosis differs radically from other bacteria in that a very large portion of its coding capacity is devoted to the production of enzymes involved in lipogenesis and lipolysis, and to two new families of glycine-rich proteins with a repetitive structure that may represent a source of antigenic variation. 
+
+Similar content being viewed by others 
+
+A comprehensive update to the M ycobacterium tuberculosis H37Rv reference genome 
+
+Article Open access 18 November 2022 
+
+Early phase of effective treatment induces distinct transcriptional changes in Mycobacterium tuberculosis expelled by pulmonary tuberculosis patients 
+
+Article Open access 08 September 2021 
+
+Genomic signatures of pre-resistance in Mycobacterium tuberculosis 
+
+Article Open access 15 December 2021 
+
+Main 
+
+Despite the availability of effective short-course chemotherapy (DOTS) and the Bacille Calmette-Guérin (BCG) vaccine, the tubercle bacillus continues to claim more lives than any other single infectious agent 1 . Recent years have seen increased incidence of tuberculosis in both developing and industrialized countries, the widespread emergence of drug-resistant strains and a deadly synergy with the human immunodeficiency virus (HIV). In 1993, the gravity of the situation led the World Health Organisation (WHO) to declare tuberculosis a global emergency in an attempt to heighten public and political awareness. Radical measures are needed now to prevent the grim predictions of the WHO becoming reality. The combination of genomics and bioinformatics has the potential to generate the information and knowledge that will enable the conception and development of new therapies and interventions needed to treat this airborne disease and to elucidate the unusual biology of its aetiological agent, Mycobacterium tuberculosis . 
+
+The characteristic features of the tubercle bacillus include its slow growth, dormancy, complex cell envelope, intracellular pathogenesis and genetic homogeneity 2 . The generation time of M. tuberculosis , in synthetic medium or infected animals, is typically ∼ 24 hours. This contributes to the chronic nature of the disease, imposes lengthy treatment regimens and represents a formidable obstacle for researchers. The state of dormancy in which the bacillus remains quiescent within infected tissue may reflect metabolic shutdown resulting from the action of a cell-mediated immune response that can contain but not eradicate the infection. As immunity wanes, through ageing or immune suppression, the dormant bacteria reactivate, causing an outbreak of disease often many decades after the initial infection 3 . The molecular basis of dormancy and reactivation remains obscure but is expected to be genetically programmed and to involve intracellular signalling pathways. 
+
+The cell envelope of M. tuberculosis , a Gram-positive bacterium with a G + C-rich genome, contains an additional layer beyond the peptidoglycan that is exceptionally rich in unusual lipids, glycolipids and polysaccharides 4 , 5 . Novel biosynthetic pathways generate cell-wall components such as mycolic acids, mycocerosic acid, phenolthiocerol, lipoarabinomannan and arabinogalactan, and several of these may contribute to mycobacterial longevity, trigger inflammatory host reactions and act in pathogenesis. Little is known about the mechanisms involved in life within the macrophage, or the extent and nature of the virulence factors produced by the bacillus and their contribution to disease. 
+
+It is thought that the progenitor of the M. tuberculosis complex, comprising M. tuberculosis , M. bovis , M. bovis BCG, M. africanum and M. microti , arose from a soil bacterium and that the human bacillus may have been derived from the bovine form following the domestication of cattle. The complex lacks interstrain genetic diversity, and nucleotide changes are very rare 6 . This is important in terms of immunity and vaccine development as most of the proteins will be identical in all strains and therefore antigenic drift will be restricted. On the basis of the systematic sequence analysis of 26 loci in a large number of independent isolates 6 , it was concluded that the genome of M. tuberculosis is either unusually inert or that the organism is relatively young in evolutionary terms. 
+
+Since its isolation in 1905, the H37Rv strain of M. tuberculosis has found extensive, worldwide application in biomedical research because it has retained full virulence in animal models of tuberculosis, unlike some clinical isolates; it is also susceptible to drugs and amenable to genetic manipulation. An integrated map of the 4.4 megabase (Mb) circular chromosome of this slow-growing pathogen had been established previously and ordered libraries of cosmids and bacterial artificial chromosomes (BACs) were available 7 , 8 . 
+
+Organization and sequence of the genome 
+
+Sequence analysis. To obtain the contiguous genome sequence, a combined approach was used that involved the systematic sequence analysis of selected large-insert clones (cosmids and BACs) as well as random small-insert clones from a whole-genome shotgun library. This culminated in a composite sequence of 4,411,529 base pairs (bp) ( Figs 1 , 2 (PDF File: 890K)), with a G + C content of 65.6%. This represents the second-largest bacterial genome sequence currently available (after that of Escherichia coli ) 9 . The initiation codon for the dnaA gene, a hallmark for the origin of replication, oriC , was chosen as the start point for numbering. The genome is rich in repetitive DNA, particularly insertion sequences, and in new multigene families and duplicated housekeeping genes. The G + C content is relatively constant throughout the genome ( Fig. 1 ) indicating that horizontally transferred pathogenicity islands of atypical base composition are probably absent. Several regions showing higher than average G + C content ( Fig. 1 ) were detected; these correspond to sequences belonging to a large gene family that includes the polymorphic G + C-rich sequences (PGRSs). 
+
+Figure 1: Circular map of the chromosome of M. tuberculosis H37Rv. 
+
+Full size image 
+
+The outer circle shows the scale in Mb, with 0 representing the origin of replication. The first ring from the exterior denotes the positions of stable RNA genes (tRNAs are blue, others are pink) and the direct repeat region (pink cube); the second ring inwards shows the coding sequence by strand (clockwise, dark green; anticlockwise, light green); the third ring depicts repetitive DNA (insertion sequences, orange; 13E12 REP family, dark pink; prophage, blue); the fourth ring shows the positions of the PPE family members (green); the fifth ring shows the PE family members (purple, excluding PGRS); and the sixth ring shows the positions of the PGRSsequences (dark red). The histogram (centre) represents G + C content, with <65% G + C in yellow, and >65% G + C in red. The figure was generated with software from DNASTAR. 
+
+Genes for stable RNA. Fifty genes coding for functional RNA molecules were found. These molecules were the three species produced by the unique ribosomal RNA operon, the 10Sa RNA involved in degradation of proteins encoded by abnormal messenger RNA, the RNA component of RNase P, and 45 transfer RNAs. No4.5S RNA could be detected. The rrn operon is situated unusually as it occurs about 1,500 kilobases (kb) from the putative oriC ; most eubacteria have one or more rrn operons near to oriC to exploit the gene-dosage effect obtained during replication 10 . This arrangement may be related to the slow growth of M. tuberculosis . The genes encoding tRNAs that recognize 43 of the 61 possible sense codons were distributed throughout the genome and, with one exception, none of these uses A in the first position of the anticodon, indicating that extensive wobble occurs during translation. This is consistent with the high G + C content of the genome and the consequent bias in codon usage. Three genes encoding tRNAs for methionine were found; one of these genes ( metV ) is situated in a region that may correspond to the terminus of replication ( Figs 1 , 2 (PDF File: 890K)). As metV is linked to defective genes for integrase and excisionase, perhaps it was once part of a phage or similar mobile genetic element. 
+
+Insertion sequences and prophages. Sixteen copies of the promiscuous insertion sequence IS 6110 and six copies of the more stable element IS 1081 reside within the genome of H37Rv 8 . One copy of IS 1081 is truncated. Scrutiny of the genomic sequence led to the identification of a further 32 different insertion sequence elements, most of which have not been described previously, and of the 13E12 family of repetitive sequences which exhibit some of the characteristics of mobile genetic elements ( Fig. 1 ). The newly discovered insertion sequences belong mainly to the IS 3 and IS 256 families, although six of them define a new group. There is extensive similarity between IS 1561 and IS 1552 with insertion sequence elements found in Nocardia and Rhodococcus spp., suggesting that they may be widely disseminated among the actinomycetes. 
+
+Most of the insertion sequences in M. tuberculosis H37Rv appear to have inserted in intergenic or non-coding regions, often near tRNA genes ( Fig. 1 ). Many are clustered, suggesting the existence of insertional hot-spots that prevent genes from being inactivated, as has been described for Rhizobium 11 . The chromosomal distribution of the insertion sequences is informative as there appears to have been a selection against insertions in the quadrant encompassing oriC and an overrepresentation in the direct repeat region that contains the prototype IS 6110 . This bias was also observed experimentally in a transposon mutagenesis study 12 . 
+
+At least two prophages have been detected in the genome sequence and their presence may explain why M. tuberculosis shows persistent low-level lysis in culture. Prophages phiRv1 and phiRv2 are both ∼ 10 kb in length and are similarly organized, and some of their gene products show marked similarity to those encoded by certain bacteriophages from Streptomyces and saprophytic mycobacteria. The site of insertion of phiRv1 is intriguing as it corresponds to part of a repetitive sequence of the 13E12 family that itself appears to have integrated into the biotin operon. Some strains of M. tuberculosis have been described as requiring biotin as a growth supplement, indicating either that phiRv1 has a polar effect on expression of the distal bio genes or that aberrant excision, leading to mutation, may occur. During the serial attenuation of M. bovis that led to the vaccine strain M. bovis BCG, the phiRv1 prophage was lost 13 . In a systematic study of the genomic diversity of prophages and insertion sequences (S.V.G. et al. , manuscript in preparation), only IS 1532 exhibited significant variability, indicating that most of the prophages and insertion sequences are currently stable. However, from these combined observations, one can conclude that horizontal transfer of genetic material into the free-living ancestor of the M. tuberculosis complex probably occurred in nature before the tubercle bacillus adopted its specialized intracellular niche. 
+
+Genes encoding proteins. 3,924 open reading frames were identified in the genome (see Methods), accounting for ∼ 91% of the potential coding capacity ( Figs 1 , 2 (PDF File: 890K)). A few of these genes appear to have in-frame stop codons or frameshift mutations (irrespective of the source of the DNA sequenced) and may either use frameshifting during translation or correspond to pseudogenes. Consistent with the high G + C content of the genome, GTG initiation codons (35%) are used more frequently than in Bacillus subtilis (9%) and E. coli (14%), although ATG (61%) is the most common translational start. There are a few examples of atypical initiation codons, the most notable being the ATC used by infC , which begins with ATT in both B. subtilis and E. coli 9 , 14 . There is a slight bias in the orientation of the genes ( Fig. 1 ) with respect to the direction of replication as ∼ 59% are transcribed with the same polarity as replication, compared with 75% in B. subtilis . In other bacteria, genes transcribed in the same direction as the replication forks are believed to be expressed more efficiently 9 , 14 . Again, the more even distribution in gene polarity seen in M. tuberculosis may reflect the slow growth and infrequent replication cycles. Three genes ( dnaB , recA and Rv1461) have been invaded by sequences encoding inteins (protein introns) and in all three cases their counterparts in M. leprae also contain inteins, but at different sites 15 (S.T.C. et al. , unpublished observations). 
+
+Protein function, composition and duplication. By using various database comparisons, we attributed precise functions to ∼ 40% of the predicted proteins and found some information or similarity for another 44%. The remaining 16% resembled no known proteins and may account for specific mycobacterial functions. Examination of the amino-acid composition of the M. tuberculosis proteome by correspondence analysis 16 , and comparison with that of other microorganisms whose genome sequences are available, revealed a statistically significant preference for the amino acids Ala, Gly, Pro, Arg and Trp, which are all encoded by G + C-rich codons, and a comparative reduction in the use of amino acids encoded by A + T-rich codons such as Asn, Ile, Lys, Phe and Tyr ( Fig. 3 ). This approach also identified two groups of proteins rich in Asn or Gly that belong to new families, PE and PPE (see below). The fraction of the proteome that has arisen through gene duplication is similar to that seen in E. coli or B. subtilis ( ∼ 51%; refs 9 , 14 ), except that the level of sequence conservation is considerably higher, indicating that there may be extensive redundancy or differential production of the corresponding polypeptides. The apparent lack of divergence following gene duplication is consistent with the hypothesis that M.tuberculosis is of recent descent 6 . 
+
+Figure 3: Correspondence analysis of the proteomes from extensively sequenced organisms as a function of amino-acid composition. 
+
+Full size image 
+
+Note the extreme position of M. tuberculosis and the shift in amino-acid preference reflecting increasing G + C content from left to right. Abbreviations used: Ae , Aquifex aeolicus ; Af , Archaeoglobus fulgidis ; Bb , Borrelia burgdorfei ; Bs , B. subtilis ; Ce , Caenorhabditis elegans ; Ec , E. coli ; Hi , Haemophilus influenzae ; Hp , Helicobacter pylori ; Mg , Mycoplasma genitalium ; Mj , Methanococcus jannaschi ; Mp , Mycoplasma pneumoniae ; Mt , M. tuberculosis ; Mth , Methanobacterium thermoautotrophicum ; Sc , Saccharomyces cerevisiae ; Ss , Synechocystis sp. strain PCC6803. F1 and F2, first and second factorial axes 16 . 
+
+General metabolism, regulation and drug resistance 
+
+Metabolic pathways. From the genome sequence, it is clear that the tubercle bacillus has the potential to synthesize all the essential amino acids, vitamins and enzyme co-factors, although some of the pathways involved may differ from those found in other bacteria. M. tuberculosis can metabolize a variety of carbohydrates, hydrocarbons, alcohols, ketones and carboxylic acids 2 , 17 . It is apparent from genome inspection that, in addition to many functions involved in lipid metabolism, the enzymes necessary for glycolysis, the pentose phosphate pathway, and the tricarboxylic acid and glyoxylate cycles are all present. A large number ( ∼ 200) of oxidoreductases, oxygenases and dehydrogenases is predicted, as well as many oxygenases containing cytochrome P450, that are similar to fungal proteins involved in sterol degradation. Under aerobic growth conditions, ATP will be generated by oxidative phosphorylation from electron transport chains involving a ubiquinone cytochrome b reductase complex and cytochrome c oxidase. Components of several anaerobic phosphorylative electron transport chains are also present, including genes for nitrate reductase ( narGHJI ), fumarate reductase ( frdABCD ) and possibly nitrite reductase ( nirBD ), as well as a new reductase ( narX ) that results from a rearrangement of a homologue of the narGHJI operon. Two genes encoding haemoglobin-like proteins, which may protect against oxidative stress or be involved in oxygen capture, were found. The ability of the bacillus to adapt its metabolism to environmental change is significant as it not only has to compete with the lung for oxygen but must also adapt to the microaerophilic/anaerobic environment at the heart of the burgeoning granuloma. 
+
+Regulation and signal transduction. Given the complexity of the environmental and metabolic choices facing M. tuberculosis , an extensive regulatory repertoire was expected. Thirteen putative sigma factors govern gene expression at the level of transcription initiation, and more than 100 regulatory proteins are predicted ( Table 1 (PDF File: 150K). Unlike B. subtilis and E. coli , in which there are >30 copies of different two-component regulatory systems 14 , M. tuberculosis has only 11 complete pairs of sensor histidine kinases and response regulators, and a few isolated kinase and regulatory genes. This relative paucity in environmental signal transduction pathways is probably offset by the presence of a family of eukaryotic-like serine/threonine protein kinases (STPKs), which function as part of a phosphorelay system 18 . The STPKs probably have two domains: the well-conserved kinase domain at the amino terminus is predicted to be connected by a transmembrane segment to the carboxy-terminal region that may respond to specific stimuli. Several of the predicted envelope lipoproteins, such as that encoded by lppR (Rv2403), show extensive similarity to this putative receptor domain of STPKs, suggesting possible interplay. The STPKs probably function in signal transduction pathways and may govern important cellular decisions such as dormancy and cell division, and although their partners are unknown, candidate genes for phosphoprotein phosphatases have been identified. 
+
+Drug resistance. M. tuberculosis is naturally resistant to many antibiotics, making treatment difficult 19 . This resistance is due mainly to the highly hydrophobic cell envelope acting as a permeability barrier 4 , but many potential resistance determinants are also encoded in the genome. These include hydrolytic or drug-modifying enzymes such as β-lactamases and aminoglycoside acetyl transferases, and many potential drug–efflux systems, such as 14 members of the major facilitator family and numerous ABC transporters. Knowledge of these putative resistance mechanisms will promote better use of existing drugs and facilitate the conception of new therapies. 
+
+Lipid metabolism 
+
+Very few organisms produce such a diverse array of lipophilic molecules as M. tuberculosis . These molecules range from simple fatty acids such as palmitate and tuberculostearate, through isoprenoids, to very-long-chain, highly complex molecules such as mycolic acids and the phenolphthiocerol alcohols that esterify with mycocerosic acid to form the scaffold for attachment of the mycosides. Mycobacteria contain examples of every known lipid and polyketide biosynthetic system, including enzymes usually found in mammals and plants as well as the common bacterial systems. The biosynthetic capacity is overshadowed by the even more remarkable radiation of degradative, fatty acid oxidation systems and, in total, there are ∼ 250 distinct enzymes involved in fatty acid metabolism in M. tuberculosis compared with only 50 in E. coli 20 . 
+
+Fatty acid degradation. In vivo -grown mycobacteria have been suggested to be largely lipolytic, rather than lipogenic, because of the variety and quantity of lipids available within mammalian cells and the tubercle 2 ( Fig. 4a ). The abundance of genes encoding components of fatty acid oxidation systems found by our genomic approach supports this proposition, as there are 36 acyl-CoA synthases and a family of 36 related enzymes that could catalyse the first step in fatty acid degradation. There are 21 homologous enzymes belonging to the enoyl-CoA hydratase/isomerase superfamily of enzymes, which rehydrate the nascent product of the acyl-CoA dehydrogenase. The four enzymes that convert the 3-hydroxy fatty acid into a 3-keto fatty acid appear less numerous, mainly because they are difficult to distinguish from other members of the short-chain alcohol dehydrogenase family on the basis of primary sequence. The five enzymes that complete the cycle by thiolysis of the β-ketoester, the acetyl-CoA C-acetyltransferases, do indeed appear to be a more limited family. In addition to this extensive set of dissociated degradative enzymes, the genome also encodes the canonical FadA/FadB β-oxidation complex (Rv0859 and Rv0860). Accessory activities are present for the metabolism of odd-chain and multiply unsaturated fatty acids. 
+
+Figure 4: Lipid metabolism. 
+
+Full size image 
+
+a , Degradation of host-cell lipids is vital in the intracellular life of M. tuberculosis . Host-cell membranes provide precursors for many metabolic processes, as well as potential precursors of mycobacterial cell-wall constituents, through the actions of a broad family of β-oxidative enzymes encoded by multiple copies in the genome. These enzymes produce acetyl CoA, which can be converted into many different metabolites and fuel for the bacteria through the actions of the enzymes of the citric acid cycle and the glyoxylate shunt of this cycle. b , The genes that synthesize mycolic acids, the dominant lipid component of the mycobacterial cell wall, include the type I fatty acid synthase ( fas ) and a unique type II system which relies on extension of a precursor bound to an acyl carrier protein to form full-length ( ∼ 80-carbon) mycolic acids. The cma genes are responsible for cyclopropanation. c , The genes that produce phthiocerol dimycocerosate form a large operon and represent type I ( mas ) and type II (the pps operon) polyketide synthase systems. Functions are colour coordinated. 
+
+Fatty acid biosynthesis. At least two discrete types of enzyme system, fatty acid synthase (FAS) I and FAS II, are involved in fatty acid biosynthesis in mycobacteria ( Fig. 4b ). FAS I (Rv2524, fas ) is a single polypeptide with multiple catalytic activities that generates several shorter CoA esters from acetyl-CoA primers 5 and probably creates precursors for elongation by all of the other fatty acid and polyketide systems. FAS II consists of dissociable enzyme components which act on a substrate bound to an acyl-carrier protein (ACP). FAS II is incapable of de novo fatty acid synthesis but instead elongates palmitoyl-ACP to fatty acids ranging from 24 to 56 carbons in length 17 , 21 . Several different components of FAS II may be targets for the important tuberculosis drug isoniazid, including the enoyl-ACP reductase InhA 22 , the ketoacyl-ACP synthase KasA and the ACP AcpM 21 . Analysis of the genome shows that there are only three potential ketoacyl synthases: KasA and KasB are highly related, and their genes cluster with acpM , whereas KasC is a more distant homologue of a ketoacyl synthase III system. The number of ketoacyl synthase and ACP genes indicates that there is a single FAS II system. Its genetic organization, with two clustered ketoacyl synthases, resembles that of type II aromatic polyketide biosynthetic gene clusters, such as those for actinorhodin, tetracycline and tetracenomycin in Streptomyces species 23 . InhA seems to be the sole enoyl-ACP reductase and its gene is co-transcribed with a fabG homologue, which encodes 3-oxoacyl-ACP reductase. Both of these proteins are probably important in the biosynthesis of mycolic acids. 
+
+Fatty acids are synthesized from malonyl-CoA and precursors are generated by the enzymatic carboxylation of acetyl (or propionyl)-CoA by a biotin-dependent carboxylase ( Fig. 4b ). From study of the genome we predict that there are three complete carboxylase systems, each consisting of an α- and a β-subunit, as well as three β-subunits without an α-counterpart. As a group, all of the carboxylases seem to be more related to the mammalian homologues than to the corresponding bacterial enzymes. Two of these carboxylase systems ( accA1 , accD1 and accA2 , accD2 ) are probably involved in degradation of odd-numbered fatty acids, as they are adjacent to genes for other known degradative enzymes. They may convert propionyl-CoA to succinyl-CoA, which can then be incorporated into the tricarboxylic acid cycle. The synthetic carboxylases ( accA3 , accD3 , accD4 , accD5 and accD6 ) are more difficult to understand. The three extra β-subunits might direct carboxylation to the appropriate precursor or may simply increase the total amount of carboxylated precursor available if this step were rate-limiting. 
+
+Synthesis of the paraffinic backbone of fatty and mycolic acids in the cell is followed by extensive postsynthetic modifications and unsaturations, particularly in the case of the mycolic acids 24 , 25 . Unsaturation is catalysed either by a FabA-like β-hydroxyacyl-ACP dehydrase, acting with a specific ketoacyl synthase, or by an aerobic terminal mixed function desaturase that uses both molecular oxygen and NADPH. Inspection of the genome revealed no obvious candidates for the FabA-like activity. However, three potential aerobic desaturases (encoded by desA1 , desA2 and desA3 ) were evident that show little similarity to related vertebrate or yeast enzymes (which act on CoA esters) but instead resemble plant desaturases (which use ACP esters). Consequently, the genomic data indicate that unsaturation of the meromycolate chain may occur while the acyl group is bound to AcpM. 
+
+Much of the subsequent structural diversity in mycolic acids is generated by a family of S -adenosyl- L -methionine-dependent enzymes, which use the unsaturated meromycolic acid as a substrate to generate cis and trans cyclopropanes and other mycolates. Six members of this family have been identified and characterized 25 and two clustered, convergently transcribed new genes are evident in the genome ( umaA1 and umaA2 ). From the functions of the known family members and the structures of mycolic acids in M. tuberculosis , it is tempting to speculate that these new enzymes may introduce the trans cyclopropanes into the meromycolate precursor. In addition to these two methyltransferases, there are two other unrelated lipid methyltransferases (Ufa1 and Ufa2) that share homology with cyclopropane fatty acid synthase of E. coli 25 . Although cyclopropanation seems to be a relatively common modification of mycolic acids, cyclopropanation of plasma-membrane constituents has not been described in mycobacteria. Tuberculostearic acid is produced by methylation of oleic acid, and may be synthesized by one of these two enzymes. 
+
+Condensation of the fully functionalized and preformed meromycolate chain with a 26-carbon α-branch generates full-length mycolic acids that must be transported to their final location for attachment to the cell-wall arabinogalactan. The transfer and subsequent transesterification is mediated by three well-known immunogenic proteins of the antigen 85 complex 26 . The genome encodes a fourth member of this complex, antigen 85C′ ( fbpC2 , Rv0129), which is highly related to antigen 85C. Further studies are needed to show whether the protein possesses mycolytransferase activity and to clarify the reason behind the apparent redundancy. 
+
+Polyketide synthesis. Mycobacteria synthesize polyketides by several different mechanisms. A modular type I system, similar to that involved in erythromycin biosynthesis 23 , is encoded by a very large operon, ppsABCDE , and functions in the production of phenolphthiocerol 5 . The absence of a second type I polyketide synthase suggests that the related lipids phthiocerol A and B, phthiodiolone A and phthiotriol may all be synthesized by the same system, either from alternative primers or by differential postsynthetic modification. It is physiologically significant that the pps gene cluster occurs immediately upstream of mas , which encodes the multifunctional enzyme mycocerosic acid synthase (MAS), as their products phthiocerol and mycocerosic acid esterify to form the very abundant cell-wall-associated molecule phthiocerol dimycocerosate ( Fig. 4c ). 
+
+Members of another large group of polyketide synthase enzymes are similar to MAS, which also generates the multiply methyl-branched fatty acid components of mycosides and phthiocerol dimycocerosate, abundant cell-wall-associated molecules 5 . Although some of these polyketide synthases may extend type I FAS CoA primers to produce other long-chain methyl-branched fatty acids such as mycolipenic, mycolipodienic and mycolipanolic acids or the phthioceranic and hydroxyphthioceranic acids, or may even show functional overlap 5 , there are many more of these enzymes than there are known metabolites. Thus there may be new lipid and polyketide metabolites that are expressed only under certain conditions, such as during infection and disease. 
+
+A fourth class of polyketide synthases is related to the plant enzyme superfamily that includes chalcone and stilbene synthase 23 . These polyketide synthases are phylogenetically divergent from all other polyketide and fatty acid synthases and generate unreduced polyketides that are typically associated with anthocyanin pigments and flavonoids. The function of these systems, which are often linked to apparent type I modules, is unknown. An example is the gene cluster spanning pks10 , pks7 , pks8 and pks9 , which includes two of the chalcone-synthase-like enzymes and two modules of an apparent type I system. The unknown metabolites produced by these enzymes are interesting because of the potent biological activities of some polyketides such as the immunosuppressor rapamycin. 
+
+Siderophores. Peptides that are not ribosomally synthesized are made by a process that is mechanistically analogous to polyketide synthesis 23 , 27 . These peptides include the structurally related iron-scavenging siderophores, the mycobactins and the exochelins 2 , 28 , which are derived from salicylate by the addition of serine (or threonine), two lysines and various fatty acids and possible polyketide segments. The mbt operon, encoding one apparent salicylate-activating protein, three amino-acid ligases, and a single module of a type I polyketide synthase, may be responsible for the biosynthesis of the mycobacterial siderophores. The presence of only one non-ribosomal peptide-synthesis system indicates that this pathway may generate both siderophores and that subsequent modification of a single ε-amino group of one lysine residue may account for the different physical properties and function of the siderophores 28 . 
+
+Immunological aspects and pathogenicity 
+
+Given the scale of the global tuberculosis burden, vaccination is not only a priority but remains the only realistic public health intervention that is likely to affect both the incidence and the prevalence of the disease 29 . Several areas of vaccine development are promising, including DNA vaccination, use of secreted or surface-exposed proteins as immunogens, recombinant forms of BCG and rational attenuation of M. tuberculosis 29 . All of these avenues of research will benefit from the genome sequence as its availability will stimulate more focused approaches. Genes encoding ∼ 90 lipoproteins were identified, some of which are enzymes or components of transport systems, and a similar number of genes encoding preproteins (with type I signal peptides) that are probably exported by the Sec-dependent pathway. M. tuberculosis seems to have two copies of secA . The potent T-cell antigen Esat-6 ( ref. 30 ), which is probably secreted in a Sec-independent manner, is encoded by a member of a multigene family. Examination of the genetic context reveals several similarly organized operons that include genes encoding large ATP-hydrolysing membrane proteins that might act as transporters. One of the surprises of the genome project was the discovery of two extensive families of novel glycine-rich proteins, which may be of immunological significance as they are predicted to be abundant and potentially polymorphic antigens. 
+
+The PE and PPE multigene families. About 10% of the coding capacity of the genome is devoted to two large unrelated families of acidic, glycine-rich proteins, the PE and PPE families, whose genes are clustered ( Figs 1 , 2 (PDF File: 890K)) and are often based on multiple copies of the polymorphic repetitive sequences referred to as PGRSs, and major polymorphic tandem repeats (MPTRs), respectively 31 , 32 . The names PE and PPE derive from the motifs Pro–Glu (PE) and Pro–Pro–Glu (PPE) found near the N terminus in most cases 33 . The 99 members of the PE protein family all have a highly conserved N-terminal domain of ∼ 110 amino-acid residues that is predicted to have a globular structure, followed by a C-terminal segment that varies in size, sequence and repeat copy number ( Fig. 5 ). Phylogenetic analysis separated the PE family into several subfamilies. The largest of these is the highly repetitive PGRS class, which contains 61 members; members of the other subfamilies, share very limited sequence similarity in their C-terminal domains ( Fig. 5 ). The predicted molecular weights of the PE proteins vary considerably as a few members contain only the N-terminal domain, whereas most have C-terminal extensions ranging in size from 100 to 1,400 residues. The PGRS proteins have a high glycine content (up to 50%), which is the result of multiple tandem repetitions of Gly–Gly–Ala or Gly–Gly–Asn motifs, or variations thereof. 
+
+Figure 5: The PE and PPE protein families. 
+
+Full size image 
+
+a , Classification of the PE and PPE protein families. b , Sequence variation between M. tuberculosis H37Rv and M. bovis BCG-Pasteur in the PE-PGRS encoded by open reading frame (ORF) Rv0746. 
+
+The 68 members of the PPE protein family ( Fig. 5 ) also have a conserved N-terminal domain that comprises ∼ 180 amino-acid residues, followed by C-terminal segments that vary markedly in sequence and length. These proteins fall into at least three groups, one of which constitutes the MPTR class characterized by the presence of multiple, tandem copies of the motif Asn–X–Gly–X–Gly–Asn–X–Gly. The second subgroup contains a characteristic, well-conserved motif around position 350, whereas the third contains proteins that are unrelated except for the presence of the common 180-residue PPE domain. 
+
+The subcellular location of the PE and PPE proteins is unknown and in only one case, that of a lipase (Rv3097), has a function been demonstrated. On examination of the protein database from the extensively sequenced M. leprae 15 , no PGRS- or MPTR-related polypeptides were detected but a few proteins belonging to the non-MPTR subgroup of the PPE family were found. These proteins include one of the major antigens recognized by leprosy patients, the serine-rich antigen 34 . Although it is too early to attribute biological functions to the PE and PPE families, it is tempting to speculate that they could be of immunological importance. Two interesting possibilities spring to mind. First, they could represent the principal source of antigenic variation in what is otherwise a genetically and antigenically homogeneous bacterium. Second, these glycine-rich proteins might interfere with immune responses by inhibiting antigen processing. 
+
+Several observations and results support the possibility of antigenic variation associated with both the PE and the PPE family proteins. The PGRS member Rv1759 is a fibronectin-binding protein of relative molecular mass 55,000 ( ref. 35 ) that elicits a variable antibody response, indicating either that individuals mount different immune responses or that this PGRS protein may vary between strains of M. tuberculosis . The latter possibility is supported by restriction fragment length polymorphisms for various PGRS and MPTR sequences in clinical isolates 33 . Direct support for genetic variation within both the PE and the PPE families was obtained by comparative DNA sequence analysis ( Fig. 5 ). The gene for the PE–PGRS protein Rv0746 of BCG differs from that in H37Rv by the deletion of 29 codons and the insertion of 46 codons. Similar variation was seen in the gene for the PPE protein Rv0442 (data not shown). As these differences were all associated with repetitive sequences they could have resulted from intergenic or intragenic recombinational events or, more probably, from strand slippage during replication 32 . These mechanisms are known to generate antigenic variability in other bacterial pathogens 36 . 
+
+There are several parallels between the PGRS proteins and the Epstein–Barr virus nuclear antigens (EBNAs). Members of both polypeptide families are glycine-rich, contain extensive Gly–Ala repeats, and exhibit variation in the length of the repeat region between different isolates. The Gly–Ala repeat region of EBNA1 functions as a cis- acting inhibitor of the ubiquitin/proteasome antigen-processing pathway that generates peptides presented in the context of major histocompatibility complex (MHC) class I molecules 37 , 38 . MHC class I knockout mice are very susceptible to M. tuberculosis , underlining the importance of a cytotoxic T-cell response in protection against disease 3 , 39 . Given the many potential effects of the PPE and PE proteins, it is important that further studies are performed to understand their activity. If extensive antigenic variability or reduced antigen presentation were indeed found, this would be significant for vaccine design and for understanding protective immunity in tuberculosis, and might even explain the varied responses seen in different BCG vaccination programmes 40 . 
+
+Pathogenicity. Despite intensive research efforts, there is little information about the molecular basis of mycobacterial virulence 41 . However, this situation should now change as the genome sequence will accelerate the study of pathogenesis as never before, because other bacterial factors that may contribute to virulence are becoming apparent. Before the completion of the genome sequence, only three virulence factors had been described 41 : catalase-peroxidase, which protects against reactive oxygen species produced by the phagocyte; mce , which encodes macrophage-colonizing factor 42 ; and a sigma factor gene, sigA (aka rpoV ), mutations in which can lead to attenuation 41 . In addition to these single-gene virulence factors, the mycobacterial cell wall 4 is also important in pathology, but the complex nature of its biosynthesis makes it difficult to identify critical genes whose inactivation would lead to attenuation. 
+
+On inspection of the genome sequence, it was apparent that four copies of mce were present and that these were all situated in operons, comprising eight genes, organized in exactly the same manner. In each case, the genes preceding mce code for integral membrane proteins, whereas mce and the following five genes are all predicted to encode proteins with signal sequences or hydrophobic stretches at the N terminus. These sets of proteins, about which little is known, may well be secreted or surface-exposed; this is consistent with the proposed role of Mce in invasion of host cells 42 . Furthermore, a homologue of smpB , which has been implicated in intracellular survival of Salmonella typhimurium , has also been identified 43 . Among the other secreted proteins identified from the genome sequence that could act as virulence factors are a series of phospholipases C, lipases and esterases, which might attack cellular or vacuolar membranes, as well as several proteases. One of these phospholipases acts as a contact-dependent haemolysin (N. Stoker, personal communication). The presence of storage proteins in the bacillus, such as the haemoglobin-like oxygen captors described above, points to its ability to stockpile essential growth factors, allowing it to persist in the nutrient-limited environment of the phagosome. In this regard, the ferritin-like proteins, encoded by bfrA and bfrB , may be important in intracellular survival asthe capacity to acquire enough iron in the vacuole is very limited. 
+
+Methods 
+
+Sequence analysis. Initially, ∼ 3.2 Mb of sequence was generated from cosmids 8 and the remainder was obtained from selected BAC clones 7 and 45,000 whole-genome shotgun clones. Sheared fragments (1.4–2.0 kb) from cosmids and BACs were cloned into M13 vectors, whereas genomic DNA was cloned in pUC18 to obtain both forward and reverse reads. The PGRS genes were grossly underrepresented in pUC18 but better covered in the BAC and cosmid M13 libraries. We used small-insert libraries 44 to sequence regions prone to compression or deletion and, in some cases, obtained sequences from products of the polymerase chain reaction or directly from BACs 7 . All shotgun sequencing was performed with standard dye terminators to minimize compression problems, whereas finishing reactions used dRhodamine or BigDye terminators ( http://www.sanger.ac.uk ). Problem areas were verified by using dye primers. Thirty differences were found between the genomic shotgun sequences and the cosmids; twenty of which were due to sequencing errors and ten to mutations in cosmids (1 error per 320 kb). Less than 0.1% of the sequence was from areas of single-clone coverage, and <0.2% was from one strand with only one sequencing chemistry. 
+
+Informatics. Sequence assembly involved PHRAP, GAP4 ( ref. 45 ) and a customized perl script that merges sequences from different libraries and generates segments that can be processed by several finishers simultaneously. Sequence analysis and annotation was managed by DIANA (B.G.B. et al. , unpublished). Genes encoding proteins were identified by TB-parse 46 using a hidden Markov model trained on known M. tuberculosis coding and non-coding regions and translation-initiation signals, with corroboration by positional base preference. Interrogation of the EMBL, TREMBL, SwissProt, PROSITE 47 and in-house databases involved BLASTN, BLASTX 48 , DOTTER ( http://www.sanger.ac.uk ) and FASTA 49 . tRNA genes were located and identified using tRNAscan and tRNAscan-SE 50 . The complete sequence, a list of annotated cosmids and linking regions can be found on our website ( http://www.sanger.ac.uk ) and in MycDB ( http://www.pasteur.fr/mycdb/ ). 
+
+Figure 2: Linear map of the chromosome of M. tuberculosis H37Rv showing the position and orientation of known genes and coding sequences (CDS). 
+
+Full size image 
+
+We used the following functional categories (adapted from ref. 20 ): lipid metabolism (black); intermediary metabolism and respiration (yellow); information pathways (pink); regulatory proteins (sky blue); conserved hypothetical proteins (orange); proteins of unknown function (light green); insertion sequences and phage-related functions (blue); stable RNAs (purple); cell wall and cell processes (dark green); PE and PPE protein families (magenta); virulence, detoxification and adaptation (white). For additional information about gene functions, refer to http://www.sanger.ac.uk. 
+
+References 
+
+Snider, D. E. J, Raviglione, M. & Kochi, A. in Tuberculosis: Pathogenesis, Protection, and Control (ed. Bloom, B. R.) 2–11 (Am. Soc. Microbiol., Washington DC, (1994). 
+
+Google Scholar 
+
+Wheeler, P. R. & Ratledge, C. in Tuberculosis: Pathogenesis, Protection, and Control (ed. Bloom, B. R.) 353–385 (Am. Soc. Microbiol., Washington DC, (1994). 
+
+Book Google Scholar 
+
+Chan, J. & Kaufmann, S. H. E. in Tuberculosis: Pathogenesis, Protection, and Control (ed. Bloom, B. R.) 271– 284 (Am. Soc. Microbiol., Washington DC, (1994). 
+
+Google Scholar 
+
+Brennan, P. J. & Draper, P. in Tuberculosis: Pathogenesis, Protection, and Control (ed. Bloom, B. R.) 271–284 (Am. Soc. Microbiol., Washington DC, (1994). 
+
+Book Google Scholar 
+
+Kolattukudy, P. E., Fernandes, N. D., Azad, A. K., Fitzmaurice, A. M. & Sirakova, T. D. Biochemistry and molecular genetics of cell-wall lipid biosynthesis in mycobacteria. Mol. Microbiol. 24 , 263–270 (1997). 
+
+Article CAS Google Scholar 
+
+Sreevatsan, S. et al . Restricted structural gene polymorphism in the Mycobacterium tuberculosis complex indicates evolutionarily recent global dissemination. Proc. Natl Acad. Sci. USA 94 , 9869– 9874 (1997). 
+
+Article ADS CAS Google Scholar 
+
+Brosch, R. et al . Use of a Mycobacterium tuberculosis H37Rv bacterial artificial chromosome library for genome mapping, sequencing and comparative genomics. Infect. Immun. 66 , 2221– 2229 (1998). 
+
+CAS PubMed PubMed Central Google Scholar 
+
+Philipp, W. J. et al . An integrated map of the genome of the tubercle bacillus, Mycobacterium tuberculosis H37Rv, and comparison with Mycobacterium leprae . Proc. Natl Acad. Sci. USA 93 , 3132–3137 (1996). 
+
+Article ADS CAS Google Scholar 
+
+Blattner, F. R. et al . The complete genome sequence of Escherichia coli K-12. Science 277 , 1453– 1462 (1997). 
+
+Article CAS Google Scholar 
+
+Cole, S. T. & Saint-Girons, I. Bacterial genomics. FEMS Microbiol. Rev. 14 , 139–160 (1994). 
+
+Article CAS Google Scholar 
+
+Freiberg, C. et al . Molecular basis of symbiosis between Rhizobium and legumes. Nature 387 , 394–401 (1997). 
+
+Article ADS CAS Google Scholar 
+
+Bardarov, S. et al . Conditionally replicating mycobacteriophages: a system for transposon delivery to Mycobacterium tuberculosis . Proc. Natl Acad. Sci. USA 94 , 10961–10966 (1997). 
+
+Article ADS CAS Google Scholar 
+
+Mahairas, G. G., Sabo, P. J., Hickey, M. J., Singh, D. C. & Stover, C. K. Molecular analysis of genetic differences between Mycobacterium bovis BCG and virulent M. bovis . J. Bacteriol. 178 , 1274– 1282 (1996). 
+
+Article CAS Google Scholar 
+
+Kunst, F. et al . The complete genome sequence of the gram-positive bacterium Bacillus subtilis . Nature 390 , 249– 256 (1997). 
+
+Article ADS CAS Google Scholar 
+
+Smith, D. R. et al . Multiplex sequencing of 1.5 Mb of the Mycobacterium leprae genome. Genome Res. 7 , 802– 819 (1997). 
+
+Article CAS Google Scholar 
+
+Greenacre, M. Theory and Application of Correspondence Analysis (Academic, London, (1984). 
+
+MATH Google Scholar 
+
+Ratledge, C. R. in The Biology of the Mycobacteria (eds Ratledge, C. & Stanford, J.) 53–94 (Academic, San Diego, (1982). 
+
+Google Scholar 
+
+Av-Gay, Y. & Davies, J. Components of eukaryotic-like protein signaling pathways in Mycobacterium tuberculosis . Microb. Comp. Genomics 2 , 63–73 (1997). 
+
+Article CAS Google Scholar 
+
+Cole, S. T. & Telenti, A. Drug resistance in Mycobacterium tuberculosis . Eur. Resp. Rev. 8 , 701 S–713S (1995). 
+
+Google Scholar 
+
+Riley, M. & Labedan, B. in Escherichia coli and Salmonella (ed. Neidhardt, F. C.) 2118–2202 (ASM, Washington, (1996). 
+
+Google Scholar 
+
+Mdluli, K. et al . Inhibition of a Mycobacterium tuberculosis β-ketoacyl ACP synthase by isoniazid. Science 280 , 1607–1610 (1998). 
+
+Article ADS CAS Google Scholar 
+
+Banerjee, A. et al . inhA , a gene encoding a target for isoniazid and ethionamide in Mycobacterium tuberculosis . Science 263 , 227–230 (1994). 
+
+Article ADS CAS Google Scholar 
+
+Hopwood, D. A. Genetic contributions to understanding polyketide synthases. Chem. Rev. 97 , 2465–2497 ( 1997). 
+
+Article CAS Google Scholar 
+
+Minnikin, D. E. in The Biology of the Mycobacteria (eds Ratledge, C. & Stanford, J.) 95–184 (Academic, London, (1982). 
+
+Google Scholar 
+
+Barry, C. E. II et al . Mycolic acids: structure, biosynthesis, and phsyiological functions. Prog. Lipid Res. (in the press). 
+
+Belisle, J. T. et al . Role of the major antigen of Mycobacterium tuberculosis in cell wall biogenesis. Science 276 , 1420–1422 (1997). 
+
+Article CAS Google Scholar 
+
+Marahiel, M. A., Stachelhaus, T. & Mootz, H. D. Modular peptide synthetases involved in nonribosomal peptide synthesis. Chem. Rev. 97 , 2651– 2673 (1997). 
+
+Article CAS Google Scholar 
+
+Gobin, J. et al . Iron acquisition by Mycobacterium tuberculosis : isolation and characterization of a family of iron-binding exochelins. Proc. Natl Acad. Sci. USA 92 , 5189–5193 (1995). 
+
+Article ADS CAS Google Scholar 
+
+Young, D. B. & Fruth, U. in New Generation Vaccines (eds Levine, M., Woodrow, G., Kaper, J. & Cobon, G. S.) 631– 645 (Marcel Dekker, New York, (1997). 
+
+Google Scholar 
+
+Sorensen, A. L., Nagai, S., Houen, G., Andersen, P. & Anderson, A. B. Purification and characterization of a low-molecular-mass T-cell antigen secreted by Mycobacterium tuberculosis . Infect. Immun. 63 , 1710–1717 (1995). 
+
+CAS PubMed PubMed Central Google Scholar 
+
+Hermans, P. W. M., van Soolingen, D. & van Embden, J. D. A. Characterization of a major polymorphic tandem repeat in Mycobacterium tuberculosis and its potential use in the epidemiology of Mycobacterium kansasii and Mycobacterium gordonae . J. Bacteriol. 174 , 4157–4165 (1992). 
+
+Article CAS Google Scholar 
+
+Poulet, S. & Cole, S. T. Characterisation of the polymorphic GC-rich repetitive sequence (PGRS) present in Mycobacterium tuberculosis . Arch. Microbiol. 163 , 87– 95 (1995). 
+
+Article CAS Google Scholar 
+
+Cole, S. T. & Barrell, B. G. in Genetics and Tuberculosis (eds Chadwick, D. J. & Cardew, G., Novartis Foundation Symp. 217 ) 160–172 (Wiley, Chichester, ( 1998). 
+
+Book Google Scholar 
+
+Vega-Lopez, F. et al . Sequence and immunological characterization of a serine-rich antigen from Mycobacterium leprae . Infect. Immun. 61 , 2145–2153 (1993). 
+
+CAS PubMed PubMed Central Google Scholar 
+
+Abou-Zeid, C. et al . Genetic and immunological analysis of Mycobacterium tuberculosis fibronectin-binding proteins. Infect. Immun. 59 , 2712–2718 (1991). 
+
+CAS PubMed PubMed Central Google Scholar 
+
+Robertson, B. D. & Meyer, T. F. Genetic variation in pathogenic bacteria. Trends Genet. 8 , 422–427 (1992). 
+
+Article CAS Google Scholar 
+
+Levitskaya, J. et al . Inhibition of antigen processing by the internal repeat region of the Epstein-Barr virus nuclear antigen-1. Nature 375 , 685–688 (1995). 
+
+Article ADS CAS Google Scholar 
+
+Levitskaya, J., Sharipo, A., Leonchiks, A., Ciechanover, A. & Masucci, M. G. Inhibition of ubiquitin/proteasome-dependent protein degradation by the Gly-Ala repeat domain of the Epstein-Barr virus nuclear antigen 1. Proc. Natl Acad. Sci. USA 94 , 12616–12621 (1997). 
+
+Article ADS CAS Google Scholar 
+
+Flynn, J. L., Goldstein, M. A., Treibold, K. J., Koller, B. & Bloom, B. R. Major histocompatability complex class-I restricted T cells are required for resistance to Mycobacterium tuberculosis infection. Proc. Natl Acad. Sci. USA 89 , 12013–12017 (1992). 
+
+Article ADS CAS Google Scholar 
+
+Bloom, B. R. & Fine, P. E. M. in Tuberculosis: Pathogenesis, Protection, and Control (ed. Bloom, B. R.) 531– 557 (Am. Soc. Microbiol., Washington DC, (1994). 
+
+Book Google Scholar 
+
+Collins, D. M. In search of tuberculosis virulence genes. Trends Microbiol. 4 , 426–430 (1996). 
+
+Article CAS Google Scholar 
+
+Arruda, S., Bomfim, G., Knights, R., Huima-Byron, T. & Riley, L. W. Cloning of an M. tuberculosis DNA fragment associated with entry and survival inside cells. Science 261 , 1454–1457 (1993). 
+
+Article ADS CAS Google Scholar 
+
+Baumler, A. J., Kusters, J. G., Stojikovic, I. & Heffron, F. Salmonella typhimurium loci involved in survival within macrophages. Infect. Immun. 62 , 1623–1630 (1994). 
+
+CAS PubMed PubMed Central Google Scholar 
+
+McMurray, A. A., Sulston, J. E. & Quail, M. A. Short-insert libraries as a method of problem solving in genome sequencing. Genome Res. 8 , 562 –566 (1998). 
+
+Article CAS Google Scholar 
+
+Bonfield, J. K., Smith, K. F. & Staden, R. Anew DNA sequence assembly program. Nucleic Acids Res. 24 , 4992–4999 (1995). 
+
+Article Google Scholar 
+
+Krogh, A., Mian, I. S. & Haussler, D. Ahidden Markov model that finds genes in E. coli DNA. Nucleic Acids Res. 22 , 4768– 4778 (1994). 
+
+Article CAS Google Scholar 
+
+Bairoch, A., Bucher, P. & Hofmann, K. The PROSITE database, its status in 1997. Nucleic Acids Res. 25 , 217–221 (1997). 
+
+Article CAS Google Scholar 
+
+Altschul, S., Gish, W., Miller, W., Myers, E. & Lipman, D. Abasic local alignment search tool. J. Mol. Biol. 215 , 403–410 ( 1990). 
+
+Article CAS Google Scholar 
+
+Pearson, W. & Lipman, D. Improved tools for biological sequence comparisons. Proc. Natl Acad. USA 85 , 2444 –2448 (1988). 
+
+Article ADS CAS Google Scholar 
+
+Lowe, T. M. & Eddy, S. R. tRNAscan-SE: a program for improved detection of transfer RNA genes in genomic DNA. Nucleic Acids Res. 25 , 955–964 ( 1997). 
+
+Article CAS Google Scholar 
+
+Download references 
+
+Acknowledgements 
+
+We thank Y. Av-Gay, F.-C. Bange, A. Danchin, B. Dujon, W. R. Jacobs Jr, L. Jones, M.McNeil, I. Moszer, P. Rice and J. Stephenson for advice, reagents and support. This work was supported by the Wellcome Trust. Additional funding was provided by the Association Française Raoul Follereau, the World Health Organisation and the Institut Pasteur. S.V.G. received a Wellcome Trust travelling research fellowship. 
+
+Author information 
+
+Authors and Affiliations 
+
+Sanger Centre, Wellcome Trust Genome Campus, CB10 1SA, Hinxton, UK 
+
+J. Parkhill, C. Churcher, D. Harris, K. Badcock, D. Basham, D. Brown, T. Chillingworth, R. Connor, R. Davies, K. Devlin, T. Feltwell, S. Gentles, N. Hamlin, S. Holroyd, T. Hornsby, K. Jagels, J. McLean, S. Moule, L. Murphy, K. Oliver, J. Osborne, M. A. Quail, M.-A. Rajandream, J. Rogers, S. Rutter, K. Seeger, J. Skelton, R. Squares, S. Squares, J. E. Sulston, K. Taylor, S. Whitehead & B. G. Barrell 
+
+Unité de Génétique Moléculaire Bactérienne, Institut Pasteur, 28 rue du Docteur Roux, Paris, 75724 Cedex 15, France 
+
+S. T. Cole, R. Brosch, T. Garnier, S. V. Gordon, K. Eiglmeier & S. Gas 
+
+Unité de Génétique Moléculaire des Levures, Institut Pasteur, 28 rue du Docteur Roux, Paris, 75724 Cedex 15, France 
+
+F. Tekaia 
+
+Tuberculosis Research Unit, Laboratory of Intracellular Parasites, Rocky Mountain Laboratories, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Hamilton, 59840, Montana, USA 
+
+C. E. Barry III 
+
+Center for Biological Sequence Analysis, Technical University of Denmark, Lyngby, Denmark 
+
+A. Krogh 
+
+Authors 
+
+S. T. Cole 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+R. Brosch 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+J. Parkhill 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+T. Garnier 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+C. Churcher 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+D. Harris 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+S. V. Gordon 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+K. Eiglmeier 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+S. Gas 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+C. E. Barry III 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+F. Tekaia 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+K. Badcock 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+D. Basham 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+D. Brown 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+T. Chillingworth 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+R. Connor 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+R. Davies 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+K. Devlin 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+T. Feltwell 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+S. Gentles 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+N. Hamlin 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+S. Holroyd 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+T. Hornsby 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+K. Jagels 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+A. Krogh 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+J. McLean 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+S. Moule 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+L. Murphy 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+K. Oliver 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+J. Osborne 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+M. A. Quail 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+M.-A. Rajandream 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+J. Rogers 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+S. Rutter 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+K. Seeger 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+J. Skelton 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+R. Squares 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+S. Squares 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+J. E. Sulston 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+K. Taylor 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+S. Whitehead 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+B. G. Barrell 
+
+View author publications 
+
+Search author on: PubMed Google Scholar 
+
+Corresponding author 
+
+Correspondence to B. G. Barrell . 
+
+Rights and permissions 
+
+Reprints and permissions 
+
+About this article 
+
+Cite this article 
+
+Cole, S., Brosch, R., Parkhill, J. et al. Deciphering the biology of Mycobacterium tuberculosis from the complete genome sequence. Nature 393 , 537–544 (1998). https://doi.org/10.1038/31159 
+
+Download citation 
+
+Received : 15 April 1998 
+
+Accepted : 08 May 1998 
+
+Issue date : 11 June 1998 
+
+DOI : https://doi.org/10.1038/31159 
+
+Share this article 
+
+Anyone you share the following link with will be able to read this content: 
+Get shareable link 
+
+Sorry, a shareable link is not currently available for this article. 
+
+Copy shareable link to clipboard 
+
+Provided by the Springer Nature SharedIt content-sharing initiative 
+
+This article is cited by 
+
+Evaluation of serological assays for the diagnosis of childhood tuberculosis disease: a study protocol 
+
+Daniela Neudecker 
+
+Nora Fritschi 
+
+Nicole Ritz 
+
+BMC Infectious Diseases (2024) 
+
+Direct TAMRA-dUTP labeling of M. tuberculosis genes using loop-mediated isothermal amplification (LAMP) 
+
+Basma Altattan 
+
+Jasmin Ullrich 
+
+Frank F. Bier 
+
+Scientific Reports (2024) 
+
+Mycobacterium tuberculosis strain with deletions in menT3 and menT4 is attenuated and confers protection in mice and guinea pigs 
+
+Tannu Priya Gosain 
+
+Saurabh Chugh 
+
+Ramandeep Singh 
+
+Nature Communications (2024) 
+
+Volatilomes of human infection 
+
+Shane Fitzgerald 
+
+Linda Holland 
+
+Aoife Morrin 
+
+Analytical and Bioanalytical Chemistry (2024) 
+
+Exploring virulence in Mycobacterium bovis: clues from comparative genomics and perspectives for the future 
+
+Morgane Mitermite 
+
+Jose Maria Urtasun Elizari 
+
+Stephen V. Gordon 
+
+Irish Veterinary Journal (2023) 
+
+Download PDF 
+
+Associated content 
+
+Blueprint for the white plague 
+
+Douglas B. Young 
+
+Nature News & Views 11 Jun 1998 
+
+Advertisement 
+
+Explore content 
+
+Research articles 
+
+News 
+
+Opinion 
+
+Research Analysis 
+
+Careers 
+
+Books & Culture 
+
+Podcasts 
+
+Videos 
+
+Current issue 
+
+Browse issues 
+
+Collections 
+
+Subjects 
+
+Follow us on Facebook 
+
+Follow us on Bluesky 
+
+Follow us on X 
+
+Sign up for alerts 
+
+RSS feed 
+
+About the journal 
+
+Journal Staff 
+
+About the Editors 
+
+Journal Information 
+
+Journal Metrics 
+
+Our publishing models 
+
+Editorial Values Statement 
+
+Editorial policies 
+
+Journalistic Principles 
+
+History of Nature 
+
+Awards 
+
+Contact 
+
+Send a news tip 
+
+Publish with us 
+
+For Authors 
+
+For Referees 
+
+Language editing services 
+
+Open access funding 
+
+Submit manuscript 
+
+Search 
+Search articles by subject, keyword or author 
+
+Show results from All journals This journal 
+
+Search 
+
+Advanced search 
+
+Quick links 
+
+Explore articles by subject 
+
+Find a job 
+
+Guide to authors 
+
+Editorial policies 
+
+Nature ( Nature ) 
+
+ISSN 1476-4687 (online) 
+
+ISSN 0028-0836 (print) 
+
+nature.com footer links 
+
+About Nature Portfolio 
+
+About us 
+
+Press releases 
+
+Press office 
+
+Contact us 
+
+Discover content 
+
+Journals A-Z 
+
+Articles by subject 
+
+protocols.io 
+
+Nature Index 
+
+Publishing policies 
+
+Nature portfolio policies 
+
+Open access 
+
+Author & Researcher services 
+
+Reprints & permissions 
+
+Research data 
+
+Language editing 
+
+Scientific editing 
+
+Nature Masterclasses 
+
+Research Solutions 
+
+Libraries & institutions 
+
+Librarian service & tools 
+
+Librarian portal 
+
+Open research 
+
+Recommend to library 
+
+Advertising & partnerships 
+
+Advertising 
+
+Partnerships & Services 
+
+Media kits 
+
+Branded
+ content 
+
+Professional development 
+
+Nature Awards 
+
+Nature Careers 
+
+Nature Conferences 
+
+Regional websites 
+
+Nature Africa 
+
+Nature China 
+
+Nature India 
+
+Nature Japan 
+
+Nature Middle East 
+
+Privacy
+ Policy 
+
+Use
+ of cookies 
+
+Your privacy choices/Manage cookies 
+
+Legal
+ notice 
+
+Accessibility
+ statement 
+
+Terms & Conditions 
+
+Your US state privacy rights 
+
+© 2026 Springer Nature Limited 
+
+Close 
+
+Sign up for the Nature Briefing newsletter — what matters in science, free to your inbox daily. 
+
+Email address 
+Sign up 
+
+I agree my information will be processed in accordance with the Nature and Springer Nature Limited Privacy Policy . 
+
+Close 
+
+Get the most important science stories of the day, free in your inbox. Sign up for Nature Briefing

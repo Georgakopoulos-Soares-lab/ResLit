@@ -1,0 +1,325 @@
+PMID: 1585554
+PMCID: 
+DOI: 10.1016/s0195-5616(92)50610-6
+Title: Precautions when using etomidate in veterinary medicine.
+Journal: The Veterinary clinics of North America. Small animal practice
+PubDate: 1992 Mar
+Authors: Ludders JW
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S0195561692506106</prism:url><dc:identifier>doi:10.1016/S0195-5616(92)50610-6</dc:identifier><eid>1-s2.0-S0195561692506106</eid><prism:doi>10.1016/S0195-5616(92)50610-6</prism:doi><pii>S0195-5616(92)50610-6</pii><dc:title>Precautions When Using Etomidate in Veterinary Medicine </dc:title><prism:publicationName>Veterinary Clinics of North America: Small Animal Practice</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>abs</pubType><prism:issn>01955616</prism:issn><prism:volume>22</prism:volume><prism:issueIdentifier>2</prism:issueIdentifier><prism:startingPage>280</prism:startingPage><prism:endingPage>281</prism:endingPage><prism:pageRange>280-281</prism:pageRange><prism:number>2</prism:number><dc:format>text/xml</dc:format><prism:coverDate>1992-03-31</prism:coverDate><prism:coverDisplayDate>March 1992</prism:coverDisplayDate><prism:copyright>Copyright © 1992 W.B. Saunders Company. All rights reserved.</prism:copyright><prism:publisher>W.B. Saunders Company.</prism:publisher><dc:creator>Ludders, John W.</dc:creator><dc:description/><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>true</openArchiveArticle><openaccessSponsorName>NERL</openaccessSponsorName><openaccessSponsorType>FundingPartnerOpenArchive</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by-nc-nd/4.0/</openaccessUserLicense><link href="https://api.elsevier.com/content/article/pii/S0195561692506106" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S0195561692506106" rel="scidir"/></coredata><scopus-id>0026583027</scopus-id><scopus-eid>2-s2.0-0026583027</scopus-eid><pubmed-id>1585554</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/0026583027" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>273345</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291937</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Veterinary Clinics of North America: Small Animal Practice</xocs:srctitle>
+      <xocs:normalized-srctitle>VETERINARYCLINICSNORTHAMERICASMALLANIMALPRACTICE</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20150120">2015-01-20</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20150120">2015-01-20</xocs:available-online-date>
+      <xocs:ew-transaction-id>2015-01-20T13:52:38</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S0195561692506106</xocs:eid>
+      <xocs:pii-formatted>S0195-5616(92)50610-6</xocs:pii-formatted>
+      <xocs:pii-unformatted>S0195561692506106</xocs:pii-unformatted>
+      <xocs:doi>10.1016/S0195-5616(92)50610-6</xocs:doi>
+      <xocs:item-stage>S350</xocs:item-stage>
+      <xocs:item-version-number>S350.1</xocs:item-version-number>
+      <xocs:item-weight>HEAD-AND-TAIL</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S0195561692X22007</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20221222">2022-12-22T11:57:00.958906Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>19920301</xocs:date-search-begin>
+      <xocs:date-search-end>19920331</xocs:date-search-end>
+      <xocs:year-nav>1992</xocs:year-nav>
+      <xocs:indexeddate epoch="1421767928">2015-01-20T15:32:08.886589Z</xocs:indexeddate>
+      <xocs:articleinfo>rawtext articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids confeditor contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content subj tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav affil articletitle auth authfirstini authfull authlast ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>0195-5616</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>01955616</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>22</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>22</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>2</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>2</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 22, Issue 2</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>16</xocs:sort-order>
+      <xocs:first-fp>280</xocs:first-fp>
+      <xocs:last-lp>281</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>280</xocs:first-page>
+         <xocs:last-page>281</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>199203</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>March 1992</xocs:cover-date-text>
+      <xocs:cover-date-start>1992-03-01</xocs:cover-date-start>
+      <xocs:cover-date-end>1992-03-31</xocs:cover-date-end>
+      <xocs:cover-date-year>1992</xocs:cover-date-year>
+      <xocs:title-editors-groups>
+         <xocs:title-editors-group>
+            <ce:editors>
+               <ce:author-group id="ag0010">
+                  <ce:author id="au0005">
+                     <ce:given-name>Steve C.</ce:given-name>
+                     <ce:surname>Haskins</ce:surname>
+                     <ce:degrees>DVM, MS</ce:degrees>
+                     <ce:roles>Guest Editor</ce:roles>
+                  </ce:author>
+                  <ce:author id="au0010">
+                     <ce:given-name>Alan M.</ce:given-name>
+                     <ce:surname>Klide</ce:surname>
+                     <ce:degrees>VMD</ce:degrees>
+                     <ce:roles>Guest Editor</ce:roles>
+                  </ce:author>
+               </ce:author-group>
+            </ce:editors>
+         </xocs:title-editors-group>
+      </xocs:title-editors-groups>
+      <xocs:document-type>simple-article</xocs:document-type>
+      <xocs:document-subtype>abs</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 1992 W.B. Saunders Company. All rights reserved.</xocs:copyright-line>
+      <xocs:normalized-article-title>PRECAUTIONSUSINGETOMIDATEINVETERINARYMEDICINE</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>LUDDERS</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>J</xocs:normalized-first-auth-initial>
+      <xocs:references>
+         <xocs:ref-info refid="rf0005">
+            <xocs:ref-normalized-surname>KRUSEELLIOTT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1987</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1098</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1100</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0010">
+            <xocs:ref-normalized-surname>MUIR</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1989</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1430</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1434</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0015">
+            <xocs:ref-normalized-surname>WAGNER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1984</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1415</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1421</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>LUDDERSX1992X280</xocs:refkey3>
+         <xocs:refkey4lp>LUDDERSX1992X280X281</xocs:refkey4lp>
+         <xocs:refkey4ai>LUDDERSX1992X280XJ</xocs:refkey4ai>
+         <xocs:refkey5>LUDDERSX1992X280X281XJ</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="1">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2016-01-20T00:00:00.000Z</xocs:oa-access-effective-date>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:oa-user-license>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>FundingPartnerOpenArchive</xocs:oa-sponsor-type>
+            <xocs:oa-sponsor-name>NERL</xocs:oa-sponsor-name>
+         </xocs:oa-sponsor>
+         <xocs:oa-access-inherited-from wintype="OpenArchive">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S0195-5616(92)50610-6</xocs:pii-formatted>
+         <xocs:pii-unformatted>S0195561692506106</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S0195561692506106</xocs:eid>
+         <xocs:doi>10.1016/S0195-5616(92)50610-6</xocs:doi>
+         <xocs:cid>273345</xocs:cid>
+         <xocs:timestamp>2015-01-20T09:32:08.886589-05:00</xocs:timestamp>
+         <xocs:cover-date-start>1992-03-01</xocs:cover-date-start>
+         <xocs:cover-date-end>1992-03-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S0195561692506106-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0195561692506106/MAIN/application/pdf/73cfc76c15c90f451584d717d88c940e/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0195561692506106/MAIN/application/pdf/73cfc76c15c90f451584d717d88c940e/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>308132</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>2</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S0195561692506106-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0195561692506106/PREVIEW/image/png/43b04d19d85d6bb8df3c428051dfaf22/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S0195561692506106/PREVIEW/image/png/43b04d19d85d6bb8df3c428051dfaf22/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>63052</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:rawtext xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">Precautions When Using Etomidate in Veterinary Medicine John W. Ludders, DVM From the Department of Clinical Sciences, New York State College of Veterinary Medicine, Cornell University, Ithaca, New York Department of Clinical Sciences New York State College of Veterinary Medicine Cornell University Ithaca New York   References  1. K.T. Kruse-Elliott, C.R. Swanson, D.P. Aucoin, Effects of etomidate on adrenocortical function in canine surgical patients Am J Vet Res 48: (1987) 1098-1100   2. W.W. Muir, D.E. Mason, Side effects of etomidate in dogs J Am Vet Med Assoc 194: (1989) 1430-1434   3. R.L. Wagner, P.F. White, P.B. Kan,  Inhibition of adrenal steroidogenesis by the anesthetic etomidate N Engl J Med 310: (1984) 1415-1421                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </xocs:rawtext><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <simple-article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.2" docsubtype="abs" xml:lang="en">
+         <item-info>
+            <jid>VSP</jid>
+            <aid>10</aid>
+            <ce:pii>S0195-5616(92)50610-6</ce:pii>
+            <ce:doi>10.1016/S0195-5616(92)50610-6</ce:doi>
+            <ce:copyright type="full-transfer" year="1992">W.B. Saunders Company</ce:copyright>
+            <ce:copyright-line>© 1992 by W.B. Saunders Company. All rights reserved.</ce:copyright-line>
+         </item-info>
+         <simple-head>
+            <ce:title id="ti0005">Precautions When Using Etomidate in Veterinary Medicine</ce:title>
+            <ce:author-group id="ag0005">
+               <ce:author id="au0005">
+                  <ce:given-name>John W.</ce:given-name>
+                  <ce:surname>Ludders</ce:surname>
+                  <ce:degrees>DVM</ce:degrees>
+               </ce:author>
+               <ce:affiliation id="af0005">
+                  <ce:textfn id="tn0005">From the Department of Clinical Sciences, New York State College of Veterinary Medicine, Cornell University, Ithaca, New York</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Clinical Sciences</sa:organization>
+                     <sa:organization>New York State College of Veterinary Medicine</sa:organization>
+                     <sa:organization>Cornell University</sa:organization>
+                     <sa:city>Ithaca</sa:city>
+                     <sa:state>New York</sa:state>
+                  </sa:affiliation>
+               </ce:affiliation>
+            </ce:author-group>
+         </simple-head>
+         <simple-tail view="all">
+            <ce:further-reading id="fr0005" view="all">
+               <ce:section-title id="st0005">References</ce:section-title>
+               <ce:further-reading-sec id="fs0005" view="all">
+                  <ce:bib-reference id="bb0005">
+                     <ce:label>1.</ce:label>
+                     <sb:reference id="rf0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.T.</ce:given-name>
+                                 <ce:surname>Kruse-Elliott</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.R.</ce:given-name>
+                                 <ce:surname>Swanson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.P.</ce:given-name>
+                                 <ce:surname>Aucoin</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Effects of etomidate on adrenocortical function in canine surgical patients</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Am J Vet Res</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>48</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1987</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1098</sb:first-page>
+                              <sb:last-page>1100</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0010">
+                     <ce:label>2.</ce:label>
+                     <sb:reference id="rf0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.W.</ce:given-name>
+                                 <ce:surname>Muir</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.E.</ce:given-name>
+                                 <ce:surname>Mason</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Side effects of etomidate in dogs</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Am Vet Med Assoc</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>194</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1989</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1430</sb:first-page>
+                              <sb:last-page>1434</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0015">
+                     <ce:label>3.</ce:label>
+                     <sb:reference id="rf0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.L.</ce:given-name>
+                                 <ce:surname>Wagner</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.F.</ce:given-name>
+                                 <ce:surname>White</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.B.</ce:given-name>
+                                 <ce:surname>Kan</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Inhibition of adrenal steroidogenesis by the anesthetic etomidate</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>N Engl J Med</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>310</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1984</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1415</sb:first-page>
+                              <sb:last-page>1421</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:further-reading-sec>
+            </ce:further-reading>
+         </simple-tail>
+      </simple-article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

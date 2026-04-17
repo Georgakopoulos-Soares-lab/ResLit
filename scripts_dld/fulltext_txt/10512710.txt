@@ -1,0 +1,31 @@
+PMID: 10512710
+PMCID: 
+DOI: 10.1006/jmbi.1999.3160
+Title: Isolation of kasugamycin resistant mutants in the 16 S ribosomal RNA of Escherichia coli.
+Journal: Journal of molecular biology
+PubDate: 1999 Oct 15
+Authors: Vila-Sanjurjo A, Squires CL, Dahlberg AE
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S0022283699931601</prism:url><dc:identifier>doi:10.1006/jmbi.1999.3160</dc:identifier><eid>1-s2.0-S0022283699931601</eid><prism:doi>10.1006/jmbi.1999.3160</prism:doi><pii>S0022-2836(99)93160-1</pii><dc:title>Isolation of kasugamycin resistant mutants in the 16 S ribosomal RNA of Escherichia coli
+               
+                  1
+               
+               
+                  1
+                  
+                     
+                        Edited by D. E. Draper
+                     
+                  
+               
+             </dc:title><prism:publicationName>Journal of Molecular Biology</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>00222836</prism:issn><prism:volume>293</prism:volume><prism:issueIdentifier>1</prism:issueIdentifier><prism:startingPage>1</prism:startingPage><prism:endingPage>8</prism:endingPage><prism:pageRange>1-8</prism:pageRange><prism:number>1</prism:number><dc:format>text/xml</dc:format><prism:coverDate>1999-10-15</prism:coverDate><prism:coverDisplayDate>15 October 1999</prism:coverDisplayDate><prism:copyright>Copyright © 1999 Academic Press. All rights reserved.</prism:copyright><prism:publisher>Academic Press.</prism:publisher><dc:creator>Vila-Sanjurjo, Antón</dc:creator><dc:creator>Squires, Catherine L</dc:creator><dc:creator>Dahlberg, Albert E</dc:creator><dc:description>
+                  Three ribosomal RNA mutations conferring resistance to the antibiotic kasugamycin were isolated using a strain of Escherichia coli in which all of the rRNA is transcribed from a plasmid-encoded rrn operon. The mutations, A794G, G926A, and A1519C, mapped to universally conserved sites in the 16 S RNA gene. Site-directed mutagenesis studies showed that virtually all mutations at these three sites conferred kasugamycin resistance and had very slight effects on cell growth. It has been known for many years that the absence of post-transcriptional modification at A1519 and the adjacent A1518 in strains lacking a functional KsgA methylase produces a kasugamycin resistance phenotype. Mutations at A1519 conferred kasugamycin resistance and had minor effects on cell growth, whereas mutations at 1518 did not confer resistance and increased the doubling time of the cells dramatically. Expression of mutations at A1518/A1519 in a methylase deficient ksgA
+                     − strain had divergent effects on the phenotype of the rRNA mutants, suggesting that the base identity at either position does not affect methylation at the adjacent site. Residues A794 and G926 are protected from chemical modification by kasugamycin and tRNA, and have been implicated in the initiation of protein synthesis. Despite the universal conservation and functional importance of these residues, the results presented here show that the identity of the bases is not critical for ribosomal function.
+               </dc:description><openaccess>0</openaccess><openaccessArticle>false</openaccessArticle><openaccessType/><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType/><openaccessUserLicense/><dcterms:subject>antibiotic resistance</dcterms:subject><dcterms:subject>ribosomal RNA mutations</dcterms:subject><dcterms:subject>kasugamycin resistance</dcterms:subject><dcterms:subject>antibiotic-ribosome interactions</dcterms:subject><dcterms:subject>16 S rRNA</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S0022283699931601" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S0022283699931601" rel="scidir"/></coredata><scopus-id>0033569631</scopus-id><scopus-eid>2-s2.0-0033569631</scopus-eid><pubmed-id>10512710</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/0033569631" rel="abstract"/><originalText><xocs:doc><xocs:meta><xocs:open-access xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+   <xocs:oa-article-status is-open-access="0" is-open-archive="0"/>
+</xocs:open-access><xocs:available-online-date xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd" yyyymmdd="20020525">2002-05-25</xocs:available-online-date></xocs:meta></xocs:doc></originalText></full-text-retrieval-response>
