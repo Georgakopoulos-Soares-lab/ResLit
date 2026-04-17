@@ -135,12 +135,32 @@ Journal: ...
 
 ## Current corpus status
 
-- Valid PMIDs: `2628`
-- Full-text articles: `1982`
-- Abstract-only articles: `641`
-- Failed: `5`
+- Total PMIDs: `2628`
+- **True full-text articles (with body sections, ≥300 content words): `508`**
+- Abstract-only or publisher-blocked: `2118`
+- Failed: `2`
 
-Remaining abstract-only articles by publisher:
+### Full-text breakdown by source
+
+| Source | Count | Notes |
+|--------|-------|-------|
+| PMC_EFetch_XML | 314 | PMC full-text XML with parsed sections |
+| Publisher_HTML | 142 | Publisher HTML pages |
+| Elsevier_Candidate_XML | 51 | Elsevier full-text XML with body content |
+| Elsevier_Candidate_Text | 1 | Elsevier plain text |
+| **Total** | **508** | |
+
+### Abstract-only breakdown
+
+| Source | Count | Notes |
+|--------|-------|-------|
+| PMC_EFetch_XML (publisher blocked) | 1189 | In PMC but publisher disallows full-text XML download |
+| PubMed_BioC | 666 | Abstract-only fallback |
+| Elsevier_Candidate_XML (no body) | 262 | Elsevier XML returned metadata only |
+| Publisher_HTML (no body) | 1 | |
+| **Total** | **2118** | |
+
+### Remaining abstract-only by publisher (access-gated)
 
 | Publisher | Count | Notes |
 |-----------|-------|-------|
