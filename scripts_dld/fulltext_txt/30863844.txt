@@ -1,0 +1,15 @@
+PMID: 30863844
+PMCID: 
+DOI: 10.1093/jac/dkz092
+Title: LRE-Finder, a Web tool for detection of the 23S rRNA mutations and the optrA, cfr, cfr(B) and poxtA genes encoding linezolid resistance in enterococci from whole-genome sequences.
+Journal: The Journal of antimicrobial chemotherapy
+PubDate: 2019 Jun 1
+Authors: Hasman H, Clausen PTLC, Kaya H, Hansen F, Knudsen JD, Wang M, Holzknecht BJ, Samulioniené J, Røder BL, Frimodt-Møller N, Lund O, Hammerum AM
+Source: PubMed_BioC
+License: abstract_only
+
+## title
+LRE-Finder, a Web tool for detection of the 23S rRNA mutations and the optrA, cfr, cfr(B) and poxtA genes encoding linezolid resistance in enterococci from whole-genome sequences.
+
+## abstract
+OBJECTIVES: In enterococci, resistance to linezolid is often mediated by mutations in the V domain of the 23S rRNA gene (G2576T or G2505A). Furthermore, four genes [optrA, cfr, cfr(B) and poxtA] encode linezolid resistance in enterococci. We aimed to develop a Web tool for detection of the two mutations and the four genes encoding linezolid resistance in enterococci from whole-genome sequence data. METHODS: LRE-Finder (where LRE stands for linezolid-resistant enterococci) detected the fraction of Ts in position 2576 and the fraction of As in position 2505 of the 23S rRNA and the cfr, cfr(B), optrA and poxtA genes by aligning raw sequencing reads (fastq format) with k-mer alignment. For evaluation, fastq files from 21 LRE isolates were submitted to LRE-Finder. As negative controls, fastq files from 1473 non-LRE isolates were submitted to LRE-Finder. The MICs of linezolid were determined for the 21 LRE isolates. As LRE-negative controls, 26 VRE isolates were additionally selected for linezolid MIC determination. RESULTS: LRE-Finder was validated and showed 100% concordance with phenotypic susceptibility testing. A cut-off of 10% mutations in position 2576 and/or position 2505 was set in LRE-Finder for predicting a linezolid resistance phenotype. This cut-off allows for detection of a single mutated 23S allele in both Enterococcus faecalis and Enterococcus faecium, while ignoring low-level sequencing noise. CONCLUSIONS: A Web tool for detection of the 23S rRNA mutations (G2576T and G2505A) and the optrA, cfr, cfr(B) and poxtA genes from whole-genome sequences from enterococci is now available online.
