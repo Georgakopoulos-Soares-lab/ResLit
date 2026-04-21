@@ -159,68 +159,19 @@ you want to audit or rebuild the strict text split from existing outputs.
 
 If you only need the current finished corpus, start from `outputs_v2/`.
 
-## Session handoff workflow
+## Status and handoff artifacts
 
-To make the next session resumable, generate a structured handoff log before stopping work.
+This repository includes curated status snapshots rather than the full local
+session-management toolchain.
 
-Recommended one-command closeout:
+Useful current files:
 
-```bash
-python3 08_close_session.py \
-  --out-dir outputs_v2 \
-  --label end_of_day \
-  --summary "short description of what changed" \
-  --completed "what was finished" \
-  --decision "important conclusion or scope change" \
-  --next "first concrete task for the next session" \
-  --blocker "optional blocker" \
-  --note "optional context worth preserving"
-```
+- `STATUS_LOG_2026-04-21.md`
+- `outputs_v2/reports/REPORT_SUMMARY.md`
+- `outputs_v2/reports/fulltext_body_filter_summary.json`
+- `outputs_v2/reports/PRIORITY_NEXT_ACTIONS_2026-04-21.md`
 
-What it does:
-
-1. refreshes `03_report_failures.py`
-2. refreshes `04_filter_fulltext.py` when you want an explicit post-run audit
-3. generates a structured handoff log with `07_generate_session_log.py`
-
-If you already know the reports and filters are current, use the faster variant:
-
-```bash
-python3 08_close_session.py \
-  --out-dir outputs_v2 \
-  --skip-reports \
-  --skip-filter \
-  --label end_of_day \
-  --summary "short description of what changed" \
-  --completed "what was finished" \
-  --decision "important conclusion or scope change" \
-  --next "first concrete task for the next session" \
-  --blocker "optional blocker" \
-  --note "optional context worth preserving"
-```
-
-Generated artifacts:
-
-- `session_logs/session_*.md`: human-readable handoff log
-- `session_logs/session_*.json`: machine-readable snapshot with the same content
-- `session_logs/latest.md`: pointer to the newest handoff
-- `session_logs/latest.json`: newest handoff as JSON
-- `session_logs/INDEX.md`: reverse-chronological log index
-
-The script automatically records:
-
-- current output root
-- current report/filter artifact timestamps
-- retrieval-level counts
-- validated full-text counts
-- top remaining abstract-only route buckets
-- top backend error buckets
-
-At the start of the next session, read:
-
-1. `session_logs/latest.md`
-2. `outputs_v2/reports/REPORT_SUMMARY.md`
-3. `outputs_v2/reports/RESOLUTION_GUIDE.md`
+For resume context, start from the status log and the report files above.
 
 ## Inputs and configuration
 
