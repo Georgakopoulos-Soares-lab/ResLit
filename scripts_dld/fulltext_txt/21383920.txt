@@ -5,8 +5,8 @@ Title: Molecular docking analysis of new generation cephalosporins interactions 
 Journal: Bioinformation
 PubDate: 2011 Jan 22
 Authors: Khan AU, Baig MH, Wadhwa G
-Source: PMC_EFetch_XML
-License: pmc_free_to_read
+Source: PMC_OA_Bulk_XML
+License: pmc_oa_bulk
 
 ## ABSTRACT
 Extended-spectrum-β-lactamases (ESBLs), constitutes the growing class of betalactamses, these are enzymes produced by bacteria which impart resistance against advanced-generation-cephalosporins. SHV enzymes are among the most prevalent ESBLs. The mode of molecular interactions of recent SHV-variants to advanced generation cephalosporins has not been reported yet. This is the first time we are reporting the insilico study of these recent variants with new generation cephaosporins. Homology models for SHV-105, SHV-95, SHV-89, SHV-61 and SHV-48 were generated using MODELLER9v3. New generation Cephalosporins were selected to target the active site amino acid residues of these modeled SHV enzymes for predicting comparative efficacies of these inhibitors against the said enzymes on the basis of interaction energies of docking. The docked complexes were analyzed by using DISCOVERY STUDIO 2.5. In this study A237, S70, K234, R275, N132, R244 and S130 were found crucial to the correct positioning of drugs within the binding site of SHV enzymes in 11, 6, 6, 6, 5, 5 and 5 instances, respectively. On the basis of interaction energy and Ki calculations cefatoxime emerged as the most efficient among the other advanced cephalosporins against all the studied SHV variants, excluding SHV-48 where ceftazidime was found to be most effective drug. Furthermore, this study identified amino acid residues crucial to ‘SHV-Cephalosporins’ interactions and this information will be useful in designing effective and versatile drug candidates.

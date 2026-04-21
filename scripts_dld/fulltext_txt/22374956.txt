@@ -1,0 +1,318 @@
+PMID: 22374956
+PMCID: PMC3294860
+DOI: 10.1128/JB.06653-11
+Title: Genome sequence of Staphylococcus aureus strain 11819-97, an ST80-IV European community-acquired methicillin-resistant isolate.
+Journal: Journal of bacteriology
+PubDate: 2012 Mar
+Authors: Stegger M, Price LB, Larsen AR, Gillece JD, Waters AE, Skov R, Andersen PS
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Genome Sequence of Staphylococcus aureus Strain 11819-97, an ST80-IV European Community-Acquired Methicillin-Resistant Isolate - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+J Bacteriol 
+. 2012 Mar;194(6):1625–1626. doi: 10.1128/JB.06653-11 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Genome Sequence of Staphylococcus aureus Strain 11819-97, an ST80-IV European Community-Acquired Methicillin-Resistant Isolate 
+
+Marc Stegger 
+
+Marc Stegger 
+
+a Statens Serum Institut, Department of Microbiological Surveillance and Research, Copenhagen, Denmark 
+
+Find articles by Marc Stegger 
+
+a, ✉ , Lance B Price 
+
+Lance B Price 
+
+b Translational Genomics Research Institute (TGen), Pathogen Genomics Division, Flagstaff, Arizona, USA 
+
+Find articles by Lance B Price 
+
+b , Anders R Larsen 
+
+Anders R Larsen 
+
+a Statens Serum Institut, Department of Microbiological Surveillance and Research, Copenhagen, Denmark 
+
+Find articles by Anders R Larsen 
+
+a , John D Gillece 
+
+John D Gillece 
+
+b Translational Genomics Research Institute (TGen), Pathogen Genomics Division, Flagstaff, Arizona, USA 
+
+Find articles by John D Gillece 
+
+b , Andrew E Waters 
+
+Andrew E Waters 
+
+b Translational Genomics Research Institute (TGen), Pathogen Genomics Division, Flagstaff, Arizona, USA 
+
+Find articles by Andrew E Waters 
+
+b , Robert Skov 
+
+Robert Skov 
+
+a Statens Serum Institut, Department of Microbiological Surveillance and Research, Copenhagen, Denmark 
+
+Find articles by Robert Skov 
+
+a , Paal S Andersen 
+
+Paal S Andersen 
+
+a Statens Serum Institut, Department of Microbiological Surveillance and Research, Copenhagen, Denmark 
+
+Find articles by Paal S Andersen 
+
+a 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a Statens Serum Institut, Department of Microbiological Surveillance and Research, Copenhagen, Denmark 
+
+b Translational Genomics Research Institute (TGen), Pathogen Genomics Division, Flagstaff, Arizona, USA 
+
+✉ 
+Address correspondence to Marc Stegger, mtg@ssi.dk . 
+
+✉ 
+Corresponding author. 
+
+Received 2011 Dec 15; Accepted 2012 Jan 4. 
+
+Copyright © 2012, American Society for Microbiology. All Rights Reserved. 
+
+PMC Copyright notice 
+
+PMCID: PMC3294860  PMID: 22374956 
+
+Abstract 
+
+The European methicillin-resistant Staphylococcus aureus (MRSA) clone ST80-IV has historically dominated community-associated infections in major parts of Europe and is a lineage strongly linked to skin and soft tissue infections. Here, we report the genome sequence of an ST80-IV representative, 11819-97, isolated from a skin infection in Denmark in 1997. 
+
+GENOME ANNOUNCEMENT 
+
+Historically, community-associated methicillin-resistant Staphy-lococcus aureus (CA-MRSA) infections have been dominated by five lineages: ST1-IV (USA400), ST8-IV (USA300), ST30-IV (Pacific/Oceania), ST59-IV/V (USA1000, Taiwan), and ST80-IV (European CA-MRSA), each being geographically restricted ( 2 ). These CA-MRSA lineages have generally been characterized by carriage of mecA in a staphylococcal cassette chromosome mec element (SCC mec ) type IV and the Panton-Valentine leukocidin (PVL). ST80-IV was first identified in the early 1990s and today is found throughout Europe, the Middle East, and Northern Africa ( 1 , 3 , 6 , 8 , 9 ). In Denmark, ST80-IV isolates accounted for ∼40% of all CA-MRSA cases from 1999 to 2006, causing mostly skin and soft tissue infections ( 5 , 6 ). Interestingly, ST80 isolates have almost exclusively been found as MRSA and characterized as being resistant to fusidic acid ( fusB ). Here, a Danish clinical MRSA isolate, 11819-97, collected from a skin abscess, was selected as a representative for the major phylogenetic group in Denmark. 
+
+The genome sequence was acquired using 319 Mb of paired-end (450-bp spacing) and 498 Mb of mate pair (4.5-kb spacing) sequencing data from the Illumina GA II x platform (Illumina, San Diego, CA) with 100-bp reads. Roche Genome Sequencer FLX (Roche Diagnostics, Basel, Switzerland) sequences, 347 Mb of sequence data, 400-bp reads, with a contig N 50 of 33 kb, were used to assist in plasmid assembly. Sequence data were assembled using CLC bio's Genomics Workbench 4.7 (CLC bio, Aarhus, Denmark) and Velvet 1.1 ( 10 ). Eighty-five contigs (>500 bp, contig N 50 of 66 kb) were generated from the paired-end data, and with the addition of mate-pair data, the Velvet assembler generated 13 contigs (>500 bp, contig N 50 of 990 kb). Gaps were closed using Sanger sequencing, and optical mapping (OpGen, Maryland) was used to verify accurate assembly. The genome was annotated using the IGS Annotation Engine. 
+
+The genome consisted of a 2,846,546-bp circular chromosome with a GC content of 32.9%, containing 2,643 coding sequences (CDS), 59 tRNAs, and 16 rRNA features. Approximately 72% of all CDS were assigned to clusters of orthologous groups (COG). Additionally a 22.3-kb partially sequenced plasmid, p11819-97, contained 23 CDS. 
+
+Initial analysis identified a novel SCC mec type IV cassette with an integrated partial plasmid (p18810-P03) in the J2 region, similar to SCC mec III ( 4 ). The chromosome encompassed three prophages, φSa2, φSa3, and an S. aureus φ37-like prophage, by PHAST analysis ( 11 ). φSa2 contained the lukS and lukF genes encoding the PVL, whereas φSa3 contained two human innate immune modulatory genes ( sak and scn ). Two genomic islands, GIα and GIβ, were also present, with GIβ carrying lukD and lukE . Analysis showed the representative CC80 genome to be distinct from other sequenced lineages and to contain several novel gene clusters. The fusidic acid resistance gene ( fusB ) was carried on a plasmid dissimilar to the previously described fusB -carrying plasmid pUB101 ( 7 ). Further analysis will provide insight into the genetic background for the success of this community-associated lineage and community-associated lineages in general. 
+
+Nucleotide sequence accession numbers. 
+
+The sequences of the chromosome of S. aureus 11819-97 and p11819-97 plasmid draft have been deposited in GenBank under accession numbers CP003194 and CP003193 , respectively. 
+
+ACKNOWLEDGMENTS 
+
+We thank Elvira Chapka for excellent technical assistance and Michelle Giglio at the University of Maryland, School of Medicine, for assistance with the annotation. 
+
+Statens Serum Institut provided funding for the genome sequencing. 
+
+REFERENCES 
+
+1. Antri K, et al. 
+2011. 
+High prevalence of methicillin-resistant Staphylococcus aureus clone ST80-IV in hospital and community settings in Algiers. Clin. Microbiol. Infect.
+17:526–532 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+2. DeLeo FR, Otto M, Kreiswirth BN, Chambers HF.
+2010. 
+Community-associated meticillin-resistant Staphylococcus aureus. Lancet
+375:1557–1568 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Hanssen AM, et al. 
+2005. 
+Dissemination of community-acquired methicillin-resistant Staphylococcus aureus clones in northern Norway: sequence types 8 and 80 predominate. J. Clin. Microbiol.
+43:2118–2124 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+4. Kennedy AD, et al. 
+2010. 
+Complete nucleotide sequence analysis of plasmids in strains of Staphylococcus aureus clone USA300 reveals a high level of identity among isolates with closely related core genome sequences. J. Clin. Microbiol.
+48:4504–4511 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Larsen AR, et al. 
+2008. 
+Epidemiology of European community-associated methicillin-resistant Staphylococcus aureus clonal complex 80 type IV strains isolated in Denmark from 1993 to 2004. J. Clin. Microbiol.
+46:62–68 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Larsen AR, et al. 
+2009. 
+Emergence and characterization of community-associated methicillin-resistant Staphylococcus aureus infections in Denmark, 1999 to 2006. J. Clin. Microbiol.
+47:73–78 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+7. O'Brien FG, Price C, Grubb WB, Gustafson JE.
+2002. 
+Genetic characterization of the fusidic acid and cadmium resistance determinants of Staphylococcus aureus plasmid pUB101. J. Antimicrob. Chemother.
+50:313–321 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+8. Vourli S, et al. 
+2009. 
+High rates of community-acquired, Panton-Valentine leukocidin (PVL)-positive methicillin-resistant S. aureus (MRSA) infections in adult outpatients in Greece. Euro Surveill.
+14: pii=19089 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+9. Witte W, Strommenger B, Cuny C, Heuck D, Nuebel U.
+2007. 
+Methicillin-resistant Staphylococcus aureus containing the Panton-Valentine leucocidin gene in Germany in 2005 and 2006. J. Antimicrob. Chemother.
+60:1258–1263 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+10. Zerbino DR, Birney E.
+2008. 
+Velvet: algorithms for de novo short read assembly using de Bruijn graphs. Genome Res.
+18:821–829 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Zhou Y, Liang Y, Lynch KH, Dennis JJ, Wishart DS.
+2011. 
+PHAST: a fast phage search tool. Nucleic Acids Res.
+39:W347–W352 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Journal of Bacteriology are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (92.2 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

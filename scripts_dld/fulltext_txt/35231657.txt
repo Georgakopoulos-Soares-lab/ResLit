@@ -301,9 +301,6 @@ License: publisher_api_candidate
             <xocs:cp-notice lang="en">© 2022 The Author(s). Published by Elsevier Ltd on behalf of International Society for Antimicrobial Chemotherapy.</xocs:cp-notice>
          </xocs:cp-notices>
       </xocs:copyright-info>
-      <xocs:third-party>
-         <xocs:third-party-status>0</xocs:third-party-status>
-      </xocs:third-party>
       <xocs:funding-list has-funding-info="1">
          <xocs:funding-addon-generated-timestamp>2022-06-11T23:58:39.578Z</xocs:funding-addon-generated-timestamp>
          <xocs:funding-addon-type>http://vtw.elsevier.com/data/voc/AddOnTypes/50.7/aggregated-refined</xocs:funding-addon-type>

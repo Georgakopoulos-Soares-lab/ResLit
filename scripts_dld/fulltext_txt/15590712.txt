@@ -1,0 +1,438 @@
+PMID: 15590712
+PMCID: PMC1472656
+DOI: 10.1093/jac/dkh523
+Title: Molecular basis of intrinsic macrolide resistance in clinical isolates of Mycobacterium fortuitum.
+Journal: The Journal of antimicrobial chemotherapy
+PubDate: 2005 Feb
+Authors: Nash KA, Zhang Y, Brown-Elliott BA, Wallace RJ Jr
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Molecular basis of intrinsic macrolide resistance in clinical isolates of Mycobacterium fortuitum - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+J Antimicrob Chemother 
+. Author manuscript; available in PMC: 2006 May 31. 
+
+Published in final edited form as: J Antimicrob Chemother. 2004 Dec 8;55(2):170–177. doi: 10.1093/jac/dkh523 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Molecular basis of intrinsic macrolide resistance in clinical isolates of Mycobacterium fortuitum 
+
+Kevin A Nash 
+
+Kevin A Nash 
+
+1 Department of Pathology, University of Southern California, and Saban Research Institute of Childrens Hospital Los Angeles, Los Angeles, CA; 
+
+Find articles by Kevin A Nash 
+
+1, * , Yansheng Zhang 
+
+Yansheng Zhang 
+
+2 Department of Microbiology, The University of Texas Health Center, Tyler, TX, USA 
+
+Find articles by Yansheng Zhang 
+
+2 , Barbara A Brown-Elliott 
+
+Barbara A Brown-Elliott 
+
+2 Department of Microbiology, The University of Texas Health Center, Tyler, TX, USA 
+
+Find articles by Barbara A Brown-Elliott 
+
+2 , Richard J Wallace Jr 
+
+Richard J Wallace Jr 
+
+2 Department of Microbiology, The University of Texas Health Center, Tyler, TX, USA 
+
+Find articles by Richard J Wallace Jr 
+
+2 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+1 Department of Pathology, University of Southern California, and Saban Research Institute of Childrens Hospital Los Angeles, Los Angeles, CA; 
+
+2 Department of Microbiology, The University of Texas Health Center, Tyler, TX, USA 
+
+✉ 
+*Corresponding author. Tel: +1-323-669-5670; Fax: +1-323-668-7989; E-mail: Kanash@usc.edu 
+
+Issue date 2005 Feb. 
+
+PMC Copyright notice 
+
+PMCID: PMC1472656  NIHMSID: NIHMS9974  PMID: 15590712 
+
+The publisher's version of this article is available at J Antimicrob Chemother 
+
+Abstract 
+
+Objectives 
+
+Some clinical isolates of Mycobacterium fortuitum are naturally resistant to macrolides, e.g. clarithromycin. Thus, the aim of this study was to identify the gene(s) conferring this resistance. 
+
+Methods 
+
+M. fortuitum ATCC 6841 T DNA libraries were screened for plasmids that complemented the macrolide-susceptible phenotype of Mycobacterium smegmatis variant ermKO4 [ erm (38)-negative]. (Macrolide-resistant M. smegmatis transformants were selected on agar containing 128 mg/L erythromycin. 
+
+Results 
+
+Genetic complementation identified an M. fortuitum rRNA methylase gene, termed erm (39), (69% identical to erm (38) (of M. smegmatis . In addition, erm (39) (was found to be in the same chromosomal location as erm (38) (in their respective hosts. Like erm (38), erm (39) conferred resistance (MIC >128 mg/L) to macrolide–lincosamide (ML) agents, but not to streptogramin B. Analysis of erm gene expression in M. fortuitum showed that ML agents increased erm (39) RNA levels, reaching a steady state level ~20-fold higher than baseline. Screening of 32 M. fortuitum clinical isolates by PCR showed that all were positive for erm (39), irrespective of clarithromycin susceptibility. A majority of clarithromycin-susceptible (MIC ≤2 mg/L) isolates were postulated to carry a disabled erm (39) gene as they had a GTG→CTG mutation in the putative initiation codon of the erm (39) gene. 
+
+Conclusions 
+
+The similarity of the erm genes of M. smegmatis and M. fortuitum suggests that they were inherited from a common ancestor. Although the clinical impact of erm (39) on the therapeutic utility of clarithromycin is unclear, induction of this gene is consistent with the trailing end-points commonly seen during susceptibility testing of M. fortuitum isolates against macrolides. 
+
+Keywords: clarithromycin, rapidly growing mycobacteria, methylase, erm gene 
+
+Introduction 
+
+Many clinically significant mycobacteria are susceptible to macrolides, such as clarithromycin. 1 , 2 Consequently, this class of agents has become the foundation for treating mycobacterioses caused by non-tuberculous mycobacteria. However, several mycobacteria are intrinsically resistant to macrolides, including the Mycobacterium tuberculosis complex, the Mycobacterium smegmatis group and some members of the Mycobacterium fortuitum group. 1 – 4 M. tuberculosis is undeniably the most important human pathogen of the Mycobacteriacae. Nevertheless, rapidly growing mycobacteria, such as M. fortuitum , are important causes of soft-tissue infections and abscesses, often associated with trauma or surgery. 1 , 2 Thus, understanding the mechanisms of drug resistance in these organisms will aid the design and implementation of effective therapeutic regimens. 
+
+Macrolide antimicrobial agents act by binding to the 50S ribosome subunit near the catalytic site of the peptidyltransferase region. More specifically, the macrolide-binding site is believed to be in the exit channel from the peptidyltransferase centre for growing peptide chains. 5 , 6 This suggests that macrolides do not act as direct catalysis inhibitors, but rather as physical ‘plugs’ blocking the exit of the peptide chain. However, there is evidence that 16-member macrolides (e.g. spiramycin) may inhibit peptidyltransferase activity, and 14-member macrolides (e.g. erythromycin) may prevent translocation of tRNA and increase tRNA dissociation from the ribosome. 7 However, it is not clear whether these are primary or secondary effects of the binding of macrolides. 
+
+For mycobacteria that are normally susceptible to clarithromycin, clinically acquired resistance is conferred by mutation in the 23S ribosomal RNA (rRNA) gene. 8 – 10 However, the primary mechanism of acquired, clinically significant macrolide resistance in other pathogenic bacteria (e.g. Streptococcus pneumoniae ) is the presence of an erm gene or an efflux pump [e.g. mef (A)]. 11 Therefore, it is intriguing that novel erm genes have been described recently for M. smegmatis 12 and M. tuberculosis , 13 which are intrinsically resistant to macrolides. 
+
+The erm genes are a diverse collection of methylases that add one or two methyl groups to the adenine at position 2058 ( Escherichia coli numbering) of the 23S rRNA; this modification impairs the binding of macrolides to ribosomes, and thus reduces the inhibitory activity of these agents. 11 In most organisms, expression of an erm gene confers resistance to macrolide–lincosamide–streptogramin B (MLS) agents. However, the mycobacterial erm genes seem to confer resistance limited to ML agents. 12 This phenomenon is possible because the binding site for streptogramin B in mycobacteria does not seem to overlap with the A2058 residue. 12 
+
+One ancestral source of erm genes is undoubtedly the bacteria that synthesize macrolides (or related agents), such as Streptomyces species. Adenine rRNA methylases expressed by these organisms protect their ribosomes from the inhibitory effects of the drugs they make. Often these drug-producing bacteria inhabit complex ecological niches (e.g. soil), where there is competition with other bacteria and fungi for nutrients. It is interesting, therefore, that the erm genes of environmental organisms such as corynebacteria and M. smegmatis are closely related to the erm genes of Streptomyces (>50% identical). 12 , 14 
+
+In a previous study, 12 Southern-blot analysis showed that M. fortuitum strain ATCC 6841 T had DNA similar to erm (38) of M. smegmatis . Intriguingly, M. fortuitum strain ATCC 6841 T appears to be macrolide susceptible (clarithromycin MIC ≤2 mg/L), unless it is pre-incubated in subinhibitory concentrations of macrolide, when it presents a resistant phenotype (clarithromycin MIC >128 mg/L). Thus, M. fortuitum strain ATCC 6841 T expressed inducible ML resistance, similar to that of M. smegmatis. 12 The aim of the current study was to clone and characterize the ML resistance gene of M. fortuitum . 
+
+Materials and methods 
+
+Bacteria and susceptibility testing 
+
+M. fortuitum strain ATCC 6841 T and Mycobacterium peregrinum strain ATCC 14467 T were obtained from the American Type Culture Collection (ATCC; Manassas, VA, USA). Two clinical isolates of M. fortuitum (strains 9704-20 and 976218) were generously provided by A. E. Rosato (Virginia Commonwealth University, Richmond, VA, USA). Additional clinical isolates of M. fortuitum , M. smegmatis and Mycobacterium mageritense , used to test for incidence of resistance genes, were chosen from isolates submitted for susceptibility testing and/or identification to the Mycobacteria/Nocardia Laboratory at the University of Texas Health Center. They were identified to species level based on growth rate, growth and colony morphology on Middlebrook 7H10 agar, pigment production and PCR restriction enzyme analysis of the 441 bp Telenti fragment of the hsp65 gene, as previously described. 15 – 18 The erm (38)-knockout variant of M. smegmatis mc 2 155 (variant ermKO4) is described elsewhere. 12 
+
+Susceptibility testing of clinical isolates of rapidly growing mycobacteria was based on a broth microdilution assay using cation-supplemented Mueller–Hinton (MH) broth, as described elsewhere. 19 , 20 MIC breakpoints for clarithromycin were those of the NCCLS for rapidly growing mycobacteria. 20 Breakpoints for the other test drugs (clindamycin, erythromycin, quinupristin and rifabutin) have not been established for rapidly growing mycobacteria. For the experiments with recombinant strains, the medium used was 7HSF broth, which comprised Middlebrook 7H9 broth supplemented with 1 g/L pancreatic-digest of casein (Difco), 0.05% Tween 80 and 10% oleic acid–albumin–dextrose–catalase (BD Diagnostic Systems, Sparks, MD, USA). This medium resulted in faster growth of these strains than with MH broth. To test for inducible resistance, organisms were incubated overnight in subinhibitory concentrations of clarithromycin (0.01 and 0.1 mg/L) or medium alone (as controls), prior to determining the clarithromycin MIC. 
+
+To distinguish inducible resistance from the selection of mutants with constitutive high-level resistance in susceptibility assays, organisms that had grown in 128 mg/L clarithromycin were washed twice with 10 volumes of sterile water (to remove residual drug), before being plated on 7H11 agar. Following a 3 day incubation, a sweep of the resulting colonies was used as the inoculum in a second susceptibility assay. 
+
+Cloning of the putative resistance gene(s) 
+
+Genomic DNA was isolated from mycobacteria by the method of Belisle & Sonnenberg. 21 Five μg of DNA isolated from M. fortuitum ATCC 6841 T was digested for 2 h with 5–10 units of (1) Bam HI, (2) Msc I (an isoschizomer of Bal I) and Bgl II, or (3) Bsp DI (an isoschizomer of Cla I). The restricted DNA was size-selected to be between 1 and 20 kbp by preparative agarose electrophoresis. The DNA fragments were ligated to the vector pMV261, which is a kanamycin-selectable E. coli -mycobacterial shuttle vector. 22 This vector carries the Mycobacterium bovis hsp65 promoter upstream from the multiple cloning site, allowing expression of promoterless cloned genes. The pMV261 constructs were used to transform E. coli strain XL1-Blue MRF′ (Stratagene, La Jolla, CA, USA) by electroporation. For each transformation, ~20 000 colonies were pooled and the plasmid DNA isolated using the Qiaprep kit (Qiagen). Approx. 0.1 μg of this plasmid pool was used to transform M. smegmatis ermKO4 by electroporation. 23 The clarithromycin and erythromycin MICs for this organism were 0.125 and 4–8 mg/L, respectively. To isolate macrolide-resistant M. smegmatis transformants, the transformation reaction was plated on tryptic soy agar (TSA) containing kanamycin (50 mg/L), and the resulting colonies pooled in tryptic soy broth supplemented with 0.05% Tween 80 to a turbidity equivalent to that of a 1.0 McFarland standard. Aliquots (0.1 mL) of the suspensions were plated on TSA containing kanamycin (50 mg/L) and erythromycin (128 mg/L). The plasmids from 3–5 colonies per preparation were transferred to E. coli XL1-Blue MRF′ (Stratagene) by electroduction. 24 The resulting E. coli transformants provided a ready means of purifying the plasmids derived from the macrolide-resistant M. smegmatis . 
+
+PCR and Southern analysis 
+
+To screen for the presence of mycobacterial erm genes by PCR, the following primers were used: MFERM-7 (GCCCTCACCCTGCCGTTACAGC), MFERM-8 (AGGATGGCGGTGGTCAGATGGA), MSX-1 (ACGAGCTCGGCCAGAACTTCCTGT), and MSX-3 (GGTGAGCGGGGCAGTGGGTAG). The former two primers target the M. fortuitum erm gene (between codons 45 → 108; GenBank acc. AY487229 ), and the latter two primers are specific for erm (38) of M. smegmatis 12 (between codons 9 → 102; GenBank acc. AY154657 ); the expected sizes of the two amplification products are 191 bp and 280 bp, respectively. M. fortuitum ATCC 6841 T and M. smegmatis mc 2 155 were used as controls when testing the clinical isolates for resistance genes. The basic cycling conditions were 35 cycles of 94°C for 30 s, 65°C for 30 s and 72°C for 30 s. PCR additives, such as DMSO (5%–10%) or Qiagen Solution Q (1×), enhanced amplification product yields. Southern analysis methods are described in detail elsewhere. 12 
+
+Expression analysis by real-time RT–PCR 
+
+For gene expression analysis, the RNA in bacterial suspensions was stabilized by the addition of two volumes of RNAProtect bacterial reagent (Qiagen). To isolate RNA, the Qiagen RNeasy system was applied, including a mechanical disruption step using lysing matrix B (QBiogene, Carlsbad, CA, USA) in a FastPrep FP120A instrument (speed setting 6.5 for 45 s). In addition, an on-column DNase-treatment (Qiagen) was included to remove residual DNA. Expression analysis was by real-time RT–PCR, using an iQ iCycler real-time PCR machine (Bio-Rad, Hercules, CA, USA) and the QuantiTect SYBR Green RT–PCR Kit (Qiagen) including solution Q PCR additive (Qiagen). The basic reaction conditions were 50°C for 30 min, then 95°C for 15 min (to activate the Taq DNA polymerase) followed by 35 cycles of 94°C for 30 s, 65°C for 30 s and 72°C for 30 s. Approx. 50–100 ng of RNA was added per amplification reaction. The primers used to analyse expression of the putative erm gene of M. fortuitum were MFERM-7 and MFERM-8 (see above). The results were normalized to the amount of 23S rRNA in each sample, assessed by RT–PCR using primers MS23S-1 (CGAATGGCGTAACGACTTCTCA) and MS23-3 (GTAGTGAAGGTCCCGGGGTC). Each experiment was set up in triplicate. 
+
+DNA sequencing and analysis 
+
+Plasmid DNA was sequenced using the BigDye terminator chemistry (Applied Biosystems, Foster City, CA, USA) and run on an ABI PRISM 3100 Genetic Analyzer. BLAST searching 25 of the DNA and protein databases (including unfinished prokaryote genomes) was through the National Center for Biotechnology Information website: http://www.ncbi.nlm.nih.gov/ . The computer software MacVector version 7.2 (Accelrys, Burlington, MA, USA) was used for general sequence analysis (e.g. restriction site and open reading frame analysis) and ClustalW pairwise alignment. 
+
+Results 
+
+Cloning of the M. fortuitum macrolide resistance gene 
+
+The M. fortuitum DNA fragments containing the gene(s) conferring resistance to erythromycin (MIC >128 mg/L) were isolated from three independent genomic libraries expressed in M. smegmatis ermKO4 [an erm (38) (gene knockout variant of strain mc 2 155]. The plasmids isolated from the erythromycin-resistant M. smegmatis transformants were termed pMVMF3, pMVMF5 and pMVMF10, and contained an ~12 kbp Bam HI M. fortuitum DNA fragment, an ~3 kbp Msc I- Bgl fragment and an ~7 kbp Bsp DI fragment, respectively. The resistance conferred by these plasmids was verified by transferring them back into M. smegmatis ermKO4. In each case, the newly transformed M. smegmatis expressed high-level resistance (MIC > 512 mg/L) to clindamycin, clarithromycin, erythromycin and spiramycin, but not streptogramin B (quinupristin) or rifabutin ( Table 1 ). This phenotype was equivalent to that of the parental M. smegmatis mc 2 155, i.e. erm (38) (positive. 12 
+
+Table 1. 
+
+Antimicrobial susceptibility of M. smegmatis ermKO4 expressing erm (39) in trans 
+
+MIC (mg/L) Plasmid CLI CLR ERY Q SPM RFB pMV261 32 0.125 8 64 4 0.5 pMVMF3 >1024 >512 >1024 64 >1024 0.5 pMVMF5 >1024 >512 >1024 64 >1024 0.5 pMVMF10 >1024 >512 >1024 64 >1024 0.5 
+
+Open in a new tab 
+
+CLI, clindamycin; CLR, clarithromycin; ERY, erythromycin; Q, quinupristin; SPM, spiramycin; RFB, rifabutin. 
+
+Southern analysis using a probe specific for erm (38) (of M. smegmatis showed that plasmids pMVMF3, pMVMF5 and pMVMF10 contained DNA similar to this erm gene (data not shown). Restriction mapping and Southern analysis placed the erm (38)-like (DNA within an estimated 1.5 kbp Bam HI– Bsp DI fragment of each plasmid. Figure 1 shows the alignment of the three plasmids based on this analysis. Since the overlap between the three plasmids is restricted to this 1.5 kbp fragment, this must define the location of the resistance gene. 
+
+Figure 1. 
+
+Open in a new tab 
+
+Summary of the cloned M. fortuitum DNA fragments that conferred high-level erythromycin resistance to M. smegmatis ermKO. The common region that hybridized with an erm (38) (derived probe is indicated by the arrows. The annotated restriction sites are: B, Bam HI; D, Bsp DI; E, Eco RV; G, Bgl II; M, Msc I [plasmids pMVMF3 and pMVMF1 pMVMF10 had at least one additional Bgl II and Msc I site—the locations of these sites relative to the erm (38) (probe binding site was not mapped in detail in this analysis]. The fragments are oriented so that RNA transcription from the hsp65 promote promoter of the cloning vector (pMV261) proceeds from left to right. 
+
+Initially, a DNA sequence was obtained from plasmid pMVMF3 for ~1 kbp of insert DNA proximal to the vector’s hsp65 promoter. Open reading frame and BLAST searching of the DNA sequence data revealed a putative adenine rRNA methylase or erm gene. A likely initiation codon (GTG) of this gene was 58 bp from the beginning of the cloned M. fortuitum DNA fragment and in the same orientation as the hsp65 promoter of the vector. Thus, the location and orientation of this putative erm gene was consistent with it being expressed from the vector’s hsp65 promoter. Analysis of DNA sequence data obtained from pMVMF5 and pMVMF10 verified that the putative erm gene was common to all three plasmids. 
+
+The putative erm gene of M. fortuitum was predicted to encode a 246-aminoacid polypeptide. BLAST searching showed that this amino acid sequence was similar (>40% identical) to numerous rRNA methylases, including Erm(38) of M. smegmatis (GenBank acc. AAN86837 ), Erm(X) alleles of Corynebacterium diphtheriae (GenBank acc. NP_863178 ) and Corynebacterium jeikeium (GenBank acc. AAK28907 and AAK28910 ). The sequence for the M. fortuitum erm gene, designated erm (39) ([or Erm(39) for the protein], has been registered with the Nomenclature Center for MLS Genes maintained by Dr Marilyn C. Roberts. 26 
+
+ClustalW pairwise analysis aligned the complete 246-aminoacid Erm(39) protein with the first 259 amino acids of the M. smegmatis Erm(38) protein (GenBank acc. AAN86837 ) with 71% identity. Figure 2 shows the full alignment of the two proteins. The 386-aminoacid Erm(38) protein is longer than Erm(39), and has a unique C-terminal region that probably represents a fusion between the ancestral erm gene and its insertion point within the M. smegmatis genome. 12 Thus, the C-terminus of Erm(39) aligns with what is believed to be the fusion site for Erm(38). Both Erm(38) and Erm(39) were found to be distinct (25% and 29% identity) from Erm(37) of M. tuberculosis (encoded by the gene Rv1988, GenBank acc. NP_216504.1 ). 
+
+Figure 2. 
+
+Open in a new tab 
+
+ClustalW alignment of the RNA methylases of M. fortuitum [Erm(39); GenBank acc. AY487229 ] and M. smegmatis [Erm(38); GenBank acc. AAN86837 ] AAN86837 ]. Dark-shaded amino acids are identical the two proteins and light-shaded amino acids are functionally similar. 
+
+Using all three plasmids as templates, the DNA sequence data were extended to 2.1 kbp upstream and 1.9 kbp downstream from the putative erm gene for a total of 4.8 kbp (GenBank acc. AY487229 ). Figure 3 shows the proposed genetic organization of this region. From this analysis, it was found that the inserts of plasmids pMVMF3, pMVMF5 and pMVMF10 had only two putative genes in common, erm (39) (and 3355 (similar to Rv3355c of M. tuberculosis H37Rv, a hypothetical gene with unknown function). This further substantiates the role of erm (39) (in the ML-resistance phenotype. 
+
+Figure 3. 
+
+Open in a new tab 
+
+Genetic organization of the M. fortuitum chromosome in the region of erm (39) ( GenBank acc. AY487229 ). Genes shown in black have a high degree of identity (≥65%) with M. tuberculosis H37Rv (the gene numbering in this figure is equivalent to the Rv gene index), and M. smegmatis . The genes shown with cross-hatching have a high degree of identity only with M. smegmatis . The hypothetical gene (shown in white) has no convincing homology (i.e. <30% identity) to any known sequence. Key: pgaE —putative polyketide oxygenase (65% amino acid identity with the N-terminus of PgaE of M. smegmatis ; 12 36% identity with N-terminus of oxygenase-reductase PgaM of Streptomyces species, GenBank acc. AAK57530.1 ); TR—putative transcriptional regulator [73% amino acid identity with TR associated with erm (38) of M. smegmatis ; 12 32% identical to CalR1, a calicheamicin synthesis regulator, GenBank acc. AAM94766 ]; erm (39)—adenine rRNA methylase [71% amino acid identity with Erm(38) of M. smegmatis , GenBank acc. AAN86837 ]; 3355—hypothetical gene with unknown function (65% identity with Rv3355c of M. tuberculosis , GenBank acc. NP_217872.1 ); folD —a tetrahydrofolate dehydrogenase/cyclohydrolase (82% amino acid identity with FolD or Rv3356c of M. tuberculosis , GenBank acc. NP_217873.1 ); 3359—probable NAD(H)-dependent flavin oxidoreductase (74% identity with N-terminus of Rv3359 of M. tuberculosis , GenBank acc. NP_217876.1 ). 
+
+Downstream from erm (39) (are several hypothetical genes with a high degree of identity to M. tuberculosis and M. smegmatis ( Figure 3 ). In particular, the 3355, folD and 3359 proteins are >64% identical to the comparable proteins in M. tuberculosis H37Rv. Upstream from erm (39) (is a putative transcriptional regulator (TR) and a pgaE homologue, indicating that the gene organization surrounding erm (39) is largely conserved with respect to that of erm (38) of M. smegmatis . However, the DNA between erm (39) and TR shows no convincing homology (i.e. all BLAST alignments were <30% identical) to any known sequence in the GenBank databases. 
+
+Expression of erm(39) 
+
+The level of erm (39) (RNA in M. fortuitum increased following exposure to 1 mg/L erythromycin ( Figure 4a ). By 20 min, the erm (39) RNA level was six-fold higher, and by 60 min, the level was 15-fold higher than baseline (i.e. time 0). After 60 min, the RNA levels entered a steady state phase, which at 120 min was ~18-fold higher than baseline. 
+
+Figure 4. 
+
+Open in a new tab 
+
+Real-time RT–PCR analysis of erm (39) expression. (a) A time course study following addition of erythromycin (1 mg/L). RNA levels are presented relative to baseline (time 0). (b) The effect of different antimicrobial agents on erm (39) expression after an incubation of 120 min. ND, control (no drug); CLI, clindamycin (8 mg/L); ERY, erythromycin (1 mg/L); SPM, spiramycin (8 mg/L); Q, quinupristin (16 mg/L). All data points represent the mean of three replicates. 
+
+Consistent with the phenotypic analysis, erm (39) (RNA levels also increased following exposure to sub-MIC concentrations of clindamycin (8 mg/L) and spiramycin (8 mg/L) but not quinupristin (16 mg/L) ( Figure 4b ). The differences in the expression of erm (39) (induced by the three ML agents probably relates to concentration and/or kinetic effects. Thus, ML agents are effective inducers of erm (39), consistent with the resistance phenotype conferred by this gene. 
+
+Distribution of erm(39) in rapidly growing mycobacteria 
+
+A total of 32 clinical isolates of M. fortuitum , in addition to strain ATCC 6841 T , were screened for the presence of the erm (39) and erm (38) genes by PCR. The clarithromycin MIC of these strains was in the range 1–>32 mg/L, with 50% deemed as susceptible on routine susceptibility testing (clarithromycin MIC ≤4 mg/L). All 32 M. fortuitum strains were PCR positive for the erm (39) gene and negative for the erm (38) gene, irrespective of the susceptibility results. In contrast, the related species, M. peregrinum (one isolate, clarithromycin susceptible) and M. mageritense (13 isolates, all clarithromycin resistant) 17 were negative by PCR for both erm (38) and erm (39) genes. All 11 tested erm (38)-positive M. smegmatis isolates (all clarithromycin resistantant) were negative for the erm (39)-specific PCR. 
+
+Although the presence of erm (39) in M. fortuitum did not appear to correlate with baseline clarithromycin MIC, some isolates may express a cryptic inducible resistance phenotype, i.e. that was not manifested in the original susceptibility assays. There was precedence for this, as our reference strain, M. fortuitum ATCC 6841 T , appeared to be clarithromycin-susceptible (MIC ≤2 mg/L), unless it was pre-incubated in subinhibitory concentrations of macrolide, when it became clarithromycin-resistant resistant (MIC >128 mg/L). 
+
+To investigate this ‘cryptic inducibility’ hypothesis, five clinical isolates (Mf1963, Mf1973, Mf1991, Mf2038 and Mf2169) were tested for inducible macrolide resistance ( M. fortuitum strain ATCC 6841 T was included as a positive control). Each of these isolates was positive for erm (39) by PCR and with a clarithromycin MIC of ≤2 mg/L. Of the five isolates, only Mf1963 (20%) expressed an increased clarithromycin MIC (>128 mg/L) following overnight incubation in clarithromycin concentrations of 0.01 and 0.1 mg/L. Incubation in medium alone resulted in a clarithromycin MIC of ≤2 mg/L. The other four isolates (80%) demonstrated no evidence of phenotypic induction, i.e. clarithromycin MICs were ≤2 mg/L under all conditions. Thus, a proportion of the erm (39)-positive, ‘susceptible’ isolates could be explained by an inducible phenotype. Nevertheless, another mechanism must underlie the phenotype of the remaining erm (39)-positive, clarithromycin-susceptible isolates. 
+
+Possible alternative explanations for the clarithromycin-susceptible phenotype include a lack of molecular induction and/or a disabling mutation in the erm (39) gene. Molecular induction was assessed by real-time RT–PCR analysis of erm (39) RNA levels in organisms incubated for 3 h in either medium alone or 0.01 mg clarithromycin per L. This analysis showed that clarithromycin exposure increased erm (39) RNA levels by factors of 367 ± 32, 32 ± 4 and 96 ± 20 in isolates Mf1963, Mf1991 and Mf2169, respectively. Thus, RNA induction occurred in phenotypically non-inducible isolates, i.e. macrolide susceptibility in erm (39)-positive isolates was not explained by a lack of RNA induction. 
+
+In order to determine if an erm (39)-disabling mutation had occurred in isolates Mf1991 and Mf2169, the DNA sequences for the erm (39) gene and 800 bp upstream leader region (assumed to contain the promoter) were compared with that of our reference strain, ATCC 6841 T . The erm (39) genes of Mf1991 and Mf2169 were found to be 100% identical to each other and have a 95% nucleotide (97% amino acid) identity with ATCC 6841 T . Pairwise comparisons of the 800 bp upstream leader regions of the three isolates showed that they were 99% identical to each other. Thus, the largest difference between ATCC 6841 T and the other two isolates was in the erm (39) gene. 
+
+Of the 11 codon discrepancies between the erm (39) genes of Mf1991/Mf2169 and ATCC 6841 T , all coded for either chemically or functionally similar amino acids, or were conserved with respect to erm (38) of M. smegmatis . That said, one of the divergent codons was the predicted initiation codon of erm (39). The initiation codon of the erm (39) gene of ATCC 6841 T was GTG, whereas it was CTG in Mf1991 and Mf2169 (CTG is considered a valid initiation codon in some bacteria). Furthermore, a GTG initiation codon of erm (39) was found in three additional macrolide-resistant isolates (including Mf1963), whereas a CTG initiation codon was found in two additional susceptible and non-inducible isolates (Mf1973 and Mf2038). Thus, 5/5 resistant strains had a GTG initiation codon and 4/4 susceptible strains had a CTG initiation codon. These results suggested that a GTG → CTG mutation in the initiation codon of erm (39) was associated with the loss of macrolide resistance. 
+
+Discussion 
+
+With this study, three erm genes have been described in separate mycobacterial species, i.e. erm (37) of M. tuberculosis complex, 13 erm (38) of M. smegmatis 12 and erm (39) of M. fortuitum . The erm (38) and erm (39) genes are very similar, both in sequence (69% nucleotide identity) and in chromosome location (adjacent to folD ). These findings suggest that the erm genes of M. fortuitum and M. smegmatis are not recent acquisitions and the source gene probably originated in a common ancestor of these organisms. In contrast, erm (37) has a sequence distinct from the other two mycobacterial erm genes (and all other known erm genes), and it is in a different location within the M. tuberculosis chromosome. This is consistent with the evolutionary history of erm (37) being different to that of erm (38) and erm (39). 
+
+Usually, the acquisition of an erm gene by pathogenic bacteria is clinically significant, in that monotherapy with macrolides is unlikely to be efficacious. M. tuberculosis is intrinsically resistant to macrolides 3 and clarithromycin is not particularly useful in treating M. tuberculosis infections, at least in animal models. 4 , 27 Previous studies showed that expression of erm (37) of M. tuberculosis may explain, at least partially, the intrinsic macrolide resistance. 13 Interestingly, the RD2 deletion in the M. bovis BCG (Pasteur) chromosome 28 includes the erm (37) (or Rv1988) gene, and there is some evidence that erythromycin may be useful for treating M. bovis BCG infection, 29 , 30 although a recent review 31 suggests that antimicrobial treatment (including macrolide-containing regimens) of BCG lymphadenitis may not significantly affect the course of the disease. 
+
+An important issue is whether clarithromycin (or other macrolides) should be used for the treatment of M. fortuitum infections. The fact that ~80% of M. fortuitum isolates have susceptible MICs of clarithromycin (MIC ≤4 mg/L) 32 suggests that empirical use of macrolides to treat infections caused by this organism would be efficacious in most cases. However, two important issues argue against such a use. 
+
+First, a significant proportion of macrolide ‘susceptible’ M. fortuitum may express cryptic inducible resistance, that routine susceptibility testing would miss. Although induction of erm (39) only occurs at very low drug concentrations, once induced these organisms are highly resistant to clarithromycin (MIC >64 mg/L). Furthermore, mutations could occur that derepress expression, leading to constitutive expression of high-level macrolide resistance. The presence of inducible β-lactamases (e.g. among Enterobacter species) has raised similar issues because of subsequent development of high-level constitutive enzyme production following mutation in the repressor gene. 33 , 34 This results in high-level resistance to agents such as ceftazidime, which are non-enzyme inducers and work initially in infected patients. M. fortuitum infections are chronic, so there is a prolonged time when derepression mutations can occur. 
+
+Second, truly macrolide-susceptible M. fortuitum isolates may carry an inactive form of the erm (39) gene (i.e. with a CTG initiation codon). Activation of erm (39) in such organisms may only require a single base transversion (CTG → GTG). This mechanism of clinically acquired macrolide resistance may occur in addition to 23S rRNA mutations that have been described in other mycobacteria. 8 – 10 
+
+The presence of an inactive form of erm (39) in some clinical isolates of M. fortuitum is intriguing in terms of the evolution of this organism. It is likely that adenine methylation in the peptidyltransferase centre of the 23S rRNA will reduce growth rate, perhaps similarly to the effects of the 23S rRNA mutations that confer macrolide resistance in mycobacteria. 35 However, erm (39) expression is inducible and it is likely that there is minimal methylation without induction. Thus, it is not clear why organisms with disabling mutations should emerge. Furthermore, it is not known if the erm (39) disabling mutation occurred prior to or during the human infection, or even during the subsequent isolation and culture. 
+
+As well as the impact erm (39) may have on the empirical treatment of M. fortuitum infections, the presence of this gene is clinically important for other reasons. It is documented that susceptibility testing of M. fortuitum isolates against clarithromycin can be problematic, often with trailing end-points. 20 The inducible ML resistance conferred by erm (39) in M. fortuitum provides an explanation for this phenomenon. Therefore, there is compelling evidence that MICs determined by routine susceptibility testing (i.e. without induction analysis) of M. fortuitum isolates against ML may be misleading and as such may be unwarranted. 
+
+It is intriguing that all tested isolates of M. fortuitum contain the erm (39) gene, whereas, the closely related rapidly growing species, M. peregrinum and M. mageritense, do not. Isolates of M. mageritense are known to be macrolide resistant, 17 and preliminary evidence suggests that M. mageritense carries another erm gene, distinct from erm (38) and erm (39) (K.A. Nash, unpublished data). These findings suggest that erm genes are widespread in the rapidly growing mycobacteria. With this said, and the ubiquitous distribution of mycobacteria in the environment, could the mycobacterial erm genes be a source of resistance genes to other organisms? This possibility seems unlikely as all of the known mycobacterial erm genes are chromosomal and none is associated with known or putative mobile elements. 
+
+In conclusion, given the ubiquitous occurrence of erm (39) in M. fortuitum, it is our opinion that clarithromycin should probably be used with caution with infections involving this organism (especially if the clarithromycin MIC is ≥4mg/L), and probably never as a single agent for infections with a large burden of organisms. How often clarithromycin monotherapy for M. fortuitum is used, however, is unknown, as there are other potential therapeutic agents. 1 , 2 
+
+Acknowledgments 
+
+We would like to thank Clark B. Inderlied for his assistance with the real-time RT-PCR studies. Funding for this study was provided by the NIH/NIAID (RO1-AI052291). 
+
+References 
+
+1. Brown-Elliott BA, Griffith DE, Wallace RJ., Jr Newly described or emerging human species of nontuberculous mycobacteria. Infectious Disease Clinics of North America. 2002;16:187–220. doi: 10.1016/s0891-5520(03)00052-7. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+2. Brown-Elliott BA, Wallace RJ., Jr Clinical and taxonomic status of pathogenic nonpigmented or late-pigmenting rapidly growing mycobacteria. Clinical Microbiology Reviews. 2002;15:716–46. doi: 10.1128/CMR.15.4.716-746.2002. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Bosne-David S, Barros V, Verde SC, et al. Intrinsic resistance of Mycobacterium tuberculosis to clarithromycin is effectively reversed by subinhibitory concentrations of cell wall inhibitors. Journal of Antimicrobial Chemotherapy. 2000;46:391–5. doi: 10.1093/jac/46.3.391. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+4. Luna-Herrera J, Reddy V, Daneluzzi D, et al. Antituberculosis activity of clarithromycin. Antimicrobial Agents and Chemotherapy. 1995;39:2692–5. doi: 10.1128/aac.39.12.2692. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Garza-Ramos G, Xiong L, Zhong P, et al. Binding site of macrolide antibiotics on the ribosome: new resistance mutation identifies a specific interaction of ketolides with rRNA. Journal of Bacteriology. 2001;183:6898–907. doi: 10.1128/JB.183.23.6898-6907.2001. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Schlunzen F, Zarivach R, Harms J, et al. Structural basis for the interaction of antibiotics with the peptidyl transferase centre in eubacteria. Nature. 2001;413:814–21. doi: 10.1038/35101544. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Zhanel GG, Dueck M, Hoban DJ, et al. Review of macrolides and ketolides: focus on respiratory tract infections. Drugs. 2001;61:443–98. doi: 10.2165/00003495-200161040-00003. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+8. Meier A, Kirschner P, Springer B, et al. Identification of mutations in 23S rRNA gene of clarithromycin-resistant Mycobacterium intracellulare. Antimicrobial Agents and Chemotherapy. 1994;38:381–4. doi: 10.1128/aac.38.2.381. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Nash KA, Inderlied CB. Genetic basis of macrolide resistance in Mycobacterium avium isolated from patients with disseminated disease. Antimicrobial Agents and Chemotherapy. 1995;39:2625–30. doi: 10.1128/aac.39.12.2625. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+10. Wallace RJ, Jr, Meier A, Brown BA, et al. Genetic basis for clarithromycin resistance among isolates of Mycobacterium chelonae and Mycobacterium abscessus. Antimicrobial Agents and Chemotherapy. 1996;40:1676–81. doi: 10.1128/aac.40.7.1676. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Roberts MC, Sutcliffe J, Courvalin P, et al. Nomenclature for macrolide and macrolide-lincosamide-streptogramin B resistance determinants. Antimicrobial Agents and Chemotherapy. 1999;43:2823–30. doi: 10.1128/aac.43.12.2823. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Nash KA. Intrinsic macrolide resistance in Mycobacterium smegmatis is conferred by a novel erm gene erm(38) Antimicrobial Agents and Chemotherapy. 2003;47:3053–60. doi: 10.1128/AAC.47.10.3053-3060.2003. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Buriankova K, Doucet-Populaire F, Dorson O, et al. Molecular basis of intrinsic macrolide resistance in the Mycobacterium tuberculosis complex. Antimicrobial Agents and Chemotherapy. 2004;48:143–50. doi: 10.1128/AAC.48.1.143-150.2004. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+14. Rosato AE, Lee BS, Nash KA. Inducible macrolide resistance in Corynebacterium jeikeium. Antimicrobial Agents and Chemotherapy. 2001;45:1982–9. doi: 10.1128/AAC.45.7.1982-1989.2001. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Telenti A, Marchesi F, Balz M, et al. Rapid identification of mycobacteria to the species level by polymerase chain reaction and restriction enzyme analysis. Journal of Clinical Microbiology. 1993;31:175–8. doi: 10.1128/jcm.31.2.175-178.1993. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+16. Steingrube VA, Gibson JL, Brown BA, et al. PCR amplification and restriction endonuclease analysis of a 65-kilodalton heat shock protein gene sequence for taxonomic separation of rapidly growing mycobacteria. Journal of Clinical Microbiology. 1995;33:149–53. doi: 10.1128/jcm.33.1.149-153.1995. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+17. Wallace RJ, Jr, Brown-Elliott BA, Hall L, et al. Clinical and laboratory features of Mycobacterium mageritense. Journal of Clinical Microbiology. 2002;40:2930–5. doi: 10.1128/JCM.40.8.2930-2935.2002. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Brown BA, Springer B, Steingrube VA, et al. Mycobacterium wolinskyi sp. nov. and Mycobacterium goodii sp. nov., two new rapidly growing species related to Mycobacterium smegmatis and associated with human wound infections: a cooperative study from the International Working Group on Mycobacterial Taxonomy. International Journal of Systematic Bacteriology. 1999;49:1493–511. doi: 10.1099/00207713-49-4-1493. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+19. Brown, B. A., Swenson, J. M. & Wallace, R. J., Jr (1993). Broth microdilution MIC test for rapidly growing mycobacteria. In Clinical Microbiology Procedures Handbook (Isenberg, H. D., Ed.), p. 5.11.11. American Society for Microbiology, Washington, DC, USA. 
+
+20. National Committee for Clinical Laboratory Standards. (2003). Susceptibility Testing of Mycobacteria, Nocardia, and Other Aerobic Actinomycetes — First Edition: Approved Standard M24-A. NCCLS, Villanova, PA, USA. [ PubMed ] 
+
+21. Belisle JT, Sonnenberg MG. Isolation of genomic DNA from mycobacteria. Methods in Molecular Biology. 1998;101:31–44. doi: 10.1385/0-89603-471-2:31. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+22. Stover CK, de la Cruz VF, Fuerst TR, et al. New use of BCG for recombinant vaccines. Nature. 1991;351:456–60. doi: 10.1038/351456a0. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+23. Snapper SB, Melton RE, Mustafa S, et al. Isolation and characterization of efficient plasmid transformation mutants of Mycobacterium smegmatis. Molecular Microbiology. 1990;4:1911–9. doi: 10.1111/j.1365-2958.1990.tb02040.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+24. Baulard A, Jourdan C, Mercenier A, et al. Rapid mycobacterial plasmid analysis by electroduction between Mycobacterium spp. and Escherichia coll. Nucleic Acids Research. 1992;20:4105. doi: 10.1093/nar/20.15.4105. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Altschul SF, Gish W, Miller W, et al. Basic local alignment search tool. Journal of Molecular Biology. 1990;215:403–10. doi: 10.1016/S0022-2836(05)80360-2. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+26. Roberts, M. C. (2003). Nomenclature Center for MLS Genes. [Online.] http://faculty.washington.edu/marilynr/ (4 June 2004, date last accessed). 
+
+27. Truffot-Pernot C, Lounis N, Grosset JH, et al. Clarithromycin is inactive against Mycobacterium tuberculosis. Antimicrobial Agents and Chemotherapy. 1995;39:2827–8. doi: 10.1128/aac.39.12.2827. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Mahairas GG, Sabo PJ, Hickey MJ, et al. Molecular analysis of genetic differences between Mycobacterium bovis BCG and virulent M. bovis. Journal of Bacteriology. 1996;178:1274–82. doi: 10.1128/jb.178.5.1274-1282.1996. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+29. Kuyucu N, Kuyucu S, Ocal B, et al. Comparison of oral erythromycin, local administration of streptomycin and placebo therapy for nonsuppurative Bacillus Calmette-Guerin lymphadenitis. Pediatric Infectious Disease Journal. 1998;17:524–5. doi: 10.1097/00006454-199806000-00020. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+30. Noah PK, Pande D, Johnson B, et al. Evaluation of oral erythromycin and local isoniazid instillation therapy in infants with Bacillus Calmette-Guerin lymphadenitis and abscesses. Pediatric Infectious Disease Journal. 1993;12:136–9. doi: 10.1097/00006454-199302000-00006. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+31. Goraya JS, Virdi VS. Bacille Calmette-Guerin lymphadenitis. Postgraduate Medical Journal. 2002;78:327–9. doi: 10.1136/pmj.78.920.327. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+32. Brown BA, Wallace RJ, Jr, Onyi GO, et al. Activities of four macrolides, including clarithromycin, against Mycobacterium fortuitum, Mycobacterium chelonae, and M. chelonae-like organisms. Antimicrobial Agents and Chemotherapy. 1992;36:180–4. doi: 10.1128/aac.36.1.180. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+33. Livermore DM. Clinical significance of beta-lactamase induction and stable derepression in gram-negative rods. European Journal of Clinical Microbiology. 1987;6:439–45. doi: 10.1007/BF02013107. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+34. Honore N, Nicolas MH, Cole ST. Regulation of enterobacterial cephalosporinase production: the role of a membrane-bound sensory transducer. Molecular Microbiology. 1989;3:1121–30. doi: 10.1111/j.1365-2958.1989.tb00262.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+35. Nash KA. Effect of drug concentration on the emergence of macrolide resistance in Mycobacterium avium. Antimicrobial Agents and Chemotherapy. 2001;45:1607–14. doi: 10.1128/AAC.45.6.1607-1614.2001. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (229.9 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

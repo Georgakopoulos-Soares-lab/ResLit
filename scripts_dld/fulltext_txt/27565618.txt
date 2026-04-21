@@ -1,0 +1,613 @@
+PMID: 27565618
+PMCID: PMC5066362
+DOI: 10.1128/AEM.01754-16
+Title: Diversity of the Tetracycline Mobilome within a Chinese Pig Manure Sample.
+Journal: Applied and environmental microbiology
+PubDate: 2016 Nov 1
+Authors: Leclercq SO, Wang C, Zhu Y, Wu H, Du X, Liu Z, Feng J
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Diversity of the Tetracycline Mobilome within a Chinese Pig Manure Sample - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Appl Environ Microbiol 
+. 2016 Oct 14;82(21):6454–6462. doi: 10.1128/AEM.01754-16 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Diversity of the Tetracycline Mobilome within a Chinese Pig Manure Sample 
+
+Sébastien Olivier Leclercq 
+
+Sébastien Olivier Leclercq 
+
+a State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China 
+
+Find articles by Sébastien Olivier Leclercq 
+
+a , Chao Wang 
+
+Chao Wang 
+
+a State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China 
+
+Find articles by Chao Wang 
+
+a , Yaxin Zhu 
+
+Yaxin Zhu 
+
+a State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China 
+
+Find articles by Yaxin Zhu 
+
+a , Hai Wu 
+
+Hai Wu 
+
+b College of Life Sciences, Hebei University, Baoding, China 
+
+Find articles by Hai Wu 
+
+b , Xiaochen Du 
+
+Xiaochen Du 
+
+a State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China 
+
+Find articles by Xiaochen Du 
+
+a , Zhipei Liu 
+
+Zhipei Liu 
+
+a State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China 
+
+Find articles by Zhipei Liu 
+
+a , Jie Feng 
+
+Jie Feng 
+
+a State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China 
+
+Find articles by Jie Feng 
+
+a, ✉ 
+
+Editor: E G Dudley c 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a State Key Laboratory of Microbial Resources, Institute of Microbiology, Chinese Academy of Sciences, Beijing, China 
+
+b College of Life Sciences, Hebei University, Baoding, China 
+
+c Pennsylvania State University 
+
+✉ 
+Address correspondence to Jie Feng, fengj@im.ac.cn . 
+
+# 
+S.O.L. and C.W. contributed equally to this work. 
+
+Citation Leclercq SO, Wang C, Zhu Y, Wu H, Du X, Liu Z, Feng J. 2016. Diversity of the tetracycline mobilome within a Chinese pig manure sample. Appl Environ Microbiol 82:6454–6462. doi: 10.1128/AEM.01754-16 . 
+
+✉ 
+Corresponding author. 
+
+Roles 
+
+E G Dudley : Editor 
+
+Received 2016 Jun 9; Accepted 2016 Aug 20; Prepublished 2016 Aug 26; Collection date 2016 Nov 1. 
+
+Copyright © 2016, American Society for Microbiology. All Rights Reserved. 
+
+PMC Copyright notice 
+
+PMCID: PMC5066362  PMID: 27565618 
+
+ABSTRACT 
+
+Tetracycline antibiotics are widely used in livestock, and tetracycline resistance genes (TRG) are frequently reported in the manure of farmed animals. However, the diversity of TRG-carrying transposons in manure has still been rarely investigated. Using a culture-free functional metagenomic procedure, combined with large-insert library construction and sequencing, bioinformatic analyses, and functional experiments, we identified 17 distinct TRGs in a single pig manure sample, including two new tet genes: tet (59), encoding a tetracycline efflux pump, and tet (W/N/W), encoding mosaic ribosomal protection. Our study also revealed six new TRG-carrying putative nonconjugative transposons: Tn 5706 -like transposon Tn 6298 , IS 200 / 605 -related transposon Tn 6303 , Tn 3 family transposon Tn 6299 , and three IS CR2 -related transposons, Tn 62300 , Tn 62301 , and Tn 62302 . 
+
+IMPORTANCE Fertilization of agricultural fields with animal manure is believed to play a major role in antibiotic resistance dissemination in the environment. There is growing concern for the possible spread of antibiotic resistance from the environment to humans since genetic resistance determinants may be located in transposons and other mobile genetic elements potentially transferable to pathogens. Among the various antibiotic resistance genes found in manure, tetracycline resistance genes (TRGs) are some of the most common. The present study provides a detailed snapshot of the tetracycline mobilome in a single pig manure sample, revealing an unappreciated diversity of TRGs and potential TRG mobility vectors. Our precise identification of the TRG-carrying units will enable us to investigate in more details their mobility effectiveness. 
+
+INTRODUCTION 
+
+Upon their discovery in the late 1940s, the broad-spectrum efficiency, ease of use, and relatively low price of tetracycline derivatives placed them among the antibiotics of choice for the treatment of infections inside and outside clinics ( 1 , 2 ). Their extensive use soon also brought the development of high-level resistance in most human pathogens, and tetracycline use progressively decayed in hospitals, especially after new broad-spectrum antibiotics became available ( 1 ). More than 40 distinct tetracycline resistance genes (TRGs) have been identified, classified according to the mechanism of action of their encoded proteins: energy-dependent efflux of the drug out of the cell, ribosomal protection (since tetracyclines bind to the 30S ribosomal subunit to inhibit protein translation), and drug inactivation through enzymatic activity ( 3 ). The classical nomenclature has also been challenged by the discovery of mosaic resistance genes resulting from fragment exchange between different genes encoding ribosomal protection ( 4 , 5 ). Like many other antibiotic resistance genes, TRGs are widely and efficiently disseminated among bacteria through mobile genetic elements (MGEs). Most of them can be found on small nonconjugative transposons that are themselves embedded in conjugative plasmids or transposons ( 6 – 10 ). However, despite the fairly good understanding of the genetic basis driving tetracycline resistance accumulated over the last 40 years, new TRGs and new TRG-carrying transposons are still continuously discovered (see http://faculty.washington.edu/marilynr and http://www.ucl.ac.uk/eastman/research/departments/microbial-diseases/tn for the most recent updates). 
+
+Apart from their use in human medicine, tetracycline antibiotics were and are still broadly used in livestock farms. As expected, the prevalence of tetracycline resistance in animals' gut bacterial communities is very high, leading to the dissemination of TRGs and TRG-carrying MGEs to the environment when manure is used as fertilizer to amend arable soil ( 11 , 12 ). In turn, contaminated field soil was proposed to act as a reservoir from which resistance determinants can be transferred to animal or human pathogens ( 11 , 13 ). The TRG pools in manure from various animals have been extensively studied ( 14 – 17 ), and the presence of TRGs on sequenced plasmids isolated from animals' gut bacteria or manure samples is frequently reported ( 18 – 22 ). But surprisingly, the diversity of TRG-carrying MGEs that can be found in manure is still largely overlooked. To our knowledge, only one study is available focusing on the tetracycline mobilome of a given manure sample, i.e., the diversity of TRGs and the MGEs that carry them ( 23 ). 
+
+The present study provides a comprehensive view of the diversity of TRG-carrying MGEs found in a single sample of fresh pig manure, focusing on nonconjugative transposons. By coupling fosmid tetracycline resistance library construction and next-generation sequencing, we confidently identified 17 distinct TRGs, including 2 described here for the first time, along with their genomic context. For 12 of them, location in a complete mobile transposon has been determined, most of them representing as-yet-unknown TRG-transposon associations or even completely new transposons. 
+
+MATERIALS AND METHODS 
+
+Manure sampling and library construction. 
+
+The manure sample originated from a single pen containing 6 to 10 healthy pigs from a medium-scale swine farm (200 to 400 animals) in Beijing, China, sampled in June 2014. The manure was collected by scraping the pen's ground with a clean shovel within the day of excretion, immediately sealed in sterile plastic bags, and then stored at −70°C. The amount and variety of antibiotics administered to the pigs were not provided by the farm, but tetracyclines are part of the standard therapeutic cocktail at most Chinese swine farms ( 2 ). DNA was extracted from 5 g of frozen manure by a standard phenol-chloroform extraction procedure and randomly sheared. Fragments of ∼40 kbp were purified from an electrophoretic gel and inserted into pCCFOS2 vectors carried by the tetracycline-sensitive Escherichia coli EPI-300 host with the CopyControl HTP kit (Epicentre, Madison, WI, USA). The library was then plated onto Luria-Bertani (LB) medium containing tetracycline (100 μg/ml) to select for clones expressing tetracycline resistance. Ninety-one tetracycline-resistant clones were isolated and stored in 30% glycerol for further analysis. 
+
+Sequencing and assembly. 
+
+Vector DNA was extracted from each of the 91 clones independently and pooled in a single solution before being sent for sequencing. The pooled solution was submitted to Beijing Aibijingnuo Gene Technology, Beijing, China, and Shanghai Hanyubio Technology, Shanghai, for Illumina HiSeq 125-bp pair-end sequencing and Pacific Biosciences SMRT sequencing, respectively. Around 3.2 million Illumina read pairs and 150,292 SMRT reads were produced, for a total sequencing effort of ∼1.35 Gbp. Assuming a size of 30 to 40 kb for each insert added to the ∼8.2 kbp of the pCCFOS2 vector, this data set represents a per clone average coverage of 310 to 390×. Four assembly strategies were then concurrently conducted with both sequence data sets. The first assembly consisted of 313 scaffolds produced with the VelvetOptimizer v.2.2.5 wrapper for the Velvet assembly software ( 24 ) on pair-end reads only and optimized for N50/length of longest contig. After filling of the residual gaps with GapFiller v.1.11 ( 25 ) and correction of the assembled scaffolds, this yielded 19 complete inserts, inferred from the presence of vector sequence at each boundary. The second assembly was built from the PacBio sequences only with the RS_HGAP_Assembly.2 protocol ( 26 ) of the SMRT Portal v.2.3.0 software (Pacific Biosciences, Menlo Park, CA, USA) by using standard parameters. Around 120 contigs were produced, from which 10 additional complete inserts were recovered. For the third assembly, we ran the PBcR algorithm implemented in the CA assembler ( 27 ), which first corrects SMRT reads with the paired-end read data set and then uses the corrected reads to build an assembly. With a partition option of 50 and a minimal output length option of 500 bp, this strategy yielded one additional complete insert out of the 74 contigs produced. The last strategy consisted of a homemade algorithm with the 21,424 corrected reads produced by the PBcR algorithm and specifically designed to assemble pooled fosmid inserts. Briefly, reads carrying the vector (pCCFOS2) sequence adjacent to the insertion site were used as seeds and sequentially enlarged in the direction of the insert by using other reads, from the longest to the shortest. New reads completely overlapping one of these combined contigs were discarded. When all of the reads were screened, contigs seeded from the 5′ and 3′ boundaries of the insertion site were assembled to recover full inserts. This strategy successfully returned 11 additional complete insert sequences, including those carrying genes highly repeated in our pooled library (plasmid, transposon, and insertion sequence [IS] mobility genes, as well as resistance genes). Illumina pair-end reads were finally mapped back on each complete insert sequence independently to check for and correct possible misassemblies. Unclear mapped regions were also corrected by PCR and sequencing directly from the vector DNA extracted from clones before pooling. 
+
+Insert sequence annotation and genomic/taxonomic origin inference. 
+
+Complete insert sequences were first annotated with the PROKKA pipeline v1.10 ( 28 ) with an E value of 0.0001 and the bacterial genetic code and without tRNA and rRNA detection. Antibiotic resistance gene annotations were then recovered with the Resistance Gene Identifier v2.0 online interface ( 29 ). Inserts carrying a putative TRG annotation were then selected for a more in-depth annotation. This consisted of systematic BLASTP comparisons of each coding sequence-encoded protein sequence against the RefSeq database and the ACLAME database ( 30 ) to recover better functional annotation and against the ISFINDER database ( 31 ) in the case of proteins initially annotated as transposases, integrases, recombinases, or resolvases. IS and transposon terminal inverted repeats (TIRs), direct repeats (DRs), and other features were tentatively identified by comparisons of insert sequences or comparisons with known published elements. An insert's genomic origin (chromosome, plasmid, or phage/prophage) was inferred from the annotation of genes found outside detected transposons or transposon fragments and from sequence comparison with the GenBank NR database. Inserts carrying plasmid-related mobility genes and/or with high sequence similarity to known plasmids were considered to be of plasmid origin. Inserts carrying phage-related mobility genes and/or with high sequence similarity to known phages were considered to be of phage/prophage origin. Inserts carrying no obvious plasmid or phage gene and carrying typical chromosomal genes were considered to be of chromosomal origin. Finally, inserts carrying both chromosomal and plasmid or phage genes were considered to be of unclear origin. An insert's taxonomic origin was inferred from comparison of the protein sequence of each gene found outside detected transposons with the GenBank NR database. The dominant taxonomic family over the 20 best hits for most genes was selected as the probable taxonomic origin. When the probable taxonomic origin could not be inferred at the family level without ambiguity, the lowest dominant taxonomic level was chosen. 
+
+Digestion analysis. 
+
+Each extracted vector DNA was subjected to digestion analysis to assess the insert diversity of our library. Sixteen microliters of DNA was incubated for 45 min at 37°C with 1 μl of EcoRI, 1 μl of SphI, and 2 μl of buffer H and then allowed to migrate for 40 min at 110 V in a 1% agarose gel. Both the enzyme solutions and the buffer were bought from TaKaRa China. The EcoRI and SphI enzymes were selected because they cut the pCCFOS2 vector sequence close to the insertion site only, leading to an easily identifiable 8-kbp band in all clone migrations, and because they produced an exploitable number of bands for most of the clones. 
+
+Construction of tet (59) and tet (W/N/W) expression vectors. 
+
+tet (59) and tet (W/N/W) were amplified by PCR from IN-02 and IN-13 clones with the EasyPfu DNA polymerase (TransGen, Beijing, China). The primers used are listed in Table 1 . Each clone DNA sample was heat denatured (5 min at 94°C) prior to amplification, and the PCR program was set up as follows: 30 s at 94°C, 30 s at 55°C, and 1 min 20 s [ tet (59)] or 4 min 30 s [ tet (W/N/W)] at 72°C for 30 cycles, followed by further incubation at 72°C for 10 min. The correct PCR product size was confirmed by electrophoresis through a 1.5% (wt/vol) agarose gel. PCR products were then cloned into the pUC18 vector according to the insertion sites provided in Table 1 . E. coli K-12 JW0451-2 and E. coli DH5α were transformed with these recombinant plasmids, and clones were selected by blue-white screening on LB agar plates supplemented with 100 μg/ml ampicillin. The presence of the correct inserted fragment into transformed hosts was confirmed by sequencing. 
+
+TABLE 1. 
+
+Primer sequences and insertion sites used to clone tet (59) and tet (W/N/W) into pUC18 
+
+Primer Sequence (5′-3′) Inserted site tet (59)F GGATCCAAGAAGGAGATATACATGAATAAATTTGCGATCACC BamHI tet (59)R AAGCTTATAGGGGTATCATAGCACTTAAT HindIII tet (W/N/W)F ACGCGCATGCGAGGGTGTCCCGGTGAAT SphI tet (W/N/W)R ACGCGGATCCCAATAACCATCCTTGCTGTGG BamHI 
+
+Open in a new tab 
+
+Bacterial strains and culture conditions for tet (59) and tet (W/N/W) expression. 
+
+E. coli K-12 JW0451-2, a derivative of E. coli K-12 susceptible to erythromycin because of inactivation of the acrB pump ( 32 ), was used as the expression host in erythromycin resistance tests. E. coli DH5α was used as the expression host in tests of resistance to other antibiotics. These E. coli strains were grown on LB agar plates at 37°C for 16 to 18 h. The resistance phenotype was determined by the microdilution method for oxytetracycline (0.25 to 512 μg/ml), chlortetracycline (0.125 to 256 μg/ml), tetracycline (0.5 to 1024 μg/ml), minocycline (0.125 to 256 μg/ml), tigecycline (0.125 to 256 μg/ml), chloramphenicol (0.5 to 1024 μg/ml), kanamycin (0.5 to 1024 μg/ml), nalidixic acid (0.125 to 256 μg/ml), and erythromycin (0.125 to 256 μg/ml); gene expression was induced with 1 mM isopropyl-β- d -thiogalactopyranoside (IPTG), as recommended by CLSI ( http://www.clsi.org/ ). 
+
+Accession number(s). 
+
+Genomic sequences of the tet -carrying inserts analyzed in this study were deposited in GenBank under accession numbers KU736866 to KU736879 . 
+
+RESULTS AND DISCUSSION 
+
+Forty-one complete insert sequences were successfully assembled from the 91 clones expressing a tetracycline resistance phenotype. Digestion patterns of vector DNA extracted from the clones revealed abundant redundancy and suggested that the 41 recovered insert sequences represented the whole library insert diversity. Fifteen of them, ranging from 11 to 41 kb, carried a recognizable tet gene and were thoroughly annotated ( Table 2 ). Two inserts, IN-09 and IN-15, overlap completely and are considered a single insert here to avoid redundancy. An insert's genomic origin was estimated by gene annotation and protein BLAST comparison against the GenBank database. Five of them could confidently be assigned a chromosomal origin, four a plasmid origin, and two a phage origin; there were three whose original location was unclear ( Table 2 ). Three inserts most probably originated from Alcaligenaceae taxa ( Betaproteobacteria ), three others from Pseudomonadaceae taxa ( Gammaproteobacteria ), and two from unidentified Gammaproteobacteria and Proteobacteria taxa, respectively ( Table 2 ). Some inserts also probably originated from Firmicutes , with three of them most closely related to Clostridiales sequences and two others to Lactobacilliales sequences. Finally a last insert showed the best sequence homology with the plasmid of an Eggerthellaceae taxon ( Actinobacteria ). The wide range of inferred taxonomic origins, with many only distantly related to cultivable taxa, and the high number of inserts suspected to be of chromosomal origin indicate that our methodology is suitable for the discovery of new transposons carrying antibiotic resistance genes, which could not have been captured with culture-based or plasmid extraction procedures only. 
+
+TABLE 2. 
+
+Statistics of the 14 TRG-carrying inserts 
+
+Insert Size (bp) Tetracycline determinant Transposon Inferred genomic location Inferred taxonomic origin Ribosomal protection Efflux pump IN-01 37,967 tet (H) Tn 6298 b Chromosome Alcaligenaceae IN-02 32,369 tet (W/N/W) a ATE-1 b Prophage Clostridiales IN-03 32,195 tet (A) Disrupted Tn 1721 b Unclear Alcaligenaceae IN-04 11,065 tet (W) Unclear Unclear Clostridiales IN-05 34,131 tet (W) Unclear Plasmid Eggerthellaceae IN-06 32,390 tet (O) tet (40) Unclear Prophage Clostridiales IN-07 27,439 tet (O/W/32/O) tet (L) Composite IS 1216 Plasmid Lactobacilliales IN-08 27,734 tet (O/W/32/O) tet (L) Composite IS 1216 Plasmid Lactobacilliales IN-09/15 34,994 tet (A) Tn 6303 Chromosome Pseudomonadaceae IN-10 40,813 tet (Y) Tn 6299 Chromosome Pseudomonadaceae IN-11 38,112 tet (31) Tn 6300 Plasmid Proteobacteria IN-12 33,220 tet (Y) Tn 6301 Chromosome Pseudomonadaceae IN-13 29,137 tet (59) a Tn 6302 Chromosome Alcaligenaceae IN-14 34,226 tet (59) a Tn 6302 Unclear Proteobacteria 
+
+Open in a new tab 
+
+a 
+New tet genes described in this study. 
+
+b 
+Known tet -transposon association. 
+
+Diversity of known tet genes and characterization of new tet genes. 
+
+A total of 14 known tet genes were retrieved, with 9 genes coding for drug efflux pumps and 5 genes coding for ribosomal protection ( Table 2 ). Inserts generally carried a single tet gene, except three of them in which two tet genes were placed one after the other, with a ribosomal protection type followed by an efflux pump type. In addition to these 14 already described tet genes, we identified three genes with substantial similarity to known tet genes. The first two, found on IN-13 and IN-14, are identical and share 65% amino acid identity with tet (D), the closest described gene in GenBank. This new tet gene, named tet (59), provided specific resistance to most tetracycline antibiotic types except minocycline and tigecycline ( Table 3 ). In both inserts, tet (59) is preceded by a homolog of the tetracycline repressor tetR typically found upstream of tet genes encoding efflux pumps and include the two palindromic operator sequences present in all regulatory regions of the tet (A)- tet (R) family ( 33 ), suggesting that tet (59) probably belongs to the efflux pump family as well. 
+
+TABLE 3. 
+
+MICs of E. coli hosts expressing the putative tet genes 
+
+Antibiotic MIC (μg/ml) for: Wild type a tet (59) mutant tet (W/N/W) mutant Oxytetracycline 2 16 16 Chlortetracycline 1 128 64 Tetracycline 1–2 128 32 Minocycline 1 2 64 Tigecycline 0.25 0.5 0.25 Chloramphenicol 8 8 8 Kanamycin 8 8 8 Nalidixic acid 1 1 1 Erythromycin b 16 16 16 
+
+Open in a new tab 
+
+a 
+E. coli DH5α/pUC18. 
+
+b 
+Erythromycin-sensitive E. coli K-12 strain JW0451-2 was used as the host for erythromycin MIC determination. 
+
+The second new tet gene is found in insert IN-02 and shares 96% amino acid identity with tet (W). However, a closer look at the sequence alignment revealed that the differences are not evenly distributed, with most of the protein sequence being more than 97% identical between the two proteins while a small region of 69 amino acid in the middle shows only 74% identity. This region does not show better sequence identity with any of the other known tet genes and thus probably represents a portion of a still unknown tet determinant, combined with tet (W) to form a new mosaic tet gene. According to the nomenclature currently in use for mosaic tet genes ( 4 , 5 ), the name tet (W/N/W) was assigned to this gene. tet (W/N/W) provides tetracycline-specific resistance when cloned into an E. coli vector ( Table 3 ). Like all other tet (W)-based mosaic genes, tet (W/N/W) probably belongs to the ribosomal protection class of tet genes. Interestingly, 35 sequences from GenBank matched the 69-amino-acid tet (N) central region with more similarity than they matched the same region of tet (W). All of these sequences are currently annotated as tet (W), since amino acid sequences they encode were more than 80% similar to those encoded by tet (W) in the whole protein alignment. Therefore, all of these hits actually represent previously sequenced tet (W/N/W) mosaic genes misannotated as tet (W). Such results suggest that since most TRGs in public databases are annotated according to the sequence similarity along the whole protein, some other mosaic genes have probably already been sequenced but not yet described. 
+
+The diversity of transposons carrying tet genes. 
+
+The mobility potential of the detected tet genes was then investigated by analyzing their genomic context in detail. Twelve of them are located in putative complete transposons, with only two for which the association has already been described (or with related transposons) ( Table 2 ). No complete transposon could be identified from the genomic context of the five remaining tet genes, but comparisons with available sequences from GenBank provided some clues about their mobility potential. Only one of them showed an association with a known transposon. In the following, we will first describe the complete and incomplete transposons already known to carry tet genes and then we will focus on tet genes with an unclear mobility pattern and finish with TRG-carrying complete transposons that have not been reported yet. 
+
+The diversity of transposons carrying tet genes—the known. 
+
+The first structure similar to a known transposon is the novel tet (H)-carrying transposon Tn 6298 , a derivative of transposon Tn 5706 ( 34 ), found on insert IN-01. Unlike Tn 5706 , Tn 6298 includes only a single copy of IS 1596 and the tetR repressor gene is truncated ( Fig. 1A ). Tn 6298 shows hallmarks of mobility; it is bounded by 7-pb DRs also detected at the boundary of reference transposon Tn 5706 ( 34 ), and its upstream and downstream regions in IN-01 are 55 to 85% identical at the amino acid level to a contiguous region in the Pelistega sp. strain HM-7 draft genome sequence ( Fig. 1A ). The genomic organization in IN-01 thus probably resulted from direct insertion of Tn 6298 into the chromosome of an unknown member of the family Alcaligenaceae . 
+
+FIG 1. 
+
+Open in a new tab 
+
+Genomic organization of inserts with a known or unclear tet -MGE association and comparison with related sequences available in GenBank. Vertical black bars represent mobile element IRs. Gray shading represents similarity at the nucleotide level; purple shading represents similarity at the amino acid level. Only information stated in the text and the names of resistance genes and ISs are displayed. Acc., accession number. 
+
+The mosaic tet (W/N/W) gene characterized above was also initially reported in a mobilizable element called ATE-1 ( 35 ). A comparison of the original ATE-1 element of Trueperella ( Arcanobacterium ) pyogenes with insert IN-02 revealed extensive sequence homology upstream of tet (W/N/W), including the mob gene and the oriT region known to be essential for ATE-1 mobility ( 35 ), as well as a putative integrase ( Fig. 1B ). Interestingly, a BLASTN search for insert IN-02 in the NCBI Whole Genome Shotgun nucleotide sequence database returned a region of the draft genome of Mitsuokella jalaludinii with 98% similarity to the first 8 kbp of previously described ATE-1 ( Fig. 1B ). No other part of IN-02 showed any homology with the M. jalaludinii draft genome, suggesting that this 8-kbp region can be a variation of the mobile ATE-1 element described in T. pyogenes . 
+
+The last TRG that shows a known association with a transposon is tet (A) in IN-03. The gene and its associated tetR regulator are included in a 3.7-kbp region 99% similar to Tn 1721 , a Tn 3 -like transposon involved in tet (A) mobility in Gammaproteobacteria ( 9 ) ( Fig. 1C ). However, the Tn 1721 mobility module (the transposase tnpA and the resolvase tnpR ) have been here replaced with those of Tn 6162 , another Tn 3 -like transposon only 90% similar to Tn 1721 in this region at the nucleotide level. Another part of Tn 6162 , the orfABCD operon, is also found downstream of the tetR-tet (A) block in IN-03, but the organization is not consistent with those of the complete sequence of Tn 6162 . This suggests that the structure observed in IN-03 is the result of several transposition/rearrangement events shuffling the various transposon modules and may not be mobile per se . 
+
+The diversity of transposons carrying tet genes—the unclear. 
+
+Among the tet genes with no known associated transposons, four [the two tet (W) genes and the tandem tet (O) +tet (40) genes] are located close to insert boundaries ( Fig. 1D and E ), preventing any definitive conclusion about their mobility potential. However, each of them is included in genomic regions potentially belonging to as-yet-uncharacterized mobile elements. For instance, the tet (W) gene in insert IN-04 is followed by a gene encoding an S -adenosylmethionine-dependent methyltransferase. This association is a common feature of most of the tet (W) genes sequenced to date ( 36 ) and seems to represent the 5′ end of an 11.3-kbp element found in various members of the orders Clostridiales and Burkholderiales ( Fig. 1D ). Of the 11 or 12 open reading frames located in this element, 4 encode putative plasmid mobility proteins. Although tet (W) in IN-05 is not followed by the characteristic methyltransferase found in the other sequences, the 5′ boundary of the 11.3-kbp element can be identified upstream of the gene ( Fig. 1D ). The region directly upstream of the 11.3-kbp element boundary in IN-04 and IN-05 did not provided any additional clue about the mobility of this element, with no relevant nucleotide sequence similarity to the GenBank database. Altogether, these observations suggest that tet (W) genes located in IN-04 and IN-05 are or were both part of a small, integrative, nonconjugative plasmid that was disseminated in a wide range of host bacteria. 
+
+The tet (O) +tet (40) tandem sequence is included in insert IN-06 in a 5-kbp region 98% identical to a region of the Streptococcus suis SC070731 chromosome ( Fig. 1E ). This region starts with tnpV , a gene found in Clostridiales transposons encoding a small protein of unknown function ( 37 ) and ends with sigB , a gene encoding an RNA polymerase sigma factor. The same sequence, lacking only the tet (40) gene, is also present in an unrelated region of the Clostridium cellulovorans 743B chromosome. This structure may thus represent the minimal element triggering tet (O) +tet (40) mobility. However, comparison with the sequence in which tet (40) was originally described, originating from a human gut bacterial community clone library ( 38 ), is not consistent with this hypothesis. In this sequence, tet (O/32/O) replaces the tet (O), tnpV is lacking, and the homology of the downstream sequence with the S. suis chromosome runs for an additional 1 kb ( Fig. 1E ). It is not clear whether these discrepancies result from inconsistent transposition events or from postinsertion rearrangements, and experimental assays may be required to clarify the exact boundaries of the mobile unit. 
+
+The diversity of transposons carrying tet genes—the new transposons. 
+
+The tet (O/W/32/O)+ tet (L) tandem arrangement is detected in two inserts, IN-07 and IN-08, ∼70% of whose nucleotide sequences are >99% similar but organized differently ( Fig. 2A ). In IN-08, the central region of IN-07, which includes tet (O/W/32/O)+ tet (L), was replaced with a sequence carrying the lincosamide-streptogramin resistance gene lsaA . The replacement took place between two IS 1216 elements, suggesting that tet (O/W/32/O)+ tet (L) in IN-07 and lsaA in IN-08 are part of two independent IS 1216 composite transposons inserted in the same original location. IS 1216 elements are related to IS 26 elements, which can be inserted into previously existing IS 26 though site-specific recombination ( 39 , 40 ). The two IS 1216 composite transposons observed here may thus have been inserted independently into the same original IS 1216 element by a similar process. In IN-08, the tet (O/W/32/O)+ tet (L) block is located at the insert's 3′ end and is preceded by a region almost identical to those found in IN-07. The similarity ends again at an IS 1216 boundary ( Fig. 2A ), suggesting that this structure is probably a derivative of the composite transposon observed in IN-07. 
+
+FIG 2. 
+
+Open in a new tab 
+
+Genomic organization of inserts including new tet -carrying transposons and comparison with related sequences available in GenBank. Gray shading represents similarity at the nucleotide level. Only information stated in the text and the names of resistance genes and ISs are displayed. Acc., accession number. 
+
+In insert IN-09/15, tet (A) is included in a new transposon, Tn 6303 , composed of an IS of the IS 200 /IS 605 family (26% amino acid sequence identity with the IS 605 reference protein) and a 3-kbp region including the tetR-tet (A) block and a truncated resolvase-encoding gene, Δ res ( Fig. 2B ). This 3-kbp region shows 87% nucleotide similarity to a sequence found in an Aeromonas salmonicida plasmid and other various Gammaproteobacteria and was probably captured by the IS element. The ∼25-kbp sequence surrounding Tn 6303 in IN-09/15 is 96% identical at the nucleotide level to a contiguous chromosomal region in Pseudomonadaceae bacterium C6819, providing evidence of insertion ( Fig. 2B ). IS elements from the IS 200 /IS 605 family transpose through an unusual single-stranded-DNA-mediated mechanism described only recently ( 41 ) and are not known to capture additional DNA. Since this IS family is common in some pathogens present in the digestive tracts of humans, like Salmonella species and Helicobacter pylori ( 42 , 43 ), its potential involvement in antibiotic resistance mobilization deserves further attention. 
+
+Another new TRG-carrying transposon in our data set is represented by Tn 6299 in insert IN-10. This element, which includes the tet (Y) gene, carries complete Tn 3 -like transposase tnpA and resolvase tnpR genes and is precisely inserted in a genomic context 60 to 85% homologous at the nucleotide level to a chromosomal region of an uncharacterized Pseudomonadaceae species ( Fig. 2C ). Characteristic 33/34-bp IRs are present at each transposon's boundary, and 5-bp DRs can be observed at the insertion site, strongly supporting the completeness and mobility potential of this element. Tn 6299 is a multiresistance transposon with florfenicol ( floR ), aminoglycoside ( strA and strB ), and sulfonamide ( sul1 ) antibiotic resistance genes in addition to tet (Y). A full-length copy of the class I integron integrase intI1 is also present on the transposon but is probably not functional since the attI sequence necessary for cassette insertion is disrupted. 
+
+The tet genes in the last four inserts are located in a new family of transposons, related to IS CR2 transposases ( 44 ). All of these transposons are composed of the IS CR2 transposase tnpA on one side and of the sulfonamide resistance gene sul2 on the other side ( Fig. 2D ). Other than this, the inner regions of these elements are completely unrelated. Tn 6300 , on insert IN-11, carries the TRG gene tet (31), while Tn 6301 on insert IN-12 carries tet (Y) and Tn 6302 in IN-13 and IN-14 carries the novel tet (59) gene described above. Tn 6300 and Tn 6302 also have the truncated phosphoglucosamine mutase gene Δ glmM frequently reported in the vicinity of IS CR2 transposases ( 44 ). For its part, Tn 6301 is a multiresistance transposon with the streptomycin resistance genes strA and strB and the florfenicol resistance gene floR in addition to tet (Y) and sul2 . A BLASTN search in GenBank revealed the presence of Tn 6300 in the Pseudomonadaceae bacterium E5571 chromosome and the presence of Tn 6301 in plasmid pAb559 of Aeromonas bestiarum . In both cases, the sequence similarity extends from 119 bp downstream of tnpA to 304 bp upstream of sul2 , with more than 99% nucleotide sequence identity ( Fig. 2D ). No additional copy of Tn 6302 was found in the databases, but when the transposon is compared to Tn 6300 or Tn 6301 of A. bestiarum , the sequence similarity starts and ends at the exact same 119th and 304th nucleotides downstream and upstream of the tnpA and sul2 genes, respectively ( Fig. 2D ). Further upstream and downstream genomic contexts are, in all cases, completely unrelated, suggesting that these conserved regions are the actual boundaries of this family of transposons. IS CR (IS common region) elements are ISs of the IS 91 family and probably transpose through rolling-circle replication, although their mobility has never been demonstrated ( 44 ). Rolling-circle transposition usually involves replication of the element from an oriIS site downstream of the transposase to a tetIS site upstream of the transposase and integration of the synthesized molecule at a new genomic location ( 45 ). The terIS site previously suspected for IS CR2 ( 44 ) matches the end of the downstream 119-bp conserved region found in our inserts, but we could not detect the IS CR2 -inferred oriIS sequence ( 44 ), or any sequence sharing some homology, inside the upstream 304-bp conserved region. This suggests that the IS CR2 transposase may somehow recognize a completely unrelated oriIS sequence or that the hypothesis of transposition by rolling-circle replication may not be relevant for this transposon. 
+
+Conclusion. 
+
+The large number of new TRG-carrying transposons and novel tet genes described in this study clearly shows that our knowledge of the antibiotic resistance mobilome is still far from complete, even for a very common class of antibiotics and despite several decades of intense experimental and sequencing efforts. The detailed characterization reported here for the newly identified elements also paves the way for future research. First, although most of them show a clear pattern of transposition, their mobility effectiveness has not been demonstrated. In vitro transposition experiments are required to assess their TRG dissemination potential. Next, investigating the prevalence of these elements in various habitats, such as other manure samples or other host bacterial communities, will enlighten us about their potential role in the spread of tetracycline resistance in the environment. 
+
+ACKNOWLEDGMENTS 
+
+This work was supported by grants from the National Science and Technology Support Program of China (2013BAD21B02-04) and the National Natural Science Foundation of China (31450110073) and a fellowship for young international scientists from the Chinese Academy of Sciences (2013Y2SB0004). 
+
+REFERENCES 
+
+1. Thaker M, Spanogiannopoulos P, Wright GD. 
+2010. 
+The tetracycline resistome. Cell Mol Life Sci
+67:419–431. doi: 10.1007/s00018-009-0172-6. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+2. Center for Disease Dynamics, Economics & Policy. 2015. 
+State of the world's antibiotics, 2015. Center for Disease Dynamics, Economics & Policy, Washington, DC. [ Google Scholar ] 
+
+3. Roberts MC.
+2011. 
+Environmental macrolide-lincosamide-streptogramin and tetracycline resistant bacteria. Front Microbiol
+2:40. doi: 10.3389/fmicb.2011.00040. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+4. Stanton TB, Humphrey SB, Scott KP, Flint HJ. 
+2005. 
+Hybrid tet genes and tet gene nomenclature: request for opinion. Antimicrob Agents Chemother
+49:1265–1266. doi: 10.1128/AAC.49.3.1265-1266.2005. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Levy SB, McMurry LM, Roberts MC. 
+2005. 
+Tet protein hybrids. Antimicrob Agents Chemother
+49:3099. doi: 10.1128/AAC.49.7.3099.2005. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Burrus V, Pavlovic G, Decaris B, Guédon G. 
+2002. 
+Conjugative transposons: the tip of the iceberg. Mol Microbiol
+46:601–610. doi: 10.1046/j.1365-2958.2002.03191.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Smillie C, Garcillán-Barcia MP, Francia MV, Rocha EPC, de la Cruz F. 
+2010. 
+Mobility of plasmids. Microbiol Mol Biol Rev
+74:434–452. doi: 10.1128/MMBR.00020-10. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Scott KP.
+2002. 
+The role of conjugative transposons in spreading antibiotic resistance between bacteria that inhabit the gastrointestinal tract. Cell Mol Life Sci
+59:2071–2082. doi: 10.1007/s000180200007. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Partridge SR.
+2011. 
+Analysis of antibiotic resistance regions in Gram-negative bacteria. FEMS Microbiol Rev
+35:820–855. doi: 10.1111/j.1574-6976.2011.00277.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+10. Giovanetti E, Brenciani A, Tiberi E, Bacciaglia A, Varaldo PE. 
+2012. 
+ICE Sp2905 , the erm (TR)- tet (O) element of Streptococcus pyogenes, is formed by two independent integrative and conjugative elements. Antimicrob Agents Chemother
+56:591–594. doi: 10.1128/AAC.05352-11. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Chee-Sanford JC, Mackie RI, Koike S, Krapac IG, Lin Y, Yannarell AC, Maxwell S, Aminov RI. 
+2009. 
+Fate and transport of antibiotic residues and antibiotic resistance genes following land application of manure waste. J Environ Qual
+38:1086–1108. doi: 10.2134/jeq2008.0128. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+12. Heuer H, Schmitt H, Smalla K. 
+2011. 
+Antibiotic resistance gene spread due to manure application on agricultural fields. Curr Opin Microbiol
+14:236–243. doi: 10.1016/j.mib.2011.04.009. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+13. Wellington EMH, Boxall AB, Cross P, Feil EJ, Gaze WH, Hawkey PM, Johnson-Rollings AS, Jones DL, Lee NM, Otten W, Thomas CM, Williams AP. 
+2013. 
+The role of the natural environment in the emergence of antibiotic resistance in Gram-negative bacteria. Lancet Infect Dis
+13:155–165. doi: 10.1016/S1473-3099(12)70317-1. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+14. Hund-Rinke K, Simon M, Lukow T. 
+2004. 
+Effects of tetracycline on the soil microflora: function, diversity, resistance. J Soils Sediments
+4:11–16. doi: 10.1007/BF02990823. [ DOI ] [ Google Scholar ] 
+
+15. Schmitt H, Stoob K, Hamscher G, Smit E, Seinen W. 
+2006. 
+Tetracyclines and tetracycline resistance in agricultural soils: microcosm and field studies. Microb Ecol
+51:267–276. doi: 10.1007/s00248-006-9035-y. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+16. Peng S, Wang Y, Zhou B, Lin X. 
+2015. 
+Long-term application of fresh and composted manure increase [sic] tetracycline resistance in the arable soil of eastern China. Sci Total Environ
+506-507:279–286. doi: 10.1016/j.scitotenv.2014.11.010. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+17. Leclercq SO, Wang C, Sui Z, Wu H, Zhu B, Deng Y, Feng J. 
+27
+April
+2016. 
+A multiplayer game: species of Clostridium, Acinetobacter, and Pseudomonas are responsible for the persistence of antibiotic resistance genes in manure-treated soils. Environ Microbiol doi: 10.1111/1462-2920.13337. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+18. Heuer H, Kopmann C, Binh CTT, Top EM, Smalla K. 
+2009. 
+Spreading antibiotic resistance through spread manure: characteristics of a novel plasmid type with low %G+C content. Environ Microbiol
+11:937–949. doi: 10.1111/j.1462-2920.2008.01819.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+19. Heuer H, Binh CTT, Jechalke S, Kopmann C, Zimmerling U, Krögerrecklenfort E, Ledger T, González B, Top E, Smalla K. 
+2012. 
+IncP-1ε plasmids are important vectors of antibiotic resistance genes in agricultural systems: diversification driven by class 1 integron gene cassettes. Front Microbiol
+3:2. doi: 10.3389/fmicb.2012.00002. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. Fernández-Alarcón C, Singer RS, Johnson TJ. 
+2011. 
+Comparative genomics of multidrug resistance-encoding IncA/C plasmids from commensal and pathogenic Escherichia coli from multiple animal sources. PLoS One
+6:e23415. doi: 10.1371/journal.pone.0023415. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+21. Rahube TO, Yost CK. 
+2012. 
+Characterization of a mobile and multiple resistance plasmid isolated from swine manure and its detection in soil after manure application. J Appl Microbiol
+112:1123–1133. doi: 10.1111/j.1365-2672.2012.05301.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+22. Hooton SPT, Timms AR, Cummings NJ, Moreton J, Wilson R, Connerton IF. 
+2014. 
+The complete plasmid sequences of Salmonella enterica serovar Typhimurium U288. Plasmid
+76:32–39. doi: 10.1016/j.plasmid.2014.08.002. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+23. Kazimierczak KA, Scott KP, Kelly D, Aminov RI. 
+2009. 
+Tetracycline resistome of the organic pig gut. Appl Environ Microbiol
+75:1717–1722. doi: 10.1128/AEM.02206-08. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+24. Zerbino DR, Birney E. 
+2008. 
+Velvet: algorithms for de novo short read assembly using de Bruijn graphs. Genome Res
+18:821–829. doi: 10.1101/gr.074492.107. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Boetzer M, Pirovano W. 
+2012. 
+Toward almost closed genomes with GapFiller. Genome Biol
+13:R56. doi: 10.1186/gb-2012-13-6-r56. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+26. Chin C, Alexander DH, Marks P, Klammer AA, Drake J, Heiner C, Clum A, Copeland A, Huddleston J, Eichler EE, Turner SW, Korlach J. 
+2013. 
+Nonhybrid, finished microbial genome assemblies from long-read SMRT sequencing data. Nat Methods
+10:563–569. doi: 10.1038/nmeth.2474. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+27. Koren S, Schatz MC, Walenz BP, Martin J, Howard JT, Ganapathy G, Wang Z, Rasko DA, McCombie WR, Jarvis ED, Phillippy AM. 
+2012. 
+Hybrid error correction and de novo assembly of single-molecule sequencing reads. Nat Biotechnol
+30:693–700. doi: 10.1038/nbt.2280. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Seemann T.
+2014. 
+Prokka: rapid prokaryotic genome annotation. Bioinformatics
+30:2068–2069. doi: 10.1093/bioinformatics/btu153. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+29. McArthur AG, Waglechner N, Nizam F, Yan A, Azad MA, Baylay AJ, Bhullar K, Canova MJ, De Pascale G, Ejim L, Kalan L, King AM, Koteva K, Morar M, Mulvey MR, O'Brien JS, Pawlowski AC, Piddock LJV, Spanogiannopoulos P, Sutherland AD, Tang I, Taylor PL, Thaker M, Wang W, Yan M, Yu T, Wright GD. 
+2013. 
+The comprehensive antibiotic resistance database. Antimicrob Agents Chemother
+57:3348–3357. doi: 10.1128/AAC.00419-13. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+30. Leplae R, Lima-Mendez G, Toussaint A. 
+2010. 
+ACLAME: A CLAssification of Mobile genetic Elements, update 2010. Nucleic Acids Res
+38:D57–D61. doi: 10.1093/nar/gkp938. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+31. Siguier P, Perochon J, Lestrade L, Mahillon J, Chandler M. 
+2006. 
+ISfinder: the reference centre for bacterial insertion sequences. Nucleic Acids Res
+34:D32–D36. doi: 10.1093/nar/gkj014. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+32. Baba T, Ara T, Hasegawa M, Takai Y, Okumura Y, Baba M, Datsenko KA, Tomita M, Wanner BL, Mori H. 
+2006. 
+Construction of Escherichia coli K-12 in-frame, single-gene knockout mutants: the Keio collection. Mol Syst Biol
+2:2006.0008. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+33. Hillen W, Berens C. 
+1994. 
+Mechanisms underlying expression of Tn 10 encoded tetracycline resistance. Annu Rev Microbiol
+48:345–369. doi: 10.1146/annurev.mi.48.100194.002021. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+34. Kehrenberg C, Werckenthin C, Schwarz S. 
+1998. 
+Tn 5706 , a transposon-like element from Pasteurella multocida mediating tetracycline resistance. Antimicrob Agents Chemother
+42:2116–2118. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+35. Billington SJ, Jost BH. 
+2006. 
+Multiple genetic elements carry the tetracycline resistance gene tet (W) in the animal pathogen Arcanobacterium pyogenes. Antimicrob Agents Chemother
+50:3580–3587. doi: 10.1128/AAC.00562-06. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+36. Kazimierczak KA, Flint HJ, Scott KP. 
+2006. 
+Comparative analysis of sequences flanking tet (W) resistance genes in multiple species of gut bacteria. Antimicrob Agents Chemother
+50:2632–2639. doi: 10.1128/AAC.01587-05. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+37. Adams V, Lyras D, Farrow KA, Rood JI. 
+2002. 
+The clostridial mobilisable transposons. Cell Mol Life Sci
+59:2033–2043. doi: 10.1007/s000180200003. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+38. Kazimierczak KA, Rincon MT, Patterson AJ, Martin JC, Young P, Flint HJ, Scott KP. 
+2008. 
+A new tetracycline efflux gene, tet (40), is located in tandem with tet (O/32/O) in a human gut firmicute bacterium and in metagenomic library clones. Antimicrob Agents Chemother
+52:4001–4009. doi: 10.1128/AAC.00308-08. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+39. Harmer CJ, Moran RA, Hall RM. 
+2014. 
+Movement of IS 26 -associated antibiotic resistance genes occurs via a translocatable unit that includes a single IS 26 and preferentially inserts adjacent to another IS 26 . mBio
+5:e01801-14. doi: 10.1128/mBio.01801-14. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+40. He S, Hickman AB, Varani AM, Siguier P, Chandler M, Dekker JP, Dyda F. 
+2015. 
+Insertion sequence IS 26 reorganizes plasmids in clinically isolated multidrug-resistant bacteria by replicative transposition. mBio
+6:e00762-15. doi: 10.1128/mBio.00762-15. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+41. He S, Corneloup A, Guynet C, Lavatine L, Caumont-Sarcos A, Siguier P, Marty B, Dyda F, Chandler M, Ton Hoang B. 
+2014. 
+The IS 200 / 605 family and “peel and paste” single-strand transposition mechanism, p 891–904. In Craig NL, Chandler M, Gellert M, Lambowitz AM, Rice PA, Sandmeyer SB (ed), Mobile DNA III. ASM Press, Washington, DC. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+42. Beuzón CR, Chessa D, Casadesús J. 
+2004. 
+IS 200 : an old and still bacterial transposon. Int Microbiol
+7:3–12. [ PubMed ] [ Google Scholar ] 
+
+43. Blaser MJ.
+1997. 
+Heterogeneity of Helicobacter pylori. Eur J Gastroenterol Hepatol
+9(Suppl 1):S3–S6; discussion S6–S7. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+44. Toleman MA, Bennett PM, Walsh TR. 
+2006. 
+IS CR elements: novel gene-capturing systems of the 21st century?
+Microbiol Mol Biol Rev
+70:296–316. doi: 10.1128/MMBR.00048-05. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+45. Siguier P, Gourbeyre E, Varani A, Ton-Hoang B, Chandler M. 
+2015. 
+Everyman's guide to bacterial insertion sequences, p 555–590. In Craig NL, Chandler M, Gellert M, Lambowitz AM, Rice PA, Sandmeyer SB (ed), Mobile DNA III. ASM Press, Washington, DC. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Applied and Environmental Microbiology are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (1.5 MB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

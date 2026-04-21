@@ -25,21 +25,26 @@ from pubmed_common import (
     ensure_dir,
     extract_metadata,
     fetch_europepmc_core,
+    fetch_europepmc_fulltext,
     fetch_idconv,
     fetch_pmc_full_xml,
     fetch_pubmed_bioc,
     fetch_pubmed_summaries,
     fetch_unpaywall_record,
     flatten_bioc_to_sections,
+    flatten_elsevier_xml_to_sections,
     flatten_pmc_xml_to_sections,
     html_to_text_sections,
     infer_failure_category,
+    is_valid_fulltext_content,
     llm_ready_text,
     load_jsonl,
+    pmc_xml_has_body,
     print_stderr,
     read_pmids,
     result_record,
     search_openalex_title,
+    sections_have_body,
     safe_filename,
     write_json,
     write_jsonl,
@@ -157,6 +162,85 @@ def classify_abstract_followup(metadata: dict) -> str:
     return "abstract_only_no_fulltext_candidate"
 
 
+def extract_http_status(message: str) -> str:
+    match = re.search(r"HTTP\s+(\d{3})", message or "")
+    return match.group(1) if match else ""
+
+
+def summarize_backend_errors(metadata: dict) -> list[dict]:
+    error_fields = {
+        "epmc_fulltext_error": "europepmc_fulltext",
+        "crossref_status": "crossref",
+        "unpaywall_status": "unpaywall",
+        "openalex_status": "openalex",
+        "europepmc_status": "europepmc_core",
+        "pubmed_bioc_error": "pubmed_bioc",
+        "springer_error": "springer_openaccess",
+        "springer_meta_error": "springer_meta",
+        "elsevier_error": "elsevier_article_api",
+    }
+    errors = []
+    external_sources = metadata.get("external_sources") or {}
+    for field_name, backend in error_fields.items():
+        if field_name in {"crossref_status", "unpaywall_status", "openalex_status", "europepmc_status"}:
+            message = str(external_sources.get(field_name, "")).strip()
+            if field_name == "crossref_status":
+                message = str(metadata.get(field_name, "")).strip()
+            if not message.startswith("error:"):
+                continue
+        else:
+            message = str(metadata.get(field_name, "")).strip()
+            if not message:
+                continue
+        errors.append(
+            {
+                "backend": backend,
+                "message": message,
+                "http_status": extract_http_status(message),
+            }
+        )
+    if metadata.get("elsevier_xml_no_body"):
+        errors.append(
+            {
+                "backend": "elsevier_candidate_fulltext",
+                "message": "Elsevier candidate XML returned metadata-only response",
+                "http_status": "",
+            }
+        )
+    return errors
+
+
+def infer_abstract_only_reason(metadata: dict) -> str:
+    candidates = metadata.get("fulltext_candidates", []) or []
+    candidate_types = {item.get("type") for item in candidates}
+    errors = summarize_backend_errors(metadata)
+    urls = [item.get("url", "") for item in candidates]
+    if metadata.get("pdf_fallback_reason") == "wiley_tdm_unavailable_old_article":
+        return "wiley_legacy_pdf"
+    if any("api.elsevier.com/content/article/PII:" in url for url in urls):
+        return "elsevier_candidate_only"
+    if any(error["backend"] == "pubmed_bioc" for error in errors):
+        return "temporary_network_or_api_error"
+    if metadata.get("publisher_family") in {"ASM", "OUP", "SAGE", "ACS"} and "landing_page" in candidate_types:
+        return "publisher_gate"
+    if candidate_types == {"pdf"} or candidate_types == {"pdf_api"} or candidate_types == {"pdf", "pdf_api"}:
+        return "candidate_pdf_only"
+    if "landing_page" in candidate_types and not (candidate_types & {"pdf", "pdf_api"}):
+        return "candidate_html_only"
+    if "landing_page" in candidate_types and candidate_types & {"pdf", "pdf_api"}:
+        return "candidate_html_and_pdf"
+    if candidates:
+        return "candidate_unusable"
+    return "no_candidate_found"
+
+
+def finalize_monitoring(metadata: dict) -> None:
+    metadata["backend_errors"] = summarize_backend_errors(metadata)
+    metadata["attempted_backend_count"] = len(metadata.get("tried_backends", []))
+    if metadata.get("source") == "PubMed_BioC":
+        metadata["abstract_only_reason"] = infer_abstract_only_reason(metadata)
+
+
 def merge_candidates(metadata: dict, new_candidates: list[dict]) -> None:
     existing = metadata.get("fulltext_candidates", []) or []
     seen = {(item.get("type"), item.get("url")) for item in existing}
@@ -215,6 +299,15 @@ def annotate_wiley_pdf_fallback(metadata: dict) -> None:
     metadata["pdf_fallback_bucket"] = (
         "wiley_pre_1996_pdf_candidate" if year <= 1995 else "wiley_1996_2005_pdf_candidate"
     )
+
+
+def host_matches(host: str, patterns: set[str]) -> bool:
+    host = host.lower()
+    for pattern in patterns:
+        pattern = pattern.lower()
+        if host == pattern or host.endswith(f".{pattern}"):
+            return True
+    return False
 
 
 def collect_external_candidates(client: HttpClient, metadata: dict) -> None:
@@ -319,15 +412,24 @@ def fetch_candidate_fulltext(client: HttpClient, metadata: dict, raw_dir: Path, 
 
         body = response.get("body", "")
         if accept == "text/xml" and "<" in body:
+            # Only save if the XML actually contains article body content
+            # (publisher-blocked responses return metadata-only XML with no <ce:sections>)
+            if not re.search(r"<(?:ce:sections|ce:para|body)\b", body):
+                metadata["elsevier_xml_no_body"] = True
+                continue
+            sections = flatten_elsevier_xml_to_sections(body)
+            if not sections or not sections_have_body(sections):
+                metadata["elsevier_xml_parse_no_body"] = True
+                continue
             raw_path = raw_dir / f"{safe_filename(metadata['pmid'])}_elsevier.xml"
             raw_path.write_text(body)
-            sections = [{"section": "ELSEVIER_XML", "text": body}]
             metadata["source"] = "Elsevier_Candidate_XML"
             metadata["license"] = "publisher_api_candidate"
             metadata["raw_file"] = str(raw_path)
             metadata["resolved_url"] = response.get("url")
             metadata["text_file"] = str(txt_path)
             metadata["tried_backends"] = metadata.get("tried_backends", []) + [f"{source}:{candidate_type}"]
+            finalize_monitoring(metadata)
             txt_path.write_text(llm_ready_text(metadata, sections))
             write_json(meta_path, {"metadata": metadata, "sections": sections, "raw_elsevier_xml": body})
             return result_record(metadata["pmid"], "success", "Downloaded candidate Elsevier XML full text", metadata=metadata)
@@ -342,13 +444,21 @@ def fetch_candidate_fulltext(client: HttpClient, metadata: dict, raw_dir: Path, 
             metadata["resolved_url"] = response.get("url")
             metadata["text_file"] = str(txt_path)
             metadata["tried_backends"] = metadata.get("tried_backends", []) + [f"{source}:{candidate_type}"]
+            finalize_monitoring(metadata)
             txt_path.write_text(llm_ready_text(metadata, sections))
             write_json(meta_path, {"metadata": metadata, "sections": sections, "raw_elsevier_text": body})
             return result_record(metadata["pmid"], "success", "Downloaded candidate Elsevier plain text full text", metadata=metadata)
     return None
 
 
-def fetch_wiley_tdm_pdf(client: HttpClient, metadata: dict, raw_dir: Path) -> dict | None:
+def fetch_wiley_tdm_pdf(
+    client: HttpClient,
+    metadata: dict,
+    raw_dir: Path,
+    txt_path: Path,
+    meta_path: Path,
+    abstract_sections: list[dict],
+) -> dict | None:
     if not WILEY_API_KEY:
         return None
     doi = normalize_doi(metadata.get("doi", ""))
@@ -378,6 +488,28 @@ def fetch_wiley_tdm_pdf(client: HttpClient, metadata: dict, raw_dir: Path) -> di
     metadata["raw_file"] = str(raw_path)
     metadata["resolved_url"] = url
     metadata["tried_backends"] = metadata.get("tried_backends", []) + ["wiley_tdm_pdf"]
+    metadata["text_file"] = str(txt_path)
+    finalize_monitoring(metadata)
+    txt_path.write_text(
+        llm_ready_text(
+            metadata,
+            [
+                {
+                    "section": "RAW_PDF_NOTE",
+                    "text": f"Wiley TDM PDF archived at {raw_path}. Abstract metadata retained below for indexing.",
+                },
+                *abstract_sections,
+            ],
+        )
+    )
+    write_json(
+        meta_path,
+        {
+            "metadata": metadata,
+            "sections": abstract_sections,
+            "raw_pdf_note": "Original Wiley TDM content stored as PDF; companion text contains abstract metadata only.",
+        },
+    )
     return result_record(metadata["pmid"], "success", "Downloaded Wiley TDM PDF", metadata=metadata)
 
 
@@ -389,17 +521,24 @@ def fetch_candidate_pdf(
     meta_path: Path,
     abstract_sections: list[dict],
 ) -> dict | None:
-    allowed_hosts = {
+    allowed_host_patterns = {
         "link.springer.com",
         "www.nature.com",
         "nature.com",
+        "journals.asm.org",
+        "asm.org",
+        "academic.oup.com",
+        "oxfordjournals.org",
+        "journals.sagepub.com",
+        "sagepub.com",
+        "pubs.acs.org",
     }
     for candidate in metadata.get("fulltext_candidates", []) or []:
         if candidate.get("type") not in {"pdf", "pdf_api"}:
             continue
         url = candidate.get("url", "")
         host = urlparse(url).netloc.lower()
-        if host not in allowed_hosts:
+        if not host_matches(host, allowed_host_patterns):
             continue
         try:
             response = client.get_bytes_response(
@@ -420,6 +559,7 @@ def fetch_candidate_pdf(
         metadata["resolved_url"] = response.get("url")
         metadata["text_file"] = str(txt_path)
         metadata["tried_backends"] = metadata.get("tried_backends", []) + [f"{candidate.get('source')}:{candidate.get('type')}"]
+        finalize_monitoring(metadata)
         txt_path.write_text(
             llm_ready_text(
                 metadata,
@@ -449,6 +589,7 @@ def fetch_publisher_html(
     doi: str,
     crossref_links: list[dict],
     resource_url: str = "",
+    fulltext_candidates: list[dict] | None = None,
 ) -> dict | None:
     normalized = normalize_doi(doi)
     candidates = [
@@ -467,6 +608,12 @@ def fetch_publisher_html(
             candidates.append(("oup_article", url))
         elif "onlinelibrary.wiley.com" in url:
             candidates.append(("wiley_crossref", url))
+        elif "journals.asm.org" in url or urlparse(url).netloc.lower().endswith(".asm.org"):
+            candidates.append(("asm_html", url))
+        elif "journals.sagepub.com" in url or "sagepub.com" in url:
+            candidates.append(("sage_html", url))
+        elif "pubs.acs.org" in url:
+            candidates.append(("acs_html", url))
         elif "microbiologyresearch.org" in url:
             if "crawler=true" not in url:
                 joiner = "&" if "?" in url else "?"
@@ -482,6 +629,21 @@ def fetch_publisher_html(
             candidates.append(("springer_html", url))
         elif "nature.com" in url:
             candidates.append(("nature_html", url))
+        elif "journals.plos.org" in url or "plosone.org" in url:
+            candidates.append(("plos_html", url))
+        elif "europepmc.org" in url and "/article/" in url:
+            candidates.append(("europepmc_html", url))
+    for item in fulltext_candidates or []:
+        url = item.get("url") or ""
+        if item.get("type") != "landing_page" or not url:
+            continue
+        parsed = urlparse(url)
+        host = parsed.netloc.lower()
+        path = parsed.path.lower()
+        if host in {"ncbi.nlm.nih.gov", "www.ncbi.nlm.nih.gov", "pmc.ncbi.nlm.nih.gov"} and "/pmc/articles/" in path:
+            candidates.append(("pmc_html", url))
+        elif host == "europepmc.org" and "/articles/pmc" in path:
+            candidates.append(("europepmc_html", url))
 
     seen = set()
     for source_name, url in candidates:
@@ -509,6 +671,9 @@ def fetch_publisher_html(
             for host in (
                 "onlinelibrary.wiley.com",
                 "academic.oup.com",
+                "journals.asm.org",
+                "pubs.acs.org",
+                "journals.sagepub.com",
                 "www.microbiologyresearch.org",
                 "www.jstage.jst.go.jp",
                 "joi.jlc.jst.go.jp",
@@ -520,24 +685,64 @@ def fetch_publisher_html(
                 "link.springer.com",
                 "www.nature.com",
                 "nature.com",
+                "journals.plos.org",
+                "europepmc.org",
+                "pmc.ncbi.nlm.nih.gov",
+                "ncbi.nlm.nih.gov/pmc",
             )
         ):
-            sections = html_to_text_sections(body, source_label="PUBLISHER_HTML")
-            if sections and len(sections[0]["text"]) > 2000:
+            source_label = "OA_HTML" if source_name in {"pmc_html", "europepmc_html"} else "PUBLISHER_HTML"
+            sections = html_to_text_sections(body, source_label=source_label)
+            normalized_source = "OA_HTML" if source_label == "OA_HTML" else "Publisher_HTML"
+            is_valid, reason, word_count = is_valid_fulltext_content(normalized_source, sections, raw_text=body)
+            if sections and is_valid:
                 return {
                     "source_name": source_name,
                     "resolved_url": final_url,
                     "html": body,
                     "sections": sections,
+                    "validation_reason": reason,
+                    "word_count": word_count,
                 }
     return None
+
+
+def fetch_pmc_article_html(client: HttpClient, pmcid: str) -> dict | None:
+    url = f"https://www.ncbi.nlm.nih.gov/pmc/articles/{pmcid.upper()}/"
+    try:
+        response = client.get_response(
+            url,
+            headers={
+                "Accept": "text/html,application/xhtml+xml",
+                "Referer": "https://pubmed.ncbi.nlm.nih.gov/",
+            },
+            timeout=120,
+        )
+    except Exception:
+        return None
+    body = response.get("body", "")
+    content_type = response.get("content_type", "")
+    if "html" not in content_type and "<html" not in body.lower():
+        return None
+    sections = html_to_text_sections(body, source_label="OA_HTML")
+    is_valid, reason, word_count = is_valid_fulltext_content("OA_HTML", sections, raw_text=body)
+    if not sections or not is_valid:
+        return None
+    return {
+        "source_name": "pmc_html",
+        "resolved_url": response["url"],
+        "html": body,
+        "sections": sections,
+        "validation_reason": reason,
+        "word_count": word_count,
+    }
 
 
 def main() -> int:
     parser = build_arg_parser("Download API-backed article content for PMIDs not covered by OA.")
     parser.add_argument(
         "--oa-results",
-        default="outputs/runs/oa_results.jsonl",
+        default=None,
         help="JSONL output from 01_download_oa.py. Successful PMIDs will be skipped.",
     )
     args = parser.parse_args()
@@ -549,8 +754,8 @@ def main() -> int:
     meta_dir = ensure_dir(out_root / "api" / "meta")
     run_dir = ensure_dir(out_root / "runs")
 
+    oa_results_path = Path(args.oa_results) if args.oa_results else run_dir / "oa_results.jsonl"
     oa_success_pmids = set()
-    oa_results_path = Path(args.oa_results)
     if oa_results_path.exists():
         for row in load_jsonl(oa_results_path):
             if row.get("status") == "success":
@@ -577,7 +782,20 @@ def main() -> int:
         txt_path = text_dir / f"{safe_filename(pmid)}.txt"
         meta_path = meta_dir / f"{safe_filename(pmid)}.json"
         if txt_path.exists() and meta_path.exists() and not args.force:
-            results.append(result_record(pmid, "cached", "Existing API outputs found", metadata=metadata))
+            try:
+                cached_payload = json.loads(meta_path.read_text())
+                cached_metadata = cached_payload.get("metadata") or {}
+            except Exception:  # noqa: BLE001
+                cached_metadata = {}
+            finalize_monitoring(cached_metadata or metadata)
+            results.append(
+                result_record(
+                    pmid,
+                    "success",
+                    "Existing API outputs found",
+                    metadata=cached_metadata or metadata,
+                )
+            )
             continue
 
         try:
@@ -585,19 +803,73 @@ def main() -> int:
             if metadata.get("pmcid"):
                 tried_backends.append("pmc_efetch")
                 pmc_xml = fetch_pmc_full_xml(client, metadata["pmcid"])
-                sections = flatten_pmc_xml_to_sections(pmc_xml)
-                if sections:
-                    raw_xml_path = raw_dir / f"{safe_filename(pmid)}.xml"
-                    raw_xml_path.write_text(pmc_xml)
-                    metadata["source"] = "PMC_EFetch_XML"
-                    metadata["license"] = "pmc_free_to_read"
-                    metadata["raw_file"] = str(raw_xml_path)
-                    metadata["tried_backends"] = tried_backends
+                # Only accept EFetch XML if it has a real body (not publisher-blocked)
+                if pmc_xml_has_body(pmc_xml):
+                    sections = flatten_pmc_xml_to_sections(pmc_xml)
+                    if sections and sections_have_body(sections):
+                        raw_xml_path = raw_dir / f"{safe_filename(pmid)}.xml"
+                        raw_xml_path.write_text(pmc_xml)
+                        metadata["source"] = "PMC_EFetch_XML"
+                        metadata["license"] = "pmc_free_to_read"
+                        metadata["raw_file"] = str(raw_xml_path)
+                        metadata["tried_backends"] = tried_backends
+                        metadata["text_file"] = str(txt_path)
+                        finalize_monitoring(metadata)
+                        txt_path.write_text(llm_ready_text(metadata, sections))
+                        write_json(meta_path, {"metadata": metadata, "sections": sections, "raw_pmc_xml": pmc_xml})
+                        results.append(result_record(pmid, "success", "Downloaded PMC full text XML", metadata=metadata))
+                        print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via PMC EFetch")
+                        continue
+
+            # Europe PMC fulltext XML — works for many OA articles not in NCBI OA subset
+            if metadata.get("pmcid"):
+                try:
+                    tried_backends.append("europepmc_fulltext")
+                    epmc_xml = fetch_europepmc_fulltext(client, metadata["pmcid"])
+                    if pmc_xml_has_body(epmc_xml):
+                        sections = flatten_pmc_xml_to_sections(epmc_xml)
+                        if sections and sections_have_body(sections):
+                            raw_xml_path = raw_dir / f"{safe_filename(pmid)}_epmc.xml"
+                            raw_xml_path.write_text(epmc_xml)
+                            metadata["source"] = "EuropePMC_FullText_XML"
+                            metadata["license"] = "europe_pmc_oa"
+                            metadata["raw_file"] = str(raw_xml_path)
+                            metadata["tried_backends"] = tried_backends
+                            metadata["text_file"] = str(txt_path)
+                            finalize_monitoring(metadata)
+                            txt_path.write_text(llm_ready_text(metadata, sections))
+                            write_json(meta_path, {"metadata": metadata, "sections": sections})
+                            results.append(result_record(pmid, "success", "Downloaded Europe PMC full-text XML", metadata=metadata))
+                            print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via EuropePMC_FullText_XML")
+                            continue
+                except Exception as exc:  # noqa: BLE001
+                    metadata["epmc_fulltext_error"] = str(exc)
+
+            if metadata.get("pmcid"):
+                pmc_html = fetch_pmc_article_html(client, metadata["pmcid"])
+                if pmc_html:
+                    raw_html_path = raw_dir / f"{safe_filename(pmid)}.html"
+                    raw_html_path.write_text(pmc_html["html"])
+                    metadata["source"] = "OA_HTML"
+                    metadata["license"] = "pmc_html_oa"
+                    metadata["raw_file"] = str(raw_html_path)
+                    metadata["resolved_url"] = pmc_html["resolved_url"]
+                    metadata["tried_backends"] = tried_backends + [pmc_html["source_name"]]
                     metadata["text_file"] = str(txt_path)
-                    txt_path.write_text(llm_ready_text(metadata, sections))
-                    write_json(meta_path, {"metadata": metadata, "sections": sections, "raw_pmc_xml": pmc_xml})
-                    results.append(result_record(pmid, "success", "Downloaded PMC full text XML", metadata=metadata))
-                    print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via PMC EFetch")
+                    metadata["body_validation_reason"] = pmc_html.get("validation_reason", "")
+                    metadata["body_word_count"] = pmc_html.get("word_count", 0)
+                    finalize_monitoring(metadata)
+                    txt_path.write_text(llm_ready_text(metadata, pmc_html["sections"]))
+                    write_json(
+                        meta_path,
+                        {
+                            "metadata": metadata,
+                            "sections": pmc_html["sections"],
+                            "raw_html": pmc_html["html"],
+                        },
+                    )
+                    results.append(result_record(pmid, "success", "Downloaded PMC article HTML full text", metadata=metadata))
+                    print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via pmc_html")
                     continue
 
             if metadata.get("doi"):
@@ -623,16 +895,20 @@ def main() -> int:
                     metadata["doi"],
                     metadata.get("crossref_link", []),
                     ((metadata.get("crossref_resource") or {}).get("primary") or {}).get("URL", ""),
+                    metadata.get("fulltext_candidates", []),
                 )
                 if publisher_html:
                     raw_html_path = raw_dir / f"{safe_filename(pmid)}.html"
                     raw_html_path.write_text(publisher_html["html"])
-                    metadata["source"] = "Publisher_HTML"
-                    metadata["license"] = "publisher_free_full_text"
+                    metadata["source"] = "OA_HTML" if publisher_html["source_name"] in {"pmc_html", "europepmc_html"} else "Publisher_HTML"
+                    metadata["license"] = "pmc_html_oa" if metadata["source"] == "OA_HTML" else "publisher_free_full_text"
                     metadata["raw_file"] = str(raw_html_path)
                     metadata["resolved_url"] = publisher_html["resolved_url"]
                     metadata["tried_backends"] = tried_backends + [publisher_html["source_name"]]
                     metadata["text_file"] = str(txt_path)
+                    metadata["body_validation_reason"] = publisher_html.get("validation_reason", "")
+                    metadata["body_word_count"] = publisher_html.get("word_count", 0)
+                    finalize_monitoring(metadata)
                     txt_path.write_text(llm_ready_text(metadata, publisher_html["sections"]))
                     write_json(
                         meta_path,
@@ -658,9 +934,8 @@ def main() -> int:
                     print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via {candidate_fulltext['metadata']['source']}")
                     continue
 
-                wiley_pdf = fetch_wiley_tdm_pdf(client, metadata, raw_dir)
+                wiley_pdf = fetch_wiley_tdm_pdf(client, metadata, raw_dir, txt_path, meta_path, sections)
                 if wiley_pdf:
-                    write_json(meta_path, {"metadata": wiley_pdf["metadata"]})
                     results.append(wiley_pdf)
                     print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via Wiley_TDM_PDF")
                     continue
@@ -680,6 +955,7 @@ def main() -> int:
                 metadata["followup_status"] = classify_abstract_followup(metadata)
                 metadata["fulltext_candidate_count"] = len(metadata.get("fulltext_candidates", []))
                 metadata["text_file"] = str(txt_path)
+                finalize_monitoring(metadata)
                 txt_path.write_text(llm_ready_text(metadata, sections))
                 write_json(meta_path, {"metadata": metadata, "sections": sections, "raw_bioc": bioc})
                 results.append(result_record(pmid, "success", "Downloaded PubMed BioC abstract/metadata", metadata=metadata))
@@ -688,7 +964,36 @@ def main() -> int:
         except Exception as exc:  # noqa: BLE001
             metadata["pubmed_bioc_error"] = str(exc)
 
+        # PubMed BioC occasionally fails on transient upstream errors.
+        # If the article still has a PMCID, retry the PMC HTML OA route
+        # before falling through to non-OA publisher APIs or a hard failure.
+        if metadata.get("pmcid"):
+            pmc_html = fetch_pmc_article_html(client, metadata["pmcid"])
+            if pmc_html:
+                raw_html_path = raw_dir / f"{safe_filename(pmid)}.html"
+                raw_html_path.write_text(pmc_html["html"])
+                metadata["source"] = "OA_HTML"
+                metadata["license"] = "pmc_html_oa"
+                metadata["raw_file"] = str(raw_html_path)
+                metadata["resolved_url"] = pmc_html["resolved_url"]
+                metadata["tried_backends"] = metadata.get("tried_backends", []) + [pmc_html["source_name"]]
+                metadata["text_file"] = str(txt_path)
+                finalize_monitoring(metadata)
+                txt_path.write_text(llm_ready_text(metadata, pmc_html["sections"]))
+                write_json(
+                    meta_path,
+                    {
+                        "metadata": metadata,
+                        "sections": pmc_html["sections"],
+                        "raw_html": pmc_html["html"],
+                    },
+                )
+                results.append(result_record(pmid, "success", "Downloaded PMC article HTML full text", metadata=metadata))
+                print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via pmc_html_retry")
+                continue
+
         if not metadata.get("doi"):
+            finalize_monitoring(metadata)
             results.append(result_record(pmid, "failed", "No DOI and PubMed BioC unavailable", metadata=metadata))
             continue
 
@@ -705,6 +1010,7 @@ def main() -> int:
                     metadata["license"] = "springer_api"
                     metadata["raw_file"] = str(raw_xml_path)
                     metadata["text_file"] = str(txt_path)
+                    finalize_monitoring(metadata)
                     txt_path.write_text(
                         llm_ready_text(metadata, [{"section": "SPRINGER_JATS_XML", "text": springer_oa_xml}])
                     )
@@ -720,14 +1026,7 @@ def main() -> int:
                 metadata["springer_meta_error"] = str(exc)
 
         if not ELSEVIER_API_KEY:
-            if WILEY_API_KEY:
-                metadata["tried_backends"].append("wiley_tdm")
-                wiley_result = fetch_wiley_tdm_pdf(client, metadata, raw_dir)
-                if wiley_result:
-                    write_json(meta_path, {"metadata": wiley_result["metadata"]})
-                    results.append(wiley_result)
-                    print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via Wiley_TDM_PDF")
-                    continue
+            finalize_monitoring(metadata)
             results.append(
                 result_record(
                     pmid,
@@ -744,10 +1043,14 @@ def main() -> int:
             raw_json_path = raw_dir / f"{safe_filename(pmid)}.json"
             payload = download_elsevier_fulltext(client, pmid, raw_json_path)
             full_text = json.dumps(payload, ensure_ascii=False, indent=2)
+            # Validate that the response contains actual article body (not metadata-only)
+            if not re.search(r"<(?:ce:sections|ce:para|body)\b", full_text):
+                raise RuntimeError("Elsevier API returned metadata-only response (no body content)")
             metadata["source"] = "Elsevier_Article_API"
             metadata["license"] = "publisher_api"
             metadata["doi"] = metadata.get("doi", "")
             metadata["text_file"] = str(txt_path)
+            finalize_monitoring(metadata)
             txt_path.write_text(
                 llm_ready_text(metadata, [{"section": "PUBLISHER_FULL_TEXT_JSON", "text": full_text}])
             )
@@ -756,14 +1059,7 @@ def main() -> int:
             print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via publisher API")
         except Exception as exc:  # noqa: BLE001
             metadata["elsevier_error"] = str(exc)
-            if WILEY_API_KEY:
-                metadata["tried_backends"].append("wiley_tdm")
-                wiley_result = fetch_wiley_tdm_pdf(client, metadata, raw_dir)
-                if wiley_result:
-                    write_json(meta_path, {"metadata": wiley_result["metadata"]})
-                    results.append(wiley_result)
-                    print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via Wiley_TDM_PDF")
-                    continue
+            finalize_monitoring(metadata)
             results.append(
                 result_record(
                     pmid,

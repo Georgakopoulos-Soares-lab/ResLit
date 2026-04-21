@@ -1,0 +1,386 @@
+PMID: 15793131
+PMCID: PMC1068610
+DOI: 10.1128/AAC.49.4.1495-1501.2005
+Title: Cloning, sequencing, and characterization of the SdeAB multidrug efflux pump of Serratia marcescens.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2005 Apr
+Authors: Kumar A, Worobec EA
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Cloning, Sequencing, and Characterization of the SdeAB Multidrug Efflux Pump of Serratia marcescens - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2005 Apr;49(4):1495–1501. doi: 10.1128/AAC.49.4.1495-1501.2005 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Cloning, Sequencing, and Characterization of the SdeAB Multidrug Efflux Pump of Serratia marcescens 
+
+Ayush Kumar 
+
+Ayush Kumar 
+
+1 Department of Microbiology, University of Manitoba, Winnipeg, Manitoba, Canada 
+
+Find articles by Ayush Kumar 
+
+1, † , Elizabeth A Worobec 
+
+Elizabeth A Worobec 
+
+1 Department of Microbiology, University of Manitoba, Winnipeg, Manitoba, Canada 
+
+Find articles by Elizabeth A Worobec 
+
+1, * 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+1 Department of Microbiology, University of Manitoba, Winnipeg, Manitoba, Canada 
+
+* 
+Corresponding author. Mailing address: Department of Microbiology, University of Manitoba, Winnipeg, MB R3T 2N2, Canada. Phone: (204) 474-8473. Fax: (204) 474-7603. E-mail: eworobe@ms.umanitoba.ca . 
+
+† 
+Present address: Department of Microbiology, Immunology, and Pathology, Colorado State University, Fort Collins, CO 80526-1682. 
+
+Received 2004 Jul 22; Revised 2004 Sep 20; Accepted 2004 Dec 17. 
+
+Copyright © 2005, American Society for Microbiology 
+
+PMC Copyright notice 
+
+PMCID: PMC1068610  PMID: 15793131 
+
+Abstract 
+
+Serratia marcescens is an important nosocomial agent known for causing various infections in immunocompromised individuals. Resistance of this organism to a broad spectrum of antibiotics makes the treatment of infections very difficult. This study was undertaken to identify multidrug resistance efflux pumps in S. marcescens . Three mutant strains of S. marcescens were isolated in vitro by the serial passaging of a wild-type strain in culture medium supplemented with ciprofloxacin, norfloxacin, or ofloxacin. Fluoroquinolone accumulation assays were performed to detect the presence of a proton gradient-dependent efflux mechanism. Two of the mutant strains were found to be effluxing norfloxacin, ciprofloxacin, and ofloxacin, while the third was found to efflux only ofloxacin. A genomic library of S. marcescens wild-type strain UOC-67 was constructed and screened for RND pump-encoding genes by using DNA probes for two putative RND pump-encoding genes. Two different loci were identified: sdeAB , encoding an MFP and an RND pump, and sdeCDE , encoding an MFP and two different RND pumps. Northern blot analysis revealed overexpression of sdeB in two mutant strains effluxing fluoroquinolones. Analysis of the sdeAB and sdeCDE loci in Escherichia coli strain AG102MB, deficient in the RND pump (AcrB), revealed that gene products of sdeAB are responsible for the efflux of a diverse range of substrates that includes ciprofloxacin, norfloxacin, ofloxacin, chloramphenicol, sodium dodecyl sulfate, ethidium bromide, and n -hexane, while those of sdeCDE did not result in any change in susceptibilities to any of these agents. 
+
+Serratia marcescens is an important nosocomial agent that is frequently reported as the causative agent of a variety of infections, including respiratory tract infections, urinary tract infections, septicemia, meningitis, endocarditis, and wound infections. This organism is commonly isolated from the urine of patients with indwelling catheters and is considered significant in patients with serious underlying disease, particularly neonates, patients requiring treatment in intensive care units, neutropenic patients, or those with disseminated malignancies ( 8 ). The high intrinsic resistance of this organism to a variety of antibiotics makes the treatment of infections very difficult. S. marcescens has been found to be resistant to β-lactams, aminoglycosides, and quinolones. The resistance of this organism to quinolones was reported shortly after the initial clinical use of these antibiotics ( 5 ). 
+
+An important mechanism of resistance to quinolones is the decreased accumulation of the antibiotics inside the cell, as mediated by efflux pumps. Efflux-mediated resistance to fluoroquinolones is widespread among various bacterial pathogens, including Escherichia coli ( 11 ), Pseudomonas aeruginosa ( 14 ), and Salmonella enterica serovar Typhimurium ( 6 ). In this mechanism of resistance, bacteria pump out antibiotic molecules against a concentration gradient in an energy-dependent manner. In gram-negative bacteria, efflux pumps belonging to the resistance-nodulation-cell division (RND) family that use the proton gradient as the energy source are the most common pumps responsible for resistance to fluoroquinolones. These pumps form a tripartite complex with proteins belonging to the membrane fusion protein (MFP) family, forming the periplasmic component, and an outer membrane protein component. Together, these three components can form a continuous channel that aids in the efflux of antimicrobials directly out of the cell. 
+
+We have previously reported the proton gradient-dependent efflux of fluoroquinolones as a resistance mechanism in S. marcescens and have also identified a putative RND pump-encoding gene ( sdeB ) ( 10 ) homologous to the mexF gene of P. aeruginosa . In this study, we report another RND pump-encoding gene, sdeD , characterize both RND pump sdeB and sdeD genes, and identify their MFP components. In addition, we investigate the roles of these proteins in the proton gradient-dependent efflux of fluoroquinolones, as well as chloramphenicol, sodium dodecyl sulfate (SDS), ethidium bromide, and n -hexane. 
+
+MATERIALS AND METHODS 
+
+Bacterial strains and plasmids. 
+
+The bacterial strains and plasmids used in this study are listed in Table 1 . E. coli strains were routinely grown in Luria-Bertani (LB) broth (Difco), and S. marcescens strains were grown in Trypticase soy broth (Difco). Medium was supplemented with 5 μg of tetracycline (Sigma-Aldrich, Oakville, Ontario, Canada)/ml, 20 μg of kanamycin (Sigma-Aldrich)/ml, or 100 μg of ampicillin (Sigma-Aldrich)/ml when E. coli strains containing plasmids carrying tetracycline, kanamycin, or ampicillin markers were grown. E. coli AG102MB was grown in LB medium containing 20 μg of kanamycin (Sigma-Aldrich)/ml. 
+
+TABLE 1. 
+
+Bacterial strains and plasmids used in this study 
+
+Strain, plasmid, or cosmid Characteristic or description Source or reference Bacterial strains S. marcescens UOC-67 Type strain of S. marcescens American Type Culture Collection T-861 Clinical isolate of S. marcescens D. Hoban, Health Science Center, Winnipeg UOC-67WL Fluoroquinolone-resistant mutant derived from S. marcescens UOC-67 10 UOC-67WLN Fluoroquinolone-resistant mutant derived from S. marcescens UOC-67 This study UOC-67WLO Fluoroquinolone-resistant mutant derived from S. marcescens UOC-67 This study E. coli NM522 Standard host strain for cloning Promega AG102MB acrB -deletion mutant of E. coli AG100 4 Plasmids or cosmids pUC18 Standard cloning vector, Ap r Stratagene pDrive PCR cloning vector, Km r QIAGEN pRK7813 Cosmid vector, Tc r 7 pRKO37 pRK7813 containing 15-kb S. marcescens genomic insert This study pRKC51 pRK7813 containing 20-kb S. marcescens genomic insert This study pUCAB pUC18 containing S. marcescens sdeAB genes within a 5-kb EcoRV fragment This study pUCCDE pUC18 containing S. marcescens sdeCDE genes within a 12-kb EcoRI/KpnI fragment This study 
+
+Open in a new tab 
+
+S. marcescens mutant strains UOC-67WL, UOC-67WLN, and UOC-67WLO were generated by growing UOC-67 in Trypticase soy medium supplemented with ciprofloxacin, norfloxacin, or ofloxacin, respectively. UOC-67WL and the clinical isolate T-861 have been described previously ( 10 ). T-861 is a fluoroquinolone efflux-positive strain selected from a collection of 13 different clinical isolates of S. marcescens . For the generation of strains UOC-67WLN and UOC-67WLO, UOC-67 was first grown in Trypticase soy broth containing 0.2 μg of the appropriate antibiotic/ml with overnight incubation at 37°C with shaking. The resulting cells were subcultured in broth supplemented with twofold increments of the appropriate antibiotic up to 16 μg/ml followed by each overnight incubation. 
+
+Antimicrobial susceptibility assays. 
+
+Antibiotic susceptibilities of various bacterial strains were tested by using the twofold dilution method described previously ( 2 ). The S. marcescens clinical isolate (T-861), the lab-generated mutant S. marcescens strains, and the wild-type strain of S. marcescens , along with E. coli AG102A supplemented with plasmid pUCAB, pUCCDE, or pUC18, were tested for susceptibility to ciprofloxacin (a gift from Bayer Inc., Etobicoke, Ontario, Canada), norfloxacin (Sigma-Aldrich), ofloxacin (Sigma-Aldrich), chloramphenicol (Sigma-Aldrich), SDS (Fisher Scientific, Ottawa, Ontario, Canada), and ethidium bromide (Fisher Scientific). Results are reported as MICs, the concentration of antibiotic that inhibited visible growth determined by the absence of turbidity in the broth after 18 h of incubation (without shaking) at 37°C. 
+
+Fluoroquinolone accumulation assays. 
+
+The accumulation of ciprofloxacin, ofloxacin, and norfloxacin was performed following a method previously described by Mortimer and Piddock ( 12 ) with some modifications. Cells were grown to late log phase at 37°C in Trypticase soy broth, harvested by centrifugation, washed once with 50 mM sodium phosphate buffer (pH 7.0), resuspended in the same buffer to an A 600 of 20.0, and equilibrated for 10 min at 37°C. The antibiotic to be tested was added to a final concentration of 10 μg/ml, and 0.5 ml of culture was removed every 30 s for a period of 10 min and immediately diluted in 1 ml of ice-cold 50 mM sodium phosphate buffer (pH 7.0). Carbonyl cyanide m -chlorophenylhydrazone (CCCP) was added to a final concentration of 100 μM 5 min after the addition of the antibiotic. The samples were centrifuged at 19,600 × g for 10 min. The pellet was washed with 1 ml of 50 mM sodium phosphate buffer, resuspended in 1 ml of 0.1 M glycine hydrochloride (pH 3.0), and incubated for a minimum of 15 h at room temperature to lyse cells. The samples were then centrifuged at 19,600 × g for 10 min. The fluorescence of each supernatant was measured by using a Shimadzu RF-1501 spectrofluorometer at the following excitation and emission wavelengths: ciprofloxacin, 279 and 447 nm; norfloxacin, 281 and 440 nm; and ofloxacin, 292 and 496 nm. The concentrations of the antibiotics in the supernatant were calculated by using a standard curve for each respective antibiotic (concentrations ranging from 100 to 1,000 ng/ml) in 0.1 M glycine hydrochloride, pH 3.0. The results were expressed as nanograms of antibiotic incorporated per milligram (dry weight) of bacteria. 
+
+n -Hexane tolerance. 
+
+Organic solvent tolerance assays were performed as described earlier with some modifications ( 16 ). Briefly, a log-phase culture of the test strains was equilibrated by using the 0.5 MacFarland standard ( 2 ), and an 5-μl aliquot was spotted on LB agar plates. Once the spots were dry, the plates were overlaid with 3 ml of n -hexane, wrapped with parafilm to avoid evaporation, and incubated right side up at 37°C for a minimum of 15 h. Growth at the spots indicated resistance to n -hexane. 
+
+Construction and screening of a S. marcescens cosmid genomic bank. 
+
+A cosmid library of S. marcescens UOC-67 was constructed in the low-copy-number cosmid vector pRK7813 ( 7 ) by the method described by Ausubel et al. ( 1 ). The cosmid bank was packaged by using Gigapack II Gold packaging extract (Stratagene) and following the manufacturer's instructions. To screen the cosmid clones, colonies were inoculated in pools of 10 in LB broth supplemented with 10 μg of tetracycline/ml and incubated overnight at 37°C with shaking. 
+
+The identification of partial sequences of RND pump-encoding genes by use of PCR has been described previously ( 10 ). Analysis of the PCR product revealed that there were two different products of almost the same size; one was the previously reported mexF- like gene, and the other exhibited homology to E. coli mdtB . Both PCR products were cloned into the cloning vector pDrive (QIAGEN). Random primed DNA probes for both genes were prepared by using the digoxigenin (DIG) labeling kit (Roche Biochemicals, Laval, Quebec, Canada) and following the manufacturer's instructions. 
+
+Cosmids were prepared by using the method described for the isolation of plasmids ( 1 ) and screened by Southern blotting by use of the DIG-labeled probes described above, following methods described earlier ( 10 ). Positive cosmid pools were analyzed by Southern detection of individual cosmid clones. 
+
+A cosmid clone, pRKO37, was found to contain the mexF -like gene within a 15-kb genomic insert. A 5-kb EcoRV fragment of this insert was subcloned in the SmaI site of cloning vector pUC18 to construct the plasmid pUCAB, which was then sequenced. Another cosmid clone, pRKC51, was found to contain the mdtB -like gene within a 20-kb insert. A 12-kb EcoRI/KpnI fragment of this insert was subcloned into EcoRI/KpnI-digested pUC18 to construct the plasmid pUCCDE and sequenced. 
+
+Northern blotting. 
+
+RNA was prepared from different strains of S. marcescens as described by Ausubel et al. ( 1 ). RNA samples (5 to 10 μg) from different S. marcescens strains, grown in the absence of antibiotics, were treated with 5 to 10 U of DNase (Bio/Can Canada) and diluted to concentrations of 1 μg/μl. One microliter of each sample was spotted onto nitrocellulose membrane (Hybond NX; Amersham Biosciences). DIG-labeled RNA probes for detection were constructed by using the PCR products (partial fragments of sdeB and sdeD genes) cloned in the pDrive vector ( 10 ) by using T7 RNA polymerase. Northern dot blots were performed by using the DIG-labeling and detection kit (Roche Biochemicals), following the manufacturer's instructions. The densities of individual spots were measured and compared by using FluorChem 2.01 software (Alpha Innotech Corp.). At least four independent RNA preparations from each strain were subjected to Northern blot analysis to ensure that the results were reproducible. 
+
+Nucleotide sequence accession numbers. 
+
+The sdeAB and sdeCDE nucleotide sequences obtained in this study were deposited in GenBank with the accession numbers AY168756 and AY168757 , respectively. 
+
+RESULTS 
+
+Antimicrobial susceptibility assays. 
+
+The results of antibiotic susceptibility assays for S. marcescens strains are shown in Table 2 . 
+
+TABLE 2. 
+
+Fluoroquinolone MICs for S. marcescens strains a 
+
+Strain b MIC (μg ml −1 ) c CIP NOR OFX UOC-67 0.032 0.125 0.5 T-861 4 32 4 UOC-67WL 32 64 32 UOC-67WLN 8 32 16 UOC-67WLO 4 16 8 
+
+Open in a new tab 
+
+a 
+Results represent values obtained from three independent experiments. 
+
+b 
+UOC-67 is the wild-type strain of S. marcescens , T-861 is the clinical isolate, and UOC-67WL, UOC-67WLN, and UOC-67WLO are the mutant strains generated by serial passaging of UOC-67 in the media supplemented by ciprofloxacin, norfloxacin, and ofloxacin, respectively. 
+
+c 
+CIP, ciprofloxacin; NOR, norfloxacin; OFX, ofloxacin. 
+
+Fluoroquinolone accumulation assays. 
+
+All S. marcescens strains were tested for accumulations of ciprofloxacin, norfloxacin, and ofloxacin. While the wild-type UOC-67 showed no increase in the accumulations of any of the three fluoroquinolones tested upon the addition of CCCP (Fig. 1a ), mutant strains UOC-67WL (Fig. 1b ) and UOC-67WLN (Fig. 1c ) showed increased accumulations of all three antibiotics upon the addition of CCCP, though the accumulation of ofloxacin was about threefold less than those of ciprofloxacin and norfloxacin. The other mutant strain, UOC-67WLO (Fig. 1d ), showed only a minor increase in the accumulation of ofloxacin and no increased accumulation of either ciprofloxacin or norfloxacin. The clinical isolate T-861 also showed increased accumulations of ciprofloxacin, ofloxacin, and norfloxacin upon the addition of CCCP (Fig. 1e ). 
+
+FIG. 1. 
+
+Open in a new tab 
+
+Accumulation of ciprofloxacin (Cip), norfloxacin (Nor), and ofloxacin (Of) by various strains of S. marcescens as described in Materials and Methods. CCCP (100 μM) was added 5 min after the addition of the antibiotic (10 μg/ml), as indicated by the arrow. Results were expressed as nanograms of antibiotic accumulated per milligram (dry weight) of cells. Data presented is representative of those obtained from three independent assays performed on three independent cultures. 
+
+n -Hexane tolerance. 
+
+S. marcescens T-861, UOC-67WL, UOC-67WLN, and UOC-67WLO were found to be resistant to n -hexane, while UOC-67 was found to be susceptible (Fig. 2a ). E. coli AG102MB was capable of growing on hexane plates only when supplemented with pUCAB containing the S. marcescens sdeA and sdeB genes (Fig. 2b ). 
+
+FIG. 2. 
+
+Open in a new tab 
+
+Organic solvent ( n -hexane) tolerance of various S. marcescens and E. coli AG102MB strains. (a) S. marcescens strains UOC-67 (panel 1), T-861 (panel 2), UOC-67WL (panel 3), UOC-67WLN (panel 4), and UOC-67WLO (panel 5). (b) E. coli AG102MB (panel 1) expressing S. marcescens SdeAB (panel 3) and S. marcescens SdeCDE (panel 4) efflux pumps were tested for tolerance to n -hexane. E. coli AG102MB:pUC18 (panel 2) was used as a control. 
+
+Analysis of the RND pump-encoding genes. 
+
+Sequencing of the 5-kb EcoRV cosmid-derived fragment cloned in pUC18 (containing the mexF- like gene) and its further analysis by using the OMIGA 2.0 software revealed the presence of two open reading frames (ORFs), of 1,185 and 3,140 bp. Based on the DNA sequence homologies and the presence of signature sequences from MFP and RND families, the 1,185-bp ORF has been identified as a gene encoding the putative MFP, while the 3,140-bp ORF was identified as an RND efflux pump-encoding gene (69% homologous to mexF of P. aeruginosa ). We have named this locus sdeAB , with sdeA and sdeB genes encoding the MFP and RND pump proteins, respectively. 
+
+Sequencing and analysis of the 12-kb EcoRI/KpnI cosmid-derived fragment (containing the mdtB -like gene) revealed the presence of a gene encoding a putative MFP (1,350 bp) and two different RND pump-encoding genes with ORFs of 3,150 bp (76% homologous to mdtC of E. coli ) and 3,069 bp (74% homologous to mdtD of E. coli ). We have named this locus sdeCDE , with the mdtB -like gene being sdeD . 
+
+Northern blotting. 
+
+Northern blotting results revealed consistent overexpression of the sdeB gene over four different trials in mutant strains UOC-67WL (twofold) and UOC-67WLN (threefold) compared to wild-type UOC-67 (Fig. 3a ). Based on densitometric analyses, the level of expression of the sdeB gene in the clinical isolate T-861 was 1.5-fold higher than that of UOC-67. The degree of overexpression in these strains compared to the expression in UOC-67 was found to be virtually identical in different trials. There was no difference in the expression levels of sdeD , with all strains tested showing very low expression (Fig. 3b ). 
+
+FIG. 3. 
+
+Open in a new tab 
+
+Northern blot analysis of sdeB and sdeD gene expression in various S. marcescens strains. Expression levels of sdeB (a) and sdeD (b) were measured in S. marcescens UOC-67 (panel 1), T-861 (panel 2), UOC-67WL (panel 3), UOC-67WLN (panel 4), and UOC-67WLO (panel 5). 
+
+Antibiotic susceptibility of E. coli AG102MB expressing SdeAB and SdeCDE. 
+
+The AcrB deletion strain E. coli AG102MB was transformed with either pUCAB ( sdeAB ) or pUCCDE ( sdeCDE ), and tested for susceptibility to various antimicrobial agents. Results are summarized in Table 3 . The introduction of the sdeA and sdeB genes to E. coli AG102MB resulted in a >64-fold increase in levels of resistance to ciprofloxacin and chloramphenicol and a 16-fold increase in levels of resistance to norfloxacin and ofloxacin. Furthermore, resistance to SDS increased eightfold, while resistance to ethidium bromide increased 64-fold. There was no difference in the antimicrobial susceptibilities of E. coli AG102MB for any of the agents tested when complemented with sdeCDE genes. 
+
+TABLE 3. 
+
+Antibiotic susceptibility of E. coli AG102MB expressing the S. marcescens SdeAB and SdeCDE RND efflux pumps 
+
+Strain a Relative MICs b CIP NOR OFX CHL SDS EtBr AG102MB 1 1 1 1 1 1 AG102MB/pUC18 1 1 1 1 1 1 AG102MB/pUCAB >64 16 16 >64 8 64 AG102MB/pUCCDE 1 1 1 1 1 1 
+
+Open in a new tab 
+
+a 
+pUCAB and pUCCDE contain the sdeAB and sdeCDE loci, respectively, cloned into vector pUC18. 
+
+b 
+Relative MIC is the MIC value obtained for the test strain divided by the MIC value of E. coli AG102MB. CIP, ciprofloxacin; NOR, norfloxacin; OFX, ofloxacin; CHL, chloramphenicol; EtBr, ethidium bromide. 
+
+DISCUSSION 
+
+As previously demonstrated, proton gradient-dependent efflux plays a major role in the antibiotic resistance of S. marcescens ( 3 , 10 ). The present study further characterizes this resistance mechanism and identifies what appears to be the major fluoroquinolone pump. Since we were not provided with any background information about the clinical isolate T-861, more-defined fluoroquinolone-resistant mutant strains were isolated by serial passaging of UOC-67 in media supplemented with different fluoroquinolones. Wild-type strain S. marcescens , a clinical isolate, and mutant strains of S. marcescens generated by serial passaging of the wild-type strain in media supplemented with fluoroquinolones were all tested for their susceptibilities to fluoroquinolones. The clinical isolate T-861 was found to be highly resistant to norfloxacin and intermediate to ciprofloxacin and ofloxacin, while UOC-67WLO was found to be resistant to norfloxacin and ofloxacin and intermediate to ciprofloxacin (Table 2 ). UOC-67WL and UOC-67WLN were found to be highly resistant to all the fluoroquinolones tested (Table 2 ). In addition, these strains were also resistant to n -hexane (Fig. 2a ). However, when tested for SDS, ethidium bromide, and chloramphenicol, all strains, including the wild-type strain, were found to be highly resistant (data not shown). 
+
+All S. marcescens strains were examined for effluxes of ciprofloxacin, norfloxacin, and ofloxacin by spectrofluorimetrically measuring the accumulations of these antibiotics before and after the addition of CCCP. Although it is difficult to make quantitative estimations from these assays, they serve as a very rapid method to make qualitative interpretations regarding the presence or absence of proton gradient-dependent efflux mechanism. If cells efflux fluoroquinolones, they maintain a low constant level of antibiotics inside the cell, but upon the addition of the uncoupler CCCP, there is a steady increase in the accumulation of antibiotic. Cells that do not efflux antibiotic are not affected by the addition of CCCP, and they continue to accumulate antibiotics in a steady fashion before and after uncoupler addition. The wild-type strain, UOC-67, as expected, did not efflux any of the fluoroquinolones tested (Fig. 1a ). This result is evident from the fact that there was no increase in the accumulation of any fluoroquinolone upon the addition of the proton gradient uncoupler CCCP. However, the clinical isolate T-861 was found to efflux ciprofloxacin, norfloxacin, and ofloxacin (Fig. 1e ). Similarly, the lab-derived mutants UOC-67WL and UOC-67WLN were both found to efflux ciprofloxacin, norfloxacin, and, to some extent, ofloxacin (Fig. 1b and c ). This result is evident from the fact that these mutants initially had lower and fairly constant levels of intracellular fluoroquinolones, but upon the addition of CCCP, there was a rapid increase in the accumulation, in contrast to what was seen for UOC-67. For UOC-67, the cells started accumulating antibiotics right after the addition of CCCP, which did not alter the rate of accumulation. This fact is intriguing, as UOC-67WL was generated by serial passaging of UOC-67 exclusively in ciprofloxacin-supplemented medium, while UOC-67WLN was generated exclusively in norfloxacin-supplemented medium. Lab-derived mutant UOC-67WLO, isolated following the growth of the wild-type strain in the presence of ofloxacin, demonstrated minimal efflux of only ofloxacin and not norfloxacin or ciprofloxacin (Fig. 1d ), even though high MICs were observed for all three fluoroquinolones tested. It is possible that UOC-67WLO has an ATP-dependent pump active, not affected by CCCP, that is responsible for the resistance of this strain to fluoroquinolones. These results indicate that expression of at least two different pumps was upregulated, one common to UOC-67WL and UOC-67WLN which pumps all three fluoroquinolones and another weaker pump in UOC-67WLO that pumps out only ofloxacin. We also examined all five strains of S. marcescens for mutations in genes for fluoroquinolone targets, namely, in gyrA and parC , and found that T-861, UOC-67WL, and UOC-67WLN had the same S83→R mutation in the quinolone resistance-determining region (QRDR) of gyrA , while no mutation was found in the QRDR of parC (data not shown). Surprisingly, no mutation was seen in the QRDR of gyrA and parC of UOC-67WLO. This result indicates that, in the strains tested, active efflux was not the only factor involved in the fluoroquinolone resistance, as reported in various other instances ( 6 , 15 ). 
+
+Previously, we identified two potential S. marcescens RND pump gene fragments homologous to the mexF and mdtB genes of P. aeruginosa and E. coli , respectively. To retrieve the complete sequence of these loci, a cosmid genomic bank of S. marcescens UOC-67 (wild-type strain) was constructed. Screening of the cosmid bank resulted in the discovery of the sdeAB and sdeCDE loci. Subsequent sequencing and analysis revealed that the sdeAB locus encodes an MFP and RND pump protein. The sdeCDE locus was found to contain an MFP gene, as well as genes for two different RND pump proteins. The organization of the sdeCDE locus is similar to that of the mdtABC locus of E. coli ( 13 ); the mdtA gene codes for an MFP, while mdtB and mdtC both encode RND pumps, with both types of gene products required for the activity of the pump. Three-dimensional modeling of the SdeB, SdeD, and SdeE predicted amino acid sequences by the conserved-domain database of the National Center for Biotechnology Information showed very high similarity with the three-dimensional structure of the AcrB multidrug efflux pump of E. coli (data not shown). 
+
+To determine if the sdeAB and sdeCDE operons were being upregulated in the strains that were effluxing different fluoroquinolones, Northern blot analysis was performed and expression levels of the sdeA , sdeB , sdeC , and sdeD genes were measured by use of the DIG-labeled probes synthesized by using the 1.7-kb fragments of sdeB and sdeD genes. The expression levels of both pumps were compared for all of the S. marcescens strains. We found that the lab-derived mutant strains UOC-67WL and UOC-67WLN and, to some extent, clinical isolate T-861 were overexpressing the sdeB gene (Fig. 3a ). Incidentally, two of these mutant strains, UOC-67WL and UOC-67WLN, were found to efflux both norfloxacin and ciprofloxacin and, to a smaller degree, ofloxacin (Fig. 1b and c ). These results indicate that the SdeAB pump is responsible for the efflux of ciprofloxacin, norfloxacin, and ofloxacin in S. marcescens UOC-67WL and UOC-67WLN and, to some extent, in T-861. In addition, it appears that ciprofloxacin and norfloxacin exposure resulted in the selection of strains that were overexpressing sdeAB . The level of expression of sdeB in UOC-67WLO was found to be comparable to that of the wild-type strain, UOC-67. However, the accumulation assay results for ofloxacin did show some efflux of ofloxacin but no efflux of norfloxacin or ciprofloxacin (Fig. 1d ). It is possible that ofloxacin exposure results in the overexpression of another pump in S. marcescens , as seen in the case of P. aeruginosa , for which ofloxacin has been reported to select primarily for the MexCD-OprJ pump ( 9 ). As for the clinical isolate T-861, even though it was resistant to norfloxacin and intermediate to ciprofloxacin and ofloxacin and it effluxed these antibiotics in a proton gradient-dependent mechanism, there was not a significant difference between its expression of sdeB and the sdeB expression of UOC-67, suggesting that there might be some other pump active in this strain. 
+
+From the results obtained from the accumulation assays and the Northern blot analysis, it is clear that growth in the presence of ciprofloxacin and norfloxacin can result in the selection of S. marcescens mutants overexpressing sdeAB . However, since these mutants are not genetically defined, the presence of other active pumps cannot be ruled out. 
+
+No difference in the expression levels of sdeD was observed for any of the strains tested (Fig. 3b ). Thus, it appears that the exposure to fluoroquinolones did not result in any mutations leading to the overexpression of sdeCDE and that the SdeCDE pump is not responsible for the antimicrobial resistance of S. marcescens strains tested. 
+
+A functional analysis of the S. marcescens sdeAB and sdeCDE gene products was performed by using the acrB deletion mutant E. coli strain AG102MB. The introduction of the plasmid containing the sdeAB locus into E. coli AG102MB resulted in an increased resistance to all antimicrobials tested. These results show that the SdeAB pump can efflux fluoroquinolones (ciprofloxacin, ofloxacin, and norfloxacin). To further analyze the spectrum of substrates pumped out by SdeAB, we tested the susceptibility of E. coli AG102MB, supplemented with the plasmid containing sdeAB , to various nonquinolone antimicrobials that are known substrates for RND pumps, including chloramphenicol, novobiocin, SDS (detergent), ethidium bromide (dye), and n -hexane (organic solvent). We observed that the pump was effluxing all these compounds except novobiocin (data not shown for novobiocin). The introduction of the plasmid containing the sdeCDE locus did not alter the antimicrobial susceptibility of E. coli AG102MB, suggesting that this pump does not recognize any of these agents as its substrate. This observation is consistent with the results obtained in the Northern blot experiments, which establish that mutant strains effluxing ciprofloxacin, norfloxacin, and, to some extent, ofloxacin, were overexpressing sdeB but not sdeD . Moreover, the fact that the presence of the sdeCDE locus on a multicopy plasmid also failed to increase the resistance of the E. coli AG102MB for any of the antimicrobial agents tested suggests that these agents are likely not the substrates for this pump or perhaps that the pump is not functional. 
+
+In summary, we report the presence of an RND family multidrug efflux pump, SdeAB, that can pump out a diverse range of substrates that include fluoroquinolones, chloramphenicol, detergent, ethidium bromide, and organic solvents. Furthermore, our findings indicate this pump is overexpressed in S. marcescens strains that are multidrug resistant. 
+
+Acknowledgments 
+
+We are grateful to Julian Parkhill for providing the access to the incomplete database of S. marcescens genome sequence. We thank T. deKeivit and K. Kutcher for critical reading of the manuscript. 
+
+This work was supported by a Natural Sciences and Engineering Research Council of Canada operating grant to E.W. A.K. is a recipient of a University of Manitoba graduate student fellowship. 
+
+REFERENCES 
+
+1. Ausubel, F. M., R. Bent, R. E. Kingston, D. D. Moore, J. G. Seidman, J. A. Smith, and K. Struhl. 1989. Current protocols in molecular biology. John Wiley and Sons, New York, N.Y. 
+
+2. British Society for Antimicrobial Chemotherapy. 1991. A guide to sensitivity testing. Report of the Working Party on Antibiotic Sensitivity Testing of the British Society for Antimicrobial Chemotherapy. J. Antimicrob. Chemother. 27 ( Suppl. D) : 1-50. [ PubMed ] [ Google Scholar ] 
+
+3. Chen, J., T. Kuroda, M. N. Huda, T. Mizushima, and T. Tsuchiya. 2003. An RND-type multidrug efflux pump SdeXY from Serratia marcescens . J. Antimicrob. Chemother. 52 : 176-179. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+4. Elkins, C., and H. Nikaido. 2002. Substrate specificity of the RND-type multidrug efflux pumps AcrB and AcrD of Escherichia coli is determined predominantly by two large periplasmic loops. J. Bacteriol. 184 : 6490-6498. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Fujimaki, K., T. Fujii, H. Aoyama, K.-I. Sato, Y. Inoue, M. Inoue, and S. Mitsuhashi. 1989. Quinolone resistance in clinical isolates of Serratia marcescens . Antimicrob. Agents Chemother. 33 : 785-787. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Giraud, E., A. Cloeckaert, D. Kerboeuf, and E. Chaslus-Dancla. 2000. Evidence for active efflux as the primary mechanism of resistance to ciprofloxacin in Salmonella enterica serovar Typhimurium. Antimicrob. Agents Chemother. 44 : 1223-1228. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+7. Gutterson, N., and J. D. Jones. 1987. An efficient mobilizable cosmid vector, pRK7813, and its use in a rapid method for marker exchange in Pseudomonas fluorescens strain HV37a. Gene 61 : 299-306. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+8. Johnson, J. S., J. Croall, J. S. Power, and G. R. Armstrong. 1998. Fatal Serratia marcescens meningitis and myocarditis in a patient with an indwelling urinary catheter. J. Clin. Pathol. 51 : 789-790. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Kohler, T., M. Michea-Hamzehpour, P. Plesiat, A.-L. Kahr, and J. C. Pechere. 1997. Diferential selection of multidrug efflux systems by quinolones in Pseudomonas aeruginosa . Antimicrob. Agents Chemother. 41 : 2540-2543. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+10. Kumar, A., and E. A. Worobec. 2002. Fluoroquinolone resistance of Serratia marcescens : involvement of a proton gradient-dependent efflux pump. J. Antimicrob. Chemother. 50 : 593-596. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+11. Ma, D., D. N. Cook, M. Alberti, N. G. Pon, H. Nikaido, and J. E. Hearst. 1995. Genes acrA and acrB encode a stress-induced efflux system of Escherichia coli . Mol. Microbiol. 16 : 45-55. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+12. Mortimer, P. G., and L. J. Piddock. 1991. A comparison of methods used for measuring the accumulation of quinolones by Enterobacteriaceae , Pseudomonas aeruginosa and Staphylococcus aureus . J. Antimicrob. Chemother. 28 : 639-653. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+13. Nagakubo, S., K. Nishino, T. Hirata, and A. Yamaguchi. 2002. The putative response regulator BaeR stimulates multidrug resistance of Escherichia coli via a novel multidrug exporter system, MdtABC. J. Bacteriol. 184 : 4161-4167. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+14. Poole, K., K. Krebes, C. McNally, and S. Neshat. 1993. Multiple antibiotic resistance in Pseudomonas aeruginosa : evidence for involvement of an efflux operon. J. Bacteriol. 175 : 7363-7372. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Ruiz, J. 2003. Mechanisms of resistance to quinolones: target alterations, decreased accumulation and DNA gyrase protection. J. Antimicrob. Chemother. 51 : 1109-1117. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+16. Wang, H., J. L. Dzink-Fox, M. Chen, and S. B. Levy. 2001. Genetic characterization of highly fluoroquinolone-resistant clinical Escherichia coli strains from China: role of acrR mutations. Antimicrob. Agents Chemother. 45 : 1515-1521. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (154.4 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

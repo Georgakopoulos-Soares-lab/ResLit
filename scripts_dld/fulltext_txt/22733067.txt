@@ -1,0 +1,514 @@
+PMID: 22733067
+PMCID: PMC3421867
+DOI: 10.1128/AAC.00627-12
+Title: New MLSB resistance gene erm(43) in Staphylococcus lentus.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2012 Sep
+Authors: Schwendener S, Perreten V
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+New MLSB Resistance Gene erm(43) in Staphylococcus lentus - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2012 Sep;56(9):4746–4752. doi: 10.1128/AAC.00627-12 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+New MLS B Resistance Gene erm (43) in Staphylococcus lentus 
+
+Sybille Schwendener 
+
+Sybille Schwendener 
+
+1 Institute of Veterinary Bacteriology, Vetsuisse Faculty, University of Bern, Bern, Switzerland 
+
+Find articles by Sybille Schwendener 
+
+1 , Vincent Perreten 
+
+Vincent Perreten 
+
+1 Institute of Veterinary Bacteriology, Vetsuisse Faculty, University of Bern, Bern, Switzerland 
+
+Find articles by Vincent Perreten 
+
+1, ✉ 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+1 Institute of Veterinary Bacteriology, Vetsuisse Faculty, University of Bern, Bern, Switzerland 
+
+✉ 
+Address correspondence to Vincent Perreten, vincent.perreten@vetsuisse.unibe.ch . 
+
+✉ 
+Corresponding author. 
+
+Received 2012 Mar 20; Revision requested 2012 Apr 8; Accepted 2012 Jun 15. 
+
+Copyright © 2012, American Society for Microbiology. All Rights Reserved. 
+
+PMC Copyright notice 
+
+PMCID: PMC3421867  PMID: 22733067 
+
+Abstract 
+
+The search for a specific rRNA methylase motif led to the identification of the new macrolide, lincosamide, and streptogramin B resistance gene erm (43) in Staphylococcus lentus . An inducible resistance phenotype was demonstrated by cloning and expressing erm (43) and its regulatory region in Staphylococcus aureus . The erm (43) gene was detected in two different DNA fragments, of 6,230 bp and 1,559 bp, that were each integrated at the same location in the chromosome in several S. lentus isolates of human, dog, and chicken origin. 
+
+INTRODUCTION 
+
+Staphylococcus lentus is a commensal bacterium colonizing the skin of several animal species. It has commonly been isolated from food-producing animals, including poultry and dairy animals ( 10 , 39 ), and from their food products ( 18 , 23 ). People working with animals have also been reported to be carriers of S. lentus ( 6 , 10 ). In dairy sheep and goats, S. lentus has been associated with subclinical mastitis ( 5 , 16 ), and in rare cases, S. lentus has caused infections in humans ( 11 , 13 , 33 ). 
+
+Like other staphylococci, S. lentus has the ability to acquire antibiotic resistance genes ( 6 , 10 , 12 , 31 , 35 , 39 ), including erythromycin ribosome methylase ( erm ) genes, which confer resistance to macrolide, lincosamide, and streptogramin B (MLS B ) antibiotics ( 9 , 17 , 37 ). Erm methylases add one or two methyl groups to adenine A2058 of the 23S rRNA, hindering the ability of MLS B antibiotics to bind to the rRNA target ( 26 ). Erm methylases are either expressed constitutively or inducible. In cases where the methylase is inducible, the erm transcript contains an intact leader region that is involved in translational attenuation ( 7 ). In the absence of inducer molecules, such as 14- or 15-membered ring macrolides, bacteria remain susceptible to noninducing lincosamides and streptogramin B antibiotics in vitro . 
+
+To date, 34 Erm methylase classes have been described for bacterial species ( 35 ) ( Fig. 1 ). While Erm(A), Erm(B), Erm(C), Erm(F), Erm(G), Erm(Q), Erm(T), Erm(Y), and Erm(33) have been reported for several staphylococci ( 35 ), thus far, S. lentus has been found to contain only the erm (A), erm (B), erm (C), and erm (F) genes ( 2 , 9 , 17 , 21 , 37 ). 
+
+Fig 1. 
+
+Open in a new tab 
+
+Phylogenetic tree showing the relatedness between Erm methylases. Each class of Erm methylase is represented by one determinant. The dendrogram was constructed using BioNumerics 6.6 (Applied Maths NV, Sint-Martens-Latem, Belgium) with a standard algorithm for pairwise alignment of amino acid sequences, indicated by protein accession numbers (open gap penalty, 100%; unit gap penalty, 0%), and with clustering performed by the unweighted-pair group method using average linkages (UPGMA). The percentages of amino acid (aa) and nucleotide (nt) sequence identity between Erm(43) and other Erm determinants were determined by sequence alignment with clustalw2 ( http://www.ebi.ac.uk/Tools/msa/clustalw2/ ) (input, protein/DNA; pairwise alignment, slow). NA, not available [no linked nucleotide sequence for Erm(I) could be found in the GenBank database]. The complete Erm protein sequence of Erm(41) was obtained from the work of Nash et al. ( 20 ). 
+
+In March 2007, one S. lentus strain that displayed an inducible MLS B phenotype but carried none of the described erm genes was isolated from the ear of a healthy 5-year-old dog (Bruno Jura hound). The aim of this study was to identify the nature of this MLS B resistance mechanism and to determine whether it is also present in S. lentus strains of different origins. 
+
+MATERIALS AND METHODS 
+
+Bacterial strains, identification, and growth conditions. 
+
+The origin and characteristics of the Staphylococcus strains used in this study are listed in Table 1 . The strains were identified by matrix-assisted laser desorption ionization–time of flight mass spectrometry (MALDI-TOF MS) (microflex LT; Bruker Daltonics, Bremen, Germany). Strains SD952 and ASC0 were additionally identified by 16S rRNA gene sequencing as described previously ( 15 ). The Staphylococcus aureus strains RN4220 ( 14 ) and 80CR5 ( 8 ) were used in transformation and conjugation experiments, respectively. Escherichia coli DH5α was used for cloning and plasmid propagation. S. lentus strains were cultivated at 37°C on Trypticase soy agar plates containing 5% sheep blood (Becton, Dickinson and Company, Franklin Lakes, NJ). S. aureus RN4220 and E. coli DH5α transformants were grown on Lennox broth (LB) agar plates (Becton, Dickinson and Company) containing 10 μg/ml tetracycline for selection of pBUS1 constructs and 20 μg/ml chloramphenicol and 70 μg/ml ampicillin for selection of pRB474 constructs, respectively. These concentrations were also used to maintain plasmids in the cells. 
+
+Table 1. 
+
+Antimicrobial susceptibility of Staphylococcus strains to erythromycin, clindamycin, and pristinamycin IA as determined by broth microdilution 
+
+Strain Description or source Reference Antibiotic resistance gene(s) a MIC (μg/ml) b ERY CLI iCLI PIA iPIA S. aureus strains RN4220 Recipient strain, plasmid free 14 0.25 ≤0.25 NA 4 NA RN4220/pBUS1 RN4220 with cloning vector pBUS1 28 ; this study tet (L) 0.25 ≤0.25 NA 4 NA RN4220/pBSSC1 RN4220 with erm (43) c cloned into pBUS1 and carrying pBSSC1 This study erm (43), lp, tet (L) >128 ≤0.25 128 4 8 RN4220/pBSSC2 RN4220 with erm (43) d cloned into pBUS1 and carrying pBSSC2 This study erm (43), tet (L) 0.25 ≤0.25 NA 4 NA RN4220/pRB474 RN4220 with cloning vector pRB474 1 ; this study cat pC221 0.25 ≤0.25 NA 4 NA RN4220/pRSSC2 RN4220 with erm (43) d cloned into pRB474 and carrying pRSSC2 This study erm (43), cat pC221 >128 >128 >128 >128 >128 S. lentus strains SD952 Dog This study str , erm (43) 64 0.5 128 4 16 ASC0 Sheep This study tet (K), mph (C) ≤0.25 0.5 NA 2 NA G64 Chicken 10 ; this study mecA , mph (C) ≤0.25 1 NA 2 NA G38 Chicken 10 ; this study mecA , mph (C), erm (43) 128 2 64 32 128 G45 Chicken 10 ; this study mecA , mph (C), erm (43) 64 2 128 8 16 G56 Chicken 10 ; this study mecA , mph (C), erm (43) 64 1 32 4 8 G84 Chicken 10 ; this study mecA , mph (C), erm (43) 64 1 64 16 64 M157 Human 10 ; this study mecA , mph (C) ≤0.25 1 NA 8 NA M155 Human 10 ; this study mecA , mph (C), erm (43) 32 1 16 4 8 M163 Human 10 ; this study mecA , mph (C), erm (43), tet (K) 64 1 64 4 8 
+
+Open in a new tab 
+
+a 
+Antibiotic resistance genes and functions: cat pC221 , chloramphenicol acetyltransferase gene; erm (43), macrolide-lincosamide-streptogramin B rRNA methylase gene; mecA , penicillin-binding protein PBP2a gene; mph (C), macrolide phosphotransferase gene; str , streptomycin nucleotidyltransferase gene; lp, leader peptides involved in inducible expression of erm (43); tet (K), tet (L), tetracycline efflux gene; NA, not applicable. 
+
+b 
+CLI, clindamycin; ERY, erythromycin; PIA, pristinamycin IA; iCLI and iPIA, inducible resistance to clindamycin and pristinamycin IA was measured in the presence of 4 μg/ml erythromycin. 
+
+c 
+The erm (43) gene from SD952 was cloned along with 294 bp of upstream DNA that contained the leader peptides as well as promoter sequences. 
+
+d 
+The erm (43) gene from SD952 was cloned along with 63 bp of upstream DNA without leader peptide and promoter sequences. 
+
+Antimicrobial susceptibility testing. 
+
+MICs of erythromycin, clindamycin (Sigma-Aldrich, St. Louis, MO), and pristinamycin IA (Molcan Corporation, Richmond Hill, Ontario, Canada) were determined by broth microdilution ( 3 ). Inducible resistance to clindamycin and pristinamycin IA was measured in the presence of 4 μg/ml erythromycin ( 4 ). 
+
+The presence of antibiotic resistance genes was determined using a custom-made microarray (AMR+ve-2; Alere GmbH, Cologne, Germany) ( 25 ). 
+
+DNA extraction. 
+
+Genomic DNA was isolated using a peqGOLD bacterial DNA kit (Peqlab Biotechnologie GmbH, Erlangen, Germany). Plasmid DNA was extracted using a NucleoBond PC20 plasmid purification kit (Macherey-Nagel GmbH & Co., Düren, Germany). The kit lysis buffers were supplemented with 50 μg/ml lysostaphin (Sigma-Aldrich), and the cells were lysed for 20 min at 37°C. 
+
+PCR and sequence analysis. 
+
+Standard PCR was performed using Taq DNA polymerase (Solis BioDyne, Tartu, Estonia). PCR for larger amplicons (>1.5 kb) was performed using the Roche Expand Long Template PCR system (Roche Diagnostics GmbH, Mannheim, Germany). DNA amplification was performed for 35 cycles, using the primers and conditions indicated in the text. The erm (43) gene was detected by PCR amplification of a 609-bp fragment by use of primers erm(43)-F (5′-TACAGCAGATGATAACATTG) and erm(43)-R (5′-TGTTGTTTCGATATTTTATTTAAG), an annealing temperature of 50°C, and an extension time of 40 s. To test for erm (43)-containing circular molecules, PCR was performed using primers directed outwards from the erm (43)-containing fragment in SD952, namely, primer erm(43)-R and the SD952 orf-7 -specific primer contig50-F5 (5′-TGATTACTGGAGCCGCTG) (expected product size, 1.8 kb; annealing temperature, 50°C; and extension time, 2 min). 
+
+Whole-genome sequencing of S. lentus SD952 was performed using Roche 454 GS Titanium chemistry and protocols (GS Junior system; Roche). In total, 1 μg of genomic DNA was used for rapid library preparation. The sequencing reads were assembled de novo using newbler 2.6 at the Vital-IT Center for High-Performance Computing at the Swiss Institute of Bioinformatics ( http://www.vital-it.ch ). The translated contigs were analyzed for the presence of the rRNA adenine dimethylase signature (PROSITE pattern PS01131 [ http://prosite.expasy.org/ ]) by use of the GenomeNet bioinformatics tool MOTIF ( http://www.genome.jp/tools/motif/ ). 
+
+Based on the obtained 454 sequence data, the region containing the integrated erm (43) fragment in SD952 was also sequenced for the S. lentus strains M155 and ASC0. Sequences were obtained from long-range PCR products by use of an ABI Prism 3100 genetic analyzer (Applied Biosystems, Forster City, CA). Primers contig50-F4 (5′-TGACTAGCCACATCTCCG) and contig50-R6 (5′-ATCCGTTAATTTACCGAGC) were used to amplify a DNA fragment containing erm (43) from strain M155 (2.3 kb) or a DNA fragment containing the integration region from strain ASC0 (0.8 kb) (annealing temperature, 52°C; extension time, 7 min) ( Fig. 2 ). Primers contig50-F13 (5′-GTTTGTTAAAATACTTTATCACC) and contig50-R9 (5′-CTCTGCTAAATGATGTTCTG) were used to amplify flanking DNA of the integration region (3.2 kb), which contains the mfs and sugar transporter genes, from ASC0 (annealing temperature, 51°C; extension time, 3.5 min) ( Fig. 2 ). Primers IS431-R (5′-AATGTATGTCCCTCTGCATC) and erm(43)-R (amplifying 1.9 kb) (annealing temperature, 50°C; extension time, 2 min) and primers contig50-F4 and contig50-R9 (amplifying 3.5 kb) (annealing temperature, 51°C; extension time, 3.5 min) were used to amplify both the 5′ and 3′ regions of the integration site in M155 ( Fig. 2 ). In M155, the IS 431 sequence was first detected by sequencing a 0.7-kb PCR product that was obtained with primers specific to DNA upstream of the integration region in SD952 (contig50-F12 [5′-TCACCTTTCTGCATCAAC] and contig50-R8 [5′-CAAATTATGGATACATCTCAG]) at a low annealing temperature (45°C). 
+
+Fig 2. 
+
+Open in a new tab 
+
+Comparison of flanking regions and integration sites in erm (43)-containing fragments from S. lentus strains SD952, M155, and ASC0. Gray areas indicate regions with high DNA similarity (>95% [left] or >99% [right]). Positions and orientations of open reading frames (ORFs) are represented by arrows. The new MLS B resistance gene erm (43) and its two leader peptides (lp; lp1 and lp2), involved in inducible expression of erm (43), are shown in black. A 134- or 135-bp duplicated imperfect direct repeat (DR) sequence is located at both extremities of the integrated erm (43)-containing element in SD952, as indicated by a dark gray rectangle. In SD952, the insert contains four additional ORFs (light gray arrows), coding for a putative dihydrodipicolinate synthase ( orf-4 ), a putative IclR family transcriptional regulator ( orf-5 ), a putative mandelate racemase/muconate lactonizing protein ( orf-6 ), and a putative major facilitator superfamily transporter ( orf-7 ). In M155, a 480-bp noncoding region that is absent from SD952 is situated downstream of erm (43) and represented by a gray line. ORFs flanking the insertion site are indicated by white arrows. mfs , major facilitator superfamily gene; mfs ′, mfs truncated by an IS 431 element in M155; sugar transporter , putative sugar transporter gene; orf-9 , gene coding for a putative xylose isomerase domain-containing protein. Primers used to amplify fragments from ASC0 and M155 DNAs are represented by small black arrows, as follows: F4, contig50-F4; F13, contig50-F13; IS, IS431-R; R, erm(43)-R; R6, contig50-R6; and R9, contig50-R9. 
+
+Cloning. 
+
+The erm (43) gene was cloned into the shuttle vectors pBUS1 ( 28 ) and pRB474 ( 1 ) as follows. One fragment containing the erm (43) gene and a 294-bp upstream region was amplified by PCR from S. lentus SD952 DNA by use of the forward primer erm(43)-SalI-F1 (5′-cat gtcgac TAAATGAGGGTTAATATCCAG) and the reverse primer erm(43)-XbaI-R (5′-cat tctagA TGAATTTAACGAAGGTGATTC) and then cloned into pBUS1, generating the plasmid pBSSC1. A second fragment, containing the erm (43) gene and a 63-bp upstream region, was cloned into both the pBUS1 and pRB474 vectors after PCR amplification using the forward primer erm(43)-SalI-F2 (5′-cat gtcgac TAAATTACTGGTCATGATGAAC) and the reverse primers erm(43)-XbaI-R and erm(43)-EcoRI-R (5′-cat gaattc ATGAATTTAACGAAGGTGATTC), generating the plasmids pBSSC2 and pRSSC2, respectively. The primers were supplemented with linkers (lowercase letters in sequences) containing a restriction site (underlined) to facilitate cloning into the vectors. PCR for cloning was performed with Pfu DNA polymerase (Promega, Madison, WI) at an annealing temperature of 51°C and with an extension time of 2 min 15 s. 
+
+DNA-DNA hybridization. 
+
+Southern blot analysis of genomic and plasmid DNAs was performed using a standard protocol for alkaline transfer ( 29 ). An erm (43)-specific probe was synthesized by incorporation of digoxigenin (DIG)-labeled dUTP (Roche) into PCR products by use of primers erm(43)-F and erm(43)-R, with SD952 DNA as the template. Hybridized probes were detected on the membrane by use of anti-DIG-AP Fab fragments and the CDP-Star chemiluminescence substrate (Roche). 
+
+Conjugation and electrotransformation. 
+
+As described previously, conjugation was performed by filter mating, using S. lentus SD952 as the donor strain and S. aureus 80CR5 (Fus r Rif r ) as the recipient strain ( 24 ). Selection occurred on brain heart infusion (BHI) agar containing 100 μg/ml rifampin, 25 μg/ml fusidic acid, and 20 μg/ml erythromycin. In addition, transferability of erm (43) was tested by electroporation of SD952 genomic DNA into RN4220 and selection on NYE agar (1% casein hydrolysate, 0.5% yeast extract, 0.5% sodium chloride) containing 20 μg/ml erythromycin. Electrotransformation of S. aureus RN4220 was performed as previously described ( 30 ). The same protocol was used to transform RN4220 cells with pBUS1 and pRB474 constructs, with the exception that NYE agar containing 10 μg/ml tetracycline and 20 μg/ml chloramphenicol, respectively, was used for selection. 
+
+Nucleotide sequence accession numbers. 
+
+The nucleotide sequences of erm (43) and/or its flanking regions have been deposited in the EMBL database under the following accession numbers: HE650138 for S. lentus SD952, HE775264 for S. lentus M155, and HE775265 for S. lentus ASC0. 
+
+RESULTS AND DISCUSSION 
+
+Identification of erm (43). 
+
+The S. lentus strain SD952, which displayed constitutive resistance to erythromycin and inducible resistance to clindamycin, did not contain any of the erm genes previously described for staphylococci, as determined by microarray analyses ( Table 1 ). No transfer of macrolide resistance occurred either by conjugation to S. aureus 80CR5 or by electroporation of genomic DNA into S. aureus RN4220. To identify the new mechanism of resistance, the entire genome of S. lentus SD952 was sequenced using 454 sequencing. The obtained reads (total number of reads, 129,297; average length, 430 bp) were assembled de novo into 85 contigs, with an N 50 (length-weighted median) of 90,586 bp, a mean contig size of 33,165 bp, a maximum contig length of 165,612 bp, and a contig sum of 2,819,025 bp. The translated contigs were analyzed for the presence of the rRNA adenine dimethylase signature PROSITE pattern PS01131. This motif is present in all described MLS B methylases except for Erm(I), Erm(N), Erm(Z), Erm(32), Erm(37), and Erm(41) ( Fig. 3 ). Two PS01131 amino acid (aa) motifs were detected in the translated contig sequences of SD952, with one associated with a bacterial 16S rRNA dimethylase KsgA-like protein ( 22 ) and the other associated with a 23S rRNA methylase. This 23S rRNA methylase shared <61% aa identity and <72% DNA identity with other acquired Erm proteins ( Fig. 1 ). The gene encoding this new methylase was named erm (43) according to the nomenclature for MLS B genes ( http://faculty.washington.edu/marilynr/ ) ( 27 ). 
+
+Fig 3. 
+
+Open in a new tab 
+
+Alignment of rRNA adenine dimethylase signatures (PROSITE pattern PS01131) of 35 Erm representatives. The pattern is defined as follows: [LIVMAC]-[LIVMFYWT]-[DE]-X-G-[STAPVLCG]-G-X-[GAS]-X-[LIVMF]-[ST]-X(2,3)-[LIVMA]-X(5,8)-[LIVMYF]-X-[STAGVLC]-[LIVMFYHCS]-E-X-D, with aa acceptable for one given position listed in square brackets and “X” indicating any aa with the possible repetition range given in parentheses. In the figure, invariant aa are shaded black, highly conserved aa are shown in dark gray, and less-conserved positions are shown in light gray. Threonine (T) at the first position and histidine (H) at the last position could be included in the PS01131 signature to recognize most Erm methylases. For Erm(41), the sequence published by Nash et al. ( 20 ) was included. Erm(32) is listed even though it does not contain a complete PS01131 signature. 
+
+Characterization and expression of erm (43). 
+
+The erm (43) gene encodes a 243-aa protein and is preceded by sequences encoding two leader peptides, of 17 aa (lp1) and 22 aa (lp2) ( Fig. 2 ), similar to the regulatory region of erm (A) in Tn 554 ( 19 ). The lp2 peptide contains the aa motif (FS)IFVI, which has a key role in the induction of erm (C) ( 36 ). In addition, the regulatory sequence of erm (43) contains two pairs of inverted repeats (IR) (IR1 [5′-AAAGTTCATTAT] plus IR2 [5′-ATGATGAACTTT] and IR3 [5′-TTCATTATGATTC] plus IR4 [5′-GAATATAATGAA]) that are capable of forming stem-loop structures similar to those described for the translational attenuator sequences upstream of inducible erm (C) genes ( 38 ). The putative translational attenuator sequence upstream of erm (43) shows 80% identity in a 204-bp overlap (204 nt/207 nt) to erm (A) in Tn 554 (GenBank accession no. X03216 ) and 73% identity in a 133-bp overlap (204 nt/133 nt) to erm (C) in pT48 (GenBank accession no. NC_001395 ). Putative −10 and −35 promoter sequences exist 223 bp and 245 bp, respectively, upstream of the erm (43) start codon. 
+
+To study its expression, we cloned the erm (43) gene with and without its putative promoter sequences into the shuttle vector pBUS1, which lacks an expression promoter, or pRB474, which allows expression of the cloned genes under the control of the veg II promoter. Plasmid pBSSC1 contained the erm (43) gene and a 294-bp upstream region including the putative promoter sequences. Plasmids pBSSC2 and pRSSC2 contained the erm (43) gene and a 63-bp upstream region lacking promoter sequences, leader peptides, and IR1. The plasmids were electroporated into S. aureus RN4220, and transformants were tested for erythromycin, clindamycin, and pristinamycin IA resistance as well as for inducible resistance to clindamycin and pristinamycin IA. In S. aureus RN4220, pBSSC1 conferred a >9-fold increase in resistance to erythromycin; resistance to clindamycin (>9-fold) and pristinamycin IA (2-fold) also increased after induction with erythromycin ( Table 1 ). No phenotypic expression was observed with pBSSC2, which contained erm (43) lacking the promoter region ( Table 1 ). However, when the same erm (43)-containing fragment was placed downstream of the veg II promoter in plasmid pRSSC2, constitutive resistance to erythromycin (>9-fold increase in resistance), clindamycin (>10-fold increase), and pristinamycin IA (>6-fold increase) was observed ( Table 1 ). Untransformed RN4220 cells and RN4220 cells harboring empty vectors remained susceptible to these antibiotics ( Table 1 ). 
+
+Distribution of erm (43) in S. lentus strains. 
+
+The erm (43) gene was detected in six additional MLS B -resistant S. lentus strains, originating from chickens ( S. lentus strains G38, G45, G56, and G85) and humans (strains M155 and M163), by use of PCR with the primers erm(43)-F and erm(43)-R, and was absent in MLS B -susceptible strains (ASC0, G64, and M157) ( Table 1 ). The erm (43)-containing isolates displayed resistance to erythromycin as well as inducible resistance to clindamycin and did not contain any other erm genes described so far for staphylococci, as determined by microarray analyses ( Table 1 ). PCR analysis using the primers contig50-F4 and contig50-R6, which annealed to DNA regions situated directly upstream and downstream of the putative erm (43)-containing fragment in SD952, revealed the presence of a 2.3-kb fragment for erm (43)-positive strains from chickens and humans and a 7-kb amplicon for the SD952 strain from a dog ( Fig. 2 ). These results indicated that erm (43) was present on two different DNA fragments that were integrated into the same genomic region. In contrast, a 0.8-kb fragment was amplified from MLS B -susceptible strains ASC0, G64, and M157 by use of the same primers. The erm (43) gene was also detected in the S. lentus collection strains CCM2598, CCM2599, and CCUG15599. 
+
+Localization of erm (43) on the S. lentus chromosome and characterization of the flanking region. 
+
+The erm (43)-containing fragment and its flanking regions in SD952 were compared to those of the S. lentus strain M155, containing erm (43), and the MLS B -susceptible strain ASC0, lacking erm (43) ( Fig. 2 ). Sequence analysis showed that the erm (43)-containing fragments of SD952 and M155 integrated into a unique site between a putative major facilitator superfamily gene ( mfs ) and a putative sugar transporter gene in the genome of S. lentus ( Fig. 2 ). In SD952, the erm (43) gene was located on a 6,230-bp fragment that was flanked by 135- or 134-bp imperfect direct repeat (DR) sequences that differed from each other by seven mismatches. The 5′ DR was part of the chromosome, as it was also present in M155 and ASC0, and the 3′ DR appeared to belong to the erm (43)-containing integrated sequence ( Fig. 2 ). This sequence duplication, though found only in SD952, emphasizes that the chromosomal DR sequence may play a role as an attachment site. In addition to erm (43), the integrated fragment in SD952 contained four other open reading frames ( orf-4 to orf-7 ), which coded for a putative dihydrodipicolinate synthase ( orf-4 ), a putative IclR family transcriptional regulator ( orf-5 ), a putative mandelate racemase/muconate lactonizing protein ( orf-6 ), and a putative MFS transporter ( orf-7 ). In M155, the integrated fragment had a length of 1,559 bp and contained the erm (43) gene followed by a 480-bp noncoding region absent in the SD952 sequence ( Fig. 2 ). The sequence of the same region in ASC0 contained only the potential attachment sequence (DR) between the putative mfs and sugar transporter genes ( Fig. 2 ). In strain M155, the putative mfs gene was found to be truncated by the insertion element IS 431 ( Fig. 2 ). The location of erm (43) on the chromosome of S. lentus was demonstrated by DNA hybridization using probes for erm (43) (data not shown). There was no evidence that the erm (43)-containing fragment in SD952 was capable of autonomous translocation. Transfer of macrolide resistance was not observed by DNA transformation or by conjugation using SD952 cells as the donor. Furthermore, no circular forms of erm (43)-containing fragments were detected by PCR. 
+
+Although the mode of acquisition of erm (43) remains unknown, the identification of erm (43) in S. lentus strains from different sources, including methicillin-resistant isolates from chickens and humans ( Table 1 ), indicates that erm (43) is widely distributed in different environments. Erythromycin resistance has frequently been observed among bacteria from the S. sciuri group ( S. sciuri , S. lentus , and S. vitulinus ), but the mechanism of resistance frequently remains unknown ( 32 , 34 ), suggesting that erm (43) may also be widespread in these bacteria. 
+
+Searching for aa motifs involved in enzymatic functions is one approach to detect related proteins with low overall sequence identity. The new Erm(43) protein was identified by such a bioinformatics search for a specific methylase motif encoded in the translated SD952 draft genome. The erm (43) gene is another example that illustrates the presence of novel antibiotic resistance determinants in Staphylococcus species with zoonotic potential. 
+
+ACKNOWLEDGMENTS 
+
+We thank Sybill Descloux-Langer and Alexandre Scherer for isolation of S. lentus strains SD952 and ASC0, respectively; Doreen Becker, Cord Drögemüller, and Tosso Leeb for help and advice with 454 sequencing at the Institute of Genetics at the University of Bern; Edy Vilei for support in genome assembly; Roger Stephan, Claudio Zweifel, and Nicole Cernela for providing S. lentus strains; and Reinhold Brückner for providing the pRB474 plasmid. 
+
+Footnotes 
+
+Published ahead of print 25 June 2012 
+
+REFERENCES 
+
+1. Brückner R.
+1992. 
+A series of shuttle vectors for Bacillus subtilis and Escherichia coli. Gene
+122:187–192 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+2. Chung WO, Werckenthin C, Schwarz S, Roberts MC.
+1999. 
+Host range of the ermF rRNA methylase gene in bacteria of human and animal origin. J. Antimicrob. Chemother.
+43:5–14 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+3. Clinical and Laboratory Standards Institute
+2009. 
+Methods for dilution antimicrobial susceptibility tests for bacteria that grow aerobically, 8th ed, vol 29, no. 2
+Approved standard M07-A8. Clinical and Laboratory Standards Institute, Wayne, PA [ Google Scholar ] 
+
+4. Clinical and Laboratory Standards Institute
+2011. 
+Performance standards for antimicrobial susceptibility testing; twenty-first informational supplement M100-S21, vol 31, no. 1
+Clinical and Laboratory Standards Institute, Wayne, PA [ Google Scholar ] 
+
+5. Deinhofer M, Pernthaner A.
+1995. 
+Staphylococcus spp. as mastitis-related pathogens in goat milk. Vet. Microbiol.
+43:161–166 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+6. De Martino L, et al. 
+2010. 
+Methicillin-resistant staphylococci isolated from healthy horses and horse personnel in Italy. J. Vet. Diagn. Invest.
+22:77–82 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Depardieu F, Podglajen I, Leclercq R, Collatz E, Courvalin P.
+2007. 
+Modes and modulations of antibiotic resistance gene expression. Clin. Microbiol. Rev.
+20:79–114 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Engel HW, Soedirman N, Rost JA, van Leeuwen WJ, van Embden JD.
+1980. 
+Transferability of macrolide, lincomycin, and streptogramin resistances between group A, B, and D streptococci, Streptococcus pneumoniae, and Staphylococcus aureus. J. Bacteriol.
+142:407–413 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Hauschild T, Lüthje P, Schwarz S.
+2005. 
+Staphylococcal tetracycline-MLS B resistance plasmid pSTE2 is the product of an RSA-mediated in vivo recombination. J. Antimicrob. Chemother.
+56:399–402 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+10. Huber H, et al. 
+2011. 
+Prevalence and characteristics of methicillin-resistant coagulase-negative staphylococci from livestock, chicken carcasses, bulk tank milk, minced meat, and contact persons. BMC Vet. Res.
+7:6. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Karachalios GN, et al. 
+2006. 
+Splenic abscess due to Staphylococcus lentus: a rare entity. Scand. J. Infect. Dis.
+38:708–710 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+12. Kehrenberg C, Schwarz S.
+2004. fexA , a novel Staphylococcus lentus gene encoding resistance to florfenicol and chloramphenicol. Antimicrob. Agents Chemother.
+48:615–618 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Koksal F, Yasar H, Samasti M.
+2009. 
+Antibiotic resistance patterns of coagulase-negative staphylococcus strains isolated from blood cultures of septicemic patients in Turkey. Microbiol. Res.
+164:404–410 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+14. Kreiswirth BN, et al. 
+1983. 
+The toxic shock syndrome exotoxin structural gene is not detectably transmitted by a prophage. Nature
+305:709–712 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+15. Kuhnert P, Frey J, Lang NP, Mayfield L.
+2002. 
+Phylogenetic analysis of Prevotella nigrescens, Prevotella intermedia and Porphyromonas gingivalis clinical strains reveals a clear species clustering. Int. J. Syst. Evol. Microbiol.
+52:1391–1395 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+16. Kunz F, et al. 
+2011. 
+Antimicrobial resistance of Staphylococcus aureus and coagulase negative staphylococci isolated from mastitis milk samples from sheep and goats. Schweiz. Arch. Tierheilkd.
+153:63–69 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+17. Lodder G, Werckenthin C, Schwarz S, Dyke K.
+1997. 
+Molecular analysis of naturally occurring erm C-encoding plasmids in staphylococci isolated from animals with and without previous contact with macrolide/lincosamide antibiotics. FEMS Immunol. Med. Microbiol.
+18:7–15 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+18. Mauriello G, Casaburi A, Blaiotta G, Villani F.
+2004. 
+Isolation and technological properties of coagulase negative staphylococci from fermented sausages of Southern Italy. Meat Sci.
+67:149–158 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+19. Murphy E.
+1985. 
+Nucleotide sequence of ermA , a macrolide-lincosamide-streptogramin B determinant in Staphylococcus aureus. J. Bacteriol.
+162:633–640 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. Nash KA, Brown-Elliott BA, Wallace RJ., Jr
+2009. 
+A novel gene, erm (41), confers inducible macrolide resistance to clinical isolates of Mycobacterium abscessus but is absent from Mycobacterium chelonae. Antimicrob. Agents Chemother.
+53:1367–1376 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+21. Nawaz MS, et al. 
+1999. 
+Biochemical and molecular characterization of erythromycin-resistant avian Staphylococcus spp. isolated from chickens. Poult. Sci.
+78:1191–1197 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+22. Park AK, Kim H, Jin HJ.
+2010. 
+Phylogenetic analysis of rRNA methyltransferases, Erm and KsgA, as related to antibiotic resistance. FEMS Microbiol. Lett.
+309:151–162 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+23. Perreten V, Giampà N, Schuler-Schmid U, Teuber M.
+1998. 
+Antibiotic resistance genes in coagulase-negative staphylococci isolated from food. Syst. Appl. Microbiol.
+21:113–120 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+24. Perreten V, Kollöffel B, Teuber M.
+1997. 
+Conjugal transfer of the Tn 916 -like transposon Tn FO1 from Enterococcus faecalis isolated from cheese to other Gram-positive bacteria. Syst. Appl. Microbiol.
+20:27–38 [ Google Scholar ] 
+
+25. Perreten V, et al. 
+2005. 
+Microarray-based detection of 90 antibiotic resistance genes of gram-positive bacteria. J. Clin. Microbiol.
+43:2291–2302 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+26. Poehlsgaard J, Douthwaite S.
+2005. 
+The bacterial ribosome as a target for antibiotics. Nat. Rev. Microbiol.
+3:870–881 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+27. Roberts MC, et al. 
+1999. 
+Nomenclature for macrolide and macrolide-lincosamide-streptogramin B resistance determinants. Antimicrob. Agents Chemother.
+43:2823–2830 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Rossi J, Bischoff M, Wada A, Berger-Bächi B.
+2003. 
+MsrR, a putative cell envelope-associated element involved in Staphylococcus aureus sarA attenuation. Antimicrob. Agents Chemother.
+47:2558–2564 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+29. Sambrook J, Fritsch EF, Maniatis T.
+1989. 
+Molecular cloning. A laboratory manual. Cold Spring Harbor Laboratory Press, Cold Spring Harbor, NY [ Google Scholar ] 
+
+30. Schenk S, Laddaga RA.
+1992. 
+Improved method for electroporation of Staphylococcus aureus. FEMS Microbiol. Lett.
+73:133–138 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+31. Schwarz S, Roberts MC, Werckenthin C, Pang Y, Lange C.
+1998. 
+Tetracycline resistance in Staphylococcus spp. from domestic animals. Vet. Microbiol.
+63:217–227 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+32. Simjee S, et al. 
+2007. 
+Antimicrobial susceptibility and distribution of antimicrobial-resistance genes among Enterococcus and coagulase-negative Staphylococcus isolates recovered from poultry litter. Avian Dis.
+51:884–892 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+33. Stepanović S, Ježek P, Vuković D, Dakić I, Petráš P.
+2003. 
+Isolation of members of the Staphylococcus sciuri group from urine and their relationship to urinary tract infections. J. Clin. Microbiol.
+41:5262–5264 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+34. Stepanović S, et al. 
+2006. 
+Resistance to macrolides, lincosamides, streptogramins, and linezolid among members of the Staphylococcus sciuri group. Microb. Drug Resist.
+12:115–120 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+35. van Hoek AH, et al. 
+2011. 
+Acquired antibiotic resistance genes: an overview. Front. Microbiol.
+2:203. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+36. Weisblum B.
+1995. 
+Insights into erythromycin action from studies of its activity as inducer of resistance. Antimicrob. Agents Chemother.
+39:797–805 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+37. Werckenthin C, Schwarz S, Dyke K.
+1996. 
+Macrolide-lincosamide-streptogramin B resistance in Staphylococcus lentus results from the integration of part of a transposon into a small plasmid. Antimicrob. Agents Chemother.
+40:2224–2225 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+38. Werckenthin C, Schwarz S, Westh H.
+1999. 
+Structural alterations in the translational attenuator of constitutively expressed ermC genes. Antimicrob. Agents Chemother.
+43:1681–1685 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+39. Zhang Y, Agidi S, LeJeune JT.
+2009. 
+Diversity of staphylococcal cassette chromosome in coagulase-negative staphylococci from animal sources. J. Appl. Microbiol.
+107:1375–1383 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (1.4 MB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

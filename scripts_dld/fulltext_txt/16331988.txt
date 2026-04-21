@@ -1,0 +1,509 @@
+PMID: 16331988
+PMCID: PMC2593831
+DOI: 10.1021/bi051777d
+Title: The kinetic mechanism of AAC3-IV aminoglycoside acetyltransferase from Escherichia coli.
+Journal: Biochemistry
+PubDate: 2005 Dec 13
+Authors: Magalhaes ML, Blanchard JS
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+The Kinetic Mechanism of AAC(3)-IV Aminoglycoside Acetyltransferase from Escherichia coli - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Biochemistry 
+. Author manuscript; available in PMC: 2008 Dec 4. 
+
+Published in final edited form as: Biochemistry. 2005 Dec 13;44(49):16275–16283. doi: 10.1021/bi051777d 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+The Kinetic Mechanism of AAC(3)-IV Aminoglycoside Acetyltransferase from Escherichia coli 
+
+Maria L B Magalhaes 
+
+Maria L B Magalhaes 
+
+1 Department of Biochemistry, Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, New York 10461 
+
+Find articles by Maria L B Magalhaes 
+
+1 , John S Blanchard 
+
+John S Blanchard 
+
+1 Department of Biochemistry, Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, New York 10461 
+
+Find articles by John S Blanchard 
+
+1, * 
+
+Author information 
+
+Copyright and License information 
+
+1 Department of Biochemistry, Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, New York 10461 
+
+* 
+Corresponding Author John S. Blanchard Department of Biochemistry Albert Einstein College of Medicine 1300 Morris Park Avenue Bronx, NY 10461 Tel (718) 430-3096 Fax (718) 430-8565 E-mail address: blanchar@aecom.yu.edu 
+
+PMC Copyright notice 
+
+PMCID: PMC2593831  NIHMSID: NIHMS60840  PMID: 16331988 
+
+The publisher's version of this article is available at Biochemistry 
+
+Abstract 
+
+The aminoglycoside 3- N -acetyltransferase AAC(3)-IV from Escherichia coli exhibits a very broad aminoglycoside specificity, causing resistance to a large number of aminoglycosides, including the atypical veterinary antibiotic, apramycin. We report here on the characterization of the substrate specificity and kinetic mechanism of the acetyl transfer reaction catalyzed by AAC(3)-IV. The steady-state kinetic parameters revealed a narrow specificity for the acyl-donor and broad range of activity for aminoglycosides. AAC(3)-IV has the broadest substrate specificity of all AAC(3)'s studied to date. Dead-end inhibition and ITC experiments revealed that AAC(3)-IV follows a sequential, random bi-bi kinetic mechanism. The analysis of the pH dependence of the kinetic parameters revealed acid and base-assisted catalysis and the existence of three additional ionizable groups involved in substrate binding. The magnitude of the solvent kinetic isotope effects suggests that a chemical step is at least partially rate limiting in the overall reaction. 
+
+Keywords: AAC(3)-IV, Steady-State Kinetics, Substrate Specificity, pH profile, Solvent Kinetic Isotope Effect, Isothermal Titration Calorimetry 
+
+Aminoglycoside antibiotics are used in the treatment of a variety of diseases caused by both Gram-positive and Gram-negative bacterial infections ( 1 ), acting primarily by impairing bacterial protein synthesis as a result of binding to the A (acceptor) site of the 30S prokaryotic ribosome ( 2 ). The clinical use of these drugs in the 1960s and 1970s led to the appearance of resistant strains ( 1 ). The most clinically important mechanism of aminoglycoside resistance is the decreased affinity of the drug for its target after enzymatic modification ( 3 ). Aminoglycoside acetyltransferases catalyze the AcCoA-dependent N -acetylation of amino groups ( Scheme 1 ) on aminoglycoside molecules ( Fig 1 ) ( 4 ). The AAC(3) family of aminoglycoside acetyltransferases regioselectively modify the 3-amino group of the deoxystreptamine ring, and includes four types, I-IV, based on the pattern of aminoglycoside resistance that they confer ( 4 ). The AAC(3)-I and II isoenzymes preferentially modify the gentamicin group of aminoglycosides ( 5 ),( 6 ). AAC(3)-III enzymes catalyze the covalent acetylation of a wide variety of aminoglycosides including gentamicin, tobramycin and neomycin ( 7 ). 
+
+Scheme 1. 
+
+Open in a new tab 
+
+Reaction catalyzed by E. coli AAC(3)-IV. 
+
+Figure 1. 
+
+Open in a new tab 
+
+Structures of 4,5-disubstituted (A) and 4,6-disubstituted (B) aminoglycosides used in this study. Because of its unusual structure, apramycin is not represented here, but in Scheme 1 . 
+
+The AAC(3)-IV class of N -acetyltransferases have the broadest substrate specificity of all AAC(3) enzymes identified to date, and also acetylate the atypical aminoglycoside apramycin ( Scheme 1 ) ( 8 ). Apramycin was first approved for veterinary use in the United States in the 1980s. It was thought that the unusual structure of apramycin, including the fused central rings and terminal deoxystreptamine ring compared to the central deoxystreptamine ring of the typical aminoglycosides, might prevent its inactivation by known aminoglycoside-modifying enzymes, and thus would not interfere with the clinical usefulness of other typical disubstituted deoxystreptamine aminoglycosides ( Fig.1 ). However, enterobacteria of animal origin were found to be resistant to apramycin by the expression of a plasmid-encoded AAC(3)-IV enzyme ( 9 ). Following the rapid spread of the apramycin resistance gene ( aacC4 ) in animals, the plasmid was later found in clinical isolates from hospitalized patients ( 10 ). The broad substrate activity of AAC(3)-IV and the presence of the plasmid in human clinical isolates, represents a serious therapeutic concern, since essentially all aminoglycosides used in human antibiotic therapy are substrates for this enzyme. 
+
+In the study reported here, we have cloned and overexpressed the plasmid encoded AAC(3)-IV enzyme from E. coli . We have studied the substrate specificity of AAC(3)-IV for various aminoglycosides and CoA thioester analogues and determined the kinetic mechanism of this enzyme. The determination of the solvent kinetic isotope effects and pH dependence of the kinetic parameters provided some insights into the chemical mechanism of the enzyme. 
+
+MATERIAL AND METHODS 
+
+Material 
+
+Restriction enzymes and T4 DNA ligase were from New England Biolabs. Pfu DNA polymerase was from Stratagene. The pET23a(+) expression vector and E. coli BL21(DE3) pLysS were from Novagen. All chromatographic supports were from Pharmacia. Aminoglycosides, acyl-coenzymes A and 4,4'-dithiodipyridine (DTDP) were purchased from Sigma Chemical Co. The aacC 4 gene was contained on plasmid pMP139 (a kind gift of Dr. Martin S. Pavelka Jr., University of Rochester School of Medicine and Dentistry). 
+
+Cloning and Expression of the E. coli aacC4 gene 
+
+Synthetic oligonucleotide primers (5' acatatg caatacgaatggcgaaaagcc 3' and 5' aaagctt tcatgagctcagccaatcgac 3') were used to amplify the E. coli aacC4 gene (786 bp) from plasmid pMP139 ( 11 ) using standard PCR conditions and Pfu DNA polymerase. These primers are complementary to the 5' and 3' ends of aacC4 gene and introduce unique Nde I and Hind III restriction enzyme sites, respectively (underlined). The fragment was inserted into an Nde I - Hind III digested pET23a(+) expression vector. The recombinant plasmid pET23a(+):: aacC4 was transformed into competent E. coli BL21(DE3) pLysS cells. The transformed cells were inoculated into LB media containing 50 μg/ml carbenicillin and were grown at 37°C for 24 hours. Control experiments were performed with E. coli cells containing just pET23(a)+ and lacking the target gene. Protein concentrations were determined by the method of Bradford ( 12 ) using the Bio-Rad protein assay kit and bovine serum albumin as standard. 
+
+Purification of AAC(3)-IV 
+
+All protein purification procedures were carried out at 4°C. The purity of AAC(3)-IV was analyzed by SDS-PAGE on a Phast System (Pharmacia). Ten grams of cells were suspended in 50 ml of 20 mM triethanolamine hydrochloride (TEA), pH 7.8 (Buffer A), containing protease inhibitors cocktail (Roche) and DNAse I (5μg/ml). The cells were disrupted by sonication and stirred on ice for 30 minutes. The cell debris was removed by centrifugation for 45 min at 11 000 rpm. The supernatant was applied to a 140 ml Fast Flow Q-Sepharose anion -exchange column pre-equilibrated with buffer A, and proteins were eluted with a linear gradient from 0 to 0.5 M NaCl. Active fractions were pooled, dialyzed against buffer A and (NH 4 ) 2 SO 4 was added to a final concentration of 1 M. After centrifugation to remove insoluble material, the supernatant was applied to a 140 ml Phenyl Sepharose column pre-equilibrated with buffer C (20 mM TEA, pH 7.8, 1 M (NH 4 ) 2 SO 4 ). Proteins were eluted with a linear 1 - 0 M (NH 4 ) 2 SO 4 gradient. The active fractions were pooled and dialyzed against buffer A. These fractions exhibited a single band on SDS-PAGE with Coomassie Blue staining. 
+
+Protein Analysis 
+
+Analytical gel filtration experiments were performed with a Sephacryl-S200 gel filtration column, calibrated using Bio-Rad molecular weight markers, in 20 mM TEA pH 7.8. Dynamic light scattering was measured with a DynaPro MS/X dynamic light-scattering instrument (Protein Solutions) with samples of AAC(3)-IV at 15 mg/mL. 
+
+Measurement of Enzyme Activity 
+
+Aminoglycoside-dependent acetyltransferase activity was monitored spectrophotometrically by following the increase in absorbance at 324 nm due to the reaction between the sulfhydryl group of the product CoASH and DTDP, releasing 4-thiopyridone (ε324 =19,800 M −1 cm −1 ). Reactions were monitored continuously on a UVIKON 943 spectrophotometer, and enzyme activities were calculated from the initial (<10% completion) rates. Assay mixtures contained 50mM HEPES, pH 7.5 and 0.1 mM DTDP, in addition to enzyme, substrate and inhibitors in a final volume of 1 ml. Reactions were initiated by the addition of enzyme and followed at 25°C. 
+
+Initial Velocity Experiments 
+
+Initial velocity kinetic data were fitted using Sigma Plot 2000. A plot of steady-state velocity vs. enzyme concentration was linear over the concentration range used and passes through the origin. Substrate specificity of AAC(3)-IV was determined at pH 7.5 at 10 different concentrations of the variable substrate and a fixed, saturating concentration (10-15 K m ) of the second substrate. Kinetic constants for acetyl-CoA and other CoA-derivatives were determined at fixed saturating concentration (15 K m ) of apramycin, while the constants for the aminoglycosides were determined using fixed saturating concentrations (10-15 K m ) of acetyl-CoA. Individual substrate saturation kinetic data were fitted to eq. 1 
+v = VA ∕ ( K a + A ) (Eq. 1) 
+Initial velocity patterns were obtained by measuring the initial rate at five concentrations of each substrate. Equation 2 was used to fit the intersecting initial velocity pattern. 
+v = VAB ∕ ( K a B + K b A + K ia K b + AB ) (Eq.2) 
+
+Dead-End Inhibition Patterns 
+
+Dead-End inhibition patterns were determined by measuring initial velocities at variable concentrations of one reactant, the second reactant concentration fixed at its K m value and the inhibitor at several concentrations. Equations 3 and 4 were used to fit linear competitive and noncompetitive inhibition data, respectively. 
+v = VA ∕ [ K a ( 1 + I ∕ K is ) + A ] (Eq. 3) v = VA ∕ [ K a ( 1 + I ∕ K is ) + A ( 1 + I ∕ K ii ) ] (Eq. 4) 
+In Equations 1 - 4 , v is the measured reaction velocity, V is the maximal velocity, A and B are the concentrations of the substrates (aminoglycoside and acyl-CoA, respectively), K a and K b are the corresponding Michaelis-Menten constants, K ia is the inhibition constant for substrate A, I is the concentration of inhibitor and K is and K ii are the slope and the intercept inhibition constant for the inhibitor, respectively. 
+
+Equation 5 was used to fit kinetic plots in which “substrate activation” was apparent from Lineweaver-Burk plots, where v is the measured reaction velocity, V is the maximal velocity and A is the concentration of the variable substrate. The constants B, C and D are collections of rate constants that depend on the kinetic mechanism and the resulting rate equation. 
+v = V ( A 2 + DA ) ∕ ( A 2 + BA + C ) (Eq.5) 
+Equation 6 was used to fit kinetic plots in which “substrate inhibition” was apparent from Lineweaver-Burk plots, where v is the measured reaction velocity, V is the maximal velocity, A is the concentration of the variable substrate, K and K i are the corresponding Michaelis-Menten and inhibition constant for substrate A, respectively. 
+v = ( V ∗ A ) ∕ K + A + ( A 2 ∕ K i ) (Eq. 6) 
+
+Dependence of pH on AAC(3)-IV activity 
+
+pH studies on AAC(3)-IV were performed to generate a profile of enzyme activity as a function of pH. Ribostamycin was used as the variable substrate. Acetyl transfer activity was monitored from pH 5.4 to 9.9 every 0.5 pH unit using the following buffers: MES (pH 5.4-6.5), HEPES (pH 6.5-8.0), or CHES (pH 8.0-10.0). The resulting kinetic data were fitted to equation 1 to obtain the kinetic parameters; k cat and k cat /K m . Profiles were generated by plotting the log of k cat or k cat /K m versus the pH and fitted using eq. 7 and 8 . 
+V = C ∕ ( 1 + H ∕ K a + K b ∕ H ) (Eq. 7) v = C ∕ ( 1 + ( H 2 ∕ K a 2 ) + ( K b 3 ∕ H 3 ) ) (Eq. 8) 
+Eq. 7 describes one acidic and one basic p K a value, while eq. 8 assumes two acidic and three basic p K a values. C is the pH-independent plateau value, H is the hydrogen ion concentration, K a and K b are the respective acid and basic p K a constants for the ionizing groups. 
+
+Solvent Kinetic Isotope Effects 
+
+The solvent kinetic isotope effects on k cat and k cat /K m were determined by measuring the initial velocities using saturating concentrations of acetyl-CoA and variable concentrations of ribostamycin in either H 2 O or 90% D 2 O at pH 8.0 1 . Solvent deuterium kinetic isotope effects were fitted to equation 9 . Eq. 9 assumes equivalent effects on both k cat and k cat /K m , where v is the measured reaction velocity, V is the maximal velocity, A is the concentration of the substrate, K a is the Michaelis constant for the substrate whose concentration is being varied, F i is the fraction of the heavy atom and E KIE is the isotope effect. 
+v = VA ∕ ( K a + A ) [ 1 + F i ( E KIE − 1 ) ] (Eq.9) 
+
+Isothermal Titration Calorimetry 
+
+ITC experiments were performed using a VP-ITC microcalorimeter from Microcal, Inc. (Northampton, MA). All measurements were carried out at 27°C in 50 mM Tris buffer pH 7.5. Enzyme preparations were dialyzed extensively against the above buffer, and all ligand solutions were preapared in the final dialysate. In individual titrations, injections of 5 μL of either acetyl-CoA (5mM) or ribostamycin (10 mM) were made into the enzyme solution (cell volume=1.43 ml) via a computer-controlled microsyringe, at an interval of 4 min, while being stirred at 310 rpm. The instrument was calibrated using the calibration kit supplied by the manufacturer. The quantity c = K a M t (0), where M t (0) is the initial macromolecule concentration, is of importance in titration microcalorimetry ( 13 ). All experiments were performed with c values in the range of 2-100 in the present study. The experimental data were fitted to a theoretical titration curve using software supplied by Microcal, with ΔH (the binding enthalpy change in kcal mol −1 ), K a (the binding constant in M −1 ), and n ( the number of binding sites per monomer) as adjustable parameters. The thermodynamic parameters ΔG and ΔS were calculated from eq. 10 . 
+Δ G = Δ H − T Δ S = − RT ln K a (Eq. 10) 
+where ΔG, ΔH and ΔS are the changes in free energy, enthalpy, and entropy of binding. T is the absolute temperature, and R = 1.98 cal mol −1 K −1 
+
+RESULTS 
+
+Cloning, expression and purification of AAC(3)-IV 
+
+PCR amplification of the E. coli aacC4 gene using the plasmid pMP139 ( 11 ) as DNA template yielded a fragment of the expected length. The fragment was cloned into the pET23a(+) expression vector and the aacC4 structural gene was sequenced to assure its identity, and that no mutations were introduced during the amplification step. However, the sequencing of several independent clones showed the absence of a cytosine at position 732 when compared to the aacC4 gene sequence deposited in GenBank. Sequence analysis of the original plasmid pMP139 by Dr. Martin S. Pavelka, Jr. (University of Rochester) confirmed the absence of C732. The absence of C732 alters the reading frame, introduces a stop codon and reduces the protein from 261 to 258 amino acids. This sequence has been submitted to GenBank with accession code DQ241380 . E. coli strain BL21(DE3) pLysS containing the plasmid pET23(a)+:: aacC4 expressed approximately 50 mg of soluble AAC(3)-IV per liter of culture, with an apparent molecular weight, by SDS-PAGE, in agreement with the predicted value of 27,874 deduced from corrected nucleotide sequence. This protein product was absent in control experiments where only the plasmid pET23(a)+ was expressed in E. coli BL21(DE3)pLysS. The highest protein yield was obtained from cells grown for 24 hours at 37°C with no addition of the inducer IPTG. The two-step purification procedure yielded greater than 95% pure protein and catalytically active AAC(3)-IV enzyme. Analytical gel filtration over a Sephacryl-S200 column revealed a single peak of ca. 60 kDa, which corresponds to a dimer of 28kDa monomers in solution. This result was confirmed by Dynamic Light Scattering experiments, where the major peak represents a macromolecule of 54 kDa (data not shown). 
+
+Substrate Specificity of AAC(3)-IV 
+
+The steady-state kinetic parameters for AcCoA and other CoA derivatives at saturating concentrations (15 K m ) of apramycin are summarized in Table I . AcCoA is the best substrate on the basis of the k cat /K m values and was used as the acyl-donor in subsequent experiments. The kinetic parameters of various aminoglycosides, determined at saturating concentrations (10-15 K m ) of AcCoA, are also summarized in Table I . The structures of aminoglycosides used are shown in Fig. 1 . Aminoglycosides can be separated in three groups on the basis of their kinetic behavior. Amikacin, apramycin and kanamycin A exhibited linear double-reciprocal plots. Butirosin, gentamycin, neomycin, paromomycin, tobramycin and sisomycin exhibited linear kinetics at low substrate concentration but rapidly increasing reaction velocities at higher aminoglycoside concentrations. This phenomenon, termed substrate activation, has previously been observed with other aminoglycoside acetyltransferases ( 14 , 15 ). For substrates exhibiting this phenomenon, two pairs of fitted kinetic constants are included in Table 1 . On average, k cat 2 was 0.8 times higher than k cat , K m 2 was 10 times higher than K m and k cat /K m 2 was 10 times lower than k cat /K m . The third group includes netilmicin and ribostamycin, which exhibited linear kinetics at low substrate concentration but rapidly decreasing reaction velocities at higher aminoglycoside concentrations. This phenomenon is referred to as substrate inhibition and has also been observed with other aminoglycoside acetyltransferases ( 16 , 17 ). Amikacin, butirosin and netilmicin, which are 1- N -substituted derivatives of kanamycin A, ribostamycin and sisomycin, respectively, are poor substrates, based on their k cat /K m values, when compared to their non-substituted derivatives. 
+
+Table 1. 
+
+Kinetic Parameters for AAC(3)-IV 
+
+Substrate K m (μM) k cat (sec −1 ) k cat /K m (M −1 sec −1 ) K m 2 (μM) k cat 2 (sec −1 ) k cat /K m 2 (M −1 sec −1 ) A c Acetyl-CoA 86± 6 39 ±1 4.5 *10 5 Propionyl-CoA 499± 90 33± 2 6.6 *10 4 Malonyl-CoA 477± 80 9 ± 1 1.9 *10 4 Butyryl-CoA 1160 ± 70 0.30 ±0.01 2.6 *10 2 B d Neomycin a 0.36 ± 0.03 60 ± 9 1.6*10 8 1.4 ± 0.3 80 ± 4 5.7*10 7 Sisomycin a 0.33 ± 0.02 51 ± 1 1.5*10 8 2.5 ± 0.4 72 ± 2 2.8*10 7 Tobramycin a 1.42 ±0.05 162 ± 4 1.1*10 8 7.3 ± 0.9 245 ± 13 3.3*10 7 Parmomycin a 0.15 ± 0.01 15.0 ± 0.1 1.0*10 8 2.2 ± 0.5 24 ± 2 1.1*10 7 Apramycin 0.67 ± 0.07 61 ± 1 9.1*10 7 Ribostamycin b 3.1 ± 0.3 146 ± 4 4.6*10 7 Gentamycin a 0.97 ± 0.02 40 ± 3 4.1*10 7 22 ± 4 90 ± 6 4.1*10 6 Netilmicin b 42±7 32±2 7.6*10 5 Kanamycin A 238± 36 80±2 3.4*10 5 Butirosyn a 237± 17 3.5± 0.2 1.5*10 4 1368 ±23 9 ± 2 6.6*10 3 Amikacin 1107 ± 144 0.50±0.03 4.5*10 2 
+
+Open in a new tab 
+
+a 
+Substrate exhibiting substrate activation 
+
+b 
+Substrate exhibiting substrate inhibition 
+
+c 
+Determined at fixed, saturating concentration (15 K m ) of apramycin. 
+
+d 
+Determined at fixed, saturating concentration (10-15 K m ) of acetyl-CoA. 
+
+Kinetic Mechanism 
+
+To determine the kinetic mechanism and distinguish between a ternary complex and a ping-pong mechanism, steady-state initial velocities were determined using five different concentrations of both AcCoA and ribostamycin. Ribostamycin was chosen for these studies due to its rapid acetylation and its K m value that allows for acquisition of high quality initial rate data. However, it was used in a limited concentration range (0.5 -1.5 K m ), since substrate inhibition is observed at higher concentrations. Analysis of the resultant double reciprocal plot ( Fig. 2 ) revealed an intersecting pattern, indicating the formation of a ternary E-AcCoA-ribostamycin complex. Several distinct kinetic mechanisms are possible for enzymes systems that employ two substrates and generate two products, including random, fully ordered or a combination of both. Dead-end inhibition studies can distinguish among the various possibilities. Butirosin, which differs from ribostamycin only by a substitution in the 1- N position of the deoxystreptamine ring, is a extremely poor substrate for AAC(3)-IV and a potent inhibitor of the enzyme. Experiments were carried out using butirosin, as inhibitor, versus either ribostamycin or AcCoA. Butirosin exhibited linear competitive inhibition versus ribostamycin and linear, non-competitive inhibition versus AcCoA ( Table 2 , Fig. S2A, B ). Desulfocoenzyme A is a coenzyme A derivative which lacks the terminal sulfhydryl of CoA and is a dead end inhibitor since it forms a non-productive complex with AAC(3)-IV and the aminoglycoside. Desulfocoenzyme A exhibited a linear, competitive inhibition versus AcCoA and linear, non-competitive inhibition versus ribostamycin ( Table 2 , Fig. S2C, D ). 
+
+Figure 2. 
+
+Open in a new tab 
+
+Double reciprocal plot of initial rate data at varying ribostamycin concentrations and fixed concentrations of AcCoA at 5μM (○), 7.5μM (●), 10 μM (ρ), 15 μM (π) and 20 μM (σ). 
+
+Table 2. 
+
+Summary of AAC(3)-IV Dead-End Inhibition studies 
+
+Inhibitor Varied substrate Fixed substrate Pattern of inhibition K is (μM) K ii (μM) Desulfo-CoA Acetyl-CoA Paromomycin (10μM) Competitive 9 ± 1 Desulfo-CoA Ribostamycin Acetyl-CoA (40μM) Noncompetitive 90± 26 56±8 Butirosin Acetyl-CoA Ribostamycin (20μM) Noncompetitive 111 ± 30 54 ± 6 Butirosin Ribostamycin Acetyl-CoA (500μM) Competitive 1.4 ± 0.1 
+
+Open in a new tab 
+
+Isothermal Titration Calorimetry 
+
+We employed ITC studies to investigate the binding of AcCoA and ribostamycin to AAC(3)-IV ( Fig. S5 ). The thermodynamic binding parameters are presented in Table 3 . The titration with AcCoA resulted in an experimental K d of 5 ± 0.1 μM, - ΔH value of 9.1 kcal mol −1 and -ΔTS of 1.9 kcal mol −1 . The titration with ribostamycin resulted in a 10 fold higher K d of 55 ± 4 μM when compared to AcCoA. The enthalpic and entropic contribution upon binding of ribostamycin also appeared to be quite distinct from AcCoA, with - ΔH value of 0.67 kcal mol −1 and-ΔTS value of −5.13 kcal mol −1 . The ITC data also demonstrated that there is one substrate-binding site per AAC(3)-IV monomer. 
+
+Table 3. 
+
+Thermodynamic Parameters Obtained from Calorimetric Titration of AAC(3)-IV a 
+
+ligand K a (x 10 4 M −1 ) −ΔG (kcal mol −1 ) −ΔH (kcal mol −1 ) −TΔS (kcal mol −1 ) AcCoA 19.8 7.2 9.1 1.9 Ribostamycin 1.8 5.8 0.67 −5.13 
+
+Open in a new tab 
+
+a 
+Determined at 300K. Relative error values: K a , 1-6%; ΔH, 1-4%. 
+
+Dependence of pH on AAC(3)-IV activity 
+
+pH studies were performed to investigate the ionization behavior of groups responsible for catalysis and binding. The pH dependence of k cat reveals both acid and base-assisted catalysis. The bell-shaped plot of the log of k cat versus pH has slopes of +1 and −1 in the acidic and basic regions, respectively ( Fig.3 ) indicative of acid/base catalysis. The group that must be deprotonated for catalysis exhibits a p K a value of 7.8 ± 0.2 and the group that must be protonated for catalysis exhibits a p K a value of 8.4 ± 0.2. The plot of k cat /K m for ribostamycin versus pH is also bell-shaped, with slopes of +2 in the acid region and −3 in the basic region, which suggests three additional groups on ribostamycin or enzyme involved in substrate binding. The acidic groups exhibit non-resolvable p K a values of 7.2 ± 0.1, while those in the basic region exhibit non-resolvable p K a values of 8.7 ± 0.1. 
+
+Figure 3. 
+
+Open in a new tab 
+
+pH profiles of AAC(3)-IV activity as function of pH. The symbols are experimentally determined values, while the lines are fits of the data to equations 7 and 8 . The ascending curve on log k cat plot shows that one ionizable group (p Ka 7.8 ± 0.2) must be deprotonated for optimal catalytic efficiency. The descending curve represents an ionizable group with a p Ka value of 8.4 ± 0.2, which must be protonated for optimal activity. The slopes of +2 in the acid region and −3 in the basic region of k cat / K m plot reveals three additional groups involved in substrate binding. 
+
+Solvent Kinetic Isotope Effects 
+
+Solvent kinetic isotope effects were performed at pH 8.0 in either H 2 O or 90% D 2 O 1 . This pH was chosen because it corresponds to the plateau region of the pH profile, where the velocity is maximal and the variations in velocity due to changes in pH are smallest. Ribostamycin was tested as the variable substrate, and reactions were performed at fixed, saturating concentrations of AcCoA ( Fig. 4 ). Ribostamycin exhibited identical effects of 2.5 ± 0.1 for both D2O k cat and D2O k cat /K m 
+
+Figure 4. 
+
+Open in a new tab 
+
+Solvent kinetic isotope effect determined for AAC(3)-IV. The symbols are the experimentally determined values in H 2 O (π) or 90% D 2 O (θ), while the lines are fits of the data to eq. 9 . Ribostamycin was the variable substrate, and AcCoA was present at saturating concentrations. 
+
+DISCUSSION 
+
+The sequencing of the PCR product of the aacC4 gene contained on the plasmid pMP139 ( 11 ) showed the absence of a cytosine in the position 732. Several clones were analyzed, however, in all clones tested the absence of C732 was observed. Additional sequence analysis of the original plasmid (Dr. Martin S. Pavelka Jr., University of Rochester) confirmed the minus C-732 sequence as the correct, and the sequence deposited in GenBank (accession number AJ438947 ) is incorrect. This deletion changes the reading frame at the very end of the gene, introducing a stop codon and reducing the protein length from 261 to 258 amino acids. The new sequence also changes the subunit molecular weight from 28,459 to 27,874 as well as the predicted isoelectric point from 6.38 to 5.66. Previous studies with AAC(3)-IV reported an isoelectric point of 5.6 ( 18 ), in accordance with the correct protein sequence. 
+
+Protein sequence analysis showed significant similarity between AAC(3)-IV and aminoglycoside 3- N -acetyltransferases types II and III from several organisms, none of which have been structurally characterized. AAC(3)-Ia from Serratia marcescens is the only aminoglycoside 3- N -acetyltransferases whose structure has been determined, and is a member of the GCN5-related N -acetyltransferase (GNAT) superfamily ( 19 ). AAC(3)-IV did not show any sequence similarity to AAC(3)-Ia or any other member of the GNAT family, strongly suggesting that AAC(3)-IV does not share the same fold. 
+
+The E. coli aacC4 gene was cloned into the pET-23a(+) expression vector and the highest protein yield came from growth for 24 hours without addition of Iptg. It has been previously shown that high levels of protein production can be obtained in stationary phase for cells grown in the absence of inducer ( 20 ). The two-step purification procedure allowed for high yields of homogeneous, stable and active enzyme. 
+
+Analytical gel filtration and dynamic light scattering experiments indicate that AAC(3)-IV is present as a dimer in solution. This data differ from previous results where it was suggested that AAC(3)-IV is monomeric in the presence of 6 mM 2-mercaptoethanol ( 18 ). It is possible that the dimer we observe is linked by disulfide bonds, as we have not included thiol reducing agents in our preparation, which would interfere with the spectrophotometric assay. ITC experiments revealed that there is one substrate-binding site per monomer. We suggest that AAC(3)-IV exists as a dimer containing two active sites. 
+
+Steady-state kinetic parameters were determined for a number of acyl-donors and aminoglycosides ( Table I ). Acetyl-CoA is the strongly preferred acyl donor, as reveled by the determined k cat /K m , which decrease as the acyl group becomes larger. The effect for propionyl-CoA is predominantly a K m effect with little alteration on k cat , however butyryl-CoA shows significant effects on both k cat and K m . An even more dramatic decrease on k cat /K m is observed with malonyl-CoA as the acyl donor. This narrow specificity with respect to the acyl-CoA substrate has also been reported for other N -acetyltransferases ( 5 , 15 ), and suggests a sterically restricted acyl coenzyme A binding site that influences both binding and catalysis. 
+
+In contrast to its narrow acyl donor specificity, AAC(3)-IV has an expansive substrate specificity with respect to aminoglycosides. Of all the AAC(3)s described to date (types I ( 5 ), II ( 6 ) and III ( 7 )), AAC(3)-IV has the broadest range. All aminoglycosides tested in this study were substrates for this enzyme, including the atypical aminoglycoside apramycin, which is a substrate for only two aminoglycosides N -acetyltransferases described so far, AAC(3)-IV and AAC(1) ( 21 ). 
+
+The 1- N -acylated aminoglycosides butirosin, amikacin and netilmicin showed a dramatic reduction in activity when compared to their non-acylated analogs, ribostamycin, kanamycin A and sisomycin, respectively ( Table I ). Similar results have been observed in studies with other aminoglycosides 3- N -acetyltransferases, including AAC(3)-III ( 7 ) and AAC(3)-I ( 5 ). Acylation at the 1- N position has been suggested to sterically interfere with 3- N acetylation. In support of this notion, the 1- N ethyl group of netilmycin ( Fig.1 ) causes a decrease of 200 fold on its k cat /K m value in comparison to sisomycin. However, the bulkier 1- N hydroxybutyramide groups of amikacin and butirosin ( Fig.1 ) cause a decrease of 750 and 3000 fold, respectively, on their k cat /K m values compared to kanamycin and ribostamycin. 
+
+AcCoA-dependent acetyltransferases are known to use two distinct mechanisms to catalyze the acetyl transference. One mechanism involves the transfer of the acetyl group from AcCoA to an enzyme side chain and then to the amine, or acyl acceptor, substrate. The second mechanism involves direct acetyl transfer from AcCoA to the amine substrate with the formation of a tetrahedral intermediate. The latter mechanism requires that both substrates and enzyme must form a ternary complex before catalysis can occur. To distinguish between a ternary complex (sequential) and covalent-intermediate formation (ping-pong mechanism), initial velocity studies were performed with AcCoA and ribostamycin. The intersecting initial velocity pattern ( Fig. 2 ) suggests a sequential kinetic mechanism, where both substrates must bind to the enzyme before catalysis can occur. This mechanism has shown to be universal for all aminoglycoside N -acetyltransferases studied to date. 
+
+Dead-end inhibition studies were carried out to determine the order of substrate binding to AAC(3)-IV ( Table 2 , Fig.S2 ). In the case of most aminoglycoside N -acetyltransferases, the order of substrate binding is either random ( 15 , 17 , 22 ) or ordered with AcCoA binding first, followed by the aminoglycoside ( 14 , 23 ). AAC(3)-IV exhibited competitive dead-end inhibition for desulfo-CoA versus acetyl-CoA and non-competitive inhibition versus ribostamycin. When butirosin was used as the inhibitor, competitive inhibition was observed versus ribostamycin and non-competitive inhibition versus AcCoA. These results are compatible with a random binding of the substrates to the enzyme. 
+
+In order to confirm the binding of both AcCoA and aminoglycoside to the free enzyme we performed ITC experiments ( Fig. S5 , Table 3 ). Both AcCoA and ribostamycin are able to bind to the free enzyme, supporting the random binding of substrates to AAC(3)-IV. The ITC data allow the enthalpic and entropic contributions to binding to be dissected. AcCoA binding is highly enthalpically driven, with a modest entropic compensation. In stark contrast, ribostamycin binding is nearly completely entropically driven. These data are quite different from data reported for the AAC(6')-Iy N -acetyltransferase ( 24 ) and highlight the differences between AAC(3)-IV and the aminoglycoside acetyltransferases that are members of GNAT superfamily. 
+
+Deviations from the Michaelis-Mentem kinetics have been frequently observed in systems that employ a random mechanism for binding of substrates. In the case of aminoglycoside N -acetyltransferases, Northrop has reported such behavior for gentamicin acetyltransferase I ( 17 ). 
+
+It has been theoretically demonstrated ( 25 ) that such deviations can be considered to arise from a competition between the two substrates for the free enzyme. This means that substrate inhibition or substrate activation arises due to a shift of the preferred pathway for the ternary complex formation. In such cases, non-linearity in Lineweaver-Burk plots with respect to one substrate can be completely eliminated by increasing the concentration of the second substrate ( 25 ). 
+
+In the case of AAC(3)-IV, substrate inhibition can be observed at high aminoglycoside concentrations, as can substrate activation, and these are influenced by the fixed concentration of AcCoA ( Fig. S4 ). Taken together, all these data support a random kinetic mechanism ( Scheme 2 ), with the preferred order of substrate binding based on the affinity of the substrate for the enzyme and the co-substrate concentration. 
+
+Scheme 2. 
+
+Open in a new tab 
+
+Proposed kinetic and chemical mechanisms for aminoglycoside acetylation by AAC(3)-IV. 
+
+The determination of the pH dependence of the maximum velocity ( Fig. 3 ) indicates that an ionizable group with a p K a value of 7.8 ± 0.2 must be deprotonated for optimal acetyltransferase activity. A second ionizable group exhibits a p K a value of 8.4 ± 0.2 and must be protonated for optimal catalytic efficiency. These enzyme groups likely act as general base and general acid to deprotonate the tetrahedral intermediate and protonate the thiolate anion of the product CoAS − , respectively ( Scheme 2 ). The pH dependence of the k cat /K m plot ( Fig. 3 ) revealed two acidic and three basic ionizable groups involved in binding and/or catalysis. Two of these groups are likely to be the same groups observed in the k cat pH profile, while the other three are most likely involved in binding. These groups involved in binding might be enzyme residues or any of the several amino groups present in the aminoglycoside molecule. The non-resolvable p K a values of 7.2 ± 0.1 and 8.7 ± 0.1 determined from the fit to eq. 8 are in the range of p Ka values determined for the amino groups of ribostamycin ( Fig 1 ); 8.6 (6'-NH 2 ), 7.6 (2'-NH 2 ), 5.7 (3-NH 2 ) and 8.1 (1-NH 2 ) ( 26 ). 
+
+In order to assess the rate-limiting nature of chemical steps, solvent kinetic isotope effects were determined at pH 8.0, a region where the kinetic parameters are relatively independent of small changes in pH (pD) ( Fig. 4 ). Solvent kinetic isotope effects were measured by varying the concentration of ribostamycin at a fixed saturating concentration of AcCoA. Identical solvent kinetic isotope effects of 2.5 ± 0.1 were observed on both k cat and k cat /K m . Equivalent values on D20 k cat and D20 k cat /K m suggest that one or more proton transfer steps that are an intimate part of the chemical reaction catalyzed by AAC(3)-IV are at least partially rate-limiting in the overall reaction. 
+
+The potential for plasmid-encoded and transmissible resistance to essentially all therapeutically useful aminoglycosides antibiotics as a result of expression of AAC(3)-IV enzymes is worrisome. The deoxystreptamine ring that is the core element of aminoglycosides is also the site of acetylation by the enzyme. No detailed mechanistic studies of this enzyme have appeared to date, and no structural information has yet been reported for AAC(3)-IV. The three-dimensional structures of three classes of aminoglycoside N -acetyltransferases have been determined (AAC(3)-I, AAC(2') and two different AAAC(6') isozymes ( 27 )), and all exhibit the same fold, however, with distinct differences in the manner in which the catalytically active dimers are generated. The sequence of AAC(3)-IV suggests that it will not adopt the same GNAT fold, raising interesting questions concerning how AcCoA and aminoglycoside substrates are bound to effect regioselective 3- N -acetylation. Current efforts are being directed to obtain this structural information. 
+
+Supplementary Material 
+
+si20051018_030 
+
+NIHMS60840-supplement-si20051018_030.pdf (263.4KB, pdf) 
+
+Table of Contents. 
+
+Open in a new tab 
+
+Acknowledgement 
+
+We thank Drs. Tarun K. Dam and C. Fred Brewer for assistance in performing the Isothermal Titration Calorimetry experiments. 
+
+This work was supported by NIH Grant AI60899. 
+
+ABBREVIATIONS 
+AAC(3) 
+3- N -aminoglycoside acetyltransferase 
+AMP 
+adenosine monophosphate 
+AcCoA 
+acetyl-Coenzyme A 
+CoA 
+Coenzyme A 
+DTDP 
+4,4'-dithiodipyridine 
+GNAT 
+GCN5-related N -acyltransferase 
+HEPES 
+N-[2-hydroxyethyl] piperazine-N'-[2- ethanesulfonic acid] 
+Iptg 
+Isopropyl-thio-β-D-galactopyranoside 
+ITC 
+isothermal titration calorimetry 
+KIE 
+kinetic isotope effect 
+LB 
+Luria Broth 
+PCR 
+polymerase chain reaction 
+SDS-PAGE 
+sodium dodecyl sulfate-polyacrylamide gel electrophoresis 
+TEA 
+triethanolamine 
+
+Footnotes 
+
+1 
+Solvent kinetic isotope effects were measured by preparing a ten times concentrated solution of buffer and substrates in 100 μl. To these concentrated reaction mixtures was added 900 μl of either H 2 O or D 2 O. Experiments were repeated in triplicate, and the average of the initial velocities at each substrate determination used to determine the isotope effect ( Figure 4 ). The pH meter readings of the mixtures after the initial velocity was determined were 7.92 and 8.07 for H 2 O and 90% D 2 O reaction mixtures, respectively. 
+
+References 
+
+1. Davies J, Wright GD. Bacterial resistance to aminoglycoside antibiotics. Trends Microbiol. 1997;5:234–240. doi: 10.1016/S0966-842X(97)01033-0. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+2. Mingeot-Leclercq MP, Glupczynski Y, Tulkens PM. Aminoglycosides: activity and resistance. Antimicrob Agents Chemother. 1999;43:727–737. doi: 10.1128/aac.43.4.727. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Llano-Sotelo B, Azucena EF, Jr., Kotra LP, Mobashery S, Chow CS. Aminoglycosides modified by resistance enzymes display diminished binding to the bacterial ribosomal aminoacyl-tRNA site. Chem Biol. 2002;9:455–463. doi: 10.1016/s1074-5521(02)00125-4. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+4. Magnet S, Blanchard JS. Molecular insights into aminoglycoside action and resistance. Chem Rev. 2005;105:477–498. doi: 10.1021/cr0301088. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+5. Williams JW, Northrop DB. Substrate specificity and structure-activity relationships of gentamicin acetyltransferase I. The dependence of antibiotic resistance upon substrate Vmax/Km values. J Biol Chem. 1978;253:5908–5914. [ PubMed ] [ Google Scholar ] 
+
+6. Le Goffic F, Martel A, Witchitz J. 3-N enzymatic acetylation of gentamicin, tobramycin, and kanamycin by Escherichia coli carrying an R factor. Antimicrob Agents Chemother. 1974;6:680–684. doi: 10.1128/aac.6.6.680. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+7. Biddlecome S, Haas M, Davies J, Miller GH, Rane DF, Daniels PJ. Enzymatic modification of aminoglycoside antibiotics: a new 3-N-acetylating enzyme from a Pseudomonas aeruginosa isolate. Antimicrob Agents Chemother. 1976;9:951–955. doi: 10.1128/aac.9.6.951. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Davies J, O'Connor S. Enzymatic modification of aminoglycoside antibiotics: 3-N-acetyltransferase with broad specificity that determines resistance to the novel aminoglycoside apramycin. Antimicrob Agents Chemother. 1978;14:69–72. doi: 10.1128/aac.14.1.69. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Chaslus-Dancla E, Martel JL, Carlier C, Lafont JP, Courvalin P. Emergence of aminoglycoside 3-N-acetyltransferase IV in Escherichia coli and Salmonella typhimurium isolated from animals in France. Antimicrob Agents Chemother. 1986;29:239–243. doi: 10.1128/aac.29.2.239. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+10. Chaslus-Dancla E, Pohl P, Meurisse M, Marin M, Lafont JP. High genetic homology between plasmids of human and animal origins conferring resistance to the aminoglycosides gentamicin and apramycin. Antimicrob Agents Chemother. 1991;35:590–593. doi: 10.1128/aac.35.3.590. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Consaul SA, Pavelka MS., Jr. Use of a novel allele of the Escherichia coli aacC4 aminoglycoside resistance gene as a genetic marker in mycobacteria. FEMS Microbiol Lett. 2004;234:297–301. doi: 10.1016/j.femsle.2004.03.041. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+12. Bradford MM. A rapid and sensitive method for the quantitation of microgram quantities of protein utilizing the principle of protein-dye binding. Anal Biochem. 1976;72:248–254. doi: 10.1016/0003-2697(76)90527-3. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+13. Wiseman T, Williston S, Brandts JF, Lin LN. Rapid measurement of binding constants and heats of binding using a new titration calorimeter. Anal Biochem. 1989;179:131–137. doi: 10.1016/0003-2697(89)90213-3. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+14. Hegde SS, Javid-Majd F, Blanchard JS. Overexpression and mechanistic analysis of chromosomally encoded aminoglycoside 2'-N-acetyltransferase (AAC(2′)-Ic) from Mycobacterium tuberculosis. J Biol Chem. 2001;276:45876–45881. doi: 10.1074/jbc.M108810200. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+15. Magnet S, Lambert T, Courvalin P, Blanchard JS. Kinetic and mutagenic characterization of the chromosomally encoded Salmonella enterica AAC(6′)-Iy aminoglycoside N-acetyltransferase. Biochemistry. 2001;40:3700–3709. doi: 10.1021/bi002736e. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+16. Coombe RG, George AM. Purification and properties of an aminoglycoside acetyltransferase from Pseudomonas aeruginosa. Biochemistry. 1982;21:871–875. doi: 10.1021/bi00534a009. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+17. Williams JW, Northrop DB. Kinetic mechanisms of gentamicin acetyltransferase I. Antibiotic-dependent shift from rapid to nonrapid equilibrium random mechanisms. J Biol Chem. 1978;253:5902–5907. [ PubMed ] [ Google Scholar ] 
+
+18. Brau B, Piepersberg W. Purification and characterization of a plasmid-encoded aminoglycoside-(3)-N-acetyltransferase IV from Escherichia coli. FEBS Lett. 1985;185:43–46. doi: 10.1016/0014-5793(85)80737-7. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+19. Wolf E, Vassilev A, Makino Y, Sali A, Nakatani Y, Burley SK. Crystal structure of a GCN5-related N-acetyltransferase: Serratia marcescens aminoglycoside 3-N-acetyltransferase. Cell. 1998;94:439–449. doi: 10.1016/s0092-8674(00)81585-8. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+20. Magalhaes ML, Pereira CP, Basso LA, Santos DS. Cloning and expression of functional shikimate dehydrogenase (EC 1.1.1.25) from Mycobacterium tuberculosis H37Rv. Protein Expr Purif. 2002;26:59–64. doi: 10.1016/s1046-5928(02)00509-0. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+21. Lovering AM, White LO, Reeves DS. AAC(1): a new aminoglycoside-acetylating enzyme modifying the Cl aminogroup of apramycin. J Antimicrob Chemother. 1987;20:803–813. doi: 10.1093/jac/20.6.803. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+22. Radika K, Northrop DB. The kinetic mechanism of kanamycin acetyltransferase derived from the use of alternative antibiotics and coenzymes. J Biol Chem. 1984;259:12543–12546. [ PubMed ] [ Google Scholar ] 
+
+23. Draker KA, Northrop DB, Wright GD. Kinetic mechanism of the GCN5-related chromosomal aminoglycoside acetyltransferase AAC(6′)-Ii from Enterococcus faecium: evidence of dimer subunit cooperativity. Biochemistry. 2003;42:6565–6574. doi: 10.1021/bi034148h. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+24. Hegde SS, Dam TK, Brewer CF, Blanchard JS. Thermodynamics of aminoglycoside and acyl-coenzyme A binding to the Salmonella enterica AAC(6′)-Iy aminoglycoside N-acetyltransferase. Biochemistry. 2002;41:7519–7527. doi: 10.1021/bi020190l. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+25. Pettersson G. Substrate-inhibition and substrate-activation in the random- order ternary-complex mechanism for enzyme reactions involving two substrates. Biochim Biophys Acta. 1977;484:199–207. doi: 10.1016/0005-2744(77)90125-5. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+26. Xin-Shan Y, Zhang LH. Aminoglycoside mimetics as small-molecule drugs targeting RNA. Curr Med Chem. 2002;9:929–939. doi: 10.2174/0929867024606740. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+27. Vetting MW, LP S. d. C., Yu M, Hegde SS, Magnet S, Roderick SL, Blanchard JS. Structure and functions of the GNAT superfamily of acetyltransferases. Arch Biochem Biophys. 2005;433:212–226. doi: 10.1016/j.abb.2004.09.003. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Associated Data 
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+
+Supplementary Materials 
+
+si20051018_030 
+
+NIHMS60840-supplement-si20051018_030.pdf (263.4KB, pdf) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (724.7 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

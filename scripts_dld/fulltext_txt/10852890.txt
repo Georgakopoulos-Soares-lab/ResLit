@@ -1,0 +1,549 @@
+PMID: 10852890
+PMCID: PMC101958
+DOI: 10.1128/JB.182.12.3559-3571.2000
+Title: Characterization of a Bacteroides mobilizable transposon, NBU2, which carries a functional lincomycin resistance gene.
+Journal: Journal of bacteriology
+PubDate: 2000 Jun
+Authors: Wang J, Shoemaker NB, Wang GR, Salyers AA
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Characterization of a Bacteroides Mobilizable Transposon, NBU2, Which Carries a Functional Lincomycin Resistance Gene - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+J Bacteriol 
+. 2000 Jun;182(12):3559–3571. doi: 10.1128/jb.182.12.3559-3571.2000 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Characterization of a Bacteroides Mobilizable Transposon, NBU2, Which Carries a Functional Lincomycin Resistance Gene 
+
+Jun Wang 
+
+Jun Wang 
+
+1 Department of Microbiology, University of Illinois, Urbana, Illinois 61801 
+
+Find articles by Jun Wang 
+
+1 , Nadja B Shoemaker 
+
+Nadja B Shoemaker 
+
+1 Department of Microbiology, University of Illinois, Urbana, Illinois 61801 
+
+Find articles by Nadja B Shoemaker 
+
+1 , Gui-Rong Wang 
+
+Gui-Rong Wang 
+
+1 Department of Microbiology, University of Illinois, Urbana, Illinois 61801 
+
+Find articles by Gui-Rong Wang 
+
+1 , Abigail A Salyers 
+
+Abigail A Salyers 
+
+1 Department of Microbiology, University of Illinois, Urbana, Illinois 61801 
+
+Find articles by Abigail A Salyers 
+
+1, * 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+1 Department of Microbiology, University of Illinois, Urbana, Illinois 61801 
+
+* 
+Corresponding author. Mailing address: Department of Microbiology, B103 CLSL, 601 S. Goodwin, Urbana, IL 61801. Phone: (217) 333-7378. Fax: (217) 244–8485. E-mail: abigails@uiuc.edu . 
+
+Received 1999 Oct 20; Accepted 2000 Mar 24. 
+
+Copyright © 2000, American Society for Microbiology 
+
+PMC Copyright notice 
+
+PMCID: PMC101958  PMID: 10852890 
+
+Abstract 
+
+The mobilizable Bacteroides element NBU2 (11 kbp) was found originally in two Bacteroides clinical isolates, Bacteroides fragilis ERL and B. thetaiotaomicron DOT. At first, NBU2 appeared to be very similar to another mobilizable Bacteroides element, NBU1, in a 2.5-kbp internal region, but further examination of the full DNA sequence of NBU2 now reveals that the region of near identity between NBU1 and NBU2 is limited to this small region and that, outside this region, there is little sequence similarity between the two elements. The integrase gene of NBU2, intN2 , was located at one end of the element. This gene was necessary and sufficient for the integration of NBU2. The integrase of NBU2 has the conserved amino acids (R-H-R-Y) in the C-terminal end that are found in members of the lambda family of site-specific integrases. This was also the only region in which the NBU1 and NBU2 integrases shared any similarity (28% amino acid sequence identity and 49% sequence similarity). Integration of NBU2 was site specific in Bacteroides species. Integration occurred in two primary sites in B. thetaiotaomicron . Both of these sites were located in the 3′ end of a serine-tRNA gene NBU2 also integrated in Escherichia coli , but integration was much less site specific than in B. thetaiotaomicron . Analysis of the sequence of NBU2 revealed two potential antibiotic resistance genes. The amino acid sequences of the putative proteins encoded by these genes had similarity to resistances found in gram-positive bacteria. Only one of these genes was expressed in B. thetaiotaomicron , the homolog of linA , a lincomycin resistance gene from Staphylococcus aureus . To determine how widespread elements related to NBU1 and NBU2 are in Bacteroides species, we screened 291 Bacteroides strains. Elements with some sequence similarity to NBU2 and NBU1 were widespread in Bacteroides strains, and the presence of linA N in Bacteroides strains was highly correlated with the presence of NBU2, suggesting that NBU2 has been responsible for the spread of this gene among Bacteroides strains. Our results suggest that the NBU-related elements form a large and heterogeneous family, whose members have similar integration mechanisms but have different target sites and differ in whether they carry resistance genes. 
+
+Bacteroides spp. are gram-negative obligate anaerobes that comprise 20 to 30% of the normal microbiota of the human colon. Some Bacteroides species are opportunistic pathogens, and infections caused by them are becoming more difficult to treat successfully due to increasing antibiotic resistance in this genus. Bacteroides spp. have been shown to carry a plethora of self-transmissible and mobilizable elements, which are probably responsible for the spread of antibiotic resistance genes. Antibiotic resistance genes have been found on conjugative and mobilizable plasmids ( 21 , 34 , 43 ), conjugative transposons (CTns) and integrated elements that are mobilized by CTns ( 33 , 35 , 37 ). In particular, a family of CTns, exemplified by CTnDOT and CTnERL, appears to be playing an important role in transferring resistance genes among Bacteroides strains. CTns of this family not only transfer themselves but also mobilize coresident plasmids. In addition, proteins encoded on these CTns trigger in trans the excision and circularization of mobilizable integrated elements called NBUs, and they mobilize these circular forms to Bacteroides or Escherichia coli recipients ( 35 , 49 , 57 ). They may also mobilize other integrated elements that have been given transposon designations, such as Tn 4399 ( 14 ), Tn 4555 ( 51 ), and Tn 5520 ( 60 ). To distinguish mobilizable elements that have been given a transposon designation from nonmobilizable Bacteroides transposons such as Tn 4351 or Tn 4551 , we will designate them as MTns, e.g., MTn 5520 . 
+
+So far, the MTns of Bacteroides species seem to be falling into two distinct groups. MTn 5520 ( 60 ), the smallest of the MTns (5 kbp) and the only other MTn besides NBU1 ( 48 ) to be sequenced completely, integrates almost randomly and does not duplicate the target site. By contrast, the NBU1 integration was highly site specific, at least in Bacteroides spp., and the target site was duplicated when NBU1 was inserted. We had noted that the integrase of NBU1, IntN1, was very different at the amino acid sequence level from the integrase of MTn 5520 , although both were distantly related to the phage lambda integrase ( 46 , 60 ). Since NBU2 seems to have the same general integration features of NBU1, we wanted to identify the integrase of NBU2 and determine whether it was more closely related to that of NBU1 than to that of MTn 5520 . 
+
+Previously, we obtained the entire sequence of NBU1 (10.3 kbp) and identified its integrase gene ( 46 ). Subsequently, we have identified three other genes that appear to be essential for NBU1 excision ( 48 ). In earlier surveys of Bacteroides clinical isolates for NBU1-like elements, we had identified a second NBU-type element that appeared at first to be very closely related to NBU1. A 2.5-kbp region of NBU2 that contained the transfer origin ( oriT ) and mobilization gene ( mobN2 ) was sequenced and found to be >85% identical to a similarly sized segment from NBU1 ( 19 , 20 , 44 ). However, results of further hybridization experiments suggested that outside this region, NBU2 might be quite different from NBU1. We report here the complete DNA sequence of NBU2 and the characteristics of its integrase gene. NBU1 carried no antibiotic resistance genes, but an MTn that seems to be related to NBU1, MTn 4555 , carries a cefoxitin resistance gene ( 28 ). Accordingly, we were interested in determining whether NBU2 carried any resistance genes. 
+
+Finally, we wanted to learn more about the distribution of NBU-type elements in Bacteroides strains. Virtually all work to date on CTns and MTns of Bacteroides species has focused on a small number of strains, most of which are clinical isolates. We have a collection of Bacteroides strains that includes a variety of clinical and community isolates, including strains of Bacteroides isolated before 1970, as well as strains isolated in recent years. We were interested in determining not only how prevalent NBUs are today but also whether carriage of these elements has changed with time. Information obtained by comparing NBU2 with NBU1 allowed us for the first time to design probes that would distinguish NBU1 from NBU2 and thus allow us to determine how widely each was distributed in Bacteroides strains. 
+
+MATERIALS AND METHODS 
+
+Bacterial strains and growth conditions. 
+
+The bacterial strains and plasmids used in this study are shown in Table 1 . The E. coli strains were grown aerobically in Luria broth (LB) or plated on Luria agar (LA) plates. The Bacteroides strains labeled BT (e.g., BT4001 and BT4004) are derivatives of the B. thetaiotaomicron 5482 strain (Virginia Polytechnical Institute [VPI] Anaerobe Laboratory, Blacksburg, Va.). The source and time period of isolation of the Bacteroides strains used in the survey are described, along with the results of the NBU survey (see Table 4 ). The Bacteroides strains are grown anaerobically in prereduced Trypticase-yeast extract-glucose (TYG [ 15 ]) or on TYG agar plates incubated in BBL GasPak jars. 
+
+TABLE 1. 
+
+Strains and plasmids 
+
+Bacterial strain or plasmid Relevant phenotype a Description and/or source Bacterial strains E. coli DH5αMCR RecA Gibco-BRL EM24NR RecA Nal r Rif r , Pir − RecA derivative of LE392 ( 39 ), used as recipient for integrative Pir requiring vectors BW19851 RecA, ΩRP4 tra , uidA :: pir + R6K pir integrated into the uidA of S17-1 ( 50 ); host strain for R6K replicons ( 23 ) B. thetaiotaomicron BT5482 BT4001 Rif r Spontaneous rifampin resistant isolate of BT5482 BT4004 Rif r Tc r BT4001 containing the conjugative transposon, CTnERL BT4004N3 Rif r Tc r Ln r BT4004 with single copy of NBU2 in site 2 BT4004N6 Rif r Tc r Ln r BT4004 containing two copies of NBU2, one in site 1 and one in site 2 Plasmids pUC19 Ap r E. coli cloning vector ( 62 ) pGEM-T Ap r Promega PCR product cloning vector pBR328::NBU2 Cm r Tc r Circular intermediate of NBU2 digested with Pst I and cloned into the Pst I site of the ColE1 replicon vector pBR328 ( 11 ), this study pUC19::attN2 Ap r 1.2-kbp Hin cII of NBU2 containing the joined ends cloned into the Hin cII site of pUC19, this study pUC19::LJ 1 Ap r A 5-kbp Hin dIII fragment containing the left junction of NBU2 in one of the chromosomal targets (site 1) in BT4004N6 cloned into the Hin dIII site of pUC19, this study pEP185.2 Cm r , R6K oriV Cloning vector that requires pir product in trans for replication; contains the RP4 oriT for mobilization ( 24 ) pEPE Cm r R6K oriV (Em r ) 1.8-kbp ermG PCR product from CTn 7853 ( 10 ) cloned into the Nsi I site of pEP185.2 to create a suicide vector that is selectable in both Bacteroides and E. coli hosts, this study pEPIntN2 Cm r R6K oriV Int + (Em r Int + ) 1.8-kbp PCR product from NBU2 circular form containing the attN2 and intN2 region cloned into Apa I/ Sst II site of pEPE (Fig. 1 ); integrates into the chromosomes of Bacteroides and E. coli hosts, this study pEPIntN2D Cm r , R6K oriV , Int- (Em r Int − ) 0.9-kbp internal deletion of intN2 in pEPIntN2 cloned into pEPE, this study pEPE::N2-J1 and pEPE::N2-J2 Cm r (Em r ) Eco RV clone of both NBU2-chromosomal junctions from pEPIntN2 insertions in BT4001 chromosome in sites 1 (J1) and 2 (J2), this study pNLY1 Ap r Cm r (Cm r ) Bacteroides-E. coli shuttle vector ( 38 ) pNLY-ML Ap r Cm r (Cm r Ln r ) 3.5-kbp Hin dIII fragment of NBU2 containing mefE N2 -linA N2 cloned into pNLY1, this study 
+
+Open in a new tab 
+
+a 
+The phenotypes in parentheses are expressed Bacteroides hosts, and the phenotypes outside the parentheses are expressed E. coli . Abbreviations used for antibiotics resistances: Ap, ampicillin; Cm, chloramphenicol; Em, erythromycin; Ln, lincomycin; Nal, nalidixic acid; Rif, rifampin; Sm, streptomycin; Tp, trimethoprim. Other phenotype abbreviations: int + or int − for the ability to integrate and R6K oriV for the pir -dependent replication origin of R6K. 
+
+TABLE 4. 
+
+Summary of the results using NBU probes on Bacteroides isolates 
+
+Probe % Bacteroides strains before 1970 a % Bacteroides strains from 1980 to 1990s b Summary totals ( n = 291) Community ( n = 75) Clinical ( n = 23) Community ( n = 105) Loyola, Va. clinicals ( n = 65) Other clinicals ( n = 26) 4.5-kbp Hin dIII (NBU1) c 48 (36) 35 (8) 75 (79) 92 (60) 91 (21) 70 (204) IntN1 17 62 39 20 38 30 IntN2 22 37 39 47 52 40 IntN1 and IntN2 d 6 33 19 10 25 17 MOb N1N2 24 8.7 55 66 69 50 Prm N1N2 28 13 58 74 74 52 (MefE-LinA) N2 5.3 8.7 37 43 39 28 
+
+Open in a new tab 
+
+a 
+Community and clinical isolates from the VPI anaerobe laboratory isolated in the 1960s and 1970s ( 16 ). 
+
+b 
+The community isolates were isolated by participants in the Microbial Diversity Course at Woods Hole, Mass., in 1996 and 1997. The majority of the clinical isolates are from the VA Hospital at Loyola of Chicago Medical Center (65 isolates) and the Wadsworth Anaerobe Laboratory in Los Angeles, Calif. (14 isolates). The remaining isolates were requested and received from different hospitals and laboratories. 
+
+c 
+Four ORFs from the C-terminal end of intN1 through the N-terminal end of mobN1 , including prmN and the oriT region (Fig. 2 B). The percentages of the strains that hybridized to the Hin dIII fragment of NBU1 that also hybridized to the intN1 or intN2 probes are given. The numbers of strains tested are indicated in parentheses. 
+
+d 
+A total of 17% of the strains hybridized to both IntN1 and IntN2, which means that the overall percentage of the strains that hybridized to the Hin dIII probe and the IntN in hybridization pattern was: 17% N1-N2 + 13% N1 only + 23% N2 only = 53%, or 108 of the 204 strains. 
+
+Preparation of plasmid and total cellular DNA. 
+
+Plasmid preparations from either Bacteroides or E. coli strains were done using the alkaline lysis procedure ( 39 ). Total DNA was prepared by a modification of the method of Saito and Miura ( 32 ). A quick method for preparing total DNA from 2 ml of an overnight culture was used routinely. The cells were pelleted in a microfuge tube, washed one time in 0.5 ml of saline-EDTA (0.5 M NaCl, 0.1 M EDTA; pH 8). The cells were resuspended in 0.5 ml of saline-EDTA and frozen in a −80°C freezer until solid. Then, 0.5 ml of Tris-SDS (0.1 M Tris, 1% sodium dodecyl sulfate [SDS]; pH 9.0 to 9.3) was added to the frozen cells. The tubes were agitated constantly until the cells thawed and lysed completely. The lysate was mixed with 0.5 ml of phenol saturated with saline-EDTA, mixed well, and placed on ice for 20 min with occasional mixing. The mixture was centrifuged at 12,000 rpm in a microfuge for 10 min. The supernatant was removed and put into a fresh tube. Then, 0.8 ml of isopropanol was added, the tubes were inverted several times for complete mixing, and the DNA was allowed to precipitate at room temperature for at least 30 min. The tubes were centrifuged for 10 min at 12,000 rpm. The pellets were rinsed with 70% ethanol and then dried. The DNA was resuspended in 0.2 to 0.4 ml of TE (0.01M Tris, 0.001 M EDTA; pH 8) containing 50 μg of RNase per ml. 
+
+Cloning and sequencing of NBU2. 
+
+NBU2 was induced to excise from the chromosome of B. thetaiotaomicron BT4104N3-1 by growing the strain in medium containing tetracycline. Exposure to tetracycline induces the regulatory functions on the conjugative transposon required to induce the excision of NBU2 ( 55 ). The circular intermediate of NBU2 was isolated by using a plasmid preparation procedure described previously ( 44 ) and then digested with Pst I and cloned into the Pst I site of pBR328 ( 11 ). This clone was stable enough to allow subcloning for sequencing and for other analysis (Table 1 ). Various regions were subcloned into pUC19 ( 62 ) and sequenced using the M13 universal and reverse primers. Primer walking and sequencing of PCR products across restriction sites was done to get the total sequence of both strands. The sequencing was performed by the University of Illinois Biotechnology Facility using the Applied Biosystems model 373A version 2.0 dye terminator sequencing system. 
+
+The resulting nucleotide sequences and the derived amino acid sequences of the potential open reading frames (ORFs) were used to search a variety of data bases for possible identification using Gapped BLAST and Psi-BLAST programs ( 1 ). 
+
+Southern blot and dot blot analysis. 
+
+Southern blot analysis of restriction enzyme-digested DNA was performed as outlined in Sambrook et al. ( 39 ). The probes were made from isolated DNA fragments or purified PCR products labeled with fluorescein-dUTP using random primers according to the protocol in the Renaissance kit from NEN Life Sciences. The Southern blots were incubated with a chemiluminescence substrate for exposure to film as directed by the manufacturer. Dot blot analyses of bacterial strains were done by spotting 3 μl of a 2-ml (total) DNA preparation onto GeneScreen (NEN-Dupont) in a grid configuration. The spotted membranes were then treated as in colony or plaque hybridizations and were hybridized with NBU1- and NBU2-specific probes using the same protocol used for Southern blots. The NBU probes used for the dot blots were the 4.5-kbp Hin dIII fragment of NBU1 (C-terminal of IntegraseN1 to the N-terminal of MobN1), the PCR product of the prmN2 , oriT′- mobN1 (1.6-kbp Ava I- Pvu II), intN1-attN1 (2.4-kbp Pst I- Sca I), intN2-attN2 (1.8-kbp PCR product), and a 1.3-kbp Hin cII- Eco RV NBU2 fragment containing the C-terminal end of mefE N2 and the N-terminal end of linA N2 . Primers used to produce specific PCR products to make the probes or for cloning are shown in Table 2 . 
+
+TABLE 2. 
+
+Primers used for PCR amplification 
+
+Purpose (size [bp]) Primer, sequence a (5′ to 3′) Joined ends of NBU2 (455) or to amplify the cloned chromosomal DNA between the ends (2,122–2,574) R N2 end, CTT TCA GGA CGA TGT AAA GTC CTG L N2 end, GTA CGT CTC CTA CGA TTG GCA CAC Target site 1 in BT4001 (466) TR N2 , TCC AAG AGC AAC AAG TCA AGA TGC TL N2 , TTA GAG CGC ACA AAG TTA CAA TCA intN2-attN2 (1,882); minimal integrative region and probe (7,420–8,391) IntF N2 , TGT AAT TGC CTA TCT TCC AGT GAT G IntR N2 , AAC AAA TAC TTT CAG GAC GAT GTA A ermG ; erythromycin-clindamycin resistance marker for Bacteroides spp. ErmGF, GAA CAC CTG CAG 1 AAA AGT CGG GGA TTG GTG AAC ErmGR, GAC AGA CTG CAG 1 ACA CCT TGT TAT TGG ACG CCT AC prmN1 (974); NBU1 sequence (7,420–8,391). PrmN2F, CGC AAG A CC ATG G 2 CA ATA GAA GAA PrmN2R, AGT GGG AGA TCT 3 CCG AAA GCC GTT TTT 
+
+Open in a new tab 
+
+a 
+The underlined sequences are restriction sites inserted in the primers: 1, Pst I; 2, Nco I; 3, Bgl II. 
+
+Construction of minimal integration vector, pEPIntN2. 
+
+A mobilizable shuttle vector which could be used to follow the integration of cloned regions of NBU2 in either Bacteroides or E. coli recipients was constructed using the pir -dependent R6KoriV vector, pEP185.2 (Fig. 1 ) ( 24 ). The ermG gene from the conjugative transposon CTn 7853 was PCR amplified ( 10 ) (Table 2 ) with Pst I sites in the primers and then cloned into the Pst I-compatible unique Nsi I site of pEP185.2 to produce pEPE (Fig. 1 ). The sequences of the ends of the integrated form of NBU2 were used to design primers for PCR amplification of the joined ends of NBU2 ( attN2 ) plus the adjacent ORF, intN2 . The 1.8-kbp fragment was first cloned into the pGEM-T (Promega) PCR product cloning vector to form pGEM::IntN2 and was sequenced. The attN2- intN2 or IntN2 region was then isolated on a 1.8-kbp Apa I- Sst II fragment and cloned into the corresponding sites on pEPE to form pEPIntN2 (Fig. 1 ). This vector can be mobilized out of the Pir + S17-1 derivative, BW19851 ( 23 ), either to Bacteroides or to E. coli recipients, by filter matings to select for possible integration due to the NBU2 IntN2 region. 
+
+FIG. 1. 
+
+Open in a new tab 
+
+Construction of the integration vector, pEPIntN2. An insertional vector that could be used in either Bacteroides or in E. coli was constructed from the pir -dependent mobilizable pEP185.2 ( 24 ). The erythromycin-clindamycin resistance gene, ermG , from CTn 7853 was PCR amplified with Pst I sites encoded in the primers and cloned into the Pst I-compatible unique Nsi I site on pEP185.2 to form pEPE. pEPE, a Pir-dependent vector, has selectable markers for both E. coli and Bacteroides hosts. The NBU2 integration region, IntN2, consisting of the joined ends, attN2, from the circular form of NBU2 and the adjacent gene, intN2 , was PCR amplified from the induced circular form of NBU2. The PCR product was first cloned into pGEM-T (Promega) and sequenced. The 1.8-kbp Apa I- Sst II fragment was isolated from pGEM-T and cloned into the Apa I and Sst II sites of pEPE to form the NBU2 integration vector, pEPIntN2. 
+
+Filter matings. 
+
+The procedure for filter matings between E. coli donors and E. coli or Bacteroides recipients has been previously described ( 42 , 59 ). BW19851(pEPIntN2) was filter mated with BT4001. BT4001 transconjugants containing insertions of pEPIntN2 in the chromosome were selected as gentamicin-resistant (Gen r , 200 μg/ml) and erythromycin-resistant (Em r , 10 μg/ml) isolates. Integration into the chromosome via the NBU2 ends was verified by Southern blot analysis using the 1.8-kbp Apa I- Sst II fragment of NBU2 cloned in pEPIntN2 (Fig. 1 ) as the probe. In matings between BW19851(pEPIntN2) and the E. coli recipient EM24NR, the transconjugants were isolated as rifampin-resistant (Rif r , 10 μg/ml), chloramphenicol-resistant (Cm r , 20 μg/ml), trimethoprim-sensitive (Tp s ) isolates. Integration was verified by Southern blot analysis using the 1.8-kbp Apa I- Sst II NBU2 attN2- intN2 fragment as the probe. 
+
+Cloning and sequencing of NBU2 target sites in Bacteroides and E. coli hosts. 
+
+A left junction of NBU2 was obtained from BT4004N6 (Table 1 ) on a 5.0-kbp Hin dIII fragment, which was cloned into the Hin dIII site of pUC19 to produce pUC19::LJ 1 , and was then sequenced. The sequence identified the crossover region on NBU2 attN2. In the process of cloning the ends of NBU2, we learned that BT4004N6 had two copies of ΩNBU2. Both junctions of both integration sites were cloned simultaneously from the BT4001ΩpEPIntN2 transconjugants, all of which contained only single insertions. First, the DNA from a BT4001ΩpEPIntN2 transconjugant was digested with Eco RV, which does not cut within the integrated pEPIntN2 vector. The digested DNA was cleaned, diluted, and ligated. The ligation reaction was then used to transform competent BW19851 cells selecting for Cm r . The Cm r transformants obtained from the two observed insertion sites on the Southern blots contained the chromosomal sequences adjacent to both ends of the integrated NBU2 derivative cloned on pEPIntN2-J1 (site 1) or pEPIntN2-J2 (site 2). The R6K oriV -based vector has a copy number too low for good template preparation for sequencing. Therefore, the cloned chromosomal DNA between the NBU2 ends on the resultant J-clones were amplified by PCR using the NBU2 end primers (Table 2 ). The PCR products were cloned into the high-copy-number pGEM-T and sequenced using the M13 forward and reverse primers. The sequences obtained for the chromosomal junctions allowed primers to be designed (Table 2 ) to PCR amplify and sequence the Bacteroides target sites. A similar strategy was used to obtain target sites in E. coli . 
+
+DNA amplification and cloning. 
+
+The primers used for the DNA amplifications are shown in Table 2 . A 2 μl sample of genomic DNA or 10 to 100 ng of plasmid DNA was mixed with 200 ng of each primer in 100 μl of reaction buffer (1× Gibco-BRL PCR buffer, 1.5 mM MgCl 2 , 0.2 mM deoxyribonucleoside triphosphate mixture) and amplified with Taq polymerase. Amplification was preceded by denaturation for 5 min at 95°C, followed by the addition of polymerase and 25 cycles of 95°C for 1 min, annealing at 50 to 55°C for 1 min, and extension at 72°C for 2 min. Then, 5 μl of the PCR product was checked on agarose gels for production, size, and concentration. The PCR products were gel purified and sequenced directly using the PCR primers, used to prepare probes for the dot blot hybridization survey, or cloned on the PCR cloning vector pGEM-T as specified by the manufacturer (Promega). 
+
+Expression of the mefE N2 and linA N2 . 
+
+The BT4004, BT4004N3, BT4004N6, and BT4004(pNLY-ML) strains (Table 1 ) were tested for their ability to grow in TYG broth containing erythromycin or lincomycin. Fresh overnight cultures of each strain were inoculated in triplicate into media containing 0, 3, 5, 10, 20, 30, or 40 μg of the respective antibiotic per ml. The cultures were incubated at 37°C, and growth was checked after 24 and 48 h. 
+
+Nucleotide sequence accession numbers. 
+
+The GenBank accession number ( L42370 ) for the prmN2-oriT-mobN2 region has been previously reported ( 20 ). The nucleotide sequences for the entire NBU2 and the Bacteroides targets, BT2-1 and BT2-2, containing the Ser-tRNA UGA genes have been deposited in GenBank under accession numbers AF251288 . 
+
+RESULTS 
+
+Sequence analysis of NBU2. 
+
+The 2.5-kbp mobilization region of NBU2, which has high sequence identity to NBU1, had been previously sequenced and characterized by Li et al. ( 20 ). This region had been cloned from the excised circular form of NBU2 using an NBU1-derived hybridization probe to detect it. To determine the sequence of the rest of NBU2, we first cloned the entire circular intermediate from plasmid preparations of a tetracycline-induced B. thetaiotaomicron strain that contained both the conjugative transposon CTnERL and NBU2. Sequence analysis of NBU2 revealed that the element was 11,123 bp in size, slightly larger than NBU1 (10,276 bp [ 48 ]). The sizes of the predicted ORFs and the sizes of the proteins they could encode are shown in Table 3 . In Fig. 2 A the location of the ORFs are shown on the circular intermediate form of NBU2. Genes on the integrated form of NBU2 are compared to genes on integrated NBU1 in Fig. 2 B. Comparisons of these genes at the nucleic acid and amino acid sequence level showed clearly that, outside of the prmN-oriT-mob region, NBU2 differed appreciably from NBU1. Like NBU1, most of the NBU2 genes were transcribed in the same direction, but there was little sequence similarity to the other NBU1 genes. Examination of the sequences at the edges of the highly conserved internal prmN-oriT-mob region revealed that the transition from nearly identical sequences to very dissimilar sequences was not an abrupt one, as might be expected if these genes are on a gene cassette (Fig. 3 ). 
+
+TABLE 3. 
+
+NBU2 ORFs and the characteristics of the putative proteins a 
+
+ORF Range 5′–3′ (bp) % G+C Length (aa) Size (kDa) pI Search results and comments linA N2 769–237 40.5 171 19.8 4.5 52% identity and 70–72% similarity to LinA′ from S. aureus BM4611 and LinA on pIP855 in S. haemolyticus ( 5 , 6 ) mefE N2 2,000–804 41.3 403 44.3 9.1 33–34% identity and 52–54% similarity to MefE of S. pneumoniae and MefA of S. pyogenes ( 8 , 58 ) attN2 2,000–2,400 Two target sites: 13-bp identity to attN2 at the 3′ end of two Ser-tRNA UGA genes, followed by inverted repeats intN2 2,499–3,782 45.8 427 50.4 8.9 26–28% identity and 44–49% similarity to the C-terminal ends of MTn 5520 Int BIP and NBU1 IntN1 ( 46 , 60 ); member of the lambda family of site-specific integrases orf2 3,846–6,194 42.9 783 91.3 5.4 26% identity and 45% similarity to an E. coli hypothetical protein orf3 6,736–7,815 46.3 360 41.5 8.6 37% identity and 52% similarity to sigma 70 of Rhizobium sp. prmN2 8,028–8,984 48.1 319 36.8 9.1 >85% sequence identity to prmN1 of NBU1 and sequence on MTn 4399 ( 20 ); 30–33% identity and 52–57% identity to the N-terminal ends of DNA primases from L. monocytogenes and B. subtilis dnaE . oriT N2 880–910 Gram-positive family of nick sites also shared by NBU1, MTn 4555 , pBI143 and pIP421 ( 53 ) mobN2 9,137–10,543 44.0 469 55.1 9.3 88% nucleotide identity to NBU1 mobN1 and 84% nucleotide identity to MTn 4555 mobA Tn ; 44, 48, and 55% aa sequence similarity to pIP421 Mob 421 , pBI143 MobA 143 , and MTn 5520 Mob BMP , respectively ( 20 , 52 , 60 ) 
+
+Open in a new tab 
+
+a 
+aa, amino acids. 
+
+FIG. 2. 
+
+Open in a new tab 
+
+Circular and integrated forms of NBU2. (A) Partial restriction map of the excised circular form of NBU2. The location and orientation of the possible ORFs derived from the NBU2 sequence are indicated. The region containing the joined ends of the NBU2 (attN2) is indicated. The attN2 is contained within a 1.2-kbp Hin cII fragment. (B) The integrated form of NBU2 is compared to the integrated form of NBU1. The double-headed arrows indicate the region of high sequence identity between NBU2 and NBU1 (see Fig. 3 ). The attN-left sequences of the integrated NBUs are the same sequence as the attN on the elements, and the attN-right sequences are the attBT sequences of the target sites. Both elements integrate site specifically into the 3′ end of tRNA genes: Ser-tRNA UGA for NBU2 and Leu-tRNA CAA for NBU1. 
+
+FIG. 3. 
+
+Open in a new tab 
+
+Sequence comparison of NBU2 and NBU1. The prmN-oriT-mobN regions of NBU1 and NBU2 have more than 85% identity. Outside of this mobilization region the sequence identity drops to <30%. Near the borders of the sequence identities both elements have inverted repeat sequences (underlined) of 11 to 12 bp indicated by arrows above the sequences for NBU1 (IR1) and dotted arrows below the sequences for NBU2 (IR2). The start and stop codons for the prmN (PrmN) and mobN (MobN) are indicated in boldface. The oriT nick sites as determined by sequence identity to MTn 4555 ( 53 ) are at the end of the TAG codon (Ω Stop) of the prmN genes and are indicated by the arrows. 
+
+There were some inverted repeat sequences that flanked prmN on one side and mob on the other, but these were outside the region of high identity. The fact that the inverted repeat sequences seen on NBU1 were in approximately the same sites relative to the region of identity as those on NBU2 could mean that they play a role, either in the assembly of the NBUs or in the current function of the intact element. However, there was no indication that the region of identity was a gene cassette in an integron or some other mobile gene cassette. MTn 4555 has pairs of inverted repeats flanking its oriT-mobA TN region, a region that exhibits sequence identity to the corresponding region of NBU1 and NBU2, and the mobilizable Bacteroides plasmid, pBI143, has 56-bp inverted repeats that separate its NBU-related mobilization region and its replication region ( 52 , 54 ). Thus, the inverted repeats may prove to have some significance in the future, but their role is not evident from work done to date. Comparisons of the known Bacteroides mobilizable transposons, including the NBUs, and mobilizable Bacteroides plasmids suggest that these are modular elements with mix-and-match components, but it is not clear how this modular assembly was achieved. 
+
+Localization of the integration region (attN2) on NBU2. 
+
+DNA from strains of B. thetaiotaomicron that contained insertions of NBU2 (ΩNBU2) were probed on Southern blots and the ends of the NBU2 were determined to be within the 1.2-kbp Hin cII fragment indicated in Fig. 2 that is also called attN2 . The Southern blots and previous pulse field analysis of B. thetaiotaomicron strains revealed that NBU2 had two primary target sites ( 3 ), and some of our isolates contained copies of ΩNBU2 in both sites (e.g., Fig. 4 A). In Fig. 4 A, the chromosomal DNAs from BT4004N3 (lane 1), BT4004N6 (lane 2), and BT4004N6 grown in tetracycline to induce the excision of NBU2 (lane 3) were digested with Hin cII. The Southern blot of the agarose gel was probed with the 1.2-kbp Hin cII NBU2 fragment (Fig. 2 ). BT4004N3 has one ΩNBU2 (two junction bands) and BT4004N6 had two copies of ΩNBU2 in two different sites (four junction bands). One of the ΩNBU2 insertions in BT4004N6 is the same as the ΩNBU2 in BT4004N3, as is evident from the fact that two junction bands of the same size appear in both lanes 1 and 2. The arrow in lane 3 indicates an additional 1.2-kbp Hin cII band that runs just above one of the junction bands. This band is formed when tetracycline stimulation of the coresident CTnERL leads to excision of NBU2. No 1.2-kbp band is observed if the cells are not grown in medium containing tetracycline (lanes 1 and 2). To determine the exact region on NBU2 where the crossovers occurred, a 5-kbp Hin dIII fragment containing one end of NBU2 in BT4004N6 was cloned and sequenced and compared to the sequence of the 1.2-kbp Hin cII fragment. The Hin dIII fragment was later determined to be the left junction of NBU2, as shown in Fig. 2 B, and the chromosome from site 1. The single insertion of NBU2 in BT4004N3 (Fig. 4 A, lane 1) was later shown to be in site 2. 
+
+FIG. 4. 
+
+Open in a new tab 
+
+Southern blot analysis of the NBU2 insertions in Bacteroides attB2 sites. (A) Southern blot of two B. thetaiotaomicron BT4001 transconjugants from BT ERL that received both CTnERL and NBU2. The DNAs of the two strains were digested with Hin cII, and Southern blots were probed with the labeled 1.2-kbp Hin cII fragment containing attN2 (Fig. 2 ). BT4004N3 in lane 1 has a single insertion (two junction bands), and BT4004N6 in lane 2 has two insertions of NBU2 (four junction bands). In lane 3, BT4004N6 was grown in tetracycline to induce the circular excised form of NBU2. The 1.2-kbp fragment from the excised circular form of NBU2 is indicated by the arrow. (B) Southern blot showing 6 of 10 independent insertions of the minielement vector, pEPIntN2, into the B. thetaiotaomicron BT4001 chromosome. The DNAs from the strains were digested with Apa I- Sst II, and the Southern blot was probed with the labeled 1.8-kbp Apa I- Sst II fragment containing the intN2 -attN2 region of NBU2 cloned on pEPIntN2 (Fig. 1 ). The sequence obtained for the cloned targets sites (see Materials and Methods) indicated that the insertion site of pEPIntN2 in lanes 1, 2, and 4 were the same as the wild-type element in BT4004N3 (panel A, lane 1). In BT4004N6, one of the ΩNBU2 copies was integrated into this site and the other copy of ΩNBU2 was integrated into the site represented by lanes 3, 5, and 6 of panel B. The locations of the Hin dIII lambda size fragments in kilobase pairs are marked on the left of each panel. 
+
+The ORF immediately adjacent to the right end junction of the integrated NBU2 encoded a protein with 28% identity and 44 to 49% similarity to the C-terminal ends of the NBU1 integrase (IntN1) and the integrase of MTn 5520 (Int BIP ), respectively. All three of the Bacteroides MTn integrases have some sequence similarity to the lambda family of site-specific integrases. This similarity is confined to the C-terminal end of the proteins. C-terminal alignments of IntN2 to some of the closest sequences identified in BLASTP ( 1 ) searches are shown in Fig. 5 . The three MTn integrases were 40 to 50 amino acids larger than other integrases, including the integrases of bacteriophage P21 and the E14 prophage of E. coli . The MTn integrases all contained the conserved amino acids in lambdoid phage domain I and domain II ( 2 , 27 ), except that MTn 5520 had an alanine (A) instead of arginine (R) in domain I. The highly conserved amino acids in the two domains are boxed, highlighted, and indicated with a number sign (#) in Fig. 5 . All of the MTn integrases also had the glycine (G)-histidine (H) doublet in domain II in addition to the H-R-Y conserved amino acids. There are clearly similarities between NBU1 and NBU2 integrases other than those highlighted. In an alignment of the entire MTn integrase proteins with each other (not shown), IntN2 did not align with first 50 amino acids of MTn 5520 integrase-transposase or with the first 200 amino acids for IntN1. This indicates that the N-terminal ends encoded the domains responsible for the element specific functions of the integrases. It was somewhat surprising that IntN2 had more sequence similarity in its N-terminal end to Int BIP than to IntN1, since NBU1 and NBU2 integrate site specifically, whereas MTn 5520 inserts more randomly in AT-rich sites ( 3 , 46 , 60 ). 
+
+FIG. 5. 
+
+Open in a new tab 
+
+C-terminal alignment of IntN2 and related members in the lambda family of site-specific integrases. The similarity of IntN2 to members of the lambda family of site-specific integrases was in the C-terminal end. The alignment of IntN2 and the integrases with the highest similarities is shown. Domain I and domain II in the C-terminal ends of this family of integrases contain conserved amino acids for the active sites of the integrases ( 2 , 27 ). The conserved amino acids are labeled (#) and boxed for these active site domains. The total size of each integrase is shown at the end of its sequence as COOH-, with the number of amino acids in parentheses. The accession numbers for the integrases shown here are as follows: Bacteroides MTns NBU2 ( L42370 ), NBU1 ( L13840 ), and MTn 5520 ( AF038866 ) and cyanobacterial plasmid pDU1 ( L23221 ), A. aeolicus plasmid, ece1, ( C55205 ), L. lactis CTn 5276 ( L27649 ), bacteriophage P21 ( P27077 ), and prophage E14 ( M61865 ). 
+
+A simple unrooted tree depicting the relationship of the integrases included in Fig. 5 is shown in Fig. 6 . The entire sequences of the integrases were used to form the tree and not just the conserved regions in the C-terminal ends. The three MTn integrases clustered with IntN2 closer to MTn 5520 Int than to IntN1. From this, it is evident that there is quite a range of integrase sequences in Bacteroides MTns, including NBUs. Our earlier picture, based on traits of the MTns, which had the elements falling into two groups represented by NBU1 and MTn 5520 , is clearly too simplistic. The integrase-resolvase-like genes identified by sequence on the cyanobacterial plasmid, pDU1, and the plasmid, ece1, from the marine hyperthermophile Aquiflex aeolicus have not been characterized but were included because they were two of the closer relatives identified in the database searches. The similarity between these genes and proven integrases from NBU1 and NBU2 provides further evidence that these genes might well encode integrases. The integrases of pDU1 and ece1 clustered with the integrase from the site-specific CTn 5276 found in the gram-positive L. lactis ( 30 ). The bacteriophage integrases from the proteobacter group of gram-negative bacteria formed the third cluster. The Bacteroides MTns are adding new branches to the lambda family of site-specific integrase tree. Note, however, that the branch lengths that separate the integrases of the NBUs and MTn 5520 are, if anything, longer than those separating the integrases of the CTn 5276 group, which come from three different phylogenetic groups. This observation underscore the extent of the diversity within the NBU-MTn 5520 group of integrases found in a single genus of gram-negative bacteria. 
+
+FIG. 6. 
+
+Open in a new tab 
+
+Unrooted tree of the NBU2 integrase and related integrases. The entire sequences of the lambda family of site-specific integrases, including the IntN2 of NBU2, that were aligned in Fig. 5 were grouped on a cladogram or unrooted tree to show their relationships using the Bioinformatics analyses conducted on BioNavigator.com provided by eBioinformatics. The tree showed three clusters: the three Bacteroides MTn integrases [NBU1 (IntN1), NBU2 (IntN2) and MTn 5520 (Int BIP )], the two bacteriophage integrases from P21 and prophage E14, and the group containing the putative integrase-recombinases on plasmids from Nostoc (pDU1) and A. aeolicus plasmid ece1 (pAquifex) and the integrase from the L. lactis conjugative transposon CTn 5276 . Accession numbers are given in Fig. 5 . 
+
+Use of a special vector to study integration and the targets sites of NBU2. 
+
+An insertional shuttle vector, pEPE, was constructed to locate the integration gene of NBU2 and to clone chromosomal target sites (Fig. 1 ). This vector can be mobilized out of E. coli BW19851 to Bacteroides or E. coli recipients. In E. coli strains that contain the R6K pir gene the vector replicates but in Bacteroides recipients and E. coli recipients such as EM24NR, pEPE cannot replicate and transconjugants are only obtained if the vector contains regions that allow it to integrate ( 24 , 47 ). Since we suspected that the first ORF at the right end of NBU2 was the integrase gene, we PCR amplified this gene together with the joined ends of the circular form and cloned it into pEPE to form pEPIntN2 (Fig. 1 and 2 A). 
+
+In matings between BW19851(pEPIntN2) and BT4001, erythromycin-resistant transconjugants occurred at a frequency of 10 −4 to 10 −5 per recipient at the end of the mating. All of the transconjugants were contained insertions of pEPIntN2 (Fig. 4 B). Transfer of a plasmid that replicates in Bacteroides spp. and has the same oriT occurred at a frequency of 10 −3 to 10 −4 transconjugants per recipient. Thus, the integration efficiency of pEPIntN2 was close to 10 −1 integrants per circular form introduced into the cell. This integration frequency is similar to that calculated for NBU1 ( 24 , 46 , 47 , 49 ). Southern blot analysis of 10 independent BT4001 ΩpERIntN2 transconjugants demonstrated that the pEPIntN2 had integrated with equal frequency (6 to 4) into one of two sites. The Southern blot of six of the transconjugants is shown in Fig. 4 B. Chromosomal DNA from each of these strains was digested with Apa I- Sst II, and the Southern blot was probed with the 1.8-kbp Apa I- Sst II NBU2 region, cloned on the pEPE vector. Analysis of the Southern blot pattern showed that all of the insertions occurred within the 1.8-kbp NBU2 region and there were no double insertions. To test whether intN2 was essential for integration, a 0.9-kbp internal deletion was made in intN2 on pEPIntN2 to produce pEPIntN2D. This plasmid did not integrate into the BT4001 chromosome (<10 −9 ). Therefore, there were no cryptic elements in BT4001 that were providing the integration function in trans , and IntN2 was required for integration. Integration occurred equally well in a Bacteroides strain not carrying a CTn as it did in one carrying a CTn. Thus, although NBU2 excision and mobilization require trans -acting CTn functions, integration is independent of CTn functions. To determine whether the NBU1 integrase might be able to act on the joined ends of NBU2, we transferred pEPIntN2D, which contained the joined ends but not the integrase of NBU2, into a strain that contained a copy of NBU1. No transconjugants were obtained, indicating that the NBU1 integrase could not replace NBU2 integrase in trans . 
+
+Junction regions of ΩpEPIntN2 integrated in both of the two target sites were cloned and sequenced. Analysis of the sequence of the junctions showed that integration had occurred via the ends of NBU2. Using this sequence information, we were also able to PCR amplify and sequence the integration site. The sequences of the two NBU2 integration sites are shown Fig. 7 . There was a 13-bp sequence of identity between the attN2 formed by the joined ends of NBU2 and the two BT4001 target sites, attBT2-1 and attBT2-2. The integration event occurred within or adjacent to this 13-bp sequence, duplicating the 13-bp target site. Immediately downstream of the 13-bp region there were inverted repeats that contained a second region of partial identity between attN2 and the two attBT2 sites. In both attBT2 sites the 13-bp sequence was at the 3′ end of a Ser-tRNA gene, Ser-tRNA UGA , and Ser-tRNA UGA2 . There was only one mismatch between the sequences of the two Ser-tRNA genes. Yet the regions outside the tRNA gene differed considerably. 
+
+FIG. 7. 
+
+Open in a new tab 
+
+NBU2 attN2 and chromosomal target sites. The attN2 region of NBU2, shown at the top of the figure, has two regions that have identity or similarity to its target sites. The crossovers occurred within or adjacent to a 13-bp sequence in highlighted capital letters that has sequence identity to the two attBT2 Bacteroides target sites. The second region of attN2 has a 14-bp sequence, boxed and highlighted, that has partial sequence identity to the attBT2 sites, and is located at the 5′ end of a pair of IRs. The IRs are indicated by arrows and the bases which could pair in a stem and loop structure are capitalized. The two attBT2 sites are located at the 3′ ends of Ser-tRNA UGA genes that differ from each other by only a single base pair. The crossovers occurred within or adjacent to the 13-bp sequence of identity to attN2. Both attBT2-1 and attBT2-2 also had 15-bp sequences with partial identity, boxed and highlighted, to the 14-bp sequence of attN2 that were located 5′ to IRs. The sequence for one of the pEPintN2 insertion sites in E. coli (attBEc) is shown at the bottom. The insertion occurred in the 3′ end of fecI . The crossover occurred adjacent to or within the triplet (CCT) at the beginning of a sequence with partial identity (8 of 13) to the 13-bp region on attN2. The crossover region for attBEc was followed by a set of IRs indicated by arrows which had no sequence identity to the NBU2 IR region. 
+
+The ability of NBU2 to integrate into the E. coli chromosome was tested by mating BW19851(pEPIntN2) with the nonpermissive E. coli recipient, EM24NR. EM24NR is RecA deficient and lacks pir which is required for replication of the vector. Transconjugants were isolated at frequencies of 10 −6 to 10 −7 per recipient. Since transfer of pEPIntN2 to permissive hosts was 10 −1 ( 24 , 47 ), the efficiency of integration was lower (<10 −5 ) than what was observed in the Bacteroides recipient, BT4001 (10 −1 ). The integration of pEPIntN2 in EM24NR was RecA independent, which was expected since the integration of NBU1 was previously shown to be RecA independent in both Bacteroides and E. coli recipients ( 9 ). A Southern blot analysis of EM24NR ΩpEPIntN2 transconjugants showed that the insertions E. coli were not site specific (data not shown). The sequence of a representative target site is shown at the bottom of Fig. 7 . The insertion occurred in the 3′ end of fecI . There was limited sequence identity to the 13-bp region, and the crossover occurred within or adjacent to the CCT indicated. The E. coli insertion site shown in Fig. 7 had a possible inverted-repeat (IR) set, but there was no sequence identity to the attN2 IR region. 
+
+Expression of the putative NBU2-encoded antibiotic resistance genes, mefE N2 and linA N2 . 
+
+The sequence of NBU2 revealed two ORFs whose derived amino acid sequences were related to those of known antibiotic resistance genes previously found in the gram-positive bacteria. The deduced amino acid sequence of mefE N2 had 34% identity and 54% similarity to MefE of Streptococcus pneumoniae ( 58 ), a protein that is thought to be a macrolide pump. Although the sequence identity was low, it extended throughout the protein. This is the first mefE homolog seen in Bacteroides species. The deduced amino acid sequence of linA N2 , LinA(N2), had 50 to 52% identity and 70 to 72% similarity to the LinA′ of Staphylococcus aureus ( 5 ) and LinA on pIP855 in S. haemolyticus ( 6 ). An alignment of the three resistances is shown in Fig. 8 . LinA is an O -nucleotidyltransferase which inactives lincosamides including lincomycin and clindamycin ( 6 ). Clindamycin resistance is a clinical problem because clindamycin is still a drug of choice for treating anaerobic infections, including those caused by Bacteroides spp. This is also the first sighting of a linA type gene in Bacteroides species. The erythromycin and clindamycin resistances in the Bacteroides spp. have previously been associated exclusively with MLS (ribosome methylation)-type resistances, e.g., ermF and ermG. ermF and ermG have been found on transposons, conjugative and mobilizable plasmids, and conjugative transposons ( 10 , 21 , 33 , 35 ). Neither of these genes, however, has yet been seen on a MTn. 
+
+FIG. 8. 
+
+Open in a new tab 
+
+Alignment of the NBU2 lincosamide resistance, LinA N2 , with LinA′ and LinA from Staphylococcus spp. The amino acid sequence of the lincosamide resistance on NBU2, LinA(N2), was aligned with the sequences of LinA′ from S. aureus and LinA from pIP855 in S. haemolyticus ( 5 , 6 ) using the BLASTP search program. LinA(N2) has 52% identity and 70 to 72% identity to LinA′ and LinA. The regions of identity are indicated in boldface. The total number of amino acids for each protein is indicated at the ends of the respective sequences. The accession numbers for LinA′ and LinA are J03947 and A25633 , respectively. 
+
+The possible expression of the putative antibiotic resistance genes carried on NBU2 was tested in the B. thetaiotaomicron 5482, since the original clinical isolates, B. thetaiotaomicron DOT and B. fragilis ERL, both contained CTns that carried the ermF gene. Therefore two B. thetaiotaomicron BT4001 transconjugants from B. fragilis ERL, BT4004N3 (single copy of ΩNBU2) and BT4004N6 (2 copies ΩNBU2), were both tested for their ability to grow in TYG containing erythromycin or lincomycin. The MICs for BT4004N3 and BT4004N6 were 40 μg/ml, but BT4004N6 grew faster in medium containing higher concentrations of the antibiotic than BT4004N3. Neither strain could grow in medium containing 3 μg of erythromycin per ml. Thus, the linA N2 gene is expressed in B. thetaiotaomicron , and the resistance phenotype it confers is the same as the linA of gram-positive bacteria. By contrast, since mefE N2 did not confer resistance to erythromycin, it appears that this gene is not expressed in Bacteroides species. 
+
+Since the mefE N2 gene appeared to be nonfunctional in single copy, we cloned the 3.7-kbp Hin dIII fragment of NBU2 that included mefE N2 -linA N2 into the shuttle vector pNLY1 to provide 10 to 20 copies of the gene per cell. There was still no growth in erythromycin (3 μg/ml). Thus, the mefE N2 appears not to be capable of conferring macrolide resistance on B. thetaiotaomicron even if multiple copies are provided. We also checked for tetracycline resistance in BT4001(pNLY-ML) since there was some similarity between MefEN2 and tetracycline resistance efflux proteins such as TetL ( 22 , 29 ), but the strain remained susceptible (MIC, <1 μg/ml). The percent G+C content of mefE in S. pneumoniae is 38% and of linA ′ in S. aureus is 31%, whereas the genes carried on NBU2 had a G+C content of 41%, which is within the normal range of 40 to 45% G+C for Bacteroides spp. ( 16 ). Thus, the linA N2 and mefE N2 genes on NBU2 probably did not come into the Bacteroides spp. from the low-GC gram-positive bacteria. Our results show that the mefE and linA type genes are not exclusively gram-positive resistances, as was once thought, but have a much wider distribution. NBU2 is only the second MTn found that carries a functional antibiotic resistance gene. MTn 4555 carries a cefoxitin resistance gene ( cfxA [ 28 ]), and there undoubtedly are other uncharacterized MTn elements that are carrying antibiotic resistance genes in the Bacteroides spp. 
+
+Prevalence of NBU genes in community and clinical Bacteroides isolates. 
+
+We have seen NBU-like elements in several Bacteroides clinical isolates and were interested in determining how widespread these elements were in Bacteroides species. To this end, we surveyed community and clinical isolates for the presence of NBU-type elements in general and for NBU1 and NBU2, separately. The probe used to detect NBU-type elements was the 4.5-kbp Hin dIII fragment of NBU1 that contains the highly conserved prmN1-oriT-mobN1 region. The probes used to detect NBU1 and NBU2 specifically were the integrase genes of these two elements. Since earlier data had shown that the highly conserved region might be modular, we also probed the strains separately with prmN1 - and mobN1 -specific probes to learn how often these genes were found together. Finally, we probed the strains with the mefE-linA region of NBU2. We were interested in answering three different questions. First, are NBUs widely distributed in Bacteroides species and, if so, are they as widely distributed in community as well as clinical isolates? Second, has the prevalence of NBUs in Bacteroides species changed over the past few decades? Finally, how prevalent are the mefE-linA homologs in Bacteroides species and are they always associated with NBU-positive strains? Some of the strains were isolated in the 1960s and 1970s by the Anaerobe Laboratory at VPI in Blacksburg, Va. ( 16 ), and some strains were isolated in the 1990s, so we were able to look at prevalence data from older and more recently isolated strains. A summary of the results is provided in Table 4 . 
+
+The number of strains in each category is shown in the row with column headings, and the probes used are in the first column (see Materials and Methods). The percentage of the strains that hybridized to the general NBU probe was similar in clinical and community isolates and seems to have nearly doubled in the newer strains compared to the older strains. Both the mobN1 - and prmN1 -specific probes showed an even greater rise in prevalence. This may have been due to an increase in prevalence of the NBU-type elements, as indicated by a slight rise in prevalence of NBU2 in the modern strains and a large increase in the prevalence of mefE-linA carrying elements. A total of 70% of the strains tested positive for hybridization with the conserved region of NBU1 and NBU2, but only 53% of these strains hybridized to either or both of the NBU1- and NBU2-specific probes. MTn 4399 ( prm + ) and MTn 4555 ( mob-oriT + ) would fall into the non-NBU category, and MTn 5520 (<60% mobN or intN sequence identity) would not be detected. This suggests that there may still be more NBU-type elements that remain unidentified, possibly due to extensive sequence divergence and/or modular assembly of functional regions. 
+
+Clearly, however, NBU1 and NBU2 are widespread among Bacteroides isolates, especially those obtained within the past decade. It is important to stress that the isolates surveyed represented a number of different Bacteroides species. These included B. fragilis , B. thetaiotaomicron , B. uniformis , B. vulgatus , B. ovatus , and several other species. Thus, the prevalence of NBU1 and NBU2 is likely due to horizontal transfer of the NBUs and not the prevalence of a single Bacteroides species or strain that happens to carry NBU1 or NBU2. The prevalence of NBU elements in the community isolates paralleled the prevalence in clinical isolates, both in the older and in the newer isolates. This indicates that whatever force is driving the increased acquisition of NBU-like elements and mefE N2 -linA N2 by Bacteroides species is being experienced in the community rather than being limited to hospitals. The diversity and range of the MTns could be an important component of the gene transfer capabilities of Bacteroides in the ecosystem of the human colon. Gene transfer from Bacteroides donors to members of other genera has already been observed in the laboratory ( 26 , 41 , 45 ). Evidence for transfer of genes in the environment has been indicated by the appearance of the Bacteroides tetracycline resistance gene, tetQ , in other genera, mostly human-associated gram-negative anaerobes ( 12 , 13 , 17 , 18 , 25 ). It remains to be seen whether transfer is also occurring between Bacteroides species and the gram-positive colonic anaerobes that are also a major component of the colon microflora. 
+
+DISCUSSION 
+
+The integrase of NBU2, intN2 , has been identified. This gene and the joined ends of NBU2 were all that were required for integration. The NBU2 integrase, like that of the related mobilizable element, NBU1, appears to be a member of the family of phage lambda recombinases, in the sense that it has the conserved C-terminal catalytic amino acids that are preserved on all members of the lambda Int family ( 27 ). The finding of lamba-type integrases in the NBUs and other nonphage integrating elements suggests that this mode of site-specific integration is more general than was previously realized. NBU2 and NBU1 both have some other phage-like traits. For one thing, they integrate site specifically via a 13-bp att sequence that is identical to the att site in the NBU2 joined ends. For another, they integrate into the 3′ ends of tRNA genes. The number of integrating elements that share one or more of these properties is growing and now includes not only bacteriophages and the NBUs but also integrative Streptomyces plasmids, sone pathogenicity islands, and integrative elements in Dichelobacter nodosus ( 4 , 7 , 31 , 40 , 61 ). The use of tRNA genes as targets for integration may increase the host range of an integrating element because tRNA genes are fairly highly conserved in different species. On the other hand, the use of tRNA genes as target sites could be considered as limiting their movement since such integration sites are unlikely to be found on plasmids or other self-transmissible elements. This limitation, however, does not seem to have prevented the NBUs from spreading extensively among different Bacteroides species in the human colon. 
+
+Transmissible elements that use tRNA genes as an integration sites could be hazardous to a bacterial recipient if the structure of the tRNA gene was disrupted. In the case of NBU2, the crossover event exchanges the IR at the 3′ end of the tRNA with the IR found in the attN site. This change seems not to be deleterious for the recipients, but such a change could possibly influence the processing of the tRNA transcript ( 61 ). The importance of the IRs in the attN or the attBT sites for either the integration or the excision of the NBUs is not yet known. 
+
+At present, there is no information available about Bacteroides host factors that might be involved in NBU integration or excision. Previous work has shown that NBU integration is independent of RecA ( 10 ), but whether integration requires a host factor-like IHF remains to be determined. Integration of NBU2 did not require any CTn functions, in contrast to the excision of NBUs, which requires functions provided by a CTn. In E. coli , integration was much more random than in B. thetaiotaomicron . This could be due to lack or a suitable primary integration site, because the Ser-tRNA gene of E. coli is not identical to that of B. thetaiotaomicron . It is also possible, however, that the relative lack of NBU2 integration specificity in E. coli , together with the much lower frequency of integration, reflects the absence in E. coli of a host factor that aids accurate alignment of the att sequences and efficient formation of the protein-DNA contacts in Bacteroides species. Excision of NBUs is proving to be a much more complex process than integration. The integrase is required, along with at least three other proteins and the oriT region ( 48 ). Moreover, excision requires trans action of CTn regulatory proteins, RteA and RteB. Thus, although the integration process of NBUs may resemble that of lambdoid phages, the excision process seems much different. 
+
+Integrated elements carrying genes that cross-hybridize with genes on NBU1 and NBU2 are very widespread in Bacteroides species. The fact that their incidence seems to be increasing is a good indication of the efficiency of their transfer and their stability once acquired. Our results suggest that this group of integrated elements is likely to be a very heterogeneous group. Not only were NBU1 and NBU2 quite different outside the prmN-oriT-mob region, but the integrases of NBU1, NBU2, and a related element, MTn 5520 , had substantially different amino acid sequences (Fig. 6 ). The differences between the integrases is evident at the functional as well as the amino acid sequence level because the integrase of NBU1 did not substitute for the integrase of NBU2 in an integration assay. Why the prmN-oriT-mob region of NBU1 and NBU2 is so highly conserved at the sequence level, whereas the remainder of the elements are so different, has yet to be determined. This region could be on a cassette but, if so, it has been in the NBUs long enough for its edges to be obscured by mutation. Another possible explanation is that this region of NBU1 is very important for excision ( 48 ). Yet, so are the integrase and genes downstream of the integrase, which are quite different on NBU1 and NBU2. Still another possible explanation for the conservation of the prmN-oriT-mob region is that one or more proteins or DNA segments in this region interact with functions supplied by the CTns. This is most likely in the case of the Mob protein, which must interact with transfer functions on encoded on the CTn, which mediate the transfer of the NBU circular form. Both NBU1 and NBU2 also interact in some with the CTn regulatory proteins that trigger excision (RteA, RteB), so the conserved region might also be involved in that interaction. In our survey of Bacteroides isolates, we noted a few isolates that hybridized with prmN but not with mob . It will be interesting to determine whether the NBU-like elements in such isolates are capable of excision and transfer. 
+
+ACKNOWLEDGMENTS 
+
+We thank the following laboratories for providing strains: former VPI Anaerobe Laboratory, Blacksburg, Va.; David Hecht at the VA Hospital, Loyola Medical Center, Mayfield, Ill.; and S. Feingold and H. Wexler at the Wadsworth Anaerobe Laboratory in Los Angeles, Calif. We also thank the students attending the 1996–1997 Microbial Diversity summer course at the Marine Biological Laboratory, Woods Hole, Mass., for isolating the Bacteroides community isolates. 
+
+This work was supported by grant AI22383 from the National Institute of Health. 
+
+REFERENCES 
+
+1. Altschul S F, Madden T L, Schaffler A A, Zhang J, Zhang Z, Miller W, Lipman D J. Gapped BLAST and Psi-BLAST: a new generation of protein database search programs. Nucleic Acids Res. 1997;25:3389–3402. doi: 10.1093/nar/25.17.3389. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+2. Argos P, Landy A, Abremski K, Egan J B, Haggard-Ljungquist E, Hoess R H, Kahn M L, Kalionis N, Narayana S V L, Pierson III L S, Sternberg N, Leong J M. The integrase family of site specific recombinases: regional similarities and global diversity. EMBO J. 1986;5:973–980. doi: 10.1002/j.1460-2075.1986.tb04229.x. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Bedzyk L A, Shoemaker N B, Young K E, Salyers A A. Insertion and excision of Bacteroides conjugative chromosomal elements. J Bacteriol. 1992;174:166–172. doi: 10.1128/jb.174.1.166-172.1992. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+4. Brasch M A, Cohen S N. Excisive recombination of SLP1 element in Streptomyces lividans is mediated by Int and enhanced by Xis. J Bacteriol. 1993;175:3075–3082. doi: 10.1128/jb.175.10.3075-3082.1993. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Brisson-Noel A, Pl Delrieu, Samain D, Courvalin P. Inactivation of lincosaminide antibiotics in Staphylococcus. Identification of lincosaminide O-nucleotidyltransferases and comparison of the corresponding resistance genes. J Biol Chem. 1988;263:15880–15887. [ PubMed ] [ Google Scholar ] 
+
+6. Brisson-Noel A, Courvalin P. Nucleotide sequence of gene linA encoding resistance to lincosamides in Staphylococcus haemolyticus. Gene. 1986;43:243–253. doi: 10.1016/0378-1119(86)90213-1. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Campbell A M. Chromosomal insertion sites for phages and plasmids. J Bacteriol. 1992;174:7495–7499. doi: 10.1128/jb.174.23.7495-7499.1992. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Clancy J, Petitpas J, Dib-Hajj F, Yuan W, Cronan M, Kamath A V, Bergeron J, Retsema J A. Molecular cloning and functional analysis of a novel macrolide-resistance determinant, mefA, from Streptococcus pyogenes. Mol Microbiol. 1996;22:867–879. doi: 10.1046/j.1365-2958.1996.01521.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+9. Cooper A J, Kalinowski A P, Shoemaker N B, Salyers A A. Construction and characterization of a Bacteroides thetaiotaomicron recA mutant: transfer of Bacteroides integrated conjugative elements is RecA independent. J Bacteriol. 1997;179:6221–6227. doi: 10.1128/jb.179.20.6221-6227.1997. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+10. Cooper A J, Shoemaker N B, Salyers A A. The erythromycin resistance gene from the Bacteroides conjugal transposon TcrEmr7853 is nearly identical to ermG from Bacillus sphaericus. Antimicrob Agents Chemother. 1996;40:506–508. doi: 10.1128/aac.40.2.506. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Covarrubias L, Cervantes L, Covarrubias A, Soberon X, Vichido I, Blanco A, Kupersztock-Portnoy Y M, Bolivar A F. Construction and characterization of new cloning vehicles. V. Mobilization and coding properties of pBR322 and several deletion derivatives including pBR327 and pBR328. Gene. 1981;13:25–35. doi: 10.1016/0378-1119(81)90040-8. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+12. Guiney D G, Bouic K. Detection of conjugal transfer systems in oral, black-pigmented Bacteroides spp. J Bacteriol. 1990;172:495–497. doi: 10.1128/jb.172.1.495-497.1990. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Guiney D G, Hasegawa P. Transfer of conjugal elements in oral black-pigmented Bacteroides (Prevotella) spp. involves DNA rearrangements. J Bacteriol. 1992;174:4853–4855. doi: 10.1128/jb.174.14.4853-4855.1992. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+14. Hecht D W, Thompson J S, Malamy M H. Characterization of the termini and transposition products of Tn4399, a conjugal mobilizing transposon of Bacteroides fragilis. Proc Natl Acad Sci USA. 1989;86:5340–5344. doi: 10.1073/pnas.86.14.5340. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Holdeman L V, Moore W E C. Anaerobe laboratory manual. 4th ed. Blacksburg, Va: Virginia Polytechnical Institute and State University; 1975. [ Google Scholar ] 
+
+16. Johnson J L. Taxonomy of the Bacteroides: deoxyribonucleic acid homologies among Bacteroides fragilis and other saccharolytic Bacteroides species. Int J Syst Bacteriol. 1978;28:245–256. [ Google Scholar ] 
+
+17. Lacroix J M, Walker C B. Detection and prevalence of the tetracycline resistance determinant Tet Q in the microbiota associated with adult periodontitis. Oral Microbiol Immunol. 1996;11:282–288. doi: 10.1111/j.1399-302x.1996.tb00182.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+18. Leng Z, Riley D E, Berger R E, Krieger J N, Roberts M C. Distribution and mobility of the tetracycline resistance determinant tetQ. J Antimicrob Chemother. 1997;40:551–559. doi: 10.1093/jac/40.4.551. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+19. Li L Y, Shoemaker N B, Salyers A A. Characterization of the mobilization region of a Bacteroides insertion element (NBU1) that is excised and transferred by Bacteroides conjugative transposons. J Bacteriol. 1993;175:6588–6598. doi: 10.1128/jb.175.20.6588-6598.1993. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. Li L Y, Shoemaker N B, Wang G R, Cole S P, Hashimoto M K, Wang J, Salyers A A. The mobilization regions of two integrated Bacteroides elements, NBU1 and NBU2, have only a single mobilization protein and may be on a cassette. J Bacteriol. 1995;177:3940–3945. doi: 10.1128/jb.177.14.3940-3945.1995. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+21. Macrina F L, Smith C J. Gene transmission, MLS, and tetracycline resistance in Bacteroides. In: Sebald M, editor. Genetics and molecular biology of anaerobic bacteria. New York, N.Y: Springer-Verlag, Inc.; 1993. pp. 474–489. [ Google Scholar ] 
+
+22. McMurry L M, Park B H, Burdett V, Levy S B. Energy-dependent efflux mediated by class L (tetL) tetracycline resistance determinant from streptococci. Antimicrob Agents Chemother. 1987;31:1648–1650. doi: 10.1128/aac.31.10.1648. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+23. Metcalf W W, Jiang W, Wanner B L. Use of the rep technique for allele replacement to construct new Escherichia coli hosts for maintenance of R6Kv origin plasmids at different copy numbers. Gene. 1994;138:1–7. doi: 10.1016/0378-1119(94)90776-5. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+24. Miller V L, Mekalanos J J. A novel suicide vector and its use in construction of insertion mutations: osmoregulation of outer membrane proteins and virulence determinants in Vibrio cholera requires toxR. J Bacteriol. 1988;170:2575–2583. doi: 10.1128/jb.170.6.2575-2583.1988. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Nikolich M P, Hong G, Shoemaker N B, Salyers A A. Evidence for natural horizontal transfer of tetQ between bacteria that normally colonize humans and bacteria that normally colonize livestock. Appl Environ Microbiol. 1994;60:3255–3260. doi: 10.1128/aem.60.9.3255-3260.1994. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+26. Nikolich M P, Shoemaker N B, Wang G R, Salyers A A. Characterization of a new type of Bacteroides conjugative transposon, TcrEmr7853. J Bacteriol. 1994;176:6606–6612. doi: 10.1128/jb.176.21.6606-6612.1994. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+27. Nunes-Düby S E, Kwon H J, Tirumalai R S, Ellenberger T, Landy A. Similarities and differences among 105 members of the Int family of site-specific recombinases. Nucleic Acids Res. 1998;26:391–406. doi: 10.1093/nar/26.2.391. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Parker A C, Smith C J. Genetic and biochemical analysis of a novel Ambler class A beta-lactamase responsible for cefoxitin resistance in Bacteroides species. Antimicrob Agents Chemother. 1993;37:1028–1036. doi: 10.1128/aac.37.5.1028. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+29. Platteeuw C, Michiels F, Joos H, Seurinck J, de Vos W M. Characterization and heterologous expression of the tetL gene and identification of iso-ISS1 elements from Enterococcus faecalis plasmid pJH1. Gene. 1995;160:89–93. doi: 10.1016/0378-1119(95)00208-n. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+30. Rauch P J G, deVos W M. Identification and characterization of genes involved in excision of the Lactococcus lactis conjugative transposon Tn5276. J Bacteriol. 1994;176:2165–2171. doi: 10.1128/jb.176.8.2165-2171.1994. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+31. Ritter A, Blum G, Emody L, Kerenyi M, Bock A, Neuhier B, Rabsch W, Scheutz F, Hacker J. tRNA genes and pathogenicity islands: influence on virulence and metabolic properties of uropathogenic Escherichia coli. Mol Microbiol. 1995;17:109–121. doi: 10.1111/j.1365-2958.1995.mmi_17010109.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+32. Saito H, Miura K I. Preparation of transforming deoxy-ribonucleic acid by phenol treatment. Biochim Biophys Acta. 1963;72:619–629. [ PubMed ] [ Google Scholar ] 
+
+33. Salyers A A, Shoemaker N B. Resistance gene transfer in anaerobes: new insights, new problems. Clin Infect Dis. 1996;23(Suppl. 1):S36–S43. doi: 10.1093/clinids/23.supplement_1.s36. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+34. Salyers A A, Shoemaker N B, Guthrie E P. Recent advances in Bacteroides genetics. Crit Rev Microbiol. 1987;14:49–71. doi: 10.3109/10408418709104435. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+35. Salyers A A, Shoemaker N B, Li L Y. In the driver's seat: the Bacteroides conjugative transposons and the elements they mobilize. J Bacteriol. 1995;177:5727–5731. doi: 10.1128/jb.177.20.5727-5731.1995. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+36. Salyers A A, Shoemaker N B, Stevens A M. Tetracycline regulation of conjugal transfer genes. In: Hoch J A, Silhavy T J, editors. Two-component signal transduction. Washington, D.C.: American Society for Microbiology; 1995. pp. 393–400. [ Google Scholar ] 
+
+37. Salyers A A, Shoemaker N B, Stevens A M, Li L Y. Conjugative transposons: an unusual and diverse set of integrated gene transfer elements. Microbiol Rev. 1995;59:579–590. doi: 10.1128/mr.59.4.579-590.1995. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+38. Salyers A A, Shoemaker N, Cooper A, D'Elia J, Shipman J A. Genetic methods for Bacteroides species. Methods Microbiol. 1999;29:229–249. [ Google Scholar ] 
+
+39. Sambrook J, Fritsch E F, Maniatis T. Molecular cloning: a laboratory manual. 2nd ed. Cold Spring Harbor, N.Y: Cold Spring Harbor Press; 1989. [ Google Scholar ] 
+
+40. Sezonov G, Duchene A-M, Friedmann A, Guerineau M, Pernodet J-L. Replicase, excisionase, and integrase genes of the Steptomyces element pSAM2 constitute an operon positively regulated by the pra gene. J Bacteriol. 1998;180:3056–3061. doi: 10.1128/jb.180.12.3056-3061.1998. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+41. Shoemaker N B, Anderson K L, Smithson S L, Wang G R, Salyers A A. Conjugal transfer of a shuttle vector from the human colonic anaerobe Bacteroides uniformis to the ruminal anaerobe Prevotella (Bacteroides) ruminicola B14. Appl Environ Microbiol. 1991;57:2114–2120. doi: 10.1128/aem.57.8.2114-2120.1991. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+42. Shoemaker N B, Getty C, Guthrie E P, Salyers A A. Regions in Bacteroides plasmids pBFTM10 and pB8-51 that allow Escherichia coli-Bacteroides shuttle vectors to be mobilized by IncP plasmids and by a conjugative Bacteroides tetracycline resistance element. J Bacteriol. 1986;166:959–965. doi: 10.1128/jb.166.3.959-965.1986. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+43. Shoemaker N B, Guthrie E P, Salyers A A, Gardner J F. Evidence that the clindamycin-erythromycin resistance gene of Bacteroides plasmid pBF4 is on a transposable element. J Bacteriol. 1985;162:626–632. doi: 10.1128/jb.162.2.626-632.1985. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+44. Shoemaker N B, Salyers A A. Tetracycline-dependent appearance of plasmidlike forms in Bacteroides uniformis 0061 mediated by conjugal Bacteroides tetracycline resistance elements. J Bacteriol. 1988;170:1651–1657. doi: 10.1128/jb.170.4.1651-1657.1988. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+45. Shoemaker N B, Wang G R, Salyers A A. Evidence for natural transfer of a tetracycline resistance gene between bacteria from the human colon and bacteria from the bovine rumen. Appl Environ Microbiol. 1992;58:1313–1320. doi: 10.1128/aem.58.4.1313-1320.1992. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+46. Shoemaker N B, Wang G R, Salyers A A. The Bacteroides mobilizable insertion element, NBU1, integrates into the 3′ end of a Leu-tRNA gene and has an integrase that is a member of the lambda integrase family. J Bacteriol. 1996;178:3594–3600. doi: 10.1128/jb.178.12.3594-3600.1996. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+47. Shoemaker N B, Wang G R, Salyers A A. NBU1, a mobilizable site-specific integrated element from Bacteroides spp., can integrate nonspecifically in Escherichia coli. J Bacteriol. 1996;178:3601–3607. doi: 10.1128/jb.178.12.3601-3607.1996. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+48. Shoemaker N B, Wang G-R, Salyers A A. Multiple gene products and sequences required for the excision of the mobilizable integrated Bacteroides element NBU1. J Bacteriol. 2000;182:928–936. doi: 10.1128/jb.182.4.928-936.2000. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+49. Shoemaker N B, Wang G R, Stevens A M, Salyers A A. Excision, transfer, and integration of NBU1, a mobilizable site-selective insertion element. J Bacteriol. 1993;175:6578–6587. doi: 10.1128/jb.175.20.6578-6587.1993. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+50. Simon R, Priefer U, Puhler A. A broad host range mobilization system for in vivo genetic engineering: transposon mutagensis in gram-negative bacteria. Bio/Technology. 1983;1:784–791. [ Google Scholar ] 
+
+51. Smith C J, Parker A C. Identification of a circular intermediate in the transfer and transposition of Tn4555, a mobilizable transposon from Bacteroides spp. J Bacteriol. 1993;175:2682–2691. doi: 10.1128/jb.175.9.2682-2691.1993. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+52. Smith C J, Parker A C. A gene product related to Tra1 is required for the mobilization of Bacteroides mobilizable transposons and plasmids. Mol Microbiol. 1996;20:741–750. doi: 10.1111/j.1365-2958.1996.tb02513.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+53. Smith C J, Parker A C. The transfer origin for Bacteroides mobilizable transposon Tn4555 is related to a plasmid family from gram-positive bacteria. J Bacteriol. 1998;180:435–439. doi: 10.1128/jb.180.2.435-439.1998. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+54. Smith C J, Rollins L A, Parker A C. Nucleotide sequence determination and genetic analysis of the Bacteroides plasmid, pBI143. Plasmid. 1995;34:211–222. doi: 10.1006/plas.1995.0007. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+55. Stevens A M, Sanders J M, Shoemaker N B, Salyers A A. Genes involved in production of plasmidlike forms by a Bacteroides conjugal chromosomal element share amino acid homology with two-component regulatory systems. J Bacteriol. 1992;174:2935–2942. doi: 10.1128/jb.174.9.2935-2942.1992. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+56. Stevens A M, Shoemaker N B, Li L Y, Salyers A A. Tetracycline regulation of genes on Bacteroides conjugative transposons. J Bacteriol. 1993;175:6134–6141. doi: 10.1128/jb.175.19.6134-6141.1993. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+57. Stevens A M, Shoemaker N B, Salyers A A. The region of a Bacteroides conjugal chromosomal tetracycline resistance element which is responsible for production of plasmidlike forms from unlinked chromosomal DNA might also be involved in transfer of the element. J Bacteriol. 1990;172:4271–4279. doi: 10.1128/jb.172.8.4271-4279.1990. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+58. Tait-Kamradt A, Clancy J, Cronan M, Dib-Hajj F, Wondrack L, Yuan W, Sutcliff J. MefE is necessary for the erythromycin-resistant M phenotype in Streptococcus pneumoniae. Antimicrob Agents Chemother. 1997;41:2251–2255. doi: 10.1128/aac.41.10.2251. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+59. Valentine P J, Shoemaker N B, Salyers A A. Mobilization of Bacteroides plasmids by Bacteroides conjugal elements. J Bacteriol. 1988;170:1319–1324. doi: 10.1128/jb.170.3.1319-1324.1988. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+60. Vedantam G, Novicki T J, Hecht D W. Bacteroides fragilis transfer factor Tn5520: the smallest bacterial mobilizable transposon containing single integrase and mobilization genes that function in Escherichia coli. J Bacteriol. 1999;181:2564–2571. doi: 10.1128/jb.181.8.2564-2571.1999. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+61. Whittle G, Bloomfield G A, Katz M E, Cheetham B F. The site-specific integration of genetic elements may modulate virulence in Dichelobacter nodosus, the causative element of ovine footrot. Microbiology. 1999;145:2845–2855. doi: 10.1099/00221287-145-10-2845. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+62. Yanisch-Perron C, Vieira J, Messing J. Improved M13 phage cloning vectors and host strains: nucleotide sequences of the M13mp18 and pUC19 vectors. Gene. 1985;33:103–109. doi: 10.1016/0378-1119(85)90120-9. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Journal of Bacteriology are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (266.5 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

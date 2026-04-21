@@ -1,0 +1,212 @@
+PMID: 9867793
+PMCID: PMC105996
+DOI: 10.1128/AAC.42.11.3050
+Title: Revised sequence of OtrB (tet347) tetracycline efflux protein from Streptomyces rimosus.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 1998 Nov
+Authors: McMurry LM, Levy SB
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Revised Sequence of OtrB (Tet347) Tetracycline Efflux Protein from Streptomyces rimosus - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+editorial 
+Antimicrob Agents Chemother 
+. 1998 Nov;42(11):3050. doi: 10.1128/aac.42.11.3050 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Revised Sequence of OtrB (Tet347) Tetracycline Efflux Protein from Streptomyces rimosus 
+
+Laura M McMurry 
+
+Laura M McMurry 
+
+1 Center for Adaptation Genetics and Drug Resistance,  and Department of Molecular Biology and Microbiology, Tufts University School of Medicine, 136 Harrison Ave., Boston, MA 02111 
+
+Find articles by Laura M McMurry 
+
+1 , Stuart B Levy 
+
+Stuart B Levy 
+
+1 Center for Adaptation Genetics and Drug Resistance,  and Department of Molecular Biology and Microbiology, Tufts University School of Medicine, 136 Harrison Ave., Boston, MA 02111 
+
+Find articles by Stuart B Levy 
+
+1 
+
+Author information 
+
+Copyright and License information 
+
+1 Center for Adaptation Genetics and Drug Resistance,  and Department of Molecular Biology and Microbiology, Tufts University School of Medicine, 136 Harrison Ave., Boston, MA 02111 
+
+Copyright © 1998, American Society for Microbiology 
+
+PMC Copyright notice 
+
+PMCID: PMC105996  PMID: 9867793 
+
+The sequence of the tetracycline resistance gene designated tet347 from the tetracycline-producing organism Streptomyces rimosus (strain PG3) predicted a protein of 347 amino acids ( 6 ) (GenBank accession no. M20370 ). The tcrC gene (also called tcr3 ; GenBank accession no. D38215 ) from chlorotetracycline-producing S. aureofaciens encoded a 512-residue putative tetracycline efflux protein which, starting at residue 222, was 43% identical to the Tet347 protein ( 3 ). Whether tetB , an S. rimosus gene proven to encode tetracycline efflux ( 5 ), is the same as tet347 is unclear ( 1 , 6 ). The Tet347 protein was predicted to have 7.5 transmembrane helices, and TcrC was predicted to have 14 (TopPred2 software program [ 2 ]) (unpublished data). Because even eight transmembrane helices would be unusual for a tetracycline efflux protein, we have resequenced tet347 (on plasmid pUT1954 [ 6 ]) from nucleotide (nt) 110 to near the end of the cloned region at nt 2054 (sequencing was performed at the Tufts Core Facility with PCR cycling/dye terminator and an Applied Biosystems 373 DNA Stretch Sequencer). Sequences were obtained for both strands between nt 110 and 787; overlapping forward sequence was obtained for nt 620 to 1250, 1100 to 1650, and 1590 to 2000. The most serious of the various errors we found in the previous sequence were located upstream of nt 787 and had led to misinterpretation of the open reading frame. Our new sequence shows 216 additional amino acids at the amino terminus of the protein and reidentifies 4 internal amino acids. 
+
+Our revised open reading frame begins not at nt 797 but at nt 149 (numbering according to reference 6 , with GTG as the translation start codon [see below]). The revised open reading frame ends at nt 1837, in agreement with the earlier study ( 6 ). The sequence immediately upstream from the GTG codon is AGGAG AGTG AGGA ACC (candidates for Shine-Dalgarno sequences are underlined). The revised sequence specifies a protein of 563 residues, with 14 transmembrane helices predicted by TopPred2. Amino acid residues 12 to 465 of the Tet347 revised sequence are 65% identical to those of a corresponding region in TcrC (Bestfit program of the Genetics Computer Group). TopPred2 hydropathy plots for these two proteins differ principally in the region following putative transmembrane helix 13. As is true for all other tetracycline efflux proteins ( 4 ), both TcrC and Tet347 revised have at least one intramembrane negatively charged residue (an aspartate in putative transmembrane helix 1). 
+
+An unpublished sequence in the database (GenBank, 4 May 1998 release, accession no. AF061335 ) for the S. rimosus gene otrB (derived from strain M15883 [ 1 ]) is, in its entirety, identical to nt 290 to 1840 of our revised tet347 sequence (numbering according to reference 6 ). However, those authors presumed the translation start to be an ATG codon corresponding to our methionine 28. We favor our upstream GTG translation start because it includes an amino-terminal cytoplasmic tail plus all of putative transmembrane helix 1 (which begins approximately at residue 23) and because our residues 19 to 24 (FTHRQI) are identical to residues 24 to 29 of the homologous TcrC. 
+
+We propose that “ otrB ” be used in the future to designate the “ tet347 ” gene. Our sequence of otrB and the protein product OtrB has been deposited in GenBank under accession no. AF079900 , where nt 1 now corresponds to nt 110 of reference 6 . 
+
+Acknowledgments 
+
+We thank J. P. Reynes for plasmid pUT1954 and J. I. Rood and R. M. Kennan for their help in the initial stages of this work. 
+
+REFERENCES 
+
+1. Butler M J, Friend E J, Hunter I S, Kaczmarek F S, Sugden D A, Warren M. Molecular cloning of resistance genes and architecture of a linked gene cluster involved in biosynthesis of oxytetracycline by Streptomyces rimosus. Mol Gen Genet. 1989;215:231–238. doi: 10.1007/BF00339722. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+2. Claros M G, von Heijne G. TopPredII: an improved software for membrane protein structure predictions. Comput Appl Biosci. 1994;10:685–686. doi: 10.1093/bioinformatics/10.6.685. http://www.biokemi.su.se/∼threader_server/toppred2 . (Also at http://www.biokemi.su.se/∼threader_server/toppred2 .) .) [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+3. Dairi T, Aisaka K, Katsumata R, Hasegawa M. A self-defense gene homologous to tetracycline effluxing gene essential for antibiotic production in Streptomyces aureofaciens. Biosci Biotechnol Biochem. 1995;59:1835–1841. doi: 10.1271/bbb.59.1835. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+4. Kennan R M, McMurry L M, Levy S B, Rood J I. Glutamate residues located within putative transmembrane helices are essential for TetA(P)-mediated tetracycline efflux. J Bacteriol. 1997;179:7011–7015. doi: 10.1128/jb.179.22.7011-7015.1997. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Ohnuki T, Katch T, Imanaka T, Aiba S. Molecular cloning of tetracycline resistance genes from Streptomyces rimosus in Streptomyces griseus and characterization of the cloned genes. J Bacteriol. 1985;161:1010–1016. doi: 10.1128/jb.161.3.1010-1016.1985. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Reynes J P, Calmels T, Drocourt D, Tiraby G. Cloning, expression in Escherichia coli and nucleotide sequence of a tetracycline-resistance gene from Streptomyces rimosus. J Gen Microbiol. 1988;134:585–598. doi: 10.1099/00221287-134-3-585. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (84.9 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

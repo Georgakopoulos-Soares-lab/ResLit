@@ -1,0 +1,709 @@
+PMID: 37823665
+PMCID: PMC10662344
+DOI: 10.1128/jcm.00617-23
+Title: Direct prediction of carbapenem resistance in Pseudomonas aeruginosa by whole genome sequencing and metagenomic sequencing.
+Journal: Journal of clinical microbiology
+PubDate: 2023 Nov 21
+Authors: Liu B, Gao J, Liu XF, Rao G, Luo J, Han P, Hu W, Zhang Z, Zhao Q, Han L, Jiang Z, Zhou M
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Direct prediction of carbapenem resistance in Pseudomonas aeruginosa by whole genome sequencing and metagenomic sequencing - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+J Clin Microbiol 
+. 2023 Oct 12;61(11):e00617-23. doi: 10.1128/jcm.00617-23 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Direct prediction of carbapenem resistance in Pseudomonas aeruginosa by whole genome sequencing and metagenomic sequencing 
+
+Bing Liu 
+
+Bing Liu 
+
+1 Department of Pulmonary and Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China 
+
+2 Institute of Respiratory Diseases, Shanghai Jiao Tong University School of Medicine, Shanghai, China 
+
+3 Shanghai Key Laboratory of Emergency Prevention, Diagnosis and Treatment of Respiratory Infectious Diseases, Shanghai, China 
+
+Data curation, Formal analysis, Investigation, Methodology, Resources, Visualization, Writing – original draft, Writing – review and editing 
+
+Find articles by Bing Liu 
+
+1, 2, 3, # , Jianpeng Gao 
+
+Jianpeng Gao 
+
+4 Genskey Medical Technology Co., Ltd., Beijing, China 
+
+Formal analysis, Investigation, Methodology, Visualization, Writing – original draft 
+
+Find articles by Jianpeng Gao 
+
+4, # , Xue Fei Liu 
+
+Xue Fei Liu 
+
+1 Department of Pulmonary and Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China 
+
+2 Institute of Respiratory Diseases, Shanghai Jiao Tong University School of Medicine, Shanghai, China 
+
+3 Shanghai Key Laboratory of Emergency Prevention, Diagnosis and Treatment of Respiratory Infectious Diseases, Shanghai, China 
+
+Investigation, Resources 
+
+Find articles by Xue Fei Liu 
+
+1, 2, 3 , Guanhua Rao 
+
+Guanhua Rao 
+
+4 Genskey Medical Technology Co., Ltd., Beijing, China 
+
+Conceptualization, Methodology, Project administration, Resources, Supervision 
+
+Find articles by Guanhua Rao 
+
+4 , Jiajie Luo 
+
+Jiajie Luo 
+
+4 Genskey Medical Technology Co., Ltd., Beijing, China 
+
+Investigation, Methodology, Resources, Writing – review and editing 
+
+Find articles by Jiajie Luo 
+
+4 , Peng Han 
+
+Peng Han 
+
+4 Genskey Medical Technology Co., Ltd., Beijing, China 
+
+Data curation, Methodology, Software 
+
+Find articles by Peng Han 
+
+4 , Weiting Hu 
+
+Weiting Hu 
+
+1 Department of Pulmonary and Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China 
+
+2 Institute of Respiratory Diseases, Shanghai Jiao Tong University School of Medicine, Shanghai, China 
+
+3 Shanghai Key Laboratory of Emergency Prevention, Diagnosis and Treatment of Respiratory Infectious Diseases, Shanghai, China 
+
+Investigation, Resources 
+
+Find articles by Weiting Hu 
+
+1, 2, 3 , Ze Zhang 
+
+Ze Zhang 
+
+1 Department of Pulmonary and Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China 
+
+2 Institute of Respiratory Diseases, Shanghai Jiao Tong University School of Medicine, Shanghai, China 
+
+3 Shanghai Key Laboratory of Emergency Prevention, Diagnosis and Treatment of Respiratory Infectious Diseases, Shanghai, China 
+
+Investigation, Resources 
+
+Find articles by Ze Zhang 
+
+1, 2, 3 , Qianqian Zhao 
+
+Qianqian Zhao 
+
+1 Department of Pulmonary and Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China 
+
+2 Institute of Respiratory Diseases, Shanghai Jiao Tong University School of Medicine, Shanghai, China 
+
+3 Shanghai Key Laboratory of Emergency Prevention, Diagnosis and Treatment of Respiratory Infectious Diseases, Shanghai, China 
+
+Investigation, Resources 
+
+Find articles by Qianqian Zhao 
+
+1, 2, 3 , Lizhong Han 
+
+Lizhong Han 
+
+5 Department of Clinical Microbiology,, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China 
+
+Conceptualization, Investigation, Methodology, Resources, Supervision 
+
+Find articles by Lizhong Han 
+
+5, ✉ , Zhi Jiang 
+
+Zhi Jiang 
+
+4 Genskey Medical Technology Co., Ltd., Beijing, China 
+
+Conceptualization, Project administration, Resources, Supervision 
+
+Find articles by Zhi Jiang 
+
+4, ✉ , Min Zhou 
+
+Min Zhou 
+
+1 Department of Pulmonary and Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China 
+
+2 Institute of Respiratory Diseases, Shanghai Jiao Tong University School of Medicine, Shanghai, China 
+
+3 Shanghai Key Laboratory of Emergency Prevention, Diagnosis and Treatment of Respiratory Infectious Diseases, Shanghai, China 
+
+Funding acquisition, Project administration, Supervision, Writing – review and editing 
+
+Find articles by Min Zhou 
+
+1, 2, 3, ✉ 
+
+Editor: Nathan A Ledeboer 6 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+1 Department of Pulmonary and Critical Care Medicine, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China 
+
+2 Institute of Respiratory Diseases, Shanghai Jiao Tong University School of Medicine, Shanghai, China 
+
+3 Shanghai Key Laboratory of Emergency Prevention, Diagnosis and Treatment of Respiratory Infectious Diseases, Shanghai, China 
+
+4 Genskey Medical Technology Co., Ltd., Beijing, China 
+
+5 Department of Clinical Microbiology,, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China 
+
+6 Medical College of Wisconsin, Milwaukee, Wisconsin, USA 
+
+✉ 
+Address correspondence to Min Zhou, doctor_zhou_99@163.com 
+
+✉ 
+Address correspondence to Zhi Jiang, z.jiang@genskey.com 
+
+✉ 
+Address correspondence to Lizhong Han, hanlizhong1107@163.com 
+
+# 
+Bing Liu and Jianpeng Gao contributed equally to this article. Author order was determined by drawing straws. 
+
+The authors declare no conflict of interest. 
+
+# 
+Contributed equally. 
+
+Roles 
+
+Bing Liu : Data curation, Formal analysis, Investigation, Methodology, Resources, Visualization, Writing – original draft, Writing – review and editing 
+
+Jianpeng Gao : Formal analysis, Investigation, Methodology, Visualization, Writing – original draft 
+
+Xue Fei Liu : Investigation, Resources 
+
+Guanhua Rao : Conceptualization, Methodology, Project administration, Resources, Supervision 
+
+Jiajie Luo : Investigation, Methodology, Resources, Writing – review and editing 
+
+Peng Han : Data curation, Methodology, Software 
+
+Weiting Hu : Investigation, Resources 
+
+Ze Zhang : Investigation, Resources 
+
+Qianqian Zhao : Investigation, Resources 
+
+Lizhong Han : Conceptualization, Investigation, Methodology, Resources, Supervision 
+
+Zhi Jiang : Conceptualization, Project administration, Resources, Supervision 
+
+Min Zhou : Funding acquisition, Project administration, Supervision, Writing – review and editing 
+
+Nathan A Ledeboer : Editor 
+
+Received 2023 May 14; Accepted 2023 Aug 17; Collection date 2023 Nov. 
+
+Copyright © 2023 American Society for Microbiology. 
+
+All Rights Reserved . 
+
+PMC Copyright notice 
+
+PMCID: PMC10662344  PMID: 37823665 
+
+ABSTRACT 
+
+Carbapenem resistance is a major concern in the management of antibiotic-resistant Pseudomonas aeruginosa infections. The direct prediction of carbapenem-resistant phenotype from genotype in P. aeruginosa isolates and clinical samples would promote timely antibiotic therapy. The complex carbapenem resistance mechanism and the high prevalence of variant-driven carbapenem resistance in P. aeruginosa make it challenging to predict the carbapenem-resistant phenotype through the genotype. In this study, using whole genome sequencing (WGS) data of 1,622 P . aeruginosa isolates followed by machine learning, we screened 16 and 31 key gene features associated with imipenem (IPM) and meropenem (MEM) resistance in P. aeruginosa , including oprD(HIGH), and constructed the resistance prediction models. The areas under the curves of the IPM and MEM resistance prediction models were 0.906 and 0.925, respectively. For the direct prediction of carbapenem resistance in P. aeruginosa from clinical samples by the key gene features selected and prediction models constructed, 72 P . aeruginosa -positive sputum samples were collected and sequenced by metagenomic sequencing (MGS) based on next-generation sequencing (NGS) or Oxford Nanopore Technology (ONT). The prediction applicability of MGS based on NGS outperformed that of MGS based on ONT. In 72 P . aeruginosa -positive sputum samples, 65.0% (26/40) of IPM-insensitive and 63.2% (24/38) of MEM-insensitive P. aeruginosa were directly predicted by NGS-based MGS with positive predictive values of 0.897 and 0.889, respectively. By the direct detection of the key gene features associated with carbapenem resistance of P. aeruginosa , the carbapenem resistance of P. aeruginosa could be directly predicted from cultured isolates by WGS or from clinical samples by NGS-based MGS, which could assist the timely treatment and surveillance of carbapenem-resistant P. aeruginosa . 
+
+KEYWORDS: carbapenem resistance prediction, machine learning, Pseudomonas aeruginosa , whole genome sequencing, metagenomic sequencing 
+
+INTRODUCTION 
+
+Pseudomonas aeruginosa is a Gram-negative opportunistic bacterium that is able to infect multiple systems causing various acute and chronic infections in humans ( 1 ). With a relatively large bacterial genome, it has remarkable environmental adaptation and antibiotic resistance ( 2 ). According to the global burden report of bacterial antimicrobial resistance in 2019, P. aeruginosa , along with five other pathogens, led to the majority of deaths associated with antimicrobial resistance worldwide ( 3 ). In the pathogen-drug combination analysis, carbapenem-resistant P. aeruginosa (CRPA) was found to be responsible for the majority of deaths attributable to antimicrobial-resistant P. aeruginosa ( 3 ). 
+
+Rapid detection and mechanism elucidation are crucial for the timely antibiotic treatment and surveillance of CRPA. Novel molecular techniques have shown good potential for both areas of research ( 4 ). Whole genome sequencing (WGS) is well known for its ability to retrieve comprehensive genetic data on antimicrobial resistance-associated genes from cultured isolates and to correlate antibiotic-resistant genotypes with phenotypes assisted by bioinformatic technology ( 4 , 5 ). Metagenomic sequencing (MGS) is culture independent and allows the identification of pathogens and antimicrobial resistance-associated genes directly from clinical samples. However, the complex drug resistance mechanism and the high prevalence of variant-driven resistance of CRPA make it challenging to predict its carbapenem-resistant phenotype through its genotype ( 6 ). To date, several attempts have been made in the direct resistance prediction of P. aeruginosa from genotype using WGS or MGS, while data on the direct carbapenem resistance prediction are still limited and require further enrichment ( 7 – 12 ). 
+
+In this study, we explored on the direct carbapenem resistance prediction of P. aeruginosa by WGS and MGS. First, key gene features associated with the carbapenem resistance of P. aeruginosa were screened, and prediction models were built by matching resistance genotypes with phenotypes through machine learning with WGS data on 1,622 P. aeruginosa isolates. Then, the applicability of the features and the prediction models for the prediction of carbapenem resistance in P. aeruginosa were further evaluated directly in clinical sputum samples by MGS. Both next-generation sequencing (NGS) and Oxford Nanopore Technologies (ONT), the two most recent and widely used sequencing technologies, were employed and compared in the MGS analysis. 
+
+MATERIALS AND METHODS 
+
+Genome and carbapenem resistance phenotype collection of P. aeruginosa isolates 
+
+A comprehensive search of the NCBI health database ( https://www.ncbi.nlm.nih.gov ) and the PATRIC database ( https://patricbrc.org ) was conducted for P. aeruginosa strains with both whole genome sequences and unambiguous resistance phenotypes to imipenem (IPM) and meropenem (MEM). Duplicate strains were identified by biosample accession numbers, and only one was retained. In the determination of resistance phenotype of these isolates, antibiotic susceptibility tests (ASTs) were performed using the broth dilution method, agar dilution method, or disk diffusion method, as detailed in Table S1 . Since the breakpoints of AST results were revised, results of ASTs were reinterpreted with reference to breakpoints suggested by the Clinical and Laboratory Standards Institute (CLSI) in 2021 ( http://em100.edaptivedocs.net/ ) ( Table S1 ) ( 13 ). In addition, 100 nonrepetitive P. aeruginosa isolates from various sample types were continuously collected in two local hospitals from 1 May to 30 September 2021. All isolates were identified by the Vitek MS (bioMérieux, Marcy l’Etoile, France). Carbapenem-resistant phenotypes for IPM and MEM were determined by the disk diffusion method or Vitek 2 system according to the CLSI 2021 guidelines. Then, the whole genome of each strain was extracted by the Bacterial Genomic DNA Extraction Kit (Tiangen, Beijing, China) and sequenced with a 100× genome depth using Illumina NovaSeq (PE strategy; read length, 150 bp). After genome quality control as previously described, data on 1,522 P . aeruginosa strains from public sources and 100 from local hospitals were included in further analysis ( 14 ). 
+
+Multilocus sequence typing and phylogenetic analysis 
+
+Assembled genomes of all isolates were sent to the Center for Genomic Epidemiology ( https://cge.cbs.dtu.dk/services/MLST/ ) for multilocus sequence typing (MLST). The phylogenetic tree of all isolates was constructed based on the single-copy core genes of the P. aeruginosa genome using the maximum likelihood model by Treebest (version 1.9.2, parameter settings: nj -t mm, -b 100) ( https://mybiosoftware.com/ ). Finally, the resistance phenotype and other information were annotated to the phylogenetic tree by the online drawing tool iTOL ( https://itol.embl.de ). 
+
+Preparation of carbapenem resistance feature profile 
+
+We used gene presence or absence (GPA) and gene variant (GVAR) to select carbapenem resistance-associated gene features. For the preparation of GPA features, all genomes were compared with the Comprehensive Antibiotic Resistance Database (CARD) ( https://card.mcmaster.ca ) using RGI (version 5.2.0, parameter settings: --input_type contig, --local --clean) to identify carbapenem-resistant genes (identity >80%, by in-house script) ( 15 ). To facilitate the applicability of the selected GPA features and the constructed prediction models, gene families or gene clusters, instead of gene subtypes, were chosen as candidate input features for the subsequent machine learning process. Gene clusters were classified by Cd-hit (version 4.6.8, parameter settings: -c 0.95 -n 5 -G 0 -AS 0 -AL 0 -aS 0.95 -aL 0.95 -d 0 -T 0 -M 0) by rule of identity over 95% at the amino acid level ( 16 ). In addition, for the preparation of GVAR features associated with carbapenem resistance, we first broke the genome into 100-bp fragments and compared the fragments with the P. aeruginosa genome by BWA (version 0.7.17-r1198-dirty, parameter settings: mem). A group of genes, including ampD, ampR, dacB, ftsI, galU, mexR, mexS, mexT, mexZ, mpl, nalC, nalD, oprD, parR, parS, and pbpA, were summarized with consultation of CARD and recently published literature ( 7 , 15 , 17 ). Variants of these genes were identified with reference to PAO1 by Pisces (version 5.2.5.20, parameter settings: -minbq 1 -minmq 10 -sbfilter 10 -minvq 0 -minvf 0.0005 -c 1) ( 18 ). In addition, as multiple-sequence variants were reported in oprD, variant calling of oprD was also performed according to the strain with the highest similarity among a set of strains, including PAO1, ATCC_27853, F23197 , FRD1, LESB58, MTB-1, PA-VAP-4, and UCBPP-PA14 ( 7 , 19 , 20 ). SnpEff (version 5.1d, parameter settings: default parameters) was employed for variant annotation and impact evaluation of HIGH, MODERATE, and LOW ( http://pcingola.github.io/SnpEff ) ( 21 , 22 ). 
+
+Selection of candidate key features associated with carbapenem resistance of P. aeruginosa 
+
+All samples were randomly divided into training and validation sets at a ratio of 4:1. In the feature preprocessing step, the positive predictive value (PPV) was calculated for each candidate gene feature. Features with PPVs ≥0.9, and true-resistant sample numbers ≥3 for GVAR or ≥2 for GPA were retained as candidate key gene features. All candidate key features were then trained by five machine learning methods, including least absolute shrinkage and selection operator (LASSO), random forest (RF), feed-forward neural network (FNN), support vector machine (SVM), and extreme gradient boosting (XGBoost), to build carbapenem resistance prediction models. Resistant-susceptible binary classifiers with 10-fold cross validation (CV) were employed, and the machine learning method with the best model performance was selected for the final model construction. To minimize the number of characteristic features while maintaining the best efficiency, the feature set with the lowest CV error in the CV error-feature number curve was selected as the key gene features associated with carbapenem resistance. A receiver operating characteristic curve was drawn to evaluate the performance of the model, and the cutoff score for resistance prediction was selected according to the maximum Youden index. 
+
+To predict the resistance of one P. aeruginosa strain to IPM or MEM, a carbapenem resistance score was calculated by the following formula: 
+S c o r e = ∑ i = 1 n k e y g e n e s _ W i | | k e y v a r i a n t s ⁡ _ W i 
+Note that the score refers to the sum of the weight coefficients of all key GPA or GVAR features identified in the training set for a certain carbapenem; key genes_Wi refers to the weight coefficient of key GPA features; key variants_Wi refers to the weight coefficient of key GVAR features; and n refers to the number of key GPA or GVAR features. 
+
+Evaluation of sample size 
+
+By stratified sampling, we performed 10 repeated samplings in which different sample sizes of isolates were randomly selected for machine learning. The performances of models with different sample sizes were determined by the area under the curve (AUC). 
+
+Evaluation of genome sequencing depth 
+
+Based on all genomes in the training sets, Illumina SE75 reads by ART_Illumina (version 2.5.8, parameter settings: -ss NS50, -l 50 -na) and ONT 2-kb reads by readsim (version 1.6, parameter settings: --rev_strd on --tech nanopore --read_mu 2000, --read_dist normal) at a gradient of genome sequencing depths (0.01×, 0.02×, 0.03×, 0.05×, 0.1×, 0.2×, 0.3×, 0.4×, 0.5×, 1×, 3×, 5×, 10×, 20×, and 30×) were simulated to evaluate the AUCs for different depths. 
+
+Collection of clinical specimens 
+
+To verify the applicability of the selected key gene features and prediction models in the direct prediction of carbapenem resistance in P. aeruginosa from clinical specimens, 72 P . aeruginosa -positive sputum specimens, verified by routine culture, were continuously collected from Ruijin Hospital from 1 May to 30 September 2021. Only one specimen or isolate from each patient was chosen to avoid duplication. ASTs of P. aeruginosa cultured from sputum specimens were performed as described above. 
+
+MGS of clinical specimens and bioinformatic analysis 
+
+Both NGS and ONT were employed in MGS of clinical specimens. 
+
+For NGS, DNA was extracted with a Genskey Micro DNA Kit (1901, Genskey, Tianjin) and measured by Qubit dsDNA HS Assay Kits. DNA libraries were constructed by an NGS library construction kit (2012B, Genskey, Tianjin). The quality of the DNA libraries was assessed using an Agilent 2100 Bioanalyzer (Agilent Technologies, Santa Clara, USA). The constructed DNA library concentration was determined by quantitative polymerase chain reaction and needed to be at least 1 nmol/L for further analysis. Finally, all sample DNA libraries were mixed and sequenced with single-stranded circular DNA added in two to three quantitative sets to obtain DNA nanospheres. The DNA nanospheres were loaded on the sequencing chip and sequenced using the MGISEQ-2000 sequencing platform (MGI, Shenzhen, China). In the quality control of sequencing data to exclude adapter contamination and low-quality reads, raw reads were filtered by fastp (version 0.19.5, parameter settings: default parameters) and Komplexity (version 0.3.6, parameter settings: -F -t 0.4). Reads mapped to the human reference genome GRCh38 were removed with Bowtie2 (version 2.3.4.3, parameter settings: --no-unal --no-head -k 1, --very-sensitive). The identification of genes and variants associated with carbapenem resistance from the remaining reads was performed as described above. In addition, the copy numbers of the detected carbapenem resistance-associated genes or variants were counted with the following formula: gene copy number = (coverage of target gene * depth of covered regions)/(coverage of strain genome * depth of genomic covered regions) to infer the bacterial attribution of certain genes or variants ( 14 ). 
+
+For ONT, DNA was extracted with a Genskey Micro DNA Kit (1901, Genskey, Tianjin). The DNA concentration was measured using a Qubit fluorometer (Invitrogen). Library preparation was performed using an ONT 1D ligation sequencing kit (SQK LSK108). Library preparation was performed using an ONT Rapid Low-Input Barcoding kit (SQK-RLB001), with saponin-based host DNA depletion used to reduce the proportion of human reads. More details can be found in the original manuscript ( 23 ). Sequencing was performed on a MinION MK1 device using R9.4/FLO-MIN106 flow cells according to the manufacturer’s instructions. For quality control of sequencing data, NanoFilt (version 2.8.0, parameter settings: default parameters) was used to filter low-quality reads. Reads mapped to the human reference genome GRCh38 were removed with minimap2 (version 2.24-r1122, parameter settings: default parameters). The identification and bacterial attribution of genes and variants were performed as described above. 
+
+RESULTS 
+
+Overview of P. aeruginosa isolates 
+
+Owing to missing data, the resistant or sensitive phenotype was available in 872 P . aeruginosa strains for IPM and 1,403 for MEM. The general resistance rates of these strains to IPM and MEM were 49.0% (427/872) and 53.4% (749/1403), respectively. Geographically, strains were distributed worldwide, mainly from the USA (396, 24.4%), Spain (347, 21.3%), Germany (296, 18.2%), and China (285, 17.6%). A total of 410 known sequence types (STs) were present in these strains, which covered widely reported carbapenem-resistant clones, such as ST235, ST463, ST244, ST253, and ST111. Detailed information on the geographic distribution, genomes, phylogenetic structure, and AST results of these P. aeruginosa strains is displayed in Fig. 1 ; Table S1 . 
+
+Fig 1. 
+
+Open in a new tab 
+
+Phylogenetic, geographic, and resistant phenotype distribution of 1622 P. aeruginosa isolates. Five circles from the inside out represent the phylogenetic tree, the country distribution, the antibiotic-resistant phenotype to IPM, the antibiotic-resistant phenotype to MEM, and the training and validation set classification of 1,622 P. aeruginosa isolates included in the study. 
+
+Selection of candidate key GPA features associated with carbapenem resistance of P. aeruginosa 
+
+Regarding GPA features, genes associated with carbapenem resistance identified in P. aeruginosa isolates in this study are summarized in Tables S2 and S3–. In total, 12 gene families associated with carbapenem resistance were present in these isolates, including AFM, FIM, GES, IMP, KPC, NDM, PER, SHV, SPM, VIM, PDC, and OXA (Table S3). Among these gene families, a large variety of gene subtypes in PDC and OXA gene families were found and showed discrepant correlations with the carbapenem-resistant phenotype as evaluated by PPV (Table S4). The PDC and OXA gene subtypes were further clustered into subfamily clusters. Accordingly, OXA gene subfamily cluster-120, cluster-40, and cluster-79, and PDC gene subfamily cluster-4 were selected as candidate features for the prediction of IPM resistance. In addition, OXA gene subfamily cluster-121, cluster-40, and cluster-52 were chosen for the prediction of MEM resistance. 
+
+Selection of candidate key GVAR features associated with carbapenem resistance of P. aeruginosa 
+
+Carbapenem resistance-related GVARs of P. aeruginosa isolates in this study, along with annotation of variant type and effect impact, are listed in Table S4. As shown in Fig. 2A , among all GVAR groups, the group of oprD variants with high effect impact [oprD(HIGH)] was of the highest PPV and was the only GVAR group with an overall PPV ≥0.9 with reference to PAO1 [0.970 (163/168) in the IPM data set and 0.943 (346/367) in the MEM data set]. After the introduction of another seven reference strains in addition to PAO1, more oprD(HIGH) variants were identified with an overall PPV of 0.963 (209/217) in the IPM data set and 0.939 (419/446) in the MEM data set ( Fig. 2A ). Accordingly, the oprD(HIGH) group, with reference to the strain of the highest similarity among the eight wild strains, was selected in its entirety as a candidate key GVAR feature for the carbapenem resistance prediction. The PPVs of individual variants of oprD based on the HIGH, MODERATE, and LOW classifications are displayed in Fig. 2B and C . The PPVs of most GVARs in the oprD(HIGH) group were high, with 95.0% (95/100) and 89.9% (143/159) of them being one in the IPM data set and the MEM data set, respectively. Distributions of each variant of the oprD(HIGH) group in each isolate are displayed in Fig. 2D and E . Among PA isolates in the prediction of IPM resistance, 95 different oprD variants of high impact were detected, and only 24 (25.3%) variants were present in both the training set and validation set. Similarly, in isolates for the MEM resistance prediction, 42 (26.4%) kinds of oprD variants of high impact were detected in both the training and validation sets among 159 oprD variants of high impact. Therefore, the utilization of oprD(HIGH) as a whole, which included every possible mutation of high impact, such as frameshift, start lost, and stop gained in every possible locus, in the subsequent machine learning also improved the generalization ability of the model compared with the utilization of individual variants in the oprD(HIGH) group. With regard to other variant groups with PPVs <0.9, individual variants with PPV ≥0.9 and true-resistant sample numbers ≥3 were selected as candidate key GVAR features. All variants of low effect impact were nonsense mutations and were not included in further analysis. 
+
+Fig 2. 
+
+Open in a new tab 
+
+PPVs and distributions of GVARs according to HIGH, MODERATE, and LOW effect impact classification. (A) PPVs of the HIGH, MODERATE, and LOW effect impact groups of different GVARs. oprD_PAO1 or oprD_PAO1+ indicates the variants of oprD identified with reference to PAO1 alone or eight strains including PAO1. (B and C) PPVs of each GVAR in the oprD(HIGH) group. (D and E) Distributions of oprD(HIGH) and each GVAR in the oprD(HIGH) group. The short blue line represents the existence of oprD(HIGH) variants in P. aeruginosa isolates. Abbreviations: R, resistant; S, sensitive. 
+
+In all, 122 and 73 candidate key GVAR features were selected for the IPM and MEM resistance prediction models, respectively (Tables S5 and S6). 
+
+Selection of machine learning method and evaluation of sample size 
+
+To select the exact method of machine learning, we compared the performances of prediction models constructed by LASSO, RF, FNN, SVM, and XGBoost with resistance/sensitivity binary classifiers. The prediction models constructed by LASSO regression outperformed those constructed by other machine learning methods. In view of the relatively good performance and its advantage in removing collinearity among input variables, LASSO regression was employed for the selection of key gene features and the construction of the prediction model in this study. The subsequent evaluation of sample size indicated that the current sample sizes in the IPM or the MEM data set was sufficient to provide a stable and repeatable AUC ( Fig. 3C and D ). 
+
+Fig 3. 
+
+Open in a new tab 
+
+Method selection and sample size evaluation of machine learning. (A and B) Performance of prediction models for the IPM resistance ( A ) and MEM resistance ( B ) built by different machine learning methods. (C and D) Performance of prediction models with different sample sizes in the IPM ( B ) and MEM ( C ) data sets. 
+
+Direct prediction of carbapenem resistance for P. aeruginosa by WGS 
+
+Based on LASSO regression in the training sets, 16 and 31 key gene features were selected in the carbapenem resistance prediction models for IPM and MEM, respectively ( Table 1 and Fig. 4A and B ). The AUC of the IPM resistance prediction model was 0.906, with a sensitivity of 0.820 and a specificity of 0.977. The AUC of the MEM resistance prediction model was 0.925, with a sensitivity of 0.902 and a specificity of 0.878. In the validation set, the AUCs of the IPM and MEM resistance prediction models were 0.887 and 0.888, respectively ( Fig. 3C ). Since the weight coefficient of each feature in the panel was greater than the optimal threshold, detection of any feature in the panel was considered to classify the strain as phenotypically resistant (Table S7). In addition, when eight reference wild-type strains, instead of PAO1 alone, were used as reference strains in the identification of oprD variants, the performances of both prediction models were further improved ( Fig. 4B ). To verify the read-based performance of the carbapenem resistance prediction model for further clinical application, we simulated both short NGS and long ONT reads with different sequencing lengths and genome depths. We found that the AUCs of the prediction models increased as the sequencing depth or genome coverage increased and became stable at approximately 10× sequencing depth and 95.5% genome coverage ( Fig. 4C ; Table S8). In addition, short NGS reads were preferable for the read-based prediction of carbapenem resistance compared with long ONT reads ( Fig. 4C ; Table S8). 
+
+TABLE 1. 
+
+Prediction performance of carbapenem resistance for P. aeruginosa by WGS a 
+
+Antibiotic Threshold value AUC Accuracy Sensitivity Specificity PPV NPV VME ME Number of key features IPM 3.95 0.906 0.899 0.820 0.977 0.973 0.847 0.180 0.023 16 MEM 2.60 0.925 0.902 0.878 0.931 0.942 0.859 0.122 0.069 31 
+
+Open in a new tab 
+
+a 
+ME, major error; NPV, negative predictive value; VME, very major error. 
+
+Fig 4. 
+
+Open in a new tab 
+
+Key gene features and performance of the carbapenem resistance prediction model of P. aeruginosa . (A) Key gene features for the IPM and MEM resistance prediction of P. aeruginosa . GPA features are presented in orange, and GVAR features are presented in black. (B) AUCs of IPM and MEM resistance prediction models in the training and validation sets. PAO1 or PAO1+ represents the AUCs when variants of oprD were identified with reference to PAO1 alone or eight strains including PAO1. (C) AUCs of the IPM and MEM resistance prediction models at different sequencing depths and genome coverages derived from simulated NGS reads and ONT reads. 
+
+Direct prediction of carbapenem resistance for P. aeruginosa from clinical sputum specimens by WGS based on NGS and ONT 
+
+For the direct prediction of carbapenem resistance of P. aeruginosa from clinical specimens, we further assessed the applicability of MGS in the detection of these key gene features associated with carbapenem resistance. Since NGS and ONT are the two most commonly used methods in MGS, we first compared the detection applicability of MGS based on NGS and ONT in a relatively small sample size. Thirty P. aeruginosa -positive sputum specimens were collected and sent for both NGS and ONT sequencing. In these 30 samples, the genome coverage of P. aeruginosa ranged from 91.2%–98.7% in NGS and 6.2%–71.2% in ONT sequencing (Table S9). The key gene features, which were formerly selected by machine learning, detected by NGS and ONT sequencing are displayed in Fig. 5 . NGS displayed comparable detection ability with ONT sequencing for key GPA features. All GPA features detected by NGS were also detected by ONT sequencing. However, in the detection of GVARs, NGS showed significant advantages over ONT sequencing. No false-positive oprD(HIGH) variants were detected in clinical samples by NGS, but oprD(HIGH) variants were detected in every sample by ONT sequencing. This indicated the superiority of NGS over ONT in the carbapenem resistance prediction of P. aeruginosa from sputum by MGS. Therefore, we further collected 42 sputum samples and sent them for NGS to evaluate its performance in the carbapenem resistance prediction. The average genome coverage of P. aeruginosa in the 72 clinical samples was 69.7% (Table S9). Among these 72 samples, 65.0% (26/40) of IPM-resistant or intermediate (R/I) P. aeruginosa in sputum samples were correctly predicted with a PPV of 0.897, and 63.2% (24/38) of MEM-R/I P. aeruginosa were correctly predicted with a PPV of 0.889 by MGS based on NGS ( Table 2 ). Higher genome coverage brought higher sensitivity (Fig. S1). For samples with the genome coverage of P. aeruginosa over 95%, the predictive ratios of carbapenem insensitivity were 76.5% (13/17) for IPM and 75% (12/16) for MEM, respectively (Fig. S1). Besides, we found that there was higher relative abundance of P. aeruginosa in the successfully predicted samples, although not significantly, than those in the non-predicted ones, which indicated that P. aeruginosa burden might also influence the performance of the model. 
+
+Fig 5. 
+
+Open in a new tab 
+
+Heatmap of key gene features associated with carbapenem resistance of P. aeruginosa detected in 30 sputum samples by MGS based on NGS or ONT. The yellow block indicates the detection of key gene features by NGS; the green block indicates the detection of key gene features by ONT; the plum block indicates R/I by AST; and the gray block indicates ND of key gene features or S by AST. Abbreviations: ID, identity; ND, not detected; R, resistant; S, sensitive. 
+
+TABLE 2. 
+
+Prediction performance of carbapenem resistance for P. aeruginosa in sputum samples by MGS based on NGS 
+
+Antibiotic Sample size AST-R AST-I AST-S a Predicted-R True R (or I) R (or I) predicted ratio PPV IPM 72 40 0 32 29 26 65.0% 0.897 MEM 72 34 4 34 27 24 63.2% 0.889 
+
+Open in a new tab 
+
+a 
+S, sensitive. 
+
+DISCUSSION 
+
+Carbapenem-resistant P. aeruginosa was responsible for the most deaths attributable to antimicrobial-resistant P. aeruginosa . However, the complex drug resistance mechanism hindered carbapenem-resistant genotype-to-phenotype prediction. In this study, we explored the applicability of WGS and MGS in the direct prediction of carbapenem resistance of P. aeruginosa with 1,622 cultured isolated and 72 clinical samples. The inclusion of massive P. aeruginosa worldwide greatly improved the generalization ability of the model. Additionally, multiple machine learning methods were explored for optimizing the model building process. Briefly, we determined the following findings: (i) oprD(HIGH), which was a collection of GVARs with high variant effect impact evaluated by SnpEff, had a high frequency in CRPA and could well predict carbapenem resistance, especially after the introduction of more reference wild-type P. aeruginosa isolates. (ii) In total, 16 and 31 key gene features of both GPAs and GVARs were selected in the IPM and MEM resistance prediction models by WGS. The AUCs of the IPM and MEM resistance prediction models were 0.906 and 0.925, respectively. (iii) In MGS performed directly in clinical sputum samples, NGS was more suitable for the identification of carbapenem resistance-associated gene features than ONT. In addition, 65% of IPM-insensitive and 63.2% of MEM-insensitive P. aeruginosa in sputum samples could be correctly predicted by NGS-based MGS with PPVs of 0.897 and 0.889, respectively. 
+
+The oprD variant was the most prevalent GVAR-related mechanism for carbapenem resistance in P. aeruginosa ( 17 , 19 , 20 ). oprD in P. aeruginosa is a channel for the uptake of basic amino acids and peptides. Since carbapenems have a structure similar to that of basic amino acids, oprD permits the entry of carbapenems as well ( 24 ). A recently published tool, PorinPredict, was designed to predict oprD inactivation from WGS data and achieved high concordance in its prediction of oprD loss and carbapenem-resistant phenotype in P. aeruginosa ( 11 ). In that study, putative oprD loss included truncated or absent oprD, indels, premature stop codons, stop-loss and start-loss mutations, and disrupted promoter sequences, which resembled the classification of oprD(HIGH) in our study. As to indels, frameshift indels were supposed to induce oprD loss or classified as oprD(HIGH) in both studies, while indels of other kinds were evaluated as variants of moderate effect impact in SnpEff. We reviewed PPVs of indels other than frameshifts in oprD and other GVARs in chromosomes included in this study and found that GVARs with these kinds of mutations had relatively high but diverse PPVs. Therefore, the predictive value of particular indels might need further clarification. Additionally, oprD variants with less definite impact but high PPV, such as missense mutations, were also analyzed, and their statistical importance in the prediction of carbapenem-resistant phenotypes in P. aeruginosa was confirmed in this study. In the identification of oprD variants, several studies employed one reference strain, and some others observed the gene diversity of oprD and used multiple reference strains ( 7 , 8 , 11 , 19 , 20 ). In our study, more reference strains resulted in better performance in the prediction of carbapenem resistance in P. aeruginosa . 
+
+Several previous studies have explored the performance of WGS in the prediction of carbapenem-resistant phenotypes in P. aeruginosa ( 7 – 10 ). Most of these studies were carried out based on DNA sequences for GPA and GVAR ( 7 , 9 , 10 ). Some studies presented several known and novel carbapenem resistance-associated gene features based completely on machine learning ( 9 , 10 ). However, the accuracies of the models constructed in these studies were relatively low, approximately 0.8. In addition, the predictive value of the novel carbapenem resistance-associated gene features needs further verification in basic experiments. It was reported that a commercial resistance prediction pipeline named ARESdb could provide a genotype-to-phenotype prediction of MEM resistance from WGS data of P. aeruginosa with an overall categorical agreement of 92.4% ( 25 ). With only 38 P . aeruginosa included for MEM resistance prediction, a larger sample size might perform better in the assessment of prediction performance. Another study made a relatively comprehensive review of previous literature and public databases for confirmed antimicrobial resistance-associated genes and developed a genotypic score for the resistance prediction of P. aeruginosa to five commonly used antibiotics, including MEM ( 7 ). However, the weights or coefficients for features in the score system were rule based and thus might lack accuracy. In our study, we first screened previously reported carbapenem resistance-associated gene features, mainly GVARs, for gene features with high PPVs and then selected key gene features and constructed prediction models by machine learning with the weight of each feature automatically calculated. Besides, we explored the possibility of not only individual GVARs but also GVAR groups classified according to evaluated variant impact by SnpEff in the carbapenem resistance prediction of P. aeruginosa ( 21 , 22 ). The accuracies of our models were over 0.9 for both IPM and MEM resistance prediction. A recent study also reported the added performance of gene expression profiles ( 8 ). Although the prediction ability of the resistance model was improved when both DNA and RNA sequences were both involved, the workload and cost were also doubled. Since the expression of RNA is mainly regulated by promoters and transcription factors, it can be predicted directly by DNA sequences to some degree ( 26 , 27 ). As a result, there is a possibility that the performance of the carbapenem resistance prediction model constructed by DNA sequences could be further improved when more carbapenem resistance-associated promoters and transcription factors were identified. 
+
+Culture-independent detection of antimicrobial resistance is expected to provide faster and more comprehensive data on antimicrobial resistance and thus promote the administration of timely and effective antibacterial treatment. In view of the widespread application of MGS in recent years and its ability to identify antimicrobial resistance-associated genes directly from all kinds of clinical samples, MGS shows great potential for the rapid detection of antimicrobial resistance ( 28 , 29 ). A recent study reported that the average reporting time of NGS-based AST for clinical samples was 19.1 hours, 44.3 hours shorter than that of traditional culture-based AST ( 14 ). In this study, we attempted to evaluate the applicability of MGS, both by NGS and ONT, in the carbapenem resistance prediction of P. aeruginosa based on key gene features selected and prediction models constructed. It turned out that ONT could not correctly identify GVARs, which might be explained by the introduction of more indels by ONT ( 28 ). Considering the high prevalence of GVARs in CRPA, MGS by ONT was not competent in predicting carbapenem resistance in P. aeruginosa ( 17 , 19 , 20 ). Recently, our team conducted a study on the culture-independent AST prediction of Acinetobacter baumannii to four commonly used antibiotics by MGS based on NGS ( 14 ). Since the resistant phenotypes of A. baumannii to these four drugs were mainly mediated by GPAs or a limited number of GVARs according to the results in that study, high consistencies of the AST prediction models were achieved in NGS-based AST. The resistance mechanisms of P. aeruginosa to carbapenems were much more complicated, making the genotype-to-phenotype prediction of P. aeruginosa by both WGS and MGS much harder. Consequently, the performances of carbapenem resistance prediction models were lower in P. aeruginosa than in A. baumannii . A previous study conducted a preliminary test of the performance of target-enriched sequencing with their previously developed ARESdb antimicrobial resistance panel and regular MGS, both based on NGS, in septic urine samples ( 30 ). The sensitivity of MGS and target-enriched sequencing was comparable, but the reads, depths, and coverages of the targeted antimicrobial resistance markers were remarkably low in regular MGS. This limited the applicability of MGS in samples with lower bacterial burden. The test was conducted on a limited number of samples and on bacteria rather than P. aeruginosa in the previous study. Therefore, the performance of MGS regarding P. aeruginosa is still lacking. Our study presented preliminary data on the performance of NGS-based MGS in the prediction of carbapenem resistance in P. aeruginosa in sputum samples. As observed in the former study, the adoption of target-enriched MGS might further improve the performance of MGS for carbapenem resistance prediction in P. aeruginosa , considering the low coverage in some of our sputum samples ( 30 ). To date, the cost of a traditional culture-based AST is about 25 dollars, while the price of an NGS-based AST is still around 500 dollars. This cost disparity is one of the major challenges that may be encountered in the future application of NGS-based AST. 
+
+There are certain limitations in this study. First, to simplify the prediction model, candidate features were first screened by PPV and frequency and further screened by machine learning. As a result, gene features with low frequency and co-interaction were not included in the final prediction model, which may be solved by a more intelligent model such as a convolutional neural network ( 31 ). Second, more novel features need to be identified to improve the predictive value of the model. Third, the carbapenem-resistant phenotype in this study was classified based on the CLSI 2021 guidelines, so the prediction model may need to be updated when new breakpoints are recommended in the future. Fourth, in samples with more than one pathogen detected, the methods of species attribution of certain carbapenem resistance-associated genes need to be further improved. 
+
+Conclusions 
+
+A group of key GPA and GVAR features, including oprD(HIGH), were associated with the carbapenem-resistant phenotype of P. aeruginosa . These key gene features and the prediction models could be used in the direct carbapenem resistance prediction of P. aeruginosa from cultured isolates by WGS or from clinical samples by NGS-based MGS, which could assist the timely treatment and surveillance of CRPA. 
+
+ACKNOWLEDGMENTS 
+
+The authors greatly appreciate all the patients involved in the study. 
+
+This work was supported by the National Key R&D Program of China (grant nos. 2017YFC1309700 and 2017YFC1309701), Shanghai Municipal Key Clinical Specialty (shslczdzk02202), Shanghai Top-Priority Clinical Key Disciplines Construction Project (2017ZZ02014), Shanghai Key Laboratory of Emergency Prevention, Diagnosis and Treatment of Respiratory Infectious Diseases (20dz2261100), and Cultivation Project of Shanghai Major Infectious Disease Research Base (20dz2210500). 
+
+M.Z., Z.J. and L. H. conceived and designed the study. B.L., X. L., W. H., Z. Z., and Q. Z. collected isolates and samples. L. H. performed the culture, identification, and AST of isolates and samples. J. G., G. R., J. L., P. H., and Z. J. were responsible for the WGS and MGS process. J. G. collected data from public sources and done the bioinformatic analysis. B.L. and J. G. visualized the results and drafted the manuscript. M. Z. and J. L. revised the manuscript. All authors read and gave final approval of the version to be submitted. 
+
+Contributor Information 
+
+Lizhong Han, Email: hanlizhong1107@163.com. 
+
+Zhi Jiang, Email: z.jiang@genskey.com. 
+
+Min Zhou, Email: doctor_zhou_99@163.com. 
+
+Nathan A. Ledeboer, 
+Medical College of Wisconsin, Milwaukee, Wisconsin, USA 
+
+DATA AVAILABILITY 
+
+The 100 PA genomes as well as the NGS and ONT sequencing data of 72 clinical sputum specimens with removal of human genome contamination were submitted to github and NCBI Sequence Read Archive (accession number: PRJNA1002114 ). Core softwares used were described in the Materials and Methods. The scripts are available on github . 
+
+ETHICS APPROVAL 
+
+The Ethics Committee of Ruijin Hospital gave approval for this study, and all patients included provided oral informed consent. 
+
+SUPPLEMENTAL MATERIAL 
+
+The following material is available online at https://doi.org/10.1128/jcm.00617-23 . 
+
+Figure S1. jcm.00617-23-s0001.eps. 
+Sensitivity of the carbapenem-resistance prediction model in clinical samples with different genome coverage of P. aeruginosa . 
+
+Click here for additional data file. (150.3KB, eps) 
+
+DOI: 10.1128/jcm.00617-23.SuF1 
+
+Figure S2. jcm.00617-23-s0002.eps. 
+Relative abundance of P. aeruginosa in predicted and not-predicted carbapenem-resistant/intermediate samples. 
+
+Click here for additional data file. (155.3KB, eps) 
+
+DOI: 10.1128/jcm.00617-23.SuF2 
+
+Supplemental tables. jcm.00617-23-s0003.xlsx. 
+Table S1. Detailed information of P. aeruginosa included in this study. Table S2. PPVs of gene families.Table S3. PPVs of gene clusters. Table S4. PPVs of gene variants. Table S5. Input gene features in the machine learning model for the IPM-resistance prediction of P. aeruginosa. Table S6. Input gene features in the machine learning model for the MEM-resistance prediction of P. aeruginosa. Table S7. Contribution of each key feature in the LASSO regression classifier for IPM and MEM. Table S8. Detailed model performance under each sequencing depth. Table S9. Details of 72 sputum samples in the metagenomic sequencing based on NGS and ONT. 
+
+Click here for additional data file. (1,002.9KB, xlsx) 
+
+DOI: 10.1128/jcm.00617-23.SuF3 
+
+ASM does not own the copyrights to Supplemental Material that may be linked to, or accessed through, an article. The authors have granted ASM a non-exclusive, world-wide license to publish the Supplemental Material files. Please contact the corresponding author directly for reuse. 
+
+REFERENCES 
+
+1. Reynolds D, Kollef M. 2021. The epidemiology and pathogenesis and treatment of Pseudomonas aeruginosa infections: an update. Drugs
+81:2117–2131. doi: 10.1007/s40265-021-01635-6 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+2. Klockgether J, Cramer N, Wiehlmann L, Davenport CF, Tümmler B. 2011. Pseudomonas aeruginosa genomic structure and diversity. Front Microbiol
+2:150. doi: 10.3389/fmicb.2011.00150 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Murray CJL, Ikuta KS, Sharara F, Swetschinski L, Robles Aguilar G, Gray A, Han C, Bisignano C, Rao P, Wool E, Johnson SC, Browne AJ, Chipeta MG, Fell F, Hackett S, Haines-Woodhouse G, Kashef Hamadani BH, Kumaran EAP, McManigal B, Achalapong S, Agarwal R, Akech S, Albertson S, Amuasi J, Andrews J, Aravkin A, Ashley E, Babin F-X, Bailey F, Baker S, Basnyat B, Bekker A, Bender R, Berkley JA, Bethou A, Bielicki J, Boonkasidecha S, Bukosia J, Carvalheiro C, Castañeda-Orjuela C, Chansamouth V, Chaurasia S, Chiurchiù S, Chowdhury F, Clotaire Donatien R, Cook AJ, Cooper B, Cressey TR, Criollo-Mora E, Cunningham M, Darboe S, Day NPJ, De Luca M, Dokova K, Dramowski A, Dunachie SJ, Duong Bich T, Eckmanns T, Eibach D, Emami A, Feasey N, Fisher-Pearson N, Forrest K, Garcia C, Garrett D, Gastmeier P, Giref AZ, Greer RC, Gupta V, Haller S, Haselbeck A, Hay SI, Holm M, Hopkins S, Hsia Y, Iregbu KC, Jacobs J, Jarovsky D, Javanmardi F, Jenney AWJ, Khorana M, Khusuwan S, Kissoon N, Kobeissi E, Kostyanev T, Krapp F, Krumkamp R, Kumar A, Kyu HH, Lim C, Lim K, Limmathurotsakul D, Loftus MJ, Lunn M, Ma J, Manoharan A, Marks F, May J, Mayxay M, Mturi N, Munera-Huertas T, Musicha P, Musila LA, Mussi-Pinhata MM, Naidu RN, Nakamura T, Nanavati R, Nangia S, Newton P, Ngoun C, Novotney A, Nwakanma D, Obiero CW, Ochoa TJ, Olivas-Martinez A, Olliaro P, Ooko E, Ortiz-Brizuela E, Ounchanum P, Pak GD, Paredes JL, Peleg AY, Perrone C, Phe T, Phommasone K, Plakkal N, Ponce-de-Leon A, Raad M, Ramdin T, Rattanavong S, Riddell A, Roberts T, Robotham JV, Roca A, Rosenthal VD, Rudd KE, Russell N, Sader HS, Saengchan W, Schnall J, Scott JAG, Seekaew S, Sharland M, Shivamallappa M, Sifuentes-Osornio J, Simpson AJ, Steenkeste N, Stewardson AJ, Stoeva T, Tasak N, Thaiprakong A, Thwaites G, Tigoi C, Turner C, Turner P, van Doorn HR, Velaphi S, Vongpradith A, Vongsouvath M, Vu H, Walsh T, Walson JL, Waner S, Wangrangsimakul T, Wannapinij P, Wozniak T, Young Sharma TEMW, Yu KC, Zheng P, Sartorius B, Lopez AD, Stergachis A, Moore C, Dolecek C, Naghavi M. 2022. Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis. The Lancet
+399:629–655. doi: 10.1016/S0140-6736(21)02724-0 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+4. Shanmugakani RK, Srinivasan B, Glesby MJ, Westblade LF, Cárdenas WB, Raj T, Erickson D, Mehta S. 2020. Current state of the art in rapid diagnostics for antimicrobial resistance. Lab Chip
+20:2607–2625. doi: 10.1039/d0lc00034e [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Su M, Satola SW, Read TD, McAdam AJ. 2019. Genome-based prediction of bacterial antibiotic resistance. J Clin Microbiol
+57:e01405–18. doi: 10.1128/JCM.01405-18 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Pang Z, Raudonis R, Glick BR, Lin TJ, Cheng Z. 2019. Antibiotic resistance in Pseudomonas aeruginosa: mechanisms and alternative therapeutic strategies. Biotechnol Adv
+37:177–192. doi: 10.1016/j.biotechadv.2018.11.013 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Cortes-Lara S, Barrio-Tofiño ED, López-Causapé C, Oliver A, GEMARA-SEIMC/REIPI Pseudomonas study Group . 2021. Predicting Pseudomonas aeruginosa susceptibility phenotypes from whole genome sequence resistome analysis. Clin Microbiol Infect
+27:1631–1637. doi: 10.1016/j.cmi.2021.05.011 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+8. Khaledi A, Weimann A, Schniederjans M, Asgari E, Kuo T, Oliver A, Cabot G, Kola A, Gastmeier P, Hogardt M, Jonas D, Mofrad MR, Bremges A, McHardy AC, Häussler S. 2020. Predicting antimicrobial resistance in Pseudomonas aeruginosa with machine learning-enabled molecular diagnostics . EMBO Mol Med
+12. doi: 10.15252/emmm.201910264 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Kim J, Greenberg DE, Pifer R, Jiang S, Xiao G, Shelburne SA, Koh A, Xie Y, Zhan X. 2020. Vampr: variant mapping and prediction of antibiotic resistance via explainable features and machine learning. PLoS Comput Biol
+16:e1007511. doi: 10.1371/journal.pcbi.1007511 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+10. Hyun JC, Kavvas ES, Monk JM, Palsson BO. 2020. Machine learning with random subspace ensembles identifies antimicrobial resistance determinants from pan-genomes of three pathogens. PLoS Comput Biol
+16:e1007608. doi: 10.1371/journal.pcbi.1007608 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Biggel M, Johler S, Roloff T, Tschudin-Sutter S, Bassetti S, Siegemund M, Egli A, Stephan R, Seth-Smith HMB. 2023. Porinpredict: in silico identification of OprD loss from WGS data for improved genotype-phenotype predictions of P. aeruginosa carbapenem resistance. Microbiol Spectr
+11:e0358822. doi: 10.1128/spectrum.03588-22 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Jaillard M, van Belkum A, Cady KC, Creely D, Shortridge D, Blanc B, Barbu EM, Dunne WM Jr, Zambardi G, Enright M, Mugnier N, Le Priol C, Schicklin S, Guigon G, Veyrieras J-B. 2017. Correlation between phenotypic antibiotic susceptibility and the resistome in Pseudomonas aeruginosa. Int J Antimicrob Agents
+50:210–218. doi: 10.1016/j.ijantimicag.2017.02.026 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+13. Gupta V, Yu KC, Pogue JM, Watts JA, Clancy CJ. 2022. A multicenter comparison of carbapenem-nonsusceptible enterobacterales and Pseudomonas aeruginosa rates in the US (2016 to 2020): facility-reported rates versus rates based on updated clinical laboratory and standards institute breakpoints. Microbiol Spectr
+10:e0115822. doi: 10.1128/spectrum.01158-22 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+14. Hu X, Zhao Y, Han P, Liu S, Liu W, Mai C, Deng Q, Ren J, Luo J, Chen F, Jia X, Zhang J, Rao G, Gu B. 2023. Novel clinical mNGS-based machine learning model for rapid antimicrobial susceptibility testing of Acinetobacter baumannii. J Clin Microbiol
+61:e0180522. doi: 10.1128/jcm.01805-22 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Nasir JA, Kozak RA, Aftanas P, Raphenya AR, Smith KM, Maguire F, Maan H, Alruwaili M, Banerjee A, Mbareche H, Alcock BP, Knox NC, Mossman K, Wang B, Hiscox JA, McArthur AG, Mubareka S. 2020. A comparison of whole genome sequencing of SARS-CoV-2 using amplicon-based sequencing, random hexamers, and bait capture. Viruses
+12:895. doi: 10.3390/v12080895 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+16. Li W, Godzik A. 2006. Cd-hit: a fast program for clustering and comparing large sets of protein or nucleotide sequences. Bioinformatics
+22:1658–1659. doi: 10.1093/bioinformatics/btl158 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+17. Stanton RA, Campbell D, McAllister GA, Breaker E, Adamczyk M, Daniels JB, Lutgring JD, Karlsson M, Schutz K, Jacob JT, Wilson LE, Vaeth E, Li L, Lynfield R, Snippes Vagnone PM, Phipps EC, Hancock EB, Dumyati G, Tsay R, Cassidy PM, Mounsey J, Grass JE, Bulens SN, Walters MS, Halpin AL. 2022. Whole-genome sequencing reveals diversity of carbapenem-resistant Pseudomonas aeruginosa collected through CDC’s emerging infections program, United States, 2016-2018. Antimicrob Agents Chemother
+66:e0049622. doi: 10.1128/aac.00496-22 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Dunn T, Berry G, Emig-Agius D, Jiang Y, Lei S, Iyer A, Udar N, Chuang H-Y, Hegarty J, Dickover M, Klotzle B, Robbins J, Bibikova M, Peeters M, Strömberg M. 2019. Pisces: an accurate and versatile variant caller for somatic and germline next-generation sequencing data. Bioinformatics
+35:1579–1581. doi: 10.1093/bioinformatics/bty849 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+19. Teo JQ-M, Tang CY, Lim JC, Lee SJ-Y, Tan SH, Koh T-H, Sim JH-C, Tan T-T, Kwa AL-H, Ong RT-H. 2021. Genomic characterization of carbapenem-non-susceptible Pseudomonas aeruginosa in Singapore. Emerg Microbes Infect
+10:1706–1716. doi: 10.1080/22221751.2021.1968318 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. Bocharova Y, Savinova T, Lazareva A, Polikarpova S, Gordinskaya N, Mayanskiy N, Chebotar I. 2020. Genotypes, carbapenemase carriage, Integron diversity and OprD alterations among carbapenem-resistant Pseudomonas aeruginosa from Russia. Int J Antimicrob Agents
+55:105899. doi: 10.1016/j.ijantimicag.2020.105899 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+21. Cingolani P, Platts A, Wang LL, Coon M, Nguyen T, Wang L, Land SJ, Lu X, Ruden DM. 2012. A program for annotating and predicting the effects of single nucleotide polymorphisms. Fly
+6:80–92. doi: 10.4161/fly.19695 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+22. Loiseau C, Windels EM, Gygli SM, Jugheli L, Maghradze N, Brites D, Ross A, Goig G, Reinhard M, Borrell S, Trauner A, Dötsch A, Aspindzelashvili R, Denes R, Reither K, Beisel C, Tukvadze N, Avaliani Z, Stadler T, Gagneux S. 2023. The relative transmission fitness of multidrug-resistant Mycobacterium tuberculosis in a drug resistance hotspot. Nat Commun
+14:1988. doi: 10.1038/s41467-023-37719-y [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+23. Charalampous T, Kay GL, Richardson H, Aydin A, Baldan R, Jeanes C, Rae D, Grundy S, Turner DJ, Wain J, Leggett RM, Livermore DM, O’Grady J. 2019. Nanopore metagenomics enables rapid clinical diagnosis of bacterial lower respiratory infection. Nat Biotechnol
+37:783–792. doi: 10.1038/s41587-019-0156-5 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+24. Li H, Luo YF, Williams BJ, Blackwell TS, Xie CM. 2012. Structure and function of OprD protein in Pseudomonas aeruginosa: from antibiotic resistance to novel therapies. Int J Med Microbiol
+302:63–68. doi: 10.1016/j.ijmm.2011.10.001 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Cunningham SA, Eberly AR, Beisken S, Posch AE, Schuetz AN, Patel R. 2022. Core genome multilocus sequence typing and antibiotic susceptibility prediction from whole-genome sequence data of multidrug-resistant Pseudomonas aeruginosa isolates. Microbiol Spectr
+10:e0392022. doi: 10.1128/spectrum.03920-22 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+26. Lister PD, Wolter DJ, Hanson ND. 2009. Antibacterial-resistant Pseudomonas aeruginosa: clinical impact and complex regulation of chromosomally encoded resistance mechanisms. Clin Microbiol Rev
+22:582–610. doi: 10.1128/CMR.00040-09 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+27. Zrimec J, Börlin CS, Buric F, Muhammad AS, Chen R, Siewers V, Verendel V, Nielsen J, Töpel M, Zelezniak A. 2020. Deep learning suggests that gene expression is encoded in all parts of a co-evolving interacting gene regulatory structure. Nat Commun
+11:6141. doi: 10.1038/s41467-020-19921-4 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Ruppé E, d’Humières C, Armand-Lefèvre L. 2022. Inferring antibiotic susceptibility from metagenomic data: dream or reality?
+Clin Microbiol Infect
+28:1225–1229. doi: 10.1016/j.cmi.2022.04.017 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+29. Hoang MTV, Irinyi L, Hu Y, Schwessinger B, Meyer W. 2021. Long-reads-based metagenomics in clinical diagnosis with a special focus on fungal infections. Front Microbiol
+12:708550. doi: 10.3389/fmicb.2021.708550 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+30. Ferreira I, Lepuschitz S, Beisken S, Fiume G, Mrazek K, Frank BJH, Huber S, Knoll MA, von Haeseler A, Materna A, Hofstaetter JG, Posch AE, Weinberger J. 2021. Culture-free detection of antibiotic resistance markers from native patient samples by hybridization capture sequencing. Microorganisms
+9:1672. doi: 10.3390/microorganisms9081672 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+31. Green AG, Yoon CH, Chen ML, Ektefaie Y, Fina M, Freschi L, Gröschel MI, Kohane I, Beam A, Farhat M. 2022. A convolutional neural network highlights mutations relevant to antimicrobial resistance in Mycobacterium tuberculosis. Nat Commun
+13:3817. doi: 10.1038/s41467-022-31236-0 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+Associated Data 
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+
+Supplementary Materials 
+
+Figure S1. jcm.00617-23-s0001.eps. 
+Sensitivity of the carbapenem-resistance prediction model in clinical samples with different genome coverage of P. aeruginosa . 
+
+Click here for additional data file. (150.3KB, eps) 
+
+DOI: 10.1128/jcm.00617-23.SuF1 
+
+Figure S2. jcm.00617-23-s0002.eps. 
+Relative abundance of P. aeruginosa in predicted and not-predicted carbapenem-resistant/intermediate samples. 
+
+Click here for additional data file. (155.3KB, eps) 
+
+DOI: 10.1128/jcm.00617-23.SuF2 
+
+Supplemental tables. jcm.00617-23-s0003.xlsx. 
+Table S1. Detailed information of P. aeruginosa included in this study. Table S2. PPVs of gene families.Table S3. PPVs of gene clusters. Table S4. PPVs of gene variants. Table S5. Input gene features in the machine learning model for the IPM-resistance prediction of P. aeruginosa. Table S6. Input gene features in the machine learning model for the MEM-resistance prediction of P. aeruginosa. Table S7. Contribution of each key feature in the LASSO regression classifier for IPM and MEM. Table S8. Detailed model performance under each sequencing depth. Table S9. Details of 72 sputum samples in the metagenomic sequencing based on NGS and ONT. 
+
+Click here for additional data file. (1,002.9KB, xlsx) 
+
+DOI: 10.1128/jcm.00617-23.SuF3 
+
+Data Availability Statement 
+
+The 100 PA genomes as well as the NGS and ONT sequencing data of 72 clinical sputum specimens with removal of human genome contamination were submitted to github and NCBI Sequence Read Archive (accession number: PRJNA1002114 ). Core softwares used were described in the Materials and Methods. The scripts are available on github . 
+
+Articles from Journal of Clinical Microbiology are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (3.4 MB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

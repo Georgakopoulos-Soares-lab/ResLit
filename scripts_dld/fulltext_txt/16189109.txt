@@ -1,0 +1,500 @@
+PMID: 16189109
+PMCID: PMC1251537
+DOI: 10.1128/AAC.49.10.4280-4287.2005
+Title: Unexpected enzyme TEM-126: role of mutation Asp179Glu.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2005 Oct
+Authors: Delmas J, Robin F, Bittar F, Chanal C, Bonnet R
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Unexpected Enzyme TEM-126: Role of Mutation Asp179Glu - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2005 Oct;49(10):4280–4287. doi: 10.1128/AAC.49.10.4280-4287.2005 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Unexpected Enzyme TEM-126: Role of Mutation Asp179Glu 
+
+J Delmas 
+
+J Delmas 
+
+1 Faculté de Médecine, Centre Hospitalo-Universitaire, Clermont-Ferrand, France 
+
+Find articles by J Delmas 
+
+1, * , F Robin 
+
+F Robin 
+
+1 Faculté de Médecine, Centre Hospitalo-Universitaire, Clermont-Ferrand, France 
+
+Find articles by F Robin 
+
+1 , F Bittar 
+
+F Bittar 
+
+1 Faculté de Médecine, Centre Hospitalo-Universitaire, Clermont-Ferrand, France 
+
+Find articles by F Bittar 
+
+1 , C Chanal 
+
+C Chanal 
+
+1 Faculté de Médecine, Centre Hospitalo-Universitaire, Clermont-Ferrand, France 
+
+Find articles by C Chanal 
+
+1 , R Bonnet 
+
+R Bonnet 
+
+1 Faculté de Médecine, Centre Hospitalo-Universitaire, Clermont-Ferrand, France 
+
+Find articles by R Bonnet 
+
+1 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+1 Faculté de Médecine, Centre Hospitalo-Universitaire, Clermont-Ferrand, France 
+
+* 
+Corresponding author. Mailing address: Laboratoire de Bactériologie, Faculté de Médecine 28, place H. Dunant, Clermont-Ferrand 63001, France. Phone: (33) 4 73 17 81 50. Fax: (33) 4 73 27 74 94. E-mail: julien.delmas@u-clermont1.fr . 
+
+Received 2005 Apr 21; Revised 2005 Jun 3; Accepted 2005 Jul 12. 
+
+Copyright © 2005, American Society for Microbiology 
+
+PMC Copyright notice 
+
+PMCID: PMC1251537  PMID: 16189109 
+
+Abstract 
+
+The clinical isolate Escherichia coli CF884 exhibited low-level resistance to ceftazidime (4 μg/ml) by a positive double-disk synergy test and apparent susceptibility to cefuroxime, cefotaxime, cefepime, cefpirome, and aztreonam. The enzyme implicated in this phenotype was a novel 180-kb plasmid-encoded TEM-type extended-spectrum β-lactamase designated TEM-126 which harbors the mutations Asp179Glu and Met182Thr. TEM-126 exhibited significant hydrolytic activity ( k cat , 2 s −1 ) and a K m value of 82 μM against ceftazidime. Molecular dynamics simulations suggested that the substitution Asp179Glu induces subtle conformational changes to the omega loop which may favor the insertion of ceftazidime in the binding site and the correct positioning of the crucial residue Glu166. Overall, these results highlight the remarkable plasticity of TEM enzymes, which can expand their activity against ceftazidime by the addition of one carbon atom in the side chain of residue 179. 
+
+The TEM-1/2 and SHV-1 class A β-lactamases ( 1 ) are the most common plasmid-mediated β-lactamases detected in members of the family Enterobacteriaceae . They have high hydrolytic activity against penicillins and hydrolyze narrow-spectrum cephalosporins. Extended-spectrum cephalosporins, which escape the activity of these enzymes, were first used therapeutically in the early 1980s to get around this enzymatic resistance mechanism ( 5 ). However, the use of these antibiotics led to the emergence of TEM- and SHV-type extended-spectrum β-lactamases (ESBLs), which are also able to hydrolyze the extended-spectrum cephalosporins, such as ceftazidime and cefotaxime. The first ESBLs were reported in clinical Klebsiella pneumoniae strains isolated in 1985 in Germany and France ( 20 , 36 ). Over the last 20 years, at least 140 different TEM- and SHV-type ESBLs have been characterized worldwide from hospital- and community-acquired strains belonging to a large number of bacterial species. These ESBLs differ from the original TEM and SHV β-lactamases by a few amino acid substitutions, which extend the substrate specificities to extended-spectrum cephalosporins ( 28 ; http://www.lahey.org/studies/webt.html ). 
+
+In this study, we describe a novel natural TEM-type ESBL, designated TEM-126, which harbors an amino acid substitution not previously observed in natural TEM enzymes. Molecular dynamics simulations and enzymatic studies were undertaken to understand the role of this amino acid substitution in the extended-spectrum activity of TEM-126. 
+
+MATERIALS AND METHODS 
+
+Bacterial strains and plasmids. 
+
+Escherichia coli CF884 was isolated from ascitic fluid in the intensive care unit of the teaching hospital of Clermont-Ferrand, France, in 2002. The natural TEM-126-encoding plasmid was designated pCF884. E. coli BL21(DE3) (Novagen, Darmstadt, Germany) was used for the cloning experiments, and E. coli C600 ( 34 ) was used for the mating-out assays. Modified plasmid pET9a ( 25 ) was used for the overexpression of the β-lactamase-encoding genes. 
+
+Mating-out experiment. 
+
+Direct transfer of plasmids coding for resistance genes was performed by mating donor strains at 37°C in solid Mueller-Hinton medium with in vitro-obtained rifampin-resistant mutants of E. coli C600 as the recipient strain. Transconjugants were selected on agar containing rifampin (300 μg/ml) and ceftazidime (0.5 μg/ml). 
+
+Plasmid content analysis. 
+
+Plasmid DNAs were extracted from the transconjugants by the method of Kado and Liu ( 19 ). The plasmid size was determined by comparison with those of plasmids Rsa (39 kb), TP114 (61 kb), pCFF04 (85 kb), and pCFF14 (180 kb). 
+
+Isoelectric focusing. 
+
+Isoelectric focusing was performed with polyacrylamide gels containing ampholines with a pH range of 3.5 to 10.0, as described previously ( 4 ). β-Lactamases with known pIs were used as standards: IRT-5 (pI 5.2), TEM-1 (pI 5.4), and TEM-2 (pI 5.6). 
+
+Susceptibility to β-lactams. 
+
+Antibiotic-containing disks (Sanofi-Diagnostics Pasteur, Marnes la Coquette, France) were used for antibiotic susceptibility testing by the disk diffusion assay. The double-disk synergy test was performed with ceftazidime- and clavulanic acid-containing disks on Mueller-Hinton agar plates as described previously ( 15 ). MICs were determined by a microdilution method on Mueller-Hinton agar (Sanofi Diagnostics Pasteur) with an inoculum of 10 4 CFU per spot. The MICs of β-lactam antibiotics were determined alone and combined with a fixed concentration of clavulanic acid (2 μg/ml) or tazobactam (4 μg/ml). Antibiotics were provided as powders by GlaxoSmithKline (amoxicillin, ticarcillin, cefuroxime, ceftazidime, and clavulanic acid), Lederle Laboratories (piperacillin and tazobactam), Eli Lilly (cephalothin), Roussel-Uclaf (cefotaxime and cefpirome), Bristol-Myers Squibb (aztreonam and cefepime), and Merck Sharp & Dohme-Chibret (cefoxitin and imipenem). 
+
+Cloning experiments. 
+
+Recombinant DNA manipulation and transformations were performed as described by Sambrook et al. ( 34 ). T4 DNA ligase and proofreading Taq polymerase were purchased from Appligène (Oncor, Illkirch, France). TEM-1- and TEM-126-encoding open reading frames were amplified by PCR with primers NotI-TEM-A (5′-ATA GTT TAG CGG CCG CTT AAT GCT TAA TCA GTG AG-3′) and NdeI-TEM-B (5′-GGA ATT CCA TAT GAG TAT TCA ACA TTT CCG-3′), which included restriction sites for the enzymes NotI (Roche Diagnostics, Meylan, France) and NdeI (Roche Diagnostics), respectively. The PCR products were digested with the two enzymes and ligated into the corresponding restriction sites of modified plasmid pET9a (Stratagene, Amsterdam, The Netherlands). The resulting plasmids, pET9-TEM-1 and pET-TEM-126, which encoded TEM-1 and TEM-126, respectively, were transformed into E. coli BL21(DE3). The transformant was selected on Mueller-Hinton agar supplemented with 30 μg/ml kanamycin and 32 μg/ml ticarcillin or 0.5 μg/ml ceftazidime. 
+
+DNA sequencing. 
+
+The sequences were determined by direct sequencing of the PCR products, which were obtained from the clinical strain E. coli CF884 and the transformant E. coli BL21(DE3). bla TEM sequences were determined by the dideoxy chain termination procedure with an Applied Biosystems sequencer (ABI 377) ( 35 ). The nucleotide and deduced protein sequences were analyzed by using software available at the website of the National Center for Biotechnology Information ( http://www.ncbi.nlm.nih.gov ). 
+
+β-Lactamase preparation. 
+
+TEM-encoding genes were overexpressed from E. coli BL21(DE3) containing the pET9a derivative plasmids in 2xYT broth (Qbiogene, Irvin, Calif.) supplemented with 0.1 mM isopropyl-β- d -thiogalactopyranoside (Sigma Chemical Co., St. Louis, Mo.), as reported previously ( 7 ). The enzymes were extracted by ultrasonic treatment, as described elsewhere ( 4 ). 
+
+The clarified supernatant was loaded onto a Q Sepharose column (10 ml; Amersham Pharmacia Biotech) equilibrated with 20 mM Tris-HCl (pH 7.0). The bound proteins were eluted with a linear NaCl gradient (0 to 500 mM). The β-lactamase-containing elution peak was loaded onto a Superose 12 column (Amersham Pharmacia Biotech) which had been equilibrated and eluted with the buffer 20 mM Tris-HCl-100 mM NaCl (pH 7.0). The β-lactamase-containing elution peak was extensively dialyzed against 100 mM NaCl, concentrated by ultrafiltration, and stored at −20°C until use. The total protein concentration was estimated by the Bio-Rad protein assay (Bio-Rad, Richmond, Calif.), with bovine serum albumin (Sigma Chemical Co.) used as a standard. The purities of the TEM extracts were estimated by sodium dodecyl sulfate-polyacrylamide gel electrophoresis, as reported previously ( 4 ). 
+
+Determination of β-lactamase kinetic constants. 
+
+The Michaelis constant ( K m ) and catalytic activity ( k cat ) were determined with purified extracts by using a computerized microacidimetric method ( 22 ). The concentrations of the inhibitors (clavulanate and tazobactam) required to inhibit enzyme activity by 50% (IC 50 s) were determined as described previously ( 4 ). The kinetic constants were determined three times, and the coefficients of variation were less than 15%. 
+
+Molecular dynamics simulation. 
+
+The ESBL TEM-126 was modeled from the crystallographic structure of the Met182Thr mutant of TEM-1 (1JWP) ( 42 ) by the introduction of the amino acid substitution Asp179Glu as part of an automated procedure. The ceftazidime acyl-enzyme complexes of TEM-126 and mutant Met182Thr of TEM-1 were constructed on the basis of the crystallographic structures for acyl-enzyme species of class A β-lactamases (1YMX and 1FQG) ( 8 , 38 ) and the ceftazidime-like boronic acid complex of Met182Thr mutant TEM-1 (1M40) ( 30 ). The systems were solvated with water in a periodic cubic box that was large enough to contain the system and 1 nm of solvent on all sides. Version 1.8.2 of the VMD package was used to manipulate the systems ( 14 ). The GROMACS software package, version 3.2 ( 3 , 26 ), and the geometric and charge parameters of the OPLSAA force field ( 18 ) were used to carry out all energy minimizations and molecular dynamics simulations (MDSs). TIP3P parameters were used for the water molecules ( 17 ). The particle-mesh Ewald method ( 9 ) was used to treat long-range electrostatics. All covalent bond lengths were constrained by the SHAKE algorithm ( 33 ) with a relative tolerance of 10 −4 , with a time step of 1.5 fs allowed to carry out MDSs. The systems were equilibrated as reported previously ( 29 ). Production runs (400 ps) of MDSs were then made at 300 K, with coordinates collected every 0.0015 ps. During the productive phase of simulation, the temperature was kept constant at 300 K, while the pressure was kept constant by the weak coupling constant of 1 bar by using Berendsen's algorithms. The velocities of all atoms were generated from a Maxwellian distribution. The final models were obtained by averaging the overall structures collected during the simulation, followed by 6,000 steps of steepest descent and conjugate gradient energy minimizations. The trajectory and final models were analyzed by the root mean square deviation (RMSD), which is the distance between the atoms of a reference structure and the atoms of the protein structures along the simulation; the root mean square fluctuation (RMSF), which is the distance between the atoms of the protein structures sampled along the simulation; and the radius of gyration, a measurement of structure compactness. Two geometric criteria were used for detection of the hydrogen bond: the maximum distance between the hydrogen donor atom and the hydrogen acceptor atom was 0.32 nm; and the minimum angle allowed between the hydrogen donor atom, the hydrogen atom, and the hydrogen acceptor atom was 130°. 
+
+Nucleotide sequence accession number. 
+
+The nucleotide sequence of the bla TEM-126 gene was submitted to the GenBank nucleotide sequence database and was assigned accession number AY628175 . 
+
+RESULTS 
+
+Phenotypic characterization of E. coli CF884. 
+
+E. coli CF884 was isolated from the ascitic fluid from a patient admitted to the intensive care unit for acute alcoholic pancreatitis. One month before, this 35-year-old patient had been successfully treated for an episode of nosocomial pneumonia with ciprofloxacin (0.2 g/day), ceftazidime (1 g/day), and metronidazole (0.5 g/day) for 1 week and then with ceftazidime and metronidazole only for an additional 2 weeks. 
+
+A low level of resistance to ceftazidime was revealed by conventional disk diffusion assay and the mini-API and VITEK 2 systems (MIC, 4 μg/ml). The expert system of mini-API was not able to interpret the result, in contrast to the Advanced Expert System of VITEK 2, which identified the resistance phenotype as an ESBL type. ESBL production was confirmed by positive synergy tests with ceftazidime-containing disks, according to the double-disk and combinatory disk methods. E. coli CF884 was also resistant to nalidixic acid, pefloxacin, ciprofloxacin, chloramphenicol, and tetracycline and was susceptible to aminoglycosides. 
+
+Mating-out experiments, isoelectric focusing of β-lactamases, and MICs. 
+
+Ceftazidime resistance was transferred to Escherichia coli C600 by mating-out experiments at a low frequency (10 −6 ). The resulting transconjugant presented a phenotype of resistance to β-lactams similar to that of clinical isolate E. coli CF884. Resistance to chloramphenicol and tetracycline was cotransferred with the resistance to β-lactams. The analysis of plasmid content revealed the transfer of one 180-kb plasmid, designated pCF884. Isoelectric focusing showed that E. coli CF884 and the corresponding transconjugant produced β-lactamases of pI 5.4. 
+
+The MICs of the clinical isolate and of the corresponding transconjugant showed resistance to penicillins (32 to 512 μg/ml) (Table 1 ) and low-level resistance to cephalothin (MICs, 8 to 16 μg/ml) and ceftazidime (MICs, 4 to 8 μg/ml). The MICs of cefuroxime, cefotaxime, aztreonam, cefepime, and cefpirome were closely related to those of E. coli C600, which did not produce a TEM-type β-lactamase. Clavulanate or tazobactam restored susceptibility to penicillins and ceftazidime (Table 1 ). 
+
+TABLE 1. 
+
+β-Lactam MICs for E. coli CF884 and E. coli C600(pCF884), which produce TEM-126, in comparison with those of the E. coli C600 strain 
+
+Substrate MIC (μg/ml) E coli CF884 E coli C600(pCF884) E coli C600 Amoxicillin 512 512 2 Amoxicillin + CLA a 4 8 2 Ticarcillin 512 512 2 Ticarcillin + CLA 4 8 2 Piperacillin 32 32 2 Piperacillin + TZB b 2 2 2 Cephalothin 8 16 4 Cefuroxime 4 4 4 Cefoxitin 4 4 4 Cefotaxime 0.06 0.06 0.06 Cefotaxime + CLA 0.06 0.06 0.06 Ceftazidime 4 8 0.12 Ceftazidime + CLA 0.12 0.25 0.12 Aztreonam 0.12 0.25 0.12 Aztreonam + CLA 0.12 0.12 0.12 Cefepime 0.06 0.12 0.06 Cefpirome 0.12 0.25 0.06 
+
+Open in a new tab 
+
+a 
+CLA, clavulanate at a fixed concentration (2 μg/ml). 
+
+b 
+TZB, tazobactam at a fixed concentration (4 μg/ml). 
+
+DNA sequencing. 
+
+A DNA fragment of 1,064 bp was amplified from the E. coli transconjugant by using primers specific to the TEM-type genes. Sequence analysis revealed that the bla TEM gene differed from bla TEM-1 by two mutations that led to amino acid substitutions: glutamate for aspartate at position 179 and threonine for methionine at position 182. This enzyme is the first documented TEM-type enzyme harboring a mutation at position 179 and was designated TEM-126, in accordance with the nomenclature for TEM-type enzymes ( http://www.lahey.org/studies/webt.html ). The sequence of bla TEM-126 exhibited a pattern of silent mutations, identical to that of bla TEM-1b , and a Pa / Pb promoter, which is responsible for TEM-type enzyme overproduction ( 23 , 24 ). 
+
+Biochemical characterization of TEM-126. 
+
+The TEM-126- and TEM-1-encoding genes were cloned in expression vector pET9a. The corresponding plasmids were designated pET-TEM-126 and pET-TEM-1, respectively. The enzymes were overexpressed in E. coli BL21(DE3) and were purified by fast-performance liquid chromatography. The yield of purified β-lactamases was 1 to 20 mg per liter of culture medium. The rate of purity was estimated to be >95% by Coomassie blue staining of the sodium dodecyl sulfate-polyacrylamide gels (data not shown). 
+
+The kinetic constants of TEM-126 and TEM-1 were determined with the purified enzymes (Table 2 ). The k cat values of TEM-126 for penicillins were three- to fivefold lower than those of TEM-1. The K m values for the penicillins were higher for TEM-126 (60 to 196 μM) than for TEM-1 (15 to 55 μM). Overall, the catalytic efficiency against the penicillins was lower for TEM-126 ( k cat / K m , 0.4 to 7.6 μM −1 · s −1 ) than for TEM-1 ( k cat / K m , 4 to 77 μM −1 · s −1 ). As was observed with the penicillins, the catalytic efficiency against cephalothin was slightly lower for TEM-126 than for TEM-1. However, TEM-126, unlike TEM-1, significantly hydrolyzed ceftazidime ( k cat values, 2 s −1 and ≤0.01 s −1 , respectively). In addition, the K m value of TEM-126 was lower for ceftazidime (82 μM) than for amoxicillin (196 μM) and cefuroxime (178 μM). No catalytic activity was detectable against cefotaxime. 
+
+TABLE 2. 
+
+Kinetic parameters for TEM-126 and TEM-1 β-lactamases 
+
+Substrate TEM-126 TEM-1 k cat (s −1 ) K m (μM) k cat / K m (μM −1 · s −1 ) k cat (s −1 ) K m (μM) k cat / K m (μM −1 · s −1 ) Penicillin G 452 ± 14 60 ± 3 7.6 1,500 ± 120 34 ± 4 44 Amoxicillin 433 ± 28 196 ± 17 2.2 1,125 ± 150 15 ± 2 77 Ticarcillin 43 ± 6 108 ± 11 0.4 135 ± 10 36 ± 4 4 Piperacillin 247 ± 24 80 ± 12 3.1 1,251 ± 70 55 ± 6 23 Cephalothin 38 ± 4 108 ± 15 0.352 165 ± 15 242 ± 12 0.7 Cefuroxime 4.6 ± 0.5 178 ± 5 0.026 ND a ND ND Cefotaxime ≤0.01 ND ND ≤0.01 ND ND Ceftazidime 2.0 ± 0.3 82 ± 10 0.024 ≤0.01 ND ND 
+
+Open in a new tab 
+
+a 
+ND, not determinable. 
+
+TEM-126, like TEM-1, was inhibited by clavulanic acid (IC 50 s, 0.06 μM and 0.08 μM, respectively) and tazobactam (IC 50 s, 0.09 μM and 0.13 μM, respectively). 
+
+Molecular dynamics simulations. 
+
+The free enzymes TEM-126 and the Met182Thr mutant of TEM-1, designated enzyme M182T, and their ceftazidime acyl-enzyme complexes were modeled from crystallographic structures to investigate the role of the Asp179Glu substitution in the extended-spectrum activity of TEM-126. The behaviors of these four molecular models were compared by use of an OPLSAA force field during three independent MDSs of 400 ps at a temperature of 300 K. 
+
+For each model, the three simulations gave similar results. The RMSD of backbone atoms (Fig. 1 ) and the thermodynamic parameters (temperature, pressure, and potential energy [data not shown]) showed that the molecular system was equilibrated after the 200-ps MDS, and hence, the data from the last 200 ps were used for analysis. The radius of gyration and the RMSDs of Cα atoms were similar to those of the crystallographic structure of enzyme M182T and remained stable during the simulation (17.73 ± 0.04 to 17.90 ± 0.03 versus 17.85 Å and 0.71 ± 0.06 to 0.82 ± 0.06 versus 0.68 ± 0.10 Å, respectively), like the RMSFs of Cα atoms (0.45 ± 0.06 to 0.48 ± 0.06 Å) (Table 3 ). The secondary structure was preserved during the simulation (data not shown). The secondary structure elements exhibited low values of RMSFs of Cα atoms, like, for example, residues 231 to 235 of β3 strand and residues 70 to 76 of helix 2 located in the vicinity of the catalytic site (Fig. 2 ). As is usual in the MDSs of proteins, the main contribution to the motion is localized in loops connecting the secondary structure elements (i.e., residues 52 to 54, 99 to 101, 114 to 116, 174 to 176, and 252 to 254). The overall architectures of the active sites were similar for the free enzymes and the acyl-enzyme complexes. The RMSFs of the backbone atoms located in the active site (residues 68 to 73, 130 to 132, 161 to 179, and 234 to 240) showed that the largest fluctuations were located at residues 174 and 175 of the omega loop. 
+
+FIG. 1. 
+
+Open in a new tab 
+
+Time evolution of RMSD of backbone atoms observed in the course of the simulation for the ceftazidime acyl-enzyme intermediate of TEM-126. 
+
+TABLE 3. 
+
+Summary of statistical data for molecular dynamics simulations 
+
+Enzyme Radius of gyration a Cα RMSD b Cα RMSF c TEM-126 17.90 ± 0.03 0.80 ± 0.06 0.46 ± 0.06 TEM-126 + CAZ d 17.75 ± 0.04 0.82 ± 0.06 0.48 ± 0.06 M182T e 17.86 ± 0.04 0.73 ± 0.05 0.47 ± 0.06 M182T + CAZ f 17.73 ± 0.04 0.71 ± 0.06 0.45 ± 0.06 M182T crystal g 17.85 0.68 ± 0.10 
+
+Open in a new tab 
+
+a 
+Average radius of gyration of nonhydrogen atoms (angstroms). 
+
+b 
+RMSD of α-carbon atoms from the minimized starting structures (angstroms). 
+
+c 
+RMSF of α-carbon atoms (angstroms). 
+
+d 
+Ceftazidime (CAZ) acyl-enzyme complex of TEM-126. 
+
+e 
+The Met182Thr mutant of TEM-1 after minimization. 
+
+f 
+Ceftazidime (CAZ) acyl-enzyme complex of M182T. 
+
+g 
+Crystal structure of enzyme M182T (1JWP). 
+
+FIG. 2. 
+
+Open in a new tab 
+
+RMSF of α-carbon atoms observed in the course of the simulation, calculated for each residue of the ceftazidime acyl-enzyme intermediate of TEM-126. The zones corresponding to the major elements of the catalytic cavity are indicated by arrows. 
+
+The lifetime of the hydrogen bonds was calculated during the simulation for residues 179 and 166 of the omega loop and the ceftazidime adduct. In the free and acyl-enzyme forms of enzyme M182T, the carboxyl group of the Asp179 side chain formed four stable hydrogen bonds: one hydrogen bond with the backbone N atom of Asp163 (hydrogen bond lifetime, 100% ± 0.0%) and three hydrogen bonds with Arg164. One interaction bonded the Arg164 backbone N atom (hydrogen bond lifetimes, 83.4% ± 1.2% and 96.9% ± 0.2% for the free and the acyl-enzyme forms of enzyme M182T, respectively), and the other two bonded the Arg164 guanidium group (hydrogen bond lifetimes, 91.9% ± 0.7% and 100% ± 0.0%, respectively). The last two interactions were conserved in the free and the acyl-enzyme forms of TEM-126 (hydrogen bond lifetimes, 98.7% ± 0.2% and 100% ± 0.0%, respectively). However, the Asp179Glu substitution of TEM-126 removed the interactions with the Asp163 and the Arg164 backbone N (hydrogen bond lifetime, 0% ± 0.0%). In addition, the lifetime of the hydrogen bond, which linked the backbone O atom of residue 179 and the backbone N atom of residue 68, was higher for the free and the acyl-enzyme forms of enzyme M182T than for the corresponding forms of TEM-126 (hydrogen bond lifetimes, 39.3% ± 0.2% to 53.9% ± 2.4% versus 4.3% ± 3.2% to 6.3% ± 5.6%). The distance between the two atoms was less favorable for this interaction type in TEM-126 than in the M182T enzyme (Fig. 3A ). 
+
+FIG. 3. 
+
+Open in a new tab 
+
+Distribution of distances during the simulation between the N atom of residue 68 and the O atom of residue 179 (A) and between the Oɛ1 atom of Glu166 and the Nδ2 atom of Asn170 (B). 
+
+The Oɛ1 atom of Glu166 interacted with the Nδ2 atom of Asn170 in the free M182T enzyme and TEM-126 models (hydrogen bond lifetimes, 94.0% ± 0.1% to 99.9% ± 0.0%; distribution of distances, 0.242 to 0.402 nm), as observed in the class A β-lactamase crystallographic structures. This canonical interaction was conserved in the ceftazidime acyl-enzyme complex of TEM-126 (hydrogen bond lifetime, 97.9% ± 0.1%). In contrast, the hydrogen bond between Glu166 and Asn170 disappeared in the ceftazidime acyl-enzyme complex of enzyme M182T (hydrogen bond lifetime, 0.0% ± 0.0%) (Fig. 3B ). 
+
+The overall positioning of the ceftazidime adduct in the M182T and TEM-126 enzymes was consistent with an acyl-enzyme complex. The carbonyl oxygen atom corresponding to the β-lactam ring was located in the oxyanionic hole and interacted with the backbone N atoms of Ala237 (hydrogen bond lifetimes, 97.2% ± 0.4% to 99.9% ± 0.0%) and Ser70 (hydrogen bond lifetimes, 95.0% ± 0.3% to 99.0% ± 0.0%). The conserved carboxyl acid group of the cephem ring interacted with the Oγ of Thr235 and the Nζ of Lys234 (hydrogen bond lifetimes, 84.5% ± 1.2% to 100% ± 0.0%). The amide function of the ceftazidime 7β side chain was hydrogen bonded with the backbone O atom of residue 237 (hydrogen bond lifetimes, 90.6% ± 2.0% to 93.0% ± 0.5%) and the Nδ2 atom of Asn132 (hydrogen bond lifetimes, 70.0% ± 1.4% to 82.0% ± 0.8%). 
+
+MDS average structures were computed from the two acyl-enzyme simulations. The RMSDs, which were calculated from these structures, were 1.07 Å for the Cα atoms of residues 164 to 171 of the omega loop and 1.24 Å for the heavy atoms of the ceftazidime adduct. Their superimposition (Fig. 4 ) revealed a distinct hydrogen bond network, as reported above, and, hence, differences in the positioning of the Arg164 side chain, which is associated with an approximately 1-Å shift of the TEM-126 omega loop (Fig. 4A ), notably at position 167 and in the vicinity of the ceftazidime aminothiazol ring. Thus, the ceftazidime adduct was more deeply inserted in the TEM-126 binding site than in that of enzyme M182T (Fig. 4B ). This accommodation was accompanied by a rotation of the ceftazidime carboxyl propyl group of about 109° toward the solvent. 
+
+FIG. 4. 
+
+Open in a new tab 
+
+Superimposition of the average structures of the omega loop and of the ceftazidime acyl-enzyme complex of the TEM-126 and the M182T enzymes: (A) omega loop and side chains of residues 164, 166, 170, and 179; (B) ceftazidime adduct and side chains of residues 166 and 167. Carbon atoms are orange for TEM-126 and green for enzyme M182T; oxygen atoms are red and nitrogen atoms are blue. The hydrogen bonds are indicated by blue dashes. 
+
+DISCUSSION 
+
+The starting point of this work was the observation of a clinical isolate that exhibited a positive double-disk synergy test result and low-level resistance to ceftazidime (4 μg/ml), associated with an apparent susceptibility to cefuroxime, cefotaxime, cefepime, cefpirome, and aztreonam. The enzyme responsible for this resistance phenotype was a novel TEM-type ESBL, designated TEM-126, which harbors the two substitutions Asp179Glu and Met182Thr. The Met182Thr substitution, which is located far from the active site, has been found in several natural ESBL mutant enzymes. It has been shown by thermodynamic and enzymatic studies that this substitution does not affect β-lactamase activity but acts as a global stabilizer ( 13 , 42 ). The Met182Thr substitution restores the stability lost by substitutions near the active site and, hence, is a rescue substitution for TEM ESBL-type mutants such as TEM-126 ( 13 , 42 ). 
+
+Before the characterization of TEM-126, the substitution at position 179 had never been observed in TEM-type ESBLs, despite 20 years of natural evolution. In vitro evolution experiments did not provide any substitutions at this position either ( 2 , 31 , 37 ). In addition, previous site-directed mutagenesis experiments showed that TEM-1 mutants, which harbor the Asp179Glu substitution, did not confer a significant increase in the level of resistance to ceftazidime ( 40 - 42 ). Surprisingly, this substitution, associated with the mutation Met182Thr, was responsible for the extended-spectrum activity of the unexpected TEM-126 enzyme against ceftazidime. The resistance to ceftazidime was enhanced by the expression of TEM-126-encoding gene from the strong promoter Pa / Pb . 
+
+From the crystal structures of the SHV- and TEM-type penicillinases ( 16 , 21 , 38 ), it is apparent that residue Asp179 interacts strongly with Arg164, forming the neck of the omega loop. This salt bridge is important for the conformation and the stability of the omega loop ( 10 ). Substitutions at position 164 are very common in TEM-type ESBLs, and substitutions at position 179 have frequently been reported in SHV-type ESBLs (i.e., SHV-6, SHV-8, and SHV-24). In these enzymes, the acidic residue Asp179 is replaced by the Ala or Gly neutral residues or the basic residue Asn, which extend the spectrum of activity against extended-spectrum β-lactams. These changes are involved in the extension of substrate specificity to extended-spectrum cephalosporins such as ceftazidime by increasing the omega loop flexibility as the result of a modification of the hydrogen bonds at the neck of this loop ( 21 ). In TEM-126, residue Asp179 is not replaced by a neutral or a basic residue but by a residue closely related to the Asp amino acid, the acidic residue Glu179, which harbors one additional group, CH 2 , in comparison with the side chain of the aspartic acid residue. 
+
+The hydrolytic activity against ceftazidime was 100-fold higher for TEM-126 than for TEM-1 and the TEM mutant Met182Thr ( 42 ). In addition, the K m value for ceftazidime was lower for TEM-126 (82 μM) than for TEM-1 (557 μM) ( 42 ); the TEM mutant Met182Thr (319 μM) ( 42 ); and TEM-12 (240 μM) ( 6 ), which harbors a substitution at position 164. These results suggest that the single addition of one carbon on the side chain of residue 179 significantly improves the catalytic efficiency of TEM-type enzymes against ceftazidime. 
+
+The free and ceftazidime acyl-enzyme forms of TEM-126 and mutant Met182Thr of TEM-1 (designated enzyme M182T) were modeled to investigate the role of residue Glu179 in ceftazidime hydrolysis. In enzyme M182T, the positioning of the omega loop obstructed the deep insertion of the ceftazidime adduct in the active site. This is in accordance with the previous study of Vakulenko et al. ( 40 ), which showed that the poor activity of TEM-1-type penicillinases against expanded-spectrum β-lactams such as ceftazidime was due to steric hindrance by the omega loop of the bulky 7β side chain of these substrates in the active site. Substitution Asp179Glu induced a reorganization of hydrogen bonds in TEM-126 between residues 179 and 164. Two hydrogen bonds, which linked the Glu179 side chain with residues Asp163 and Arg164, were removed during the dynamics simulations. It would be interesting to confirm the hypothesis based on the model, to measure the thermal stability of the TEM-126, and to compare it to the thermal stability of TEM-1 and mutant Met182Thr. The modifications of the hydrogen bonds induced significant behavioral changes in the critical residues of the omega loop, in particular, residues 167 and 166. 
+
+Position 167 of the omega loop is critical for activity against extended-spectrum β-lactams and, notably, against ceftazidime. The replacement of residue Pro167 by the Ser167 or the Thr167 residue results in improved activities of the ESBLs CTX-M-19, CTX-M-23, BPS-1m, and OXY-2-5 against ceftazidime ( 12 , 27 , 32 , 39 ). In TEM-126, there is no substitution at position 167. However, residue Pro167 shifts away from the binding site during the dynamics simulation of TEM-126 ceftazidime acyl-enzyme intermediate as a consequence of the modification of the hydrogen bond network induced by the substitution Asp179Glu. This widening of the opening to the active site facilitated the better accommodation of the bulky 7β functionality of ceftazidime. Consequently, the ceftazidime adduct was more deeply inserted in the catalytic cavity of TEM-126 than in that of enzyme M182T. 
+
+The invariant residues Glu166 and Asn170 are located in the omega loop. The Glu166 and Asn170 residues are tightly bound to each other and to the catalytic water molecule. These interactions maintain the water molecule and allow its activation by the Glu166 residue for nucleophilic attack on the acyl-enzyme intermediate ( 10 , 11 ). In our simulation, the interaction between Glu166 and Asn170 disappeared in the ceftazidime acyl-enzyme intermediate of enzyme M182T as a consequence of an unfavorable displacement of Glu166. In contrast, the ceftazidime acyl-enzyme form of TEM-126 conserved this interaction, which may be more favorable for the efficient activation of the catalytic water. 
+
+In conclusion, we describe a novel TEM-type ESBL which harbors the stabilizing substitution Met182Thr and substitution Asp179Glu. Molecular dynamics simulations suggested that substitution Asp179Glu induces subtle conformational changes of the omega loop. This modification may favor the deep insertion of extended-spectrum β-lactams such as ceftazidime and the correct positioning of the crucial residue Glu166. Overall, these results highlight the remarkable plasticity of TEM enzymes, which can adapt their activity against ceftazidime by the simple addition of one carbon atom in the side chain of one residue of the omega loop. 
+
+Acknowledgments 
+
+We thank Rolande Perroux, Marlene Jan, and Dominique Rubio for technical assistance and Sophie Quevillon-Cheruel for providing us the modified pET9a plasmid. 
+
+This work was supported by the “Programme Hospitalier de Recherche Clinique” (PHRC) from the teaching hospital of Clermont-Ferrand, France, and “Contrat Quadriennal de Recherche” and “Bonus Qualité Recherche” grants from the Ministère de l'Education Nationale, de l'Enseignement Supérieur et de la Recherche, Paris, France. 
+
+REFERENCES 
+
+1. Ambler, R. P., A. F. Coulson, J. M. Frere, J. M. Ghuysen, B. Joris, M. Forsman, R. C. Levesque, G. Tiraby, and S. G. Waley. 1991. A standard numbering scheme for the class A beta-lactamases. Biochem. J. 276(Pt 1) : 269-270. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+2. Barlow, M., and B. G. Hall. 2002. Predicting evolutionary potential: in vitro evolution accurately reproduces natural evolution of the Tem beta-lactamase. Genetics 160 : 823-832. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Berendsen, H. J. C., D. van der Spoel, and R. van Drunen. 1995. GROMACS: A message-passing parallel molecular dynamics implementation. Comp. Phys. Commun. 91 : 43-56. [ Google Scholar ] 
+
+4. Bonnet, R., J. L. Sampaio, C. Chanal, D. Sirot, C. De Champs, J. L. Viallard, R. Labia, and J. Sirot. 2000. A novel class A extended-spectrum beta-lactamase (BES-1) in Serratia marcescens isolated in Brazil. Antimicrob. Agents Chemother. 44 : 3061-3068. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Bryskier, A. (ed.). 1999. Antibiotiques agents antibactériens et antifongiques. Ellipses Edition Marketing, Paris, France. 
+
+6. Chanal, C. M., D. L. Sirot, A. Petit, R. Labia, A. Morand, J. L. Sirot, and R. A. Cluzel. 1989. Multiplicity of TEM-derived beta-lactamases from Klebsiella pneumoniae strains isolated at the same hospital and relationships between the responsible plasmids. Antimicrob. Agents Chemother. 33 : 1915-1920. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+7. Chen, Y., J. Delmas, J. Sirot, B. Shoichet, and R. Bonnet. 2005. Atomic resolution structures of CTX-M beta-lactamases: extended spectrum activities from increased mobility and decreased stability. J. Mol. Biol. 348 : 349-362. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+8. Chen, Y., B. Shoichet, and R. Bonnet. 2005. Structure, function, and inhibition along the reaction coordinate of CTX-M β-lactamases. J. Am. Chem. Soc. 127 : 5423-5434. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Darden, T., D. York, and L. Pedersen. 1993. Particle mesh Ewald-an N log(n) method for Ewald sums in large systems. J. Chem. Phys. 98 : 10089-10092. [ Google Scholar ] 
+
+10. Herzberg, O. 1991. Refined crystal structure of beta-lactamase from Staphylococcus aureus PC1 at 2.0 Å resolution. J. Mol. Biol. 217 : 701-719. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+11. Herzberg, O., and J. Moult. 1987. Bacterial resistance to beta-lactam antibiotics: crystal structure of beta-lactamase from Staphylococcus aureus PC1 at 2.5 Å resolution. Science 236 : 694-701. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+12. Ho, P. L., T. K. Cheung, W. C. Yam, and K. Y. Yuen. 2002. Characterization of a laboratory-generated variant of BPS beta-lactamase from Burkholderia pseudomallei that hydrolyses ceftazidime. J. Antimicrob. Chemother. 50 : 723-726. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+13. Huang, W., and T. Palzkill. 1997. A natural polymorphism in beta-lactamase is a global suppressor. Proc. Natl. Acad. Sci. USA 94 : 8801-8806. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+14. Humphrey, W., A. Dalke, and K. Schulten. 1996. VMD: visual molecular dynamics. J. Mol. Graph. 14 : 33-38, 27-28. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+15. Jarlier, V., M. H. Nicolas, G. Fournier, and A. Philippon. 1988. Extended broad-spectrum beta-lactamases conferring transferable resistance to newer beta-lactam agents in Enterobacteriaceae : hospital prevalence and susceptibility patterns. Rev. Infect. Dis. 10 : 867-878. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+16. Jelsch, C., L. Mourey, J. M. Masson, and J. P. Samama. 1993. Crystal structure of Escherichia coli TEM1 beta-lactamase at 1.8 Å resolution. Proteins 16 : 364-383. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+17. Jorgensen, W., J. Chandrasekhar, J. Madura, and L. Klein. 1983. Comparison of simple potential functions for simulating liquid water. J. Chem. Phys. 79 : 926-935. [ Google Scholar ] 
+
+18. Jorgensen, W. L., D. S. Maxwell, and J. Tirado-Rives. 1996. Development and testing of the OPLS all-atom force field on conformational energetics and properties of organic liquids. J. Am. Chem. Soc. 118:11225-11236. [ Google Scholar ] 
+
+19. Kado, C. I., and S. T. Liu. 1981. Rapid procedure for detection and isolation of large and small plasmids. J. Bacteriol. 145 : 1365-1373. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. Kliebe, C., B. A. Nies, J. F. Meyer, R. M. Tolxdorff-Neutzling, and B. Wiedemann. 1985. Evolution of plasmid-coded resistance to broad-spectrum cephalosporins. Antimicrob. Agents Chemother. 28 : 302-307. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+21. Knox, J. R. 1995. Extended-spectrum and inhibitor-resistant TEM-type beta-lactamases: mutations, specificity, and three-dimensional structure. Antimicrob. Agents Chemother. 39 : 2593-2601. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+22. Labia, R., J. Andrillon, and F. Le Goffic. 1973. Computerized microacidimetric determination of beta lactamase Michaelis-Menten constants. FEBS Lett. 33 : 42-44. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+23. Lartigue, M. F., V. Leflon-Guibout, L. Poirel, P. Nordmann, and M. H. Nicolas-Chanoine. 2002. Promoters P3, Pa/Pb, P4, and P5 upstream from bla TEM genes and their relationship to beta-lactam resistance. Antimicrob. Agents Chemother. 46 : 4035-4037. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+24. Leflon-Guibout, V., B. Heym, and M. Nicolas-Chanoine. 2000. Updated sequence information and proposed nomenclature for bla TEM genes and their promoters. Antimicrob. Agents Chemother. 44 : 3232-3234. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Leulliot, N., S. Quevillon-Cheruel, I. Sorel, M. Graille, P. Meyer, D. Liger, K. Blondeau, J. Janin, and H. van Tilbeurgh. 2004. Crystal structure of yeast allantoicase reveals a repeated jelly roll motif. J. Biol. Chem. 279 : 23447-23452. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+26. Lindahl, E., B. Hess, and D. van der Spoel. 2001. GROMACS 3.0: a package for molecular simulation and trajectory analysis. J. Mol. Model. 7 : 306-317. [ Google Scholar ] 
+
+27. Mammeri, H., L. Poirel, and P. Nordmann. 2003. In vivo selection of a chromosomally encoded beta-lactamase variant conferring ceftazidime resistance in Klebsiella oxytoca . Antimicrob. Agents Chemother. 47 : 3739-3742. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Matagne, A., J. Lamotte-Brasseur, and J. M. Frere. 1998. Catalytic properties of class A beta-lactamases: efficiency and diversity. Biochem. J. 330(Pt 2) : 581-598. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+29. Maveyraud, L., D. Golemi-Kotra, A. Ishiwata, O. Meroueh, S. Mobashery, and J. P. Samama. 2002. High-resolution X-ray structure of an acyl-enzyme species for the class D OXA-10 beta-lactamase. J. Am. Chem. Soc. 124 : 2461-2465. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+30. Minasov, G., X. Wang, and B. K. Shoichet. 2002. An ultrahigh resolution structure of TEM-1 beta-lactamase suggests a role for Glu166 as the general base in acylation. J. Am. Chem. Soc. 124 : 5333-5340. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+31. Orencia, M. C., J. S. Yoon, J. E. Ness, W. P. Stemmer, and R. C. Stevens. 2001. Predicting the emergence of antibiotic resistance by directed evolution and structural analysis. Nat. Struct. Biol. 8 : 238-242. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+32. Poirel, L., T. Naas, I. Le Thomas, A. Karim, E. Bingen, and P. Nordmann. 2001. CTX-M-type extended-spectrum beta-lactamase that hydrolyzes ceftazidime through a single amino acid substitution in the omega loop. Antimicrob. Agents Chemother. 45 : 3355-3361. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+33. Ryckaert, J., G. Ciccotti, and H. Berendsen. 1977. Numerical integration of the Cartesian equations of motion of a system with constraints: molecular dynamics of n -alkanes. J. Comput. Phys. 23 : 327-341. [ Google Scholar ] 
+
+34. Sambrook, J., E. F. Fritsch, and T. Maniatis. 1989. Molecular cloning: a laboratory manual, vol. 1, 2nd ed., p. 1659. Cold Spring Harbor Laboratory Press, Cold Spring Harbor, N.Y. [ Google Scholar ] 
+
+35. Sanger, F., S. Nicklen, and A. R. Coulson. 1977. DNA sequencing with chain-terminating inhibitors. Proc. Natl. Acad. Sci. USA 74 : 5463-5467. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+36. Sirot, D., J. Sirot, R. Labia, A. Morand, P. Courvalin, A. Darfeuille-Michaud, R. Perroux, and R. Cluzel. 1987. Transferable resistance to third-generation cephalosporins in clinical isolates of Klebsiella pneumoniae : identification of CTX-1, a novel beta-lactamase. J. Antimicrob. Chemother. 20 : 323-334. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+37. Stemmer, W. P. 1994. Rapid evolution of a protein in vitro by DNA shuffling. Nature 370 : 389-391. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+38. Strynadka, N. C., H. Adachi, S. E. Jensen, K. Johns, A. Sielecki, C. Betzel, K. Sutoh, and M. N. James. 1992. Molecular structure of the acyl-enzyme intermediate in beta-lactam hydrolysis at 1.7 Å resolution. Nature 359 : 700-705. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+39. Sturenburg, E., A. Kuhn, D. Mack, and R. Laufs. 2004. A novel extended-spectrum beta-lactamase CTX-M-23 with a P167T substitution in the active-site omega loop associated with ceftazidime resistance. J. Antimicrob. Chemother. 54 : 406-409. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+40. Vakulenko, S. B., P. Taibi-Tronche, M. Toth, I. Massova, S. A. Lerner, and S. Mobashery. 1999. Effects on substrate profile by mutational substitutions at positions 164 and 179 of the class A TEM(pUC19) beta-lactamase from Escherichia coli . J. Biol. Chem. 274 : 23052-23060. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+41. Vakulenko, S. B., M. Toth, P. Taibi, S. Mobashery, and S. A. Lerner. 1995. Effects of Asp-179 mutations in TEMpUC19 beta-lactamase on susceptibility to beta-lactams. Antimicrob. Agents Chemother. 39 : 1878-1880. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+42. Wang, X., G. Minasov, and B. K. Shoichet. 2002. Evolution of an antibiotic resistance enzyme constrained by stability and activity trade-offs. J. Mol. Biol. 320 : 85-95. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (239.2 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

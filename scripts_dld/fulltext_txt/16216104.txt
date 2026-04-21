@@ -261,6 +261,9 @@ License: publisher_api_candidate
          </xocs:oa-sponsor>
       </xocs:open-access>
       <xocs:open-research/>
+      <xocs:third-party>
+         <xocs:third-party-status>0</xocs:third-party-status>
+      </xocs:third-party>
       <xocs:copyright-info>
          <xocs:cp-license-lines>
             <xocs:cp-license-line lang="en"/>

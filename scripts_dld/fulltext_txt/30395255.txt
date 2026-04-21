@@ -5,8 +5,8 @@ Title: VFDB 2019: a comparative pathogenomic platform with an interactive web in
 Journal: Nucleic acids research
 PubDate: 2019 Jan 8
 Authors: Liu B, Zheng D, Jin Q, Chen L, Yang J
-Source: PMC_EFetch_XML
-License: pmc_free_to_read
+Source: PMC_OA_Bulk_XML
+License: pmc_oa_bulk
 
 ## ABSTRACT
 Abstract The virulence factor database (VFDB, http://www.mgc.ac.cn/VFs/ ) is devoted to providing the scientific community with a comprehensive warehouse and online platform for deciphering bacterial pathogenesis. The various combinations, organizations and expressions of virulence factors (VFs) are responsible for the diverse clinical symptoms of pathogen infections. Currently, whole-genome sequencing is widely used to decode potential novel or variant pathogens both in emergent outbreaks and in routine clinical practice. However, the efficient characterization of pathogenomic compositions remains a challenge for microbiologists or physicians with limited bioinformatics skills. Therefore, we introduced to VFDB an integrated and automatic pipeline, VFanalyzer, to systematically identify known/potential VFs in complete/draft bacterial genomes. VFanalyzer first constructs orthologous groups within the query genome and preanalyzed reference genomes from VFDB to avoid potential false positives due to paralogs. Then, it conducts iterative and exhaustive sequence similarity searches among the hierarchical prebuilt datasets of VFDB to accurately identify potential untypical/strain-specific VFs. Finally, via a context-based data refinement process for VFs encoded by gene clusters, VFanalyzer can achieve relatively high specificity and sensitivity without manual curation. In addition, a thoroughly optimized interactive web interface is introduced to present VFanalyzer reports in comparative pathogenomic style for easy online analysis.

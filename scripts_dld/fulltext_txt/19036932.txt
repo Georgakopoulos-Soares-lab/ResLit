@@ -1,0 +1,347 @@
+PMID: 19036932
+PMCID: PMC2643690
+DOI: 10.1128/JCM.01550-08
+Title: Development and evaluation of a real-time PCR assay for detection of Klebsiella pneumoniae carbapenemase genes.
+Journal: Journal of clinical microbiology
+PubDate: 2009 Feb
+Authors: Cole JM, Schuetz AN, Hill CE, Nolte FS
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Development and Evaluation of a Real-Time PCR Assay for Detection of Klebsiella pneumoniae Carbapenemase Genes - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+J Clin Microbiol 
+. 2008 Nov 26;47(2):322–326. doi: 10.1128/JCM.01550-08 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Development and Evaluation of a Real-Time PCR Assay for Detection of Klebsiella pneumoniae Carbapenemase Genes ▿ 
+
+Justin M Cole 
+
+Justin M Cole 
+
+1 Department of Pathology and Laboratory Medicine, Emory University School of Medicine, Atlanta, Georgia 30322 
+
+Find articles by Justin M Cole 
+
+1, † , Audrey N Schuetz 
+
+Audrey N Schuetz 
+
+1 Department of Pathology and Laboratory Medicine, Emory University School of Medicine, Atlanta, Georgia 30322 
+
+Find articles by Audrey N Schuetz 
+
+1, ‡ , Charles E Hill 
+
+Charles E Hill 
+
+1 Department of Pathology and Laboratory Medicine, Emory University School of Medicine, Atlanta, Georgia 30322 
+
+Find articles by Charles E Hill 
+
+1 , Frederick S Nolte 
+
+Frederick S Nolte 
+
+1 Department of Pathology and Laboratory Medicine, Emory University School of Medicine, Atlanta, Georgia 30322 
+
+Find articles by Frederick S Nolte 
+
+1, * 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+1 Department of Pathology and Laboratory Medicine, Emory University School of Medicine, Atlanta, Georgia 30322 
+
+* 
+Corresponding author. Present address: Medical University of South Carolina, Pathology and Laboratory Medicine, 165 Ashley Ave., Suite 309, P.O. Box 250908, Charleston, SC 29425. Phone: (843) 792-5020. Fax: (843) 792-7060. E-mail: nolte@musc.edu 
+
+† 
+Present address: University of Washington, Department of Laboratory Medicine, Seattle, WA 98109. 
+
+‡ 
+Present address: The New York-Presbyterian Hospital-Weill Cornell Medical College, New York, NY 10065. 
+
+Received 2008 Aug 11; Revised 2008 Oct 8; Accepted 2008 Nov 19; Issue date 2009 Feb. 
+
+Copyright © 2009, American Society for Microbiology 
+
+PMC Copyright notice 
+
+PMCID: PMC2643690  PMID: 19036932 
+
+Abstract 
+
+We developed a novel real-time PCR assay to detect Klebsiella pneumoniae carbapenemases (KPCs) and used this assay to screen clinical isolates of K. pneumoniae and Klebsiella oxytoca for the presence of bla KPC genes. The TaqMan real-time PCR assay amplified a 399-bp product from the bla KPC gene. The amplicon was designed so that the genes for isoenzymes KPC-1, -2, and -3 could be easily distinguished by subsequent restriction digestion of the amplicon with the enzymes BstNI and RsaI. The assay was validated with reference strains obtained from the Centers for Disease Control and Prevention that contained each of the three described isoenzymes and 69 extended-spectrum β-lactamase-producing clinical isolates (39 K. pneumoniae and 30 K. oxytoca isolates). Subsequently, the bla KPC PCR assay was used to confirm the presence of bla KPC genes in any meropenem-resistant Klebsiella spp. The PCR assay detected bla KPC in all of the reference strains, in 6 of 7 meropenem-resistant isolates, and in 0 of 62 meropenem-susceptible clinical isolates. The PCR assay was then used to confirm the presence of bla KPC in an additional 20 meropenem-resistant isolates from 16 patients. Restriction digestion of the PCR amplicons identified two bla KPC gene variants in our patient population: 9 isolates with C and 17 with T at nucleotide 944, consistent with bla KPC-2 and bla KPC-3 , respectively. The real-time PCR assay is a rapid and accurate method to detect all KPC isoenzymes and was useful in documenting the presence and dissemination of KPC-producing strains in our patient population. 
+
+Carbapenems are typically the drugs of choice to treat serious infections caused by extended-spectrum β-lactamase (ESBL)-producing Klebsiella pneumoniae . This is due both to their demonstrated efficacy in clinical trials and to the fact that, until recently, carbapenem resistance in K. pneumoniae has been rare ( 8 , 9 , 18 , 30 ). Although several mechanisms of carbapenem resistance in K. pneumoniae have been reported, most of these mechanisms, including the presence of AmpC enzymes in combination with porin mutations ( 3 ), the production of metallo-β-lactamases such as IMP-1/IMP-8 ( 12 , 27 ), or the expression of class D β-lactamases such as OXA-48 ( 19 ), have not widely emerged in clinical isolates. 
+
+However, beginning with the initial description of a novel K. pneumoniae carbapenemase (KPC) called KPC-1 from an isolate of K. pneumoniae in 2001 ( 28 ), carbapenem resistance in Klebsiella has been rapidly increasing. KPC enzymes have become endemic in the Northeastern/Mid-Atlantic region of the United States, with surveillance cultures of hospitals in the New York City area reporting rates of carbapenem resistance in K. pneumoniae isolates ranging up to 24% ( 6 ). KPCs have now been reported throughout many regions of North America, as well as in South America ( 23 ), Greece ( 7 ), Israel ( 13 ), France ( 16 ), and China ( 24 ). The rapid spread of KPC-positive K. pneumoniae strains throughout North America poses a serious problem for clinicians and laboratory investigators alike. Clinically, these organisms tend to be highly resistant to multiple classes of antibiotics, and, not surprisingly, previously reported outbreaks of KPCs have been associated with extremely high mortality rates ( 5 , 26 ). 
+
+In addition, KPCs have been found in bacteria other than K. pneumonia , including Klebsiella oxytoca, Enterobacter, Citrobacter, Serratia, Pseudomonas aeruginosa, Escherichia coli, Proteus mirabilis , and Salmonella ( 9 , 11 , 15 , 17 , 20 , 22 , 29 ). As several studies have demonstrated bla KPC genes to be flanked by transposable elements, dissemination to other gram-negative rods remains an ongoing, significant concern ( 4 , 15 , 23 , 24 ). 
+
+There are three well-characterized isoenzymes of KPC; KPC-2 was reported to differ from KPC-1 by a single nucleotide change leading to a single amino acid change, and KPC-3 was described to differ from KPC-2 by yet another single nucleotide/amino acid substitution ( 15 , 21 , 26 ). Although this nomenclature has recently been revised with the published correction of the initial KPC-1 sequence, which reveals that KPC-1 and KPC-2, in fact, have identical sequences ( 28 ), the terminology prevalent in the literature has been used here (see below). Recently, sequences for four additional putative bla KPC genes, bla KPC-4 , bla KPC-5 , bla KPC-6, and bla KPC-7 , have been entered into the GenBank database ( http://www.ncbi.nlm.nih.gov/GenBank/index.html ). Kinetic studies performed on KPCs demonstrate that they hydrolyze penicillins, extended-spectrum cephalosporins, and carbapenems ( 28 , 29 ). Although KPC-3 has a slightly higher catalytic efficiency against carbapenems than KPC-1 and KPC-2, the clinical significance of this is uncertain ( 1 ). Similar to ESBLs, KPC enzymes do not hydrolyze cephamycins and can be inhibited by the common β-lactamase inhibitor clavulanic acid. 
+
+Bacteria producing KPC enzymes are typically resistant to multiple classes of antibiotics and are a major public health concern. In addition, several groups have reported that KPC-producing organisms can be incorrectly identified as susceptible to carbapenems by automated antimicrobial susceptibility test systems ( 2 , 6 ). Because of the frequent use of carbapenems to treat drug-resistant isolates of K. pneumoniae , this error can have serious clinical consequences. Other laboratory methods to screen for, or confirm, carbapenemase production include the modified Hodge test ( 14 ), CHROMagar KPC medium ( 20 ), and PCR for bla KPC genes ( 10 ). In this paper, we describe the development and verification of a novel real-time assay to detect and differentiate bla KPC genes and the use of this assay to test clinical isolates of Klebsiella spp. for the presence of these genes in our patient population. 
+
+MATERIALS AND METHODS 
+
+Bacterial strains. 
+
+Reference strains of K. pneumoniae containing KPC-1, KPC-2, and KPC-3 were kindly provided by Jean Patel, Centers for Disease Control and Prevention, Atlanta, GA. Clinical isolates were obtained from specimens submitted to the Emory University Hospital Microbiology Laboratory from patients located in two university hospitals, Emory University Hospital and Emory Crawford Long Hospital, and a geriatric facility, Wesley Woods Hospital, from October 2006 through November 2007. 
+
+Antimicrobial susceptibility testing. 
+
+Susceptibility to meropenem and imipenem was determined with overnight breakpoint MIC panels (MicroScan; Siemens AG, Munich, Germany). Full-range ESBL confirmation panels were used for isolates with ceftazidime MICs of >1 μg/ml (MicroScan). 
+
+KPC real-time PCR assay. 
+
+A TaqMan real-time PCR assay was developed to amplify a 399-bp product from all KPC isoenzymes. A schematic of the assay design is shown in Fig. 1 . The amplicon was selected so that the bla KPC-1 , bla KPC-2 , and bla KPC-3 could be easily distinguished by subsequent restriction digestion with the enzymes BstNI and RsaI. In brief, bacterial plasmid DNA was isolated from 2-ml cultures using QIAprep miniprep kits (Qiagen, Germantown, MD). Real-time PCR amplification and detection were performed on a LightCycler instrument (Roche, Indianapolis, IN) using the following primers and probe: forward primer, 5′-TCTGGACCGCTGGGAGCTGG-3′ (500 nM final concentration); reverse primer, 5′-TGCCCGTTGACGCCCAATCC-3′ (500 nM final concentration); probe, 5′-FAM-CGCGCGCCGTGACGGAAAGC-TAMRA-3′ (final concentration, 250 nM; FAM is 6-carboxyfluorescein and TAMRA is 6-carboxytetramethylrhodamine). The 5′ base of the forward and reverse primers corresponds to the nucleotide positions 610 and 1008, respectively, of bla KPC-1 (GenBank accession no. AF297554 ). Amplification was performed using recombinant Taq Polymerase (Qiagen) at a final magnesium concentration of 2 mM. The following cycling conditions were used: 95 o for 2 min, followed by 35 cycles of 94°C for 2 s, 62°C for 10 s, and 72°C for 15 s. The amplicons from KPC-positive samples were then digested at 48°C for 1 h in RsaI and BstNI (New England Biolabs, Ipswitch, MA) using NEB buffer 2 (New England Biolabs) and electrophoresed on a 2% agarose gel to differentiate bla KPC-1 , bla KPC-2 , and bla KPC-3 . The restriction endonucleases were selected based on the published sequences for these genes ( 21 , 26 , 28 , 29 ). The nucleotide sequence for KPC-2 differed from KPC-1 by a single nucleotide at position 650 (A→G), and the sequence for KPC-3 differed from KPC-2 by a single nucleotide at position 944 (C→T) according to the literature at the time the assay was designed. 
+
+FIG. 1. 
+
+Open in a new tab 
+
+Real-time PCR assay for bla KPC . Real-time PCR using a TaqMan probe generates a 399-bp amplicon for all bla KPC genes. Amplicons from positive samples can be digested with BstNI and RsaI to detect the nucleotide polymorphisms in the PCR amplicon reported for bla KPC-1 , bla KPC-2 , and bla KPC-3 at positions 650 and 944 corresponding to GenBank accession no. AF297554. Based on the above sequence polymorphisms, restriction endonuclease digestion of the PCR amplicons should yield fragments of 359 bp and 40 bp for KPC-2 and 295 bp, 64 bp, and 40 bp for KPC-3. The KPC-1 amplicon is not cleaved by BstNI and RsaI. 
+
+For initial verification of the bla KPC PCR assay, the three reference strains and 69 ESBL-positive clinical isolates of Klebsiella spp. (39 K. pneumoniae and 30 K. oxytoca isolates) collected between 1 November 2006 and 15 March 2007 were tested. After the assay was verified, all clinical isolates of Klebsiella demonstrating phenotypic resistance to meropenem were tested for the presence of a bla KPC gene by PCR. Positive PCR results were confirmed on a subset of five isolates by nucleic acid sequencing of the amplicon. 
+
+RESULTS 
+
+Assay conditions were optimized using control strains of KPC-1, KPC-2, and KPC-3 provided by the Centers for Disease Control and Prevention. During this process, it was discovered that the KPC-1 and KPC-2 amplicons digested identically with RsaI and BstNI. This finding was explained by the published correction describing an error in the initial sequencing of KPC-1, indicating that the sequences of KPC-1 and KPC-2 are identical ( 28 ). After assay optimization, verification was performed using 69 ESBL-positive clinical isolates of Klebsiella spp. collected from November 2006 to March 2007. Of the nine isolates positive for the bla KPC gene, one, the K. pneumoniae KPC-2 reference strain, was susceptible to meropenem (MIC ≤ 8 μg/ml), and eight were resistant (MIC > 8 μg/ml). Of 63 isolates negative for the bla KPC gene, 62 were meropenem susceptible, and 1 (a K. oxytoca clinical isolate) was resistant. Overall, there was 98.5% concordance between the phenotypic resistance to meropenem and the real-time KPC PCR assay results. Seven isolates from four different patients were resistant to meropenem (five K. pneumoniae and two K. oxytoca isolates), and all but one isolate of K. oxytoca contained a KPC gene, as determined by PCR. All of the meropenem-susceptible clinical isolates were negative in the KPC PCR assay. However, the reference strain identified as KPC-1 was susceptible to meropenem, as determined with the MicroScan instrument. 
+
+Following assay verification, we used our real-time KPC PCR assay both to confirm that carbapenem resistance in Klebsiella spp. was due to production of a KPC and to monitor the presence and spread of KPC-carrying organisms within the Emory University Healthcare System (EUHCS). From October 2006 to November 2007, we confirmed the presence of bla KPC genes in 26 isolates of Klebsiella spp. from 19 patients in all three hospitals that comprise EUHCS. Other than a single isolate of K. oxytoca , all bla KPC- containing isolates belonged to K. pneumoniae . The KPC-producing strains were isolated from nine urine, five wound, two blood, four respiratory, three bile, and three catheter tip cultures. We could confirm the presence of an ESBL in 19 of 26 (73%) of the KPC isolates. 
+
+Restriction endonuclease digestion of the PCR amplicons identified two bla KPC gene variants in our patient population: 9 isolates with C and 17 with T at nucleotide 944, consistent with bla KPC-2 and bla KPC-3 , respectively. Nucleic acid sequencing of five bla KPC-2 amplicons confirmed the nucleotide substitution predicted by the restriction endonuclease digestion fragment length polymorphism (data not shown). Strains containing the variant consistent with KPC-2 were obtained exclusively from patients at Emory University Hospital while strains containing the variant consistent with KPC-3 were isolated only from patients at Wesley Woods and Emory Crawford Long hospitals. 
+
+DISCUSSION 
+
+The identification of isolates with KPCs remains challenging due to the difficulty that many methods have in correctly characterizing these isolates as carbapenem resistant when meropenem and imipenem are used. Although ertapenem is more sensitive for detection of carbapenem resistance due to KPCs, this agent is not available on all automated susceptibility platforms. In addition, ertapenem is not very specific for KPC production, especially if carbapenemase production is uncommon, so isolates that are ertapenem resistant require additional confirmatory testing to demonstrate the presence of a KPC ( 25 ). Ertapenem resistance does not necessarily predict resistance to other carbapenems for isolates with other mechanisms of resistance, such as the presence of CTX-M ESBL along with impermeability and/or increased efflux ( 25 ). The modified Hodge test can confirm the presence of carbapenemases but does not specifically identify the enzyme class. Alternatively, laboratories could confirm the carbapenemase with a PCR for bla KPC genes, which has the added benefit of confirming that the enzyme is present. 
+
+In this study, we describe a real-time PCR designed to detect and characterize genes encoding the different KPC isoenzymes. Using this assay, we documented for the first time the presence of isolates producing KPCs in the Atlanta, GA, area and demonstrated the spread of these strains throughout EUHCS. Although KPC-producing strains of Klebsiella are endemic in the New York City area, strains are being increasingly recognized throughout the United States. To our knowledge, this is the first published report of KPC-producing Klebsiell a isolated from patients in our area. 
+
+Recently, Hindiyeh et al. ( 10 ) described the development and verification of a real-time PCR assay for detection of bla KPC genes directly in perianal swabs. Carbapenem-resistant organisms, all belonging to K. pneumoniae , were isolated from 25.1% of 187 perianal samples, while PCR assays detected bla KPC-3 genes in 28.9% of the samples. Although direct detection of bla KPC by PCR may shorten the time to identify patients colonized or infected with carbapenem-resistant organisms and may be more sensitive than culture, it does not allow identification of the bacterial host of the resistance gene or detect other mechanisms of carbapenem resistance. 
+
+Our initial verification study was performed using only ESBL-positive organisms since this is the phenotype most often described for Klebsiella with bla KPC genes. However, with further experience, we identified several KPC isolates with high levels of extended-spectrum cephalosporin resistance that were not confirmed as ESBLs. The presence of multiple β-lactamases can obscure ESBLs, and this observation highlights the need to test any isolate with resistance to extended-spectrum cephalosporins for carbapenemases. 
+
+We found a single meropenem-resistant isolate of K. oxytoca that was bla KPC negative in our assay. Although we did not determine the mechanism of resistance in this isolate, the most likely alternative mechanism of resistance is the combination of an ESBL enzyme with a porin loss ( 2 ). 
+
+In our verification study, meropenem screening on the MicroScan failed to detect meropenem resistance in one out of nine KPC-positive isolates. Although our sample size was small, the sensitivity of meropenem as an indicator of KPC-mediated resistance in our study (89%) was similar to the value (84%) reported by Anderson et al. ( 2 ). With more experience, we identified two additional patients with bla KPC -positive K. pneumoniae isolates that were called meropenem susceptible by the MicroScan. The presence of the bla KPC genes in isolates in the absence of phenotypic resistance to meropenem could be due to a lack of gene expression but more likely is due to problems associated with meropenem broth dilution MIC determinations. The reason for false susceptibility to meropenem is not completely understood; however, there is a pronounced inoculum effect on MIC determinations for meropenem and imipenem with some KPC-producing Klebsiella spp. ( 6 ). No inoculum-dependent effect has been reported for ertapenem, and it is now the preferred agent for detection of KPC-producing isolates. The limitations of routine susceptibility tests to detect KPCs may have significant clinical consequences due to the common use of carbapenems to treat infections due to ESBL-producing Klebsiella spp. 
+
+Molecular detection of bla KPC genes by PCR provides laboratories with a means to quickly identify the presence of this important resistance determinant. Considering the demonstrated potential for rapid horizontal and vertical transmission of these genes, prompt recognition is important to controlling their spread. 
+
+After this study was completed, sequences for additional bla KPC genes (KPC-4, KPC-5, KPC-6, and KPC-7) were deposited in the GenBank database. To our knowledge, descriptions of these new isoenzymes have not been published, and the sequences have not been confirmed. In addition, the geographic distribution of isolates with these newly described carbapenemases has not been defined. Based on analysis of the GenBank sequences, our primers and probes should amplify and detect all of the described bla KPC genes since no polymorphic bases were found at the primer and probe binding sites. 
+
+However, the informative single nucleotide polymorphism at position 944 (C→T) that we thought would differentiate bla KPC-2 from bla KPC-3 is shared with the other recently described variants. The nucleotide at position 944 is C for KPC-2, -4, -5, and -6, and it is T for KPC-3 and -7. Additional polymorphisms are reported to occur at positions 237, 438, and 846 for KPC-4, KPC-5, KPC-6, and KPC-7. All of the described nucleotide changes result in amino acid substitutions in the protein. As a consequence, we are unable to say with certainty that the genes detected in our isolates were bla KPC-2 and bla KPC-3 . Although we were unable to unequivocally identify which of the bla KPC genes were detected in our isolates, the restriction fragment length polymorphism of the PCR amplicon did reveal the introduction and spread of two distinct bla KPC gene variants in our hospital system. These variants are most likely bla KPC-2 and bla KPC-3 since these are the most common in the United States. 
+
+Identifying carbapenem resistance due to production of KPCs remains a challenge for clinical laboratories using conventional and automated susceptibility test systems. The real-time PCR assay described here provides a useful tool to rapidly and accurately detect bla KPC genes and the emergence of KPC-mediated resistance. Accurate and timely identification of this resistance gene is an important first step in controlling its spread. 
+
+Footnotes 
+
+▿ 
+Published ahead of print on 26 November 2008. 
+
+REFERENCES 
+
+1. Alba, J., Y. Ishii, K. Thomson, E. S. Moland, and K. Yamaguchi. 2005. Kinetics study of KPC-3, a plasmid-encoded class A carbapenem-hydrolyzing beta-lactamase. Antimicrob. Agents Chemother. 494760-4762. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+2. Anderson, K. F., D. R. Lonsway, J. K. Rasheed, J. Biddle, B. Jensen, L. K. McDougal, R. B. Carey, A. Thompson, S. Stocker, B. Limbago, and J. B. Patel. 2007. Evaluation of methods to identify the Klebsiella pneumoniae carbapenemase in Enterobacteriaceae . J. Clin. Microbiol. 452723-2725. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Bradford, P. A., C. Urban, N. Mariano, S. J. Projan, J. J. Rahal, and K. Bush. 1997. Imipenem resistance in Klebsiella pneumoniae is associated with the combination of ACT-1, a plasmid-mediated AmpC beta-lactamase, and the loss of an outer membrane protein. Antimicrob. Agents Chemother. 41563-569. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+4. Bratu, S., S. Brooks, S. Burney, S. Kochar, J. Gupta, D. Landman, and J. Quale. 2007. Detection and spread of Escherichia coli possessing the plasmid-borne carbapenemase KPC-2 in Brooklyn, New York. Clin. Infect. Dis. 44972-975. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+5. Bratu, S., D. Landman, R. Haag, R. Recco, A. Eramo, M. Alam, and J. Quale. 2005. Rapid spread of carbapenem-resistant Klebsiella pneumoniae in New York City: a new threat to our antibiotic armamentarium. Arch. Intern. Med. 1651430-1435. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+6. Bratu, S., M. Mooty, S. Nichani, D. Landman, C. Gullans, B. Pettinato, U. Karumudi, P. Tolaney, and J. Quale. 2005. Emergence of KPC-possessing Klebsiella pneumoniae in Brooklyn, New York: epidemiology and recommendations for detection. Antimicrob. Agents Chemother. 493018-3020. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+7. Cuzon, G., T. Naas, M. C. Demachy, and P. Nordmann. 2008. Plasmid-mediated carbapenem-hydrolyzing beta-lactamase KPC-2 in Klebsiella pneumoniae isolate from Greece. Antimicrob. Agents Chemother. 52796-797. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Deshpande, L. M., R. N. Jones, T. R. Fritsche, and H. S. Sader. 2006. Occurrence and characterization of carbapenemase-producing Enterobacteriaceae : report from the SENTRY Antimicrobial Surveillance Program (2000-2004). Microb. Drug Resist. 12223-230. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+9. Deshpande, L. M., P. R. Rhomberg, H. S. Sader, and R. N. Jones. 2006. Emergence of serine carbapenemases (KPC and SME) among clinical strains of Enterobacteriaceae isolated in the United States Medical Centers: report from the MYSTIC Program (1999-2005). Diagn. Microbiol. Infect. Dis. 56367-372. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+10. Hindiyeh M., G. Smollen, Z. Grossman, D. Ram, Y. Davidson, F. Mileguir, M. Vax, D. Ben David, I. Tal, G. Rahav, A. Shamiss, E. Mendelson, and N. Keller. 2008. Rapid detection of bla KPC carbapenamase genes by Real-Time PCR. J. Clin. Microbiol. 462879-2883. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Hossain, A., M. J. Ferraro, R. M. Pino, R. B. Dew, 3rd, E. S. Moland, T. J. Lockhart, K. S. Thomson, R. V. Goering, and N. D. Hanson. 2004. Plasmid-mediated carbapenem-hydrolyzing enzyme KPC-2 in an Enterobacter sp. Antimicrob. Agents Chemother. 484438-4440. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Koh, T. H., G. S. Babini, N. Woodford, L. H. Sng, L. M. Hall, and D. M. Livermore. 1999. Carbapenem-hydrolysing IMP-1 beta-lactamase in Klebsiella pneumoniae from Singapore. Lancet 3532162. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+13. Leavitt, A., S. Navon-Venezia, I. Chmelnitsky, M. J. Schwaber, and Y. Carmeli. 2007. Emergence of KPC-2 and KPC-3 in carbapenem-resistant Klebsiella pneumoniae strains in an Israeli hospital. Antimicrob. Agents Chemother. 513026-3029. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+14. Lee, K., Y. Chong, H. B. Shin, Y. A. Kim, D. Yong, and J. H. Yum. 2001. Modified Hodge and EDTA-disk synergy tests to screen metallo-beta-lactamase-producing strains of Pseudomonas and Acinetobacter species. Clin. Microbiol. Infect. 788-91. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+15. Miriagou, V., L. S. Tzouvelekis, S. Rossiter, E. Tzelepi, F. J. Angulo, and J. M. Whichard. 2003. Imipenem resistance in a Salmonella clinical strain due to plasmid-mediated class A carbapenemase KPC-2. Antimicrob. Agents Chemother. 471297-1300. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+16. Naas, T., P. Nordmann, G. Vedel, and C. Poyart. 2005. Plasmid-mediated carbapenem-hydrolyzing beta-lactamase KPC in a Klebsiella pneumoniae isolate from France. Antimicrob. Agents Chemother. 494423-4424. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+17. Navon-Venezia, S., I. Chmelnitsky, A. Leavitt, M. J. Schwaber, D. Schwartz, and Y. Carmeli. 2006. Plasmid-mediated imipenem-hydrolyzing enzyme KPC-2 among multiple carbapenem-resistant Escherichia coli clones in Israel. Antimicrob. Agents Chemother. 503098-3101. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Paterson, D. L., W. C. Ko, A. Von Gottberg, S. Mohapatra, J. M. Casellas, H. Goossens, L. Mulazimoglu, G. Trenholme, K. P. Klugman, R. A. Bonomo, L. B. Rice, M. M. Wagener, J. G. McCormack, and V. L. Yu. 2004. Antibiotic therapy for Klebsiella pneumoniae bacteremia: implications of production of extended-spectrum beta-lactamases. Clin. Infect. Dis. 3931-37. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+19. Poirel, L., C. Heritier, V. Tolun, and P. Nordmann. 2004. Emergence of oxacillinase-mediated resistance to imipenem in Klebsiella pneumoniae . Antimicrob. Agents Chemother. 4815-22. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. Samra, Z., J. Bahar, L. Madar-Shapiro, N. Aziz, S. Israel, and J. Bishara. 2008. CHROMagar for carbapenem resistant Enterobacteriaceae . J. Clin. Microbiol. 463110-3111. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+21. Smith Moland, E., N. D. Hanson, V. L. Herrera, J. A. Black, T. J. Lockhart, A. Hossain, J. A. Johnson, R. V. Goering, and K. S. Thomson. 2003. Plasmid-mediated, carbapenem-hydrolysing beta-lactamase, KPC-2, in Klebsiella pneumoniae isolates. J. Antimicrob. Chemother. 51711-714. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+22. Villegas, M. V., K. Lolans, A. Correa, J. N. Kattan, J. A. Lopez, J. P. Quinn, and the Colombian Nosocomial Resistance Study Group. 2007. First identification of Pseudomonas aeruginosa isolates producing a KPC-type carbapenem-hydrolyzing β-lactamase. Antimicrob. Agents Chemother. 511553-1555. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+23. Villegas, M. V., K. Lolans, A. Correa, C. J. Suarez, J. A. Lopez, M. Vallejo, J. P. Quinn, and the Colombian Nosocomial Resistance Study Group. 2006. First detection of the plasmid-mediated class A carbapenemase KPC-2 in clinical isolates of Klebsiella pneumoniae from South America. Antimicrob. Agents Chemother. 502880-2882. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+24. Wei, Z. Q., X. X. Du, Y. S. Yu, P. Shen, Y. G. Chen, and L. J. Li. 2007. Plasmid-mediated KPC-2 in a Klebsiella pneumoniae isolate from China. Antimicrob. Agents Chemother. 51763-765. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Woodford, N., J. W. Dallow, R. L. Hill, M. F. Palepou, R. Pike, M. E. Ward, M. Warner, and D. M. Livermore. 2007. Ertapenem resistance among Klebsiella and Enterobacter submitted in the UK to a reference laboratory. Int. J. Antimicrob. Agents 29456-459. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+26. Woodford, N., P. M. Tierno, Jr., K. Young, L. Tysall, M. F. Palepou, E. Ward, R. E. Painter, D. F. Suber, D. Shungu, L. L. Silver, K. Inglima, J. Kornblum, and D. M. Livermore. 2004. Outbreak of Klebsiella pneumoniae producing a new carbapenem-hydrolyzing class A β-lactamase, KPC-3, in a New York Medical Center. Antimicrob. Agents Chemother. 484793-4799. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+27. Yan, J. J., W. C. Ko, S. H. Tsai, H. M. Wu, and J. J. Wu. 2001. Outbreak of infection with multidrug-resistant Klebsiella pneumoniae carrying bla IMP-8 in a university medical center in Taiwan. J. Clin. Microbiol. 394433-4439. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Yigit, H., A. M. Queenan, G. J. Anderson, A. Domenech-Sanchez, J. W. Biddle, C. D. Steward, S. Alberti, K. Bush, and F. C. Tenover. 2001. Novel carbapenem-hydrolyzing beta-lactamase, KPC-1, from a carbapenem-resistant strain of Klebsiella pneumoniae . Antimicrob. Agents Chemother. 451151-1161. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+29. Yigit, H., A. M. Queenan, J. K. Rasheed, J. W. Biddle, A. Domenech-Sanchez, S. Alberti, K. Bush, and F. C. Tenover. 2003. Carbapenem-resistant strain of Klebsiella oxytoca harboring carbapenem-hydrolyzing beta-lactamase KPC-2. Antimicrob. Agents Chemother. 473881-3889. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+30. Zanetti, G., F. Bally, G. Greub, J. Garbino, T. Kinge, D. Lew, J. A. Romand, J. Bille, D. Aymon, L. Stratchounski, L. Krawczyk, E. Rubinstein, M. D. Schaller, R. Chiolero, M. P. Glauser, A. Cometta, and the Cefepime Study Group. 2003. Cefepime versus imipenem-cilastatin for treatment of nosocomial pneumonia in intensive care unit patients: a multicenter, evaluator-blind, prospective, randomized study. Antimicrob. Agents Chemother. 473442-3447. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Journal of Clinical Microbiology are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (347.5 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

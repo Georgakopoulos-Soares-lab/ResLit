@@ -1,0 +1,329 @@
+PMID: 22740659
+PMCID: PMC3393495
+DOI: 10.1128/JB.00480-12
+Title: Draft genome sequence of Staphylococcus aureus 118 (ST772), a major disease clone from India.
+Journal: Journal of bacteriology
+PubDate: 2012 Jul
+Authors: Prabhakara S, Khedkar S, Loganathan RM, Chandana S, Gowda M, Arakere G, Seshasayee AS
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Draft Genome Sequence of Staphylococcus aureus 118 (ST772), a Major Disease Clone from India - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+J Bacteriol 
+. 2012 Jul;194(14):3727–3728. doi: 10.1128/JB.00480-12 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Draft Genome Sequence of Staphylococcus aureus 118 (ST772), a Major Disease Clone from India 
+
+Sushma Prabhakara 
+
+Sushma Prabhakara 
+
+a Society for Innovation and Development, Indian Institute of Science Campus, Bangalore, India 
+
+Find articles by Sushma Prabhakara 
+
+a , Supriya Khedkar 
+
+Supriya Khedkar 
+
+b National Centre for Biological Sciences, TIFR, GKVK, Bangalore, India 
+
+Find articles by Supriya Khedkar 
+
+b , Ramya Malarini Loganathan 
+
+Ramya Malarini Loganathan 
+
+c Centre for Cellular and Molecular Platforms, GKVK, Bangalore, India 
+
+Find articles by Ramya Malarini Loganathan 
+
+c , S Chandana 
+
+S Chandana 
+
+c Centre for Cellular and Molecular Platforms, GKVK, Bangalore, India 
+
+Find articles by S Chandana 
+
+c , Malali Gowda 
+
+Malali Gowda 
+
+c Centre for Cellular and Molecular Platforms, GKVK, Bangalore, India 
+
+Find articles by Malali Gowda 
+
+c , Gayathri Arakere 
+
+Gayathri Arakere 
+
+a Society for Innovation and Development, Indian Institute of Science Campus, Bangalore, India 
+
+Find articles by Gayathri Arakere 
+
+a, ✉ , Aswin Sai Narain Seshasayee 
+
+Aswin Sai Narain Seshasayee 
+
+b National Centre for Biological Sciences, TIFR, GKVK, Bangalore, India 
+
+Find articles by Aswin Sai Narain Seshasayee 
+
+b, ✉ 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a Society for Innovation and Development, Indian Institute of Science Campus, Bangalore, India 
+
+b National Centre for Biological Sciences, TIFR, GKVK, Bangalore, India 
+
+c Centre for Cellular and Molecular Platforms, GKVK, Bangalore, India 
+
+✉ 
+Address correspondence to Gayathri Arakere, gayathri.arakere@gmail.com , or Aswin Sai Narain Seshasayee, aswin@ncbs.res.in . 
+
+# 
+S.P. and S.K. contributed equally to this study. 
+
+✉ 
+Corresponding author. 
+
+Received 2012 Mar 28; Accepted 2012 Apr 30. 
+
+Copyright © 2012, American Society for Microbiology. All Rights Reserved. 
+
+PMC Copyright notice 
+
+PMCID: PMC3393495  PMID: 22740659 
+
+Abstract 
+
+We report the draft genome sequence of an ST772 Staphylococcus aureus disease isolate carrying staphylococcal cassette chromosome mec (SCC mec ) type V from a pyomyositis patient. Our de novo short read assembly is ∼2.8 Mb and encodes a unique Panton-Valentine leukocidin (PVL) phage with structural genes similar to those of φ7247PVL and novel lysogenic genes at the N termini. 
+
+GENOME ANNOUNCEMENT 
+
+Community-associated methicillin-resistant Staphylococcus aureus (CA-MRSA) has become a major disease threat in the community as well as in hospitals ( 5 , 8 ). Until 2004, hospital-associated MRSA, carrying the staphylococcal cassette chromosome mec (SCC mec ) types III and IIIA, was common in India ( 2 ). Now, these are being replaced by CA-MRSA strains carrying SCC mec types IV (EMRSA-15) and V (ST772) in Indian hospitals ( 6 , 9 ). These newer variants also carry several toxins and virulence factors, including Panton-Valentine leukocidin (PVL). ST772, called the Bengal Bay clone by some, was previously reported only in Bangladesh, India, and Malaysia but is now being reported in England, Ireland, and several other European countries ( 1 , 4 , 10 ). 
+
+We obtained genomic DNA from an S. aureus isolate belonging to ST772 (designated strain 118) from a pyomyositis patient ( 7 ), fragmented it to 300 to 400 bp, and sequenced these fragments on an Illumina HiSeq 1000 sequencer, thus obtaining ∼53 million 75-mer reads (∼26.5 million pairs). For further analysis, we selected reads based on the following three criteria: (i) average read quality of ≥35, (b) minimum base quality of ≥30, and (c) no undetermined base. This gave us ∼6.4 million read pairs, with an overall coverage of ∼350. Since coverage of >50× to 100× might compromise the quality of assemblies produced by the software Velvet ( 11 ), we randomly sampled ∼15% of reads from these data and used them for the assembly process. The assembly was performed on three sets of independently sampled read sets to ensure consistency. In addition, we also performed a similar sequencing of S. aureus USA300, for which a reference genome sequence is already available. 
+
+The draft assembly of the genome of S. aureus 118 (ST772) covers ∼2.81 million base pairs. These bases are covered by 67, 72, and 73 contigs in the three assemblies attempted. Paired-end mapping of all raw reads to the contigs predicts an insert size distribution which is similar to that obtained by mapping our USA300 reads to its fully sequenced reference sequence. Finally, ∼94 to 95% of the bases in our contigs fall within alignments to fully sequenced S. aureus genomes (BLASTN; E value < 10 −100 ). 
+
+We identified 2,524 protein-coding genes predicted by Glimmer in two of the three assemblies constructed here. Of these, 2,459 (97%) have a counterpart with significant similarity (phmmer, http://hmmer.janelia.org ; E value < 10 −10 ; ≥40% global sequence identity) in at least one fully sequenced S. aureus genome. We also detected an ∼42-kb PVL phage sequence by using signature sequences published earlier ( 3 ). Comparison of this sequence with five other sequenced PVL phages (φPVL, φ108PVL, φSLT, φSa2958, and φ7247PVL) showed that it is closest to the φ7247PVL phage from S. aureus ST59 ( 12 ). However, the best-aligning regions are largely restricted to the structural regions, with considerable variations in the lysogeny region. 
+
+Nucleotide sequence accession numbers. 
+
+This whole-genome shotgun project has been deposited at GenBank under the accession number AJGE00000000 . The version described in this paper is the first version. The raw Illumina sequencing reads have been deposited with the Short Read Archive and are available under the accession number SRX118450 . 
+
+ACKNOWLEDGMENTS 
+
+This work was supported by the following: a grant (BT/IN/New Indigo/16/GA/2010) from the Department of Biotechnology, the Ramanujan Fellowship (SR/S2/RJN-49/2010) from the Department of Science and Technology, Government of India, and a fellowship [09/860(0122)/2011-EMR-I] from the Council for Scientific & Industrial Research (CSIR), India. 
+
+Sequencing was done at the Centre for Cellular and Molecular Platforms (C-CAMP). 
+
+REFERENCES 
+
+1. Afroz S, et al. 
+2008. 
+Genetic characterization of Staphylococcus aureus isolates carrying Panton-Valentine leukocidin genes in Bangladesh. Jpn. J. Infect. Dis.
+61:393–396 [ PubMed ] [ Google Scholar ] 
+
+2. Arakere G, Nadig S, Macaden R, Amarnath SK, Raghunath D.
+2005. 
+Genotyping of methicillin-resistant Staphylococcus aureus strains from two hospitals in Bangalore, South India. J. Clin. Microbiol.
+43:3198–3202 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Boakes E, et al. 
+2011. 
+Distinct bacteriophages encoding Panton-Valentine leukocidin (PVL) among international methicillin-resistant Staphylococcus aureus clones harboring PVL. J. Clin. Microbiol.
+49:684–692 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+4. Brennan GI, et al. 
+2012. 
+Emergence of hospital- and community-associated Panton-Valentine leukocidin-positive methicillin-resistant Staphylococcus aureus genotype ST772-MRSA-V in Ireland and detailed investigation of a ST772-MRSA-V cluster in a neonatal intensive care unit. J. Clin. Microbiol.
+50:841–847 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. DeLeo FR, Otto M, Kreiswirth BN, Chambers HF.
+2010. 
+Community-associated meticillin-resistant Staphylococcus aureus. Lancet
+375:1557–1568 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. D'Souza N, Rodrigues C, Mehta A.
+2010. 
+Molecular characterization of methicillin-resistant Staphylococcus aureus with emergence of epidemic clones of sequence type (ShT) 22 and ST 772 in Mumbai, India. J. Clin. Microbiol.
+48:1806–1811 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+7. Kulkarni G, et al. 
+2009. 
+Community-acquired methicillin-resistant Staphylococcus aureus pyomyositis with myelitis: a rare occurrence with diverse presentation. Neurol. India
+57:653. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+8. Monecke S, et al. 
+2011. 
+A field guide to pandemic, epidemic and sporadic clones of methicillin-resistant Staphylococcus aureus. PLoS One
+6:e17936
+doi: 10.1371/journal.pone.0017936 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Nadig S, et al. 
+2012. 
+Staphylococcus aureus eye infections in two Indian hospitals: emergence of ST772 as a major clone. Clin. Ophthalmol.
+6:165–173 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+10. Neela V, Ehsanollah GR, Zamberi S, Van Belkum A, Mariana NS.
+2009. 
+Prevalence of Panton-Valentine leukocidin genes among carriage and invasive Staphylococcus aureus isolates in Malaysia. Int. J. Infect. Dis.
+13:e131–e132 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+11. Zerbino DR, Birney E.
+2008. 
+Velvet: algorithms for de novo short read assembly using de Bruijn graphs. Genome Res.
+18:821–829 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Zhang M, et al. 
+2011. 
+Identification of the third type of PVL phage in ST59 methicillin-resistant Staphylococcus aureus (MRSA) strains. FEMS Microbiol. Lett.
+323:20–28 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Journal of Bacteriology are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (92.6 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

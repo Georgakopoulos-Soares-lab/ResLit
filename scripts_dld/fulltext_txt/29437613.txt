@@ -1,0 +1,464 @@
+PMID: 29437613
+PMCID: PMC5913951
+DOI: 10.1128/AAC.02583-17
+Title: Evolution of the Pseudomonas aeruginosa Aminoglycoside Mutational Resistome In Vitro and in the Cystic Fibrosis Setting.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2018 Apr
+Authors: López-Causapé C, Rubio R, Cabot G, Oliver A
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Evolution of the Pseudomonas aeruginosa Aminoglycoside Mutational Resistome In Vitro and in the Cystic Fibrosis Setting - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2018 Mar 27;62(4):e02583-17. doi: 10.1128/AAC.02583-17 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Evolution of the Pseudomonas aeruginosa Aminoglycoside Mutational Resistome In Vitro and in the Cystic Fibrosis Setting 
+
+Carla López-Causapé 
+
+Carla López-Causapé 
+
+a Servicio de Microbiología and Unidad de Investigación, Hospital Universitario Son Espases, Instituto de Investigación Sanitaria de las Islas Baleares (IdISBa), Palma de Mallorca, Spain 
+
+Find articles by Carla López-Causapé 
+
+a, ✉ , Rosa Rubio 
+
+Rosa Rubio 
+
+a Servicio de Microbiología and Unidad de Investigación, Hospital Universitario Son Espases, Instituto de Investigación Sanitaria de las Islas Baleares (IdISBa), Palma de Mallorca, Spain 
+
+Find articles by Rosa Rubio 
+
+a , Gabriel Cabot 
+
+Gabriel Cabot 
+
+a Servicio de Microbiología and Unidad de Investigación, Hospital Universitario Son Espases, Instituto de Investigación Sanitaria de las Islas Baleares (IdISBa), Palma de Mallorca, Spain 
+
+Find articles by Gabriel Cabot 
+
+a , Antonio Oliver 
+
+Antonio Oliver 
+
+a Servicio de Microbiología and Unidad de Investigación, Hospital Universitario Son Espases, Instituto de Investigación Sanitaria de las Islas Baleares (IdISBa), Palma de Mallorca, Spain 
+
+Find articles by Antonio Oliver 
+
+a 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a Servicio de Microbiología and Unidad de Investigación, Hospital Universitario Son Espases, Instituto de Investigación Sanitaria de las Islas Baleares (IdISBa), Palma de Mallorca, Spain 
+
+✉ 
+Address correspondence to Carla López-Causapé, carla.lopez@ssib.es . 
+
+Citation López-Causapé C, Rubio R, Cabot G, Oliver A. 2018. Evolution of the Pseudomonas aeruginosa aminoglycoside mutational resistome in vitro and in the cystic fibrosis setting. Antimicrob Agents Chemother 62:e02583-17. https://doi.org/10.1128/AAC.02583-17 . 
+
+✉ 
+Corresponding author. 
+
+Received 2018 Jan 3; Revision requested 2018 Jan 25; Accepted 2018 Jan 26; Prepublished 2018 Feb 5; Collection date 2018 Apr. 
+
+Copyright © 2018 American Society for Microbiology. 
+
+All Rights Reserved . 
+
+PMC Copyright notice 
+
+PMCID: PMC5913951  PMID: 29437613 
+
+ABSTRACT 
+
+Inhaled administration of high doses of aminoglycosides is a key maintenance treatment of Pseudomonas aeruginosa chronic respiratory infections in cystic fibrosis (CF). We analyzed the dynamics and mechanisms of stepwise high-level tobramycin resistance development in vitro and compared the results with those of isogenic pairs of susceptible and resistant clinical isolates. Resistance development correlated with fusA1 mutations in vitro and in vivo. pmrB mutations, conferring polymyxin resistance, were also frequently selected in vitro . In contrast, mutational overexpression of MexXY, a hallmark of aminoglycoside resistance in CF, was not observed in in vitro evolution experiments. 
+
+KEYWORDS: Pseudomonas aeruginosa , aminoglycosides, antibiotic resistance, drug resistance mechanisms, mutational resistome, whole-genome sequencing 
+
+TEXT 
+
+Pseudomonas aeruginosa is one of the most frequent and severe causes of acute nosocomial infections, as well as the main driver of morbidity and mortality in patients suffering from cystic fibrosis (CF) or other chronic respiratory diseases ( 1 , 2 ). Compared with other Gram-negative pathogens, P. aeruginosa exhibits a basal reduced susceptibility to many antibiotics, and this intrinsic resistance can be much further enhanced by the acquisition of transferable resistance determinants and by the selection of mutations that alter the expression and/or function of diverse chromosomal genes ( 3 – 6 ). This outstanding ability has led to an increasing prevalence of chronic and nosocomial infections produced by multidrug-resistant (MDR) or extensively drug-resistant (XDR) P. aeruginosa strains that sharply compromises the selection of appropriate treatments ( 7 , 8 ). Together with polymyxins, aminoglycosides are often among the few therapeutic options in this scenario ( 9 , 10 ). Moreover, provision of high local concentrations of tobramycin through inhaled administration has been the basis of the treatment for P. aeruginosa chronic respiratory infections in CF patients for many years ( 11 ). Whereas resistance to these agents in acute infections is mainly attributed to the production of aminoglycoside-modifying enzymes or 16S rRNA methyltransferases, resistance development in the chronic infection setting has been linked to the selection of chromosomal mutations that lead to enhanced membrane impermeability or MexXY-OprM efflux pump overexpression ( 12 – 14 ). However, high-level resistance development likely requires the accumulation of different resistance mechanisms, and, although recent reports suggest the involvement of additional chromosomal mutations ( 15 – 20 ), there are still important knowledge gaps in this field. Thus, the aim of this work was to analyze the in vitro evolution of the aminoglycoside mutational resistome of P. aeruginosa and to correlate the documented mutations with those observed in vivo during the course of CF chronic respiratory infection. 
+
+To determine the dynamics of aminoglycoside resistance development, ∼10 6 CFU/ml of exponentially growing P. aeruginosa PAO1 reference strain isolates were inoculated into 10-ml Mueller-Hinton tubes containing 0.5×, 1×, 2×, 4×, 8×, 16×, 32×, 64×, 128×, 256×, 512×, and 1,024× MIC (0.5 μg/ml) values and incubated for 24 h at 37°C and 180 rpm. Tubes from the highest antibiotic concentration showing growth were reinoculated (at a 1:1,000 dilution) in fresh medium containing concentrations up to 1,024× MIC and incubated under the same conditions. This evolution experiment was performed for 14 consecutive days in quintuplicate. At days 1, 7, and 14, two colonies from each of the five replicate experiments were purified in antibiotic-free LB agar plates, and MIC values of tobramycin, gentamicin, amikacin, ticarcillin, piperacillin-tazobactam, ceftazidime, cefepime, aztreonam, ceftolozane-tazobactam, imipenem, meropenem, ciprofloxacin, and colistin were determined by broth microdilution and interpreted according to CLSI 2017 clinical breakpoints ( 21 ). Whole-genome sequences (WGS) of all the mutants were obtained and analyzed following previously described protocols ( 9 , 22 , 23 ). Likewise, to correlate in vitro with in vivo findings, three isogenic pairs (confirmed by pulsed-field gel electrophoresis) of tobramycin-susceptible and -resistant isolates obtained from respiratory samples of three different chronically infected CF patients treated with tobramycin at Son Espases University Hospital were also fully sequenced, and variations in 164 genes related to antibiotic resistance were analyzed ( 22 ). 
+
+As shown in Fig. 1 panels A to E, in vitro resistance development occurred in a stepwise manner, reaching concentrations ranging from 128 to 512 higher than the initial MIC (0.5 μg/ml). The corresponding tobramycin MICs of the purified colonies at day 14 ranged from 64 to 512 μg/ml, whereas those of gentamicin and amikacin were typically 1 or 2 dilutions higher (see Data Set S1 in the supplemental material). These concentrations are close to the maximum tobramycin concentrations achieved through inhaled administration and in the range of the breakpoints suggested for inhaled therapy ( 24 ). 
+
+FIG 1. 
+
+Open in a new tab 
+
+(A to E) Dynamics of resistance development to tobramycin and mutations encountered after 1, 7, and 14 days of tobramycin exposure in five replicate experiments. Genetic determinants and specific mutations are boldfaced when detected within the two representative colonies studied at each experiment and time point. Genes whose implications in aminoglycoside resistance development have already been demonstrated are indicated with an asterisk. (F) Median expression level of mexY for PAO1-derived resistant mutants after 1 and 14 days of tobramycin exposure. 
+
+Results obtained from WGS experiments are summarized in Fig. 1 and detailed in Data Set S1. Up to 35 different genes were found to be mutated in at least one of the isolates. Of these, 22 isolates (63%) were already related to aminoglycoside resistance development in previous studies ( 15 – 20 , 22 ), so our data confirm their relevance in this stepwise process; mutations in other genes are evidenced for the first time in this work, and their relevance will need to be confirmed in further studies. Mutants from day 14 showed between 3 and 7 mutations, and comparison with those from days 1 and 7 showed a stepwise acquisition. However, a few mutations documented at these intermediate stages were not fixed in the population and thus were not seen at day 14 ( Fig. 1 ). 
+
+Among the mutated genes, fusA1 , which codes for elongation factor G, deserves special attention because nonsynonymous mutations within this gene were detected in all five replicate experiments. Note that the time of detection of fusA1 mutations varied from day 1 to day 14 and that the same amino acid substitution (I61M) occurred in 3 of them. This novel mechanism was recently confirmed through site-directed mutagenesis by Bolard et al. ( 15 ), being associated with a 1- to 3-fold increase in the MICs of tobramycin, gentamicin, and amikacin, which correlates with our observations (Data Set S1). Mutations in fusA1 were recently noted to be frequent among CF patients ( 22 , 25 – 27 ). Moreover, the emergence of fusA1 mutations was noted in two of the three tobramycin-resistant CF isolates studied in this work ( Table 1 ; see Data Set S2 in the supplemental material). Interestingly, using ResFinder, the resistant isolate not showing fusA1 mutations was shown to have acquired an exogenous aminoglycoside-modifying enzyme (AacA4). This surprising finding highlights the fact that, although mutational resistance is thought to be the rule in CF chronic infections, horizontally acquired resistance must be ruled out as well. 
+
+TABLE 1. 
+
+Genomic differences between the three isogenic pairs of tobramycin-susceptible and -resistant CF isolates 
+
+Locus/gene a Isolate ID (MIC TOB mg/liter) FQSE06-S (1) FQSE06-R (24) FQSE11-S (2) FQSE11-R (>256) FQSE16-S (4) FQSE16-R (64) PA0004/ gyrB R138L PA0058/ dsbM C28R, F206L, R212C PA0426/ mexB nt772Δ1 Q575R PA0958/ oprD Q424E, S403A PA1430/ lasR R216Q PA2018/ mexY G287A G287S PA2020/ mexZ nt290Δ11 S9P L138R L138R R125P PA2492/ mexT G274D, G300D PA2639/ nuoD G499X PA3064/ pelA V446I PA3141/ capD nt512ins1 PA3168/ gyrA Y267N PA4020/ mpl S257L Q248X PA4266/ fusA1 Y552C, T671I Y552C PA4418/PBP3 P215L PA4462/ rpoN V473A PA4568/ rplU I74 M PA4598/ mexD P721S, L624P PA4600/ nfxB E75K PA4773/- A165T PA5040/ pilQ E676D, E669D ResFinder AacA4 mexY overexpression + + + + − + 
+
+Open in a new tab 
+
+a 
+Genes in which mutations were also detected in the resistance evolution experiment are boldfaced. 
+
+Another frequently mutated gene (3 of 5 replicates) was, intriguingly, pmrB , which codes for the sensor kinase of the two-component regulatory system PmrA-PmrB ( 28 ). pmrB mutations have traditionally been linked to polymyxin resistance development ( 29 , 30 ), so this finding alerts from a possible mechanism of coresistance to two relevant antipseudomonal agents (polymyxins and aminoglycosides). Indeed, the emergence of pmrB mutations at day 7 correlated with increased colistin MICs (Data Set S1). However, despite the pmrB mutations persisting at day 14, colistin resistance disappeared, likely indicating the acquisition of compensatory mutations. In one of these isolates from day 14, an additional mutation in pagL involved in lipid A deacylation and polymyxins resistance was documented ( Fig. 1 ; Data Set S1) ( 31 ). In relation to other antibiotic classes, we observed a general trend over time toward decreasing MICs, particularly for ticarcillin, aztreonam, and ciprofloxacin ( Fig. 2 ). This phenomenon is globally known as collateral susceptibility ( 32 ). It has been largely observed among P. aeruginosa clinical isolates ( 33 ), and it has traditionally been linked to a mutational or functional loss of the multidrug efflux system MexAB-OprM ( 34 ). Moreover, this phenotype has been proposed to result from an efflux imbalance between the MexAB-OprM and MexXY-OprM systems, as both compete for the recruitment of OprM ( 35 ). Nevertheless, our results and those recently published by Bolard et al. ( 15 ) suggest that other mechanisms may be involved in this frequently observed phenotype. 
+
+FIG 2. 
+
+Open in a new tab 
+
+MIC fold changes for each antibiotic tested between parental strain PAO1 and its derived aminoglycoside-resistant mutants. TIC, ticarcillin; TZP, piperacillin-tazobactam; C/T, ceftolozane-tazobactam; CAZ, ceftazidime; FEP, cefepime; ATM, aztreonam; IMI, imipenem; MER, meropenem; CIP, ciprofloxacin; CST, colistin. Lower limit for CIP and TZP is −1 2-fold dilutions. 
+
+Beyond the mutations actually detected, another relevant aspect to consider is the mutations that were expected but not found in our in vitro evolution experiments. Intriguingly, mutations leading to the overexpression of MexXY ( mexZ , PA5471, parS ), which are a hallmark of aminoglycoside resistance development in the CF setting, were not seen at any time in any of the five replicate experiments. The absence of mutations in these genes was additionally confirmed through Sanger sequencing. Moreover, while mexY expression data varied to some extent for the different mutants (real-time reverse transcription-PCR [ 22 , 23 ]), values were always well below those of a control mexZ PAO1 mutant, and a statistically significant trend toward increased expression at day 14 versus day 1 was not documented ( Fig. 1F ). In contrast to in vitro findings, all three CF tobramycin-resistant isolates overexpressed mexY and showed mexZ mutations ( Table 1 ; Data Set S2). However, mexY overexpression and mexZ mutations were also seen in two of the three susceptible CF isolates. Thus, our results indicate that mutational overexpression of MexXY is not required for the evolution of high-level tobramycin resistance in vitro . On the other hand, findings from CF isolates reveal that mutations leading to the overexpression of MexXY are frequent, occur early, and are associated with low-level resistance. These results may indicate that the positive selection of mutations leading to the overexpression of MexXY in CF might be driven by factors beyond exposure to aminoglycosides. 
+
+Altogether, this work provides relevant insights into the evolution of the aminoglycoside resistome, balancing understanding of the role of novel (e.g., fusA1 mutations) and classic (e.g., mutational MexXY overexpression) resistance mechanisms in vitro and in CF chronic respiratory infections. However, further studies are needed to decipher the precise role of some of the mutations detected, such as those in PmrB, in the evolution of aminoglycoside resistance in P. aeruginosa . 
+
+Accession number(s). 
+
+Sequence files have been deposited in the European Nucleotide Archive under study PRJEB24151 (accession numbers ERS2060747 , ERS2060748 , ERS2060749 , ERS2060750 , ERS2077566 , and ERS2077567 ). 
+
+Supplementary Material 
+
+Supplemental material 
+
+supp_62_4_e02583-17__index.html (1KB, html) 
+
+ACKNOWLEDGMENTS 
+
+This work was supported by the Ministerio de Economía y Competitividad of Spain, Instituto de Salud Carlos III, and was cofinanced by the European Regional Development Fund (ERDF) project “A way to achieve Europe” through the Spanish Network for Research in Infectious Diseases (REIPI) (RD12/0015 and RD16/0016) and grants PI15/00088. 
+
+Footnotes 
+
+Supplemental material for this article may be found at https://doi.org/10.1128/AAC.02583-17 . 
+
+REFERENCES 
+
+1. Gellatly SL, Hancock RE. 
+2013. Pseudomonas aeruginosa : new insights into pathogenesis and host defenses. Pathog Dis
+67:159–173. doi: 10.1111/2049-632X.12033. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+2. Oliver A, Mena A, Macià MD. 
+2008. 
+Evolution of Pseudomonas aeruginosa pathogenicity: from acute to chronic infections, p 433–444. In Baquero F, Nombela C, Cassell GH, Gutíerrez JA (ed), Evolutionary biology of bacterial and fungal pathogens. ASM Press, Washington, DC. [ Google Scholar ] 
+
+3. Breidenstein EB, de la Fuente-Núñez C, Hancock RE. 
+2011. Pseudomonas aeruginosa : all roads lead to resistance. Trends Microbiol
+19:419–426. doi: 10.1016/j.tim.2011.04.005. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+4. Silby MW, Winstanley C, Godfrey SA, Levy SB, Jackson RW. 
+2011. Pseudomonas genomes: diverse and adaptable. FEMS Microbiol Rev
+35:652–680. doi: 10.1111/j.1574-6976.2011.00269.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+5. Poole K.
+2011. Pseudomonas aeruginosa : resistance to the max. Front Microbiol
+2:65. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Lister PD, Wolter DJ, Hanson ND. 
+2009. 
+Antibacterial-resistant Pseudomonas aeruginosa : clinical impact and complex regulation of chromosomally encoded resistance mechanisms. Clin Microbiol Rev
+22:582–610. doi: 10.1128/CMR.00040-09. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+7. Livermore DM.
+2009. 
+Has the era of untreatable infections arrived?
+J Antimicrob Chemother
+64(Suppl1:i29–i36. doi: 10.1093/jac/dkp255. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+8. Mesaros N, Nordmann P, Plésiat P, Roussel-Delvallez M, Van Eldere J, Glupczynski Y, Van Laethem Y, Jacobs F, Lebecque P, Malfroot A, Tulkens PM, Van Bambeke F. 
+2007. Pseudomonas aeruginosa : resistance and therapeutic options at the turn of the new millennium. Clin Microbiol Infect
+13:560–578. doi: 10.1111/j.1469-0691.2007.01681.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+9. Del Barrio-Tofiño E, López-Causapé C, Cabot G, Rivera A, Benito N, Segura C, Montero MM, Sorlí L, Tubau F, Gómez-Zorrilla S, Tormo N, Durá-Navarro R, Viedma E, Resino-Foz E, Fernández-Martínez M, González-Rico C, Alejo-Cancho I, Martínez JA, Labayru-Echverria C, Dueñas C, Ayestarán I, Zamorano L, Martinez-Martinez L, Horcajada JP, Oliver A. 
+2017. 
+Genomics and susceptibility profiles of extensively drug-resistant Pseudomonas aeruginosa isolates from Spain. Antimicrob Agents Chemother
+61:e01589-17. doi: 10.1128/AAC.01589-17. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+10. Cabot G, Ocampo-Sosa AA, Domínguez MA, Gago JF, Juan C, Tubau F, Rodríguez C, Moyà B, Peña C, Martínez-Martínez L, Oliver A, Spanish Network for Research in Infectious Diseases (REIPI). 2012. 
+Genetic markers of widespread extensively drug-resistant Pseudomonas aeruginosa high-risk clones. Antimicrob Agents Chemother
+56:6349–6357. doi: 10.1128/AAC.01388-12. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Shteinberg M, Elborn JS. 
+2015. 
+Use of inhaled tobramycin in cystic fibrosis. Adv Ther
+32:1–9. doi: 10.1007/s12325-015-0179-3. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+12. Guénard S, Muller C, Monlezun L, Benas P, Broutin I, Jeannot K, Plésiat P. 
+2014. 
+Multiple mutations lead to MexXY-OprM-dependent aminoglycoside resistance in clinical strains of Pseudomonas aeruginosa . Antimicrob Agents Chemother
+58:221–228. doi: 10.1128/AAC.01252-13. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Poole K.
+2005. 
+Aminoglycoside resistance in Pseudomonas aeruginosa . Antimicrob Agents Chemother
+49:479–487. doi: 10.1128/AAC.49.2.479-487.2005. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+14. Vogne C, Aires JR, Bailly C, Hocquet D, Plésiat P. 
+2004. 
+Role of the multidrug efflux system MexXY in the emergence of moderate resistance to aminoglycosides among Pseudomonas aeruginosa isolates from patients with cystic fibrosis. Antimicrob Agents Chemother
+48:1676–1680. doi: 10.1128/AAC.48.5.1676-1680.2004. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Bolard A, Plesiat P, Jeannot K. 
+2018. 
+Mutations in gene fusA1 as a novel mechanism of aminoglycoside resistance in clinical strains of Pseudomonas aeruginosa . Antimicrob Agents Chemother
+62: e01835-17. doi: 10.1128/AAC.01835-17. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+16. Yen P, Papin JA. 
+2017. 
+History of antibiotic adaptation influences microbial evolutionary dynamics during subsequent treatment. PLoS Biol
+15:e2001586. doi: 10.1371/journal.pbio.2001586. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+17. Feng Y, Jonker MJ, Moustakas I, Brul S, Ter Kuile BH. 
+2016. 
+Dynamics of mutations during development of resistance by Pseudomonas aeruginosa against five antibiotics. Antimicrob Agents Chemother
+60:4229–4236. doi: 10.1128/AAC.00434-16. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Islam S, Oh H, Jalal S, Karpati F, Ciofu O, Høiby N, Wretlind B. 
+2009. 
+Chromosomal mechanisms of aminoglycoside resistance in Pseudomonas aeruginosa isolates from cystic fibrosis patients. Clin Microbiol Infect
+15:60–66. doi: 10.1111/j.1469-0691.2008.02097.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+19. Schurek KN, Marr AK, Taylor PK, Wiegand I, Semenec L, Khaira BK, Hancock RE. 
+2008. 
+Novel genetic determinants of low-level aminoglycoside resistance in Pseudomonas aeruginosa . Antimicrob Agents Chemother
+52:4213–4219. doi: 10.1128/AAC.00507-08. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. El'Garch F, Jeannot K, Hocquet D, Llanes-Barakat C, Plésiat P. 
+2007. 
+Cumulative effects of several nonenzymatic mechanisms on the resistance of Pseudomonas aeruginosa to aminoglycosides. Antimicrob Agents Chemother
+51:1016–1021. doi: 10.1128/AAC.00704-06. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+21. Clinical and Laboratory Standards Institute. 2017. 
+Performance standards for antimicrobial susceptibility testing—27th ed, vol 37. CLSI document M100
+Clinical and Laboratory Standards Institute, Wayne, PA. [ Google Scholar ] 
+
+22. López-Causapé C, Sommer LM, Cabot G, Rubio R, Ocampo-Sosa AA, Johansen HK, Figuerola J, Cantón R, Kidd TJ, Molin S, Oliver A. 
+2017. 
+Evolution of the Pseudomonas aeruginosa mutational resistome in an international cystic fibrosis clone. Sci Rep
+7:5555. doi: 10.1038/s41598-017-05621-5. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+23. Cabot G, López-Causapé C, Ocampo-Sosa AA, Sommer LM, Domínguez ḾA, Zamorano L, Juan C, Tubau F, Rodríguez C, Moyà B, Peña C, Martínez-Martínez L, Plesiat P, Oliver A. 
+2016. 
+Deciphering the resistome of the widespread Pseudomonas aeruginosa sequence type 175 international high-risk clone through whole-genome sequencing. Antimicrob Agents Chemother
+60:7415–7423. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+24. Morosini MI, García-Castillo M, Loza E, Pérez-Vázquez M, Baquero F, Cantón R. 
+2005. 
+Breakpoints for predicting Pseudomonas aeruginosa susceptibility to inhaled tobramycin in cystic fibrosis patients: use of high-range Etest strips. J Clin Microbiol
+43:4480–4485. doi: 10.1128/JCM.43.9.4480-4485.2005. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Greipel L, Fischer S, Klockgether J, Dorda M, Mielke S, Wiehlmann L, Cramer N, Tümmler B. 
+2016. 
+Molecular epidemiology of mutations in antimicrobial resistance loci of Pseudomonas aeruginosa isolates from airways of cystic fibrosis patients. Antimicrob Agents Chemother
+60:6726–6734. doi: 10.1128/AAC.00724-16. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+26. Markussen T, Marvig RL, Gómez-Lozano M, Aanæs K, Burleigh AE, Høiby N, Johansen HK, Molin S, Jelsbak L. 
+2014. 
+Environmental heterogeneity drives within-host diversification and evolution of Pseudomonas aeruginosa . mBio
+5:e01592-14. doi: 10.1128/mBio.01592-14. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+27. Chung JC, Becq J, Fraser L, Schulz-Trieglaff O, Bond NJ, Foweraker J, Bruce KD, Smith GP, Welch M. 
+2012. 
+Genomic variation among contemporary Pseudomonas aeruginosa isolates from chronically infected cystic fibrosis patients. J Bacteriol
+194:4857–4866. doi: 10.1128/JB.01050-12. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Gooderham WJ, Hancock RE. 
+2009. 
+Regulation of virulence and antibiotic resistance by two-component regulatory systems in Pseudomonas aeruginosa. FEMS Microbiol Rev
+33:279–294. doi: 10.1111/j.1574-6976.2008.00135.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+29. Moskowitz SM, Brannon MK, Dasgupta N, Pier M, Sgambati N, Miller AK, Selgrade SE, Miller SI, Denton M, Conway SP, Johansen HK, Høiby N. 
+2012. 
+PmrB mutations promote polymyxin resistance of Pseudomonas aeruginosa isolated from colistin-treated cystic fibrosis patients. Antimicrob Agents Chemother
+56:1019–1030. doi: 10.1128/AAC.05829-11. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+30. Barrow K, Kwon DH. 
+2009. 
+Alterations in two-component regulatory systems of phoPQ and pmrAB are associated with polymyxin B resistance in clinical isolates of Pseudomonas aeruginosa . Antimicrob Agents Chemother
+53:5150–5154. doi: 10.1128/AAC.00893-09. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+31. Han ML, Velkov T, Zhu Y, Roberts KD, Le Brun AP, Chow SH, Gutu AD, Moskowitz SM, Shen HH, Li J. 
+2018. 
+Polymyxin-induced lipid A deacylation in Pseudomonas aeruginosa perturbs polymyxin penetration and confers high-level resistance. ACS Chem Biol
+13:121–130. doi: 10.1021/acschembio.7b00836. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+32. Pál C, Papp B, Lázár V. 
+2015. 
+Collateral sensitivity of antibiotic-resistant microbes. Trends Microbiol
+23:401–407. doi: 10.1016/j.tim.2015.02.009. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+33. Irvin RT, Govan JW, Fyfe JA, Costerton JW. 
+1981. 
+Heterogeneity of antibiotic resistance in mucoid isolates of Pseudomonas aeruginosa obtained from cystic fibrosis patients: role of outer membrane proteins. Antimicrob Agents Chemother
+19:1056–1063. doi: 10.1128/AAC.19.6.1056. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+34. Li XZ, Nikaido H, Poole K. 
+1995. 
+Role of mexA-mexB-oprM in antibiotic efflux in Pseudomonas aeruginosa . Antimicrob Agents Chemother
+39:1948–1953. doi: 10.1128/AAC.39.9.1948. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+35. Vettoretti L, Plésiat P, Muller C, El Garch F, Phan G, Attrée I, Ducruix A, Llanes C. 
+2009. 
+Efflux unbalance in Pseudomonas aeruginosa isolates from cystic fibrosis patients. Antimicrob Agents Chemother
+53:1987–1997. doi: 10.1128/AAC.01024-08. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+Associated Data 
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+
+Supplementary Materials 
+
+Supplemental material 
+
+supp_62_4_e02583-17__index.html (1KB, html) 
+
+AAC.02583-17_zac004187042sd1.xlsx (22.1KB, xlsx) 
+
+AAC.02583-17_zac004187042sd2.xlsx (24.4KB, xlsx) 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (1.5 MB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

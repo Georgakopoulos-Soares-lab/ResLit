@@ -1,0 +1,467 @@
+PMID: 34460299
+PMCID: PMC8522728
+DOI: 10.1128/AAC.01004-21
+Title: OmpF Downregulation Mediated by Sigma E or OmpR Activation Confers Cefalexin Resistance in Escherichia coli in the Absence of Acquired β-Lactamases.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2021 Oct 18
+Authors: Alzayn M, Dulyayangkul P, Satapoomin N, Heesom KJ, Avison MB
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+OmpF Downregulation Mediated by Sigma E or OmpR Activation Confers Cefalexin Resistance in Escherichia coli in the Absence of Acquired β-Lactamases - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2021 Oct 18;65(11):e01004-21. doi: 10.1128/AAC.01004-21 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+OmpF Downregulation Mediated by Sigma E or OmpR Activation Confers Cefalexin Resistance in Escherichia coli in the Absence of Acquired β-Lactamases 
+
+Maryam Alzayn 
+
+Maryam Alzayn 
+
+a School of Cellular & Molecular Medicine, University of Bristol, Bristol, UK 
+
+b Biology Department, Faculty of Science, Princess Nourah Bint Abdulrahman University, Riyadh, Saudi Arabia 
+
+Find articles by Maryam Alzayn 
+
+a, b , Punyawee Dulyayangkul 
+
+Punyawee Dulyayangkul 
+
+a School of Cellular & Molecular Medicine, University of Bristol, Bristol, UK 
+
+Find articles by Punyawee Dulyayangkul 
+
+a , Naphat Satapoomin 
+
+Naphat Satapoomin 
+
+a School of Cellular & Molecular Medicine, University of Bristol, Bristol, UK 
+
+Find articles by Naphat Satapoomin 
+
+a , Kate J Heesom 
+
+Kate J Heesom 
+
+c University of Bristol Proteomics Facility, Bristol, UK 
+
+Find articles by Kate J Heesom 
+
+c , Matthew B Avison 
+
+Matthew B Avison 
+
+a School of Cellular & Molecular Medicine, University of Bristol, Bristol, UK 
+
+Find articles by Matthew B Avison 
+
+a, ✉ 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a School of Cellular & Molecular Medicine, University of Bristol, Bristol, UK 
+
+b Biology Department, Faculty of Science, Princess Nourah Bint Abdulrahman University, Riyadh, Saudi Arabia 
+
+c University of Bristol Proteomics Facility, Bristol, UK 
+
+Citation Alzayn M, Dulyayangkul P, Satapoomin N, Heesom KJ, Avison MB. 2021. OmpF downregulation mediated by sigma E or OmpR activation confers cefalexin resistance in Escherichia coli in the absence of acquired β-lactamases. Antimicrob Agents Chemother 65:e01004-21. https://doi.org/10.1128/AAC.01004-21 . 
+
+✉ 
+Corresponding author. 
+
+Received 2021 May 16; Revision requested 2021 Jun 21; Accepted 2021 Aug 23; Prepublished 2021 Aug 30; Collection date 2021 Nov. 
+
+Copyright © 2021 American Society for Microbiology. 
+
+All Rights Reserved . 
+
+PMC Copyright notice 
+
+PMCID: PMC8522728  PMID: 34460299 
+
+ABSTRACT 
+
+Cefalexin is a widely used first-generation cephalosporin, and resistance in Escherichia coli is caused by extended-spectrum (e.g., CTX-M) and AmpC β-lactamase production and therefore frequently coincides with third-generation cephalosporin resistance. However, we have recently identified large numbers of E. coli isolates from human infections, and from cattle, where cefalexin resistance is not β-lactamase mediated. Here, we show, by studying laboratory-selected mutants, clinical isolates, and isolates from cattle, that OmpF porin disruption or downregulation is a major cause of cefalexin resistance in E. coli . Importantly, we identify multiple regulatory mutations that cause OmpF downregulation. In addition to mutation of ompR , already known to downregulate OmpF and OmpC porin production, we find that rseA mutation, which strongly activates the sigma E regulon, greatly increases DegP production, which degrades OmpF, OmpC, and OmpA. Furthermore, we reveal that mutations affecting lipopolysaccharide structure, exemplified by the loss of GmhB, essential for lipopolysaccharide heptosylation, also modestly activate DegP production, resulting in OmpF degradation. Remarkably, given the critical importance attached to such systems for normal E. coli physiology, we find evidence for DegP-mediated OmpF downregulation and gmhB and rseA loss-of-function mutation in E. coli isolates derived from human infections. Finally, we show that these regulatory mutations enhance the ability of group 1 CTX-M β-lactamase to confer reduced carbapenem susceptibility, particularly those mutations that cause OmpC in addition to OmpF downregulation. 
+
+KEYWORDS: lipopolysaccharide, porins, sigma factors 
+
+INTRODUCTION 
+
+Cefalexin is a first-generation cephalosporin widely used in human, companion, and farmed animal medicine. In 2016, in Bristol, United Kingdom, and surrounding regions (a population of 1.5 million people), 27.6 cefalexin courses were dispensed per 1,000 patient population (2.8% of all dispensed items). While dispensing rates had dropped by 19.5% since 2013, the proportion of Escherichia coli from community-origin urine samples resistant to cefalexin in this region rose from 7.06% to 8.82% ( 1 ). 
+
+Cefalexin resistance in E. coli is caused by hyperproduction of the chromosomally encoded class 1 cephalosporinase gene ampC , acquisition of plasmid AmpC (pAmpC), or extended-spectrum β-lactamases (ESBLs). These are also mechanisms of third-generation cephalosporin resistance (3GC-R). We recently reported that among community-origin urinary E. coli from Bristol and surrounding regions collected in 2017 and 2018, 69% of cefalexin-resistant isolates were 3GC-R, suggesting that cefalexin resistance in the absence of ESBL/AmpC production is common ( 2 ). A similar observation was made when analyzing fecal samples from dairy cattle in the same region, where only 30% of samples containing cefalexin-resistant E. coli yielded 3GC-R isolates ( 3 ). Hyperproduction of commonly acquired penicillinases such as TEM-1 and OXA-1 does not confer cefalexin resistance in E. coli ( 4 ). Furthermore, the involvement of efflux pump overproduction, e.g., AcrAB-TolC in E. coli , has not been reported, but OmpF porin loss is known to reduce cefalexin susceptibility ( 5 ). Indeed, early work showed cefalexin more efficiently uses OmpF than OmpC porin to enter E. coli ( 6 ). 
+
+One aim of the work reported here was to characterize cefalexin resistance mechanisms in E. coli lacking acquired β-lactamases by studying resistant mutants selected in vitro . A second aim was to characterize mechanisms of cefalexin resistance seen in 3GC-susceptible (3GC-S) human urinary and cattle isolates from our earlier surveillance studies ( 2 , 3 ). A third aim was to determine if the cefalexin resistance mechanisms identified here enhance CTX-M-mediated β-lactam resistance. 
+
+RESULTS AND DISCUSSION 
+
+Cefalexin resistance in E. coli is associated with OmpF/OmpC porin downregulation due to ompR mutation. 
+
+One spontaneous cefalexin-resistant mutant was selected from each of three E. coli parent strains, EC17, ATCC 25922, and PSA. Cefalexin MICs against these isolates and their mutant derivatives are reported in Table 1 . In each case, to identify the possible cause of cefalexin resistance, liquid chromatography-tandem mass spectrometry (LC-MS/MS) whole-cell proteomics was performed comparing each mutant with its parent. No mutant overproduced the chromosomally encoded AmpC β-lactamase (Tables S1 to S3 in the supplemental material), and no promoter/attenuator sequence mutations upstream of ampC were identified in any of the mutants, based on whole-genome sequencing (WGS) (Fig. S1). The only significant ( P < 0.05; >2-fold) protein abundance change common to all three wild-type/mutant pairs was downregulation of OmpF porin production ( Table 2 ; Tables S1 to S3). There was no evidence of AcrAB-TolC efflux pump overproduction in the proteomics data for mutants (Tables S1 to S3). Despite OmpF porin downregulation, comparison of ompF -containing WGS contigs from wild-type/mutant pairs revealed no mutations in ompF or within 10 kb up- or downstream. We therefore concluded that there is a trans -regulatory mutation affecting OmpF abundance in each mutant. 
+
+TABLE 1. 
+
+MICs (μg·ml −1 ) of cefalexin against E. coli isolates and mutant derivatives b 
+
+Isolate or mutant Cefalexin MIC (μg·ml −1 ) PSA 16 PSA (M) a 32 ATCC 25922 16 ATCC 25922 (M) 32 EC17 8 EC17 (M) 32 ATCC 25922 ompF 32 ATCC 25922 rseA 64 ATCC 25922 gmhB 64 Farm 1 64 Farm 2 64 UTI-1 32 UTI-2 32 
+
+Open in a new tab 
+
+a 
+M, mutants selected for growth on cefalexin. 
+
+b 
+Shaded values represent resistant based on CLSI breakpoints ( 24 ); otherwise, nonshaded values represent susceptible. 
+
+TABLE 2. 
+
+LC-MS/MS proteomic comparisons of porin proteins, OmpA, and DegP abundance in E. coli isolates versus cefalexin-resistant mutant derivatives a 
+
+Isolate or mutant OmpF OmpC OmpA DegP Mean SEM P (WT/M) Mean SEM P (WT/M) Mean SEM P (WT/M) Mean SEM P (WT/M) PSA 0.23 0.05 5.93 1.00 3.24 0.32 0.06 0.01 PSA (M) 0.00 0.00 0.005 0.17 0.04 0.002 3.69 0.74 >0.25 0.03 0.01 0.03 ATCC 25922 1.69 0.10 1.66 0.26 5.55 0.41 0.08 0.01 ATCC 25922 (M) 0.29 0.14 0.0006 0.24 0.05 0.003 1.00 0.17 0.0003 0.54 0.10 0.005 EC17 1.15 0.15 2.49 0.50 3.79 0.29 0.17 0.03 EC17 (M) 0.39 0.16 0.01 2.25 0.66 >0.25 4.47 0.78 >0.25 0.74 0.10 0.003 
+
+Open in a new tab 
+
+a 
+Abundance relative to total ribosomal proteins is presented for each protein; n = 3 biological replicates for each wild-type/mutant pair (WT/M). Raw data are presented in Tables S1 to S3 in the supplemental material. 
+
+Since the two-component system OmpR/EnvZ is known to control porin gene transcription in E. coli ( 7 ), we searched among WGS data for mutations in the genes encoding this regulator, and a mutation was found in ompR in the cefalexin-resistant derivative of isolate PSA, predicted to cause a Gly63Ser change in OmpR. A Gly63Val substitution in OmpR has previously been shown to cause OmpF and OmpC porin downregulation in E. coli ( 8 ), and proteomics confirmed that OmpC was also downregulated in the PSA-derived cefalexin-resistant mutant relative to PSA, but another major outer membrane protein OmpA was not ( Table 2 ). Accordingly, we conclude that OmpR mutation explains cefalexin resistance due to OmpF (and possibly OmpC) downregulation in the mutant derivative of isolate PSA. However, ompR and envZ were found to be wild type in the other two cefalexin-resistant mutants, suggesting alternative regulatory mutations. 
+
+DegP overproduction due to RseA anti-sigma E mutation is associated with OmpF porin downregulation and cefalexin resistance in E. coli . 
+
+Eight proteins, including OmpF, were significantly differentially regulated in the same direction in the cefalexin-resistant mutants derived from isolates EC17 and ATCC 25922, each relative to their parent strain. Three proteins (BamD, DegP, and YgiM) were upregulated, and five (NmpC, DctA, ArcA, OmpF, and YhiL) were downregulated (Tables S1 and S2). We were interested to note that one upregulated protein in both mutants was DegP ( Table 2 ), which is a protease known to degrade porin proteins ( 9 , 10 ). Interestingly, in the PSA-derived ompR mutant with downregulated OmpF and OmpC described above, DegP production was 2-fold lower than in the wild-type parent, suggesting a feedback response to porin downregulation ( Table 2 ). DegP production was increased 7-fold in the ATCC 25922-derived mutant, and OmpF was downregulated 5.9-fold, as were OmpC (6.7-fold) and OmpA (5.6-fold) ( Table 2 ), which is a typical sigma E response ( 11 ). In the EC17-derived mutant, DegP was upregulated a more modest 4.4-fold, and here, OmpF was downregulated 2.9-fold, but OmpC and OmpA were not significantly downregulated ( P > 0.25), suggesting a weaker sigma E response ( Table 2 ). This led to the suggestion that OmpC downregulation, seen in the PSA-derived and ATCC 25922-derived cefalexin-resistant mutants alongside OmpF downregulation ( Table 2 ), is not necessary for cefalexin resistance. To confirm this, we disrupted ompF in ATCC 25922 and found this to be sufficient for cefalexin resistance ( Table 1 ). Additional downregulation of OmpC is not necessary. 
+
+Analysis of WGS data identified that the ATCC 25922-derived mutant expressing a phenotype typical of a strong sigma E response had a mutation predicted to cause a Trp33Arg mutation in RseA, which is a known sigma E anti-sigma factor ( 12 , 13 ). Loss of RseA is expected to release sigma E so that it can bind, among others, to the degP promoter. This increases degP transcription, leading to porin degradation and cefalexin resistance ( 11 ). We disrupted rseA in ATCC 25922 and confirmed that this mutation does cause cefalexin resistance ( Table 1 ). 
+
+Perturbation of lipopolysaccharide heptosylation due to gmhB mutation causes cefalexin resistance in E. coli . 
+
+The EC17-derived cefalexin-resistant mutant, which also appears to have a sigma E response, though weaker than the rseA mutant, was shown through WGS analysis to have a deoxythymidine nucleotide insertion after nucleotide 348 of gmhB , predicted to cause a frameshift affecting the encoded protein beyond amino acid 117. This gene encodes the enzyme d -alpha,beta- d -heptose-1,7-bisphosphate phosphatase, which is part of a pathway responsible for producing heptose for lipopolysaccharide (LPS) biosynthesis ( 14 ). Loss of enzymes involved in this system is associated with increased outer membrane permeability, but interestingly, deletion of gmhB does not disrupt full-length LPS production or damagingly compromise the outer membrane permeability barrier ( 14 , 15 ). The obvious conclusion is that this perturbation in envelope structure activates the sigma E regulon, resulting in OmpF degradation by DegP. We disrupted gmhB in ATCC 25922 and found that this mutation causes cefalexin resistance ( Table 1 ). In the ATCC 25922 background, the rseA and gmhB mutants were similar, in MIC terms, to the ompF mutant ( Table 1 ). This further supports the conclusion that despite other porin production changes caused by rseA mutation and ompR mutation, as identified above, it is OmpF downregulation that is causing the cefalexin resistance phenotype observed in these three in vitro -selected mutants. 
+
+Loss and downregulation of OmpF in cefalexin-resistant E. coli from cattle and humans and evidence for rseA and gmhB mutations in human clinical isolates. 
+
+We chose two cefalexin-resistant but 3GC-S isolates at random from our previous survey of dairy farms ( 3 ) and two from our previous survey of human urinary E. coli ( 2 ). Cefalexin resistance was confirmed by MIC ( Table 1 ). WGS revealed disruption of ompF in both farm isolates: in farm 1, a Tn 5 insertion disrupted ompF , truncating OmpF after amino acid 316. In farm 2, a frameshift mutation disrupted OmpF after amino acid 96. 
+
+The ompF gene was intact in both human urinary isolates, which were identified by WGS as being sequence type 131 (ST131). Proteomics did, however, show significant ( P < 0.05) downregulation of OmpF abundance relative to ribosomal proteins compared with the control human isolate EC17 (1.43 ± 0.16 [mean ± SEM]; n = 3) and a very closely phylogenetically related control ST131 urinary isolate, collected in parallel ( 3 ), UTI-80710 (1.15 ± 0.09; n = 3), in both cefalexin-resistant urinary isolates. In UTI-1, OmpF downregulation was ∼2-fold relative to both controls (OmpF abundance, 0.70 ± 0.12; n = 3), but in UTI-2, OmpF was ∼10-fold downregulated relative to both controls (OmpF abundance, 0.13 ± 0.03; n = 3). Notably, UTI-1 also had a nonsense mutation at codon 82 in ompC . As expected, therefore, OmpC was undetectable by proteomics in UTI-1, but OmpC abundance relative to ribosomal proteins in UTI-2 (2.64 ± 0.84; n = 3) was not significantly lower ( P > 0.25) than in control isolates UTI-80710 (3.14 ± 0.31; n = 3) and EC17 (2.55 ± 0.61; n = 3). Most interestingly, UTI-2 produced >2-fold elevated ( P < 0.05) levels of DegP (abundance relative to ribosomal proteins, 0.42 ± 0.04; n = 3) compared with control isolates EC17 (0.20 ± 0.04; n = 3) and UTI-80710 (0.13 ± 0.02; n = 3), suggestive of a phenotype like that of the gmhB mutant described above. UTI-1 did not produce DegP at levels significantly different from control ( P > 0.25). 
+
+According to WGS, ST131 isolate UTI-2 did not have a mutation in gmhB , rseA , ompR , or ompF relative to the ST131 control isolate UTI-80710. Therefore, the regulatory mutation leading to elevated DegP levels, reduced OmpF levels, and cefalexin resistance in UTI-2 has not been identified. However, given the complexity of sigma E activation signals and the impact that many different changes in envelope structure can have on it ( 16 ), it is possible that clinical isolates do carry mutations that activate this regulon. Indeed, searches of the NCBI database identified carbapenem-resistant human E. coli isolate E300, identified in Japan ( 17 ), which has an 8-nucleotide (nt) insertion, leading to a frameshift in rseA at nucleotide 34 (GenBank accession number AP022360 ). Furthermore, two human clinical isolates were found to have a single nucleotide insertion leading to a frameshift in gmhB after nucleotide 126, one from China (GenBank accession number CP008697 ) and one from the United States (GenBank accession number CP072911 ), and three commensal E. coli from the United States ( 18 ) were found to have frameshift mutations at various positions in gmhB (GenBank accession numbers CP051692 , CP054319 , and CP054319 ). Accordingly, we conclude that mutations likely to cause the same phenotypes found in our laboratory-selected cefalexin-resistant mutants are also found in clinical and commensal E. coli from across the world. 
+
+Influence of ompF porin loss and downregulation on late-generation cephalosporin and carbapenem susceptibility in the presence of various CTX-M β-lactamases. 
+
+Our final aim was to test the impact of ompF loss and downregulation, due to OmpR mutation or activation of sigma E, on late-generation cephalosporin or carbapenem MIC in E. coli producing CTX-M β-lactamases. To do this, we introduced, using conjugation, natural plasmids carrying various bla CTX-M variants commonly identified in human and cattle 3GC-R E. coli in southwest England, which encoded CTX-M-1, CTX-M-14, and CTX-M-15 ( 2 , 19 ). We measured MICs of 3GCs and 4GCs used in humans (ceftazidime, cefepime) or cattle (ceftiofur, cefquinome), and the carbapenem ertapenem against CTX-M plasmid transconjugants of E. coli parent strains and their ompF , rseA , or ompR mutant derivatives ( Table 3 ). 
+
+TABLE 3. 
+
+Influence of ompF , rseA , and ompR mutations on late-generation cephalosporin and carbapenem MICs against E. coli producing CTX-M variants a 
+
+Strain name (CTX-M variant) MIC (μg·ml −1 ) of: Cefepime Cefquinome Ceftazidime Ceftiofur Ertapenem ATCC 25922(pK18) 0.25 0.125 0.25 0.25 0.016 ATCC 25922(pK18) (CTX-M-1) >128 >128 16 >128 0.0625 ATCC 25922(pK18) (CTX-M-15) >128 >128 32 >128 0.125 ATCC 25922(pK18) (CTX-M-14) 64 >128 2 >128 0.0313 ATCC 25922(pK18) ompF 0.25 0.125 0.5 0.5 0.016 ATCC 25922(pK18) ompF (CTX-M-1) >128 >128 32 >128 0.25 ATCC 25922(pK18) ompF (CTX-M-15) >128 >128 64 >128 0.5 ATCC 25922(pK18) ompF (CTX-M-14) >128 >128 4 >128 0.0313 ATCC 25922(pK18) rseA 0.25 0.25 0.5 0.5 0.0313 ATCC 25922(pK18) rseA (CTX-M-1) >128 >128 16 >128 0.5 ATCC 25922(pK18) rseA (CTX-M-15) >128 >128 32 >128 0.5 ATCC 25922(pK18) rseA (CTX-M-14) >128 >128 4 >128 0.125 PSA 0.125 0.125 0.5 0.25 0.016 PSA CTX-M-1 >128 >128 32 >128 0.125 PSA CTX-M-15 >128 >128 32 >128 0.25 PSA CTX-M-14 128 >128 8 >128 0.0313 PSA (M) ( ompR ) 0.125 0.25 0.5 0.5 0.0625 PSA (M) ( ompR ) (CTX-M-1) >128 >128 16 >128 1 PSA (M) ( ompR ) (CTX-M-15) >128 >128 16 >128 1 PSA (M) ( ompR ) (CTX-M-14) >128 >128 4 >128 0.5 
+
+Open in a new tab 
+
+a 
+CTM-M variants were delivered on natural plasmids by conjugation. Plasmid pK18 ( 33 ) was added to provide a marker (kanamycin resistance) to allow selection for recipients in conjugation. Isolate PSA is fluoroquinolone resistant, so this was not necessary. Shading is “nonsusceptible” (resistant or intermediate) according to CLSI breakpoints ( 24 ). 
+
+In wild-type ATCC 25922, as expected, CTX-M-1 and CTX-M-15 conferred resistance to all four cephalosporins tested, CTX-M-14 did not confer ceftazidime resistance, and none of the enzymes conferred ertapenem resistance. Disruption of ompF or rseA did not change the susceptibility profile, but there were some MIC changes. Disruption of ompF caused a fourfold increase in ertapenem MIC against transconjugants producing CTX-M-1 and CTX-M-15, but there was no change in MIC against the CTX-M-14 transconjugant. Disruption of rseA caused a similar impact on ertapenem MIC against CTX-M-1 or CTX-M-15 producers but additionally caused a fourfold increase in MIC against the CTX-M-14 producer. It is likely that this effect is due to the additional downregulation in OmpC seen in the rseA mutant ( Table 2 ), with OmpC being a key carbapenem porin ( 20 ). 
+
+Resistance profiles seen in wild-type E. coli isolate PSA CTX-M plasmid transconjugants were almost identical to transconjugants of isolate ATCC 25922 ( Table 3 ). However, carriage of plasmids encoding CTX-M-1 or CTX-M-15 conferred ertapenem nonsusceptibility in the PSA ompR mutant, the ertapenem MIC being twofold higher than against CTX-M-1 or CTX-M-15 transconjugants of the ATCC 25922 rseA mutant derivative ( Table 3 ). The greater impact of ompR mutation than rseA mutation on reducing OmpC levels ( Table 2 ) likely explains this difference. Indeed, ompR mutation has previously been associated with ertapenem nonsusceptibility in ESBL-producing E. coli ( 8 , 20 ). 
+
+Conclusions. 
+
+Cefalexin is a widely used antibacterial in human and veterinary medicine, and so, cefalexin resistance is of considerable clinical importance. Despite this, mechanisms of resistance have not been given very much attention, particularly in the postgenomic age. We were surprised to find that, in our recent surveys of human and cattle cefalexin-resistant isolates, acquired cephalosporinase (pAmpC or ESBL) or chromosomal AmpC hyperproduction was not the cause of cephalexin resistance in a large proportion of isolates ( 2 , 3 ). We show here strong evidence that OmpF loss or downregulation is a key mechanism of cefalexin resistance in E. coli in the absence of β-lactamase production. While OmpF loss contributes to resistance to a wide range of antibacterials ( 5 ), our findings show that cefalexin resistance is unusual in being caused solely by OmpF loss. Furthermore, we show that OmpF downregulation can also confer this phenotype. This may explain why ompF loss-of-function mutations are found among E. coli from clinical samples, but our work suggests there may also be numerous different regulatory mutations found among clinical isolates, each downregulating OmpF. It has been previously reported that cefalexin diffuses better through OmpF than OmpC ( 6 ), and recent general rules of porin permeation show that β-lactams with a relatively high negative charge, as is true of cefalexin, permeate slowly through porins, meaning that entry favors OmpF, with its larger and less cation-selective pore ( 21 ). 
+
+Such is the wide range of regulatory systems controlling OmpF production, both at transcriptional, translational, and posttranslational levels ( 7 , 16 , 22 ), that it is not surprising that cefalexin resistance mutations arise in many different genes in the laboratory, as seen here. Importantly, these mutations may contribute to resistance to other antibacterials when partnered with other mechanisms. Indeed, some of these mutations also affect OmpC levels, and if this is a sufficiently large effect (e.g., in the ompR mutant identified here) it can cause carbapenem nonsusceptibility, provided the mutant acquires a common ESBL such as CTX-M-15. Similar ompR mutants have been seen in the clinic ( 8 ). This is because, as shown previously ( 21 ), ertapenem has a fast permeation rate through porins, meaning that, unlike cefalexin, it permeates well through both OmpF and OmpC ( 21 ). The other regulatory mutations affecting OmpF levels found in the laboratory-selected mutants reported here work through sigma E-mediated DegP overproduction. It is well-known that DegP degrades porins ( 10 , 16 ), but it has not previously been reported that DegP-mediated degradation of OmpF is sufficient to cause resistance to any antibacterial drug. 
+
+Our findings are also potentially important because they suggest that OmpF is more susceptible to DegP-mediated proteolysis in vivo in E. coli than the other main porin, OmpC, and the abundant outer membrane protein OmpA. In the rseA mutant with “maximal” sigma E activation and DegP upregulation, OmpF, OmpC, and OmpA levels all fell. In contrast, in the gmhB mutant overproducing DegP, to a lesser extent than the rseA mutant, only OmpF levels significantly fell ( Table 2 ). This was still sufficient to cause cefalexin resistance but had a smaller effect on ertapenem MIC in the presence of CTX-M-15 production ( Table 3 ), likely due to the OmpF-specific effect on porin downregulation since, as mentioned above, ertapenem can permeate well through OmpC ( 21 ). 
+
+It is known that mutations affecting outer membrane and lipopolysaccharide structure activate sigma E because they affect envelope integrity. They can also affect the insertion and stability of porins in the outer membrane ( 16 ). It has not previously been shown, however, that mutations disrupting gmhB can activate sigma E and, further, that this can cause cefalexin resistance. We considered that, despite such mutations arising in the laboratory, this perhaps overstates their clinical relevance because disruption of the Gmh system causes significant attenuation and increased susceptibility to envelope stresses, though, significantly, loss of GmhB has the mildest effect in this regard ( 15 ). Accordingly, we were very interested to find cefalexin-resistant human urinary ST131 isolates having OmpF downregulation, and in one case, DegP upregulation, suggestive of a GmhB-negative phenotype, though gmhB was intact, and the nature of the mutation responsible will be the focus of future work. However, importantly, we did find clear evidence of rseA and gmhB loss-of-function mutations among clinical and commensal E. coli from secondary analysis of WGS data. Therefore, we provide here strong evidence that mutations constitutively activating sigma E, including those which do this by altering lipopolysaccharide structure, can be tolerated by E. coli in a clinical setting. These mutations, and possibly others yet to be identified, cause clinically relevant cefalexin resistance in the absence of β-lactamase production through DegP-mediated OmpF proteolysis. 
+
+MATERIALS AND METHODS 
+
+Bacterial isolates, selection of resistant mutants, and susceptibility testing. 
+
+Three β-lactam-susceptible E. coli isolates were used, the type strain ATCC 25922; the human urinary isolate EC17, provided by Mandy Wootton, Public Health Wales; and a ciprofloxacin-resistant isolate, PSA, from fecal samples collected on a dairy farm ( 3 ). To select cefalexin-resistant derivatives of these isolates, 100 μl of overnight culture grown in nutrient broth was spread onto Mueller-Hinton agar containing 16 μg·ml −1 cefalexin and each plate incubated for 24 h. In addition, four cefalexin-resistant but 3GC-S isolates were used, one each from fecal samples from two dairy farms (farm 1 and farm 2) as collected previously ( 3 ) and two human urinary isolates (UTI-1, UTI-2), also as collected previously ( 2 ). The control isolate UTI-80710 is 3GC-R due to CTX-M-15 production ( 2 ) and was selected based on its production of wild-type OmpF porin levels (see Results and Discussion above). Microtiter MIC assays were performed and interpreted according to CLSI guidelines ( 23 , 24 ). 
+
+Proteomics. 
+
+One milliliter of an overnight cation-adjusted Mueller-Hinton Broth (CA-MHB) culture was transferred to 50 ml CA-MHB, and cells were grown at 37°C to an optical density at 600 nm (OD 600 ) of 0.6 to 0.8. Cells were pelleted by centrifugation (10 min, 4,000 × g , 4°C) and resuspended in 35 ml of 30 mM Tris-HCl, pH 8, and broken by sonication using a cycle of 1 s on, 0.5 s off for 3 min at amplitude of 63% using a Sonics Vibracell VC-505 (Sonics and Materials Inc., Newton, CT, USA). The sonicated samples were centrifuged at 8,000 × g for 15 min at 4°C to pellet intact cells and large cell debris. Protein concentrations in all supernatants were quantified using the Bio-Rad protein assay dye reagent concentrate according to the manufacturer’s instructions. Proteins (1 μg/lane) were separated by SDS-PAGE using 11% acrylamide, 0.5% bis-acrylamide (Bio-Rad) gels, and a Bio-Rad Mini-Protean Tetra Cell chamber. Gels were resolved at 200 V until the dye front had moved approximately 1 cm into the separating gel. Proteins in all gels were stained with Instant Blue (Expedeon) for 5 min and destained in water. LC-MS/MS data were collected as previously described ( 25 ). The raw data files were processed and quantified using Proteome Discoverer software v1.4 (Thermo Scientific) and searched against bacterial genome and horizontally acquired resistance genes as described previously ( 26 ). 
+
+Whole-genome sequencing and analyses. 
+
+WGS was performed by MicrobesNG on a HiSeq 2500 instrument (Illumina, San Diego, CA, USA) using 2 × 250-bp paired-end reads. Reads were trimmed using Trimmomatic ( 27 ) and assembled into contigs using SPAdes 3.13.0 ( 28 ). Contigs were annotated using Prokka 1.2 ( 29 ). Resistance genes and sequence types, according to the Achtman scheme ( 30 ), were assigned using the ResFinder ( 31 ) and MLST 2.0 on the Center for Genomic Epidemiology ( http://www.genomicepidemiology.org/ ) platform. Pairwise contig alignments to identify mutations versus parent isolate, which were sequenced in parallel, were with EMBOSS Stretcher ( https://www.ebi.ac.uk/Tools/psa/emboss_stretcher/ ). 
+
+Insertional inactivation of genes and conjugation of CTX-M-encoding plasmids. 
+
+Insertional inactivation of ompF , rseA , or gmhB was performed using the pKNOCK suicide plasmid ( 32 ). DNA fragments were amplified with Phusion High-Fidelity DNA polymerase (NEB, UK) from E. coli ATCC 25922 genomic DNA by using primers ompF -KO-FW (5′- CAA GGATCC TGATGGCCTGAACTTC -3′) with a BamHI restriction site, underlined, and ompF -KO-RV (5′- CAA GTCGAC TTCAGACCAGTAGCC -3′) with a SalI site; rseA -KO-FW (5′- CGC GGATCC TGCAGAAAACCAGGGAAAGC -3′) with a BamHI site and rseA -KO-RV (5′- TGCA CTGCAG CCATTTGGGTAAGCTGTGCC -3′) with a PstI site; gmhB -KO-FW (5′- TAT ACTAGT CACGGCTATGTCCATGAGA -3′) with a SpeI site; and gmhB -KO-RV (5′- TAT GTCGAC TCGGTCAGCGTTTCAAAC -3′) with a SalI site. All PCR products were ligated into pKNOCK-GM ( 32 ) at the BamHI and SalI (for ompF ), BamHI and PsaI (for rseA ), or SpeI and SalI (for gmhB ) sites. Each recombinant plasmid was then transferred by conjugation into E. coli ATCC 25922 previously transformed to kanamycin resistance by introducing pK18 ( 33 ) by electroporation. Mutants were selected for gentamicin nonsusceptibility (10 μg·ml −1 ), with kanamycin (30 μg·ml −1 ) being used to counterselect against the donor. Mutations were confirmed by PCR using primers ompF -F (5′- ATGATGAAGCGCAATAAT -3′) and BT543 (5′- TGACGCGTCCTCGGTAC -3′), rseA -F (5′- AGCCGCTATCATGGATTGTC -3′) and BT87 (5′- TGACGCGTCCTCGGTAC -3′), and gmhB -F (5′- TAAATCAATCAGGTTTATGC -3′) and BT543. 
+
+Conjugation of natural CTX-M-encoding plasmids from cattle E. coli isolates ( 19 ) YYZ70-1 (CTX-M-15), YYZ16-1 (CTX-M-1), and PSA37-1 (CTX-M-14) into E. coli derivatives was performed by mixing on agar. Donor and recipient strains were grown overnight on LB agar plates with selection. A loopful of colonies for each was resuspended separately into 1 ml of phosphate-buffered saline (PBS) and centrifuged at 12,000 × g for 1 min. The pellet was then resuspended in 1 ml 100 mM CaCl 2 and incubated on ice for 30 min. A 3:1 (vol/vol) ratio of recipient to donor cell suspension was made, and 4 μl of the mixture was spotted onto nonselective LB agar, which was incubated for 4 to 5 h at 37°C. Spots of mixed growth were scraped into a microcentrifuge tube containing 500 μl PBS, and 30 μl of this mixture was spread onto a selective plate and incubated overnight at 37°C. The donor E. coli used were isolates PSA or ATCC 25922, and their derivatives. PSA is resistant to ciprofloxacin, so 4 μg·ml −1 ciprofloxacin was used as counterselection against the donor. For ATCC 25922 and derivatives, pK18 ( 33 ) was introduced by electroporation prior to conjugation to allow counterselection using kanamycin (50 μg·ml −1 ). Selection for the transconjugant was with 10 μg·ml −1 cefotaxime. 
+
+ACKNOWLEDGMENTS 
+
+Genome sequencing was provided by MicrobesNG. 
+
+This work was funded by grants NE/N01961X/1 and MR/S004769/1 to M.B.A. from the Antimicrobial Resistance Cross Council Initiative supported by the seven United Kingdom research councils and the National Institute for Health Research. M.A. was in receipt of a postgraduate scholarship from the Saudi Cultural Bureau. N.S. received a postgraduate scholarship from the University of Bristol. 
+
+We declare no conflict of interests. 
+
+Footnotes 
+
+Supplemental material is available online only. 
+
+Supplemental file 1 
+Tables S1 to S3 and Fig. S1. Download AAC.01004-21-s0001.pdf, PDF file, 0.5 MB (528.7KB, pdf) 
+
+REFERENCES 
+
+1. Hammond A, Stuijfzand B, Avison MB, Hay AD. 2020. Antimicrobial resistance associations with national primary care antibiotic stewardship policy: primary care-based, multilevel analytic study. PLoS One
+15:e0232903. doi: 10.1371/journal.pone.0232903. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+2. Findlay J, Gould VC, North P, Bowker KE, Williams OM, MacGowan AP, Avison MB. 2020. Characterization of cefotaxime-resistant urinary Escherichia coli from primary care in South-West England 2017–18. J Antimicrob Chemother
+75:65–71. doi: 10.1093/jac/dkz397. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+3. Schubert H, Morley K, Puddy EF, Arbon R, Findlay J, Mounsey O, Gould VC, Vass L, Evans M, Rees GM, Barrett DC, Turner KM, Cogan TA, Avison MB, Reyher KK. 2021. Reduced antibacterial drug resistance and bla CTX-M β-lactamase gene carriage in cattle-associated Escherichia coli at low temperatures, at sites dominated by older animals, and on pastureland: implications for surveillance. Appl Environ Microbiol
+87:e01468-20. doi: 10.1128/AEM.01468-20. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+4. Wu PJ, Shannon K, Phillips I. 1994. Effect of hyperproduction of TEM-1 beta-lactamase on in vitro susceptibility of Escherichia coli to beta-lactam antibiotics. Antimicrob Agents Chemother
+38:494–498. doi: 10.1128/AAC.38.3.494. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Phan K, Ferenci T. 2017. The fitness costs and trade-off shapes associated with the exclusion of nine antibiotics by OmpF porin channels. ISME J
+11:1472–1482. doi: 10.1038/ismej.2016.202. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Kobayashi Y, Takahashi I, Nakae T. 1982. Diffusion of beta-lactam antibiotics through liposome membranes containing purified porins. Antimicrob Agents Chemother
+22:775–780. doi: 10.1128/AAC.22.5.775. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+7. Pratt LA, Hsing W, Gibson KE, Silhavy TJ. 1996. From acids to osmZ : multiple factors influence synthesis of the OmpF and OmpC porins in Escherichia coli . Mol Microbiol
+20:911–917. doi: 10.1111/j.1365-2958.1996.tb02532.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+8. Dupont H, Choinier P, Roche D, Adiba S, Sookdeb M, Branger C, Denamur E, Mammeri H. 2017. Structural alteration of OmpR as a source of ertapenem resistance in a CTX-M-15-producing Escherichia coli O25b:H4 sequence type 131 clinical isolate. Antimicrob Agents Chemother
+61:e00014-17. doi: 10.1128/AAC.00014-17. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Spiess C, Beil A, Ehrmann M. 1999. A temperature-dependent switch from chaperone to protease in a widely conserved heat shock protein. Cell
+97:339–347. doi: 10.1016/S0092-8674(00)80743-6. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+10. Sklar JG, Wu T, Kahne D, Silhavy TJ. 2007. Defining the roles of the periplasmic chaperones SurA, Skp, and DegP in Escherichia coli . Genes Dev
+21:2473–2484. doi: 10.1101/gad.1581007. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Ades SE. 2008. Regulation by destruction: design of the sigmaE envelope stress response. Curr Opin Microbiol
+11:535–540. doi: 10.1016/j.mib.2008.10.004. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+12. Missiakas D, Mayer MP, Lemaire M, Georgopoulos C, Raina S. 1997. Modulation of the Escherichia coli sigmaE (RpoE) heat-shock transcription-factor activity by the RseA, RseB and RseC proteins. Mol Microbiol
+24:355–371. doi: 10.1046/j.1365-2958.1997.3601713.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+13. De Las Peñas A, Connolly L, Gross CA. 1997. The sigmaE-mediated response to extracytoplasmic stress in Escherichia coli is transduced by RseA and RseB, two negative regulators of sigmaE. Mol Microbiol
+24:373–385. doi: 10.1046/j.1365-2958.1997.3611718.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+14. Taylor PL, Sugiman-Marangos S, Zhang K, Valvano MA, Wright GD, Junop MS. 2010. Structural and kinetic characterization of the LPS biosynthetic enzyme D-alpha,beta-D-heptose-1,7-bisphosphate phosphatase (GmhB) from Escherichia coli . Biochemistry
+49:1033–1041. doi: 10.1021/bi901780j. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+15. Kneidinger B, Marolda C, Graninger M, Zamyatina A, McArthur F, Kosma P, Valvano MA, Messner P. 2002. Biosynthesis pathway of ADP-L-glycero-beta-D-manno-heptose in Escherichia coli . J Bacteriol
+184:363–369. doi: 10.1128/JB.184.2.363-369.2002. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+16. Klein G, Raina S. 2019. Regulated assembly of LPS, its structural alterations and cellular response to LPS defects. Int J Mol Sci
+20:356. doi: 10.3390/ijms20020356. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+17. Abe R, Akeda Y, Sugawara Y, Takeuchi D, Matsumoto Y, Motooka D, Yamamoto N, Kawahara R, Tomono K, Fujino Y, Hamada S. 2020. Characterization of the plasmidome encoding carbapenemase and mechanisms for dissemination of carbapenem-resistant Enterobacteriaceae . mSystems
+5:e00759-20. doi: 10.1128/mSystems.00759-20. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Stephens C, Arismendi T, Wright M, Hartman A, Gonzalez A, Gill M, Pandori M, Hess D. 2020. F plasmids are the major carriers of antibiotic resistance genes in human-associated commensal Escherichia coli . mSphere
+5:e00709-20. doi: 10.1128/mSphere.00709-20. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+19. Findlay J, Mounsey O, Lee WWY, Newbold N, Morley K, Schubert H, Gould VC, Cogan TA, Reyher KK, Avison MB. 2020. Molecular epidemiology of Escherichia coli producing CTX-M and pAmpC β-lactamases from dairy farms identifies a dominant plasmid encoding CTX-M-32 but no evidence for transmission to humans in the same geographical region. Appl Environ Microbiol
+87:e01842-20. doi: 10.1128/AEM.01842-20. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. Tängdén T, Adler M, Cars O, Sandegren L, Löwdin E. 2013. Frequent emergence of porin-deficient subpopulations with reduced carbapenem susceptibility in ESBL-producing Escherichia coli during exposure to ertapenem in an in vitro pharmacokinetic model. J Antimicrob Chemother
+68:1319–1326. doi: 10.1093/jac/dkt044. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+21. Acosta-Gutiérrez S, Ferrara L, Pathania M, Masi M, Wang J, Bodrenko I, Zahn M, Winterhalter M, Stavenger RA, Pagès JM, Naismith JH, van den Berg B, Page MGP, Ceccarelli M. 2018. Getting drugs into Gram-negative bacteria: rational rules for permeation through general porins. ACS Infect Dis
+4:1487–1498. doi: 10.1021/acsinfecdis.8b00108. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+22. Delihas N, Forst S. 2001. MicF: an antisense RNA gene involved in response of Escherichia coli to global stress factors. J Mol Biol
+313:1–12. doi: 10.1006/jmbi.2001.5029. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+23. Clinical and Laboratory Standards Institute.
+2015. Methods for dilution antimicrobial susceptibility tests for bacteria that grow aerobically, 10th ed. Approved standard M07-A10.
+Clinical and Laboratory Standards Institute, Wayne, PA. [ Google Scholar ] 
+
+24. Clinical and Laboratory Standards Institute.
+2020. Performance standards for antimicrobial susceptibility testing; 30th informational supplement.
+Approved standard M100-S30.
+Clinical and Laboratory Standards Institute, Wayne, PA. [ Google Scholar ] 
+
+25. Jiménez-Castellanos JC, Wan Nur Ismah WAK, Takebayashi Y, Findlay J, Schneiders T, Heesom KJ, Avison MB. 2018. Envelope proteome changes driven by RamA overproduction in Klebsiella pneumoniae that enhance acquired β-lactam resistance. J Antimicrob Chemother
+73:88–94. doi: 10.1093/jac/dkx345. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+26. Takebayashi Y, Wan Nur Ismah WAK, Findlay J, Heesom KJ, Zhang J, Williams OM, MacGowan AP, Avison MB. 2017. Prediction of cephalosporin and carbapenem susceptibility in multi-drug resistant Gram-negative bacteria using liquid chromatography-tandem mass spectrometry. BioRxiv doi: 10.1101/138594. [ DOI ] 
+
+27. Bolger AM, Lohse M, Usadel B. 2014. Trimmomatic: a flexible trimmer for Illumina sequence data. Bioinformatics
+30:2114–2120. doi: 10.1093/bioinformatics/btu170. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Bankevich A, Nurk S, Antipov D, Gurevich AA, Dvorkin M, Kulikov AS, Lesin VM, Nikolenko SI, Pham S, Prjibelski AD, Pyshkin AV, Sirotkin AV, Vyahhi N, Tesler G, Alekseyev MA, Pevzner PA. 2012. SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing. J Comput Biol
+19:455–477. doi: 10.1089/cmb.2012.0021. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+29. Seemann T. 2014. Prokka: rapid prokaryotic genome annotation. Bioinformatics
+30:2068–2069. doi: 10.1093/bioinformatics/btu153. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+30. Wirth T, Falush D, Lan R, Colles F, Mensa P, Wieler LH, Karch H, Reeves PR, Maiden MC, Ochman H, Achtman M. 2006. Sex and virulence in Escherichia coli : an evolutionary perspective. Mol Microbiol
+60:1136–1151. doi: 10.1111/j.1365-2958.2006.05172.x. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+31. Zankari E, Hasman H, Cosentino S, Vestergaard M, Rasmussen S, Lund O, Aarestrup FM, Larsen MV. 2012. Identification of acquired antimicrobial resistance genes. J Antimicrob Chemother
+67:2640–2644. doi: 10.1093/jac/dks261. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+32. Alexeyev MF. 1999. The pKNOCK series of broad-host-range mobilizable suicide vectors for gene knockout and targeted DNA insertion into the chromosome of Gram-negative bacteria. Biotechniques
+26:824–828. doi: 10.2144/99265bm05. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+33. Pridmore RD. 1987. New and versatile cloning vectors with kanamycin-resistance marker. Gene
+56:309–312. doi: 10.1016/0378-1119(87)90149-1. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Associated Data 
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+
+Supplementary Materials 
+
+Supplemental file 1 
+Tables S1 to S3 and Fig. S1. Download AAC.01004-21-s0001.pdf, PDF file, 0.5 MB (528.7KB, pdf) 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (277.5 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

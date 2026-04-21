@@ -5,8 +5,8 @@ Title: AmgRS-mediated envelope stress-inducible expression of the mexXY multidru
 Journal: MicrobiologyOpen
 PubDate: 2015 Feb
 Authors: Lau CH, Krahn T, Gilmour C, Mullen E, Poole K
-Source: PMC_EFetch_XML
-License: pmc_free_to_read
+Source: PMC_OA_Bulk_XML
+License: pmc_oa_bulk
 
 ## ABSTRACT
 AmgRS is an envelope stress-responsive two-component system and aminoglycoside resistance determinant in Pseudomonas aeruginosa that is proposed to protect cells from membrane damage caused by aminoglycoside-generated mistranslated polypeptides. Consistent with this, a Δ amgR strain showed increased aminoglycoside-promoted membrane damage, damage that was largely absent in AmgRS-activated amgS- mutant strains. Intriguingly, one such mutation, V121G, while providing for enhanced resistance to aminoglycosides, rendered P. aeruginosa susceptible to several ribosome-targeting nonaminoglycoside antimicrobials that are inducers and presumed substrates of the MexXY-OprM multidrug efflux system. Surprisingly, the amg S V 121G mutation increased mexXY expression threefold, suggesting that export of these nonaminoglycosides was compromised in the amg S V 121G mutant. Nonetheless, a link was established between AmgRS activation and mexXY expression and this was confirmed in studies showing that aminoglycoside-promoted mexXY expression is dependent on AmgRS. While nonaminoglycosides also induced mexXY expression, this was not AmgRS-dependent, consistent with these agents not generating mistranslated polypeptides and not activating AmgRS. The aminoglycoside inducibility of mexXY was abrogated in a mutant lacking the AmgRS target genes htpX and PA5528, encoding a presumed cytoplasmic membrane-associated protease and a membrane protein of unknown function, respectively. Thus, aminoglycoside induction of mexXY is a response to membrane damage and activation of the AmgRS two-component system.

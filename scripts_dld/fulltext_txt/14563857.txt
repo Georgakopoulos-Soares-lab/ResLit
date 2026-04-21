@@ -1,0 +1,463 @@
+PMID: 14563857
+PMCID: PMC219392
+DOI: 10.1128/JB.185.21.6233-6240.2003
+Title: Identification and characterization of the emhABC efflux system for polycyclic aromatic hydrocarbons in Pseudomonas fluorescens cLP6a.
+Journal: Journal of bacteriology
+PubDate: 2003 Nov
+Authors: Hearn EM, Dennis JJ, Gray MR, Foght JM
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Identification and Characterization of the emhABC Efflux System for Polycyclic Aromatic Hydrocarbons in Pseudomonas fluorescens cLP6a - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+J Bacteriol 
+. 2003 Nov;185(21):6233–6240. doi: 10.1128/JB.185.21.6233-6240.2003 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Identification and Characterization of the emhABC Efflux System for Polycyclic Aromatic Hydrocarbons in Pseudomonas fluorescens cLP6a 
+
+Elizabeth M Hearn 
+
+Elizabeth M Hearn 
+
+Department of Biological Sciences, University of Alberta, Edmonton, Alberta, Canada T6G 2E9, 1 Department of Chemical and Materials Engineering, University of Alberta, Edmonton, Alberta, Canada T6G 2G6 2 
+
+Find articles by Elizabeth M Hearn 
+
+1,2 , Jonathan J Dennis 
+
+Jonathan J Dennis 
+
+Department of Biological Sciences, University of Alberta, Edmonton, Alberta, Canada T6G 2E9, 1 Department of Chemical and Materials Engineering, University of Alberta, Edmonton, Alberta, Canada T6G 2G6 2 
+
+Find articles by Jonathan J Dennis 
+
+1 , Murray R Gray 
+
+Murray R Gray 
+
+Department of Biological Sciences, University of Alberta, Edmonton, Alberta, Canada T6G 2E9, 1 Department of Chemical and Materials Engineering, University of Alberta, Edmonton, Alberta, Canada T6G 2G6 2 
+
+Find articles by Murray R Gray 
+
+2 , Julia M Foght 
+
+Julia M Foght 
+
+Department of Biological Sciences, University of Alberta, Edmonton, Alberta, Canada T6G 2E9, 1 Department of Chemical and Materials Engineering, University of Alberta, Edmonton, Alberta, Canada T6G 2G6 2 
+
+Find articles by Julia M Foght 
+
+1, * 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+Department of Biological Sciences, University of Alberta, Edmonton, Alberta, Canada T6G 2E9, 1 Department of Chemical and Materials Engineering, University of Alberta, Edmonton, Alberta, Canada T6G 2G6 2 
+
+* 
+Corresponding author. Mailing address: Department of Biological Sciences, CW405 Biological Sciences Center, University of Alberta, Edmonton, Alberta, Canada T6G 2E9. Phone: (780) 492-3279. Fax: (780) 492-9234. E-mail: julia.foght@ualberta.ca . 
+
+Received 2003 May 1; Accepted 2003 Aug 8. 
+
+Copyright © 2003, American Society for Microbiology 
+
+PMC Copyright notice 
+
+PMCID: PMC219392  PMID: 14563857 
+
+Abstract 
+
+The hydrocarbon-degrading environmental isolate Pseudomonas fluorescens LP6a possesses an active efflux mechanism for the polycyclic aromatic hydrocarbons phenanthrene, anthracene, and fluoranthene but not for naphthalene or toluene. PCR was used to detect efflux pump genes belonging to the resistance-nodulation-cell division (RND) superfamily in a plasmid-cured derivative, P. fluorescens cLP6a, which is unable to metabolize hydrocarbons. One RND pump, whose gene was identified in P. fluorescens cLP6a and was designated emhB , showed homology to the multidrug and solvent efflux pumps in Pseudomonas aeruginosa and Pseudomonas putida . The emhB gene is located in a gene cluster with the emhA and emhC genes, which encode the membrane fusion protein and outer membrane protein components of the efflux system, respectively. Disruption of emhB by insertion of an antibiotic resistance cassette demonstrated that the corresponding gene product was responsible for the efflux of polycyclic aromatic hydrocarbons. The emhB gene disruption did not affect the resistance of P. fluorescens cLP6a to tetracycline, erythromycin, trimethoprim, or streptomycin, but it did decrease resistance to chloramphenicol and nalidixic acid, indicating that the EmhABC system also functions in the efflux of these compounds and has an unusual selectivity. Phenanthrene efflux was observed in P. aeruginosa , P. putida , and Burkholderia cepacia but not in Azotobacter vinelandii . Polycyclic aromatic hydrocarbons represent a new class of nontoxic, highly hydrophobic compounds that are substrates of RND efflux systems, and the EmhABC system in P. fluorescens cLP6a has a narrow substrate range for these hydrocarbons and certain antibiotics. 
+
+Efflux pumps are prevalent in gram-negative bacteria, in which they contribute to antibiotic resistance and organic solvent tolerance. In pseudomonads, the major efflux pumps belong to the resistance-nodulation-cell division (RND) permease superfamily ( 22 ) found in the Bacteria , Archaea , and Eucarya ( 29 ). The RND protein, a secondary transporter located in the inner membrane, forms a complex with a membrane fusion protein in the periplasm and an outer membrane channel to effect transport from the cell directly to the extracellular medium ( 33 ). Several RND efflux systems, including MexAB-OprM, MexCD-OprJ, MexEF-OprN, and MexXY-OprM, have been characterized functionally in Pseudomonas aeruginosa , in which they are involved in the transport of and resistance to antibiotics, hydrophobic dyes, and detergents ( 22 ). 
+
+Recently, similar efflux systems were discovered in bacteria capable of growing in the presence of high concentrations of toxic organic solvents. Both Pseudomonas putida S12 and P. putida DOT-T1E tolerate high concentrations of toluene because they possess RND efflux systems that remove toluene from the cell ( 12 , 19 , 23 , 24 ). Toluene and other organic solvents that have octanol-water partition coefficients (log K ow ) between 1.5 and 3.5 accumulate in cell membranes, where they increase membrane permeability, disrupt the membrane potential, and cause cell lysis and death ( 27 ). In contrast, polycyclic aromatic hydrocarbons with three or more rings, such as phenanthrene, anthracene, and fluoranthene, have log K ow values greater than 3.5 and are not toxic to bacterial cells. Thus, the discovery by Bugg et al. ( 3 ) of an active efflux mechanism for polycyclic aromatic hydrocarbons in Pseudomonas fluorescens LP6a was surprising. 
+
+P. fluorescens LP6a was isolated from petroleum-contaminated soil for its ability to degrade naphthalene, as well as the polycyclic aromatic hydrocarbons phenanthrene and anthracene ( 7 ), which makes it an interesting candidate for studying the movement of hydrocarbons across the cell membrane. Not only did the efflux system in P. fluorescens LP6a transport nontoxic growth substrates, but it also displayed unusual hydrocarbon substrate selectivity. While phenanthrene, anthracene, and fluoranthene were exported from the cell, toluene and naphthalene were not ( 3 ). This unexpected selectivity prompted further examination of the efflux mechanism. 
+
+In this study, an RND efflux system was identified in P. fluorescens LP6a. Disruption of the efflux pump gene demonstrated that this system is involved in the efflux of polycyclic aromatic hydrocarbons and in resistance to certain antibiotics. The efflux genes were designated emhABC ( e fflux of m ulticyclic h ydrocarbons). A survey of selected pseudomonads indicated that the ability to transport polycyclic aromatic hydrocarbons is widespread and is probably due to the presence of homologous efflux pumps. 
+
+MATERIALS AND METHODS 
+
+Bacterial strains, plasmids, and growth conditions. 
+
+The bacterial strains and plasmids used in this study are listed in Table 1 . The cured strain P. fluorescens cLP6a, which lacks the 63-kb catabolic plasmid pLP6a carrying the polycyclic aromatic hydrocarbon degradation genes found in the parent strain P. fluorescens LP6a ( 7 ), was used to facilitate analysis of hydrocarbon transport in the absence of metabolism. P. fluorescens , P. aeruginosa , P. putida , and Burkholderia cepacia strains were grown in tryptic soy broth (Difco Laboratories, Detroit, Mich.) at 28°C and were maintained on plate count agar (Difco) or Luria-Bertani (LB) agar supplemented with the appropriate antibiotics. Azotobacter vinelandii UW was grown at 28°C in Burke's buffer with glucose and nitrogen as described previously ( 3 ). Escherichia coli strains were cultured in LB medium at 37°C. Ampicillin (100 μg ml −1 ), kanamycin (50 μg ml −1 for E. coli and 25 μg ml −1 for P. fluorescens ), tetracycline (10 μg ml −1 ), and streptomycin (25 μg ml −1 ) were added as required. 
+
+TABLE 1. 
+
+Bacterial strains and plasmids used in this study 
+
+Strain or plasmid Characteristics a Reference or source P. fluorescens strains LP6a(pLP6a) Wild type containing pLP6a 7 cLP6a Wild type derivative lacking pLP6a 7 cLP6a-1 Km r Emh − This study cLP6a-1(pBH5) Km r Tet r , cLP6a-1 with pBH5 This study cLP6a-1(pUCP26) Km r Tet r , cLP6a-1 with pUCP26 This study cLP6a(pTZ110-emh) Str r , cLP6a with promoter-reporter plasmid pTZ110-emh This study cLP6a(pTZ110-str) Str r , cLP6a with control reporter plasmid pTZ110-str This study P. putida strains S12 Solvent tolerant, Srp + Arp + 12 G7 Naphthalene degrader carrying plasmid NAH7 5 mt-2 Toluene degrader carrying TOL plasmid pWW0 32 KT2440 mt-2 derivative lacking pWW0 2 P. aeruginosa strains PAO1 Type strain 9 A Clinical isolate from cystic fibrosis patient LCDC b B Clinical isolate from cystic fibrosis patient LCDC B. cepacia strains DB01 Soil isolate 30 K56-2 Clinical isolate 15 A. vinelandii UW Low-alginate wild-type strain W. Page, University of Alberta E. coli strains DH5α F − φ80d lacZ ΔM15 Δ( lacZYA-argF ) U169 deoR recA1 endA1 hsdR17 (r K − m K − ) supE44 λ − thi-1 gyrA96 relA1 25 TOP10 F′ F′ [ lacl q Tn 10 (Tet r )] mcrA Δ( mrr-hsdRMS-mcrBC ) φ80 lacZ ΔM15 Δ lacX74 recA1 deoR araD139 Δ( ara-leu ) 7697 galU galK rpsL (Str r ) endA1 nupG Invitrogen Canada Plasmids pUC19 Ap r lacZ α, cloning vector 25 pCR2.1 Ap r Km r lacZ α, cloning vector for PCR products Invitrogen Canada pUCP26 Tet r lacZ α, broad-host-range vector 31 p34S-Sm3 Str r , plasmid carrying streptomycin resistance cassette J. J. Dennis, University of Alberta pCR17 Ap r Km r , pCR2.1 with 2.2-kb emhB fragment This study p251 Ap r , pUC19 with 9.7-kb Bam HI insert of cLP6a DNA This study pBH5 Tet r , pUCP26 with 6.8-kb Bam HI insert encompassing the emh genes and promoter region from p251 This study pTZ110 Ap r , broad-host-range, promoterless lacZ operon fusion vector 26 pTZ110-emh Str r , pTZ110 with 290-bp region upstream of the emhA gene inserted into the Bam HI- Hin dIII sites adjacent to the lacZ gene and with the streptomycin resistance cassette inserted into the Pst I site This study pTZ110-str Str r , pTZ110 with the streptomycin resistance cassette inserted into the Pst I site This study 
+
+Open in a new tab 
+
+a 
+Km r , kanamycin resistance; Tet r , tetracycline resistance; Ap r , ampicillin resistance; Str r , streptomycin resistance. 
+
+b 
+LCDC, Laboratory Centre for Disease Control, Health Canada. 
+
+DNA techniques. 
+
+Genomic DNA from P. fluorescens strains was prepared as described by Maloy ( 16 ). Plasmid DNA was isolated either by the alkaline lysis method ( 25 ) or with a QIAprep Spin Miniprep kit (Qiagen, Mississauga, Ontario, Canada). Restriction digestion and ligation reactions were performed according to the supplier's directions (Roche Diagnostics, Laval, Quebec, Canada). DNA fragments separated on agarose gels were purified by using a QIAquick gel extraction kit (Qiagen) for DNA fragments less than 6 kb long and a QIAEX II gel extraction kit (Qiagen) for DNA fragments more than 6 kb long. Plasmid DNA was introduced into E. coli by heat shock at 42°C and into P. fluorescens by electroporation with a Gene Pulser (Bio-Rad Laboratories, Mississauga, Ontario, Canada). 
+
+PCR was performed with a Flexigene thermal cycler (Techne, Princeton, N.J.). The PCR products were cloned into E. coli TOP10F′ by using a TOPO TA cloning kit (Invitrogen Canada, Burlington, Ontario, Canada). 
+
+For Southern blotting and hybridization, DNA from agarose gels was transferred to Hybond N membranes (Amersham Biosciences, Baie d'Urfe, Quebec, Canada), and hybridization was performed according to the manufacturer's protocol (Amersham Biosciences). The DNA fragments used as probes were labeled with [α- 32 P]dCTP (3,000 Ci mmol −1 ; Amersham Biosciences) by random primer labeling (Roche Diagnostics). 
+
+Nucleotide sequencing reactions were performed with a DYEnamic ET terminator cycling sequencing kit (Amersham Biosciences), and the results were analyzed with a model 373A automated DNA sequencer (Applied Biosystems Inc., Foster City, Calif.) by the Molecular Biology Services Unit, University of Alberta, Edmonton, Alberta, Canada. Sequence data were analyzed with the GeneTool 1.0 software package (BioTools Inc., Edmonton, Alberta, Canada). The BLAST program ( 1 ) was used for sequence homology searches in the National Center for Biotechnology Information GenBank database ( http://www.ncbi.nlm.nih.gov/ ). Phylogenetic trees were constructed by using the neighbor-joining method in ClustalX ( 28 ). 
+
+Detection and inactivation of emhB . 
+
+PCR was performed with P. fluorescens cLP6a genomic DNA by using the following degenerate oligonucleotide primers corresponding to conserved regions of RND efflux pumps: forward primer 5′-CGGA(C/T)GG(C/T)TCICAGGT(A/G)CG-3′ and reverse primer 5′-A(A/G)G(A/G)TGAAIGC(G/C)AGIGAGGTC-3′, where the nucleotides in parentheses represent degenerate sites. The PCR mixture (100 μl) contained 500 ng of genomic DNA from P. fluorescens cLP6a, 75 mM Tris-HCl, 20 mM (NH 4 ) 2 SO 4 , 2 mM MgCl 2 , 0.1% (vol/vol) Tween 20, each deoxynucleoside triphosphate at a concentration of 0.2 mM, each primer at a concentration of 0.6 μM, and 5 U of Taq polymerase. The PCR program consisted of initial denaturation at 95°C for 5 min, followed by 25 cycles of 95°C for 30 s, 50°C for 30 s, and 72°C for 90 s and a final extension step at 72°C for 5 min. A 2.2-kb PCR product was isolated and cloned into pCR2.1 by TA cloning, and the resulting plasmid, pCR17, was introduced into P. fluorescens cLP6a by electroporation. Transformants, in which the plasmid was integrated into the chromosome by homologous recombination, were selected on LB agar containing kanamycin. One transformant, designated P. fluorescens cLP6a-1, was selected for further study. Insertion of pCR17 into the emhB gene in P. fluorescens cLP6a-1 was confirmed by Southern blotting and hybridization by using the 2.2-kb efflux gene fragment and plasmid pCR2.1 as probes. 
+
+Sequencing the emh genes. 
+
+To locate the chromosomal region containing the efflux pump gene, restriction digests of P. fluorescens cLP6a genomic DNA were analyzed by Southern blotting and hybridization by using the 2.2-kb emhB gene fragment as a probe. The emhB gene hybridized to a 9.7-kb Bam HI fragment. Genomic DNA from P. fluorescens cLP6a was digested with Bam HI, and the 7- to 14-kb fragments were ligated to Bam HI-linearized pUC19 and transformed into E. coli DH5α. About 300 ampicillin-resistant transformants were screened by colony PCR by using primers specific for the emhB gene sequence. One positive colony, harboring plasmid p251 carrying a 9,653-bp insert, was identified, and the nucleotide sequence of the insert was determined. 
+
+Complementation of emhB in P. fluorescens cLP6a-1. 
+
+A 6,789-bp fragment containing the emhABC genes and their upstream promoter region was amplified from p251 by using the Expand Long Template PCR system (Roche Diagnostics). The primers, corresponding to nucleotide positions 767 to 787 (forward) and 6731 to 6751 (reverse) in the nucleotide sequence (accession number AY349612 ), contained Bam HI sites for cloning the PCR product into the broad-host-range vector pUCP26. The resulting plasmid, pBH5, contained the emhABC genes in the same orientation as the lacZ promoter. Plasmid pBH5 was introduced into P. fluorescens cLP6a-1 by electroporation, and one transformant, designated P. fluorescens cLP6a-1(pBH5), was selected for analysis. As a vector control, pUCP26 was electroporated into P. fluorescens cLP6a-1 to obtain P. fluorescens strain cLP6a-1(pUCP26). 
+
+Transport assays. 
+
+Time course experiments to measure the accumulation of radiolabeled substrate in the P. fluorescens cLP6a strains were performed by using the rapid centrifugation method described by Bugg et al. ( 3 ). The substrates tested included [9- 14 C]phenanthrene (96.5% pure; 19.3 mCi mmol −1 ; Amersham, Arlington Heights, Ill.), [side ring U- 14 C]anthracene (98% pure; 11.2 mCi mmol −1 ; Amersham), and [3- 14 C]fluoranthene (97% pure; 45 mCi mmol −1 ; Sigma Chemical Co., St. Louis, Mo.). The radiolabeled substrates were mixed with unlabeled compound and added to the assay medium at final concentrations of 6.4 μM for phenanthrene, 0.26 μM for anthracene, and 1.2 μM for fluoranthene, which corresponded to 90% of the aqueous solubility limit for each compound. Sodium azide (30 mM) was added to inhibit active transport at appropriate times. 
+
+Antibiotic sensitivity tests. 
+
+The MICs of chloramphenicol, nalidixic acid, tetracycline, erythromycin, trimethoprim, and streptomycin were determined for the various strains in tryptic soy broth by the microtiter broth dilution method ( 10 ). 
+
+Determination of emh promoter activity. 
+
+The region upstream of the emhA gene was amplified by PCR by using primers corresponding to positions 656 to 680 (forward) and 918 to 940 (reverse) in the nucleotide sequence (accession number AY349612 ) with added Hin dIII and Bam HI sites. The PCR product was cloned upstream of the promoterless lacZ gene in plasmid pTZ110, and a streptomycin resistance cassette from plasmid p34S-Sm3 was inserted into the unique Pst I site to generate the promoter-reporter plasmid pTZ110-emh. A control plasmid, pTZ110-str, was also constructed by inserting the streptomycin resistance cassette into the Pst I site of pTZ110. The promoter-reporter plasmid and the control plasmid were electroporated into P. fluorescens cLP6a to generate strains cLP6a(pTZ110-emh) and cLP6a(pTZ110-str), respectively. 
+
+To determine the effects of various hydrocarbons on expression of the lacZ reporter gene, P. fluorescens strains cLP6a(pTZ110-emh) and cLP6a(pTZ110-str) were grown in tryptic soy broth in the presence of 0.5 g of phenanthrene per liter, 0.5 g of anthracene per liter, 0.5 g of fluoranthene per liter, 0.5 g of naphthalene per liter, or 0.05% (vol/vol) toluene. Samples of the cultures were collected after 4 h of growth (early exponential phase), and the cells were permeabilized according to the Miller assay ( 18 ). The β-galactosidase activities of the samples were determined by measuring the hydrolysis of o -nitrophenyl-β- d -galactoside by the microplate assay method described by Griffith and Wolf ( 8 ). The absorbance at 420 nm, the absorbance at 550 nm, and the optical density at 600 nm were measured with a SpectraMax Plus 384 microplate spectrophotometer (Molecular Devices Corporation). 
+
+Nucleotide sequence accession number. 
+
+The nucleotide sequence reported here has been deposited in the GenBank database under accession number AY349612 . 
+
+RESULTS 
+
+Detection and insertional inactivation of the efflux pump gene. 
+
+Degenerate PCR primers designed from conserved sequences in the antibiotic and toluene efflux pumps MexB in P. aeruginosa , SrpB in P. putida S12, and TtgB and TtgE in P. putida DOT-T1E were used to amplify homologous genes from P. fluorescens cLP6a genomic DNA. The PCR product corresponding to the expected size (2.2 kb) was cloned, and 6 of 20 recombinant plasmids were selected randomly for partial DNA sequencing. The partial sequences of the six inserts were identical, indicating that only one pump gene had been amplified and cloned. A BLAST search of the translated sequence revealed a high degree of identity (60 to 80%) to gram-negative bacterial RND pumps in the GenBank database. 
+
+Plasmid pCR17, containing the 2.2-kb PCR product, was introduced into P. fluorescens cLP6a by electroporation so that integration of the plasmid into the chromosome by homologous recombination would disrupt the efflux pump gene. A disruption mutant, P. fluorescens cLP6a-1, was obtained, and the presence of the insertion was confirmed by Southern blotting and hybridization by using the 2.2-kb efflux gene fragment and plasmid pCR2.1 as probes (data not shown). 
+
+To test the role of the gene product in the efflux of polycyclic aromatic hydrocarbons, the cellular accumulation of [ 14 C]phenanthrene by P. fluorescens cLP6a and by the insertion mutant cLP6a-1 was measured before and after addition of the energy inhibitor azide (Fig. 1 ). The cellular accumulation, which represented both the intracellular and membrane-associated hydrocarbon, was the amount of phenanthrene in the cell pellet after centrifugation and was expressed as the fractional amount of the total 14 C added. For P. fluorescens cLP6a, the fractional amount of [ 14 C]phenanthrene in the cells rapidly reached a steady-state level of 0.12 ± 0.07 in the absence of azide. Upon addition of the energy inhibitor azide, the fraction of phenanthrene in the cells increased to 0.32 ± 0.01. This significant increase ( P < 0.005) is consistent with inhibition of an active efflux process. In contrast, the insertion mutant P. fluorescens cLP6a-1 contained a significantly higher steady-state level of phenanthrene (0.29 ± 0.02; P < 0.01) prior to azide addition than the cured cLP6a strain. The fraction of phenanthrene in the mutant cells did not increase significantly above the steady-state level when azide was added and was equivalent to the final cellular level in the azide-treated cured strain. These results indicate that the gene for polycyclic aromatic hydrocarbon efflux had been disrupted. This gene was designated emhB . 
+
+FIG. 1. 
+
+Open in a new tab 
+
+Accumulation of [9- 14 C]phenanthrene in cell pellets of P. fluorescens cLP6a (•) and the emhB disruption mutant cLP6a-1 (○) over time. The fractional amount of radiolabeled phenanthrene in the cells was measured by a rapid centrifugation method ( 3 ). The dashed line indicates when 30 mM azide was added. The data points are the means of three independent experiments, and the error bars indicate one standard deviation. 
+
+Cloning and sequence analysis of the Emh efflux system. 
+
+A 9.7-kb Bam HI fragment of P. fluorescens cLP6a genomic DNA, which hybridized to the emhB gene fragment, was cloned into pUC19, and its nucleotide sequence was determined. Seven complete open reading frames (ORFs) were identified on the 9.7-kb Bam HI fragment (Fig. 2 ). ORF3 (nucleotides 2083 to 5229) corresponded to the emhB gene. The deduced protein sequence encoded by emhB exhibited a high degree of identity to the RND proteins TtgB (85%) in P. putida DOT-T1E, ArpB (85%) in P. putida S12, and MexB (80%) in P. aeruginosa , and EmhB clustered with these proteins on the phylogenetic tree (Fig. 3 ). Adjacent to emhB , ORF2 (nucleotides 922 to 2079) and ORF4 (nucleotides 5229 to 6689) encoded the putative membrane fusion protein and the outer membrane channel of the efflux system; these genes were designated emhA and emhC , which is consistent with the nomenclature for three-component efflux systems. The deduced amino acid sequence encoded by ORF1 (nucleotides 23 to 655), which was located upstream of emhABC but in the opposite orientation, exhibited homology to sequences of transcriptional repressors belonging to the TetR family, including TtgR (73%) in P. putida DOT-T1E and ArpR (73%) in P. putida S12. Although the role of ORF1 has not been determined, it is believed to regulate the emhABC genes and has been designated emhR . 
+
+FIG. 2. 
+
+Open in a new tab 
+
+Schematic representation of the emh gene cluster in P. fluorescens cLP6a and cLP6a-1. In pCR17, the sequence of plasmid pCR2.1, which confers kanamycin resistance (Km r ), is cross-hatched, while the flanking regions homologous to emhB are not. 
+
+FIG. 3. 
+
+Open in a new tab 
+
+Phylogenetic relationship of EmhB to other RND efflux pumps. The tree was generated by using the neighbor-joining method in ClustalX, and the scale bar represents 0.1 substitution per amino acid. The accession numbers are as follows: MexF, NP_251184 ; MexB, NP_249117 ; ArpB, AAF73832 ; TtgB, AAC38671 ; TtgE, CAB72259 ; SrpB, AAD12176 ; TtgH, AAK69564 ; AcrD, NP_416965 ; AcrB, NP_414995 ; AcrF, NP_417732 ; MexD, NP_253288 ; and MexY, NP_250708 . 
+
+Three additional ORFs were identified on the 9.7-kb fragment. The deduced protein sequence encoded by ORF5 (nucleotides 7041 to 8300) showed homology to porins that are selective for specific substrates, such as BenF (44% identical to ORF5) involved in benzoate uptake ( 4 ) and PhaK (38% identical) required for phenylacetic acid uptake ( 20 ). Finally, ORF6 (nucleotides 8368 to 8760) and ORF7 (nucleotides 8772 to 9458) encode putative proteins similar to carboxymuconolactone decarboxylases and 3-oxoadipate enol-lactone hydrolases involved in metabolism of protocatechuate, an aromatic intermediate in phenanthrene degradation. Interestingly, genes similar to ORF5, ORF6, and ORF7 are located in the same arrangement adjacent to the toluene efflux operon ttgABC (nucleotide accession number AF031417 ) in P. putida DOT-T1E. 
+
+Phenanthrene efflux is restored by complementation. 
+
+To confirm the role of the Emh efflux system, plasmid pBH5 was constructed by ligating the emhABC genes and their upstream promoter region into the broad-host-range vector pUCP26 and transforming it into P. fluorescens cLP6a-1. The resulting transformant, P. fluorescens cLP6a-1(pBH5), accumulated levels of phenanthrene similar to the levels accumulated by the wild-type strain in both the absence and the presence of azide (Fig. 4 ). As a control, pUCP26 was transformed into P. fluorescens cLP6a-1 to ensure that the tetracycline resistance gene for tetracycline efflux on the vector did not affect the complementation results. There was not a change in the amount of cell-associated phenanthrene in P. fluorescens cLP6a-1(pUCP26) after azide addition (Fig. 4 ), and the levels of phenanthrene were comparable to those in mutant cLP6a-1, within the error typically observed for the assay. Thus, the increased accumulation of phenanthrene observed in P. fluorescens cLP6a-1(pBH5) upon azide addition resulted from inhibition of the restored Emh efflux system. 
+
+FIG. 4. 
+
+Open in a new tab 
+
+Distribution of radiolabeled substrates in the cell pellets of P. fluorescens cLP6a strains at steady state before (open bars) and after (solid bars) addition of 30 mM azide. The fractional amounts of phenanthrene, anthracene, and fluoranthene in the cells were measured by the rapid centrifugation method. The bars indicate the means of three independent experiments, and the error bars indicate one standard deviation. 
+
+EmhABC efflux system exhibits substrate specificity. 
+
+Since it was shown previously that anthracene and fluoranthene are also subject to active efflux in P. fluorescens cLP6a ( 3 ), the involvement of the emhABC genes in the efflux of these polycyclic aromatic hydrocarbons was investigated. Transport assays were performed by using radiolabeled anthracene or fluoranthene and P. fluorescens cLP6a, cLP6a-1, cLP6a-1(pBH5), or cLP6a-1(pUCP26). Figure 4 compares the steady-state levels of these substrates for the four strains in the absence and in the presence of azide. As observed with phenanthrene, inactivation of the emhB gene in P. fluorescens cLP6a-1 caused accumulation of cellular levels of anthracene and fluoranthene before azide addition that were higher than the levels in the P. fluorescens cLP6a cells ( P < 0.025). However, the fractional amounts of anthracene and fluoranthene increased significantly after azide treatment of cLP6a-1 cells, suggesting that there are additional active efflux mechanisms for these hydrocarbons. Complementation of the emhB disruption mutant with pBH5 restored the level of accumulated hydrocarbon to the levels in unmodified strain cLP6a. As a control, transport of anthracene and fluoranthene was measured in P. fluorescens cLP6a-1(pUCP26) and was expected to be comparable to transport in the mutant cLP6a-1. Although the fractional amounts of anthracene and fluoranthene after azide addition were similar for the two strains, a higher level of hydrocarbon accumulated prior to azide addition in the vector control cLP6a-1(pUCP26) than in cLP6a-1 (Fig. 4 ). The presence of plasmid pUCP26 seemed to affect the residual anthracene and fluoranthene efflux activity observed in mutant cLP6a-1. However, these results do not contradict the hypothesis that EmhABC is involved in anthracene and fluoranthene efflux, as indicated by the data obtained with P. fluorescens cLP6a-1 and cLP6a-1(pBH5). 
+
+Bugg et al. ( 3 ) found that P. fluorescens cLP6a did not possess an active efflux mechanism for naphthalene; however, the limitations of the transport assay in which radiolabeled toluene was used precluded a definitive conclusion regarding the active efflux of toluene. In the present study, the maximum concentration of toluene that allowed growth of both P. fluorescens cLP6a and cLP6a-1 was found to be 0.08% (vol/vol) or approximately one-third of the aqueous solubility limit. P. fluorescens cLP6a, therefore, is not a solvent-tolerant bacterium, and the lack of solvent tolerance, combined with the data of Bugg et al. ( 3 ), provides strong evidence that P. fluorescens cLP6a does not have an active efflux system for toluene. 
+
+The possibility that the EmhABC system might also export antibiotics was evaluated by comparing the antibiotic susceptibilities of the four strains. Antibiotics that are known substrates of efflux systems in P. aeruginosa were chosen for testing. Table 2 shows that sensitivity to chloramphenicol and nalidixic acid was affected by disruption of the emhB gene in P. fluorescens cLP6a-1, since the MICs were eight times higher for P. fluorescens cLP6a than for the disruption mutant cLP6a-1. Complementation of the emhB disruption restored resistance to chloramphenicol and nalidixic acid. In contrast, MICs of tetracycline, erythromycin, trimethoprim, and streptomycin for cLP6a and cLP6a-1 were comparable. 
+
+TABLE 2. 
+
+Antibiotic sensitivities of P. fluorescens strains 
+
+P. fluorescens strain MIC (μg ml −1 ) of a : CHL NAL TET ERY TMP STR cLP6a 64 128 2 128 >1024 16 cLP6a-1 8 16 1 64 1,024 8 cLP6a-1(pBH5) 128 512 ND b 128 >1,024 4 cLP6a-1(pUCP26) 8 4 ND 16 256 4 
+
+Open in a new tab 
+
+a 
+Abbreviations: CHL, chloramphenicol; NAL, nalidixic acid; TET, tetracycline; ERY, erythromycin; TMP, trimethoprim; STR, streptomycin. 
+
+b 
+ND, not determined due to tetracycline resistance gene encoded on vector pUCP26. 
+
+emh promoter region is not activated by aromatic hydrocarbons. 
+
+To determine if the emhABC efflux genes are induced by aromatic hydrocarbons, the reporter plasmid pTZ110-emh was constructed by inserting the putative promoter region between the emhA and emhR genes adjacent to the lacZ gene. P. fluorescens cLP6a strains carrying either the promoter-reporter plasmid pTZ110-emh or the control plasmid pTZ110-str were grown in the presence of aromatic hydrocarbons. β-Galactosidase activity measurements (Table 3 ) revealed that there was no significant induction of the lacZ reporter gene either by the efflux pump substrates phenanthrene, anthracene, and fluoranthene or by the nonsubstrates toluene and naphthalene ( P > 0.2 for a comparison with the control cells grown in the absence of hydrocarbon). 
+
+TABLE 3. 
+
+Effects of hydrocarbons on expression of β-galactosidase activity in P. fluorescens cLP6a(pTZ110-emh) and cLP6a(pTZ110-str) 
+
+Conditions a β-Galactosidase activity b cLP6a(pTZ110-emh) cLP6a(pTZ110-str) Control 65 ± 13 4 ± 2 Phenanthrene 79 ± 17 2 ± 1 Anthracene 79 ± 13 5 ± 3 Fluoranthene 88 ± 33 4 ± 1 Naphthalene 68 ± 14 2 ± 2 Toluene 61 ± 8 3 ± 1 
+
+Open in a new tab 
+
+a 
+P. fluorescens cLP6a(pTZ110-emh) and cLP6a(pTZ110-str) cells were grown to the early exponential phase in tryptic soy broth containing streptomycin in the absence of hydrocarbon (control) or with 0.5 g of phenanthrene per liter, 0.5 g of anthracene per liter, 0.5 g of fluoranthene per liter, 0.5 g naphthalene per liter, or 0.05% (vol/vol) toluene. 
+
+b 
+β-Galactosidase activity, expressed as the change in absorbance at 420 nm minute −1 milliliter of cells −1 optical density unit at 600 nm −1 , was measured in permeabilized cells by using the method described by Griffith and Wolf ( 8 ). The values are the means ± standard deviations for three independent experiments. 
+
+Polycyclic aromatic hydrocarbon efflux is found in other bacteria. 
+
+Table 4 shows that the ability to transport phenanthrene with an active efflux system is not unique to P. fluorescens cLP6a. Several P. putida strains, including P. putida G7, which harbors the NAH7 plasmid encoding naphthalene degradation genes, P. putida mt-2, which carries the TOL plasmid pWW0 encoding toluene degradation genes, P. putida KT2440, a cured derivative of P. putida mt-2 lacking the TOL plasmid, and P. putida S12, a solvent-tolerant strain, showed increases in the cellular accumulation of phenanthrene upon addition of azide, which was indicative of inhibition of an active efflux process. Three P. aeruginosa strains, including type strain PAO1 and two clinical isolates, and two B. cepacia strains, an environmental isolate and a clinical isolate, also have mechanisms for phenanthrene efflux. As shown previously ( 3 ), only A. vinelandii UW did not show evidence of an active efflux mechanism for phenanthrene when it was grown in Burke's buffer under iron-rich conditions (Table 4 ), in Burke's buffer under iron-limited conditions, or in tryptic soy broth (data not shown). 
+
+TABLE 4. 
+
+Accumulation of phenanthrene in bacterial strains before and after azide addition, as a test for efflux 
+
+Strain Accumulation of phenanthrene a Control (before azide addition) Inhibited (after azide addition) P. putida strains G7 0.04 0.22 mt-2 0.09 0.25 KT2440 0.07 0.32 S12 0.07 0.34 P. aeruginosa strains PAO1 0.08 0.36 A 0.11 0.33 B 0.10 0.27 B. cepacia strains DB01 0.09 0.21 K56-2 0.07 0.25 A. vinelandii UW 0.27 0.26 
+
+Open in a new tab 
+
+a 
+The fractional amount of radiolabeled phenanthrene was measured at steady state for both the control cells (before azide addition) and inhibited cells (after addition of 30 mM azide). 
+
+DISCUSSION 
+
+When studying the transport of polycyclic aromatic hydrocarbons by the environmental isolate P. fluorescens cLP6a, Bugg et al. ( 3 ) observed an active efflux mechanism for the polycyclic aromatic hydrocarbons phenanthrene, anthracene, and fluoranthene but not for naphthalene or toluene. The unexpected selectivity of this transport system prompted identification of the emhABC gene cluster described here (Fig. 2 ). Disruption of the emhB gene in P. fluorescens cLP6a-1 proved that the gene product was responsible for the proton-dependent efflux of phenanthrene (Fig. 1 and 4 ). The EmhB protein also is involved in the active efflux of anthracene and fluoranthene, although additional active efflux mechanisms may be present in P. fluorescens cLP6a to transport these hydrocarbons since disruption of emhB did not completely eliminate the efflux (Fig. 4 ). Multiple RND efflux pumps have been identified in a draft analysis of the P. fluorescens PfO-1 genome sequence ( http://www.jgi.doe.gov/JGI_microbial/html/pseudomonas/pseudo_homepage.html ); therefore, it is probable that P. fluorescens cLP6a also possesses more than one efflux system. 
+
+The deduced protein sequences encoded by the emhA , emhB , and emhC genes showed a high degree of homology to membrane fusion proteins, RND efflux pumps, and outer membrane proteins of three-component efflux systems in gram-negative bacteria. Although it has not been verified, the homology of the emh genes to the ttgABC and mexAB-OprM efflux operons strongly suggests that the emhA , emhB , and emhC genes form an operon. EmhB is closely related to the TtgB efflux pump, which transports antibiotics and solvents in P. putida DOT-T1E ( 23 ), and to the ArpB antibiotic efflux pump in P. putida S12 ( 11 ) (Fig. 3 ). The RND pump MexB in P. aeruginosa , which is involved in the efflux of tetracycline, chloramphenicol, β-lactams, quinolones, and macrolides ( 17 ) and in tolerance to the toxic organic solvents hexane and xylene ( 14 ), is also highly homologous to EmhB (Fig. 3 ). Based on the protein sequence homology, it was hypothesized that EmhABC might be involved in antibiotic efflux. The EmhABC system seems to contribute to chloramphenicol and nalidixic acid resistance in P. fluorescens cLP6a (Table 2 ), but it does not show the broad substrate specificity for antibiotics that is characteristic of MexAB-OprM, ArpABC, and TtgABC. Multidrug efflux pumps in pseudomonads and other organisms are notorious for transporting structurally unrelated compounds. Therefore, it is not surprising that the EmhABC system in P. fluorescens cLP6a recognizes polycyclic aromatic hydrocarbons as well as chloramphenicol and nalidixic acid, but its limited substrate range is significant. In addition, the inability of polycyclic aromatic hydrocarbons to activate the promoter region of the emhABC genes (Table 3 ) is unusual and suggests that the EmhABC efflux system may play another role in P. fluorescens cLP6a. The narrow substrate specificity of the EmhABC efflux pump, coupled with the sensitivity of P. fluorescens cLP6a to typical substrates of multidrug efflux pumps, should be advantageous for studying the substrate-binding and transport mechanism of this RND system. 
+
+Polycyclic aromatic hydrocarbons represent a new class of substrates that are recognized and transported by members of the RND superfamily. The presence of an efflux system for polycyclic aromatic hydrocarbons, however, is not unique to P. fluorescens cLP6a. Phenanthrene is actively exported by P. putida , P. aeruginosa , and B. cepacia strains (Table 4 ). Phenanthrene efflux is independent of the ability to degrade hydrocarbons, since it has been observed in toluene, naphthalene, and polycyclic aromatic hydrocarbon degraders, as well as in traditionally nondegrading species. Additionally, the location of the emhABC genes, on the chromosome rather than on the plasmid carrying the hydrocarbon degradation genes, in P. fluorescens LP6a strengthens the argument that hydrocarbon efflux and degradation are not linked. Interestingly, A. vinelandii did not show active efflux of phenanthrene despite having an RND pump gene (nucleotide accession number NZ_AAAD01000072 ) whose protein sequence is 77% identical to that of EmhB. The efflux system in A. vinelandii may recognize a different spectrum of substrates than EmhABC, or it may not have been expressed in A. vinelandii under the growth conditions tested. Since the efflux system and its regulation in A. vinelandii have not been characterized, it is difficult to draw conclusions about the lack of observed phenanthrene efflux in A. vinelandii . 
+
+The polycyclic aromatic hydrocarbons phenanthrene, anthracene, and fluoranthene recognized by the EmhABC efflux system differ from the compounds typically exported by multidrug efflux pumps in that they are not toxic to bacterial cells. While MexAB-OprM has been found to participate in the efflux of some homoserine lactones involved in quorum sensing ( 21 ), the major role of efflux systems in pseudomonads appears to be the removal of toxic compounds from the cell. It has been shown that expression of the toluene and antibiotic efflux pumps is induced by their substrates ( 6 , 13 ), which provides support for the hypothesis that their primary function is detoxification. The presence of the adjacent emhR gene suggests that expression of the emhABC genes is regulated, but the results obtained with the promoter- lacZ reporter plasmid indicated that expression of the efflux pump genes is not activated by aromatic hydrocarbons. Further analysis of the regulation and substrate specificity of EmhABC should provide insight into the role of this efflux system in P. fluorescens cLP6a, as well as into the function of this important family of transport proteins. 
+
+Acknowledgments 
+
+We thank P. Y. Law for her assistance in constructing the promoter-reporter plasmids. 
+
+This work was supported by the Natural Sciences and Engineering Research Council. 
+
+REFERENCES 
+
+1. Altschul, S. F., W. Gish, W. Miller, E. W. Myers, and D. J. Lipman. 1990. Basic local alignment search tool. J. Mol. Biol. 215 : 403-410. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+2. Bagdasarian, M., R. Lurz, B. Rückert, F. C. H. Franklin, M. M. Bagdasarian, J. Frey, and K. N. Timmis. 1981. Specific-purpose plasmid cloning vectors. II. Broad host range, high copy number, RSF1010-derived vectors, and a host vector system for gene cloning in Pseudomonas. Gene 16 : 237-247. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+3. Bugg, T., J. M. Foght, M. A. Pickard, and M. R. Gray. 2000. Uptake and active efflux of polycyclic aromatic hydrocarbons by Pseudomonas fluorescens LP6a. Appl. Environ. Microbiol. 66 : 5387-5392. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+4. Cowles, C. E., N. N. Nichols, and C. S. Harwood. 2000. BenR, a XylS homologue, regulates three different pathways of aromatic acid degradation in Pseudomonas putida. J. Bacteriol. 182 : 6339-6346. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Dunn, N., and I. C. Gunsalus. 1973. Transmissible plasmids coding early enzymes of naphthalene oxidation in Pseudomonas putida. J. Bacteriol. 114 : 974-979. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Duque, E., A. Segura, G. Mosqueda, and J. L. Ramos. 2001. Global and cognate regulators control the expression of the organic solvent efflux pumps TtgABC and TtgDEF of Pseudomonas putida. Mol. Microbiol. 39 : 1100-1106. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Foght, J. M., and D. W. S. Westlake. 1996. Transposon and spontaneous deletion mutants of plasmid-borne genes encoding polycyclic aromatic hydrocarbon degradation by a strain of Pseudomonas fluorescens. Biodegradation 7 : 353-366. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+8. Griffith, K. L., and R. E. Wolf, Jr. 2002. Measuring β-galactosidase activity in bacteria: cell growth, permeabilization, and enzyme assays in 96-well arrays. Biochem. Biophys. Res. Commun. 290 : 397-402. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+9. Holloway, B. W. 1969. Genetics of Pseudomonas. Bacteriol. Rev. 33 : 419-443. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+10. Jorgensen, J. H., J. D. Turnidge, and J. A. Washington. 1999. Antibacterial susceptibility tests: dilution and disk diffusion methods, p. 1526-1543. In P. R. Murray, E. J. Baron, M. A. Pfaller, F. C. Tenover, and R. H. Yolken (ed.), Manual of clinical microbiology, 7th ed. American Society for Microbiology, Washington, D.C. 
+
+11. Kieboom, J., and J. A. M. de Bont. 2001. Identification and molecular characterization of an efflux system involved in Pseudomonas putida S12 multidrug resistance. Microbiology 147 : 43-51. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+12. Kieboom, J., J. J. Dennis, J. A. M. de Bont, and G. J. Zylstra. 1998. Identification and molecular characterization of an efflux pump involved in Pseudomonas putida S12 solvent tolerance. J. Biol. Chem. 273 : 85-91. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+13. Kieboom, J., J. J. Dennis, G. Zylstra, and J. A. M. de Bont. 1998. Active efflux of organic solvents by Pseudomonas putida S12 is induced by solvents. J. Bacteriol. 180 : 6769-6772. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+14. Li, X.-Z., L. Zhang, and K. Poole. 1998. Role of the multidrug efflux systems of Pseudomonas aeruginosa in organic solvent tolerance. J. Bacteriol. 180 : 2987-2991. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Mahenthiralingam, E., T. Coenye, J. W. Chung, D. P. Speert, J. R. Govan, P. Taylor, and P. Vandamme. 2000. Diagnostically and experimentally useful panel of strains from the Burkholderia cepacia complex. J. Clin. Microbiol. 38 : 910-913. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+16. Maloy, S. R. 1990. Experimental techniques in bacterial genetics. Jones and Bartlett Publishers Inc., Boston, Mass. 
+
+17. Masuda, N., E. Sakagawa, S. Ohya, N. Gotoh, H. Tsujimoto, and T. Nishino. 2000. Substrate specifities of MexAB-OprM, MexCD-OprJ, and MexXY-OprM efflux pumps in Pseudomonas aeruginosa. Antimicrob. Agents Chemother. 44 : 3322-3327. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Miller, J. H. 1972. Experiments in molecular genetics. Cold Spring Harbor Laboratory Press, Cold Spring Harbor, N.Y. 
+
+19. Mosqueda, G., and J. L. Ramos. 2000. A set of genes encoding a second toluene efflux system in Pseudomonas putida DOT-T1E is linked to the tod genes for toluene metabolism. J. Bacteriol. 182 : 937-943. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. Olivera, E. R., B. Minambres, B. Garcia, C. Muniz, M. A. Moreno, A. Ferrandez, E. Diaz, J. L. Garcia, and J. M. Luengo. 1998. Molecular characterization of the phenylacetic acid catabolic pathway in Pseudomonas putida U: the phenylacetyl-CoA catabolon. Proc. Natl. Acad. Sci. USA 95 : 6419-6424. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+21. Pearson, J. P., C. van Delden, and B. H. Iglewski. 1999. Active efflux and diffusion are involved in transport of Pseudomonas aeruginosa cell-to-cell signals. J. Bacteriol. 181 : 1203-1210. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+22. Poole, K. 2001. Multidrug efflux pumps and antimicrobial resistance in Pseudomonas aeruginosa and related organisms. J. Mol. Microbiol. Biotechnol. 3 : 255-264. [ PubMed ] [ Google Scholar ] 
+
+23. Ramos, J. L., E. Duque, P. Godoy, and A. Segura. 1998. Efflux pumps involved in toluene tolerance in Pseudomonas putida DOT-T1E. J. Bacteriol. 180 : 3323-3329. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+24. Rojas, A., E. Duque, G. Mosqueda, G. Golden, A. Hurtado, J. L. Ramos, and A. Segura. 2001. Three efflux pumps are required to provide efficient tolerance to toluene in Pseudomonas putida DOT-T1E. J. Bacteriol. 183 : 3967-3973. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Sambrook, J., E. F. Fritsch, and T. Maniatis. 1989. Molecular cloning: a laboratory manual, 2nd ed. Cold Spring Harbor Laboratory Press, Cold Spring Harbor, N.Y. 
+
+26. Schweizer, H. P., and R. Chuanchuen. 2001. Small broad-host-range lacZ operon fusion vector with low background activity. BioTechniques 31 : 1258-1262. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+27. Sikkema, J., J. A. M. de Bont, and B. Poolman. 1995. Mechanisms of membrane toxicity of hydrocarbons. Microbiol. Rev. 59 : 201-222. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Thompson, J. D., T. J. Gibson, F. Plewniak, F. Jeanmougin, and D. G. Higgins. 1997. The ClustalX windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools. Nucleic Acids Res. 25 : 4876-4882. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+29. Tseng, T., K. S. Gratwick, J. Kollman, D. Park, D. H. Nies, A. Goffeau, and M. H. Saier, Jr. 1999. The RND permease superfamily: an ancient, ubiquitous and diverse family that includes human disease and development proteins. J. Mol. Microbiol. Biotechnol. 1 : 107-125. [ PubMed ] [ Google Scholar ] 
+
+30. Walsh, T. A., and D. P. Ballou. 1983. Halogenated protocatechuate as substrate for protocatechuate dioxygenase from Pseudomonas cepacia. J. Biol. Chem. 258 : 14413-14421. [ PubMed ] [ Google Scholar ] 
+
+31. West, S. E. H., H. P. Schweizer, C. Dall, A. K. Sample, and L. J. Runyen-Janecky. 1994. Construction of improved Escherichia-Pseudomonas shuttle vectors derived from pUC18/19 and sequence of the region required for their replication in Pseudomonas aeruginosa. Gene 148 : 81-86. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+32. Williams, P. A., and K. Murray. 1974. Metabolism of benzoates and methylbenzoates by Pseudomonas putida (arvilla ) mt-2: evidence for the existence of new TOL plasmids. J. Bacteriol. 120 : 416-423. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+33. Zgurskaya, H. I., and H. Nikaido. 2000. Multidrug resistance mechanisms: drug efflux across two membranes. Mol. Microbiol. 37 : 219-225. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Journal of Bacteriology are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (121.3 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

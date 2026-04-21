@@ -37,7 +37,7 @@ License: publisher_api_candidate
       <xocs:item-version-number>S300.1</xocs:item-version-number>
       <xocs:item-weight>FULL-TEXT</xocs:item-weight>
       <xocs:hub-eid>1-s2.0-S1198743X17X00037</xocs:hub-eid>
-      <xocs:timestamp yyyymmdd="20250716">2025-07-16T16:20:03.292983Z</xocs:timestamp>
+      <xocs:timestamp yyyymmdd="20190201">2019-02-01T01:53:08.267014Z</xocs:timestamp>
       <xocs:dco>0</xocs:dco>
       <xocs:tomb>0</xocs:tomb>
       <xocs:date-search-begin>20180201</xocs:date-search-begin>
@@ -137,6 +137,7 @@ License: publisher_api_candidate
       </xocs:open-access>
       <xocs:self-archiving>
          <xocs:sa-start-date>2019-01-27T00:00:00.000Z</xocs:sa-start-date>
+         <xocs:sa-embargo-status>UnderEmbargo</xocs:sa-embargo-status>
          <xocs:sa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:sa-user-license>
       </xocs:self-archiving>
       <xocs:copyright-info>

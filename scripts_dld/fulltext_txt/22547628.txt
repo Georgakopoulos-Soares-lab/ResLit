@@ -1,0 +1,508 @@
+PMID: 22547628
+PMCID: PMC3393444
+DOI: 10.1128/AAC.00673-12
+Title: The order Bacillales hosts functional homologs of the worrisome cfr antibiotic resistance gene.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2012 Jul
+Authors: Hansen LH, Planellas MH, Long KS, Vester B
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+The Order Bacillales Hosts Functional Homologs of the Worrisome cfr Antibiotic Resistance Gene - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2012 Jul;56(7):3563–3567. doi: 10.1128/AAC.00673-12 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+The Order Bacillales Hosts Functional Homologs of the Worrisome cfr Antibiotic Resistance Gene 
+
+Lykke H Hansen 
+
+Lykke H Hansen 
+
+a Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense M, Denmark 
+
+Find articles by Lykke H Hansen 
+
+a , Mercè H Planellas 
+
+Mercè H Planellas 
+
+a Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense M, Denmark 
+
+Find articles by Mercè H Planellas 
+
+a , Katherine S Long 
+
+Katherine S Long 
+
+b Novo Nordisk Foundation Center for Biosustainability and Department of Systems Biology, Technical University of Denmark, Hørsholm, Denmark 
+
+Find articles by Katherine S Long 
+
+b , Birte Vester 
+
+Birte Vester 
+
+a Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense M, Denmark 
+
+Find articles by Birte Vester 
+
+a, ✉ 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a Department of Biochemistry and Molecular Biology, University of Southern Denmark, Odense M, Denmark 
+
+b Novo Nordisk Foundation Center for Biosustainability and Department of Systems Biology, Technical University of Denmark, Hørsholm, Denmark 
+
+✉ 
+Address correspondence to Birte Vester, b.vester@bmb.sdu.dk . 
+
+✉ 
+Corresponding author. 
+
+Received 2012 Mar 28; Revision requested 2012 Apr 14; Accepted 2012 Apr 25. 
+
+Copyright © 2012, American Society for Microbiology. All Rights Reserved. 
+
+PMC Copyright notice 
+
+PMCID: PMC3393444  PMID: 22547628 
+
+Abstract 
+
+The cfr gene encodes the Cfr methyltransferase that methylates a single adenine in the peptidyl transferase region of bacterial ribosomes. The methylation provides resistance to several classes of antibiotics that include drugs of clinical and veterinary importance. This paper describes a first step toward elucidating natural residences of the worrisome cfr gene and functionally similar genes. Three cfr -like genes from the order Bacillales were identified from BLAST searches and cloned into plasmids under the control of an inducible promoter. Expression of the genes was induced in Escherichia coli , and MICs for selected antibiotics indicate that the cfr -like genes confer resistance to PhLOPSa (phenicol, lincosamide, oxazolidinone, pleuromutilin, and streptogramin A) antibiotics in the same way as the cfr gene. In addition, modification at A2503 on 23S rRNA was confirmed by primer extension. Finally, expression of the Cfr-like proteins was verified by SDS gel electrophoresis of whole-cell extracts. The work shows that cfr -like genes exist in the environment and that Bacillales are natural residences of cfr -like genes. 
+
+INTRODUCTION 
+
+The cfr gene was first found in 2000 on a plasmid in a Staphylococcus sciuri strain in a veterinary bovine sample from Germany ( 25 ). Cfr methylates nucleotide A2503 of 23S rRNA at the ribosomal peptidyl transferase center ( 16 ). It provides resistance to antibiotics binding to the ribosomal peptidyl transferase center on the ribosome, defining a PhLOPSa phenotype reflecting resistance to phenicol, lincosamide, oxazolidinone, pleuromutilin, and streptogramin A antibiotic classes ( 19 ), and it also confers resistance to some macrolide antibiotics ( 28 ). The cfr gene is thus a serious threat when it spreads in pathogenic bacteria because many clinically important antibiotics will become useless. 
+
+In 2007, the cfr gene was found in a methicillin-resistant Staphylococcus aureus (MRSA) isolate from a patient from Colombia ( 30 ). The cfr gene has now been found worldwide in Staphylococcus spp. isolated from animals in Germany, Denmark, and China ( 15 , 17 , 25 , 35 ) as well as in patients from the United States, Spain, Mexico, Italy, and Ireland ( 3 , 4 , 8 , 13 , 20 – 24 , 27 ). It has also been found in other Firmicutes , namely, in an Enterococcus faecalis isolate from a patient in Thailand ( 7 ) and one of animal origin ( 18 ) and in Bacillus sp. isolates from swine feces ( 6 , 33 , 36 ). Furthermore, the cfr gene has recently been detected in animal isolates of the Gram-negative bacteria Proteus vulgaris ( 34 ) and Escherichia coli ( 32 ). All findings concern the same gene with only very minor sequence changes. It is also evident that the cfr gene has been transmitted to its hosts, as it is always found either on a plasmid or together with insertion sequences. 
+
+In 2008, the identity of the Cfr-mediated methylation was determined to be 8-methyladenosine (m 8 A), a new natural RNA modification ( 9 ). It was also established by mutagenesis that Cfr is a radical S -adenosylmethionine (SAM) enzyme. This family includes a wide range of enzymes from a diverse set of bacteria involved in protein radical formation, isomerization, sulfur insertion, anaerobic oxidation, and unusual methylations, as originally described by Sofia et al. ( 29 ). 
+
+Phylogenetic comparisons have shown that Cfr is similar to the RlmN methyltransferases that add a methyl group at the C-2 position of 23S rRNA nucleotide A2503 ( 31 ), the same nucleotide that is methylated by Cfr. It may be that the cfr gene evolved from the rlmN gene via gene duplication, but no clear path has emerged yet. A new mechanism involving protein methylation and transitory cross-linking has recently been proposed to explain the detailed mechanism of Cfr and RlmN methylation ( 10 , 11 ), and an X-ray structure of RlmN has been published ( 2 ). 
+
+The gene and genome databanks contain a wealth of information that can be used to find genes similar to cfr . We have selected three Cfr-like proteins from the order Bacillales , cloned the genes, and investigated if they indeed confer resistance in a manner similar to that of the Cfr methyltransferase. In addition, the methylation was assayed by primer extension on 23S rRNA and protein expression was assayed by SDS gel electrophoresis. The results confirm that cfr -like genes exist in the environment and that the cfr gene is not functionally unique. 
+
+MATERIALS AND METHODS 
+
+Construction of plasmids bearing cfr -like genes. 
+
+Plasmids encoding Cfr-like proteins were constructed by PCR amplification of the genes from genomic DNA (the sources and other information are listed in Table 1 ), followed by cloning into plasmid pLJ102 for expression of the Cfr-like proteins. Bacillus amyloliquefaciens and Bacillus clausii were grown in LB. Brevibacillus brevis was grown in a medium containing 10 g polypeptone, 2 g yeast extract, and 1 g MgSO 4 · 7H 2 O per liter. All strains were grown at 37°C. Genomic DNA was isolated with the High Pure PCR template preparation kit (Roche) or the Aqua Pure genomic DNA kit (Bio-Rad). Standard PCR amplification of the relevant genes was performed with the following primers, each containing NdeI or HindIII cleavage sites for cloning: 5′CTGCATACATATGCAACAAAAAAACAAGTATAT3′ and 5′CAGAATAAGCTTTTATTGGTTCTTATTTTTTTGATA3′ for the Bacillus amyloliquefaciens gene ( clbA ), 5′CTGCATACATATGAAAGTTGTCAATCATGCG3′ and 5′CAGAATAAGCTTTCACCTTTTTTTCGCCTGATA3′ for the Bacillus clausii gene ( clbC ), and 5′CTGCATACATATGAAACTAACCTCGAAATATGAA3′ and 5′CAGAATAAGCTTATTCAGAGCGGTATAACTGGCC3′ for the Brevibacillus brevis gene ( clbB ). The PCR fragments were cut with the appropriate restriction enzymes and ligated into plasmid pLJ102, cut with the same enzymes (whereby another gene was removed), such that the genes are positioned after an IPTG (isopropyl-β- d -thiogalactopyranoside)-inducible promoter. The ligations were transformed into the E. coli TOP10 strain (Invitrogen), and plasmid-containing clones were selected on agar plates with 100 μg/ml ampicillin. Plasmids were isolated from these clones and retransformed into E. coli strains AS19 ( 26 ) and JW2501-1 ( 1 ). All three plasmid constructs were sequenced at the inserted gene to verify the identity of the cloned genes. 
+
+Table 1. 
+
+The cfr -like genes and plasmids used in this study 
+
+Gene or plasmid Organism (genome source for cfr -like genes) or features Strain designation Source or reference a Gene ID b Genes clbA Bacillus amyloliquefaciens FZB42 BGSC YP 001420189 clbC Bacillus clausii “domuvar” BGSC YP 174574.1 clbB Brevibacillus brevis 100599 NBRC YP 002773985.1 Plasmids pBa Inducible ClbA expression This study pBc Inducible ClbC expression This study pBb Inducible ClbB expression This study pCfrhis Inducible Cfr expression 9 , 14 pBglII Constitutive Cfr expression 16 pLJ102 Derivative of pQE60 12 pBluescript Cloning vector Stratagene 
+
+Open in a new tab 
+
+a 
+BGSC, Bacillus Genetic Stock Center; NBRC, NITE Biological Resource Center. 
+
+b 
+Gene identification numbers indicate database accession numbers. 
+
+Verification of cfr -like gene expression by SDS gel analysis. 
+
+E. coli AS19 cells harboring the plasmids with the cfr look-alike genes were grown at 37°C to an optical density at 450 nm (OD 450 ) of 0.2 to 0.3, followed by addition of IPTG (to 1 mM) for induction of the genes. Cells were harvested after 3 to 3.5 h of growth and stored at −80°C. For gel analysis, samples were dissolved in 1× SDS/dithiothreitol (DTT) loading buffer, boiled for 5 min, and loaded onto standard SDS gels along with standard markers. Gels were run at 180 V and then stained with brilliant blue G. 
+
+Antibiotic susceptibility testing of strains expressing Cfr-like proteins. 
+
+Drug susceptibility testing was done in a microtiter plate format by measuring optical density values at 450 nm with a Victor 3 spectrophotometer (Perkin Elmer). LB medium was inoculated with single colonies of E. coli AS19 strains harboring plasmids with cfr or the cfr -like genes and incubated overnight. The cultures were diluted to an OD 450 value of 0.01, followed by mixing of 100 μl diluted culture with 100 μl of antibiotic solution in a series with 2-fold concentration steps. Expression of cfr and the cfr -like genes was induced by addition of 1 mM IPTG. The tested concentration ranges were as follows: florfenicol, 0.5 to 32 μg/ml; clindamycin and linezolid, 2 to 128 μg/ml; tiamulin, 0.25 to 128 μg/ml; and a mixture of streptogramin A and streptogramin B antibiotics (Synercid), 1 to 64 μg/ml. The MIC was defined as the drug concentration at which the growth of the cultures was completely inhibited after 24 h of incubation at 37°C. 
+
+Primer extension analysis. 
+
+RNA was extracted from E. coli JW2501-1 strains harboring the plasmids following induction with 1 mM IPTG and 3 to 4 h of growth using the GeneJET RNA purification kit (Fermentas). Methylation at A2503 was examined by primer extension analysis with avian myeloblastosis virus (AMV) reverse transcriptase (Finnzymes). The Cy5-labeled deoxyoligonucleotide primer (5′-GAACAGCCATACCCTTG-3′), complementary to nucleotides 2540 to 2556 of E. coli 23S rRNA, was used. The cDNA extension products were separated on 6% polyacrylamide sequencing gels. The positions of the stops were visualized by fluorescence scan and identified by referencing to dideoxynucleotide sequencing reactions on 23S rRNA that were electrophoresed in parallel. 
+
+RESULTS AND DISCUSSION 
+
+BLAST search and selection of cfr -like genes. 
+
+BLAST searches were performed against the nonredundant protein sequences database with the S. sciuri Cfr protein sequence as the query sequence. As expected from the literature, the top hits corresponded to the Cfr proteins found in Bacillus sp., S. aureus , and E. faecalis , with 99 to 100% identity to the query sequence. Other hits with over 50% identity to Cfr are proteins found in Firmicutes , including organisms in the genera Bacillus , Brevibacillus , Paenibacillus , Clostridium , and Enterococcus . Of these, the proteins with highest identity to Cfr (60 to 80%) are, with one exception, found in Bacillus and Brevibacillus . Three proteins with high degrees of identity to Cfr that were found in organisms from these two genera, namely, Bacillus amyloliquefaciens , Bacillus clausii , and Brevibacillus brevis , were selected for further analysis. An alignment showing the homology is presented in Fig. 1 . As we are interested in discovering Cfr and not RlmN homologs, RlmN is included in the alignment to show that the selected sequences are more similar to Cfr than to RlmN ( Fig. 1 ). 
+
+Fig 1. 
+
+Open in a new tab 
+
+Protein alignment and sequence conservation of Cfr, ClbA, ClbC, ClbB, and RlmN. Alignment of the four investigated proteins plus RlmN, which is placed below the lines. Shaded text indicate >90% consensus. Bolded text indicate >50% consensus. Consensus symbols: !, one of I or V; $, one of L or M; %, one of F or Y; #, one of N, D, Q, E, B, or Z. The underlined consensus2 sequence is from only Cfr, ClbA, ClbC, and ClbB. The alignment was made using MultAlin ( 5 ) ( http://multalin.toulouse.inra.fr/multalin/multalin.html ). 
+
+Cloning, sequencing, and expression of the selected Cfr-like proteins. 
+
+After extraction of genomic DNA from the Bacillus amyloliquefaciens , Bacillus clausii , and Brevibacillus brevis strains, their cfr -like genes were amplified by PCR for cloning (see Materials and Methods). The genes were introduced into plasmid pLJ102 ( 12 ) in the same way that plasmid pCfrhis was constructed with the S. sciuri cfr gene ( 9 , 14 ) except that no histidine tag was added. The insertions were verified by sequencing of the cloned genes, and the plasmids named pBa, pBc, and pBb were transformed into E. coli AS19. Expression of the genes was induced by addition of IPTG and investigated by SDS gel analysis of total protein from the strains. Each strain was assayed with and without IPTG induction. Samples of E. coli AS19 without plasmid and with plasmid pBglII ( 16 ), which constitutively expresses Cfr, were included as controls. The gels presented in Fig. 2 show expression of Cfr and the Cfr-like proteins (here referred to as ClbA, ClbC, and ClbB), for which the pBb and pBc samples show very strong expression. As the plasmids are identical except the cloned gene sequences, the differences in expression may be due to differences in translation, rare codons, or the stability of the mRNAs or the enzymes themselves. 
+
+Fig 2. 
+
+Open in a new tab 
+
+Analysis of whole-cell extracts by SDS-PAGE to verify expression of Cfr and Cfr-like proteins. The extracts are from E. coli AS19 harboring the plasmids indicated on top of the gels. Lanes marked with “+ induc.” denote samples with induced expression. The marker protein sizes in kilodaltons are, from the top, 97.4, 66.2, 45, and 31. The arrows point to bands appearing as a result of Cfr or Cfr-like protein expression. 
+
+Antibiotic susceptibilities of strains expressing Cfr-like proteins for PhLOPSa antibiotics. 
+
+To establish if the Cfr-like proteins ClbA, ClbC, and ClbB confer a resistance pattern similar to that of the Cfr methyltransferase, MICs were determined for E. coli AS19 harboring the respective plasmids with the five antibiotics florfenicol, clindamycin, linezolid, tiamulin, and streptogramin A/streptogramin B. These antibiotics represent the five antibiotic classes in the PhLOPSa phenotype defined from the Cfr methyltransferase ( 19 ). The E. coli AS19 strain is used as a host for these experiments because it is much more sensitive to many antibiotics than other E. coli strains that have a naturally low sensitivity level. Expression of the plasmid-borne genes was induced by adding IPTG when the strains were transferred to LB medium containing the antibiotics. The MICs are summarized in Table 2 together with those of the control strains without plasmid, the parent pLJ102 plasmid, the pBglII plasmid that constitutively expresses Cfr, and its parent plasmid pBluescript with no cfr gene. All in all, expression of the ClbA, ClbC, and ClbB proteins lowers the sensitivity to all five tested antibiotics. Thus, all three proteins are Cfr-like. The general tendency is that Cfr provides more resistance than ClbA, ClbC, and ClbB. The expression level of each protein and the MIC effects do not necessarily correlate quantitatively. This may be because the MIC values reflect a longer induction effect than do the SDS gels and the enzymes are not acting on their natural targets. Although the peptidyl transferase region of the ribosome is well conserved, there are species-specific differences. Despite this, the ClbA, ClbC, ClbB, and Cfr proteins all seem to act relatively efficiently in E. coli . 
+
+Table 2. 
+
+MICs of E. coli AS19 strains in the presence or absence of plasmids expressing cfr or cfr -like genes 
+
+Plasmid Presence of cfr / cfr -like gene MIC (μg/ml) a Florfenicol Clindamycin Linezolid Tiamulin Streptogramin A/streptogramin B No plasmid − 1 32 8–16 0.5 4 pLJ102 − 1 16 8 0.5 4 pBa + 4 >128 32 4–8 32 pBc + 8 >128 16–32 4–8 32 pBb + 16 >128 16 8–16 32 pCfrhis + 16 >128 128 32 64 pBluescript − 1 16–32 8 0.5 4 pBglII + 16 >128 64 16 64 
+
+Open in a new tab 
+
+a 
+The tabulated MICs are the averages from at least three independent experiments. An interval is given when no clear distinction between the numbers was obtained. Only greater-than-2-fold differences are considered significant. 
+
+Verification of RNA methylation at A2503 in 23S rRNA by primer extension. 
+
+Although the combined resistance to five different antibiotic classes is a strong argument for ClbA, ClbC, and ClbB acting via the same mechanism as the Cfr methyltransferase, a verification of the modified site proves the relationship. The plasmids pBa, pBc, and pBb were transformed into JW2501-1, an E. coli RlmN-negative strain ( 31 ). The 2-methyladenosine (m 2 A) methylation mediated by RlmN causes a minor primer extension stop at A2503 that interferes with detection of the m 8 A methylation from Cfr-like enzymes. This is avoided by using rRNA from the JW2501-1 strain as in vivo substrates. After induction of Cfr and the Cfr-like proteins, the bacteria were grown for 3 to 4 h to allow new rRNA to be transcribed, modified, and incorporated into ribosomes. Then the total RNA was purified and subjected to primer extension by reverse transcriptase. A fluorescently labeled oligonucleotide was annealed to a region of 23S rRNA 3′ to A2503 and extended until stopped by modifications or secondary structures. The products were run alongside dideoxy sequencing reactions, as illustrated in Fig. 3 . The induction of Cfr from pCfrhis and the constitutively expressed Cfr from pBglII mediate strong stops at A2503. The ClbA, ClbC, and ClbB proteins cause clear but somewhat less-intense bands. As expected, the control with pLJ102 does not give rise to any stop at the A2503 position. The stops thus confirm that ClbA, ClbC, and ClbB modify A2503 like Cfr does. The intensity of the stops correlates with the MICs in Table 2 in that stronger stops are observed with Cfr, which also yields higher MIC values than the Cfr-like proteins. The data are from different hosts and time intervals after induction, so the correlation is not expected to be absolute. Both m 2 A and m 8 A methylations give rise to primer extension stops, but m 2 A does not cause significant antibiotic resistance ( 31 ). Therefore, the conclusion is that ClbA, ClbC, and ClbB are true Cfr-like proteins, providing the same effect on 23S rRNA as that by Cfr. Further studies are needed to investigate if these enzymes play additional roles in their natural hosts. This requires either gene knockouts or a close relative without the gene that can be supplemented with the gene or other genetic manipulations, and even then, it might not be a trivial task. 
+
+Fig 3. 
+
+Open in a new tab 
+
+Primer extension analysis of reverse transcriptase stops on 23S rRNA from E. coli JW2501-1 strains harboring various plasmids expressing Cfr-like proteins. The region shown is limited to the nucleotides flanking A2503, which is methylated by Cfr. Lanes 1 to 4, marked C, U, A, and G, refer to dideoxy sequencing reactions. Lanes 5 to 10 show primer extension reactions on total RNA from cells harboring the indicated plasmids. Reverse transcriptase stops one nucleotide before the corresponding nucleotide in the sequencing lanes. The arrow points to the stop mediated by methylation from Cfr or the Cfr-like proteins. 
+
+Concluding remarks. 
+
+It is still uncertain how widespread the cfr gene is and how it evolved, but its presence in pathogenic bacteria and the resulting antibiotic resistance are certainly matters of concern. It is not known if it originally evolved for protection against antibiotics or if it also has some other function. The similar rlmN genes that do not confer resistance are abundant, but there is also a third group of sequences that code for proteins that are a bit different from RlmN and Cfr ( 14 ). This study is a very first step to shed light on some of these questions. Our data clearly confirm that the three investigated genes from Bacillus amyloliquefaciens , Bacillus clausii , and Brevibacillus brevis are cfr -like. They confer decreased susceptibility to five classes of antibiotics when expressed in E. coli by modification of position A2503 in 23S rRNA. The verification of functional cfr -like genes in the environment is a disturbing finding regarding antibiotic resistance that warrants further investigation. 
+
+ACKNOWLEDGMENTS 
+
+We thank Stephen Douthwaite for providing pLJ102. 
+
+We thank The Danish Medical Research Council, the Danish National Research Foundation, and the Novo Nordisk Foundation for financial support. 
+
+Footnotes 
+
+Published ahead of print 30 April 2012 
+
+REFERENCES 
+
+1. Baba T, et al. 
+2006. 
+Construction of Escherichia coli K-12 in-frame, single-gene knockout mutants: the Keio collection. Mol. Syst. Biol.
+2:2006.0008. doi: 10.1038/msb4100050 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+2. Boal AK, et al. 
+2011. 
+Structural basis for methyl transfer by a radical SAM enzyme. Science
+332:1089–1092 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Bongiorno D, et al. 
+2010. 
+DNA methylase modifications and other linezolid resistance mutations in coagulase-negative staphylococci in Italy. J. Antimicrob. Chemother.
+65:2336–2340 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+4. Bonilla H, et al. 
+2010. 
+Multicity outbreak of linezolid-resistant Staphylococcus epidermidis associated with clonal spread of a cfr -containing strain. Clin. Infect. Dis.
+51:796–800 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+5. Corpet F.
+1988. 
+Multiple sequence alignment with hierarchical clustering. Nucleic Acids Res.
+16:10881–10890 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Dai L, et al. 
+2010. 
+First report of the multidrug resistance gene cfr and the phenicol resistance gene fexA in a Bacillus strain from swine feces. Antimicrob. Agents Chemother.
+54:3953–3955 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+7. Diaz L, et al. 
+9
+April
+2012. 
+Transferable plasmid-mediated resistance to linezolid due to cfr in a human clinical isolate of Enterococcus faecalis. Antimicrob. Agents Chemother.
+doi: 10.1128/AAC.00419-12 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Farrell DJ, Mendes RE, Ross JE, Sader HS, Jones RN.
+2011. 
+LEADER Program results for 2009: an activity and spectrum analysis of linezolid using 6,414 clinical isolates from 56 medical centers in the United States. Antimicrob. Agents Chemother.
+55:3684–3690 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Giessing AM, et al. 
+2009. 
+Identification of 8-methyladenosine as the modification catalyzed by the radical SAM methyltransferase Cfr that confers antibiotic resistance in bacteria. RNA
+15:327–336 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+10. Grove TL, et al. 
+2011. 
+A radically different mechanism for S -adenosylmethionine-dependent methyltransferases. Science
+332:604–607 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+11. Grove TL, Radle MI, Krebs C, Booker SJ.
+2011. 
+Cfr and RlmN contain a single [4Fe-4S] cluster, which directs two distinct reactivities for S -adenosylmethionine: methyl transfer by S N 2 displacement and radical generation. J. Am. Chem. Soc.
+133:19586–19589 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Johansen SK, Maus CE, Plikaytis BB, Douthwaite S.
+2006. 
+Capreomycin binds across the ribosomal subunit interface using tlyA -encoded 2′-O-methylations in 16S and 23S rRNAs. Mol. Cell
+23:173–182 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+13. Jones RN, et al. 
+2009. 
+Zyvox Annual Appraisal of Potency and Spectrum program: linezolid surveillance program results for 2008. Diagn. Microbiol. Infect. Dis.
+65:404–413 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+14. Kaminska KH, et al. 
+2010. 
+Insights into the structure, function and evolution of the radical-SAM 23S rRNA methyltransferase Cfr that confers antibiotic resistance in bacteria. Nucleic Acids Res.
+38:1652–1663 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Kehrenberg C, Schwarz S.
+2006. 
+Distribution of florfenicol resistance genes fexA and cfr among chloramphenicol-resistant Staphylococcus isolates. Antimicrob. Agents Chemother.
+50:1156–1163 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+16. Kehrenberg C, Schwarz S, Jacobsen L, Hansen LH, Vester B.
+2005. 
+A new mechanism for chloramphenicol, florfenicol and clindamycin resistance: methylation of 23S ribosomal RNA at A2503. Mol. Microbiol.
+57:1064–1073 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+17. Kehrenberg C, Aarestrup FM, Schwarz S.
+2007. 
+IS 21-558 insertion sequences are involved in the mobility of the multiresistance gene cfr . Antimicrob. Agents Chemother.
+51:483–487 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Liu Y, et al. 
+2012. 
+First report of the multidrug resistance gene cfr in Enterococcus faecalis of animal origin. Antimicrob. Agents Chemother.
+56:1650–1654 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+19. Long KS, Poehlsgaard J, Kehrenberg C, Schwarz S, Vester B.
+2006. 
+The Cfr rRNA methyltransferase confers resistance to phenicols, lincosamides, oxazolidinones, pleuromutilins, and streptogramin A antibiotics. Antimicrob. Agents Chemother.
+50:2500–2505 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. Mendes RE, et al. 
+2010. 
+First report of staphylococcal clinical isolates in Mexico with linezolid resistance caused by cfr : evidence of in vivo cfr mobilization. J. Clin. Microbiol.
+48:3041–3043 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+21. Mendes RE, et al. 
+2008. 
+First report of cfr -mediated resistance to linezolid in human staphylococcal clinical isolates recovered in the United States. Antimicrob. Agents Chemother.
+52:2244–2246 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+22. Mendes RE, et al. 
+2010. 
+Assessment of linezolid resistance mechanisms among Staphylococcus epidermidis causing bacteraemia in Rome, Italy. J. Antimicrob. Chemother.
+65:2329–2335 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+23. Morales G, et al. 
+2010. 
+Resistance to linezolid is mediated by the cfr gene in the first report of an outbreak of linezolid-resistant Staphylococcus aureus. Clin. Infect. Dis.
+50:821–825 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+24. Sanchez Garcia M, et al. 
+2010. 
+Clinical outbreak of linezolid-resistant Staphylococcus aureus in an intensive care unit. JAMA
+303:2260–2264 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+25. Schwarz S, Werckenthin C, Kehrenberg C.
+2000. 
+Identification of a plasmid-borne chloramphenicol-florfenicol resistance gene in Staphylococcus sciuri. Antimicrob. Agents Chemother.
+44:2530–2533 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+26. Sekiguchi M, Iida S.
+1967. 
+Mutants of Escherichia coli permeable to actinomycin. Proc. Natl. Acad. Sci. U. S. A.
+58:2315–2320 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+27. Shore AC, et al. 
+2010. 
+Identification and characterization of the multidrug resistance gene cfr in a Panton-Valentine leukocidin-positive sequence type 8 methicillin-resistant Staphylococcus aureus IVa (USA300) isolate. Antimicrob. Agents Chemother.
+54:4978–4984 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Smith LK, Mankin AS.
+2008. 
+Transcriptional and translational control of the mlr operon, which confers resistance to seven classes of protein synthesis inhibitors. Antimicrob. Agents Chemother.
+52:1703–1712 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+29. Sofia HJ, Chen G, Hetzler BG, Reyes-Spindola JF, Miller NE.
+2001. 
+Radical SAM, a novel protein superfamily linking unresolved steps in familiar biosynthetic pathways with radical mechanisms: functional characterization using new analysis and information visualization methods. Nucleic Acids Res.
+29:1097–1106 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+30. Toh SM, et al. 
+2007. 
+Acquisition of a natural resistance gene renders a clinical strain of methicillin-resistant Staphylococcus aureus resistant to the synthetic antibiotic linezolid. Mol. Microbiol.
+64:1506–1514 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+31. Toh SM, Xiong L, Bae T, Mankin AS.
+2008. 
+The methyltransferase YfgB/RlmN is responsible for modification of adenosine 2503 in 23S rRNA. RNA
+14:98–106 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+32. Wang Y, et al. 
+2012. 
+Detection of the staphylococcal multiresistance gene cfr in Escherichia coli of domestic-animal origin. J. Antimicrob. Chemother.
+67:1094–1098 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+33. Wang Y, et al. 
+5
+March
+2012. 
+Co-location of the multiresistance gene cfr and the novel streptomycin resistance gene aadY on a small plasmid in a porcine Bacillus strain. J. Antimicrob. Chemother.
+[Epub ahead of print.] doi: 10.1093/jac/dks075 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+34. Wang Y, et al. 
+2011. 
+Detection of the staphylococcal multiresistance gene cfr in Proteus vulgaris of food animal origin. J. Antimicrob. Chemother.
+66:2521–2526 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+35. Wang Y, et al. 
+2012. 
+Distribution of the multidrug resistance gene cfr in Staphylococcus species isolates from swine farms in China. Antimicrob. Agents Chemother.
+56:1485–1490 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+36. Zhang WJ, et al. 
+2011. 
+The new genetic environment of cfr on plasmid pBS-02 in a Bacillus strain. J. Antimicrob. Chemother.
+66:1174–1175 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (892.3 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

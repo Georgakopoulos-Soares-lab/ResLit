@@ -1,0 +1,586 @@
+PMID: 27067316
+PMCID: PMC4879426
+DOI: 10.1128/AAC.00009-16
+Title: Amino Acid Substitutions of CrrB Responsible for Resistance to Colistin through CrrC in Klebsiella pneumoniae.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2016 Jun
+Authors: Cheng YH, Lin TL, Lin YT, Wang JT
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Amino Acid Substitutions of CrrB Responsible for Resistance to Colistin through CrrC in Klebsiella pneumoniae - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2016 May 23;60(6):3709–3716. doi: 10.1128/AAC.00009-16 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Amino Acid Substitutions of CrrB Responsible for Resistance to Colistin through CrrC in Klebsiella pneumoniae 
+
+Yi-Hsiang Cheng 
+
+Yi-Hsiang Cheng 
+
+a Department of Microbiology, National Taiwan University College of Medicine, Taipei, Taiwan 
+
+Find articles by Yi-Hsiang Cheng 
+
+a , Tzu-Lung Lin 
+
+Tzu-Lung Lin 
+
+a Department of Microbiology, National Taiwan University College of Medicine, Taipei, Taiwan 
+
+Find articles by Tzu-Lung Lin 
+
+a , Yi-Tsung Lin 
+
+Yi-Tsung Lin 
+
+b Division of Infectious Diseases, Department of Medicine, Taipei Veterans General Hospital, Taipei, Taiwan 
+
+c School of Medicine, National Yang-Ming University, Taipei, Taiwan 
+
+Find articles by Yi-Tsung Lin 
+
+b, c , Jin-Town Wang 
+
+Jin-Town Wang 
+
+a Department of Microbiology, National Taiwan University College of Medicine, Taipei, Taiwan 
+
+d Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan 
+
+Find articles by Jin-Town Wang 
+
+a, d, ✉ 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a Department of Microbiology, National Taiwan University College of Medicine, Taipei, Taiwan 
+
+b Division of Infectious Diseases, Department of Medicine, Taipei Veterans General Hospital, Taipei, Taiwan 
+
+c School of Medicine, National Yang-Ming University, Taipei, Taiwan 
+
+d Department of Internal Medicine, National Taiwan University Hospital, Taipei, Taiwan 
+
+✉ 
+Address correspondence to Jin-Town Wang, wangjt@ntu.edu.tw . 
+
+Citation Cheng Y-H, Lin T-L, Lin Y-T, Wang J-T. 2016. Amino acid substitutions of CrrB responsible for resistance to colistin through CrrC in Klebsiella pneumoniae . Antimicrob Agents Chemother 60:3709–3716. doi: 10.1128/AAC.00009-16 . 
+
+✉ 
+Corresponding author. 
+
+Received 2016 Jan 4; Revision requested 2016 Jan 22; Accepted 2016 Mar 31; Prepublished 2016 Apr 11; Collection date 2016 Jun. 
+
+Copyright © 2016, American Society for Microbiology. All Rights Reserved. 
+
+PMC Copyright notice 
+
+PMCID: PMC4879426  PMID: 27067316 
+
+Abstract 
+
+Colistin is a last-resort antibiotic for treatment of carbapenem-resistant Klebsiella pneumoniae . A recent study indicated that missense mutations in the CrrB protein contribute to colistin resistance. In our previous study, mechanisms of colistin resistance were defined in 17 of 26 colistin-resistant K. pneumoniae clinical isolates. Of the remaining nine strains, eight were highly resistant to colistin. In the present study, crrAB sequences were determined for these eight strains. Six separate amino acid substitutions in CrrB (Q10L, Y31H, W140R, N141I, P151S, and S195N) were detected. Site-directed mutagenesis was used to generate crrB loci harboring individual missense mutations; introduction of the mutated genes into a susceptible strain, A4528, resulted in 64- to 1,024-fold increases in colistin MICs. These crrB mutants showed increased accumulation of H239_3062 , H239_3059 , pmrA , pmrC , and pmrH transcripts by quantitative reverse transcription (qRT)-PCR. Deletion of H239_3062 (but not that of H239_3059 ) in the A4528 crrB ( N141I ) strain attenuated resistance to colistin, and H239_3062 was accordingly named crrC . Similarly, accumulation of pmrA , pmrC , and pmrH transcripts induced by crrB ( N141I ) was significantly attenuated upon deletion of crrC . Complementation of crrC restored resistance to colistin and accumulation of pmrA , pmrC , and pmrH transcripts in a crrB ( N141I ) Δ crrC strain. In conclusion, novel individual CrrB amino acid substitutions (Y31H, W140R, N141I, P151S, and S195N) were shown to be responsible for colistin resistance. We hypothesize that CrrB mutations induce CrrC expression, thereby inducing elevated expression of the pmrHFIJKLM operon and pmrC (an effect mediated via the PmrAB two-component system) and yielding increased colistin resistance. 
+
+INTRODUCTION 
+
+K lebsiella pneumoniae causes several nosocomial and community-acquired diseases ( 1 ). Carbapenem is used to treat infections caused by K. pneumoniae isolates harboring extended-spectrum β-lactamases (ESBLs) ( 2 ). However, the emergence of carbapenem-resistant K. pneumoniae (CRKP) has become a significant problem worldwide ( 3 , 4 ). Colistin is one of the few remaining last-resort antibiotics that can be used to treat CRKP infection ( 3 ). However, recent reports indicate increasing colistin resistance among clinical isolates of K. pneumoniae ( 5 ), with 27% of Greek K. pneumoniae isolates ( 6 ) and 17% of Taiwanese CRKP isolates ( 7 ) exhibiting resistance to colistin. Furthermore, our recent study reported that 31% (8/26) of Taiwanese colistin-resistant K. pneumoniae isolates are highly resistant to the agent, exhibiting MICs ranging from 512 to >2,048 μg/ml ( 8 ). 
+
+Colistin (also referred to as polymyxin E) is a cationic peptide that binds bacterial lipopolysaccharide (LPS) and causes cell membrane leakage ( 9 , 10 ). In K. pneumoniae , resistance to colistin is mediated by neutralization of negatively charged LPS by modification with 4-amino-4-deoxy- l -arabinose (Ara4N) and phosphoethanolamine (PEtN) ( 11 , 12 ). Modifications of LPS with Ara4N and PEtN are achieved by the activities of PmrHFIJKLM and PmrC, respectively ( 13 , 14 ). Previous studies showed that PmrAB, PmrD, PhoPQ, and MgrB regulate (directly or indirectly) expression of the pmrHFIJKLM operon ( 15 – 20 ). MgrB is a transmembrane peptide that inhibits the PhoQ signaling cascade ( 21 ), and disruption of mgrB results in increased expression of the pmrHFIJKLM operon and consequent colistin resistance ( 18 , 22 , 23 ). 
+
+In our recent study, mutation of mgrB was the most frequently observed (14/26; 54%) mechanism of resistance to colistin in K. pneumoniae ( 8 ). Amino acid substitutions in PhoQ and PmrB are also responsible for colistin resistance (3/26; 12%). However, approximately one-third (8/26; 31%) of the colistin-resistant K. pneumoniae clinical isolates in our survey did not exhibit mutations in mgrB , phoPQ , or pmrAB (known regulators of pmrHFIJKLM ) despite increased accumulation of pmrH mRNA in these strains. These data implied that a novel mechanism(s) might cause elevated resistance to colistin in these eight isolates. 
+
+A recent report speculated that a newly identified two-component system, CrrAB, may affect colistin resistance through regulation of a crrAB -adjacent gene, H239_3059 , that encodes a glycosyltransferase involved in LPS modification ( 24 ). To investigate the potential role of CrrAB in resistance to colistin, we determined the sequences of crrAB in the eight clinical isolates for which a resistance mechanism had not been identified. Our results suggest a mechanism for CrrAB-mediated resistance to colistin in K. pneumoniae . 
+
+MATERIALS AND METHODS 
+
+Bacterial isolates and culture conditions. 
+
+A total of 26 colistin-resistant K. pneumoniae isolates were collected in Taiwan, and the mechanisms responsible for the colistin resistance of 17 of the isolates were identified in our previous study ( 8 ). However, resistance mechanism(s) were not defined for the nine remaining strains; eight of these nine strains (Col4, Col7, Col20, Col21, Col22, Col28, Col36, and Col44) were highly resistant to colistin (MICs = 512 to >2,048 μg/ml), and these eight strains were isolated from different patients and distinguished by different characteristics (i.e., MICs, capsular types, and β-lactamases) ( Table 1 ). Therefore, the eight strains were not identical. We intended to compare the transcript accumulations and crrAB sequences in these nine strains to those in eight colistin-susceptible isolates described in our previous study ( 8 ). However, one of these colistin-resistant isolates (Col5) and four of the control strains lacked crrA and crrB sequences that could be amplified using our PCR amplification technique and detected by Southern blotting (see Fig. S1 in the supplemental material). Therefore, only the eight crrAB -containing colistin-resistant isolates (Col4, Col7, Col20, Col21, Col22, Col28, Col36, and Col44) and the four crrAB -containing colistin-susceptible strains (A4528, reference strain 64, N4252, and N5906) were used in the present study. Escherichia coli DH10B was used for cloning and molecular manipulations. Both K. pneumoniae and E. coli were grown in Luria-Bertani broth supplemented (as appropriate) with 50 μg/ml kanamycin, 100 μg/ml ampicillin, or 100 μg/ml chloramphenicol. 
+
+TABLE 1. 
+
+Capsular type, CrrB amino acid substitutions, MICs, and β-lactamases of colistin-resistant strains 
+
+Strain Capsular type a Amino acid at CrrB position b : Colistin MIC (μg/ml) a Presence in strain c 10 31 140 141 151 195 TEM-1 TEM-116 SHV-1a SHV-31 CTX-M Group 2 CTX-M Group 9 DHA Col4 K64 Ile >2,048 + + + + + Col7 K64 Ser 1,024 + + + + Col20 K64 Ile 2,048 + + + + Col21 K64 Leu 512 + + + + + Col22 K64 Asn 2,048 + + + + + Col36 K64 Arg 2,048 + + + + Col44 K64 His 512 + + + Col28 K54 Leu >2,048 NA d NA NA NA NA NA NA 
+
+Open in a new tab 
+
+a 
+Capsular type and MICs of colistin were determined in our recent study ( 8 ). 
+
+b 
+Positions of amino acid substitutions in CrrB. 
+
+c 
++, present. According to previous studies ( 8 , 34 ), β-lactamase was amplified by PCR. The PCR products were sequenced, and β-lactamases were classified by NCBI Blast. 
+
+d 
+NA, the β-lactamase(s) of strain Col28 was not available. 
+
+Determination of susceptibility to antibiotics. 
+
+The MICs of colistin were determined by agar dilution according to the CLSI procedures. Specifically, aliquots of K. pneumoniae (1 × 10 4 CFU) were spotted on Mueller-Hinton agar plates (Difco) containing different concentrations of colistin. The MICs were determined after overnight incubation of the plates at 37°C. The MIC for E. coli ATCC 25922 was determined in parallel to provide a quality control. 
+
+Sequence analysis of amino acid substitutions in CrrAB. 
+
+The crrA and crrB genes of each strain were amplified by PCR using the primers TupA-F and H236-2575-R; the resulting genes were subjected to nucleotide sequencing using primers CrrAB-seqF1, TupA-F, and H236-2575-R. (Primer sequences are provided in Table S1 in the supplemental material.) The crrAB sequences from the colistin-resistant strains were compared to those from our four colistin-susceptible isolates and 46 colistin-susceptible strains deposited in GenBank (see Table S2 in the supplemental material) to identify CrrAB amino acid substitutions, excluding polymorphisms observed in the colistin-susceptible strains. 
+
+Site-directed mutagenesis of crrB . 
+
+crrB DNA fragments incorporating the relevant individual missense mutations were created by fusion PCR. For instance, distinct halves of crrB ( Q10L ) (encoding CrrB carrying the Q10L substitution) were PCR amplified (from A4528 genomic DNA) using primer pairs CrrB-ST-R plus Q10L-F and CrrB-ST-F plus Q10L-R. The two resulting fragments were then merged by overlap PCR using the flanking primers (CrrB-ST-F and CrrB-ST-R). An equivalent procedure was repeated with allele-specific primers to generate crrB loci encoding proteins carrying (separately) the Q10L, Y31H, W140R, N141I, P151S, or S195N substitution. All the primer sequences for PCR are listed in Table S1 in the supplemental material. Each of the resulting crrB loci was cloned into a blunted NotI-digested pKO3-km plasmid ( 25 ). The resulting pKO3-km-derived plasmids were transformed (separately) into the A4528 strain by electroporation. The point mutants were generated after replacement of crrB using a previously described method ( 26 ). The presence of the mutated locus in each of the resulting strains was confirmed by amplification and sequencing from genomic DNA. 
+
+Genetic manipulations for gene deletion and complementation. 
+
+Coding regions and flanking fragments for the H239_3059 , H239_3062 , and pmrAB loci from the A4528 crrB ( N141I ) strain were amplified by PCR using primer pairs H239_3059-flank-F and H239_3059-flank-R for H239_3059 , H239_3062-flank-F and H239_3062-flank-R for H239_3062 , and pmrAB-flank-F and pmrAB-flank-R for pmrAB . The resulting products were cloned (separately) into the pJET1.2 plasmid (Thermo Scientific). The coding regions of the respective open reading frames (ORFs) were then removed by inverse PCR with primer pair H239_3059-inverse-F and H239_3059-inverse-R for H239_3059 , H239_3062-inverse-F and H239_3062-inverse-R for H239_3062 , and pmrAB-inverse-F and pmrAB-inverse-R for pmrAB . The fragments with the ORF deleted were amplified by PCR (with the flanking primer pairs indicated above) and subcloned (separately) into a blunted NotI-digested pKO3-km plasmid. The primer sequences for genetic manipulations are listed in Table S1 in the supplemental material. The resulting pKO3-km-derived plasmids were transformed (separately) into the A4528 crrB ( N141I ) strain by electroporation to generate the deletion mutants, using a previously described method ( 26 ). The H239_3062 locus (including both the ORF and flanking sequences) was amplified from A4528 by PCR with primer pair H239_3062-com-F2 and H239_3062-com-R, and the resulting fragment was cloned into EcoRV-digested pACYC184 ( 27 ). The resulting plasmid (pACYC184-3062) was transformed into the A4528 crrB ( N141I ) Δ H239_3062 strain by electroporation, and the plasmid-bearing (complemented) strains were then selected using chloramphenicol. 
+
+Determination of mRNA expression levels by qRT-PCR. 
+
+Total RNA was isolated from the K. pneumoniae strains using the RNeasy minikit (Qiagen). An aliquot (400 ng) of total RNA from each strain was subjected to cDNA synthesis using SuperScript II reverse transcriptase (Invitrogen). The cDNAs of pmrH , phoP , pmrD , pmrC , H239_3059 , H239_3062 , and 23S rRNA (used as an internal control) were quantified using Power SYBR green master mix (Thermo Scientific) and an ABI 7900 real-time PCR system according to the manufacturers' instructions. The sequences of the transcript-specific primers used for quantitative reverse transcription (qRT)-PCR are listed in Table S1 in the supplemental material. The relative RNA expression levels were calculated according to the ΔΔ C T method with normalization to the 23S rRNA levels. 
+
+Southern blotting. 
+
+Approximately 20 μg of genomic DNA from each K. pneumoniae strain was digested by PstI and subjected to Southern hybridization according to the manufacturer's instructions (Roche). The digested DNA was separated by electrophoresis and transferred to a Hybond N+ membrane (GE Healthcare). The resulting membranes were hybridized by different digoxigenin-labeled probes with standard hybridization buffer (Roche). Primers CrrA-RT-F and H239_3062-OF-F for crrA , CrrB-ST-R and H239_3059-OF-R for crrB , and gapA173 and gapA181 for gapA (see Table S1 in the supplemental material) were used to generate the digoxigenin-labeled probe by PCR. Digoxigenin was reacted with anti-digoxigenin-alkaline phosphatase antibody (Sigma), and alkaline phosphatase-labeled molecules were detected with CDP-Star chemiluminescence reagent (PerkinElmer). 
+
+Nucleotide sequence accession numbers. 
+
+Sequences described in this work have been deposited in DDBJ under accession numbers LC121085 to LC121092 . 
+
+RESULTS 
+
+Amino acid substitutions of CrrB are detected in colistin-resistant isolates. 
+
+A previous report indicated that mutations resulting in amino acid substitutions in CrrB cause decreased susceptibility to colistin ( 24 ). To identify possible crrAB mutations in our strains, the predicted CrrA and CrrB amino acid sequences of eight highly colistin-resistant isolates were compared with those of colistin-susceptible isolates. The results showed that the predicted CrrA amino acid sequences in all 58 strains (both colistin-resistant and colistin-susceptible isolates) were identical, whereas each of the colistin-resistant strains encoded CrrB harboring a single amino acid substitution ( Table 1 ). A total of six separate amino acid substitutions in CrrB (Q10L, Y31H, W140R, N141I, P151S, and S195N) were detected among the eight colistin-resistant isolates examined in the present work (DDBJ accession no. LC121085 to LC121092 ). A previous study demonstrated that the CrrB(Q10L) substitution contributes to colistin resistance ( 24 ); the other five CrrB amino acid substitutions were novel. We therefore tested the potential contributions of these alleles to colistin resistance. 
+
+According to the predictions of the SMART tool ( 28 , 29 ; http://smart.embl-heidelberg.de/ ), the 6 amino acid substitutions identified here were not localized to a single domain of CrrB. Amino acid positions 12 to 34 and 54 to 76 of CrrB are predicted to lie within transmembrane domains, positions 81 to 135 are predicted to constitute a HAMP ( h istidine kinases, a denylyl cyclases, m ethyl-binding proteins, and p hosphatases) domain, positions 136 to 200 are predicted to form a histidine kinase domain, and positions 244 to 353 are predicted to form a histidine kinase-like ATPase domain. Four of the amino acid substitutions (W140R, N141I, P151S, and S195N) detected in the present study would fall within the putative histidine kinase domain, Y31H would fall within a putative transmembrane domain, and Q10L does not appear to fall within a conserved domain. 
+
+Amino acid substitutions in CrrB contribute to reduced susceptibility to colistin. 
+
+To verify whether these substitutions contributed to colistin resistance, crrB loci harboring each of the six missense mutations were constructed (by site-directed mutagenesis) and then introduced (separately) into a colistin-susceptible strain, A4528 (MIC = 1 μg/ml). Each of the six amino acid substitutions resulted in decreased susceptibility to colistin in the A4528 background (MICs = 64 to 1,024 μg/ml) ( Table 2 ). Notably, five of these amino acid substitutions (Q10L, W140R, N141I, P151S, and S195N) resulted in high resistance to colistin (MICs = 512 to 1,024 μg/ml) in the A4528 background. 
+
+TABLE 2. 
+
+MICs of A4528-derived strains that harbored different amino acid substitutions in CrrB 
+
+Strain Colistin MIC (μg/ml) A4528 wild type 1 A4528 crrB ( Q10L ) 512 A4528 crrB ( Y31H ) 64 A4528 crrB ( W140R ) 512 A4528 crrB ( N141I ) 1,024 A4528 crrB ( P151S ) 512 A4528 crrB ( S195N ) 512 ATCC 25922 a 1 
+
+Open in a new tab 
+
+a 
+The MIC of strain ATCC 25922 served as a quality control. 
+
+CrrB missense mutations induce H239_3059 and H239_3062 expression. 
+
+A previous study showed that amino acid substitutions in CrrB might influence the expression of the crrAB -proximal loci H239_3059 (encoding a putative glycosyltransferase) and H239_3062 (encoding a protein of unknown function) ( 24 ). We observed that mRNA levels of H239_3059 and H239_3062 were significantly increased in our eight clinical isolates compared with those in the four colistin-susceptible strains ( Fig. 1A and B ). Similarly, A4528-derived strains engineered to encode each of the six CrrB proteins with amino acid substitutions displayed significantly enhanced expression of H239_3059 and H239_3062 compared with the A4528 parental strain ( Fig. 1C ). These data demonstrated that amino acid substitutions in CrrB resulted in increased mRNA expression of H239_3059 and H239_3062 , suggesting that the CrrAB two-component system is a regulator of H239_3059 and H239_3062 transcription. 
+
+FIG 1. 
+
+Open in a new tab 
+
+mRNA expression of H239_3059 and H239_3062 in different strains. (A and B) The mRNA expression levels of H239_3059 (A) and H239_3062 (B) determined in colistin-resistant and colistin-susceptible clinical isolates were compared. (C) Relative fold expression levels of H239_3059 and H239_3062 in different A4528-derived strains harboring CrrB Q10L, Y31H, W140R, N141I, P151S, and S195N compared with that of the A4528 wild-type strain. The mRNA expression of each strain was calculated by qRT-PCR independently in quadruplicate, and the mRNA expression is indicated as the fold expression relative to that of strain A4528. Statistical analysis of two strains was performed using Student's t test (*, P < 0.05; **, P < 0.01). The error bars represent standard deviations (SD). 
+
+CrrB mediates colistin resistance through H239_3062 . 
+
+To examine whether H239_3059 and H239_3062 are involved in resistance to colistin, the H239_3059 and H239_3062 loci were (separately) deleted in the A4528 crrB ( N141I ) background. Susceptibility to colistin of the A4528 crrB ( N141I ) Δ H239_3059 strain was unchanged compared to the parent. In contrast, the colistin MIC for A4528 crrB ( N141I ) Δ H239_3062 was decreased 512-fold compared to that for the parent, with susceptibility approaching that of A4528 itself ( Table 3 ). H239_3062 complementation in the A4528 crrB ( N141I ) Δ H239_3062 strain (by introduction of an H239_3062 -bearing plasmid) restored resistance to colistin (MIC > 2,048 μg/ml) ( Table 3 ). These data indicated that CrrB(N141I)-induced resistance to colistin is mediated through H239_3062 but not through H239_3059 . H239_3062 was accordingly named crrC . 
+
+TABLE 3. 
+
+MICs of deletion and complementation of the crrC locus in strain A4528 crrB ( N141I ) 
+
+Strain Colistin MIC (μg/ml) A4528 wild type 1 A4528 crrB ( N141I ) 1,024 A4528 crrB ( N141I ) Δ H239_3059 1,024 A4528 crrB ( N141I ) Δ crrC 2 A4528 crrB ( N141I ) Δ pmrAB 1 A4528 crrB ( N141I ) Δ crrC /pACYC184 a 1 A4528 crrB ( N141I ) Δ crrC /pACYC184-3062 b >2,048 
+
+Open in a new tab 
+
+a 
+Strain A4528 crrB(N141I) Δ crrC was transformed with a pACYC184 plasmid. 
+
+b 
+Strain A4528 crrB(N141I) Δ crrC was transformed with a pACYC184-3062 plasmid, a pACYC184 plasmid harbored crrC loci. 
+
+CrrB-regulated expression of the pmrHFIJKLM operon is mediated through crrC . 
+
+Our previous study ( 8 ) showed that the eight highly colistin-resistant isolates characterized in the present work have significantly increased pmrH mRNA expression, suggesting that CrrAB regulates expression of the pmrHFIJKLM operon ( 24 ). Using qRT-PCR analysis, we confirmed that pmrH transcript accumulation was elevated (compared to that in A4528) in each of the six A4528 crrB missense mutants constructed here ( Fig. 2A ). To verify whether the regulation of pmrHFIJKLM operon expression by CrrB is mediated through CrrC, the pmrH transcript levels in A4528 crrB ( N141I ) with and without crrC were compared. The pmrH mRNA expression in A4528 crrB ( N141I ) was significantly decreased upon deletion of crrC , and complementation of A4528 crrB ( N141I ) Δ crrC with crrC restored pmrH expression to levels within 2-fold of those seen in A4528 crrB ( N141I ) ( Fig. 2B ). These data suggested that CrrB regulation of pmrHFIJKLM operon expression is mediated through crrC . 
+
+FIG 2. 
+
+Open in a new tab 
+
+mRNA expression of pmrH in A4528-derived strains. qRT-PCR analysis revealed the relative mRNA expression of pmrH in A4528-derived strains that harbored 6 different amino acid substitutions compared with that in the A4528 wild-type strain (A) and in the A4528 wild-type strain and strains A4528 crrB ( N141I ), A4528 crrB ( N141I ) Δ pmrAB , A4528 crrB ( N141I ) Δ crrC , A4528 crrB ( N141I ) Δ crrC carrying a pACYC184 plasmid, and A4528 crrB ( N141I ) Δ crrC carrying a pACYC184-3062 plasmid (B). The mRNA expression of each strain was calculated by qRT-PCR independently in quadruplicate, and statistical analysis was performed using Student's t test (*, P < 0.05; **, P < 0.01; ***, P < 0.001; ns, P > 0.05). The error bars represent SD. 
+
+CrrC regulates pmrHFIJKLM operon and crrC expression through PmrAB. 
+
+Previous work ( 15 , 20 , 30 ) showed that the pmrHFIJKLM operon is directly regulated by PmrAB and PhoPQ. However, a strain encoding CrrB(N141I) exhibited significantly increased mRNA levels of pmrA , but not of phoP ( Fig. 3A ). Therefore, we speculated that CrrC regulates pmrHFIJKLM expression via PmrAB. Consistent with this hypothesis, pmrA mRNA expression in the A4528 crrB ( N141I ) Δ crrC strain was significantly decreased compared with that in A4528 crrB ( N141I ), and complementation of the former strain with plasmid-borne crrC restored pmrA mRNA expression to levels indistinguishable from those of A4528 crrB ( N141I ) ( Fig. 3B ). In addition to the pmrHFIJKLM operon, PmrAB also regulated expression of pmrC ( 30 ). Consistent with expression of pmrH , pmrC mRNA expression in the A4528 crrB ( N141I ) Δ crrC strain was significantly decreased compared with that in A4528 crrB ( N141I ), and complementation with crrC in the A4528 crrB ( N141I ) Δ crrC strain could restore the expression of pmrC ( Fig. 3C ). 
+
+FIG 3. 
+
+Open in a new tab 
+
+mRNA expression levels of pmrA , phoP , pmrC , and crrC in A4528-derived strains. (A) The relative mRNA expression levels of pmrA and phoP in A4528 crrB ( N141I ) were determined and compared with that in the A4528 wild type. (B and C) mRNA expression levels of pmrA (B) and pmrC (C) in the A4528 wild-type strain and strains A4528 crrB ( N141I ), A4528 crrB ( N141I ) Δ pmrAB , A4528 crrB ( N141I ) Δ crrC , A4528 crrB ( N141I ) Δ crrC carrying a pACYC184 plasmid, and A4528 crrB ( N141I ) Δ crrC carrying a pACYC184-3062 plasmid were determined and compared. (D) Relative fold expression of crrC in strains A4528 crrB ( N141I ), A4528 crrB ( N141I ) Δ pmrAB , and A4528 crrB ( N141I ) Δ crrC compared with that in the A4528 wild-type strain. The mRNA expression of each strain was calculated by qRT-PCR independently in quadruplicate, and statistical analysis was performed using Student's t test (*, P < 0.05; **, P < 0.01; ***, P < 0.001; ns, P > 0.05; ND, not detected). The error bars represent SD. 
+
+To confirm whether CrrC regulated the pmrHFIJKLM operon and pmrC directly through PmrAB, strain A4528 crrB ( N141I ) Δ pmrAB was constructed. The induced expression of crrC in strain A4528 crrB ( N141I ) was not significantly influenced after deletion of pmrAB ( Fig. 3D ), whereas the expression of pmrH and pmrC in strain A4528 crrB ( N141I ) was significantly decreased after deletion of pmrAB ( Fig. 2B and 3C ), comparable to the level after deletion of crrC . Accordingly, the MIC of colistin for strain A4528 crrB ( N141I ) Δ pmrAB was 1 μg/ml, similar to that of strain A4528 crrB ( N141I ) Δ crrC ( Table 3 ). These results demonstrated that CrrC regulated the pmrHFIJKLM operon and pmrC through the PmrAB two-component system. 
+
+DISCUSSION 
+
+In K. pneumoniae , resistance to colistin is mediated by LPS modification by Ara4N and PEtN, activities that are encoded by the pmrHFIJKLM operon and the pmrC locus, which are regulated by PhoPQ and PmrAB ( 15 , 17 , 30 ). Previous studies showed that disruption of mgrB is a major mechanism contributing to colistin resistance ( 18 , 19 , 22 , 23 ). Additionally, mutations leading to amino acid substitutions in known regulatory proteins (PmrB, PhoP, and PhoQ) have been reported to lead to increased resistance to colistin ( 8 , 30 – 32 ). A recent study ( 24 ) reported that a missense mutation in crrB contributes to colistin resistance, an observation that we confirmed and extended (to a total of six crrB mutations) in the present study. As we showed in the present paper, at least 31% (8/26) of Taiwanese colistin-resistant clinical isolates of K. pneumoniae harbored lesions encoding CrrB proteins with amino acid substitutions. mgrB disruptants (14/26; 54%) ( 8 ) and amino acid alterations in CrrB are the two major mechanisms of colistin resistance in Taiwan. 
+
+Among our 26 colistin-resistant isolates, only strain Col5 did not harbor mutations in MgrB, PhoPQ, PmrAB, and PmrD ( 8 ). In addition, crrAB , crrC , and H239_30 59 could not be amplified using our PCR amplification technique in strain Col5 (data not shown). Therefore, the mechanism(s) of resistance to colistin of strain Col5 was still unclear. 
+
+CrrB is a signal-transducing histidine kinase. According to the prediction of the SMART tool, five out of six amino acid substitutions were involved in the histidine kinase domain. These findings suggest that amino acid substitutions located in the putative histidine kinase domain might affect the kinase activity of CrrB and therefore might increase autophosphorylation of CrrB. Moreover, the amino acid substitution in the transmembrane domain might cause conformational changes that also would result in altered CrrB activity. 
+
+A previous study ( 24 ) proposed that CrrAB contributes to colistin resistance in K. pneumoniae via changes to the LPS, with modifications effected by the H239_3059 protein (predicted to constitute a TupA-like glycosyltransferase) and by PmrHFIJKLM. However, our results demonstrated that deletion of H239_3059 in A4528 crrB ( N141I ) did not attenuate colistin resistance, indicating that the H239_3059 locus is not involved in CrrB-mediated resistance to colistin in K. pneumoniae . In contrast, deletion of crrC , a proximal locus also regulated by CrrB, attenuated the colistin resistance of the A4528 crrB ( N141I ) strain, indicating that crrC plays an important role in CrrB-mediated resistance. Furthermore, we demonstrated that CrrC modulates the expression of PmrHFIJKLM and PmrC, an effect mediated through the PmrAB two-component system. 
+
+Homologs of CrrC were found in many Gram-negative bacteria (i.e., E. coli , Klebsiella oxytoca , Klebsiella variicola , Enterobacter cloacae , and Shigella flexneri ) and shared at least 45% identity of amino acid sequences. However, the function of CrrC remained unknown. The crrC locus was also predicted to encode a possible transporter protein, whereas no specific substrate of a transporter could be predicted by the TrSSP tool ( http://bioinfo.noble.org/TrSSP/ ) ( 33 ). According to the structural prediction, CrrC contains four putative transmembrane regions, so we suggest that CrrC might provide a connection (direct or indirect) between the CrrAB and PmrAB systems. The molecular function(s) of CrrC in the context of colistin resistance will require further investigation. 
+
+Clinical strains with crrB mutations are highly resistant to colistin, and introduction into A4528 of crrB loci encoding proteins with amino acid substitutions also resulted in high resistance to colistin (MICs = 512 to >2,048 μg/ml). Moreover, we showed that CrrB mutations resulted in colistin resistance through CrrC. However, the mRNA levels of pmrHFIJKLM in crrB mutant strains were not significantly higher than those observed in strains rendered resistant by other mechanisms ( 8 ). These results imply that CrrC not only regulated PmrHFIJKLM through PmrAB but might also regulate another factor(s) that results in high resistance to colistin. 
+
+In conclusion, we showed that novel amino acid substitutions in the K. pneumoniae CrrB protein (Y31H, W140R, N141I, P151S, or S195N) contribute to resistance to colistin. Although crrB missense mutants exhibited increased transcription of H239_3059 and crrC , the former locus did not contribute to resistance to colistin under laboratory conditions. In contrast, crrC was necessary for CrrB-mediated resistance to colistin; we hypothesize that the crrC gene product regulates expression of the pmrHFIJKLM operon and pmrC through effects on the PmrAB two-component system ( Fig. 4 ). 
+
+FIG 4. 
+
+Open in a new tab 
+
+Model of CrrC-mediated colistin resistance in K. pneumoniae . Two-component systems (CrrAB, PmrAB, and PhoPQ) are regulated by a negative regulator (MgrB) and connectors (CrrC and PmrD). A mutation(s) or interruption(s) in these components could abnormally regulate the downstream locus and result in increasing LPS modification-associated loci ( pmrHFIJKLM operon and pmrC ). 
+
+Supplementary Material 
+
+Supplemental material 
+
+supp_60_6_3709__index.html (911B, html) 
+
+ACKNOWLEDGMENTS 
+
+This study was supported by grants from the Ministry of Science and Technology, National Taiwan University, National Taiwan University Hospital, National Taiwan University Hospital-Taipei Veterans General Hospital Joint Research Program, and the Liver Disease Prevention and Treatment Research Foundation in Taiwan. 
+
+Footnotes 
+
+Supplemental material for this article may be found at http://dx.doi.org/10.1128/AAC.00009-16 . 
+
+REFERENCES 
+
+1. Siu LK, Yeh KM, Lin JC, Fung CP, Chang FY. 
+2012. 
+Klebsiella pneumoniae liver abscess: a new invasive syndrome. Lancet Infect Dis
+12:881–887. doi: 10.1016/S1473-3099(12)70205-0. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+2. Pitout JD, Laupland KB. 
+2008. 
+Extended-spectrum beta-lactamase-producing Enterobacteriaceae: an emerging public-health concern. Lancet Infect Dis
+8:159–166. doi: 10.1016/S1473-3099(08)70041-0. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+3. Munoz-Price LS, Poirel L, Bonomo RA, Schwaber MJ, Daikos GL, Cormican M, Cornaglia G, Garau J, Gniadkowski M, Hayden MK, Kumarasamy K, Livermore DM, Maya JJ, Nordmann P, Patel JB, Paterson DL, Pitout J, Villegas MV, Wang H, Woodford N, Quinn JP. 
+2013. 
+Clinical epidemiology of the global expansion of Klebsiella pneumoniae carbapenemases. Lancet Infect Dis
+13:785–796. doi: 10.1016/S1473-3099(13)70190-7. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+4. Gupta N, Limbago BM, Patel JB, Kallen AJ. 
+2011. 
+Carbapenem-resistant Enterobacteriaceae: epidemiology and prevention. Clin Infect Dis
+53:60–67. doi: 10.1093/cid/cir202. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+5. Bialvaei AZ, Samadi Kafil H. 
+2015. 
+Colistin, mechanisms and prevalence of resistance. Curr Med Res Opin
+31:707–721. doi: 10.1185/03007995.2015.1018989. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+6. Falagas ME, Maraki S, Karageorgopoulos DE, Kastoris AC, Mavromanolakis E, Samonis G. 
+2010. 
+Antimicrobial susceptibility of multidrug-resistant (MDR) and extensively drug-resistant (XDR) Enterobacteriaceae isolates to fosfomycin. Int J Antimicrob Agents
+35:240–243. doi: 10.1016/j.ijantimicag.2009.10.019. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Chiu SK, Wu TL, Chuang YC, Lin JC, Fung CP, Lu PL, Wang JT, Wang LS, Siu LK, Yeh KM. 
+2013. 
+National surveillance study on carbapenem non-susceptible Klebsiella pneumoniae in Taiwan: the emergence and rapid dissemination of KPC-2 carbapenemase. PLoS One
+8:e69428. doi: 10.1371/journal.pone.0069428. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Cheng YH, Lin TL, Pan YJ, Wang YP, Lin YT, Wang JT. 
+2015. 
+Colistin resistance mechanisms in Klebsiella pneumoniae strains from Taiwan. Antimicrob Agents Chemother
+59:2909–2913. doi: 10.1128/AAC.04763-14. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Biswas S, Brunel JM, Dubus JC, Reynaud-Gaubert M, Rolain JM. 
+2012. 
+Colistin: an update on the antibiotic of the
+21st century
+Expert Rev Anti Infect Ther
+10:917–934. doi: 10.1586/eri.12.78. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+10. Li J, Nation RL, Milne RW, Turnidge JD, Coulthard K. 
+2005. 
+Evaluation of colistin as an agent against multi-resistant Gram-negative bacteria. Int J Antimicrob Agents
+25:11–25. doi: 10.1016/j.ijantimicag.2004.10.001. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+11. Olaitan AO, Morand S, Rolain JM. 
+2014. 
+Mechanisms of polymyxin resistance: acquired and intrinsic resistance in bacteria. Front Microbiol
+5:643. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Liu YY, Wang Y, Walsh TR, Yi LX, Zhang R, Spencer J, Doi Y, Tian G, Dong B, Huang X, Yu LF, Gu D, Ren H, Chen X, Lv L, He D, Zhou H, Liang Z, Liu JH, Shen J. 
+2016. 
+Emergence of plasmid-mediated colistin resistance mechanism MCR-1 in animals and human beings in China: a microbiological and molecular biological study. Lancet Infect Dis
+16:161–168. doi: 10.1016/S1473-3099(15)00424-7. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+13. Yan A, Guan Z, Raetz CR. 
+2007. 
+An undecaprenyl phosphate-aminoarabinose flippase required for polymyxin resistance in Escherichia coli. J Biol Chem
+282:36077–36089. doi: 10.1074/jbc.M706172200. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+14. Lee H, Hsu FF, Turk J, Groisman EA. 
+2004. 
+The PmrA-regulated pmrC gene mediates phosphoethanolamine modification of lipid A and polymyxin resistance in Salmonella enterica. J Bacteriol
+186:4124–4133. doi: 10.1128/JB.186.13.4124-4133.2004. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Cheng HY, Chen YF, Peng HL. 
+2010. 
+Molecular characterization of the PhoPQ-PmrD-PmrAB mediated pathway regulating polymyxin B resistance in Klebsiella pneumoniae CG43. J Biomed Sci
+17:60. doi: 10.1186/1423-0127-17-60. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+16. Luo SC, Lou YC, Rajasekaran M, Chang YW, Hsiao CD, Chen C. 
+2013. 
+Structural basis of a physical blockage mechanism for the interaction of response regulator PmrA with connector protein PmrD from Klebsiella pneumoniae. J Biol Chem
+288:25551–25561. doi: 10.1074/jbc.M113.481978. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+17. Chen HD, Groisman EA. 
+2013. 
+The biology of the PmrA/PmrB two-component system: the major regulator of lipopolysaccharide modifications. Annu Rev Microbiol
+67:83–112. doi: 10.1146/annurev-micro-092412-155751. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Cannatelli A, D'Andrea MM, Giani T, Di Pilato V, Arena F, Ambretti S, Gaibani P, Rossolini GM. 
+2013. 
+In vivo emergence of colistin resistance in Klebsiella pneumoniae producing KPC-type carbapenemases mediated by insertional inactivation of the PhoQ/PhoP mgrB regulator. Antimicrob Agents Chemother
+57:5521–5526. doi: 10.1128/AAC.01480-13. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+19. Olaitan AO, Diene SM, Kempf M, Berrazeg M, Bakour S, Gupta SK, Thongmalayvong B, Akkhavong K, Somphavong S, Paboriboune P, Chaisiri K, Komalamisra C, Adelowo OO, Fagade OE, Banjo OA, Oke AJ, Adler A, Assous MV, Morand S, Raoult D, Rolain JM. 
+2014. 
+Worldwide emergence of colistin resistance in Klebsiella pneumoniae from healthy humans and patients in Lao PDR, Thailand, Israel, Nigeria and France owing to inactivation of the PhoP/PhoQ regulator mgrB : an epidemiological and molecular study. Int J Antimicrob Agents
+44:500–507. doi: 10.1016/j.ijantimicag.2014.07.020. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+20. Miller AK, Brannon MK, Stevens L, Johansen HK, Selgrade SE, Miller SI, Hoiby N, Moskowitz SM. 
+2011. 
+PhoQ mutations promote lipid A modification and polymyxin resistance of Pseudomonas aeruginosa found in colistin-treated cystic fibrosis patients. Antimicrob Agents Chemother
+55:5761–5769. doi: 10.1128/AAC.05391-11. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+21. Lippa AM, Goulian M. 
+2009. 
+Feedback inhibition in the PhoQ/PhoP signaling system by a membrane peptide. PLoS Genet
+5:e1000788. doi: 10.1371/journal.pgen.1000788. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+22. Cannatelli A, Giani T, D'Andrea MM, Di Pilato V, Arena F, Conte V, Tryfinopoulou K, Vatopoulos A, Rossolini GM, COLGRIT Study Group. 
+2014. 
+MgrB inactivation is a common mechanism of colistin resistance in KPC-producing Klebsiella pneumoniae of clinical origin. Antimicrob Agents Chemother
+58:5696–5703. doi: 10.1128/AAC.03110-14. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+23. Poirel L, Jayol A, Bontron S, Villegas MV, Ozdamar M, Turkoglu S, Nordmann P. 
+2015. 
+The mgrB gene as a key target for acquired resistance to colistin in Klebsiella pneumoniae. J Antimicrob Chemother
+70:75–80. doi: 10.1093/jac/dku323. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+24. Wright MS, Suzuki Y, Jones MB, Marshall SH, Rudin SD, van Duin D, Kaye K, Jacobs MR, Bonomo RA, Adams MD. 
+2015. 
+Genomic and transcriptomic analyses of colistin-resistant clinical isolates of Klebsiella pneumoniae reveal multiple pathways of resistance. Antimicrob Agents Chemother
+59:536–543. doi: 10.1128/AAC.04037-14. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Link AJ, Phillips D, Church GM. 
+1997. 
+Methods for generating precise deletions and insertions in the genome of wild-type Escherichia coli: application to open reading frame characterization. J Bacteriol
+179:6228–6237. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+26. Lin TL, Yang FL, Yang AS, Peng HP, Li TL, Tsai MD, Wu SH, Wang JT. 
+2012. 
+Amino acid substitutions of MagA in Klebsiella pneumoniae affect the biosynthesis of the capsular polysaccharide. PLoS One
+7:e46783. doi: 10.1371/journal.pone.0046783. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+27. Rose RE.
+1988. 
+The nucleotide sequence of pACYC184. Nucleic Acids Res
+16:355. doi: 10.1093/nar/16.1.355. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Schultz J, Milpetz F, Bork P, Ponting CP. 
+1998. 
+SMART, a simple modular architecture research tool: identification of signaling domains. Proc Natl Acad Sci U S A
+95:5857–5864. doi: 10.1073/pnas.95.11.5857. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+29. Letunic I, Doerks T, Bork P. 
+2015. 
+SMART: recent updates, new developments and status in 2015. Nucleic Acids Res
+43:D257–D260. doi: 10.1093/nar/gku949. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+30. Jayol A, Poirel L, Brink A, Villegas MV, Yilmaz M, Nordmann P. 
+2014. 
+Resistance to colistin associated with a single amino acid change in protein PmrB among Klebsiella pneumoniae isolates of worldwide origin. Antimicrob Agents Chemother
+58:4762–4766. doi: 10.1128/AAC.00084-14. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+31. Jayol A, Nordmann P, Brink A, Poirel L. 
+2015. 
+Heteroresistance to colistin in Klebsiella pneumoniae associated with alterations in the PhoPQ regulatory system. Antimicrob Agents Chemother
+59:2780–2784. doi: 10.1128/AAC.05055-14. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+32. Cannatelli A, Di Pilato V, Giani T, Arena F, Ambretti S, Gaibani P, D'Andrea MM, Rossolini GM. 
+2014. 
+In vivo evolution to colistin resistance by PmrB sensor kinase mutation in KPC-producing Klebsiella pneumoniae is associated with low-dosage colistin treatment. Antimicrob Agents Chemother
+58:4399–4403. doi: 10.1128/AAC.02555-14. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+33. Mishra NK, Chang J, Zhao PX. 
+2014. 
+Prediction of membrane transport proteins and their substrate specificities using primary sequence information. PLoS One
+9:e100278. doi: 10.1371/journal.pone.0100278. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+34. Dallenne C, Da Costa A, Decre D, Favier C, Arlet G. 
+2010. 
+Development of a set of multiplex PCR assays for the detection of genes encoding important beta-lactamases in Enterobacteriaceae. J Antimicrob Chemother
+65:490–495. doi: 10.1093/jac/dkp498. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Associated Data 
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+
+Supplementary Materials 
+
+Supplemental material 
+
+supp_60_6_3709__index.html (911B, html) 
+
+AAC.00009-16_zac006165246so1.pdf (218.8KB, pdf) 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (1006.6 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

@@ -1,0 +1,536 @@
+PMID: 27799202
+PMCID: PMC5192137
+DOI: 10.1128/AAC.01413-16
+Title: Acquisition of Carbapenem Resistance by Plasmid-Encoded-AmpC-Expressing Escherichia coli.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2017 Jan
+Authors: van Boxtel R, Wattel AA, Arenas J, Goessens WH, Tommassen J
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Acquisition of Carbapenem Resistance by Plasmid-Encoded-AmpC-Expressing Escherichia coli - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2016 Dec 27;61(1):e01413-16. doi: 10.1128/AAC.01413-16 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Acquisition of Carbapenem Resistance by Plasmid-Encoded-AmpC-Expressing Escherichia coli 
+
+Ria van Boxtel 
+
+Ria van Boxtel 
+
+a Department of Molecular Microbiology, Institute of Biomembranes, Utrecht University, Utrecht, Netherlands 
+
+Find articles by Ria van Boxtel 
+
+a , Agnes A Wattel 
+
+Agnes A Wattel 
+
+b Department of Medical Microbiology and Infectious Diseases, Erasmus University Medical Center Rotterdam, Rotterdam, Netherlands 
+
+Find articles by Agnes A Wattel 
+
+b , Jesús Arenas 
+
+Jesús Arenas 
+
+a Department of Molecular Microbiology, Institute of Biomembranes, Utrecht University, Utrecht, Netherlands 
+
+Find articles by Jesús Arenas 
+
+a , Wil H F Goessens 
+
+Wil H F Goessens 
+
+b Department of Medical Microbiology and Infectious Diseases, Erasmus University Medical Center Rotterdam, Rotterdam, Netherlands 
+
+Find articles by Wil H F Goessens 
+
+b , Jan Tommassen 
+
+Jan Tommassen 
+
+a Department of Molecular Microbiology, Institute of Biomembranes, Utrecht University, Utrecht, Netherlands 
+
+Find articles by Jan Tommassen 
+
+a, ✉ 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a Department of Molecular Microbiology, Institute of Biomembranes, Utrecht University, Utrecht, Netherlands 
+
+b Department of Medical Microbiology and Infectious Diseases, Erasmus University Medical Center Rotterdam, Rotterdam, Netherlands 
+
+✉ 
+Address correspondence to Jan Tommassen, j.p.m.tommassen@uu.nl . 
+
+Citation van Boxtel R, Wattel AA, Arenas J, Goessens WHF, Tommassen J. 2017. Acquisition of carbapenem resistance by plasmid-encoded-AmpC-expressing Escherichia coli . Antimicrob Agents Chemother 61:e01413-16. https://doi.org/10.1128/AAC.01413-16 . 
+
+✉ 
+Corresponding author. 
+
+Received 2016 Jul 1; Revision requested 2016 Jul 22; Accepted 2016 Oct 22; Prepublished 2016 Oct 31; Collection date 2017 Jan. 
+
+Copyright © 2016 American Society for Microbiology. 
+
+All Rights Reserved . 
+
+PMC Copyright notice 
+
+PMCID: PMC5192137  PMID: 27799202 
+
+ABSTRACT 
+
+Although AmpC β-lactamases can barely degrade carbapenems, if at all, they can sequester them and prevent them from reaching their targets. Thus, carbapenem resistance in Escherichia coli and other Enterobacteriaceae can result from AmpC production and simultaneous reduction of antibiotic influx into the periplasm by mutations in the porin genes. Here we investigated the route and genetic mechanisms of acquisition of carbapenem resistance in a clinical E. coli isolate carrying bla CMY-2 on a plasmid by selecting for mutants that are resistant to increasing concentrations of meropenem. In the first step, the expression of OmpC, the only porin produced in the strain under laboratory conditions, was lost, leading to reduced susceptibility to meropenem. In the second step, the expression of the CMY-2 β-lactamase was upregulated, leading to resistance to meropenem. The loss of OmpC was due to the insertion of an IS 1 element into the ompC gene or to frameshift mutations and premature stop codons in this gene. The bla CMY-2 gene was found to be located on an IncIγ plasmid, and overproduction of the CMY-2 enzyme resulted from an increased plasmid copy number due to a nucleotide substitution in the inc gene. The clinical relevance of these genetic mechanisms became evident from the analysis of previously isolated carbapenem-resistant clinical isolates, which appeared to carry similar mutations. 
+
+KEYWORDS: AmpC, CMY-2, carbapenem resistance, Escherichia coli , plasmid-mediated resistance, porins 
+
+INTRODUCTION 
+
+The spread of antibiotic resistance is considered a major threat to public health ( 1 ). Resistance to third-generation cephalosporins due to the expression of extended-spectrum β-lactamases (ESBLs), such as CTX-M, is increasingly reported in Enterobacteriaceae ( 2 , 3 ), often leaving carbapenems as the only treatment option. As a consequence, selection pressure due to the increased use of carbapenems has led to the appearance of strains producing carbapenemases such as VIM, KPC, NDM, IMP, and OXA-48 ( 4 – 6 ). An alternative mechanism for acquiring resistance to carbapenems is the production of noncarbapenemase β-lactamases combined with the loss of outer membrane porins ( 7 ). AmpC-type β-lactamases, for example, can barely degrade carbapenems, if at all ( 8 , 9 ), but they can covalently bind them in the periplasm and prevent them from accessing their targets, provided that the enzymes are produced at a high level and the permeability of the outer membrane is reduced by the loss of porins ( 10 ). 
+
+CMY-2 is a plasmid-encoded AmpC (pAmpC) β-lactamase that is frequently found in Escherichia coli and other Enterobacteriaceae worldwide ( 11 ). The corresponding gene is derived from the chromosomally located ampC gene of Citrobacter freundii ( 12 ). Usually, it is located on large plasmids of the IncI and IncA/C incompatibility groups ( 13 ). In this study, we investigated the route and the genetic mechanisms leading to carbapenem resistance in a clinical E. coli isolate containing a bla CMY-2 gene on a plasmid. 
+
+RESULTS 
+
+Isolation of meropenem-resistant mutants. 
+
+Isolate R2761, for which the meropenem MIC is 0.125 μg/ml, was grown in lysogeny broth (LB) supplemented with 0.5 μg/ml of meropenem. After overnight incubation, growth was observed. The cells were harvested and were resuspended in fresh LB to an optical density at 660 nm (OD 660 ) of 1, and 100-μl aliquots were plated onto LB agar plates with various concentrations (0 to 8 μg/ml) of meropenem. Colonies were found on plates containing as much as 2 μg/ml of meropenem. After streaking, one of the clones obtained, designated R2761mr20, was grown overnight in LB containing 2 μg/ml of meropenem and was subsequently plated onto LB agar plates with various concentrations of meropenem. From the plate with 4 μg/ml meropenem (the highest concentration at which growth was observed), colonies were picked, and the procedure was repeated, yielding colonies on LB plates supplemented with 8 μg/ml of meropenem. The MICs for the most resistant strains and several intermediates are listed in Table 1 . It is noteworthy that the development of resistance to meropenem was paralleled by the development of resistance to imipenem ( Table 1 ). 
+
+TABLE 1. 
+
+Susceptibilities of E. coli isolate R2761 and its derivatives to meropenem in the presence or absence of 500 μg/ml of cloxacillin and to imipenem a 
+
+Strain MER concn (μg/ml) for selection MIC (μg/ml) MER IMI MER + Clox R2761 0.125 0.5 0.064 mr20 2 1 2 1 mr26 4 16 16 1 mr35 8 32 >32 4 mr38 8 >32 >32 4 mr41 8 >32 >32 4 mr42 8 >32 >32 4 
+
+Open in a new tab 
+
+a 
+Abbreviations: MER, meropenem; IMI, imipenem; Clox, cloxacillin. 
+
+Phenotypic characterization of meropenem-resistant mutants. 
+
+Decreased susceptibility to meropenem may result from the loss of porins in the outer membrane and/or from the overexpression of β-lactamases. Laboratory strains of E. coli K-12 generally produce two related porins, OmpC and OmpF, when grown in LB. In contrast, SDS-polyacrylamide gel electrophoresis (PAGE) and Western blotting revealed the presence of only a single porin in the outer membrane protein fraction of isolate R2761 ( Fig. 1A and B ). The expression of this porin was lost upon the first round of selection for reduced meropenem susceptibility (strain R2761mr20 and six other clones tested in this experiment) and in all subsequent isolates ( Fig. 1A and B and results not shown). The first round of selection was repeated three times independently, and eight clones tested in each of these experiments invariably showed porin loss. 
+
+FIG 1. 
+
+Open in a new tab 
+
+Expression of porins in isolate R2761 and derivatives. Outer membrane proteins were either separated by SDS-PAGE and stained with Coomassie brilliant blue (A) or analyzed by Western blotting using a porin-specific polyclonal antiserum (B). Lanes 1, E. coli K-12 strain TOP10F′, which is used as a reference for the major outer membrane proteins; lanes 2, wild-type isolate R2761; lanes 3 to 8, R2761 derivatives mr20, mr26, mr35, mr38, mr41, and mr42, respectively; lanes M, molecular weight marker proteins. The positions of the major outer membrane proteins in the K-12 strain are indicated on the left and the molecular masses of the marker proteins on the right. Only the relevant parts of the gel and blot are shown. 
+
+Zymography revealed two bands with β-lactamase activity in strain R2761, with apparent molecular masses of 37 and 28 kDa, respectively ( Fig. 2A ). The activity in the upper band was increased in strain R2761mr26 and subsequent derivatives. The apparent molecular weight of this band suggested that it could correspond to CMY-2, and this suggestion was confirmed in a Western blotting experiment with an antiserum raised against CMY-2 β-lactamase ( Fig. 2B ). The activity of the lower band on the zymograms, which could correspond to the CTX-M-15 and/or OXA-1 β-lactamase, which are also detected in strain R2761, appeared barely affected during the selection procedure ( Fig. 2A ). 
+
+FIG 2. 
+
+Open in a new tab 
+
+Expression of CMY-2 β-lactamase in isolate R2761 and derivatives. (A) Zymogram on which periplasmic fractions of strain R2761 (lane 1) and its derivatives mr20, mr26, mr35, mr38, mr41, and mr42 (lanes 2 to 7, respectively) were analyzed using nitrocefin as a β-lactamase substrate. Lane M contains molecular weight marker proteins, and their molecular masses are indicated on the left. Two bands with β-lactamase activity were detected, and their apparent molecular masses are indicated at the right. (B) Western blot of periplasmic fractions of R2761 and its derivatives. Lanes are loaded in the same order as in panel A. The blot was probed with an antiserum raised against CMY-2 β-lactamase. Only the relevant parts of the zymogram and the blot are shown. 
+
+β-Lactamase activity was further evaluated in enzyme assays using the chromogenic substrate nitrocefin. Increased activity was detected in strain R2761mr26 and all subsequent derivatives ( Table 2 ). This activity was suppressed with cloxacillin, an inhibitor of AmpC-type β-lactamases, and was paralleled by increased hydrolysis of cefoxitin, which is a more specific substrate for AmpC-type β-lactamases ( Table 2 ). The rate of hydrolysis of meropenem was below the detection limit in these assays, in agreement with the notion that CMY-2 can hardly degrade this substrate, if at all ( 8 , 9 ). Furthermore, the resistance of strain R2761mr26 and subsequent derivatives to meropenem was largely suppressed by cloxacillin ( Table 1 ). Together, these results demonstrate that meropenem resistance developed in strain R2761 through the loss of porin followed by the upregulation of CMY-2 activity. 
+
+TABLE 2. 
+
+β-Lactamase activities in E. coli isolate R2761 and its derivatives 
+
+Strain Hydrolysis rate a NCF NCF + Clox FOX R2761 119 ± 20 23 ± 1 0.9 ± 0.3 mr20 107 ± 7 22 ± 1 0.8 ± 0.2 mr26 463 ± 18 20 ± 1 8.6 ± 0.7 mr35 604 ± 37 ND b 16.0 ± 0.7 mr38 605 ± 84 ND 17.0 ± 0.8 mr41 464 ± 54 ND 10.3 ± 0.6 mr42 519 ± 84 12 ± 1 14.0 ± 0.4 
+
+Open in a new tab 
+
+a 
+The hydrolysis rates of nitrocefin (NCF) in the absence or presence of cloxacillin (Clox) and of cefoxitin (FOX) are expressed in nanomoles per minute per 10 8 cells and in nanomoles per hour per 10 8 cells, respectively. 
+
+b 
+ND, not determined. 
+
+Mutational frequency. 
+
+To gain insight into the mutational frequency of porin loss and upregulation of β-lactamase activity, strains R2761 and R2761mr20 were grown overnight in LB without meropenem, and after washing, CFU counts were determined on LB plates either without antibiotics or containing 1 or 4 μg/ml of meropenem. Mutants of R2761 resistant to 1 μg/ml of meropenem were obtained with a frequency of 2 × 10 −7 , and 10 out of 10 mutants analyzed showed loss of OmpC on Western blots (results not shown). Mutants of R2761mr20 resistant to 4 μg/ml of meropenem were obtained with a frequency of 10 −8 , and 10 out of 10 mutants analyzed showed upregulation of CMY-2 on Western blots (results not shown). No resistant mutants were obtained when R2761 was directly plated onto LB plates containing 4 μg/ml of meropenem. 
+
+Genotypic characterization of meropenem-resistant mutants. 
+
+To identify the mutations that resulted in the loss of porin in strain R2761mr20 and three other mutants obtained in the first selection round, the ompC , ompF , and ompR-envZ genes (the latter locus encodes the two-component regulatory system required for the expression of OmpC and OmpF) were amplified by PCR and were sequenced. The ompC gene of the wild-type strain R2761 was identical to that of E. coli strain Sanji (locus tag Y979_07590) except for two silent nucleotide substitutions at positions 61 and 559, both of which were G-to-A transitions. The ompC amplicons of resistant isolates mr19 and mr20 were considerably longer than that of the wild-type strain (see Fig. S1 in the supplemental material). Sequencing of this fragment showed the presence of an IS 1 element inserted after nucleotide 450 of ompC in both strains. Sequencing of the ompC amplicons of resistant isolates mr12 and mr18 revealed a tetranucleotide (ATCG) duplication at nucleotide position 630, resulting in a frameshift and a premature stop codon for mr12 and a C-to-T transition at nucleotide position 310, creating a stop codon, for mr18. These results demonstrate that the porin expressed in isolate R2761 is OmpC and that its expression can be knocked out by diverse mutations, resulting in reduced susceptibility to meropenem. The ompF gene of isolate R2761 was found to be identical to those of E. coli K-12 (locus tag b0929) and E. coli strain Sanji (locus tag Y979_05145). Relative to the E. coli K-12 sequence, the promoter region revealed the insertion of a single nucleotide, a T, 75 bp upstream of the transcription start site in one of three high-affinity binding sites for the transcriptional activator OmpR, i.e., box F2 ( 14 ). This insertion might explain the lack of expression of ompF in strain R2761. Interestingly, the same insertion was found in the promoter region of ompF in strain Sanji (nucleotide sequence accession number CP011061.1 ), but to our knowledge, it has not been reported whether this multidrug-resistant strain expresses ompF . 
+
+To identify the mutation leading to increased expression of CMY-2, plasmids were isolated from strain R2761 and its derivatives mr20, mr26, and mr42, and the plasmid preparations were used to transform E. coli K-12 strain TOP10F′. Ampicillin-resistant transformants were picked for further analysis. Western blotting showed that these transformants produced CMY-2 β-lactamase and that the expression levels were higher in transformants carrying plasmids derived from strains mr26 and mr42 than in those carrying plasmids from the wild-type strain R2761 and its derivative mr20 (data not shown). Consistently, higher β-lactamase activities were measured in these transformants (see Table S2 in the supplemental material). Zymography revealed that the transformants did not express the 28-kDa β-lactamase (data not shown), suggesting that this enzyme is encoded on another plasmid present in isolate R2761. In addition, the gene for CTX-M-15 could not be detected by PCR in these strains. Also, other resistance phenotypes of R2761, including resistance to tobramycin, trimethoprim, norfloxacin, and nitrofurantoin, were not detected in the transformants, suggesting that they also were determined by the chromosome or by other plasmids. When plasmids were isolated from the transformants, the yield of plasmid DNA was considerably higher for plasmids derived from strains mr26 and mr42 ( Fig. 3A ), suggesting that the increased CMY-2 β-lactamase levels are a consequence of an increased plasmid copy number. CMY-2 β-lactamase is often encoded on plasmids of the IncI replicon type, the replication of which is controlled by antisense RNA transcribed from the inc gene. It was reported recently that mutations in the hairpin loop region of inc can result in an increased plasmid copy number and increased CMY-2 β-lactamase production ( 15 ). PCR and sequence analysis of the plasmids from R2761 and mr42 isolated from TOP10F′ transformants revealed the presence of an IncIγ-type plasmid in both strains, and a single nucleotide substitution (G to A) was detected in the inc hairpin loop of the plasmid derived from mr42 ( Fig. 3B ), which explains the increased copy number of the mutant. 
+
+FIG 3. 
+
+Open in a new tab 
+
+Overproduction of CMY-2 results from an increased plasmid copy number. (A) Plasmids from strain R2761 and its derivatives and from clinical isolates EC-8 and EC-9 were isolated from transformants of E. coli K-12 strain TOP10F′ and were digested with EcoRI, and the fragments were analyzed on 0.6% agarose gels. Lanes 1 to 4, plasmids from strains R2761 and its derivatives mr20, mr26, and mr42, respectively; lanes 5 and 6, plasmids from strains EC-8 and EC-9, respectively. Each lane contains the plasmid yield from 8 × 10 8 bacterial cells. The lane marked M shows a molecular marker; sizes are indicated on the left in kilobase pairs. (B) Nucleotide sequences of the hairpin loop region of the inc genes containing single nucleotide substitutions in the plasmids from mr42, EC-8, and EC-9 (indicated in red). The inverted repeats forming the stem of the stem-loop structure are indicated by arrows. 
+
+Sequencing of the gene encoding CMY-2 on the plasmid derived from mr42 revealed no changes from the gene on the plasmid derived from R2761. Both genes contain a substitution that results in a V231S amino acid substitution, which classifies the protein as a CMY-42 variant ( 16 ). 
+
+Transferability of the resistance phenotype. 
+
+To verify that loss of porins and increased expression of CMY-2 are sufficient to confer meropenem resistance, the plasmids derived from R2761 and mr42 were isolated from TOP10F′ and were transferred to the laboratory strain BL21(DE3) and its isogenic porin-deficient derivative CE1536. Clinical resistance to meropenem was observed only when the high-copy-number plasmid from mr42 was transferred to the porin-deficient strain (see Table S3 in the supplemental material). 
+
+Stability of the resistance phenotype. 
+
+Determination of the growth curves showed a slight but reproducible growth defect in the late-exponential growth phases of both strains mr20 and mr26 relative to the wild-type strain, whereas strain mr42 already showed retarded growth in the early-exponential phase (see Fig. S2 in the supplemental material). Because of these growth defects, we considered the possibility that the resistance phenotype was not very stable and was easily lost during growth in the absence of selection pressure. To test this possibility, strain R2761mr42 was grown overnight in LB without antibiotics, diluted 1:1,000 in fresh medium, and grown again overnight, and this procedure was repeated. Samples of each culture were plated onto LB agar plates, and 100 colonies obtained after overnight growth were streaked onto LB agar containing 8 μg/ml meropenem. After ∼30 generations (i.e., three successive cultures in LB without meropenem), the first revertants that were sensitive to meropenem were detected (3 out of 100 colonies tested). In total, 10 meropenem-sensitive revertants were further analyzed. All 10 revertants still produced high levels of the CMY-2 β-lactamase, similar to those for the mr42 strain (see Fig. S3A in the supplemental material for examples), but 7 of them expressed a porin with the same electrophoretic mobility as OmpC, as detected by SDS-PAGE and Western blotting (Fig. S3B and C, respectively). PCR analysis confirmed that these strains had lost the insertion element in the ompC gene (Fig. S3D). Apparently, the loss of porin expression in strain mr42 imposes a stronger competitive growth disadvantage than the replication of the large high-copy-number plasmid. We did not investigate further the reason for the meropenem susceptibilities of the other three derivatives obtained. 
+
+Clinical relevance. 
+
+Recently, we described two clinical E. coli isolates, which are highly resistant to carbapenems due to the loss of porins and the high level of expression of CMY-2 β-lactamase ( 10 ). We were interested in determining whether these clinical isolates, designated EC-8 and EC-9, had acquired mutations in vivo similar to those selected in isolate R2761 in vitro . PCR analysis revealed an increased size of the ompF amplicon in both strains (Fig. S1), and sequence analysis revealed the insertion of an IS 1 element in codons 50 and 47 of the ompF gene in EC-8 and EC-9, respectively. The ompC amplicon had the expected size; sequence analysis revealed a frameshift mutation due to a single nucleotide insertion at position 131 in both strains. 
+
+Plasmids were isolated from strains EC-8 and EC-9 and were used to transform E. coli K-12 strain TOP10F′ with selection for ampicillin resistance. Transformants producing CMY-2 β-lactamase, as revealed by Western blotting, were analyzed further. The yield of plasmid DNA from the transformants was high and comparable to that of transformants carrying the plasmid from R2761mr42 ( Fig. 3A ). Also, the EcoRI restriction patterns of these plasmids were very similar, although not identical, to that of the plasmid derived from R2761mr42 ( Fig. 3A ), suggesting that EC-8 and EC-9 contained a plasmid related to that of strain R2761. PCR and sequence analysis indeed revealed the presence of IncIγ-type plasmids in these transformants, with a substitution of the same nucleotide in the inc hairpin loop as in the plasmid derived from R2761mr42, except that the G was replaced by a T instead of an A in these cases ( Fig. 3B ). 
+
+DISCUSSION 
+
+E. coli and other Enterobacteriaceae can become resistant to carbapenems by producing certain noncarbapenemase β-lactamases, such as ESBLs and AmpC, in combination with reduced permeability of the outer membrane ( 10 , 17 ). The mechanism involved is proposed to be sequestration by the β-lactamases of the limited amounts of carbapenems that enter the periplasm in porin-deficient mutants, thus preventing their access to their targets ( 10 ). The results presented here demonstrate that the loss of porins in a strain carrying bla CMY-2 on a plasmid reduces meropenem susceptibility but is not sufficient to confer clinical meropenem resistance (i.e., a MIC of >8). To achieve clinical resistance, a second mutation, resulting in increased CMY-2 expression, was required. Remarkably, we observed in our selection procedure that the loss of porin always preceded the upregulation of CMY-2 expression. In part, this may be explained by the fact that various mutations can lead to porin deficiency, while very specific nucleotide substitutions are required for the upregulation of CMY-2 expression. Indeed, we found a 20-fold-higher mutational frequency for porin loss than for CMY-2 upregulation. In addition, upregulation of CMY-2 expression alone may not reduce susceptibility to meropenem sufficiently to be selected in our procedure. In agreement with this supposition, we found that the meropenem MIC for strain mr42s1, an OmpC + revertant that still produced high levels of CMY-2 (Fig. S3), was 0.5 μg/ml (data not shown). 
+
+We characterized the mutations disrupting porin gene expression and enhancing CMY-2 expression in meropenem-resistant strains selected both in vitro and in vivo . In both cases, the insertion of insertion (IS) elements disrupting the porin genes was observed, but more-subtle mutations causing frameshifts and premature stop codons were also detected. Similar porin-disrupting mutations were reported previously in a collection of ertapenem-resistant Klebsiella and Enterobacter clinical isolates from the UK ( 18 ). Upregulation of CMY-2 expression was found to be caused by an increase in the copy number of the IncIγ plasmid on which the gene is located. The copy number of IncI plasmids is partially controlled by an antisense RNA encoded by the inc gene, which inhibits the translation of the mRNA encoding the plasmid replication initiation protein RepZ ( 19 ). Inhibition is mediated by an initial interaction of a stem-loop structure in the Inc RNA with a complementary stem-loop structure in the 5′ untranslated region of the repZ mRNA ( 19 , 20 ). Recently, it was reported that in vitro selection for piperacillin-tazobactam resistance in an E. coli strain carrying bla CMY-2 on a large IncI1 plasmid resulted in a mutant with an increased plasmid copy number due to a nucleotide substitution in the loop of the stem-loop structure of the Inc RNA ( 15 ). In this study, we detected similar mutations in an IncIγ plasmid, and to the best of our knowledge, we report for the first time that such mutations are occurring clinically. 
+
+The loss of porins would be expected to affect nutrient acquisition, particularly at low nutrient concentrations. Indeed, we observed a slight but reproducible growth defect of the porin-deficient strain mr20 in the late-exponential growth phase. The vastly increased copy number of the large plasmid would be expected to impose a large metabolic burden on the mutants, but no cumulative growth defect was observed in strain mr26. Consistently, the plasmid was not easily lost when strain mr42 was grown in the absence of selection pressure. The plasmid probably encodes one or several toxin-antitoxin systems that prevent the growth of cells that have lost the plasmid ( 21 ). 
+
+After porin loss and the upregulation of bla CMY-2 expression ( Table 1 , isolate mr26), further selection yielded mutants for which meropenem MIC values were even higher. The expression of CMY-2 was not further increased in these mutants. Presumably, these mutants contain mutations in the genes for the targets of meropenem or mutations that affect the activity of drug efflux pumps ( 22 ), but this was not analyzed further. Considering the enhanced growth defect of mr42 relative to mr26 (Fig. S2), such mutations may affect bacterial fitness. 
+
+In conclusion, our results demonstrate that the acquisition of meropenem resistance in an E. coli strain carrying bla CMY-2 requires two mutations, resulting first in the loss of porin expression and then in increased expression of CMY-2 β-lactamase. Furthermore, we have demonstrated that the in vitro selection procedure yields mutations similar to those found in clinical meropenem-resistant strains, thus validating this in vitro approach. Therefore, we can apply this approach in future experiments to other strains (e.g., strains expressing two or three porins and/or carrying bla CMY-2 on a different type of plasmid) in order to study the pathway of acquisition of resistance to carbapenem antibiotics. 
+
+MATERIALS AND METHODS 
+
+Bacterial strains. 
+
+E. coli strain R2761 was isolated from a surveillance culture in 2010 at the Erasmus University Medical Center (Rotterdam, Netherlands). The strain was identified to the species level with Vitek 2 (Vitek AMS; bioMérieux Vitek Systems Inc., Hazelwood, MO). Multiplex PCR for the six families of plasmid-mediated ampC genes ( 23 ) and subsequent sequencing showed the presence of bla CMY-2 . Additional PCRs ( 10 ) revealed that the isolate also contains the bla CTX-M-1 group, which was identified upon sequencing as a CTX-M-15 variant, and bla OXA-1 genes. The carbapenem-resistant isolates EC-8 and EC-9, which lack porins and produce high levels of CMY-2 β-lactamase, were isolated from a patient who was treated with meropenem and have been described previously ( 10 ). E. coli laboratory strains TOP10F′ (Invitrogen, Thermo Fisher Scientific, Carlsbad, CA) and BL21(DE3), and the porin-deficient BL21(DE3) derivative CE1536 ( 24 ), were used as reference strains and for transformation. 
+
+Susceptibility testing. 
+
+The susceptibilities of the strains to carbapenems were determined by gradient diffusion using Etest (AB bioMérieux, Solna, Sweden), which was performed according to the manufacturer's instructions. MIC categorization was performed according to EUCAST (European Committee on Antimicrobial Susceptibility Testing) ( http://www.eucast.org ) guidelines. 
+
+Isolation and characterization of cell fractions. 
+
+Whole-cell lysates, periplasmic fractions, and outer membrane proteins were isolated as described previously ( 25 ) from bacteria grown at 37°C in LB. Cell fractions from equal amounts of cells based on the OD 660 of the cultures were analyzed by SDS-PAGE as described previously ( 26 ). For the analysis of outer membrane protein profiles, gels containing 5 M urea were used to separate porins OmpC and OmpF. For Western blot analysis, polyclonal antisera raised against the E. coli porin PhoE or against CMY-2 β-lactamase were used, and the blots were developed as described previously ( 10 ). The anti-PhoE antiserum used cross-reacts with the related porins OmpC and OmpF ( 10 ). To generate an antiserum against CMY-2 β-lactamase, the periplasmic fraction of strain CE1536 expressing CMY-2 from clinical isolate EC-8 ( 10 ) was isolated, and proteins were separated by preparative SDS-PAGE. The band corresponding to CMY-2 was excised from the gel, and the protein was extracted by electroelution (Electroelutor; Bio-Rad) according to the manufacturer's recommendations. The purified protein was used for the production of rabbit antiserum at Eurogentec (Liège, Belgium). Zymography was performed as described previously ( 10 ). Proteins from periplasmic fractions from equal amounts of cells (determined on the basis of the OD 660 ) were separated by seminative SDS-PAGE ( 27 ), and β-lactamase activity in the gels was detected using 0.1 mM nitrocefin (Calbiochem, Merck KGaA, Darmstadt, Germany) as a chromogenic substrate ( 28 ). 
+
+Enzyme assay. 
+
+β-Lactamase activity in whole-cell lysates was determined with 50 μM nitrocefin as the substrate by measuring the initial rate of nitrocefin cleavage (determined by the change in the OD 486 ) as described previously ( 10 ). When appropriate, the lysates were incubated for 15 s with 50 μM cloxacillin as an inhibitor of AmpC-type enzymes before the addition of the substrate. The rates of hydrolysis of cefoxitin and meropenem were measured at 265 and 300 nm, respectively. 
+
+Plasmid isolation and transformation. 
+
+Plasmids were isolated from strain R2761 and derivatives and from isolates EC-8 and EC-9 using E.Z.N.A. plasmid minikit I (Omega Biotek) and were used to transform E. coli K-12 strain TOP10F′. Transformation was carried out by electroporation ( 29 ) in 0.2-cm cuvettes at 2.5 kV, 25 μF, and 200 Ω, with selection for resistance to 200 μg/ml of ampicillin. For further characterization, the plasmids were isolated from the transformants of TOP10F′. 
+
+PCR and sequencing. 
+
+Genomic DNA was prepared by resuspending bacteria in water to an OD 600 of ∼2.0. The suspension was boiled for 5 min, and cell debris was pelleted by centrifugation in a microcentrifuge at full speed. The supernatant was used as template DNA for PCRs. The porin genes ompC and ompF and the promoter region of ompF were amplified using primer pairs ompC fw/ompC rev, ompF fw/ompF rev, and ompFP fw/ompFP rev, respectively (see Table S1 in the supplemental material). The primers for plasmid replicon typing ( 30 ) and for amplification of the inc gene ( 15 ) have been described previously. PCR products were obtained using the Expand High Fidelity Enzyme Mix (Roche Diagnostics GmbH, Germany) and were used directly for sequencing. Alternatively, the proofreading enzyme Pwo DNA polymerase (Boehringer) was used in the PCRs, and the PCR products were first cloned into pCRII-TOPO (Invitrogen) and were sequenced using the M13 universal primers. All fragments were sequenced at least twice from independent reactions at Macrogen (Seoul, South Korea). 
+
+Supplementary Material 
+
+Supplemental material 
+
+supp_61_1_e01413-16__index.html (883B, html) 
+
+ACKNOWLEDGMENTS 
+
+We thank Frank Beckers, Nicole Lemmens-den Toom, and Marian ten Kate for technical assistance. 
+
+Footnotes 
+
+Supplemental material for this article may be found at https://doi.org/10.1128/AAC.01413-16 . 
+
+REFERENCES 
+
+1. World Health Organization. 2014. 
+Antimicrobial resistance global report on surveillance. World Health Organization, Geneva, Switzerland: http://www.thehealthwell.info/node/763364 . [ Google Scholar ] 
+
+2. Pitout JDD, Nordmann P, Laupland KB, Poirel L. 
+2005. 
+Emergence of Enterobacteriaceae producing extended-spectrum β-lactamases (ESBLs) in the community. J Antimicrob Chemother
+56:1–9. doi: 10.1093/jac/dki166. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+3. Cantón R, Coque TM. 
+2006. 
+The CTX-M β-lactamase pandemic. Curr Opin Microbiol
+9:466–475. doi: 10.1016/j.mib.2006.08.011. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+4. Walsh TR, Toleman MA, Poirel L, Nordmann P. 
+2005. 
+Metallo-β-lactamases: the quiet before the storm?
+Clin Microbiol Rev
+18:306–325. doi: 10.1128/CMR.18.2.306-325.2005. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Nordmann P, Cuzon G, Naas T. 
+2009. 
+The real threat of Klebsiella pneumoniae carbapenemase-producing bacteria. Lancet Infect Dis
+9:228–236. doi: 10.1016/S1473-3099(09)70054-4. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+6. Nordmann P, Dortet L, Poirel L. 
+2012. 
+Carbapenem resistance in Enterobacteriaceae: here is the storm!
+Trends Mol Med
+18:263–272. doi: 10.1016/j.molmed.2012.03.003. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Martínez-Martínez L, Pascual A, Hernández-Allés S, Alvarez-Díaz D, Suárez AI, Tran J, Benedí VJ, Jacoby GA. 
+1999. 
+Roles of β-lactamases and porins in activities of carbapenems and cephalosporins against Klebsiella pneumoniae . Antimicrob Agents Chemother
+43:1669–1673. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Queenan AM, Shang W, Flamm R, Bush K. 
+2010. 
+Hydrolysis and inhibition profiles of β-lactamases from molecular classes A to D with doripenem, imipenem, and meropenem. Antimicrob Agents Chemother
+54:565–569. doi: 10.1128/AAC.01004-09. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Mammeri H, Guillon H, Eb F, Nordmann P. 
+2010. 
+Phenotypic and biochemical comparison of the carbapenem-hydrolyzing activities of five plasmid-borne AmpC β-lactamases. Antimicrob Agents Chemother
+54:4556–4560. doi: 10.1128/AAC.01762-09. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+10. Goessens WHF, van der Bij AK, van Boxtel R, Pitout JDD, van Ulsen P, Melles DC, Tommassen J. 
+2013. 
+Antibiotic trapping by plasmid-encoded CMY-2 β-lactamase combined with reduced outer membrane permeability as a mechanism of carbapenem resistance in Escherichia coli . Antimicrob Agents Chemother
+57:3941–3949. doi: 10.1128/AAC.02459-12. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Philippon A, Arlet G, Jacoby GA. 
+2002. 
+Plasmid-determined AmpC-type β-lactamases. Antimicrob Agents Chemother
+46:1–11. doi: 10.1128/AAC.46.1.1-11.2002. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Bauernfeind A, Stemplinger I, Jungwirth R, Giamarellou H. 
+1996. 
+Characterization of the plasmidic β-lactamase CMY-2, which is responsible for cephamycin resistance. Antimicrob Agents Chemother
+40:221–224. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Baudry PJ, Mataseje L, Zhanel GG, Hoban DJ, Mulvey MR. 
+2009. 
+Characterization of plasmids encoding CMY-2 AmpC β-lactamases from Escherichia coli in Canadian intensive care units. Diagn Microbiol Infect Dis
+65:379–383. doi: 10.1016/j.diagmicrobio.2009.08.011. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+14. Huang KJ, Igo MM. 
+1996. 
+Identification of the bases in the ompF regulatory region, which interact with the transcription factor OmpR. J Mol Biol
+262:615–628. doi: 10.1006/jmbi.1996.0540. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+15. Kurpiel PM, Hanson ND. 
+2012. 
+Point mutations in the inc antisense RNA gene are associated with increased plasmid copy number, expression of bla CMY-2 and resistance to piperacillin/tazobactam in Escherichia coli . J Antimicrob Chemother
+67:339–345. doi: 10.1093/jac/dkr479. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+16. Hentschke M, Kotsakis SD, Wolters M, Heisig P, Miriagou V, Aepfelbacher M. 
+2011. 
+CMY-42, a novel plasmid-mediated CMY-2 variant AmpC beta-lactamase. Microb Drug Resist
+17:165–169. doi: 10.1089/mdr.2010.0137. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+17. Lartigue MF, Poirel L, Poyart C, Reglier-Poupet H, Nordmann P. 
+2007. 
+Ertapenem resistance of Escherichia coli . Emerg Infect Dis
+13:315–317. doi: 10.3201/eid1302.060747. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Doumith M, Ellington MJ, Livermore DM, Woodford N. 
+2009. 
+Molecular mechanisms disrupting porin expression in ertapenem-resistant Klebsiella and Enterobacter spp. clinical isolates from the UK. J Antimicrob Chemother
+63:659–667. doi: 10.1093/jac/dkp029. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+19. Shiba K, Mizobuchi K. 
+1990. 
+Posttranscriptional control of plasmid ColIb-P9 repZ gene expression by a small RNA. J Bacteriol
+172:1992–1997. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. Asano K, Mizobuchi K. 
+1998. 
+Copy number control of IncIα plasmid ColIb-P9 by competition between pseudoknot formation and antisense RNA binding at a specific RNA site. EMBO J
+17:5201–5213. doi: 10.1093/emboj/17.17.5201. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+21. Hernández-Arriaga AM, Chan WT, Espinosa M, Diáz-Orejas R. 
+2014. 
+Conditional activation of toxin-antitoxin systems: postsegregational killing and beyond. Microbiol Spectr
+2(5):PLAS-0009-2013. doi: 10.1128/microbiolspec.PLAS-0009-2013. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+22. Adler M, Anjum M, Andersson DI, Sandegren L. 
+2016. 
+Combinations of mutations in envZ , ftsI , mrdA , acrB and acrR can cause high-level carbapenem resistance in Escherichia coli . J Antimicrob Chemother
+71:1188–1198. doi: 10.1093/jac/dkv475. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+23. Pérez-Pérez FJ, Hanson ND. 
+2002. 
+Detection of plasmid-mediated AmpC β-lactamase genes in clinical isolates by using multiplex PCRs. J Clin Microbiol
+40:2153–2162. doi: 10.1128/JCM.40.6.2153-2162.2002. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+24. Renault M, Tommassen-van Boxtel R, Bos MP, Post JA, Tommassen J, Baldus M. 
+2012. 
+Cellular solid-state nuclear magnetic resonance spectrometry. Proc Natl Acad Sci U S A
+109:4863–4868. doi: 10.1073/pnas.1116478109. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Paltansing S, Kraakman M, van Boxtel R, Kors I, Wessels E, Goessens W, Tommassen J, Bernards A. 
+2015. 
+Increased expression levels of chromosomal AmpC β-lactamase in clinical Escherichia coli isolates and their effect on susceptibility to extended-spectrum cephalosporins. Microb Drug Resist
+21:7–16. doi: 10.1089/mdr.2014.0108. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+26. Laemmli UK.
+1970. 
+Cleavage of structural proteins during the assembly of the head of bacteriophage T4. Nature
+227:680–685. doi: 10.1038/227680a0. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+27. Voulhoux R, Bos MP, Geurtsen J, Mols M, Tommassen J. 
+2003. 
+Role of a highly conserved bacterial protein in outer membrane protein assembly. Science
+299:262–265. doi: 10.1126/science.1078973. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+28. O'Callaghan CH, Morris A, Kirby SM, Shingler AH. 
+1972. 
+Novel method for detection of β-lactamases by using a chromogenic cephalosporin substrate. Antimicrob Agents Chemother
+1:283–288. doi: 10.1128/AAC.1.4.283. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+29. Enderle PJ, Farwell MA. 
+1998. 
+Electroporation of freshly plated Escherichia coli and Pseudomonas aeruginosa cells. Biotechniques
+25:954–958. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+30. Carattoli A, Bertini A, Villa L, Falbo V, Hopkins KL, Threlfall EJ. 
+2005. 
+Identification of plasmids by PCR-based replicon typing. J Microbiol Methods
+63:219–228. doi: 10.1016/j.mimet.2005.03.018. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Associated Data 
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+
+Supplementary Materials 
+
+Supplemental material 
+
+supp_61_1_e01413-16__index.html (883B, html) 
+
+AAC.01413-16_zac001175809s1.pdf (80.3KB, pdf) 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (566.4 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

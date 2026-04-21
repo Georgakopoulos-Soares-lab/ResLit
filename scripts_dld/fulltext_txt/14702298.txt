@@ -1,0 +1,457 @@
+PMID: 14702298
+PMCID: PMC305762
+DOI: 10.1128/JB.186.2.307-315.2004
+Title: atxA controls Bacillus anthracis capsule synthesis via acpA and a newly discovered regulator, acpB.
+Journal: Journal of bacteriology
+PubDate: 2004 Jan
+Authors: Drysdale M, Bourgogne A, Hilsenbeck SG, Koehler TM
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+atxA Controls Bacillus anthracis Capsule Synthesis via acpA and a Newly Discovered Regulator, acpB - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+J Bacteriol 
+. 2004 Jan;186(2):307–315. doi: 10.1128/JB.186.2.307-315.2004 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+atxA Controls Bacillus anthracis Capsule Synthesis via acpA and a Newly Discovered Regulator, acpB 
+
+Melissa Drysdale 
+
+Melissa Drysdale 
+
+Department of Microbiology and Molecular Genetics, The University of Texas-Houston Health Science Center , 1 Breast Center and Department of Medicine, Baylor College of Medicine, Houston, Texas 2 
+
+Find articles by Melissa Drysdale 
+
+1 , Agathe Bourgogne 
+
+Agathe Bourgogne 
+
+Department of Microbiology and Molecular Genetics, The University of Texas-Houston Health Science Center , 1 Breast Center and Department of Medicine, Baylor College of Medicine, Houston, Texas 2 
+
+Find articles by Agathe Bourgogne 
+
+1 , Susan G Hilsenbeck 
+
+Susan G Hilsenbeck 
+
+Department of Microbiology and Molecular Genetics, The University of Texas-Houston Health Science Center , 1 Breast Center and Department of Medicine, Baylor College of Medicine, Houston, Texas 2 
+
+Find articles by Susan G Hilsenbeck 
+
+2 , Theresa M Koehler 
+
+Theresa M Koehler 
+
+Department of Microbiology and Molecular Genetics, The University of Texas-Houston Health Science Center , 1 Breast Center and Department of Medicine, Baylor College of Medicine, Houston, Texas 2 
+
+Find articles by Theresa M Koehler 
+
+1, * 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+Department of Microbiology and Molecular Genetics, The University of Texas-Houston Health Science Center , 1 Breast Center and Department of Medicine, Baylor College of Medicine, Houston, Texas 2 
+
+* 
+Corresponding author. Mailing address: Department of Microbiology and Molecular Genetics, University of Texas-Houston Medical School, 6431 Fannin St., JFB 1.765, Houston, TX 77030. Phone: (713) 500-5450. Fax: (713) 500-5499. E-mail: Theresa.M.Koehler@uth.tmc.edu . 
+
+Received 2003 Jul 22; Accepted 2003 Oct 10. 
+
+Copyright © 2004, American Society for Microbiology 
+
+PMC Copyright notice 
+
+PMCID: PMC305762  PMID: 14702298 
+
+Abstract 
+
+Two regulatory genes, acpA and atxA , have been reported to control expression of the Bacillus anthracis capsule biosynthesis operon capBCAD . The atxA gene is located on the virulence plasmid pXO1, while pXO2 carries acpA and the cap genes. acpA has been viewed as the major regulator of the cap operon because it is essential for capsule gene expression in a pXO1 − pXO2 + strain. atxA is essential for toxin gene transcription but has also been implicated in control of the cap genes. The molecular functions of the regulatory proteins are unknown. We examined cap gene expression in a genetically complete pXO1 + pXO2 + strain. Our results indicate that another pXO2 gene, acpB (previously called pXO2-53; accession no. NC002146.1 :49418-50866), has a role in cap expression. The predicted amino acid sequence of AcpB is 62% similar to that of AcpA and 50% similar to that of AtxA. Assessment of cap gene transcription revealed that cap expression was not affected in a pXO1 + pXO2 + acpB -null mutant and was slightly reduced in an isogenic acpA mutant. However, cap gene expression was abolished in an acpA acpB double mutant. Microscopic examination of capsule synthesis by the mutants corroborated these findings. acpA and acpB expression is controlled by atxA ; capsule synthesis and transcription of acpA and acpB were markedly reduced in an atxA mutant. The data suggest that, in a strain containing both virulence plasmids, atxA is the major regulator of capsule synthesis and controls capBCAD expression indirectly, via positive regulation of acpA and acpB . 
+
+Many bacterial pathogens require a cell-associated capsule for virulence. During infection, capsulated organisms have a selective advantage over noncapsulated organisms for numerous reasons. In some species, capsules allow the bacteria to avoid the host's nonspecific immune response by hindering complement binding and subsequent phagocytosis ( 7 , 11 , 12 ). Other capsules specifically bind complement components that prevent the membrane attack complex from forming ( 18 , 26 ). In some cases, capsules are poorly immunogenic or nonimmunogenic and the lack of a strong specific immune response against the outer surface of bacterial cells facilitates long-term survival in the host ( 26 ). Finally, capsules of some bacteria have been reported to play roles in attachment to host cell surfaces ( 6 , 8 ). 
+
+The unique protein capsule of Bacillus anthracis is considered to be essential for establishment of infection leading to anthrax disease. The B. anthracis capsule is composed of γ-linked d -glutamic acid residue polymers of up to 216 kDa in size ( 30 ). The highly negatively charged capsule protects bacterial cells inside the host in a number of ways. The capsule hinders complement binding and decreases the ability of immune cells to phagocytose the bacteria. Treatments that disrupt or remove the capsule allow B. anthracis to be more easily engulfed by phagocytes ( 19 , 24 ). In addition, due to the simplistic chemical composition of the capsule, there is little if any specific immune response generated toward the capsule ( 22 , 34 ). In this manner, the bacteria remain relatively “invisible” to immune cells of the host. 
+
+Fully virulent B. anthracis strains possess two large plasmids, pXO1 (182 kb; accession no. NC001496.1 ) and pXO2 (96 kb; accession no. NC002146.1 ). The biosynthetic genes for capsule synthesis are located on pXO2 (accession no. M24150 [ capBCA ] and D14037 [ capD ]) while the three structural genes for the anthrax toxin proteins ( pagA [accession no. NC001496.1 :133161-135455], lef [accession no. NC001496.1 :127442-129871], and cya [accession no. NC001496.1 :154224-156626]) are located on pXO1. The absence of either plasmid leads to attenuation in most animal models ( 17 , 42 ). For reasons of safety and easy manipulation in the laboratory, the majority of virulence gene regulation studies have employed attenuated strains harboring only one of the two plasmids ( 20 ). 
+
+Examination of capsule gene regulation and function in attenuated pXO1 − pXO2 + B. anthracis strains leads to the identification of the capsule biosynthesis genes, capBCAD ( 23 , 24 ), and the capsule gene activator, acpA ( 40 ). The cap genes are transcribed as a single operon and are predicted to encode proteins responsible for the biosynthesis, transport, and attachment of the d -glutamic acid residues on the bacterial surface ( 24 , 25 ). In a recent publication by Urushibata and coworkers ( 39 ), the CapB homolog in Bacillus subtilis natto, YwsC, was shown to catalyze the polymerization of l -glutamic acid residues to form poly- d -glutamic acid polymers. The YwsC protein is similar to enzymes belonging to the ADP-forming amide bond ligase family. For enzymes of this type, ADP and P i are detected as end products of the polymerization reaction ( 13 ). The B. anthracis CapB protein is predicted to have four domains found in ADP-forming amide bond ligases and has significant amino acid homology to proteins of this class ( 13 ). The CapC homolog YwtA was found to be essential for polyglutamic acid polymer formation in B. subtilis natto since deletion of ywtA eliminates the ability of this strain to secrete the polymers. Secondary and tertiary structure predictions indicate that CapC may be an integral membrane protein, perhaps functioning to transport the polymers to the outside of the cell ( 24 , 39 ). It is interesting that, although many Bacillus species produce and secrete poly- d -glutamic acid, only B. licheniformis and B. anthracis produce a cell-associated glutamic acid capsule. The capA homolog ywtB , although not essential for polyglutamic acid production, is required for optimal production of glutamic acid polymers in B. subtilis natto ( 39 ). The fourth gene of the cap operon, capD , is unique to B. anthracis and encodes an enzyme that depolymerizes large capsule polymers, releasing lower-molecular-weight d -glutamic acid polymers into the environment ( 37 ). Makino et al. ( 25 ) demonstrated that a capD -null mutant is avirulent in a mouse model for anthrax. Virulence was restored by the addition of lower-molecular-weight capsule polymers at the time of injection, thus indicating a direct role for the exogenous lower-molecular-weight polymers in virulence. 
+
+Akin to the capsule gene regulation studies, researchers examining toxin gene regulation and toxin function have generally employed strains carrying only pXO1 ( 20 ). The structural genes for the toxin proteins, pagA , lef , and cya , encoding protective antigen, lethal factor, and edema factor, respectively, and the regulatory gene atxA , which is required for expression of the toxin genes, were identified in experiments with pXO1 + pXO2 − strains ( 3 , 10 , 21 , 28 , 31 , 32 , 35 , 36 , 41 , 43 ). The toxin genes and atxA are all located on pXO1. atxA has been shown to regulate toxin synthesis in culture and in a mouse model for anthrax ( 10 , 21 , 36 ). 
+
+Recent transcriptional profiling studies employing a genetically complete pXO1 + pXO2 + strain and isogenic atxA and acpA regulatory mutants have revealed a significant role for atxA and a minor role of acpA in cap gene regulation ( 2 ). We showed that acpA is not essential for capsule gene expression in a pXO1 + pXO2 + strain background; an acpA- null mutant produces capsule similarly to the parent strain. These findings are in contrast to a report showing that acpA is essential for capsule gene expression and capsule synthesis in a pXO1 − pXO2 + strain ( 40 ). We also determined that capsule gene expression is significantly reduced in an atxA -null pXO1 + pXO2 + strain ( 2 ). Previously, it was shown that atxA was able to complement an acpA- null mutant and positively regulate capsule gene transcription and capsule synthesis in a pXO1 − pXO2 + strain ( 38 ). However, the significance of atxA in capsule gene regulation in genetically complete strains was not recognized in this genetic background. The cross talk between pXO1 and pXO2 appears to be unidirectional; acpA does not have any effect on the expression of the toxin genes ( 2 , 15 , 38 ). The molecular mechanism(s) by which atxA and acpA regulate the expression of the toxin and capsule genes has not been elucidated. 
+
+Here we further explore capsule gene expression in a genetically complete B. anthracis strain and investigate the effects of atxA , acpA , and a newly discovered regulator, acpB , on capsule gene expression and capsule synthesis. Based on our findings, we propose a new model whereby atxA controls capsule gene transcription and synthesis via positive regulation of acpA and/or acpB expression. 
+
+MATERIALS AND METHODS 
+
+Strains. 
+
+Table 1 is a complete list of strains, including plasmid content and relevant genotypes. Construction of UT500 (pXO1 + pXO2 + parent strain), UT501 ( atxA ), UT502 ( acpA ), and UT503 ( atxA acpA ) was described previously ( 2 ). An acpB- null mutation in strain UM23C1-1td10 (pXO1 − pXO2 + ) was created by replacement of coding sequences of acpB (open reading frame pXO2-53; accession no. NC002146.1 :49418-50866; 109 nucleotides [nt] downstream of the translational start codon to 100 nt upstream of the translational stop codon) with an Ω kanamycin resistance cassette ( 29 ), using a protocol described previously ( 10 ). The mutation was confirmed using the PCR with oligonucleotide primers corresponding to sequences upstream and downstream of acpB in combination with primers internal to the Ω cassette. This acpB -null mutant was named UT229. 
+
+TABLE 1. 
+
+Strains used in this study 
+
+Strain name a Plasmid content Genotype Relevant characteristics Source or reference 6602 pXO1 − pXO2 + ATCC b 7702 pXO1 + pXO2 − 5 UM23C11td10 pXO1 − pXO2 + pXO2 from 6602 transduced into cured strain UM23C1-1 14 UT500 pXO1 + pXO2 + pXO2 from 6602 transduced into 7702 2 UT501 pXO1 + pXO2 + atxA Km r 2 UT502 pXO1 + pXO2 + acpA Sp r 2 UT503 pXO1 + pXO2 + atxA acpA Sp r Km r 2 UT229 pXO1 − pXO2 + acpB Km r This work UT525 pXO1 + pXO2 + acpB Km r This work UT526 pXO1 + pXO2 + acpA acpB Sp r Km r This work UT537 pXO1 + pXO2 + atxA acpB Sp r Km r This work UT252 pXO1 + pXO2 − atxA Sp r This work UT536 pXO1 + pXO2 + atxA Sp r This work 
+
+Open in a new tab 
+
+a 
+UT229 was derived from UM23C11td10. All other UT strains are isogenic, excluding genotypes indicated. 
+
+b 
+ATCC, American Type Culture Collection. 
+
+A similar gene replacement method was used for construction of a spectinomycin-resistant atxA- null mutant of strain 7702 (pXO1 + pXO2 − ). The atxA coding sequences 132 nt downstream from the translational start to 51 nt upstream from the translational stop were replaced with an Ω spectinomycin resistance cassette ( 33 ). The mutation was confirmed using the PCR as described above with primers corresponding to sequences adjacent to the atxA gene and within the Ω cassette. This atxA -null mutant was named UT252. 
+
+CP51-mediated transduction was used to transfer mutations between isogenic strains ( 14 ). The acpB- and atxA- null mutations of UT229 and UT252 were transduced to recipient strains UT500 and UT501 to yield UT525 (pXO1 + pXO2 + acpB ) and UT536 (pXO1 + pXO2 + atxA ), respectively. The acpB -null mutation of UT229 was transduced into recipient strains UT502 and UT536 to yield UT526 (pXO1 + pXO2 + acpA acpB ) and UT537 (pXO1 + pXO2 + atxA acpB ), respectively. Null mutations in all transductants were confirmed using the PCR. 
+
+Media and growth conditions. 
+
+Strains were grown in conditions shown previously to promote capsule synthesis ( 14 ). NBYCO 3 medium was nutrient broth yeast agar ( 14 ) supplemented with 0.8% (wt/vol) sodium bicarbonate. LBgoh was Luria-Bertani ( 1 ) broth containing 0.5% glycerol to suppress sporulation. When indicated, media contained kanamycin (50 μg/ml; Fisher Scientific, Pittsburgh, Pa.) and/or spectinomycin (100 μg/ml; Sigma-Aldrich, St. Louis, Mo.). Thirty milliliters of LBgoh in a 250-ml flask was inoculated with vegetative cells from an NBYCO 3 plate. Cultures were incubated at 30°C with agitation (200 rpm) for 12 to 14 h. Cultures were diluted into 50 ml of NBYCO 3 broth (without antibiotics) to obtain an initial optical density at 600 nm of approximately 0.1. Cultures were grown in 5% CO 2 at 37°C with stirring (200 rpm). Under these growth conditions the isogenic parent and mutant strains had similar growth rates. 
+
+Microscopy. 
+
+B. anthracis cells were visualized using a Labophot Nikon microscope, and pictures were obtained using a COOLPIX995 digital camera. For India ink preparations, vegetative cells from NBYCO 3 broth cultures were added directly to microscope slides and coverslips were placed directly on top of the cells. India ink (Becton Dickinson Microbiology Systems, Sparks, Md.; undiluted or diluted to 70% in nutrient broth yeast agar) was added to the edges of the coverslip. Capsule was visualized as the exclusion of ink particles around cells. Pictures were taken using the 100× objective with oil immersion. Capsule was later measured using Metavue software version 5.0r3 (Universal Imaging Corporation, Downingtown, Pa.). 
+
+Real-time (quantitative) reverse transcription-PCR (Q-RT-PCR). 
+
+RNA was extracted from cultures grown in NBYCO 3 broth as described above until mid-exponential phase (optical density at 600 nm of ∼0.7), using the protocol and reagents of the Ribopure Bacteria kit (Ambion, Austin, Tex.). Typically, 10 to 30 μg of RNA was obtained from 1 ml of culture. RNA preparations were treated with DNase-Free solution (Ambion) according to the protocol of the supplier. 
+
+TaqMan Q-RT-PCR was performed using a 7700 Sequence Detector (Applied Biosystems, Foster City, Calif.) ( 4 , 16 ). Specific quantitative assays for atxA , acpA , acpB , capB , 16S rRNA, gyrB , and capB genes were developed using sequences from GenBank (Table 2 ) and Primer Express software (Applied Biosystems). cDNA was synthesized in a 10-μl total volume by adding 6 μl of an RT master mix (400 nM assay-specific reverse primer, 500 μM deoxynucleotides, Superscript II buffer, dithiothreitol, and 10 U of Superscript II reverse transcriptase [Invitrogen, Carlsbad, Calif.]) followed by 4 μl of sample (25 ng of RNA/μl) per well of a 7700 96-well plate. Each sample was measured in triplicate, in addition to a control without reverse transcriptase. Each plate also contained an assay-specific sDNA (synthetic amplicon oligonucleotide) standard spanning a 5-log range and a no-template control. Plates were covered with Biofilm A (MJ Research, Waltham, Mass.) and incubated in a thermocycler (MJ Research) for 30 min at 50°C followed by 10 min at 72°C. Subsequently, 40 μl of a PCR master mix (400 nM forward and reverse primers, 100 nM fluorogenic probe [except that atxA , acpA , and acpB assay mixtures contained 50 nM fluorogenic probe], 5 mM MgCl 2 , 200 μM deoxynucleotides, PCR buffer, and 1.25 U of Taq polymerase [Invitrogen]) was added directly to each well of the cDNA plate. RT master mixes and all RNA samples were pipetted by a Tecan Genesis RSP 100 robotic workstation (Tecan US, Research Triangle Park, N.C.); PCR master mixes were pipetted utilizing a Biomek 2000 robotic workstation (Beckman, Fullerton, Calif.). Each assembled plate was then capped and run in the 7700 sequence detector under the following cycling conditions: 95°C for 1 min and 40 cycles of 95°C for 12 s and 60°C for 1 min. The resulting data were analyzed using SDS software (Applied Biosystems) with carboxy-X-rhodamine (ROX) as the reference dye. 
+
+TABLE 2. 
+
+Primer and probe sequences used in Q-RT-PCR assays 
+
+Gene Accession no. Forward primer (+) and anti sense primer (−) Probe (5′ FAM a ) gyrB NC003997.3 :4584-6506 (+) ACTTGAAGGACTAGAAGCAG CGAAAACGCCCTGGTATGTATA (−) TCCTTTTCCACTTGTAGATC atxA NC001496.1 :150042-151469 (+) ATTTTTAGCCCTTGCAC CTTTTATCTCTTGGAAATTCTATTACCACA (−) AAGTTAATGTTTTATTGCTGTC acpA NC002146.1 :68909-70360 (+) ATTATCTTTACCTCAGAATCAG CAATTTCTGAAGCCATTTCTAATCTT (−) AACGTTAATGATTTCTTCAG acpB NC002146.1 :49418-50866 (+) TTTTTCAATACCTTGGAACT CTTGAAGAATCATTAGGAATCTCATTACA (−) AATGCCTTTTAGAAACCAC capB NC002146.1 :56089-57483 (+) TTTGATTACATGGTCTTCC ATAATGCATCGCTTGCTTTAGC (−) CCAAGAGCCTCTGCTAC 16S rRNA NC003997.3 :9335-10841 (+) TTCGGGAGCAGAGTG CAGGTGGTGCATGGTTGTC (−) AACATCTCACGACACGAG 
+
+Open in a new tab 
+
+a 
+FAM, 6-carboxyfluorescein. 
+
+Synthetic DNA oligonucleotides used as standards (sDNA) encompassed exactly the entire 5′-to-3′ amplicon for the assay (Biosource International, Camarillo, Calif.). It has been shown for several assays that in vitro-transcribed RNA amplicon standards (sRNA) and sDNA standards have the same PCR efficiency when the reactions are performed as described above (G. L. Shipley, personal communication). 
+
+Due to the inherent inaccuracies in quantitating total RNA by absorbance, the amount of RNA added to an RT-PCR mixture from each sample was more accurately determined by measuring the gyrB and 16S rRNA transcript levels in each sample. Final data reported here were normalized to gyrB , although similar results were obtained when data were normalized to the 16S rRNA gene. Due to the high level of expression of the 16S rRNA gene, RNA employed in this assay was diluted 1/500. 
+
+Nonquantitative RT-PCR. 
+
+RNA was isolated and DNase treated as described above for Q-RT-PCR. RT-PCR was performed using the protocol and reagents supplied in the RETROscript kit by Ambion. Briefly, 1 μg of RNA was mixed with 2 μl of random decamers (50 μM) for a final volume of 12 μl in water. The mixture was heated to 68°C for 4 min and then immediately placed on ice. A master mix comprised of 2 μl of 10× RT buffer, 4 μl of deoxynucleoside triphosphate mix (2.5 mM each), 1 μl of RNase inhibitor (10 U/μl), and 1 μl of Moloney murine leukemia virus (MMLV) reverse transcriptase enzyme (100 U/μl) was added to the RNA solution (final volume, 20 μl), and the mixture was incubated at 42°C for 1 h. The mixture was then heated to 92°C for 2 min to inactivate the MMLV reverse transcriptase enzyme. A control sample that contained RNA and all of the RT components except MMLV reverse transcriptase was prepared simultaneously. The PCRs were then performed using the RNA control sample, the cDNA sample, and a DNA template control. 
+
+Statistical analysis. 
+
+For microscopic studies, a minimum of 200 cells from at least five independent growth curves of each strain were counted for every time point tested. For each strain and growth phase (mid-exponential, late exponential, and late stationary), capsule thickness and percentage of encapsulated cells were displayed graphically and summarized as means and 95% confidence intervals. 
+
+For quantitative RT-PCR assays, at least five independent RNA extractions were performed for each strain. Transcript levels of atxA , acpA , acpB , and capB were normalized to corresponding values for the gyrB gene. Data were then transformed by taking logarithms in order to stabilize within-group variances. Differences in expression of each gene as a function of the mutation status of the other genes were evaluated using two-way analysis of variance. For example, acpA was analyzed using data from non- acpA -mutated strains in a two-way analysis of variance with terms for ± atxA and acpB . There was no triple mutant strain, and therefore capB data were analyzed using three two-way analyses of variance, the first with terms for ± atxA crossed with ± acpA in wild-type acpB strains, the second with terms for ± atxA crossed with ± acpB in wild-type acpA strains, and the third with terms for ± acpA crossed with ± acpB in wild-type atxA strains, respectively. Fold differences in expression due to mutation of one or more regulators were estimated by back-transformation (exponentiating). 
+
+RESULTS 
+
+Capsule synthesis by a pXO1 + pXO2 + B. anthracis strain and isogenic regulatory mutants. 
+
+In recent work, we constructed a genetically complete pXO1 + pXO2 + B. anthracis strain, UT500, and examined the effects of previously identified virulence gene regulators atxA and acpA on the B. anthracis transcriptome ( 2 ). In addition to revealing several previously unidentified atxA -regulated genes, the transcriptional profiles of the parent strain and isogenic acpA - and atxA -null mutants indicated that, while acpA had a twofold effect on transcription of the capsule operon, capBCAD , atxA had an eight- to ninefold effect on capsule gene expression. Capsule phenotypes of the acpA and atxA mutants corroborated the transcriptional analysis. A mutant with a deletion of atxA was severely impaired for capsule synthesis, while an acpA -null mutant produced capsule at levels comparable to those for the parent strain, UT500. A mutant with deletions of acpA and atxA was noncapsulated. These results were surprising in light of previous data suggesting that acpA is the major regulator of capsule gene expression and capsule synthesis ( 38 , 40 ). 
+
+A detailed analysis of the atxA- regulated genes revealed that atxA positively regulates transcription of acpA and an acpA homolog, pXO2-53 (accession no. NC002146.1 :49418-50866), also located on pXO2, 12-fold and 9-fold, respectively. We have renamed pXO2-53 “ acpB .” This gene is predicted to encode a protein with 62% amino acid similarity to AcpA and 50% similarity to AtxA. The similarity among the three proteins is throughout the length of the entire protein (Fig. 1 ). We hypothesized that acpB may play a role in capsule gene expression and capsule synthesis. 
+
+FIG. 1. 
+
+Open in a new tab 
+
+Comparison of the predicted amino acid sequences of AcpB (pXO2-53; protein identification no. NP_053208.1 ), AcpA (pXO2-64; protein identification no. NP_053219.1 ), and AtxA (pXO1-119; protein identification no. NP_052815.1 ). Black and gray backgrounds indicate identity and similarity, respectively, between residues. The sequences were aligned using CLUSTAL W (1.74) multiple sequence alignment. 
+
+To determine if acpB contributes to capsule synthesis in B. anthracis , we constructed an acpB -null mutation and examined the capsule phenotypes of mutants with deletions of acpB in the presence and absence of the other regulators. As shown in Fig. 2 , at early stationary phase, the acpB -null mutant cells (UT525) were indistinguishable from the fully capsulated cells of the parent strain (UT500). Likewise, capsule synthesis by the acpA mutant (UT502) was similar to that observed for the parent strain. As reported previously ( 2 ), a thin capsule was observed on some cells of the atxA mutant (UT501). The same phenotype was observed for the atxA acpB double mutant (UT537). No capsule was evident for the atxA acpA mutant (UT503), and surprisingly, cells of a mutant with deletions of both acpA and acpB (UT526) appeared completely devoid of capsule. This finding was unexpected given that the single acpA (UT502) and acpB (UT525) mutants appeared to produce capsule in amounts similar to those of the parent strain. 
+
+FIG. 2. 
+
+Open in a new tab 
+
+Capsule production by UT500 and mutants. Cultures were grown to early stationary phase, and capsule was visualized in India ink preparations. Genotypes are as indicated. 
+
+To more quantitatively assess capsule production by the mutants, we determined the percentages of capsulated cells and the average capsule diameter on cells of UT500 and the mutants following growth in batch culture. Cells were examined at mid-exponential, late exponential, and early stationary phase. As shown in Fig. 3 , UT500 was capsulated at all three time points measured and the average diameter of the capsule increased from 1.18 to 2.55 μm as the culture transitioned from mid-exponential to early stationary phase. In contrast, only 13% of UT501 ( atxA ) cells produced a visible capsule at early stationary phase and the average diameter of the capsule was 0.91 μm, significantly less than that found on UT500. The capsule of the atxA acpB mutant (UT537) appeared very similar to that of the atxA mutant (UT501), with 13% of the cells making a thin capsule at early stationary phase. As reported previously ( 2 ), UT503 ( atxA acpA ) did not produce capsule at any time point measured. The small amount of capsule produced by UT501 and UT537 and the complete lack of capsule synthesis by UT503 suggest that, in the absence of atxA , acpA has a larger effect on capsule synthesis than does acpB . 
+
+FIG. 3. 
+
+Open in a new tab 
+
+Comparison of capsule production by UT500 and mutant strains at mid-exponential, late exponential, and early stationary growth phases. (A) Percentages of capsulated cells. (B) Mean diameters of capsules. Each circle represents data obtained from a single culture. Vertical lines with horizontal hash marks show means and 95% confidence intervals. Strain names are listed at the bottom, and the corresponding genotypes are indicated above (+ or − for the acpB , acpA , and atxA genes). 
+
+Deletion of acpA (UT502) or acpB (UT525) resulted in cells that were capsulated throughout growth. However, the average diameter of the capsule on UT502 cells was smaller than that on UT500 and UT525 at all time points tested, again indicating that acpA has a greater effect on capsule synthesis than does acpB . Unlike the individual acpA and acpB mutants, the double mutant UT526 was profoundly affected for capsule synthesis, since less than 0.1% of the cells were capsulated. These data suggest that the positive effect of atxA on capsule synthesis can be attributed to atxA control of acpA and acpB . 
+
+Correlation of capB transcript levels with capsule synthesis. 
+
+Q-RT-PCR was used to assess the effect of each regulator on expression of capB , the first gene of the cap operon. capB transcript levels were measured in each of the single and double mutant strains following growth to late exponential phase. All three regulators, atxA , acpA , and acpB , affected capsule synthesis at the level of transcription (Fig. 4A ). capB transcript levels were 32-fold lower in UT501 ( atxA ) than in UT500, indicating that atxA has a significant effect on capB gene expression ( P < 0.01). capB transcript levels in UT525 ( acpB ) did not differ significantly from those in UT500, while UT502 ( acpA ) showed a twofold decrease in capB transcript compared to UT500 ( P < 0.01). The noncapsulated strains UT503 ( atxA acpA ) and UT526 ( acpA acpB ) showed a dramatic decrease in capB transcript levels of more than 2 orders of magnitude ( P < 0.01). Overall, the capB transcript levels in each of the mutant strains correlated with the amount of capsule produced by each strain. 
+
+FIG. 4. 
+
+Open in a new tab 
+
+Real-time transcript levels of capB , atxA , acpA , and acpB in UT500 and mutants. Data were normalized to gyrB . Each circle represents a result obtained from a single experiment. Circles less than 1 indicate that no transcript was detected. 
+
+Epistatic relationships among atxA , acpA , and acpB . 
+
+Epistatic relationships among the three regulators were determined by measuring the transcript levels of each regulator in UT500 and the mutant strains. The atxA transcript levels did not differ in UT500, UT502 ( acpA ), UT525 ( acpB ), and UT526 ( acpA acpB ) (Fig. 4B ). However, assessment of transcript levels in UT500 and UT501 by Q-RT-PCR showed that atxA had a large effect on the expression of acpA (40-fold) (Fig. 4C ) and acpB (15-fold) (Fig. 4D ). These data suggest that atxA acts upstream of both acpA and acpB . Nonetheless, it is notable that acpA and acpB were transcribed at a low level even in the absence of atxA . Finally, acpA had a small effect on the expression of acpB (1.5-fold, P = 0.03), and there was an additive effect of atxA and acpA on acpB gene expression, since deletion of both genes resulted in a 22.5-fold reduction in the acpB expression level (Fig. 4D ). No effect of acpB on acpA expression was observed (Fig. 4C ). 
+
+Taken together, the data indicate that the positive effect of atxA on capsule gene expression and capsule synthesis can be attributed to atxA control of acpA and acpB. acpA and acpB appear to be functionally similar. Individually, neither gene has a large effect on capB gene expression and capsule synthesis. However, deletion of both acpA and acpB results in a dramatic decrease in capB gene expression and capsule synthesis. Thus, in a pXO1 + pXO2 + strain, atxA does not influence cap gene expression directly but requires one of the downstream regulators. Furthermore, the results demonstrate that acpA has a greater effect on capsule gene expression than does acpB . Expression of capB was twofold lower in UT502 ( acpA ) than in UT500, while capB gene expression by UT525 ( acpB ) did not differ from that by UT500. Also, capB transcript levels were higher in UT537 ( atxA acpB ) than in UT503 ( atxA acpA ). 
+
+CO 2 -enhanced expression of acpB . 
+
+Expression of capB and the toxin genes pagA , cya , and lef is enhanced when B. anthracis is cultured in media containing bicarbonate and grown in elevated atmospheric CO 2 . The bicarbonate-CO 2 signal is considered to be of physiological significance for a mammalian pathogen ( 20 , 27 ). Previous studies employing primer extension and immunoblotting experiments have shown that steady-state levels of atxA mRNA and AtxA protein do not differ in cells grown in the presence and absence of CO 2 -bicarbonate ( 9 ). In contrast, results of RNA-DNA hybridization (slot blotting) experiments indicate that CO 2 -bicarbonate has a strong positive effect on acpA expression. acpA mRNA was detected in cells cultured in elevated bicarbonate-CO 2 but not detected when cells were grown aerobically ( 40 ). 
+
+Considering the functional similarity between acpA and acpB , we tested for acpB expression during aerobic growth of B. anthracis . Figure 5 shows the results of RT-PCR with RNA from cells cultured in elevated CO 2 -bicarbonate and cells cultured aerobically. Very low levels of acpB mRNA were detected in RNA isolated from aerobically grown cells. Significantly higher levels of acpB mRNA were detected in comparable amounts of RNA isolated from cells grown in elevated CO 2 -bicarbonate. Control experiments testing expression of atxA , acpA , and gyrB confirm that, among these genes, only acpA expression is induced by the CO 2 -bicarbonate signal. Thus, as is true for acpA , acpB expression is increased during growth in elevated CO 2 -bicarbonate. 
+
+FIG. 5. 
+
+Open in a new tab 
+
+Regulator expression during growth in air and elevated CO 2 . Transcripts of genes indicated were detected using RT-PCR. Data shown are representative of three experiments using RNA prepared from different cultures. Lanes 1, RNA template control (CO 2 ) (similar results were obtained using RNA from cultures grown in air); lanes 2, cDNA template (CO 2 ); lanes 3, cDNA template (air); lanes 4, DNA template PCR control. 
+
+DISCUSSION 
+
+Previous studies of capsule gene regulation in attenuated B. anthracis strains led to the identification of two positive regulators, acpA and atxA. acpA , a gene located on pXO2, was shown to be essential for capsule synthesis in a pXO1 − pXO2 + strain ( 40 ). atxA , located on pXO1 and originally identified as the toxin gene regulator ( 10 , 21 , 36 ), was also shown to positively regulate the expression of the capsule biosynthetic gene operon ( 15 , 38 ). We recently demonstrated that in a genetically complete (pXO1 + pXO2 + ) B. anthracis strain, atxA is the master regulator of capsule gene expression while acpA plays a minor role in capsule gene regulation ( 2 ). Our findings were in contrast to those of previous studies employing attenuated (pXO1 − pXO2 + ) strains ( 38 , 40 ). In the same investigation, we also demonstrated that atxA positively regulates expression of acpA ( 2 ). Studies reported here reveal that a third gene, acpB , is involved in capsule gene regulation in a genetically complete (pXO1 + pXO2 + ) B. anthracis strain. In a pXO1 + pXO2 + strain with deletion of both acpA and acpB , no capsule synthesis is evident even though atxA is expressed in this strain. Based on our findings, we propose a new model for capsule gene regulation whereby atxA regulates the expression of the capsule biosynthetic gene operon via a positive effect on transcription of acpA and acpB. acpA and acpB appear to have partial overlapping function. Deletion of either gene in a pXO1 + pXO2 + strain has a small impact on capsule gene transcription and capsule synthesis. In contrast, atxA mutant cells are drastically impaired for capB gene expression and capsule synthesis. 
+
+The poorly capsulated phenotype of the atxA mutant cells may be due to limited expression of acpA and acpB . Expression of both genes is significantly decreased in the atxA- null strain. Results of experiments reported previously have indicated that acpA expression is limiting for capsule production ( 38 , 40 ). Typically, pXO1 − pXO2 + strains are noncapsulated during growth in air or in physiologically relevant levels of bicarbonate-CO 2 (0.8% bicarbonate-5% CO 2 ). However, growth of such strains in buffered media in high atmospheric CO 2 (20%), conditions reported to increase expression of acpA ( 40 ), results in capsulated cells ( 14 ). Moreover, overexpression of acpA in a pXO1 − pXO2 + strain leads to capsule production during growth in air ( 38 ). The CO 2 -induced increase in acpA expression ( 40 ) and acpB expression, as shown here, may lead to increased cap gene expression and capsule synthesis during growth in 20% CO 2 , allowing for capsule synthesis even in the absence of atxA . 
+
+Although expression of both acpA and acpB is controlled by atxA and bicarbonate-CO 2 , there are some important functional differences between the two regulators. In a pXO1 − pXO2 + strain, an acpA mutant is noncapsulated following growth in 20% CO 2 ( 40 ) , while an acpB -null mutant is capsulated and indistinguishable from the pXO1 − pXO2 + parent strain (data not shown). The phenotypes of the acpA and acpB null mutants in a pXO1 − strain background strengthen data indicating that acpA has a larger effect on cap gene expression than does acpB . 
+
+acpA and acpB are unique in another aspect. We showed previously that atxA and acpA have a synergistic effect on capsule gene expression ( 2 ). Results of Q-RT-PCR experiments reported here also reveal that deletion of both atxA and acpA has a much larger effect on capB gene expression than does deletion of either gene individually. capB transcript levels were decreased 32-fold in the atxA mutant and 2-fold in the acpA mutant. Yet, the atxA acpA double mutant showed a 200-fold decrease in the capB transcript level. In contrast, capB transcript levels in the atxA mutant and the atxA acpB double mutant were comparable, with 32-fold and 43-fold decreases, respectively. Thus, unlike acpA , acpB does not appear to act synergistically with atxA for capB gene activation. 
+
+The functional dissimilarities observed between acpA and acpB may be due to differences in the primary sequence and/or steady-state levels of the gene products. The predicted amino acid sequences of the two proteins are 62% similar throughout. Slightly different secondary and tertiary structures may result in proteins with disparate affinities for their target(s). Future experiments will address the potential roles of protein concentration and stoichiometry in regulator function. It is important to note that specific DNA binding by AtxA, AcpA, and/or AcpB has not been demonstrated and the mechanism(s) of regulation has not yet been established. 
+
+Our results indicate that, in a genetically complete parent strain, atxA positively influences acpA and acpB expression but is not absolutely required for expression of these genes. Our data and findings reported by others suggest that acpA and acpB are limiting for cap gene transcription. Unlike atxA , the steady-state levels of acpA , acpB , and capB transcripts are positively controlled by bicarbonate-CO 2 , and elevated levels of this signal can increase capsule synthesis even in the absence of atxA ( 14 , 40 ). Uchida et al. ( 38 ) reported a positive effect of atxA on capB transcription when the two genes were cloned on separate multicopy plasmids in a pXO1 − pXO2 − strain (in the absence of acpA and acpB ). Taken together, the data indicate some functional overlap among acpA , acpB , and atxA . Indeed, the predicted amino acid sequence of AtxA is 47 and 50% similar to those of AcpA and AcpB, respectively. We hypothesize that the mechanism for cap gene expression is highly dependent upon the stoichiometry of the three regulators. The physiological significance of the three regulators with regard to capsule synthesis during infection has not been assessed. Future research will address the role of each capsule gene regulator with regard to capsule synthesis and virulence in vivo. 
+
+Acknowledgments 
+
+We thank Gregory L. Shipley (Quantitative Genomics Core Laboratory, UTHSC-H) for design of the Q-RT-PCR assays and his expert advice throughout the course of the study. 
+
+This work was supported by Public Health Service grant AI33537 from the National Institutes of Health. 
+
+REFERENCES 
+
+1. Ausubel, F. M., et al. 1993. Current protocols in molecular biology. Greene Publishing Associates and Wiley-Interscience, New York, N.Y. 
+
+2. Bourgogne, A., M. Drysdale, S. G. Hilsenbeck, S. N. Peterson, and T. M. Koehler. 2003. Global effects of virulence gene regulators in a Bacillus anthracis strain with both virulence plasmids. Infect. Immun. 71 : 2736-2743. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Bragg, T. S., and D. L. Robertson. 1989. Nucleotide sequence and analysis of the lethal factor gene ( lef ) from Bacillus anthracis . Gene 81 : 45-54. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+4. Bustin, S. A. 2000. Absolute quantification of mRNA using real-time reverse transcription polymerase chain reaction assays. J. Mol. Endocrinol. 25 : 169-193. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+5. Cataldi, A., E. Labruyere, and M. Mock. 1990. Construction and characterization of a protective antigen-deficient Bacillus anthracis strain. Mol. Microbiol. 4 : 1111-1117. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+6. Costerton, J. W., Z. Lewandowski, D. E. Caldwell, D. R. Korber, and H. M. Lappin-Scott. 1995. Microbial biofilms. Annu. Rev. Microbiol. 49 : 711-745. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Cunnion, K. M., J. C. Lee, and M. M. Frank. 2001. Capsule production and growth phase influence binding of complement to Staphylococcus aureus . Infect. Immun. 69 : 6796-6803. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Cywes, C., I. Stamenkovic, and M. R. Wessels. 2000. CD44 as a receptor for colonization of the pharynx by group A Streptococcus . J. Clin. Investig. 106 : 995-1002. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Dai, Z., and T. M. Koehler. 1997. Regulation of anthrax toxin activator gene ( atxA ) expression in Bacillus anthracis : temperature, not CO 2 /bicarbonate, affects AtxA synthesis. Infect. Immun. 65 : 2576-2582. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+10. Dai, Z., J. C. Sirard, M. Mock, and T. M. Koehler. 1995. The atxA gene product activates transcription of the anthrax toxin genes and is essential for virulence. Mol. Microbiol. 16 : 1171-1181. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+11. Dale, J. B., R. G. Washburn, M. B. Marques, and M. R. Wessels. 1996. Hyaluronate capsule and surface M protein in resistance to opsonization of group A streptococci. Infect. Immun. 64 : 1495-1501. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Domenico, P., R. J. Salo, A. S. Cross, and B. A. Cunha. 1994. Polysaccharide capsule-mediated resistance to opsonophagocytosis in Klebsiella pneumoniae . Infect. Immun. 62 : 4495-4499. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Eveland, S. S., D. L. Pompliano, and M. S. Anderson. 1997. Conditionally lethal Escherichia coli murein mutants contain point defects that map to regions conserved among murein and folyl poly-γ-glutamate ligases: identification of a ligase superfamily. Biochemistry 36 : 6223-6229. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+14. Green, B. D., L. Battisti, T. M. Koehler, C. B. Thorne, and B. E. Ivins. 1985. Demonstration of a capsule plasmid in Bacillus anthracis . Infect. Immun. 49 : 291-297. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Guignot, J., M. Mock, and A. Fouet. 1997. AtxA activates the transcription of genes harbored by both Bacillus anthracis virulence plasmids. FEMS Microbiol. Lett. 147 : 203-207. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+16. Heid, C. A., J. Stevens, K. J. Livak, and P. M. Williams. 1996. Real time quantitative PCR. Genome Res. 6 : 986-994. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+17. Ivins, B. E., J. W. Ezzell, Jr., J. Jemski, K. W. Hedlund, J. D. Ristroph, and S. H. Leppla. 1986. Immunization studies with attenuated strains of Bacillus anthracis . Infect. Immun. 52 : 454-458. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Kazatchkine, M. D., D. T. Fearon, and K. F. Austen. 1979. Human alternative complement pathway: membrane-associated sialic acid regulates the competition between β and β1-H for cell-bound C3b. J. Immunol. 122 : 75-81. [ PubMed ] [ Google Scholar ] 
+
+19. Keppie, J., H. Smith, and W. Harris-Smith. 1953. The chemical basis of the virulence of Bacillus anthracis . II. Some biological properties of bacterial products. Br. J. Exp. Pathol. 34 : 486-496. [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. Koehler, T. 2002. Anthrax. Curr. Top. Microbiol. Immunol., vol. 271. 
+
+21. Koehler, T. M., Z. Dai, and M. Kaufman-Yarbray. 1994. Regulation of the Bacillus anthracis protective antigen gene: CO 2 and a trans -acting element activate transcription from one of two promoters. J. Bacteriol. 176 : 586-595. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+22. Leonard, C. G., and C. B. Thorne. 1961. Studies on the nonspecific precipitation of basic serum proteins with poly-γ-glutamyl polypeptides. J. Immunol. 87 : 175-188. [ PubMed ] [ Google Scholar ] 
+
+23. Makino, S., C. Sasakawa, I. Uchida, N. Terakado, and M. Yoshikawa. 1988. Cloning and CO 2 -dependent expression of the genetic region for encapsulation from Bacillus anthracis . Mol. Microbiol. 2 : 371-376. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+24. Makino, S., I. Uchida, N. Terakado, C. Sasakawa, and M. Yoshikawa. 1989. Molecular characterization and protein analysis of the cap region, which is essential for encapsulation in Bacillus anthracis . J. Bacteriol. 171 : 722-730. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Makino, S., M. Watarai, H. I. Cheun, T. Shirahata, and I. Uchida. 2002. Effect of the lower molecular capsule released from the cell surface of Bacillus anthracis on the pathogenesis of anthrax. J. Infect. Dis. 186 : 227-233. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+26. Michalek, M. T., C. Mold, and E. G. Bremer. 1988. Inhibition of the alternative pathway of human complement by structural analogues of sialic acid. J. Immunol. 140 : 1588-1594. [ PubMed ] [ Google Scholar ] 
+
+27. Mock, M., and A. Fouet. 2001. Anthrax. Annu. Rev. Microbiol. 55 : 647-671. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+28. Mock, M., E. Labruyere, P. Glaser, A. Danchin, and A. Ullmann. 1988. Cloning and expression of the calmodulin-sensitive Bacillus anthracis adenylate cyclase in Escherichia coli . Gene 64 : 277-284. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+29. Perez-Casal, J., M. G. Caparon, and J. R. Scott. 1991. Mry, a trans -acting positive regulator of the M protein gene of Streptococcus pyogenes with similarity to the receptor proteins of two-component regulatory systems. J. Bacteriol. 173 : 2617-2624. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+30. Record, B. F., and R. G. Wallis. 1955. Physiochemical examination of polyglutamic acid from Bacillus anthracis grown in vivo . Biochem. J. 63 : 443-447. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+31. Robertson, D. L., and S. H. Leppla. 1986. Molecular cloning and expression in Escherichia coli of the lethal factor gene of Bacillus anthracis . Gene 44 : 71-78. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+32. Robertson, D. L., M. T. Tippetts, and S. H. Leppla. 1988. Nucleotide sequence of the Bacillus anthracis edema factor gene ( cya ): a calmodulin-dependent adenylate cyclase. Gene 73 : 363-371. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+33. Saile, E., and T. M. Koehler. 2002. Control of anthrax toxin gene expression by the transition state regulator abrB . J. Bacteriol. 184 : 370-380. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+34. Schneerson, R., J. Kubler-Kielb, T. Y. Liu, Z. D. Dai, S. H. Leppla, A. Yergey, P. Backlund, J. Shiloach, F. Majadly, and J. B. Robbins. 2003. Poly(γ-d-glutamic acid) protein conjugates induce IgG antibodies in mice to the capsule of Bacillus anthracis : a potential addition to the anthrax vaccine. Proc. Natl. Acad. Sci. USA 100 : 8945-8950. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+35. Tippetts, M. T., and D. L. Robertson. 1988. Molecular cloning and expression of the Bacillus anthracis edema factor toxin gene: a calmodulin-dependent adenylate cyclase. J. Bacteriol. 170 : 2263-2266. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+36. Uchida, I., J. M. Hornung, C. B. Thorne, K. R. Klimpel, and S. H. Leppla. 1993. Cloning and characterization of a gene whose product is a trans -activator of anthrax toxin synthesis. J. Bacteriol. 175 : 5329-5338. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+37. Uchida, I., S. Makino, C. Sasakawa, M. Yoshikawa, C. Sugimoto, and N. Terakado. 1993. Identification of a novel gene, dep , associated with depoly-merization of the capsular polymer in Bacillus anthracis . Mol. Microbiol. 9 : 487-496. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+38. Uchida, I., S. Makino, T. Sekizaki, and N. Terakado. 1997. Cross-talk to the genes for Bacillus anthracis capsule synthesis by atxA , the gene encoding the trans -activator of anthrax toxin synthesis. Mol. Microbiol. 23 : 1229-1240. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+39. Urushibata, Y., S. Tokuyama, and Y. Tahara. 2002. Characterization of the Bacillus subtilis ywsC gene, involved in γ-polyglutamic acid production. J. Bacteriol. 184 : 337-343. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+40. Vietri, N. J., R. Marrero, T. A. Hoover, and S. L. Welkos. 1995. Identification and characterization of a trans -activator involved in the regulation of encapsulation by Bacillus anthracis . Gene 152 : 1-9. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+41. Vodkin, M. H., and S. H. Leppla. 1983. Cloning of the protective antigen gene of Bacillus anthracis . Cell 34 : 693-697. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+42. Welkos, S. L. 1991. Plasmid-associated virulence factors of non-toxigenic (pX01 − ) Bacillus anthracis . Microb. Pathog. 10 : 183-198. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+43. Welkos, S. L., J. R. Lowe, F. Eden-McCutchan, M. Vodkin, S. H. Leppla, and J. J. Schmidt. 1988. Sequence and analysis of the DNA encoding protective antigen of Bacillus anthracis . Gene 69 : 287-300. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Journal of Bacteriology are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (316.5 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

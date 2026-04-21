@@ -1,0 +1,502 @@
+PMID: 23836186
+PMCID: PMC3811441
+DOI: 10.1128/AAC.02341-12
+Title: Biochemical characterization of IMP-30, a metallo-β-lactamase with enhanced activity toward ceftazidime.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2013 Oct
+Authors: Pegg KM, Liu EM, Lacuran AE, Oelschlaeger P
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Biochemical Characterization of IMP-30, a Metallo-β-Lactamase with Enhanced Activity toward Ceftazidime - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2013 Oct;57(10):5122–5126. doi: 10.1128/AAC.02341-12 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Biochemical Characterization of IMP-30, a Metallo-β-Lactamase with Enhanced Activity toward Ceftazidime 
+
+Kevin M Pegg 
+
+Kevin M Pegg 
+
+Department of Biological Sciences, College of Science, California State Polytechnic University, Pomona, California, USA a 
+
+Find articles by Kevin M Pegg 
+
+a , Eleanor M Liu 
+
+Eleanor M Liu 
+
+Department of Pharmaceutical Sciences, College of Pharmacy, Western University of Health Sciences, Pomona, California, USA b 
+
+Find articles by Eleanor M Liu 
+
+b , Alecander E LaCuran 
+
+Alecander E LaCuran 
+
+Department of Pharmaceutical Sciences, College of Pharmacy, Western University of Health Sciences, Pomona, California, USA b 
+
+Find articles by Alecander E LaCuran 
+
+b , Peter Oelschlaeger 
+
+Peter Oelschlaeger 
+
+Department of Pharmaceutical Sciences, College of Pharmacy, Western University of Health Sciences, Pomona, California, USA b 
+
+Find articles by Peter Oelschlaeger 
+
+b, ✉ 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+Department of Biological Sciences, College of Science, California State Polytechnic University, Pomona, California, USA a 
+
+Department of Pharmaceutical Sciences, College of Pharmacy, Western University of Health Sciences, Pomona, California, USA b 
+
+✉ 
+Address correspondence to Peter Oelschlaeger, poelschlaeger@westernu.edu . 
+
+✉ 
+Corresponding author. 
+
+Received 2012 Nov 20; Revision requested 2012 Dec 8; Accepted 2013 Jul 1. 
+
+Copyright © 2013, American Society for Microbiology. All Rights Reserved. 
+
+PMC Copyright notice 
+
+PMCID: PMC3811441  PMID: 23836186 
+
+Abstract 
+
+IMP-type enzymes constitute a clinically important family of metallo-β-lactamases that has grown dramatically in the past decade to its current 45 known members. Here, we report the biochemical characterization of IMP-30 in comparison to IMP-1, from which it deviates by a single E59K mutation. Kinetics, MIC assays, docking, and molecular dynamics simulations support a scenario in which Lys59 interacts with the ceftazidime R 1 group, resulting in increased water access and enhanced turnover and MIC of ceftazidime. 
+
+TEXT 
+
+The rapid evolution and diversity of β-lactamases pose a danger to antibacterial chemotherapy and patient survival. Class B ( 1 ) or metallo-β-lactamases (MBLs) are zinc enzymes found in opportunistic pathogens such as Gram-negative bacteria of the Pseudomonas ( 2 ), Acinetobacter ( 3 ), and Klebsiella ( 4 ) genera. MBLs inactivate antibiotics such as penicillins, cephalosporins, and carbapenems ( 5 ), can be transferred between different pathogenic bacteria, and are insensitive to clinically used serine β-lactamase inhibitors ( 6 ). The B1-subclass ( 7 ) IMP-type enzymes are among the clinically most significant MBLs ( 5 , 8 ), and currently, 45 variants are known ( www.lahey.org/Studies/other.asp#table ). 
+
+Pseudomonas aeruginosa was isolated in 2004 from a patient in Moscow, Russia, with bla IMP-30 encoded on a gene cassette, together with the aadB , cmlA7 , and bla OXA-21 genes ( 9 ) (GenBank accession code DQ522237 ). IMP-30 (GenInfo identifier 102231667 ) deviates from IMP-1 by a single E59K mutation. Residue 59 is located in a β-strand that is part of a β-hairpin loop covering the active site of IMP-type enzymes and is part of the binding pocket of R 1 side chains of β-lactams ( 10 ) ( Fig. 1 ). Here we present the first biochemical characterization of IMP-30 and susceptibility assays with Escherichia coli cells expressing the protein. Based on comparison to IMP-1 ( 11 ), computational docking using the software program AutoDock 4.2 ( 12 ), and molecular dynamics (MD) simulations using the program AMBER 10 ( 13 ), we suggest a possible role of Lys59. 
+
+Fig 1. 
+
+Open in a new tab 
+
+(A) Chemical structure of ceftazidime. The atoms in the cephem core are numbered according to convention, and the numbering is continued into the R 1 group. “O 1A ” and “O 1B ” (O-1A and O-1B) are oxygens of the carboxylate at C-4 (“C 4 ”); “O 2A ” and “O 2B ” are oxygens of the carboxylate in the R 1 group attached to C-7. N TA is the nitrogen of the amino group attached to the thiazole ring of R 1 . (B and C) Representations (generated with PyMOL; www.pymol.org ) of conformations of ceftazidime conducive to hydrolysis docked into the active sites of IMP-1 (B) or an IMP-30 model (C). The enzyme backbone is represented as a cyan cartoon and ceftazidime as sticks with atoms colored in green (carbon), red (oxygen), blue (nitrogen), yellow (sulfur), and white (hydrogen). The black dashed lines represent the following interatomic distances: (B) O-8—Zn1 = 2.0 Å; N-5—Zn2 = 3.0 Å; O-1A—Lys244 N-ζ = 2.8 Å; O-1B—Lys244 N-ζ = 3.0 Å; O-2A—Lys150a N-ζ = 2.7 Å; O-2B—Lys150a N-ζ = 2.8 Å; N TA —Glu59 O-ϵ1 = 3.1 Å; (C) O-8—Zn1 = 2.0 Å; N-5—Zn2 = 3.1 Å; O-1A—Lys244 N-ζ = 2.8 Å; O-1B—Lys244 N-ζ = 3.0 Å; O-2A—Lys59 N-ζ = 2.5 Å; O-2B—Lys59 N-ζ = 4.5 Å. 
+
+The pET30a- bla IMP-30 plasmid for overexpression and the pBC SK(+)- bla IMP-30 plasmid for MIC assays were generated using the forward primer 5′-CAT ACT TCG TTT A AA GAA GTT AAC GGG-3′ and the reverse primer 5′-CCC GTT AAC TTC TT T AAA CGA AGT ATG-3′ (bold letters indicate the codon for lysine; the underlined letter indicates the changed nucleotide) via PCR-based site-directed mutagenesis from the pET30a- bla IMP-1 and pBC SK(+)- bla IMP-1 plasmids ( 11 ). IMP-30 was overexpressed in the cytoplasm of E. coli C43 cells, purified, and biophysically characterized as described previously ( 14 ). SDS-PAGE analysis ( 15 ) revealed that the enzyme was purified to >95% homogeneity. The 4-(2-pyridylazo)resorcinol (PAR) assay ( 16 ) demonstrated that IMP-30 bound two (1.9 ± 0.1) Zn(II) ions, and superimposable circular dichroism scans indicate a secondary structure comparable to that of IMP-1 ( 11 , 14 ). The molecular mass determined by electron spray ionization mass spectrometry (QSTAR-XL tandem mass spectrometry [MS/MS] system; Applied Biosystems, Foster City, CA) after liquid chromatography (NanoLC-2D; Eksigent, Foster City, CA) at the Protein Peptide Micro-Analytical Laboratory at the California Institute of Technology, Pasadena, CA, was 25,111 Da, in agreement with the calculated ( http://www.scripps.edu/∼cdputnam/protcalc.html ) value of 25,112 Da. 
+
+Kinetic constants were determined as described previously ( 11 ). The data ( Table 1 ) indicate that IMP-1 and IMP-30 can efficiently hydrolyze all tested β-lactams except aztreonam. The catalytic efficiencies ( k cat / K m ) of IMP-30 are comparable to those of IMP-1 except toward ceftazidime (6-fold higher) and cefoxitin (one-third). For several of the substrates (cephalothin, cefotaxime, benzylpenicillin, ampicillin, imipenem, and meropenem), this is due to k cat and K m values that are 2- to 4-fold-higher than the IMP-1 values, while toward doripenem those values are about 40% of the IMP-1 values. To verify this opposite trend for doripenem, especially compared to the structurally very similar meropenem, kinetic assays with doripenem were repeated and yielded the same result. A possible explanation for this observation is that the sulfamoylamino group in R 2 of doripenem engages in a favorable electrostatic interaction with Lys59, causing a lower K m but decelerated chemistry (lower k cat ). This would require R 2 to adopt a different orientation from that observed, for instance, in the NDM-1/hydrolyzed meropenem complex ( 17 ); however, R 2 seems sufficiently flexible to adopt such a conformation. The decreased k cat / K m of IMP-30 toward cefoxitin is mostly due to a decreased k cat , which could be due to the additional methoxy group at C-7 (R 3 ), characteristic of cephamycins. Ceftazidime ( Fig. 1A ) was turned over at a higher rate by IMP-30 (110 ± 10 s −1 ) than by IMP-1 (14 ± 1 s −1 ), with only a slightly higher K m , resulting in about a 6-fold higher catalytic efficiency (1.6 ± 0.1 μM −1 s −1 versus 0.25 ± 0.02 μM −1 s −1 ). These values are significantly different between the two enzymes ( P < 0.05, Student's t test). To our knowledge, this is the highest catalytic efficiency toward ceftazidime of any IMP-type ( 18 – 20 ) or VIM-type ( 21 – 23 ) enzyme and higher than those of SPM-1 ( 24 ) and NDM-1 ( 25 ), which collectively constitute the most clinically significant MBLs. The mutation of position 59 from a negatively charged glutamate (IMP-1) to a positively charged lysine (IMP-30) could stabilize the MBL/ceftazidime complex during the catalytic cycle (including the transition state) in a unique conformation by forming a salt bridge between Lys59 and the carboxylate in the R 1 group of ceftazidime, resulting in enhanced turnover and catalytic efficiency. For cefotaxime, which is structurally most similar to ceftazidime but with a neutral R 1 group, no such salt bridge can be formed. The k cat / K m value of IMP-30 toward cefotaxime is not increased relative to that of IMP-1, consistent with the absence of a stabilizing salt bridge. 
+
+Table 1. 
+
+Kinetic data for β-lactamases against 10 β-lactams a 
+
+β-Lactam Activity of enzyme against drug IMP-1 b IMP-30 k cat (s −1 ) K m (μM) k cat / K m (μM −1 s −1 ) k cat (s −1 ) K m (μM) k cat / K m (μM −1 s −1 ) Cephalothin 50 ± 1 4.5 ± 0.2 11 ± 1 170 ± 20 18 ± 1 9 ± 1 Cefotaxime 16 ± 1 5.1 ± 0.8 3.2 ± 0.5 41 ± 3 13 ± 1 3.2 ± 0.3 Ceftazidime 14 ± 1 55 ± 7 0.25 ± 0.02 110 ± 10 70 ± 10 1.6 ± 0.1 Cefoxitin 16 ± 1 4.0 ± 0.1 4.0 ± 0.1 8.3 ± 0.8 6 ± 1 1.4 ± 0.2 Benzylpenicillin 2,000 ± 100 530 ± 50 3.8 ± 0.1 3,000 ± 500 1,200 ± 200 2.6 ± 0.1 Ampicillin 260 ± 30 210 ± 30 1.2 ± 0.1 490 ± 70 450 ± 80 1.1 ± 0.1 Imipenem 100 ± 10 35 ± 4 3.0 ± 0.2 400 ± 10 180 ± 8 2.3 ± 0.1 Meropenem 22 ± 1 2.9 ± 0.2 7.7 ± 0.4 51 ± 4 9 ± 1 5.4 ± 0.3 Doripenem c 43 ± 8 34 ± 6 1.3 ± 0.2 16 ± 3 14 ± 4 1.2 ± 0.1 Aztreonam ND d ND ND ND ND ND 
+
+Open in a new tab 
+
+a 
+Data reported are averages ± standard deviations from triplicate experiments. 
+
+b 
+From the work of Liu et al. ( 11 ). 
+
+c 
+Experiments were done six times. 
+
+d 
+ND, not detectable (indistinguishable from autohydrolysis). 
+
+Susceptibility profiles were determined six times in a broth microdilution scheme, following CLSI guidelines ( 26 ), using E. coli DH10B cells. The median MIC values are reported in Table 2 . It is assumed that the stability and amount of functional enzyme in the periplasm of the host cells are comparable. This assumption is supported by the observation that MICs of benzylpenicillin are identical, while the kinetic constants of the two enzymes toward this antibiotic are very similar ( Table 1 ). Thus, in this case, benzylpenicillin inactivation can serve as a measure of functional enzyme. As reported for IMP-1 ( 27 ), neither IMP-1 nor IMP-30 confers resistance to aztreonam. For most antibiotics tested, the MIC values (within 1 dilution factor) reflect the k cat / K m values ( Table 1 ), whereas cefotaxime, imipenem, and meropenem behaved differently. Other resistance factors, such as decreased permeability and efflux systems, are absent in DH10B cells, and the effect of the sensitivity of the penicillin binding protein to the β-lactam on the MIC is negligible in β-lactamase-producing cells ( 28 , 29 ) and would be identical in the two MBL-producing DH10B strains. Therefore, the causes for the observed differences are expected to lie in β-lactamase properties. The MICs of cephalothin, cefotaxime, imipenem, and meropenem correlate with 1/ K m rather than with k cat / K m , consistent with the notion that the affinity between the enzyme and the substrate may determine the MIC. In the IMP-1-catalyzed conversion of the cephalosporin nitrocefin, k 2 (the rate constant for breakdown of the Michaelis complex into enzyme and product) is rate limiting (2 orders of magnitude smaller than k −1 [the rate constant for breakdown of the Michaelis complex into enzyme and substrate] [ 30 ]) and K m can be used as an approximation of K s . Indeed, K m (28 μM) was observed to be comparable to K s (30 μM) (Michael W. Crowder, personal communication). Interestingly, the results obtained with meropenem are in contrast to findings in a previous study of IMP-1, IMP-6, and IMP-25, where we observed a correlation between MIC and k cat values ( 11 ). A possible explanation for this phenomenon is that with the E59K mutation, a potential proton acceptor (glutamate in IMP-1) has been replaced with a potential proton donor (protonated lysine in IMP-30), which could make protonation of the meropenem (as well as doripenem) R 2 group more likely and cause transition-state destabilization. The in vitro kinetic constants (acquired at pH 7.0) do not support this scenario; however, the situation may be sufficiently different under the MIC assay conditions (adjusted to pH 7.3), particularly in the bacterial periplasm. Such a proton transfer would require either a reorientation of meropenem's R 2 group closer to Lys59, as described above for doripenem, or one or more mediating water molecules. The proton transfer could be less likely in doripenem if its R 2 group already interacted electrostatically with Lys59 as described above, explaining why IMP-30-producing cells still exhibit half the MIC of doripenem versus only one-eighth the MIC of meropenem relative to findings for IMP-1-producing cells. The 6-fold-increased k cat / K m value of IMP-30 toward ceftazidime also translates into a 2-fold-increased MIC relative to that of IMP-1 (1,024-fold relative to results for controls). 
+
+Table 2. 
+
+Antimicrobial susceptibility assay of E. coli DH10B cells with pBC SK(+) plasmid harboring bla IMP-1 , bla IMP-30 , or no bla gene and cells without a plasmid 
+
+β-Lactam MIC (μg/ml) a of drug for E. coli DH10B with: pBC SK(+) bla IMP-1 b pBC SK(+) bla IMP-30 pBC SK(+) b No plasmid b Cephalothin 512 256 16 16 Cefotaxime 256 64 0.125 0.25 Ceftazidime 256 512 0.5 0.5 Cefoxitin 1,024 512 8 16 Benzylpenicillin 256 256 32 32 Ampicillin 256 128 4 8 Imipenem 4 1 0.25 0.25 Meropenem 16 2 <0.0625 0.0625 Doripenem 16 8 0.0625 0.125 Aztreonam 0.25 0.25 0.25 0.25 
+
+Open in a new tab 
+
+a 
+MICs were determined using the median value of six measurements. 
+
+b 
+Data from the work of Liu et al. ( 11 ). 
+
+To further investigate the possibility of a favorable interaction between Lys59 and the ceftazidime R 1 carboxylate, we virtually mutated IMP-1 (Protein Data Bank [PDB] entry 1DD6 [ 10 ]) to IMP-30 by introducing the E59K mutation with the “mutate” function in Swiss PDB-Viewer ( http://spdbv.vital-it.ch/ ). Then, ceftazidime ( Fig. 1A ) was docked into the active sites of IMP-1 and the IMP-30 model using AutoDock 4.2 ( 12 ) and previously published Zn(II) van der Waals parameters ( 31 ) and charges ( 32 ). Out of 50 conformations docked into IMP-1, 3 in the highest-ranked cluster yielded a binding mode conducive to β-lactam hydrolysis ( 33 ) (the carbonyl oxygen of the β-lactam ring [O-8] coordinating Zn1, the β-lactam nitrogen [N-5] located close to Zn2, and the cephem carboxylate [O-1A and O-1B] forming a salt bridge with Lys224). The average binding energy of these three conformations is −47 kJ/mol. In the lowest-energy (−49 kJ/mol) conformation shown in Fig. 1B , the distances O-8—Zn1, N-5—Zn2, and (O-1A—Lys224 N-ζ + O-1B—Lys244 N-ζ)/2 are 2.0 Å, 3.0 Å, and 2.9 Å, respectively. Additionally, there is a hydrogen bond between the R 1 thiazole amino group nitrogen (N TA ) and the Glu59 carboxylate (3.1 Å) and a salt bridge between the R 1 carboxylate and Lys150a [(O-2A—Lys150a N-ζ + O-2B—Lys150a N-ζ)/2 = 2.7 Å]. Lys150a is conserved among the IMP-type enzymes except IMP-35 (Asn150a; GenBank accession code JF816544 ). 
+
+In the corresponding IMP-30/ceftazidime docking calculations, the highest-ranked cluster (average binding energy = −40 kJ/mol) contains eight conformations that are not conducive to hydrolysis, seven of them with the cephem carboxylate located between the two Zn(II) ions and O-8 and N-5 distant from Zn1 and Zn2, respectively. The R 1 carboxylate formed a salt bridge with Lys59 in five of the eight conformations and in only two with Lys150a, as in IMP-1. Four conformations in the fifth-ranked cluster (average binding energy = −41 kJ/mol) are conducive to hydrolysis, with the lowest-energy (−44 kJ/mol) conformation ( Fig. 1C ) exhibiting the following distances: O-8—Zn1 = 2.0 Å; N-5—Zn2 = 3.1 Å; and (O-1A—Lys224 N-ζ + O-1B—Lys244 N-ζ)/2 = 2.9 Å. The R 1 carboxylate forms a salt bridge with Lys59 (O-2A—Lys59 N-ζ = 2.5 Å). 
+
+To analyze the role of these interactions in more detail, MD simulations were carried out using the AMBER 10 software package ( 13 ). Details can be found in the supplemental material. In short, R 1 of ceftazidime specifically interacts with Lys59 in IMP-30, either via the R 1 carboxylate, the R 1 carbonyl oxygen, and/or the R 1 oxyimino oxygen in a high percentage of conformations along multiple trajectories of unconstrained MD simulation (see Fig. S2 in the supplemental material). On average, R 1 is in a different orientation, which translates into a bigger angle around C-7 in IMP-30 than in IMP-1 (see Table S1). This allows more water molecules to access the active site where hydrolysis of the β-lactam amide bond takes place (see Table S1 and Fig. S3). 
+
+Collectively, the experimental and computational results allow for the following scenario explaining inactivation of ceftazidime by the two enzymes. Ceftazidime binds to and forms a productive Michaelis complex in both enzymes (similar K m values). However, the binding modes are different. In IMP-1 (and possibly all other IMPs except IMP-35), the R 1 carboxylate occasionally (30% of MD simulation time) forms a salt bridge with Lys150a. In contrast, in IMP-30, Lys59 forms a salt bridge with the R 1 carboxylate and/or electrostatically interacts with the carbonyl and oxyimino groups in R 1 . This orients the substrate in a conformation that renders chemistry (hydrolysis of the β-lactam ring) more efficient (8-fold-higher k cat ), apparently by giving more water molecules access to the β-lactam amide bond. Glu59 is conserved across the other currently known IMP-type enzymes. In other B1 MBLs, it is less conserved. In VIM-2, it is glutamine, but in some other VIM-type enzymes, it is mutated to positively charged residues (lysine in VIM-3, arginine in VIM-6 and VIM-18, and histidine in VIM-13). GIM-1 has lysine at position 59. These positively charged residues might play a role similar to that of Lys59 in IMP-30. Indeed, VIM-6 ( 34 ), VIM-18 ( 35 ), and GIM-1 ( 36 ) exhibit relatively high catalytic efficiencies and/or confer high levels of resistance to ceftazidime, albeit lower than observed here for IMP-30. 
+
+The only antibiotic toward which IMP-30 exhibits a significantly higher k cat / K m , resulting in a higher MIC than that with IMP-1, is ceftazidime. Ceftazidime was once an ideal drug for nosocomial infections because of its low potential for side effects and good physiological tolerability ( 37 ). It is possible that the increased resistance toward ceftazidime in combination with equal or slightly smaller resistance toward the other tested antibiotics was the basis for the selection of IMP-30 in pathogenic bacteria. Even though recent studies indicate that the novel inhibitor ME1071 ( 38 ) potentiates the activity of ceftazidime against bacteria expressing IMP-1, such beneficial effects could be minimized by an enzyme like IMP-30 with enhanced catalytic efficiency toward this antibiotic. 
+
+Supplementary Material 
+
+Supplemental material 
+
+supp_57_10_5122__index.html (785B, html) 
+
+ACKNOWLEDGMENTS 
+
+The Center for Macromolecular Modeling and Materials Design at California State Polytechnic University, Pomona, CA, where circular dichroism experiments, docking calculations, and molecular dynamics simulations were performed, is supported by a grant from the W. M. Keck Foundation. 
+
+We thank James Spencer (University of Bristol, Bristol, United Kingdom) for the pET26b expression vector containing the IMP-1 gene with its native leader sequence (periplasmic expression) and Merck, Sharp & Dohme Corp. for the pET30a expression vector containing the IMP-1 gene lacking the leader sequence (cytoplasmic expression). We thank H. Howard Xu and Jennifer Fleischer (California State University, Los Angeles, CA) for guidance with the MIC assays and Antony Huang (California State Polytechnic University, Pomona, CA) for assistance with the circular dichroism scans. 
+
+Footnotes 
+
+Published ahead of print 8 July 2013 
+
+Supplemental material for this article may be found at http://dx.doi.org/10.1128/AAC.02341-12 . 
+
+REFERENCES 
+
+1. Ambler RP.
+1980. 
+The structure of β-lactamases. Philos. Trans. R. Soc. Lond. B Biol. Sci.
+289:321–331 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+2. Shibata N, Doi Y, Yamane K, Yagi T, Kurokawa H, Shibayama K, Kato H, Kai K, Arakawa Y.
+2003. 
+PCR typing of genetic determinants for metallo-β-lactamases and integrases carried by gram-negative bacteria isolated in Japan, with focus on the class 3 integron. J. Clin. Microbiol.
+41:5407–5413 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Tysall L, Stockdale MW, Chadwick PR, Palepou MF, Towner KJ, Livermore DM, Woodford N.
+2002. 
+IMP-1 carbapenemase detected in an Acinetobacter clinical isolate from the UK. J. Antimicrob. Chemother.
+49:217–218 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+4. Senda K, Arakawa Y, Ichiyama S, Nakashima K, Ito H, Ohsuka S, Shimokata K, Kato N, Ohta M.
+1996. 
+PCR detection of metallo-β-lactamase gene ( bla IMP ) in gram-negative rods resistant to broad-spectrum β-lactams. J. Clin. Microbiol.
+34:2909–2913 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Oelschlaeger P, Ai N, Duprez KT, Welsh WJ, Toney JH.
+2010. 
+Evolving carbapenemases: can medicinal chemists advance one step ahead of the coming storm?
+J. Med. Chem.
+53:3013–3027 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Bush K.
+2010. 
+Alarming β-lactamase-mediated resistance in multidrug-resistant Enterobacteriaceae. Curr. Opin. Microbiol.
+13:558–564 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Garau G, Garcia-Saez I, Bebrone C, Anne C, Mercuri P, Galleni M, Frere JM, Dideberg O.
+2004. 
+Update of the standard numbering scheme for class B β-lactamases. Antimicrob. Agents Chemother.
+48:2347–2349 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Cornaglia G, Giamarellou H, Rossolini GM.
+2011. 
+Metallo-β-lactamases: a last frontier for β-lactams?
+Lancet Infect. Dis.
+11:381–393 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+9. Shevchenko OV, Edelstein MV.
+2007. 
+Epidemic population structure of MBL-producing Pseudomonas aeruginosa in Russia, abstr C2-1499. Abstr. 47th Interscience Conference on Antimicrob
+Agents Chemother. [ Google Scholar ] 
+
+10. Concha NO, Janson CA, Rowling P, Pearson S, Cheever CA, Clarke BP, Lewis C, Galleni M, Frere JM, Payne DJ, Bateson JH, Abdel-Meguid SS.
+2000. 
+Crystal structure of the IMP-1 metallo-β-lactamase from Pseudomonas aeruginosa and its complex with a mercaptocarboxylate inhibitor: binding determinants of a potent, broad-spectrum inhibitor. Biochemistry
+39:4288–4298 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+11. Liu EM, Pegg KM, Oelschlaeger P.
+2012. 
+The sequence-activity relationship between the metallo-β-lactamases IMP-1, IMP-6, and IMP-25 suggests an evolutionary adaptation to meropenem exposure. Antimicrob. Agents Chemother.
+56:6403–6406 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Morris GM, Huey R, Lindstrom W, Sanner MF, Belew RK, Goodsell DS, Olson AJ.
+2009. 
+Autodock4 and AutoDockTools4: automated docking with selective receptor flexiblity. J. Comput. Chem.
+30:2785–2791 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Case DA, Darden TA, Cheatham TE, Simmerling CL, Wang J, Duke RE, Luo R, Crowley M, Walker RC, Zhang W, Merz KM, Wang B, Hayik S, Roitberg A, Seabra G, Kolossváry I, Wong KF, Paesani F, Vanicek J, Wu X, Brozell SR, Steinbrecher T, Gohlke H, Yang L, Tan C, Mongan J, Hornak V, Cui G, Mathews DH, Seetin MG, Sagui C, Babin V, Kollman PA.
+2008. 
+AMBER 10. University of California, San Francisco, CA [ Google Scholar ] 
+
+14. Oelschlaeger P, Mayo SL, Pleiss J.
+2005. 
+Impact of remote mutations on metallo-β-lactamase substrate specificity: implications for the evolution of antibiotic resistance. Protein Sci.
+14:765–774 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Laemmli UK.
+1970. 
+Cleavage of structural proteins during the assembly of the head of bacteriophage T4. Nature
+227:680–685 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+16. Hunt JB, Neece SH, Ginsburg A.
+1985. 
+The use of 4-(2 pyridylazo) resorcinol in studies of zinc release from Escherichia coli aspartate transcarbamoylase. Anal. Biochem.
+146:150–157 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+17. King DT, Worrall LJ, Gruninger R, Strynadka NC.
+2012. 
+New Delhi metallo-β-lactamase: structural insights into β-lactam recognition and inhibition. J. Am. Chem. Soc.
+134:11362–11365 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+18. Laraki N, Franceschini N, Rossolini GM, Santucci P, Meunier C, de Pauw E, Amicosante G, Frere JM, Galleni M.
+1999. 
+Biochemical characterization of the Pseudomonas aeruginosa 101/1477 metallo-β-lactamase IMP-1 produced by Escherichia coli. Antimicrob. Agents Chemother.
+43:902–906 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+19. Riccio ML, Franceschini N, Boschi L, Caravelli B, Cornaglia G, Fontana R, Amicosante G, Rossolini GM.
+2000. 
+Characterization of the metallo-β-lactamase determinant of Acinetobacter baumannii AC-54/97 reveals the existence of bla IMP allelic variants carried by gene cassettes of different phylogeny. Antimicrob. Agents Chemother.
+44:1229–1235 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. Gutkind GO, Di Conza J, Power P, Radice M.
+2013. 
+β-Lactamase-mediated resistance: a biochemical, epidemiological and genetic overview. Curr. Pharm. Des.
+19:164–208 [ PubMed ] [ Google Scholar ] 
+
+21. Poirel L, Pitout JD, Nordmann P.
+2007. 
+Carbapenemases: molecular diversity and clinical consequences. Future Microbiol.
+2:501–512 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+22. Samuelsen O, Castanheira M, Walsh TR, Spencer J.
+2008. 
+Kinetic characterization of VIM-7, a divergent member of the VIM metallo-β-lactamase family. Antimicrob. Agents Chemother.
+52:2905–2908 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+23. Franceschini N, Caravelli B, Docquier JD, Galleni M, Frere JM, Amicosante G, Rossolini GM.
+2000. 
+Purification and biochemical characterization of the VIM-1 metallo-β-lactamase. Antimicrob. Agents Chemother.
+44:3003–3007 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+24. Murphy TA, Simm AM, Toleman MA, Jones RN, Walsh TR.
+2003. 
+Biochemical characterization of the acquired metallo-β-lactamase SPM-1 from Pseudomonas aeruginosa. Antimicrob. Agents Chemother.
+47:582–587 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Yong D, Toleman MA, Giske CG, Cho HS, Sundman K, Lee K, Walsh TR.
+2009. 
+Characterization of a new metallo-β-lactamase gene, bla NDM-1 , and a novel erythromycin esterase gene carried on a unique genetic structure in Klebsiella pneumoniae sequence type 14 from India. Antimicrob. Agents Chemother.
+53:5046–5054 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+26. Clinical and Laboratory Standards Institute
+2012. 
+Methods for dilution antimicrobial susceptibility tests for bacteria that grow aerobically; approved standard. 9th edition
+M07-A9
+Clinical and Laboratory Standards Institute, Wayne, PA [ Google Scholar ] 
+
+27. Osano E, Arakawa Y, Wacharotayankun R, Ohta M, Horii T, Ito H, Yoshimura F, Kato N.
+1994. 
+Molecular characterization of an enterobacterial metallo-β-lactamase found in a clinical isolate of Serratia marcescens that shows imipenem resistance. Antimicrob. Agents Chemother.
+38:71–78 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Frere JM.
+1989. 
+Quantitative relationship between sensitivity to β-lactam antibiotics and β-lactamase production in gram-negative bacteria. I. Steady-state treatment. Biochem. Pharmacol.
+38:1415–1426 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+29. Lakaye B, Dubus A, Lepage S, Groslambert S, Frere JM.
+1999. 
+When drug inactivation renders the target irrelevant to antibiotic resistance: a case story with β-lactams. Mol. Microbiol.
+31:89–101 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+30. Griffin DH, Richmond TK, Sanchez C, Moller AJ, Breece RM, Tierney DL, Bennett B, Crowder MW.
+2011. 
+Structural and kinetic studies on metallo-β-lactamase IMP-1. Biochemistry
+50:9125–9134 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+31. Stote RH, Karplus M.
+1995. 
+Zinc binding in proteins and solution: a simple but accurate nonbonded representation. Proteins
+23:12–31 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+32. Irwin JJ, Raushel FM, Shoichet BK.
+2005. 
+Virtual screening against metalloenzymes for inhibitors and substrates. Biochemistry
+44:12316–12328 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+33. Wang Z, Fast W, Benkovic SJ.
+1999. 
+On the mechanism of the metallo-β-lactamase from Bacteroides fragilis. Biochemistry
+38:10013–10023 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+34. Koh TH, Yamaguchi K, Ishii Y.
+2008. 
+Characterisation of the metallo-β-lactamase VIM-6 and its genetic support. Int. J. Antimicrob. Agents
+32:446–449 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+35. Castanheira M, Bell JM, Turnidge JD, Mathai D, Jones RN.
+2009. 
+Carbapenem resistance among Pseudomonas aeruginosa strains from India: evidence for nationwide endemicity of multiple metallo-β-lactamase clones (VIM-2, -5, -6, and -11 and the newly characterized VIM-18). Antimicrob. Agents Chemother.
+53:1225–1227 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+36. Castanheira M, Toleman MA, Jones RN, Schmidt FJ, Walsh TR.
+2004. 
+Molecular characterization of a β-lactamase gene, bla GIM-1 , encoding a new subclass of metallo-β-lactamase. Antimicrob. Agents Chemother.
+48:4654–4661 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+37. Rains CP, Bryson HM, Peters DH.
+1995. 
+Ceftazidime. An update of its antibacterial activity, pharmacokinetic properties and therapeutic efficacy. Drugs
+49:577–617 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+38. Ishii Y, Eto M, Mano Y, Tateda K, Yamaguchi K.
+2010. In vitro potentiation of carbapenems with ME1071, a novel metallo-β-lactamase inhibitor, against metallo-β-lactamase-producing Pseudomonas aeruginosa clinical isolates. Antimicrob. Agents Chemother.
+54:3625–3629 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+Associated Data 
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+
+Supplementary Materials 
+
+Supplemental material 
+
+supp_57_10_5122__index.html (785B, html) 
+
+AAC.02341-12_zac009132162so1.pdf (1.2MB, pdf) 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (431.4 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

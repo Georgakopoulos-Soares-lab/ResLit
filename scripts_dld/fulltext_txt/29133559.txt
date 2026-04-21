@@ -1,0 +1,638 @@
+PMID: 29133559
+PMCID: PMC5786765
+DOI: 10.1128/AAC.01835-17
+Title: Mutations in Gene fusA1 as a Novel Mechanism of Aminoglycoside Resistance in Clinical Strains of Pseudomonas aeruginosa.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2018 Feb
+Authors: Bolard A, Plésiat P, Jeannot K
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Mutations in Gene fusA1 as a Novel Mechanism of Aminoglycoside Resistance in Clinical Strains of Pseudomonas aeruginosa - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2018 Jan 25;62(2):e01835-17. doi: 10.1128/AAC.01835-17 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Mutations in Gene fusA1 as a Novel Mechanism of Aminoglycoside Resistance in Clinical Strains of Pseudomonas aeruginosa 
+
+Arnaud Bolard 
+
+Arnaud Bolard 
+
+a Centre National de Référence de la Résistance aux Antibiotiques, Laboratoire de Bactériologie, Centre Hospitalier Universitaire Jean Minjoz, Besançon, France 
+
+b UMR6249 CNRS Chronoenvironnement, Université de Franche-Comté, Besançon, France 
+
+Find articles by Arnaud Bolard 
+
+a, b , Patrick Plésiat 
+
+Patrick Plésiat 
+
+a Centre National de Référence de la Résistance aux Antibiotiques, Laboratoire de Bactériologie, Centre Hospitalier Universitaire Jean Minjoz, Besançon, France 
+
+b UMR6249 CNRS Chronoenvironnement, Université de Franche-Comté, Besançon, France 
+
+Find articles by Patrick Plésiat 
+
+a, b , Katy Jeannot 
+
+Katy Jeannot 
+
+a Centre National de Référence de la Résistance aux Antibiotiques, Laboratoire de Bactériologie, Centre Hospitalier Universitaire Jean Minjoz, Besançon, France 
+
+b UMR6249 CNRS Chronoenvironnement, Université de Franche-Comté, Besançon, France 
+
+Find articles by Katy Jeannot 
+
+a, b, ✉ 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a Centre National de Référence de la Résistance aux Antibiotiques, Laboratoire de Bactériologie, Centre Hospitalier Universitaire Jean Minjoz, Besançon, France 
+
+b UMR6249 CNRS Chronoenvironnement, Université de Franche-Comté, Besançon, France 
+
+✉ 
+Address correspondence to Katy Jeannot, katy.jeannot@univ-fcomte.fr . 
+
+Citation Bolard A, Plésiat P, Jeannot K. 2018. Mutations in gene fusA1 as a novel mechanism of aminoglycoside resistance in clinical strains of Pseudomonas aeruginosa . Antimicrob Agents Chemother 62:e01835-17. https://doi.org/10.1128/AAC.01835-17 . 
+
+✉ 
+Corresponding author. 
+
+Received 2017 Sep 1; Revision requested 2017 Sep 25; Accepted 2017 Nov 5; Prepublished 2017 Nov 13; Collection date 2018 Feb. 
+
+Copyright © 2018 American Society for Microbiology. 
+
+All Rights Reserved . 
+
+PMC Copyright notice 
+
+PMCID: PMC5786765  PMID: 29133559 
+
+ABSTRACT 
+
+Resistance of clinical strains of Pseudomonas aeruginosa to aminoglycosides can result from production of transferable aminoglycoside-modifying enzymes, of 16S rRNA methylases, and/or mutational derepression of intrinsic multidrug efflux pump MexXY(OprM). We report here the characterization of a new type of mutant that is 4- to 8-fold more resistant to 2-deoxystreptamine derivatives (e.g., gentamicin, amikacin, and tobramycin) than the wild-type strain PAO1. The genetic alterations of three in vitro mutants were mapped on fusA1 and found to result in single amino acid substitutions in domains II, III, and V of elongation factor G (EF-G1A), a key component of translational machinery. Transfer of the mutated fusA1 alleles into PAO1 reproduced the resistance phenotype. Interestingly, fusA1 mutants with other amino acid changes in domains G, IV, and V of EF-G1A were identified among clinical strains with decreased susceptibility to aminoglycosides. Allelic-exchange experiments confirmed the relevance of these latter mutations and of three other previously reported alterations located in domains G and IV. Pump MexXY(OprM) partly contributed to the resistance conferred by the mutated EF-G1A variants and had additive effects on aminoglycoside MICs when mutationally upregulated. Altogether, our data demonstrate that cystic fibrosis (CF) and non-CF strains of P. aeruginosa can acquire a therapeutically significant resistance to important aminoglycosides via a new mechanism involving mutations in elongation factor EF-G1A. 
+
+KEYWORDS: EF-G1A, Pseudomonas aeruginosa , aminoglycosides, mechanisms of resistance 
+
+INTRODUCTION 
+
+Aminoglycosides are widely used to treat acute and chronic infections caused by the opportunistic pathogen Pseudomonas aeruginosa . With polymyxins, these bactericidal antibiotics often remain the last therapeutic option to fight multidrug-resistant and extensively drug-resistant strains ( 1 , 2 ). In patients with cystic fibrosis (CF), molecules such as tobramycin and amikacin are administered intravenously or by aerosol over long periods of time to try to eradicate or control lung colonization by P. aeruginosa ( 3 ). These inhibitors of protein synthesis interact with ribosomes to generate pleiotropic translational effects such as increased misreading rates, inhibition of translocation of the tRNA-mRNA complex, and impairment of ribosome recycling ( 4 , 5 ). Aminoglycosides directly bind the decoding A site, an asymmetric internal loop present within helix 44 (H44) of small subunit 16S rRNA ( 6 ). Such a binding affects both tRNA selection and elongation factor G (EF-G)-catalyzed translocation ( 4 , 7 ). Helix 69 (H69) of large subunit 23S rRNA is another molecular target of these inhibitors ( 8 ). At the end of translation process, a complex is formed between H44, H69, EF-G, and ribosome recycling factor (RRF) that enables the separation of the two ribosomal subunits and the recycling of ribosome ( 9 ). Aminoglycosides interfere with this recycling mechanism and prevent the release of the ribosomal subunits ( 9 , 10 ). The presumed result is the overall reduction in the number of ribosomes, leading to severe reductions in bacterial growth rate and adaptive fitness ( 11 ). 
+
+Acquisition of resistance to antipseudomonal aminoglycosides (e.g., gentamicin, netilmicin, tobramycin, and amikacin) is common in clinical strains of P. aeruginosa . This can be achieved by the horizontal transfer of mobile elements carrying a variety of genes encoding either stereospecific aminoglycoside-modifying enzymes or 16S rRNA methyltransferases, which both prevent the interaction of antibiotics with their target ( 12 ). Aminoglycoside resistance may also result from nonenzymatic, mutation-driven intrinsic mechanisms that affect translation machinery ( 13 ) or that tend to reduce the intracellular accumulation of the drug molecules by limiting their diffusion across the bacterial membranes or by promoting their extrusion outside the bacterial cell ( 12 ). When upregulated by mutations, the efflux system MexXY(OprM) can provide clinical strains with low to moderate levels of resistance to various antibiotics, including aminoglycosides ( 14 – 16 ). For instance, mutational alteration of MexZ, a repressor of operon mexXY , is associated with a 2- to 8-fold increase in aminoglycoside MICs ( 14 , 17 ). In CF patients, repeated administration of aminoglycosides to combat chronic lung colonization by P. aeruginosa tends to select subpopulations of mutants exhibiting an increasing resistance over time. mexZ was found to be the most frequently mutated gene of the bacterial chromosome ( 18 – 21 ). However, overproduction of the pump MexXY(OprM) cannot solely account for the high resistance levels displayed by late CF strains ( 14 , 22 ). 
+
+As suggested previously, other mechanisms are likely to contribute to intrinsic and/or acquired resistance of P. aeruginosa to this important class of antibiotics ( 23 ). The present study was thus undertaken to find out new determinants involved in the evolution of clinical strains under aminoglycoside pressure. 
+
+RESULTS AND DISCUSSION 
+
+Single point mutations in the gene fusA1 cause aminoglycoside resistance. 
+
+As demonstrated previously, approximately 135 chromosomal genes may potentially contribute to the development of a low-level aminoglycoside resistance in P. aeruginosa when tagged by transposons ( 24 ). However, the relevance of such genes in the clinical setting has only been established for a few of them ( 12 ). In order to characterize new resistance determinants that could account for the resistance phenotype of strains isolated from patients, spontaneous mutants of reference strain PAO1 were selected in vitro on 6 μg ml −1 amikacin (3× MIC), with rates ranging from 8 × 10 −8 to 7.7 × 10 −7 . Three representative clones (PAOR10, PAOR13, and PAOR15) exhibiting a higher resistance than PAO1 to multiple aminoglycosides were retained for further investigations. Relative to the baselines, the MICs of apramycin (monosubstituted-2-deoxystreptamine), neomycin (4,5-disubstituted-2-deoxystreptamine), gentamicin, tobramycin, amikacin, and arbekacin (4,6-disubstituted-2-deoxystreptamines), spectinomycin (aminocyclitol), and streptomycin (streptamine) were increased from 2- to 16-fold ( Table 1 ). In contrast, the three mutants exhibited wild-type susceptibility profiles to β-lactams (ceftazidime, cefepime, and imipenem), fluoroquinolones (ciprofloxacin), and tetracycline (data not shown). 
+
+TABLE 1. 
+
+Drug susceptibility of in vitro selected fusA1 mutants a 
+
+Strain EFG-1A b MIC (μg ml −1 ) c GEN AMK TOB NEO APR ARB STR SPT PAO1 WT 1 2 0.25 4 4 1 32 512 PAO1Δ mexZ WT 2 8 0.5 16 16 4 128 1,024 PAO1Δ mexXY WT 0.06 0.5 0.125 2 1 0.125 2 64 PAOR10 Arg680Cys 4 16 2 32 32 8 64 512 PAOR13 Thr456Ala 2 8 1 8 16 4 64 512 PAOR15 Arg371Cys 4 16 2 16 16 8 64 1,024 PAOR13Δ mexZ Thr456Ala 4 16 2 32 32 8 128 1,024 PAOR13Δ mexXY Thr456Ala 0.125 1 0.25 2 2 0.5 2 64 PAOR15Δ mexZ Arg371Cys 8 32 4 64 32 16 128 2,048 PAOR15Δ mexXY Arg371Cys 0.125 1 0.25 2 2 0.5 2 64 PAO1:: fusA1 PAOR10 Arg680Cys 4 16 2 32 32 8 64 512 PAO1:: fusA1 PAOR13 Thr456Ala 2 8 1 8 16 4 64 512 PAO1:: fusA1 PAOR15 Arg371Cys 4 16 2 16 16 8 64 1,024 
+
+Open in a new tab 
+
+a 
+Abbreviations: GEN, gentamicin; AMK, amikacin; TOB, tobramycin; NEO, neomycin; APR, apramycin; ARB, arbekacin; STR, streptomycin; SPT, spectinomycin. 
+
+b 
+That is, the elongation factor EF-G1A sequence (the sequence of strain PAO1 is taken as the wild-type reference [WT]). 
+
+c 
+The MIC data are representative of three independent experiments. Values in bold are at least four times higher than those for strain PAO1. Underlined values are above the EUCAST susceptibility breakpoints (gentamicin and tobramycin, >4 μg ml −1 ; amikacin, > 8 μg ml −1 ). 
+
+Whole-genome sequencing with an average copy number of 80× revealed the presence of three different point mutations in gene fusA1 (PA4266) compared to parent strain PAO1, resulting in single amino acid substitutions in domain II (Arg371Cys, PAOR15), III (Thr456Ala, PAOR13), and V (Arg680Cys, PAOR10) of elongation factor EF-G1A, respectively ( Fig. 1 and Fig. 2 ). Gene fusA1 is predicted to be cotranscribed with rpsG and tufA , the respective determinants of ribosomal protein S7 and elongation factor Tu (EF-Tu) ( 25 ). EF-G1A is crucial in protein synthesis since it mediates the translocation of mRNA and tRNA through the ribosome and participates in the ribosome recycling process ( 26 , 27 ). To confirm the role of the observed mutations in aminoglycoside resistance, allelic exchanges were carried out in PAO1, leading to the replacement of wild-type fusA1 with mutated genes from PAOR10, PAOR13, and PAOR15, yielding the constructs PAO1:: fusA1 PAOR10 , PAO1:: fusA1 PAOR13 , and PAO1:: fusA1 PAOR15 , respectively. As indicated in Table 1 , these genetic manipulations caused a substantial increase in aminoglycoside MICs (up to 8-fold), highlighting a novel resistance mechanism in P. aeruginosa . The observation that the activity of aminocyclitol and streptamine molecules (spectinomycin and streptomycin, respectively) was poorly impacted by fusA1 mutations is still unclear, since at least spectinomycin inhibits the EF-G-dependent translocation of the tRNA-mRNA complex ( 5 , 28 ). 
+
+FIG 1. 
+
+Open in a new tab 
+
+Aminoglycoside resistance-associated mutations in gene fusA1 . Mutations identified in spontaneous in vitro mutants (in boldface type), clinical strains (underlined), and specifically engineered in vitro mutants (in italic type) are mapped on the gene sequence of strain PAO1. 
+
+FIG 2. 
+
+Open in a new tab 
+
+Three-dimensional structure of EF-G protein from strain PAO1, as predicted by RaptorX ( http://raptorx.uchicago.edu/ ). EF-G domains were predicted by using Pfam database. The amino acid substitutions responsible for aminoglycoside resistance are indicated by blue spots. The blue and orange circles represent the fusidic acid and argyrin B binding sites, respectively. 
+
+The P. aeruginosa genome actually encodes two closely related EF-G proteins that share 90% similarity at the sequence level ( 29 ). Gene fusA2 (PA2071) is not essential for the growth of P. aeruginosa under laboratory conditions ( 30 ). In agreement with the notion that EF-G1A is key to ribosome activity, all attempts to delete fusA1 in strain PAO1 and its mutants PAOR10, PAOR13, and PAOR15 were unsuccessful (data not shown). 
+
+fusA1 mutations in clinical strains. 
+
+Elongation factor EF-G1A is subject to minor sequence polymorphism in P. aeruginosa as bioinformatic analysis of the PATRIC database ( 31 ) revealed that only 12 of 120 gentamicin-susceptible strains contained uncharacterized single amino acid substitutions in this protein. To gain an insight into the clinical relevance of fusA1 mutations, we screened our laboratory collection in search of strains exhibiting a low to moderate resistance to gentamicin, tobramycin, and amikacin (data not shown). Isolates with increased resistance to ciprofloxacin and cefepime were not retained because of the probable involvement of the efflux system MexXY(OprM) in the phenotype ( 32 , 33 ). PCR-sequencing experiments identified three isolates, recovered from the sputa (isolates 5910 and 6253) and urine (isolate 6233) of non-CF patients, that harbored one or two missense mutations in gene fusA1 compared to PAO1 ( Fig. 1 ). The related amino acid changes (Val93Ala and Ile186Val in isolate 6253, Ala555Glu in isolate 5910, and Thr671Ala in isolate 6233) were different from those identified in the in vitro mutants. They were located in domains G (Val93Ala), IV (Ala555Glu), and V (Thr671Ala) of the protein, respectively, thus confirming that multiple mutations in EF-G1A can result in aminoglycoside resistance ( Fig. 2 ). As for the in vitro mutants, replacement of wild-type fusA1 in PAO1 by the mutated alleles from isolates 5910, 6233, and 6253 enhanced the MICs of deoxystreptamine derivatives significantly, up to 16-fold, whereas the activities of streptomycin and spectinomycin were poorly impacted ( Table 2 ). According to the current EUCAST breakpoints ( http://www.eucast.org ), strains PAO1:: fusA1 6233 and PAO1:: fusA1 6253 were of intermediate susceptibility or resistant to gentamicin and amikacin, while PAO1:: fusA1 5910 was intermediate to amikacin only ( Table 2 ). None of the alleles conferred a therapeutically significant resistance to tobramycin, although the MICs of this antibiotic were close to the EUCAST resistance breakpoint (>4 μg ml −1 ). 
+
+TABLE 2. 
+
+Drug susceptibility of clinical fusA1 mutants a 
+
+Strain EFG-1A MIC (μg ml −1 ) GEN AMK TOB NEO APR ARB STR SPT PAO1 WT 1 2 0.25 4 4 1 32 512 5910 Ala555Glu 8 16 2 128 64 16 64 1,024 6233 Thr671Ala 8 32 2 32 64 16 64 1,024 6253 b Val93Ala 8 16 2 64 64 16 64 1,024 PAO1:: fusA1 5910 Ala555Glu 4 16 2 32 32 8 32 1,024 PAO1:: fusA1 6233 Thr671Ala 8 16 2 32 32 8 64 512 PAO1:: fusA1 6253 Val93Ala 8 32 4 64 64 16 64 512 PAO1:: fusA1 T119A Leu40Gln 2 8 1 8 8 4 64 1,024 PAO1:: fusA1 G352A Gly118Ser 2 4 0.5 8 8 2 32 512 PAO1:: fusA1 A1775T Asn592Ile 8 32 2 128 64 8 32 512 
+
+Open in a new tab 
+
+a 
+Abbreviations and column headings are as described in the footnotes for Table 1 . 
+
+b 
+Strain 6253 also harbors an Ile186Val substitution in protein EF-G1A, which was considered nonsignificant. 
+
+Correlation between genomic data and resistance phenotypes. 
+
+A number of studies on the genomic evolution of P. aeruginosa strains in CF patients have reported that the fusA1 gene is one of the most repeatedly hit by mutations. Thus, it was suggested that these genetic alterations could contribute to the development of a high resistance to aminoglycosides in the CF context ( 20 , 34 – 36 ). For instance, 52 of 361 nonrelated CF isolates appeared to harbor nonsynonymous mutations in fusA1 ( 34 ). In another study, the gene was found to be mutated in 13 isolates belonging to international clone CC274, within a collection of 29 CF strains ( 20 ). Our analysis of the single nucleotide polymorphisms (SNPs) found in various CF and non-CF strains revealed that three of the amino acid substitutions predicted to occur in EF-G1A were identical to ones substitutions in the present study (Val93Ala, Thr456Ala, and Thr671Ala), thus reinforcing the notion that such variations represent a common mechanism of aminoglycoside resistance in P. aeruginosa . To assess the phenotypic impact of other reported fusA1 mutations ( 34 , 35 , 37 ), site-directed mutagenesis experiments were carried out to generate fusA1 alleles encoding EF-G1A variants with Leu40Gln (domain G), Gly118Ser (domain G), and Asn592Ile (domain IV) changes, respectively ( Fig. 2 ). Substituting the wild-type fusA1 gene with the mutated alleles provided PAO1 with a 2- to 16-fold higher resistance to gentamicin, amikacin, and tobramycin (compare strains PAO1:: fusA1 T119A , PAO1:: fusA1 G352A , and PAO1:: fusA1 A1775T with PAO1 in Table 2 ). These new results unambiguously demonstrate the role played by EF-G1A in the emergence of clinical mutants of P. aeruginosa exhibiting a reduced susceptibility to aminoglycosides. 
+
+Cross-resistance between aminoglycosides/argyrin and aminoglycosides/fusidic acid. 
+
+EF-G1A is known as the cellular target of the bacteriostatic antistaphyloccocal antibiotic fusidic acid and of argyrin B, a natural cyclic peptide produced by Myxobacteria and Actinomycetes , exhibiting antipseudomonal activities ( 38 ). Fusidic acid binds to ribosome-bound EF-G in a pocket between domains II and III and the switch II region of domain G ( 39 ), whereas argyrin B interacts with EF-G at the interface of domains III and V ( 40 ) ( Fig. 2 ). As shown elsewhere, mutations occurring in these binding domains may generate a high resistance to fusidic acid or argyrin ( 41 , 42 ). A concomitant resistance to fusidic acid, kanamycin and spectinomycin was noted in 14 out of 18 Salmonella Typhimurium mutants selected in vitro ( 42 ). To the best of our knowledge, cross-resistance to argyrin B and aminoglycosides has not been reported so far in P. aeruginosa ( 40 , 41 ). Of interest, one of the EF-G1A mutations able to promote argyrin B resistance, namely, Thr671Ala, was found here to significantly decrease the susceptibility of P. aeruginosa to aminoglycosides (see strains 6233 and PAO1:: fusA1 6233 in Table 2 ). Thus, it is clear that some mutated forms of EF-G1A produced by clinical strains (e.g., urine isolate 6233) can provide a cross-resistance to argyrin B and aminoglycosides. Whether other amino acid variations in EF-G1A can also impair the binding of argyrin B or fusidic acid while conferring a resistance to aminoglycosides remains to be investigated. 
+
+EF-G1A and MexXY(OprM). 
+
+A number of ribosomal alterations such as those affecting proteins L1 and L25, or methionyl-tRNA fMet -formyl transferase can activate the expression of operon mexXY , which encodes two components of the multidrug efflux pump MexXY(OprM) ( 17 , 43 , 44 ). Since EF-G1A is involved in protein synthesis, one could argue that the resistance phenotype exhibited by fusA1 mutants results from MexXY(OprM) being derepressed, and subsequent active efflux of aminoglycoside molecules. We therefore measured the transcript levels of gene mexY by reverse transcription-quantitative PCR in fusA1 mutants PAOR13 and PAOR15. These levels were similar to that of parental strain PAO1 (data not shown). On the other hand, to investigate the contribution of MexXY(OprM) to the resistance phenotype conferred by fusA1 mutations, the mexXY operon was deleted in PAOR13 and PAOR15. Interestingly, suppression of the efflux system was associated with a strong decrease in deoxystreptamine MICs, leaving a residual resistance (i.e., only due to EF-G1A) which was in general 2-fold higher than in strain PAO1Δ mexXY (see mutants PAOR13Δ mexXY and PAOR15Δ mexXY in Table 1 ). These results suggest that the effects of EF-G1A mutations are to some extent potentiated by the export of aminoglycosides via MexXY(OprM), although the pump itself is not upregulated by the effects of these mutations on protein synthesis. 
+
+Since mutation-driven upregulation of MexXY(OprM) is common in drug-resistant strains of P. aeruginosa ( 14 – 16 ), we evaluated the impact of this mechanism on aminoglycoside MICs when associated with relevant fusA1 mutations. As indicated in Table 1 , MexXY(OprM) overproduction in the repressor MexZ-null mutant PAO1Δ mexZ increased aminoglycoside resistance from 2- to 4-fold relative to the wild-type parent PAO1. Similar results were obtained in mutants PAOR13 and PAOR15 upon deletion of mexZ (PAOR13Δ mexZ and PAOR15Δ mexZ in Table 1 ). So, while showing additive effects on aminoglycoside MICs when constitutively overproduced in fusA1-mexZ double mutants, the MexXY(OprM) pump contributes to the resistance provided by EF-G1A alterations through its fusA1 -independent, drug-induced expression. 
+
+Impact of EF-G1A mutations on aminoglycoside resistance. 
+
+Because aminoglycosides are not predicted to bind EF-G ( 45 ), resistance to these molecules seems to be an indirect consequence of EF-G alteration. The mutations characterized here impacted bacterial susceptibility to deoxystreptamines at different levels. Indeed, MIC changes were modest (2- to 4-fold) with alterations in domains G and III (Leu40Gln, Gly118Ser, and Thr456Ala) and higher (up to 16-fold) with mutations in domains II (Val93Ala, Arg371Cys), IV (Ala555Glu, Asn592Ile), and V (Thr671Ala, Arg680Cys) ( Tables 1 and 2 ; Fig. 2 ). By modifying the conformation of EF-G, these amino acid substitutions could modify the interactions of the elongation factor with the ribosome recycling factor (RRF), 16S rRNA (helix 69), 23S rRNA (helix 44), P-site tRNA, mRNA, and/or associated ribosomal proteins L6, L11, L12, and S12 ( 45 , 46 ). In Escherichia coli , kanamycin resistance was found to be associated with mutations strictly located in domain IV ( 47 , 48 ). The E. coli mutants harboring such mutations were temperature sensitive and had a slower elongation rate than the parental strain ( 48 ). To assess the impact of representative fusA1 mutations on protein synthesis, the growth rates of mutants PAOR13 and PAOR15 were compared to those of PAO1 at 30, 37, and 44°C. Although no significant difference was noted between the three strains at 37°C in Mueller-Hinton broth (MHB), the two mutants turned out to multiply more slowly at nonoptimal temperatures. Relative to PAO1, the doubling time was increased by 7 and 12 min for PAOR13 and by 9.5 to 20 min for PAOR15 at 30 and 44°C, respectively ( Fig. 3 ). Feng et al. reported that fusA1 mutants of P. aeruginosa selected on tobramycin had a lower μ max value than the wild-type P. aeruginosa parent (ATCC 27853) ( 37 ). Similarly, in our study, fusA1 mutations were associated with a significant decrease in μ max , particularly at 44°C (0.78 h −1 for PAOR13; 0.71 h −1 for PAOR15), compared to PAO1 (0.93 h −1 ) ( Fig. 3 ). These data strongly suggest that fusA1 -dependent aminoglycoside resistance has a cost for the cell. 
+
+FIG 3. 
+
+Open in a new tab 
+
+Growth curves of strain PAO1 (circles, solid line), mutants PAOR13 (squares, dashed line), and PAOR15 (triangles, dotted line) at 30°C (A), 37°C (B), and 44°C (C). 
+
+During the translocation process, two highly conserved loops in domain IV of EF-G1A get inserted into the decoding center (DC) to override the hydrogen bonds between the DC nucleotides of 16S rRNA (mainly A1492 and A1493) ( 39 ), to which aminoglycosides bind ( 45 ). As a working hypothesis, it is possible that the structural modifications introduced by some mutations in EF-G1A prevent or loosen the binding of aminoglycosides to helix H44 or H69, resulting in a lower drug affinity for the ribosome. Whatever the molecular mechanism may be, the therapeutic implications of fusA1 mutations need to be investigated. Whether mutations in EF-G1B encoded by gene fusA2 have similar effects in EF-G1A also remains to be clarified. 
+
+MATERIALS AND METHODS 
+
+Bacterial strains, plasmids, and growth conditions. 
+
+The features of bacterial strains and plasmids used in this study are presented in Table 3 . Bacteria were cultivated in MHB with adjusted concentrations of divalent cations Ca 2+ (from 20 to 25 mg ml −1 ) and Mg 2+ (from 10 to 12.5 μg ml −1 ) or on Mueller-Hinton agar (MHA; Becton Dickinson, Sparks, MD). Maximal growth rates (μ max ) were calculated as the average growth rates of three independent replicates during exponential growth. Resistant mutants to aminoglycosides were selected by plating 10 8 CFU of log-phase PAO1 cells on MHA supplemented with 6 μg ml −1 amikacin (corresponding to 3× MIC for PAO1). Escherichia coli transformants were selected on MHA containing kanamycin at 50 μg ml −1 or streptomycin at 50 μg ml −1 . Unmarked deletion of gene mexZ and operon mexXY in PAO1 was performed using plasmids pKNGΔ mexZ and pKNGΔ mexXY , respectively, as previously reported by Muller et al. and Guénard et al. ( 16 , 49 ). The recombinant plasmids were introduced into strain PAO1 by triparental mating using mobilization properties of broad-host-range vector pRK2013 ( 50 ). Selection of transconjugants on Pseudomonas isolation agar (PIA; Becton Dickinson) and excision of pKNG101 from the bacterial chromosome were performed as described elsewhere ( 49 ). 
+
+TABLE 3. 
+
+Bacterial strains and plasmids used in this study 
+
+Strain or plasmid Relevant characteristics a Source or reference Strains Pseudomonas aeruginosa PAO1 Wild-type reference strain 51 PAOR10 PAO1 spontaneous fusA1 mutant (Arg680Cys) This study PAOR13 PAO1 spontaneous fusA1 mutant (Thr456Ala) This study PAOR15 PAO1 spontaneous fusA1 mutant (Arg371Cys) This study 5910 Clinical fusA1 mutant (Ala555Glu) This study 6233 Clinical fusA1 mutant (Thr671Ala) This study 6253 Clinical fusA1 mutant (Val93Ala, Ile186Val) This study PAO1:: fusA1 PAOR10 PAO1 with the fusA1 allele from PAOR10 This study PAO1:: fusA1 PAOR13 PAO1 with the fusA1 allele from PAOR13 This study PAO1:: fusA1 PAOR15 PAO1 with the fusA1 allele from PAOR15 This study PAO1:: fusA1 5910 PAO1 with the fusA1 allele from 5910 This study PAO1:: fusA1 6233 PAO1 with the fusA1 allele from 6233 This study PAO1:: fusA1 6253 PAO1 with the fusA1 allele from 6253 This study PAO1:: fusA1 T119A PAO1 with a fusA1 allele encoding Leu40Gln This study PAO1:: fusA1 G352A PAO1 with a fusA1 allele encoding Gly118Ser This study PAO1:: fusA1 A1775T PAO1 with a fusA1 allele encoding Asn592Ile This study PAO1Δ mexXY PAO1 with in-frame deletion of operon mexXY 16 PAO1R13Δ mexXY PAOR13 with in-frame deletion of operon mexXY This study PAO1R15Δ mexXY PAOR15 with in-frame deletion of operon mexXY This study PAO1Δ mexZ PAO1 with in-frame deletion of gene mexZ 49 PAO1R13Δ mexZ PAOR13 with in-frame deletion of gene mexZ This study PAO1R15Δ mexZ PAOR15 with in-frame deletion of gene mexZ This study Escherichia coli DH5α F − ϕ80 lacZ ΔM15 Δ( lac ZYA-argF) U169 recA1 endA1 hsdR17 (r K − m K + ) phoA supE44 thi-1 gyrA96 relA1 λ − Thermo Fisher Scientific CC118λ pir Δ( ara-leu ) ara D Δ lacX74 galE galK phoA20 thi-1 rpsE rpoB argE (Am) recAl lysogenized with λ pir phage 52 HB101 supE44 hsdS20 (r B − m B − ) recA13 ara-14 proA2 lacY1 galK2 rpsL20 xyl-5 mtl-1 leuB6 thi-1 53 DH5α-T1R F − ϕ80 lac ZΔM15 Δ( lacZYA-argF ) U169 recA1 endA1 hsdR17 (r K − m K + ) phoA supE44 thi-1 gyrA96 relA1 tonA Thermo Fisher Scientific Plasmids pKNG101 Marker exchange suicide vector in P. aeruginosa ; sac BR mob RK2 ori R6K; Str r 54 pRK2013 Helper plasmid for mobilization of non-self-transmissible plasmids; ColE1 Tra + Mob + Kan r 50 pCR-Blunt Blunt-end cloning vector ccdB lacZ α; Zeo r Kan r Thermo Fisher Scientific pKNG101:: fusA1 C2038T Gene fusA1 from PAOR10 cloned in pKNG101 This study pKNG101:: fusA1 A1366G Gene fusA1 from PAOR13 cloned in pKNG101 This study pKNG101:: fusA1 C1111T Gene fusA1 from PAOR15 cloned in pKNG101 This study pKNG101:: fusA1 C1664A Gene fusA1 from 5910 cloned in pKNG101 This study pKNG101:: fusA1 A2011G Gene fusA1 from 6233 cloned in pKNG101 This study pKNG101:: fusA1 T278C , A556G Gene fusA1 from 6253 cloned in pKNG101 This study pKNG101:: fusA1 T119A Gene fusA1 with in vitro -engineered mutation T119A, cloned in pKNG101 This study pKNG101:: fusA1 G352A Gene fusA1 with in vitro -engineered mutation G352A, cloned in pKNG101 This study pKNG101:: fusA1 A1775T Gene fusA1 with in vitro -engineered mutation A1775T, cloned in pKNG101 This study pKNGΔ mexXY BamHI/ApaI 1,756-kb fragment composed of sequences flanking 5′ and 3′ ends of mexXY , cloned in pKNG101 16 pKNGΔ mexZ BamHI/ApaI 1,111-kb fragment composed of sequences flanking 5′ and 3′ ends of mexZ , cloned in pKNG101 49 
+
+Open in a new tab 
+
+a 
+Abbreviations: Str r , streptomycin resistance; Kan r , kanamycin resistance; Zeo r , zeocin resistance. 
+
+Antimicrobial susceptibility testing. 
+
+The MICs of selected antibiotics were determined by the standard microdilution method and interpreted in terms of bacterial susceptibility or resistance according to the guidelines of the European Committee on Antimicrobial Susceptibility testing (EUCAST [ http://www.eucast.org ]). 
+
+SNP identification. 
+
+Single nucleotide polymorphisms (SNPs) occurring in in vitro -selected mutants PAOR10, PAOR13, and PAOR15 were identified using CLC Genomics Workbench software (v10.0.1; Qiagen, Aarhus, Denmark) after alignment of the genomic sequences of mutants to that of the PAO1 strain available in the laboratory and the PAO1 sequence deposited in GenBank (accession number NC_002516 ) ( 51 ). Genomic DNA was extracted from the mutants and purified with a Pure Link genomic DNA kit (Thermo Fisher Scientific, Waltham, MA). Genomic libraries (250 bp) and high-throughput sequencing were subsequently used with IonTorrent PGM technology (Thermo Fisher Scientific). Alignment of the sequence reads of PAOR10 (13,603,185 reads), PAOR13 (10,768,909 reads), and PAOR15 (11,708,879 reads) with the published PAO1 sequence led to the identification of potential SNPs. An SNP was considered significant if the coverage was >5-fold and its percentage was >90%. To eliminate putative variations between our PAO1 laboratory strain and the published PAO1 sequence, predicted SNPs were compared to the sequence reads of our PAO1 strain (12,289,792 reads) before confirmation by Sanger sequencing in a RUO3500 genetic analyzer (Applied Biosystems/Thermo Fisher Scientific). 
+
+Allelic replacement of fusA1 in PAO1 chromosome. 
+
+The fusA1 genes of several in vitro and in vivo mutants were amplified by PCR from DNA extracts (Wizard genomic DNA purification kit; Promega Corporation, Charbonnières-les-Bains, France) with the specific primers PCR_fusA1_AB1 and PCR_fusA1_AB2 (see Table S1 in the supplemental material). The amplicons were cloned into vector pCR-Blunt, and 2,383-bp fragments carrying the fusA1 alleles were subcloned into the SpeI/ApaI-linearized plasmid pKNG101. The recombinant plasmids were then transferred from E. coli CC118λ pir into strain PAO1 by conjugation, and selection of transconjugants was performed on PIA supplemented with 2,000 μg ml −1 streptomycin. Excision of pKNG101 was obtained by plating transconjugants on M9 plates containing 5% (wt/vol) sucrose. All of the allelic exchanges were checked by PCR and sequencing with primers PCR_screen_fusA1_AB1 and PCR_screen_fusA1_AB2 (RUO3500 genetic analyzer) (see Table S1 in the supplemental material). The same approach was applied to construct PAO1 mutants carrying fusA1 alleles described in the literature, determining T119A, G352A, and A1775T substitutions in EF-G1A. The gene fusA1 from PAO1 was cloned into pCR-Blunt to yield recombinant plasmid pCR-Blunt:: fusA1 PAO1 . The desired mutations were then introduced into fusA1 by using a GENEART site-directed mutagenesis system kit (Thermo Fisher Scientific) and specific primers (see Table S1 in the supplemental material). 
+
+Supplementary Material 
+
+Supplemental material 
+
+supp_62_2_e01835-17__index.html (785B, html) 
+
+ACKNOWLEDGMENTS 
+
+This study was supported by the French Ministry of Health through the Santé Publique France Agency. 
+
+We authors thank Cédric Muller (Smaltis), Amandine Taquard, and Antoine Gouloumy for technical assistance. 
+
+Footnotes 
+
+Supplemental material for this article may be found at https://doi.org/10.1128/AAC.01835-17 . 
+
+REFERENCES 
+
+1. Cabot G, Ocampo-Sosa AA, Dominguez MA, Gago JF, Juan C, Tubau F, Rodriguez C, Moya B, Pena C, Martinez-Martinez L, Oliver A, Spanish Network for Research in Infectious Diseases. 2012. 
+Genetic markers of widespread extensively drug-resistant Pseudomonas aeruginosa high-risk clones. Antimicrob Agents Chemother
+56:6349–6357. doi: 10.1128/AAC.01388-12. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+2. Shortridge D, Castanheira M, Pfaller MA, Flamm RK. 
+2017. 
+Ceftolozane-tazobactam activity against Pseudomonas aeruginosa clinical isolates from U.S. Hospitals: report from the PACTS Antimicrobial Surveillance Program, 2012 to 2015. Antimicrob Agents Chemother
+61:e00465-17. doi: 10.1128/AAC.00465-17. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Döring G, Flume P, Heijerman H, Elborn JS, Consensus Study Group. 2012. 
+Treatment of lung infection in patients with cystic fibrosis: current and future strategies. J Cyst Fibros
+11:461–479. doi: 10.1016/j.jcf.2012.10.004. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+4. Davies J, Davis BD. 
+1968. 
+Misreading of ribonucleic acid code words induced by aminoglycoside antibiotics: the effect of drug concentration. J Biol Chem
+243:3312–3316. [ PubMed ] [ Google Scholar ] 
+
+5. Wilson DN.
+2014. 
+Ribosome-targeting antibiotics and mechanisms of bacterial resistance. Nat Rev Microbiol
+12:35–48. doi: 10.1038/nrmicro3155. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+6. Green R, Noller HF. 
+1997. 
+Ribosomes and translation. Annu Rev Biochem
+66:679–716. doi: 10.1146/annurev.biochem.66.1.679. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Cabanas MJ, Vazquez D, Modolell J. 
+1978. 
+Inhibition of ribosomal translocation by aminoglycoside antibiotics. Biochem Biophys Res Commun
+83:991–997. doi: 10.1016/0006-291X(78)91493-6. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+8. Scheunemann AE, Graham WD, Vendeix FA, Agris PF. 
+2010. 
+Binding of aminoglycoside antibiotics to helix 69 of 23S rRNA. Nucleic Acids Res
+38:3094–3105. doi: 10.1093/nar/gkp1253. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Borovinskaya MA, Pai RD, Zhang W, Schuwirth BS, Holton JM, Hirokawa G, Kaji H, Kaji A, Cate JH. 
+2007. 
+Structural basis for aminoglycoside inhibition of bacterial ribosome recycling. Nat Struct Mol Biol
+14:727–732. doi: 10.1038/nsmb1271. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+10. Wang L, Pulk A, Wasserman MR, Feldman MB, Altman RB, Cate JH, Blanchard SC. 
+2012. 
+Allosteric control of the ribosome by small-molecule antibiotics. Nat Struct Mol Biol
+19:957–963. doi: 10.1038/nsmb.2360. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Levin BR, McCall IC, Perrot V, Weiss H, Ovesepian A, Baquero F. 
+2017. 
+A numbers game: ribosome densities, bacterial growth, and antibiotic-mediated stasis and death. mBio
+8:e02253-16. doi: 10.1128/mBio.02253-16. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Poole K.
+2005. 
+Aminoglycoside resistance in Pseudomonas aeruginosa . Antimicrob Agents Chemother
+49:479–487. doi: 10.1128/AAC.49.2.479-487.2005. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Wilcox SK, Cavey GS, Pearson JD. 
+2001. 
+Single ribosomal protein mutations in antibiotic-resistant bacteria analyzed by mass spectrometry. Antimicrob Agents Chemother
+45:3046–3055. doi: 10.1128/AAC.45.11.3046-3055.2001. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+14. Vogne C, Aires JR, Bailly C, Hocquet D, Plésiat P. 
+2004. 
+Role of the multidrug efflux system MexXY in the emergence of moderate resistance to aminoglycosides among Pseudomonas aeruginosa isolates from patients with cystic fibrosis. Antimicrob Agents Chemother
+48:1676–1680. doi: 10.1128/AAC.48.5.1676-1680.2004. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Sobel ML, McKay GA, Poole K. 
+2003. 
+Contribution of the MexXY multidrug transporter to aminoglycoside resistance in Pseudomonas aeruginosa clinical isolates. Antimicrob Agents Chemother
+47:3202–3207. doi: 10.1128/AAC.47.10.3202-3207.2003. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+16. Guénard S, Muller C, Monlezun L, Benas P, Broutin I, Jeannot K, Plésiat P. 
+2014. 
+Multiple mutations lead to MexXY-OprM-dependent aminoglycoside resistance in clinical strains of Pseudomonas aeruginosa . Antimicrob Agents Chemother
+58:221–228. doi: 10.1128/AAC.01252-13. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+17. El'Garch F, Jeannot K, Hocquet D, Llanes-Barakat C, Plésiat P. 
+2007. 
+Cumulative effects of several nonenzymatic mechanisms on the resistance of Pseudomonas aeruginosa to aminoglycosides. Antimicrob Agents Chemother
+51:1016–1021. doi: 10.1128/AAC.00704-06. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Marvig RL, Sommer LM, Molin S, Johansen HK. 
+2015. 
+Convergent evolution and adaptation of Pseudomonas aeruginosa within patients with cystic fibrosis. Nat Genet
+47:57–64. doi: 10.1038/ng.3148. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+19. Smith EE, Buckley DG, Wu Z, Saenphimmachak C, Hoffman LR, D'Argenio DA, Miller SI, Ramsey BW, Speert DP, Moskowitz SM, Burns JL, Kaul R, Olson MV. 
+2006. 
+Genetic adaptation by Pseudomonas aeruginosa to the airways of cystic fibrosis patients. Proc Natl Acad Sci U S A
+103:8487–8492. doi: 10.1073/pnas.0602138103. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. Lopez-Causape C, Sommer LM, Cabot G, Rubio R, Ocampo-Sosa AA, Johansen HK, Figuerola J, Canton R, Kidd TJ, Molin S, Oliver A. 
+2017. 
+Evolution of the Pseudomonas aeruginosa mutational resistome in an international cystic fibrosis clone. Sci Rep
+7:5555. doi: 10.1038/s41598-017-05621-5. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+21. Feliziani S, Marvig RL, Lujan AM, Moyano AJ, Di Rienzo JA, Krogh Johansen H, Molin S, Smania AM. 
+2014. 
+Coexistence and within-host evolution of diversified lineages of hypermutable Pseudomonas aeruginosa in long-term cystic fibrosis infections. PLoS Genet
+10:e1004651. doi: 10.1371/journal.pgen.1004651. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+22. Islam S, Oh H, Jalal S, Karpati F, Ciofu O, Høiby N, Wretlind B. 
+2009. 
+Chromosomal mechanisms of aminoglycoside resistance in Pseudomonas aeruginosa isolates from cystic fibrosis patients. Clin Microbiol Infect
+15:60–66. doi: 10.1111/j.1469-0691.2008.02097.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+23. Fajardo A, Martinez-Martin N, Mercadillo M, Galan JC, Ghysels B, Matthijs S, Cornelis P, Wiehlmann L, Tümmler B, Baquero F, Martinez JL. 
+2008. 
+The neglected intrinsic resistome of bacterial pathogens. PLoS One
+3:e1619. doi: 10.1371/journal.pone.0001619. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+24. Schurek KN, Marr AK, Taylor PK, Wiegand I, Semenec L, Khaira BK, Hancock RE. 
+2008. 
+Novel genetic determinants of low-level aminoglycoside resistance in Pseudomonas aeruginosa . Antimicrob Agents Chemother
+52:4213–4219. doi: 10.1128/AAC.00507-08. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Winsor GL, Griffiths EJ, Lo R, Dhillon BK, Shay JA, Brinkman FS. 
+2016. 
+Enhanced annotations and features for comparing thousands of Pseudomonas genomes in the Pseudomonas genome database. Nucleic Acids Res
+44:D646–D653. doi: 10.1093/nar/gkv1227. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+26. Rodnina MV, Savelsbergh A, Katunin VI, Wintermeyer W. 
+1997. 
+Hydrolysis of GTP by elongation factor G drives tRNA movement on the ribosome. Nature
+385:37–41. doi: 10.1038/385037a0. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+27. Zhang D, Yan K, Zhang Y, Liu G, Cao X, Song G, Xie Q, Gao N, Qin Y. 
+2015. 
+New insights into the enzymatic role of EF-G in ribosome recycling. Nucleic Acids Res
+43:10525–10533. doi: 10.1093/nar/gkv901. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Carter AP, Clemons WM, Brodersen DE, Morgan-Warren RJ, Wimberly BT, Ramakrishnan V. 
+2000. 
+Functional insights from the structure of the 30S ribosomal subunit and its interactions with antibiotics. Nature
+407:340–348. doi: 10.1038/35030019. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+29. Palmer SO, Rangel EY, Hu Y, Tran AT, Bullard JM. 
+2013. 
+Two homologous EF-G proteins from Pseudomonas aeruginosa exhibit distinct functions. PLoS One
+8:e80252. doi: 10.1371/journal.pone.0080252. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+30. Jones AK, Woods AL, Takeoka KT, Shen X, Wei JR, Caughlan RE, Dean CR. 
+2017. 
+Determinants of antibacterial spectrum and resistance potential of the elongation factor G inhibitor argyrin B in key gram-negative pathogens. Antimicrob Agents Chemother
+61:e02400-16. doi: 10.1128/AAC.02400-16. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+31. Wattam AR, Davis JJ, Assaf R, Boisvert S, Brettin T, Bun C, Conrad N, Dietrich EM, Disz T, Gabbard JL, Gerdes S, Henry CS, Kenyon RW, Machi D, Mao C, Nordberg EK, Olsen GJ, Murphy-Olson DE, Olson R, Overbeek R, Parrello B, Pusch GD, Shukla M, Vonstein V, Warren A, Xia F, Yoo H, Stevens RL. 
+2017. 
+Improvements to PATRIC, the all-bacterial bioinformatics database and analysis resource center. Nucleic Acids Res
+45:D535–D542. doi: 10.1093/nar/gkw1017. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+32. Hocquet D, Nordmann P, El Garch F, Cabanne L, Plésiat P. 
+2006. 
+Involvement of the MexXY-OprM efflux system in emergence of cefepime resistance in clinical strains of Pseudomonas aeruginosa . Antimicrob Agents Chemother
+50:1347–1351. doi: 10.1128/AAC.50.4.1347-1351.2006. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+33. Masuda N, Sakagawa E, Ohya S, Gotoh N, Tsujimoto H, Nishino T. 
+2000. 
+Substrate specificities of MexAB-OprM, MexCD-OprJ, and MexXY-OprM efflux pumps in Pseudomonas aeruginosa . Antimicrob Agents Chemother
+44:3322–3327. doi: 10.1128/AAC.44.12.3322-3327.2000. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+34. Greipel L, Fischer S, Klockgether J, Dorda M, Mielke S, Wiehlmann L, Cramer N, Tümmler B. 
+2016. 
+Molecular epidemiology of mutations in antimicrobial resistance loci of Pseudomonas aeruginosa isolates from airways of cystic fibrosis patients. Antimicrob Agents Chemother
+60:6726–6734. doi: 10.1128/AAC.00724-16. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+35. Markussen T, Marvig RL, Gomez-Lozano M, Aanaes K, Burleigh AE, Høiby N, Johansen HK, Molin S, Jelsbak L. 
+2014. 
+Environmental heterogeneity drives within-host diversification and evolution of Pseudomonas aeruginosa . mBio
+5:e01592-14. doi: 10.1128/mBio.01592-14. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+36. Chung JC, Becq J, Fraser L, Schulz-Trieglaff O, Bond NJ, Foweraker J, Bruce KD, Smith GP, Welch M. 
+2012. 
+Genomic variation among contemporary Pseudomonas aeruginosa isolates from chronically infected cystic fibrosis patients. J Bacteriol
+194:4857–4866. doi: 10.1128/JB.01050-12. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+37. Feng Y, Jonker MJ, Moustakas I, Brul S, Ter Kuile BH. 
+2016. 
+Dynamics of mutations during development of resistance by Pseudomonas aeruginosa against five antibiotics. Antimicrob Agents Chemother
+60:4229–4236. doi: 10.1128/AAC.00434-16. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+38. Selva E, Gastaldo L, Saddler GS, Toppo G, Ferrari P, Carniti G, Goldstein BP. 
+1996. 
+Antibiotics A21459 A and B, new inhibitors of bacterial protein synthesis. I. Taxonomy, isolation, and characterization. J Antibiot (Tokyo)
+49:145–149. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+39. Gao YG, Selmer M, Dunham CM, Weixlbaumer A, Kelley AC, Ramakrishnan V. 
+2009. 
+The structure of the ribosome with elongation factor G trapped in the posttranslocational state. Science
+326:694–699. doi: 10.1126/science.1179709. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+40. Nyfeler B, Hoepfner D, Palestrant D, Kirby CA, Whitehead L, Yu R, Deng G, Caughlan RE, Woods AL, Jones AK, Barnes SW, Walker JR, Gaulis S, Hauy E, Brachmann SM, Krastel P, Studer C, Riedl R, Estoppey D, Aust T, Movva NR, Wang Z, Salcius M, Michaud GA, McAllister G, Murphy LO, Tallarico JA, Wilson CJ, Dean CR. 
+2012. 
+Identification of elongation factor G as the conserved cellular target of argyrin B. PLoS One
+7:e42657. doi: 10.1371/journal.pone.0042657. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+41. Bielecki P, Lukat P, Husecken K, Dötsch A, Steinmetz H, Hartmann RW, Muller R, Haussler S. 
+2012. 
+Mutation in elongation factor G confers resistance to the antibiotic argyrin in the opportunistic pathogen Pseudomonas aeruginosa . Chembiochem
+13:2339–2345. doi: 10.1002/cbic.201200479. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+42. Johanson U, Hughes D. 
+1994. 
+Fusidic acid-resistant mutants define three regions in elongation factor G of Salmonella typhimurium . Gene
+143:55–59. doi: 10.1016/0378-1119(94)90604-1. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+43. Westbrock-Wadman S, Sherman DR, Hickey MJ, Coulter SN, Zhu YQ, Warrener P, Nguyen LY, Shawar RM, Folger KR, Stover CK. 
+1999. 
+Characterization of a Pseudomonas aeruginosa efflux pump contributing to aminoglycoside impermeability. Antimicrob Agents Chemother
+43:2975–2983. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+44. Caughlan RE, Sriram S, Daigle DM, Woods AL, Buco J, Peterson RL, Dzink-Fox J, Walker S, Dean CR. 
+2009. 
+Fmt bypass in Pseudomonas aeruginosa causes induction of MexXY efflux pump expression. Antimicrob Agents Chemother
+53:5015–5021. doi: 10.1128/AAC.00253-09. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+45. Gutierrez B, Douthwaite S, Gonzalez-Zorn B. 
+2013. 
+Indigenous and acquired modifications in the aminoglycoside binding sites of Pseudomonas aeruginosa rRNAs. RNA Biol
+10:1324–1332. doi: 10.4161/rna.25984. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+46. Tourigny DS, Fernandez IS, Kelley AC, Ramakrishnan V. 
+2013. 
+Elongation factor G bound to the ribosome in an intermediate state of translocation. Science
+340:1235490. doi: 10.1126/science.1235490. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+47. Mogre A, Sengupta T, Veetil RT, Ravi P, Seshasayee AS. 
+2014. 
+Genomic analysis reveals distinct concentration-dependent evolutionary trajectories for antibiotic resistance in Escherichia coli . DNA Res
+21:711–726. doi: 10.1093/dnares/dsu032. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+48. Hou Y, Lin YP, Sharer JD, March PE. 
+1994. In vivo selection of conditional-lethal mutations in the gene encoding elongation factor G of Escherichia coli . J Bacteriol
+176:123–129. doi: 10.1128/jb.176.1.123-129.1994. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+49. Muller C, Plésiat P, Jeannot K. 
+2011. 
+A two-component regulatory system interconnects resistance to polymyxins, aminoglycosides, fluoroquinolones, and beta-lactams in Pseudomonas aeruginosa . Antimicrob Agents Chemother
+55:1211–1221. doi: 10.1128/AAC.01252-10. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+50. Ditta G, Stanfield S, Corbin D, Helinski DR. 
+1980. 
+Broad host range DNA cloning system for Gram-negative bacteria: construction of a gene bank of Rhizobium meliloti . Proc Natl Acad Sci U S A
+77:7347–7351. doi: 10.1073/pnas.77.12.7347. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+51. Stover CK, Pham XQ, Erwin AL, Mizoguchi SD, Warrener P, Hickey MJ, Brinkman FSL, Hufnagle WO, Kowalik DJ, Lagrou M, Garber RL, Goltry L, Tolentino E, Westbrock-Wadman S, Yuan Y, Brody LL, Coulter SN, Folger KR, Kas A, Larbig K, Lim R, Smith K, Spencer D, Wong GK-S, Wu Z, Paulsen IT, Reizer J, Saier MH, Hancock RE, Lory S, Olson MV. 
+2000. 
+Complete genome sequence of Pseudomonas aeruginosa PAO1, an opportunistic pathogen. Nature
+406:959–964. doi: 10.1038/35023079. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+52. Herrero M, de Lorenzo V, Timmis KN. 
+1990. 
+Transposon vectors containing nonantibiotic resistance selection markers for cloning and stable chromosomal insertion of foreign genes in gram-negative bacteria. J Bacteriol
+172:6557–6567. doi: 10.1128/jb.172.11.6557-6567.1990. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+53. Lacks S, Greenberg B. 
+1977. 
+Complementary specificity of restriction endonucleases of Diplococcus pneumoniae with respect to DNA methylation. J Mol Biol
+114:153–168. doi: 10.1016/0022-2836(77)90289-3. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+54. Kaniga K, Delor I, Cornelis GR. 
+1991. 
+A wide-host-range suicide vector for improving reverse genetics in Gram-negative bacteria: inactivation of the blaA gene of Yersinia enterocolitica . Gene
+109:137–141. doi: 10.1016/0378-1119(91)90599-7. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Associated Data 
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+
+Supplementary Materials 
+
+Supplemental material 
+
+supp_62_2_e01835-17__index.html (785B, html) 
+
+AAC.01835-17_zac004186851s1.pdf (59.8KB, pdf) 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (1.5 MB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

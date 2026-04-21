@@ -1,0 +1,474 @@
+PMID: 28223379
+PMCID: PMC5404534
+DOI: 10.1128/AAC.02534-16
+Title: Mutations in bla(KPC-3) That Confer Ceftazidime-Avibactam Resistance Encode Novel KPC-3 Variants That Function as Extended-Spectrum β-Lactamases.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2017 May
+Authors: Haidar G, Clancy CJ, Shields RK, Hao B, Cheng S, Nguyen MH
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Mutations in blaKPC-3 That Confer Ceftazidime-Avibactam Resistance Encode Novel KPC-3 Variants That Function as Extended-Spectrum β-Lactamases - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2017 Apr 24;61(5):e02534-16. doi: 10.1128/AAC.02534-16 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Mutations in bla KPC-3 That Confer Ceftazidime-Avibactam Resistance Encode Novel KPC-3 Variants That Function as Extended-Spectrum β-Lactamases 
+
+Ghady Haidar 
+
+Ghady Haidar 
+
+a University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA 
+
+Find articles by Ghady Haidar 
+
+a , Cornelius J Clancy 
+
+Cornelius J Clancy 
+
+b University of Pittsburgh, Pittsburgh, Pennsylvania, USA 
+
+c XDR Pathogen Laboratory, University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA 
+
+d VA Pittsburgh Healthcare System, Pittsburgh, Pennsylvania, USA 
+
+Find articles by Cornelius J Clancy 
+
+b, c, d, ✉ , Ryan K Shields 
+
+Ryan K Shields 
+
+b University of Pittsburgh, Pittsburgh, Pennsylvania, USA 
+
+c XDR Pathogen Laboratory, University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA 
+
+Find articles by Ryan K Shields 
+
+b, c , Binghua Hao 
+
+Binghua Hao 
+
+c XDR Pathogen Laboratory, University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA 
+
+Find articles by Binghua Hao 
+
+c , Shaoji Cheng 
+
+Shaoji Cheng 
+
+b University of Pittsburgh, Pittsburgh, Pennsylvania, USA 
+
+Find articles by Shaoji Cheng 
+
+b , M Hong Nguyen 
+
+M Hong Nguyen 
+
+a University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA 
+
+b University of Pittsburgh, Pittsburgh, Pennsylvania, USA 
+
+c XDR Pathogen Laboratory, University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA 
+
+Find articles by M Hong Nguyen 
+
+a, b, c 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA 
+
+b University of Pittsburgh, Pittsburgh, Pennsylvania, USA 
+
+c XDR Pathogen Laboratory, University of Pittsburgh Medical Center, Pittsburgh, Pennsylvania, USA 
+
+d VA Pittsburgh Healthcare System, Pittsburgh, Pennsylvania, USA 
+
+✉ 
+Address correspondence to Cornelius J. Clancy, cjc76@pitt.edu . 
+
+# 
+S.C. and M.H.N. contributed equally to this article. 
+
+Citation Haidar G, Clancy CJ, Shields RK, Hao B, Cheng S, Nguyen MH. 2017. Mutations in bla KPC-3 that confer ceftazidime-avibactam resistance encode novel KPC-3 variants that function as extended-spectrum β-lactamases. Antimicrob Agents Chemother 61:e02534-16. https://doi.org/10.1128/AAC.02534-16 . 
+
+✉ 
+Corresponding author. 
+
+Received 2016 Nov 28; Revision requested 2017 Jan 23; Accepted 2017 Feb 7; Prepublished 2017 Feb 21; Collection date 2017 May. 
+
+Copyright © 2017 American Society for Microbiology. 
+
+All Rights Reserved . 
+
+PMC Copyright notice 
+
+PMCID: PMC5404534  PMID: 28223379 
+
+ABSTRACT 
+
+We identified four bla KPC-3 mutations in ceftazidime-avibactam-resistant clinical Klebsiella pneumoniae isolates, corresponding to D179Y, T243M, D179Y/T243M, and EL165-166 KPC-3 variants. Using site-directed mutagenesis and transforming vectors into Escherichia coli , we conclusively demonstrated that mutant bla KPC-3 encoded enzymes that functioned as extended-spectrum β-lactamases; mutations directly conferred higher MICs of ceftazidime-avibactam and decreased the MICs of carbapenems and other β-lactams. Impact was strongest for the D179Y mutant, highlighting the importance of the KPC Ω-loop. 
+
+KEYWORDS: KPC, ceftazidime-avibactam, drug resistance mechanisms, site-directed mutagenesis 
+
+TEXT 
+
+Carbapenem-resistant Enterobacteriaceae (CRE) have emerged as major pathogens worldwide. In the United States, production of Klebsiella pneumoniae carbapenemases (KPCs) is the predominant mechanism of carbapenem resistance ( 1 – 3 ). Until recently, treatment options against infections due to CRE in general, and carbapenemase-producing Enterobacteriaceae (CPE) in particular, were limited ( 4 , 5 ). Ceftazidime-avibactam was approved in 2015 by the Food and Drug Administration for the treatment of complicated intra-abdominal infections and complicated urinary tract infections ( 6 ). Avibactam, a non-β-lactam β-lactamase inhibitor, inhibits extended-spectrum β-lactamases (ESBLs), AmpC β-lactamases, and class A carbapenemases (including KPC) but not metallo-β-lactamases ( 7 ). 
+
+We recently demonstrated that the outcomes of CPE-infected patients treated with ceftazidime-avibactam were comparable to those previously reported for salvage regimens that included two active agents and that toxicity rates were lower ( 7 ). Unfortunately, ceftazidime-avibactam resistance emerged within 10 to 19 days in three patients treated for KPC-producing K. pneumoniae infections. We further showed that ceftazidime-avibactam-resistant isolates had a variety of bla KPC-3 mutations that resulted in variant KPC-3 enzymes ( 8 ). Meropenem MICs were reduced ≥4-fold against ceftazidime-avibactam-resistant K. pneumoniae isolates ( 8 ). In fact, ceftazidime-avibactam-resistant isolates were identified as extended-spectrum β-lactamase (ESBL) producers by our clinical microbiology laboratory rather than as KPC-producing K. pneumoniae isolates ( 6 , 8 ). It is unclear if variant KPC-3 enzymes functioned as ESBLs or if ESBL phenotypes were due to other resistance determinants carried by the isolates. To demonstrate conclusively that KPC-3 variants conferred ceftazidime-avibactam resistance, carbapenem susceptibility, and an ESBL phenotype, we introduced mutations to bla KPC-3 by site-directed mutagenesis and measured antibiotic MICs against isogenic Escherichia coli expressing mutant genes. 
+
+We first cloned wild-type bla KPC-3 and flanking regions (600 bp upstream, 240 bp downstream) into pET30a (Novagen, Madison, WI) ( 8 ). We then created codon changes in bla KPC-3 using the Q5 site-directed mutagenesis kit (New England BioLabs, MA). The following codon changes were based on the bla KPC-3 mutations observed in ceftazidime-avibactam-resistant clinical K. pneumoniae isolates from our center: (i) a tyrosine for aspartic acid substitution at Ambler amino acid position 179 (D179Y), (ii) a methionine for threonine substitution at position 243 (T243M), (iii) a T243M/D179Y double substitution, or (iv) a glutamic acid and leucine insertion between positions 165 and 166 (EL165-166). The first three mutations were observed in isolates from our three previously reported patients ( 8 ), and the fourth mutation was detected in a previously unreported clinical isolate. PCR primers are listed in Table S1 in the supplemental material. pET30a plasmids (Novagen, Madison, WI) containing wild-type or mutant bla KPC-3 were transformed into E. coli DH5α (New England BioLabs, MA) by heat shock, and successful gene transfer was confirmed by PCR and sequencing. 
+
+E. coli transformed with bla KPC-3 were susceptible to ceftazidime-avibactam (MIC = 0.5 μg/ml) but resistant to meropenem, imipenem, ertapenem, ceftazidime, ceftriaxone, cefepime, ceftaroline, ampicillin-sulbactam, piperacillin-tazobactam, and aztreonam ( Table 1 ). Ceftazidime-avibactam MICs were higher against each of the E. coli isolates transformed with mutated bla KPC-3 (MIC range, 4 to 16 μg/ml) than against E. coli transformed with wild-type bla KPC-3 . In rank order by KPC-3 variant, the increase in ceftazidime-avibactam MICs was as follows: D179Y/T243M (32-fold) > D179Y or T243M (16-fold) > EL165-166 (8-fold). In contrast, carbapenem MICs were significantly lower against E. coli harboring mutated bla KPC-3 (meropenem MIC range, 0.06 to 0.125 μg/ml; imipenem MIC range, 0.25 to 2 μg/ml; ertapenem MIC range, 0.06 to 1 μg/ml) than they were against wild-type bla KPC-3 . In rank order, the decrease in carbapenem MICs was as follows: D179Y/T243M (meropenem, 64-fold; imipenem, 32-fold; ertapenem, 1,024-fold) > D179Y (meropenem, 64-fold; imipenem, 32-fold; ertapenem, 512-fold) > EL165-166 (meropenem, 32-fold; imipenem, 32-fold; ertapenem, 256-fold) > T243M (meropenem, 32-fold; imipenem, 4-fold; ertapenem, 64-fold). 
+
+TABLE 1. 
+
+Susceptibility to β-lactam agents and carbapenems among isogenic E. coli strains harboring KPC-3 or KPC-3 variants a 
+
+Antibiotic agent b Susceptibility Wild type D179Y T243 M D179Y/T243 M EL165-166 Ceftazidime MIC (μg/ml) 256 256 64 512 128 Fold change vs wild-type KPC-3 None ↓4 ↑2 ↓2 Susceptibility pattern R R R R R Ceftazidime-avibactam MIC (μg/ml) 0.5 8 8 16 4 Fold change vs wild-type KPC-3 ↑16 ↑16 ↑32 ↑8 Susceptibility pattern S I I R S Meropenem MIC (μg/ml) 4 0.06 0.125 0.06 0.125 Fold change vs wild-type KPC-3 ↓64 ↓32 ↓64 ↓32 Susceptibility pattern R S S S S Imipenem MIC (μg/ml) 8 0.25 2 0.25 0.25 Fold change vs wild-type KPC-3 ↓32 ↓4 ↓32 ↓32 Susceptibility pattern R S S S S Ertapenem MIC (μg/ml) 64 0.125 1 0.06 0.25 Fold change vs wild-type KPC-3 ↓512 ↓64 ↓1,024 ↓256 Susceptibility pattern R S S S S Ampicillin MIC (μg/ml) 512 8 512 8 512 Fold change vs wild-type KPC-3 ↓64 None ↓64 None Susceptibility pattern R S R S R Ampicillin-sulbactam MIC (μg/ml) 512 4 512 2 512 Fold change vs wild-type KPC-3 ↓128 None ↓256 None Susceptibility pattern R S R S R Piperacillin-tazobactam MIC (μg/ml) 512 0.5 8 1 1 Fold change vs wild-type KPC-3 ↓1,024 ↓64 ↓512 ↓512 Susceptibility pattern R S S S S Ceftriaxone MIC (μg/ml) 64 8 32 8 64 Fold change vs wild-type KPC-3 ↓8 ↓2 ↓8 None Susceptibility pattern R S I S S Cefepime MIC (μg/ml) 512 4 4 2 2 Fold change vs wild-type KPC-3 ↓128 ↓128 ↓256 ↓256 Susceptibility pattern R DDS DDS S S Ceftaroline MIC (μg/ml) 512 16 64 16 64 Fold change vs wild-type KPC-3 ↓32 ↓8 ↓32 ↓8 Susceptibility pattern R R R R R Aztreonam MIC (μg/ml) 512 2 512 1 2 Fold change vs wild-type KPC-3 ↓256 None ↓512 ↓256 Susceptibility pattern R S R S S 
+
+Open in a new tab 
+
+a 
+Downward arrows indicate fold reduction in MIC while upward arrows indicate fold increase in MIC. S, susceptible; I, intermediate; R, resistant; DDS, dose-dependent susceptible. 
+
+b 
+Antibiotics were obtained from the University of Pittsburgh Medical Center pharmacy. Avibactam was supplied by AstraZeneca. Susceptibilities were determined by broth microdilution (ceftazidime, ceftazidime-avibactam [fixed avibactam concentration of 4 μg/ml], imipenem, and meropenem), Etest methods (ampicillin, ampicillin-sulbactam, ceftriaxone, cefepime, ceftaroline, piperacillin-tazobactam), and disk diffusion (cefotetan, cefoxitin, piperacillin-tazobactam). Clinical and Laboratory Standards Institute (CLSI) interpretive breakpoints were used ( 9 ). An isolate was defined as carbapenem resistant if it was resistant to either ertapenem, imipenem, or meropenem (MICs of ≥2, ≥4, or ≥4 μg/ml, respectively), as recommended by the CLSI and Centers for Disease Control ( 3 , 9 ). 
+
+E. coli isolates with D179Y/T243M and D179Y KPC-3 variants exhibited ≥128-fold, ≥512-fold, ≥256-fold, and 8- to 256-fold reductions in the MICs of ampicillin-sulbactam, piperacillin-tazobactam, aztreonam, and other β-lactams, respectively, compared to those of E. coli isolates with wild-type KPC-3. Ampicillin, ampicillin-sulbactam, and ceftriaxone MICs against E. coli isolates harboring T243M, EL165-166, or wild-type KPC-3 did not differ significantly (≤2-fold differences for each antibiotic). However, compared to wild-type KPC-3, T243M and EL165-166 variants were associated with reductions of ≥128-fold in cefepime MIC, 8-fold in ceftaroline MIC, and ≥64-fold in piperacillin-tazobactam MIC. The aztreonam MIC was reduced 256-fold against E. coli harboring EL165-166 variant KPC-3 but was unchanged against E. coli harboring the T243M variant. 
+
+E. coli isolates transformed with mutated bla KPC-3 manifested ESBL phenotypes ( Tables 2 and 3 ) ( 9 ). For transformants with each mutated bla KPC-3 , disk diffusion zone size differences were ≥14 mm between ceftazidime and ceftazidime-clavulanate and ≥5 mm between cefotaxime and cefotaxime-clavulanate. E. coli isolates with D179Y/T243M, D179Y, and T243M KPC-3 variants exhibited ≥5 twofold (i.e., ≥32-fold) decreases in cefotaxime MICs in combination with clavulanate when compared to cefotaxime alone. E. coli isolates with variant KPC-3 enzymes were susceptible to cefotetan, cefoxitin, and piperacillin-tazobactam ( Tables 1 and 3 ). 
+
+TABLE 2. 
+
+Extended-spectrum β-lactamase assays for isogenic E. coli strains harboring KPC-3 or KPC-3 variants for cephalosporin versus cephalosporin-clavulanate 
+
+KPC-3 or variant ESBL testing results ESBL? a Disk diffusion (zone size in mm) Disk diffusion (zone size in mm) Etest MIC (μg/ml) Ceftazidime Ceftazidime-clavulanate Zone size difference Cefotaxime Cefotaxime-clavulanate Zone size difference Cefotaxime Cefotaxime-clavulanate No. 2-fold (actual fold) decrease in MICs Wild-type 10 15 5 14 18 4 >16 >1 NA c D179Y No zone b 23 17 23 31 8 4 0.06 Six 2-fold (or 64-fold) Yes T243M No zone 20 14 19 24 5 4 0.06 Six 2-fold (or 64-fold) Yes D179Y/T243M No zone 23 17 28 34 6 4 0.125 Five 2-fold (or 32-fold) Yes EL165-166 No zone 23 17 13 32 19 >16 >1 NA Yes 
+
+Open in a new tab 
+
+a 
+Isolates were identified as ESBL producers by CLSI criteria ( 9 ), i.e., a difference of ≥5 mm between zone diameters of a ceftazidime or cefotaxime disk and the respective clavulanate-containing disk or a ≥3 twofold (i.e., ≥8-fold) decrease in cefotaxime MIC in combination with clavulanate versus cefotaxime alone (as determined using an Etest strip). 
+
+b 
+When no zone was present, the zone size difference was calculated by subtracting 6 mm (the size of the disk) from the zone size around ceftazidime-clavulanate. 
+
+c 
+NA, not applicable. 
+
+TABLE 3. 
+
+Cephamycin susceptibility testing 
+
+KPC-3 or variant Kirby-Bauer test result a Cefotetan (zone size in mm) Cefotetan susceptibility pattern Cefoxitin (zone size in mm) Cefoxitin susceptibility pattern Wild-type 14 I 16 I D179Y 26 S 32 S T243M 17 S 22 S D179Y/T243M 24 S 29 S EL165-166 18 S 25 S 
+
+Open in a new tab 
+
+a 
+S, sensitive; I, intermediate; R, resistant. 
+
+In testing isogenic E. coli isolates that harbored wild-type or mutated bla KPC-3 generated by site-directed mutagenesis, we studied the impact of KPC-3 variants on antibiotic susceptibility without the influence of background resistance mechanisms, such as other β-lactamases or porin mutations. Our findings confirm that the bla KPC-3 mutations that emerged during ceftazidime-avibactam treatment of K. pneumoniae infections directly conferred reduced susceptibility to ceftazidime-avibactam, reduced carbapenem and other β-lactam MICs, and encoded enzymes that functioned as ESBLs. 
+
+We found that the D179Y/T243M KPC-3 variant exerted the greatest impact on ceftazidime-avibactam and carbapenem MICs compared to that of wild-type KPC-3; this was followed by the D179Y variant and then the T243M or EL165-166 variants. D179Y and T243M single substitutions, ceftazidime-avibactam resistance, and restored carbapenem susceptibility were generated previously in KPC-3-producing K. pneumoniae by in vitro selection, but the mutations were not validated as the causes of altered MICs ( 10 ). In another study, the introduction of substitutions at KPC-2 amino acid positions 179 and 243 by site-directed mutagenesis also resulted in ceftazidime-avibactam resistance in E. coli ( 11 ). The precise mechanisms by which the mutations reported here mediate changes in ceftazidime-avibactam, carbapenem, and other β-lactam susceptibilities are unclear. The relative importance of D179Y compared to EL165-166 or T243M suggests a central role for KPC Ω-loop stability. The Ω-loop is maintained by a salt bridge between D179 and arginine at position 164 ( 11 , 12 ). Position 179 KPC variants with Ω-loop instability demonstrate enhanced ceftazidime affinity, which is postulated to restrict the binding of avibactam ( 11 ). This may not be the sole mechanism of ceftazidime-avibactam resistance, however, as KPC variants did not protect E. coli against ceftazidime-clavulanate. The decreases that we observed in meropenem, imipenem, and ertapenem MICs against KPC-3 variants are likely due to reduced carbapenemase activity as is well-recognized to occur following a variety of stepwise bla KPC mutations ( 13 ). Determining the crystal structure of novel KPC-3 variants, their interactions with β-lactams, and enzyme kinetics is a future research priority. 
+
+Our findings suggest that the ESBL phenotypes reported by the clinical microbiology lab for the original ceftazidime-avibactam-resistant K. pneumoniae isolates were caused in part by the variant KPC-3 enzymes. It has been previously proposed that KPC-2 variants with substitutions at amino acid position 179 behave as ESBLs ( 11 ). Although E. coli with mutant bla KPC-3 fulfilled Clinical and Laboratory Standards Institute (CLSI) criteria for the presence of ESBL ( 9 ), consensus definitions have not been established ( 14 – 20 ). A commonly used definition is that ESBLs are β-lactamases that confer resistance to penicillins, first-, second-, and third-generation cephalosporins, and often aztreonam (but not carbapenems) and that are inhibited by β-lactamase inhibitors like clavulanate ( 14 ). Susceptibility to cephamycins like cefoxitin and cefotetan, as observed for the KPC-3 variants here, is not included in the formal CLSI definition but also supports an ESBL phenotype ( 14 – 20 ). Moreover, piperacillin-tazobactam susceptibility is well-recognized among certain ESBL-producing Enterobacteriaceae ( 21 ). Many KPC-2- and KPC-3-producing Enterobacteriaceae fulfill CLSI criteria for ESBL production, but the enzymes are not considered ESBLs due to their carbapenemase activity ( 22 ). With increased use of ceftazidime-avibactam and other new agents with activity against CPE, it is likely that a wide range of bla KPC mutations will emerge that result in KPC variants with differing antibiotic affinities and hydrolytic properties. In this regard, the evolution of KPCs is likely to resemble that of ESBLs, among which a wide array of TEM, SHV, and CTX variants have arisen. Our experience suggests that molecular probes for bla KPC detection may be less useful as a clinical tool than phenotypic assays and sequencing approaches. 
+
+The optimal treatment of infections caused by Enterobacteriaceae expressing variant KPCs is unclear. Reversion to carbapenem susceptibility and identification of ESBL phenotypes imply a potential role for carbapenems. However, the efficacy of this drug class in these settings is unproven, and the stability of restored carbapenem susceptibility is unknown. The use of both ceftazidime-avibactam and a carbapenem for treatment of CPE infections is intriguing; avibactam may protect the carbapenem against hydrolysis by carbapenemase, and there would be carbapenem counterselection against bla KPC-3 mutations that lead to ceftazidime-avibactam resistance. There are currently no data to support dual ceftazidime-avibactam and carbapenem therapy, and it is unknown if other mechanisms of resistance, such as porin mutations, would develop in this setting. New agents in development, including novel combinations of β-lactamase inhibitors with carbapenems or other agents, merit investigation. In the past, the use of β-lactamase/β-lactamase inhibitor combinations against infections by ESBL-producing organisms has generated conflicting efficacy data ( 23 – 26 ). Better understanding of isolate genetics may help define the roles of various agents. 
+
+In conclusion, we have shown that novel bla KPC-3 mutations result in variant KPC-3 enzymes that significantly reduce ceftazidime-avibactam susceptibility and generally behave like ESBLs. With the increased use of ceftazidime-avibactam, it is expected that resistance will continue to emerge and plasmids carrying mutant genes may disseminate by horizontal gene transfer. We advocate routine ceftazidime-avibactam susceptibility testing of Enterobacteriaceae , even in the absence of prior drug exposure, and screening of resistant isolates for bla KPC carriage or mutations. 
+
+Supplementary Material 
+
+Supplemental material 
+
+supp_61_5_e02534-16__index.html (911B, html) 
+
+ACKNOWLEDGMENTS 
+
+This work was funded, in part, by grants from the National Institutes of Health (UM1AI104681 and R21AI288338 to M.H.N., R21AI111037 to C.J.C., and K08AI114883 to R.K.S.). 
+
+We declare no conflicts of interest. 
+
+Footnotes 
+
+Supplemental material for this article may be found at https://doi.org/10.1128/AAC.02534-16 . 
+
+REFERENCES 
+
+1. Haidar G, Alkroud A, Cheng S, Churilla TM, Churilla BM, Shields RK, Doi Y, Clancy CJ, Nguyen MH. 
+2016. 
+Association between the presence of aminoglycoside-modifying enzymes and in vitro activity of gentamicin, tobramycin, amikacin, and plazomicin against Klebsiella pneumoniae carbapenemase- and extended-spectrum-beta-lactamase-producing Enterobacter species. Antimicrob Agents Chemother
+60:5208–5214. doi: 10.1128/AAC.00869-16. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+2. Ahn C, Syed A, Hu F, O'Hara JA, Rivera JI, Doi Y. 
+2014. 
+Microbiological features of KPC-producing Enterobacter isolates identified in a U.S. hospital system. Diagn Microbiol Infect Dis
+80:154–158. doi: 10.1016/j.diagmicrobio.2014.06.010. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Centers for Disease Control and Prevention. FAQs about choosing and implementing a CRE definition. Centers for Disease Control and Prevention, Atlanta, GA: https://www.cdc.gov/hai/organisms/cre/definition.html . [ Google Scholar ] 
+
+4. Qureshi ZA, Paterson DL, Potoski BA, Kilayko MC, Sandovsky G, Sordillo E, Polsky B, Adams-Haduch JM, Doi Y. 
+2012. 
+Treatment outcome of bacteremia due to KPC-producing Klebsiella pneumoniae : superiority of combination antimicrobial regimens. Antimicrob Agents Chemother
+56:2108–2113. doi: 10.1128/AAC.06268-11. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Tzouvelekis LS, Markogiannakis A, Piperaki E, Souli M, Daikos GL. 
+2014. 
+Treating infections caused by carbapenemase-producing Enterobacteriaceae . Clin Microbiol Infect
+20:862–872. doi: 10.1111/1469-0691.12697. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+6. Forest Pharmaceuticals, Inc. 2016. 
+Avycaz (ceftazidime-avibactam) prescribing information. Forest Pharmaceuticals, Inc., Cincinnati, OH. [ Google Scholar ] 
+
+7. Shields RK, Potoski BA, Haidar G, Hao B, Doi Y, Chen L, Press EG, Kreiswirth BN, Clancy CJ, Nguyen MH. 
+2016. 
+Clinical outcomes, drug toxicity, and emergence of ceftazidime-avibactam resistance among patients treated for carbapenem-resistant Enterobacteriaceae infections. Clin Infect Dis
+63:1615–1618. doi: 10.1093/cid/ciw636. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Shields RK, Chen L, Cheng S, Chavda KD, Press EG, Snyder A, Pandey R, Doi Y, Kreiswirth BN, Nguyen MH, Clancy CJ. 
+28
+December
+2016. 
+Emergence of ceftazidime-avibactam resistance due to plasmid-borne bla KPC-3 mutations during treatment of carbapenem-resistant Klebsiella pneumoniae infections. Antimicrob Agents Chemother doi: 10.1128/AAC.02097-16. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Clinical and Laboratory Standards Institute. 2015. 
+Performance standards for antimicrobial susceptibility testing; 25th informational supplement. CLSI M100-S25. Clinical and Laboratory Standards Institute, Wayne, PA. [ Google Scholar ] 
+
+10. Livermore DM, Warner M, Jamrozy D, Mushtaq S, Nichols WW, Mustafa N, Woodford N. 
+2015. In vitro selection of ceftazidime-avibactam resistance in Enterobacteriaceae with KPC-3 carbapenemase. Antimicrob Agents Chemother
+59:5324–5330. doi: 10.1128/AAC.00678-15. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Winkler ML, Papp-Wallace KM, Bonomo RA. 
+2015. 
+Activity of ceftazidime/avibactam against isogenic strains of Escherichia coli containing KPC and SHV beta-lactamases with single amino acid substitutions in the omega-loop. J Antimicrob Chemother
+70:2279–2286. doi: 10.1093/jac/dkv094. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Levitt PS, Papp-Wallace KM, Taracila MA, Hujer AM, Winkler ML, Smith KM, Xu Y, Harris ME, Bonomo RA. 
+2012. 
+Exploring the role of a conserved class A residue in the omega-loop of KPC-2 beta-lactamase: a mechanism for ceftazidime hydrolysis. J Biol Chem
+287:31783–31793. doi: 10.1074/jbc.M112.348540. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Wolter DJ, Kurpiel PM, Woodford N, Palepou MF, Goering RV, Hanson ND. 
+2009. 
+Phenotypic and enzymatic comparative analysis of the novel KPC variant KPC-5 and its evolutionary variants, KPC-2 and KPC-4. Antimicrob Agents Chemother
+53:557–562. doi: 10.1128/AAC.00734-08. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+14. Paterson DL, Bonomo RA. 
+2005. 
+Extended-spectrum beta-lactamases: a clinical update. Clin Microbiol Rev
+18:657–686. doi: 10.1128/CMR.18.4.657-686.2005. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Bush K, Jacoby GA. 
+2010. 
+Updated functional classification of beta-lactamases. Antimicrob Agents Chemother
+54:969–976. doi: 10.1128/AAC.01009-09. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+16. Giske CG, Sundsfjord AS, Kahlmeter G, Woodford N, Nordmann P, Paterson DL, Canton R, Walsh TR. 
+2009. 
+Redefining extended-spectrum beta-lactamases: balancing science and clinical need. J Antimicrob Chemother
+63:1–4. doi: 10.1093/jac/dkn444. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+17. Rupp ME, Fey PD. 
+2003. 
+Extended spectrum beta-lactamase (ESBL)-producing Enterobacteriaceae : considerations for diagnosis, prevention and drug treatment. Drugs
+63:353–365. doi: 10.2165/00003495-200363040-00002. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+18. Livermore DM.
+2008. 
+Defining an extended-spectrum beta-lactamase. Clin Microbiol Infect
+14(Suppl):S3–S10. doi: 10.1111/j.1469-0691.2007.01857.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+19. Lee CH, Su LH, Tang YF, Liu JW. 
+2006. 
+Treatment of ESBL-producing Klebsiella pneumoniae bacteraemia with carbapenems or flomoxef: a retrospective study and laboratory analysis of the isolates. J Antimicrob Chemother
+58:1074–1077. doi: 10.1093/jac/dkl381. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+20. Harris PN, Tambyah PA, Paterson DL. 
+2015. 
+Beta-lactam and beta-lactamase inhibitor combinations in the treatment of extended-spectrum beta-lactamase producing Enterobacteriaceae : time for a reappraisal in the era of few antibiotic options?
+Lancet Infect Dis
+15:475–485. doi: 10.1016/S1473-3099(14)70950-8. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+21. Retamar P, Lopez-Cerero L, Muniain MA, Pascual A, Rodriguez-Bano J, ESBL-REIPI/GEIH Group. 2013. 
+Impact of the MIC of piperacillin-tazobactam on the outcome of patients with bacteremia due to extended-spectrum-beta-lactamase-producing Escherichia coli . Antimicrob Agents Chemother
+57:3402–3404. doi: 10.1128/AAC.00135-13. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+22. Stachyra T, Levasseur P, Pechereau MC, Girard AM, Claudon M, Miossec C, Black MT. 
+2009. In vitro activity of the β-lactamase inhibitor NXL104 against KPC-2 carbapenemase and Enterobacteriaceae expressing KPC carbapenemases. J Antimicrob Chemother
+64:326–329. doi: 10.1093/jac/dkp197. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+23. Perez F, Bonomo RA. 
+2015. 
+Editorial commentary: bloodstream infection caused by extended-spectrum beta-lactamase-producing Gram-negative bacteria: how to define the best treatment regimen?
+Clin Infect Dis
+60:1326–1329. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+24. Tamma PD, Han JH, Rock C, Harris AD, Lautenbach E, Hsu AJ, Avdic E, Cosgrove SE, Antibacterial Resistance Leadership Group. 2015. 
+Carbapenem therapy is associated with improved survival compared with piperacillin-tazobactam for patients with extended-spectrum beta-lactamase bacteremia. Clin Infect Dis
+60:1319–1325. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Rodriguez-Bano J, Navarro MD, Retamar P, Picon E, Pascual A, Extended-Spectrum Beta-Lactamases–Red Española de Investigación en Patología Infecciosa/Grupo de Estudio de Infección Hospitalaria Group. 2012. 
+Beta-lactam/beta-lactam inhibitor combinations for the treatment of bacteremia due to extended-spectrum beta-lactamase-producing Escherichia coli : a post hoc analysis of prospective cohorts. Clin Infect Dis
+54:167–174. doi: 10.1093/cid/cir790. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+26. Perez F, Bonomo RA. 
+2012. 
+Can we really use beta-lactam/beta-lactamase inhibitor combinations for the treatment of infections caused by extended-spectrum beta-lactamase-producing bacteria?
+Clin Infect Dis
+54:175–177. doi: 10.1093/cid/cir793. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Associated Data 
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+
+Supplementary Materials 
+
+Supplemental material 
+
+supp_61_5_e02534-16__index.html (911B, html) 
+
+AAC.02534-16_zac005176115s1.pdf (89.6KB, pdf) 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (185.1 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top
