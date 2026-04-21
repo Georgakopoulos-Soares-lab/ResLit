@@ -79,6 +79,7 @@ CROSSREF_WORKS_BASE = "https://api.crossref.org/works"
 UNPAYWALL_BASE = "https://api.unpaywall.org/v2"
 OPENALEX_WORKS_BASE = "https://api.openalex.org/works"
 EUROPE_PMC_SEARCH_BASE = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+EUROPE_PMC_FULLTEXT_BASE = "https://www.ebi.ac.uk/europepmc/webservices/rest"
 
 USER_AGENT = "pmid_pipeline/0.1 (https://example.org)"
 
@@ -134,6 +135,10 @@ def read_pmids(path: str | Path, limit: int | None = None) -> list[str]:
             if not pmid or pmid.startswith("#"):
                 continue
             if not pmid.isdigit():
+                continue
+            # PubMed IDs are numeric and currently fit within 8 digits.
+            # Longer values in the source list are treated as malformed input.
+            if len(pmid) > 8:
                 continue
             if pmid in seen:
                 continue
@@ -411,6 +416,18 @@ def search_openalex_title(client: HttpClient, title: str, doi: str = "") -> dict
     return {}
 
 
+def fetch_europepmc_fulltext(client: HttpClient, pmcid: str) -> str:
+    """Fetch full-text XML from Europe PMC for a given PMCID.
+
+    Europe PMC provides open-access full text for many articles that are
+    in PMC, including some publisher-restricted ones that NCBI EFetch blocks.
+    Returns the raw XML string, or raises on failure.
+    """
+    numeric_id = pmcid.upper().removeprefix("PMC")
+    url = f"{EUROPE_PMC_FULLTEXT_BASE}/PMC{numeric_id}/fullTextXML"
+    return client.get_text(url, timeout=120)
+
+
 def fetch_europepmc_core(client: HttpClient, pmid: str) -> dict[str, Any]:
     return client.get_json(
         EUROPE_PMC_SEARCH_BASE,
@@ -496,6 +513,249 @@ def flatten_pmc_xml_to_sections(xml_text: str) -> list[dict[str, str]]:
                 body_text = body_text.replace(title, "", 1).strip()
             sections.append({"section": "FULL_TEXT", "text": body_text})
     return sections
+
+
+def flatten_elsevier_xml_to_sections(xml_text: str) -> list[dict[str, str]]:
+    import xml.etree.ElementTree as ET
+
+    def local_name(tag: str) -> str:
+        if "}" in tag:
+            return tag.rsplit("}", 1)[-1]
+        if ":" in tag:
+            return tag.rsplit(":", 1)[-1]
+        return tag
+
+    def normalize_text(text: str) -> str:
+        return " ".join(text.split()).strip()
+
+    def append_section(store: list[dict[str, str]], name: str, text: str) -> None:
+        clean_text = normalize_text(text)
+        if not clean_text:
+            return
+        clean_name = normalize_text(name).upper() or "BODY"
+        if store and store[-1]["section"] == clean_name and store[-1]["text"] == clean_text:
+            return
+        if store and store[-1]["section"] == clean_name:
+            store[-1]["text"] = f"{store[-1]['text']}\n\n{clean_text}".strip()
+            return
+        store.append({"section": clean_name, "text": clean_text})
+
+    try:
+        root = ET.fromstring(xml_text)
+    except ET.ParseError:
+        return []
+
+    original_text = None
+    for elem in root.iter():
+        if local_name(elem.tag) == "originalText":
+            original_text = elem
+            break
+    if original_text is None:
+        return []
+
+    sections: list[dict[str, str]] = []
+    abstract_seen: set[str] = set()
+
+    for elem in original_text.iter():
+        if local_name(elem.tag) != "abstract":
+            continue
+        abstract_text = normalize_text("".join(elem.itertext()))
+        if not abstract_text or abstract_text in abstract_seen:
+            continue
+        abstract_seen.add(abstract_text)
+        append_section(sections, "ABSTRACT", abstract_text)
+
+    body_root = None
+    for elem in original_text.iter():
+        if local_name(elem.tag) == "body":
+            body_root = elem
+            break
+
+    def walk(node: Any, current_section: str) -> str:
+        local = local_name(getattr(node, "tag", ""))
+
+        if local == "section-title":
+            title = normalize_text("".join(node.itertext()))
+            return title.upper() if title else current_section
+
+        if local in {"para", "simple-para"}:
+            append_section(sections, current_section or "BODY", "".join(node.itertext()))
+            return current_section
+
+        child_section = current_section
+        for child in list(node):
+            child_section = walk(child, child_section)
+        return current_section
+
+    walk(body_root or original_text, "BODY")
+
+    if sections:
+        return sections
+
+    fallback_text = normalize_text("".join(original_text.itertext()))
+    if fallback_text:
+        return [{"section": "FULL_TEXT", "text": fallback_text}]
+    return []
+
+
+_ABSTRACT_SECTION_NAMES: frozenset[str] = frozenset({
+    "abstract", "title", "keywords", "conflict of interest",
+    "acknowledgements", "acknowledgments", "author contributions",
+    "authors contributions", "competing interests", "funding",
+    "data availability", "availability of data and materials",
+    "supplementary material", "supplemental material",
+    "supporting information", "abbreviations", "declarations",
+    "ethics", "consent",
+})
+
+_NON_BODY_SECTION_NAMES: frozenset[str] = frozenset({
+    *_ABSTRACT_SECTION_NAMES,
+    "references",
+    "selected references",
+    "supplementary data",
+    "resources",
+    "raw_pdf_note",
+    "publisher_html",
+    "oa_html",
+    "elsevier_xml",
+    "publisher_full_text_json",
+    "springer_jats_xml",
+})
+
+_BODY_HEADING_MARKERS: frozenset[str] = frozenset({
+    "introduction",
+    "background",
+    "materials and methods",
+    "methods",
+    "patients and methods",
+    "experimental procedures",
+    "results",
+    "discussion",
+    "results and discussion",
+    "conclusion",
+    "conclusions",
+    "case report",
+    "case presentation",
+    "case 1",
+    "case 2",
+    "case 3",
+    "the study",
+    "observations",
+})
+
+
+def _normalize_heading(value: str) -> str:
+    return re.sub(r"\s+", " ", value.strip().lower()).rstrip(":.")
+
+
+def _count_words(text: str) -> int:
+    clean = re.sub(r"<[^>]+>", " ", text)
+    return len(clean.split())
+
+
+def _count_body_section_words(sections: list[dict[str, str]]) -> int:
+    total = 0
+    for sec in sections:
+        name = _normalize_heading(sec.get("section", ""))
+        if name in _NON_BODY_SECTION_NAMES:
+            continue
+        total += _count_words(sec.get("text", ""))
+    return total
+
+
+def _html_body_marker_count(text: str) -> int:
+    count = 0
+    for line in text.splitlines():
+        if _normalize_heading(line) in _BODY_HEADING_MARKERS:
+            count += 1
+    return count
+
+
+def _looks_like_pmc_pdf_shell(text: str) -> bool:
+    lowered = text.lower()
+    return (
+        "search pmc full-text archive search in pmc" in lowered
+        and "selected references" in lowered
+        and ("image on p." in lowered or "\nfull text\npdf\n" in lowered)
+    )
+
+
+def _looks_like_publisher_preview(text: str) -> bool:
+    lowered = text.lower()
+    if "full text loading..." in lowered or "article metrics loading" in lowered:
+        return True
+    if "j-stage home" in lowered and "browse" in lowered and "all titles" in lowered:
+        return True
+    return False
+
+
+def is_valid_fulltext_content(
+    source: str,
+    sections: list[dict[str, str]],
+    raw_text: str = "",
+    min_words: int = 1000,
+) -> tuple[bool, str, int]:
+    """Return whether extracted content looks like real full text.
+
+    This is intentionally stricter for HTML sources so preview shells are
+    rejected before they are persisted as successful full-text outputs.
+    """
+    body_words = _count_body_section_words(sections)
+    if source in {"PMC_OA_Bulk_XML", "PMC_EFetch_XML", "PMC_OA_BioC", "EuropePMC_FullText_XML"}:
+        if sections_have_body(sections) and body_words >= min_words:
+            return True, "structured_body", body_words
+        return False, "body_below_min_words", body_words
+
+    if source == "Elsevier_Candidate_XML":
+        if sections_have_body(sections) and body_words >= min_words:
+            return True, "elsevier_body", body_words
+        return False, "body_below_min_words", body_words
+
+    if source == "Elsevier_Candidate_Text":
+        total_words = sum(_count_words(sec.get("text", "")) for sec in sections)
+        if total_words >= min_words:
+            return True, "elsevier_text", total_words
+        return False, "body_below_min_words", total_words
+
+    if source in {"OA_HTML", "Publisher_HTML", "PUBLISHER_HTML", "OA_HTML"}:
+        html_text = sections[0]["text"] if sections else raw_text
+        total_words = _count_words(html_text)
+        if source == "OA_HTML" and _looks_like_pmc_pdf_shell(html_text):
+            return False, "pmc_pdf_page_only", total_words
+        if _looks_like_publisher_preview(html_text):
+            return False, "publisher_preview_only", total_words
+        marker_count = _html_body_marker_count(html_text)
+        if marker_count > 0 and total_words >= min_words:
+            return True, f"html_markers:{marker_count}", total_words
+        return False, "publisher_preview_only", total_words
+
+    total_words = sum(_count_words(sec.get("text", "")) for sec in sections)
+    if sections_have_body(sections) and body_words >= min_words:
+        return True, "structured_body", body_words
+    return False, "body_below_min_words", total_words
+
+
+def sections_have_body(sections: list[dict[str, str]]) -> bool:
+    """Return True if at least one section is a real body section (not abstract/metadata)."""
+    for sec in sections:
+        name = sec.get("section", "").strip().lower()
+        if name not in _ABSTRACT_SECTION_NAMES:
+            return True
+    return False
+
+
+def pmc_xml_has_body(xml_text: str) -> bool:
+    """Return True if a PMC XML document has a non-empty <body> element."""
+    import xml.etree.ElementTree as ET
+    try:
+        root = ET.fromstring(xml_text)
+        body = root.find(".//body")
+        if body is None:
+            return False
+        body_text = " ".join(body.itertext()).strip()
+        return len(body_text) > 200
+    except ET.ParseError:
+        return False
 
 
 def llm_ready_text(metadata: dict[str, Any], sections: list[dict[str, str]]) -> str:
