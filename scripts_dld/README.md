@@ -2,13 +2,16 @@
 
 Retrieves full-text articles for a PMID list and produces a verified, deduplicated corpus ready for downstream LLM/RAG workflows.
 
+---
+
 ## Quick start
 
 ```bash
-# Copy and fill in your API keys
+# 1. Set up API keys
 cp apikey.env.example apikey.env
+# Edit apikey.env and fill in your keys (see API Keys section below)
 
-# Run the full pipeline on your PMID list
+# 2. Run the full pipeline
 python3 run_pipeline.py \
     --pmid-file my_pmids.txt \
     --out-dir   my_run \
@@ -17,31 +20,77 @@ python3 run_pipeline.py \
 
 Results appear in `my_run_merged/fulltext_txt/`.
 
+---
+
+## API keys
+
+The scripts load `apikey.env` automatically at startup. Copy the template and fill in your credentials before running anything.
+
+```
+NCBI_KEY=your_ncbi_api_key
+ELSEVIER_KEY=your_elsevier_api_key
+WILEY_KEY=your_wiley_tdm_token
+SPRINGER_KEY=your_springer_api_key
+```
+
+| Key | How to get | Required |
+|---|---|---|
+| `NCBI_KEY` | Free at https://www.ncbi.nlm.nih.gov/account/ — raises rate limit from 3 to 10 req/s | Strongly recommended |
+| `ELSEVIER_KEY` | https://dev.elsevier.com/ | For Elsevier articles |
+| `WILEY_KEY` | Via institutional TDM agreement | For Wiley PDFs |
+| `SPRINGER_KEY` | https://dev.springernature.com/ | For Springer articles |
+
+> `apikey.env` is git-ignored and must never be committed.
+
+---
+
 ## Pipeline overview
+
+The pipeline runs in three sequential stages:
 
 ```
 PMID list
     │
-    ▼  05_run_oa_in_chunks.py  →  01_download_oa.py (per chunk)
-    │       OA routes: PMC Bulk XML → EuropePMC → PMC EFetch → OA HTML → Publisher HTML → PubMed BioC
-    │       Output: <out-dir>/oa/txt/
+    ▼ ── Stage 1: OA download ──────────────────────────────────────────
+    │  05_run_oa_in_chunks.py  (splits list into chunks)
+    │      └─ calls 01_download_oa.py for each chunk
     │
-    ▼  06_run_api_in_chunks.py  →  02_download_api_key_articles.py (per chunk)
-    │       API routes: PMC EFetch → EuropePMC → Elsevier → Wiley TDM → Publisher HTML → PubMed BioC
-    │       Input:  <out-dir>/chunk_logs/needs_api_pmids.txt  (OA failures + BioC-only)
-    │       Output: <out-dir>/api/txt/
+    │  Routes tried per PMID (highest quality first):
+    │    PMC Bulk XML → EuropePMC XML → PMC EFetch → OA HTML → Publisher HTML → PubMed BioC
     │
-    ▼  merge_and_filter.py
-            Deduplicate by PMID (highest-quality source wins)
-            Classify: body word count ≥ 500, real sections present
-            Output: <out-dir>_merged/fulltext_txt/   (verified full text)
-                    <out-dir>_merged/abstract_txt/   (abstract-only / rejected)
-                    <out-dir>_merged/reports/        (JSON summary + JSONL manifest)
+    │  Output:  <out-dir>/oa/txt/            one .txt per PMID
+    │           <out-dir>/chunk_logs/needs_api_pmids.txt   (OA failures + BioC-only)
+    │
+    ▼ ── Stage 2: API download ─────────────────────────────────────────
+    │  06_run_api_in_chunks.py  (splits needs_api_pmids.txt into chunks)
+    │      └─ calls 02_download_api_key_articles.py for each chunk
+    │
+    │  Routes tried per PMID (highest quality first):
+    │    PMC EFetch → EuropePMC → Elsevier → Wiley TDM PDF → Publisher HTML → PubMed BioC
+    │
+    │  Output:  <out-dir>/api/txt/           one .txt per PMID
+    │
+    ▼ ── Stage 3: Merge & filter ────────────────────────────────────────
+       merge_and_filter.py
+           Deduplicate: same PMID in OA + API → keep highest-quality source
+           Classify:    body word count ≥ 500 and real body sections present → full text
+                        otherwise → abstract-only / rejected
+
+       Output:  <out-dir>_merged/fulltext_txt/    verified full text
+                <out-dir>_merged/abstract_txt/    abstract-only / rejected
+                <out-dir>_merged/reports/         JSON summary + JSONL manifest
 ```
 
-## Scripts
+Source priority for deduplication (highest → lowest):
+`PMC_OA_Bulk_XML` > `EuropePMC_FullText_XML` > `PMC_EFetch_XML` > `PMC_OA_BioC` > `Elsevier_Candidate_XML` > `Elsevier_Candidate_Text` > `OA_HTML` > `Publisher_HTML` > `Publisher_PDF` > `PubMed_BioC`
 
-### `run_pipeline.py` — end-to-end orchestrator
+---
+
+## Running the pipeline
+
+### Option A — one command (recommended)
+
+`run_pipeline.py` orchestrates all three stages automatically.
 
 ```bash
 python3 run_pipeline.py \
@@ -49,28 +98,34 @@ python3 run_pipeline.py \
     --out-dir   my_run \
     --chunk-size 500 \
     --skip-raw
-
-# Skip phases already completed
-python3 run_pipeline.py --pmid-file my_pmids.txt --out-dir my_run --skip-oa
-python3 run_pipeline.py --pmid-file my_pmids.txt --out-dir my_run --skip-api
 ```
 
 | Flag | Default | Description |
 |---|---|---|
-| `--pmid-file` | required | One PMID per line |
-| `--out-dir` | required | Root output directory |
-| `--chunk-size` | 500 | PMIDs per chunk |
-| `--min-words` | 500 | Body word threshold for full-text classification |
-| `--skip-raw` | off | Skip saving raw HTML/XML (saves disk space) |
-| `--skip-oa` | off | Skip OA phase |
+| `--pmid-file` | required | Plain-text file, one PMID per line |
+| `--out-dir` | required | Root output directory (created if absent) |
+| `--chunk-size` | 500 | PMIDs per chunk for OA and API phases |
+| `--min-words` | 500 | Body word count threshold for full-text classification |
+| `--skip-raw` | off | Do not save raw HTML/XML (saves disk space; recommended for bulk runs) |
+| `--skip-oa` | off | Skip OA phase (if already completed) |
 | `--skip-api` | off | Skip API phase |
 | `--skip-merge` | off | Skip merge step |
 
----
+Resume a partially completed run by skipping finished stages:
 
-### `05_run_oa_in_chunks.py` — chunked OA downloader
+```bash
+# OA already done, continue from API
+python3 run_pipeline.py --pmid-file my_pmids.txt --out-dir my_run --skip-oa
 
-Splits the PMID file into chunks and calls `01_download_oa.py` per chunk sequentially. Produces `chunk_logs/needs_api_pmids.txt` listing PMIDs that failed OA or returned BioC-only (abstract).
+# OA + API done, only re-run merge
+python3 run_pipeline.py --pmid-file my_pmids.txt --out-dir my_run --skip-oa --skip-api
+```
+
+### Option B — step by step
+
+Run each stage manually for more control (e.g. parallel splits for large PMID lists).
+
+**Stage 1 — OA download**
 
 ```bash
 python3 05_run_oa_in_chunks.py \
@@ -80,11 +135,7 @@ python3 05_run_oa_in_chunks.py \
     --skip-raw
 ```
 
----
-
-### `06_run_api_in_chunks.py` — chunked API downloader
-
-Splits the API retry PMID list and calls `02_download_api_key_articles.py` per chunk.
+**Stage 2 — API download**
 
 ```bash
 python3 06_run_api_in_chunks.py \
@@ -93,11 +144,7 @@ python3 06_run_api_in_chunks.py \
     --chunk-size 500
 ```
 
----
-
-### `merge_and_filter.py` — deduplication and full-text classification
-
-Takes one or more OA/API output directories, deduplicates by PMID (highest-quality source wins), and classifies each file as verified full text or abstract-only.
+**Stage 3 — Merge & filter**
 
 ```bash
 # Single run (shorthand)
@@ -105,95 +152,90 @@ python3 merge_and_filter.py \
     --base-dir my_run \
     --out-dir  my_run_merged
 
-# Multiple source directories
+# Multiple parallel splits merged together
 python3 merge_and_filter.py \
     --oa-dirs  run_p1/oa/txt run_p2/oa/txt \
     --api-dirs run_p1/api/txt run_p2/api/txt \
     --out-dir  my_merged
 ```
 
-Source priority (highest → lowest):
-`PMC_OA_Bulk_XML` > `EuropePMC_FullText_XML` > `PMC_EFetch_XML` > `PMC_OA_BioC` > `Elsevier_Candidate_XML` > `Elsevier_Candidate_Text` > `OA_HTML` > `Publisher_HTML` > `Publisher_PDF` > `PubMed_BioC`
-
 ---
 
-### `01_download_oa.py` — OA downloader (single batch)
+## Script reference
 
-```bash
-python3 01_download_oa.py \
-    --pmid-file my_pmids.txt \
-    --out-dir   my_run \
-    --skip-raw
-```
+### Core pipeline
 
----
+| Script | Role |
+|---|---|
+| `run_pipeline.py` | End-to-end orchestrator — calls 05, 06, and merge in sequence |
+| `05_run_oa_in_chunks.py` | Splits PMID list into chunks; calls `01_download_oa.py` per chunk |
+| `06_run_api_in_chunks.py` | Splits retry list into chunks; calls `02_download_api_key_articles.py` per chunk |
+| `merge_and_filter.py` | Deduplicates OA + API results; classifies and copies verified full text |
 
-### `02_download_api_key_articles.py` — API downloader (single batch)
+### Low-level downloaders
 
-```bash
-python3 02_download_api_key_articles.py \
-    --pmid-file my_run/chunk_logs/needs_api_pmids.txt \
-    --out-dir   my_run
-```
+Called internally by `05` and `06`. Use directly only for small one-off batches (e.g. a few hundred PMIDs with no chunking needed).
 
----
+| Script | Role |
+|---|---|
+| `01_download_oa.py` | OA download for a single PMID batch |
+| `02_download_api_key_articles.py` | API download for a single PMID batch |
 
-### `03_report_failures.py` — failure reporting
+### Utility scripts
 
-Builds consolidated failure and coverage reports from OA/API run JSONLs.
-
-```bash
-python3 03_report_failures.py --out-dir my_run
-```
+| Script | When to use |
+|---|---|
+| `03_report_failures.py` | After a run — generates detailed failure reports (which PMIDs failed, why, which publishers blocked access) |
+| `04_filter_fulltext.py` | Re-applies full-text classification to an existing output directory without re-downloading; useful for auditing or adjusting thresholds |
 
 ---
-
-### `04_filter_fulltext.py` — standalone full-text filter
-
-Re-applies body-content filtering to an existing output directory without re-downloading.
-
-```bash
-python3 04_filter_fulltext.py --out-dir my_run
-```
 
 ## Output layout
 
 ```
 <out-dir>/
-    oa/txt/              raw OA downloads (one .txt per PMID)
-    api/txt/             raw API downloads
-    chunk_logs/          per-chunk manifests + needs_api_pmids.txt
+    oa/txt/              OA downloads — one .txt per PMID
+    api/txt/             API downloads — one .txt per PMID
+    chunk_logs/
+        needs_api_pmids.txt    PMIDs for API retry (OA failures + BioC-only)
+        chunk_run_manifest.json
     chunk_inputs/        per-chunk PMID files
-    runs/                JSONL result logs
+    runs/                JSONL result logs per chunk
 
 <out-dir>_merged/
     fulltext_txt/        verified full text
     abstract_txt/        abstract-only / rejected
     reports/
-        merge_filter_summary.json
-        fulltext_manifest.jsonl
+        merge_filter_summary.json     overall counts by source and rejection reason
+        fulltext_manifest.jsonl       one record per verified full-text file
 ```
 
-## API keys
-
-Copy `apikey.env.example` to `apikey.env` and fill in your keys. The scripts load it automatically.
+Each `.txt` file follows this format:
 
 ```
-NCBI_KEY=your_ncbi_api_key
-ELSEVIER_KEY=your_elsevier_api_key
-WILEY_KEY=your_wiley_tdm_token
-SPRINGER_KEY=your_springer_api_key
+PMID: 12345678
+PMCID: PMC123456
+DOI: 10.1234/example
+Title: ...
+Journal: ...
+Source: PMC_OA_Bulk_XML
+License: ...
+
+## Introduction
+...
+
+## Methods
+...
+
+## Results
+...
 ```
 
-- **NCBI key**: free at https://www.ncbi.nlm.nih.gov/account/ — raises rate limit from 3 to 10 req/s
-- **Elsevier key**: https://dev.elsevier.com/
-- **Wiley TDM token**: via institutional TDM agreement
-- **Springer key**: https://dev.springernature.com/
-
-> `apikey.env` is git-ignored and must never be committed.
+---
 
 ## Notes
 
-- Use `--skip-raw` for bulk runs to avoid filling disk with intermediate HTML/XML files.
-- For large PMID lists (>10k), run OA and API phases in parallel splits and point `merge_and_filter.py` at all output directories.
-- OUP, SAGE, and ACS require separate institutional or project-specific access agreements and are not covered by the default routes.
+- **Bulk runs**: always use `--skip-raw` to avoid saving intermediate HTML/XML and filling disk.
+- **Large PMID lists (>10k)**: run multiple OA and API jobs in parallel on PMID splits, then point `merge_and_filter.py` at all output directories using `--oa-dirs` and `--api-dirs`.
+- **Rate limits**: with many parallel jobs, NCBI esummary/idconv endpoints may return 429. The scripts retry automatically with exponential backoff (up to 5 attempts). An NCBI API key is strongly recommended.
+- **Publisher restrictions**: OUP, SAGE, and ACS require separate institutional or project-specific access agreements and are not covered by the default routes.
