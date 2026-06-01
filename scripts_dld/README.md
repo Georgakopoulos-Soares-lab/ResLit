@@ -1,255 +1,199 @@
-# PubMed Article Retrieval Pipeline
+# PubMed Full-Text Download Pipeline
 
-## Overview
+Retrieves full-text articles for a PMID list and produces a verified, deduplicated corpus ready for downstream LLM/RAG workflows.
 
-This project retrieves article content from a PMID list and stores it in a layout that is convenient for downstream LLM/RAG workflows.
-
-The retrieval strategy is:
-
-1. prefer open/full-text sources
-2. use official or machine-usable publisher/API routes when possible
-3. fall back to structured abstract text when full text is not currently usable
-
-The repository currently contains two output roots:
-
-- `outputs/`: older run artifacts retained for reference
-- `outputs_v2/`: current working corpus and reports
-
-For any current counts or downstream use, treat `outputs_v2/` as the authoritative result root.
-
-## Current status
-
-Current `outputs_v2/` corpus totals:
-
-- Valid PMIDs: `2627`
-- Full-text retrieved before text validation: `1787`
-- Abstract-only: `839`
-- Failed: `1`
-
-Current validated text corpus:
-
-- Verified full-text after body filtering: `1596`
-- Retrieved full-text entries filtered out as non-body/preview/PDF-placeholder text: `192`
-- Abstract-only `.txt` files remain separate and should not be merged into the verified full-text corpus
-
-Important interpretation:
-
-- `1787` means the pipeline found some nominal full-text route
-- `1596` is the stricter, LLM-ready text set after filtering out preview pages, placeholder pages, and PDF-note-only outputs
-
-## Main scripts
-
-### `01_download_oa.py`
-
-Purpose:
-
-- retrieve PMC/OA full text first
-
-Run:
+## Quick start
 
 ```bash
-python3 01_download_oa.py --pmid-file amr_genes_pmids_amrprofiler_uniq.txt --out-dir outputs_v2
+# Copy and fill in your API keys
+cp apikey.env.example apikey.env
+
+# Run the full pipeline on your PMID list
+python3 run_pipeline.py \
+    --pmid-file my_pmids.txt \
+    --out-dir   my_run \
+    --skip-raw
 ```
 
-Outputs:
+Results appear in `my_run_merged/fulltext_txt/`.
 
-- `outputs_v2/oa/raw/`
-- `outputs_v2/oa/meta/`
-- `outputs_v2/oa/txt/`
-- `outputs_v2/runs/oa_results.jsonl`
+## Pipeline overview
 
-### `02_download_api_key_articles.py`
+```
+PMID list
+    │
+    ▼  05_run_oa_in_chunks.py  →  01_download_oa.py (per chunk)
+    │       OA routes: PMC Bulk XML → EuropePMC → PMC EFetch → OA HTML → Publisher HTML → PubMed BioC
+    │       Output: <out-dir>/oa/txt/
+    │
+    ▼  06_run_api_in_chunks.py  →  02_download_api_key_articles.py (per chunk)
+    │       API routes: PMC EFetch → EuropePMC → Elsevier → Wiley TDM → Publisher HTML → PubMed BioC
+    │       Input:  <out-dir>/chunk_logs/needs_api_pmids.txt  (OA failures + BioC-only)
+    │       Output: <out-dir>/api/txt/
+    │
+    ▼  merge_and_filter.py
+            Deduplicate by PMID (highest-quality source wins)
+            Classify: body word count ≥ 500, real sections present
+            Output: <out-dir>_merged/fulltext_txt/   (verified full text)
+                    <out-dir>_merged/abstract_txt/   (abstract-only / rejected)
+                    <out-dir>_merged/reports/        (JSON summary + JSONL manifest)
+```
 
-Purpose:
+## Scripts
 
-- retrieve fallback content for PMIDs not solved by stage 1
-
-Main routes:
-
-- PMC EFetch when PMCID exists
-- Crossref enrichment
-- Unpaywall / OpenAlex / Europe PMC candidate enrichment
-- publisher HTML retrieval where possible
-- Elsevier candidate XML / text retrieval
-- Wiley TDM PDF retrieval where available
-- PubMed BioC abstract fallback
-
-Run:
+### `run_pipeline.py` — end-to-end orchestrator
 
 ```bash
-python3 02_download_api_key_articles.py --pmid-file amr_genes_pmids_amrprofiler_uniq.txt --out-dir outputs_v2
+python3 run_pipeline.py \
+    --pmid-file my_pmids.txt \
+    --out-dir   my_run \
+    --chunk-size 500 \
+    --skip-raw
+
+# Skip phases already completed
+python3 run_pipeline.py --pmid-file my_pmids.txt --out-dir my_run --skip-oa
+python3 run_pipeline.py --pmid-file my_pmids.txt --out-dir my_run --skip-api
 ```
 
-Outputs:
+| Flag | Default | Description |
+|---|---|---|
+| `--pmid-file` | required | One PMID per line |
+| `--out-dir` | required | Root output directory |
+| `--chunk-size` | 500 | PMIDs per chunk |
+| `--min-words` | 500 | Body word threshold for full-text classification |
+| `--skip-raw` | off | Skip saving raw HTML/XML (saves disk space) |
+| `--skip-oa` | off | Skip OA phase |
+| `--skip-api` | off | Skip API phase |
+| `--skip-merge` | off | Skip merge step |
 
-- `outputs_v2/api/raw/`
-- `outputs_v2/api/meta/`
-- `outputs_v2/api/txt/`
-- `outputs_v2/runs/api_results.jsonl`
+---
 
-### `03_report_failures.py`
+### `05_run_oa_in_chunks.py` — chunked OA downloader
 
-Purpose:
-
-- build consolidated reporting from OA/API runs
-
-Run:
+Splits the PMID file into chunks and calls `01_download_oa.py` per chunk sequentially. Produces `chunk_logs/needs_api_pmids.txt` listing PMIDs that failed OA or returned BioC-only (abstract).
 
 ```bash
-python3 03_report_failures.py --out-dir outputs_v2
+python3 05_run_oa_in_chunks.py \
+    --pmid-file my_pmids.txt \
+    --out-dir   my_run \
+    --chunk-size 500 \
+    --skip-raw
 ```
 
-Outputs:
+---
 
-- `outputs_v2/reports/failure_report.json`
-- `outputs_v2/reports/failure_report.md`
-- `outputs_v2/reports/abstract_followups.jsonl`
-- `outputs_v2/reports/abstract_followups_summary.json`
-- `outputs_v2/reports/tdm_candidates_manifest.jsonl`
-- `outputs_v2/reports/tdm_candidates_summary.json`
-- `outputs_v2/reports/api_attempt_manifest.jsonl`
-- `outputs_v2/reports/api_monitoring_summary.json`
-- `outputs_v2/reports/candidate_host_summary.json`
-- `outputs_v2/reports/REPORT_SUMMARY.md`
-- `outputs_v2/reports/RESOLUTION_GUIDE.md`
-- `outputs_v2/reports/NEXT_STEPS.tsv`
-- `outputs_v2/reports/abstract_only_pmids.txt`
+### `06_run_api_in_chunks.py` — chunked API downloader
 
-### `04_filter_fulltext.py`
-
-Purpose:
-
-- separate downloaded `.txt` files into verified full-text vs abstract-only based on actual body content
-
-Run:
+Splits the API retry PMID list and calls `02_download_api_key_articles.py` per chunk.
 
 ```bash
-python3 04_filter_fulltext.py --out-dir outputs_v2
+python3 06_run_api_in_chunks.py \
+    --pmid-file my_run/chunk_logs/needs_api_pmids.txt \
+    --out-dir   my_run \
+    --chunk-size 500
 ```
 
-Outputs:
+---
 
-- `outputs_v2/fulltext_txt/`
-- `outputs_v2/abstract_txt/`
-- `outputs_v2/reports/txt_filter_summary.json`
-- `outputs_v2/reports/txt_filter_manifest.jsonl`
+### `merge_and_filter.py` — deduplication and full-text classification
 
-Related validation artifacts already present in `outputs_v2/reports/`:
-
-- `fulltext_body_filter_summary.json`
-- `fulltext_filtered_no_body.tsv`
-
-The current validator is strict by design. It treats publisher preview pages,
-PMC PDF placeholder pages, and archived PDF-note stubs as non-body outputs even
-if they were previously counted as nominal full text.
-
-## Recommended workflow
-
-For a fresh run, use the project as a 3-step pipeline:
-
-1. `01_download_oa.py`
-2. `02_download_api_key_articles.py`
-3. `03_report_failures.py`
-
-`01` and `02` now apply strict full-text acceptance during extraction, so
-preview shells and non-body captures are filtered much earlier.
-
-`04_filter_fulltext.py` remains available as a compatibility/recheck tool when
-you want to audit or rebuild the strict text split from existing outputs.
-
-If you only need the current finished corpus, start from `outputs_v2/`.
-
-## Status and handoff artifacts
-
-This repository includes curated status snapshots rather than the full local
-session-management toolchain.
-
-Useful current files:
-
-- `STATUS_LOG_2026-04-21.md`
-- `outputs_v2/reports/REPORT_SUMMARY.md`
-- `outputs_v2/reports/fulltext_body_filter_summary.json`
-- `outputs_v2/reports/PRIORITY_NEXT_ACTIONS_2026-04-21.md`
-
-For resume context, start from the status log and the report files above.
-
-## Inputs and configuration
-
-Primary PMID list:
-
-- `amr_genes_pmids_amrprofiler_uniq.txt`
-
-The scripts auto-load `apikey.env`.
-
-Supported environment keys:
-
-- `NCBI_EMAIL`
-- `NCBI_TOOL`
-- `NCBI_API_KEY` or `NCBI_KEY`
-- `ELSEVIER_API_KEY` or `ELSEVIER_KEY`
-- `SPRINGER_API_KEY` or `SPRINGER_KEY`
-- `WILEY_API_KEY` or `WILEY_KEY`
-
-Example:
+Takes one or more OA/API output directories, deduplicates by PMID (highest-quality source wins), and classifies each file as verified full text or abstract-only.
 
 ```bash
-NCBI_EMAIL=your_email@domain.edu
-NCBI_API_KEY=...
-ELSEVIER_API_KEY=...
-WILEY_API_KEY=...
+# Single run (shorthand)
+python3 merge_and_filter.py \
+    --base-dir my_run \
+    --out-dir  my_run_merged
+
+# Multiple source directories
+python3 merge_and_filter.py \
+    --oa-dirs  run_p1/oa/txt run_p2/oa/txt \
+    --api-dirs run_p1/api/txt run_p2/api/txt \
+    --out-dir  my_merged
 ```
 
-## Current result roots
+Source priority (highest → lowest):
+`PMC_OA_Bulk_XML` > `EuropePMC_FullText_XML` > `PMC_EFetch_XML` > `PMC_OA_BioC` > `Elsevier_Candidate_XML` > `Elsevier_Candidate_Text` > `OA_HTML` > `Publisher_HTML` > `Publisher_PDF` > `PubMed_BioC`
 
-### Primary working root
+---
 
-- `outputs_v2/oa/`
-- `outputs_v2/api/`
-- `outputs_v2/runs/`
-- `outputs_v2/reports/`
-- `outputs_v2/fulltext_txt/`
-- `outputs_v2/abstract_txt/`
+### `01_download_oa.py` — OA downloader (single batch)
 
-### Most important manifests
+```bash
+python3 01_download_oa.py \
+    --pmid-file my_pmids.txt \
+    --out-dir   my_run \
+    --skip-raw
+```
 
-- `outputs_v2/runs/oa_results.jsonl`
-- `outputs_v2/runs/api_results.jsonl`
-- `outputs_v2/reports/REPORT_SUMMARY.md`
-- `outputs_v2/reports/RESOLUTION_GUIDE.md`
-- `outputs_v2/reports/NEXT_STEPS.tsv`
-- `outputs_v2/reports/txt_filter_summary.json`
-- `outputs_v2/reports/fulltext_body_filter_summary.json`
+---
 
-## Interpreting the remaining abstract-only set
+### `02_download_api_key_articles.py` — API downloader (single batch)
 
-The remaining abstract-only records are not one homogeneous failure bucket.
+```bash
+python3 02_download_api_key_articles.py \
+    --pmid-file my_run/chunk_logs/needs_api_pmids.txt \
+    --out-dir   my_run
+```
 
-Current high-level groups in `outputs_v2`:
+---
 
-- `manual_review`: `391`
-- `institution_tdm_or_subscription`: `274`
-- `wiley_tdm_or_pdf`: `118`
-- `subscription_tdm_via_crossref`: `45`
-- `institution_or_commercial_tdm`: `11`
+### `03_report_failures.py` — failure reporting
 
-Current remaining publisher families:
+Builds consolidated failure and coverage reports from OA/API run JSONLs.
 
-- `Unclassified`: `391`
-- `OUP`: `274`
-- `Wiley`: `118`
-- `SAGE`: `45`
-- `ACS`: `11`
+```bash
+python3 03_report_failures.py --out-dir my_run
+```
 
-## Recommended use
+---
 
-If the goal is an LLM-ready corpus:
+### `04_filter_fulltext.py` — standalone full-text filter
 
-1. use `outputs_v2/fulltext_txt/` as the primary text corpus
-2. keep `outputs_v2/abstract_txt/` separate as secondary evidence
-3. use `outputs_v2/api/raw/` and `outputs_v2/oa/raw/` when original XML/PDF/HTML is needed
-4. use the JSON/JSONL reports in `outputs_v2/reports/` for filtering, auditing, and follow-up planning
+Re-applies body-content filtering to an existing output directory without re-downloading.
 
-## Project logs
+```bash
+python3 04_filter_fulltext.py --out-dir my_run
+```
 
-- `STATUS_LOG_2026-04-15.md`: earlier milestone snapshot
-- `STATUS_LOG_2026-04-20.md`: current `outputs_v2` and validated-text snapshot
+## Output layout
+
+```
+<out-dir>/
+    oa/txt/              raw OA downloads (one .txt per PMID)
+    api/txt/             raw API downloads
+    chunk_logs/          per-chunk manifests + needs_api_pmids.txt
+    chunk_inputs/        per-chunk PMID files
+    runs/                JSONL result logs
+
+<out-dir>_merged/
+    fulltext_txt/        verified full text
+    abstract_txt/        abstract-only / rejected
+    reports/
+        merge_filter_summary.json
+        fulltext_manifest.jsonl
+```
+
+## API keys
+
+Copy `apikey.env.example` to `apikey.env` and fill in your keys. The scripts load it automatically.
+
+```
+NCBI_KEY=your_ncbi_api_key
+ELSEVIER_KEY=your_elsevier_api_key
+WILEY_KEY=your_wiley_tdm_token
+SPRINGER_KEY=your_springer_api_key
+```
+
+- **NCBI key**: free at https://www.ncbi.nlm.nih.gov/account/ — raises rate limit from 3 to 10 req/s
+- **Elsevier key**: https://dev.elsevier.com/
+- **Wiley TDM token**: via institutional TDM agreement
+- **Springer key**: https://dev.springernature.com/
+
+> `apikey.env` is git-ignored and must never be committed.
+
+## Notes
+
+- Use `--skip-raw` for bulk runs to avoid filling disk with intermediate HTML/XML files.
+- For large PMID lists (>10k), run OA and API phases in parallel splits and point `merge_and_filter.py` at all output directories.
+- OUP, SAGE, and ACS require separate institutional or project-specific access agreements and are not covered by the default routes.
