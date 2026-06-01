@@ -3,10 +3,13 @@
 
 from __future__ import annotations
 
+import datetime
 import json
 import re
+import time
+from http.cookiejar import CookieJar
 from pathlib import Path
-from urllib import parse
+from urllib import parse, request as urllib_request
 from urllib.parse import urlparse
 
 from pubmed_common import (
@@ -61,7 +64,7 @@ def download_elsevier_fulltext(client: HttpClient, pmid: str, destination: Path)
         "X-ELS-APIKey": ELSEVIER_API_KEY,
     }
     url = f"{ELSEVIER_ARTICLE_BASE}/{parse.quote(pmid)}"
-    text = client.get_text(url, params={"view": "FULL"}, headers=headers, timeout=120)
+    text = client.get_text(url, params={"view": "FULL"}, headers=headers, timeout=30)
     destination.write_text(text)
     return json.loads(text)
 
@@ -71,6 +74,43 @@ def fetch_crossref_metadata(client: HttpClient, doi: str) -> dict:
         f"{CROSSREF_WORKS_BASE}/{parse.quote(normalize_doi(doi), safe='')}",
         headers={"Accept": "application/json"},
     )
+
+
+def _sage_sleep() -> None:
+    """SAGE rate limit: 1 req/6s weekday midnight-noon PT, 1 req/2s otherwise."""
+    try:
+        import zoneinfo
+        now_pt = datetime.datetime.now(tz=zoneinfo.ZoneInfo("America/Los_Angeles"))
+    except Exception:
+        now_pt = datetime.datetime.utcnow()
+    is_restricted = now_pt.weekday() < 5 and now_pt.hour < 12
+    time.sleep(6.1 if is_restricted else 2.1)
+
+
+def fetch_sage_html(doi: str, landing_url: str) -> dict | None:
+    """Fetch SAGE article HTML using CookieJar session (bypasses subscription redirect)."""
+    from pubmed_common import USER_AGENT, html_to_text_sections, is_valid_fulltext_content
+    url = landing_url or f"https://journals.sagepub.com/doi/full/{parse.quote(normalize_doi(doi), safe='/')}"
+    jar = CookieJar()
+    opener = urllib_request.build_opener(urllib_request.HTTPCookieProcessor(jar))
+    opener.addheaders = [
+        ("User-Agent", USER_AGENT),
+        ("Accept", "text/html,application/xhtml+xml"),
+        ("Referer", "https://pubmed.ncbi.nlm.nih.gov/"),
+    ]
+    _sage_sleep()
+    try:
+        with opener.open(url, timeout=30) as resp:
+            charset = resp.headers.get_content_charset() or "utf-8"
+            html_body = resp.read().decode(charset, errors="replace")
+            final_url = resp.geturl()
+    except Exception:
+        return None
+    sections = html_to_text_sections(html_body, source_label="PUBLISHER_HTML")
+    is_valid, reason, word_count = is_valid_fulltext_content("Publisher_HTML", sections, raw_text=html_body)
+    if not sections or not is_valid:
+        return None
+    return {"html": html_body, "sections": sections, "resolved_url": final_url, "validation_reason": reason, "word_count": word_count}
 
 
 def fetch_springer_metadata(client: HttpClient, doi: str) -> dict:
@@ -99,6 +139,62 @@ def is_probable_wiley_doi(doi: str) -> bool:
             "10.1034/",
         )
     )
+
+
+def is_probable_asm_doi(doi: str) -> bool:
+    return normalize_doi(doi).lower().startswith("10.1128/")
+
+
+def fetch_asm_tdm_xml(client: HttpClient, doi: str, crossref_links: list[dict]) -> dict | None:
+    """Fetch ASM article full text as JATS XML via Crossref TDM links or direct XML endpoint."""
+    normalized = normalize_doi(doi)
+    urls: list[str] = []
+
+    # Collect XML TDM links from Crossref metadata first
+    for link in crossref_links or []:
+        url = link.get("URL", "")
+        if not url or "journals.asm.org" not in url:
+            continue
+        content_type = link.get("content-type", "").lower()
+        intended = link.get("intended-application", "").lower()
+        if "xml" in content_type or "xml" in url.lower() or "text-mining" in intended:
+            if url not in urls:
+                urls.append(url)
+
+    # Always also try the canonical TDM XML endpoint
+    if normalized:
+        xml_url = f"https://journals.asm.org/doi/xml/{parse.quote(normalized, safe='/')}"
+        if xml_url not in urls:
+            urls.append(xml_url)
+
+    for url in urls:
+        try:
+            response = client.get_response(
+                url,
+                headers={
+                    "Accept": "application/xml, text/xml, */*",
+                    "Referer": "https://pubmed.ncbi.nlm.nih.gov/",
+                },
+                timeout=30,
+            )
+        except Exception:
+            continue
+        body = response.get("body", "")
+        if not body or len(body) < 500:
+            continue
+        content_type = response.get("content_type", "").lower()
+        if "html" in content_type and "<article" not in body[:500]:
+            continue
+        if not pmc_xml_has_body(body):
+            continue
+        sections = flatten_pmc_xml_to_sections(body)
+        if sections and sections_have_body(sections):
+            return {
+                "xml": body,
+                "sections": sections,
+                "resolved_url": response.get("url", url),
+            }
+    return None
 
 
 def build_fulltext_candidates(metadata: dict) -> list[dict]:
@@ -405,7 +501,7 @@ def fetch_candidate_fulltext(client: HttpClient, metadata: dict, raw_dir: Path, 
                     "Accept": accept,
                     "X-ELS-APIKey": ELSEVIER_API_KEY,
                 },
-                timeout=120,
+                timeout=30,
             )
         except Exception:
             continue
@@ -479,7 +575,7 @@ def fetch_wiley_tdm_pdf(
             url,
             raw_path,
             headers={"Wiley-TDM-Client-Token": WILEY_API_KEY, "Accept": "application/pdf"},
-            timeout=120,
+            timeout=60,
         )
     except Exception:
         return None
@@ -544,7 +640,7 @@ def fetch_candidate_pdf(
             response = client.get_bytes_response(
                 url,
                 headers={"Accept": "application/pdf,*/*", "Referer": "https://pubmed.ncbi.nlm.nih.gov/"},
-                timeout=120,
+                timeout=30,
             )
         except Exception:
             continue
@@ -657,7 +753,7 @@ def fetch_publisher_html(
                     "Accept": "text/html,application/xhtml+xml",
                     "Referer": "https://pubmed.ncbi.nlm.nih.gov/",
                 },
-                timeout=120,
+                timeout=30,
             )
         except Exception:
             continue
@@ -716,7 +812,7 @@ def fetch_pmc_article_html(client: HttpClient, pmcid: str) -> dict | None:
                 "Accept": "text/html,application/xhtml+xml",
                 "Referer": "https://pubmed.ncbi.nlm.nih.gov/",
             },
-            timeout=120,
+            timeout=30,
         )
     except Exception:
         return None
@@ -849,6 +945,7 @@ def main() -> int:
                 pmc_html = fetch_pmc_article_html(client, metadata["pmcid"])
                 if pmc_html:
                     raw_html_path = raw_dir / f"{safe_filename(pmid)}.html"
+                    raw_html_path.parent.mkdir(parents=True, exist_ok=True)
                     raw_html_path.write_text(pmc_html["html"])
                     metadata["source"] = "OA_HTML"
                     metadata["license"] = "pmc_html_oa"
@@ -897,11 +994,15 @@ def main() -> int:
                     ((metadata.get("crossref_resource") or {}).get("primary") or {}).get("URL", ""),
                     metadata.get("fulltext_candidates", []),
                 )
+                # Save all validated publisher HTML (not just SAGE/OA)
                 if publisher_html:
+                    source_name = publisher_html.get("source_name", "")
+                    is_oa = source_name in {"pmc_html", "europepmc_html"}
                     raw_html_path = raw_dir / f"{safe_filename(pmid)}.html"
+                    raw_html_path.parent.mkdir(parents=True, exist_ok=True)
                     raw_html_path.write_text(publisher_html["html"])
-                    metadata["source"] = "OA_HTML" if publisher_html["source_name"] in {"pmc_html", "europepmc_html"} else "Publisher_HTML"
-                    metadata["license"] = "pmc_html_oa" if metadata["source"] == "OA_HTML" else "publisher_free_full_text"
+                    metadata["source"] = "OA_HTML" if is_oa else "Publisher_HTML"
+                    metadata["license"] = "pmc_html_oa" if is_oa else "publisher_free_full_text"
                     metadata["raw_file"] = str(raw_html_path)
                     metadata["resolved_url"] = publisher_html["resolved_url"]
                     metadata["tried_backends"] = tried_backends + [publisher_html["source_name"]]
@@ -918,9 +1019,107 @@ def main() -> int:
                             "raw_html": publisher_html["html"],
                         },
                     )
-                    results.append(result_record(pmid, "success", "Downloaded publisher HTML full text", metadata=metadata))
+                    results.append(result_record(pmid, "success", f"Downloaded {metadata['source']} full text", metadata=metadata))
                     print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via {publisher_html['source_name']}")
                     continue
+
+                # SAGE CookieJar HTML for SAGE articles
+                if metadata.get("publisher_family") == "SAGE":
+                    try:
+                        tried_backends.append("sage_cookiejar_html")
+                        sage_candidates = [c.get("url", "") for c in metadata.get("fulltext_candidates", []) if "sagepub.com" in c.get("url", "")]
+                        sage_landing = sage_candidates[0] if sage_candidates else ""
+                        sage_result = fetch_sage_html(metadata["doi"], sage_landing)
+                        if sage_result:
+                            raw_html_path = raw_dir / f"{safe_filename(pmid)}_sage.html"
+                            raw_html_path.parent.mkdir(parents=True, exist_ok=True)
+                            raw_html_path.write_text(sage_result["html"])
+                            metadata["source"] = "Publisher_HTML"
+                            metadata["license"] = "publisher_free_full_text"
+                            metadata["raw_file"] = str(raw_html_path)
+                            metadata["resolved_url"] = sage_result["resolved_url"]
+                            metadata["tried_backends"] = tried_backends
+                            metadata["text_file"] = str(txt_path)
+                            metadata["body_validation_reason"] = sage_result["validation_reason"]
+                            metadata["body_word_count"] = sage_result["word_count"]
+                            finalize_monitoring(metadata)
+                            txt_path.write_text(llm_ready_text(metadata, sage_result["sections"]))
+                            write_json(meta_path, {"metadata": metadata, "sections": sage_result["sections"], "raw_html": sage_result["html"]})
+                            results.append(result_record(pmid, "success", "Downloaded SAGE HTML full text", metadata=metadata))
+                            print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via sage_cookiejar_html")
+                            continue
+                    except Exception as exc:
+                        metadata["sage_html_error"] = str(exc)
+
+                # Springer OA API for Springer Nature articles
+                if SPRINGER_API_KEY and metadata.get("publisher_family") == "Springer Nature":
+                    try:
+                        tried_backends.append("springer_oa_api")
+                        xml = fetch_springer_openaccess_fulltext(client, metadata["doi"])
+                        if xml and "<article" in xml and len(xml) > 500:
+                            sections = flatten_pmc_xml_to_sections(xml)
+                            if sections and sections_have_body(sections):
+                                raw_path = raw_dir / f"{safe_filename(pmid)}_springer.xml"
+                                raw_path.write_text(xml)
+                                metadata["source"] = "Springer_OA_API"
+                                metadata["license"] = "springer_oa_api"
+                                metadata["raw_file"] = str(raw_path)
+                                metadata["text_file"] = str(txt_path)
+                                metadata["tried_backends"] = tried_backends
+                                finalize_monitoring(metadata)
+                                txt_path.write_text(llm_ready_text(metadata, sections))
+                                write_json(meta_path, {"metadata": metadata, "sections": sections, "raw_springer_xml": xml})
+                                results.append(result_record(pmid, "success", "Downloaded Springer OA API full text", metadata=metadata))
+                                print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via Springer_OA_API")
+                                continue
+                    except Exception as exc:
+                        metadata["springer_oa_error"] = str(exc)
+
+                # ASM TDM XML before BioC fallback
+                if metadata.get("doi") and (is_probable_asm_doi(metadata["doi"]) or metadata.get("publisher_family") == "ASM"):
+                    try:
+                        tried_backends.append("asm_tdm_xml")
+                        asm_result = fetch_asm_tdm_xml(client, metadata["doi"], metadata.get("crossref_link", []))
+                        if asm_result:
+                            raw_path = raw_dir / f"{safe_filename(pmid)}_asm.xml"
+                            raw_path.write_text(asm_result["xml"])
+                            metadata["source"] = "ASM_TDM_XML"
+                            metadata["license"] = "asm_tdm"
+                            metadata["raw_file"] = str(raw_path)
+                            metadata["resolved_url"] = asm_result["resolved_url"]
+                            metadata["tried_backends"] = tried_backends
+                            metadata["text_file"] = str(txt_path)
+                            finalize_monitoring(metadata)
+                            txt_path.write_text(llm_ready_text(metadata, asm_result["sections"]))
+                            write_json(meta_path, {"metadata": metadata, "sections": asm_result["sections"], "raw_asm_xml": asm_result["xml"]})
+                            results.append(result_record(pmid, "success", "Downloaded ASM TDM XML full text", metadata=metadata))
+                            print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via ASM_TDM_XML")
+                            continue
+                    except Exception as exc:
+                        metadata["asm_tdm_error"] = str(exc)
+
+                # Wiley TDM before BioC fallback
+                if WILEY_API_KEY and metadata.get("doi") and (is_probable_wiley_doi(metadata["doi"]) or metadata.get("publisher_family") == "Wiley"):
+                    try:
+                        tried_backends.append("wiley_tdm_pre_bioc")
+                        doi_enc = parse.quote(normalize_doi(metadata["doi"]), safe="")
+                        wiley_url = f"https://api.wiley.com/onlinelibrary/tdm/v1/articles/{doi_enc}"
+                        raw_path = raw_dir / f"{safe_filename(pmid)}_wiley.pdf"
+                        client.download_file(wiley_url, raw_path, headers={"Wiley-TDM-Client-Token": WILEY_API_KEY, "Accept": "application/pdf"}, timeout=60)
+                        metadata["source"] = "Wiley_TDM_PDF"
+                        metadata["license"] = "publisher_pdf"
+                        metadata["raw_file"] = str(raw_path)
+                        metadata["resolved_url"] = wiley_url
+                        metadata["text_file"] = str(txt_path)
+                        metadata["tried_backends"] = tried_backends
+                        finalize_monitoring(metadata)
+                        txt_path.write_text(llm_ready_text(metadata, [{"section": "RAW_PDF_NOTE", "text": f"Wiley TDM PDF archived at {raw_path}."}]))
+                        write_json(meta_path, {"metadata": metadata, "raw_pdf_note": "Wiley TDM PDF; no text extraction"})
+                        results.append(result_record(pmid, "success", "Downloaded Wiley TDM PDF", metadata=metadata))
+                        print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via Wiley_TDM_PDF")
+                        continue
+                    except Exception as exc:
+                        metadata["wiley_tdm_error"] = str(exc)
 
             tried_backends.append("pubmed_bioc")
             bioc = fetch_pubmed_bioc(client, pmid)
@@ -971,6 +1170,7 @@ def main() -> int:
             pmc_html = fetch_pmc_article_html(client, metadata["pmcid"])
             if pmc_html:
                 raw_html_path = raw_dir / f"{safe_filename(pmid)}.html"
+                raw_html_path.parent.mkdir(parents=True, exist_ok=True)
                 raw_html_path.write_text(pmc_html["html"])
                 metadata["source"] = "OA_HTML"
                 metadata["license"] = "pmc_html_oa"
@@ -998,44 +1198,104 @@ def main() -> int:
             continue
 
         metadata["tried_backends"] = metadata.get("tried_backends", [])
+        doi = metadata.get("doi", "")
 
-        if SPRINGER_API_KEY:
+        # SAGE CookieJar HTML (BioC-failure path)
+        if metadata.get("publisher_family") == "SAGE":
             try:
-                metadata["tried_backends"].append("springer_openaccess")
-                springer_oa_xml = fetch_springer_openaccess_fulltext(client, metadata["doi"])
-                if "<article" in springer_oa_xml:
-                    raw_xml_path = raw_dir / f"{safe_filename(pmid)}_springer.xml"
-                    raw_xml_path.write_text(springer_oa_xml)
-                    metadata["source"] = "Springer_OpenAccess_API"
-                    metadata["license"] = "springer_api"
-                    metadata["raw_file"] = str(raw_xml_path)
+                metadata["tried_backends"].append("sage_cookiejar_html")
+                sage_candidates = [c.get("url", "") for c in metadata.get("fulltext_candidates", []) if "sagepub.com" in c.get("url", "")]
+                sage_landing = sage_candidates[0] if sage_candidates else ""
+                sage_result = fetch_sage_html(doi, sage_landing)
+                if sage_result:
+                    raw_html_path = raw_dir / f"{safe_filename(pmid)}_sage.html"
+                    raw_html_path.parent.mkdir(parents=True, exist_ok=True)
+                    raw_html_path.write_text(sage_result["html"])
+                    metadata["source"] = "Publisher_HTML"
+                    metadata["license"] = "publisher_free_full_text"
+                    metadata["raw_file"] = str(raw_html_path)
+                    metadata["resolved_url"] = sage_result["resolved_url"]
+                    metadata["text_file"] = str(txt_path)
+                    metadata["body_word_count"] = sage_result["word_count"]
+                    finalize_monitoring(metadata)
+                    txt_path.write_text(llm_ready_text(metadata, sage_result["sections"]))
+                    write_json(meta_path, {"metadata": metadata, "sections": sage_result["sections"], "raw_html": sage_result["html"]})
+                    results.append(result_record(pmid, "success", "Downloaded SAGE HTML full text", metadata=metadata))
+                    print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via sage_cookiejar_html")
+                    continue
+            except Exception as exc:
+                metadata["sage_html_error"] = str(exc)
+
+        # Springer OA API (BioC-failure path)
+        if SPRINGER_API_KEY and metadata.get("publisher_family") == "Springer Nature":
+            try:
+                metadata["tried_backends"].append("springer_oa_api")
+                xml = fetch_springer_openaccess_fulltext(client, doi)
+                if xml and "<article" in xml and len(xml) > 500:
+                    sections = flatten_pmc_xml_to_sections(xml)
+                    if sections and sections_have_body(sections):
+                        raw_path = raw_dir / f"{safe_filename(pmid)}_springer.xml"
+                        raw_path.write_text(xml)
+                        metadata["source"] = "Springer_OA_API"
+                        metadata["license"] = "springer_oa_api"
+                        metadata["raw_file"] = str(raw_path)
+                        metadata["text_file"] = str(txt_path)
+                        finalize_monitoring(metadata)
+                        txt_path.write_text(llm_ready_text(metadata, sections))
+                        write_json(meta_path, {"metadata": metadata, "sections": sections, "raw_springer_xml": xml})
+                        results.append(result_record(pmid, "success", "Downloaded Springer OA API full text", metadata=metadata))
+                        print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via Springer_OA_API")
+                        continue
+            except Exception as exc:
+                metadata["springer_oa_error"] = str(exc)
+
+        # ASM TDM XML (BioC-failure path)
+        if doi and (is_probable_asm_doi(doi) or metadata.get("publisher_family") == "ASM"):
+            try:
+                metadata["tried_backends"].append("asm_tdm_xml")
+                asm_result = fetch_asm_tdm_xml(client, doi, metadata.get("crossref_link", []))
+                if asm_result:
+                    raw_path = raw_dir / f"{safe_filename(pmid)}_asm.xml"
+                    raw_path.write_text(asm_result["xml"])
+                    metadata["source"] = "ASM_TDM_XML"
+                    metadata["license"] = "asm_tdm"
+                    metadata["raw_file"] = str(raw_path)
+                    metadata["resolved_url"] = asm_result["resolved_url"]
                     metadata["text_file"] = str(txt_path)
                     finalize_monitoring(metadata)
-                    txt_path.write_text(
-                        llm_ready_text(metadata, [{"section": "SPRINGER_JATS_XML", "text": springer_oa_xml}])
-                    )
-                    write_json(meta_path, {"metadata": metadata, "raw_springer_xml": springer_oa_xml})
-                    results.append(result_record(pmid, "success", "Downloaded Springer API payload", metadata=metadata))
-                    print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via Springer API")
+                    txt_path.write_text(llm_ready_text(metadata, asm_result["sections"]))
+                    write_json(meta_path, {"metadata": metadata, "sections": asm_result["sections"], "raw_asm_xml": asm_result["xml"]})
+                    results.append(result_record(pmid, "success", "Downloaded ASM TDM XML full text", metadata=metadata))
+                    print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via ASM_TDM_XML")
                     continue
-            except Exception as exc:  # noqa: BLE001
-                metadata["springer_error"] = str(exc)
-            try:
-                metadata["springer_meta"] = fetch_springer_metadata(client, metadata["doi"])
-            except Exception as exc:  # noqa: BLE001
-                metadata["springer_meta_error"] = str(exc)
+            except Exception as exc:
+                metadata["asm_tdm_error"] = str(exc)
 
+        # Wiley TDM (BioC-failure path)
+        if WILEY_API_KEY and doi and (is_probable_wiley_doi(doi) or metadata.get("publisher_family") == "Wiley"):
+            try:
+                metadata["tried_backends"].append("wiley_tdm_api")
+                doi_enc = parse.quote(normalize_doi(doi), safe="")
+                wiley_url = f"https://api.wiley.com/onlinelibrary/tdm/v1/articles/{doi_enc}"
+                raw_path = raw_dir / f"{safe_filename(pmid)}_wiley.pdf"
+                client.download_file(wiley_url, raw_path, headers={"Wiley-TDM-Client-Token": WILEY_API_KEY, "Accept": "application/pdf"}, timeout=60)
+                metadata["source"] = "Wiley_TDM_PDF"
+                metadata["license"] = "publisher_pdf"
+                metadata["raw_file"] = str(raw_path)
+                metadata["resolved_url"] = wiley_url
+                metadata["text_file"] = str(txt_path)
+                finalize_monitoring(metadata)
+                txt_path.write_text(llm_ready_text(metadata, [{"section": "RAW_PDF_NOTE", "text": f"Wiley TDM PDF archived at {raw_path}."}]))
+                write_json(meta_path, {"metadata": metadata, "raw_pdf_note": "Wiley TDM PDF; no text extraction"})
+                results.append(result_record(pmid, "success", "Downloaded Wiley TDM PDF", metadata=metadata))
+                print_stderr(f"[API] {idx}/{len(pmids)} PMID {pmid} via Wiley_TDM_PDF")
+                continue
+            except Exception as exc:
+                metadata["wiley_tdm_error"] = str(exc)
+
+        # Elsevier Article API
         if not ELSEVIER_API_KEY:
-            finalize_monitoring(metadata)
-            results.append(
-                result_record(
-                    pmid,
-                    "failed",
-                    "Publisher API full text not retrieved; Elsevier key missing or publisher backend unavailable",
-                    metadata=metadata,
-                    extra={"failure_category": "missing_api_key"},
-                )
-            )
+            results.append(result_record(pmid, "failed", "No API key available"))
             continue
 
         try:
@@ -1043,12 +1303,11 @@ def main() -> int:
             raw_json_path = raw_dir / f"{safe_filename(pmid)}.json"
             payload = download_elsevier_fulltext(client, pmid, raw_json_path)
             full_text = json.dumps(payload, ensure_ascii=False, indent=2)
-            # Validate that the response contains actual article body (not metadata-only)
             if not re.search(r"<(?:ce:sections|ce:para|body)\b", full_text):
                 raise RuntimeError("Elsevier API returned metadata-only response (no body content)")
             metadata["source"] = "Elsevier_Article_API"
             metadata["license"] = "publisher_api"
-            metadata["doi"] = metadata.get("doi", "")
+            metadata["doi"] = doi
             metadata["text_file"] = str(txt_path)
             finalize_monitoring(metadata)
             txt_path.write_text(
