@@ -163,6 +163,8 @@ def safe_filename(value: str) -> str:
     return re.sub(r"[^A-Za-z0-9._-]+", "_", value).strip("_") or "unknown"
 
 
+from datetime import datetime, timedelta, timezone
+
 class RateLimiter:
     def __init__(self, sleep_seconds: float | None = None) -> None:
         if sleep_seconds is None:
@@ -170,12 +172,31 @@ class RateLimiter:
         self.sleep_seconds = sleep_seconds
         self.last_request_at = 0.0
 
-    def wait(self) -> None:
+    def wait(self, url: str = "") -> None:
         now = time.time()
-        remaining = self.sleep_seconds - (now - self.last_request_at)
+        
+        # Determine delay
+        delay = self.sleep_seconds
+        if "sagepub.com" in url.lower():
+            delay = self._get_sage_delay()
+
+        remaining = delay - (now - self.last_request_at)
         if remaining > 0:
             time.sleep(remaining)
         self.last_request_at = time.time()
+
+    def _get_sage_delay(self) -> float:
+        # SAGE policy: 1 request/6s (00:00-12:00 LA), 1 request/2s (12:00-00:00 LA & weekends)
+        utc_now = datetime.now(timezone.utc)
+        # Pacific Time is UTC-8 (conservative, ignoring DST for stability in rate limiting)
+        la_now = utc_now - timedelta(hours=8)
+        
+        if la_now.weekday() >= 5:  # Weekend
+            return 2.1
+        
+        if 0 <= la_now.hour < 12:
+            return 6.1
+        return 2.1
 
 
 @dataclass
@@ -204,7 +225,7 @@ class HttpClient:
         if headers:
             merged_headers.update(headers)
         req = request.Request(final_url, headers=merged_headers)
-        self.ctx.rate_limiter.wait()
+        self.ctx.rate_limiter.wait(final_url)
         try:
             with request.urlopen(req, timeout=timeout) as response:
                 charset = response.headers.get_content_charset() or "utf-8"
@@ -230,7 +251,7 @@ class HttpClient:
         if headers:
             merged_headers.update(headers)
         req = request.Request(final_url, headers=merged_headers)
-        self.ctx.rate_limiter.wait()
+        self.ctx.rate_limiter.wait(final_url)
         try:
             with request.urlopen(req, timeout=timeout) as response:
                 charset = response.headers.get_content_charset() or "utf-8"
@@ -267,7 +288,7 @@ class HttpClient:
         if headers:
             merged_headers.update(headers)
         req = request.Request(url, headers=merged_headers)
-        self.ctx.rate_limiter.wait()
+        self.ctx.rate_limiter.wait(url)
         dest = Path(destination)
         with request.urlopen(req, timeout=timeout) as response:
             data = response.read()
@@ -289,7 +310,7 @@ class HttpClient:
         if headers:
             merged_headers.update(headers)
         req = request.Request(final_url, headers=merged_headers)
-        self.ctx.rate_limiter.wait()
+        self.ctx.rate_limiter.wait(final_url)
         try:
             with request.urlopen(req, timeout=timeout) as response:
                 return {
@@ -318,7 +339,17 @@ def fetch_pubmed_summaries(client: HttpClient, pmids: list[str]) -> dict[str, di
     for group in chunked(pmids, 200):
         params = {"db": "pubmed", "id": ",".join(group), "retmode": "json"}
         params.update(ncbi_common_params(client.ctx))
-        payload = client.get_json(f"{EUTILS_BASE}/esummary.fcgi", params=params)
+        for attempt in range(5):
+            try:
+                payload = client.get_json(f"{EUTILS_BASE}/esummary.fcgi", params=params)
+                break
+            except RuntimeError as exc:
+                if "429" in str(exc) and attempt < 4:
+                    wait = 60 * (2 ** attempt)
+                    print(f"[esummary] 429 rate-limited, retrying in {wait}s (attempt {attempt+1}/5)...", flush=True)
+                    time.sleep(wait)
+                else:
+                    raise
         for uid in payload.get("result", {}).get("uids", []):
             results[uid] = payload["result"][uid]
     return results
@@ -335,7 +366,18 @@ def fetch_idconv(client: HttpClient, pmids: list[str]) -> dict[str, dict[str, An
             "tool": client.ctx.tool,
             "email": client.ctx.email,
         }
-        payload = client.get_json(PMC_IDCONV_BASE, params=params)
+        for attempt in range(5):
+            try:
+                payload = client.get_json(PMC_IDCONV_BASE, params=params)
+                break
+            except RuntimeError as exc:
+                if "429" in str(exc) and attempt < 4:
+                    wait = 60 * (2 ** attempt)
+                    print(f"[idconv] 429 rate-limited, retrying in {wait}s (attempt {attempt+1}/5)...",
+                          flush=True)
+                    time.sleep(wait)
+                else:
+                    raise
         for record in payload.get("records", []):
             pmid = str(record.get("pmid", "")).strip()
             if pmid:
@@ -393,13 +435,22 @@ def normalize_title_for_match(title: str) -> str:
     return " ".join(title.split())
 
 
+class OpenAlexBudgetExhausted(Exception):
+    """Raised when OpenAlex returns HTTP 429 with Insufficient budget message."""
+
+
 def search_openalex_title(client: HttpClient, title: str, doi: str = "") -> dict[str, Any]:
     params = {
         "search": title,
         "per-page": 5,
         "mailto": client.ctx.email,
     }
-    payload = client.get_json(OPENALEX_WORKS_BASE, params=params, headers={"Accept": "application/json"})
+    try:
+        payload = client.get_json(OPENALEX_WORKS_BASE, params=params, headers={"Accept": "application/json"})
+    except RuntimeError as exc:
+        if "429" in str(exc) and "budget" in str(exc).lower():
+            raise OpenAlexBudgetExhausted(str(exc)) from exc
+        raise
     target_doi = doi.lower().strip()
     results = payload.get("results", []) or []
     if target_doi:
@@ -882,6 +933,7 @@ def write_json(path: str | Path, payload: Any) -> None:
 
 
 def write_jsonl(path: str | Path, rows: list[dict[str, Any]]) -> None:
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
     with Path(path).open("w") as handle:
         for row in rows:
             handle.write(json.dumps(row, ensure_ascii=False) + "\n")
