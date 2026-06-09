@@ -1,0 +1,591 @@
+PMID: 25022578
+PMCID: PMC4187909
+DOI: 10.1128/AAC.03057-14
+Title: Avibactam and class C β-lactamases: mechanism of inhibition, conservation of the binding pocket, and implications for resistance.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2014 Oct
+Authors: Lahiri SD, Johnstone MR, Ross PL, McLaughlin RE, Olivier NB, Alm RA
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Avibactam and Class C β-Lactamases: Mechanism of Inhibition, Conservation of the Binding Pocket, and Implications for Resistance - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2014 Oct;58(10):5704–5713. doi: 10.1128/AAC.03057-14 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Avibactam and Class C β-Lactamases: Mechanism of Inhibition, Conservation of the Binding Pocket, and Implications for Resistance 
+
+S D Lahiri 
+
+S D Lahiri 
+
+a Infection Innovative Medicines, AstraZeneca R&D Boston, Boston, Massachusetts, USA 
+
+Find articles by S D Lahiri 
+
+a, ✉ , M R Johnstone 
+
+M R Johnstone 
+
+a Infection Innovative Medicines, AstraZeneca R&D Boston, Boston, Massachusetts, USA 
+
+Find articles by M R Johnstone 
+
+a , P L Ross 
+
+P L Ross 
+
+b Discovery Sciences Innovative Medicines, AstraZeneca R&D Boston, Boston, Massachusetts, USA 
+
+Find articles by P L Ross 
+
+b , R E McLaughlin 
+
+R E McLaughlin 
+
+a Infection Innovative Medicines, AstraZeneca R&D Boston, Boston, Massachusetts, USA 
+
+Find articles by R E McLaughlin 
+
+a , N B Olivier 
+
+N B Olivier 
+
+b Discovery Sciences Innovative Medicines, AstraZeneca R&D Boston, Boston, Massachusetts, USA 
+
+Find articles by N B Olivier 
+
+b , R A Alm 
+
+R A Alm 
+
+a Infection Innovative Medicines, AstraZeneca R&D Boston, Boston, Massachusetts, USA 
+
+Find articles by R A Alm 
+
+a, ✉ 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a Infection Innovative Medicines, AstraZeneca R&D Boston, Boston, Massachusetts, USA 
+
+b Discovery Sciences Innovative Medicines, AstraZeneca R&D Boston, Boston, Massachusetts, USA 
+
+✉ 
+Address correspondence to S. D. Lahiri, sushmita.lahiri@astrazeneca.com , or R. A. Alm, richard.alm@astrazeneca.com . 
+
+✉ 
+Corresponding author. 
+
+Received 2014 Apr 17; Revision requested 2014 May 21; Accepted 2014 Jul 7. 
+
+Copyright © 2014, American Society for Microbiology. All Rights Reserved. 
+
+PMC Copyright notice 
+
+PMCID: PMC4187909  PMID: 25022578 
+
+Abstract 
+
+Avibactam is a novel non-β-lactam β-lactamase inhibitor that inhibits a wide range of β-lactamases. These include class A, class C, and some class D enzymes, which erode the activity of β-lactam drugs in multidrug-resistant pathogens like Pseudomonas aeruginosa and Enterobacteriaceae spp. Avibactam is currently in clinical development in combination with the β-lactam antibiotics ceftazidime, ceftaroline fosamil, and aztreonam. Avibactam has the potential to be the first β-lactamase inhibitor that might provide activity against class C-mediated resistance, which represents a growing concern in both hospital- and community-acquired infections. Avibactam has an unusual mechanism of action: it is a covalent inhibitor that acts via ring opening, but in contrast to other currently used β-lactamase inhibitors, this reaction is reversible. Here, we present a high-resolution structure of avibactam bound to a class C β-lactamase, AmpC, from P. aeruginosa that provided insight into the mechanism of both acylation and recyclization in this enzyme class and highlighted the differences observed between class A and class C inhibition. Furthermore, variants resistant to avibactam that identified the residues important for inhibition were isolated. Finally, the structural information was used to predict effective inhibition by sequence analysis and functional studies of class C β-lactamases from a large and diverse set of contemporary clinical isolates ( P. aeruginosa and several Enterobacteriaceae spp.) obtained from recent infections to understand any preexisting variability in the binding pocket that might affect inhibition by avibactam. 
+
+INTRODUCTION 
+
+The continual emergence of multidrug resistance in Gram-negative bacteria has eliminated many former treatment options. The β-lactam drug class, once the foundation of treatment regimens for many hospital- and community-acquired infections, is rapidly becoming obsolete due to the proliferation of β-lactamases ( 1 – 3 ). Even the effectiveness of carbapenems, which for many years represented the last line of defense, is being eroded by the emerging pandemic of carbapenemases, such as metallo-β-lactamase-containing pathogens ( 4 , 5 ). The currently available β-lactamase inhibitors, such as clavulanic acid and sulbactam, are effective inhibitors of many of the class A β-lactamases but are incapable of inhibiting any other classes, including class C ( 6 ). Chromosomally encoded class C β-lactamases are found in many clinically important pathogens, such as Pseudomonas aeruginosa and many Enterobacteriaceae spp. ( 7 , 8 ). In many cases, the expression of these enzymes is inducible; however, they can become derepressed, and the subsequent overexpression results in resistance to many β-lactam drugs. Furthermore, there is a myriad of class C enzymes encoded on transferable plasmids that enable horizontal transfer of class C-mediated β-lactam resistance between bacterial species. 
+
+Avibactam ( Fig. 1A ) is a novel non-β-lactam β-lactamase inhibitor that inhibits both class A and class C (and some class D) enzymes, thus providing protection from a diverse range of β-lactamase-mediated resistance mechanisms ( 9 – 11 ). It is currently in clinical development in combination with the cephalosporins ceftazidime and ceftaroline fosamil and with the monobactam aztreonam ( Fig. 1B ) as alternative therapeutic options for the treatment of infections caused by multidrug-resistant P. aeruginosa and Enterobacteriaceae spp. ( 12 – 17 ). Avibactam is structurally distinct from the clinically used β-lactamase inhibitors in that it does not contain a β-lactam core. In addition, it has a unusual mechanism of inhibition. While the covalent inhibition proceeds in a similar fashion via the opening of the avibactam ring, the reaction is reversible, whereby deacylation results in regeneration of the intact compound as opposed to hydrolysis and turnover ( 9 ). This mechanistic difference from the clinically used inhibitors contributes to making avibactam highly effective in providing protection to the β-lactam partner against hydrolysis by chromosomal and plasmidic β-lactamases. 
+
+FIG 1. 
+
+Open in a new tab 
+
+Chemical structures of avibactam (A) and aztreonam (B). 
+
+We have recently described the mechanism of covalent inhibition of class A enzymes by avibactam as well as a medium-resolution structural view of a class C cocomplex to rationalize the broad-spectrum activity ( 18 ). However, the mechanism of inhibition of class C β-lactamases, which is a differentiating attribute of avibactam, was not confirmed. We now report high-resolution P. aeruginosa AmpC structures in complex with avibactam in both the ring-open and ring-closed forms and in complex with the monobactam β-lactam, aztreonam. The subsequent analyses have enabled an understanding of the reversible deacylation in class C enzymes and a rationale for the more rapid recyclization observed with this class C enzyme in comparison to class A β-lactamases. In addition, we also evaluated the conservation of the avibactam binding pocket to assess the risk of any preexisting pool of resistant class C enzymes by sequencing the chromosomal ampC gene from >500 diverse clinical isolates. 
+
+MATERIALS AND METHODS 
+
+Crystallization, data collection, structure determination, and refinement. 
+
+Crystals of AmpC were obtained as described previously ( 18 ). Crystals were soaked with a final concentration of 10 mM avibactam or aztreonam for 15 min, followed by flash freezing in liquid nitrogen. Data were collected at Advanced Photon Source in Chicago at Industrial Macromolecular Crystallography Association (IMCA) beamline BM16. Data processing and refinement statistics are provided in Table S1 in the supplemental material. 
+
+Genome sequencing. 
+
+Total genomic DNA was prepared using the genomic DNA purification kit in the Maxwell 16 instrument (Promega, Madison, WI). DNA libraries were prepared using the Nextera library construction protocol (Illumina, San Diego, CA) and sequenced on a MiSeq sequencer (Illumina). 
+
+Data analysis. 
+
+Whole-genome data were analyzed using Workbench software version 5.5.1 (CLC Bio, Cambridge, MA). Multiple sequence alignments were generated using the ClustalX program. Multilocus sequence typing (MLST) was performed by comparing the assembled genome sequences of each strain to the database of known P. aeruginosa MLST alleles available at www.pubmlst.org . ConSurf, a bioinformatics tool ( http://consurf.tau.ac.il/ ), was used to map the multiple sequence alignment to the AmpC-avibactam structure to visualize the 3-dimensional sequence diversity. PyMOL ( www.pymol.org ) was used to display the diversity and also to model the residue substitutions identified in the resistant variants. 
+
+Resistance selection and antimicrobial susceptibility testing. 
+
+Resistant variants were selected by plating a bacterial suspension on agar plates containing 2-fold increasing concentrations of aztreonam with avibactam held constant at 4 μg/ml. The MIC values were determined by the broth microdilution method following the guidelines established by the Clinical and Laboratory Standards Institute (CLSI). 
+
+Expression analysis. 
+
+RNA from strains grown to mid-log phase was prepared using a Maxwell 16 LEV simplyRNA purification kit (Promega). A total of 5 ng RNA was used in a reverse transcription (RT)-PCR assay using a Qiagen QuantiTect SYBR green RT-PCR kit (Germantown, MD) with a Bio-Rad CFX96 instrument. The oligonucleotides used to detect the expression of the chromosomal bla ampC allele in Citrobacter freundii were 5′-CGAGGGGAAACCTTATTA-3′ and 5′-TGTATAGGTGGCTAAGTG-3′ and the control oligonucleotides to detect expression of the rpsL ribosomal gene were 5′-TAAAAAACCGAACTCCGCA-3′ and 5′-GTCACTTCAAAACCGTTAG-3′. The level of rpsL expression was used for normalization. 
+
+RESULTS 
+
+High-resolution structure of avibactam bound to P. aeruginosa AmpC. 
+
+Crystals of avibactam covalently bound to P. aeruginosa AmpC that diffracted to 1.1 Å were obtained. The higher resolution provided improved understanding of avibactam binding, in particular, the piperidine ring conformation, the positions of the carboxamide and sulfate groups, and most importantly, the accurate positions of the residues involved in catalysis ( Fig. 2A to C ). The high resolution allowed observation of an intramolecular connectivity between the amide group and the N1 nitrogen of the piperidine ring ( Fig. 2A ), suggestive of a short strong hydrogen bond (<2.5 Å) between these two moieties. This interaction is novel to the class C binding mode of avibactam, as the bound structure of a class A β-lactamase at a comparable resolution ( 18 ) showed an increased distance between these atoms with no connectivity of electron density. Further, there was additional density observed between the cleaved C7-N6 bonds of the pyrazolidine ring ( Fig. 2A ). The most plausible explanation for this additional density is that a small subpopulation of ring-closed forms or an intermediate state of the inhibitor exists simultaneously in this position. However, refinement in the presence of a closed form of avibactam did not convincingly distinguish the two forms of avibactam, and hence, the model was refined with the open covalently linked inhibitor ( Fig. 2B ). 
+
+FIG 2. 
+
+Open in a new tab 
+
+Avibactam binding pocket in AmpC. (A) Unbiased Fo-Fc electron density (2.9-σ cutoff, green mesh) of avibactam (pink) prior to its addition into the refinement cycle. The connectivity of the electron density between the carboxamide and piperidine ring is indicated by the blue arrow while the additional density observed between the cleaved C7-N6 bonds of the pyrazolidine ring is shown by the green arrow. (B) Avibactam (pink sticks) and the neighboring residues (gray sticks) depicted along with the final refined 2Fo-Fc map (1.5-σ cutoff, blue mesh). (C) Distances of Tyr150 (green) and Lys67 (blue) from avibactam (pink sticks) and Ser64 (gray sticks). (D) Overlay of the avibactam binding pocket (gray sticks) over the apo pocket (yellow sticks). Only residues with changed positions in the apo structure are shown. Avibactam is depicted by pink sticks. Distances between residues in the avibactam structure are depicted by blue lines and labels, and those of apo in yellow. 
+
+The refined structure showed that eight residues provided three key contributions to the binding interactions with avibactam ( Fig. 2C ). The carboxamide group of avibactam interacted with the side chains of Asn152 and Gln120, and the sulfate moiety was positioned by Thr316, Lys315, and Asn346, whereas Tyr150 and Lys67 were positioned to participate in catalytic roles to enable formation of the covalent bond with Ser64. Specifically, the Oη of Tyr150 was equidistant, 3.3 Å and 3.2 Å, respectively, from N6 of avibactam and Oγ of Ser64. The Nζ of Lys67 was 2.9 Å from the Oγ of Ser64 and 4.9 Å from the N6 of avibactam. Comparison of the apo structure at a similar resolution showed a minimal shift in the binding pocket residues upon acylation with all residues superimposing exactly except for Tyr150, Lys67, and Asn152 ( Fig. 2D ). In the avibactam bound form, the side chain of Tyr150 moves closer to Lys67 by 1.0 Å, indicative of the formation of a new hydrogen bond upon acylation. In addition, a new hydrogen bond is also formed between the carboxamide group of avibactam and the Asn152 side chain. Asn152 maintains its hydrogen bond to Lys67 upon acylation, which results in a shift in the positions of these residues. 
+
+Comparison to a substrate binding mode. 
+
+To understand the differences in interactions between a β-lactam drug and avibactam, the structure of aztreonam bound to P. aeruginosa AmpC was solved to 1.3 Å ( Fig. 3A ). Aztreonam contains a sulfonyl group in place of the carboxylate group seen in other β-lactam antibiotics, which makes it structurally closer to avibactam than other β-lactams. In addition, whereas aztreonam is hydrolyzed by class C β-lactamases, resulting in decreased susceptibility, the rate of hydrolysis is slower than that observed for other β-lactams ( 6 ), making it feasible to capture the acyl-enzyme complex crystallographically. The structure showed that the position of the acylated aztreonam molecule in P. aeruginosa AmpC was very similar to that previously observed in a Citrobacter freundii class C enzyme, with the exception of the position of the oxyimino group ( 19 ). There was a significant similarity in the binding mode and interacting residues between aztreonam and avibactam ( Fig. 3B ). The sulfonyl group of aztreonam and the sulfate group of avibactam were similarly located and interacted with Lys315, Thr316, and Asn346. Additionally, both groups displace the deacylating water molecule (Wat) previously observed in crystal structures (Protein Data Bank [PDB] code 1IEL) ( 20 ). The position of the N1 of aztreonam upon ring cleavage was in a location similar to that of the N6 of avibactam, although the C3-C4 bond of the aztreonam β-lactam ring underwent a rotation of approximately 70° upon ring opening, which displaced the trajectory for recyclization. The side chains of Tyr150 and Lys67 were in identical positions in the two binding modes, as were the interactions of Asn152 with both Lys67 and the ligands. However, in the case of aztreonam, Asn152 formed a hydrogen bond with the carbonyl oxygen, which is opposite in polarity to the amide group of avibactam. Overall, the hydrogen-bonding patterns and the key interactions in the acylated forms were very similar between the substrate (aztreonam) and the inhibitor (avibactam) despite the differences in the compound structures. The major differences lay in the overall size and limited rotational freedom of avibactam compared to those of aztreonam. 
+
+FIG 3. 
+
+Open in a new tab 
+
+AmpC crystal structure with aztreonam. (A) Unbiased Fo-Fc electron density (2.9-σ cutoff, blue mesh) of aztreonam (dark green sticks) covalently bound to the AmpC active site Ser64 (light green sticks). (B) Overlay of the aztreonam binding pocket (green sticks) on the avibactam binding pocket (pink sticks). The ceftazidime and deacylating water molecule (Wat) from the ceftazidime-AmpC crystal structure. 
+
+Conservation of class C β-lactamase enzymes. 
+
+Given the emerging resistance to β-lactams in P. aeruginosa and evidence that small sequence differences can affect the substrate spectrum ( 7 ), there was a need to understand whether avibactam might be expected to inhibit all of the AmpC enzyme variants in this species. There were 36 unique AmpC sequences from P. aeruginosa , representing 67 different isolates, available in the public domain ( 7 , 21 ). An additional 464 isolates, obtained from 25 different countries and isolated from multiple clinical indications from 2008 to 2012 were sequenced. Multilocus sequence typing (MLST) analysis demonstrated a high level of diversity among the isolates. The 531 P. aeruginosa AmpC proteins were clustered into groups representing 72 unique sequences. The relative population within each cluster varied, with the largest cluster representing 109 (20.5%) of the isolates examined, whereas 35 clusters were represented by a single isolate (see Fig. S1 and Table S2 in the supplemental material). Although amino acid variations were observed in >22% of the residues, the eight residues directly involved in avibactam binding were highly conserved, with six of them being conserved in all proteins and the other two (Ser64 and Asn346) having one and two variants, respectively ( Table 1 ). Of these, the isolate containing a Ser 64 Leu substitution was expected to be nonfunctional because Ser64 is critical for covalent catalysis ( 22 ). The changes of Asn 346 Thr and Asn 346 Ile were both to amino acids of similar sizes, and the Asn 346 Ile substitution also changed the property of the substitution from a polar to a hydrophobic group. 
+
+TABLE 1. 
+
+Conservation analysis of key residues in chromosomal and plasmidic class C β-lactamase enzymes 
+
+Class C β-lactamase enzyme No. of unique variants No. of variants with conserved residues (changes observed) Ser64 Lys67 Gln120 Tyr150 Asn152 Lys315 Thr316 Asn346 Chromosomal P. aeruginosa AmpC 72 71 (1 Leu) 72 72 72 72 72 72 70 (1 Thr; 1 Ile) E. cloacae AmpC 57 57 57 57 57 57 57 56 (1 Met) 57 E. coli AmpC 102 102 102 102 102 102 102 102 101 (1 Ser) E. aerogenes AmpC 16 16 16 15 (1 Lys) 16 16 16 16 16 Citrobacter species AmpC 15 15 15 15 15 15 15 15 15 Plasmidic CMY 84 84 84 83 (1 Lys) 84 84 84 84 79 (5 Ile) DHA 6 6 6 6 6 6 6 6 6 FOX 9 9 9 9 9 9 9 9 0 (9 Ile) MOX 7 7 7 7 7 7 7 7 1 (6 Ile) MIR 6 6 6 6 6 6 6 6 6 ACT 13 13 13 13 13 13 13 13 13 CFE 1 1 1 1 1 1 1 1 1 LAT 1 1 1 1 1 1 1 1 1 
+
+Open in a new tab 
+
+Given that an important attribute of avibactam is the inhibition of class C β-lactamases, the conservation analyses were extended to other class C enzymes in clinically relevant bacterial pathogens, including the chromosomal AmpC proteins of Escherichia coli , Enterobacter cloacae , Enterobacter aerogenes , and Citrobacter spp. and plasmidic enzymes that can be carried by multiple species ( Table 1 ). In the case of E. cloacae , where derepression of the chromosomal bla ampC gene is a common resistance mechanism, 79 recent clinical isolates were sequenced, and their chromosomal AmpC proteins, along with 19 sequences from the public domain, were clustered into 57 unique AmpC sequences with almost 40% of the amino acid residues varying among these sequences (see Fig. S1 and Table S3 in the supplemental material). Similarly, unique chromosomal AmpC proteins from E. coli , E. aerogenes , and Citrobacter spp. along with 127 plasmidic class C β-lactamase enzymes from public and internal data were also included in the conservation analysis. Despite the dramatic sequence variability observed between these class C enzymes ( Fig. 4A ), Lys67, Tyr150, Asn152, and Lys315 were completely conserved ( Fig. 4B ). A small number of isolates contained variations at Ser64 ( n = 1), Gln120 ( n = 2), and Thr316 ( n = 1). Asn346 was the most variable of the binding pocket residues: three variants among the chromosomal enzymes and 20 plasmidic class C enzymes carried the Asn 346 Ile substitution ( Table 1 ). This modification was previously attributed to an extended-spectrum cephalosporinase activity ( 23 , 24 ). 
+
+FIG 4. 
+
+Open in a new tab 
+
+Conservation of the avibactam binding pocket mapped on the AmpC crystal structure. (A) Sequence conservation of class C residues is depicted as a surface map where cyan represents variable regions while purple represents conserved residues. Avibactam is depicted as cyan sticks. (B) Residues in the binding pocket of avibactam (white sticks) interacting via their side chains are depicted as sticks and color coded based on conservation. 
+
+Microbiological susceptibility tests were performed in P. aeruginosa and E. cloacae isolates where the chromosomal bla ampC was derepressed and contained no other β-lactamases to enable clear interpretation of the ability of avibactam to inhibit these chromosomal AmpC variants. The susceptibility data confirmed that the restoration of β-lactam activity by 4 μg/ml avibactam was not affected by variations in these enzymes and restored the ceftazidime and aztreonam MIC values to susceptible ranges as defined by the CLSI (representative MIC values are shown in Table 2 ). The only variations in the 8 key avibactam binding residues ( Table 1 ) that were not verified were the Gln 120 Lys, which was not available for testing, and the chromosomal Thr 316 Met, which was not derepressed in the isolate. Taken together, these data suggest that there is not a significant pool of preexisting class C-based resistance to avibactam in clinical isolates of Gram-negative pathogens. 
+
+TABLE 2. 
+
+Susceptibility analyses of Pseudomonas aeruginosa isolates carrying different AmpC variations 
+
+Strain AmpC genotype a MIC (μg/ml) for b : CAZ CAZ-AVI ATM ATM-AVI ATCC 27853 AZPC-5 2 1 4 4 PAO1 AZPC-1 2 2 4 4 ARC4644 AZPC-1 32 8 32 32 ARC4884 AZPC-3 64 4 32 8 ARC3604 AZPC-5 128 8 256 64 ARC2144 AZPC-6 16 1 32 2 ARC3509 AZPC-8 128 8 128 16 ARC4989 AZPC-11 64 16 64 32 ARC2147 AZPC-15 64 4 32 8 ARC4889 AZPC-16 32 4 16 8 ARC4938 AZPC-19 32 4 16 16 ARC4647 AZPC-24 64 4 16 8 ARC4906 AZPC-30 32 8 8 4 ARC4836 AZPC-31 64 16 64 32 ARC5058 AZPC-35 128 4 128 16 ARC3609 AZPC-36 32 4 16 8 ARC3610 AZPC-37 128 8 128 16 ARC3608 AZPC-39 128 8 128 8 ARC3737 AZPC-40 32 2 8 0.5 ARC3862 AZPC-41 64 2 64 4 ARC4453 AZPC-44 64 4 16 16 ARC4372 AZPC-46 128 16 64 32 ARC2416 AZPC-48 c 128 4 8 0.5 ARC2415 AZPC-49 >256 8 64 8 ARC2413 AZPC-50 >256 4 64 4 ARC2151 AZPC-52 64 4 8 2 ARC2156 AZPC-53 64 4 16 1 ARC2142 AZPC-54 128 2 64 2 ARC4847 AZPC-55 64 2 16 8 ARC5064 AZPC-68 32 8 32 16 ARC5366 AZPC-71 32 8 32 16 ARC2154 AZPC-72 64 2 8 1 
+
+Open in a new tab 
+
+a 
+Unique AmpC sequences (see Fig. S1 and Table S1 in the supplemental material for details). 
+
+b 
+CAZ, ceftazidime; ATM, aztreonam; AVI, avibactam (constant concentration of 4 μg/ml). 
+
+c 
+The AZPC-48 sequence carries the Asn 346 Ile substitution; in all other AZPC clusters listed, all eight key residues that interact with avibactam are fully conserved. 
+
+Resistance to avibactam in combination with a β-lactam. 
+
+Given the conservation of the avibactam binding pocket residues and the importance of these residues in β-lactam recognition and catalysis ( 25 – 29 ), we investigated whether any variations in these might compromise the inhibition potency of avibactam while still allowing hydrolysis of the β-lactam drug and thus result in resistance. Spontaneous resistance frequency experiments were carried out in several isolates carrying class C β-lactamases, with an initial focus on Enterobacteriaceae spp. where aztreonam in combination with avibactam was more potent than in P. aeruginosa . Resistant variants from a C. freundii isolate and an E. coli isolate that carried multiple β-lactamase enzymes were obtained at low frequencies of 6 × 10 −10 and 6 × 10 −9 , respectively. These mutants had 8- to 64-fold increases in aztreonam-avibactam MICs compared with that for the parental isolate ( Table 3 ). Whole-genome sequence analyses of the parent and daughter strains identified the mutations responsible for the loss of susceptibility. The variation in the resistant C. freundii strains was either an Asn 346 Tyr or a Tyr 150 Ser change in the chromosomal AmpC protein, which was confirmed by RT-PCR analysis to be stably derepressed in both the parent and daughter strains to equivalent levels ( Table 3 ; see also Fig. S2 in the supplemental material). The variation in the E. coli mutant was a Tyr 150 Cys substitution in the plasmid-encoded class C enzyme (CMY-6). 
+
+TABLE 3. 
+
+Susceptibility and β-lactamase profiles of aztreonam- and aztreonam-avibactam-resistant Enterobacteriaceae variants 
+
+Strain β-Lactamase content of: MIC (μg/ml) for a : Chromosome Plasmid(s) ATM ATM-AVI C. freundii 3885 (parent) AmpC TEM-1, SHV-5, CMY-2 512 1 C. freundii (variant 1) AmpC[Asn 346 Tyr] TEM-1, SHV-5, CMY-2 512 8 C. freundii (variant 2) AmpC[Tyr 150 Ser] TEM-1, SHV-5, CMY-2 >512 64 E. coli 3799 (parent) AmpC TEM-1, CTX-M-15, OXA-2, NDM-3, CMY-6 >512 8 E. coli (variant 1) AmpC TEM-1, CTX-M-15, OXA-2, NDM-3, CMY-6[Tyr 150 Cys] >512 128 
+
+Open in a new tab 
+
+a 
+ATM, aztreonam; ATM-AVI, aztreonam plus avibactam (at 4 μg/ml). 
+
+Structural models of the AmpC mutations indicated that the Asn 346 Tyr substitution would result in a steric clash with the sulfate group of avibactam, thus influencing the binding affinity of the inhibitor ( Fig. 5A ). Whereas a similar impact to the sulfonyl group of aztreonam is expected, the slightly greater distance between this group and the side chain, as well as the greater flexibility of aztreonam, did still accommodate binding and hydrolysis. While the Tyr 150 Ser substitution maintains a similar polarity, the reduced size of the Ser residue increases the binding pocket volume ( Fig. 5B ). The rigid binding mode of avibactam and the possible role of Tyr150 in the mechanism of inhibition suggested that this change displaced a critical base from the vicinity of acylation. The hydrolysis of aztreonam by a AmpC Tyr150Ser variant is not unprecedented, as kinetic studies in laboratory-generated mutants have shown that an enzyme carrying this substitution can hydrolyze the substrate, albeit with reduced efficiency, likely by positioning a water molecule in the mutant ( 30 ). To further explore this hypothesis, hydrolysis of aztreonam by the cell extract was monitored using liquid chromatography-mass spectrometry (LC-MS) in the presence and absence of avibactam. The rate of aztreonam hydrolysis was impaired in the Tyr 150 Ser mutant compared to that in the parent. The addition of avibactam protected the hydrolysis of aztreonam by 36-fold in the parent strain; however, this protection was significantly reduced in the mutant strain, where only a 2-fold protection was obtained after 22 h of incubation (see Fig. S3 in the supplemental material). A similar rationale is also applicable for the Tyr 150 Cys E. coli resistant variant due to the similarity in the sizes of the substitutions and their ability to position a water molecule for hydrolysis. 
+
+FIG 5. 
+
+Open in a new tab 
+
+Resistant mutants. Structural models of resistant variants using the crystal structures of avibactam (pink sticks) and aztreonam (green sticks). (A) Asn346 in the avibactam crystal structure is depicted in light pink, while modeled Tyr346 changes are depicted as white sticks. (B) Tyr150 in aztreonam-AmpC structure is depicted in light green, and Tyr150 in avibactam-AmpC is shown in light pink. The modeled Ser150 change is depicted as gray sticks, and the resulting difference in pocket volume due to this change is depicted in a surface view. 
+
+DISCUSSION 
+
+Inhibition of class C β-lactamases is one of the most significant and unique attributes of avibactam ( 31 , 32 ). The structures presented here provide a molecular rationale for the stability of avibactam from hydrolysis by class C enzymes and a hypothesis of the mechanisms of acylation and recyclization and of a higher rate of recyclization ( 9 , 33 ) in this class than those for class A enzymes. 
+
+The lack of hydrolysis can be explained by comparing the structure described here with the well-defined mechanism of deacylation in class C enzymes ( 20 , 34 ). In its covalent binding mode, the sulfate group of avibactam has completely displaced the deacylating water molecule (PDB code 1IEL), and in its position is the N6 atom of the scissile bond, which remains in an optimal trajectory for the reverse covalent attack on the Ser64 carbamoyl linkage. This, along with a stable carbamoyl covalent linkage of avibactam, explains why intramolecular recyclization of avibactam is preferred over water-mediated hydrolysis. A similar hindrance is also provided by the sulfonate group of aztreonam, resulting in its weaker hydrolysis compared to that of other β-lactams, but the flexibility and shorter length of its sulfonate arm prevent complete protection. In contrast, the limited rotational freedom and additional length of the sulfate group in avibactam effectively prevent hydrolysis ( Fig. 3B ). This mechanism of protection from hydrolysis is distinct from the class A β-lactamase mechanism, where the hydrolytic water, while still observed in the binding mode, was rendered ineffective by the changed protonation state of the base Glu166 ( 18 ). 
+
+Based on the observed structure, a mechanism of reversible acylation and recyclization of avibactam is proposed for class C enzymes ( Fig. 6 ). The first step for acylation requires the deprotonation of Ser64 and a subsequent protonation of the cleaved N6 nitrogen of avibactam. Both Tyr150 and Lys67 are within hydrogen-bonding distances to Ser64, suggesting that either or both of these residues might participate in proton abstraction. However, there is only one residue, Tyr150, within proximity to N6 of avibactam to act as a general base for ring opening. Similarly, in the reverse recyclization reaction, Tyr150 is the only general base in the vicinity that could abstract a proton from N6, while OγSer64 could receive a proton from either Tyr150 or Lys67. Taken together, these results suggested that inhibition by avibactam might proceed via a single base mechanism ( Fig. 6 , I-III-IV-V), where Tyr150 functions as the sole catalytic residue acting as both the general base and the general acid to shuttle the proton from OγSer64 to N6 of avibactam. Alternatively, a conjugated acid-base mechanism might be envisioned, where Lys67 functions as the general base and Tyr150 as the general acid during acylation and vice versa during recyclization ( Fig. 6 , II-III-IV-VI). Both mechanisms result in a phenolated Tyr150 in the acylated form ( Fig. 6 , IV), which is supported by the structural data where the distance between Tyr150 and Lys67 changes from 3.8 Å to 2.8 Å when covalently linked to avibactam. While this structure cannot distinguish between the single base and the conjugated acid-base mechanisms, insight into the preferred path of electron transfer can be obtained from the resistant variants. The Tyr 150 Ser and Tyr 150 Cys substitutions, which increase the distance between the general base and OγSer64 ( Fig. 5B ), cause weaker but not complete loss of inhibition by avibactam. This suggests that another residue is involved in acylation, thus favoring the conjugated acid-base mechanism ( Fig. 6 , II-III-IV-VI). Further structural and kinetic experiments are needed to better understand the mechanistic complexities. 
+
+FIG 6. 
+
+Open in a new tab 
+
+Scheme of the proposed mechanism. Acylations can proceed via a single-base mechanism (I-III-IV-V) or a two-base mechanism (II-III-IV-VI) where either Tyr150 alone or Tyr150 and Lys67 together, respectively, can participate as the general acids-general bases to acylate followed by deacylation via recyclization. 
+
+Lastly, the faster recyclization rate of avibactam in class C enzymes than in class A β-lactamases can be explained by the difference in location of the catalytic residues involved in acylation and deacylation ( Fig. 7 ). In contrast to class A enzymes (CTX-M-15) where Glu166 and Ser130, the general bases for acylation and recyclization, respectively, were located on the opposite faces of the carbonyl plane ( 18 ), the equivalent residues in class C enzymes are located on the same side. The opposite side in the class C binding pocket, equivalent to the Glu166 face in class A enzymes, is less polar and is formed by the hydrophobic side chain of Tyr122. The lack of polarity and hydrogen-bonding residues in this region likely facilitates the intramolecular hydrogen bond observed between the avibactam carboxamide group and the N1 nitrogen of the piperidine ring ( Fig. 2A ). This strong intramolecular hydrogen bond helps to delocalize electrons from the carbonyl plane, thus making it more favorable for nucleophilic attack by N6. The closed loop of hydrogen bonds between Tyr150-Lys67-Asn152-carboxamide NH 2 -piperidine N1 in the AmpC binding mode links the two cleaved ends of the scissile bond, which is able to quickly respond to alterations in electronics between the ring-closed and ring-open forms. 
+
+FIG 7. 
+
+Open in a new tab 
+
+Comparison of class A and class C binding pockets. Avibactam bound to AmpC (green sticks) is overlaid on avibactam bound to CTX-M-15 (pink sticks) to show differences in residues interacting with the inhibitor. The residues have been labeled in their respective colors. The water molecule observed at the deacylating position in CTX-M-15 is shown as a red sphere. 
+
+In conclusion, drug resistance can occur through subtle changes that maintain substrate recognition and catalysis while no longer permitting optimal inhibitor functionality. Isolates resistant to class A β-lactamase inhibitors in current clinical use have emerged and carry β-lactamases with minor modifications, often at positions where the binding mode or the mechanism of the inhibitor differs from that of the substrate (defined as the substrate envelope theory) ( 35 ). To date, the evolutionary pressure on class C β-lactamases has been to adapt to the increasing size of later generations of β-lactam drugs ( 36 ). However, they have remained naive to any selection pressure that would require the enzyme to compromise catalysis in order to avoid inhibition. This is evident by the extremely well-conserved binding pocket near the catalytic core among a wide range of chromosomal and plasmidic class C β-lactamases. Avibactam has preserved many of the key features of β-lactam recognition and acylation to efficiently exploit the residues that are critical for β-lactam catalysis. The interactions of avibactam are limited to this conserved element, which suggests a very high probability of inhibiting all class C enzymes. In vitro selection experimental results hint that the lack of rotational freedom of avibactam could limit its capacity to inhibit certain variants, but the ability of avibactam to mimic the key interaction of a β-lactam substrate combined with its tight binding is likely to bestow a high “genetic barrier” on the development of resistance in the clinic. 
+
+Supplementary Material 
+
+Supplemental material 
+
+supp_58_10_5704__index.html (944B, html) 
+
+ACKNOWLEDGMENTS 
+
+We acknowledge Jim Whiteaker, Kathy MacCormack, and Veronica Kos from Infection, AstraZeneca R&D Boston, for their contributions to whole-genome sequencing and Joe Patel from Discovery Sciences, AstraZeneca R&D Boston, for his help during crystallographic data collection. We thank Wright Nichols, Patricia Bradford, Dave Ehmann, and Thomas Durand-Reville from Infection, AstraZeneca R&D Boston, for careful reading and constructive feedback during the preparation of the manuscript. 
+
+Footnotes 
+
+Published ahead of print 14 July 2014 
+
+Supplemental material for this article may be found at http://dx.doi.org/10.1128/AAC.03057-14 . 
+
+REFERENCES 
+
+1. Bush K.
+2010. 
+The coming of age of antibiotics: discovery and therapeutic value. Ann. N. Y. Acad. Sci.
+1213:1–4. 10.1111/j.1749-6632.2010.05872.x [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+2. Bassetti M, Merelli M, Temperoni C, Astilean A.
+2013. 
+New antibiotics for bad bugs: where are we?
+Ann. Clin. Microbiol. Antimicrob.
+12:22. 10.1186/1476-0711-12-22 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Carlet J.
+2013. 
+Multi-drug resistant bacteria and antibiotics. Rev. Infirm.
+192:17–19
+(In French.) [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+4. Lascols C, Hackel M, Marshall SH, Hujer AM, Bouchillon S, Badal R, Hoban D, Bonomo RA.
+2011. 
+Increasing prevalence and dissemination of NDM-1 metallo-beta-lactamase in India: data from the SMART study (2009). J. Antimicrob. Chemother.
+66:1992–1997. 10.1093/jac/dkr240 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Patel G, Bonomo RA.
+2013. 
+“Stormy waters ahead”: global emergence of carbapenemases. Front. Microbiol.
+4:48. 10.3389/fmicb.2013.00048 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Jacoby GA.
+2009. 
+AmpC beta-lactamases. Clin. Microbiol. Rev.
+22:161–182. 10.1128/CMR.00036-08 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+7. Rodríguez-Martínez JM, Poirel L, Nordmann P.
+2009. 
+Extended-spectrum cephalosporinases in Pseudomonas aeruginosa. Antimicrob. Agents Chemother.
+53:1766–1771. 10.1128/AAC.01410-08 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Mammeri H, Nordmann P, Berkani A, Eb F.
+2008. 
+Contribution of extended-spectrum AmpC (ESAC) beta-lactamases to carbapenem resistance in Escherichia coli. FEMS Microbiol. Lett.
+282:238–240. 10.1111/j.1574-6968.2008.01126.x [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+9. Ehmann DE, Jahic H, Ross PL, Gu RF, Hu J, Kern G, Walkup GK, Fisher SL.
+2012. 
+Avibactam is a covalent, reversible, non-beta-lactam beta-lactamase inhibitor. Proc. Natl. Acad. Sci. U. S. A.
+109:11663–11668. 10.1073/pnas.1205073109 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+10. Cattoir V.
+2011. 
+NXL-104, a novel beta-lactamase inhibitor with broad-spectrum activity. J. Anti-Infect.
+13:20–24
+(In French.)
+10.1016/j.antinf.2010.12.003 [ DOI ] [ Google Scholar ] 
+
+11. Drawz SM, Papp-Wallace KM, Bonomo RA.
+2014. 
+New beta-lactamase inhibitors: a therapeutic renaissance in an MDR world. Antimicrob. Agents Chemother.
+58:1835–1846. 10.1128/AAC.00826-13 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Levasseur P, Girard AM, Claudon M, Goossens H, Black MT, Coleman K, Miossec C.
+2012. 
+In vitro antibacterial activity of the ceftazidime-avibactam (NXL104) combination against Pseudomonas aeruginosa clinical isolates. Antimicrob. Agents Chemother.
+56:1606–1608. 10.1128/AAC.06064-11 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Shlaes DM.
+2013. 
+New beta-lactam-beta-lactamase inhibitor combinations in clinical development. Ann. N. Y. Acad. Sci.
+1277:105–114. 10.1111/nyas.12010 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+14. Flamm RK, Stone GG, Sader HS, Jones RN, Nichols WW.
+Avibactam reverts the ceftazidime MIC of European Gram-negative bacterial clinical isolates to the epidemiological cut-off value. J. Chemother., in press. 10.1179/1973947813Y.0000000145 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+15. Crandon JL, Nicolau DP.
+2013. 
+Human simulated studies of aztreonam and aztreonam-avibactam to evaluate activity against challenging Gram-negative organisms, including metallo-beta-lactamase producers. Antimicrob. Agents Chemother.
+57:3299–3306. 10.1128/AAC.01989-12 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+16. Karlowsky JA, Adam HJ, Baxter MR, Lagace-Wiens PR, Walkty AJ, Hoban DJ, Zhanel GG.
+2013. 
+In vitro activity of ceftaroline-avibactam against Gram-negative and Gram-positive pathogens isolated from patients in Canadian hospitals from 2010 to 2012: results from the CANWARD surveillance study. Antimicrob. Agents Chemother.
+57:5600–5611. 10.1128/AAC.01485-13 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+17. Goldstein EJ, Citron DM, Merriam CV, Tyrrell KL.
+2013. 
+Comparative in vitro activity of ceftaroline, ceftaroline-avibactam, and other antimicrobial agents against aerobic and anaerobic bacteria cultured from infected diabetic foot wounds. Diagn. Microbiol. Infect. Dis.
+76:347–351. 10.1016/j.diagmicrobio.2013.03.019 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+18. Lahiri SD, Mangani S, Durand-Reville T, Benvenuti M, De Luca F, Sanyal G, Docquier JD.
+2013. 
+Structural insight into potent broad-spectrum inhibition with reversible recyclization mechanism: avibactam in complex with CTX-M-15 and Pseudomonas aeruginosa AmpC beta-lactamases. Antimicrob. Agents Chemother.
+57:2496–2505. 10.1128/AAC.02247-12 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+19. Oefner C, D'Arcy A, Daly JJ, Gubernator K, Charnas RL, Heinze I, Hubschwerlen C, Winkler FK.
+1990. 
+Refined crystal structure of beta-lactamase from Citrobacter freundii indicates a mechanism for beta-lactam hydrolysis. Nature
+343:284–288. 10.1038/343284a0 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+20. Powers RA, Caselli E, Focia PJ, Prati F, Shoichet BK.
+2001. 
+Structures of ceftazidime and its transition-state analogue in complex with AmpC beta-lactamase: implications for resistance mutations and inhibitor design. Biochemistry
+40:9207–9214. 10.1021/bi0109358 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+21. Jacoby GA.
+2006. 
+Extended-spectrum beta-lactamase controversies. Chin. J. Infect. Chemother.
+6:361–370 [ Google Scholar ] 
+
+22. Beadle BM, Trehan I, Focia PJ, Shoichet BK.
+2002. 
+Structural milestones in the reaction pathway of an amide hydrolase: substrate, acyl, and product complexes of cephalothin with AmpC beta-lactamase. Structure
+10:413–424. 10.1016/S0969-2126(02)00725-6 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+23. Lobkovsky E, Billings EM, Moews PC, Rahil J, Pratt RF, Knox JR.
+1994. 
+Crystallographic structure of a phosphonate derivative of the Enterobacter cloacae P99 cephalosporinase: mechanistic interpretation of a beta-lactamase transition-state analog. Biochemistry
+33:6762–6772. 10.1021/bi00188a004 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+24. Dahyot S, Broutin I, de Champs C, Guillon H, Mammeri H.
+2013. 
+Contribution of asparagine 346 residue to the carbapenemase activity of CMY-2 beta-lactamase. FEMS Microbiol. Lett.
+345:147–153. 10.1111/1574-6968.12199 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+25. Hata M, Fujii Y, Tanaka Y, Ishikawa H, Ishii M, Neya S, Tsuda M, Hoshino T.
+2006. 
+Substrate deacylation mechanisms of serine-beta-lactamases. Biol. Pharm. Bull.
+29:2151–2159. 10.1248/bpb.29.2151 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+26. Chen Y, McReynolds A, Shoichet BK.
+2009. 
+Re-examining the role of Lys67 in class C beta-lactamase catalysis. Protein Sci.
+18:662–669. 10.1002/pro.60 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+27. Lietz EJ, Truher H, Kahn D, Hokenson MJ, Fink AL.
+2000. 
+Lysine-73 is involved in the acylation and deacylation of beta-lactamase. Biochemistry
+39:4971–4981. 10.1021/bi992681k [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+28. Nukaga M, Kumar S, Nukaga K, Pratt RF, Knox JR.
+2004. 
+Hydrolysis of third-generation cephalosporins by class C beta-lactamases. Structures of a transition state analog of cefotoxamine in wild-type and extended spectrum enzymes. J. Biol. Chem.
+279:9344–9352. 10.1074/jbc.M312356200 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+29. Dubus A, Wilkin JM, Raquet X, Normark S, Frere JM.
+1994. 
+Catalytic mechanism of active-site serine beta-lactamases: role of the conserved hydroxy group of the Lys-Thr(Ser)-Gly triad. Biochem. J.
+301:485–494 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+30. Dubus A, Normark S, Kania M, Page MG.
+1994. 
+The role of tyrosine 150 in catalysis of beta-lactam hydrolysis by AmpC beta-lactamase from Escherichia coli investigated by site-directed mutagenesis. Biochemistry
+33:8577–8586. 10.1021/bi00194a024 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+31. Coleman K.
+2011. 
+Diazabicyclooctanes (DBOs): a potent new class of non-beta-lactam beta-lactamase inhibitors. Curr. Opin. Microbiol.
+14:550–555. 10.1016/j.mib.2011.07.026 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+32. Stachyra T, Pechereau MC, Bruneau JM, Claudon M, Frere JM, Miossec C, Coleman K, Black MT.
+2010. 
+Mechanistic studies of the inactivation of TEM-1 and P99 by NXL104, a novel non-beta-lactam beta-lactamase inhibitor. Antimicrob. Agents Chemother.
+54:5132–5138. 10.1128/AAC.00568-10 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+33. Ehmann DE, Jahic H, Ross PL, Gu RF, Hu J, Durand-Reville TF, Lahiri S, Thresher J, Livchak S, Gao N, Palmer T, Walkup GK, Fisher SL.
+2013. 
+Kinetics of avibactam inhibition against class A, C, and D beta-lactamases. J. Biol. Chem.
+288:27960–27971. 10.1074/jbc.M113.485979 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+34. Chen Y, Minasov G, Roth TA, Prati F, Shoichet BK.
+2006. 
+The deacylation mechanism of AmpC beta-lactamase at ultrahigh resolution. J. Am. Chem. Soc.
+128:2970–2976. 10.1021/ja056806m [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+35. Ali A, Bandaranayake RM, Cai Y, King NM, Kolli M, Mittal S, Murzycki JF, Nalam MN, Nalivaika EA, Ozen A, Prabu-Jeyabalan MM, Thayer K, Schiffer CA.
+2010. 
+Molecular basis for drug resistance in HIV-1 protease. Viruses
+2:2509–2535. 10.3390/v2112509 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+36. Bush K, Fisher JF.
+2011. 
+Epidemiological expansion, structural studies, and clinical challenges of new beta-lactamases from Gram-negative bacteria. Annu. Rev. Microbiol.
+65:455–478. 10.1146/annurev-micro-090110-102911 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Associated Data 
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+
+Supplementary Materials 
+
+Supplemental material 
+
+supp_58_10_5704__index.html (944B, html) 
+
+AAC.03057-14_zac009143255so1.pdf (483.1KB, pdf) 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (2.4 MB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

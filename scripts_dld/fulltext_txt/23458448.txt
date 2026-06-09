@@ -1,0 +1,1433 @@
+PMID: 23458448
+PMCID: 
+DOI: 10.1111/1469-0691.12186
+Title: An antibiotic-resistant class 3 integron in an Enterobacter cloacae isolate from hospital effluent.
+Journal: Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases
+PubDate: 2013 Jul
+Authors: Barraud O, Casellas M, Dagot C, Ploy MC
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1198743X14618528</prism:url><dc:identifier>doi:10.1111/1469-0691.12186</dc:identifier><eid>1-s2.0-S1198743X14618528</eid><prism:doi>10.1111/1469-0691.12186</prism:doi><pii>S1198-743X(14)61852-8</pii><dc:title>An antibiotic-resistant class 3 integron in an Enterobacter cloacae isolate from hospital effluent </dc:title><prism:publicationName>Clinical Microbiology and Infection</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>1198743X</prism:issn><prism:volume>19</prism:volume><prism:issueIdentifier>7</prism:issueIdentifier><prism:startingPage>E306</prism:startingPage><prism:endingPage>E308</prism:endingPage><prism:pageRange>E306-E308</prism:pageRange><prism:number>7</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2013-07-31</prism:coverDate><prism:coverDisplayDate>July 2013</prism:coverDisplayDate><prism:copyright>Copyright © 2013 European Society of Clinical Infectious Diseases. Published by Elsevier Ltd. All rights reserved.</prism:copyright><prism:publisher>European Society of Clinical Infectious Diseases. Published by Elsevier Ltd.</prism:publisher><dc:creator>Barraud, O.</dc:creator><dc:creator>Casellas, M.</dc:creator><dc:creator>Dagot, C.</dc:creator><dc:creator>Ploy, M.-C.</dc:creator><dc:description>
+                  Hospital effluents are involved in dissemination of antibiotic-resistant integrons. We describe here a new class 3 integron, In3-5, detected in an Enterobacter cloacae isolate retrieved from a random French hospital effluent sample collected in 2009. In3-5 carries two gene cassettes: the new bla
+                     OXA-256 and an aac(6′)-Ib variant, respectively conferring resistance to β-lactams and aminoglycosides. In3-5 is located on an IncQ-like backbone plasmid. Class 3 integrons could thus be involved in the dissemination of antibiotic resistance in both clinical settings and the environment, and could participate in the exchange of antibiotic-resistance genes between these two ecosystems.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>true</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>Author</openaccessSponsorType><openaccessUserLicense>http://www.elsevier.com/open-access/userlicense/1.0/</openaccessUserLicense><dcterms:subject>Antibiotic resistance</dcterms:subject><dcterms:subject>Class 3 integron</dcterms:subject><dcterms:subject>effluent</dcterms:subject><dcterms:subject>hospital</dcterms:subject><dcterms:subject>IncQ plasmid</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1198743X14618528" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1198743X14618528" rel="scidir"/></coredata><objects><object ref="mmc1" category="standard" type="APPLICATION" multimediatype="Microsoft Word file" mimetype="application/word" size="50335">https://api.elsevier.com/content/object/eid/1-s2.0-S1198743X14618528-mmc1.docx?httpAccept=%2A%2F%2A</object><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="619" height="343" size="73716">https://api.elsevier.com/content/object/eid/1-s2.0-S1198743X14618528-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="121" size="4012">https://api.elsevier.com/content/object/eid/1-s2.0-S1198743X14618528-gr1.sml?httpAccept=%2A%2F%2A</object></objects><scopus-id>84878930706</scopus-id><scopus-eid>2-s2.0-84878930706</scopus-eid><link href="https://api.elsevier.com/content/abstract/scopus_id/84878930706" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>312004</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291783</xocs:ssid>
+         <xocs:ssid type="subj">291890</xocs:ssid>
+         <xocs:ssid type="subj">291891</xocs:ssid>
+         <xocs:ssid type="subj">291904</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">80</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Clinical Microbiology and Infection</xocs:srctitle>
+      <xocs:normalized-srctitle>CLINICALMICROBIOLOGYINFECTION</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20141213">2014-12-13</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20141213">2014-12-13</xocs:available-online-date>
+      <xocs:ew-transaction-id>2015-02-05T11:30:24</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1198743X14618528</xocs:eid>
+      <xocs:pii-formatted>S1198-743X(14)61852-8</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1198743X14618528</xocs:pii-unformatted>
+      <xocs:doi>10.1111/1469-0691.12186</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.2</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1198743X14X61045</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20150515">2015-05-15T05:23:29.459122-04:00</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20130701</xocs:date-search-begin>
+      <xocs:date-search-end>20130731</xocs:date-search-end>
+      <xocs:year-nav>2013</xocs:year-nav>
+      <xocs:indexeddate epoch="1418477622">2014-12-13T13:33:42.100937Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj subheadings tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table e-component body affil appendices articletitle auth authfirstini authfull authkeywords authlast primabst pubtype ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1198-743X</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>1198743X</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>19</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>19</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>7</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>7</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 19, Issue 7</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>26</xocs:sort-order>
+      <xocs:first-fp>E306</xocs:first-fp>
+      <xocs:last-lp>E308</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>E306</xocs:first-page>
+         <xocs:last-page>E308</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201307</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>July 2013</xocs:cover-date-text>
+      <xocs:cover-date-start>2013-07-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2013-07-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2013</xocs:cover-date-year>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2013 European Society of Clinical Infectious Diseases. Published by Elsevier Ltd. All rights reserved.</xocs:copyright-line>
+      <xocs:normalized-article-title>ANTIBIOTICRESISTANTCLASS3INTEGRONINENTEROBACTERCLOACAEISOLATEHOSPITALEFFLUENT</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>BARRAUD</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>O</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Acknowledgements</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Funding</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Transparency Declarations</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Supporting Information</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:appendices">
+            <xocs:item-toc-section-title>Supplementary Material</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:further-reading">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sbref10">
+            <xocs:ref-normalized-surname>STALDER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>119</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref20">
+            <xocs:ref-normalized-surname>STOKES</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1989</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1669</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1683</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref30">
+            <xocs:ref-normalized-surname>CAMBRAY</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>141</xocs:ref-first-fp>
+            <xocs:ref-last-lp>166</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref40">
+            <xocs:ref-normalized-surname>ARAKAWA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1995</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1612</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1615</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref50">
+            <xocs:ref-normalized-surname>CORREIA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2003</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2838</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2843</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref60">
+            <xocs:ref-normalized-surname>POIREL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1594</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1598</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref70">
+            <xocs:ref-normalized-surname>XU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>6276</xocs:ref-first-fp>
+            <xocs:ref-last-lp>6283</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref80">
+            <xocs:ref-normalized-surname>BARRAUD</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1642</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1645</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>O</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref90">
+            <xocs:ref-normalized-surname>RATHER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1992</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3196</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3203</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref100">
+            <xocs:ref-normalized-surname>NAAS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2001</xocs:ref-pub-year>
+            <xocs:ref-first-fp>235</xocs:ref-first-fp>
+            <xocs:ref-last-lp>249</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref110">
+            <xocs:ref-normalized-surname>ROMERO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1991</xocs:ref-pub-year>
+            <xocs:ref-first-fp>325</xocs:ref-first-fp>
+            <xocs:ref-last-lp>330</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref120">
+            <xocs:ref-normalized-surname>KOPKE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1991</xocs:ref-pub-year>
+            <xocs:ref-first-fp>5169</xocs:ref-first-fp>
+            <xocs:ref-last-lp>5172</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref130">
+            <xocs:ref-normalized-surname>GUERIN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1034</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>E</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref140">
+            <xocs:ref-normalized-surname>COLLIS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2002</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3017</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3026</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref150">
+            <xocs:ref-normalized-surname>DOUBLET</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1944</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1951</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref160">
+            <xocs:ref-normalized-surname>BONEMANN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3075</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3080</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref170">
+            <xocs:ref-normalized-surname>MAJUMDAR</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>79</xocs:ref-first-fp>
+            <xocs:ref-last-lp>84</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref180">
+            <xocs:ref-normalized-surname>HAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>374</xocs:ref-first-fp>
+            <xocs:ref-last-lp>376</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref190">
+            <xocs:ref-normalized-surname>CASIN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1998</xocs:ref-pub-year>
+            <xocs:ref-first-fp>209</xocs:ref-first-fp>
+            <xocs:ref-last-lp>215</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>I</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref200">
+            <xocs:ref-normalized-surname>MOURA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>58</xocs:ref-first-fp>
+            <xocs:ref-last-lp>66</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>BARRAUDX2013XE306</xocs:refkey3>
+         <xocs:refkey4lp>BARRAUDX2013XE306XE308</xocs:refkey4lp>
+         <xocs:refkey4ai>BARRAUDX2013XE306XO</xocs:refkey4ai>
+         <xocs:refkey5>BARRAUDX2013XE306XE308XO</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="1">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2014-11-30T00:52:53Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>Author</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://www.elsevier.com/open-access/userlicense/1.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/1198743X_P1Y_Author" wintype="OpenArchive">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1198-743X(14)61852-8</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1198743X14618528</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1198743X14618528</xocs:eid>
+         <xocs:doi>10.1111/1469-0691.12186</xocs:doi>
+         <xocs:cid>312004</xocs:cid>
+         <xocs:timestamp>2015-02-05T11:24:13.760299-05:00</xocs:timestamp>
+         <xocs:cover-date-start>2013-07-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2013-07-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1198743X14618528-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14618528/MAIN/application/pdf/764145400fca9e731d5c82877d89bbbe/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14618528/MAIN/application/pdf/764145400fca9e731d5c82877d89bbbe/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>251847</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>3</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1198743X14618528-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14618528/PREVIEW/image/png/1bb64ce9f3f7ac96c4237a31d402fa05/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14618528/PREVIEW/image/png/1bb64ce9f3f7ac96c4237a31d402fa05/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>79705</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1198743X14618528-mmc1.docx</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14618528/mmc1/MAIN/application/msword/18de290e60150af908152c3a5be61ed0/mmc1.docx</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14618528/mmc1/MAIN/application/msword/18de290e60150af908152c3a5be61ed0/mmc1.docx</xocs:ucs-locator>
+               <xocs:file-basename>mmc1</xocs:file-basename>
+               <xocs:filename>mmc1.docx</xocs:filename>
+               <xocs:extension>docx</xocs:extension>
+               <xocs:filesize>50335</xocs:filesize>
+               <xocs:attachment-type>APPLICATION</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1198743X14618528-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14618528/gr1/DOWNSAMPLED/image/jpeg/0dd49f6cc8ee61a6cc86fc2099bb5bb8/gr1.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14618528/gr1/DOWNSAMPLED/image/jpeg/0dd49f6cc8ee61a6cc86fc2099bb5bb8/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>73716</xocs:filesize>
+               <xocs:pixel-height>343</xocs:pixel-height>
+               <xocs:pixel-width>619</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1198743X14618528-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14618528/gr1/THUMBNAIL/image/gif/c48c95c9d605324d58693de9c8efdd66/gr1.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14618528/gr1/THUMBNAIL/image/gif/c48c95c9d605324d58693de9c8efdd66/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>4012</xocs:filesize>
+               <xocs:pixel-height>121</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="fla" version="5.2" xml:lang="en">
+         <item-info>
+            <jid>CMI</jid>
+            <aid>61852</aid>
+            <ce:pii>S1198-743X(14)61852-8</ce:pii>
+            <ce:doi>10.1111/1469-0691.12186</ce:doi>
+            <ce:copyright type="society" year="2013">European Society of Clinical Infectious Diseases</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig1">
+               <ce:label>FIG. 1</ce:label>
+               <ce:caption id="cecap10">
+                  <ce:simple-para id="spara10" view="all">Partial sequence of In3-5 from the Pc to the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-256</ce:inf> gene and alignment of the region shared with other class 3 integrons. The positions of the Pc, the two possible Pint3 promoters [<ce:cross-ref id="cecref10" refid="bib14">14</ce:cross-ref>] and the two possible P<ce:inf loc="post">OXA-10</ce:inf> promoters [<ce:cross-ref id="cecref20" refid="bib10">10</ce:cross-ref>] are indicated, and the −35 and −10 regions are boxed (dashed boxes for PintI3 and dotted boxes for P<ce:inf loc="post">OXA-10</ce:inf>). The sequences of the potential start codons of <ce:italic>intI3</ce:italic> and the start codon of the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-256</ce:inf> gene are in bold type; the dashed arrow indicates the second potential start codon of the <ce:italic>intI3</ce:italic> gene. The sequence of the LexA binding site (LexA box) is underlined. The sequence of the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-256</ce:inf> gene cassette is represented in italics. The 161-bp sequence between the <ce:italic>attI3</ce:italic> recombination site and the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-256</ce:inf> gene cassette is represented in lowercase letters. In3-1: AF416297 from <ce:italic>Serratia marcescens</ce:italic>. In3-2: AY219651 from <ce:italic>Klebsiella pneumoniae</ce:italic> and FJ696404 from <ce:italic>Escherichia coli.</ce:italic> In3-3 (EF469602) and In3-4 (EF467651) from <ce:italic>Delftia</ce:italic> sp.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr1"/>
+            </ce:figure>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl1" frame="topbot" rowsep="0" colsep="0">
+               <ce:label>TABLE 1</ce:label>
+               <ce:caption id="cecap20">
+                  <ce:simple-para id="spara20" view="all">MICs (mg/L) of antibiotics for <ce:italic>E. coli</ce:italic> DH5α and <ce:italic>E. coli</ce:italic> DH5α::pUL3AT</ce:simple-para>
+               </ce:caption>
+               <tgroup cols="3">
+                  <colspec colnum="1" colname="col1"/>
+                  <colspec colnum="2" colname="col2"/>
+                  <colspec colnum="3" colname="col3"/>
+                  <thead>
+                     <row rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd"/>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="center">
+                           <italic>E. coli</italic> DH5α</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="center">
+                           <italic>E. coli</italic> DH5α::pUL3AT</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Amoxicillin</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">1.5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">256</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Amoxicillin-clavulanic acid</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">1.5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">12</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Ticarcillin</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">1.5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">16</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Cefotaxime</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.032</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.125</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Ceftazidime</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.094</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.125</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Tobramycin</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">6.0</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Gentamicin</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">0.25</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">1</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+         </ce:floats>
+         <head>
+            <ce:article-footnote>
+               <ce:note-para id="cenpara10" view="all">Editor: R. Cantón</ce:note-para>
+               <ce:note-para id="cenpara20" view="all">
+                  <ce:bold>Article published online</ce:bold>: 11 February 2013</ce:note-para>
+            </ce:article-footnote>
+            <ce:dochead id="cedoch10">
+               <ce:textfn>Research Note</ce:textfn>
+               <ce:dochead id="cedoch20">
+                  <ce:textfn>Bacteriology</ce:textfn>
+               </ce:dochead>
+            </ce:dochead>
+            <ce:title id="cetitle10">An antibiotic-resistant class 3 integron in an <ce:italic>Enterobacter cloacae</ce:italic> isolate from hospital effluent</ce:title>
+            <ce:author-group id="aug10">
+               <ce:author id="au10">
+                  <ce:given-name>O.</ce:given-name>
+                  <ce:surname>Barraud</ce:surname>
+                  <ce:cross-ref id="cecref30" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cecref40" refid="aff2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cecref50" refid="aff3">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au20">
+                  <ce:given-name>M.</ce:given-name>
+                  <ce:surname>Casellas</ce:surname>
+                  <ce:cross-ref id="cecref60" refid="aff4">
+                     <ce:sup loc="post">d</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au30">
+                  <ce:given-name>C.</ce:given-name>
+                  <ce:surname>Dagot</ce:surname>
+                  <ce:cross-ref id="cecref70" refid="aff4">
+                     <ce:sup loc="post">d</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au40">
+                  <ce:given-name>M.-C.</ce:given-name>
+                  <ce:surname>Ploy</ce:surname>
+                  <ce:cross-ref id="cecref80" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cecref90" refid="aff2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cecref100" refid="aff3">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cecref110" refid="cor1">*</ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="aff1">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>INSERM U1092</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>INSERM U1092</sa:organization>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff2">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>Université de Limoges UMR-S1092 Faculté de Méedecine</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Université de Limoges UMR-S1092 Faculté de Méedecine</sa:organization>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff3">
+                  <ce:label>c</ce:label>
+                  <ce:textfn>CHU Limoges Laboratoire de Bactériologie-Virologie-Hygiéne</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>CHU Limoges Laboratoire de Bactériologie-Virologie-Hygiéne</sa:organization>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff4">
+                  <ce:label>d</ce:label>
+                  <ce:textfn>Université de Limoges Groupement de Recherche Eau Sol Environnement, ENSIL, Limoges, France</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Université de Limoges Groupement de Recherche Eau Sol Environnement</sa:organization>
+                     <sa:address-line>ENSIL</sa:address-line>
+                     <sa:city>Limoges</sa:city>
+                     <sa:country>France</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:correspondence id="cor1">
+                  <ce:label>*</ce:label>
+                  <ce:text>
+                     <ce:bold>Corresponding author</ce:bold>: M.-C. Ploy, INSERM, U1092, Limoges F-87000, France</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="17" month="10" year="2012"/>
+            <ce:date-revised day="15" month="1" year="2013"/>
+            <ce:date-accepted day="1" month="2" year="2013"/>
+            <ce:abstract id="ceab10" view="all" class="author"><ce:abstract-sec id="ceabs10" view="all">
+                  <ce:simple-para id="spara30" view="all">Hospital effluents are involved in dissemination of antibiotic-resistant integrons. We describe here a new class 3 integron, In3-5, detected in an <ce:italic>Enterobacter cloacae</ce:italic> isolate retrieved from a random French hospital effluent sample collected in 2009. In3-5 carries two gene cassettes: the new <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-256</ce:inf> and an <ce:italic>aac(6′)-Ib</ce:italic> variant, respectively conferring resistance to β-lactams and aminoglycosides. In3-5 is located on an IncQ-like backbone plasmid. Class 3 integrons could thus be involved in the dissemination of antibiotic resistance in both clinical settings and the environment, and could participate in the exchange of antibiotic-resistance genes between these two ecosystems.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="cekeyws10" view="all" class="keyword">
+               <ce:section-title id="cestitle20">Keywords</ce:section-title>
+               <ce:keyword id="cekeyw10">
+                  <ce:text>Antibiotic resistance</ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw20">
+                  <ce:text>Class 3 integron</ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw30">
+                  <ce:text>effluent</ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw40">
+                  <ce:text>hospital</ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw50">
+                  <ce:text>IncQ plasmid</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:para id="para10" view="all">Several studies have underlined the environmental resistome as a source of resistance genes, and environmental hot spots of integron dissemination, including hospital effluents, have been identified [<ce:cross-ref id="cecref120" refid="bib1">1</ce:cross-ref>]. Integrons are bacterial genetic elements able to capture and express genes contained within mobile gene cassettes (GCs) [<ce:cross-ref id="cecref130" refid="bib2">2</ce:cross-ref>,<ce:cross-ref id="cecref140" refid="bib3">3</ce:cross-ref>]. Integrons are composed of an intI gene encoding an integrase that mediates GC exchange, a primary recombination site, <ce:italic>attI</ce:italic>, and a promoter, Pc. Different classes of antibiotic-resistant integrons have been described, based on the amino acid sequence of the integrase; class 1 and class 2 integrons are the most frequently found [<ce:cross-ref id="cecref150" refid="bib3">3</ce:cross-ref>]. Only four different class 3 integrons have been fully characterized to date (Table S1): In3-1 and In3-2 in clinical <ce:italic>Enterobacteriaceae</ce:italic> [4–6] and In3-3 and In3-4 from two environmental <ce:italic>Delftia</ce:italic> strains [<ce:cross-ref id="cecref160" refid="bib7">7</ce:cross-ref>].</ce:para>
+               <ce:para id="para20" view="all">In 2009, we isolated a class 3 integron-positive <ce:italic>Enterobacter cloacae</ce:italic> strain (LIM73) from an effluent sample of a French Hospital. LIM73 was resistant to β-lactams (amoxicillin and ticarcillin), quinolones (nalidixic acid and pefloxacin), aminoglycosides (tobramycin and netilmicin) and tetracyclin. This class 3 integron was detected with a qPCR [<ce:cross-ref id="cecref170" refid="bib8">8</ce:cross-ref>]. The GC array was amplified with the attI3L (5′GGTATCCGGTGTTTGGT CAG3′) and class3R (5′CGTCAAACGGGTAAGCAGT3′) primers located, respectively, in <ce:italic>attI3</ce:italic> and in the 3′ end of class 3 integrons. This class 3 integron was designated In3-5, according to the nomenclature used by Xu <ce:italic>et al.</ce:italic> [<ce:cross-ref id="cecref180" refid="bib7">7</ce:cross-ref>]. In3-5 contains 2 GCs: (i) a novel <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">OXA</ce:inf> variant named bla<ce:inf loc="post">OXA-256</ce:inf> (<ce:inter-ref id="interrefs80f" xlink:href="http://www.lahey.org/Studies/" xlink:type="simple">http://www.lahey.org/Studies/</ce:inter-ref>), and (ii) an <ce:italic>aac(6′)-Ib</ce:italic> variant. The OXA256 protein has an Asn to Asp mutation at amino acid position 73 compared with the OXA10 protein. The <ce:italic>aac (6′)-Ib</ce:italic> variant harbours the mutation Leu119Ser, known to be associated with the loss of amikacin resistance and the acquisition of gentamicin resistance [<ce:cross-ref id="cecref190" refid="bib9">9</ce:cross-ref>].</ce:para>
+               <ce:para id="para30" view="all">In integrons, GCs are usually promoterless and are expressed from the common Pc promoter [<ce:cross-ref id="cecref200" refid="bib3">3</ce:cross-ref>]. In In3-5, the sequence of Pc is identical to that described for In3-1, In3-3 and In3-4 [<ce:cross-ref id="cecref210" refid="bib4">4</ce:cross-ref>,<ce:cross-ref id="cecref220" refid="bib7">7</ce:cross-ref>], except for one mutation located in the Pc spacer and previously described in In3-2 (<ce:cross-ref id="cecref230" refid="fig1">Fig. 1</ce:cross-ref>
+                  <ce:float-anchor refid="fig1"/>). Moreover, in In3-5, upstream of the <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">OXA-256</ce:inf> GC, we found a 161-bp sequence previously described in the class 1 integron In53 and containing two putative promoters that have been shown to allow <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">OXA-10</ce:inf> expression [<ce:cross-ref id="cecref240" refid="bib10">10</ce:cross-ref>].</ce:para>
+               <ce:para id="para40" view="all">Sequencing of the <ce:italic>intI3</ce:italic> gene revealed very high identity (&gt;99%) with other known <ce:italic>intI3</ce:italic> genes. However, we found a G to A mutation (<ce:cross-ref id="cecref250" refid="fig1">Fig. 1</ce:cross-ref>) leading to a modified presumed start codon (ATA instead of ATG). Such a start codon has occasionally been described in prokaryotes and has always been associated with very low translation levels [<ce:cross-ref id="cecref260" refid="bib11">11</ce:cross-ref>,<ce:cross-ref id="cecref270" refid="bib12">12</ce:cross-ref>]. Alternatively, the start codon of the <ce:italic>intI3</ce:italic> gene might be located at a different position, in which case a GTG could act as a start codon (<ce:cross-ref id="cecref280" refid="fig1">Fig. 1</ce:cross-ref>). However, it was recently shown that in class 1 integrons the <ce:italic>intI1</ce:italic> promoter is repressed by the transcriptional repressor LexA [<ce:cross-ref id="cecref290" refid="bib13">13</ce:cross-ref>]. The region upstream of the <ce:italic>intI3</ce:italic> gene also contains a LexA-binding site surrounding a potential integrase promoter (<ce:cross-ref id="cecref300" refid="fig1">Fig. 1</ce:cross-ref>) [<ce:cross-ref id="cecref310" refid="bib13">13</ce:cross-ref>]. The putative translation start site GTG would be compatible with the more distal of the two potential <ce:italic>intI3</ce:italic> promoters proposed by Collis <ce:italic>et al.</ce:italic> [<ce:cross-ref id="cecref320" refid="bib14">14</ce:cross-ref>], but in this case, this <ce:italic>intI3</ce:italic> promoter would be too far from the LexA binding site to be regulated by the SOS response.</ce:para>
+               <ce:para id="para50" view="all">Plasmid analysis showed that LIM73 harbours only one plasmid of 9 kbp, designated pUL3AT (accession no. HE616889). We sequenced the whole plasmid and found it to be very similar to five plasmids related to the IncQ incompatibility group, pQ7 [<ce:cross-ref id="cecref330" refid="bib6">6</ce:cross-ref>], pWES-1 [<ce:cross-ref id="cecref340" refid="bib15">15</ce:cross-ref>], pGNB2 [<ce:cross-ref id="cecref350" refid="bib16">16</ce:cross-ref>], pBRST7.6 [<ce:cross-ref id="cecref360" refid="bib17">17</ce:cross-ref>] and pAHH04 [<ce:cross-ref id="cecref370" refid="bib18">18</ce:cross-ref>]; pQ7 also contained a class 3 integron with 2 GCs (Table S1). IncQ plasmids are known to be mobilizable. We thus performed a conjugation assay using MFD<ce:italic>pir</ce:italic>::pUL3AT (Table S2) as the donor strain, and obtained conjugation at a frequency of 3 × 10<ce:sup loc="post">–3</ce:sup>. We also transformed <ce:italic>Escherichia coli</ce:italic> DH5α with the LIM73 plasmidic DNA. Transformants and transconjugants were positive by qPCR for <ce:italic>intI3</ce:italic> and both expressed resistances encoded by the In3-5 GCs (<ce:cross-ref id="cecref60a" refid="tbl1">Table 1</ce:cross-ref>
+                  <ce:float-anchor refid="tbl1"/>). The <ce:italic>aac(6')-Ib</ce:italic> variant with mutation Leu119Ser is known to encode gentamicin resistance [<ce:cross-ref id="cecref380" refid="bib9">9</ce:cross-ref>]. However, we found only a slight increase of the gentamicin MIC, which remained low (1 mg/L). This moderate reduced susceptibility to gentamicin has been described previously [<ce:cross-ref id="cecref390" refid="bib19">19</ce:cross-ref>]. Moreover, this low level of resistance can be explained by the fact that <ce:italic>aac(6')-Ib</ce:italic> GC is in second position, the level of GC transcription depending on the position within the integron.</ce:para>
+               <ce:para id="para60" view="all">We failed to obtain transconjugants when using LIM73 and a zeocin-resistant <ce:italic>E. coli</ce:italic> recipient strain, confirming that pUL3AT is not self-conjugative. The pUL3AT plasmid has a backbone structure nearly identical to that of other IncQ-type plasmids found in strains from aquatic environments [15–18]. Class 3 integrons seem to be abundant in aquatic environments [<ce:cross-ref id="cecref400" refid="bib20">20</ce:cross-ref>]; In3-3 and In3-4 integrons have been described on the chromosome of wastewater <ce:italic>Delftia</ce:italic> species and did not carry antibiotic-resistance genes [<ce:cross-ref id="cecref410" refid="bib7">7</ce:cross-ref>]. We suggest that class 3 integrons located on the chromosome of aquatic bacteria may have been captured through transposition events and inserted within broad-host-range plasmids. These plasmids would then disseminate among clinical strains, and the class 3 integrons would thus be able to acquire GCs encoding antibiotic resistance from class 1 integrons that are highly prevalent in clinical isolates. Indeed, at the boundaries of In3-5, were Tn<ce:italic>21</ce:italic>-like inverted repeat (IR) sequences flanked by a duplication of a 5-bp sequence. This suggested that In3-5 was inserted in the backbone of the pUL3AT plasmid by a transposition event. In3-1 also contains such an IR sequence beyond the last GC [<ce:cross-ref id="cecref420" refid="bib4">4</ce:cross-ref>]. Moreover, all the class 3 integrons contain, downstream of the GC array, the proximal 44 bp of the left-end of Tn402-type class 1 integrons [<ce:cross-ref id="cecref430" refid="bib7">7</ce:cross-ref>].</ce:para>
+               <ce:para id="para70" view="all">The In3-1 and In3-2 integrons harbouring antibiotic-resistance GCs were found in strains from patients with urinary tract infections. LIM73 was isolated from hospital effluent, suggesting that it may be of clinical origin. Class 3 integrons could thus be involved in the dissemination of antibiotic resistance in both clinical settings and the environment, and could participate in the exchange of antibiotic-resistance GCs between these two ecosystems.</ce:para>
+               <ce:section id="cesec10" view="all">
+                  <ce:section-title id="cestitle30">Acknowledgements</ce:section-title>
+                  <ce:para id="para80" view="all">We thank Jean-Marc Ghigo (Pasteur Institute) for his kind gift of the MFDpir and MG1655Δ<ce:italic>ara</ce:italic>::zeo <ce:italic>E. coli</ce:italic> strains, and William Rawlinson (University of New South Wales, Australia) for critical reading of the manuscript. We thank Baptiste Mayjonade for technical assistance. This case report was presented at the 20th European Congress of Clinical Microbiology and Infectious Diseases (ECCMID) in April 2010 (Vienna, Austria), abstract P691.</ce:para>
+               </ce:section>
+               <ce:section id="cesec20" view="all">
+                  <ce:section-title id="cestitle40">Funding</ce:section-title>
+                  <ce:para id="para90" view="all">This work was supported by grants from the Ministere de l'Enseignement Supérieur et de la Recherche, Conseil Régional du Limousin, Institut National de la Santé et de la Recherche Médicale (Inserm) and Caisse Primaire d'Assurance Maladie (CPAM) de la Haute-Vienne.</ce:para>
+               </ce:section>
+               <ce:section id="cesec30" view="all">
+                  <ce:section-title id="cestitle50">Transparency Declarations</ce:section-title>
+                  <ce:para id="para100" view="all">None to declare.</ce:para>
+               </ce:section>
+               <ce:section id="cesec40" view="all">
+                  <ce:section-title id="cestitle60">Supporting Information</ce:section-title>
+                  <ce:para id="para110" view="all">Additional Supporting Information may be found in the online version of this article:</ce:para>
+                  <ce:para id="para120" view="all">
+                     <ce:bold>Table S1.</ce:bold> Class 3 integrons described in the literature.</ce:para>
+                  <ce:para id="para130" view="all">
+                     <ce:bold>Table S2.</ce:bold> Strains used in this study.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:appendices view="all">
+               <ce:section id="cesec50" view="extended">
+                  <ce:section-title id="cestitle70">Supplementary Material</ce:section-title>
+                  <ce:para id="para140" view="all">
+                     <ce:display>
+                        <ce:e-component id="ecomp10">
+                           <ce:label>clm12186-sup-0001-TableS1-S2.docx</ce:label>
+                           <ce:link locator="mmc1"/>
+                        </ce:e-component>
+                     </ce:display>
+                  </ce:para>
+               </ce:section>
+            </ce:appendices>
+         </body>
+         <tail view="all">
+            <ce:further-reading id="bibl10" view="all">
+               <ce:section-title id="cestitle80">References</ce:section-title>
+               <ce:further-reading-sec id="cebibsec10" view="all">
+                  <ce:bib-reference id="bib1">
+                     <ce:label>1</ce:label>
+                     <sb:reference id="sbref10">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Stalder</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O</ce:given-name>
+                                 <ce:surname>Barraud</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Casellas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Dagot</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>MC</ce:given-name>
+                                 <ce:surname>Ploy</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Integron involvement in environmental spread of antibiotic resistance</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Front Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>3</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>119</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib2">
+                     <ce:label>2</ce:label>
+                     <sb:reference id="sbref20">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>HW</ce:given-name>
+                                 <ce:surname>Stokes</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>RM</ce:given-name>
+                                 <ce:surname>Hall</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A novel family of potentially mobile DNA elements encoding site-specific gene-integration functions: integrons</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Mol Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>3</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1989</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1669</sb:first-page>
+                              <sb:last-page>1683</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib3">
+                     <ce:label>3</ce:label>
+                     <sb:reference id="sbref30">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Cambray</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>AM</ce:given-name>
+                                 <ce:surname>Guerout</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Mazel</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Integrons</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Annu Rev Genet</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>44</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>141</sb:first-page>
+                              <sb:last-page>166</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib4">
+                     <ce:label>4</ce:label>
+                     <sb:reference id="sbref40">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Arakawa</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Murakami</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Suzuki</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A novel integron-like element carrying the metallo-beta-lactamase gene <ce:italic>bla</ce:italic>IMP</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>39</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1995</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1612</sb:first-page>
+                              <sb:last-page>1615</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib5">
+                     <ce:label>5</ce:label>
+                     <sb:reference id="sbref50">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Correia</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F</ce:given-name>
+                                 <ce:surname>Boavida</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F</ce:given-name>
+                                 <ce:surname>Grosso</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Molecular characterization of a new class 3 integron in <ce:italic>Klebsiella pneumoniae</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>47</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2003</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2838</sb:first-page>
+                              <sb:last-page>2843</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib6">
+                     <ce:label>6</ce:label>
+                     <sb:reference id="sbref60">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Poirel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Carattoli</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Bernabeu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Bruderer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R</ce:given-name>
+                                 <ce:surname>Frei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Nordmann</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A novel IncQ plasmid type harbouring a class 3 integron from <ce:italic>Escherichia coli</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Antimicrob Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>65</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1594</sb:first-page>
+                              <sb:last-page>1598</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib7">
+                     <ce:label>7</ce:label>
+                     <sb:reference id="sbref70">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Xu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Davies</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V</ce:given-name>
+                                 <ce:surname>Miao</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Molecular characterization of class 3 integrons from <ce:italic>Delftia spp</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Bacteriol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>189</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>6276</sb:first-page>
+                              <sb:last-page>6283</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib8">
+                     <ce:label>8</ce:label>
+                     <sb:reference id="sbref80">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>O</ce:given-name>
+                                 <ce:surname>Barraud</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>MC</ce:given-name>
+                                 <ce:surname>Baclet</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F</ce:given-name>
+                                 <ce:surname>Denis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>MC</ce:given-name>
+                                 <ce:surname>Ploy</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Quantitative multiplex real-time PCR for detecting class 1, 2 and 3 integrons</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Antimicrob Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>65</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1642</sb:first-page>
+                              <sb:last-page>1645</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib9">
+                     <ce:label>9</ce:label>
+                     <sb:reference id="sbref90">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>PN</ce:given-name>
+                                 <ce:surname>Rather</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Munayyer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>PA</ce:given-name>
+                                 <ce:surname>Mann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>RS</ce:given-name>
+                                 <ce:surname>Hare</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>GH</ce:given-name>
+                                 <ce:surname>Miller</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>KJ</ce:given-name>
+                                 <ce:surname>Shaw</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Genetic analysis of bacterial acetyltransferases: identification of amino acids determining the specificities of the aminoglycoside 6′-n-acetyl-transferase Ib and IIa proteins</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Bacteriol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>174</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1992</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3196</sb:first-page>
+                              <sb:last-page>3203</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib10">
+                     <ce:label>10</ce:label>
+                     <sb:reference id="sbref100">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Naas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y</ce:given-name>
+                                 <ce:surname>Mikami</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Imai</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Poirel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Nordmann</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Characterization of In53, a class 1 plasmid- and composite transposon-located integron of <ce:italic>Escherichia coli</ce:italic> which carries an unusual array of gene cassettes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Bacteriol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>183</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2001</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>235</sb:first-page>
+                              <sb:last-page>249</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib11">
+                     <ce:label>11</ce:label>
+                     <sb:reference id="sbref110">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Romero</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Garcia</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Initiation of translation at AUC, AUA and AUU codons in <ce:italic>Escherichia coli</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>FEMS Microbiol Lett</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>68</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1991</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>325</sb:first-page>
+                              <sb:last-page>330</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib12">
+                     <ce:label>12</ce:label>
+                     <sb:reference id="sbref120">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>AK</ce:given-name>
+                                 <ce:surname>Kopke</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>PA</ce:given-name>
+                                 <ce:surname>Leggatt</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Initiation of translation at an AUA codon for an archaebacterial protein gene expressed in <ce:italic>E. coli</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nucleic Acids Res</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>19</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1991</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>5169</sb:first-page>
+                              <sb:last-page>5172</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib13">
+                     <ce:label>13</ce:label>
+                     <sb:reference id="sbref130">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>E</ce:given-name>
+                                 <ce:surname>Guerin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Cambray</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N</ce:given-name>
+                                 <ce:surname>Sanchez-Alberola</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The SOS response controls integron recombination</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Science</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>324</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1034</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib14">
+                     <ce:label>14</ce:label>
+                     <sb:reference id="sbref140">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>CM</ce:given-name>
+                                 <ce:surname>Collis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>MJ</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>SR</ce:given-name>
+                                 <ce:surname>Partridge</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>HW</ce:given-name>
+                                 <ce:surname>Stokes</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>RM</ce:given-name>
+                                 <ce:surname>Hall</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Characterization of the class 3 integron and the site-specific recombination system it determines</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Bacteriol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>184</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2002</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3017</sb:first-page>
+                              <sb:last-page>3026</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib15">
+                     <ce:label>15</ce:label>
+                     <sb:reference id="sbref150">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B</ce:given-name>
+                                 <ce:surname>Doublet</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>SA</ce:given-name>
+                                 <ce:surname>Granier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F</ce:given-name>
+                                 <ce:surname>Robin</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Novel plasmid-encoded ceftazidime-hydrolyzing CTX-M-53 extended-spectrum beta-lactamase from <ce:italic>Salmonella enterica</ce:italic> serotypes Westhampton and Senftenberg</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>53</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1944</sb:first-page>
+                              <sb:last-page>1951</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib16">
+                     <ce:label>16</ce:label>
+                     <sb:reference id="sbref160">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Bonemann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M</ce:given-name>
+                                 <ce:surname>Stiens</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Puhler</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Schluter</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Mobilizable IncQ-related plasmid carrying a new quinolone resistance gene, <ce:italic>qnrs2</ce:italic>, isolated from the bacterial community of a wastewater treatment plant</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>50</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3075</sb:first-page>
+                              <sb:last-page>3080</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib17">
+                     <ce:label>17</ce:label>
+                     <sb:reference id="sbref170">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Majumdar</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B</ce:given-name>
+                                 <ce:surname>Das</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>RK</ce:given-name>
+                                 <ce:surname>Bhadra</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B</ce:given-name>
+                                 <ce:surname>Dam</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Mazumder</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Complete nucleotide sequence of a quinolone resistance gene (<ce:italic>qnrs2</ce:italic>) carrying plasmid of <ce:italic>Aeromonas hydrophila</ce:italic> isolated from fish</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Plasmid</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>66</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>79</sb:first-page>
+                              <sb:last-page>84</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib18">
+                     <ce:label>18</ce:label>
+                     <sb:reference id="sbref180">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JE</ce:given-name>
+                                 <ce:surname>Han</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JH</ce:given-name>
+                                 <ce:surname>Kim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>CH</ce:given-name>
+                                 <ce:surname>Choresca</ce:surname>
+                                 <ce:suffix>Jr</ce:suffix>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A small IncQ-type plasmid carrying the quinolone resistance (<ce:italic>qnrs2</ce:italic>) gene from <ce:italic>Aeromonas hydrophila</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Lett Appl Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>54</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>374</sb:first-page>
+                              <sb:last-page>376</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib19">
+                     <ce:label>19</ce:label>
+                     <sb:reference id="sbref190">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>I</ce:given-name>
+                                 <ce:surname>Casin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F</ce:given-name>
+                                 <ce:surname>Bordon</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Bertin</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Aminoglycoside 6′-n-acetyltransferase variants of the Ib type with altered substrate profile in clinical isolates of <ce:italic>Enterobacter cloacae</ce:italic> and <ce:italic>Citrobacter freundii</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>42</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1998</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>209</sb:first-page>
+                              <sb:last-page>215</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib20">
+                     <ce:label>20</ce:label>
+                     <sb:reference id="sbref200">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Moura</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I</ce:given-name>
+                                 <ce:surname>Henriques</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K</ce:given-name>
+                                 <ce:surname>Smalla</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Correia</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Wastewater bacterial communities bring together broad-host range plasmids, integrons and a wide diversity of uncharacterized gene cassettes</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Res Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>161</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>58</sb:first-page>
+                              <sb:last-page>66</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:further-reading-sec>
+            </ce:further-reading>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

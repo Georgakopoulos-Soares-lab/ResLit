@@ -1,0 +1,354 @@
+PMID: 35943258
+PMCID: PMC9487579
+DOI: 10.1128/aac.00691-22
+Title: Biochemical Characterization of the Subclass B3 Metallo-β-Lactamase PJM-1 from Pseudoxanthomonas japonensis.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2022 Sep 20
+Authors: Yamada K, Ishii Y, Tateda K
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Biochemical Characterization of the Subclass B3 Metallo-β-Lactamase PJM-1 from Pseudoxanthomonas japonensis - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2022 Aug 9;66(9):e00691-22. doi: 10.1128/aac.00691-22 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Biochemical Characterization of the Subclass B3 Metallo-β-Lactamase PJM-1 from Pseudoxanthomonas japonensis 
+
+Kageto Yamada 
+
+Kageto Yamada 
+
+a Department of Microbiology and Infectious Disease, Toho University School of Medicine, Ota-ku, Tokyo, Japan 
+
+Find articles by Kageto Yamada 
+
+a, ✉ , Yoshikazu Ishii 
+
+Yoshikazu Ishii 
+
+a Department of Microbiology and Infectious Disease, Toho University School of Medicine, Ota-ku, Tokyo, Japan 
+
+Find articles by Yoshikazu Ishii 
+
+a , Kazuhiro Tateda 
+
+Kazuhiro Tateda 
+
+a Department of Microbiology and Infectious Disease, Toho University School of Medicine, Ota-ku, Tokyo, Japan 
+
+Find articles by Kazuhiro Tateda 
+
+a 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a Department of Microbiology and Infectious Disease, Toho University School of Medicine, Ota-ku, Tokyo, Japan 
+
+The authors declare no conflict of interest. 
+
+✉ 
+Corresponding author. 
+
+Received 2022 May 12; Revision requested 2022 Jun 20; Accepted 2022 Jul 18; Collection date 2022 Sep. 
+
+Copyright © 2022 American Society for Microbiology. 
+
+All Rights Reserved . 
+
+PMC Copyright notice 
+
+PMCID: PMC9487579  PMID: 35943258 
+
+ABSTRACT 
+
+Biochemical properties of the novel subclass B3 metallo-β-lactamase (MBL) PJM-1 expressed in Pseudoxanthomonas japonensis , which is often isolated from the environment, were determined. The 906-bp bla PJM-1 gene in P. japonensis is a species-specific MBL gene, and PJM, with 301 predicted amino acids, has 81.8% amino acid identity with AIM-1. In this study, PJM-1 was recombinantly expressed and purified. PJM-1 showed a low catalytic activity against ceftazidime and cefepime, and it was strongly inhibited by EDTA. 
+
+KEYWORDS: MBL, PJM-1, Pseudoxanthomonas japonensis 
+
+INTRODUCTION 
+
+Metallo-β-lactamases (MBLs) have high diversity and are divided into three subclasses: B1, B2, and B3 ( 1 , 2 ). Subclass B1 MBLs (e.g., IMP, VIM, and NDM) are found on mobile elements in several species ( 2 ). In contrast, subclass B2 and B3 MBL genes are frequently present in nonglucose fermenting Gram-negative organisms with a few exceptions, including several rare subclass B3 enzymes such as SMB-1 and AIM-1 ( 3 – 8 ). 
+
+Pseudoxanthomonas , a Gram-negative bacterium, was first reported by Finkmann et al. in 2000 ( 9 ). Pseudoxanthomonas japonensis was originally isolated from polluted urban soil in Tokyo, Japan and was reported as a novel species by Thierry et al. in 2004 ( 10 ). Although Pseudoxanthomonas species are widely distributed in the environment, they rarely infect humans. Although they harbor MBL genes, the biochemical characteristics of the MBL enzymes have not been evaluated. 
+
+Recently, we isolated P. japonensis TUM20250 strain from the water of a hospital sink for screening multidrug-resistant bacteria. Species identification of TUM20250 was performed using MALDI-TOF MS spectrometry on a MALDI Biotyper (Bruker Daltonics, Hamburg, Germany). TUM20250 was identified as P. japonensis with a high spectral score (>2.0). MICs for TUM20250 were determined using the broth microdilution method, according to the Clinical and Laboratory Standards Institute (CLSI) ( Table 1 ) ( 11 ). TUM20250 had a high imipenem MIC (4 mg/L), and MBL production in TUM20250 was confirmed. In contrast, the MICs of ceftazidime and cefepime were lower than those of cephalothin and cefoxitin, respectively ( Table 1 ). 
+
+TABLE 1. 
+
+MICs (mg/L) for TUM20250 strain, BL21, and their transformants 
+
+Antibiotic Pseudoxanthomonas japonensis TUM20250 Escherichia coli BL21 pET9a (–) pET9a (+) a Vector only bla PJM bla PJM +EDTA b Ampicillin 4 2 2 >128 128 Piperacillin 2 0.5 0.5 >128 32 Carbenicillin 2 2 2 >128 2 Cephalothin 16 1 1 >128 32 Cefoxitin 32 1 1 >128 8 Cefotaxime 4 <0.125 <0.125 32 0.125 Ceftazidime 1 0.25 0.25 2 0.125 Ceftazidime/clavulanate 1 0.25 0.25 2 0.125 Cefepime 0.5 <0.125 <0.125 <0.125 <0.125 Imipenem 4 0.25 0.25 128 2 Meropenem 1 <0.125 <0.125 64 4 Ertapenem 2 <0.125 <0.125 128 1 Aztreonam 16 <0.125 <0.125 <0.125 <0.125 
+
+Open in a new tab 
+
+a 
+The MICs remained changed under induced and noninduced conditions of 100 μM IPTG. 
+
+b 
+Contains EDTA at a final concentration of 100 μM. 
+
+We further analyzed TUM20250 using the draft whole-genome sequence (WGS) obtained with MiSeq (Illumina, San Diego, CA, USA) (GenBank accession no. NZ_BOUK00000000 ) ( 12 ). The WGS of TUM20250 shared high concordance with that of P. japonensis type strain DSM 17109 based on the average nucleotide identity (95.8%) ( 13 ). Furthermore, we identified an MBL gene, bla PJM-1 (PJM, P seudoxanthomonas j aponensis m etallo-β-lactamase- 1 ), consisting of a 906-bp nucleotide sequence with 69.8% GC content and a predicted 301 amino acid sequence. Phylogenetic analysis based on amino acid sequences showed that PJM-1 belongs to the MBL subclass B3 ( Fig. 1 ) based on the BBL nomenclature, displaying a conserved zinc-binding region H-X-H-X-D-H at positions 116 to 121, 196H, and 263H ( Fig. 2 ) ( 14 ). PJM-1 shared 81.8% identity (contained signal peptide) with AIM-1, originally identified from Pseudomonas aeruginosa . In contrast, low identities were observed in other subclass B3 MBLs, such as SMB-1 (45.0%) from Serratia marcescens and THIN-B (44.6%) from Janthinobacterium lividum ( 7 , 15 ). P. mexicana harbors bla AIM-1-like (97.7% identity versus bla AIM-1 ), suggesting that bla AIM-1-like from P. mexicana is the origin of bla AIM-1 ( 16 ). bla AIM-1 is bracketed by two copies of IS CR15 in P. aeruginosa chromosome, as an acquired MBL gene ( 8 ). A previous study was unable to reproduce the mobilization of bla AIM-1-like via IS CR15 , suggesting that it may not be easy to mobilize it to other bacterial species ( 16 ). Meanwhile, Pseudoxanthomonas species harbor MBL genes with high diversity (~59% to 81%). In addition, their comprehensive genomes surrounding the MBL genes are well conserved and there are no transfer elements ( Fig. 3 ). Although these MBL genes may not be easily transferred to other Gram-negative bacteria, they may have become an antimicrobial-resistance pool in the environment. 
+
+FIG 1. 
+
+Open in a new tab 
+
+Phylogenetic tree of metallo-β-lactamase based on amino acid sequence, constructed using MEGAX with maximum-likelihood and 1,000 replication bootstrapping with Jones-Taylor-Thornton model. 
+
+FIG 2. 
+
+Open in a new tab 
+
+Amino acid alignment of PJM-1 and other closely related subclass B3 metallo-β-lactamases. The red box indicates zinc-binding regions. 
+
+FIG 3. 
+
+Open in a new tab 
+
+Comprehensive similarities in the genome sequences of surrounding metallo-β-lactamase genes in MBL-producing Pseudoxanthomonas species. The block arrows indicate putative open reading frames (ORFs) and their orientation. The black and orange arrows indicate genes encoding MBL and other protein coding sequences, respectively. 
+
+To characterize the kinetic properties of PJM-1, a recombinant PJM-1 protein was purified from Escherichia coli BL21(DE3). Briefly, cloning was performed using the In-Fusion HD Cloning kit (TaKaRa Bio, Shiga, Japan) after PCR amplification of bla PJM-1 and the linear pET9a vector using the following primers with a 15-bp overlapping sequence (underlined): pET9a_F_Infusion, 5′- TAACAAAGCCCGAAA GGAAGC -3′; pET9a_R_Infusion, 5′- ATGTATATCTCCTTC TTAAAGTTA -3′; F-PJM_infusion, 5′- GAAGGAGATATACAT ATGACGCTCCGCTCCACC -3′; and R-PJM_infusion1, 5′- TTTCGGGCTTTGTTA TCAAGGCGCAGGCACGGG -3′. The antimicrobial susceptibility of the transformed E. coli BL21(DE3) recombinant strain and the wild type was determined according to CLSI ( Table 1 ). After growth at 35°C in LB broth containing 50 μg/mL kanamycin, induction with 1 mM isopropyl β-thiogalactopyranoside was performed. After 4 h of induction, the cell pellet was collected by centrifugation, resuspended in 20 mM HEPES buffer, and sonicated before ultracentrifugation at 50,000 rpm for 30 min. The supernatant was loaded onto a HiTrap Q column (Cytiva, MA, USA) and recombinant PJM-1 was eluted using a linear NaCl gradient (0 to 200 mM) in 20 mM HEPES buffer. The purified enzyme was dialyzed using 50 mM HEPES buffer (pH 7.5) with 50 μM ZnSO 4 and analyzed using SDS-PAGE. Recombinant PJM-1 was obtained at >95% purity, which fits with the consensus on β-lactamase nomenclature ( 17 ). The molecular mass and predicted isoelectric point of PJM-1 were estimated to be 29,800 kDa without the predicted signal peptide sequence and 4.99, respectively, using ExPASy ( https://web.expasy.org/compute_pi/ ). 
+
+The kinetic parameters of purified PJM-1 were determined as previously described ( 18 , 19 ). The K i values of ampicillin, piperacillin, and imipenem were determined using nitrocefin as the reporter substrate. The IC 50 values of EDTA (Nacalai Tesque, Kyoto, Japan) and 2,6-pyridinedicarboxylic acid (DPA Sigma-Aldrich, St. Louis, MO, USA) were determined using cephalothin as a reporter substrate. Three individual assays were performed and the mean ± standard deviation for K m , k cat , and K i was calculated ( Table 2 ). 
+
+TABLE 2. 
+
+Kinetic parameter of PJM-1 and other class B3 metallo-β-lactamases 
+
+Substrate PJM-1 AIM-1 c k cat / K m (M −1 s −1 ) k cat (s −1 ) K m (μM) k cat / K m (M −1 s −1 ) k cat (s −1 ) K m (μM) k cat / K m (M −1 s −1 ) L1 c SMB-1 c THIN-B c Ampicillin 370 ± 3.1 51 ± 0.55 b 7.2 × 10 6 594 41 1.4 × 10 6 4.4 × 10 6 2.4 × 10 6 3.7 × 10 5 Piperacillin 150 ± 4.4 14 ± 0.44 b 1.1 × 10 7 337 17 2 × 10 7 7.0 × 10 6 1.8 × 10 5 2.0 × 10 5 Cephalothin 38 ± 0.36 13 ± 0.19 2.9 × 10 6 529 38 1.4 × 10 7 - 1.9 × 10 6 - Cefuroxime 86 ± 1.8 120 ± 3.8 6.9 × 10 5 292 29 9.9 × 10 6 2.7 × 10 6 1.4 × 10 6 2.8 × 10 6 Cefoxitin 31 ± 0.50 26 ± 0.98 1.2 × 10 6 145 26 5.7 × 10 6 5.5 × 10 5 - - Cefotaxime 90 ± 1.9 130 ± 7.0 7.1 × 10 5 609 49 1.2 × 10 7 2.6 × 10 6 8.9 × 10 5 2.0 × 10 6 Ceftazidime 0.091 ± 0.00036 150 ± 3.7 6.2 × 10 2 7 148 4.9 × 10 4 - 7.7 × 10 4 1.4 × 10 5 Cefepime 1.0 ± 0.027 230 ± 6.1 4.3 × 10 3 93 594 1.6 × 10 5 1.9 × 10 4 3.6 × 10 3 7.9 × 10 3 Imipenem 66 ± 2.1 36 ± 1.4 b 1.8 × 10 6 1,700 97 1.7 × 10 7 7.5 × 10 5 3.9 × 10 6 1.5 × 10 6 Meropenem 110 ± 3.8 34 ± 2.3 3.3 × 10 6 1,000 163 6.8 × 10 6 4.5 × 10 6 4.2 × 10 6 5.0 × 10 6 Ertapenem 190 ± 3.4 57 ± 1.3 3.3 × 10 6 - f - - - - - Aztreonam a NH d >1,000 b ND e NH NH ND ND ND ND Nitrocefin 79 ± 1.5 2.6 ± 0.11 3.1 × 10 7 - - - 2.9 × 10 6 - - 
+
+Open in a new tab 
+
+a 
+The K i value for aztreonam exceeds the measurable range. 
+
+b 
+K i value. 
+
+c 
+The references values of AIM-1, L1, SMB-1, and THIN-B are 8, 3, 7, and 15, respectively. 
+
+d 
+NH, no hydrolysis. 
+
+e 
+ND, not determined. 
+
+f 
+-, no data available. 
+
+The MICs of PJM-1 for E. coli BL21 were significantly higher than those for nonrecombinant E. coli BL21 for almost all β-lactams; however, the MICs of ceftazidime and cefepime remained low ( Table 1 ). In addition, in the presence of 100 μM EDTA, the MICs were reduced by 4- to 8-fold, indicating that EDTA strongly inhibits the catalytic activity of PJM-1. 
+
+PJM-1 showed a high catalytic activity against penicillin antibiotics, cephalothin, cefoxitin, and carbapenems ( k cat / K m > 10 6 M −1 s −1 ), which were better substrates than broad-spectrum cephalosporins. In particular, the catalytic activity of PJM-1 against ceftazidime was lower than that of AIM-1 (~80-fold), SMB-1 (~120-fold), and THIN-B (~230-fold) ( 7 , 8 , 15 ). The overall kinetic properties ( k cat / K m ) of purified PJM-1 were found to be similar to those of L1 on the tested substrates ( 3 ). Although the amino acid sequence of AIM-1 is the most similar to that of PJM-1, the catalytic activity of AIM-1 was 2- to 80-fold higher than that of PJM-1, except for ampicillin, which may be a result of assay conditions such as temperature and buffer ( 8 ). The kinetic parameters could be influenced by various factors such as enzyme stability, folding, and presence of tags in addition to the assay conditions. Thus, comparison of kinetic parameters should be carefully performed, and unification of experimental methods is also needed. 
+
+Overall, the kinetic properties of the purified PJM-1 were in agreement with the antimicrobial susceptibility of PJM-1-producing recombinant E. coli . For instance, high catalytic activities ( k cat / K m > 10 6 M −1 s −1 ) were observed against ampicillin, piperacillin, cephalothin, cefoxitin, and carbapenems, and the MICs were ≥64 mg/L. In contrast, low catalytic activities ( k cat / K m ≤10 −3 M −1 s −1 ) were observed against ceftazidime and cefepime, and the MICs were low (ceftazidime, 2 mg/L; cefepime, <0.125 mg/L). The IC 50 values of cephalothin for EDTA and DPA were 35 and 100 μM, respectively, suggesting that PJM is more inhibited by EDTA than by DPA. 
+
+In conclusion, PJM-1 is a novel subclass B3 MBL that exhibits very low catalytic activity against ceftazidime and cefepime and is strongly inhibited by EDTA. 
+
+ACKNOWLEDGMENT 
+
+We thank Editage for their English language editing service. 
+
+We declare no conflicts of interest or funding. 
+
+REFERENCES 
+
+1. Bush K, Jacoby GA. 2010. Updated functional classification of β-lactamases. Antimicrob Agents Chemother
+54:969–976. 10.1128/AAC.01009-09. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+2. Bush K, Bradford PA. 2020. Epidemiology of β-lactamase-producing pathogens. Clin Microbiol Rev
+33:e00047-19. 10.1128/CMR.00047-19. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Felici A, Amicosante G. 1995. Kinetic analysis of extension of substrate specificity with Xanthomonas maltophilia , Aeromonas hydrophila , and Bacillus cereus metallo-β-lactamases. Antimicrob Agents Chemother
+39:192–199. 10.1128/AAC.39.1.192. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+4. Gudeta DD, Pollini S, Docquier J-D, Bortolaia V, Rossolini GM, Guardabassi L. 2015. Biochemical characterization of CPS-1, a subclass B3 metallo-β-lactamase from a Chryseobacterium piscium soil isolate. Antimicrob Agents Chemother
+60:1869–1873. 10.1128/AAC.01924-15. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Mercuri PS, Bouillenne F, Boschi L, Lamotte-Brasseur J, Amicosante G, Devreese B, van Beeumen J, Frère J-M, Rossolini GM, Galleni M. 2001. Biochemical characterization of the FEZ-1 metallo-β-lactamase of Legionella gormanii ATCC 33297T produced in Escherichia coli . Antimicrob Agents Chemother
+45:1254–1262. 10.1128/AAC.45.4.1254-1262.2001. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Poirel L, Palmieri M, Brilhante M, Masseron A, Perreten V, Nordmann P. 2020. PFM-like enzymes are a novel family of subclass B2 metallo-β-lactamases from Pseudomonas synxantha belonging to the Pseudomonas fluorescens complex. Antimicrob Agents Chemother
+64:e01700-19. 10.1128/AAC.01700-19. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+7. Wachino J, Yoshida H, Yamane K, Suzuki S, Matsui M, Yamagishi T, Tsutsui A, Konda T, Shibayama K, Arakawa Y. 2011. SMB-1, a novel subclass B3 metallo-β-lactamase, associated with IS CR1 and a class 1 integron, from a carbapenem-resistant Serratia marcescens clinical isolate. Antimicrob Agents Chemother
+55:5143–5149. 10.1128/AAC.05045-11. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Yong D, Toleman MA, Bell J, Ritchie B, Pratt R, Ryley H, Walsh TR. 2012. Genetic and biochemical characterization of an acquired subgroup B3 metallo-β-lactamase gene, bla AIM-1 , and its unique genetic context in Pseudomonas aeruginosa from Australia. Antimicrob Agents Chemother
+56:6154–6159. 10.1128/AAC.05654-11. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Finkmann W, Altendorf K, Stackebrandt E, Lipski A. 2000. Characterization of N 2 O-producing Xanthomonas -like isolates from biofilters as Stenotrophomonas nitritireducens sp. nov., Luteimonas mephitis gen. nov., sp. nov. and Pseudoxanthomonas broegbernensis gen. nov., sp. nov. Int J Syst Evol Microbiol
+50:273–282. 10.1099/00207713-50-1-273. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+10. Thierry S, Macarie H, Iizuka T, Geißdörfer W, Assih EA, Spanevello M, Verhe F, Thomas P, Fudou R, Monroy O, Labat M, Ouattara AS. 2004. Pseudoxanthomonas mexicana sp. nov. and Pseudoxanthomonas japonensis sp. nov., isolated from diverse environments, and emended descriptions of the genus Pseudoxanthomonas Finkmann et al. 2000 and of its type species. Int J Syst Evol Microbiol
+54:2245–2255. 10.1099/ijs.0.02810-0. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+11. CLSI. 2015. Methods for dilution antimicrobial susceptibility tests for bacteria that grow aerobically. Approved standard 10th edition. Wayne, PA, USA. [ Google Scholar ] 
+
+12. Yamada K, Aoki K, Nagasawa T, Sasaki M, Murakami H, Ishii T, Ujiie S, Morita T, Ishii Y, Tateda K. 2021. Complete whole-genome sequence of the novel Pseudomonas species strain TUM18999, isolated from a patient with a burn wound in Japan. J. Glob Antimicrob Resist
+24:395–397. 10.1016/j.jgar.2021.01.020. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+13. Yoon SH, Ha SM, Lim J, Kwon S, Chun J. 2017. A large-scale evaluation of algorithms to calculate average nucleotide identity. Antonie Van Leeuwenhoek
+110:1281–1286. 10.1007/s10482-017-0844-4. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+14. Galleni M, Lamotte-Brasseur J, Rossolini GM, Spencer J, Dideberg O, Frère J-M, Metallo-β-lactamases Working Group . 2001. Standard numbering scheme for class B β-lactamases. Antimicrob Agents Chemother
+45:660–663. 10.1128/AAC.45.3.660-663.2001. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Docquier JD, Lopizzo T, Liberatori S, Prenna M, Thaller MC, Frère J-M, Rossolini GM. 2004. Biochemical characterization of the THIN-B metallo-β-lactamase of Janthinobacterium lividum . Antimicrob Agents Chemother
+48:4778–4783. 10.1128/AAC.48.12.4778-4783.2004. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+16. Kieffer N, Ebmeyer S, Larsson DGJ. 2022. Evidence for Pseudoxanthomonas mexicana as the recent origin of the bla AIM-1 carbapenemase gene. Int J Antimicrob Agents
+59:106571. 10.1016/j.ijantimicag.2022.106571. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+17. Bradford PA, Bonomo RA, Bush K, Carattoli A, Feldgarden M, Haft DH, Ishii Y, Jacoby GA, Klimke W, Palzkill T, Poirel L, Rossolini GM, Tamma PD, Arias CA. 2022. Consensus on β-lactamase nomenclature. Antimicrob Agents Chemother
+66. 10.1128/aac.00333-22. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Laraki N, Franceschini N, Rossolini GM, Santucci P, Meunier C, de Pauw E, Amicosante G, Frère J-M, Galleni M. 1999. Biochemical characterization of the Pseudomonas aeruginosa 101/1477 metallo-β-lactamase IMP-1 produced by Escherichia coli . Antimicrob Agents Chemother
+43:902–906. 10.1128/AAC.43.4.902. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+19. Moali C, Anne C, Lamotte-Brasseur J, Groslambert S, Devreese B, Van Beeumen J, Galleni M, Frère J-M. 2003. Analysis of the importance of the metallo-β-lactamase active site loop in substrate binding and catalysis. Chem Biol
+10:319–329. 10.1016/s1074-5521(03)00070-x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (1.3 MB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

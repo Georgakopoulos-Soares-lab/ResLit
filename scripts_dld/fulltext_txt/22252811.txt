@@ -1,0 +1,357 @@
+PMID: 22252811
+PMCID: PMC3318322
+DOI: 10.1128/AAC.05796-11
+Title: pJIE137 carrying blaCTX-M-62 is closely related to p271A carrying blaNDM-1.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2012 Apr
+Authors: Partridge SR, Paulsen IT, Iredell JR
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+pJIE137 Carrying blaCTX-M-62 Is Closely Related to p271A Carrying blaNDM-1 - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2012 Apr;56(4):2166–2168. doi: 10.1128/AAC.05796-11 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+pJIE137 Carrying bla CTX-M-62 Is Closely Related to p271A Carrying bla NDM-1 
+
+Sally R Partridge 
+
+Sally R Partridge 
+
+a Centre for Infectious Diseases and Microbiology, University of Sydney, Westmead Hospital, Sydney, New South Wales, Australia 
+
+Find articles by Sally R Partridge 
+
+a, ✉ , Ian T Paulsen 
+
+Ian T Paulsen 
+
+b Department of Chemistry and Biomolecular Sciences, Macquarie University, Sydney, New South Wales, Australia 
+
+Find articles by Ian T Paulsen 
+
+b , Jonathan R Iredell 
+
+Jonathan R Iredell 
+
+a Centre for Infectious Diseases and Microbiology, University of Sydney, Westmead Hospital, Sydney, New South Wales, Australia 
+
+Find articles by Jonathan R Iredell 
+
+a 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a Centre for Infectious Diseases and Microbiology, University of Sydney, Westmead Hospital, Sydney, New South Wales, Australia 
+
+b Department of Chemistry and Biomolecular Sciences, Macquarie University, Sydney, New South Wales, Australia 
+
+✉ 
+Address correspondence to Sally R. Partridge, sally.partridge@swahs.health.nsw.gov.au . 
+
+✉ 
+Corresponding author. 
+
+Received 2011 Sep 30; Revision requested 2011 Nov 20; Accepted 2012 Jan 6. 
+
+Copyright © 2012, American Society for Microbiology. All Rights Reserved. 
+
+PMC Copyright notice 
+
+PMCID: PMC3318322  PMID: 22252811 
+
+Abstract 
+
+Complete sequencing of pJIE137 revealed a backbone closely related to p271A, encoding a novel RepA protein but with a similar organization and up to ∼70% nucleotide identity to IncN plasmids. A region in pJIE137 resembling the IncN CUP regulon is mostly missing from p271A, presumably due to recombination. The class 1 In/Tn and IS Ecp1-bla CTX-M-62 transposition unit in pJIE137 and a putative transposon carrying bla NDM-1 in p271A are inserted in different locations in the plasmid backbone. 
+
+TEXT 
+
+Resistance to clinically important extended-spectrum β-lactams and carbapenems in the Enterobacteriaceae is often encoded by genes carried on plasmids ( 3 ), some of which cannot be typed using available PCR-based replicon typing methods (PBRT) ( 5 , 8 ). We identified bla CTX-M-62 , encoding a Pro167Ser variant (Ambler numbering) of CTX-M-3, in Klebsiella pneumoniae JIE137. Transconjugants of JIE137 with Escherichia coli DH5αRf were obtained by filter mating with selection on ceftazidime (2 μg/ml) and rifampin (80 μ/ml) at a frequency of 1.33 × 10 −6 /recipient and carried bla CTX-M-62 but gave no amplicons by PBRT ( 19 ). Mapping and sequencing revealed a rearranged IS Ecp1-bla CTX-M-62 transposition unit separated from a class 1 integron by a region related to IncN plasmids ( 18 ). S1 nuclease digestion and pulsed-field gel electrophoresis ( 2 , 12 ) of a selected transconjugant carrying bla CTX-M-62 (Tx37) gave a single band of ∼60 kb (data not shown). Here we present the complete sequence of this plasmid, pJIE137. 
+
+(Part of this work was presented at the 21st European Congress of Clinical Microbiology and Infectious Disease/27th International Congress of Chemotherapy, Milan, Italy, 7 to 10 May 2011, poster 1811.) 
+
+DNA was extracted from Tx37 and amplified, quantified, and sequenced (GS-FLX; Roche 454 life sciences, Mannheim, Germany) as described previously ( 11 ). Newbler (version 2.3; Roche) assembled seven contigs (0.5 to 37 kb, 56× to 128× coverage), and RAST annotation ( 1 ) identified the largest as plasmid backbone. Comparison with the existing partial sequence identified three contigs as repeated regions and the other three as segments separated by these repeats, allowing assembly of a 58,107-kb plasmid. 
+
+BLASTn searches ( http://blast.ncbi.nlm.nih.gov/ ) with the pJIE137 backbone revealed >90% identity to p271A, which carries bla NDM-1 , from E. coli 271 ( Fig. 1 ) ( 13 ). Although both plasmids were isolated in Sydney, Australia, isolate JIE137 was obtained in May 2006 while isolate 271 was obtained in December 2009 (P. Taylor, personal communication) from a patient at a different hospital who had been transferred from Bangladesh ( 14 ), suggesting that similar plasmids may have acquired different antibiotic resistance genes in different geographic locations. 
+
+Fig 1. 
+
+Open in a new tab 
+
+(A) Comparison of the backbones of plasmids R46, pJIE137, and p271A. Broken shading indicates ∼70% identity between R46 (GenBank accession no. AY046276 ) and pJIE137 (not shown for CUP region). Gray shading shows 90 to 97% identity between pJIE137 and p271A ( JF785549 ). Extents and orientations of various genes are shown by arrows labeled with the gene name (letter only for tra genes). CUP repeats, as defined in reference 6 and annotated under AY046276 , are represented by black boxes. Gray boxes indicate 582-bp repeats in pJIE137 that encompass CUP-related regions. Vertical arrows with the following labels indicate insertions: “In+,” class 1 In/Tn plus tet (C) region and ars operon; “In,” class 1 In/Tn; “insertions,” approximate positions of different insertions in the fipA region of IncN plasmids pMAK2 ( AB366441 ), pKP96 ( EU195449 ), pS12 ( FJ223605 ), pNL194 ( GU585907 ), pKOX105 ( HM126016 ), pKC394 and pKC396 ( HM138652 and HM138653 , respectively) (accession numbers are given in parentheses). (B) Expanded diagram of CUP regions. CUP and related repeats are numbered, with “5” in pJIE137 indicating a proposed ArdK binding site. Unlabeled arrows indicate genes with no equivalent in IncN plasmids (see Table S1 in the supplemental material). Recombination could explain the deletions in pLEW517 ( DQ390454 ) and p271A (dotted lines). The insertion points of Tn 2 in pLEW517 and the IS Ecp1-bla CTX-M-62 transposition unit (TU) in pJIE137 are indicated. (C) Details of resistance regions inserted in pJIE137 and p271A. IS are shown as pointed boxes labeled with their name/number ( 125 , IS Aba125 ). Ecp1 Δ and Δ represent the right (1,078 bp) and left (583 bp) ends of IS Ecp1 , respectively. Small open and filled boxes represent gene cassettes and associated attC sites, respectively. Tall bars represent IRi and IRt of class 1 In/Tn and 38-bp terminal IR of Tn 3 -like transposons, as indicated, with their relative directions shown by arrowheads. The sequences of the 38-bp IR in p271A are shown on the right, with the nucleotides that differ from those in IR A and IR R of Tn 5403 indicated by lowercase type. DR, or sequences of expected DR length, are shown. Duplications of the 8-bp sequence CA GGGGTC in p271A noted in reference 13 overlap IR A and IR 2 (underlined bases) and are unlikely to be true DR indicative of insertion. 
+
+pJIE137 and p271A backbones. 
+
+The pJIE137 and p271A ( 13 ) backbones are organized similarly to the backbones of IncN plasmids, typified by plasmid R46 ( Fig. 1 A). Many of the proteins that they encode are also most closely related to those from IncN plasmids (see Table S1 in the supplemental material), but nucleotide identity is limited ( Fig. 1 ) and the replicon regions and RepA proteins of pJIE137 and p271A are unrelated to those of IncN plasmids. 
+
+The p271A backbone lacks a 5.2-kb region found in pJIE137 that corresponds to the CUP ( c onserved up stream repeat)-controlled regulon of the IncN plasmid R46 ( 6 ). The CUP repeats contain a strong promoter and in R46 are associated with the ardA and ardB genes, encoding antirestriction proteins, several other C UP- c ontrolled g enes ( ccg ), and ardK and ardR , which encode regulatory proteins that bind to the CUP repeats ( 6 ). Some IncN plasmids have fewer CUP repeats and only subsets of these genes ( 4 ) ( Fig. 1 B), which could be explained by recombination between repeats ( 6 ). In pJIE137, two copies of a 582-bp region (14 nucleotide differences) encompassing a shorter segment related to IncN CUP repeats are present, plus two partial copies of this shorter segment ( Fig. 1 B). These repeats are interspersed with some genes equivalent to those in R46 and other hypothetical genes (see Table S1 in the supplemental material) and contain a promoter and other features found in CUP repeats (see Fig. S1 in the supplemental material). p271A includes only one partial repeat; the rest of the region present in pJIE137 may have been lost by recombination ( Fig. 1 B). 
+
+ArdA and ArdB provide protection from the restriction enzymes of the recipient during conjugation ( 17 ). pJIE137 lacks ardA , and ardB is separated from the promoter in the adjacent repeat by insertion of IS Ecp1-bla CTX-M-62 , while p271A has neither ardA nor ardB , which may affect conjugation efficiency. pJIE137 and p271A also lack homologs of the IncN mucAB genes, which confer increased resistance to UV radiation and increased susceptibility to mutagenesis ( 16 ). However, both pJIE137 and p271A include a gene ( ssb ) with no equivalent in characterized IncN plasmids which is predicted to encode a single-stranded DNA-binding protein that may have a protective function in conjugation ( 6 ). 
+
+Insertions in pJIE137 and p271A. 
+
+pJIE137 was known to carry a class 1 integron, but the available sequence ended within IS 26 ( 18 ). Here the remainder of a class 1 In/Tn structure ( 10 ) was identified, bounded by the 25-bp inverted repeats IRi (at the intI1 end) and IRt (at the tni end) and flanked by 5-bp direct repeats (DR) ( Fig. 1 C). These DR indicate insertion by transposition, and it is possible that the whole structure was inserted en bloc , but a simpler class 1 In/Tn structure may have been inserted first, with subsequent acquisition/exchange of internal components by homologous recombination ( 10 ). As in several IncN plasmids, the class 1 In/Tn in pJIE137 is inserted upstream of the resP resolvase gene, despite these resP genes being quite different (see Table S1 in the supplemental material) and in opposite orientations with respect to other backbone genes ( Fig. 1 A). This is explained by Tn 402 -like transposons and their derivatives, i.e., class 1 In/Tn structures, targeting resolvase genes, including those on plasmids ( 9 ). The complex IS Ecp1-bla CTX-M-62 transposition unit ( 18 ) is inserted in the repeat upstream of ardB , and one IncN plasmid, pLEW517 ( DQ390454 ), has Tn 2 inserted between CUP repeats ( Fig. 1 B). 
+
+Previous analysis of p271A identified a truncated IS Aba125 (interrupted by IS Ec33 ) on one side of bla NDM-1 and IS Sen4 and the Tn 3 -like transposon Tn 5403 , bounded by a 38-bp IR, on the other ( 13 ). Comparison with pJIE137 confirmed that the outermost IR of Tn 5403 (IR A in Fig. 1 C) defined one end of the insert in p271A but revealed a third Tn 3 -like 38-bp IR (IR 1 ) defining the other end. A fourth 38-bp IR found 181 bp away (IR 2 ) truncates IS Aba125 , and a fifth is present near IS Sen4 (IR 3 ). This structure could have resulted from progressive insertions of different transposons with concomitant deletions or from insertion of a hybrid transposon flanked by IR 1 and IR A created elsewhere. A 755-bp region, including the 3′-end of the fipA gene, is missing from p271A compared with pJIE137, presumably due to transposon-mediated deletion. Insertions in the fipA region are also common in IncN plasmids ( Fig. 1 A), and since FipA ( f ertility i nhibition p rotein) inhibits conjugation of certain other plasmids ( 15 ), such insertions may have a beneficial effect ( 13 ). This analysis shows that important antibiotic resistance genes, carried by different mobile elements and inserted in different locations, have been acquired by a plasmid backbone type that current surveys may be missing. 
+
+Nomenclature of pJIE137, p271A, and other plasmids. 
+
+Given their organizational similarity to IncN plasmids, it has been suggested that p271A and pJIE137 constitute an “IncN2” subgroup ( 13 ). While plasmid Inc groups have been subdivided, with Roman and Arabic numerals and Greek letters (or combinations of these) used to indicate various subgroups (which may or may not be compatible with one another), the meanings of the different symbols seem to lack consistency, highlighting the difficulties inherent in adapting a system that was originally based on phenotypic incompatibility to the classification of plasmids based on sequence comparisons. Classification using relaxase proteins rather than replicons has been suggested ( 7 ), and pJIE137 and p271A (with TraI 68% identical to R46 [see Table S1 in the supplemental material]) would presumably be placed in the MOB F11 group, along with IncN, IncW, and IncP-9 plasmids. Although screening based on relaxases rather than replicons may allow detection of a greater variety of plasmids, there are still problems with how to indicate “mosaic” or “hybrid” plasmids, such as p271A and pJIE137. As increasing numbers of plasmids, including those that are currently “untypeable,” are sequenced, better ways of indicating relationships between plasmids will need to be developed. 
+
+Nucleotide sequence accession number. 
+
+GenBank accession no. EF219134 has been extended to include the complete nucleotide sequence of pJIE137. 
+
+Supplementary Material 
+
+Supplemental material 
+
+supp_56_4_2166__index.html (1KB, html) 
+
+ACKNOWLEDGMENTS 
+
+S.R.P. was partly supported by project grant 512396 from the Australian National Health and Medical Research Council. I.T.P is supported by a Life Science Research Award provided by the New South Wales Office of Science and Medical Research. This work made use of the RAST annotation server, which is supported in part by the National Institute of Allergy and Infectious Diseases and the National Institutes of Health, Department of Health and Human Services (NIAD), under contract HHSN266200400042C. 
+
+We thank Justin Ellem, Sasha Tetu, and Zong Zhiyong for technical assistance and Liam Elbourne and Neil Wilson for the initial RAST annotation of contigs. 
+
+Footnotes 
+
+Published ahead of print 17 January 2012 
+
+Supplemental material for this article may be found at http://aac.asm.org/ . 
+
+REFERENCES 
+
+1. Aziz RK, et al. 
+2008. 
+The RAST Server: rapid annotations using subsystems technology. BMC Genomics
+9:75. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+2. Barton BM, Harding GP, Zuccarelli AJ.
+1995. 
+A general method for detecting and sizing large plasmids. Anal. Biochem. 226:235–240 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+3. Bush K.
+2010. 
+Alarming β-lactamase-mediated resistance in multidrug-resistant Enterobacteriaceae. Curr. Opin. Microbiol. 13:558–564 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+4. Carattoli A, et al. 
+2010. 
+Complete nucleotide sequence of the IncN plasmid pKOX105 encoding VIM-1, QnrS1 and SHV-12 proteins in Enterobacteriaceae from Bolzano, Italy compared with IncN plasmids encoding KPC enzymes in the U. S. A. J. Antimicrob. Chemother. 65:2070–2075 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+5. Carattoli A, et al. 
+2005. 
+Identification of plasmids by PCR-based replicon typing. J. Microbiol. Methods
+63:219–228 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+6. Delver EP, Belogurov AA.
+1997. 
+Organization of the leading region of IncN plasmid pKM101 (R46): a regulon controlled by CUP sequence elements. J. Mol. Biol. 271:13–30 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Garcillán-Barcia MP, Alvarado A, de la Cruz F.
+2011. 
+Identification of bacterial plasmids based on mobility and plasmid population biology. FEMS Microbiol. Rev. 35:936–956 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+8. Johnson TJ, et al. 
+2007. 
+Plasmid replicon typing of commensal and pathogenic Escherichia coli isolates. Appl. Environ. Microbiol. 73:1976–1983 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Kamali-Moghaddam M, Sundström L.
+2000. 
+Transposon targeting determined by resolvase. FEMS Microbiol. Lett. 186:55–59 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+10. Partridge SR.
+2011. 
+Analysis of antibiotic resistance regions in Gram-negative bacteria. FEMS Microbiol. Rev. 35:820–855 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+11. Partridge SR, et al. 
+2011. 
+Complete sequence of pJIE143, a pir -type plasmid carrying ISEcp1-bla CTX-M-15 from an Escherichia coli ST131 isolate. Antimicrob. Agents Chemother. 55:5933–5935 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Partridge SR, Zong Z, Iredell JR.
+2011. 
+Recombination in IS 26 and Tn 2 in the evolution of multiresistance regions carrying bla CTX-M-15 on conjugative IncF plasmids from Escherichia coli. Antimicrob. Agents Chemother. 55:4971–4978 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Poirel L, Bonnin RA, Nordmann P.
+2011. 
+Analysis of the resistome of a multidrug-resistant NDM-1-producing Escherichia coli by high-throughput genome sequencing. Antimicrob. Agents Chemother. 55:4224–4229 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+14. Poirel L, Lagrutta E, Taylor P, Pham J, Nordmann P.
+2010. 
+Emergence of metallo-β-lactamase NDM-1-producing multidrug-resistant Escherichia coli in Australia. Antimicrob. Agents Chemother. 54:4914–4916 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Santini JM, Stanisich VA.
+1998. 
+Both the fipA gene of pKM101 and the pifC gene of F inhibit conjugal transfer of RP1 by an effect on traG . J. Bacteriol. 180:4093–4101 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+16. Walker GC.
+1984. 
+Mutagenesis and inducible responses to deoxyribonucleic acid damage in Escherichia coli. Microbiol. Rev. 48:60–93 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+17. Wilkins BM.
+2002. 
+Plasmid promiscuity: meeting the challenge of DNA immigration control. Environ. Microbiol. 4:495–500 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+18. Zong Z, Partridge SR, Iredell JR.
+2010. 
+IS Ecp1 -mediated transposition and homologous recombination can explain the context of bla CTX-M-62 linked to qnrB2 . Antimicrob. Agents Chemother. 54:3039–3042 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+19. Zong Z, Partridge SR, Thomas L, Iredell JR.
+2008. 
+Dominance of bla CTX-M within an Australian extended-spectrum β-lactamase gene pool. Antimicrob. Agents Chemother. 52:4198–4202 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+Associated Data 
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+
+Supplementary Materials 
+
+Supplemental material 
+
+supp_56_4_2166__index.html (1KB, html) 
+
+supp_56.4.2166_TableS1-FigS1.pdf (39.8KB, pdf) 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (571.4 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

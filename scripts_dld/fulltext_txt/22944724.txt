@@ -1,0 +1,2666 @@
+PMID: 22944724
+PMCID: 
+DOI: 10.1016/j.jcf.2012.08.005
+Title: Epidemiology and resistance of Achromobacter xylosoxidans from cystic fibrosis patients in Dijon, Burgundy: first French data.
+Journal: Journal of cystic fibrosis : official journal of the European Cystic Fibrosis Society
+PubDate: 2013 Mar
+Authors: Amoureux L, Bador J, Siebor E, Taillefumier N, Fanton A, Neuwirth C
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1569199312001440</prism:url><dc:identifier>doi:10.1016/j.jcf.2012.08.005</dc:identifier><eid>1-s2.0-S1569199312001440</eid><prism:doi>10.1016/j.jcf.2012.08.005</prism:doi><pii>S1569-1993(12)00144-0</pii><dc:title>Epidemiology and resistance of Achromobacter xylosoxidans from cystic fibrosis patients in Dijon, Burgundy: First French data </dc:title><prism:publicationName>Journal of Cystic Fibrosis</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>15691993</prism:issn><prism:volume>12</prism:volume><prism:issueIdentifier>2</prism:issueIdentifier><prism:startingPage>170</prism:startingPage><prism:endingPage>176</prism:endingPage><prism:pageRange>170-176</prism:pageRange><prism:number>2</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2013-03-31</prism:coverDate><prism:coverDisplayDate>March 2013</prism:coverDisplayDate><prism:copyright>Copyright © 2012 European Cystic Fibrosis Society. Published by Elsevier B.V. All rights reserved.</prism:copyright><prism:publisher>European Cystic Fibrosis Society. Published by Elsevier B.V.</prism:publisher><dc:creator>Amoureux, Lucie</dc:creator><dc:creator>Bador, Julien</dc:creator><dc:creator>Siebor, Eliane</dc:creator><dc:creator>Taillefumier, Nathalie</dc:creator><dc:creator>Fanton, Annlyse</dc:creator><dc:creator>Neuwirth, Catherine</dc:creator><dc:description>
+                  Background
+                  
+                     Achromobacter xylosoxidans is an emerging pathogen in cystic fibrosis (CF) patients recognised as causal agent of inflammation. The prevalence of infection or colonisation is variable among CF centres. We report here the first epidemiological data about A. xylosoxidans in a French CF centre: Dijon, Burgundy.
+               
+                  Methods
+                  All isolates recovered from the patients affiliated with our centre in 2010 since their first visit were included. Antimicrobial susceptibility was determined by disk diffusion method and E-test. Molecular epidemiology was performed by Pulsed Field Gel Electrophoresis (PFGE) and compared with repetitive sequence-based PCR (rep-PCR, DiversiLab®). We also sequenced the constitutive bla-oxa-114 gene.
+               
+                  Results
+                  Out of 120 patients, 21 (17.5%) had at least one positive culture with A. xylosoxidans since they started to receive routine care in our CF centre (447 isolates). Median age at first positive culture was 16years (range 3–34years). Most patients were colonised by their own strain, cross-contamination was very rare. We observed two cases of intra-family spread. DiversiLab® is a useful tool as efficient as PFGE to compare isolates recovered simultaneously from different patients when an outbreak is suspected. However, PFGE remains the reference method for long-term survey of chronically colonised patients. We detected new OXA-114 variants and the new oxacillinase OXA-243 (88% amino acid identity with OXA-114). Acquired resistance to ciprofloxacin, ceftazidime and carbapenems was frequent. In 2010, 7 patients harboured strains resistant to ceftazidime, 6 patients strains with decreased susceptibility to carbapenems (especially meropenem) and 12 patients strains resistant to ciprofloxacin.
+               
+                  Conclusions
+                  In our centre, the high prevalence of colonisation is not due to cross-contamination. Our main concern is the high rate of antimicrobial resistance.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>true</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierBranded</openaccessSponsorType><openaccessUserLicense>http://www.elsevier.com/open-access/userlicense/1.0/</openaccessUserLicense><dcterms:subject>
+                     Achromobacter xylosoxidans
+                  </dcterms:subject><dcterms:subject>Cystic fibrosis</dcterms:subject><dcterms:subject>Genotyping</dcterms:subject><dcterms:subject>DiversiLab</dcterms:subject><dcterms:subject>OXA-114</dcterms:subject><dcterms:subject>OXA-243</dcterms:subject><dcterms:subject>Resistance</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1569199312001440" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1569199312001440" rel="scidir"/></coredata><scopus-id>84878017563</scopus-id><scopus-eid>2-s2.0-84878017563</scopus-eid><pubmed-id>22944724</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/84878017563" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>272296</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291911</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Journal of Cystic Fibrosis</xocs:srctitle>
+      <xocs:normalized-srctitle>JOURNALCYSTICFIBROSIS</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20120831">2012-08-31</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20120831">2012-08-31</xocs:available-online-date>
+      <xocs:ew-transaction-id>2013-02-08T04:29:18</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1569199312001440</xocs:eid>
+      <xocs:pii-formatted>S1569-1993(12)00144-0</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1569199312001440</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.jcf.2012.08.005</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.1</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1569199313X00025</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20150515">2015-05-15T06:46:44.123792-04:00</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20130301</xocs:date-search-begin>
+      <xocs:date-search-end>20130331</xocs:date-search-end>
+      <xocs:year-nav>2013</xocs:year-nav>
+      <xocs:indexeddate epoch="1346371200">2012-08-31T00:00:00Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo crossmark dco dateupdated tomb dateloaded datesearch indexeddate issuelist volumelist yearnav articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright dateloadedtxt docsubtype doctype doi eid ewtransactionid hubeid issfirst issn issnnorm itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype subheadings volfirst volissue webpdf webpdfpagecount table body affil articletitle auth authfirstini authfull authkeywords authlast primabst pubtype ref alllist content subj ssids</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1569-1993</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>15691993</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>12</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>12</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>2</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>2</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 12, Issue 2</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>10</xocs:sort-order>
+      <xocs:first-fp>170</xocs:first-fp>
+      <xocs:last-lp>176</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>170</xocs:first-page>
+         <xocs:last-page>176</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201303</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>March 2013</xocs:cover-date-text>
+      <xocs:cover-date-start>2013-03-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2013-03-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2013</xocs:cover-date-year>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Original Articles</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2012 European Cystic Fibrosis Society. Published by Elsevier B.V. All rights reserved.</xocs:copyright-line>
+      <xocs:normalized-article-title>EPIDEMIOLOGYRESISTANCEACHROMOBACTERXYLOSOXIDANSCYSTICFIBROSISPATIENTSINDIJONBURGUNDYFIRSTFRENCHDATA</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>AMOUREUX</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>L</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>1</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Introduction</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>2</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Materials and methods</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.1</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Patients</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.2</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Processing of sputum samples</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.3</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Identification</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.4</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Detection and sequencing of <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">OXA-114-like</ce:inf> genes</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.5</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Reference strains</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.6</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Susceptibility testing</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.7</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Pulsed Field Gel Electrophoresis (PFGE)</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.8</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Automated repetitive-PCR DNA fingerprinting</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>3</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Results</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.1</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Patients and isolates</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.2</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Genotyping analysis by PFGE</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.3</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Genotyping by Diversilab® technology</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.4</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Antibiotic susceptibility</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.5</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Sequencing of <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">OXA-114-like</ce:inf> gene</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>4</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Discussion</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>5</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Conclusion</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="rf0005">
+            <xocs:ref-normalized-surname>BERINGER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>545</xocs:ref-first-fp>
+            <xocs:ref-last-lp>550</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0010">
+            <xocs:ref-normalized-surname>MILLAR</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>386</xocs:ref-first-fp>
+            <xocs:ref-last-lp>391</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0015">
+            <xocs:ref-normalized-surname>RAZVI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1554</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1560</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0020">
+            <xocs:ref-normalized-surname>SAWICKI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2008</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1117</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1123</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0025">
+            <xocs:ref-normalized-surname>WATERS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>635</xocs:ref-first-fp>
+            <xocs:ref-last-lp>640</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>V</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0030">
+            <xocs:ref-normalized-surname>HANSEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>51</xocs:ref-first-fp>
+            <xocs:ref-last-lp>58</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0035">
+            <xocs:ref-normalized-surname>HOGARDT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3435</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3438</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0040">
+            <xocs:ref-normalized-surname>KIDD</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1503</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1509</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0045">
+            <xocs:ref-normalized-surname>BURNS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1998</xocs:ref-pub-year>
+            <xocs:ref-first-fp>158</xocs:ref-first-fp>
+            <xocs:ref-last-lp>163</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0050">
+            <xocs:ref-normalized-surname>PEREIRA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3649</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3651</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0055">
+            <xocs:ref-normalized-surname>EMERSON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>363</xocs:ref-first-fp>
+            <xocs:ref-last-lp>370</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0060">
+            <xocs:ref-normalized-surname>RIDDERBERG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>466</xocs:ref-first-fp>
+            <xocs:ref-last-lp>469</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0065">
+            <xocs:ref-normalized-surname>KANELLOPOULOU</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>336</xocs:ref-first-fp>
+            <xocs:ref-last-lp>339</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0070">
+            <xocs:ref-normalized-surname>VANDAELE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2005</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2998</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3002</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0075">
+            <xocs:ref-normalized-surname>BADOR</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4912</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4914</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0080">
+            <xocs:ref-normalized-surname>DUEZ</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>139</xocs:ref-first-fp>
+            <xocs:ref-last-lp>141</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0085">
+            <xocs:ref-normalized-surname>DOI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2008</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1952</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1956</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Y</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0090">
+            <xocs:ref-normalized-surname>TURTON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>408</xocs:ref-first-fp>
+            <xocs:ref-last-lp>411</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0095">
+            <xocs:ref-normalized-surname>EDWARDS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1989</xocs:ref-pub-year>
+            <xocs:ref-first-fp>7843</xocs:ref-first-fp>
+            <xocs:ref-last-lp>7853</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>U</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0100">
+            <xocs:ref-normalized-surname>CHERON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1994</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1023</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1026</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0105">
+            <xocs:ref-normalized-surname>TENOVER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1995</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2233</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2239</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0110">
+            <xocs:ref-normalized-surname>DEBAETS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>75</xocs:ref-first-fp>
+            <xocs:ref-last-lp>78</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>F</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0115">
+            <xocs:ref-normalized-surname>LAMBIASE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>973</xocs:ref-first-fp>
+            <xocs:ref-last-lp>980</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0120">
+            <xocs:ref-normalized-surname>DOLEANSJORDHEIM</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1105</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1111</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0125">
+            <xocs:ref-normalized-surname>DEPLANO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3616</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3620</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0135">
+            <xocs:ref-normalized-surname>JACQUIER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>396</xocs:ref-first-fp>
+            <xocs:ref-last-lp>401</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0130">
+            <xocs:ref-normalized-surname>GIBSON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2003</xocs:ref-pub-year>
+            <xocs:ref-first-fp>918</xocs:ref-first-fp>
+            <xocs:ref-last-lp>951</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="rf0140">
+            <xocs:ref-normalized-surname>RIDDERBERG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2688</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2694</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>AMOUREUXX2013X170</xocs:refkey3>
+         <xocs:refkey4lp>AMOUREUXX2013X170X176</xocs:refkey4lp>
+         <xocs:refkey4ai>AMOUREUXX2013X170XL</xocs:refkey4ai>
+         <xocs:refkey5>AMOUREUXX2013X170X176XL</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="1">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2015-03-01T00:03:12Z</xocs:oa-access-effective-date>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/15691993_P2Y_ESBranded" wintype="OpenArchive">OA-Window</xocs:oa-access-inherited-from>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierBranded</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://www.elsevier.com/open-access/userlicense/1.0/</xocs:oa-user-license>
+      </xocs:open-access>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1569-1993(12)00144-0</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1569199312001440</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1569199312001440</xocs:eid>
+         <xocs:doi>10.1016/j.jcf.2012.08.005</xocs:doi>
+         <xocs:cid>272296</xocs:cid>
+         <xocs:timestamp>2013-02-08T01:38:46.699921-05:00</xocs:timestamp>
+         <xocs:cover-date-start>2013-03-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2013-03-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1569199312001440-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1569199312001440/MAIN/application/pdf/04c39e7a08a6116585fd1b1f03acad8a/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1569199312001440/MAIN/application/pdf/04c39e7a08a6116585fd1b1f03acad8a/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>146841</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>7</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1569199312001440-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1569199312001440/PREVIEW/image/png/b925d34ae7616a477be928589e1d99ef/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1569199312001440/PREVIEW/image/png/b925d34ae7616a477be928589e1d99ef/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>69305</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.1" docsubtype="fla" xml:lang="en">
+         <item-info>
+            <jid>JCF</jid>
+            <aid>825</aid>
+            <ce:pii>S1569-1993(12)00144-0</ce:pii>
+            <ce:doi>10.1016/j.jcf.2012.08.005</ce:doi>
+            <ce:copyright type="society" year="2012">European Cystic Fibrosis Society.</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="t0005" frame="topbot" colsep="0" rowsep="0">
+               <ce:label>Table 1</ce:label>
+               <ce:caption>
+                  <ce:simple-para id="sp0025" view="all">Characteristics of the patients and isolates. C: chronically colonised patient; CIP: ciprofloxacin; CAZ: ceftazidime; IPM: imipenem; MEM: meropenem.</ce:simple-para>
+               </ce:caption>
+               <tgroup cols="7">
+                  <colspec colname="col1"/>
+                  <colspec colname="col2"/>
+                  <colspec colname="col3"/>
+                  <colspec colname="col4"/>
+                  <colspec colname="col5"/>
+                  <colspec colname="col6"/>
+                  <colspec colname="col7"/>
+                  <thead>
+                     <row valign="top" rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">Patient</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">Age at first positive culture</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">PFGE pulsotype (no. of subtypes)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">No. of positive cultures (no. of strains)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">OXA variant</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">Resistance at first positive culture (year)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">Resistance at last positive culture (year)</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P1<sup loc="post">C</sup>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">12</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX42</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">12<inf loc="post">(13)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">114m</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">CIP (2004)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CIP, CAZ, MEM (2010)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P2<sup loc="post">C</sup>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">12</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX42</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">12<inf loc="post">(13)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">114m</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">CIP(2004)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CIP, CAZ, MEM (2010)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="1" colname="col1" align="left">P3</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="1" colname="col2" align="char" char=".">8</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX61 (2)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">2<inf loc="post">(2)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">243d</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">None (2001)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CIP (2010)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">1<inf loc="post">(1)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">/</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">None (2002)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">/</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">9</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">1<inf loc="post">(1)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">243c</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">CIP, CAZ (2010)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">/</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P5<sup loc="post">C</sup>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">16</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX1 (3)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">12<inf loc="post">(18)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">243b</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">CIP, CAZ (2003)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CAZ (2007)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P6<sup loc="post">C</sup>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX1 (6)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">56<inf loc="post">(78)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">243b</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">None (1997)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CIP, CAZ, IPM, MEM (2010)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="3" colname="col1" align="left">P7</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="3" colname="col2" align="char" char=".">18</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX53 (2)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">5<inf loc="post">(6)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">114c</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">None (2007)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CIP (2008)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">1<inf loc="post">(1)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">/</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">None (2007)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">/</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">1<inf loc="post">(1)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">/</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">None (2008)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">/</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">1<inf loc="post">(1)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">/</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">None (2010)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">/</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P8<sup loc="post">C</sup>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">18</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX2 (6)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">79<inf loc="post">(86)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">114h</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">CIP (1997)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CIP, CAZ, MEM (2010)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P9<sup loc="post">C</sup>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">16</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX62 (3)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">5<inf loc="post">(9)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">114e</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">None (2009)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CIP, CAZ (2010)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P10</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">7</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX65</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">2<inf loc="post">(2)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">114i</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">CIP (2010)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CIP (2010)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P11</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">25</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX56</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">4<inf loc="post">(4)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">114<hsp sp="0.25"/>l</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">CIP (2006)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CIP, MEM (2010)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P12</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">8</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX46 (3)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">9<inf loc="post">(11)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">114g</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">CIP, CAZ,IPM (2005)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CIP (2010)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="1" colname="col1" align="left">P13<sup loc="post">C</sup>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="1" colname="col2" align="char" char=".">22</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX50</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">17<inf loc="post">(23)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">114a</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">CIP (2006)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CIP (2010)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX55</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">4<inf loc="post">(4)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">114f</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">CIP (2008)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CIP(2008)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="1" colname="col1" align="left">P14</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="1" colname="col2" align="char" char=".">34</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">1<inf loc="post">(1)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">114k</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">CIP (2005)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">/</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX47</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">2<inf loc="post">(2)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">/</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">CIP (2005)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CIP (2005)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P15</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">13</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX43</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">15<inf loc="post">(18)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">114i</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">None (2004)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CIP (2006)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P16</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">17</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX57</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">2<inf loc="post">(2)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">114f</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">None (2008)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">None (2008)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="1" colname="col1" align="left">P17</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="1" colname="col2" align="char" char=".">25</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX59 (2)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">8<inf loc="post">(9)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">243d</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">CIP, CAZ (2009)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CIP, CAZ (2010)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX63</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">2<inf loc="post">(2)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">114c</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">CIP (2010)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CIP (2010)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P18</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">16</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX58 (2)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">3<inf loc="post">(3)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">114c</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">None (2007)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CIP (2008)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P19<sup loc="post">C</sup>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">25</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX3 (8)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">80<inf loc="post">(134)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">114h</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">CIP (1995)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">CIP, CAZ, MEM (2010)</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P20</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX43</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">1<inf loc="post">(1)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">114i</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">CIP, CAZ (2005)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">/</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P21</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">3</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">1<inf loc="post">(1)</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col5" align="left">114a</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col6" align="left">CIP (2010)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col7" align="left">/</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="t0010" frame="topbot" colsep="0" rowsep="0">
+               <ce:label>Table 2</ce:label>
+               <ce:caption>
+                  <ce:simple-para id="sp0030" view="all">Comparision of genotyping by Diversilab® technology with PFGE on strains isolated from 19 patients.</ce:simple-para>
+               </ce:caption>
+               <tgroup cols="4">
+                  <colspec colname="col1"/>
+                  <colspec colname="col2"/>
+                  <colspec colname="col3"/>
+                  <colspec colname="col4"/>
+                  <thead>
+                     <row valign="top" rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">Patient</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">Date of isolation</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">PFGE pulsotype</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="left">Diversilab pattern</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="1" colname="col1" align="left">P1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">16/05/2007</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX42</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">1</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">10/11/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX42</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">2</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="1" colname="col1" align="left">P2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">25/07/2007</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX42</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">1</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">26/10/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX42</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">2</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="1" colname="col1" align="left">P3</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">11/07/2001</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX61A</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">3</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">26/01/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX61B</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">4</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">17/03/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">5</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">23/06/2004</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX1A</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">6</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="2" colname="col1" align="left">P6</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">17/06/2005</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX1A</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">6</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">23/07/2009</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX1C</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">7</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">06/12/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX1C</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">8</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="2" colname="col1" align="left">P7</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">21/07/2007</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX53A</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">9</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">27/09/2007</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX53A</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">9</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">15/05/2008</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX53B</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">10</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="3" colname="col1" align="left">P8</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">11/09/2007</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX2C</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">11</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">22/11/2007</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX2A</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">11</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">04/06/2009</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX2C</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">12</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">07/09/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX2A</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">12</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="1" colname="col1" align="left">P9</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">03/02/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX62A</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">13</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">27/10/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX62A</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">13</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="1" colname="col1" align="left">P10</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">14/09/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX65</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">14</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">07/12/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX65</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">14</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="2" colname="col1" align="left">P11</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">06/03/2008</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX56</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">15</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">25/02/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX56</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">16</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">06/05/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX56</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">16</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="1" colname="col1" align="left">P12</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">01/07/2009</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX46A</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">17</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">03/03/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX46B</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">17</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="2" colname="col1" align="left">P13</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">15/11/2007</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX50A</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">18</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">17/07/2008</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX55</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">19</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">10/11/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX50A</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">18</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P14</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">04/08/2005</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">20</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="1" colname="col1" align="left">P15</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">04/04/2005</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX43</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">21</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">30/08/2006</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX43</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">21</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P16</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">25/05/2008</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX57</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">22</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="3" colname="col1" align="left">P17</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">13/01/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX63</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">23</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">13/01/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX59A</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">24</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">18/03/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX59A</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">24</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">18/03/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX63</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">23</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" morerows="2" colname="col1" align="left">P19</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">09/01/2002</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX3B</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">25</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">30/11/2006</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX3A</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">25</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">29/04/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX3B</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">26</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P21</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">27/01/2010</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">AXX0</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col4" align="char" char=".">27</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="t0015" frame="topbot" colsep="0" rowsep="0">
+               <ce:label>Table 3</ce:label>
+               <ce:caption>
+                  <ce:simple-para id="sp0035" view="all">MICs (mg/L) of imipenem and meropenem of isolates recovered in 2010 with decreased susceptibility to imipenem and/or meropenem. (E-test method).</ce:simple-para>
+               </ce:caption>
+               <tgroup cols="3">
+                  <colspec colname="col1"/>
+                  <colspec colname="col2"/>
+                  <colspec colname="col3"/>
+                  <thead>
+                     <row valign="top" rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">Patient</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="left">Imipenem</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="left">Meropenem</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">3</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="char" char=".">4</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">16</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="char" char=".">3</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P6</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="char" char=".">4</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P8</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">3</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="char" char=".">&gt;<hsp sp="0.10"/>32</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P11</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="char" char=".">&gt;<hsp sp="0.10"/>32</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col1" align="left">P19</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col2" align="char" char=".">2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" colname="col3" align="char" char=".">&gt;<hsp sp="0.10"/>32</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+         </ce:floats>
+         <head>
+            <ce:dochead>
+               <ce:textfn>Original Article</ce:textfn>
+            </ce:dochead>
+            <ce:title>Epidemiology and resistance of <ce:italic>Achromobacter xylosoxidans</ce:italic> from cystic fibrosis patients in Dijon, Burgundy: First French data</ce:title>
+            <ce:author-group>
+               <ce:author>
+                  <ce:given-name>Lucie</ce:given-name>
+                  <ce:surname>Amoureux</ce:surname>
+                  <ce:cross-ref refid="af0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>Julien</ce:given-name>
+                  <ce:surname>Bador</ce:surname>
+                  <ce:cross-ref refid="af0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>Eliane</ce:given-name>
+                  <ce:surname>Siebor</ce:surname>
+                  <ce:cross-ref refid="af0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>Nathalie</ce:given-name>
+                  <ce:surname>Taillefumier</ce:surname>
+                  <ce:cross-ref refid="af0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>Annlyse</ce:given-name>
+                  <ce:surname>Fanton</ce:surname>
+                  <ce:cross-ref refid="af0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author>
+                  <ce:given-name>Catherine</ce:given-name>
+                  <ce:surname>Neuwirth</ce:surname>
+                  <ce:cross-ref refid="af0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref refid="cr0005">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="af0005">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>Department of Bacteriology, University Hospital of Dijon, BP 37013, 21070 Dijon Cedex, France</ce:textfn>
+               </ce:affiliation>
+               <ce:affiliation id="af0010">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>Department of Respiratory Medicine and Cystic Fibrosis Centre, University Hospital of Dijon, BP 37013, 21070 Dijon Cedex, France</ce:textfn>
+               </ce:affiliation>
+               <ce:correspondence id="cr0005">
+                  <ce:label>⁎</ce:label>
+                  <ce:text>Corresponding author. Tel.: +<ce:hsp sp="0.10"/>33 3 80 29 32 60; fax: +<ce:hsp sp="0.10"/>33 3 80 29 36 67.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="27" month="6" year="2012"/>
+            <ce:date-revised day="30" month="7" year="2012"/>
+            <ce:date-accepted day="1" month="8" year="2012"/>
+            <ce:abstract class="author"><ce:abstract-sec>
+                  <ce:section-title>Background</ce:section-title>
+                  <ce:simple-para id="sp0005" view="all">
+                     <ce:italic>Achromobacter xylosoxidans</ce:italic> is an emerging pathogen in cystic fibrosis (CF) patients recognised as causal agent of inflammation. The prevalence of infection or colonisation is variable among CF centres. We report here the first epidemiological data about <ce:italic>A. xylosoxidans</ce:italic> in a French CF centre: Dijon, Burgundy.</ce:simple-para>
+               </ce:abstract-sec><ce:abstract-sec>
+                  <ce:section-title>Methods</ce:section-title>
+                  <ce:simple-para id="sp0010" view="all">All isolates recovered from the patients affiliated with our centre in 2010 since their first visit were included. Antimicrobial susceptibility was determined by disk diffusion method and E-test. Molecular epidemiology was performed by Pulsed Field Gel Electrophoresis (PFGE) and compared with repetitive sequence-based PCR (rep-PCR, DiversiLab®). We also sequenced the constitutive <ce:italic>bla</ce:italic>-<ce:inf loc="post">oxa-114</ce:inf> gene.</ce:simple-para>
+               </ce:abstract-sec><ce:abstract-sec>
+                  <ce:section-title>Results</ce:section-title>
+                  <ce:simple-para id="sp0015" view="all">Out of 120 patients, 21 (17.5%) had at least one positive culture with <ce:italic>A. xylosoxidans</ce:italic> since they started to receive routine care in our CF centre (447 isolates). Median age at first positive culture was 16<ce:hsp sp="0.25"/>years (range 3–34<ce:hsp sp="0.25"/>years). Most patients were colonised by their own strain, cross-contamination was very rare. We observed two cases of intra-family spread. DiversiLab® is a useful tool as efficient as PFGE to compare isolates recovered simultaneously from different patients when an outbreak is suspected. However, PFGE remains the reference method for long-term survey of chronically colonised patients. We detected new OXA-114 variants and the new oxacillinase OXA-243 (88% amino acid identity with OXA-114). Acquired resistance to ciprofloxacin, ceftazidime and carbapenems was frequent. In 2010, 7 patients harboured strains resistant to ceftazidime, 6 patients strains with decreased susceptibility to carbapenems (especially meropenem) and 12 patients strains resistant to ciprofloxacin.</ce:simple-para>
+               </ce:abstract-sec><ce:abstract-sec>
+                  <ce:section-title>Conclusions</ce:section-title>
+                  <ce:simple-para id="sp0020" view="all">In our centre, the high prevalence of colonisation is not due to cross-contamination. Our main concern is the high rate of antimicrobial resistance.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords class="keyword">
+               <ce:section-title>Keywords</ce:section-title>
+               <ce:keyword>
+                  <ce:text>
+                     <ce:italic>Achromobacter xylosoxidans</ce:italic>
+                  </ce:text>
+               </ce:keyword>
+               <ce:keyword>
+                  <ce:text>Cystic fibrosis</ce:text>
+               </ce:keyword>
+               <ce:keyword>
+                  <ce:text>Genotyping</ce:text>
+               </ce:keyword>
+               <ce:keyword>
+                  <ce:text>DiversiLab</ce:text>
+               </ce:keyword>
+               <ce:keyword>
+                  <ce:text>OXA-114</ce:text>
+               </ce:keyword>
+               <ce:keyword>
+                  <ce:text>OXA-243</ce:text>
+               </ce:keyword>
+               <ce:keyword>
+                  <ce:text>Resistance</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:section id="s0005" view="all">
+                  <ce:label>1</ce:label>
+                  <ce:section-title>Introduction</ce:section-title>
+                  <ce:para id="p0005" view="all">Methicillin-susceptible <ce:italic>Staphylococcus aureus</ce:italic>, <ce:italic>Haemophilus influenzae</ce:italic> and <ce:italic>Pseudomonas aeruginosa</ce:italic> remain the most common pathogens isolated during airway infection in cystic fibrosis (CF) patients <ce:cross-ref refid="bb0005">[1]</ce:cross-ref>. Nevertheless since the 2000s additional organisms have been increasingly reported: methicillin-resistant <ce:italic>S. aureus</ce:italic>, <ce:italic>Stenotrophomonas maltophilia</ce:italic>, <ce:italic>Burkholderia cepacia</ce:italic> complex and <ce:italic>Achromobacter xylosoxidans</ce:italic> 
+                     <ce:cross-refs refid="bb0010 bb0015 bb0020 bb0025">[2–5]</ce:cross-refs>. The impact of <ce:italic>A. xylosoxidans</ce:italic> on lung disease is unclear but the recent study by Hansen suggests that it can cause inflammation in chronically infected CF patients <ce:cross-ref refid="bb0030">[6]</ce:cross-ref>.</ce:para>
+                  <ce:para id="p0010" view="all">
+                     <ce:italic>A. xylosoxidans</ce:italic> is an aerobic, non-fermentative, Gram-negative rod. It is frequently misidentified as <ce:italic>P. aeruginosa</ce:italic>, and therefore its prevalence is likely to be underestimated in lung colonisation/infection in CF patients <ce:cross-refs refid="bb0035 bb0040">[7,8]</ce:cross-refs>.</ce:para>
+                  <ce:para id="p0015" view="all">The rate of colonisation/infection is very different among the studies, ranging from 2% in the 2000s <ce:cross-ref refid="bb0045">[9]</ce:cross-ref> to 21% in 2011 <ce:cross-ref refid="bb0050">[10]</ce:cross-ref>. Whatever the rate, most of the authors report an increase in prevalence of <ce:italic>A. xylosoxidans</ce:italic> in the CF population <ce:cross-refs refid="bb0055 bb0060">[11,12]</ce:cross-refs>. The reservoir of the isolates remains unknown. Most patients harbour their own strain but cross-contamination has also been described in some centres <ce:cross-refs refid="bb0050 bb0065 bb0070">[10,13,14]</ce:cross-refs>. As previously described, this species is naturally resistant to cefalotin, cefoxitin, cefotaxime, aztreonam, and aminoglycosides <ce:cross-refs refid="bb0075 bb0080">[15,16]</ce:cross-refs>. OXA-114 has been described as a constitutive beta-lactamase in <ce:italic>A. xylosoxidans</ce:italic> 
+                     <ce:cross-ref refid="bb0085">[17]</ce:cross-ref>. Subsequently it has been proposed as an identification tool of this species by Turton who reported several variants of this enzyme <ce:cross-ref refid="bb0090">[18]</ce:cross-ref>.</ce:para>
+                  <ce:para id="p0020" view="all">A good knowledge of local epidemiological data is necessary to detect cross-contamination or common-source outbreak. It will be also a help to progress in the understanding of the phenomenon leading to the worldwide emergence of this pathogen.</ce:para>
+                  <ce:para id="p0025" view="all">This study is a retrospective analysis of the 120 CF patients affiliated with our centre in 2010, from their first visit to December 2010. Among them, 111 visited the centre in 2010 and sputum analysis was obtained for 108 of them.</ce:para>
+                  <ce:para id="p0030" view="all">The aim of this study was<ce:list id="l0005">
+                        <ce:list-item id="o0005">
+                           <ce:label>i.</ce:label>
+                           <ce:para id="p0260" view="all">To perform the genotypic analysis of all isolates of <ce:italic>A. xylosoxidans</ce:italic> recovered from the patients from their first visit in our centre until the 31st of December 2010 by Pulsed Field Gel Electrophoresis (PFGE) and to compare the performance of the typing provided by the Diversilab® technology to that of PFGE.</ce:para>
+                        </ce:list-item>
+                        <ce:list-item id="o0010">
+                           <ce:label>ii.</ce:label>
+                           <ce:para id="p0265" view="all">To evaluate the evolution of the antimicrobial susceptibility of the isolates.</ce:para>
+                        </ce:list-item>
+                        <ce:list-item id="o0015">
+                           <ce:label>iii.</ce:label>
+                           <ce:para id="p0270" view="all">To detect and sequence the <ce:italic>bla</ce:italic>
+                              <ce:inf loc="post">OXA-114</ce:inf> gene.</ce:para>
+                        </ce:list-item>
+                     </ce:list>
+                  </ce:para>
+               </ce:section>
+               <ce:section id="s0010" view="all">
+                  <ce:label>2</ce:label>
+                  <ce:section-title>Materials and methods</ce:section-title>
+                  <ce:section id="s0030" view="all">
+                     <ce:label>2.1</ce:label>
+                     <ce:section-title>Patients</ce:section-title>
+                     <ce:para id="p0040" view="all">One hundred and twenty patients receive care in the CF Centre of the Paediatric Department of Dijon's Hospital: the CRCM (Centre de Ressources et de Compétences pour la Mucoviscidose). Most patients attend regularly the centre: every three months or every month for the youngest, 111 in 2010. All bacteriological analyses are performed in our Laboratory of Bacteriology. In this study, we will use the term “colonisation” referring to a positive culture and not “infection” because we did not include any clinical data concerning the lung function of the patients. Patients were considered chronically colonised according to the criteria defined by Pereira: “when at least three positive cultures in 1<ce:hsp sp="0.25"/>year were obtained, with a minimum 1-month interval between them, for at least 2<ce:hsp sp="0.25"/>years” <ce:cross-ref refid="bb0050">[10]</ce:cross-ref>. The definition was applied retrospectively to each of the colonised patients listed in <ce:cross-ref refid="t0005">Table 1</ce:cross-ref>
+                        <ce:float-anchor refid="t0005"/>.</ce:para>
+                  </ce:section>
+                  <ce:section id="s0035" view="all">
+                     <ce:label>2.2</ce:label>
+                     <ce:section-title>Processing of sputum samples</ce:section-title>
+                     <ce:para id="p0050" view="all">The sputum are pre-treated (V/V) with Digest'EUR (Eurobio) for fluidification and then mixed vigorously to obtain a homogenous sample. The following plates are inoculated: Cetrimide agar and <ce:italic>Burkholderia cepacia</ce:italic> selective agar (not diluted), Trypticase Soy agar with 5% sheep blood (aerobic and anaerobic conditions), Chocolate agar and Drigalski agar (after dilution).</ce:para>
+                  </ce:section>
+                  <ce:section id="s0040" view="all">
+                     <ce:label>2.3</ce:label>
+                     <ce:section-title>Identification</ce:section-title>
+                     <ce:para id="p0060" view="all">
+                        <ce:italic>A. xylosoxidans</ce:italic> colonies are lactose-negative, oxidase-positive and non-pigmented on Muller–Hinton agar.</ce:para>
+                     <ce:para id="p0065" view="all">Isolates were identified as <ce:italic>A. xylosoxidans</ce:italic> by conventional methods including API 20NE (bioMérieux, Marcy l'Etoile, France) and were submitted to further identification when these conventional methods failed or in case of unusual phenotype of resistance. For this purpose we used Matrix-Assisted Laser-Desorption/Ionization Time-of-Flight mass spectrometry (MALDI Biotyper, Bruker) and sequencing of the whole <ce:italic>rrs</ce:italic> gene with primers P8: (5′-AGAGTTTGATCCTGGCTCAG-3′) and P1525: (5′-AAGGAGGTGATCCAGCCGCA-3′) <ce:cross-ref refid="bb0095">[19]</ce:cross-ref>.</ce:para>
+                  </ce:section>
+                  <ce:section id="s0045" view="all">
+                     <ce:label>2.4</ce:label>
+                     <ce:section-title>Detection and sequencing of <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-114-like</ce:inf> genes</ce:section-title>
+                     <ce:para id="p0075" view="all">The <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-114</ce:inf> gene was sequenced in at least one isolate from each PFGE pulsotype recovered more than twice and in four isolates recovered only once (total of 41 strains). We used either the primer pair OXA-114A: (5′-ACGCCTGAACCCTTTTATCC-3′) and OXA-114B: (5′-ATCGACAGGCCGGGCAGT-3′) <ce:cross-ref refid="bb0085">[17]</ce:cross-ref> or AXXAF: (5′-TGTCCAAGACCGGCAACTC-3′) and AXXAR (5′-ACCAGCAGGATCGACAGTC-3′) designed from the whole genome shotgun sequence of <ce:italic>A. xylosoxidans</ce:italic> isolate AXX-A (Genbank accession number AFRQ01000000). Positive PCR products were purified with a Millipore centrifugal filter unit (Amicon Microcon PCR kit, Millipore). Double strand sequencing was then performed using BigDye v1.1 Terminator chemistry and a 3130XL Genetic Analyzer (Applied Biosystems).</ce:para>
+                  </ce:section>
+                  <ce:section id="s0050" view="all">
+                     <ce:label>2.5</ce:label>
+                     <ce:section-title>Reference strains</ce:section-title>
+                     <ce:para id="p0085" view="all">Reference strains <ce:italic>A. xylosoxidans</ce:italic> CIP 7132T, CIP 102062, CIP 102236, CIP 101902 and strain AXX-A were used as positive controls and <ce:italic>Achromobacter ruhlandii</ce:italic> CIP 7726T, <ce:italic>Achromobacter denitrificans</ce:italic> CIP 7715T, <ce:italic>Achromobacter spanius</ce:italic> CIP 108199T, <ce:italic>Achromobacter piechaudii</ce:italic> CIP 6075T, <ce:italic>Bordetella petrii</ce:italic> CIP 107267T, <ce:italic>Bordetella bronchiseptica</ce:italic> CIP 55110T, <ce:italic>Alcaligenes faecalis</ce:italic> CIP 6080<ce:hsp sp="0.25"/>T were used for negative controls for PCR <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-114.</ce:inf>
+                     </ce:para>
+                  </ce:section>
+                  <ce:section id="s0055" view="all">
+                     <ce:label>2.6</ce:label>
+                     <ce:section-title>Susceptibility testing</ce:section-title>
+                     <ce:para id="p0095" view="all">Susceptibility testing of the isolates was performed by the disk diffusion method according to recommendations of the French Society for Microbiology (<ce:inter-ref xlink:href="http://www.sfm.asso.fr/" xlink:type="simple">http://www.sfm.asso.fr/</ce:inter-ref>). Minimal inhibitory concentrations (MICs) of meropenem and imipenem were determined by E-test (bioMérieux, Marcy l'Etoile, France). For each patient, we compared the susceptibility of the first isolate with the susceptibility of the last one.</ce:para>
+                  </ce:section>
+                  <ce:section id="s0060" view="all">
+                     <ce:label>2.7</ce:label>
+                     <ce:section-title>Pulsed Field Gel Electrophoresis (PFGE)</ce:section-title>
+                     <ce:para id="p0105" view="all">All the strains identified as <ce:italic>A. xylosoxidans</ce:italic> in the respiratory samples of the CF patients since their first visit were submitted to genotypic analysis by PFGE as already described <ce:cross-ref refid="bb0100">[20]</ce:cross-ref>. Isolates were analysed using restriction enzyme <ce:italic>XbaI</ce:italic>. Electrophoresis was carried out for 20<ce:hsp sp="0.25"/>h at 5.4<ce:hsp sp="0.25"/>V/cm, with pulse-times ranging from 5<ce:hsp sp="0.25"/>s to 35<ce:hsp sp="0.25"/>s using the CHEF-DR® II system (Bio-Rad). Restriction patterns were interpreted according to Tenover's criteria <ce:cross-ref refid="bb0105">[21]</ce:cross-ref>, and the isolates have been classified into different pulsotypes. The pulsotypes have been numbered (e.g. AXX1 for <ce:italic>A. xylosoxidans</ce:italic> pulsotype 1). Pulsotypes that differed by two or three fragments were considered to be subtypes (e.g. AXX1A, AXX1B, AXX1C…) according to Tenover's criteria <ce:cross-ref refid="bb0105">[21]</ce:cross-ref>. “AXX0” was attributed to pulsotypes recovered only once and different from all those already identified to date in our hospital. Therefore all “AXX0” pulsotypes are distinct and unique.</ce:para>
+                  </ce:section>
+                  <ce:section id="s0065" view="all">
+                     <ce:label>2.8</ce:label>
+                     <ce:section-title>Automated repetitive-PCR DNA fingerprinting</ce:section-title>
+                     <ce:para id="p0115" view="all">A total of 42 strains isolated from 19 patients were analysed by repetitive sequence-based PCR (rep-PCR; DiversiLab®) for comparison with PFGE results.</ce:para>
+                     <ce:para id="p0120" view="all">Total bacterial DNA was extracted with the UltraClean™ Microbial DNA Isolation Kit (MO Bio Laboratories, Carlsbad, CA, USA) following the manufacturer's instructions. The yield of extracted total DNA was estimated by NanoDrop® ND-1000 (LabTech.) and adjusted to approximately 25 to 50<ce:hsp sp="0.25"/>ng/μL. Rep-PCR was performed using the Diversilab® Bacterial Kit (bioMérieux SA, Marcy l'Etoile, France) and AmpliTaq® DNA Polymerase with GeneAmp® 10<ce:hsp sp="0.10"/>× PCR Buffer (Applied Biosystems, Foster City, CA ) in a final volume of 25<ce:hsp sp="0.25"/>μL following the manufacturer's instructions. Rep-PCR profiles were obtained using Diversilab® LabChip Devices (bioMérieux SA, Marcy l'Etoile, France) and an Agilent 2100 BioAnalyzer (Agilent Technologies, Santa Clara, CA, USA). Fingerprinting profiles were compared by the DiversiLab® (version 3.4) software using the Pearson correlation coefficient. The isolates were considered to belong to the same pattern when similarity was above 95% and profiles showed two or less peak changes. The isolates were classified into different patterns if similarity was less than 95% or if profiles showed more than two peak changes. One number was attributed to each pattern.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="s0015" view="all">
+                  <ce:label>3</ce:label>
+                  <ce:section-title>Results</ce:section-title>
+                  <ce:section id="s0070" view="all">
+                     <ce:label>3.1</ce:label>
+                     <ce:section-title>Patients and isolates</ce:section-title>
+                     <ce:para id="p0130" view="all">The results are summarised in <ce:cross-ref refid="t0005">Table 1</ce:cross-ref>.</ce:para>
+                     <ce:para id="p0135" view="all">A total of 447 isolates identified as <ce:italic>A. xylosoxidans</ce:italic> in the respiratory samples of the CF patients were recovered. Sometimes, on culture media, different morphotypes of <ce:italic>A. xylosoxidans</ce:italic> displaying different antimicrobial susceptibility were encountered. Therefore the number of isolates (447) is higher than the number of positive cultures (339). Twenty-one out of the 120 patients affiliated with the centre in 2010 had at least one positive culture (17.5%) since their first visit. In 2010 positive culture was obtained from 15 patients out of the 108 from whom sputum analysis was performed (13.9%).</ce:para>
+                     <ce:para id="p0140" view="all">The number of isolates per patient ranged from one (3 patients: P4, P20 and P21) to 134 over 15<ce:hsp sp="0.25"/>years (P19). Eight patients were chronically colonised according to the criteria described above (6.7%).</ce:para>
+                     <ce:para id="p0145" view="all">
+                        <ce:italic>A. xylosoxidans</ce:italic> was mostly associated with other pathogens in the specimens, except for 2 patients (P13 and P19) from whom <ce:italic>A. xylosoxidans</ce:italic> was isolated alone in 9 and 11 sputum samples respectively. Associated pathogenic bacteria were mostly <ce:italic>S</ce:italic>. <ce:italic>aureus</ce:italic>, <ce:italic>H</ce:italic>. <ce:italic>influenzae</ce:italic>, <ce:italic>Enterobacteriaceae</ce:italic>, <ce:italic>P</ce:italic>. <ce:italic>aeruginosa</ce:italic>, or <ce:italic>S</ce:italic>. <ce:italic>maltophilia</ce:italic> (data not shown).</ce:para>
+                     <ce:para id="p0150" view="all">Median age at first positive culture was 16<ce:hsp sp="0.25"/>years (range: 3–34).</ce:para>
+                  </ce:section>
+                  <ce:section id="s0075" view="all">
+                     <ce:label>3.2</ce:label>
+                     <ce:section-title>Genotyping analysis by PFGE</ce:section-title>
+                     <ce:para id="p0160" view="all">The 447 isolates recovered from the 21 patients have been submitted to genotypic analysis by PFGE. The 447 isolates belonged to 25 distinct genotypes. We have detected three cases of cross-contamination. It was an intra-familial one for patients P1 and P2 as well as for patients P5 and P6. The patients P15 and P20 who shared the genotype AXX43 were unrelated. Strains isolated successively from the same patient had the same genotype. The strains are consistent over time, even over very long periods: 13<ce:hsp sp="0.25"/>years for P6 and P8 to 15<ce:hsp sp="0.25"/>years for P19. Five patients harboured isolates of different genotypes: either once sporadically (patients P3, P7 and P14), or for a longer period (patients P13 and P17). Among them it is noteworthy that the newly acquired strain never replaced the initial one.</ce:para>
+                  </ce:section>
+                  <ce:section id="s0080" view="all">
+                     <ce:label>3.3</ce:label>
+                     <ce:section-title>Genotyping by Diversilab® technology</ce:section-title>
+                     <ce:para id="p0170" view="all">Genotyping of strains of <ce:italic>A. xylosoxidans</ce:italic> by rep-PCR was performed for 42 strains isolated from 19 patients (1 to 4 isolates per patient) (<ce:cross-ref refid="t0010">Table 2</ce:cross-ref>
+                        <ce:float-anchor refid="t0010"/>).</ce:para>
+                     <ce:para id="p0175" view="all">The 42 strains were classified into 27 genotypes by Diversilab® technology and only into 19 genotypes by PFGE. All strains that belonged to different PFGE genotypes also belonged to different genotypes as determined by Diversilab®. Nevertheless strains that belonged to the same PFGE genotype were classified into different genotypes by Diversilab® for 8 patients (i.e. patients P1, P2, P3, P7, P8, P11, P13 and P19). Indeed, minor differences in the profiles determined by PFGE led to the classification of the isolates in the same pattern whereas minor variations in the profiles determined by rep-PCR led to the classification of the isolates in different patterns.</ce:para>
+                  </ce:section>
+                  <ce:section id="s0085" view="all">
+                     <ce:label>3.4</ce:label>
+                     <ce:section-title>Antibiotic susceptibility</ce:section-title>
+                     <ce:para id="p0185" view="all">The 447 isolates of <ce:italic>A. xylosoxidans</ce:italic> included in the study displayed the innate resistance of the species to aztreonam, cefalotin, cefoxitin, cefotaxime, kanamycin, amikacin, tobramycin, gentamicin, netilmicin, nalidixic acid and ofloxacin. We report here for each patient the susceptibility of the first isolate in comparison with the susceptibility of the last one to the following molecules: ceftazidime, piperacillin/tazobactam, imipenem, meropenem and ciprofloxacin (year of isolation indicated in <ce:cross-ref refid="t0005">Table 1</ce:cross-ref>). At first positive culture, the isolate was susceptible to these 5 antibiotics for 7 patients, resistant to ceftazidime for 5 patients, resistant to imipenem for 1 patient and resistant to ciprofloxacin for 16 patients. At last positive culture, isolates resistant to ceftazidime have been recovered from 7 patients. The evolution of carbapenem resistance is important mainly among strains recovered from chronically colonised patients: in 2010, 6 patients harboured strains with decreased susceptibility to meropenem (<ce:cross-ref refid="t0015">Table 3</ce:cross-ref>
+                        <ce:float-anchor refid="t0015"/>). For 3 isolates, MIC of imipenem was much lower than MIC of meropenem. Piperacillin/tazobactam was the most active molecule: no resistant strain has been detected in 2010.</ce:para>
+                  </ce:section>
+                  <ce:section id="s0090" view="all">
+                     <ce:label>3.5</ce:label>
+                     <ce:section-title>Sequencing of <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-114-like</ce:inf> gene</ce:section-title>
+                     <ce:para id="p0195" view="all">The entire <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-114like</ce:inf> gene from 41 strains (20 different PFGE patterns) was sequenced.</ce:para>
+                     <ce:para id="p0200" view="all">Analysis of the sequences revealed polymorphisms. We have detected five variants (<ce:italic>bla</ce:italic> 
+                        <ce:inf loc="post">OXA-114 a, c, e, f, g</ce:inf>) already described <ce:cross-refs refid="bb0085 bb0090">[17,18]</ce:cross-refs> and five new variants (<ce:italic>bla</ce:italic> 
+                        <ce:inf loc="post">OXA-114 h, i, k, l, m</ce:inf>). (Genbank accession numbers JX206446; JX206447; JX206449; JX206450; JX206451). Moreover we have found a new oxacillinase differing from OXA-114a by 34 amino acid substitutions (88% identity). This enzyme was assigned the number OXA-243 (<ce:inter-ref xlink:href="http://www.lahey.org/Studies/" xlink:type="simple">http://www.lahey.org/Studies/</ce:inter-ref>). A total of four variants of this enzyme were characterised in four isolates as well as in the reference strain AXX-A (<ce:italic>bla</ce:italic> 
+                        <ce:inf loc="post">OXA-243 a, b, c, d</ce:inf>). Genbank accession numbers JX206453; JX206454; JX206455; JX206456). All isolates that belonged to the same genotype harboured the same <ce:italic>bla</ce:italic> 
+                        <ce:inf loc="post">OXA</ce:inf> gene.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="s0020" view="all">
+                  <ce:label>4</ce:label>
+                  <ce:section-title>Discussion</ce:section-title>
+                  <ce:para id="p0205" view="all">This is the first epidemiological study about <ce:italic>A. xylosoxidans</ce:italic> in a French CF centre. Among the 120 affiliated patients, 21 had at least one positive culture since their first visit. In 2010, positive(s) culture(s) were obtained for 13.9% of the 108 patients for whom sputum analysis was performed. This percentage is much higher than the 4.4% reported in the French global data in 2010 (<ce:inter-ref xlink:href="http://www.vaincrelamuco.org/e_upload/pdf/rapport_registre_2010.pdf" xlink:type="simple">http://www.vaincrelamuco.org/e_upload/pdf/rapport_registre_2010.pdf</ce:inter-ref>). This difference might be due to misidentification in some centres as already reported <ce:cross-refs refid="bb0040 bb0110">[8,22]</ce:cross-refs>. According to our experience, many isolates of <ce:italic>A. xylosoxidans</ce:italic> share common properties with non-pigmented isolates of <ce:italic>P. aeruginosa</ce:italic>: aerobic, oxidase positive, growth at 41<ce:hsp sp="0.25"/>°C but not at 4<ce:hsp sp="0.25"/>°C, growth on cetrimide medium. The difficulty of identification is enhanced in case of co-culture of both species.</ce:para>
+                  <ce:para id="p0210" view="all">Such a high prevalence has already been reported in some other European centres: 17.6% (among 300 patients) in Italy <ce:cross-ref refid="bb0115">[23]</ce:cross-ref> or 17.9% in a Belgian CF centre (among 140 patients) <ce:cross-ref refid="bb0110">[22]</ce:cross-ref>. Nevertheless the median age at first positive culture was 16<ce:hsp sp="0.25"/>years in our centre which is younger compared to the Belgian centre (median: 20<ce:hsp sp="0.25"/>years). Eight of our patients (6.7%) were chronically colonised with <ce:italic>A. xylosoxidans</ce:italic>. It is a long-term colonisation, these patients being still colonised in 2011 and 2012 (except patient P5, who did not visit the centre since 2007). This rate is somewhat higher than in the Belgian centre (5.6%). Using the same criteria as De Baets (at least 3 positive cultures over at least nine months) the number of chronically colonised patients in our centre would be of 10% instead of 6.7%. To date, the highest rate of chronically colonised patients has been reported in a Brazilian centre: 12.8% <ce:cross-ref refid="bb0050">[10]</ce:cross-ref>.</ce:para>
+                  <ce:para id="p0215" view="all">The genotypic analysis by PFGE results proved that patients harboured their own strain. Thanks to the analysis of the strains isolated successively from the patients we have demonstrated that this long-term colonisation lasted over 15<ce:hsp sp="0.25"/>years for one patient. We did not observe strain displacement. As PFGE analysis is time consuming we compared this method with the Diversilab® technology. This is the first study of this typing method for <ce:italic>A. xylosoxidans</ce:italic> strains. In all cases, isolates that were classified as unrelated by PFGE were also classified as different by Diversilab ®. Nevertheless, some isolates belonging to the same PFGE pattern were classified as different by Diversilab®. Such discrepancies were already described for other bacterial species such as <ce:italic>Pseudomonas aeruginosa</ce:italic> 
+                     <ce:cross-ref refid="bb0120">[24]</ce:cross-ref>. It happened when isolates were recovered with more than 8<ce:hsp sp="0.25"/>months interval. It seems therefore that Diversilab® is more sensitive than PFGE to minor variations of the strains over time. We conclude that PFGE remains the reference method for the survey of long-term colonisation. We propose the Diversilab® as a useful and rapid typing tool to compare isolates recovered simultaneously when an outbreak is suspected or for the comparison of clinical isolates with environmental isolates as already suggested for other pathogens <ce:cross-ref refid="bb0125">[25]</ce:cross-ref>.</ce:para>
+                  <ce:para id="p0220" view="all">The cross-contamination between patients was very uncommon in our centre except in 2 cystic fibrosis families. A cross-contamination occurred also between two unrelated patients, one colonised and one non- colonised patient visiting the centre the same day. Nevertheless, it is important to note that the non-colonised patient never happened to have <ce:italic>A. xylosoxidans</ce:italic> again in his subsequent expectorations.</ce:para>
+                  <ce:para id="p0225" view="all">Some patients were colonised with a second strain, genotypically distinct. This co-colonisation was sporadic and lasted for a short time (mostly less than one year).</ce:para>
+                  <ce:para id="p0230" view="all">This diversity of genotypes suggests that the majority of <ce:italic>A. xylosoxidans</ce:italic> isolates from CF patients probably originate from domestic environmental sources. A study of environmental samples might be a help to identify the potential source(s).</ce:para>
+                  <ce:para id="p0235" view="all">Acquired resistance to antibiotics was frequent. The first isolates recovered from our patients were mostly resistant to ciprofloxacin and the mechanism leading to this resistance has to be explored. Acquired resistance to ceftazidime and carbapenems was high among patients attending our centre, and concerned mainly chronically colonised patients.</ce:para>
+                  <ce:para id="p0240" view="all">Repeated administration of antibiotics to treat infections due to common pathogens, especially <ce:italic>P. aeruginosa</ce:italic>, might explain this selection of resistant <ce:italic>A. xylosoxidans</ce:italic>.</ce:para>
+                  <ce:para id="p0245" view="all">It is also important to note that for the first time we report an unusual phenotype in the strains resistant to carbapenems, some of them being much more resistant to meropenem than to imipenem. We recently described the efflux system AxyXY-oprZ in <ce:italic>A. xylosoxidans</ce:italic> which can extrude meropenem (submitted manuscript). The production level of this system will be explored in the clinical isolates to assess its potential contribution to meropenem resistance. Our results are not in accord with Jacquier who recently reported that meropenem displays an interesting antimicrobial activity against <ce:italic>A. xylosoxidans</ce:italic> as compared with imipenem <ce:cross-ref refid="bb0130">[26]</ce:cross-ref>. Another study conducted in Naples shows that the activity of meropenem is comparable to that of imipenem on 53 isolates <ce:cross-ref refid="bb0115">[23]</ce:cross-ref>. The recommendations for the treatment of <ce:italic>A. xylosoxidans</ce:italic> infection in CF patients are to use intravenous combination of antibiotics including either imipenem or meropenem <ce:cross-ref refid="bb0135">[27]</ce:cross-ref>. Therefore more data are needed to propose the most active carbapenem.</ce:para>
+                  <ce:para id="p0250" view="all">OXA-114 has been described as constitutive in <ce:italic>A. xylosoxidans</ce:italic> 
+                     <ce:cross-ref refid="bb0085">[17]</ce:cross-ref>. We have detected a wide diversity of <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-114</ce:inf> genes as reported elsewhere <ce:cross-ref refid="bb0090">[18]</ce:cross-ref> as well as five new variants of this enzyme. Nevertheless the primers proposed by Turton did not allow the detection of <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-114</ce:inf> in all our isolates. This highlights the limits of the method. More interestingly we also detected the new oxacillinase OXA-243 with 3 variants. The identification of the isolates harbouring <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-243</ce:inf> was confirmed by sequencing house-keeping genes (data not shown). This method proved to be a very discriminant tool for identification of <ce:italic>A. xylosoxidans</ce:italic>. A similar method has been published very recently <ce:cross-ref refid="bb0140">[28]</ce:cross-ref>. We have detected the different variants of OXA-114 and OXA-243 among strains harbouring various phenotypes of antimicrobial resistance. Therefore these enzymes do not account for acquired resistance to ceftazidime or carbapenems. The diversity of oxacillinases produced by clinical strains might only reflect the diversity of <ce:italic>A. xylosoxidans</ce:italic> natural reservoirs.</ce:para>
+               </ce:section>
+               <ce:section id="s0025" view="all">
+                  <ce:label>5</ce:label>
+                  <ce:section-title>Conclusion</ce:section-title>
+                  <ce:para id="p0255" view="all">This study reports for the first time the survey of colonisation of 21 patients by <ce:italic>A. xylosoxidans</ce:italic> since it was first isolated. The prevalence of <ce:italic>A. xylosoxidans</ce:italic> is high in our CF centre. Till now we observed very rare cross-contamination between patients. There is a wide diversity of the isolates and the length of colonisation is sometimes very long. Our main concern is the acquired antimicrobial resistance of the isolates, especially in chronically colonised patients. These first French data including a very large number of isolates should be compared with those of other CF centres from France.</ce:para>
+               </ce:section>
+            </ce:sections>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="bi0005" view="all">
+               <ce:section-title>References</ce:section-title>
+               <ce:bibliography-sec id="bs0005">
+                  <ce:bib-reference id="bb0005">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="rf0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.M.</ce:given-name>
+                                 <ce:surname>Beringer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.D.</ce:given-name>
+                                 <ce:surname>Appleman</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Unusual respiratory bacterial flora in cystic fibrosis: microbiologic and clinical features</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Curr Opin Pulm Med</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>6</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>545</sb:first-page>
+                              <sb:last-page>550</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0010">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference id="rf0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.A.</ce:given-name>
+                                 <ce:surname>Millar</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.J.</ce:given-name>
+                                 <ce:surname>Simmonds</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.E.</ce:given-name>
+                                 <ce:surname>Hodson</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Trends in pathogens colonising the respiratory tract of adult patients with cystic fibrosis, 1985–2005</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Cyst Fibros</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>8</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>386</sb:first-page>
+                              <sb:last-page>391</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0015">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference id="rf0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Razvi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Quittell</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Sewall</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Quinton</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Marshall</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Saiman</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Respiratory microbiology of patients with cystic fibrosis in the United States, 1995 to 2005</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Chest</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>136</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1554</sb:first-page>
+                              <sb:last-page>1560</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0020">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference id="rf0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.S.</ce:given-name>
+                                 <ce:surname>Sawicki</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Rasouliyan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.J.</ce:given-name>
+                                 <ce:surname>Pasta</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.E.</ce:given-name>
+                                 <ce:surname>Regelmann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.S.</ce:given-name>
+                                 <ce:surname>Wagener</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.A.</ce:given-name>
+                                 <ce:surname>Waltz</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The impact of incident methicillin resistant <ce:italic>Staphylococcus aureus</ce:italic> detection on pulmonary function in cystic fibrosis</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Pediatr Pulmonol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>43</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2008</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1117</sb:first-page>
+                              <sb:last-page>1123</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0025">
+                     <ce:label>[5]</ce:label>
+                     <sb:reference id="rf0025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Waters</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Yau</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Prasad</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Lu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Atenafu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I.</ce:given-name>
+                                 <ce:surname>Crandall</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>
+                                 <ce:italic>Stenotrophomonas</ce:italic> maltophilia in cystic fibrosis: serologic response and effect on lung disease</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Am J Respir Crit Care Med</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>183</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>635</sb:first-page>
+                              <sb:last-page>640</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0030">
+                     <ce:label>[6]</ce:label>
+                     <sb:reference id="rf0030">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.R.</ce:given-name>
+                                 <ce:surname>Hansen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Pressler</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.G.</ce:given-name>
+                                 <ce:surname>Nielsen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.O.</ce:given-name>
+                                 <ce:surname>Jensen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Bjarnsholt</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Hoiby</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Inflammation in <ce:italic>Achromobacter xylosoxidans</ce:italic> infected cystic fibrosis patients</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Cyst Fibros</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>9</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>51</sb:first-page>
+                              <sb:last-page>58</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0035">
+                     <ce:label>[7]</ce:label>
+                     <sb:reference id="rf0035">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Hogardt</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Ulrich</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Riehn-Kopp</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Tummler</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>EuroCareCF quality assessment of diagnostic microbiology of cystic fibrosis isolates</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>47</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3435</sb:first-page>
+                              <sb:last-page>3438</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0040">
+                     <ce:label>[8]</ce:label>
+                     <sb:reference id="rf0040">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.J.</ce:given-name>
+                                 <ce:surname>Kidd</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.A.</ce:given-name>
+                                 <ce:surname>Ramsay</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Hu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.T.</ce:given-name>
+                                 <ce:surname>Bye</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.R.</ce:given-name>
+                                 <ce:surname>Elkins</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Grimwood</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Low rates of <ce:italic>Pseudomonas aeruginosa</ce:italic> misidentification in isolates from cystic fibrosis patients</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>47</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1503</sb:first-page>
+                              <sb:last-page>1509</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0045">
+                     <ce:label>[9]</ce:label>
+                     <sb:reference id="rf0045">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.L.</ce:given-name>
+                                 <ce:surname>Burns</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Emerson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.R.</ce:given-name>
+                                 <ce:surname>Stapp</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.L.</ce:given-name>
+                                 <ce:surname>Yim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Krzewinski</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Louden</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Microbiology of sputum from patients at cystic fibrosis centers in the United States</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Clin Infect Dis</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>27</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1998</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>158</sb:first-page>
+                              <sb:last-page>163</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0050">
+                     <ce:label>[10]</ce:label>
+                     <sb:reference id="rf0050">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.H.</ce:given-name>
+                                 <ce:surname>Pereira</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.P.</ce:given-name>
+                                 <ce:surname>Carvalho-Assef</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.M.</ce:given-name>
+                                 <ce:surname>Albano</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.W.</ce:given-name>
+                                 <ce:surname>Folescu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.C.</ce:given-name>
+                                 <ce:surname>Jones</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.S.</ce:given-name>
+                                 <ce:surname>Leao</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>
+                                 <ce:italic>Achromobacter xylosoxidans</ce:italic>: characterization of strains in Brazilian cystic fibrosis patients</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>49</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3649</sb:first-page>
+                              <sb:last-page>3651</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0055">
+                     <ce:label>[11]</ce:label>
+                     <sb:reference id="rf0055">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Emerson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>McNamara</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.M.</ce:given-name>
+                                 <ce:surname>Buccat</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Worrell</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.L.</ce:given-name>
+                                 <ce:surname>Burns</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Changes in cystic fibrosis sputum microbiology in the United States between 1995 and 2008</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Pediatr Pulmonol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>45</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>363</sb:first-page>
+                              <sb:last-page>370</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0060">
+                     <ce:label>[12]</ce:label>
+                     <sb:reference id="rf0060">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Ridderberg</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.E.</ce:given-name>
+                                 <ce:surname>Bendstrup</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.V.</ce:given-name>
+                                 <ce:surname>Olesen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Jensen-Fangel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Norskov-Lauritsen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Marked increase in incidence of <ce:italic>Achromobacter xylosoxidans</ce:italic> infections caused by sporadic acquisition from the environment</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Cyst Fibros</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>10</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>466</sb:first-page>
+                              <sb:last-page>469</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0065">
+                     <ce:label>[13]</ce:label>
+                     <sb:reference id="rf0065">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Kanellopoulou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Pournaras</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Iglezos</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Skarmoutsou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Papafrangas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.N.</ce:given-name>
+                                 <ce:surname>Maniatis</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Persistent colonization of nine cystic fibrosis patients with an <ce:italic>Achromobacter (Alcaligenes) xylosoxidans</ce:italic> clone</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Eur J Clin Microbiol Infect Dis</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>23</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>336</sb:first-page>
+                              <sb:last-page>339</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0070">
+                     <ce:label>[14]</ce:label>
+                     <sb:reference id="rf0070">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Van Daele</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Verhelst</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Claeys</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Verschraegen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Franckx</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Van Simaey</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Shared genotypes of <ce:italic>Achromobacter xylosoxidans</ce:italic> strains isolated from patients at a cystic fibrosis rehabilitation center</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>43</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2005</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2998</sb:first-page>
+                              <sb:last-page>3002</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0075">
+                     <ce:label>[15]</ce:label>
+                     <sb:reference id="rf0075">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Bador</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Amoureux</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.M.</ce:given-name>
+                                 <ce:surname>Duez</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Drabowicz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Siebor</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Llanes</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>First description of an RND-type multidrug efflux pump in <ce:italic>Achromobacter xylosoxidans</ce:italic>, AxyABM</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>55</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4912</sb:first-page>
+                              <sb:last-page>4914</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0080">
+                     <ce:label>[16]</ce:label>
+                     <sb:reference id="rf0080">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.M.</ce:given-name>
+                                 <ce:surname>Duez</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Hadjait-Savioz</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Siebor</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Astruc</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Bador</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Pechinot</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>In vitro synergistic activity of combined piperacillin and tobramycin against clinical strains of <ce:italic>Achromobacter xylosoxidans</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>22</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>139</sb:first-page>
+                              <sb:last-page>141</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0085">
+                     <ce:label>[17]</ce:label>
+                     <sb:reference id="rf0085">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Doi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Poirel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.L.</ce:given-name>
+                                 <ce:surname>Paterson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Nordmann</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Characterization of a naturally occurring class D beta-lactamase from <ce:italic>Achromobacter xylosoxidans</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>52</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2008</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1952</sb:first-page>
+                              <sb:last-page>1956</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0090">
+                     <ce:label>[18]</ce:label>
+                     <sb:reference id="rf0090">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.F.</ce:given-name>
+                                 <ce:surname>Turton</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Mustafa</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Shah</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.V.</ce:given-name>
+                                 <ce:surname>Hampton</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Pike</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.T.</ce:given-name>
+                                 <ce:surname>Kenna</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Identification of <ce:italic>Achromobacter xylosoxidans</ce:italic> by detection of the <ce:italic>bla</ce:italic>(OXA-114-like) gene intrinsic in this species</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Diagn Microbiol Infect Dis</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>70</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>408</sb:first-page>
+                              <sb:last-page>411</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0095">
+                     <ce:label>[19]</ce:label>
+                     <sb:reference id="rf0095">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>U.</ce:given-name>
+                                 <ce:surname>Edwards</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Rogall</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Blocker</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Emde</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.C.</ce:given-name>
+                                 <ce:surname>Bottger</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Isolation and direct complete nucleotide determination of entire genes. Characterization of a gene coding for 16S ribosomal RNA</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nucleic Acids Res</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>17</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1989</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>7843</sb:first-page>
+                              <sb:last-page>7853</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0100">
+                     <ce:label>[20]</ce:label>
+                     <sb:reference id="rf0100">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Cheron</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Abachin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Guerot</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>el-Bez</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Simonet</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Investigation of hospital-acquired infections due to Alcaligenes denitrificans subsp. xylosoxydans by DNA restriction fragment length polymorphism</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>32</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1994</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1023</sb:first-page>
+                              <sb:last-page>1026</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0105">
+                     <ce:label>[21]</ce:label>
+                     <sb:reference id="rf0105">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.C.</ce:given-name>
+                                 <ce:surname>Tenover</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.D.</ce:given-name>
+                                 <ce:surname>Arbeit</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.V.</ce:given-name>
+                                 <ce:surname>Goering</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.A.</ce:given-name>
+                                 <ce:surname>Mickelsen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.E.</ce:given-name>
+                                 <ce:surname>Murray</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.H.</ce:given-name>
+                                 <ce:surname>Persing</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Interpreting chromosomal DNA restriction patterns produced by pulsed-field gel electrophoresis: criteria for bacterial strain typing</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>33</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1995</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2233</sb:first-page>
+                              <sb:last-page>2239</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0110">
+                     <ce:label>[22]</ce:label>
+                     <sb:reference id="rf0110">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>De Baets</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Schelstraete</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Van Daele</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Haerynck</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Vaneechoutte</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>
+                                 <ce:italic>Achromobacter xylosoxidans</ce:italic> in cystic fibrosis: prevalence and clinical relevance</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Cyst Fibros</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>6</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>75</sb:first-page>
+                              <sb:last-page>78</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0115">
+                     <ce:label>[23]</ce:label>
+                     <sb:reference id="rf0115">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Lambiase</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.R.</ce:given-name>
+                                 <ce:surname>Catania</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Del Pezzo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Rossano</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Terlizzi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Sepe</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>
+                                 <ce:italic>Achromobacter xylosoxidans</ce:italic> respiratory tract infection in cystic fibrosis patients</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Eur J Clin Microbiol Infect Dis</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>30</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>973</sb:first-page>
+                              <sb:last-page>980</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0120">
+                     <ce:label>[24]</ce:label>
+                     <sb:reference id="rf0120">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Doleans-Jordheim</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Cournoyer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Bergeron</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Croize</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Salord</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Andre</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Reliability of <ce:italic>Pseudomonas aeruginosa</ce:italic> semi-automated rep-PCR genotyping in various epidemiological situations</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Eur J Clin Microbiol Infect Dis</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>28</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1105</sb:first-page>
+                              <sb:last-page>1111</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0125">
+                     <ce:label>[25]</ce:label>
+                     <sb:reference id="rf0125">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Deplano</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Denis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Rodriguez-Villalobos</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>De Ryck</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.J.</ce:given-name>
+                                 <ce:surname>Struelens</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Hallin</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Controlled performance evaluation of the DiversiLab repetitive-sequence-based genotyping system for typing multidrug-resistant health care-associated bacterial pathogens</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>49</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3616</sb:first-page>
+                              <sb:last-page>3620</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0130">
+                     <ce:label>[26]</ce:label>
+                     <sb:reference id="rf0135">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Jacquier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Le Monnier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Carbonnelle</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Corvec</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Illiaquer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Bille</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>In vitro antimicrobial activity of “last-resort” antibiotics against unusual nonfermenting gram-negative bacilli clinical isolates</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Microb Drug Resist</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>18</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>396</sb:first-page>
+                              <sb:last-page>401</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0135">
+                     <ce:label>[27]</ce:label>
+                     <sb:reference id="rf0130">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.L.</ce:given-name>
+                                 <ce:surname>Gibson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.L.</ce:given-name>
+                                 <ce:surname>Burns</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.W.</ce:given-name>
+                                 <ce:surname>Ramsey</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Pathophysiology and management of pulmonary infections in cystic fibrosis</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Am J Respir Crit Care Med</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>168</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2003</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>918</sb:first-page>
+                              <sb:last-page>951</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bb0140">
+                     <ce:label>[28]</ce:label>
+                     <sb:reference id="rf0140">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Ridderberg</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Wang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Norskov-Lauritsen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Multilocus sequence analysis of isolates of <ce:italic>Achromobacter</ce:italic> from patients with cystic fibrosis reveals infecting species other than <ce:italic>Achromobacter xylosoxidans</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>50</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2688</sb:first-page>
+                              <sb:last-page>2694</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

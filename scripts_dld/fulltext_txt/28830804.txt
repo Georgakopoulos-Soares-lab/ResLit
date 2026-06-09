@@ -1,0 +1,528 @@
+PMID: 28830804
+PMCID: 
+DOI: 10.1016/j.cmi.2017.08.009
+Title: Klebsiella pneumoniae (ST1519) producing KPC-19 carbapenemase in a patient undergoing selective digestive decontamination before liver transplantation.
+Journal: Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases
+PubDate: 2018 Feb
+Authors: Centonze AR, Azzini AM, Mazzi R, Merighi M, Concia E, Mazzariol A
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1198743X1730455X</prism:url><dc:identifier>doi:10.1016/j.cmi.2017.08.009</dc:identifier><eid>1-s2.0-S1198743X1730455X</eid><prism:doi>10.1016/j.cmi.2017.08.009</prism:doi><pii>S1198-743X(17)30455-X</pii><dc:title>
+               Klebsiella pneumoniae (ST1519) producing KPC-19 carbapenemase in a patient undergoing selective digestive decontamination before liver transplantation </dc:title><prism:publicationName>Clinical Microbiology and Infection</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>cor</pubType><prism:issn>1198743X</prism:issn><prism:volume>24</prism:volume><prism:issueIdentifier>2</prism:issueIdentifier><prism:startingPage>203</prism:startingPage><prism:endingPage>204</prism:endingPage><prism:pageRange>203-204</prism:pageRange><prism:number>2</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2018-02-28</prism:coverDate><prism:coverDisplayDate>February 2018</prism:coverDisplayDate><prism:copyright>© 2017 European Society of Clinical Microbiology and Infectious Diseases. Published by Elsevier Ltd.</prism:copyright><prism:publisher>European Society of Clinical Microbiology and Infectious Diseases. Published by Elsevier Ltd.</prism:publisher><dc:creator>Centonze, A.R.</dc:creator><dc:creator>Azzini, A.M.</dc:creator><dc:creator>Mazzi, R.</dc:creator><dc:creator>Merighi, M.</dc:creator><dc:creator>Concia, E.</dc:creator><dc:creator>Mazzariol, A.</dc:creator><dc:description/><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>true</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>Author</openaccessSponsorType><openaccessUserLicense>http://www.elsevier.com/open-access/userlicense/1.0/</openaccessUserLicense><link href="https://api.elsevier.com/content/article/pii/S1198743X1730455X" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1198743X1730455X" rel="scidir"/></coredata><scopus-id>85030534150</scopus-id><scopus-eid>2-s2.0-85030534150</scopus-eid><pubmed-id>28830804</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/85030534150" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>312004</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291783</xocs:ssid>
+         <xocs:ssid type="subj">291890</xocs:ssid>
+         <xocs:ssid type="subj">291891</xocs:ssid>
+         <xocs:ssid type="subj">291904</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Clinical Microbiology and Infection</xocs:srctitle>
+      <xocs:normalized-srctitle>CLINICALMICROBIOLOGYINFECTION</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20170819">2017-08-19</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20170819">2017-08-19</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20180127">2018-01-27</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20180127">2018-01-27</xocs:vor-available-online-date>
+      <xocs:ew-transaction-id>2018-01-27T01:43:29</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1198743X1730455X</xocs:eid>
+      <xocs:pii-formatted>S1198-743X(17)30455-X</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1198743X1730455X</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.cmi.2017.08.009</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.1</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1198743X17X00037</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20190201">2019-02-01T01:53:08.267014Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20180201</xocs:date-search-begin>
+      <xocs:date-search-end>20180228</xocs:date-search-end>
+      <xocs:year-nav>2018</xocs:year-nav>
+      <xocs:indexeddate epoch="1503186033">2017-08-19T23:40:33.417223Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content subj subheadings tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav body affil articletitle auth authfirstini authfull authlast misctext pubtype ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1198-743X</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>1198743X</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>24</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>24</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>2</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>2</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 24, Issue 2</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>24</xocs:sort-order>
+      <xocs:first-fp>203</xocs:first-fp>
+      <xocs:last-lp>204</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>203</xocs:first-page>
+         <xocs:last-page>204</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201802</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>February 2018</xocs:cover-date-text>
+      <xocs:cover-date-start>2018-02-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2018-02-28</xocs:cover-date-end>
+      <xocs:cover-date-year>2018</xocs:cover-date-year>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Letters to the Editor</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>simple-article</xocs:document-type>
+      <xocs:document-subtype>cor</xocs:document-subtype>
+      <xocs:copyright-line>© 2017 European Society of Clinical Microbiology and Infectious Diseases. Published by Elsevier Ltd.</xocs:copyright-line>
+      <xocs:normalized-article-title>KLEBSIELLAPNEUMONIAEST1519PRODUCINGKPC19CARBAPENEMASEINAPATIENTUNDERGOINGSELECTIVEDIGESTIVEDECONTAMINATIONBEFORELIVERTRANSPLANTATION</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>CENTONZE</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>A</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>Transparency declaration</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sref1">
+            <xocs:ref-normalized-surname>SAFDAR</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>817</xocs:ref-first-fp>
+            <xocs:ref-last-lp>827</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref2">
+            <xocs:ref-normalized-surname>NORDMANN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1503</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1507</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref3">
+            <xocs:ref-normalized-surname>SAIDELODES</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>14</xocs:ref-first-fp>
+            <xocs:ref-last-lp>19</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sref4">
+            <xocs:ref-normalized-surname>DALLENNE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>490</xocs:ref-first-fp>
+            <xocs:ref-last-lp>495</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>CENTONZEX2018X203</xocs:refkey3>
+         <xocs:refkey4lp>CENTONZEX2018X203X204</xocs:refkey4lp>
+         <xocs:refkey4ai>CENTONZEX2018X203XA</xocs:refkey4ai>
+         <xocs:refkey5>CENTONZEX2018X203X204XA</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="1">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2019-02-01T01:20:14Z</xocs:oa-access-effective-date>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/1198743X_P1Y_Author" wintype="OpenArchive">OA-Window</xocs:oa-access-inherited-from>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>Author</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://www.elsevier.com/open-access/userlicense/1.0/</xocs:oa-user-license>
+      </xocs:open-access>
+      <xocs:self-archiving>
+         <xocs:sa-start-date>2019-01-27T00:00:00.000Z</xocs:sa-start-date>
+         <xocs:sa-embargo-status>UnderEmbargo</xocs:sa-embargo-status>
+         <xocs:sa-user-license>http://creativecommons.org/licenses/by-nc-nd/4.0/</xocs:sa-user-license>
+      </xocs:self-archiving>
+      <xocs:copyright-info>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2017 European Society of Clinical Microbiology and Infectious Diseases. Published by Elsevier Ltd.</xocs:cp-notice>
+         </xocs:cp-notices>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This article is made available under the Elsevier license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+      </xocs:copyright-info>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1198-743X(17)30455-X</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1198743X1730455X</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1198743X1730455X</xocs:eid>
+         <xocs:doi>10.1016/j.cmi.2017.08.009</xocs:doi>
+         <xocs:cid>312004</xocs:cid>
+         <xocs:timestamp>2018-01-27T01:57:26.145833Z</xocs:timestamp>
+         <xocs:cover-date-start>2018-02-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2018-02-28</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1198743X1730455X-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X1730455X/MAIN/application/pdf/7fb952c8ef8683233d3e18cb2054dfd0/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X1730455X/MAIN/application/pdf/7fb952c8ef8683233d3e18cb2054dfd0/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>180614</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>2</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1198743X1730455X-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X1730455X/PREVIEW/image/png/62893af04d02db9e79a79704faa483b0/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X1730455X/PREVIEW/image/png/62893af04d02db9e79a79704faa483b0/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>95320</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <simple-article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="cor" version="5.5" xml:lang="en">
+         <item-info>
+            <jid>CMI</jid>
+            <aid>1041</aid>
+            <ce:pii>S1198-743X(17)30455-X</ce:pii>
+            <ce:doi>10.1016/j.cmi.2017.08.009</ce:doi>
+            <ce:copyright type="society" year="2017">European Society of Clinical Microbiology and Infectious Diseases</ce:copyright>
+         </item-info>
+         <simple-head>
+            <ce:dochead id="dhead0010">
+               <ce:textfn>Letter to the Editor</ce:textfn>
+            </ce:dochead>
+            <ce:title id="title0010">
+               <ce:italic>Klebsiella pneumoniae</ce:italic> (ST1519) producing KPC-19 carbapenemase in a patient undergoing selective digestive decontamination before liver transplantation</ce:title>
+            <ce:author-group id="augrp0010">
+               <ce:author id="au1" author-id="S1198743X1730455X-29da1b880305756f709a19bc86ff8c4d">
+                  <ce:given-name>A.R.</ce:given-name>
+                  <ce:surname>Centonze</ce:surname>
+               </ce:author>
+               <ce:affiliation id="aff1" affiliation-id="S1198743X1730455X-03155e2c63f9835bc7d67827d77177be">
+                  <ce:textfn>Department of Diagnostics and Public Health, University of Verona, Italy</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Diagnostics and Public Health</sa:organization>
+                     <sa:organization>University of Verona</sa:organization>
+                     <sa:country>Italy</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:author-group id="augrp0015">
+               <ce:author id="au2" author-id="S1198743X1730455X-ebc489f31d85e449d882a13e3d7d5023">
+                  <ce:given-name>A.M.</ce:given-name>
+                  <ce:surname>Azzini</ce:surname>
+               </ce:author>
+               <ce:affiliation id="aff2" affiliation-id="S1198743X1730455X-03155e2c63f9835bc7d67827d77177be">
+                  <ce:textfn>Department of Diagnostics and Public Health, University of Verona, Italy</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Diagnostics and Public Health</sa:organization>
+                     <sa:organization>University of Verona</sa:organization>
+                     <sa:country>Italy</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff3" affiliation-id="S1198743X1730455X-258869db7140b59465ddff884ab656d7">
+                  <ce:textfn>Unità Operativa Complessa di Malattie Infettive, Azienda Ospedaliera Universitaria Integrata di Verona, Verona, Italy</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Unità Operativa Complessa di Malattie Infettive</sa:organization>
+                     <sa:organization>Azienda Ospedaliera Universitaria Integrata di Verona</sa:organization>
+                     <sa:city>Verona</sa:city>
+                     <sa:country>Italy</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:author-group id="augrp0020">
+               <ce:author id="au3" author-id="S1198743X1730455X-30434cc4e3546fad33ec2cf3c95aa2ca">
+                  <ce:given-name>R.</ce:given-name>
+                  <ce:surname>Mazzi</ce:surname>
+               </ce:author>
+               <ce:author id="au4" author-id="S1198743X1730455X-308b57305b93d4e04387ef5ab5ec54ec">
+                  <ce:given-name>M.</ce:given-name>
+                  <ce:surname>Merighi</ce:surname>
+               </ce:author>
+               <ce:affiliation id="aff4" affiliation-id="S1198743X1730455X-258869db7140b59465ddff884ab656d7">
+                  <ce:textfn>Unità Operativa Complessa di Malattie Infettive, Azienda Ospedaliera Universitaria Integrata di Verona, Verona, Italy</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Unità Operativa Complessa di Malattie Infettive</sa:organization>
+                     <sa:organization>Azienda Ospedaliera Universitaria Integrata di Verona</sa:organization>
+                     <sa:city>Verona</sa:city>
+                     <sa:country>Italy</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:author-group id="augrp0025">
+               <ce:author id="au5" author-id="S1198743X1730455X-867a5b070c33353a9063c05a7b205d94">
+                  <ce:given-name>E.</ce:given-name>
+                  <ce:surname>Concia</ce:surname>
+               </ce:author>
+               <ce:affiliation id="aff5" affiliation-id="S1198743X1730455X-03155e2c63f9835bc7d67827d77177be">
+                  <ce:textfn>Department of Diagnostics and Public Health, University of Verona, Italy</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Diagnostics and Public Health</sa:organization>
+                     <sa:organization>University of Verona</sa:organization>
+                     <sa:country>Italy</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff6" affiliation-id="S1198743X1730455X-258869db7140b59465ddff884ab656d7">
+                  <ce:textfn>Unità Operativa Complessa di Malattie Infettive, Azienda Ospedaliera Universitaria Integrata di Verona, Verona, Italy</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Unità Operativa Complessa di Malattie Infettive</sa:organization>
+                     <sa:organization>Azienda Ospedaliera Universitaria Integrata di Verona</sa:organization>
+                     <sa:city>Verona</sa:city>
+                     <sa:country>Italy</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+            </ce:author-group>
+            <ce:author-group id="augrp0030">
+               <ce:author id="au6" author-id="S1198743X1730455X-8d7a2f213eb5aabd38bf208a78968df0">
+                  <ce:given-name>A.</ce:given-name>
+                  <ce:surname>Mazzariol</ce:surname>
+                  <ce:cross-ref refid="cor1" id="crosref0010">
+                     <ce:sup loc="post">∗</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="aff7" affiliation-id="S1198743X1730455X-03155e2c63f9835bc7d67827d77177be">
+                  <ce:textfn>Department of Diagnostics and Public Health, University of Verona, Italy</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Diagnostics and Public Health</sa:organization>
+                     <sa:organization>University of Verona</sa:organization>
+                     <sa:country>Italy</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:correspondence id="cor1">
+                  <ce:label>∗</ce:label>
+                  <ce:text>Corresponding author. A. Mazzariol, Department of Diagnostics and Public Health, University of Verona, Strada Le Grazie, 8, 37134, Verona, Italy.</ce:text>
+                  <sa:affiliation>
+                     <sa:organization>Department of Diagnostics and Public Health</sa:organization>
+                     <sa:organization>University of Verona</sa:organization>
+                     <sa:address-line>Strada Le Grazie, 8</sa:address-line>
+                     <sa:city>Verona</sa:city>
+                     <sa:postal-code>37134</sa:postal-code>
+                     <sa:country>Italy</sa:country>
+                  </sa:affiliation>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="12" month="2" year="2017"/>
+            <ce:date-revised day="28" month="7" year="2017"/>
+            <ce:date-accepted day="10" month="8" year="2017"/>
+            <ce:miscellaneous id="misc0010">Editor: P.T. Tassios</ce:miscellaneous>
+         </simple-head>
+         <body view="all">
+            <ce:sections>
+               <ce:para id="p0010" view="all">Here we describe a patient colonized by a <ce:italic>Klebsiella pneumoniae</ce:italic> strain harbouring a novel carbapenemase who underwent liver transplantation after selective digestive decontamination (SDD) <ce:cross-ref refid="bib1" id="crosref0015">[1]</ce:cross-ref>. The galenic preparation contained effective drugs, as subsequently reported by a susceptibility test and confirmed by the microdilution method.</ce:para>
+               <ce:para id="p0015" view="all">Early in 2013, a 52-year-old patient with postalcoholic decompensated liver cirrhosis classified as B8 by the Child-Pugh score and with a 3-month mortality risk of 19.6% as assessed by a score of 24 by the Model for End Stage Liver Disease—Serum Na (MELD-Na) underwent evaluation for liver transplantation.</ce:para>
+               <ce:para id="p0020" view="all">The pretransplant infectious disease checklist included a surveillance rectal swab in order to identify enteric colonization with Gram-negative rods harbouring extended-spectrum β-lactamase (ESBL) and/or carbapenemases. Surveillance cultures were performed on ESBL Agar ChromID plates (bioMérieux, Marcy l’Étoile, France) plus an ertapenem disk (10 μg/mL). Carbapenemase production was confirmed by the CarbaNP test <ce:cross-ref refid="bib2" id="crosref0020">[2]</ce:cross-ref>.</ce:para>
+               <ce:para id="p0025" view="all">The patient was found to be colonized with a <ce:italic>K. pneumoniae</ce:italic> (MDR 53 strain) carbapenemase producer, as shown by two separate rectal swabs. The patient was not considered suitable for transplantation and initiated a 7-day SDD regimen with an oral gel formulation of colistin (polymyxin E) 100 000 UI/10 mL plus gentamicin (1.6 mg/10 mL). The patient received 5 mL every 6 hours in association with 5 mL every 6 hours of colistin oral solution (1 000 000 UI/5 mL) plus 4 mL every 6 hours of gentamicin oral solution (20 mg/mL) <ce:cross-ref refid="bib3" id="crosref0025">[3]</ce:cross-ref>.</ce:para>
+               <ce:para id="p0030" view="all">A month later, the prescribed antibiotic regimen was completed, and surveillance rectal swabs were negative for carbapenemase-producing <ce:italic>K. pneumoniae.</ce:italic>
+               </ce:para>
+               <ce:para id="p0035" view="all">The patient received a liver transplant and received perisurgical antibiotic prophylaxis with colistin (9 MU loading dose, continuing with 4.5 MU 12 hours after every 12 hours), tigecycline (100 mg loading dose, continuing 12 hours later with 50 mg every 12 hours) and meropenem (2 g every 12 hours), all starting 24 hours before transplantation and with 3 days' total treatment duration. Blood samples taken during the surgical procedure and a pretransplant rectal swab were negative.</ce:para>
+               <ce:para id="p0040" view="all">Nevertheless, the surveillance rectal swab a week after transplantation was positive for <ce:italic>K. pneumoniae</ce:italic> carbapenemase producer (MDR 136 isolate), as it was again a month later (MDR 345 isolate).</ce:para>
+               <ce:para id="p0045" view="all">Strains isolated before and after transplant were compared for antimicrobial susceptibility as well as for carbapenemase production and genotype.</ce:para>
+               <ce:para id="p0050" view="all">MICs for carbapenems and colistin were performed by the microdilution method and were interpreted in accordance with the latest European Committee on Antimicrobial Susceptibility Testing (EUCAST) criteria (<ce:inter-ref xlink:href="http://www.eucast.org/fileadmin/src/media/PDFs/EUCAST_files/Breakpoint_tables" id="intref0010" xlink:type="simple">http://www.eucast.org/fileadmin/src/media/PDFs/EUCAST_files/Breakpoint_tables</ce:inter-ref>). All of them had MICs for meropenem, imipenem and ertapenem higher than 128 mg/L. The MIC for colistin was 0.5 mg/L and for tigecycline was 1 mg/L. All strains were susceptible to gentamicin (MIC 1 mg/L). Secondary resistance to gentamicin and colistin following SDD was not detected.</ce:para>
+               <ce:para id="p0055" view="all">Investigation of genes encoding for carbapenemases (<ce:italic>KPC, MBL, OXA</ce:italic> type) was performed by PCR following a published protocol <ce:cross-ref refid="bib4" id="crosref0030">[4]</ce:cross-ref>. The <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">KPC</ce:inf> gene was detected in all three strains. After sequencing, all amplicons showed an N291T substitution compared to the KPC-3 enzyme. This new enzyme was named KPC-19 (<ce:inter-ref xlink:href="http://www.lahey.org/studies" id="intref0015" xlink:type="simple">http://www.lahey.org/studies</ce:inter-ref>); its GenBank accession number is <ce:inter-ref xlink:href="ncbi-n:KJ775801" id="intref0020" xlink:type="simple">KJ775801</ce:inter-ref>.</ce:para>
+               <ce:para id="p0060" view="all">Strains were typed by multilocus sequence typing (MLST). MLST was performed for all three isolates. Their profile was new and corresponded to ST1519, and a number was assigned (<ce:inter-ref xlink:href="http://www.pasteur.fr/mlst" id="intref0025" xlink:type="simple">http://www.pasteur.fr/mlst</ce:inter-ref>). The new profile differs from ST512 as a result of allele <ce:italic>rpo</ce:italic>B: ST1519 had the <ce:italic>rpo</ce:italic>B allele 9 instead of 1.</ce:para>
+               <ce:para id="p0065" view="all">The strains isolated before and after liver transplantation shared the same new ST1519 and harboured a new enzyme, KPC-19, which was different from the KPC-3 enzyme endemic in our hospital, harboured by the ST512.</ce:para>
+               <ce:para id="p0070" view="all">An important limitation of our report is that we were not able to test if pre- and post-SDD colonizing <ce:italic>K. pneumoniae</ce:italic> were the same strains because we did not perform whole genome sequencing of the strains. It is worth noting, however, that SDD allowed for a safe transplantation procedure and did not select a strain resistant to the drugs that were used.</ce:para>
+               <ce:section id="sec1" view="all">
+                  <ce:section-title id="sectitle0015">Transparency declaration</ce:section-title>
+                  <ce:para id="p0075" view="all">All authors report no conflicts of interest relevant to this letter.</ce:para>
+               </ce:section>
+            </ce:sections>
+         </body>
+         <simple-tail view="all">
+            <ce:bibliography id="cebib0010" view="all">
+               <ce:section-title id="sectitle0010">References</ce:section-title>
+               <ce:bibliography-sec id="cebibsec0010" view="all">
+                  <ce:bib-reference id="bib1">
+                     <ce:label>[1]</ce:label>
+                     <sb:reference id="sref1">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Safdar</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Adnan</ce:given-name>
+                                 <ce:surname>Said</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.R.</ce:given-name>
+                                 <ce:surname>Lucey</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The role of selective digestive decontamination for reducing infection in patients undergoing liver transplantation: a systematic review and meta-analysis</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Liver Transpl</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>10</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>817</sb:first-page>
+                              <sb:last-page>827</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib2">
+                     <ce:label>[2]</ce:label>
+                     <sb:reference id="sref2">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Nordmann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Poirel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Dortet</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Rapid detection of carbapenemase producing <ce:italic>Enterobacteriaceae</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Emerg Infect Dis</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>18</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1503</sb:first-page>
+                              <sb:last-page>1507</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib3">
+                     <ce:label>[3]</ce:label>
+                     <sb:reference id="sref3">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Saidel-Odes</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Polachek</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Paled</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Riesenberg</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.</ce:given-name>
+                                 <ce:surname>Schlaeffer</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Trabelsi</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A randomized, double-blind, placebo-controlled trial of selective digestive decontamination using oral gentamicin and oral polymyxin E for eradication of carbapenem-resistant <ce:italic>Klebsiella pneumoniae</ce:italic> carriage</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Infect Control Hosp Epidemiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>33</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>14</sb:first-page>
+                              <sb:last-page>19</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib4">
+                     <ce:label>[4]</ce:label>
+                     <sb:reference id="sref4">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Dallenne</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Da Costa</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Decré</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Favier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Arlet</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Development of a set of multiplex PCR assays for the detection of genes encoding important β-lactamases in <ce:italic>Enterobacteriaceae</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Antimicrob Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>65</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>490</sb:first-page>
+                              <sb:last-page>495</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </simple-tail>
+      </simple-article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

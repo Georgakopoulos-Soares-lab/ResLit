@@ -1,0 +1,507 @@
+PMID: 14506034
+PMCID: PMC201150
+DOI: 10.1128/AAC.47.10.3222-3232.2003
+Title: Mutation rate and evolution of fluoroquinolone resistance in Escherichia coli isolates from patients with urinary tract infections.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2003 Oct
+Authors: Komp Lindgren P, Karlsson A, Hughes D
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Mutation Rate and Evolution of Fluoroquinolone Resistance in Escherichia coli Isolates from Patients with Urinary Tract Infections - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2003 Oct;47(10):3222–3232. doi: 10.1128/AAC.47.10.3222-3232.2003 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Mutation Rate and Evolution of Fluoroquinolone Resistance in Escherichia coli Isolates from Patients with Urinary Tract Infections 
+
+Patricia Komp Lindgren 
+
+Patricia Komp Lindgren 
+
+1 Department of Cell and Molecular Biology, Microbiology Programme, Biomedical Center, Uppsala University, S-751 24 Uppsala, Sweden 
+
+Find articles by Patricia Komp Lindgren 
+
+1 , Åsa Karlsson 
+
+Åsa Karlsson 
+
+1 Department of Cell and Molecular Biology, Microbiology Programme, Biomedical Center, Uppsala University, S-751 24 Uppsala, Sweden 
+
+Find articles by Åsa Karlsson 
+
+1, † , Diarmaid Hughes 
+
+Diarmaid Hughes 
+
+1 Department of Cell and Molecular Biology, Microbiology Programme, Biomedical Center, Uppsala University, S-751 24 Uppsala, Sweden 
+
+Find articles by Diarmaid Hughes 
+
+1, * 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+1 Department of Cell and Molecular Biology, Microbiology Programme, Biomedical Center, Uppsala University, S-751 24 Uppsala, Sweden 
+
+* 
+Corresponding author. Mailing address: Department of Cell and Molecular Biology, Microbiology Programme, Biomedical Center, Box 596, Uppsala University, S-751 24 Uppsala, Sweden. Phone: 46-18-471 4354. Fax: 46-18-530396. E-mail: diarmaid.hughes@icm.uu.se . 
+
+† 
+Present address: AB BIODISK, Dalvägen 10, S-169 56 Solna, Sweden. 
+
+Received 2003 May 16; Revised 2003 Jul 8; Accepted 2003 Jul 11. 
+
+Copyright © 2003, American Society for Microbiology 
+
+PMC Copyright notice 
+
+PMCID: PMC201150  PMID: 14506034 
+
+Abstract 
+
+Escherichia coli strains from patients with uncomplicated urinary tract infections were examined by DNA sequencing for fluoroquinolone resistance-associated mutations in six genes: gyrA , gyrB , parC , parE , marOR , and acrR . The 54 strains analyzed had a susceptibility range distributed across 15 dilutions of the fluoroquinolone MICs. There was a correlation between the fluoroquinolone MIC and the number of resistance mutations that a strain carried, with resistant strains having mutations in two to five of these genes. Most resistant strains carried two mutations in gyrA and one mutation in parC . In addition, many resistant strains had mutations in parE , marOR , and/or acrR . No (resistance) mutation was found in gyrB . Thus, the evolution of fluoroquinolone resistance involves the accumulation of multiple mutations in several genes. The spontaneous mutation rate in these clinical strains varied by 2 orders of magnitude. A high mutation rate correlated strongly with a clinical resistance phenotype. This correlation suggests that an increased general mutation rate may play a significant role in the development of high-level resistance to fluoroquinolones by increasing the rate of accumulation of rare new mutations. 
+
+Acute uncomplicated urinary tract infections (UTIs) affect 40 to 50% of adult women and recur frequently ( 27 , 28 ). Escherichia coli is the causative pathogen in approximately 70 to 95% of the cases of uncomplicated UTIs ( 33 , 45 ). UTIs are treatable with different antibiotics, including ampicillin, amdinocillin, fosfomycin, trimethoprim, and several different fluoroquinolones. Fluoroquinolones are the most widely used antibiotics for the treatment of UTIs in most countries of Western Europe and North America ( 45 ). Expanded-spectrum quinolones ( 7 ) such as ciprofloxacin and norfloxacin are highly effective against gram-negative bacteria and eradicate bacteriuria in >90% of cases of UTIs ( 46 ). In the ECO.SENS study conducted in 2000 in most Western European countries and Canada, the average frequency of fluoroquinolone resistance among clinical E. coli isolates causing UTIs was less than 3%, although in Spain the frequency was almost 15% ( 34 ). However, surveys across Europe (see the website maintained by the European Antimicrobial Resistance Surveillance System [ http://www.earss.rivm.nl ]) show that frequencies of resistance to fluoroquinolones among E. coli isolates are rising year by year ( 20 ). 
+
+Fluoroquinolones target DNA gyrase and DNA topoisomerase IV and inhibit their activities in the control of DNA supercoiling. Gyrase catalyzes the negative supercoiling of DNA required for chromosome replication and transcription and is composed of two subunits, GyrA and GyrB, the products of the gyrA and the gyrB genes, respectively. Topoisomerase IV, which is essential for chromosome partitioning, is also composed of two subunits, ParC (GrlA) and ParE (GrlB), encoded by the genes parC and parE , respectively. Resistance to fluoroquinolones in E. coli occurs by chromosomal mutation ( 25 ), although plasmid-borne resistance has been reported in Klebsiella pneumoniae ( 30 , 43 ). The known resistance mutations in E. coli fall into two classes. One class is target alteration due to mutations in the genes encoding DNA gyrase and topoisomerase IV. Most of these mutations are located in a region of gyrA and/or parC known as the quinolone resistance-determining region (QRDR) ( 64 ). The QRDR includes the part of DNA gyrase that interacts with DNA. The second class of mutation reduces the concentration of the fluoroquinolone antibiotic in the bacterial cytoplasm. The latter class includes mutations that up-regulate the expression of the endogenous transmembrane efflux pump AcrAB-TolC. Thus, mutations that inactivate marR (a repressor of marA , a transcriptional activator of acrAB and tolC ) or acrR (a repressor of acrAB ) can increase the efflux activity of the AcrAB-TolC multidrug efflux pump ( 2 , 3 , 22 , 41 , 49 , 59 ). In addition, changes in the relative levels of expression of porin proteins, in particular, a decrease in the level of OmpF, have been suggested to increase the level of resistance to fluoroquinolones by inhibiting antibiotic entry into the cell ( 12 , 26 ). 
+
+Experimental evidence from in vitro selection studies with E. coli shows that single mutations are typically associated with low-level fluoroquinolone resistance ( 64 ) and that high-level resistance is built up by the accumulation of several mutations ( 24 ; P. Komp Lindgren and D. Hughes, unpublished data). Mutations conferring high-level resistance are often a mixture of both target- and efflux-related mutations. We have asked whether the selection pressure to accumulate multiple mutations conferring a high level of antibiotic resistance might be associated with a higher-than-normal mutation rate in resistant strains. To explore this question, we have examined the relationships between the fluoroquinolone MIC, the number of genetic alterations associated with fluoroquinolone resistance, and the general mutation rate among E. coli isolates from patients with UTIs. 
+
+MATERIALS AND METHODS 
+
+Bacterial strains. 
+
+Clinical UTI isolates were obtained from the AB BIODISK Culture Collection (Solna, Sweden). These strains were from patients with uncomplicated UTIs and originated in Denmark, Sweden, Spain, France, and England. The antibiotic resistance of 214 strains was classified in terms of the MICs of norfloxacin (the fluoroquinolone most commonly used in Sweden). Of these 214 strains, 53 with susceptibilities that covered the full range of MICs observed were chosen for more detailed study. In addition, E. coli Nu14 ( 29 , 37 ), a susceptible clinical UTI isolate, was used as the standard wild-type strain. Throughout this study, these 54 strains are referred to as the “clinical isolates.” The 54 strains are listed in descending order of norfloxacin MICs in Tables 2 and 3 . E. coli ATCC 25922 (American Type Culture Collection), Staphylococcus aureus ATCC 29213, Enterococcus faecalis ATCC 29212, and Pseudomonas aeruginosa ATCC 27853 were used as quality control strains for susceptibility testing. 
+
+TABLE 2. 
+
+Antibiotic susceptibility profiles of 54 UTI clinical E. coli isolates on the basis of MICs 
+
+Strain MIC (μg/ml) a Quinolones Other antibiotics NOR CIP NAL CHL TET MEC TMP C1205 >256 32 >256 >256 >256 0.75 >32 C1202 >256 >32 >256 >256 256 0.75 >32 C1171 >256 >32 >256 >256 >256 0.5 >32 C1181 >256 >32 >256 >256 128 0.75 >32 C1203 >256 >32 >256 256 >256 1 >32 C4 >256 >32 >256 24 6 0.25 >32 C1168 >256 >32 >256 16 6 0.75 >32 C1198 >256 >32 >256 4 >256 0.75 >32 C1163 >256 >32 >256 1.5 1.5 0.064 0.75 C1162 >256 32 >256 12 >256 6 >32 C1173 256 >32 >256 2 1.5 0.064 0.5 C1172 256 24 >256 24 >256 2 >32 C1204 128 12 >256 96 0.75 0.064 >32 C1179 96 >32 >256 16 >256 2 >32 C1188 96 32 >256 2 >256 1 >32 C1186 64 32 >256 >256 >256 4 >32 C1176 64 32 >256 4 2 0.5 >32 C1184 64 32 >256 2 >256 1.5 >32 C1212 64 16 >256 4 96 1.5 >32 C1199 48 16 >256 >256 >256 0.75 >32 C1208 48 16 >256 >256 2 0.19 >32 C1192 48 16 >256 8 128 1.5 >32 C1195 48 12 >256 256 24 2 >32 C139 48 6 >256 4 1.5 0.25 0.5 C1200 32 16 >256 >256 >256 2 >32 C1197 32 12 >256 >256 >256 0.75 >32 C1177 32 4 >256 256 >256 0.19 >32 C1191 24 8 >256 >256 256 0.19 >32 C1211 24 8 >256 3 >256 0.38 >32 C1180 24 3 >256 >256 2 1 >32 C107 2 0.25 >256 12 3 0.5 1.5 C10 2 0.5 >256 6 4 0.5 0.5 C1166 1.5 0.38 256 4 3 1.5 0.5 C142 0.75 0.19 >256 3 0.75 32 0.19 C77 0.75 0.19 256 3 1.5 0.125 0.75 C128 0.5 0.125 256 >256 2 0.38 0.38 C47 0.38 0.047 4 8 256 0.19 0.75 C2 0.38 0.032 24 4 1.5 0.125 0.064 C136 0.25 0.023 4 4 3 0.125 0.5 C6 0.25 0.023 1.5 3 4 0.19 0.25 C90 0.25 0.016 0.75 2 0.75 0.19 0.064 C50 0.19 0.032 1.5 4 2 0.5 0.25 C9 0.19 0.016 2 3 1.5 0.094 0.25 C97 0.125 0.023 1.5 4 1.5 0.047 0.5 C120 0.125 0.023 1.5 6 2 0.064 0.25 C133 0.125 0.023 1 4 2 0.064 0.5 C149 0.125 0.023 1.5 3 1 0.094 0.25 C88 0.125 0.016 1 3 1 0.125 0.38 C151 0.125 0.012 2 3 2 0.125 0.25 C62 0.125 0.012 1.5 6 2 0.38 0.75 C25 0.125 0.012 1.0 4 1 2 >32 C150 0.125 0.016 1.5 3 1.5 0.064 0.5 C124 0.125 0.016 1 2 2 2 0.5 Nu14 0.094 0.012 2 2 1.5 0.064 0.5 
+
+Open in a new tab 
+
+a 
+Abbreviations: NOR, norfloxacin; CIP, ciprofloxacin; NAL, nalidixic acid; CHL, chloramphenicol; TET, tetracycline; MEC, mecillinam; TMP, trimethoprim. 
+
+TABLE 3. 
+
+Putative fluoroquinolone resistance mutations, organic solvent tolerance, and mutation rate 
+
+Strain Resistance mutation OST a μ b No. of RAM(s) c gyrA parC parE marOR acrR C1205 S83L S80R F24L + 18 4 D87N C1202 S83L S80I T5N + 7 4 D87Y C1171 S83L S80I Q110 stop 162F + 13 4 D87H IS10 at aa d 106 T → A at nt −10 C1181 S83L S80I K62R T213I − 2 3 D87N N214T E215A C1203 S83L S80I K62R ΔA at aa 80 + 45 4 D87N T213I C4 S83L +2 nt(GC) at aa 206 + 104 2 C1168 S83L S80I S458T ΔG at aa 52 I62F + 16 5 D87N A52R E215A G/S103N C1198 S83L S80I I444F A212S + 25 5 D87N T213I C1163 S83L S80I − 11 3 D87N C1162 S83L S80I L78M M201R + 12 4 D87G C1173 S83L S80I E215A − 10 3 D87N C1172 S83L S80I L78M M201R + 7 4 D87G C1204 S83L S80I - 9 4 D87N E84G C1179 S83L E215A + 19 3 D87N S25P C1188 S83L I529L E215A − 2 3 D87Y C1186 S83L S80I Δ5 nt (−68 to 72) Insertion of IS1 at aa 9 + 17 4 D87N C47G C1176 S83L S80I A212S + 6 4 D87N T213I N214T E215A C1184 S83L I529L E215A − 4 3 D87Y C1212 S83L S80I T213I − 11 3 D87N C1199 S83L S80I + 14 3 D87N C1208 S83L E84K − 16 3 D87N C1192 S83L S80I − 4 3 D87N C1195 S83L E84K E215A − 69 2 C139 S83L S80I E215A − 3 2 C1200 S83L S80I D76G + 36 4 D87N /PICK> C1197 S83L S80I C → A at nt −25 − 3 3 D87N T213I N214T E215A C1177 S83L S80I E215A − 35 3 D87G C1191 S83L S80I K146T + 6 4 D87Y IS5 at aa 73 C1211 S83L S80I T213I − e 3 3 D87N C1180 S83L V79I − 4 2 C107 D87Y + 12 1 C10 S83L 4-nt duplication (GATT) at aa 111-12 + 9 2 C1166 S83L E215A + 9 1 T → A at nt −10 C142 S83L E215A − 10 1 C77 S83L − 1 1 C128 S83L − 4 1 C47 +17 nt (duplication) (aa 26-31) f + 8 1 C2 D87G − 2 1 C136 D475E I16F + 5 2 V125I C6 − e 1 0 C90 A196E − 1 1 C50 − 6 0 C9 − e 69 0 C97 E215A − 4 0 C120 E215A − 3 0 C133 E215A − 4 0 C149 − 3 0 C88 − 2 0 C151 − 2 0 C62 − 4 0 C25 K62R T213I − 7 0 N214T C150 P155L + 2 1 C124 E215A − 14 0 N69H Nu14 − 1 0 
+
+Open in a new tab 
+
+a 
+OST, organic solvent tolerance. 
+
+b 
+μ, mutation rate relative to that of Nu14 (5 × 10 −9 per cell per generation for rifampin resistance), which was set equal to 1. 
+
+c 
+RAM(s), resistance-associated mutation(s). The number of mutations per strains included in the count (for rationale, see Results), in which only one mutation from marR and acrR is included. 
+
+d 
+aa, amino acid(s). 
+
+e 
+Strains C1211, C6, and C9 are sensitive to hexane. 
+
+f 
+The duplicated sequence (amino acids 26 to 31) in strain C47 is GAT CGC CTG CTT AAC GA] [GTT CGC CTG CTT AAC GA. 
+
+Media and growth conditions. 
+
+The liquid medium used for bacterial growth was Luria broth (LB), and the solid medium was either Luria agar (LA; LB supplemented with 1.5% agar; Oxoid Ltd, Basingstoke, England) or Mueller-Hinton medium (Sigma Aldrich, Stockholm, Sweden). The strains were grown at 37°C, and liquid cultures were incubated without shaking. 
+
+MIC determinations. 
+
+The MICs of norfloxacin, ciprofloxacin, nalidixic acid, chloramphenicol, tetracycline, amdinocillin, and trimethoprim were determined by Etest according to the instructions of the manufacturer (AB BIODISK). The Etest was used with Mueller-Hinton medium plates, and the plates were incubated for 16 to 18 h at 37°C. In order to check the performance of the materials and the methods, the recommended National Committee for Clinical Laboratory Standards (NCCLS) quality control reference strains were tested on all occasions with the antibiotics mentioned above. 
+
+PCR amplification. 
+
+The oligonucleotide primers used for PCR amplification and DNA sequencing, together with details of the specific regions sequenced in each gene, are described in Table 1 . PCR primers were designed to amplify the QRDRs ( 10 , 16 , 23 , 35 , 59 , 62 , 64 , 65 ) of the gyrA , gyrB , parC , and parE genes and the entire marR and acrR genes. E. coli K-12 genome sequences (National Center for Biotechnology Information Gene Bank) were used to design primers specific for each gene. Gene fragments were amplified from chromosomal DNA as follows. A single colony from an LA plate that had grown for 16 to 18 h was suspended in 100 μl of sterile water, heated at 95°C for 3 min, and then cooled on ice. PCRs were performed with the Ready-2-Go PCR beads kit (Amersham Bioscience, Uppsala, Sweden) according to the protocol of the manufacturer. Amplifications were carried out in 25-μl volumes containing 0.4 μM reverse and forward primers and 1 μl of DNA sample prepared as described above by using a DNA engine PTC-200 thermocycler (SDS-diagnostics, Falkenberg, Sweden). PCR was initiated by denaturation at 95°C for 5 min, followed by 30 cycles of 94°C for 15 s, 53°C for 20 s, and 72°C for 1 min. The amplification products were visualized by agarose gel electrophoresis and ethidium bromide staining to assess the sizes of the gene fragments. 
+
+TABLE 1. 
+
+Oligonucleotides used for PCR and DNA sequence determination 
+
+Gene Primer name Oligonucleotide sequence (5′ to 3′) Amplified region a Sequenced region a gyrA GyrAF21 GAA CTC ACCC TTC CAG ATC CA −248 to 734 GyrAR1000 GAG CGC GGA TAT ACA CCT T GyrAFQ322 GAG CTC CTA TCT GGA TTA T 135 to 667 gyrB GyrBF891 GGA CAA AGA AGG CTA CAG CA 891 to 1770 GyrBR1770 CGT CGC GTT GTA CTC AGA TA GyrBFQ1165 GTG AAA TGA CCC GCC GTA AA 1215 to 1770 parC ParCF43 AGC GCC TTG CGT ACA TGA AT 17 to 981 ParCR981 GTG GTA GCG AAG AGG TGG TT ParCFQ107 GAC CGT GCG TTG CCG TTT AT 142 to 766 ParE ParEF853 GAC CGA AAG CTA CGT CAA CC 788 to 1746 ParER1810 GTT CGG ATC AAG CGT GGT TT ParEFQ1126 GCC CAG CGC CGT ATG CGT GC 1171 to 1734 marR MarORF1139 GCC AGG CCA AGA AAT AAC GC −307 to +130 MarORR2011 GAG TAA CCC GAA CGC TCT GA MarORFQ1236 GGT GGT TGT TAT CCT GTG TA −151 to stop MarORRQ1963 GGT TGT CCT CGA TCC AGT C Start to +10 acrR AcrR8900F ACT GTT ACT ACG CCA ACG −275 to +65 AcrR9934R CTG AAC CTG AAG AAC GAC CTG AcrRQ9021F GGC ATC TGC TGG CCA CCT T −150 to 315 AcrRQ9887R GAC GCA GTG AAC CAG AA 135 to +28 
+
+Open in a new tab 
+
+a 
+Nucleotide 1 is the first nucleotide of the start codon. A minus sign refers to nucleotides upstream of the start codon, and a plus sign refers to nucleotides downstream of the termination codon. 
+
+DNA sequencing. 
+
+Prior to DNA sequencing, 20-μl volumes of the PCR products were treated by adding a 1-μl mixture of 1 U of exonuclease I and 0.5 U of shrimp alkaline phosphatase (both from Amersham Bioscience), with incubation at 37°C for 45 min. This was followed by incubation at 80°C for 15 min to denature the enzymes. DNA sequencing was carried out by the dideoxy chain-termination method ( 54 ) by the CEQ2000 Dye terminator cycle sequencing protocol (Beckman Coulter). For each sequencing reaction, 1 μl of PCR product and 1.6 μM sequencing primer were used. 
+
+Organic solvent tolerance. 
+
+Cells were spotted onto LA with 0.1% glucose and 10 mM MgSO 4 (LBGMg medium) in glass petri dishes and covered with organic solvent as described by Asako et al. ( 5 ). Briefly, the strains were grown overnight in LB and were then diluted to 10 6 to 10 7 CFU/ml in LB. A total of 5 μl of each diluted culture was spotted onto five different LBGMg medium plates and allowed to dry. A growth control plate was left untreated, while the remaining four plates were overlaid with 5 ml of either pure hexane or a hexane-cyclohexane mixture in a ratio of 3:1, 1:1, or 1:3. The plates were incubated at 30°C in closed metal containers to prevent evaporation. After 20 to 48 h of incubation, the spots were scored for growth under the different solvent conditions. E. coli Nu14 and MG1655 were included as control strains that grow on hexane but not on cyclohexane ( 4 ). All strains were tested at least twice. Although we have tested tolerance to hexane and cyclohexane at different ratios, for simplicity we define organic solvent tolerance as confluent growth when 5 × 10 3 cells are spotted in the presence of hexane-cyclohexane at a 1:1 ratio. Tolerance is indicative of above normal efflux by the AcrAB-TolC efflux pump ( 61 ). 
+
+Determination of mutation rate. 
+
+Each of the 54 clinical strains was cultured overnight in LB and diluted; and 50-μl aliquots of 10 2 to 10 3 cells were inoculated into 40 tubes, each of which contained 2 ml of LB, to generate independent cultures. Each culture was grown overnight to a concentration of ∼2 × 10 9 CFU/ml. A total of 1.5 ml of each culture was centrifuged in a Heraeus Biofuge at 13,000 rpm for 15 min. The supernatants were discarded, and the pellets were resuspended in 200 μl of 0.85% NaCl. These suspensions (or dilutions, where required) were spread onto LA plates containing 100 μg of rifampin per ml and were incubated overnight. For each strain, the proportion of cultures giving no resistant mutants was used to calculate the mutation rate per cell per generation according to the fluctuation test of Luria and Delbrück ( 40 ). The formula used was [μ = −(1/ N ) ln P 0 ], where μ is the mutation rate per cell per generation, N is the number of viable cells plated, and P 0 is the proportion of cultures giving rise to no mutants of the class being scored ( 1 ). For strains with high mutation rates, appropriate dilutions of the overnight culture were made to obtain a P 0 of approximately 0.5 after plating. 
+
+RESULTS 
+
+Antibiotic susceptibility. 
+
+The norfloxacin MICs for 214 E. coli UTI isolates from the culture collection of AB BIODISK were determined by Etest. On the basis of the MIC results, we chose for more detailed analysis 54 strains (including antibiotic-susceptible strain E. coli Nu14) with susceptibilities that covered the full range of norfloxacin MICs. The MICs of the seven antibiotics for the 54 clinical isolates tested are presented in Table 2 . The strains are listed in Table 2 in descending order of resistance to norfloxacin, ciprofloxacin, and nalidixic acid. The fluoroquinolone MICs for the strains chosen were evenly distributed across the range of MICs (Fig. 1 ). The NCCLS breakpoints defining susceptibility and resistance to norfloxacin and ciprofloxacin coincided with a division of the clinical strains into two groups (Fig. 1 ). Thus, on the basis of these breakpoints, the 30 strains from strains C1205 to C1180 were resistant to these fluoroquinolones, while the remaining 24 strains (strains C107 to Nu14) were susceptible (Table 2 ). Many of the strains resistant to fluoroquinolones showed cross-resistance to tetracycline, chloramphenicol, and/or trimethoprim. Resistance to amdinocillin did not appear to correlate with resistance to the other antibiotics tested (Table 2 ). 
+
+FIG. 1. 
+
+Open in a new tab 
+
+Correlation of norfloxacin and ciprofloxacin MICs for 54 clinical E. coli UTI isolates. NCCLS breakpoints for norfloxacin and ciprofloxacin are indicated with arrows. 
+
+Putative fluoroquinolone resistance mutations in clinical isolates. 
+
+Part or all of six different genes in which mutations associated with fluoroquinolone resistance have previously been identified ( gyrA , gyrB , parC , parE , marOR , and acrR ) were sequenced (see Materials and Methods). The DNA sequences were analyzed by comparison with the published genome sequence of E. coli K-12 ( 9 ). We define putative fluoroquinolone resistance mutations as nucleotide alterations (nucleotide substitutions, deletions, or insertions) that would result in a change in the amino acid sequence in the protein product of the gene. Silent nucleotide substitutions are not listed. The silent changes found are in accord with the phylogenetic relationships between the strains, and their frequency does not correlate with the mutation rate. In a few cases we found nonsynonymous codon differences between the published sequence for strain K-12 and the sequence of our antibiotic-susceptible control strain, Nu14. We regard these amino acid differences as silent with respect to fluoroquinolone resistance (Table 2 ), and they are not listed here. The sequencing results are summarized in Table 3 . 
+
+gyrA and gyrB . 
+
+Thirty-eight strains, including all 30 strains defined as resistant to norfloxacin and ciprofloxacin by NCCLS breakpoints, carried mutations in gyrA . Of these 38 strains, 37 carried mutations altering amino acid 83 or 87, or both. These mutations are S83L and D87 to N, Y, G, or H. Each of these mutations at positions 83 and 87 has previously been found in E. coli strains resistant to fluoroquinolones ( 14 , 52 , 64 ). In addition, we identified one strain (strain C90) with a gyrA Ala196-to-Glu mutation. The A196E mutation has not been reported previously and is outside the region referred to as the QRDR ( 64 ). The 36 strains for which the nalidixic acid MIC was ≥256 μg/ml all carried gyrA mutations. With only one exception (strain C107, with the D87Y mutation), all strains with this high level of resistance to nalidixic acid carried the S83L mutation in gyrA . The strain with the next highest level of resistance to nalidixic acid (strain C2; MIC, 24 μg/ml) also carried a gyrA mutation, D87G. Thus, a high nalidixic acid MIC (≥24 μg/ml) is a diagnostic marker for mutations in gyrA . Twenty-six strains carried mutations at both S83 and D87, and all of these strains were resistant to norfloxacin and ciprofloxacin. The most common combination of mutations, found in 18 of 26 strains, was S83L and D87N, followed by S83L and D87Y (4 strains), S83L and D87G (3 strains), and S83L and D87H (1 strain) (Table 3 ). 
+
+No mutations other than silent nucleotide substitutions were found in gyrB in any of the clinical isolates. This does not rule out the possibility of gyrB mutations in fluoroquinolone-resistant clinical E. coli isolates, but their absence has also been reported by others ( 6 , 14 ). 
+
+ParC and parE . 
+
+Four different mutations altering two amino acid residues were found in parC . These were S80I (22 strains), S80R (1 strain), E84K (2 strains), and E84G (1 strain). Each of these four mutations has previously been associated with fluoroquinolone resistance in E. coli ( 23 , 36 ). With the exception of one double mutant (strain C1204, with the S80I and E84G mutations), each mutated strain had a single parC alteration. All 25 strains with parC mutations also carried one or two gyrA mutations. Of the 30 strains defined as resistant to norfloxacin and ciprofloxacin by NCCLS breakpoints, all but 5 had a parC mutation, while none of the 25 susceptible strains carried a parC mutation. 
+
+Five strains carried one of four different parE mutations, I444F, S458T, D475E, and I529L. Four of these mutations were found in strains in the norfloxacin and ciprofloxacin resistance class, as defined by NCCLS breakpoints. Each of these four strains also carried two gyrA mutations, and two of them carried, in addition, a parC mutation. To the best of our knowledge, only one parE mutation, L445H ( 10 ), has previously been found in association with fluoroquinolone resistance in E. coli . Putative fluoroquinolone resistance mutations in parE ( grlB ) have been found in other bacterial species. These are (with E. coli numbering), D420N ( 53 ), P439S ( 51 , 55 ) P439Q ( 21 ), L440F ( 8 ), N458D ( 15 ), and E460K ( 8 ). 
+
+Efflux-related mutations. 
+
+Fluoroquinolones can be extruded from E. coli by the action of various efflux pumps, including AcrAB-TolC ( 31 , 49 ), AcrEF ( 31 ), and MdfA and YdhE/NorE ( 63 ). Mutations in the repressor proteins MarR and AcrR can lead to overexpression of the AcrAB-TolC pump and thus contribute to resistance. Overexpression of this efflux pump is closely associated with organic solvent tolerance in E. coli ( 59 ). To complement the data on sequencing of marOR and acrR , we assayed the strains for organic solvent tolerance (see Materials and Methods). The organic solvent tolerance phenotype was found in 21 of the 54 strains (Table 3 ). There was, in general, a correlation between mutations in marOR and/or acrR and organic solvent tolerance (Table 3 ; see data presented in the following sections). Thus, all eight strains with knockout mutations in marR and/or acrR (frameshift mutations, insertion or deletion mutations, nonsense codons) have an organic solvent tolerance phenotype. Three strains, strains C1211, C6, and C9, were susceptible to hexane and may thus have additional mutations. In counting mutations in marR and acrR that contribute to fluoroquinolone resistance, we decided to treat the two genes as one functional unit and count only one mutation per strain. Our rationale is that one mutation in either gene that abolishes either repressor function will lead to a Mar phenotype, and we have no evidence at present that multiple mutations contribute additionally to the level of fluoroquinolone resistance. Thus, a strain such as C1171 or C1186 with mutations in both marR and acrR was counted as having only one resistance-associated mutation coming from these two genes. 
+
+marR . 
+
+Mutations in the marOR sequence were identified in 11 strains. Three strains had mutations that would cause premature termination of marR translation. In one case this was caused directly by a nonsense codon (Q110→UAA stop), while the other two carried frameshift mutations (ΔG in codon 52 and a 17-nucleotide [nt] duplication between codons 26 and 31). It seemed reasonable to assume that each of these three mutants lacked MarR activity. Indeed, it was previously shown that a frameshift mutation in a clinical E. coli isolate that results in a C-terminal truncated MarR protein causes an increase in ciprofloxacin resistance ( 39 ). Eight strains had single amino acid alterations in the marR -coding sequence (three strains with K62R, two strains with L78M, and one strain each with D76G, V79I, and C47G). Point mutations in marR causing overexpression of marA have been described previously ( 48 ). The K62R mutation has been identified in clinical isolates but shows no evidence of contributing to organic solvent tolerance ( 47 ), suggesting that it may be a silent mutation with regard to resistance ( 52 ). Two of the three K62R strains (strains C1181 and C25) were susceptible to organic solvents (Table 3 ), supporting the contention that the K62R mutation itself does not lead to a loss of MarR function (the organic solvent-tolerant strain had a frameshift mutation in acrR ). Mutations in codons 77 and 78 have been reported by others ( 35 , 48 ). These mutations, R77S ( 35 ) and L78 M ( 48 ), have been associated with both cyclohexane tolerance and overexpression of marA . We tentatively assumed that the mutations that we have identified in this region of MarR (D76G, L78M, and V79I) contributed to fluoroquinolone resistance, although in the case of V79I we did not find an organic solvent tolerance phenotype. Strain C1186 carried a C47G mutation and, in addition, a 5-nt deletion in the marO region. The deleted sequence (nt −72 to −68 upstream of the marR GTG start codon) is one-half of a tandem repeat sequence located between the −35 region of the marR promoter and the Mar box sequence to which the MarA activator binds ( 42 ). C1186 also carried an IS 1 insertion in acrR (Table 3 ). In addition to the alterations described above, we found that many strains had either serine or asparagine at codon 3. Because MG1655 carries serine at this position, while Nu14 carries asparagine, and both strains are susceptible to norfloxacin and ciprofloxacin, we concluded that this difference is neutral with respect to norfloxacin and ciprofloxacin resistance. This is in agreement with the published observation that strains carrying the S3N mutation have normal levels of marA expression ( 48 ). 
+
+acrR . 
+
+Mutations expected to alter the AcrR protein sequence were found in 33 of the 54 clinical strains. In six of these strains the mutations were strongly predicted to be knockout mutations. These included two strains with frameshift mutations (C1203, −1 nt; C4, +2 nt), one strain with a small duplication (C10, +4 nt), and three strains with insertion sequences within the acrR -coding sequence (C1171, IS 10 ; C1186, IS 1 ; and C1191, IS 5 ). Other investigators have shown that insertion of transposable elements in acrR (IS 186 ) or in front of acrE (IS 2 ) enhances expression of the multidrug efflux pumps AcrAB and AcrEF, respectively ( 31 ). The remaining 27 strains had 1 to 4 amino acid substitution mutations. Of these 27 strains, 22 had alterations of the last 4 amino acids in the AcrR protein. In E. coli K-12 and E. coli O157, these amino acids were ATNE. From one to four of these codons were altered, in various combinations, to SITA in these 22 clinical strains (Table 3 ). The alterations (which are underlined) relative to the published E. coli sequences are SITA (1 strain), A ITA (2 strains), SI NE (1 strain), A IT E (1 strain), A I NE (3 strains, including C1203, which also had a frameshift mutation), and ATN A (14 strains). Examination of Table 3 and relation of the presence of these mutations to the organic solvent tolerance phenotype (an indicator of overexpression of the AcrAB-TolC pump) showed little correlation between mutation and phenotype. Thus, strains carrying various combinations of these mutations did not in most cases have organic solvent tolerance. An exception is the A212S sequence, in which the only two strains with this mutation (strains C1198 and C1176) were both organic solvent tolerant, and on this basis, we included this substitution as resistance associated. We note that there is one published example of a clinical isolate with an organic solvent tolerance phenotype carrying some of these mutations, A IT E, but it also carries another amino acid substitution (T12M) that might be the cause of the phenotype ( 59 ). Comparison of the published AcrR sequences of E. coli , Salmonella enterica serovar Typhimurium, S. enterica serovar Typhi, Yersinia , Klebsiella , and other bacterial species shows that this part of the AcrR protein is not conserved. For example, S. enterica serovar Typhimurium and E. coli have virtually identical AcrR protein sequences up to amino acid 209 (89% identity, 95% similarity), after which they have only one amino acid in common to the end of the protein. All eight strains in the collection used in the present study with an I residue at position 213 belonged to the same E. coli phylogenetic group, group D, as determined by PCR ( 11 ), suggesting that this substitution is related to phylogeny rather than antibiotic resistance. There was only one other group D strain in the collection (strain C1171), and this region of its sequence was not determined because it contained an IS 10 insertion in the acrR coding sequence (Table 3 ). The only other AcrR point mutations previously found in clinical E. coli isolates with an organic solvent tolerance or acrB overexpression phenotype are T5N, T12M, R45C, and H115Y ( 59 , 60 ). We have found the amino acid substitution mutations T5N, I16F, F24L, S25P, I62F, V125I, K146T, P155L, and M201R in strains with an organic solvent tolerance phenotype (Table 3 ). Each of these strains was included in the count of strains with a resistance-associated efflux mutation, either because of the substitution or because of an additional mutation in marR or acrR (Table 3 ). The mutation found in a strain susceptible to organic solvents (N69H) was not counted as resistance associated. 
+
+Mutation rate. 
+
+The presence of multiple putative resistance mutations in many of the resistant strains suggested that the rate of mutation accumulation might be an important factor in resistance development. To examine this possibility, the rate of mutation to rifampin resistance was determined for all 54 strains (Materials and Methods). Rifampin resistance is caused by approximately 20 different nucleotide substitutions in rpoB ( 32 ) and so is a good indicator of the general rate of mutation in the cell. In the fluctuation tests of Luria and Delbrück ( 40 ), Nu14 had a mutation rate of 5 × 10 −9 per cell per generation. None of the other 53 clinical isolates had mutation rates significantly lower than that of Nu14, so for ease of comparison, we have expressed all rates relative to the rate for Nu14 (Table 3 ). Plotting of the relative mutation rates versus the norfloxacin MIC showed that most strains with high mutation rates were resistant (Fig. 2 ). 
+
+FIG. 2. 
+
+Open in a new tab 
+
+Relative mutation rates of 54 clinical E. coli UTI isolates as a function of norfloxacin MICs. All values are relative to the rifampin resistance mutation rate of antibiotic-susceptible strain Nu14 (5 × 10 −9 ), which was set equal to 1. NCCLS breakpoints for norfloxacin susceptibility and resistance are indicated with arrows. 
+
+DISCUSSION 
+
+An antibiotic resistance phenotype can be acquired by lateral genetic transfer or the occurrence of a de novo mutation within a bacterial genome. For many bacterium-drug combinations, resistance acquisition via lateral genetic transfer is clinically the more significant route. Examples include methicillin resistance in S. aureus , vancomycin resistance in enterococci, extended-spectrum β-lactamase production by gram-negative bacilli, and penicillin resistance in Streptococcus pneumoniae ( 58 ). Resistance to fluoroquinolones is very unusual, in that not only does it arise almost exclusively by de novo mutation, but it also requires multiple mutations in different genes to achieve a clinically relevant level. This requirement for multiple mutations suggested to us that strong selection for resistance mutations may arise in association with unusually high mutation rates. However, although a high mutation rate could facilitate the development of resistance, it might also be associated with the acquisition of deleterious mutations. Thus, even if a high mutation rate underlies resistance development, the mutator phenotype might itself be counterselected after fluoroquinolone resistance has been achieved. We decided to test the hypothesis that selection for fluoroquinolone resistance coselects for a high mutation rate by defining the genotypes of a collection of E. coli UTI isolates inhibited by fluoroquinolones over a wide range of MICs; the susceptibilities of the strains ranged from highly susceptible to highly resistant. 
+
+Our strategy was to initially classify strains on the basis of fluoroquinolone MICs to identify a collection of strains with susceptibilities evenly spread over a wide range of MICs (Table 2 ). The DNA sequence of each gene in which other investigators had identified fluoroquinolone resistance-associated mutations, either through in vitro selection or in clinical isolates, was then determined for each strain in this collection. Mutations were identified by comparison of the sequences with the E. coli genome sequences and were classified by comparison with all previously identified fluoroquinolone resistance-associated mutations in E. coli and other bacterial species that we could find in the literature. To complement the sequence analysis, we measured the organic solvent tolerance of each strain as a phenotype associated with overexpression of the AcrAB-TolC multidrug efflux pump. Finally, we applied the fluctuation test of Luria and Delbrück ( 40 ) to measure the spontaneous mutation rate in each of the E. coli UTI strains in the collection (Table 3 ). 
+
+After sequencing of the strains, we counted the number of putative fluoroquinolone resistance mutations in each clinical strain. Our rationale for including or excluding specific mutations is outlined in the Results section on mutations. Briefly, each of the amino acid substitutions found in gyrA , parC , and parE was included. When two mutations occurred in gyrA or parC , both were counted because the experimental evidence suggested that both contribute to resistance. Small deletions and insertions in marR and acrR were included, as were amino acid substitutions for which published data or the organic solvent tolerance phenotype suggested that they contributed to resistance. Insertion sequence elements were not included because their insertion was probably independent of general mutation rates. However, this exclusion did not influence the results, because each of the three insertion sequence-containing strains also carried another mutation in marR or acrR that was included. For marR and acrR , we counted only one mutation between the two genes, even if several were identified. Our rationale was that a single mutation in either gene may account for the resistance phenotype, and we have no evidence that mutations in both genes contribute to a further increase in rates of resistance. We have not included the K62R mutation ( marR ) or mutations in codons 213 to 215 ( acrR ) because the evidence strongly suggested that these amino acid alterations do not contribute to fluoroquinolone resistance. By this definition we counted between zero and five resistance-associated mutations per strain (Table 3 ). Silent nucleotide substitution differences between the strains followed a pattern associated with phylogenetic relationships, and the relative frequencies of these differences did not correlate with the measured mutation rate for a strain. The lack of correlation between mutation rate and the number of silent substitutions is not unexpected if the origin of the mutator phenotype is relatively recent in phylogenetic terms. Thus, the total length of the sequenced region per strain was less than 10 kb, and even with a mutation rate approaching 10 −6 , the probability that one would find a neutral substitution in this region is very small. 
+
+Twenty-one of the 53 clinical isolates had a relative mutation rate at least 10-fold higher than that of Nu14 (Table 3 ). These included 17 of the 30 resistant strains, as defined by the NCCLS breakpoints for norfloxacin and ciprofloxacin. One mutant, C4, had a mutation rate over 100-fold greater than that of Nu14 and had a deletion at the start of mutS (data not shown). In contrast, only 4 of the 23 susceptible clinical strains had a mutation rate 10-fold or greater than that of Nu14. Thus, there was a strong correlation between resistance as defined by the NCCLS breakpoints and a mutation rate 10-fold or greater than that of Nu14. Clearly, there is not a linear relationship between the mutation rate and the MIC (Fig. 2 ). Thus, some susceptible strains have a high mutation rate and vice versa. However, when the percentage of susceptible and resistant strains was plotted against the relative mutation rate (Fig. 3 ), it was clear that there was a strong relationship between the resistance phenotype and the probability of a strain having a high mutation rate. The slopes in Fig. 3 differed by more than a factor of 2 (for resistant strains the slope was −4.1; for susceptible strains the slope was −8.6), suggesting that a clinically resistant strain is statistically more likely to have a higher mutation rate than a clinically susceptible one. 
+
+FIG. 3. 
+
+Open in a new tab 
+
+Percentage of E. coli UTI strains in the susceptible and resistant groups (defined by NCCLS breakpoints) that have a mutation rate greater than or equal to that of Nu14 (set equal to 1), as indicated on the x axis. Data for all strains with a mutation rate up to those indicated on the x axis are included. Few strains had higher mutation rates and do not fit this linear plot. 
+
+With our definition of resistance-associated mutations, we also found a strong correlation between the number of mutations per strain and the NCCLS breakpoint definition for clinical resistance (Fig. 4 ). Thus, all strains in which three or more mutations were identified were resistant, while all strains in which zero or one mutation was identified were clinically susceptible. Strains with two mutations were roughly divided into susceptible and resistant populations. In the group with two mutations, the similarity of the identified mutations present in C4 (resistant) and C10 (susceptible) suggested that the resistant strain was likely to carry additional mutations not yet identified. On average, we found 3.4 mutations per resistant strain and only 0.6 mutations per susceptible strain. We could not identify any single genetic change that could differentiate between a resistant strain and a susceptible strain. However, on average, the move from susceptibility to resistance involved the acquisition of a second mutation in gyrA (which was found in 87% of the resistant strains but none of the susceptible strains) and/or the acquisition of a parC mutation (which was found in 83% of the resistant strains but none of the susceptible strains). Indeed, both of these criteria were fulfilled for 77% of the resistant strains. The mutation profiles of the susceptible and the resistant strains and the paucity of strains with two mutations (Fig. 4 ) suggest that the move from susceptibility to resistance is associated with a significant genetic jump. This jump would be the acquisition, possibly within a short time period, of at least two additional resistance-associated mutations. We suggest that making this jump, which demands the nearly simultaneous occurrence of two or more low-frequency mutational events, coselects for antibiotic-resistant strains with unusually high mutation rates. 
+
+FIG. 4. 
+
+Open in a new tab 
+
+Number of fluoroquinolone resistance-associated mutations (see text for definition) per strain as a function of fluoroquinolone susceptibility and resistance (defined by NCCLS breakpoints). 
+
+Others have screened collections of pathogenic E. coli and S. enterica serovar Typhimurium strains and noted the presence of strong (100-fold) mutators, such as mutS , at a frequency of about 1% ( 38 , 44 ). Similarly, in our collection we found one strong mutator ( mutS ) among the 54 strains tested. Strong mutators were found at a high frequency in P. aeruginosa strains isolated from the lungs of cystic fibrosis patients ( 50 ). Screening of 504 pathogenic and commensal E. coli isolates ( 44 ) and 91 E. coli UTI isolates ( 13 ) showed that, in addition to the strong mutators, 12 to 14% of strains were intermediate-strength (10-fold) mutators. In contrast to our findings, one study ( 13 ) found no correlation between a mutator phenotype and the level of antibiotic resistance, but the number of resistant strains tested was small ( n = 9). However, experiments with a gnotobiotic mouse model showed that antibiotic treatment can coselect for mutator alleles ( 17 ). Our results show that in E. coli UTI isolates a mutator phenotype is strongly associated with fluoroquinolone resistance and that the mutator phenotype is most frequently intermediate in strength. The finding that most mutators in clinical isolates are intermediate in strength is in agreement with predictions from a mathematical analysis of mutator dynamics in fluctuating environments ( 57 ). Thus, although strong mutators, such as mutS mutations, promote the rapid evolution of resistance, the indirect selection against such mutators is intense due to the greatly increased rate of accumulation of deleterious mutations associated with them ( 18 , 19 , 56 , 57 ). Our study shows that selection for mutations leading to fluoroquinolone resistance coselects for strains with an elevated mutation rate. It is even possible that we are underestimating the frequency of coselection of mutators and resistance, because in some cases the mutation rate may have been reduced after resistance was selected. One implication of these data is that in cases in which there is a failure of treatment with fluoroquinolones, the infecting resistant strain is likely to have a high mutation rate. Thus, it would be advisable in any subsequent antibiotic treatment to avoid using an antibiotic to which it is known that resistance can arise by de novo mutation. This argument that resistance development is closely linked to a high mutation rate probably applies generally to the development of fluoroquinolone resistance in all pathogenic species and infection types and not just to E. coli UTI strains. 
+
+A practical use of the data in Tables 2 and 3 is facilitation of a screening program for the detection of emerging fluoroquinolone-resistant strains. Most fluoroquinolone-resistant strains (87%) carry two mutations in gyrA , at positions 83 and 87. Among the clinically susceptible strains, those for which the fluoroquinolone MIC is the highest carry a single mutation at either of these positions in gyrA (Table 3 ). A high nalidixic acid MIC (in most cases, >256 μg/ml; in one case, 24 μg/ml) was detected in association with a single gyrA mutation in clinically susceptible strains. All other clinically susceptible strains were inhibited by nalidixic acid (MIC, ≤4 μg/ml) (Table 2 ). Thus, by screening E. coli strains for susceptibility to norfloxacin and nalidixic acid, one could identify strains that potentially carry the highest risk of becoming fluoroquinolone resistant. In such cases, the use of an antibiotic to which resistance does not arise by mutation might be the preferred therapeutic option. 
+
+Acknowledgments 
+
+This work was supported by grants from the Swedish Medical Research Council, the Swedish Natural Sciences Research Council, AFA Hälsofond, and the European Union (to D.H.). 
+
+We thank Anna-Chey Nyström for technical support with PCR and DNA sequencing, AB BIODISK for generously supplying clinical strains and Etest reagents, Daniel Oppenheimer for making some of the mutation rate measurements while working as a summer student, and Fredrik Petterson for sharing the results of PCR-based phylogeny testing with us. 
+
+REFERENCES 
+
+1. Abdulkarim, F., and D. Hughes. 1996. Homologous recombination between the tuf genes of Salmonella typhimurium. J. Mol. Biol. 260 : 506-522. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+2. Alekshun, M. N., and S. B. Levy. 1999. The mar regulon: multiple resistance to antibiotics and other toxic chemicals. Trends Microbiol. 7 : 410-413. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+3. Alekshun, M. N., and S. B. Levy. 1997. Regulation of chromosomally mediated multiple antibiotic resistance: the mar regulon. Antimicrob. Agents Chemother. 41 : 2067-2075. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+4. Aono, R., M. Kobayashi, H. Nakajima, and H. Kobayashi. 1995. A close correlation between improvement of organic solvent tolerance levels and alteration of resistance toward low levels of multiple antibiotics in Escherichia coli. Biosci. Biotechnol. Biochem. 59 : 213-218. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+5. Asako, H., H. Nakajima, K. Kobayashi, M. Kobayashi, and R. Aono. 1997. Organic solvent tolerance and antibiotic resistance increased by overexpression of marA in Escherichia coli . Appl. Environ. Microbiol. 63 : 1428-1433. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Bachoual, R., J. Tankovic, and C. J. Soussy. 1998. Analysis of the mutations involved in fluoroquinolone resistance of in vivo and in vitro mutants of Escherichia coli. Microb. Drug Resist. 4 : 271-276. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Ball, P. 2003. Adverse drug reactions: implications for the development of fluoroquinolones. J. Antimicrob. Chemother. 51(Suppl. 1) : 21-27. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+8. Bebear, C. M., O. Grau, A. Charron, H. Renaudin, D. Gruson, and C. Bebear. 2000. Cloning and nucleotide sequence of the DNA gyrase ( gyrA ) gene from Mycoplasma hominis and characterization of quinolone-resistant mutants selected in vitro with trovafloxacin. Antimicrob. Agents Chemother. 44 : 2719-2727. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Blattner, F. R., G. Plunkett III, C. A. Bloch, N. T. Perna, V. Burland, M. Riley, J. Collado-Vides, J. D. Glasner, C. K. Rode, G. F. Mayhew, J. Gregor, N. W. Davis, H. A. Kirkpatrick, M. A. Goeden, D. J. Rose, B. Mau, and Y. Shao. 1997. The complete genome sequence of Escherichia coli K-12. Science 277 : 1453-1474. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+10. Breines, D. M., S. Ouabdesselam, E. Y. Ng, J. Tankovic, S. Shah, C. J. Soussy, and D. C. Hooper. 1997. Quinolone resistance locus nfxD of Escherichia coli is a mutant allele of the parE gene encoding a subunit of topoisomerase IV. Antimicrob. Agents Chemother. 41 : 175-179. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Clermont, O., S. Bonacorsi, and E. Bingen. 2000. Rapid and simple determination of the Escherichia coli phylogenetic group. Appl. Environ. Microbiol. 66 : 4555-4558. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Cohen, S. P., L. M. McMurry, and S. B. Levy. 1988. marA locus causes decreased expression of OmpF porin in multiple-antibiotic-resistant (Mar) mutants of Escherichia coli . J. Bacteriol. 170 : 5416-5422. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Denamur, E., S. Bonacorsi, A. Giraud, P. Duriez, F. Hilali, C. Amorin, E. Bingen, A. Andremont, B. Picard, F. Taddei, and I. Matic. 2002. High frequency of mutator strains among human uropathogenic Escherichia coli isolates. J. Bacteriol. 184 : 605-609. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+14. Everett, M. J., Y. F. Jin, V. Ricci, and L. J. Piddock. 1996. Contributions of individual mechanisms to fluoroquinolone resistance in 36 Escherichia coli strains isolated from humans and animals. Antimicrob. Agents Chemother. 40 : 2380-2386. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Fournier, B., and D. C. Hooper. 1998. Mutations in topoisomerase IV and DNA gyrase of Staphylococcus aureus : novel pleiotropic effects on quinolone and coumarin activity. Antimicrob. Agents Chemother. 42 : 121-128. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+16. Friedman, S. M., T. Lu, and K. Drlica. 2001. Mutation in the DNA gyrase A gene of Escherichia coli that expands the quinolone resistance-determining region. Antimicrob. Agents Chemother. 45 : 2378-2380. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+17. Giraud, A., I. Matic, M. Radman, M. Fons, and F. Taddei. 2002. Mutator bacteria as a risk factor in treatment of infectious diseases. Antimicrob. Agents Chemother. 46 : 863-865. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Giraud, A., I. Matic, O. Tenaillon, A. Clara, M. Radman, M. Fons, and F. Taddei. 2001. Costs and benefits of high mutation rates: adaptive evolution of bacteria in the mouse gut. Science 291 : 2606-2608. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+19. Giraud, A., M. Radman, I. Matic, and F. Taddei. 2001. The rise and fall of mutator bacteria. Curr. Opin. Microbiol. 4 : 582-585. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+20. Goettsch, W., W. van Pelt, N. Nagelkerke, M. G. Hendrix, A. G. Buiting, P. L. Petit, L. J. Sabbe, A. J. van Griethuysen, and A. J. de Neeling. 2000. Increasing resistance to fluoroquinolones in Escherichia coli from urinary tract infections in The Netherlands. J. Antimicrob. Chemother. 46 : 223-228. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+21. Gootz, T. D., R. P. Zaniewski, S. L. Haskell, F. S. Kaczmarek, and A. E. Maurice. 1999. Activities of trovafloxacin compared with those of other fluoroquinolones against purified topoisomerases and gyrA and grlA mutants of Staphylococcus aureus . Antimicrob. Agents Chemother. 43 : 1845-1855. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+22. Grkovic, S., M. H. Brown, and R. A. Skurray. 2002. Regulation of bacterial drug export systems. Microbiol. Mol. Biol. Rev. 66 : 671-701. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+23. Heisig, P. 1996. Genetic evidence for a role of parC mutations in development of high-level fluoroquinolone resistance in Escherichia coli . Antimicrob. Agents Chemother. 40 : 879-885. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+24. Heisig, P., and R. Tschorny. 1994. Characterization of fluoroquinolone-resistant mutants of Escherichia coli selected in vitro. Antimicrob. Agents Chemother. 38 : 1284-1291. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Hooper, D. C. 1999. Mechanisms of fluoroquinolone resistance. Drug Resist. Update 2 : 38-55. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+26. Hooper, D. C., J. S. Wolfson, M. A. Bozza, and E. Y. Ng. 1992. Genetics and regulation of outer membrane protein expression by quinolone resistance loci nfxB , nfxC , and cfxB . Antimicrob. Agents Chemother. 36 : 1151-1154. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+27. Hooton, T. M. 2000. Pathogenesis of urinary tract infections: an update. J. Antimicrob. Chemother. 46(Suppl. 1) : 1-7. [ PubMed ] [ Google Scholar ] 
+
+28. Hooton, T. M., D. Scholes, J. P. Hughes, C. Winter, P. L. Roberts, A. E. Stapleton, A. Stergachis, and W. E. Stamm. 1996. A prospective study of risk factors for symptomatic urinary tract infection in young women. N. Engl. J. Med. 335 : 468-474. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+29. Hultgren, S. J., W. R. Schwan, A. J. Schaeffer, and J. L. Duncan. 1986. Regulation of production of type 1 pili among urinary tract isolates of Escherichia coli . Infect. Immun. 54 : 613-620. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+30. Jacoby, G. A., N. Chow, and K. B. Waites. 2003. Prevalence of plasmid-mediated quinolone resistance. Antimicrob. Agents Chemother. 47 : 559-562. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+31. Jellen-Ritter, A. S., and W. V. Kern. 2001. Enhanced expression of the multidrug efflux pumps AcrAB and AcrEF associated with insertion element transposition in Escherichia coli mutants selected with a fluoroquinolone. Antimicrob. Agents Chemother. 45 : 1467-1472. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+32. Jin, D. J., and C. A. Gross. 1988. Mapping and sequencing of mutations in the Escherichia coli rpoB gene that lead to rifampicin resistance. J. Mol. Biol. 202 : 45-58. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+33. Kahlmeter, G. 2000. The ECO.SENS Project: a prospective, multinational, multicentre epidemiological survey of the prevalence and antimicrobial susceptibility of urinary tract pathogens—interim report. J. Antimicrob. Chemother. 46(Suppl. 1) : 15-22. [ PubMed ] [ Google Scholar ] 
+
+34. Kahlmeter, G. 2003. An international survey of the antimicrobial susceptibility of pathogens from uncomplicated urinary tract infections: the ECO.SENS Project. J. Antimicrob. Chemother. 51 : 69-76. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+35. Kern, W. V., M. Oethinger, A. S. Jellen-Ritter, and S. B. Levy. 2000. Non-target gene mutations in the development of fluoroquinolone resistance in Escherichia coli . Antimicrob. Agents Chemother. 44 : 814-820. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+36. Kumagai, Y., J. I. Kato, K. Hoshino, T. Akasaka, K. Sato, and H. Ikeda. 1996. Quinolone-resistant mutants of Escherichia coli DNA topoisomerase IV parC gene. Antimicrob. Agents Chemother. 40 : 710-714. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+37. Langermann, S., R. Mollby, J. E. Burlein, S. R. Palaszynski, C. G. Auguste, A. DeFusco, R. Strouse, M. A. Schenerman, S. J. Hultgren, J. S. Pinkner, J. Winberg, L. Guldevall, M. Soderhall, K. Ishikawa, S. Normark, and S. Koenig. 2000. Vaccination with FimH adhesin protects cynomolgus monkeys from colonization and infection by uropathogenic Escherichia coli. J. Infect. Dis. 181 : 774-778. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+38. LeClerc, J. E., B. Li, W. L. Payne, and T. A. Cebula. 1996. High mutation frequencies among Escherichia coli and Salmonella pathogens. Science 274 : 1208-1211. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+39. Linde, H. J., F. Notka, M. Metz, B. Kochanowski, P. Heisig, and N. Lehn. 2000. In vivo increase in resistance to ciprofloxacin in Escherichia coli associated with deletion of the C-terminal part of MarR. Antimicrob. Agents Chemother. 44 : 1865-1868. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+40. Luria, S. E., and M. Delbrück. 1943. Mutations of bacteria from virus sensitivity to virus resistance. Genetics 28 : 491-511. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+41. Maneewannakul, K., and S. B. Levy. 1996. Identification for mar mutants among quinolone-resistant clinical isolates of Escherichia coli . Antimicrob. Agents Chemother. 40 : 1695-1698. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+42. Martin, R. G., K. W. Jair, R. E. Wolf, Jr., and J. L. Rosner. 1996. Autoactivation of the marRAB multiple antibiotic resistance operon by the MarA transcriptional activator in Escherichia coli . J. Bacteriol. 178 : 2216-2223. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+43. Martinez-Martinez, L., A. Pascual, and G. A. Jacoby. 1998. Quinolone resistance from a transferable plasmid. Lancet 351 : 797-799. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+44. Matic, I., M. Radman, F. Taddei, B. Picard, C. Doit, E. Bingen, E. Denamur, and J. Elion. 1997. Highly variable mutation rates in commensal and pathogenic Escherichia coli. Science 277 : 1833-1834. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+45. Naber, K. G. 2000. Survey on antibiotic usage in the treatment of urinary tract infections. J. Antimicrob. Chemother. 46(Suppl. 1) : 49-52. [ PubMed ] [ Google Scholar ] 
+
+46. Naber, K. G. 2000. Treatment options for acute uncomplicated cystitis in adults. J. Antimicrob. Chemother. 46(Suppl. 1) : 23-27. [ PubMed ] [ Google Scholar ] 
+
+47. Oethinger, M., W. V. Kern, J. D. Goldman, and S. B. Levy. 1998. Association of organic solvent tolerance and fluoroquinolone resistance in clinical isolates of Escherichia coli. J. Antimicrob. Chemother. 41 : 111-114. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+48. Oethinger, M., I. Podglajen, W. V. Kern, and S. B. Levy. 1998. Overexpression of the marA or soxS regulatory gene in clinical topoisomerase mutants of Escherichia coli . Antimicrob. Agents Chemother. 42 : 2089-2094. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+49. Okusu, H., D. Ma, and H. Nikaido. 1996. AcrAB efflux pump plays a major role in the antibiotic resistance phenotype of Escherichia coli multiple-antibiotic-resistance (Mar) mutants. J. Bacteriol. 178 : 306-308. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+50. Oliver, A., R. Canton, P. Campo, F. Baquero, and J. Blazquez. 2000. High frequency of hypermutable Pseudomonas aeruginosa in cystic fibrosis lung infection. Science 288 : 1251-1254. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+51. Pan, X. S., and L. M. Fisher. 1998. DNA gyrase and topoisomerase IV are dual targets of clinafloxacin action in Streptococcus pneumoniae . Antimicrob. Agents Chemother. 42 : 2810-2816. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+52. Park, Y. H., J. H. Yoo, D. H. Huh, Y. K. Cho, J. H. Choi, and W. S. Shin. 1998. Molecular analysis of fluoroquinolone-resistance in Escherichia coli on the aspect of gyrase and multiple antibiotic resistance (mar) genes. Yonsei Med. J. 39 : 534-540. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+53. Perichon, B., J. Tankovic, and P. Courvalin. 1997. Characterization of a mutation in the parE gene that confers fluoroquinolone resistance in Streptococcus pneumoniae . Antimicrob. Agents Chemother. 41 : 1166-1167. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+54. Sanger, F., S. Nicklen, and A. R. Coulson. 1977. DNA sequencing with chain-terminating inhibitors. Proc. Natl. Acad. Sci. USA 74 : 5463-5467. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+55. Schmitz, F. J., M. E. Jones, B. Hofmann, B. Hansen, S. Scheuring, M. Luckefahr, A. Fluit, J. Verhoef, U. Hadding, H. P. Heinz, and K. Kohrer. 1998. Characterization of grlA , grlB , gyrA , and gyrB mutations in 116 unrelated isolates of Staphylococcus aureus and effects of mutations on ciprofloxacin MIC. Antimicrob. Agents Chemother. 42 : 1249-1252. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+56. Taddei, F., M. Radman, J. Maynard-Smith, B. Toupance, P. H. Gouyon, and B. Godelle. 1997. Role of mutator alleles in adaptive evolution. Nature 387 : 700-702. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+57. Travis, J. M., and E. R. Travis. 2002. Mutator dynamics in fluctuating environments. Proc. R. Soc. London Ser. B Biol. Sci. 269 : 591-597. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+58. Walsh, C. 2000. Molecular mechanisms that confer antibacterial drug resistance. Nature 406 : 775-781. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+59. Wang, H., J. L. Dzink-Fox, M. Chen, and S. B. Levy. 2001. Genetic characterization of highly fluoroquinolone-resistant clinical Escherichia coli strains from China: role of acrR mutations. Antimicrob. Agents Chemother. 45 : 1515-1521. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+60. Webber, M. A., and L. J. Piddock. 2001. Absence of mutations in marRAB or soxRS in acrB -overexpressing fluoroquinolone-resistant clinical and veterinary isolates of Escherichia coli . Antimicrob. Agents Chemother. 45 : 1550-1552. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+61. White, D. G., J. D. Goldman, B. Demple, and S. B. Levy. 1997. Role of the acrAB locus in organic solvent tolerance mediated by expression of marA , soxS , or robA in Escherichia coli . J. Bacteriol. 179 : 6122-6126. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+62. Yamagishi, J., H. Yoshida, M. Yamayoshi, and S. Nakamura. 1986. Nalidixic acid-resistant mutations of the gyrB gene of Escherichia coli. Mol. Gen. Genet. 204 : 367-373. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+63. Yang, S., S. R. Clayton, and E. L. Zechiedrich. 2003. Relative contributions of the AcrAB, MdfA and NorE efflux pumps to quinolone resistance in Escherichia coli. J. Antimicrob. Chemother. 51 : 545-556. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+64. Yoshida, H., M. Bogaki, M. Nakamura, and S. Nakamura. 1990. Quinolone resistance-determining region in the DNA gyrase gyrA gene of Escherichia coli . Antimicrob. Agents Chemother. 34 : 1271-1272. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+65. Yoshida, H., M. Bogaki, M. Nakamura, L. M. Yamanaka, and S. Nakamura. 1991. Quinolone resistance-determining region in the DNA gyrase gyrB gene of Escherichia coli . Antimicrob. Agents Chemother. 35 : 1647-1650. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (227.3 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

@@ -1,0 +1,475 @@
+PMID: 16267305
+PMCID: PMC1280316
+DOI: 10.1128/JB.187.22.7815-7825.2005
+Title: Cell division defects in Escherichia coli deficient in the multidrug efflux transporter AcrEF-TolC.
+Journal: Journal of bacteriology
+PubDate: 2005 Nov
+Authors: Lau SY, Zgurskaya HI
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Cell Division Defects in Escherichia coli Deficient in the Multidrug Efflux Transporter AcrEF-TolC - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+J Bacteriol 
+. 2005 Nov;187(22):7815–7825. doi: 10.1128/JB.187.22.7815-7825.2005 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Cell Division Defects in Escherichia coli Deficient in the Multidrug Efflux Transporter AcrEF-TolC 
+
+Sze Yi Lau 
+
+Sze Yi Lau 
+
+1 Department of Chemistry and Biochemistry, University of Oklahoma, Norman, Oklahoma 73019 
+
+Find articles by Sze Yi Lau 
+
+1 , Helen I Zgurskaya 
+
+Helen I Zgurskaya 
+
+1 Department of Chemistry and Biochemistry, University of Oklahoma, Norman, Oklahoma 73019 
+
+Find articles by Helen I Zgurskaya 
+
+1, * 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+1 Department of Chemistry and Biochemistry, University of Oklahoma, Norman, Oklahoma 73019 
+
+* 
+Corresponding author. Mailing address: Department of Chemistry and Biochemistry, University of Oklahoma, 620 Parrington Oval, Room 208, Norman, OK 73019. Phone: (405) 325-1678. Fax: (405) 325-6111. E-mail: elenaz@ou.edu . 
+
+Received 2005 Jul 8; Accepted 2005 Sep 5. 
+
+Copyright © 2005, American Society for Microbiology 
+
+PMC Copyright notice 
+
+PMCID: PMC1280316  PMID: 16267305 
+
+Abstract 
+
+The Escherichia coli chromosome contains several operons encoding confirmed and predicted multidrug transporters. Among these transporters only the inactivation of components of the AcrAB-TolC complex leads to substantial changes in susceptibility to multiple drugs. This observation prompted a conclusion that other transporters are silent or expressed at levels insufficient to contribute to multidrug resistance phenotype. We found that increased expression of AcrA, the periplasmic membrane fusion protein, is toxic only in cells lacking the multidrug efflux transporter AcrEF. AcrEF-deficient cells with increased expression of AcrA have a severe cell division defect that results in cell filamentation (>50 μm). Similar defects were obtained in cells lacking the outer membrane channel TolC, which acts with AcrEF, suggesting that cell filamentation is caused by the loss of AcrEF function. Green fluorescent protein-AcrA fusion studies showed that in normal and filamentous cells AcrA is associated with membranes in a confined manner and that this localization is not affected by the lack of AcrEF. Similarly, the structure and composition of membranes were normal in filamentous cells. Fluorescence microscopy showed that the filamentous AcrEF-deficient E. coli cells are defective in chromosome condensation and segregation. Our results suggest that the E. coli AcrEF transporter is expressed under standard laboratory conditions and plays an important role in the normal maintenance of cell division. 
+
+Bacterial genomes invariably contain several transporters capable of multidrug efflux. However, usually only one of these transporters contributes substantially to the intrinsic levels of antibiotic resistance ( 30 , 37 ). The regulation or physiological function of other transporters remains often unclear. In Escherichia coli , the major transporter responsible for the high intrinsic level of antibiotic resistance is AcrAB-TolC ( 29 ). This transporter consists of three components: the inner membrane transporter AcrB of the RND superfamily, the outer membrane channel TolC, and the periplasmic membrane fusion protein AcrA. Two of the proteins AcrA and AcrB are encoded in a single acrAB operon. The tolC gene is located and expressed independently of acrAB . All three components are required for multidrug resistance since mutations in any of the three proteins lead to the same level of susceptibility to various antimicrobial agents ( 25 ). 
+
+The E. coli chromosome contains close homologs of AcrA and AcrB, named AcrE and AcrF, respectively ( 26 ). When overproduced, AcrEF confers the multidrug resistance phenotype in cells deficient in AcrAB ( 30 ). However, chromosomal deletions of acrEF do not affect the intrinsic levels of multidrug resistance, suggesting that, under laboratory conditions, AcrEF either is not expressed or does not contribute to resistance. 
+
+In the early studies, acrEF was identified as a high-copy suppressor of cell division defects in the filamentous E. coli strain PM61 and at that time was named envCD ( 22 ). More recently, the gene responsible for the cell division defect of PM61 was identified as a murein hydrolase encoded by yibP ( 3 , 14 ). This gene currently bears the name envC . How AcrEF overexpression suppresses the cell division defects of envC mutants remains unclear. In addition to suppression of PM61 cell division defects, the overproduction of AcrEF complements multidrug- and organic solvent-susceptible phenotypes of acrAB mutants ( 21 , 23 ). AcrEF and AcrAB appear to have very similar substrate specificities. The similarity between the two transporters is further underscored by finding that periplasmic membrane fusion proteins are interchangeable between the two complexes so that AcrA can function with AcrF ( 7 ). Furthermore, both transporters require the same outer membrane channel, TolC, for their multidrug efflux activities. 
+
+Currently, there is no phenotype associated with the loss of AcrEF, perhaps because the only extensively tested phenotype of the acrEF null mutant is that of multidrug susceptibility. It also remains controversial whether AcrEF is expressed under standard laboratory conditions. The expression of AcrEF is believed to be tightly repressed by the product of the acrS gene, located immediately upstream of acrEF ( 30 ). AcrS is a transcriptional regulator belonging to the TetR/AcrR family of proteins. In Salmonella enterica inactivation of AcrS was not sufficient to induce acrEF expression ( 33 ). In both E. coli and S. enterica AcrEF overproducers are readily selected in acrAB -deficient mutants when cells are exposed to antibiotics or organic solvents ( 21 , 23 , 33 ). Under such conditions, however, AcrEF overproduction is caused by the incorporation of IS 1 or IS 2 sequences immediately upstream of acrEF . Hybrid promoters created by insertion sequence elements are presumably required for the overproduction of AcrEF. Recent DNA microarrays studies, however, identified the acrEF transcript in wild-type E. coli and the conditions that change its amounts. The overexpression of SdiA, a positive transcriptional activator of ftsQAZ genes, led to 14-fold induction of acrE ( 41 ). Inactivation of H-NS also increased the expression of AcrEF ( 17 , 31 ). The AcrF protein was also identified in E. coli cells during a global analysis of protein-protein interactions ( 6 ). These data suggested that AcrEF is expressed under standard growth conditions. 
+
+Here, we report that overproduction of the periplasmic membrane fusion protein AcrA alone or both AcrA and AcrB in a single operon is toxic in E. coli cells deficient in AcrEF. We found that the major effect of AcrA overexpression in cells lacking AcrEF is the formation of highly filamentous cells (>50 μm). The investigation of cell morphology and composition suggests that the cell filamentation is caused by defects in chromosome segregation. Our results argue that AcrEF is expressed under normal growth conditions and plays an important role in normal cell physiology. 
+
+MATERIALS AND METHODS 
+
+Strains, growth conditions, and drug susceptibility experiments. 
+
+The bacterial strains and plasmids used in this study are listed in Table 1 . E. coli strains were grown at 37°C in Luria-Bertani (LB) medium (10 g of Bactotryptone, 10 g of yeast extract, and 5 g of NaCl per liter). Antibiotics were added when needed to the following final concentration: ampicillin (100 μg/ml), kanamycin (34 μg/ml), spectinomycin (50 μg/ml), tetracycline (25 μg/ml), and chloramphenicol (25 μg/ml). 
+
+TABLE 1. 
+
+Strains and plasmids used in this study 
+
+Strain or plasmid Description Source or reference E. coli AG100 K-12 argE3 thi-1 rpsL xyl mtl galK supE441 Δ( gal-uvrB ) λ − 11 AG100A Same as AG100 but Δ acrAB :: kan 32 AG100AX Same as AG100 Δ acrAB :: kan Δ acrEF :: spe 28 W4680E K-12 strain W4680 Δ acrEF :: spe H. Nikaido ECM2112 K-12 strain MC4100 Δ acrAB :: kan Δ tolC :: tet O. Lomovskaya Plasmids pUC18 E. coli cloning vector, Amp r pACYC184 E. coli cloning vector, Cm r Tet r pQB1T7 GFP gene under Ptac promoter Quantum pUC151A pUC18 carrying acrAB 26 pBP pUC18 expressing acrB under native promoter 38 pHK11 pBR322 with cvaABC and cvi genes 19 pUC-AcrA pUC18 carrying acrA This study pACYC-AcrEF pACYC184 carrying acrEF This study pACYC-AcrF pACYC184 carrying acrF This study pUC-Cva-AcrA pUC151A with translational cvaA-acrA fusion This study pUC-GFP-AcrA pUC-Cva-AcrA with translational GFP-cvaA-acrA fusion This study 
+
+Open in a new tab 
+
+The MICs of various antimicrobial agents were determined as described before ( 38 ). 
+
+Plasmid construction. 
+
+The pUC-AcrA plasmid was obtained by treatment of pUC151A with DraIII and NsiI restriction enzymes followed by incubations with T4 DNA polymerase and T4 DNA ligase. In pUC-AcrA, the C-terminal 716 amino acid residues of AcrB are deleted. Judging from complementation studies of the drug susceptible phenotype of AG100AX the truncated AcrB is nonfunctional (data not shown). To construct pUC-Cva-AcrA, a 163-bp PCR fragment encoding the transmembrane domain of CvaA was amplified from plasmid pHK11 using the forward primer 5′-GGCCGGCTCGAGGTTTACATATGAAGTGGCAGGGACGG-3′ and the reverse primer 5′-GGCCGGTGGCCACCTTGTTGGGCCTGGCTATAGGTACCAACAATAATG-3′. The PCR fragment was digested with XhoI and MscI restriction enzymes and inserted into plasmid pUC151A treated with the same restriction enzymes. This fragment replaced the coding sequence for the first 28 amino acids of AcrA. 
+
+To construct pUC-GFP-AcrA, the gfp gene was amplified from the pQB1T7 plasmid using primers with flanking XhoI restriction sites. The 747-bp PCR fragment was digested with XhoI and inserted into pUC-Cva-AcrA, treated with XhoI and calf intestinal alkaline phosphatase. To construct pACYC-AcrEF, the acrEF operon was amplified by PCR using E. coli K-12 chromosomal DNA as a template. The PCR fragment was treated with the AvaI and HindIII restriction enzymes and ligated into pACYC184 treated with the same enzymes. The 781-bp fragment of acrE was deleted from pACYC-AcrEF by digestion with AleI and ApaLI restriction enzymes followed by treatment with T4 DNA polymerase and T4 DNA ligase. The resulting plasmid, pACYC-AcrF, expressed AcrF, presumably under the native acrEF promoter. 
+
+Microscopy. 
+
+Freshly transformed bacterial strains were grown to an optical density at 600 nm (OD 600 ) of 0.6 to 0.8 in 5 ml of LB medium supplemented with 100 μg/ml of ampicillin. 
+
+Phase contrast microscopy. 
+
+We mixed 300 μl of cell culture with 15 μl of 25 μg/ml poly- l -lysine. The mixture was spread on coverslips and incubated for 5 min. Excess liquid was removed and the coverslips were rinsed six times in phosphate-buffered saline (PBS) solution (pH 7.3); 5 μl of PBS were spotted onto a slide and the coverslips were placed on the top. Slides were photographed with a Black and White Spot camera (Insight) mounted on an Olympus BX50 microscope through an UPlanFI ×100/1.3 oil-immersion objective. 
+
+Fluorescence microscopy. 
+
+To visualize chromosomes and membranes, cells were fixed by mixing 400 μl of cell culture with 6.6 ml of ice-chilled PBS/ethanol (75%). Cells were collected by centrifugation, washed once with PBS, and resuspended in 300 μl of PBS. Slides were prepared as described for the phase contrast microscopy. For the last step 5 μl of PBS supplemented with 1x Sypro Orange stain (a nonspecific hydrophilic fluorescent protein dye that does not stain nucleic acids) and 100 nM 4′,6′-diamidino-2-phenylindole (DAPI) (Molecular Probes) were used. For AcrA localization, live exponential-phase bacteria expressing green fluorescent protein (GFP)-CvaA-AcrA fusion protein were spotted onto glass slides and photographed as described above. 
+
+Transmission electron microscopy. 
+
+Cells were collected directly from LB plates supplemented with 100 μg/ml of ampicillin. Fixation was done as described in ( 5 ). Fixed cells enrobed in agar were postfixed with 1% OsO 4 in 0.05 M sodium cacodylate buffer for 1 h at room temperature. After OsO 4 fixation, cells were washed three times with Milli-Q H 2 O. Dehydration was done at room temperature in 15-min sequential steps of 30%, 50%, 70%, 80%, and 95% ethanol followed by three 15-min wash in 100% ethanol. The dehydrated cells were embedded in Embed-812 resin and sectioned to a thickness of 50 to 70 nm. The sectioned blocks were stained 10 min with saturated uranyl acetate and 5 min with Sato's lead ( 13 ) and observed using JEOL 2000-FX electron microscope in the Samuel Roberts Noble Electron Microscopy Laboratory at the University of Oklahoma. 
+
+Sucrose density gradient fractionation. 
+
+Cells were grown in 100 ml of LB medium supplemented with ampicillin (100 μg/ml) to an OD 600 of 0.8 to 1.0 and harvested by centrifugation. The EDTA-lysozyme treatment was performed as described previously ( 34 ). The resulting spheroplasts were sonicated (Branson Sonifier 450) for 45 s on ice. After removal of unbroken cells by centrifugation, membrane vesicles were collected by ultracentrifugation in a Beckman 70-Ti rotor at 60,000 rpm for 1 h. The resulting membrane pellet was resuspended in solution of 20% sucrose and 5 mM EDTA. All subsequent steps for membrane preparation were done as described before ( 20 , 39 ). Membranes separated in the sucrose gradient were collected in 0.1 to 0.2 ml fractions from the bottom of the centrifuge tube. Fractions were mixed with sodium dodecyl sulfate (SDS) sample buffer, boiled for 10 min, analyzed by 10% sodium dodecyl sulfate-polyacrylamide gel electrophoresis (PAGE) and visualized by silver nitrate staining. 
+
+Immunoblotting analysis. 
+
+Bacterial cells were grown to OD 600 of 0.6 to 0.8 in 5 ml of LB medium supplemented with 100 μg/ml of ampicillin and collected by centrifugation. Cells were disrupted by sonication in 0.5 ml of 10 mM Tris-HCl (pH 8.0) containing 1 mM EDTA and 1 mM phenylmethylsulfonyl fluoride. Then, total membranes were collected by ultracentrifugation in a Beckman TLA-55 rotor at 40,000 rpm for 40 min. Total membranes were resuspended directly in the SDS-sample buffer for 10% SDS-PAGE analysis. Alternatively, the total membrane pellet was resuspended in 100 μl of PBS solution containing 2% Triton and 10 mM MgCl 2 and left on ice for 30 min followed by another round of ultracentrifugation at 40,000 rpm for 40 min. The supernatant was collected as the inner membrane fraction. Protein concentrations were determined using the DC Protein Assay (Bio-Rad) with bovine serum albumin as a standard. The inner membrane fractions of equal protein amount (3 μg) were loaded onto standard 10% SDS-polyacrylamide gel and immunoblotting was performed by standard techniques. Polyclonal anti-AcrA and anti-AcrB antibodies were used for immunodetection ( 43 ). 
+
+Bocillin FL binding assay. 
+
+The bocillin binding assay was performed as described ( 45 ) with the following modifications. Cells were first grown in 5 ml LB medium supplemented with appropriate antibiotics overnight. Overnight cultures were inoculated into 200 ml of fresh medium and allowed to grow until an OD 600 of ∼1.0, and harvested at 5,000 × g for 20 min. Cell were washed once with 20 mM potassium phosphate buffer (pH 7.5) containing 140 mM NaCl and resuspended in 2 ml of the same buffer supplemented with 1 mM EDTA. Lysozyme was added to the mixture to a final concentration 100 μg/ml, cell were incubated on ice for 15 to 30 min and sonicated 3 times for 20 seconds on ice. Unbroken cells and cell debris were removed by centrifugation at 5,000 × g for 20 min. The supernatant was collected by centrifugation in Beckman TLA-55 rotor at 40,000 rpm for 40 min. The resulting pellet was washed once and resuspended in 0.5 ml of the 20 mM potassium phosphate buffer (pH 7.5) containing 140 mM NaCl. The membrane preparations were used for the bocillin FL binding assay as performed ( 45 ). 
+
+Reverse transcription-PCR. 
+
+Reverse transcription (RT)-PCR was performed by using QIAGEN OneStep RT-PCR, which allows reverse transcription and PCR to be carried out sequentially in the same reaction tube. Total RNA was isolated from exponentially growing cells at OD 600 of 0.8 to 1.0 and stationary phase cells using QIAGEN RNeasy kit. Purified total RNA (2 μg) was used as a template in RT-PCR. For AcrEF, forward primer GTAATGACGAAACATGCCAGGTTTTTCCTC and reverse primer GATTTATCCTTTAAAGCAACGGCGGATCACC were used to yield a product of 4,280 bp. For SulA, forward primer 5′-GAGTGAATTTTTAGCCCGGAAAGTTGTCTC-3′ and reverse primer 5′-GTACACTTCAGGCTATGCACATCGTTCTTC-3′ were used to yield a product of 482 bp. 
+
+RESULTS 
+
+Increased expression of AcrA leads to filamentation of E. coli cells deficient in AcrEF 
+
+. During studies of the AcrAB multidrug transporter we noticed that transformation of a high-copy number plasmid pUC151A expressing AcrA and AcrB under the native P acrAB promoter into E. coli strains lacking AcrEF would often proceed with very low efficiency. Phase-contrast microscopy of cells deficient in either AcrEF (W4680E) or both AcrEF and AcrAB (AG100AX) showed that these strains grow as highly filamentous cells (the length of filaments is more than 50 μm) when the expression of AcrAB increased (Fig. 1A ). In contrast, the cell morphology of wild-type E. coli cells (AG100) or cells lacking only AcrAB (AG100A) and carrying pUC151A was normal. 
+
+FIG. 1. 
+
+Open in a new tab 
+
+E. coli cells lacking AcrEF or TolC are defective in cell division when AcrA levels are increased. A. The pUC18 vector or pUC18-based plasmids expressing AcrA (pUC-AcrA), AcrB (pBP) or both proteins (pUC151A) were introduced by transformation into E. coli with different genetic backgrounds. Cell morphology was investigated by phase-contrast microscopy. B. The levels of AcrA expression from pUC-AcrA and pUC151A in normal and filamentous strains were determined by immunoblotting with polyclonal anti-AcrA antibodies ( 43 ). The inner membrane fractions from various cells were isolated and analyzed as described in Materials and Methods. C. Growth curves (open symbols) and CFU (solid symbols) of AG100AX (left panel) and ECM2112 (right panel) strains carrying either pUC18 (⧫) or pUC-AcrA (•). 
+
+To investigate whether the activity of the multidrug transporter AcrB is toxic in acrEF mutants, cells were transformed with plasmids carrying either the periplasmic accessory protein AcrA (pUC-AcrA) or AcrB (pBP) alone. Surprisingly the increased expression of AcrA alone was sufficient to cause cell filamentation in AcrEF null cells (Fig. 1A ). No detrimental effect of the AcrA overproduction was found in the wild-type or AcrAB null mutant. The overproduction of AcrB transporter was well tolerated and all cells carrying pBP were morphologically normal. 
+
+The filamentous AG100AX/pUC-AcrA cells grew more slowly than normal AG100AX/pUC18 cells with growth rates of 1.03 and 1.56 h −1 , respectively. Consistent with the filamentous phenotype, the CFU of AG100AX/pUC-AcrA were lower by two to three orders of magnitude than those of AG100AX/pUC18 (Fig. 1C ). 
+
+The AcrA effect on cell morphology was dependent on the amount of AcrA. Low levels of AcrA expression induced only mild or no filamentation of AcrEF null cells (see below). The chromosomal levels of AcrA expression in AG100MB (Δ acrB Δ acrEF ) (data not shown) or W4680E (Fig. 1A ) did not cause cell division defects. Since cell filamentation depends on the amounts of AcrA, the difference in the AcrA toxicity in E. coli with different genetic backgrounds could also be due to variations in intracellular amounts of the overproduced AcrA. However, immunoblotting analysis showed that the level of AcrA overproduction does not depend on the genetic background of E. coli (Fig. 1B ). In all tested strains the level of AcrA expression from pUC-AcrA was very similar and exceeded the chromosomal AcrA level by several folds. The pUC151A plasmid expressing both AcrA and AcrB in a single operon produced less AcrA in W4680E (Δ acrEF ) and ECM2112 (Δ acrAB ΔtolC) strains. However, AcrA amounts in these cells still exceeded the chromosomal AcrA level. Thus, the cell division defects caused by the overproduction of AcrA are specific for the acrEF mutants. 
+
+AcrA-induced cell filamentation is due to the loss of AcrF function. 
+
+All characterized RND-type transporters of E. coli including AcrAB and AcrEF require for their activity the outer membrane protein TolC ( 30 ). To investigate whether a loss of the AcrEF activity or an aberration in the acrEF region of E. coli chromosome led to filamentation, we introduced plasmids pUC-AcrA and pUC151A into ECM2112 ( ΔacrAB ΔtolC ) (Fig. 1A ). We found that similar to the AcrEF null mutants the increased expression of AcrA caused severe cell division defects in ECM2112. The growth rate of the filamentous ECM2112/pUC-AcrA cells was only 0.4 h −1 compared to 1.39 h −1 for the normal ECM2112/pUC18 cells (Fig. 1C ). CFU for these two strains differed by 3 to 5 orders of magnitude. This result suggested that the function of AcrEF-TolC is required to maintain normal cell morphology under conditions of the increased production of AcrA. 
+
+The best-characterized activity of AcrEF is related to multidrug efflux. MIC measurements showed that AG100AX is reproducibly twofold more susceptible to erythromycin, puromycin, ethidium bromide, and nalidixic acid than strain AG100A (Δ acrAB ) (Table 2 ). Furthermore, when AcrEF was produced from pACYC-AcrEF in AG100AX, AcrEF fully complemented the drug-susceptible phenotype of AG100AX and provided higher levels of resistance to the same set of antibiotics (Table 2 ). 
+
+TABLE 2. 
+
+Antimicrobial susceptibility of AG100AX carrying various constructs a 
+
+Strain MIC (μg/ml) SDS ERY NOV CA PUR EtB NAL AG100A/pUC18 40 4 2 5,000 4 12.5 3.125 AG100AX/pUC18 40 2 2 5,000 2 6.25 0.78 AG100AX/pUC151A >10,000 64 >128 >10,000 64 200 3.125 AG100AX/pACYC-AcrEF >10,000 256 >128 >10,000 256 >200 25 AG100AX/pACYC-AcrF/pUC-AcrA 39 8 64 10,000 8 50 1.56 AG100AX/pUC-Cva-AcrA >10,000 64 128 >10,000 128 200 3.125 AG100AX/pUC-GFP-AcrA >10,000 32 128 >10,000 64 100 3.125 
+
+Open in a new tab 
+
+a 
+Abbreviations: SDS, sodium dodecyl sulfate; ERY, erythromycin; NOV, novobiocin; CA, cholic acid; PUR, puromycin; EtB, ethidium bromide; NAL, nalidixic acid. The MICs of antibiotics for which AcrEF provides greater resistance than AcrAB are in bold. 
+
+To verify that AcrEF is expressed in different E. coli strains we used RT-PCR. Figure 2A shows that AG100AX/pACYC-AcrEF cells contained large amounts of the acrEF transcript in both exponential and stationary phases. As expected AcrEF null mutants did not contain acrEF transcripts. However, small quantities of the longer, mutated acrEF transcript could be detected in AG100AX/pUC-AcrA strain when mRNA was isolated from stationary phase cells. All other tested strains contained detectable quantities of acrEF mRNA in both exponential and stationary phases. We conclude that the acrEF operon is expressed under normal physiological conditions. 
+
+FIG. 2. 
+
+Open in a new tab 
+
+E. coli filamentation is caused by the lack of AcrEF function. A. RT-PCR analysis of acrEF mRNA in E. coli with different genetic backgrounds. Total RNA (2 μg) purified from the exponential (E)- and stationary (S)-phase-grown cells were used in each RT-PCR. B. Immunoblotting analysis of total membranes isolated from AG100AX carrying either pACYC-AcrEF or pACYC-AcrF using polyclonal anti-AcrB antibody ( 44 ). Total membranes isolated from AG100AX carrying pUC18 and pUC151A were used as a negative and a positive control, respectively. Ten times less total membranes from AG100AX/pUC151A (2 μg) were loaded onto the gel to avoid overloading. C. Phase-contrast microscopy of AG100AX/pACYC-AcrEF and AG100AX/pACYC-AcrF carrying as a second plasmid pUC18, pUC-AcrA, pUC151A, or pBP. 
+
+In AcrEF-TolC complex the inner membrane transporter AcrF is responsible for substrate recognition and efflux. To verify that the activity of AcrF is required to maintain normal cell morphology, pACYC-AcrF producing AcrF alone or pACYC-AcrEF carrying the complete acrEF operon were introduced into filamentous AG100AX/pUC-AcrA and AG100AX/pUC151A cells. Since AcrF is homologous to AcrB we used the anti-AcrB antibody to estimate the expression of AcrF. The level of AcrF expression from pACYC-AcrF was substantially lower than that from pACYC-AcrEF (Fig. 2B ). In agreement with previous studies, the coexpression of AcrA and AcrF from the compatible pUC-AcrA and pACYC-AcrF plasmids led to the complementation of the drug susceptible phenotype of AG100AX, albeit only partially (Table 2 ). Probably this partial complementation is due to the low level of AcrF expression (Fig. 2B ). 
+
+Unexpectedly we found that the production of AcrEF from pACYC-AcrEF does not restore normal morphology of the filamentous AG100AX/pUC-AcrA or AG100AX/pUC151A (Fig. 2C , top panel). We noticed however, that AG100AX/pUC18 cells carrying pACYC-AcrEF were slightly elongated, suggesting that AcrEF overexpression is damaging for these cells. AcrE shares 61% identity and 72% similarity with AcrA. We reasoned that the overproduction of AcrE could further aggravate the problem caused by AcrA overproduction. To test this possibility we took advantage of the fact that both proteins can function with the AcrF transporter to confer multidrug resistance ( 23 ). Indeed, we found that pACYC-AcrF producing AcrF alone completely restored the normal morphology of AG100AX/pUC151A. Thus, functional AcrF is required to maintain normal E. coli morphology under conditions of increased production of AcrAB. However, pACYC-AcrF failed to complement the cell division defect of AG100AX/pUC-AcrA (Fig. 2C ). For unknown reasons AcrB is needed for the complementation of function by the overproduced AcrF. Perhaps AcrB sequesters a fraction of AcrA into functional complexes and by this means reduces the toxicity of AcrA overproduction. 
+
+Taken together, these results suggest that functional AcrF is produced in E. coli cells and is required to maintain the normal morphology of E. coli under conditions of increased production of AcrA. 
+
+AcrA localizes in a confined manner in the cytoplasmic membrane of normal and filamentous cells. 
+
+To investigate how increased expression of AcrA leads to filamentation of AcrEF-deficient cells, we compared AcrA localization in normal and filamentous cells using GFP-AcrA fusion protein. For this purpose, the cleavable N-terminal signal peptide of the AcrA precursor was replaced with a single transmembrane segment of CvaA, a structural homolog of AcrA ( 12 ). The constructed CvaA-AcrA chimera was expressed under the native P acrAB promoter in a single operon with AcrB transporter (pUC-Cva-AcrA). Judging by complementation of the drug-susceptible phenotype of AG100AX, the CvaA-AcrA chimeric protein was fully functional (Table 2 ). Next, the N terminus of the CvaA-AcrA chimera was fused with GFP. The resulting construct, pUC-GFP-AcrA, expressed a chimeric protein containing a cytoplasmic GFP domain linked to a periplasmic AcrA domain by a single CvaA transmembrane segment. Western blot analysis with anti-AcrA antibody revealed that the amounts of GFP-CvaA-AcrA produced from pUC-GFP-AcrA were roughly equal to levels of the chromosomally produced wild-type AcrA and about 20- to 30-fold lower than those of the wild-type AcrA produced from pUC151A (Fig. 3A ). The expression of GFP-CvaA-AcrA complemented the drug-susceptible phenotype of AG100AX, suggesting that the GFP-CvaA-AcrA chimeric protein is functionally active. 
+
+FIG. 3. 
+
+Open in a new tab 
+
+AcrA localization is not affected by the loss of AcrEF or TolC. A. Anti-AcrA immunobloting analysis of cells expressing AcrA, CvaA-AcrA and GFP-CvaA-AcrA fusion proteins. Ten times less of total membranes from AG100AX/pUC151A (2 μg) were loaded onto the gel to avoid overloading. B. Inverted images of the GFP-CvaA-AcrA fusion protein expressed from pUC-GFP-AcrA in the wild-type AG100 strain and the AcrEF null mutant W4680E. 
+
+The localization of GFP-CvaA-AcrA was characterized in living cells taken from freshly grown colonies or from mid- to late-logarithmic liquid cultures. Since GFP-CvaA-AcrA is produced from pUC-GFP-AcrA in substantially lower amounts than AcrA produced from pUC151A, the AcrEF- and TolC-deficient cells with the chromosomal copy of AcrA and pUC-GFP-AcrA were mildly filamentous (Fig. 3B ). The morphology of the AG100AX/pUC-GFP-AcrA strain, which does not contain a chromosomal copy of AcrA, was normal (data not shown). The localization of the GFP-CvaA-AcrA protein was restricted to the membrane region in both normal and filamentous AcrEF null cells. Although the degradation product of GFP-CvaA-AcrA fusion can be seen on Western blots blots (Fig. 3A ), the membrane localization was specific for GFP-CvaA-AcrA fusion. 
+
+We found that GFP-CvaA-AcrA fusion protein was highly unstable in TolC null cells. In these cells, GFP fluorescence was evenly distributed throughout the cytoplasm (data not shown). In wild-type and filamentous AcrEF null cells, the membrane bound GFP-CvaA-AcrA was found to be concentrated into foci at the poles and at intermediate positions of growing cells suggesting that the lateral diffusion of AcrA in the inner membrane and periplasm is restricted. The GFP-CvaA-AcrA foci appeared as pairs of dots usually not perpendicular to the long axis of the cells. The focal localization of AcrA was similar in normal and filamentous cells. We conclude that the cell division defects of acrEF mutants are not caused by mislocalization of the overproduced AcrA. 
+
+Increased expression of AcrA does not cause membrane aberrations. 
+
+Overproduction of membrane proteins could lead to the morphological and compositional changes of the cytoplasmic and/or the outer membrane ( 24 ). Figure 4 shows transmission electron microscopic images of normal AG100AX/pUC18 and filamentous AG100AX/pUC-AcrA cells. In both preparations an evenly distributed cytoplasm packed with ribosomes and a nucleoid can be seen (Fig. 4A and 4C ). The cell envelope was clearly seen around majority of cells and consisted of the inner membrane, peptidoglycan layer, and outer membrane (Fig. 4B and 4D ). We did not find accumulation of membrane-rich structures previously documented in prokaryotic cells overproducing certain membrane proteins ( 2 , 24 ). Furthermore, overall membrane morphology was very similar between normal and filamentous cells. However, some differences can also be seen. We did not find complete or partial septa in filaments. In contrast, septum formation, even in the very early stages of cell division, was clearly detected in normal cells. This result suggested that filamentation could be caused by defects in the septum assembly. 
+
+FIG. 4. 
+
+Open in a new tab 
+
+Increased expression of AcrA does not cause membrane aberrations. Transmission electron microscopy of negatively stained normal AG100AX/pUC18 (A and B) and filamentous AG100AX/pUC151A cells (C and D). The inner membrane (IM), peptidoglycan layer (PG), and outer membrane (OM) are indicated by arrows. 
+
+In some of the cross-sections shown in Fig. 4, a contraction in the thickness of the peripheral membrane, peptidoglycan, and outer membrane can be seen in filamentous but not in normal cells. In the other regions of each cell, these structures are similar between two morphological species. Since in our experiments we used a traditional fixation followed by the negative staining approach, this contraction could be a result of sample preparation and processing. Thus, we conclude that the overproduction of AcrA does not perturb the structure of the E. coli cell envelope. The lack of septa in filamentous AcrEF null cells with increased expression of AcrA suggested that filamentation could be due to defects in septum assembly. 
+
+Previous studies showed that defects or inhibition of penicillin-binding proteins (PBPs) lead to aberrations in cell morphology and septum formation. Specifically, thermosensitive mutants of PBP3, also known as FtsI, produced filaments at nonpermissive temperature ( 35 ). Located in the periplasm PBP3 is a membrane transpeptidase required for peptidoglycan synthesis at the septum generated by cell division ( 36 ). If the expression of PBP3 is defective in acrEF cells, then large amounts of AcrA in the periplasm could further compromise the PBP3 function leading to formation of filaments. To investigate if the expression of PBPs is altered in acrEF mutants, crude membrane fractions were purified and treated with fluorescent β-lactam antibiotic bocillin. Figure 5A shows the composition of PBPs in E. coli cells with different genetic background. The composition and amounts of PBPs in all tested E. coli strains were identical. 
+
+FIG. 5. 
+
+Open in a new tab 
+
+Membrane protein composition is not affected by the lack of AcrEF and filamentation. A. Bocillin FL labeling of total membranes isolated from various E. coli strains. B. Sucrose density fractionation of total membranes isolated from normal and filamentous cells lacking AcrEF. Areas of the inner membrane fractions with differential levels of proteins are marked with a star. 
+
+We next studied the protein composition of cell envelopes isolated from normal and filamentous cells. For this purpose, E. coli cells were converted into spheroplasts by EDTA-lysozyme treatment ( 34 ). Crude membranes were first purified by sedimentation in a two-step sucrose gradient and then subjected to sedimentation through a 30%-60% sucrose gradient following the technique of Ishidate et al. ( 20 ). Previously, using this approach we found that the majority of the wild type AcrA remains associated with the inner membrane during sucrose density centrifugation ( 39 ). However, about 30% of AcrA reproducibly comigrated with the outer membrane fractions. 
+
+Figure 5B shows the purified cell envelopes from the normal and filamentous AG100AX strain carrying pUC18 and pUC-AcrA, respectively. The inner and outer membranes from both cell types migrated to the expected positions on a sucrose gradient, 1.16 to 1.18 g/ml and 1.22 to 1.26 g/ml for the inner membrane and outer membrane, respectively (data not shown). Thus, the overall lipid and protein compositions of cell envelopes from normal and filamentous cells are very similar. 
+
+This result was confirmed by staining the membrane fractions separated by SDS-PAGE with silver nitrate. Composition of major inner membrane and outer membrane proteins of normal and filamentous cells appears to be very similar (Fig. 5B ). However, two major bands in the intermediate fraction and a few minor bands in the inner membrane fraction showed different expression levels in normal and filamentous cells. The major protein migrated in the intermediate density fractions of the cell envelopes isolated from normal cells was identified by the N-terminal protein sequencing as flagellin encoded by fliC gene. The amounts of minor bands in inner membrane fractions correlated with the amount of FliC and were lower in the filamentous cells. Thus, the differences in protein composition seen on SDS-PAGE gels could be largely attributed to either the differential expression of flagellum genes or posttranslational effects on flagellum in normal and filamentous cells. Judging by immunoblotting the second major protein of the intermediate fraction is AcrA (data not shown). 
+
+Taken together these results suggest that the filamentation of AcrEF null cells is not caused by an adverse effect of the increased levels of AcrA on the membrane morphology or composition. Although acrEF cells readily produce filaments when AcrA expression increases, these cells contain normal amounts of PBP3. 
+
+Increased levels of AcrA in acrEF null cells interfere with chromosome segregation. 
+
+In E. coli , assembly of the septum at the cell division site is negatively regulated by the nucleoid in a phenomenon called nucleoid occlusion ( 8 ). The cell division arrest and cell filamentation are often induced by DNA damage or defects in DNA segregation. To analyze chromosome structure and positioning in the normal and filamentous acrEF null cells, log-phase cells grown at 37°C in LB medium were fixed, stained with DAPI and Sypro Orange, and subjected to fluorescence microscopy to visualize DNA, septa, and/or the cell envelope. This analysis revealed that about half of the filamentous AG100AX/pUC-AcrA cells contain abnormal nucleoids. The abnormal nucleoid-staining patterns observed include nucleoids that are asymmetrically positioned in the filament and large aggregates of nucleoids or decondensed nucleoids occupying an extensive part of the filament (Fig. 6B ). Some filaments however contained normal nucleoids, evenly positioned throughout the filament. The abnormal nucleoid-staining patterns were also absent in AcrEF null cells containing pUC18 alone analyzed in parallel (Fig. 6A ), indicating that these abnormal staining patterns were not a fixation artifact. 
+
+FIG. 6. 
+
+Open in a new tab 
+
+Filamentation of AcrEF cells with increased expression of AcrA is caused by defects in chromosome condensation and segregation. A and B. Fluorescent microscopy of DAPI and Sypro Orange-stained normal and filamentous cells. The Sypro Orange-stained membranes are shown in blue and the DAPI-stained nucleoids are shown in red. The artificial colors are generated by Adobe Photoshop Software. Areas of filaments lacking chromosomes or containing large decondensed chromosomes are indicated by arrows. C. RT-PCR of mRNA encoding the SOS response protein SulA in normal and filamentous cells. Total RNA (2 μg) purified from exponential (E)- and stationary (S)-phase cells was used in each RT-PCR. 
+
+Occasionally the long filaments contained a few normally developed septa suggesting that the cell division apparatus is present and functional in the filaments. However, formation of septa did not correlate with chromosome segregation as evidenced by the presence of large fragments of filaments devoid of both the chromosome and the septum (Fig. 6B ). These results therefore show that the acrEF mutants with increased expression of AcrA are defective in chromosome segregation and condensation. 
+
+E. coli reacts to defects in chromosome segregation by activating the SOS response, which ceases cell division ( 15 ). The SOS response induces the expression of > 30 genes ( 10 ). These genes are involved in a variety of processes, but the majority is involved in DNA repair. One of the SOS genes is sulA . The protein is synthesized in large amounts during SOS response, reaching >0.3% of total protein synthesis. SulA is sufficient to halt cell division by binding to the tubulin-like GTPase FtsZ and preventing septum formation ( 4 , 18 ). To investigate whether cell division arrest of acrEF cells is caused by activation of the SOS response we analyzed the amounts of sulA transcript in normal and filamentous acrEF cells by RT-PCR. We found that the amounts of sulA transcript were similar in normal and filamentous cells. We conclude that the chromosome segregation defects in acrEF null cells with increased production of AcrA are not related to the activation of SOS response. 
+
+DISCUSSION 
+
+In this study we found that the increased expression of the periplasmic membrane fusion protein AcrA induces severe cell division defects in E. coli lacking the multidrug efflux complex AcrEF. AcrEF null cells with increased expression of AcrA grow as long filaments with abnormal nucleoids. Both chromosome segregation and condensation seem to be affected. How could a combination of two factors, the lack of AcrEF and the overproduction of AcrA, result in such defects? Using RT-PCR and MIC measurements we found that AcrEF is expressed under standard laboratory conditions (Table 2 and Fig. 2A ). However, consistent with previous reports this transporter does not contribute substantially to the intrinsic resistance of E. coli to multiple antibiotics. 
+
+Three lines of evidence suggest that the function of AcrEF is related to cell division. First, acrEF is a high-copy suppressor of envC mutants ( 22 ). EnvC is a septal ring murein hydrolase, which is required for the septal murein cleavage to allow outer membrane constriction and daughter cell separation ( 14 ). The Δ envC mutant grows as filaments and the Δ envC mutation is lethal in the absence of the cell division inhibitor MinC/D ( 3 ). Second, the AcrEF expression is dramatically up-regulated in cells overproducing the quorum signal receptor SdiA ( 41 ), which was isolated on the basis of its ability to suppress the division-inhibitory effect of MinC/D ( 40 ). In E. coli , the function of SdiA remains unclear due to pleiotropy ( 41 ). However, SdiA of Salmonella spp. detects and responds to signals generated by other microbial species ( 1 ). The regulation of cell division could be a part of such a response. Finally, our results show that ΔacrEF cells cannot tolerate the overproduction of the periplasmic AcrA protein and grow as long filaments. We propose that the function of AcrEF is important for the normal cell division of E. coli . 
+
+Is the function of AcrEF in cell division related to its transport activity? SetB is at least one example of a transporter involved in the process of cell division but not through its transport function ( 9 ). SetB is a sugar efflux transporter that affects chromosome segregation. However, the transport function of SetB is not required for its role in cell division. The proposed role of SetB in chromosome segregation is the anchoring of the shape-determining protein MreB to the membrane. Perhaps AcrEF could also play a structural role. However, TolC null cells also formed filaments when AcrA production increased, suggesting that the presence of AcrEF in the inner membrane is not sufficient to tolerate AcrA overproduction. Similar to other RND-type transporters, the functionality of AcrEF is dependent on TolC. Thus, it is likely that the role of AcrEF in cell division is related to its transport function. Interestingly, mutations in TolC were also reported to cause defects in chromosome segregation ( 16 ). TolC mutants produced increased numbers of anucleate cells, presumably due to defects in chromosome segregation. 
+
+The best-characterized RND-type transporter, AcrAB, binds its substrates in the periplasm and than presumably expels them into the external medium through the TolC channel ( 27 , 38 , 42 ). AcrEF shares a high degree of homology with AcrAB and most probably the mechanism. We did not find substantial changes in the structure or protein composition of membranes in normal and filamentous cells. This result suggested that AcrEF does not contribute to the process of membrane assembly. The simplest explanation for AcrEF's role in cell division could be that AcrEF is responsible for cleaning the periplasm from products of membrane and murein recycling. Such AcrEF function would explain how the overexpression of AcrEF complements the defects in EnvC murein hydrolase ( 14 , 22 ). The accumulation of toxic products of hydrolysis in the periplasm, for example, could lead to the inhibition of various periplasmic proteins involved in cell division. The increased efflux of toxic compounds by the overproduced AcrEF could alleviate this problem. 
+
+Consistent with the periplasmic role of AcrEF in cell division is the fact that the overproduction of the periplasmic AcrA is detrimental for the division of AcrEF null cells. Our results point onto a nonspecific effect of AcrA. First, although AcrA is overproduced from pUC151A and pUC-AcrA in amounts exceeding the chromosomal level severalfold, the overproduced AcrA is well tolerated by wild-type and AcrAB null cells (Fig. 1 ). Second, cells overproducing AcrA maintain the normal structure and composition of membranes, suggesting that the overproduction per se does not interfere with membrane functions (Fig. 4 and 5 ). The functional GFP-CvaA-AcrA fusion forms foci in periplasm, which are organized in nonperpendicular pairs (Fig. 3 ). However, the localization of AcrA is not affected by the lack of AcrEF. Finally, the overproduction of AcrA homologs AcrE and MacA also leads to filamentation of AcrEF null cells (data not shown). All these data argue that the effect of AcrA on cell division is nonspecific and secondary to the loss of AcrEF function. It is likely that the detrimental effect of AcrA is due to the overcrowding of the periplasm already compromised by the accumulation of toxic recycling products. 
+
+Acknowledgments 
+
+This work was supported in part by a Scientist Development Grant from the American Heart Association and National Institutes of Health grant 1-RO1-AI052293-01A1 to H.I.Z. 
+
+We thank Gregory W. Strout for help with the transmission electron microscopy. 
+
+REFERENCES 
+
+1. Ahmer, B. M. 2004. Cell-to-cell signalling in Escherichia coli and Salmonella enterica. Mol. Microbiol. 52 : 933-945. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+2. Arechaga, I., B. Miroux, S. Karrasch, R. Huijbregts, B. de Kruijff, M. J. Runswick, and J. E. Walker. 2000. Characterisation of new intracellular membranes in Escherichia coli accompanying large scale over-production of the b subunit of F(1)F(o) ATP synthase. FEBS Lett. 482 : 215-219. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+3. Bernhardt, T. G., and P. A. de Boer. 2004. Screening for synthetic lethal mutants in Escherichia coli and identification of EnvC (YibP) as a periplasmic septal ring factor with murein hydrolase activity. Mol. Microbiol. 52 : 1255-1269. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+4. Bi, E., and J. Lutkenhaus. 1993. Cell division inhibitors SulA and MinCD prevent formation of the FtsZ ring. J. Bacteriol. 175 : 1118-1125. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Burdett, I. D., and R. G. Murray. 1974. Septum formation in Escherichia coli : characterization of septal structure and the effects of antibiotics on cell division. J. Bacteriol. 119 : 303-324. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Butland, G., J. M. Peregrin-Alvarez, J. Li, W. Yang, X. Yang, V. Canadien, A. Starostine, D. Richards, B. Beattie, N. Krogan, M. Davey, J. Parkinson, J. Greenblatt, and A. Emili. 2005. Interaction network containing conserved and essential protein complexes in Escherichia coli. Nature 433 : 531-537. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Elkins, C. A., and H. Nikaido. 2003. Chimeric analysis of AcrA function reveals the importance of its C-terminal domain in its interaction with the AcrB multidrug efflux pump. J. Bacteriol. 185 : 5349-5356. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Errington, J., R. A. Daniel, and D. J. Scheffers. 2003. Cytokinesis in bacteria. Microbiol. Mol. Biol. Rev. 67 : 52-65. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Espeli, O., P. Nurse, C. Levine, C. Lee, and K. J. Marians. 2003. SetB: an integral membrane protein that affects chromosome segregation in Escherichia coli. Mol. Microbiol. 50 : 495-509. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+10. Fernandez De Henestrosa, A. R., T. Ogi, S. Aoyagi, D. Chafin, J. J. Hayes, H. Ohmori, and R. Woodgate. 2000. Identification of additional genes belonging to the LexA regulon in Escherichia coli. Mol. Microbiol. 35 : 1560-1572. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+11. George, A. M., and S. B. Levy. 1983. Gene in the major cotransduction gap of the Escherichia coli K-12 linkage map required for the expression of chromosomal resistance to tetracycline and other antibiotics. J. Bacteriol. 155 : 541-548. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Gilson, L., H. K. Mahanty, and R. Kolter. 1990. Genetic analysis of an MDR-like export system: the secretion of colicin V. EMBO J. 9 : 3875-3894. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Hanaichi, T., T. Sato, T. Iwamoto, J. Malavasi-Yamashiro, M. Hoshino, and N. Mizuno. 1986. A stable lead by modification of Sato's method. J. Electron Microsc. (Tokyo) 35 : 304-306. [ PubMed ] [ Google Scholar ] 
+
+14. Hara, H., S. Narita, D. Karibian, J. T. Park, Y. Yamamoto, and Y. Nishimura. 2002. Identification and characterization of the Escherichia coli envC gene encoding a periplasmic coiled-coil protein with putative peptidase activity. FEMS Microbiol. Lett. 212 : 229-236. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+15. Hill, T. M., B. Sharma, M. Valjavec-Gratian, and J. Smith. 1997. sfi -independent filamentation in Escherichia coli is lexA dependent and requires DNA damage for induction. J. Bacteriol. 179 : 1931-1939. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+16. Hiraga, S., H. Niki, T. Ogura, C. Ichinose, H. Mori, B. Ezaki, and A. Jaffe. 1989. Chromosome partitioning in Escherichia coli : novel mutants producing anucleate cells. J. Bacteriol. 171 : 1496-1505. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+17. Hommais, F., E. Krin, C. Laurent-Winter, O. Soutourina, A. Malpertuy, J. P. Le Caer, A. Danchin, and P. Bertin. 2001. Large-scale monitoring of pleiotropic regulation of gene expression by the prokaryotic nucleoid-associated protein, H-NS. Mol. Microbiol. 40 : 20-36. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+18. Huang, J., C. Cao, and J. Lutkenhaus. 1996. Interaction between FtsZ and inhibitors of cell division. J. Bacteriol. 178 : 5080-5085. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+19. Hwang, J., X. Zhong, and P. C. Tai. 1997. Interactions of dedicated export membrane proteins of the colicin V secretion system: CvaA, a member of the membrane fusion protein family, interacts with CvaB and TolC. J. Bacteriol. 179 : 6264-6270. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. Ishidate, K., E. S. Creeger, J. Zrike, S. Deb, B. Glauner, T. J. MacAlister, and L. I. Rothfield. 1986. Isolation of differentiated membrane domains from Escherichia coli and Salmonella typhimurium, including a fraction containing attachment sites between the inner and outer membranes and the murein skeleton of the cell envelope. J. Biol. Chem. 261 : 428-443. [ PubMed ] [ Google Scholar ] 
+
+21. Jellen-Ritter, A. S., and W. V. Kern. 2001. Enhanced expression of the multidrug efflux pumps AcrAB and AcrEF associated with insertion element transposition in Escherichia coli mutants selected with a fluoroquinolone. Antimicrob. Agents Chemother. 45 : 1467-1472. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+22. Klein, J. R., B. Henrich, and R. Plapp. 1991. Molecular analysis and nucleotide sequence of the envCD operon of Escherichia coli. Mol. Gen. Genet. 230 : 230-240. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+23. Kobayashi, K., N. Tsukagoshi, and R. Aono. 2001. Suppression of hypersensitivity of Escherichia coli acrB mutant to organic solvents by integrational activation of the acrEF operon with the IS 1 or IS 2 element. J. Bacteriol. 183 : 2646-2653. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+24. Lefman, J., P. Zhang, T. Hirai, R. M. Weis, J. Juliani, D. Bliss, M. Kessel, E. Bos, P. J. Peters, and S. Subramaniam. 2004. Three-dimensional electron microscopic imaging of membrane invaginations in Escherichia coli overproducing the chemotaxis receptor Tsr. J. Bacteriol. 186 : 5052-5061. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Ma, D., D. N. Cook, M. Alberti, N. G. Pon, H. Nikaido, and J. E. Hearst. 1995. Genes acrA and acrB encode a stress-induced efflux system of Escherichia coli. Mol. Microbiol. 16 : 45-55. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+26. Ma, D., D. N. Cook, M. Alberti, N. G. Pon, H. Nikaido, and J. E. Hearst. 1993. Molecular cloning and characterization of acrA and acrE genes of Escherichia coli . J. Bacteriol. 175 : 6299-6313. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+27. Mao, W., M. S. Warren, D. S. Black, T. Satou, T. Murata, T. Nishino, N. Gotoh, and O. Lomovskaya. 2002. On the mechanism of substrate specificity by resistance nodulation division (RND)-type multidrug resistance pumps: the large periplasmic loops of MexD from Pseudomonas aeruginosa are involved in substrate recognition. Mol. Microbiol. 46 : 889-901. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+28. Miyamae, S., O. Ueda, F. Yoshimura, J. Hwang, Y. Tanaka, and H. Nikaido. 2001. A MATE family multidrug efflux transporter pumps out fluoroquinolones in Bacteroides thetaiotaomicron . Antimicrob. Agents Chemother. 45 : 3341-3346. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+29. Nikaido, H., and H. I. Zgurskaya. 2001. AcrAB and related multidrug efflux pumps of Escherichia coli. J. Mol. Microbiol. Biotechnol. 3 : 215-218. [ PubMed ] [ Google Scholar ] 
+
+30. Nishino, K., and A. Yamaguchi. 2001. Analysis of a complete library of putative drug transporter genes in Escherichia coli . J. Bacteriol. 183 : 5803-5812. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+31. Nishino, K., and A. Yamaguchi. 2004. Role of histone-like protein H-NS in multidrug resistance of Escherichia coli . J. Bacteriol. 186 : 1423-1429. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+32. Okusu, H., D. Ma, and H. Nikaido. 1996. AcrAB efflux pump plays a major role in the antibiotic resistance phenotype of Escherichia coli multiple-antibiotic resistance (Mar) mutants. J. Bacteriol. 178 : 306-308. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+33. Olliver, A., M. Valle, E. Chaslus-Dancla, and A. Cloeckaert. 2005. Overexpression of the multidrug efflux operon acrEF by insertional activation with IS 1 or IS 10 elements in Salmonella enterica serovar Typhimurium DT204 acrB mutants selected with fluoroquinolones. Antimicrob. Agents Chemother. 49 : 289-301. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+34. Osborn, M. J., J. E. Gander, E. Parisi, and J. Carson. 1972. Mechanism of assembly of the outer membrane of Salmonella typhimurium. J. Biol. Chem. 247 : 3962-3972. [ PubMed ] [ Google Scholar ] 
+
+35. Pogliano, J., K. Pogliano, D. S. Weiss, R. Losick, and J. Beckwith. 1997. Inactivation of FtsI inhibits constriction of the FtsZ cytokinetic ring and delays the assembly of FtsZ rings at potential division sites. Proc. Natl. Acad. Sci. USA 94 : 559-564. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+36. Spratt, B. G. 1977. Temperature-sensitive cell division mutants of Escherichia coli with thermolabile penicillin-binding proteins. J. Bacteriol. 131 : 293-305. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+37. Sulavik, M. C., C. Houseweart, C. Cramer, N. Jiwani, N. Murgolo, J. Greene, B. DiDomenico, K. J. Shaw, G. H. Miller, R. Hare, and G. Shimer. 2001. Antibiotic susceptibility profiles of Escherichia coli strains lacking multidrug efflux pump genes. Antimicrob. Agents Chemother. 45 : 1126-1136. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+38. Tikhonova, E. B., Q. Wang, and H. I. Zgurskaya. 2002. Chimeric analysis of the multicomponent multidrug efflux transporters from gram-negative bacteria. J. Bacteriol. 184 : 6499-6507. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+39. Tikhonova, E. B., and H. I. Zgurskaya. 2004. AcrA, AcrB, and TolC of Escherichia coli form a stable intermembrane multidrug efflux complex. J. Biol. Chem. 279 : 32116-32124. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+40. Wang, X. D., P. A. de Boer, and L. I. Rothfield. 1991. A factor that positively regulates cell division by activating transcription of the major cluster of essential cell division genes of Escherichia coli. EMBO J. 10 : 3363-3372. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+41. Wei, Y., J. M. Lee, D. R. Smulski, and R. A. LaRossa. 2001. Global impact of sdiA amplification revealed by comprehensive gene expression profiling of Escherichia coli . J. Bacteriol. 183 : 2265-2272. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+42. Yu, E. W., G. McDermott, H. I. Zgurskaya, H. Nikaido, and D. E. Koshland, Jr. 2003. Structural basis of multiple drug-binding capacity of the acrB multidrug efflux pump. Science 300 : 976-980. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+43. Zgurskaya, H. I., and H. Nikaido. 1999. AcrA is a highly asymmetric protein capable of spanning the periplasm. J. Mol. Biol. 285 : 409-420. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+44. Zgurskaya, H. I., and H. Nikaido. 1999. Bypassing the periplasm: reconstitution of the AcrAB multidrug efflux pump of Escherichia coli. Proc. Natl. Acad. Sci. USA 96 : 7190-7195. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+45. Zhao, G., T. I. Meier, S. D. Kahl, K. R. Gee, and L. C. Blaszczak. 1999. Bocillin FL, a sensitive and commercially available reagent for detection of penicillin-binding proteins. Antimicrob. Agents Chemother. 43 : 1124-1128. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Journal of Bacteriology are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (568.8 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

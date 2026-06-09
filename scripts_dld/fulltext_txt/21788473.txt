@@ -1,0 +1,452 @@
+PMID: 21788473
+PMCID: PMC3186976
+DOI: 10.1128/AAC.00522-11
+Title: OXA-198, an acquired carbapenem-hydrolyzing class D beta-lactamase from Pseudomonas aeruginosa.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2011 Oct
+Authors: El Garch F, Bogaerts P, Bebrone C, Galleni M, Glupczynski Y
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+OXA-198, an Acquired Carbapenem-Hydrolyzing Class D β-Lactamase from Pseudomonas aeruginosa - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2011 Oct;55(10):4828–4833. doi: 10.1128/AAC.00522-11 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+OXA-198, an Acquired Carbapenem-Hydrolyzing Class D β-Lactamase from Pseudomonas aeruginosa ▿ 
+
+Farid El Garch 
+
+Farid El Garch 
+
+1 Laboratoire de Bactériologie, CHU Mont-Godinne, Université Catholique de Louvain, B-5530 Yvoir, Belgium 
+
+Find articles by Farid El Garch 
+
+1, * , Pierre Bogaerts 
+
+Pierre Bogaerts 
+
+1 Laboratoire de Bactériologie, CHU Mont-Godinne, Université Catholique de Louvain, B-5530 Yvoir, Belgium 
+
+Find articles by Pierre Bogaerts 
+
+1 , Carine Bebrone 
+
+Carine Bebrone 
+
+2 Laboratory of Biological Macromolecules, Centre for Protein Engineering, Department of Life Sciences, University of Liege, Liège, Belgium 
+
+Find articles by Carine Bebrone 
+
+2 , Moreno Galleni 
+
+Moreno Galleni 
+
+2 Laboratory of Biological Macromolecules, Centre for Protein Engineering, Department of Life Sciences, University of Liege, Liège, Belgium 
+
+Find articles by Moreno Galleni 
+
+2 , Youri Glupczynski 
+
+Youri Glupczynski 
+
+1 Laboratoire de Bactériologie, CHU Mont-Godinne, Université Catholique de Louvain, B-5530 Yvoir, Belgium 
+
+Find articles by Youri Glupczynski 
+
+1 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+1 Laboratoire de Bactériologie, CHU Mont-Godinne, Université Catholique de Louvain, B-5530 Yvoir, Belgium 
+
+2 Laboratory of Biological Macromolecules, Centre for Protein Engineering, Department of Life Sciences, University of Liege, Liège, Belgium 
+
+* 
+Corresponding author. Mailing address: Laboratoire de Bactériologie, CHU Mont-Godinne, 1 Av. Dr. Gaston Thérasse, B-5530 Yvoir, Belgium. Phone: 32 81 42 32 00. Fax: 32 81 42 32 04. E-mail: farid.elgarch@uclouvain.be . 
+
+Received 2011 Apr 18; Revision requested 2011 May 22; Accepted 2011 Jul 13. 
+
+Copyright © 2011, American Society for Microbiology. All Rights Reserved. 
+
+PMC Copyright notice 
+
+PMCID: PMC3186976  PMID: 21788473 
+
+Abstract 
+
+A carbapenem-resistant Pseudomonas aeruginosa strain (PA41437) susceptible to expanded-spectrum cephalosporins was recovered from several consecutive lower-respiratory-tract specimens of a patient who developed a ventilator-associated pneumonia while hospitalized in an intensive care unit. Cloning experiments identified OXA-198, a new class D β-lactamase which was weakly related (less than 45% amino acid identity) to other class D β-lactamases. Expression in Escherichia coli TOP10 and in P. aeruginosa PAO1 led to transformants that were resistant to ticarcillin and showed reduced susceptibility to carbapenems and cefepime. The bla OXA-198 gene was harbored by a class 1 integron carried by a ca. 46-kb nontypeable plasmid. This study describes a novel class D β-lactamase involved in carbapenem resistance in P. aeruginosa . 
+
+INTRODUCTION 
+
+Carbapenem drugs are often used for treating infections due to multidrug-resistant isolates ( 2 ). However, resistance to these antibiotics increases, leading to an ever-restricted therapeutic choice. In Pseudomonas aeruginosa , resistance to β-lactam agents can be due to the overproduction of chromosome-encoded cephalosporinase ( 23 ), to the alteration of the outer membrane protein OprD ( 36 , 37 ), to the overexpression of the efflux system ( 36 , 37 ), and to the acquisition of exogenous β-lactamases ( 28 ). Among these, class B carbapenemases (i.e., VIM and IMP) and to a lesser extent some class A extended-spectrum β-lactamases (ESBLs) (i.e., GES, KPC) have been involved in the resistance of P. aeruginosa to carbapenems and are considered the transferable resistance determinants having the highest clinical impact on antimicrobial therapy in hospitals worldwide ( 41 ). 
+
+Carbapenem-hydrolyzing class D β-lactamases (OXA-23, OXA-40, OXA-58, OXA-143) (CHDLs) are almost exclusively found in multidrug- and carbapenem-resistant Acinetobacter baumannii ( 6 , 14 , 16 , 18 , 34 ). In P. aeruginosa , to the best of our knowledge, only OXA-40 has been detected in two clonally unrelated clinical isolates resistant to imipenem in Spain ( 38 , 39 ). In these two isolates, the bla OXA-40 gene was located on a 32-kb plasmid also found in the A. baumannii SM28 strain isolated in the same hospital ( 25 , 38 , 39 ). 
+
+In this study, we have identified a new CHDL, OXA-198, that belongs to a new group of class D β-lactamases in a clinical isolate of P. aeruginosa . 
+
+MATERIALS AND METHODS 
+
+Bacterial strains and antimicrobial susceptibility. 
+
+A P. aeruginosa clinical isolate (PA41437) was recovered from the culture of a sputum specimen of an elderly patient hospitalized at the UCL Mont-Godinne University Hospital (Yvoir, Belgium) in April 2010. Bacterial species identification was confirmed by matrix-assisted laser desorption ionization–time of flight mass spectrometry (MALDI-TOF MS) with a Microflex LT mass spectrometer (Bruker Daltonik GmbH, Leipzig, Germany). P. aeruginosa reference strain PAO1 ( 40 ), P. aeruginosa PU21 ( 19 ), and Escherichia coli TOP10 (Invitrogen, Merelbeke, Belgium) were used for plasmid transfer and/or cloning experiments. Susceptibility to antimicrobials was determined by Etest (bioMérieux, Brussels, Belgium) on Mueller-Hinton (MH) agar plates (Bio-Rad, Nazareth, Belgium) and interpreted according to CLSI breakpoints ( 10 ). 
+
+PCR sequencing of bla and of porin-coding genes. 
+
+Detection of OXA β-lactamase genes ( bla OXA-1 group, bla OXA-2 group, bla OXA-10 group, bla OXA-9 , bla OXA-20 , bla OXA-18 ), penicillinase genes ( bla PSE/CARB ), and genes encoding class A ESBL enzymes (GES, VEB, PER, BEL) and metallo-β-lactamases (VIM, IMP) was achieved by PCR as previously described ( 4 , 5 ). The genetic context of the bla OXA-198 gene was assessed by PCR sequencing of the variable region of the integron by using primers designed on the basis of the 5′ and 3′ conserved segments (CS) of class 1 integron ( 22 ) and by primer walking sequencing performed directly on the purified p41437 plasmid using an external sequencing service (Macrogen, Seoul, South Korea). 
+
+Nucleotide sequences were analyzed with the BLASTN algorithm available from the National Center for Biotechnology Information ( http://www.ncbi.nlm.nih.gov/BLAST/ ). PCR sequencing of the gene encoding the outer membrane protein OprD was achieved with primers oprD-FW (5′-CTTCCTTTATAGGCGCGTTG-3′), oprD-RV (5′-AACATAAGACATGCCGTGGA-3′), and oprD1 to oprD4 ( 15 ). 
+
+Plasmid analysis, mating out, and electroporation experiments. 
+
+Plasmid DNA was extracted by the Kieser method ( 20 ) or by the QIAfilter plasmid midikit (Qiagen, Venlo, The Netherlands). E. coli NCTC50192, harboring four plasmids of 154, 66, 38, and 7 kb, was used as a plasmid size marker. Plasmid DNA was analyzed by electrophoresis with a 0.7% agarose gel. Determination of the incompatibility groups of plasmids was done as described by Carattoli et al. ( 7 ), as the authors were able to type some P. aeruginosa plasmids belonging to IncP and IncA/C. The transfer of the resistance marker from P. aeruginosa (PA41437) to P. aeruginosa PU21 (rifampin resistant) was attempted by solid and liquid mating out assays at 37°C ( 24 ). Selection was performed on brain heart infusion (BHI) agar plates supplemented with ticarcillin at 100 μg/ml and rifampin at 100 μg/ml. Moreover, plasmid DNA extracts from P. aeruginosa PA41437 were electroporated into P. aeruginosa PAO1 and in E. coli TOP10 using a Gene Pulser II (Bio-Rad, Marnes-la-Coquette, France) as previously described ( 3 , 8 ), and transformants were selected on BHI agar plates containing 100 μg/ml of ticarcillin. 
+
+Cloning of OXA-198 β-lactamase. 
+
+For cloning of OXA-198, the bla OXA-198 gene was amplified with primers OXA-41437FW (5′-CTC GAATTC ATGCATAAACACATGAGTAAG-3′ [EcoRI site underlined]) and OXA-41437RV (5′-CTC AAGCTT TTATTCGATGATCCCCTTT-3′ [HindIII site underlined]) and cloned in the shuttle vector pUCP24 ( 43 ) in chemically competent E. coli TOP10 cells (Invitrogen, Merelbeke, Belgium). The sequence of the cloned bla OXA-198 PCR-generated DNA fragments was confirmed by sequencing on both strands. The obtained plasmid, pOXA-198, was then electroporated in the wild-type reference P. aeruginosa PAO1 as previously described ( 3 , 8 ), and transformants were selected on BHI agar plates containing 100 μg/ml of ticarcillin and 20 μg/ml of gentamicin (selecting marker of pUCP24). 
+
+Isoelectric focusing analysis. 
+
+Analytical isoelectric focusing (IEF) was performed on freeze-thaw crude culture extracts with an ampholine polyacrylamide gel on pH 3 to 9 PhastGel medium with Phastsystem (Amersham Biosciences, Uppsala, Sweden) according to the manufacturer's protocol, with the only exception being that the migration step was performed at 500 V instead of 2,000 V. 
+
+β-Lactamase extraction and purification. 
+
+OXA-198 β-lactamase was extracted and purified as previously described ( 18 , 33 , 34 ) with slight modifications. Briefly, E. coli TOP10 harboring recombinant plasmid pOXA-198 was grown until A 600 reached 1 at 37°C in 4 liters of BHI broth (BD, Erembodegem, Belgium) containing 100 μg/ml of amoxicillin and 15 μg/ml of gentamicin. The bacterial suspension was pelleted, resuspended in 100 mM phosphate buffer (pH 7.0), and lysed using a cell disrupter Emulsiflex-C3 (Avestin, Mannheim, Germany). The crude extract was then treated with benzonase endonuclease (Merck, Darmstadt, Germany) as recommended by the supplier and centrifuged at 16,000 × g for 30 min at 4°C. The supernatant was dialyzed against 20 mM Tris-H 2 SO 4 buffer (pH 8.0), filtered through a 0.45-μm filter, and loaded on a Q-Sepharose ion exchange chromatography column equilibrated with the same buffer. The β-lactamase was recovered in the flowthrough. The extract was then dialyzed in 20 mM CHES ( N -cyclohexyl-2-aminoethanesulfonic acid) buffer (pH 10.0) and loaded again onto the Q-Sepharose column equilibrated with the same buffer. Elution was performed with a K 2 SO 4 gradient. The fractions containing the highest β-lactamase activities were pooled and dialyzed against 100 mM phosphate buffer (pH 7.0). Enzyme purity was estimated by sodium dodecyl sulfate-polyacrylamide gel electrophoresis. The protein content was measured by the Bio-Rad DC protein assay (Bio-Rad, Nazareth, Belgium). 
+
+Kinetic studies. 
+
+Purified β-lactamase kinetic parameters ( k cat and K m ) were determined by UV spectrophotometry at 30°C in 100 mM sodium phosphate (pH 7.0) as previously described ( 13 , 31 ). The 50% inhibitory concentration (IC 50 ) was determined as the inhibitor (clavulanate or NaCl) concentration that reduced the hydrolysis rate of 100 μM nitrocefin by 50% under conditions in which the enzyme was preincubated with various concentrations of inhibitor for 3 min at 30°C before the addition of the substrate ( 31 , 33 ). Specific activity of the β-lactamase OXA-198 was defined as the amount (unit of enzyme) that hydrolyzed 1 μmol of benzylpenicillin/minute/milligram of protein. 
+
+Microbiological assay of carbapenemase activity. 
+
+Carbapenem hydrolysis activity of OXA-198 was phenotypically investigated on crude extract of PA41437 with a modified method of Masuda et al., as previously described ( 6 , 26 ). Briefly, an MH agar plate was inoculated with the ATCC 25922 E. coli strain, and a disk of imipenem (10 μg) or meropenem (10 μg) was placed at the center of the plate. Four filter paper disks containing 20, 10, and 5 μl of crude extract or 20 μl of sodium phosphate buffer (pH 7.0) were placed 15 mm and 25 mm from the imipenem and meropenem disks, respectively. Plates were incubated overnight at 37°C, and inactivation of imipenem or meropenem was shown by growth of the ATCC 25922 strain within the expected inhibition zone. 
+
+Nucleotide sequence accession number. 
+
+The nucleotide sequence data reported in this paper have been assigned to the EMBL/GenBank nucleotide sequence database under accession number HQ634775 . 
+
+RESULTS 
+
+Origin of the clinical isolate and antibiotic susceptibility. 
+
+The P. aeruginosa PA41437 strain was isolated from consecutive lower-respiratory-tract specimens of a 79-year-old man with no travel history and who had been admitted at the UCL Mont-Godinne University Hospital in April 2010 for acute exacerbation of chronic bronchitis. Initial sputum specimens yielded the presence of a multidrug-resistant Enterobacter aerogenes strain in pure culture, and the patient was treated for 8 days with meropenem (1 g three times a day [TID]). Subsequently, the patient had to be transferred to the intensive care unit (ICU), where he had to be intubated and mechanically ventilated because of severe hypoxemia and major acute respiratory failure. During his stay in the ICU, he developed an aspiration pneumonia, and repeated quantitative cultures of endotracheal aspirates yielded the presence of P. aeruginosa (PA41437) in significant amounts (>10 6 CFU/ml). The in vitro susceptibility pattern of the P. aeruginosa PA41437 isolate is shown in Table 1 . PA41437 was resistant to most β-lactams, including imipenem, but it presented an intermediate susceptibility to meropenem. However, it remained susceptible to ceftazidime and to aztreonam. This strain was also resistant to aminoglycosides (gentamicin, amikacin, and tobramycin) and to ciprofloxacin. Following obtention of the microbiological results, the patient was treated with ceftazidime (2 g TID) for one additional week, but he eventually died due to acute renal failure and cardiac insufficiency. 
+
+Table 1. 
+
+Antimicrobial susceptibility determination for P. aeruginosa clinical isolate, wild-type P. aeruginosa PAO1, PAO1 harboring natural plasmid p41437, PAO1 harboring recombinant plasmid pOXA-198, E. coli reference strain TOP10, and TOP10 harboring pOXA-198 or p41437 
+
+Antibiotic a MIC b (μg/ml) P. aeruginosa E. coli PA41437 PAO1 PAO1 p41437 PAO1 pOXA-198 TOP10 TOP10 p41437 TOP10 pOXA-198 TIM > 256 24 > 256 > 256 2 > 256 > 256 PIP 24 6 32 24 1.5 4 32 TZP 16 3 24 24 1 4 16 FEP 24 3 12 12 0.064 0.064 0.125 CAZ 1.5 2 2 2 0.125 0.125 0.125 IPM > 32 1.5 3 3 0.38 0.5 0.5 MEM 12 0.38 1.5 1.5 0.032 0.047 0.032 ATM 4 4 4 4 0.032 0.047 0.047 GEN 12 1.5 6 > 256 c 0.25 0.5 32 c TOB 96 0.5 32 0.75 0.38 6 0.75 AMK 96 3 64 3 0.75 12 0.75 CIP > 32 0.094 0.094 0.094 <0.002 <0.002 <0.002 CST 1.5 1.5 2 2 0.5 0.5 0.5 
+
+Open in a new tab 
+
+a 
+TIM, ticarcillin-clavulanic acid; PIP, piperacillin; TZP, piperacillin-tazobactam; FEP, cefepime; CAZ, ceftazidime; IPM, imipenem; MEM, meropenem; ATM, aztreonam; GEN, gentamicin; TOB, tobramycin; AMK, amikacin; CIP, ciprofloxacin; CST, colistin. 
+
+b 
+MICs were determined by Etest. Values in boldface correspond to significant changes of MICs. 
+
+c 
+High gentamicin MICs are due to the selecting marker (AAC(3)-I) of the pUCP24 shuttle vector. 
+
+Plasmid content, conjugation experiment, and β-lactamase analysis. 
+
+Extraction of plasmid content of clinical strain PA41437 by the Kieser method revealed the presence of a single nontypeable plasmid, p41437, of ca. 46 kb (data not shown). Transfer of p41437 in wild-type P. aeruginosa PAO1 or in wild-type E. coli TOP10 by electroporation led to transformants resistant to ticarcillin, tobramycin, and amikacin and with reduced susceptibility to piperacillin, piperacillin-tazobactam, carbapenems, cefepime, and gentamicin ( Table 1 ). A conjugation experiment with clinical strain PA41437 or PAO1 p41437 as the donor and rifampin-resistant P. aeruginosa PU21 as the recipient failed to yield transconjugants. β-Lactamase content analysis of culture extracts of the PA41437 clinical strain or of PAO1 transformants harboring p41437 by isoelectric focusing (IEF) showed a β-lactamase band with a pI of 6.4. All PCR screening assays were negative for metallo-β-lactamases, ESBLs, and class D β-lactamases ( 4 , 5 ) (data not shown), leading to the hypothesis that the p41437 plasmid harbored an unknown β-lactamase. 
+
+Cloning and sequencing of OXA-198. 
+
+PCR was done on p41437 plasmid DNA with consensus primers targeting 5′ CS and 3′ CS of class 1 integrons ( 22 ). A 3,000 bp PCR fragment was amplified and yielded three open reading frames (ORFs): (i) an aacA7 gene which encodes the AAC(6′)-Ib enzyme; (ii) an undescribed 789-bp bla OXA gene (GC content of 47.8%), named bla OXA-198 , which encodes a β-lactamase with 83% amino acid identity with a β-lactamase of Chlorobaculum parvum NCIB 8327; and (iii) a cmlA1 gene which encodes a chloramphenicol efflux protein. Analysis of the genetic environment of bla OXA-198 was performed by primer walking on p41437. Figure 1 shows that bla OXA-198 was part of a class 1 integron very similar to that described in the transposon Tn 6060 of a clinical strain of P. aeruginosa ( 9 ). Upstream of the aacA7 gene, the intl1 gene, coding for an integrase, was found. Upstream of the 5′ CS end of the integron, we found IRi inverted repeats flanked by paeR7IM and paeR7IN genes (accession number DQ839391 ) coding for an adenine-specific methyltransferase and a DNA invertase, respectively. Downstream of the bla OXA-198 gene cassette and the cmlA1 gene, we found the 3′ CS fragment containing qacE Δ 1 , sul1 , and orf5 genes. The tniB and tniA genes involved in transposition were located downstream of orf5 ( Fig. 1 ). 
+
+Fig. 1. 
+
+Open in a new tab 
+
+Schematic representation of the genetic environment of the bla OXA-198 gene. The 5′ conserved segment (5′-CS) contains the integrase gene intI1 , while the 3′-CS contains the qacE Δ 1 , sul1 , and orf5 genes typical of class I integrons. Filled circles indicate attC sites. Arrows indicate the direction of transcription of the coding regions. IRi of the Tn 6060 -like sequence is shown. paeR7IM and paeR7IN code for an adenine-specific methyltransferase and a DNA invertase, respectively. Genes tniB and tniA , involved in transposition, are located downstream of orf5 . 
+
+bla OXA-198 encodes a 262-amino-acid protein with a theoretical molecular mass of 30,073 Da, including the signal peptide. Within the deduced amino acid sequence, the five typical sequence motifs of class D β-lactamases were found, namely, 70 STFK 73 , 118 SXV 120 , 144 YGX 146 , W 164 , and 216 KTG 218 ( 21 , 35 , 42 ) ( Fig. 2 ). OXA-198 was weakly related to other carbapenem-hydrolyzing class D β-lactamases sharing 35%, 32%, and 30% amino acid identity with OXA-48, -58, and -143, respectively, and 29% with OXA-51, -23, and -40 ( Fig. 3 ). Cloning of bla OXA-198 in the shuttle vector pUCP24 and expression in E. coli TOP10 or P. aeruginosa PAO1 led to transformants with reduced susceptibility to ticarcillin, piperacillin, piperacillin-tazobactam, carbapenems, and cefepime ( Table 1 ). However, the MIC values of carbapenems for the transformants remained lower than that observed for the clinical isolate PA41437, suggesting that other mechanisms could account for the resistance to carbapenems. Sequencing of the gene coding for the porin OprD in the clinical strain compared to that of PAO1 revealed several mutations and a deletion of 88 nucleotides, which led to a truncated protein lacking the first 110 amino acids (data not shown). 
+
+Fig. 2. 
+
+Open in a new tab 
+
+Comparison of the OXA-198 amino acid sequence with those of carbapenem-hydrolyzing class D β-lactamases OXA-48, -58, -143, -51, -23, and -24/40. Conserved residues are shaded. β-Lactamases are numbered according to the Ambler class D β-lactamase numbering system ( 11 ). 
+
+Fig. 3. 
+
+Open in a new tab 
+
+Dendrogram obtained for representative class D β-lactamases. The alignment used for tree calculation was performed with the ClustalW2 multiple sequence alignment program. Branch lengths are drawn to scale and are proportional to the number of amino acid changes. The distance along the vertical axis has no significance. 
+
+Biochemical properties of β-lactamase OXA-198. 
+
+After purification from extracts of E. coli TOP10 harboring recombinant plasmid pOXA-198, the specific activity of OXA-198 against benzylpenicillin was 2.2 U/mg of protein, and its purification factor was 210-fold. The protein purity was estimated to be >95% by sodium dodecyl sulfate-polyacrylamide gel electrophoresis analysis (data not shown). OXA-198 has a narrow-spectrum hydrolysis profile, including mostly penicillins ( Table 2 ). No activity could be detected against cefotaxime, ceftazidime, cefepime, and aztreonam, as observed for other CHDLs. The rates of imipenem and meropenem hydrolysis were low, with k cat values of 0.1 s −1 and 0.01 s −1 for imipenem and meropenem, respectively ( Table 2 ), although the MICs of both carbapenems for OXA-198-expressing PAO1 were 2- to 3-fold increased ( Table 1 ). As previously described for other CHDLs, hydrolysis of imipenem was faster than that of meropenem ( 35 ). Determination of K m values for imipenem and meropenem (0.15 and 0.006 μM, respectively) showed that OXA-198 has a strong affinity for carbapenems even if hydrolysis is low, resulting in a high k cat / K m ratio (670 and 1,670 mM −1 s −1 , respectively). In comparison to values obtained for benzylpenicillin, the k cat / K m ratios for meropenem and imipenem were 1.5-fold higher and 2-fold lower, respectively ( Table 2 ). A positive modified Masuda test ( 6 , 26 ) performed on a crude sonicated extract of E. coli TOP10 expressing OXA-198 and obtained with imipenem or meropenem confirmed imipenem or meropenem hydrolysis by OXA-198 ( Fig. 4 ). In general, the catalytic activities of OXA-198 were in the same range as those of others CHDLs, such as OXA-58 or OXA-40 ( 34 ). Studies of activity inhibition, as measured by IC 50 determination, showed that OXA-198 was inhibited by NaCl (IC 50 , 37 mM) like many other class D β-lactamases ( 30 , 35 ). Interestingly, OXA-198 activity was also inhibited by clavulanic acid (IC 50 , 7 μM), with concentrations in the same range as that reported for OXA-163, another CHDL with a weak activity against carbapenems ( 32 ). 
+
+Table 2. 
+
+Kinetic parameters of purified β-lactamase OXA-198 
+
+Substrate OXA-198 a k cat (s −1 ) K m b (μM) k cat / K m (mM −1 s −1 ) Benzylpenicillin 15 14 1,070 Ampicillin 37 216 170 Piperacillin 2.6 35 74 Oxacillin 25 30 830 Cephalothin 0.19 12 16 Cefotaxime ND — — Ceftazidime ND — — Cefepime ND — — Aztreonam ND — — Imipenem 0.1 0.15 670 Meropenem 0.01 0.006 1,670 
+
+Open in a new tab 
+
+a 
+Data are means from three independent experiments. Standard deviations were within 10% of the means. ND, no detectable hydrolysis (<0.01 s −1 ); —, not determinable. 
+
+b 
+Determined as K i using nitrocefin as the substrate ( 13 ). 
+
+Fig. 4. 
+
+Open in a new tab 
+
+Microbiological assay plate showing inactivation of meropenem (A) (central disk) or imipenem (B) by the OXA-198 enzyme. MH agar plates were inoculated with the carbapenem-susceptible E. coli ATCC25922 strain. A central disk of meropenem (10 μg) or imipenem (10 μg) was put on the dish with 4 satellite disks containing 20 μl of crude sonicated extract of E. coli TOP10 expressing OXA-198 (nitrocefin-specific activity, 1.05 μmol/min/mg) (1), 10 μl of extract (2), 5 μl of extract (3), and 20 μl of phosphate-buffered saline (4). MEM, meropenem; IPM, imipenem. 
+
+DISCUSSION 
+
+In this study, we have characterized a new carbapenem-hydrolyzing class D β-lactamase, OXA-198, in P. aeruginosa . This class D β-lactamase was only weakly related to other CHDLs, and it constitutes a novel subclass of CHDLs. OXA-198 β-lactamase hydrolyzed penicillins and to a lesser extent carbapenems but had no significant hydrolytic activity against expanded-spectrum cephalosporins, as also observed with other CHDLs ( 6 , 17 , 18 , 34 ). It is, however, likely that OXA-198 may contribute to decreased susceptibility to carbapenem, as confirmed by the modified phenotypic Masuda test ( 6 , 26 ). Comparison of the resistance phenotype of P. aeruginosa clinical strain PA41437 and of its transformants highlighted that additional mechanisms were responsible for the high level of carbapenem resistance. This was substantiated by the observation of various mutations and of a deletion of 88 nucleotides in the oprD gene which led to a truncated protein lacking the first 110 amino acids (data not shown). Our study constitutes the second description of a carbapenem-hydrolyzing class D β-lactamase in P. aeruginosa , after that of Sevillano et al., who reported the presence of OXA-40 on a plasmid also carried by A. baumannii ( 38 ). 
+
+Motifs YGN or FGN at Ambler positions 144 to 146 are characteristic of class D β-lactamase and are involved in the formation of the so-called “oxyanion hole,” a region in space responsible for the stability of enzymatic intermediates and also described as responsible for much of the catalytic efficiency of the serine enzyme ( 12 , 27 , 29 ). For the first time, in OXA-198, a YGE motif was found instead of the classical motif YGN or FGN. Site-directed mutagenesis experiments are needed to explore the catalytic consequences of the replacement of the polar asparagine (N) by the glutamic acid (E) at this position. 
+
+OXA-198 is relatively distant from other carbapenem- and non-carbapenem-hydrolyzing class D β-lactamases. Interestingly, it shares 83% sequence amino acid identity with the native β-lactamase of Chlorobaculum parvum , a member of the green sulfur bacteria of the phylum Chlorobi , which are characteristically found in stratified lakes, microbial mats, and sulfide-rich hot springs ( 1 ), suggesting the possible environmental acquisition of this new class D β-lactamase by P. aeruginosa . Acquisition of this β-lactamase by P. aeruginosa on a class 1 integron carried by a plasmid which can easily be transformed in P. aeruginosa or E. coli could lead to the dissemination of this class D β-lactamase. Moreover, this integron is very similar to that carried by the Tn 6060 transposon found on a genomic island in a VIM-1-positive clinical strain of P. aeruginosa and easily transposable to a conjugative plasmid ( 9 ). 
+
+ACKNOWLEDGMENTS 
+
+We are very grateful to H.P. Schweizer for the gift of pUCP24 and to J.M. Frère for critically reviewing the manuscript. We thank C. Berhin for her excellent technical assistance. 
+
+This work was supported in part by grants from the Belgian Antibiotic Policy Coordination Committee (BAPCOC), Ministry of Public Health, Belgium, and by EU grant FP7-HEALTH-2009-SINGLE-STAGE TEMPOtest-QC, project 241742. F.E.G. was supported by a research grant from the Région Wallonne, Belgium (BioWin BRAIN-Mu). 
+
+Footnotes 
+
+▿ 
+Published ahead of print on 25 July 2011. 
+
+REFERENCES 
+
+1. Alexander B., Andersen J. H., Cox R. P., Imhoff J. F. 2002. Phylogeny of green sulfur bacteria on the basis of gene sequences of 16S rRNA and of the Fenna-Matthews-Olson protein. Arch. Microbiol. 178:131–140 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+2. American Thoracic Society and Infectious Diseases Society of America 2005. Guidelines for the management of adults with hospital-acquired, ventilator-associated, and healthcare-associated pneumonia. Am. J. Respir. Crit. Care Med. 171:388–416 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+3. Ausubel F. M., et al. 2000. Current protocols in molecular biology. John Wiley & Sons, Inc., New York, NY [ Google Scholar ] 
+
+4. Bogaerts P., Bauraing C., Deplano A., Glupczynski Y. 2007. Emergence and dissemination of BEL-1-producing Pseudomonas aeruginosa isolates in Belgium. Antimicrob. Agents Chemother. 51:1584–1585 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Bogaerts P., et al. 2008. Nosocomial infections caused by multidrug-resistant Pseudomonas putida isolates producing VIM-2 and VIM-4 metallo-beta-lactamases. J. Antimicrob. Chemother. 61:749–751 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+6. Bou G., Oliver A., Martinez-Beltran J. 2000. OXA-24, a novel class D beta-lactamase with carbapenemase activity in an Acinetobacter baumannii clinical strain. Antimicrob. Agents Chemother. 44:1556–1561 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+7. Carattoli A., et al. 2005. Identification of plasmids by PCR-based replicon typing. J. Microbiol. Methods 63:219–228 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+8. Choi K. H., Kumar A., Schweizer H. P. 2006. A 10-min method for preparation of highly electrocompetent Pseudomonas aeruginosa cells: application for DNA fragment transfer between chromosomes and plasmid transformation. J. Microbiol. Methods 64:391–397 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+9. Chowdhury P. R., et al. 2009. Tn 6060 , a transposon from a genomic island in a Pseudomonas aeruginosa clinical isolate that includes two class 1 integrons. Antimicrob. Agents Chemother. 53:5294–5296 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+10. Clinical and Laboratory Standards Institute 2010. Performance standards for antimicrobial susceptibility testing. CLSI M100-S20U. Clinical and Laboratory Standards Institute, Wayne, PA [ Google Scholar ] 
+
+11. Couture F., Lachapelle J., Levesque R. C. 1992. Phylogeny of LCR-1 and OXA-5 with class A and class D beta-lactamases. Mol. Microbiol. 6:1693–1705 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+12. Curley K., Pratt R. F. 2000. The oxyanion hole in serine beta-lactamase catalysis: interactions of thiono substrates with the active site. Bioorg. Chem. 28:338–356 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+13. de Meester F., et al. 1987. Automated analysis of enzyme inactivation phenomena. Application to beta-lactamases and DD-peptidases. Biochem. Pharmacol. 36:2393–2403 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+14. Donald H. M., Scaife W., Amyes S. G., Young H. K. 2000. Sequence analysis of ARI-1, a novel OXA beta-lactamase, responsible for imipenem resistance in Acinetobacter baumannii 6B92. Antimicrob. Agents Chemother. 44:196–199 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Dumas J. L., van Delden C., Perron K., Kohler T. 2006. Analysis of antibiotic resistance gene expression in Pseudomonas aeruginosa by quantitative real-time-PCR. FEMS Microbiol. Lett. 254:217–225 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+16. Heritier C., Poirel L., Aubert D., Nordmann P. 2003. Genetic and functional analysis of the chromosome-encoded carbapenem-hydrolyzing oxacillinase OXA-40 of Acinetobacter baumannii. Antimicrob. Agents Chemother. 47:268–273 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+17. Heritier C., Poirel L., Lambert T., Nordmann P. 2005. Contribution of acquired carbapenem-hydrolyzing oxacillinases to carbapenem resistance in Acinetobacter baumannii. Antimicrob. Agents Chemother. 49:3198–3202 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Higgins P. G., Poirel L., Lehmann M., Nordmann P., Seifert H. 2009. OXA-143, a novel carbapenem-hydrolyzing class D beta-lactamase in Acinetobacter baumannii. Antimicrob. Agents Chemother. 53:5035–5038 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+19. Jacoby G. A. 1974. Properties of R plasmids determining gentamicin resistance by acetylation in Pseudomonas aeruginosa. Antimicrob. Agents Chemother. 6:239–252 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. Kieser T. 1984. Factors affecting the isolation of CCC DNA from Streptomyces lividans and Escherichia coli. Plasmid 12:19–36 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+21. Ledent P., Raquet X., Joris B., Van Beeumen J., Frere J. M. 1993. A comparative study of class-D beta-lactamases. Biochem. J. 292(Pt. 2):555–562 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+22. Levesque C., Piche L., Larose C., Roy P. H. 1995. PCR mapping of integrons reveals several novel combinations of resistance genes. Antimicrob. Agents Chemother. 39:185–191 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+23. Livermore D. M. 1992. Interplay of impermeability and chromosomal beta-lactamase activity in imipenem-resistant Pseudomonas aeruginosa. Antimicrob. Agents Chemother. 36:2046–2048 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+24. Livermore D. M., Maskell J. P., Williams J. D. 1984. Detection of PSE-2 beta-lactamase in enterobacteria. Antimicrob. Agents Chemother. 25:268–272 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Lopez-Otsoa F., et al. 2002. Endemic carbapenem resistance associated with OXA-40 carbapenemase among Acinetobacter baumannii isolates from a hospital in northern Spain. J. Clin. Microbiol. 40:4741–4743 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+26. Masuda G., Tomioka S., Hasegawa M. 1976. Detection of beta-lactamase production by Gram-negative bacteria. J. Antibiot. (Tokyo) 29:662–664 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+27. Menard R., et al. 1995. Modification of the electrostatic environment is tolerated in the oxyanion hole of the cysteine protease papain. Biochemistry 34:464–471 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+28. Miriagou V., et al. 2010. Acquired carbapenemases in Gram-negative bacterial pathogens: detection and surveillance issues. Clin. Microbiol. Infect. 16:112–122 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+29. Murphy B. P., Pratt R. F. 1988. Evidence for an oxyanion hole in serine beta-lactamases and DD-peptidases. Biochem. J. 256:669–672 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+30. Naas T., Nordmann P. 1999. OXA-type beta-lactamases. Curr. Pharm. Des. 5:865–879 [ PubMed ] [ Google Scholar ] 
+
+31. Philippon L. N., Naas T., Bouthors A. T., Barakett V., Nordmann P. 1997. OXA-18, a class D clavulanic acid-inhibited extended-spectrum beta-lactamase from Pseudomonas aeruginosa. Antimicrob. Agents Chemother. 41:2188–2195 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+32. Poirel L., et al. 2011. OXA-163, an OXA-48-related class D β-lactamase with an extended activity toward expanded-spectrum cephalosporins. Antimicrob. Agents Chemother. 55:2546–2551 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+33. Poirel L., Girlich D., Naas T., Nordmann P. 2001. OXA-28, an extended-spectrum variant of OXA-10 beta-lactamase from Pseudomonas aeruginosa and its plasmid- and integron-located gene. Antimicrob. Agents Chemother. 45:447–453 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+34. Poirel L., et al. 2005. OXA-58, a novel class D β-lactamase involved in resistance to carbapenems in Acinetobacter baumannii. Antimicrob. Agents Chemother. 49:202–208 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+35. Poirel L., Naas T., Nordmann P. 2010. Diversity, epidemiology, and genetics of class D beta-lactamases. Antimicrob. Agents Chemother. 54:24–38 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+36. Quale J., Bratu S., Gupta J., Landman D. 2006. Interplay of efflux system, ampC , and oprD expression in carbapenem resistance of Pseudomonas aeruginosa clinical isolates. Antimicrob. Agents Chemother. 50:1633–1641 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+37. Rodriguez-Martinez J. M., Poirel L., Nordmann P. 2009. Molecular epidemiology and mechanisms of carbapenem resistance in Pseudomonas aeruginosa. Antimicrob. Agents Chemother. 53:4783–4788 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+38. Sevillano E., Gallego L., Garcia-Lobo J. M. 2009. First detection of the OXA-40 carbapenemase in P. aeruginosa isolates, located on a plasmid also found in A. baumannii. Pathol. Biol. (Paris) 57:493–495 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+39. Sevillano E., et al. 2006. Resistance to antibiotics in clinical isolates of Pseudomonas aeruginosa. Pathol. Biol. (Paris) 54:493–497 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+40. Stover C. K., et al. 2000. Complete genome sequence of Pseudomonas aeruginosa PAO1, an opportunistic pathogen. Nature 406:959–964 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+41. Walsh T. R. 2008. Clinically significant carbapenemases: an update. Curr. Opin. Infect. Dis. 21:367–371 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+42. Walther-Rasmussen J., Hoiby N. 2006. OXA-type carbapenemases. J. Antimicrob. Chemother. 57:373–383 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+43. West S. E., Schweizer H. P., Dall C., Sample A. K., Runyen-Janecky L. J. 1994. Construction of improved Escherichia-Pseudomonas shuttle vectors derived from pUC18/19 and sequence of the region required for their replication in Pseudomonas aeruginosa. Gene 148:81–86 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (978.5 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

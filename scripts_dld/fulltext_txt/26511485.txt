@@ -1,0 +1,1586 @@
+PMID: 26511485
+PMCID: PMC4771212
+DOI: 10.1128/CMR.00019-15
+Title: A Structure-Based Classification of Class A β-Lactamases, a Broadly Diverse Family of Enzymes.
+Journal: Clinical microbiology reviews
+PubDate: 2016 Jan
+Authors: Philippon A, Slama P, Dény P, Labia R
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+A Structure-Based Classification of Class A β-Lactamases, a Broadly Diverse Family of Enzymes - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Clin Microbiol Rev 
+. 2015 Oct 28;29(1):29–57. doi: 10.1128/CMR.00019-15 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+A Structure-Based Classification of Class A β-Lactamases, a Broadly Diverse Family of Enzymes 
+
+Alain Philippon 
+
+Alain Philippon 
+
+a Faculté de Médecine Paris Descartes, Service de Bactériologie, Paris, France 
+
+Find articles by Alain Philippon 
+
+a, ✉ , Patrick Slama 
+
+Patrick Slama 
+
+b Independent Researcher, Paris, France 
+
+Find articles by Patrick Slama 
+
+b , Paul Dény 
+
+Paul Dény 
+
+c Université Paris 3, UFR SMBH, Groupe des Hôpitaux Universitaires Paris—Seine Saint Denis, Centre de Recherches en Cancérologie de Lyon INSERM U1052 UMR CNRS 5286, Lyon, France 
+
+Find articles by Paul Dény 
+
+c , Roger Labia 
+
+Roger Labia 
+
+d Laboratoire Universitaire de Biodiversité et d'Ecologie Microbienne, Quimper, France 
+
+Find articles by Roger Labia 
+
+d 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a Faculté de Médecine Paris Descartes, Service de Bactériologie, Paris, France 
+
+b Independent Researcher, Paris, France 
+
+c Université Paris 3, UFR SMBH, Groupe des Hôpitaux Universitaires Paris—Seine Saint Denis, Centre de Recherches en Cancérologie de Lyon INSERM U1052 UMR CNRS 5286, Lyon, France 
+
+d Laboratoire Universitaire de Biodiversité et d'Ecologie Microbienne, Quimper, France 
+
+✉ 
+Address correspondence to Alain Philippon, philippona@free.fr . 
+
+Citation Philippon A, Slama P, Dény P, Labia R. 2016. A structure-based classification of class A β-lactamases, a broadly diverse family of enzymes. Clin Microbiol Rev 29:29-57. doi: 10.1128/CMR.00019-15 . 
+
+✉ 
+Corresponding author. 
+
+Issue date 2016 Jan. 
+
+Copyright © 2015, American Society for Microbiology. All Rights Reserved. 
+
+PMC Copyright notice 
+
+PMCID: PMC4771212  PMID: 26511485 
+
+SUMMARY 
+
+For medical biologists, sequencing has become a commonplace technique to support diagnosis. Rapid changes in this field have led to the generation of large amounts of data, which are not always correctly listed in databases. This is particularly true for data concerning class A β-lactamases, a group of key antibiotic resistance enzymes produced by bacteria. Many genomes have been reported to contain putative β-lactamase genes, which can be compared with representative types. We analyzed several hundred amino acid sequences of class A β-lactamase enzymes for phylogenic relationships, the presence of specific residues, and cluster patterns. A clear distinction was first made between dd-peptidases and class A enzymes based on a small number of residues (S70, K73, P107, 130SDN132, G144, E166, 234K/R, 235T/S, and 236G [Ambler numbering]). Other residues clearly separated two main branches, which we named subclasses A1 and A2. Various clusters were identified on the major branch (subclass A1) on the basis of signature residues associated with catalytic properties (e.g., limited-spectrum β-lactamases, extended-spectrum β-lactamases, and carbapenemases). For subclass A2 enzymes (e.g., CfxA, CIA-1, CME-1, PER-1, and VEB-1), 43 conserved residues were characterized, and several significant insertions were detected. This diversity in the amino acid sequences of β-lactamases must be taken into account to ensure that new enzymes are accurately identified. However, with the exception of PER types, this diversity is poorly represented in existing X-ray crystallographic data. 
+
+INTRODUCTION 
+
+Natural and acquired resistance to β-lactam compounds, a major family of antibiotics, can result from the synthesis of one or more β-lactamases, which inactivate these drugs (EC 3.5.2.6). The tremendous diversity of these enzymes and their major impact on medicine led to several attempts to classify them by as early as 1970 ( 1 , 2 ). By 1995, >190 unique bacterial proteins had been described, together with their abilities to interact with various β-lactams, serving as the substrates or inhibitors ( 3 ). The diverse enzymatic properties of β-lactamases led to many attempts to categorize them on the basis of their biochemical attributes ( 4 ). The classification by Bush et al., based on the functional characteristics of β-lactamases, was proposed in 1995. This classification included three major groups, defined on the basis of their substrate and inhibitor profiles, molecular masses, and isoelectric points. This classification scheme was updated in 2010, with the addition of peptide sequences to the proposed list of attributes describing new β-lactamases ( 5 ). 
+
+An alternative classification, based on primary structure, was first proposed by Ambler in 1980 ( 6 ). At that time, the identification criterion used, which was based on peptide sequencing, was clearly limited to a small number of laboratories. There were four classes in this system: classes A, B, C, and D. More than 30 years later, this approach is still relevant. The class A, C, and D proteins are serine enzymes, with no significant structural similarities between classes, whereas those of class B, which is currently divided into three subclasses (subclasses B1, B2, and B3), are metalloenzymes containing one or two zinc ions ( 7 ). Functional group 2 molecular class A β-lactamases are the most abundant, with >550 enzymes, including numerous variants ( 8 ). As a support to an updated classification, a large number of sequences have been obtained in the last decade. On 18 September 2014, we queried the GenBank nucleotide sequence database with the keyword “β-lactamase.” This query identified 338,691 entries, suggesting a large number of duplicate entries. It became clear that the molecular classification of these enzymes needed to be reconsidered, and the functional scheme did not include a number of naturally produced enzymes originating from various Gram-positive and Gram-negative species. In addition, several new enzymes have been identified in clinical studies. Finally, the sequences of many genomes have been reported to contain “putative” or “provisional” β-lactamase genes, which can be compared with well-known representative enzymes ( http://www.ncbi.nlm.nih.gov/ and http://www.uniprot.org/ ). 
+
+The large number of sequences deposited in databases raises questions about the relevance of the molecular definition of class A β-lactamases and their diversity. Better knowledge of sequences should improve interpretation by medical biologists and, thus, the information that they provide to clinicians. Among emerging technologies for a clinical microbiology laboratory, microarray methods (chips) are more and more attractive for the detection of resistance genes ( 9 ). 
+
+PHYLOGENY ANALYSIS 
+
+Hall and Barlow determined a new phylogeny for class A serine β-lactamases based on protein structure ( 10 ). Their analysis of 83 nucleotide/peptide sequences from class A β-lactamases clearly separated two groups of enzymes. One major group included widespread types such as TEM-1, PSE-1, SHV-1, and CTX-M. The second one is the CFB group, for Cytophagales-Flavobacteriales-Bacteroidales . Otherwise, there was probable confusion regarding class A β-lactamases for the NPS-1 enzyme and for some enzymes produced by species such as Deinococcus radiodurans , Fusobacterium nucleatum , or Thermosynechococcus elongatus . After sequencing, NPS-1, formerly identified as a class A type enzyme, was finally classified as a class D enzyme ( 5 ). The Thermosynechococcus elongatus enzyme was identified as penicillin-binding protein A (PBP-A) ( 11 ). As early as 1980, Ambler proposed that the following motifs are characteristic for class A β-lactamases: 70SerxxLys (where x's represent variable amino acids), 130SerAspAsn (the “SDN” motif), and 234LysThr/SerGly (the “KTG” motif) ( 6 ). The Glu166 residue in the Ω-loop was found to be critical for the fast hydrolysis of penicillins and for distinguishing between class A β-lactamases and other serine proteins such as dd -peptidases or PBPs ( 11 , 12 ). Moreover, it was recently confirmed that the 166AspxxLysAsn motif (the “ExxLN” motif) is crucial for the definition of this molecular class ( 13 ). 
+
+Figure 1 illustrates a phylogenetic analysis of 285 β-lactamases, while Table 1 lists the 114 β-lactamases identified by classical methods, with a single representative per group of enzymes (so the TEM-type, e.g., is reported only once) ( 4 , 14 – 88 ). The 174 putative enzymes were selected by searching the NCBI database ( http://www.ncbi.nlm.nih.gov/ ) using the keywords “class A β-lactamase” or “β-lactamase” ( 89 – 91 ). Considerable diversity was found among class A β-lactamases, which formed at least two different subclasses, which we propose to name subclasses A1 and A2, widely distributed among several bacterial phyla: Actinobacteria , Bacteroidetes , Cyanobacteria , Firmicutes , and Proteobacteria , including Alpha -, Beta -, and, in particular, Gammaproteobacteria , as previously reported ( 10 , 92 ). Several clusters (clusters 8 to 17) were obtained, including a Gram-positive bacterial clade containing the genus Streptomyces and several genera from the Firmicutes : Bacillus , Clostridium , Mycobacterium , Nocardia , Nocardiopsis , Staphylococcus , and Streptomyces . Two β-lactamase sequences, encoding ROB-1 and ACl-1, products of the Gram-negative bacteria (GNB) Haemophilus influenzae and Acidaminococcus fermentans , respectively, were found among the 88 sequences from Gram-positive bacteria in the phylogenetic tree. Sequence analyses have already suggested that genes encoding β-lactamases can be transferred from Gram-positive to Gram-negative bacteria ( trans -Gram transfer) ( 93 ). 
+
+FIG 1. 
+
+Open in a new tab 
+
+Rooted phylogram for 285 representative and putative class A “β-lactamases.” The protein sequences of representative enzymes are listed in Table 1 . Putative enzymes referenced by a GI number or by a UniProt or GenBank accession number are listed but contain the following conserved motifs common to class A β-lactamases: 70SxxK, 130SDN, and 234K/RT/SG. All sequences were aligned by using Clustal X, and the tree was constructed by the neighbor-joining method ( 89 – 91 ). The tree was rooted by using NPS-1 (class D type) ( 5 ). Compositions of clusters are as follows. Cluster 1 contains CfxA, Bacteroides plebeius (GI:494836881), Bacteroides dorei (GI:495118154), Bacteroides vulgatus (GI:492440614), CepA, Bacteroides thetaiotaomicron (GI:499421831), Bacteroides finegoldii (GI:495040696), Bacteroides xylanisolvens (GI:505345436), Bacteroides caccae (GI:547310572), Paraprevotella clara (GI:547244659), Alistipes putredinis (GI:548241566), Odoribacter splanchnicus (GI:547746400), Coprobacter fastidiosus (GI:550265095), Bacteroides salyersiae (GI:492712252), Parabacteroides johnsonii (GI:495433020), Bacteroides uniformis (GI:492414506), CblA-1, Bacteroides clarus (GI:496412045), Bacteroides stercoris (GI:547517529), Bacteroides cellulolyticus (GI:494410911), and Odoribacter laneus (GI:547316755). Cluster 2 contains Koribacter versatilis (GI:499841677), Fibrella aestuarina (GI:505147229), Solibacter usitatus (GI:500003326), Fischerella muscicola (GI:515346414), Geitlerinema sp. (GI:504984817), Oscillatoria nigro-viridis (GI:504988346), Microcoleus vaginatus (GI:493685886), Terriglobus saanensis (GI:503334310), Granulicella mallensis (GI:504031923), Oxalobacter formigenes (GI:492543941), Leadbetterella byssophila (GI:503175515), Aequorivita sublithincola (GI:504594895), Flavobacterium rivuli (GI:519057907), Microscilla marina (GI:488788845), Runella slithyformis (GI:338212617), Spirochaeta smaragdinae (GI:302338706), SPU-1, CSP-1, CME-1, Elizabethkingia anophelis (GI:496376198), CIA-1, CGA-1, Chryseobacterium gleum (GI:489068003), a Flavobacteriaceae bacterium (GenBank accession number ACU07378 ), TLA-2, TLA-1, Dysgonomonas gadei (GI:493853886), Dysgonomonas mossii (GI:493895874), Mucilaginibacter paludis (GI:495788773), Chitinophaga pinensis (GI:502446270), Solitalea canadensis (GI:504491830), PER-1, and Rheinheimera sp. (GI:496172849). Cluster 3 contains BRO-1, FTU-1, FPH-1, Francisella novicida (GI:489124215), Francisella tularensis (GI:56707736), and Francisella philomiragia (GI:490415072). Cluster 4 contains KPC-2, SFC-1, BIC-1, FRI-1 (GenBank accession number KT192551 ), IMI-1, NMC-A, and SME-1. Cluster 5 contains Janthinobacterium lividum (GI:722541454), MIN-1, PenA-1, PenB, BURTH, BPS-1, PenI, and LUT-1. Cluster 6 contains HugA, BlaP, CumA, SMO-1, RAHN-1, SFO-1, FONA-1, KLUC-1, FEC-1, CTX-M-1, MEN-1, KLUG-1, CTX-M-8, CTX-M-2, TOHO-1 (CTX-M-44), KLUA-1, CdiA, Citrobacter rodentium (GI:283784953), SED-1, K1, OXY-1, RIC-1, and GRI-1. Cluster 7 contains BES-1, Desulfovibrio fructosivorans (GI:302491851), Photorhabdus temperata (GI:572732591), BlaA, Yersinia intermedia (GI:491326176), Yersinia enterocolitica (GI:386308434), Yersinia rohdei (GI:490853828), Yersinia frederiksenii (GI:490849647), ERP-1, and DES-1. Cluster 8 contains Staphylococcus saprophyticus (GI:73663495), Staphylococcus lentus (GI:515566961), PC1, BlaZ, Staphylococcus capitis (GI:488367486), Listeria weihenstephanensis (GI:163862487), Listeria rocourtiae (GI:577782107), CAD-1, and Carnobacterium maltaromaticum (GI:508605778). Cluster 9 contains Acidaminococcus intestini (GI:352684689), ACI-1, Clostridium bolteae (GI:488630754), Clostridium clostridioforme (GI:488638901), Clostridium kluyveri (GI:153955520), Clostridium botulinum (GI:387816964), and Clostridium butyricum (GI:488645596). Cluster 10 contains BCL-1, BlaIII, Bacillus mycoides (GI:238631946), Bacillus megaterium (GI:384046004), BlaP, and Bacillus sonorensis (GenBank accession number WP_006636516 ). Cluster 11 contains Bacillus siamensis (GenBank accession number WP_016936501 ), Bacillus amyloliquefaciens (GI:384159812), Bacillus vallismortis (GenBank accession number WP_010330579 ), Bacillus atrophaeus (GenBank accession number WP_010788750 ), Bacillus subtilis (GI:430758242), Paenibacillus alvei (GI:528203625), Paenibacillus dendritiformis (GI:493726732), Bacillus anthracis (GI:16586918), Bacillus thuringiensis (GI:228921220), Brevibacillus brevis (GI:226310791), Paenibacillus elgii (GI:498185650), and Paenibacillus vortex (GI:493231110). Cluster 12 contains BlaL, BlaU, Streptomyces globisporus (GI:40252999), Streptomyces badius (GI:543894), Streptomyces rapamycinicus (GI:521362049), Streptomyces violaceusniger (GI:345012931), and Streptomyces albulus (GenBank accession number AIA01176 ). Cluster 13 contains R39, Nocardiopsis halotolerans (GI:516138136), Nocardiopsis synnemataformans (GI:516136495), and Nocardiopsis dassonvillei (GI:297561341). Cluster 14 contains Mycobacterium ulcerans (GI:118617810), Mycobacterium marinum (GI:522804997), Mycobacterium kansasii (GI:556580243), BlaC, and Mycobacterium canettii (GI:433635127). Cluster 15 contains FAR-1, AST-1, Nocardia cyriacigeorgica (GI:379708460), and Nocardia brasiliensis (GI:407644603). Cluster 16 contains Streptomyces rimosus (GI:490078826), Streptomyces clavuligerus (UniProt accession number Z54190 ), Streptomyces prunicolor (GI:517893908), Streptomyces sviceus (GenBank accession number EDY57556 ), Streptomyces lavendulae (GI:460976), BlaL, BlaF, Streptomyces afghaniensis (GI:519330093), Streptomyces aureofaciens (GI:115040), Streptomyces avermitilis (GI:29830995), and Streptomyces scabiei (GI:290958323). Cluster 17 contains Mycobacterium smegmatis (GI:441478338), Mycobacterium rhodesiae (GI:353180119), BlaS, and BlaF. Cluster 18 contains Rhodopseudomonas palustris (GI:39933439), Nitrobacter winogradskyi (GI:75674549), Rhizobium leguminosarum (GI:209548458), Rhizobium etli (GI:86356860), and Chelativorans sp . (GI:110634564). Cluster 19 contains Oligotropha carboxidovorans (GI:209885828), Afipia sp. (GI:496699757), Pseudomonas stutzeri (GI:489382757), Hahella chejuensis (GI:83645112), Halomonas anticariensis (GI:654477376), BOR-1, and Bordetella parapertussis (GI:33597187). Cluster 20 contains Hydrogenophaga intermedia (GI:633892804), Collimonas fungivorans (GI:340786568), Polaromonas sp. (GI:495145711), Acidovorax citrulli (GI:120611221), and Roseomonas cervicalis (GI:296263154). Cluster 21 contains Caulobacter vibrioides (GI:490759186) and Caulobacter segnis (GI:295690758). Cluster 22 contains Comamonas aquatica (GI:594555005), Comamonas testosteroni (GI:299532614), Delftia acidovorans (GI:160365590), and Delftia tsuruhatensis (GI:160365590). Cluster 23 contains PME-1, XCC-1, Xanthomonas vasicola (GI:498052867), Xanthomonas axonopodis (GI:515739148), Xanthomonas oryzae (GI:384420274), Xanthomonas campestris (GI:289667228), L2, and Stenotrophomonas maltophilia (GI:344208573). Cluster 24 contains Nitrosomonas eutropha (GI:114331058), Glaciecola arctica (GI:494893065), Hydrogenovibrio marinus (GI:737659509), Geobacter lovleyi (GI:501447176), Marinobacter nanhaiticus (GI:478771237), and Bacillus ambifaria (GI:493811254). Cluster 25 contains BEL-1, IBC-1, GES-1, Sphingomonas paucimobilis (GI:612114377), SGM-1, and Sphingobium sp. (GI:494981436). Cluster 26 contains LAP-1, OHIO-1, SHV-1, Klebsiella variicola (GI:674224895), LEN-1, OKP-A, GIL-1, TEM-1, “ Ca . Hamiltonella defensa” (GI:238898184), TER-1, PLA-1, and ORN-1. Cluster 27 contains HER-1, PSE-3, Pseudomonas putida (GI:430799226), AER-1, MAL-1, CKO-1, Cronobacter pulveris (GI:658501069), and Kosakonia radicincitans (GI:635194415). Cluster 28 contains SCO-1, Alcaligenes faecalis (GI:651371260), RTG-2 (CARB-5), and Thalassospira xiamenensis (GI:745811510). Cluster 29 contains PAL-1, Acinetobacter gyllenbergii (UniProt accession number V2WAG0), Acinetobacter beijerinckii (UniProt accession number N9EC93), Xenorhabdus bovienii (GI:666614305), Vibrio caribbeanicus (GI:309368641), Photobacterium leiognathi (GI:86160920), Vibrio parahaemolyticus (GI:28900332), VHH-1, VHW-1, AmpC, MP-1, Listonella damsela (UniProt accession number H1A9J3), Oleispira antarctica (GI:508730878), Vibrio splendidus (GI:84385766), PLES-1, CARB-3, PSE-1, Endozoicomonas elysicola (GI:658302966), and VAK-3. Cluster 30 contains Fusobacterium periodonticum (GI:492792583), Fusobacterium nucleatum (GI:296155167), and Fusobacterium hwasookii (GI:657691008). Cluster 31 contains Deinococcus peraridilitoris (GI:505047536), Deinococcus maricopensis (GI:503321584), Deinococcus proteolyticus (GI:325284092), Deinococcus deserti (GI:502016181), Deinococcus radiodurans (GI:499189538), Deinococcus phoenicis (GI:736332987), and Deinococcus geothermalis (GI:94554705). Cluster 32 contains Synechococcus elongatus (GI:81169293), Richelia intracellularis (GI:739354188), Nodularia spumigena (GI:493207907), Nostoc punctiforme (GI:501377316), Cylindrospermum stagnale (GI:505018675), Anabaena cylindrica (GI:505029987), and Trichormus azollae (GI:502957652). 
+
+TABLE 1. 
+
+Representative class A β-lactamases examined in the UniProt database f 
+
+Class A β-lactamase Origin of name UniProt accession no. a Location(s) of gene b Organism Group(s) c No. of aa d Reference ACI-1 Aci daminococcus Q9XBM2 ? Aci daminococcus fermentans 2be 284 14 AER-1 Aer omonas Q44056 Tn Aeromonas hydrophila 2c 304 4 AmpC e Amp icillin resistance c lass C Q6T3Q5 Chr Vibrio fischeri 2b 283 15 AST-1 Nocardia ast eroides Q9EZQ7 Chr Nocardia asteroides 2a 310 16 BCL-1 B acillus cl ausii A8RR46 Chr Bacillus clausii 2a 307 17 BEL-1 Bel gium e xtended-spectrum β- l actamase Q3SAW3 P Pseudomonas aeruginosa 2be 283 18 , 19 BES-1 B razil e xtended- s pectrum β- l actamase Q9L6I3 P Serratia marcescens 2be 292 20 BIC-1 Bi cêtre c arbapenemase D2WFL1 Chr Pseudomonas fluorescens 2f 294 21 BlaA β- La ctamase Q01166 Chr Yersinia enterocolitica 2e 294 4 , 87 BlaC β- La ctamase A5U493 Chr Mycobacterium tuberculosis 2b 307 22 , 23 BlaF β- La ctamase Q59517 Chr Mycobacterium fortuitum 2b 294 4 BlaL β- La ctamase Q03680 Chr Streptomyces cacaoi 2d 325 4 BlaP β- La ctamase P00808 Chr Bacillus licheniformis 2a 307 4 BlaP β- La ctamase P30897 Chr Proteus mirabilis 2c 270 4 BlaS β- La ctamase Q7WVE1 Chr Mycobacterium smegmatis 2be 293 4 BlaU β- La ctamase P14560 Chr Streptomyces cacaoi 2a 314 4 BlaY β- La ctamase P00809 Chr Bacillus cereus 2a 306 4 BlaZ β- La ctamase P00807 Chr Staphylococcus aureus 2a 281 4 BlaIII β- La ctamase type III P06548 Chr Bacillus cereus 2a 316 4 BOR-1 Bor detella Q7WKQ6 Chr Bordetella bronchiseptica 2a 305 24 BPS-1 B urkholderia ps eudomallei Q9AGU2 Chr Burkholderia pseudomallei 2be 295 4 , 25 BRO-1 Br anhamella ( M o raxella ) Q59514 P Moraxella catarrhalis 2c 313 4 BURTH Bur kholderia th ailandensis Q2T5A3 Chr Burkholderia thailandensis 2be 322 26 , 27 CAD-1 Ca rnobacterium d ivergens Q4QXY0 Chr Carnobacterium divergens 2a 304 28 CARB-3 Carb enicillin resistance P37322 P Pseudomonas aeruginosa 2c 288 4 CblA C hromosomal b eta- l actamase of class A P30898 Chr Bacteroides uniformis 2e 296 4 CdiA C itrobacter di versus P22390 Chr Citrobacter amalonaticus 2e 294 4 CepA Cep halosporinase of class A Q57150 Chr Bacteroides fragilis 2e 300 4 CfxA C e f o x itin resistance class A P30899 Chr, Tn Bacteroides vulgatus 2e 321 4 CGA-1 C hryseobacterium g leum class A Q8VT49 Chr Chryseobacterium gleum 2be 292 29 CIA-1 C hryseobacterium i ndologenes class A G9M9P7 Chr Chryseobacterium indologenes 2be 292 30 CKO-1 C itrobacter ko seri Q8RNV0 Chr Citrobacter koseri 2b 300 31 CME-1 C hryseobacterium me ningosepticum Q9RAZ9 Chr Elizabethkingia meningoseptica 2be 295 32 CSP-1 C apnocytophaga sp utigena D5HKL4 Chr Capnocytophaga sputigena 2be? 305 33 CTX-M-1 C efo t a x ime M unich Q7AVW6 P Escherichia coli 2be 291 4 CTX-M-2 C efo t a x ime M unich P74841 P Salmonella Typhimurium 2be 291 4 , 34 CTX-M-8 C efo t a x ime M unich Q9RMT4 P Citrobacter amalonaticus 2be 291 35 CumA C ef u roxi m e class A P52664 Chr Proteus vulgaris 2e 300 4 DES-1 Des ulfovibrio desulfuricans Q8KVT3 Chr Desulfovibrio desulfuricans 2be 324 36 ERP-1 Er winia p ersicina Q8L1Z4 Chr Erwinia persicina 2be 293 37 FAR-1 Nocardia far cinica Q5YXD6 Chr Nocardia farcinica 2a 313 38 FEC-1 F ecal E scherichia c oli Q8G9E9 P Escherichia coli 2e, 2be 291 4 FONA-1 Serratia fon ticola class A Q9RIR3 Chr Serratia fonticola 2be 295 39 FPH-1 F rancisella ph ilomiragia YP_001676751 * Chr Francisella philomiragia 2b 294 40 FRI-1 F rench i mipenemase KT192551 * P Enterobacter cloacae 2f 294 88 FTU-1 F rancisella tu larensis CAJ79318 * Chr Francisella tularensis 2a 294 41 GES-1 G uiana e xtended s pectrum Q9KJY7 P Klebsiella pneumoniae 2be 287 42 GIL-1 Citrobacter gil lenii A4KCT8 Chr Citrobacter gillenii 2b? 286 43 GRI-1 Leminorella gri montii A4FRA6 Chr Leminorella grimontii 2be 294 HER-1 Escherichia her mannii Q93FN7 Chr Escherichia hermannii 2b? 290 44 HugA H ôpital U niversitaire G enève class A Q8VTN0 Chr Proteus penneri 2be 298 45 IBC-1 I ntegron- b orne c ephalosporinase Q83ZP8 In Enterobacter cloacae 2be 287 46 IMI-1 Imi penem hydrolyzing Q46991 Chr Enterobacter cloacae 2f 292 47 K1 First resistant K lebsiella isolate (aztreonam) Q938A8 Chr Klebsiella oxytoca ( K. aerogenes ) 2be 290 4 KLUA-1 Klu yvera a scorbata Q9RLX4 Chr Kluyvera ascorbata 2be 291 48 KLUC-1 Klu yvera c ryocrescens Q8VVP3 Chr Kluyvera cryocrescens 2be 291 49 KLUG-1 Klu yvera g eorgiana Q8GNP9 Chr Kluyvera georgiana 2be 291 50 KPC-2 K lebsiella p neumoniae c arbapenemase Q93LQ9 P Klebsiella pneumoniae 2be 293 51 L2 Second l abile enzyme Q9RBQ1 Chr Stenotrophomonas maltophilia 2e 303 4 LAP-1 Initials of one of the authors A0SVI2 P Enterobacter cloacae 2b 285 52 LEN-1 Name of strain P05192 Chr Klebsiella pneumoniae 2a 279 4 LUT-1 Pseudomonas lut eola Q670S6 Chr Pseudomonas luteola 2e 296 53 MAB-1 M ycobacterium ab scessus B1MCI3 Chr Mycobacterium abscessus 2be 289 54 MAL-1 Levinea mal onatica Q9AL74 Chr Citrobacter koseri 2a 300 4 MEN-1 Named after patient P28585 P Escherichia coli 2be 291 4 MIN-1 Min ibacterium massiliensis A6SVG3 Chr Minibacterium massiliensis 2be 299 55 MP-1 Name of strain Q9RA17 Chr Moritella marina 287 56 NMC-A N ot m etallo c arbapenemase class A P52663 Chr, In Enterobacter cloacae 2f 292 4 , 57 OHIO-1 Discovered in the state of Ohio P18251 P Enterobacter cloacae 2b 286 4 OKP-A O ther K lebsiella p neumoniae Q2YHZ5 Chr Klebsiella pneumoniae 2b 286 58 ORN-1 Raoultella orn ithinolytica Q6W7F0 Chr Raoultella ornithinolytica 2b 291 59 OXY-1 Klebsiella oxy toca P22391 Chr Klebsiella oxytoca 2be 291 60 PC1 Strain PC1 M25252 Chr Staphylococcus aureus 2a 281 4 PenA-1 Pen icillin resistance class A G7HSV5 Chr Burkholderia cenocepacia 2be 312 61 PenA Pen icillin resistance class A O08350 Chr Burkholderia cepacia 2be 302 4 , 62 PenA Pen icillin resistance class A B9BS30 Chr Burkholderia multivorans 2be 302 63 PenI Pen icillin resistance H7C785 Chr Burkholderia pseudomallei 2be 295 63 PER-1 P seudomonas e xtended r esistant P37321 P In Pseudomonas aeruginosa 2be 308 4 PLES-1 Ples iomonas shigelloides R8AQR8 Chr Plesiomonas shigelloides 2b 299 PLA-1 Raoultella pla nticola Q6W7F0 Chr Raoultella planticola 2b 291 59 PME-1 P seudo m onas aeruginosa E SBL E9N9H5 P Pseudomonas aeruginosa 2be 309 64 PSE-1 P seudomonas -specific enzyme Q03170 P Pseudomonas aeruginosa 2c 287 4 PSE-3 P seudomonas - s pecific e nzyme AJ877225 P Pseudomonas aeruginosa 2c 293 4 R39 Resistant strain no. Q60225 Chr Actinomadura sp. 2a, 2d, 2be 304 10 RAHN-1 Rahn ella aquatilis Q93ET5 Chr Rahnella aquatilis 2be 295 65 RIC-1 Leminorella ric hardii A4FRA8 Chr Leminorella richardii 2be 295 ROB-1 Named after patient P67918 P Haemophilus influenzae 2b 305 4 RTG-2 Triad 234ArgThrGly236 (RTG) Q9JP71 Chr Acinetobacter calcoaceticus 2c 298 4 , 66 SCO-1 Author's name ( S . Co rvec) A5Y0S3 P Acinetobacter baumannii 2b 288 67 , 68 SED-1 Citrobacter sed lakii Q93PQ0 Chr Citrobacter sedlakii 2be? 295 69 SFC-1 S erratia f onti c ola Q6JP75 Chr Serratia fonticola 2be 309 70 SFO-1 S erratia fo nticola Q9XE09 P Enterobacter cloacae 2be 295 71 SGM-1 S phin g obiu m G2IJJ9 Chr Sphingobium sp. 2be 316 72 SHV-1 S ulf h ydryl reagent v ariable P0AD64 Chr, P Klebsiella pneumoniae 2b 286 4 SMO-1 Smo lensk, Russia R4V074 Chr Ewingella sp. 2be 295 73 SME-1 S erratia m arcescens e nzyme P52682 Chr Serratia marcescens 2f 294 4 , 74 SPU-1 Capnocytophaga spu tigena E2D9D5 Chr Capnocytophaga sputigena 2be 293 75 , 76 STRAL Str eptomyces al bus P14559 Chr Streptomyces albus 2a 314 4 STRCE Str eptomyces ce llulosae Q06650 Chr Streptomyces cellulosae 2a 311 4 STRFR Str eptomyces fr adiae P35392 Chr Streptomyces fradiae 2a 306 4 STRLA Str eptomyces la vendulae P35393 Chr Streptomyces lavendulae 2b 305 77 , 78 TEM-1 Named after patient U48775 P Shigella flexneri 2b 286 4 TER-1 Raoultella ter rigena D2D0D6 Chr Raoultella terrigena 2b 284 79 TLA-1 Named after an Inca tribe ( Tla huicas) Q9X6W1 P, In Escherichia coli 2be 314 80 TLA-2 Named after an Inca tribe ( Tla huicas) Q5W3A6-1 P Uncultured bacteria 2be 304 81 TOHO-1 Japanese school of medicine ( Toho ) Q47066 P Escherichia coli 2be 291 82 VAK-3 V ibrio a lginolyticus K V 3 isolate H9BW95 Chr Vibrio alginolyticus 2b 283 83 VEB-1 V ietnam e xtended-spectrum β -lactamase O87489 P Escherichia coli 2be 287 84 VHH-1 V ibrio h arveyi strain H B3 Q9REJ2 Chr Vibrio harveyi 2c 283 85 VHW-1 V ibrio h arveyi strain W 3B Q9REJ3 Chr Vibrio harveyi 2c 290 85 XCC-1 X anthomonas c ampestris pv. c ampestris O87643 Chr Xanthomonas campestris 2e 295 86 
+
+Open in a new tab 
+
+a 
+Asterisks indicate an NCBI GenBank database accession number ( http://www.ncbi.nlm.nih.gov /). 
+
+b 
+Chr, chromosome; In, integron; P, plasmid; Tn, transposon. 
+
+c 
+Classified by functional group ( 4 , 5 ). 
+
+d 
+aa, amino acids. 
+
+e 
+Such denomination is usually reserved for naming of a class C enzyme ( 4 ). 
+
+f 
+See http://www.uniprot.org /. 
+
+The Gram-negative Proteobacteria , a major group of bacteria producing various representative chromosomal and plasmid-encoded β-lactamases, is represented principally by the Gammaproteobacteria and contains diverse pathogens from several phyla, including Enterobacteriales , Pseudomonadales , and Vibrionales . Several clusters were obtained, corresponding to Burkholderia (cluster 5), LSBLs (limited-spectrum β-lactamases) (clusters 26 to 29), ESBLs (extended-spectrum β-lactamases) (clusters 4, 6, 7, and 25), Francisella (cluster 3), Xanthomonas (cluster 23), and Yersinia (cluster 7) ( Fig. 1 ). Some of the clusters obtained correspond to functional groups from the classification by Bush et al., such as penicillinases (groups 2a and 2b), carbenicillinases (group 2c), extended-spectrum β-lactamases (group 2be), and carbapenemases (group 2f). The branch corresponding to functional groups 2a, 2b, 2c, and 2ce was named the “LSBL” group. This major branch split off early from the root of the subclass A1 branch and may encompass four phyla. In contrast, other enzymes, such as ESBL, were found in several clusters (clusters 4, 6, 7, and 25). 
+
+Another significant group of enzymes formed a clear cluster, which we termed subclass A2, comprising three large orders of Gram-negative, non-spore-forming, aerobic, microaerophilic or anaerobic, and rod-shaped bacteria (originally named the CFB group). The emergence of this phylum predates the divergence of Gram-positive and Gram-negative bacteria ( 10 , 94 ). Again, horizontal transfer events seem to have occurred in this group, as suggested by the presence of PER-1 in Pseudomonas aeruginosa and the presence of VEB-1 and TLA-1 in several species of enterobacteria ( Gammaproteobacteria ) ( 10 , 95 ). 
+
+Finally, the branch containing several species of Deinococcus , Fusobacterium , and Acidobacteria was defined on the basis of only three motifs, SxxK, SDN, and KT/SG. However, no representative β-lactamase was identified in this branch, suggesting that more residues (e.g., Glu166) may be required for the correct identification of a class A β-lactamase from this branch (see Annotation in Data Banks, below). 
+
+PRIMARY STRUCTURE/SEQUENCE ANALYSIS 
+
+In terms of molecular structure, the largest group of class A β-lactamases was originally characterized on the basis of 26 strictly conserved residues ( Table 2 ) ( 6 ). Molecular comparisons of the various class A enzymes were facilitated by the use of a standard numbering scheme, as indicated by the label “ABL” (for class A β-lactamase) ( 96 ). Several years later, Matagne et al. confirmed these findings and updated the list of residues that are involved in the catalytic mechanism and/or in substrate binding ( 12 ). Such characteristic residues have also recently been identified in 67 putative β-lactamases ( 97 ). 
+
+TABLE 2. 
+
+Conserved residues in class A β-lactamases 
+
+Location of residue g % conserved residues Reported by: Total d Subclass A1 e Subclass A2 f Ambler et al. a Matagne et al. b Risso et al. c 37E 100 89 88 77 97 28 45G 100 100 97 97 99 96 G/A 66F 100 96 91 88 99 80 Y/F 70S 100 100 100 100 100 100 73K 100 100 100 100 100 100 81L 100 96 90 95 99 80 L 107P 100 100 93 97 97 94 130S 100 100 100 99 99 100 131D 100 100 100 100 100 100 132N 95 96 97 95 96 90 134A 100 100 96 90 98 91 A/G 136N 100 93 91 79 99 94 D 144G 100 96 96 95 97 90 156G 100 93 97 93 95 85 157D 100 91 83 78 99 58I 164R 100 89 79 73 92 34 A 166E 100 100 93 100 100 100 169L 100 91 77 76 93 81 M 179D 100 91 78 77 97 99 N 180T 100 91 79 76 95 80 W/Y 199L 100 93 92 90 98 80 207L 100 93 82 86 88 100 L/I 233D 100 91 85 75 93 99 H/R 234K/R 100 100 100 100 100 100 235T/S 100 100 97 99 100 99 T 236G 100 100 100 100 100 100 
+
+Open in a new tab 
+
+a 
+Twenty representative enzymes were examined ( 96 ). 
+
+b 
+Forty-six representative enzymes were examined ( 12 ). 
+
+c 
+Seventy-five putative enzymes were examined ( 97 ). 
+
+d 
+There were a total of 268 representative and putative enzymes. 
+
+e 
+There were a total of 213 representative and putative enzymes for subclass A1. 
+
+f 
+There were a total of 55 representative and putative enzymes for subclass A2. 
+
+g 
+Major residues involved in the catalytic mechanism and/or in substrate binding are shown in boldface type ( 12 ). 
+
+In an alignment of 268 sequences for representative and putative class A β-lactamases from subclasses A1 and A2, it was confirmed that strictly (100%) and highly conserved (between 90 and 99%) residues, such as Gly45, Ser70, Lys73, Leu81, Pro107, Ser130, Asp131, Asn132, Ala134, Gly144, Gly156, Glu166, Lys/Arg234, Thr/Ser235, and Gly236, differentiated between subclasses ( Table 2 ). 
+
+The enzymes of subclass A1 were principally described in studies by Ambler et al. ( 96 ), Matagne et al. ( 12 ), and Risso et al. ( 97 ), whereas those of subclass A2 were discovered more recently. The two subgroups were found to contain very different conserved residues, which clearly distinguished between the two subclasses. These residues included Asn (subclass A1) or Asp (subclass A2) at position 136, Asp or Asn at position 179, Thr or Trp/Tyr at position 180, and Asp or His/Arg at position 233 ( Table 2 and Fig. 2 ). 
+
+FIG 2. 
+
+Open in a new tab 
+
+ABL consensus sequences after multiple alignments of the amino acid sequences from the 120 subclass A1 and 55 subclass A2 β-lactamases ( 196 ). Signal peptides as well as N-terminal ends have been omitted because they show little sequence similarity. Numbering follows the numbering scheme described by Ambler et al. ( 96 ). The black lines indicate residues involved in the catalytic mechanism and/or substrate binding. Additional residues that are typical of subclass A2 are shaded in gray. Dashes indicate gaps within the alignment, and x indicates variable residues. A colorimetric scale was used to express the percentage of residues in each cluster deduced from Jalview ( 197 ), where red indicates a 100% conserved residue, purple indicates a 90 to 99% conserved residue, dark blue indicates an 80 to 89% conserved residue, light blue indicates a 70 to 79% conserved residue, and green indicates a 60 to 69% conserved residue. 
+
+Finally, other newly characterized conserved residues ( Fig. 2 ) were found to be specific to subclass A1 (Glu37, Arg/Lys61, Arg65, Ala125, Asp157, Trp210, and Trp229) or to subclass A2 (Lys40, Asn61, His/Lys65, Val71, Tyr125, Cys135, Tyr177, Met211, Leu252, Val263, Phe264, and Val265). The composition of the Ω-loop (residues 161 to 179) differed considerably between subclass A1 and subclass A2 enzymes. Finally, as for PER-1 and PER-2, an alignment of subclass A2 β-lactamase sequences revealed the presence of several insertions ( 98 , 99 ). 
+
+An examination of the overall amino acid composition of β-lactamases revealed that representative enzymes from subclass A2 had small numbers of arginine residues (8.2 ± 3.9 residues on average) and large numbers of lysine residues (29.0 ± 5.5 residues). For other groups or clusters (subclass A1) corresponding to Gram-positive bacteria and LSBL enzymes, for example, there were 20.1 ± 7.6 and 23.3 ± 2.6 arginine and 28.6 ± 10.8 and 9.6 ± 3.1 lysine residues, respectively. 
+
+MOLECULAR CHARACTERISTICS OF SUBCLASS A1 β - LACTAMASES 
+
+Enzymes Produced by Gram-Positive Bacteria 
+
+Diverse representative class A β-lactamases have been studied for various genera, including Bacillus , Clostridium , Nocardia , Nocardiopsis , Staphylococcus - Enterococcus , and Streptomyces ( Table 1 ) ( 4 , 100 – 108 ). Among these genera, the production of β-lactamases is of limited relevance, but these are of historical interest, particularly because they also produce other hydrolytic enzymes ( 4 ). Most of these penicillin-hydrolyzing enzymes, displaying inhibition by clavulanic acid, have been classified as group 2a enzymes on a functional basis ( 4 ). Amino acid consensus sequences were determined for each cluster, with the identification of several important motifs ( Fig. 3 ). 
+
+FIG 3. 
+
+Open in a new tab 
+
+ABL consensus sequences from the 88 subclass A1 β-lactamases produced by two phyla ( Firmicutes and Actinobacteria ) and 10 clusters: BAC1 ( Bacillus 1), BAC2 ( Bacillus 2), CLO ( Clostridium ), MYC1 ( Mycobacterium 1), MYC2 ( Mycobacterium 2), NOC ( Nocardia ), STA ( Staphylococcus ), STR1 ( Streptomyces 1), STR2 ( Streptomyces 2), and SIS ( Nocardiopsis ). Signal peptides as well as N-terminal ends have been omitted because they show little sequence similarity. Numbering follows the numbering scheme described by Ambler et al. ( 96 ). The black lines indicate residues that are involved in the catalytic mechanism and/or in substrate binding. Dashes indicate gaps within the alignment, and x indicates variable residues. A colorimetric scale was used to express percentages of residues in each cluster deduced from Jalview ( 197 ), where red indicates a 100% conserved residue, purple indicates a 90 to 99% conserved residue, dark blue indicates an 80 to 89% conserved residue, light blue indicates a 70 to 79% conserved residue, and green indicates a 60 to 69% conserved residue. Representative β-lactamases and bacterial species were examined by cluster as follows (those indicated by GI numbers were not present in the phylogenetic study). The BAC1 cluster contains BCL-1 ( B. clausii ), BlaIII ( B. cereus ), BlaP ( B. licheniformis ), B. cereus , B. hemicellulosilyticus (GI:569807732), B. licheniformis , B. megaterium , B. mycoides , B. pseudomycoides (GI:493024478), B. sonorensis (GI:493686415), B. thuringiensis , and B. weihenstephanensis . The BAC2 cluster contains BlaI ( B. cereus ), B. amyloliquefaciens , B. anthracis , B. atrophaeus (GI:498487062), B. cereus , B. siamensis (GI:515503247), B. subtilis , B. thuringiensis , B. vallismortis , P. brevis , and P. dendritiformis . The CLO cluster contains C. bolteae , C. botulinum , C. butyricum , C. clostridioforme , C. kluyveri , and C. senegalense (GI:497978020). The MYC1 cluster contains BlaC ( M. tuberculosis ), M. bovis (GI:654314144), M. canettii , M. kansasii , M. marinum , and M. ulcerans . The MYC2 cluster contains BlaF/MFO-1 ( M. fortuitum ), M. smegmatis , M. vulneris (GI:602525319), M. farcinogenes (GI:633837907), and M. mageritense (GI:602541679). The NOC cluster contains AST-1 ( N. asteroides ), FAR-1 ( N. farcinica ), N. brasiliensis , and N. cyriacigeorgica . The STA cluster contains BlaZ ( S. aureus ), PC1 ( S. aureus ), S. capitis , Staphylococcus epidermidis , Staphylococcus equorum , Staphylococcus haemolyticus , S. saprophyticus , Staphylococcus sciuri , Staphylococcus simulans , Staphylococcus stepanovicii , Staphylococcus xylosus , and Enterococcus faecalis . The STR1 cluster contains BlaL ( Streptomyces cacaoi ), BlaU ( S. cacaoi ), S. albulus , S. badius , Streptomyces filamentosus (GI:493088671), S. globisporus , S. rapamycinicus , and S. violaceusniger . The STR2 cluster contains BlaF ( Streptomyces fradiae ), BlaL ( Streptomyces albus ), S. aureofaciens , S. afghaniensis , S. avermitilis , Streptomyces bottropensis , S. clavuligerus , S. lavendulae , S. rimosus , and S. scabiei . The SIS cluster contains R30 ( Actinomadura sp.), Nocardiopsis alba (GI:504722104), N. dassonvillei , N. halotolerans , and N. synnemataformans . 
+
+β-Lactamases have returned to the spotlight in recent years due to the use of treatments combining penicillins with clavulanic acid for infections caused by mycobacteria, which are acid-fast, rod-shaped bacteria ( 109 – 112 ). Many enzymatic studies have been carried out on Mycobacterium tuberculosis (BlaC), Mycobacterium abscessus (MAB-1), and Mycobacterium fortuitum (BlaF/MFO-1) ( Table 1 ) ( 4 , 22 , 23 , 113 ). The enzymes produced by these species have a broader spectrum of activity, also degrading cephalosporins, for example, and they are less sensitive to clavulanic acid; nevertheless, they are classified as functional group 2b enzymes. 
+
+Multiple sequences from the genera described above have been included in sequence databases. Various clusters were identified among these sequences ( Fig. 1 ). In addition to the highly and strictly conserved residues defining class A β-lactamases ( Table 3 ), various other conserved residues were identified: Leu36, Ala42, Ala48, Met117, Ala125, Gly143, Pro174, Ser/Thr181, Thr/Ser182, Pro183, Ala185, Asn214, Thr/Ser216, Arg/Lys222, Gly224, Pro226, Tyr241, Gly242, Asn245, Asp246, Pro258, and Ser/Thr265. Table 3 also provides information about the principal amino acid substitutions described and the organisms in which they are found. Consensus sequences were established for ABL enzymes, and comparisons of the sequences of these enzymes evidenced multiple clusters ( Fig. 3 ). 
+
+TABLE 3. 
+
+Conserved residues among 72 subclass A1 β-lactamases from Gram-positive bacteria 
+
+Open in a new tab 
+
+a 
+Amino acid position. 
+
+b 
+CS, ABL consensus ( 96 ). Residues in boldface type are considered to be involved in the catalytic mechanism and/or in substrate binding. Shaded residues correspond to conserved residues proposed by Matagne et al. ( 12 ). 
+
+Several molecular characteristics can be used to distinguish between β-lactamases produced by various mycobacteria. The Asn132Gly substitution decreases penicillinase activity because hydrogen bonds to the substrate are lost ( 23 ). Another key difference identified on the basis of amino acid sequence alignments was the 4-residue insertion at Gly146, named residues “146a, -b, -c, and -d,” in BlaC from M. tuberculosis and Mycobacterium canettii . This insertion is also present in M. bovis and M. africanum ; it may increase the size of the active site ( 23 ). Other features of Mycobacterium enzymes are the Ser237 and Arg276 or Arg220 residues, which favor cephalosporinase activity and may account for a broader substrate spectrum. In contrast, all the enzymes of functional groups 2a and 2c have an Arg residue at position 244. The 234KTG236 triad was observed in Mycobacterium enzymes but is modified to 234KSG236 in several other β-lactamases. This second motif was also observed in TEM-1 produced by Gram-negative bacteria ( 96 ). Given the narrow spectrum of activity of such enzymes, no amino acid substitution for expanded-spectrum resistance or resistance to inhibitors could be identified ( 12 , 114 , 115 ). Finally, the deletion of two residues between Ser218 and Ile221, in enzymes produced by several mycobacteria such as M. fortuitum , was found to be unique to the class A β-lactamases of Gram-positive bacteria ( Fig. 3 ) ( 23 – 91 , 93 – 113 ). 
+
+Enzymes Produced by Gram-Negative Bacteria 
+
+The amino acid sequences of 145 representative and putative class A β-lactamases from subclass A1 ( Proteobacteria ) identified in Gram-negative bacteria (GNB) were compared. ABL consensus sequences were obtained for 11 clusters ( Fig. 4 ). As previously documented for Gram-positive bacteria, 26 strictly or highly conserved amino acids were clearly identified. Some of these amino acids were essential for catalytic processes and/or substrate binding (underlined) in the various types of subclass A1 β-lactamases produced by GNB ( Table 4 and Fig. 5 ) ( 12 , 96 ): Glu37, Gly45, Phe66, Ser70 , Lys73 , Leu81, Pro107, Ser130 , Asp131, Asn132 , Ala134, Asn136, Gly144, Gly156, Asp157, Arg/His164, Glu166 , Leu169, Asp179, Thr180, Leu199, Leu207, Asp/Glu233, Lys/Arg234 , Thr/Ser235 , and Gly236. Additional highly conserved residues from this GNB group included Arg/Lys43, Arg/Lys61, Arg65, Thr/Ser71, Ala125, Gly143, Thr149, Arg/Lys153, Arg/Lys161, Leu162, Asp163, Asn170, Gly175, Asp/Glu176, Arg178, Thr/Ser181, Thr/Ser182, Pro183, Ala185, Thr210, Pro226, Thr229, and Tyr264. 
+
+FIG 4. 
+
+Open in a new tab 
+
+ABL consensus sequences after multiple alignments of amino acid sequences from 12 clusters among 171 subclass A1 β-lactamases produced by Gram-negative bacteria: the LSBL, ESBL, YERS (for Yersinia ), CARBA (for carbapenemases), BURK (for Burkholderia ), XANT (for Xanthomonas ), and FRAN (for Francisella ) clusters. Signal peptides as well as N-terminal ends have been omitted because they show little sequence similarity. Numbering follows the numbering scheme described by Ambler et al. ( 96 ). The black lines indicate residues that are involved in the catalytic mechanism and/or in substrate binding. Dashes indicate gaps within the alignment, and x indicates variable residues. A colorimetric scale was used to express the percentage of residues in each cluster deduced from Jalview ( 197 ), where red indicates a 100% conserved residue, purple indicates a 90 to 99% conserved residue, dark blue indicates an 80 to 89% conserved residue, light blue indicates a 70 to 79% conserved residue, and green indicates a 60 to 69% conserved residue. Representative β-lactamases and bacterial species examined by cluster are as follows. The LSBL1 cluster contains GIL-1 ( C. gillenii ), LAP-1 ( E. cloacae ), LEN-1 ( K. pneumoniae ), OHIO-1 ( K. pneumoniae ), OKP-A ( K. pneumoniae ), ORN-1 ( Raoultella ornithinolytica ), PLA-1 ( Raoultella planticola ), SHV-1 ( K. pneumoniae ), TEM-1 ( Shigella flexneri ), TER-1 ( Raoultella terrigena ), “ Ca . Hamiltonella defensa,” and K. variicola. The LSBL2 cluster contains AmpC ( Vibrio fischeri ), CARB-3 ( P. aeruginosa ), MP-1 ( Moritella marina ), PLES-1 ( P. shigelloides ), PSE-1 ( P. aeruginosa ), VHH-1 ( V. harveyi ), VHW-1 ( V. harveyi ), VAK-3 ( Vibrio alginolyticus ), E. elysicola , L. damsela , O. antarctica , Providencia alcalifaciens , P. leiognathi , V. caribbeanicus , V. parahaemolyticus , and V. splendidus . The LSBL3 cluster contains CARB-5 ( P. aeruginosa ), SCO-1 ( A. baumannii ), A. faecalis , and T. xiamenensis . The LSBL4 cluster contains AER-1 ( A. hydrophila ), CKO-1 ( C. koseri ), PSE-3 ( P. aeruginosa ), HER-1 ( E. hermannii ), MAL-1 ( L. malonatica ), C. pulveris , K. radicincitans , and P. putida . The ESBL1 cluster contains BlaP ( Proteus mirabilis ), CdiA ( C. amalonaticus ), CTX-M-1 ( E. coli ), CTX-M-2 ( S. Typhimurium), CTX-M-8 ( C. amalonaticus ), CumA ( P. vulgaris ), FEC-1 ( E. coli ), FONA-1 ( S. fonticola ), GRI-1 ( L. grimontii ), HUG-1 ( P. penneri ), K1 ( K. oxytoca ), KLUA-1 ( K. ascorbata ), KLUC-1 ( K. cryocrescens ), KLUG-1 ( K. georgiana ), MEN-1 ( E. coli ), OXY-1 ( K. oxytoca ), RAHN-1 ( R. aquatilis ), RIC-1 ( L. richardii ), SED-1 ( C. sedlakii ), SFO-1 ( E. cloacae ), SMO-1 ( Ewingella sp.), TOHO-1/CTX-M-44 ( E. coli ), and C. rodentium . The YER cluster contains BlaA ( Y. enterocolitica ), Y. frederiksenii , Y. intermedia , and Y. rohdei. The ESBL2 cluster includes BES-1 ( S. marcescens ), DES-1 ( D. desulfuricans ), and ERP-1 ( E. persicina ). The CARBA cluster contains BIC-1 ( P. fluorescens ), FRI-1 ( E. cloacae ), IMI-1 ( E. cloacae ), KPC-2 ( K. pneumoniae ), NMC-A ( E. cloacae ), SFC-1 ( S. fonticola ), and SME-1 ( S. marcescens ). The ESBL3 cluster contains BEL-1 ( P. aeruginosa ), GES-1 ( K. pneumoniae ), IBC-1 ( E. cloacae ), SGM-1 ( Sphingobium sp.), and S. paucimobilis . The BURK cluster contains BPS-1 ( B. pseudomallei ), BURTH ( B. thailandensis ), PenA ( B. multivorans ), PENA1 ( B. cenocepacia ), PENI ( B. pseudomallei ), and B. mallei . The XANT cluster contains L2 ( S. maltophilia ), PME-1 ( P. aeruginosa ), XCC-1 ( X. campestris ), S. maltophilia , X. axonopodis , X. campestris , X. oryzae , and X. vasicola . The FRAN cluster contains FPI-1 ( F. philomiragia ), FTU-1 ( F. tularensis ), F. novicida , F. philomiragia , and F. tularensis . 
+
+TABLE 4. 
+
+Conserved residues in 145 subclass A1 β-lactamases from Gram-negative bacteria 
+
+Open in a new tab 
+
+a 
+Amino acid position. 
+
+b 
+CS, ABL consensus ( 96 ); ILMV, isoleucine (I), leucine (L), methionine (M), and valine (V). Residues in boldface type are considered to be involved in the catalytic mechanism and/or in substrate binding. Shaded residues correspond to originally identified conserved residues ( 12 ). 
+
+FIG 5. 
+
+Open in a new tab 
+
+ABL amino acid sequences from 15 representative β-lactamases of subclass A1 ( 196 ). Signal peptides as well as N-terminal ends have been omitted because they show little sequence similarity. Numbering follows the numbering scheme of Ambler et al. ( 96 ). The black lines indicate residues that are involved in the catalytic mechanism and/or in substrate binding. Dashes indicate gaps within the alignment. Red, strictly or highly conserved residue for subclasses 1 and 2; green, strictly or highly conserved residue for subclass 1; light blue, basic amino acid according to location (positions 220, 244, and 276); yellow, cysteine. 
+
+Various ABL consensus sequences were specified according to the clusters highlighted ( Fig. 4 ). A group of naturally or originally limited-spectrum β-lactamases (LSBLs) was isolated, which included various types of predominantly chromosomal enzymes but also a number of plasmid-encoded or transposable-element-encoded enzymes (TEM-1, SHV-1, GIL-1, LAP-1, LEN-1, OHIO-1, OKP-A, ORN-1, PLA-1, and TER-1; cluster LSBL1). Sequence comparisons identified another group of three clusters. The first of these clusters, cluster LSBL2, was characterized by the plasmid-encoded or, preferentially, transposable-element-encoded enzymes, such as PSE/CARB-type enzymes. However, it also included chromosome-encoded enzymes such as VHH-1, VHW-1, and VAK-3. The second cluster (cluster LSBL3) included BlaP (RTG-1), CARB-5 (RTG-2), and SCO-1, and the third, small cluster (cluster LSBL4) included CKO-1/MAL-1, AER-1, PSE-3, and HER-1. These enzymes were classified according to their penicillinase activity (functional group 2a or 2b) or their capacity to hydrolyze benzylpenicillin, ampicillin, and carbenicillin (carbenicillinase; functional group 2c) ( Table 1 ) ( 4 ). Most of these β-lactamases are chromosome encoded and species specific. This was the case for SHV and OKP from Klebsiella pneumoniae , LEN for Klebsiella variicola , GIL-1 from Citrobacter gillenii , and PLA from Raoultella (formerly Klebsiella ) planticola ( Table 1 ). The same is true for a second heterogeneous group, containing VHH and VHW from Vibrio harveyi , PLES-1 from Plesiomonas shigelloides , CKO-1 from Citrobacter koseri , and HER-1 from Escherichia hermannii ( Table 1 ). Chromosomal enzymes generally confer a low level of resistance to penicillins, with strong synergy between penicillins and inhibitors such as clavulanate being observed ( 116 ). Some of these enzymes have been transferred between species (SHV and PSE types) and were thus identified in diverse species. Another example is that of PSE-1, a β-lactamase usually observed in Pseudomonas isolates ( Table 1 ), the gene for which has been found on the chromosome of several serovars of Salmonella , including the pandemic Salmonella enterica serovar Typhimurium strain DT104 ( 117 ). 
+
+Interestingly, a psychrophilic marine bacterium, Moritella marina (formerly Vibrio marinus ), produces a β-lactamase that is ∼50% identical to CARB/PSE-type enzymes. It is also 52 to 55% identical to VHH-1, VHW-1, and VAK-3, which are produced by several Vibrio species ( 56 ). 
+
+Only a few residues distinguish these enzymes from others such as those of the ESBL1 cluster or carbapenemases ( Fig. 4 and 5 ): Cys77 and Cys123 with a disulfide bridge ( 67 , 118 ), Glu171, Gly236, Ala237, Gly238, and Arg244. The Asn245 and Asp246 residues are absent from these enzymes. As previously reported, when Arg is present at position 244, a different residue is found at position 220 or 276 of the corresponding enzyme, Leu and Asn, respectively, in LSBL1, for example ( 12 ). 
+
+These clusters have a key motif in common: the segment spanning positions 231 to 238 has the sequences IADKTGAG in LSBL1 enzymes (with the exception of TEM types, which have a KSG triad rather than KTG), IADRSGAG in LSBL2 enzymes, and VADRTGAG in LSBL3 enzymes. Carbenicillinases (LSBL2 and LSBL3) are unique among class A β-lactamases in possessing an arginine residue at position 234, whereas the corresponding residue is a lysine in LSBL1 and LSBL4 enzymes. Kinetic characterization of an R234K PSE-4 mutant revealed that this mutation decreased the k cat / K m ratio by a factor of 50, confirming the importance of Arg234 for the carbenicillinase activity ( 119 ). Residue 234 is located within the binding pocket, close to nucleophilic residue Ser70. Furthermore, TEM-1 mutagenesis studies have implicated the Lys234Arg substitution in carboxypenicillin hydrolysis ( 120 ). 
+
+The LSBL4 cluster includes two single β-lactamases, AER-1 and plasmid-encoded PSE-3, which has already been classified as a functional group 2c enzyme, but it also includes chromosome-encoded enzymes from enterobacterial species, such as CKO-1, MAL-1, and HER-1 ( Table 1 ). The amino acid sequence of CKO-1 was very similar to that of MAL-1 (98% identity), a chromosome-encoded β-lactamase detected in a strain of Levinea malonatica (currently known as C. koseri ) in previous studies ( 4 , 31 ). These two enzymes displayed moderate levels of sequence identity to the AER-1 (52%), PSE-3 (53%), HER-type (48 to 52%), ORN-type (>50%), PLA-type (>50%), and TEM- and SHV-type (46 to 50%) enzymes. In terms of molecular structure, the triads 234KTG236 and 234KSG236 (PSE-3) clearly separate this cluster from true carbenicillinases (cluster LSBL2). 
+
+A putative β-lactamase was compared with these clusters. This enzyme is produced by “ Candidatus Hamiltonella defensa,” which probably belongs to the Enterobacteriaceae ( Fig. 1 ) ( 121 , 122 ). It appears to be a typical penicillinase (cluster LSBL1), based on its amino acid sequence, which includes specific residues and is very similar to the β-lactamases TEM-1 (74% identity) and GIL-1 (73% identity). Most LSBL1-type enzymes are chromosome encoded in various species of enterobacteria. It therefore appears highly probable that TEM-1 originates from an enterobacterium. 
+
+Finally, this group of enzymes (LSBLs), which are not naturally able to inactivate oxyimino-β-lactams and are not resistant to inhibitors (clavulanate, tazobactam, and sulbactam), displayed no well-defined consensus substitutions, with known exceptions reported for various TEM and SHV mutants ( 12 , 114 , 115 ). The Lahey Clinic website lists at least 220 TEM variants and 190 SHV variants with amino acid substitutions such as 104Lys, 164Ser/His, 182Thr, 237Thr/Gly, 238Ser, and 240Lys/Arg, which expand their inactivation spectra, and 69Leu/Val/Ile, 130Gly, 165Arg, 244Cys/Ser/Thr, 265Met, 275Leu/Gln, and 276Asp, which increase their resistance to inhibitors (see http://www.lahey.org/Studies/ ). In addition, the Ser-to-Thr substitution at Ambler position 69 enables RTG-4 to hydrolyze cefepime and cefpirome ( 123 ). 
+
+The class Gammaproteobacteria includes an interesting cluster (ESBL1) of widespread CTX-M-type enzymes (cefotaximase), represented mostly by chromosome-encoded β-lactamases produced by several species of Enterobacteriaceae : Citrobacter amalonaticus (formerly Levinea amalonatica ) (“Cdi”), Citrobacter sedlakii (SED-1), Citrobacter rodentium , Klebsiella oxytoca (K1; OXY-1), Kluyvera ascorbata (KLUA-1), Kluyvera cryocrescens (KLUC-1), Kluyvera georgiana (KLUG-1), Leminorella grimontii (GRI-1), Leminorella richardii (RIC-1), Proteus vulgaris (CumA; BlaP), Proteus penneri (HUG-1), Rahnella aquatilis (RAHN-1), Serratia fonticola (FONA-1), and the more recently identified Ewingella sp. (SMO-1) ( Table 1 ) ( 124 , 125 ). The first example of probable gene transfer in this group is that of the gene encoding the ESBL SFO-1 in S. fonticola ( 71 , 126 ), followed by those in K. ascorbata and other Kluyvera species, the source of most CTX-M enzymes ( 48 , 49 , 124 ). The bla OXY gene was furthermore recently shown to be present on a plasmid in K. pneumoniae and K. oxytoca isolates ( 127 ). 
+
+At least three susceptibility patterns were easily identified for species in which the β-lactamase was chromosomally encoded: the “penicillinase” resistance phenotype, with low levels of expression ( K. oxytoca and C. amalonaticus ); an unusual pattern originally identified in K. ascorbata strains displaying low levels of resistance to ticarcillin and cephalothin, with synergy being observed between these older β-lactams and clavulanate, which was subsequently confirmed with a combination of cefuroxime and clavulanate; and overproduction of chromosomally encoded β-lactamases, resulting in resistance to cefuroxime, cefotaxime, and ceftriaxone but not to ceftazidime ( C. amalonaticus , K. oxytoca , P. vulgaris , R. aquatilis , and S. fonticola ) ( 116 , 128 – 131 ). This diversity of profiles may justify a functional classification into three groups due to poor substrate choice for C. amalonaticus : groups 2a, 2b (Cdi), and 2be ( 4 ). In addition, more accurate analyses clearly identified that enzymes such as ESBLs are particularly reactive against cefuroxime, cefotaxime, ceftriaxone, cefepime, cefpirome, and aztreonam but react poorly with ceftazidime. Finally, like most class A ESBLs, these enzymes were highly susceptible to β-lactamase inhibitors. 
+
+Highly conserved residues and motifs were identified within this homogeneous cluster: 42GRLGxALIxT51, 161RLDRxEPxLNT/SAxxGDxRDTT181, and 231VGDKTGxGDYGTTN DIAVxWP252 ( Fig. 4 and 5 ). Some key residues of ESBL1 enzymes can account for differences in susceptibility patterns ( 124 , 132 – 134 ). For example, OXY-type and C. amalonaticus enzymes have an Ala residue at position 237, whereas other types of enzymes have a Ser residue, which has been identified as playing a role in the extension of the substrate specificities of TEM and SHV ESBLs to cefotaxime ( 12 , 124 ). In the CTX-M-4 enzyme, the Ser237Ala substitution decreases both relative levels of cefotaxime hydrolysis and susceptibility to clavulanate inhibition. In contrast, the Ala237Ser substitution in the OXY-1 enzyme increases resistance to cefotaxime and cefepime ( 135 ). The ESBL1 Arg276 residue was predicted to fulfill the role of the Arg244 residue detected in LSBL1 types. Relative rates of oxyimino-β-lactam hydrolysis are decreased by substitution of Arg276, suggesting that this residue contributes to extending the activity spectrum of the enzyme. 
+
+As for TEM- and SHV-type enzymes, ESBL1 enzymes can evolve such that they inactivate ceftazidime more efficiently or confer higher levels of acquired resistance, but few data are available concerning such changes. Ceftazidime-resistant mutants with point mutations (Pro167Ser and Asp240Gly substitutions) were isolated in clinical practice for commonplace CTX-M enzymes with higher catalytic efficiencies against ceftazidime ( 124 , 136 , 137 ). Such evolution through single mutations has also been reported for the chromosome-encoded β-lactamase (OXY-2) of some K. oxytoca isolates, which have acquired resistance to ceftriaxone, cefotaxime, and aztreonam through an Ala237Ser substitution. Some isolates that are resistant to both ceftazidime and cefotaxime, due to the Ala237Ser and Pro167Ser substitutions, have also been recovered ( 135 , 138 , 139 ). Finally, for this highly prevalent group of ESBL enzymes, acquired resistance to inhibitors remains rare in clinical practice, in contrast with the situation for TEM-type enzymes ( 12 , 136 , 140 ). Only one K. oxytoca isolate that was resistant to amoxicillin-clavulanate has been recovered from a blood culture. This isolate had a serine-to-glycine substitution at Ambler position 130, as reported for SHV-10 ( 141 ). 
+
+The chromosomal enzymes produced by several Yersinia species appear to belong to a single cluster. Yersinia enterocolitica (mostly biotypes 1B, 2, 3, 4, and 5) is naturally resistant to some β-lactams, such as penicillins (ampicillin, amoxicillin, and ticarcillin) and first-generation cephalosporins (cephalothin and cephalexin), but it remains susceptible to cefuroxime and oxyimino-β-lactams ( 142 – 144 ). Synergy is usually detected with combinations of ticarcillin or carbenicillin and clavulanate, rather than with amoxicillin plus clavulanate, which is inactive against the second chromosomal β-lactamase (cephalosporinase/BlaB). The reversal of carboxypenicillin by clavulanate is related to the constitutive production of a class A-type enzyme (BlaA) ( Table 1 ) ( 4 ). This enzyme has been classified as a member of functional group 2e. 
+
+High levels of amino acid sequence identity (>80%) have been demonstrated for β-lactamases of several species of Yersinia , including Y. enterocolitica , Y. enterocolitica subsp. palearctica , Y. intermedia , Y. frederiksenii , and Y. rohdei . The ESBL1 cluster is most similar to these enzymes (56 to 58% identity with RAHN-1, FONA-1, and CTX-M types). In addition to the strictly and highly conserved class A residues, these two clusters have multiple residues and motifs in common ( Fig. 4 ). It seems highly probable that BlaA is an ESBL. 
+
+The tiny ESBL2 cluster comprises three representative enzymes (ERP-1, DES-1, and BES-1) and a single putative enzyme ( Desulfovibrio desulfuricans ). ERP-1 (from Erwinia persicina ) was the first enterobacterial extended-spectrum β-lactamase to be shown to be pathogenic to plants ( 37 ). The kinetic parameters of the ERP-1 enzyme place it in group 2be ( Table 1 ). However, its β-lactam resistance phenotype suggested that it might be a narrow-spectrum penicillinase, similar to those of C. koseri and K. oxytoca . The plasmid-encoded ESBL BES-1 was identified in Serratia marcescens isolates with strong resistance to penicillins and aztreonam and distinctly higher levels of resistance to cefotaxime than to ceftazidime from Brazilian hospitals ( Table 1 ) ( 20 ). The third β-lactamase, DES-1, was identified in some strains of D. desulfuricans , a Gram-negative anaerobe phylogenetically related to the Deltaproteobacteria ( 36 ). The susceptibility pattern of strains carrying this enzyme was poorly defined as resistance to penicillins and cefotaxime, whereas DES-1 is actually an ESBL ( Table 1 ). These ESBLs have amino acid identities of 48 to 57% with respect to the most closely related ESBL1 enzymes from Yersinia and Burkholderia . A comparison of the BES-1, ERP-1, and DES-1 sequences with that of ESBL1 identified several amino acid residues likely to underlie the extended hydrolysis spectrum (e.g., Ser/Thr237) ( Fig. 4 ). The CARBA cluster (cluster 4) ( Fig. 1 ) corresponds essentially to the carbapenemases of functional group 2f, which have been detected sporadically in clinical isolates on a number of occasions over the 30 years or so since their initial discovery ( 13 , 92 , 145 – 147 ). Most of these enzymes have been found in Enterobacteriaceae , including Enterobacter cloacae (FRI-1 and NMC-A), Serratia marcescens (IMI-1 and SME-1), Klebsiella pneumoniae (KPC-2), Serratia fonticola (SFC-1), and even Pseudomonas fluorescens (BIC-1) ( Table 1 ) ( 4 , 21 , 47 , 51 , 57 , 70 , 74 ). Bacteria producing these enzymes have reduced susceptibility to imipenem, but the obtained MICs are highly variable, such that the bacteria concerned may display anything from a slight decrease in susceptibility to full resistance. This cluster includes chromosome-encoded enzymes (BIC, IMI, NMC, SFC, and SME types) and more troublesome plasmid-encoded types (KPC and FRI). In terms of hydrolysis, carbapenems such as imipenem are the distinctive substrates for enzymes from this cluster. Moreover, these enzymes are inhibited more strongly by tazobactam than by clavulanate. They are able to hydrolyze a broad range of other β-lactams, including cephalosporins and penicillins, but they hydrolyze extended-spectrum cephalosporins such as ceftazidime only inefficiently. In contrast, aztreonam is efficiently degraded. Chromosome-encoded enzymes mediate carbapenem resistance that is not coupled to resistance to extended-spectrum cephalosporins, whereas KPC-type enzymes mediate resistance to both carbapenems and extended-spectrum cephalosporins. The hydrolysis substrate spectrum of KPCs includes aminothiazole-oxime cephalosporins such as cefotaxime and inhibitors such as clavulanate ( 148 ). Boronic acid was also recently identified as an inhibitor of KPCs ( 149 ). 
+
+NMC-A- and IMI-type enzymes, which have amino acid sequences displaying ∼97% identity, are related to SME-type enzymes, to which they are ∼70% identical at the amino acid level. However, IMI-type enzymes also display 55 to 59% amino acid sequence identity to KPCs. Several motifs were identified in comparisons of their amino acid sequences ( Fig. 4 and 5 ): 64ERFPLCSSFKGFLAAAVL81, 160FRLDRWELE/DLNT/SAIPGDxRDTST/SP183, and 231VGDKTGT/SCGxYGTANDYAVxWP252. These enzymes have conserved cysteine residues at positions 69 and 238, with the formation of a disulfide bridge that modifies the shape of the active site through changes in the distances between several active-site residues ( 21 ). The disulfide bridge is essential for the hydrolysis of carbapenems, penicillins, and cephalosporins. The serine-to-alanine substitution at position 237 decreased the k cat values for imipenem; cephalothin hydrolysis rates were reduced by a factor of 5, whereas benzylpenicillin k cat values remained unchanged ( 150 ). However, no single residue has yet been identified as being responsible for carbapenem resistance ( 147 , 151 ). With the exception of KPC types, all types (BIC, FRI, IMI, NMC, SFC, and SME) have an additional residue at position 139a (Glu) ( Fig. 4 and 5 ). 
+
+For most of the enzymes of this cluster, the low levels of activity observed for inhibitors such as clavulanate may reflect significant hydrolysis of these substrates. An Arg residue at position 220 has been identified as being critical, with a major effect on β-lactamase inhibitor kinetics ( 152 ). Moreover, the amino acid present at position 276 (Asp or Glu for this cluster) plays a structural rather than a kinetic role ( 147 , 152 ). The amino acid substitutions observed in inhibitor-resistant β-lactamases derived from TEM-1 and TEM-2 include the Asp276 substitution, which has been identified in several variants ( http://www.lahey.org/studies/temtable.asp ). 
+
+The ESBL3 cluster (cluster 25) ( Fig. 1 ) includes a predominant family of enzymes, GES or IBC enzymes, with at least 26 members, only a few of which display measurable enzymatic activity against carbapenems ( http://www.lahey.org/Studies ) ( 18 , 19 , 42 , 46 , 95 ) ( Table 1 ). GES variants have now been identified in a broad range of countries. In contrast, only three variants of BEL family enzymes have been described. GES and BEL enzymes are mostly plasmid or integron encoded and are thus found mostly in Enterobacteriaceae . However, a third type of ESBL β-lactamase was recently described as being chromosome encoded (SGM-type enzymes) for several species of Sphingobium , which are widespread in nature, particularly in aquatic environments ( 72 ). The susceptibility pattern conferred by these enzymes was characterized mostly as an ESBL phenotype. The hydrolysis profile of these enzymes includes activity against penicillins, most expanded-spectrum cephalosporins, and aztreonam but not cephamycins and carbapenems. These enzymes are inhibited by clavulanate, and some are also inhibited by tazobactam and imipenem ( Table 1 ). Several variants of GES enzymes (e.g., GES-2, GES-4, GES-5, GES-16, and GES-20) have activity spectra that have expanded to include carbapenems ( 95 ). To date, 26 GES variants with sequence differences of 1 to 3 amino acid residues have been reported ( http://lahey.org/studies/other.asp ). The β-lactamases phylogenetically closest to the GES enzymes are those of the BEL family, with amino acid similarities of 50% to 54%. SGM-1 displays 34 to 41% amino acid sequence identity to the GES-5 and BEL-1 enzymes. Very closely related putative β-lactamases (with an amino acid sequence identity of 77 to 80%) have been identified only on the chromosomes of several bacteria from the Sphingobium genus ( 72 ). 
+
+A consensus sequence was proposed for this cluster on the basis of various highly conserved positions ( Fig. 4 ). Some of the following residues deserve further attention: Cys69, Cys238, Arg/Lys222, Ser/Thr237, Arg220 (for Sphingobium ), and Arg244 (for the GES/IBC and BEL families) ( Fig. 3 ). These β-lactamases have conserved Cys residues at positions 69 and 238 that may form a disulfide bridge, thus modifying the overall shape of the active site ( 42 ). The GES-1, BEL-1, and SMG-1 enzymes cannot confer resistance to carbapenems ( 18 , 72 , 92 , 95 ). Another residue must therefore be involved, because one of the most alarming characteristics of GES enzymes such as GES-2 is their apparent ability to evolve into carbapenemases. This process involves a single-amino-acid substitution, Glu170Asn in GES-2 and GES-13 and Glu170Ser in GES-4, -5, -14, -15, -16, and -20 ( 92 , 95 ). Surprisingly, SMG-1 and all the β-lactamases from the BEL family (BEL-1 to BEL-3) have an Asn residue at position 170 but do not mediate resistance to carbapenems. This suggests that other residues are involved in carbapenem hydrolysis. The Gly residue at position 243, present in all of the enzymes of this cluster other than SGM-type enzymes, is not conserved in other class A β-lactamases ( Fig. 4 and 5 ). The Gly243Ser substitution observed in GES-9 is associated with the efficient hydrolysis of aztreonam and ceftazidime ( 153 ). GES-11, bearing a Gly243Ala substitution, hydrolyzes oxyimino-β-lactams such as cefotaxime, ceftazidime, and aztreonam more efficiently than does GES-1. Furthermore, this substitution increases sensitivity to β-lactam inhibitors such as clavulanate and tazobactam ( 154 ). The impact of the residue at position 237 is crucial, as in several TEM, SHV variant, or even OXY-type enzymes. A Thr residue is present at position 237 in the GES enzymes, as opposed to the Ser residue present in the BEL and SGM families ( Fig. 3 ). These residues are also conserved in other clusters. A single Thr237Ala substitution differentiates GES-12 and GES-11, and this substitution results in GES-11 hydrolyzing aztreonam and ceftazidime twice as efficiently as GES-12, through major effects on the affinity of the enzyme for the two antibiotics ( 154 ). Finally, the highest MICs among GES enzymes, obtained, e.g., with cefotaxime and aztreonam, were conferred by combinations of up to four substitutions ( 155 ). 
+
+The Betaproteobacteria class includes several groups of Gram-negative aerobic or facultative bacteria that are often highly versatile in their degradation capacities. Some species of the Burkholderia genus, such as B. pseudomallei , B. mallei , B. thailandensis , B. cepacia , B. cenocepacia , and B. multivorans , are pathogenic to both humans and animals ( 156 – 159 ). At least two patterns of natural β-lactam resistance have been identified in this class of bacteria. High levels of resistance to penicillins and to early cephalosporins (cephalothin and cefuroxime) were observed, and this resistance was almost completely reversed in the presence of clavulanate ( 160 ). The MICs of cefotaxime and aztreonam were significantly higher than that of ceftazidime. Several enzymes were identified in B. pseudomallei : BPS-1 as a cephalosporinase and PenI as an extended-spectrum β-lactamase ( Table 1 ) ( 4 , 25 , 63 ). The spectrum of hydrolysis of the inducible PenB enzyme of B. cenocepacia encompassed mostly penicillins, but it also included, to a lesser extent, expanded-spectrum cephalosporins and aztreonam. Finally, the natural β-lactamase of B. multivorans (formerly B. cepacia 249) was originally characterized as a penicillinase but was more recently proposed to be a carbapenemase ( 4 , 62 , 63 ). 
+
+Phylogenetic comparisons showed that these enzymes were closely related and clustered together. They display 64 to 99% amino acid sequence identity. Two groups were distinguished: group 1 included enzymes from B. pseudomallei , B. mallei , B. thailandensis , and B. oklahomensis , and group 2 included enzymes from B. cenocepacia , B. ambifaria , B. dolosa , B. multivorans , B. ubonensis , and B. vietnamensis ( 61 ). In all the β-lactamases of this cluster, 166 residues were strictly or highly conserved, including, in particular, Cys69, Cys123, Arg220, Arg222, Ser237, and Asp276 (Asn for B. oklahomensis ) ( Fig. 4 ). Several conserved sequence motifs were identified, 64ERFPFCSTxKxMLxAAVLA82, 160FRLDRxExELNTALPGDxRDTTTPAAMAAS189, and 233DKTGTGDYGTxNDxGV249; moreover, several molecular modifications were identified for these enzymes. Unlike PenI ( B. pseudomallei ), PenA ( B. multivorans ) has a Phe residue at position 72 ( 63 ). The Ser72Phe substitution promotes clavulanate resistance in B. pseudomallei by an increase in the K i of the enzyme for this inhibitor ( 160 ). Surprisingly, a Phe residue was found in all the group 2 enzymes studied, but synergy between penicillins and clavulanate was reported after the transfer of PenB from B. cenocepacia to Escherichia coli ( 61 ). 
+
+The Ω-loop contains two critical, strictly conserved active-site residues: Glu166 and Asn170. Substitutions involving other residues can lead to cephalosporin resistance ( 161 – 164 ). For example, Pro167 is a classically variable residue identified in ceftazidime-resistant isolates of B. pseudomallei and in in vitro mutants. Another mutation identified in B. pseudomallei isolates is Cys69Tyr, which leads to high levels of ceftazidime resistance. 
+
+The mechanisms responsible for an expansion of the spectrum of the PenA β-lactamase of B. thailandensis have recently been investigated in vitro for ceftazidime resistance ( 26 ). Twelve positions displaying single-amino-acid substitutions are located in the active-site pocket, such as Cys69Phe and Cys69Tyr, or in the Ω-loop (positions 162, 164, 166, 169, 170, 171, 172, 174, 176, and 179 but not position 167). Interestingly, a single-amino-acid deletion (Glu168del) may expand the in vitro spectrum of inactivation to ceftazidime in B. thailandensis ( 165 ). Additional single-amino-acid deletions have recently been reported ( 27 ). Another mechanism of acquired resistance involves the overexpression of the chromosomal β-lactamase of B. pseudomallei or the loss of a penicillin-binding protein or (PBP) and also porin ( 164 , 166 – 168 ). Two chromosomally encoded β-lactamases (LUT-1 and MIN-1) have also been identified in this cluster (cluster 5) ( Table 1 and Fig. 1 ) ( 53 , 55 ). In conclusion, the chromosome-mediated β-lactamases of this cluster may be considered ESBLs with a considerable potential to evolve toward a broader profile of resistance. 
+
+Finally, additional clusters of enzymes were found in several Gram-negative bacteria from other genera, such as Francisella , Stenotrophomonas , Xanthomonas , and others. However, given the limited impact of these genera in medicine, we will not consider these enzymes further in this review ( Fig. 1 and 4 ) ( 4 , 40 , 41 , 86 , 169 ). 
+
+MOLECULAR CHARACTERISTICS OF SUBCLASS A2 β-LACTAMASES 
+
+A phylogenetic analysis of β-lactamases clearly identified a small group of representative enzymes (CblA, CfxA, CEF-1, CepA, CGA-1, CIA-1, CME-1, CSP-1, PER-1, SPU-1, TLA-1, TLA-2, and VEB-1) (clusters 1 and 2) ( Fig. 1 ). The chromosome-encoded enzyme types (e.g., CblA, CepA, CGA-1, CIA-1, CME-1, and CSP-1/SPU-1) were naturally produced by several bacteria from various genera, including Bacteroides , Capnocytophaga , Chryseobacterium , and Elizabethkingia ( Table 1 ). The transferable-element-encoded types PER-1, TLA-1, TLA-2, and VEB-1 were reported for several bacterial species from the major phylum Proteobacteria and, more precisely, from the orders Enterobacteriales and Pseudomonadales ( Acinetobacter and Pseudomonas ) ( 10 , 95 ). A gene coding for a CfxA-type enzyme was identified on a mobilizable transposon and detected in several Bacteroides , Prevotella , and Capnocytophaga species ( 76 , 170 – 172 ). 
+
+These representative enzymes were functionally classified as hydrolyzing predominantly cephalosporins, such as cephalothin, ceftazidime, and cefotaxime, but also aztreonam and penicillins ( 4 , 5 , 29 , 30 , 32 , 33 , 81 , 84 , 173 ). Significant synergy was generally reported when such substrates were combined with an inhibitor such as clavulanate. Some of these enzymes (CblA, CfxA, and CepA) were classified as functional group 2e enzymes, as they are inhibited by clavulanic acid, whereas others (CIA-1, CGA-1, CME-1, PER-1, TLA-1, TLA-2, and VEB-1) were classified as group 2be enzymes ( Table 1 ). Insight into the role of these enzymes can best be obtained by transferring the corresponding gene to a recipient bacterium, due to the presence of at least two β-lactamases in the donor strain. For example, for Chryseobacterium indologenes , E. coli transconjugants or transformants were found to be resistant to amoxicillin, ticarcillin, narrow-spectrum cephalosporins, cefuroxime, and third-generation cephalosporins such as ceftazidime and aztreonam and to have reduced susceptibility to cefotaxime. The MICs of these β-lactams were reduced by clavulanate. The expression of class B β-lactamases such as IND can account for the resistance of C. indologenes to cefoxitin and carbapenems ( 174 ). The E. coli strains producing β-lactamases identified to date have a typical ESBL phenotype, including inhibition by clavulanic acid. 
+
+In terms of molecular structure, these enzymes have been described as class A β-lactamases with characteristic active-site motifs ( Fig. 2 ). Multiple-sequence alignment revealed that they belong to subclass A2 on the basis of several strictly or highly conserved residues ( Table 2 and Fig. 2 ). A sequence analysis of 13 representative β-lactamases highlighted the locations of conserved residues displaying low levels of variation, particularly for enzymes of the CfxA type ( Fig. 6 ). Some strictly or highly conserved residues (Leu36, Ala42, Gly/Ala45, Pro67, Ser70, Lys73, Pro107, Ser130, Asp131, Asn132, Gly/Ala134, Gly143, Gly144, Glu166, Leu190, Leu225, Lys234, Thr235, and Gly236) were common to enzymes of both subclasses (subclasses A1 and A2), whereas a number of residues were conserved only among subclass A2 enzymes, including Lys40, Asn61, Val71, Thr104, Cys135, Asp136, Met169, Tyr177, Asn179, Met211, His/Arg233, Gly/Ala243, Leu252, Val263, Phe264, Val265, Ser268, and Asn275. 
+
+FIG 6. 
+
+Open in a new tab 
+
+ABL residues of amino acid sequences from 13 representative β-lactamases of subclass A2 ( 196 ). Signal peptides as well as N-terminal ends have been omitted because they show little sequence similarity. Numbering follows the numbering scheme of Ambler et al. ( 96 ). The black lines indicate residues that are involved in the catalytic mechanism and/or in substrate binding. The additional residues that are typical of subclass A2 are shaded in gray. Dashes indicate gaps within the alignment. Red, strictly or highly conserved residue for subclasses 1 and 2; green, strictly or highly conserved residue for subclass 2; light blue, basic amino acid at position 220; yellow, cysteine. 
+
+These β-lactamases have four insertion blocks/segments relative to subclass A1 enzymes ( Fig. 2 and 6 ): 37a to 37g, 103a-103b, 112a-112b, and 240a to 240d. Three of these insertion blocks were examined in PER-1-type enzymes, and the most relevant structural trait was found to be the presence of an expanded active site, as suggested by other studies ( 98 ). 
+
+Variants, mostly bearing point mutations, were identified in these types of enzymes. However, the sites of these mutations were different from those in TEM/SHV-type enzymes, and no marked changes in enzyme activity were observed ( http://www.lahey.org/Studies/ ). The eight variants of PER-type enzymes had amino acid sequences that were 86% to 98% identical to that of PER-1. The lowest levels of sequence identity were recorded for PER-2 (or CFI-1 for ceftibutenase, also known as ARG-1) and PER-6 ( 95 ). Seven variants were reported for VEB-type enzymes, with a level of identity of ∼99% ( 95 , 175 – 177 ). Three variants were identified for CIA-type enzymes (sequence identity of 98%), and two were identified for CME-type enzymes (99%). Two possible TLA-type variants were suggested but with a level of identity as low as 53%. Among microaerophilic and anaerobic bacteria, only three variants were reported for CfxA-type enzymes (sequence identity of 98%) ( 76 , 170 – 172 ). 
+
+These enzymes had no features in common with the subclass A1 β-lactamases isolated from Gram-negative species. For instance, the Cys residues at positions 77 and 123 in penicillinases (cluster LSBL) were not conserved in the enzymes of this class. The Cys69 and Cys238 residues identified in the CARBA, ESBL3, and FRAN clusters were not conserved ( Fig. 3 and 4 ) ( 29 , 40 , 41 , 178 – 180 ). In subclass A2 β-lactamases, cysteine residues were found in a limited number of positions close to the conserved SVFK or SDN motif: those at position 78 (CIA-type enzymes), 81 (Cfx-type enzymes), or 135 (CblA, CepA, CGA-1, CIA-1, CME-1, CSP-1 [SPU-1], PER-1, TLA-1, and VEB-1) ( Fig. 6 ). In CME-2, the Cys135 and Cys276 residues may form a disulfide bridge, as already demonstrated for the Cys69 and Cys238 residues of NMC-A ( 57 , 181 ). Finally, only CfxA-type enzymes were found to have 4 cysteine residues (positions 40, 81, 214, and 251). 
+
+The Ω-loop, an important structural element of β-lactamases, is present in subclass A2 enzymes but differs significantly from the Ω-loops found in subclass A1 derivatives. For example, in subclass A2 enzymes, the 161RFDRxExxLN170 motif is absent. Moreover, CblA, CepA, CIA-1, CGA-1, CME-1, PER-1, TLA-1, TLA-2, and VEB-1 have a histidine rather than an asparagine residue at position 170 ( Fig. 4 ). This asparagine residue is involved in the positioning of the active-site water molecule, a function that it fulfills together with the highly conserved Glu166 and Ser70 residues ( 182 , 183 ). The equivalent histidine residue may similarly contribute to the catalytic properties of CME-2, but this remains to be confirmed by site-directed mutagenesis. Other signature residues, such as Met169, Tyr177, and Asn179, may also be considered to be defining features for these enzymes. 
+
+As for conserved basic residues, Arg244 is conserved in several class A enzymes (clusters LSBL1, LSBL2, LSBL3, LSBL4, ESBL3, and XANT). In its absence, another basic residue (Arg or Lys) is generally present at position 220 (e.g., in subclass A2, clusters ESBL2, BURK, and FRAN [see below]) or at position 276 (cluster ESBL1) ( 12 ). 
+
+The function of a few residues in a single β-lactamase (PER-1) was assessed by site-directed mutagenesis, which showed a lack of involvement of any of the residues responsible for the cephalosporinase activity in the TEM and SHV families in the substrate profile of this enzyme ( 184 ), as discussed above and below. 
+
+STRUCTURE-FUNCTION RELATIONSHIPS OF CLASS A ENZYMES 
+
+A great diversity of amino acid sequences was observed between the different clusters of class A β-lactamases. Numerous tertiary structures have been determined for these proteins, mostly by X-ray crystallography ( http://www.rcsb.org/pdb/home/home.do ), facilitating further explorations of the differences between the two subclasses A1 and A2. These enzymes are produced by Gram-positive bacteria ( Bacillus anthracis , Bacillus licheniformis , M. bovis , M. fortuitum , M. tuberculosis , Staphylococcus aureus , and Streptomyces albus ) or Gram-negative bacteria (TEM types, SHV types, CumA, CTX-M types, KPC-2, L2, NMC-A, OXY-1, PenA, PenI, PER-1, PSE-4, SED-1, SME-1, Toho-1, and Francisella tularensis ). All of the enzymes for which structures have been determined, with the exception of PER-1 and PER-2, belong to subclass A1 ( 98 , 99 ). They all have the same overall structure with similarities in the structural features surrounding the active site, such as two subdomains generating a cleft ( Fig. 7 and 8 ) ( 12 , 23 , 149 , 185 – 187 ). One of the subdomains (the alpha subdomain) is largely α-helical. In contrast, the other subdomain (the alpha/beta subdomain) consists of a five-stranded β-sheet flanked by α-helices. These two subdomains form a cleft that harbors the active site, which contains the catalytic Ser70 residue and the deacylation water primed by interactions with Glu166, Asn170, and Ser70. 
+
+FIG 7. 
+
+Open in a new tab 
+
+Secondary and tertiary structures of the class A β-lactamase of Mycobacterium tuberculosis , with the spatial arrangement of the three catalytic-center-defining amino acid groupings, the α domain (left), and an α/β domain (right) ( 23 ). The helices are represented as H1 to H11, and the strands are represented as S1 to S5. The figure was created with PyMOL (Delano Scientific). 
+
+FIG 8. 
+
+Open in a new tab 
+
+Superposition of four subclass A1 β-lactamases: PC1 (blue), TEM-1 (gray), OXY-1 (brown), and KPC-2 (green) ( 149 , 185 – 187 ). 
+
+Interestingly, two β-lactamases, PER-1 and PER-2, the structure of which was recently determined, differ from the other enzymes in terms of their structure ( 98 , 99 ) (see below). Both enzymes belong to subclass A2 and display high levels of catalytic activity against most β-lactam substrates. 
+
+The strictly conserved residues essential for catalytic activity are described above. Here, we consider additional sequence regions of potential interest in terms of our understanding of the diversity of β-lactamases, the specificity of their functions, and the role of the mutated residues in the newly discovered enzymes. 
+
+In the β-lactamases of classes A, C, and D, an active-site serine residue (Ser70) mediates nucleophilic attack on the carbonyl group of the β-lactam ring of the antibiotic molecule. In class B enzymes, catalytic activity is dependent on one or two essential Zn 2+ ions. Additional residues crucial for catalysis are Lys at position 73 and the Ser-Asp-Asn triad at positions 130 to 132 (SDN). Here, we address the sequence differences among class A enzymes, making them correspond with structural differences, confirming our subclass definition. 
+
+We compared enzymes from subclasses A1 and A2 for which structures have been determined: TEM-1, KPC-2, SME-1, CTX-M-9, and PER-1 (subclass A2). Clinical interest in PER-1 has increased recently due to the detection of this enzyme in multiple Pseudomonas aeruginosa isolates in hospitals in Asia ( 188 ), in isolates of Acinetobacter baumannii in Kuwait ( 189 ), and in isolates of Providencia stuartii in Tunisia ( 190 ). 
+
+CFB enzymes (subclass A2) have a specific insertion of 4 amino acids after position 240 (nomenclature of 240abcd) ( Fig. 2 and 6 ). These inserted residues are arranged as a loop, as in PER-1, for example ( 98 ). This loop is strongly displaced with respect to the position of all other classes of enzymes with, for instance, a maximal additional elongation of 6.28 Å for the protein backbone between the C α of Arg241 in TEM-1 and the C α of Ala240b in PER-1. The presence of a longer loop, of 9 rather than 5 amino acids, between the S3 and S4 β-sheets, close to the active site, may increase the accessibility of the active site. Note that residue 240 is not resolved in most structures, with the exception of those for PER-1 and SME-1. 
+
+Another insertion is observed in subclass A2 enzymes, at positions 112a and 112b (112ab); moreover, the amino acid at position 113 differs from that observed in subclass A1 enzymes. X-ray crystallography has shown that the 112ab insertion results in a longer loop between a short α-helix (H3) and a β-sheet in this region, again resulting in a β-sheet that is more extended and better defined in the structure of PER-1 than in that of KPC-2 or TEM-1 ( Fig. 9 ). This β-sheet interacts with a neighboring sheet containing residues 94 to 98. In the structure of TEM-1, the region of the extended Asn-Gly-Asp loop is occupied by K + ions. Note that in other subclass A2 enzymes, residues at the 112ab positions are not strictly conserved ( Fig. 6 ); they nevertheless favor the same local secondary structure as that in PER-1. 
+
+FIG 9. 
+
+Open in a new tab 
+
+Detailed view of the conformation of the region spanning positions 100 to 115 in PER-1. PER-1 is shown as a purple ribbon, KPC-2 is shown in green, and TEM-1 is shown in gray. C α atoms of residues 112A, 112B, and 113 are represented as spheres, and their side chains are displayed as sticks. Black crosses represent K + ions that cocrystallized with TEM-1. 
+
+Position 136 distinguishes between the different clusters of serine-dependent class A β-lactamases: an Asn residue is present at this position in most subclass A1 enzymes, such as TEM-1, SME-1, and PenP, whereas most subclass A2 enzymes, such as PER-1, have a basic Asp residue at this position ( Fig. 6 ). The nature of the residue at position 136 has another impact on the overall fold of the enzyme. Tranier and coworkers highlighted the tendency of the aspartate residue at position 136 in PER-1 to favor a trans conformation for the peptide bond connecting residues 166 and 167, through hydrogen bonding with the side chain of Asp136 ( 98 ). This has major consequences on the conformation of the Ω-loop. For instance, the His170 ring of PER-1 is displaced by 7.4 Å with respect to the side chain of Asn170 in the TEM-1 β-lactamase. When comparing the structure of PER-1 with that of SME-1 or TEM-1, it is observed that it is N δ 2 of the Asp residue and not its carbonyl group, as in the latter enzymes, which points toward the outside of the protein; this suggests a change in the local potential electrostatic interactions with partner proteins or domains with respect to enzymes harboring an Asn at this position. 
+
+Conversely, a neutral Asn residue is observed at position 179 in subclass A2 proteins, whereas most subclass A1 proteins harbor an Asp residue at this position ( Fig. 2 and 6 ). In the X-ray structure of TEM-1, O δ 2 of Asp179 is located 2.75 Å from N ε and 2.89 Å from N δ 2 of residue Arg164. In PER-1, the equivalent protein domain is thus more hydrophobic, with the side chain of Asn179 being surrounded by the aliphatic residues Val163 and Ala164 ( Fig. 10A ). Moreover, the side chain of Asn179 is tilted by ∼100° with respect to that of Asp179 of TEM-1, confirming that there are differences in the environments of these two residues. Note that position 164 has multiple variants among extended-spectrum TEM β-lactamases, with, e.g., a His in TEM-11 and TEM-16 and a Ser in TEM-5, TEM-7, and other variants ( 12 , 114 , 115 ). The Arg161Val substitution in PER-1 may therefore significantly affect the substrate specificity of this enzyme. 
+
+FIG 10. 
+
+Open in a new tab 
+
+Local structural differences between class A1 and class A2 enzymes. (A) Differences in the structure of the Ω-loop between subclass A1 (TEM-1 in gray) and subclass A2 (PER-1 in purple) β-lactamases. (B) Equivalence of Arg220 from subclass A2 (PER-1) and Arg244 from subclass A1 (TEM-1). In panel A, Cyan dots show ionic interactions between the side chains of Asp179 and Arg164 in TEM-1. Red dots evidence a salt bridge between the side chain of Asn179 and the main-chain atoms of Ala164 in PER-1. Black dots highlight the displacement of the C α atom of residue 176 between the two enzyme structures, and the C α atom of Gln176 in PER-1 is shown as a sphere. In panel B, TEM-1 is shown in gray, KPC-2 is shown in green, and PER-1 is shown in purple. The side chains of Arg220 from PER-1 and KPC-2 are shown as sticks (left), as is that of Arg244 from TEM-1; also shown are the side chain of Asn276 from TEM-1 (O atom distant from N η 2 -Arg244 by 2.78 Å) and that of Glu276 from KPC-2 (O atom distant from N ε -Arg220 by 2.83 Å). The side chains of Ser70 for each enzyme are visible on the right. 
+
+The conserved residues within the Ω-loop among subclass A2 enzymes are different from those of subclass A1 enzymes, with the exception of residue Glu166 ( Fig. 2 and 6 ). Subclass A2 enzymes have a Met residue at position 169 and a Tyr residue at position 177. Moreover, most subclass A1 enzymes have an Asp residue at position 179, whereas CFB enzymes have an Asn residue at this position. Overall, this creates a less charged environment in the Ω-loop of CFB enzymes at the enzyme surface. It also alters the interaction with the disordered/loop region around residue 165 (Asn or Thr for subclass A2), abolishing the ionic interaction between O δ 2 of Asp179 and N ε of Arg164, which occurs in other class A enzymes (2.85 Å) ( Fig. 10A ). 
+
+Moreover, in subclass A2 enzymes as well as in M. tuberculosis and M. canettii β-lactamases, at position 164, an Ala, Tyr, His, or Glu residue can be found, which discards all possibility of ionic or hydrogen bond interactions with the residue at position 179 ( 22 , 23 , 191 ). This interaction occurs instead between the side chain of the residue at position 179 and the backbone atoms of the residue at position 164 ( Fig. 10A ). As for the residues surrounding position 179, residues 175 to 178 of PER-1 are organized as an α-helix, whereas the X-ray structures of other β-lactamases suggest that this stretch of amino acids corresponds to a loop region. Gln176 is thus separated from the equivalent Asp residues in TEM-1 and CTX-M-9 by 8.1 Å and 7.9 Å, respectively ( 98 ). 
+
+All the representative subclass A2 enzymes harbor an Arg or Lys residue at position 220 ( Fig. 6 and 10B ), as do some subclass A1 β-lactamases such as KPC-2 (cluster CARBA) ( Fig. 5 ). Comparisons of the structure of KPC-2 with that of TEM-1 β-lactamase (branch LSBL) indicated that the position of the guanidine moiety of Arg220 was similar to that of the Arg244 residue in TEM-1 (1.18 Å between their C ζ atoms) ( Fig. 10B ), with position 244 being conserved as an Arg residue in some subclass A1 (e.g., clusters BAC1, BAC2, PASE, CARB, and RTG) and subclass A2 enzymes. Papp-Wallace and coworkers deduced that Arg220 played a critical role in the interaction of imipenem antibiotics with PenA from B. cepacia by mutating this residue to a Gly residue; they also showed that this residue played a key role in antibiotic sensitivity by extensive mutagenesis studies of KPC-2 ( 63 , 152 ). This suggests that these positions are functionally equivalent in the two subclasses of enzymes, as discussed above for protein sequences, providing a positively charged docking site for a hydroxyl or carboxyl group of the substrate. 
+
+The most striking feature of a majority of ESBL enzymes is the occurrence of a hydroxylated residue (Ser or Thr), rather than an Ala or Gly residue, at position 237 (e.g., STA, LSBL1, and LSBL2) ( Fig. 4 and 5 ) ( 12 , 114 , 115 ). Indeed, the importance of the Thr237 residue of KPC-2 was highlighted in recent studies ( 192 ). This β-lactamase also has several structural features in common with the subclass A2 enzyme PER-1 that have never before been described. These similarities are not directly apparent when considering the sequences of the proteins. The 268ProAsnLysAsp271 stretch of KPC-2 forms a loop that protrudes toward the outside of the protein, as shown by its X-ray structure ( Fig. 11 ). This loop occupies the same position as the 240a-d loop of PER-1. The Tyr241 residue of KPC-2 overlaps the side chain of the Arg241 residue of TEM-1 and could participate in the displacement of this loop. The side chain of these residues is adjacent to that of Pro174, which is conserved in many subclass A1 enzymes (e.g., cluster LSBL1 with TEM-1, cluster CARBA with KPC-2, and cluster YER) but is replaced by a Gln residue in PER-1 ( Fig. 2 and 6 ). The corresponding loop spanning positions 173 to 177 in PER-1 is thus displaced with respect to the configuration of TEM-1 and KPC-2. In TEM-1, the equivalent residues (Ser268 to Ala270) are buried deeper within the fold of the protein ( Fig. 11 ). The loop spanning positions 268 to 271 of KPC-2 therefore probably plays a critical role in selecting β-lactam substrates for this enzyme as a function of their bulkiness. 
+
+FIG 11. 
+
+Open in a new tab 
+
+Superposition of PER-1 (purple), KPC-2 (green), and TEM-1 (gray) and significant enlargement of the substrate-binding cavity in PER-1. The loop spanning positions 268 to 271 of KPC-2 occupies a position similar to that of the 240A-to-240D insert of PER-1. The C α atom for Lys240A from PER-1 is shown as a sphere; the stretch spanning positions 268 to 271 of KPC-2 is highlighted in cyan, with C α atoms being represented as spheres. Arg241 is shown as thin lines, with its C α atom shown as a sphere and two minimized positions for its side chain. The side chains of Tyr141 from KPC-2 as well as Pro174 from KPC-2 and TEM-1 are shown as sticks. The yellow segment corresponds to Ser268-Ala270 for TEM-1. 
+
+Given the major structural differences between PER types and subclass A1 β-lactamases, it is not surprising that site-directed mutagenesis studies of PER-1 found no direct relationship between the cephalosporinase activity of this enzyme and the type of residue at positions 164, 179, 238, and 240 ( 184 , 193 ). These residues are responsible for the extended-spectrum profiles of TEM and SHV enzymes ( 12 , 114 , 115 ). Enzyme inactivation by clavulanate was unaffected by amino acid substitutions at positions 69, 165, 244, and 275 of the PER-1 enzyme, as for IRT β-lactamases ( 194 ). Finally, protein engineering studies of PER-1 identified two residues whose mutations resulted in significant kinetic effects. First, the replacement of Thr104 with a Glu completely abolished the catalytic activity of the enzyme toward penicillins and reduced the k cat values for cephalosporins by a factor of 50 to 700 ( 193 ). According to the X-ray structure of PER-1, this mutation should disrupt the interaction of the γ-hydroxyl group of Thr104 with Asn132. The replacement of Thr237 with an alanine residue increased the k cat / K m ratio of the mutant protein with respect to cephalosporin substrates by 1 to 2 orders of magnitude, and the reverse Ala237Thr mutation improved the hydrolysis of cephalosporin substrates by TEM and OXY enzymes ( 12 , 114 , 115 , 135 , 193 ). 
+
+ANNOTATION IN DATA BANKS 
+
+Knowledge regarding the molecular characteristics of β-lactamases has increased tremendously in recent years. The new findings obtained should make it possible to unambiguously distinguish between class A β-lactamases and, e.g., dd -peptidases, which belong to the same functional superfamily ( 195 ). For instance, the reference NCBI protein sequence under GenBank accession number WP_015205777 , deposited in the database in 2013 as a class A β-lactamase, was identified after a Blast alignment on the usual platforms (e.g., NCBI) as a penicillin-binding protein (20 of 30 runs), a β-lactamase or class A β-lactamase (7 times), or a hypothetical protein (3 times) with an average length of 518 residues. The mean number of amino acids for 123 representative class A β-lactamases was nevertheless 299, for a standard deviation of 11. Karen Bush recently underlined that molecules of this size were no more than 31 kDa ( 13 ). The presence of several residues and motifs, 70SerxxLys73, 130SerAspAsn132, Pro107, Gly144, Gly/Ala156, Glu166, and 234LysThrGly236, moreover provides evidence for the existence of a novel class A enzyme. Nevertheless, as described above, several exceptions have to be considered ( Table 5 ) ( 12 , 96 ). The 234LysThrGly236 triad may differ between clusters in Gram-negative bacteria naturally producing an LSBL: ArgSerGly or ArgThrGly types. Thirty-three residues are strictly conserved, 43 are highly conserved among the enzymes of subclasses A1 and A2, and several of these residues are highlighted in our alignment as potential directions for future research ( Table 5 ). 
+
+TABLE 5. 
+
+Molecular characteristics of class A β-lactamases according to subclass 
+
+Subclass Cluster Typical enzyme(s) Residue(s) at amino acid position(s): 70 73 77 130–132 136 166 179 233 234–236 237–238 245–246 A1a Gram positive PC1, BlaU, BlaL S K SDN a N E D D KT b G AG ND MYC1 BlaC S K SDG N E D D KTG T b G ND A1b LSBL1/4 TEM-1, SHV-1 S K C c SDN N E D D KT b G AG G d I e LSBL2 PSE-1, CARB-3 S K C c SDN N E D D RSG AG G d I e LSBL3 BlaP, RTG-2 S K C c SDN N E D D RTG AG G d I e A1c ESBL1/2 CTX-M, BES-1 S K SDN N E D D KT b G T f G ND CARBA NMCA, KPC-2 S K SDN N E D D KTG TC g G ND ESBL3 GES-1, BEL-1 S K SDN N E D E h KTG T b C ND BURK BPS-1, PenI S K SDN N E D D KTG TG ND A2a PER-1, VEB-1 S K SDN D E N H i KTG T b S j ND 
+
+Open in a new tab 
+
+a 
+Ser for some Bacillus species. 
+
+b 
+Or an analogue (Ser). 
+
+c 
+Presence of a disulfide bridge between Cys77 and Cys123. 
+
+d 
+Or an analogue (Ala) or Ser. 
+
+e 
+Or an analogue (Val). 
+
+f 
+Ala or Gly for some Enterobacteriaceae ( K. oxytoca and C. amalonaticus ). 
+
+g 
+Presence of a disulfide bond between Cys69 and Cys238. 
+
+h 
+Or an analogue (Asp). 
+
+i 
+Or an analogue (Arg). 
+
+j 
+Or Glu for CblA and CfxA types and some CepA types. 
+
+The diversity, specificity, and stability of amino acid sequences must thus be taken into account to ensure that the nucleotide and peptide sequences of class A β-lactamases be appropriately deposited and named. 
+
+CONCLUSIONS 
+
+The treatment of infectious diseases with β-lactams is a highly challenging task due to the emergence and spread of new β-lactamases, which have become a real public health problem. These emerging enzymes are mostly class A enzymes. The new role played by clinical biologists in molecular diagnosis and the development of genomics have also had significant consequences for the discovery of new bla genes. There has been significant progress in DNA sequencing, and this has led to a large number of class A enzymes being repeatedly reported in databanks, in some cases being deposited under an inappropriate name or classification. These multiple examples clearly highlight the need to improve class A β-lactamase identification from amino acid sequences, as originally proposed by Ambler et al. ( 6 , 96 ). 
+
+Class A is very large and can be divided into subclasses. One of these subclasses, subclass A2, has received surprisingly little attention from scientists. Site-directed mutagenesis experiments have been performed for only one β-lactamase in this subclass, PER-1. These experiments showed that mutations occurring at positions classically identified as being involved in the expansion of the inactivation spectrum had no impact on its overall hydrolytic behavior ( 193 ). These findings indicated that this enzyme has a one-of-a-kind reaction profile. In addition, amino acid substitutions at various positions have been found not to affect the inactivation of IRT enzymes by clavulanate ( 194 ). Overall, our analysis highlights the need for more investigations on specific subgroups and the relevance of subclass A2 as a distinct subtype of class A β-lactamases. 
+
+ACKNOWLEDGMENTS 
+
+We thank Marie-Hélène Nicolas-Chanoine, Guillaume Arlet, Laurent Poirel, and François-Xavier Weill for their communications of results regarding the identification of β-lactamases FRI-1, GRI-1, PLES-1, RIC-1, and TER-1. 
+
+We have no disclosures to make or conflicts of interest to declare. 
+
+Biographies 
+
+Open in a new tab 
+
+Alain Philippon is a veterinarian who prepared his Ph.D. thesis at the Commissariat à l'Energie Atomique (CEA) in 1965. Initially trained on Brucella and brucellosis at Nouzilly (Institut National de la Recherche Agronomique/INRA) between 1966 and 1970, he started to analyze bacterial resistance to antibiotics, mostly to β-lactams (susceptibility patterns, ESBL, and plasmid-encoded AmpC) at CHU Cochin, Paris, France, in 1972. As Professor Emeritus of Microbiology at the University of Paris Descartes and previous Head of the Bacteriology Laboratory at Hopital Cochin, he published more than 200 scientific papers and mentored 20 doctoral and postdoctoral researchers. He was also codirector of a course on medical bacteriology at Institut Pasteur for a decade. 
+
+Open in a new tab 
+
+Patrick Slama was trained as a Physical Chemist at Ecole Normale Supérieure in Lyon, France. He obtained a M.S. in Chemical Biology, creating synthetic models for copper-containing enzymes, and a Ph.D., still with Dr. Réglier at Université Aix-Marseilles, studying the role of the reduction cosubstrate for the copper-containing enzyme dopamine β-hydroxylase in its activation and inactivation. He later obtained postdoctoral positions with Dr. Vernier, Dr. Sidhu, and Dr. Giros in Créteil, France, studying the regulation of presynaptic monoamine transporters. He next moved to bioinformatics and translational research, studying sequence-function relationships in proteins, at the Max Planck Institute in Berlin, Germany, and at Johns Hopkins University, Baltimore, MD, with Professor Geman. There, he developed new tools for the analysis of protein multiple-sequence alignments as well as for proteomics analysis. He now dedicates a significant part of his time to Photography. 
+
+Open in a new tab 
+
+Paul Dény is a medical microbiologist at Universities Paris 6 and 7. He is specialized in hepatitis viruses and hepatitis delta virus (HDV), a satellite of hepatitis B virus (HBV), since his Ph.D. under Christian Bréchot at Institut Pasteur, Paris, France, unit of Pierre Tiollais. As a professor in Bacteriology and Virology, he created and developed the Virology Unit at University Paris 13/SPC—Avicenne Hospital, from 1988 to 2008, as head of the laboratory. He defined HDV taxonomy, composed of 8 major clades, referred as genotypes. He has been involved in the extensive characterization of nurse-to-patient transmission of HIV-1 and the emergence of hepatitis C virus genotype 4 (HCV-4) in France and participated in the development of an algorithm for the detection of recombination in circular HBV sequences. In 2007, he joined the Cancer Research Center in Lyon, INSERM U1052-CNRS 5286, to develop cell culture models for HBV and HDV. He has been involved in evolutionary analysis since 1994. 
+
+Open in a new tab 
+
+Roger Labia graduated from the world-renowned Ecole Polytechnique in Paris, France (1962 to 1964), with specialization in mathematics, physics, and chemistry. In relation with his high and early interest in chemical and biological problems, he joined scientific research, first at the Pasteur Institute (starting in 1965). In 1969, he received a Ph.D., studying the organic synthesis of natural compounds. Subsequently, he spent one postdoctoral year at Ottawa University, Canada (1969 to 1970), where he began studying biochemistry and bacteriology. Back in France, he started a research program on antibiotics, including their mode of action and mechanisms of resistance. This allowed him to develop multiple collaborations with chemists and bacteriologists from France and other countries. He has published more than 320 scientific papers, mostly in high-impact international journals. He has been involved in teaching and directed about 50 theses. 
+
+ADDENDUM 
+
+A novel plasmid-encoded carbapenemase, named BKC-1, for Brazilian Klebsiella carbapenemase 1, was recently detected among K. pneumoniae clinical isolates (A. G. Nicoletti et al., Antimicrob Agents Chemother 59 :5159–5164, 2015, http://dx.doi.org/10.1128/AAC.00158-15 ). This class A enzyme displays the highest level of identity (63%) to a β-lactamase of Sinorhizobium meliloti . This new class A carbapenemase (subclass A1, cluster RHI, for Rhizobiales ) showed some molecular particularities, such as the presence of Cys69 but the absence of Cys238 and the insertion of an Arg residue at position 171 and two residues (Arg and His) at position 241. 
+
+REFERENCES 
+
+1. Sawai T, Mitsuhashi S, Yamagishi S. 
+1968. 
+Drug resistance of enteric bacteria. XIV. Comparison of β-lactamases in gram-negative rod bacteria resistant to a-aminobenzylpenicillin. Jpn J Microbiol
+12:423–434. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+2. Richmond MH, Sykes RB. 
+1973. 
+The β-lactamases of gram-negative bacteria and their possible physiological role, p 31–88. In Rose AH, Tempest DW (ed), Advances in microbial physiology, vol 9
+Academic Press, New York, NY. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+3. Medeiros AA.
+1997. 
+Evolution and dissemination of β-lactamases accelerated by generations of β-lactam antibiotics. Clin Infect Dis
+24(Suppl 1):S19–S45. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+4. Bush K, Jacoby GA, Medeiros AA. 
+1995. 
+A functional classification scheme for β-lactamases and its correlation with molecular structure. Antimicrob Agents Chemother
+39:1211–1133. doi: 10.1128/AAC.39.6.1211. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Bush K, Jacoby GA. 
+2010. 
+Updated functional classification of β-lactamases. Antimicrob Agents Chemother
+54:969–976. doi: 10.1128/AAC.01009-09. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Ambler RP.
+1980. 
+The structure of β-lactamases. Philos Trans R Soc Lond B Biol Sci
+289:321–331. doi: 10.1098/rstb.1980.0049. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Galleni M, Lamotte-Brasseur J, Rossolini GM, Spencer J, Dideberg O, Frère JM. 
+2001. 
+Standard numbering scheme for class B β-lactamases. Antimicrob Agents Chemother
+45:660–663. doi: 10.1128/AAC.45.3.660-663.2001. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Bush K, Fisher JF. 
+2011. 
+Epidemiological expansion, structural studies, and clinical challenges of new β-lactamases from gram-negative bacteria. Annu Rev Microbiol
+65:455–478. doi: 10.1146/annurev-micro-090110-102911. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+9. Buchan BW, Ledeboer NA. 
+2014. 
+Emerging technologies for the clinical microbiology laboratory. Clin Microbiol Rev
+27:783–822. doi: 10.1128/CMR.00003-14. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+10. Hall BG, Barlow M. 
+2004. 
+Evolution of the serine β-lactamases: past, present and future. Drug Resist Updat
+7:111–123. doi: 10.1016/j.drup.2004.02.003. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+11. Urbach C, Fastrez J, Soumillion P. 
+2008. 
+A new family of cyanobacterial penicillin-binding proteins. A missing link in the evolution of class A β-lactamases. J Biol Chem
+283:32516–32526. doi: 10.1074/jbc.M805375200. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+12. Matagne A, Lamotte-Brasseur J, Frère JM. 
+1998. 
+Catalytic properties of class A β-lactamases: efficiency and diversity. Biochem J
+330:581–598. doi: 10.1042/bj3300581. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Bush K.
+2013. 
+The ABCD's of β-lactamase nomenclature. J Infect Chemother
+19:549–559. doi: 10.1007/s10156-013-0640-7. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+14. Galán JC, Reig M, Navas A, Baquero F, Blazquez J. 
+2000. 
+ACI-1 from Acidaminococcus fermentans: characterization of the first β-lactamase in anaerobic cocci. Antimicrob Agents Chemother
+44:3144–3149. doi: 10.1128/AAC.44.11.3144-3149.2000. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Weng SF, Chao YF, Lin JW. 
+2004. 
+Identification and characteristic analysis of the ampC gene encoding β-lactamase from Vibrio fischeri. Biochem Biophys Res Commun
+314:838–843. doi: 10.1016/j.bbrc.2003.12.171. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+16. Poirel L, Laurent F, Naas T, Labia R, Boiron P, Nordmann P. 
+2001. 
+Molecular and biochemical analysis of AST-1, a class A β-lactamase from Nocardia asteroides sensu stricto. Antimicrob Agents Chemother
+45:878–882. doi: 10.1128/AAC.45.3.878-882.2001. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+17. Girlich D, Leclercq R, Naas T, Nordmann P. 
+2007. 
+Molecular and biochemical characterization of the chromosome-encoded class A β-lactamase BCL-1 from Bacillus clausii. Antimicrob Agents Chemother
+51:4009–4014. doi: 10.1128/AAC.00537-07. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Poirel L, Brinas L, Verlinde A, Ide L, Nordmann P. 
+2005. 
+BEL-1, a novel clavulanic acid-inhibited extended-spectrum β-lactamase, and the class 1 integron In120 in Pseudomonas aeruginosa. Antimicrob Agents Chemother
+49:3743–3748. doi: 10.1128/AAC.49.9.3743-3748.2005. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+19. Glupczynski Y, Bogaerts P, Deplano A, Berhin C, Huang TD, Van Eldere J, Rodriguez-Villalobos HJ. 
+2010. 
+Detection and characterization of class A extended-spectrum-β-lactamase-producing Pseudomonas aeruginosa isolates in Belgian hospitals. Antimicrob Agents Chemother
+65:866–871. doi: 10.1093/jac/dkq048. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+20. Bonnet R, Sampaio JLM, Chanal C, Sirot D, de Champs C, Viallard JL, Labia R, Sirot J. 
+2000. 
+A novel class A extended-spectrum β-lactamase (BES-1) in Serratia marcescens isolated in Brazil. Antimicrob Agents Chemother
+44:3061–3068. doi: 10.1128/AAC.44.11.3061-3068.2000. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+21. Girlich D, Poirel L, Nordmann P. 
+2010. 
+Novel ambler class A carbapenem-hydrolyzing β-lactamase from a Pseudomonas fluorescens isolate from the Seine River, Paris, France. Antimicrob Agents Chemother
+54:328–332. doi: 10.1128/AAC.00961-09. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+22. Hackbarth CJ, Unsal I, Chambers HF. 
+1997. 
+Cloning and sequence analysis of a class A β-lactamase from Mycobacterium tuberculosis H37Ra. Antimicrob Agents Chemother
+41:1182–1185. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+23. Wang F, Cassidy C, Sacchettini JC. 
+2006. 
+Crystal structure and activity studies of the Mycobacterium tuberculosis β-lactamase reveal its critical role in resistance to β-lactam antibiotics. Antimicrob Agents Chemother
+50:2762–2771. doi: 10.1128/AAC.00320-06. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+24. Lartigue MF, Poirel L, Fortineau N, Nordmann P. 
+2005. 
+Chromosome-borne class A BOR-1 β-lactamase of Bordetella bronchiseptica and Bordetella parapertussis. Antimicrob Agents Chemother
+49:2565–2567. doi: 10.1128/AAC.49.6.2565-2567.2005. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Cheung TK, Ho PL, Woo PC, Yuen KY, Chau PY. 
+2002. 
+Cloning and expression of class A β-lactamase gene blaA (BPS) in Burkholderia pseudomallei. Antimicrob Agents Chemother
+46:1132–1135. doi: 10.1128/AAC.46.4.1132-1135.2002. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+26. Yi H, Cho KH, Cho YS, Kim K, Nierman WC, Kim HS. 
+2012. 
+Twelve positions in a β-lactamase that can expand its substrate spectrum with a single amino acid substitution. PLoS One
+7:e37585. doi: 10.1371/journal.pone.0037585. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+27. Yi H, Kim K, Cho KH, Jung O, Kim HS. 
+2012. 
+Substrate spectrum extension of PenA in Burkholderia thailandensis with a single amino acid deletion, Glu168del. Antimicrob Agents Chemother
+56:4005–4008. doi: 10.1128/AAC.00598-12. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Meziane-Cherif D, Decré D, Høiby EA, Courvalin P, Périchon B. 
+2008. 
+Genetic and biochemical characterization of CAD-1, a chromosomally encoded new class A penicillinase from Carnobacterium divergens.
+Antimicrob Agents Chemother
+52:551–556. doi: 10.1128/AAC.01145-07. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+29. Bellais S, Naas T, Nordmann P. 
+2002. 
+Molecular and biochemical characterization of Ambler class A extended-spectrum β-lactamase CGA-1 from Chryseobacterium gleum.
+Antimicrob Agents Chemother
+46:966–970. doi: 10.1128/AAC.46.4.966-970.2002. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+30. Matsumoto T, Nagata M, Ishimine N, Kawasaki K, Yamauchi K, Hidaka E, Kasuga E, Horiuchi K, Oana K, Kawakami Y, Honda T. 
+2012. 
+Characterization of CIA-1, an Ambler class A extended-spectrum β-lactamase from Chryseobacterium indologenes.
+Antimicrob Agents Chemother
+56:588–590. doi: 10.1128/AAC.05165-11. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+31. Petrella S, Renard M, Ziental-Gelus N, Clermont D, Jarlier V, Sougakoff W. 
+2006. 
+Characterization of the chromosomal class A β-lactamase CKO from Citrobacter koseri. FEMS Microbiol Lett
+254:285–292. doi: 10.1111/j.1574-6968.2005.00028.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+32. Rossolini GM, Franceschini N, Caravelli B, Riccio ML, Galleni M, Frère JM, Amicosante G. 
+1999. 
+Cloning of a Chryseobacterium (Flavobacterium) meningosepticum chromosomal gene ( blaA CME ) encoding an extended-spectrum class A β-lactamase related to the Bacteroides cephalosporinases and the VEB-1 and PER β-lactamases. Antimicrob Agents Chemother
+43:2193–2199. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+33. Guillon H, Eb F, Mammeri H. 
+2010. 
+Characterization of CSP-1, a novel extended-spectrum β-lactamase produced by a clinical isolate of Capnocytophaga sputigena.
+Antimicrob Agents Chemother
+54:2231–2234. doi: 10.1128/AAC.00791-09. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+34. Bauernfeind A, Stemplinger I, Jungwirth R, Casellas JM. 
+1996. 
+Sequences of β-lactamase genes encoding CTX-M-1 (MEN-1) and CTX-M-2 and relationship of their amino acid sequences with those of other β-lactamases. Antimicrob Agents Chemother
+40:509–513. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+35. Bonnet R, Sampaio JLM, Labia R, de Champs C, Sirot D, Chanal C, Sirot J. 
+2000. 
+A novel CTX-M β-lactamase (CTX-M-8) in cefotaxime-resistant Enterobacteriaceae isolated in Brazil. Antimicrob Agents Chemother
+44:1936–1942. doi: 10.1128/AAC.44.7.1936-1942.2000. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+36. Morin AS, Poirel L, Mory F, Labia R, Nordmann P. 
+2002. 
+Biochemical-genetic analysis and distribution of DES-1, an Ambler class A extended-spectrum β-lactamase from Desulfovibrio desulfuricans. Antimicrob Agents Chemother
+46:3215–3222. doi: 10.1128/AAC.46.10.3215-3222.2002. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+37. Vimont S, Poirel L, Naas T, Nordmann P. 
+2002. 
+Identification of a chromosome-borne expanded-spectrum class A β-lactamase from Erwinia persicina.
+Antimicrob Agents Chemother
+46:3401–3405. doi: 10.1128/AAC.46.11.3401-3405.2002. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+38. Laurent F, Poirel L, Naas T, Chaibi EB, Labia R, Boiron P, Nordmann P. 
+1999. 
+Biochemical-genetic analysis and distribution of FAR-1, a class A β-lactamase from Nocardia farcinica. Antimicrob Agents Chemother
+43:1644–1650. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+39. Péduzzi J, Farzaneh S, Reynaud A, Barthélémy M, Labia R. 
+1997. 
+Characterization and amino acid sequence analysis of a new oxyimino cephalosporin-hydrolyzing class A β-lactamase from Serratia fonticola CUV. Biochim Biophys Acta
+1341:58–70. doi: 10.1016/S0167-4838(97)00020-4. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+40. Toth M, Vakulenko V, Antunes NT, Frase H, Vakulenko SB. 
+2012. 
+Class A carbapenemase FPH-1 from Francisella philomiragia. Antimicrob Agents Chemother
+56:2852–2857. doi: 10.1128/AAC.00223-12. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+41. Antunes NT, Frase H, Toth M, Vakulenko SB. 
+2012. 
+The class A β-lactamase FTU-1 is native to Francisella tularensis. Antimicrob Agents Chemother
+56:666–671. doi: 10.1128/AAC.05305-11. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+42. Poirel L, Le Thomas I, Naas T, Karim A, Nordmann P. 
+2000. 
+Biochemical sequence analyses of GES-1, a novel class A extended-spectrum β-lactamase, and the class 1 integron In52 from Klebsiella pneumoniae. Antimicrob Agents Chemother
+44:622–632. doi: 10.1128/AAC.44.3.622-632.2000. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+43. Naas T, Aubert D, Ozcan A, Nordmann P. 
+2007. 
+Chromosome-encoded narrow-spectrum Ambler class A β-lactamase GIL-1 from Citrobacter gillenii. Antimicrob Agents Chemother
+51:1365–1372. doi: 10.1128/AAC.01152-06. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+44. Beauchef-Havard A, Arlet G, Gautier V, Labia R, Grimont P, Philippon A. 
+2003. 
+Molecular and biochemical characterization of a novel class A β-lactamase (HER-1) from Escherichia hermannii. Antimicrob Agents Chemother
+47:2669–2673. doi: 10.1128/AAC.47.8.2669-2673.2003. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+45. Liassine N, Madec S, Ninet B, Metral C, Fouchereau-Péron M, Labia R, Auckenthaler R. 
+2002. 
+Postneurosurgical meningitis due to Proteus penneri with selection of a ceftriaxone-resistant isolate: analysis of chromosomal class A β-lactamase HugA and its LysR-type regulatory protein HugR. Antimicrob Agents Chemother
+46:216–219. doi: 10.1128/AAC.46.1.216-219.2002. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+46. Giakkoupi P, Tzouvelekis LS, Tsakris A, Loukova V, Sofianou D, Tzelepi E. 
+2000. 
+IBC-1, a novel integron-associated class A β-lactamase with extended-spectrum properties produced by an Enterobacter cloacae clinical strain. Antimicrob Agents Chemother
+44:2247–2253. doi: 10.1128/AAC.44.9.2247-2253.2000. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+47. Rasmussen BA, Bush K, Keeney D, Yang Y, Hare R, O'Gara C, Medeiros AA. 
+1996. 
+Characterization of IMI-1 β-lactamase, a class A carbapenem-hydrolyzing enzyme from Enterobacter cloacae. Antimicrob Agents Chemother
+40:2080–2086. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+48. Humeniuk C, Arlet G, Gautier V, Grimont P, Labia R, Philippon A. 
+2002. 
+β-Lactamases of Kluyvera ascorbata, probable progenitors of some plasmid-encoded CTX-M types. Antimicrob Agents Chemother
+46:3045–3049. doi: 10.1128/AAC.46.9.3045-3049.2002. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+49. Decousser JW, Poirel L, Nordmann P. 
+2001. 
+Characterization of a chromosomally encoded extended-spectrum class A β-lactamase from Kluyvera cryocrescens.
+Antimicrob Agents Chemother
+45:3595–3598. doi: 10.1128/AAC.45.12.3595-3598.2001. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+50. Poirel L, Kämpfer P, Nordmann P. 
+2002. 
+Chromosome-encoded Ambler class A β-lactamase of Kluyvera georgiana, a probable progenitor of a subgroup of CTX-M extended-spectrum β-lactamases. Antimicrob Agents Chemother
+46:4038–4040. doi: 10.1128/AAC.46.12.4038-4040.2002. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+51. Smith Moland E, Hanson ND, Herrera VL, Black JA, Lockhart TJ, Hossain A, Johnson JA, Goering RV, Thomson KS. 
+2003. 
+Plasmid-mediated, carbapenem-hydrolysing β-lactamase, KPC-2, in Klebsiella pneumoniae isolates. J Antimicrob Chemother
+51:711–714. doi: 10.1093/jac/dkg124. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+52. Poirel L, Cattoir V, Soares A, Soussy CJ, Nordmann P. 
+2007. 
+Novel Ambler class A β-lactamase LAP-1 and its association with the plasmid-mediated quinolone resistance determinant QnrS1. Antimicrob Agents Chemother
+51:631–637. doi: 10.1128/AAC.01082-06. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+53. Doublet B, Robin F, Casin I, Fabre L, Le Flèche A, Bonnet R, Weill FX. 2010. 
+Molecular and biochemical characterization of the natural chromosome-encoded class A β-lactamase from Pseudomonas luteola. Antimicrob Agents Chemother
+54:45–51. doi: 10.1128/AAC.00427-09. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+54. Soroka D, Dubée V, Soulier-Escrihuela O, Cuinet G, Hugonnet JE, Gutmann L, Mainardi JL, Arthur M. 
+2014. 
+Characterization of broad-spectrum Mycobacterium abscessus class A β-lactamase. J Antimicrob Chemother
+69:691–696. doi: 10.1093/jac/dkt410. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+55. Bercot B, Nordmann P, Drancourt M, Poirel L. 
+2012. 
+Chromosome-encoded extended-spectrum class A β-lactamase MIN-1 from Minibacterium massiliensis.
+Antimicrob Agents Chemother
+56:4009–4012. doi: 10.1128/AAC.06401-11. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+56. Tanaka M, Okuyama H, Morita N. 
+2001. 
+Characterization of the gene encoding the β-lactamase of the psychrophilic marine bacterium Moritella marina strain MP-1. Biosci Biotechnol Biochem
+65:666–669. doi: 10.1271/bbb.65.666. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+57. Mariotte-Boyer S, Nicolas-Chanoine MH, Labia R. 
+1996. 
+A kinetic study of NMC-A β-lactamase, an Ambler class A carbapenemase also hydrolyzing cephamycins. FEMS Microbiol Lett
+143:29–33. doi: 10.1111/j.1574-6968.1996.tb08457.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+58. Fèvre C, Passet V, Weill FX, Grimont PAD, Brisse S. 
+2005. 
+Variants of the Klebsiella pneumoniae OKP chromosomal β-lactamase are divided into two main groups, OKP-A and OKP-B. Antimicrob Agents Chemother
+49:5149–5152. doi: 10.1128/AAC.49.12.5149-5152.2005. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+59. Walckenaer E, Poirel L, Leflon-Guibout V, Nordmann P, Nicolas-Chanoine MH. 
+2004. 
+Genetic and biochemical characterization of the chromosomal class A β-lactamases of Raoultella (formerly Klebsiella) planticola and Raoultella ornithinolytica. Antimicrob Agents Chemother
+48:305–312. doi: 10.1128/AAC.48.1.305-312.2004. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+60. Fournier B, Roy PH, Lagrange PH, Philippon A. 
+1996. 
+Chromosomal β-lactamase genes of Klebsiella oxytoca are divided into two main groups, bla OXY-1 and bla OXY-2. Antimicrob Agents Chemother
+40:454–459. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+61. Poirel L, Rodriguez-Martinez JM, Plésiat P, Nordmann P. 
+2009. 
+Naturally occurring class A β-lactamases from the Burkholderia cepacia complex. Antimicrob Agents Chemother
+53:876–882. doi: 10.1128/AAC.00946-08. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+62. Trépanier S, Prince A, Huletsky A. 
+1997. 
+Characterization of the penA and penR genes of Burkholderia cepacia 249 which encode the chromosomal class A penicillinase and its LysR-type transcriptional regulator. Antimicrob Agents Chemother
+41:2399–2405. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+63. Papp-Wallace KM, Taracila MA, Gatta JA, Ohuchi N, Bonomo RA, Nukaga M. 
+2013. 
+Insights into β-lactamases from Burkholderia species, two phylogenetically related yet distinct resistance determinants. J Biol Chem
+288:19090–19102. doi: 10.1074/jbc.M113.458315. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+64. Tian GB, Adams-Haduch JM, Bogdanovich T, Wang HN, Doi Y. 
+2011. 
+PME-1, an extended-spectrum β-lactamase identified in Pseudomonas aeruginosa. Antimicrob Agents Chemother
+55:2710–2713. doi: 10.1128/AAC.01660-10. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+65. Bellais S, Rholl L, Fortineau N, Decousser JW, Nordmann P. 
+2001. 
+Biochemical-genetic characterization of the chromosomally encoded extended-spectrum class A β-lactamase from Rahnella aquatilis.
+Antimicrob Agents Chemother
+45:2965–2968. doi: 10.1128/AAC.45.10.2965-2968.2001. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+66. Choury D, Szajnert MF, Joly-Guillou ML, Azibi K, Delpech M, Paul G. 
+2000. 
+Nucleotide sequence of the bla (RTG-2)(CARB-5) gene and phylogeny of a new group of carbenicillinases. Antimicrob Agents Chemother
+44:1070–1074. doi: 10.1128/AAC.44.4.1070-1074.2000. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+67. Poirel L, Corvec S, Rapoport M, Mugnier P, Petroni A, Pasteran F, Faccone D, Galas M, Drugeon H, Cattoir V, Nordmann P. 
+2007. 
+Identification of the novel narrow-spectrum β-lactamase SCO-1 in Acinetobacter spp. from Argentina. Antimicrob Agents Chemother
+51:2179–2184. doi: 10.1128/AAC.01600-06. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+68. Papagiannitsis CC, Loli A, Tzouvelekis LS, Tzelepi E, Arlet G, Miriagou V. 
+2007. 
+SCO-1, a novel plasmid-mediated class A β-lactamase with carbenicillinase characteristics from Escherichia coli. Antimicrob Agents Chemother
+51:2185–2188. doi: 10.1128/AAC.01439-06. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+69. Petrella S, Clermont D, Casin I, Jarlier V, Sougakoff W. 
+2001. 
+Novel class A β-lactamase Sed-1 from Citrobacter sedlakii: genetic diversity of β-lactamases within the Citrobacter genus. Antimicrob Agents Chemother
+45:2287–2298. doi: 10.1128/AAC.45.8.2287-2298.2001. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+70. Henriques I, Moura A, Alves A, Saavedra MJ, Correia A. 
+2004. 
+Molecular characterization of a carbapenem-hydrolyzing class A β-lactamase, SFC-1, from Serratia fonticola UTAD54. Antimicrob Agents Chemother
+48:2321–2324. doi: 10.1128/AAC.48.6.2321-2324.2004. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+71. Matsumoto Y, Inoue M. 
+1999. 
+Characterization of SFO-1, a plasmid-mediated inducible class A β-lactamase from Enterobacter cloacae. Antimicrob Agents Chemother
+43:307–313. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+72. Lamoureaux TL, Vakulenko V, Toth M, Frase H, Vakulenko SB. 
+2013. 
+A novel extended-spectrum β-lactamase, SGM-1, from an environmental isolate of Sphingobium sp. Antimicrob Agents Chemother
+57:3783–3788. doi: 10.1128/AAC.00808-13. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+73. Lartigue MF, Nordmann P, Edelstein MV, Cuzon G, Brisse S, Poirel L. 
+2013. 
+Characterization of an extended-spectrum class A β-lactamase from a novel enterobacterial species taxonomically related to Rahnella spp/Ewingella spp. J Antimicrob Chemother
+68:1733–1736. doi: 10.1093/jac/dkt122. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+74. Queenan AM, Torres-Viera C, Gold HS, Carmeli Y, Eliopoulos GM, Moellering RC Jr, Quinn JP, Hindler J, Medeiros AA, Bush K. 
+2000. 
+SME-type carbapenem-hydrolyzing class A β-lactamases from geographically diverse Serratia marcescens strains. Antimicrob Agents Chemother
+44:3035–3039. doi: 10.1128/AAC.44.11.3035-3039.2000. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+75. Handal T, Giraud-Morin C, Caugant DA, Madinier I, Olsen I, Fosse T. 
+2005. 
+Chromosome- and plasmid-encoded β-lactamases in Capnocytophaga spp. Antimicrob Agents Chemother
+49:3940–3943. doi: 10.1128/AAC.49.9.3940-3943.2005. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+76. Ehrmann E, Handal T, Tamanai-Shacoori Z, Bonnaure-Mallet M, Fosse T. 
+2014. 
+High prevalence of β-lactam and macrolide resistance genes in human oral Capnocytophaga species. J Antimicrob Chemother
+69:381–384. doi: 10.1093/jac/dkt350. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+77. Ogawara H, Horikawa S, Shimada-Miyoshi S, Yasuzawa K. 
+1978. 
+Production and property of β-lactamases in Streptomyces: comparison of the strains isolated newly and thirty years ago. Antimicrob Agents Chemother
+13:865–870. doi: 10.1128/AAC.13.5.865. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+78. Sendouda A, Urabe H, Ogawara H. 
+1993. 
+Cloning, nucleotide sequence and expression of a β-lactamase gene from Streptomyces lavendulae. FEMS Microbiol Lett
+112:343–348. doi: 10.1111/j.1574-6968.1993.tb06473.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+79. Walckenaer E, Delmas J, Leflon-Guibout V, Bonnet R, Nicolas-Chanoine MH. 
+16
+June
+2015. 
+Genetic, biochemical characterization and mutagenesis of the chromosomal class A β-lactamase of Raoultella (formerly Klebsiella) terrigena . Pathol Biol (Paris) doi: 10.1016/j.patbio.2015.05.002. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+80. Silva J, Aguilar C, Ayala G, Estrada MA, Garza-Ramos U, Lara-Lemus R, Ledezma L. 
+2000. 
+TLA-1: a new plasmid mediated extended-spectrum β-lactamase from Escherichia coli. Antimicrob Agents Chemother
+44:997–1003. doi: 10.1128/AAC.44.4.997-1003.2000. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+81. Girlich D, Poirel L, Schluter A, Nordmann P. 
+2005. 
+TLA-2, a novel Ambler class A expanded-spectrum β-lactamase. Antimicrob Agents Chemother
+49:4767–4770. doi: 10.1128/AAC.49.11.4767-4770.2005. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+82. Ishii Y, Ohno A, Taguchi H, Imajo S, Ishiguro M, Matsuzaw H. 
+1995. 
+Cloning and sequence of the gene encoding a cefotaxime-hydrolyzing class A β-lactamase isolated from Escherichia coli. Antimicrob Agents Chemother
+39:2269–2275. doi: 10.1128/AAC.39.10.2269. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+83. Jun LJ, Kim JH, Jin JW, Jeong HD. 
+2012. 
+Characterization of a new β-lactamase gene from isolates of Vibrio spp. in Korea. J Microbiol Biotechnol
+22:555–562. doi: 10.4014/jmb.1110.10014. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+84. Poirel L, Naas T, Guibert M, Chaibi EB, Labia R, Nordmann P. 
+1999. 
+Molecular and biochemical characterization of VEB-1, a novel class A extended-spectrum β-lactamase encoded by an Escherichia coli integron gene. Antimicrob Agents Chemother
+43:573–581. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+85. Teo JW, Suwanto A, Poh CL. 
+2000. 
+Novel β-lactamase genes from two environmental isolates of Vibrio harveyi. Antimicrob Agents Chemother
+44:1309–1314. doi: 10.1128/AAC.44.5.1309-1314.2000. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+86. Weng SF, Chen CY, Lee YS, Lin JW, Tseng YH. 
+1999. 
+Identification of a novel β-lactamase produced by Xanthomonas campestris, a phytopathogenic bacterium. Antimicrob Agents Chemother
+43:1792–1797. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+87. Sharma S, Mittal S, Mallik S, Virdi JS. 
+2006. 
+Molecular characterization of β-lactamase genes blaA and blaB of Yersinia enterocolitica biovar 1A. FEMS Microbiol Lett
+257:319–327. doi: 10.1111/j.1574-6968.2006.00191.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+88. Dortet L, Poirel L, Abbas S, Oueslati S, Nordmann P. 
+21
+September
+2015. 
+Genetic and biochemical characterization of FRI-1, a carbapenem-hydrolyzing class A β-lactamase from Enterobacter cloacae. Antimicrob Agents Chemother. doi: 10.1128/AAC.01636-15. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+89. Thompson JD, Gibson TJ, Plewniak F, Jeanmougin F, Higgins DG. 
+1997. 
+The ClustalX windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools. Nucleic Acids Res
+25:4876–4882. doi: 10.1093/nar/25.24.4876. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+90. Saitou N, Nei M. 
+1987. 
+The neighbor-joining method: a new method for reconstructing phylogenetic trees. Mol Biol Evol
+4:406–425. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+91. Maddison DR, Swofford DJ, Maddison WP. 
+1997. 
+NEXUS: an extensible file format for systematic information. Syst Biol
+46:590–621. doi: 10.1093/sysbio/46.4.590. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+92. Walther-Rasmussen J, Høiby N. 
+2007. 
+Class A carbapenemases. J Antimicrob Chemother
+60:470–482. doi: 10.1093/jac/dkm226. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+93. Galán JC.
+2002. 
+Trans-gram gene transfer: the case of β-lactamases. Rev Esp Quimioter
+15:215–223. (In Spanish.) [ PubMed ] [ Google Scholar ] 
+
+94. Brown JR, Douady CJ, Italia MJ, Marshall WE, Stanhope MJ. 
+2001. 
+Universal trees based on large combined protein sequence data sets. Nat Genet
+28:281–285. doi: 10.1038/90129. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+95. Naas T, Poirel L, Nordmann P. 
+2008. 
+Minor extended-spectrum β-lactamases. Clin Microbiol Infect
+14(Suppl 1):42–52. doi: 10.1111/j.1469-0691.2007.01861.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+96. Ambler RP, Coulson AF, Frère JM, Ghuysen JM, Joris B, Forsman M, Levesque RC, Tiraby G, Waley SG. 
+1991. 
+A standard numbering scheme for the class A β-lactamases. Biochem J
+276:269–270. doi: 10.1042/bj2760269. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+97. Risso VA, Gavira JA, Mejia-Carmona DF, Gaucher EA, Sanchez-Ruiz JM. 
+2013. 
+Hyperstability and substrate promiscuity in laboratory resurrections of Precambrian β-lactamases. J Am Chem Soc
+135:2899–2902. doi: 10.1021/ja311630a. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+98. Tranier S, Bouthors AT, Maveyraud L, Guillet V, Sougakoff W, Samama JP. 
+2000. 
+The high resolution crystal structure for class A β-lactamase PER-1 reveals the bases for its increase in breadth of activity. J Biol Chem
+275:28075–28082. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+99. Ruggiero M, Kerff F, Herman R, Sapunaric F, Galleni M, Gutkind G, Charlier P, Sauvage E, Power P. 
+2014. 
+Crystal structure of the extended-spectrum β-lactamase PER-2 and insights into the role of specific residues in the interaction with β-lactams and β-lactamase inhibitors. Antimicrob Agents Chemother
+58:5994–6002. doi: 10.1128/AAC.00089-14. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+100. Brown-Elliott BA, Brown JM, Conville PS, Wallace RJ Jr. 
+2006. 
+Clinical and laboratory features of the Nocardia spp. based on current molecular taxonomy. Clin Microbiol Rev
+19:259–282. doi: 10.1128/CMR.19.2.259-282.2006. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+101. Chen Y, Tenover FC, Koehler TM. 
+2004. 
+β-Lactamase gene expression in a penicillin-resistant Bacillus anthracis strain. Antimicrob Agents Chemother
+48:4873–4877. doi: 10.1128/AAC.48.12.4873-4877.2004. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+102. David MZ, Daum RS. 
+2010. 
+Community-associated methicillin-resistant Staphylococcus aureus: epidemiology and clinical consequences of an emerging epidemic. Clin Microbiol Rev
+23:616–687. doi: 10.1128/CMR.00081-09. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+103. Kapadia M, Rolston KV, Han XY. 
+2007. 
+Invasive Streptomyces infections: six cases and literature review. Am J Clin Pathol
+127:619–624. doi: 10.1309/QJEBXP0BCGR54L15. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+104. Kurai S, Urabe H, Ogawara H. 
+1995. 
+Cloning, sequencing, and site-directed mutagenesis of β-lactamase gene from Streptomyces fradiae Y59. Antimicrob Agents Chemother
+39:260–263. doi: 10.1128/AAC.39.1.260. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+105. Loncaric I, Hübber-Heiss A, Posautz A, Stalder GL, Hoffmann D, Rosengarten R, Walzer C. 
+2013. 
+Characterization of methicillin-resistant Staphylococcus spp. carrying the mecC gene, isolated from wildlife. J Antimicrob Chemother
+68:2222–2225. doi: 10.1093/jac/dkt186. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+106. Materon IC, Queenan AM, Koehler TM, Bush K, Palzkill T. 
+2003. 
+Biochemical characterization of β-lactamases Bla1 and Bla2 from Bacillus anthracis. Antimicrob Agents Chemother
+47:2040–2042. doi: 10.1128/AAC.47.6.2040-2042.2003. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+107. Pérez-Llarena F, Martin JF, Galleni M, Coque JJ, Fuente JL, Frère JM, Liras P. 
+1997. 
+The bla gene of the cephamycin cluster of Streptomyces clavuligerus encodes a class A β-lactamase of low enzymatic activity. J Bacteriol
+179:6035–6040. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+108. Seipke RF, Kaltenpoth M, Hutchings MI. 
+2012. 
+Streptomyces as symbionts: an emerging and widespread theme?
+FEMS Microbiol Rev
+36:862–876. doi: 10.1111/j.1574-6976.2011.00313.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+109. Chambers HF, Moreau D, Yajko D, Miick C, Wagner C, Hackbarth C, Kocagoz S, Rosenberg E, Hadley WK, Nikaido H. 
+1995. 
+Can penicillins and other β-lactam antibiotics be used to treat tuberculosis?
+Antimicrob Agents Chemother
+39:2620–2624. doi: 10.1128/AAC.39.12.2620. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+110. Kurz SG, Bonomo RA. 
+2012. 
+Reappraising the use of β-lactams to treat tuberculosis. Expert Rev Anti Infect Ther
+10:999–1006. doi: 10.1586/eri.12.96. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+111. Quinting B, Reyrat JM, Monnaie D, Amicosante G, Pelicic V, Gicquel B, Frère JM, Galleni M. 
+1997. 
+Contribution of β-lactamase production to the resistance of mycobacteria to β-lactam antibiotics. FEBS Lett
+406:275–278. doi: 10.1016/S0014-5793(97)00286-X. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+112. Utrup LJ, Moore TD, Actor P, Poupard JA. 
+1995. 
+Susceptibilities of nontuberculosis mycobacterial species to amoxicillin-clavulanic acid alone and in combination with antimycobacterial agents. Antimicrob Agents Chemother
+39:1454–1457. doi: 10.1128/AAC.39.7.1454. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+113. Sauvage E, Fonzé E, Quinting B, Galleni M, Frère JM, Charlier P. 
+2006. 
+Crystal structure of the Mycobacterium fortuitum class A β-lactamase: structural basis for broad substrate specificity. Antimicrob Agents Chemother
+50:2516–2521. doi: 10.1128/AAC.01226-05. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+114. Gniadkowski M.
+2008. 
+Evolution of extended-spectrum β-lactamases by mutation. Clin Microbiol Infect
+14(Suppl 1):11–32. doi: 10.1111/j.1469-0691.2007.01854.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+115. Page MG.
+2008. 
+Extended-spectrum β-lactamases: structure and kinetic mechanism. Clin Microbiol Infect
+14(Suppl 1):63–74. doi: 10.1111/j.1469-0691.2007.01863.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+116. Philippon A, Arlet G. 
+2012. 
+Entérobactéries et bêta-lactamines: phénotypes de résistance naturelle. Pathol Biol (Paris)
+60:112–126. doi: 10.1016/j.patbio.2011.12.002. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+117. Mulvey MR, Boyd DA, Olson AB, Doublet B, Cloeckaert A. 
+2006. 
+The genetics of Salmonella genomic island 1. Microbes Infect
+8:1915–1922. doi: 10.1016/j.micinf.2005.12.028. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+118. Vanhove M, Guillaume G, Ledent P, Richards JH, Pain RH, Frère JM. 
+1997. 
+Kinetic and thermodynamic consequences of the removal of the Cys-77-Cys-123 disulphide bond for the folding of TEM-1 β-lactamase. Biochem J
+321:413–417. doi: 10.1042/bj3210413. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+119. Lim D, Sanschagrin F, Passmore L, De Castro L, Levesque RC, Strynadka NC. 
+2001. 
+Insights into the molecular basis for the carbenicillinase activity of PSE-4 β-lactamase from crystallographic and kinetic studies. Biochemistry
+40:395–402. doi: 10.1021/bi001653v. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+120. Lenfant F, Petit A, Labia R, Maveyraud L, Samama JP, Masson JM. 
+1993. 
+Site-directed mutagenesis of β-lactamase TEM-1. Investigating the potential role of specific residues on the activity of Pseudomonas-specific enzymes. Eur J Biochem
+217:939–946. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+121. Degnan PH, Yu Y, Sisneros N, Wing RA, Moran NA. 
+2009. 
+Hamiltonella defensa, genome evolution of protective bacterial endosymbiont from pathogenic ancestors. Proc Natl Acad Sci U S A
+106:9063–9068. doi: 10.1073/pnas.0900194106. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+122. Rao Q, Wang S, Su YL, Bing XL, Liu SS, Wang XW. 
+2012. 
+Draft genome sequence of “Candidatus Hamiltonella defensa,” an endosymbiont of the whitefly Bemisia tabaci.
+J Bacteriol
+194:3558. doi: 10.1128/JB.00069-12. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+123. Potron A, Poirel L, Croizé J, Chanteperdrix V, Nordmann P. 
+2009. 
+Genetic and biochemical characterization of the first extended-spectrum CARB-type β-lactamase, RTG-4, from Acinetobacter baumannii. Antimicrob Agents Chemother
+53:3010–3016. doi: 10.1128/AAC.01164-08. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+124. Bonnet R.
+2004. 
+Growing group of extended-spectrum β-lactamases: the CTX-M enzymes. Antimicrob Agents Chemother
+48:1–14. doi: 10.1128/AAC.48.1.1-14.2004. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+125. Zhao WH, Hu ZQ. 
+2013. 
+Epidemiology and genetics of CTX-M extended-spectrum β-lactamases in Gram-negative bacteria. Crit Rev Microbiol
+39:79–101. doi: 10.3109/1040841X.2012.691460. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+126. Fernández A, Pereira MJ, Suárez JM, Poza M, Treviño M, Villalón P, Sáez-Nieto JA, Regueiro BJ, Villanueva R, Bou G. 2011. 
+Emergence in Spain of a multidrug-resistant Enterobacter cloacae clinical isolate producing SFO-1 extended-spectrum β-lactamase. J Clin Microbiol
+49:822–828. doi: 10.1128/JCM.01872-10. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+127. González-López JJ, Coelho A, Larrosa MN, Lavilla S, Bartolomé R, Prats G. 
+2009. 
+First detection of plasmid-encoded blaOXY β-lactamase. Antimicrob Agents Chemother
+53:3143–3146. doi: 10.1128/AAC.01473-08. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+128. Fournier B, Arlet G, Lagrange PH, Philippon A. 
+1994. 
+Klebsiella oxytoca: resistance to aztreonam by overproduction of the chromosomally encoded β-lactamase. FEMS Microbiol Lett
+116:31–36. doi: 10.1111/j.1574-6968.1994.tb06671.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+129. Fournier B, Lagrange PH, Philippon A. 
+1996. 
+In-vitro susceptibility of Klebsiella oxytoca strains to 13 β-lactams in the presence and absence of β-lactamase inhibitors. J Antimicrob Chemother
+37:931–942. doi: 10.1093/jac/37.5.931. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+130. Péduzzi J, Reynaud A, Baron P, Barthélémy M, Labia R. 
+1994. 
+Chromosomally encoded cephalosporin-hydrolyzing β-lactamase of Proteus vulgaris RO104 belongs to Ambler's class A. Biochim Biophys Acta
+1207:31–39. doi: 10.1016/0167-4838(94)90048-5. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+131. Ruimy R, Meziane-Cherif D, Momcilovic S, Arlet G, Andremont A, Courvalin P. 
+2010. 
+RAHN-2, a chromosomal extended-spectrum class A β-lactamase from Rahnella aquatilis.
+J Antimicrob Chemother
+65:1619–1623. doi: 10.1093/jac/dkq178. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+132. Delmas J, Chen Y, Prati F, Robin F, Shoichet BK, Bonnet R. 
+2008. 
+Structure and dynamics of CTX-M enzymes reveal insights into substrate accommodation by extended-spectrum β-lactamases. J Mol Biol
+375:192–201. doi: 10.1016/j.jmb.2007.10.026. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+133. Delmas J, Robin F, Carvalho F, Mongaret C, Bonnet R. 
+2006. 
+Prediction of the evolution of ceftazidime resistance in extended-spectrum β-lactamase CTX-M-9. Antimicrob Agents Chemother
+50:731–738. doi: 10.1128/AAC.50.2.731-738.2006. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+134. Shimizu-Ibuka A, Oishi M, Yamada S, Ishii Y, Mura K, Sakai H, Matsuzawa H. 
+2011. 
+Roles of residues Cys69, Asn104, Phe160, Gly232, Ser237, and Asp240 in extended-spectrum β-lactamase Toho-1. Antimicrob Agents Chemother
+55:284–290. doi: 10.1128/AAC.00098-10. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+135. Decré D, Burghoffer B, Gautier V, Petit JC, Arlet G. 
+2004. 
+Outbreak of multi-resistant Klebsiella oxytoca involving strains with extended-spectrum β-lactamases and strains with extended-spectrum activity of the chromosomal β-lactamase. J Antimicrob Chemother
+54:881–888. doi: 10.1093/jac/dkh440. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+136. Cantón R, Morosini MI, de la Maza OM, de la Pedrosa EG. 2008. 
+IRT and CMT β-lactamases and inhibitor resistance. Clin Microbiol Infect
+14(Suppl 1):53–62. doi: 10.1111/j.1469-0691.2007.01849.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+137. Celenza G, Luzi C, Aschi M, Segatore B, Setacci D, Pellegrini C, Forcella C, Amicosante G, Perilli M. 
+2008. 
+Natural D240G Toho-1 mutant conferring resistance to ceftazidime: biochemical characterization of CTX-M-43. J Antimicrob Chemother
+62:991–997. doi: 10.1093/jac/dkn339. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+138. Mammeri H, Poirel L, Nordmann P. 
+2003. 
+In vivo selection of a chromosomally encoded β-lactamase variant conferring ceftazidime resistance in Klebsiella oxytoca. Antimicrob Agents Chemother
+47:3739–3742. doi: 10.1128/AAC.47.12.3739-3742.2003. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+139. Younes A, Hamouda A, Amyes SG. 
+2011. 
+First report of a novel extended-spectrum β-lactamase KOXY-2 producing Klebsiella oxytoca that hydrolyses cefotaxime and ceftazidime. J Chemother
+23:127–130. doi: 10.1179/joc.2011.23.3.127. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+140. Ripoll A, Baquero F, Novais A, Rodríguez-Domínguez MJ, Turrientes MC, Cantón R, Galán JC. 2011. 
+In vitro selection of variants resistant to β-lactams plus β-lactamase inhibitors in CTX-M β-lactamases: predicting the in vivo scenario?
+Antimicrob Agents Chemother
+55:4530–4536. doi: 10.1128/AAC.00178-11. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+141. Sirot D, Labia R, Pouedras P, Chanal-Claris C, Cerceau C, Sirot J. 
+1998. 
+Inhibitor-resistant OXY-2-derived β-lactamase produced by Klebsiella oxytoca. Antimicrob Agents Chemother
+42:2184–2187. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+142. Hornstein MJ, Jupeau AM, Scavizzi MR, Philippon AM, Grimont PAD. 
+1985. In vitro susceptibilities of 126 clinical isolates of Yersinia enterocolitica to 21 β-lactam antibiotics. Antimicrob Agents Chemother
+27:806–811. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+143. Pham JN, Bell SM, Martin L, Carniel E. 
+2000. 
+The β-lactamases and β-lactam antibiotic susceptibility of Yersinia enterocolitica. J Antimicrob Chemother
+46:951–957. doi: 10.1093/jac/46.6.951. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+144. Stock I, Wiedemann B. 
+1999. 
+An in-vitro study of the antimicrobial susceptibilities of Yersinia enterocolitica and the definition of a database. J Antimicrob Chemother
+43:37–45. doi: 10.1093/jac/43.1.37. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+145. Poirel L, Pitout JD, Nordmann P. 
+2007. 
+Carbapenemases: molecular diversity and clinical consequences. Future Microbiol
+2:501–512. doi: 10.2217/17460913.2.5.501. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+146. Queenan AM, Bush K. 
+2007. 
+Carbapenemases: the versatile β-lactamases. Clin Microbiol Rev
+20:440–458. doi: 10.1128/CMR.00001-07. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+147. Papp-Wallace KM, Endimiani A, Taracila MA, Bonomo RA. 
+2011. 
+Carbapenems: past, present, and future. Antimicrob Agents Chemother
+55:4943–4960. doi: 10.1128/AAC.00296-11. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+148. Papp-Wallace KM, Bethel CR, Distler AM, Kasuboski C, Taracila M, Bonomo RA. 
+2010. 
+Inhibitor resistance in the KPC-2 β-lactamase, a preeminent property of this class A β-lactamase. Antimicrob Agents Chemother
+54:890–897. doi: 10.1128/AAC.00693-09. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+149. Ke W, Bethel CR, Papp-Wallace KM, Pagadala SR, Nottingham M, Fernandez D, Buynak JD, Bonomo RA, van den Akker F. 
+2012. 
+Crystal structures of KPC-2 β-lactamase in complex with 3-nitrophenyl boronic acid and the penam sulfone PSR-3-226. Antimicrob Agents Chemother
+56:2713–2718. doi: 10.1128/AAC.06099-11. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+150. Sougakoff W, L'Hermite G, Pernot L, Naas T, Guillet V, Nordmann P, Jarlier V, Delettré J. 
+2002. 
+Structure of the imipenem-hydrolyzing class A β-lactamase SME-1 from Serratia marcescens. Acta Crystallogr D Biol Crystallogr
+58:267–274. doi: 10.1107/S0907444901019606. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+151. Fonseca F, Chudyk EI, van der Kamp MW, Correia A, Mulholland AJ, Spencer J. 
+2012. 
+The basis for carbapenem hydrolysis by class A β-lactamases: a combined investigation using crystallography and simulations. J Am Chem Soc
+134:18275–18285. doi: 10.1021/ja304460j. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+152. Papp-Wallace KM, Taracila MA, Smith KM, Xu Y, Bonomo RA. 
+2012. 
+Understanding the molecular determinants of substrate and inhibitor specificities in the carbapenemase KPC-2: exploring the roles of Arg220 and Glu276. Antimicrob Agents Chemother
+56:4428–4438. doi: 10.1128/AAC.05769-11. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+153. Poirel L, Brinas L, Fortineau N, Nordmann P. 
+2005. 
+Integron-encoded GES-type extended-spectrum β-lactamase with increased activity toward aztreonam in Pseudomonas aeruginosa. Antimicrob Agents Chemother
+49:3593–3597. doi: 10.1128/AAC.49.8.3593-3597.2005. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+154. Delbrück H, Bogaerts P, Kupper MB, Rezende de Castro R, Bennink S, Glupczynski Y, Galleni M, Hoffmann KM, Bebrone C. 
+2012. 
+Kinetic and crystallographic studies of extended-spectrum GES-11, GES-12, and GES-14 β-lactamases. Antimicrob Agents Chemother
+56:5618–5625. doi: 10.1128/AAC.01272-12. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+155. Bontron S, Poirel L, Nordmann P. 
+2015. 
+In vitro prediction of the evolution of GES-1 β-lactamase hydrolytic activity. Antimicrob Agents Chemother
+59:1664–1670. doi: 10.1128/AAC.04450-14. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+156. Regan KH, Bhatt J. 
+2014. 
+Eradication therapy for Burkholderia cepacia complex in people with cystic fibrosis. Cochrane Database Syst Rev
+10:CD009876. doi: 10.1002/14651858.CD009876.pub2. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+157. Dando SJ, Mackay-Sim A, Norton R, Currie BJ, St John JA, Ekberg JA, Batzloff M, Ulett GC, Beacham IR. 
+2014. 
+Pathogens penetrating the central nervous system: infection pathways and the cellular and molecular mechanisms of invasion. Clin Microbiol Rev
+27:691–726. doi: 10.1128/CMR.00118-13. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+158. Khan I, Wieler LH, Melzer F, Elschner MC, Muhammad G, Ali S, Sprague LD, Neubauer H, Saqib M. 
+2013. 
+Glanders in animals: a review on epidemiology, clinical presentation, diagnosis and countermeasures. Transbound Emerg Dis
+60:204–221. doi: 10.1111/j.1865-1682.2012.01342.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+159. Dance D.
+2014. 
+Treatment and prophylaxis of melioidosis. Int J Antimicrob Agents
+43:310–318. doi: 10.1016/j.ijantimicag.2014.01.005. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+160. Philippon A.
+2009. 
+Antibiotic resistance in other non-fermentative strict aerobic Gram-negative bacilli, p 175–211. In Courvalin P, Leclercq R, Rice LB (ed), Antibiogram. ASM Press, Washington, DC. [ Google Scholar ] 
+
+161. Ho PL, Cheung TK, Yam WC, Yuen KY. 
+2002. 
+Characterization of a laboratory-generated variant of BPS β-lactamase from Burkholderia pseudomallei that hydrolyses ceftazidime. J Antimicrob Chemother
+50:723–726. doi: 10.1093/jac/dkf208. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+162. Tribuddharat C, Moore RA, Baker P, Woods DE. 
+2003. 
+Burkholderia pseudomallei class A β-lactamase mutations that confer selective resistance against ceftazidime or clavulanic acid inhibition. Antimicrob Agents Chemother
+47:2082–2087. doi: 10.1128/AAC.47.7.2082-2087.2003. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+163. Rholl DA, Papp-Wallace KM, Tomaras AP, Vasil ML, Bonomo RA, Schweizer HP. 
+2011. 
+Molecular investigations of PenA-mediated β-lactam resistance in Burkholderia pseudomallei. Front Microbiol
+2:139. doi: 10.3389/fmicb.2011.00139. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+164. Schweizer HP.
+2012. 
+Mechanisms of antibiotic resistance in Burkholderia pseudomallei: implications for treatment of melioidosis. Future Microbiol
+7:1389–1399. doi: 10.2217/fmb.12.116. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+165. Hwang J, Cho KH, Song H, Yi H, Kim HS. 
+2014. 
+Deletion mutations conferring substrate spectrum extension in the class A β-lactamase. Antimicrob Agents Chemother
+58:6265–6269. doi: 10.1128/AAC.02648-14. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+166. Chantratita N, Rholl DA, Sim B, Wuthiekanun V, Limmathurotsakul D, Amornchai P, Thanwisai A, Chua HH, Ooi WF, Holden MT, Day NP, Tan P, Schweizer HP, Peacock SJ. 
+2011. 
+Antimicrobial resistance to ceftazidime involving loss of penicillin-binding protein 3 in Burkholderia pseudomallei. Proc Natl Acad Sci U S A
+108:17165–17170. doi: 10.1073/pnas.1111020108. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+167. Török ME, Chantratita N, Peacock SJ. 
+2012. 
+Bacterial gene loss as a mechanism for gain of antimicrobial resistance. Curr Opin Microbiol
+15:583–587. doi: 10.1016/j.mib.2012.07.008. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+168. Aunkham A, Schulte A, Winterhalter M, Suginta W. 
+2014. 
+Porin involvement in cephalosporin and carbapenem resistance of Burkholderia pseudomallei. PLoS One
+9:e95918. doi: 10.1371/journal.pone.0095918. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+169. Brooke JS.
+2012. 
+Stenotrophomonas maltophilia: an emerging global opportunistic pathogen. Clin Microbiol Rev
+25:2–41. doi: 10.1128/CMR.00019-11. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+170. Parker AC, Smith CJ. 
+1993. 
+Genetic and biochemical analysis of a novel Ambler class A β-lactamase responsible for cefoxitin resistance in Bacteroides species. Antimicrob Agents Chemother
+37:1028–1036. doi: 10.1128/AAC.37.5.1028. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+171. García N, Gutierrez G, Lorenzo M, Garcia JE, Piriz S, Quesada A. 
+2008. 
+Genetic determinants for cfxA expression in Bacteroides strains isolated from human infections. J Antimicrob Chemother
+62:942–947. doi: 10.1093/jac/dkn347. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+172. Madinier I, Fosse T, Giudicelli J, Labia R. 
+2001. 
+Cloning and biochemical characterization of a class A β-lactamase from Prevotella intermedia. Antimicrob Agents Chemother
+45:2386–2389. doi: 10.1128/AAC.45.8.2386-2389.2001. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+173. Bauernfeind A, Stemplinger I, Jungwirth R, Mangold P, Amann S, Akalin E, Anğ O, Bal C, Casellas JM. 
+1996. 
+Characterization of β-lactamase gene blaPER-2, which encodes an extended-spectrum class A β-lactamase. Antimicrob Agents Chemother
+40:616–620. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+174. Bellais S, Poirel L, Leotard S, Naas T, Nordmann P. 
+2000. 
+Genetic diversity of carbapenem-hydrolyzing metallo-β-lactamases from Chryseobacterium (Flavobacterium) indologenes. Antimicrob Agents Chemother
+44:3028–3034. doi: 10.1128/AAC.44.11.3028-3034.2000. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+175. Paterson DL, Bonomo RA. 
+2005. 
+Extended-spectrum β-lactamases: a clinical update. Clin Microbiol Rev
+18:657–686. doi: 10.1128/CMR.18.4.657-686.2005. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+176. Hidalgo L, Hopkins KL, Wareham DW, Gutierrez B, Gonzàlez-Zorn B. 
+2012. 
+Association of extended-spectrum β-lactamase VEB-5 and 16S rRNA methyltransferase armA in Salmonella enterica from the United Kingdom. Antimicrob Agents Chemother
+56:4985–4987. doi: 10.1128/AAC.00381-12. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+177. Zong Z, Partridge SR, Iredell JR. 
+2009. 
+A blaVEB-1 variant, blaVEB-6, associated with repeated elements in a complex genetic structure. Antimicrob Agents Chemother
+53:1693–1697. doi: 10.1128/AAC.01313-08. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+178. Pollitt S, Zalkin H. 
+1983. 
+Role of primary structure and disulfide bond formation in β-lactamase secretion. J Bacteriol
+153:27–32. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+179. Schultz SC, Dabadie-McFarkand G, Neitzel JJ, Richards JH. 
+1987. 
+Stability of wild-type and mutant RTEM-1 β-lactamase: effect of the disulfide bond. Proteins
+2:290–297. doi: 10.1002/prot.340020405. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+180. Bellais S, Poirel L, Naas T, Girlich D, Nordmann P. 
+2000. 
+Genetic-biochemical analysis and distribution of the Ambler class A β-lactamase CME-2, responsible for extended-spectrum cephalosporin resistance in Chryseobacterium (Flavobacterium) meningosepticum . Antimicrob Agents Chemother
+44:1–9. doi: 10.1128/AAC.44.1.1-9.2000. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+181. Nordmann P, Mariotte S, Naas T, Labia R, Nicolas MH. 
+1993. 
+Biochemical properties of a carbapenem-hydrolyzing β-lactamase from Enterobacter cloacae and cloning of the gene into Escherichia coli. Antimicrob Agents Chemother
+37:939–946. doi: 10.1128/AAC.37.5.939. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+182. Kuzin AP, Nukaga M, Nukaga Y, Hujer AM, Bonomo RA, Knox JR. 
+1999. 
+Structure of the SHV-1 β-lactamase. Biochemistry
+38:5720–5727. doi: 10.1021/bi990136d. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+183. Nukaga M, Mayama K, Hujer AM, Bonomo RA, Knox JR. 
+2003. 
+Ultrahigh resolution structure of a class A β-lactamase: on the mechanism and specificity of the extended-spectrum SHV-2 enzyme. J Mol Biol
+328:289–301. doi: 10.1016/S0022-2836(03)00210-9. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+184. Bouthors AT, Dagoneau-Blanchard N, Naas T, Nordmann P, Jarlier V, Sougakoff W. 
+1998. 
+Role of residues 104, 164, 166, 238 and 240 in the substrate profile of PER-1 β-lactamase hydrolysing third-generation cephalosporins. Biochem J
+330:1443–1449. doi: 10.1042/bj3301443. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+185. Chen CC, Herzberg O. 
+1992. 
+Inhibition of β-lactamase by clavulanate. Trapped intermediates in cryocrystallographic studies. J Mol Biol
+224:1103–1113. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+186. Jelsch C, Mourey L, Masson JM, Samama JP. 
+1993. 
+Crystal structure of Escherichia coli TEM-1 β-lactamase at 1.8 A resolution. Proteins
+16:364–383. doi: 10.1002/prot.340160406. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+187. Liang YH, Gao R, Su XD. 
+2012. 
+Structural insights into the broadened substrate profile of the extended-spectrum β-lactamase OXY-1-1 from Klebsiella oxytoca. Acta Crystallogr D Biol Crystallogr
+68:1460–1467. doi: 10.1107/S090744491203466X. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+188. Qing Y, Cao KY, Fang ZL, Huang YM, Zhang XF, Tian GB, Huang X. 
+2014. 
+Outbreak of PER-1 and diversity of β-lactamases among ceftazidime-resistant Pseudomonas aeruginosa clinical isolates. J Med Microbiol
+63:386–392. doi: 10.1099/jmm.0.069427-0. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+189. Opazo A, Vali L, Al Obaid K, Dashti AA, Amyes SG. 
+2014. 
+Novel genetic structure harbouring blaPER-1 in ceftazidime-resistant Acinetobacter baumannii isolated from Kuwait. Int J Antimicrob Agents
+43:383–384. doi: 10.1016/j.ijantimicag.2014.01.001. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+190. Mnif B, Ktari S, Chaari A, Medhioub F, Rhimi F, Bouaziz M, Hammami A. 
+2013. 
+Nosocomial dissemination of Providencia stuartii isolates carrying bla OXA-48, bla PER-1, bla CMY-4 and qnr A6 in a Tunisian hospital. J Antimicrob Chemother
+68:329–332. doi: 10.1093/jac/dks386. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+191. Fabre M, Hauck Y, Soler C, Koeck JL, van Ingen J, van Soolingen D, Vergnaud G, Pourcel C. 
+2010. 
+Molecular characteristics of “Mycobacterium canettii” the smooth Mycobacterium tuberculosis bacilli. Infect Genet Evol
+10:1165–1173. doi: 10.1016/j.meegid.2010.07.016. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+192. Papp-Wallace KM, Taracila M, Hornick JM, Hujer AM, Hujer KM, Distler AM, Endimiani A, Bonomo RA. 
+2010. 
+Substrate selectivity and a novel role in inhibitor discrimination by residue 237 in the KPC-2 β-lactamase. Antimicrob Agents Chemother
+54:2867–2877. doi: 10.1128/AAC.00197-10. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+193. Bouthors AT, Delettré J, Mugnier P, Jarlier V, Sougakoff W. 
+1999. 
+Site-directed mutagenesis of residues 164, 170, 171, 179, 220, 237 and 242 in PER-1 β-lactamase hydrolysing expanded-spectrum cephalosporins. Protein Eng
+12:313–318. doi: 10.1093/protein/12.4.313. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+194. Bouthors AT, Jarlier V, Sougakoff W. 
+1998. 
+Amino acid substitutions at positions 69, 165, 244 and 275 of the PER-1 β-lactamase do not impair enzyme inactivation by clavulanate. J Antimicrob Chemother
+42:399–401. doi: 10.1093/jac/42.3.399-a. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+195. Goffin C, Ghuysen JM. 
+1998. 
+Multimodular penicillin-binding proteins: an enigmatic family of orthologs and paralogs. Microbiol Mol Biol Rev
+62:1079–1093. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+196. Edgar RC.
+2004. 
+MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic Acids Res
+32:1792–1797. doi: 10.1093/nar/gkh340. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+197. Waterhouse AM, Procter JB, Martin DM, Clamp M, Barton GJ. 
+2009. 
+Jalview version 2—a multiple sequence alignment editor and analysis workbench. Bioinformatics
+25:1189–1191. doi: 10.1093/bioinformatics/btp033. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Clinical Microbiology Reviews are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (8.0 MB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

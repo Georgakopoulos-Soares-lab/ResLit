@@ -1,0 +1,613 @@
+PMID: 37195180
+PMCID: PMC10269110
+DOI: 10.1128/aac.00358-23
+Title: Temocillin Resistance in the Enterobacter cloacae Complex Is Conferred by a Single Point Mutation in BaeS, Leading to Overexpression of the AcrD Efflux Pump.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2023 Jun 15
+Authors: Guérin F, Gravey F, Reissier S, Penven M, Michaux C, Le Hello S, Cattoir V
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Temocillin Resistance in the Enterobacter cloacae Complex Is Conferred by a Single Point Mutation in BaeS, Leading to Overexpression of the AcrD Efflux Pump - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2023 May 17;67(6):e00358-23. doi: 10.1128/aac.00358-23 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Temocillin Resistance in the Enterobacter cloacae Complex Is Conferred by a Single Point Mutation in BaeS, Leading to Overexpression of the AcrD Efflux Pump 
+
+François Guérin 
+
+François Guérin 
+
+a Department of Clinical Microbiology, Rennes University Hospital, Rennes, France 
+
+b University of Rennes, INSERM UMR 1230 BRM, Rennes, France 
+
+Find articles by François Guérin 
+
+a, b, ✉ , François Gravey 
+
+François Gravey 
+
+c Normandie Université, UNICAEN, UNIROUEN, INSERM UMR 1311 DYNAMICURE, Caen, France 
+
+d Microbiology Department, CHU Caen, Caen, France 
+
+Find articles by François Gravey 
+
+c, d , Sophie Reissier 
+
+Sophie Reissier 
+
+a Department of Clinical Microbiology, Rennes University Hospital, Rennes, France 
+
+b University of Rennes, INSERM UMR 1230 BRM, Rennes, France 
+
+Find articles by Sophie Reissier 
+
+a, b , Malo Penven 
+
+Malo Penven 
+
+a Department of Clinical Microbiology, Rennes University Hospital, Rennes, France 
+
+b University of Rennes, INSERM UMR 1230 BRM, Rennes, France 
+
+Find articles by Malo Penven 
+
+a, b , Charlotte Michaux 
+
+Charlotte Michaux 
+
+b University of Rennes, INSERM UMR 1230 BRM, Rennes, France 
+
+Find articles by Charlotte Michaux 
+
+b , Simon Le Hello 
+
+Simon Le Hello 
+
+c Normandie Université, UNICAEN, UNIROUEN, INSERM UMR 1311 DYNAMICURE, Caen, France 
+
+d Microbiology Department, CHU Caen, Caen, France 
+
+Find articles by Simon Le Hello 
+
+c, d , Vincent Cattoir 
+
+Vincent Cattoir 
+
+a Department of Clinical Microbiology, Rennes University Hospital, Rennes, France 
+
+b University of Rennes, INSERM UMR 1230 BRM, Rennes, France 
+
+Find articles by Vincent Cattoir 
+
+a, b, ✉ 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a Department of Clinical Microbiology, Rennes University Hospital, Rennes, France 
+
+b University of Rennes, INSERM UMR 1230 BRM, Rennes, France 
+
+c Normandie Université, UNICAEN, UNIROUEN, INSERM UMR 1311 DYNAMICURE, Caen, France 
+
+d Microbiology Department, CHU Caen, Caen, France 
+
+The authors declare no conflict of interest. 
+
+✉ 
+Corresponding author. 
+
+Received 2023 Mar 15; Revision requested 2023 Apr 4; Accepted 2023 Apr 24; Collection date 2023 Jun. 
+
+Copyright © 2023 American Society for Microbiology. 
+
+All Rights Reserved . 
+
+PMC Copyright notice 
+
+PMCID: PMC10269110  PMID: 37195180 
+
+ABSTRACT 
+
+The Enterobacter cloacae complex (ECC) has become a major opportunistic pathogen with antimicrobial resistance issues. Temocillin, an “old” carboxypenicillin that is remarkably stable toward β-lactamases, has been used as an alternative for the treatment of multidrug-resistant ECC infections. Here, we aimed at deciphering the never-investigated mechanisms of temocillin resistance acquisition in Enterobacterales . By comparative genomic analysis of two clonally related ECC clinical isolates, one susceptible (Temo_S [MIC of 4 mg/L]) and the other resistant (Temo_R [MIC of 32 mg/L]), we found that they differed by only 14 single-nucleotide polymorphisms, including one nonsynonymous mutation (Thr175Pro) in the two-component system (TCS) sensor histidine kinase BaeS. By site-directed mutagenesis in Escherichia coli CFT073, we demonstrated that this unique change in BaeS was responsible for a significant (16-fold) increase in temocillin MIC. Since the BaeSR TCS regulates the expression of two resistance-nodulation-cell division (RND)-type efflux pumps (namely, AcrD and MdtABCD) in E. coli and Salmonella , we demonstrated by quantitative reverse transcription-PCR that mdtB , baeS , and acrD genes were significantly overexpressed (15-, 11-, and 3-fold, respectively) in Temo_R. To confirm the role of each efflux pump in this mechanism, multicopy plasmids harboring mdtABCD or acrD were introduced into either Temo_S or the reference strain E. cloacae subsp. cloacae ATCC 13047. Interestingly, only the overexpression of acrD conferred a significant increase (from 8- to 16-fold) of the temocillin MIC. Altogether, we have shown that temocillin resistance in the ECC can result from a single BaeS alteration, likely resulting in the permanent phosphorylation of BaeR and leading to AcrD overexpression and temocillin resistance through enhanced active efflux. 
+
+KEYWORDS: ECC, E. asburiae , BaeSR, AcrD, MdtABCD 
+
+INTRODUCTION 
+
+Widely encountered in natural environments, members of the Enterobacter cloacae complex (ECC) are also commensals of the gut microbiota of both animals and humans ( 1 ). The ECC presents a high level of genetic diversity and comprises 12 different genetic clusters, i.e., C-I ( Enterobacter asburiae ), C-II ( Enterobacter kobei ), C-III ( E. cloacae subsp. hoffmannii ), C-IV ( Enterobacter roggenkampii ), C-V ( Enterobacter ludwigii ), C-VI ( Enterobacter hormaechei subsp. oharae or Enterobacter hormaechei subsp. xiangfangensis ), C-VII ( E. hormaechei subsp. hormaechei ), C-VIII ( E. hormaechei subsp. steigerwaltii ), C-IX ( Enterobacter bugandensis ), C-X ( Lelliota nimipressuralis ), C-XI ( E. cloacae subsp. cloacae ), and C-XII ( E. cloacae subsp. dissolvens ) ( 2 – 4 ). From a clinical point of view, the ECC has recently become a major opportunistic pathogen associated with many hospital-acquired infections and outbreaks. Often multidrug resistant, the ECC belongs to the ESKAPE group ( Enterococcus faecium , Staphylococcus aureus , Klebsiella pneumoniae , Acinetobacter baumannii , Pseudomonas aeruginosa , and Enterobacter spp.), which comprises nosocomial pathogens with limited antimicrobial treatment options ( 5 ). All ECC members harbor a chromosomal bla AmpC gene coding for an AmpC-type cephalosporinase that confers intrinsic resistance to aminopenicillins and first- and second-generation cephalosporins ( 6 ). Due to its high genomic plasticity, the ECC is also able to easily develop acquired resistances. For instance, a large proportion of ECC clinical isolates are resistant to third-generation cephalosporins (3GCs) due to AmpC overproduction and/or acquisition of plasmid-mediated extended-spectrum β-lactamases (ESBLs) ( 7 ). Therefore, only a limited number of carbapenem-sparing therapeutic options remain for the treatment of 3GC-resistant ECC infections, including neglected and disused antibiotics such as colistin, fosfomycin, and temocillin ( 8 ). 
+
+Temocillin, a 6-α-methoxy derivative of ticarcillin, is an antibiotic that was commercialized in the early 1980s and used in only a few European countries (Belgium, France, Luxembourg, and the United Kingdom), mainly due to the concomitant marketing of 3GCs ( 8 , 9 ). The use of this antibiotic in clinics has been based on its multiple advantageous characteristics, such as (i) a narrow spectrum, almost restricted to Enterobacterales , (ii) a remarkable stability to hydrolysis by numerous β-lactamases, including ESBLs and AmpC-type cephalosporinases, and (iii) a minimal risk of Clostridioides difficile infection through the preservation of intestinal microbiota ( 10 ). In addition, the frequency of resistant mutants in vitro appears low (ranging from 1 × 10 −8 to 1 × 10 −10 ) ( 11 – 13 ), whereas no in vivo development of temocillin resistance after treatment has been detected to date ( 13 , 14 ). Therefore, temocillin has recently become a useful alternative to carbapenems for the treatment of infections caused by ESBL-producing Enterobacterales strains ( 9 , 10 ). Surprisingly, mechanisms of temocillin resistance have been very poorly studied, with the exception of intrinsic resistance in Pseudomonas aeruginosa , mainly driven by active efflux ( 15 , 16 ). Whereas hydrolysis of temocillin by class B- and class D-type β-lactamases is well known, mechanisms of acquired chromosomally encoded resistance have never been reported for Enterobacterales . 
+
+Two-component systems (TCSs) are universal signal transduction systems in bacteria that participate in various important cellular processes, such as pathogenicity, antibiotic resistance, environmental stresses, quorum sensing, and biofilm production ( 17 , 18 ). These environmental response systems are typically composed of a sensor histidine kinase (HK) and a cognate response regulator (RR) ( 19 ). HKs are usually transmembrane proteins that are able to perceive environmental signals. When stimulated, the HK triggers its autophosphorylation. The phosphate group is then transferred to an aspartate residue on the cognate RR located in the cytoplasm ( 20 ). The phosphorylated RR can thus bind to promoter regions of target genes, leading to expression regulation ( 20 ). Among TCSs identified in Enterobacterales , several are known to be involved in antibiotic resistance, such as BaeSR, CpxAR, EnvZ/OmpR, EvgAS, PhoPQ, PmrAB, and RcsBCD ( 21 ). Only two TCSs have been characterized to date in the ECC, namely, PhoPQ and CrrAB, which are both involved in colistin heteroresistance ( 22 – 24 ). 
+
+Here, by comparing isogenic temocillin-susceptible and -resistant ECC clinical isolates, we identified a mutation in the HK BaeS of the TCS BaeSR. By using knockout mutants and strains overexpressing genes known to be regulated by BaeSR, we identified the genetic basis of acquired temocillin resistance in the ECC, which will pave the way for a better understanding of mechanisms of antimicrobial resistance deployed by this worrisome pathogen. 
+
+RESULTS 
+
+E. asburiae isolates have different antibiotic susceptibility profiles. 
+
+Two clinical isolates, which were first identified as belonging to the ECC by matrix-assisted laser desorption ionization–time of flight (MALDI-TOF) mass spectrometry, were recovered from the same urinary specimen ( Table 1 ). By hsp60 sequencing, both isolates were shown to belong to cluster C-I (namely, E. asburiae ) and were presumably clonally related. A comparison of antibiotic susceptibility profiles showed that these isolates differed only in their susceptibility to three β-lactams, namely, ticarcillin, temocillin, and aztreonam ( Table 2 ). Indeed, E. asburiae Temo_R exhibited 32-, 8-, and 4-fold higher MICs for ticarcillin, temocillin, and aztreonam, respectively, compared to those determined for the E. asburiae Temo_S strain ( Table 2 ). Note that no change in MICs for these three antibiotics was observed in the presence of Phe-Arg-β-naphthylamide (PAβN) (data not shown). 
+
+TABLE 1. 
+
+Strains and plasmids used in the study 
+
+Strain or plasmid Genotype/relevant characteristic(s) a Reference Strains E. asburiae Temo_S Human clinical isolate Ecc20200302 (isolated from urine, 28 February 2020); Tem s This study E. asburiae Temo_R Human clinical isolate Ecc20200303 (isolated from urine, 28 February 2020); Tem r This study Temo_S/pBAD E. asburiae Temo_S trans -complemented strain carrying pBAD202/D-TOPO This study Temo_S/pBADΩ mdtABCD E. asburiae Temo_S trans -complemented strain carrying pBAD202/D-TOPOΩ mdtABCD (ECL_03401-ECL_03404) This study Temo_S/pBADΩ acrD E. asburiae Temo_S trans -complemented strain carrying pBAD202/D-TOPOΩ acrD (ECL_03767) This study E. cloacae subsp. cloacae ATCC 13047 Reference strain ATCC 13047 (cluster XI) 51 ATCC 13047Δ baeS ATCC 13047 deleted for baeS (ECL_03405) This study ATCC 13047Δ mdtB ATCC 13047 deleted for mdtB (ECL_03403) 63 ATCC 13047Δ acrD ATCC 13047 deleted for acrD (ECL_03767) 63 ATCC 13047/pBAD ATCC 13047 trans -complemented strain carrying pBAD202/D-TOPO 63 ATCC 13047/pBADΩ mdtABCD ATCC 13047 trans -complemented strain carrying pBAD202/D-TOPOΩ mdtABCD (ECL_03401-ECL_03404) 63 ATCC 13047/pBADΩ acrD ATCC 13047 trans -complemented strain carrying pBAD202/D-TOPOΩ acrD (ECL_03767) 63 E. coli CFT073 Wild-type susceptible clinical isolate (phylogenetic group B2) 52 CFT073_ baeS Thr175Pro CFT073 derivative with allelic replacement of baeS by baeS Thr175Pro This study E. coli DH5α λ pir Reference strain ( supE4 ΔlacU169 [Φ80 lacZ ΔM15] hsdR17 recA1 endA1 gyrA96 thi-1 relA1 λpir ) Laboratory collection Plasmids pBAD202/D-TOPO General expression vector with arabinose-inducible promoter; Kan r Life Technologies pKOBEG Recombination vector, phage λ recγβα operon under control of pBAD promoter; Cm r 60 pKD4 Plasmid containing FRT-flanked kanamycin cassette; Kan r 59 pCP20_Gm Flp-mediated recombination vector; Gm r 61 pDS132 Conditional replication vector, R6K origin, mobRP4 transfer origin, sucrose-inducible sacB , Cm r 64 
+
+Open in a new tab 
+
+a 
+Tem s , temocillin susceptible; Tem r , temocillin resistant; Cm r , chloramphenicol resistant; Gm r , gentamicin resistant; Kan r , kanamycin resistant; FRT, flippase recognition target; Flp, flippase. 
+
+TABLE 2. 
+
+MIC values of antibiotics for E. cloacae clinical isolates, E. cloacae ATCC 13047, and E. coli CFT073 (and their derivative strains) 
+
+Strain MIC (mg/L [fold change]) a AMX TEM TIC PIP FOX CTX FEP ATM ERT GEN CIP TGC CST CHL E. asburiae Temo_S >256 4 2 4 >256 0.5 0.03 0.03 0.25 0.12 <0.01 0.5 32 4 Temo_R >256 32 (8) 64 (32) 4 >256 0.5 0.03 0.12 (4) 0.25 0.12 <0.01 0.5 64 4 Temo_S/pBAD >256 4 2 2 >256 0.5 0.03 0.03 0.25 0.12 <0.01 0.5 32 4 Temo_S/pBADΩ mdtABCD >256 4 8 (4) 2 >256 0.5 0.03 0.03 0.25 0.12 <0.01 0.5 16 4 Temo_S/pBADΩ acrD >256 64 (16) 64 (32) 2 >256 0.5 0.03 0.12 (4) 0.25 0.12 <0.01 0.5 32 4 E. cloacae subsp. cloacae ATCC 13047 >256 8 4 8 >256 2 0.03 0.5 0.25 0.25 0.03 0.5 >256 4 ATCC 13047Δ baeS >256 4 4 8 >256 2 0.03 0.5 0.25 0.25 0.03 0.5 256 4 ATCC 13047Δ mdtB >256 8 4 8 >256 2 0.03 0.5 0.25 0.25 0.03 0.5 256 4 ATCC 13047Δ acrD >256 8 4 8 >256 2 0.03 0.25 0.25 0.25 0.03 0.5 >256 4 ATCC 13047/pBAD >256 8 4 8 >256 2 0.03 0.5 0.25 0.25 0.03 0.5 >256 4 ATCC 13047/pBADΩ mdtABCD >256 8 16 (4) 8 >256 2 0.03 0.5 0.5 0.25 0.03 0.5 >256 4 ATCC 13047/pBADΩ acrD >256 64 (8) 128 (16) 8 >256 2 0.03 2 (4) 0.25 0.25 0.03 0.5 >256 4 E. coli CFT073 4 4 4 2 2 0.12 0.06 0.06 0.06 0.12 <0.01 0.12 0.12 4 CFT073_ baeS Thr175Pro 4 64 (16) 64 (16) 2 2 0.12 0.06 1 (16) 0.06 0.12 <0.01 0.12 0.12 4 
+
+Open in a new tab 
+
+a 
+Numbers in bold are MICs that are significantly different (fold changes of ≥4 are indicated in parentheses). AMX, amoxicillin; ATM, aztreonam; CHL, chloramphenicol; CIP, ciprofloxacin; CST, colistin; CTX, cefotaxime; ERT, ertapenem; FEP, cefepime; FOX, cefoxitin; GEN, gentamicin; PIP, piperacillin; TEM, temocillin; TIC, ticarcillin; TGC, tigecycline. 
+
+E. asburiae isolates are clonally related. 
+
+By genome sequencing, we determined that the two strains belonged to sequence type 24 (ST24), and we confirmed that they were isogenic, with a difference of only 14 single-nucleotide polymorphisms (SNPs). Detailed analysis revealed that around one-third of the SNPs (5/14 SNPs) occurred within noncoding regions. Of the 9 SNPs appearing in coding regions, 6 led to synonymous mutations, and 3 were responsible for an amino acid change ( Table 3 ). The nonsynonymous mutations were found in three different genes, coding for a hypothetical protein (Leu118Phe), the TCS sensor HK BaeS (Thr175Pro), and a β-1,3-glucosyltransferase (Ile38Val) ( Table 3 ). 
+
+TABLE 3. 
+
+Nucleotide changes identified between E. asburiae S and Temo_R isogenic isolates 
+
+Gene a Predicted product Nucleotide change a Amino acid change Homolog in E. cloacae subsp. cloacae ATCC 13047 b OSB85_02280 General stress protein YmdF 24A>C None ECL_02630 36A>T None OSB85_09375 Hypothetical protein 354G>T Leu118Phe Not found 390T>C None OSB85_12740 IS3 family transposase 120C>T None Not found 132C>T None OSB85_20490 Two-component system sensor histidine kinase BaeS 523A>C Thr175Pro ECL_03405 OSB85_21180 Beta-1,3-glucosyltransferase 112A>G Ile38Val Not found 117C>T None 
+
+Open in a new tab 
+
+a 
+Gene names and positions from the annotated sequence of the E. asburiae Temo_S clinical isolate (GenBank accession no. SAMN31775694 ). 
+
+b 
+Gene names are from the annotated sequence of the E. cloacae subsp. cloacae ATCC 13047 (GenBank accession no. NC_014121 ). 
+
+The unique Thr175Pro change in BaeS confers temocillin resistance. 
+
+TCSs, including BaeRS, have been associated with antibiotic resistance. Therefore, the consequence of the amino acid change found in the BaeS sequence was of great interest to investigate in the context of temocillin resistance. In order to confirm the role of the Thr175Pro mutation in BaeS, we introduced it in the baeS gene of Escherichia coli CFT073 by site-directed mutagenesis. As expected, we demonstrated experimentally that this unique point mutation was solely responsible for significant (16-fold) increases in the temocillin, ticarcillin, and aztreonam MICs ( Table 2 ). Note that the mutation was located in a transmembrane domain of BaeS, which is not in the vicinity of the histidine residue (His 250 ) within the cytoplasmic catalytic domain (see Fig. S1 in the supplemental material). 
+
+Temocillin resistance is due to overexpression of the AcrD efflux pump system. 
+
+The BaeSR TCS regulates the expression of two efflux pump systems (namely, AcrAD-TolC and MdtABCD) belonging to the resistance-nodulation-cell division (RND) superfamily in E. coli and Salmonella ( 25 , 26 ). In addition, baeS is part of the mdtABCD-baeSR operon ( 27 ). We compared by quantitative reverse transcription-PCR (qRT-PCR) the expression of mdtB and acrD genes, as well as baeS , in the E. asburiae clinical isolates Temo_R and Temo_S. We determined that these three genes were significantly overexpressed in E. asburiae Temo_R, compared to E. asburiae Temo_S, with 15-fold, 11-fold, and 3-fold changes for mdtB , baeS , and acrD , respectively. These results strongly suggested that decreased susceptibility to ticarcillin, temocillin, and aztreonam in E. asburiae Temo_R was likely related to an increase in the efflux mediated by MdtABCD and/or AcrD RND-type efflux pump systems. 
+
+To confirm the role of these two RND-type efflux pump systems, the mdtABCD and acrD genes (together with their own promoters) were cloned into the pBAD202/D-TOPO vector and expressed in the E. asburiae Temo_S strain. We observed that overexpression of acrD , but not mdtABCD , was able to confer temocillin resistance (MIC, 64 mg/L), with a 16-fold increase in MIC ( Table 2 ). Overexpression of acrD also led to an increase in the MICs of ticarcillin (32-fold) and aztreonam (4-fold), while overexpression of mdtABCD conferred only a 4-fold increase in the ticarcillin MIC ( Table 2 ). The same mutants and trans -complemented strains were also obtained in the reference strain E. cloacae subsp. cloacae ATCC 13047 (cluster C-XI). Although we showed that the deletion of baeS (ECL_03405), mdtB (ECL_03403), or acrD (ECL_03767) did not modify the β-lactam susceptibility profiles, we confirmed that the sole overexpression of acrD conferred a significant increase (8-fold) in the temocillin MIC ( Table 2 ). 
+
+DISCUSSION 
+
+This study deciphers for the first time the genetic basis of temocillin resistance in Enterobacterales , which is a cross-resistance to carboxypenicillins (ticarcillin and temocillin) and aztreonam. Indeed, the mechanisms of temocillin intrinsic resistance/acquired susceptibility have been studied only in P. aeruginosa ( 15 , 16 ). In that species, it was demonstrated that temocillin was a substrate of the RND-type efflux system MexAB-OprM, while its uptake marginally requires the anion-specific porins OpdK and OpdF ( 15 , 16 ). 
+
+Here, we showed that temocillin resistance was due to a unique nonsynonymous point mutation in the baeS gene (leading to the Thr175Pro change), encoding the HK of the TCS BaeSR. In E. coli , BaeSR is a well-known TCS involved in the regulation of the envelope stress response ( 28 , 29 ). It is worth noting that this TCS can be induced by a number of pleiotropic compounds, including indole, copper, zinc, ethanol, sodium tungstate tannin, and flavonoid ( 26 , 30 – 37 ). BaeSR is also one of the most studied TCSs associated with multidrug resistance in E. coli , Salmonella , and A. baumannii . However, it has never been linked to temocillin resistance and, intriguingly enough, has never been studied in the ECC, species in which to date only two TCSs have been described to be linked with antibiotic resistance. Indeed, PhoPQ and CrrAB have both been associated with colistin heteroresistance ( 22 – 24 ). 
+
+The BaeSR system has been linked to antibiotic resistance in different bacterial species through the regulation of genes encoding efflux pump systems. In E. coli and Salmonella , the overexpression of BaeR has been shown to regulate the expression of acrD and mdtA , parts of the AcrAD-TolC and MdtABC efflux pumps, conferring resistance to different classes of antibiotics such as novobiocin, some β-lactams, and deoxycholate ( 25 – 27 , 38 , 39 ). In addition, BaeR overexpression slightly reduced susceptibility to cephalosporins by decreasing the expression of outer membrane proteins in E. coli ( 40 ); in Salmonella , overexpression of BaeR also increased polymyxin susceptibility by altering the expression of polymyxin resistance-associated genes ( 41 ). In A. baumannii , BaeSR affects polymyxin susceptibility by regulating the expression of efflux pump systems such as MacAB and AdeIJK, while it is also involved in tigecycline resistance by activating the expression of AdeABC, AdeIJK, and MacAB-TolC ( 42 – 44 ). 
+
+As opposed to other antibiotics, very few studies have linked temocillin with RND-type efflux pumps, with only the AcrAD-TolC system being involved in its export. The AcrD RND-type efflux pump functions in cooperation with AcrA and TolC and the AcrAD-TolC system and effluxes structurally diverse compounds, including SDS, novobiocin, and deoxycholate, as well as aminoglycosides and dianionic β-lactams such as carbenicillin, oxacillin, nafcillin, and aztreonam ( 25 , 45 – 47 ). Very recently, it was also demonstrated in Salmonella enterica serovar Typhimurium that AcrD expelled unreported substrates such as temocillin, dicloxacillin, cefazolin, and fusidic acid ( 48 ). Interestingly, the overexpression of acrD in an E. coli Δ acrB Δ acrD strain increased the MICs of both temocillin and aztreonam 8-fold ( 48 ). 
+
+In the ECC, the temocillin-resistant mutant carried a Thr175Pro point mutation in the gene encoding BaeS, which is known to regulate, together with BaeR, efflux pump systems in other bacterial species. Recently, in E. coli , five different gain-of-function mutations in baeS were identified as constitutively activating the BaeSR TCS, with increased expression of the MdtABC efflux pump ( 49 ). These modifications likely alter the BaeS structure, with constitutive elevation of kinase activity and/or reduction of phosphatase activity, which in turn causes permanent phosphorylation of BaeR. Phosphorylated BaeR is then able to bind mdtABCD-baeSR and acrD promoter regions and increase the corresponding gene expression ( 49 ). In that study, differential gene expression analysis through RNA sequencing revealed that the C310T mutation in the baeS51 mutant (leading to the Arg104Cys amino acid change) was responsible for 37- and 6-fold changes in the expression of mdtABCD-baeSR and acrD , respectively, compared to the parental strain ( 49 ). This difference in changes in expression is similar to what we observed here between E. asburiae strains Temo_R and Temo_S, possibly due to the expression of the mdtABCD-baeSR operon, which is directly controlled by BaeR, whereas acrD is indirectly regulated ( 50 ). 
+
+In conclusion, we describe for the first time the genetic basis of temocillin resistance in Enterobacterales through a single mutation (Thr175Pro) in BaeS and, as a consequence, an increase of AcrD-mediated efflux ( Fig. 1 ). 
+
+FIG 1. 
+
+Open in a new tab 
+
+Mechanism of temocillin resistance in the ECC through the TCS BaeSR. The alteration of BaeS by a single mutation (Thr175Pro) (red star), which is responsible for a constitutive elevation of kinase activity and/or reduction of phosphatase activity, is responsible for permanent phosphorylation of BaeR. Phosphorylated BaeR can then activate directly (solid line arrow) mdtABCD-baeSR and indirectly (dotted line arrow) acrD expression. As a consequence, the expression of those genes contributes to increase the active efflux of ticarcillin (yellow square) and temocillin (blue circle)/ticarcillin/aztreonam (green triangle) through MdtABC-TolC and AcrAD-TolC RND-type efflux pump systems, respectively. 
+
+MATERIALS AND METHODS 
+
+Bacterial strains and growth conditions. 
+
+The bacterial strains used in this study are listed in Table 1 . The two clinical isolates (Temo_S and Temo_R) were recovered from a single urine sample from the same patient. The E. cloacae subsp. cloacae ATCC 13047 reference strain ( 51 ) was used to construct deletion and trans -complemented strains, while E. coli CFT073 ( 52 ) was used to construction the baeS Thr175Pro point mutation strain by site-directed mutagenesis. All strains were cultured with constant agitation (200 rpm) at 35°C in Luria-Bertani (LB) medium. 
+
+Antimicrobial susceptibility testing. 
+
+MICs were determined using the broth microdilution reference method according to the guidelines recommended by the European Committee on Antimicrobial Susceptibility (EUCAST) ( https://www.eucast.org/ast_of_bacteria ). The following antibiotics were tested: amoxicillin, ticarcillin, temocillin, piperacillin, cefoxitin, cefotaxime, cefepime, aztreonam, ertapenem, gentamicin, ciprofloxacin, tigecycline, colistin, and chloramphenicol. All experiments were performed in biological triplicate. Ticarcillin, temocillin, and aztreonam MICs were also determined by broth microdilution in the absence or presence of the efflux pump inhibitor PAβN at the concentration of 40 mg/L. 
+
+Whole-genome sequencing and bioinformatic analysis. 
+
+The genome sequences of the E. asburiae clinical isolates Temo_S and Temo_R were determined by whole-genome sequencing (WGS) at the Plateforme de Microbiologie Mutualisée (P2M) of the Pasteur International Bioresources Network (Institut Pasteur, Paris, France). DNA was extracted using the MagNAPure 96 system (Roche Diagnostics GmbH, Mannheim, Germany). The libraries were prepared using the Nextera XT kit (Illumina, San Diego, CA), and sequencing was performed using an Illumina NextSeq 500 system, generating 150-bp paired-end reads. 
+
+FastQ files were trimmed using the fqCleanER tool ( https://gitlab.pasteur.fr/GIPhy/fqCleanER ), and the qualities of the filtered FastQ files were evaluated using FastQC ( https://www.bioinformatics.babraham.ac.uk/projects/fastqc ). Genomes were de novo assembled using SPAdes v3.12 ( 53 ), while the quality of the assemblies was assessed using QUAST ( 54 ). 
+
+Identification to the species level was performed using the ribosomal multilocus sequence typing (rMLST) algorithm ( 55 ). The ST was resolved using the appropriate MLST schema ( 56 ). The cluster attribution based on the partial sequence of the hsp60 gene was determined using the BLASTn algorithm ( 2 ). The identification to the species level was confirmed by average nucleotide identity (ANI) analysis using all reference ECC genomes ( 3 ) using the MASH tool. Acquired resistance genes and point mutations were detected using ResFinder ( https://cge.food.dtu.dk/services/ResFinder ) and PointFinder databases, respectively ( 57 ). The genome of the Temo_S strain was annotated using the RAST server and then used as the reference genome to perform variant calling between the Temo_R and Temo_S strains using FreeBayes after mapping of the reads using Burrows-Wheeler transform ( 58 ). 
+
+Construction of knockout mutants and trans -complemented strains in E. cloacae . 
+
+The deletion of the genes encoding the HK BaeS (ECL_03405), the response effector BaeR (ECL_03406), and the RND pumps MdtB (ECL_03403) and AcrD (ECL_03767) were performed in ATCC 13047 using the Red helper plasmid pKOBEG, as described previously ( 59 – 63 ) ( Table 1 ; also see Table S1 in the supplemental material). The genes encoding RND pumps (MdtABCD [ECL_03403 to ECL_03407] and AcrD [ECL_03767]), with their own promoters, were amplified by PCR (see Table S1), and the amplicons obtained were TA cloned into the overexpression plasmid pBAD202 (low-copy number plasmid, with ~20 copies/cell) by directional TOPO cloning (Invitrogen, Villebon-sur-Yvette, France). E. coli TOP10 cells (Invitrogen) carrying pBAD202 with correctly oriented inserts were then selected on LB plates with 40 mg/L kanamycin. After extraction, plasmids carrying the RND efflux pump-encoding genes were transformed in the E. cloacae ATCC 13047 strain or the E. asburiae Temo_S clinical isolate ( Table 1 ). 
+
+Site-directed mutagenesis. 
+
+To confirm the role of the Thr175Pro mutation in baeS , single-nucleotide allelic replacement was carried out using the suicide vector pDS132 in E. coli CFT073 ( 52 , 64 ). The cloning steps were performed in the E. coli DH5α λ pir strain to allow replication of the plasmid (see Table S1). The recombinant plasmids were then purified and introduced into E. coli CFT073 by electrotransformation. Clones that integrated the plasmid were selected by plating cells on LB plates containing 30 mg/L chloramphenicol. After overnight growth at 35°C, one colony was picked and diluted in 10 mM MgSO 4 solution, and serial dilutions were plated on LB agar plates with 5% sucrose and without NaCl to force plasmid excision. After overnight incubation at 35°C, 100 clones were streaked on chloramphenicol-containing LB agar plates and on LB agar with 5% sucrose and without NaCl. Several clones were tested by PCR sequencing to identify those carrying the mutation (see Table S1). 
+
+Quantification of gene expression by qRT-PCR. 
+
+Total RNAs were extracted from the E. asburiae Temo_S and Temo_R strains grown to the late exponential phase by using the Direct-zol RNA miniprep kit (Zymo Research, Irvine, CA). Residual chromosomal DNA was removed by treating samples with the TURBO DNA- free kit (Life Technologies, Saint-Aubin, France). Samples were quantified using the NanoDrop One spectrophotometer (Thermo Fisher Scientific, Courtabœuf, France). cDNA was synthesized from total RNAs (~1 μg) using the QuantiTect RT kit (Qiagen) according to the manufacturer’s instructions. Transcript levels were determined by the ΔΔ C T method using rpoB as a housekeeping control gene. The expression levels and the fold changes for mdtB , baeS , and acrD genes were calculated by C T comparison between Temo_S and Temo_R clinical isolates. Experiments were performed with at least three biological replicates. Student's t test was employed, and P values of <0.05 were considered statistically significant. 
+
+Data availability. 
+
+The genomic sequences of the E. asburiae Temo_S and Temo_R clinical isolates were deposited in GenBank under BioProject accession number PRJNA902787 . 
+
+ACKNOWLEDGMENTS 
+
+A part of this work was performed using bioinformatic resources provided by CRIANN (Normandy, France). 
+
+The 3-year doctoral contract of F. Gravey was funded by a grant from the Normandy Region. 
+
+Footnotes 
+
+Supplemental material is available online only. 
+
+Supplemental file 1 
+Supplemental material. Download aac.00358-23-s0001.pdf, PDF file, 0.09 MB (91.4KB, pdf) 
+
+Supplemental file 2 
+Supplemental material. Download aac.00358-23-s0002.xlsx, XLSX file, 0.01 MB (10.4KB, xlsx) 
+
+Contributor Information 
+
+François Guérin, Email: francois.guerin@chu-rennes.fr. 
+
+Vincent Cattoir, Email: vincent.cattoir@chu-rennes.fr. 
+
+REFERENCES 
+
+1. Sanders
+WE, Jr, Sanders CC. 1997. Enterobacter spp.: pathogens poised to flourish at the turn of the century. Clin Microbiol Rev
+10:220–241. doi: 10.1128/CMR.10.2.220. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+2. Hoffmann H, Roggenkamp A. 2003. Population genetics of the nomenspecies Enterobacter cloacae . Appl Environ Microbiol
+69:5306–5318. doi: 10.1128/AEM.69.9.5306-5318.2003. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Sutton GG, Brinkac LM, Clarke TH, Fouts DE. 2018. Enterobacter hormaechei subsp. hoffmannii subsp. nov., Enterobacter hormaechei subsp. xiangfangensis comb. nov., Enterobacter roggenkampii sp. nov., and Enterobacter muelleri is a later heterotypic synonym of Enterobacter asburiae based on computational analysis of sequenced Enterobacter genomes. F1000Res
+7:521. doi: 10.12688/f1000research.14566.1. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+4. Wu W, Feng Y, Zong Z. 2020. Precise species identification for Enterobacter : a genome sequence-based study with reporting of two novel species, Enterobacter quasiroggenkampii sp. nov. and Enterobacter quasimori sp. nov. mSystems
+5:e00527-20. doi: 10.1128/mSystems.00527-20. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. De Oliveira DMP, Forde BM, Kidd TJ, Harris PNA, Schembri MA, Beatson SA, Paterson DL, Walker MJ. 2020. Antimicrobial resistance in ESKAPE pathogens. Clin Microbiol Rev
+33:e00181-19. doi: 10.1128/CMR.00181-19. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Mezzatesta ML, Gona F, Stefani S. 2012. Enterobacter cloacae complex: clinical impact and emerging antibiotic resistance. Future Microbiol
+7:887–902. doi: 10.2217/fmb.12.61. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Davin-Regli A, Lavigne JP, Pages JM. 2019. Enterobacter spp.: update on taxonomy, clinical aspects, and emerging antimicrobial resistance. Clin Microbiol Rev
+32:e00002-19. doi: 10.1128/CMR.00002-19. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Giske CG. 2015. Contemporary resistance trends and mechanisms for the old antibiotics colistin, temocillin, fosfomycin, mecillinam and nitrofurantoin. Clin Microbiol Infect
+21:899–905. doi: 10.1016/j.cmi.2015.05.022. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+9. Livermore DM, Tulkens PM. 2009. Temocillin revived. J Antimicrob Chemother
+63:243–245. doi: 10.1093/jac/dkn511. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+10. Alexandre K, Fantin B. 2018. Pharmacokinetics and pharmacodynamics of temocillin. Clin Pharmacokinet
+57:287–296. doi: 10.1007/s40262-017-0584-7. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+11. Slocombe B, Basker MJ, Bentley PH, Clayton JP, Cole M, Comber KR, Dixon RA, Edmondson RA, Jackson D, Merrikin DJ, Sutherland R. 1981. BRL 17421, a novel β-lactam antibiotic, highly resistant to β-lactamases, giving high and prolonged serum levels in humans. Antimicrob Agents Chemother
+20:38–46. doi: 10.1128/AAC.20.1.38. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Adams-Haduch JM, Potoski BA, Sidjabat HE, Paterson DL, Doi Y. 2009. Activity of temocillin against KPC-producing Klebsiella pneumoniae and Escherichia coli . Antimicrob Agents Chemother
+53:2700–2701. doi: 10.1128/AAC.00290-09. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Soubirou JF, Rossi B, Couffignal C, Ruppe E, Chau F, Massias L, Lepeule R, Mentre F, Fantin B. 2015. Activity of temocillin in a murine model of urinary tract infection due to Escherichia coli producing or not producing the ESBL CTX-M-15. J Antimicrob Chemother
+70:1466–1472. doi: 10.1093/jac/dku542. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+14. Alexandre K, Chau F, Guerin F, Massias L, Lefort A, Cattoir V, Fantin B. 2016. Activity of temocillin in a lethal murine model of infection of intra-abdominal origin due to KPC-producing Escherichia coli . J Antimicrob Chemother
+71:1899–1904. doi: 10.1093/jac/dkw066. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+15. Buyck JM, Guenard S, Plesiat P, Tulkens PM, Van Bambeke F. 2012. Role of MexAB-OprM in intrinsic resistance of Pseudomonas aeruginosa to temocillin and impact on the susceptibility of strains isolated from patients suffering from cystic fibrosis. J Antimicrob Chemother
+67:771–775. doi: 10.1093/jac/dkr543. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+16. Chalhoub H, Pletzer D, Weingart H, Braun Y, Tunney MM, Elborn JS, Rodriguez-Villalobos H, Plesiat P, Kahl BC, Denis O, Winterhalter M, Tulkens PM, Van Bambeke F. 2017. Mechanisms of intrinsic resistance and acquired susceptibility of Pseudomonas aeruginosa isolated from cystic fibrosis patients to temocillin, a revived antibiotic. Sci Rep
+7:40208. doi: 10.1038/srep40208. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+17. Mitrophanov AY, Groisman EA. 2008. Signal integration in bacterial two-component regulatory systems. Genes Dev
+22:2601–2611. doi: 10.1101/gad.1700308. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Rajput A, Seif Y, Choudhary KS, Dalldorf C, Poudel S, Monk JM, Palsson BO. 2021. Pangenome analytics reveal two-component systems as conserved targets in ESKAPEE pathogens. mSystems
+6:e00981-20. doi: 10.1128/mSystems.00981-20. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+19. West AH, Stock AM. 2001. Histidine kinases and response regulator proteins in two-component signaling systems. Trends Biochem Sci
+26:369–376. doi: 10.1016/s0968-0004(01)01852-7. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+20. Zschiedrich CP, Keidel V, Szurmant H. 2016. Molecular mechanisms of two-component signal transduction. J Mol Biol
+428:3752–3775. doi: 10.1016/j.jmb.2016.08.003. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+21. Tierney AR, Rather PN. 2019. Roles of two-component regulatory systems in antibiotic resistance. Future Microbiol
+14:533–552. doi: 10.2217/fmb-2019-0002. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+22. Band VI, Crispell EK, Napier BA, Herrera CM, Tharp GK, Vavikolanu K, Pohl J, Read TD, Bosinger SE, Trent MS, Burd EM, Weiss DS. 2016. Antibiotic failure mediated by a resistant subpopulation in Enterobacter cloacae . Nat Microbiol
+1:16053. doi: 10.1038/nmicrobiol.2016.53. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+23. Guerin F, Isnard C, Sinel C, Morand P, Dhalluin A, Cattoir V, Giard JC. 2016. Cluster-dependent colistin hetero-resistance in Enterobacter cloacae complex. J Antimicrob Chemother
+71:3058–3061. doi: 10.1093/jac/dkw260. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+24. Pantel L, Guerin F, Serri M, Gravey F, Houard J, Maurent K, Attwood M, Noel A, MacGowan A, Racine E, Cattoir V, Gualtieri M. 2022. Exploring cluster-dependent antibacterial activities and resistance pathways of NOSO-502 and colistin against Enterobacter cloacae complex species. Antimicrob Agents Chemother
+66:e0077622. doi: 10.1128/aac.00776-22. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Hirakawa H, Nishino K, Hirata T, Yamaguchi A. 2003. Comprehensive studies of drug resistance mediated by overexpression of response regulators of two-component signal transduction systems in Escherichia coli . J Bacteriol
+185:1851–1856. doi: 10.1128/JB.185.6.1851-1856.2003. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+26. Nishino K, Nikaido E, Yamaguchi A. 2007. Regulation of multidrug efflux systems involved in multidrug and metal resistance of Salmonella enterica serovar Typhimurium. J Bacteriol
+189:9066–9075. doi: 10.1128/JB.01045-07. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+27. Nagakubo S, Nishino K, Hirata T, Yamaguchi A. 2002. The putative response regulator BaeR stimulates multidrug resistance of Escherichia coli via a novel multidrug exporter system, MdtABC. J Bacteriol
+184:4161–4167. doi: 10.1128/JB.184.15.4161-4167.2002. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Nagasawa S, Ishige K, Mizuno T. 1993. Novel members of the two-component signal transduction genes in Escherichia coli . J Biochem
+114:350–357. doi: 10.1093/oxfordjournals.jbchem.a124180. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+29. Raffa RG, Raivio TL. 2002. A third envelope stress signal transduction pathway in Escherichia coli . Mol Microbiol
+45:1599–1611. doi: 10.1046/j.1365-2958.2002.03112.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+30. Hirakawa H, Inazumi Y, Masaki T, Hirata T, Yamaguchi A. 2005. Indole induces the expression of multidrug exporter genes in Escherichia coli . Mol Microbiol
+55:1113–1126. doi: 10.1111/j.1365-2958.2004.04449.x. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+31. Wang D, Fierke CA. 2013. The BaeSR regulon is involved in defense against zinc toxicity in E. coli . Metallomics
+5:372–383. doi: 10.1039/c3mt20217h. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+32. Zoetendal EG, Smith AH, Sundset MA, Mackie RI. 2008. The BaeSR two-component regulatory system mediates resistance to condensed tannins in Escherichia coli . Appl Environ Microbiol
+74:535–539. doi: 10.1128/AEM.02271-07. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+33. Touchon M, Hoede C, Tenaillon O, Barbe V, Baeriswyl S, Bidet P, Bingen E, Bonacorsi S, Bouchier C, Bouvet O, Calteau A, Chiapello H, Clermont O, Cruveiller S, Danchin A, Diard M, Dossat C, Karoui ME, Frapy E, Garry L, Ghigo JM, Gilles AM, Johnson J, Le Bouguenec C, Lescat M, Mangenot S, Martinez-Jehanne V, Matic I, Nassif X, Oztas S, Petit MA, Pichon C, Rouy Z, Ruf CS, Schneider D, Tourret J, Vacherie B, Vallenet D, Medigue C, Rocha EP, Denamur E. 2009. Organised genome dynamics in the Escherichia coli species results in highly diverse adaptive paths. PLoS Genet
+5:e1000344. doi: 10.1371/journal.pgen.1000344. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+34. Nishino K, Honda T, Yamaguchi A. 2005. Genome-wide analyses of Escherichia coli gene expression responsive to the BaeSR two-component regulatory system. J Bacteriol
+187:1763–1772. doi: 10.1128/JB.187.5.1763-1772.2005. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+35. Yamamoto K, Ogasawara H, Ishihama A. 2008. Involvement of multiple transcription factors for metal-induced spy gene expression in Escherichia coli . J Biotechnol
+133:196–200. doi: 10.1016/j.jbiotec.2007.08.002. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+36. Zhou L, Lei XH, Bochner BR, Wanner BL. 2003. Phenotype microarray analysis of Escherichia coli K-12 mutants with deletions of all two-component systems. J Bacteriol
+185:4956–4972. doi: 10.1128/JB.185.16.4956-4972.2003. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+37. Leblanc SK, Oates CW, Raivio TL. 2011. Characterization of the induction and cellular role of the BaeSR two-component envelope stress response of Escherichia coli . J Bacteriol
+193:3367–3375. doi: 10.1128/JB.01534-10. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+38. Baranova N, Nikaido H. 2002. The BaeSR two-component regulatory system activates transcription of the yegMNOB ( mdtABCD ) transporter gene cluster in Escherichia coli and increases its resistance to novobiocin and deoxycholate. J Bacteriol
+184:4168–4176. doi: 10.1128/JB.184.15.4168-4176.2002. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+39. Hirakawa H, Nishino K, Yamada J, Hirata T, Yamaguchi A. 2003. β-Lactam resistance modulated by the overexpression of response regulators of two-component signal transduction systems in Escherichia coli . J Antimicrob Chemother
+52:576–582. doi: 10.1093/jac/dkg406. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+40. Wang S, You C, Memon FQ, Zhang G, Sun Y, Si H. 2021. BaeR participates in cephalosporins susceptibility by regulating the expression level of outer membrane proteins in Escherichia coli . J Biochem
+169:101–108. doi: 10.1093/jb/mvaa100. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+41. Sun F, Qi C, Wei Q, Zhang L, Fu H, Jiang X, Lu F, Li L. 2022. BaeR overexpression enhances the susceptibility of acrB deleted Salmonella enterica serovar Typhimurium to polymyxin. Vet Microbiol
+274:109552. doi: 10.1016/j.vetmic.2022.109552. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+42. Boinett CJ, Cain AK, Hawkey J, Do Hoang NT, Khanh NNT, Thanh DP, Dordel J, Campbell JI, Lan NPH, Mayho M, Langridge GC, Hadfield J, Chau NVV, Thwaites GE, Parkhill J, Thomson NR, Holt KE, Baker S. 2019. Clinical and laboratory-induced colistin-resistance mechanisms in Acinetobacter baumannii . Microb Genom
+5:e000246. doi: 10.1099/mgen.0.000246. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+43. Lin MF, Lin YY, Lan CY. 2015. The role of the two-component system BaeSR in disposing chemicals through regulating transporter systems in Acinetobacter baumannii . PLoS One
+10:e0132843. doi: 10.1371/journal.pone.0132843. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+44. Lin MF, Lin YY, Yeh HW, Lan CY. 2014. Role of the BaeSR two-component system in the regulation of Acinetobacter baumannii adeAB genes and its correlation with tigecycline susceptibility. BMC Microbiol
+14:119. doi: 10.1186/1471-2180-14-119. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+45. Rosenberg EY, Ma D, Nikaido H. 2000. AcrD of Escherichia coli is an aminoglycoside efflux pump. J Bacteriol
+182:1754–1756. doi: 10.1128/JB.182.6.1754-1756.2000. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+46. Yamasaki S, Nagasawa S, Hayashi-Nishino M, Yamaguchi A, Nishino K. 2011. AcrA dependency of the AcrD efflux pump in Salmonella enterica serovar Typhimurium. J Antibiot (Tokyo)
+64:433–437. doi: 10.1038/ja.2011.28. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+47. Kobayashi N, Tamura N, van Veen HW, Yamaguchi A, Murakami S. 2014. β-Lactam selectivity of multidrug transporters AcrB and AcrD resides in the proximal binding pocket. J Biol Chem
+289:10680–10690. doi: 10.1074/jbc.M114.547794. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+48. Cuesta Bernal J, El-Delik J, Gottig S, Pos KM. 2021. Characterization and molecular determinants for β-lactam specificity of the multidrug efflux pump AcrD from Salmonella typhimurium . Antibiotics (Basel)
+10:1494. doi: 10.3390/antibiotics10121494. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+49. Cho H, Misra R. 2021. Mutational activation of antibiotic-resistant mechanisms in the absence of major drug efflux systems of Escherichia coli . J Bacteriol
+203:e0010921. doi: 10.1128/JB.00109-21. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+50. Choudhary KS, Kleinmanns JA, Decker K, Sastry AV, Gao Y, Szubin R, Seif Y, Palsson BO. 2020. Elucidation of regulatory modes for five two-component systems in Escherichia coli reveals novel relationships. mSystems
+5:e00980-20. doi: 10.1128/mSystems.00980-20. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+51. Ren Y, Ren Y, Zhou Z, Guo X, Li Y, Feng L, Wang L. 2010. Complete genome sequence of Enterobacter cloacae subsp. cloacae type strain ATCC 13047. J Bacteriol
+192:2463–2464. doi: 10.1128/JB.00067-10. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+52. Mobley HL, Green DM, Trifillis AL, Johnson DE, Chippendale GR, Lockatell CV, Jones BD, Warren JW. 1990. Pyelonephritogenic Escherichia coli and killing of cultured human renal proximal tubular epithelial cells: role of hemolysin in some strains. Infect Immun
+58:1281–1289. doi: 10.1128/iai.58.5.1281-1289.1990. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+53. Bankevich A, Nurk S, Antipov D, Gurevich AA, Dvorkin M, Kulikov AS, Lesin VM, Nikolenko SI, Pham S, Prjibelski AD, Pyshkin AV, Sirotkin AV, Vyahhi N, Tesler G, Alekseyev MA, Pevzner PA. 2012. SPAdes: a new genome assembly algorithm and its applications to single-cell sequencing. J Comput Biol
+19:455–477. doi: 10.1089/cmb.2012.0021. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+54. Gurevich A, Saveliev V, Vyahhi N, Tesler G. 2013. QUAST: quality assessment tool for genome assemblies. Bioinformatics
+29:1072–1075. doi: 10.1093/bioinformatics/btt086. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+55. Jolley KA, Bliss CM, Bennett JS, Bratcher HB, Brehony C, Colles FM, Wimalarathna H, Harrison OB, Sheppard SK, Cody AJ, Maiden MCJ. 2012. Ribosomal multilocus sequence typing: universal characterization of bacteria from domain to strain. Microbiology (Reading)
+158:1005–1015. doi: 10.1099/mic.0.055459-0. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+56. Miyoshi-Akiyama T, Hayakawa K, Ohmagari N, Shimojima M, Kirikae T. 2013. Multilocus sequence typing (MLST) for characterization of Enterobacter cloacae . PLoS One
+8:e66358. doi: 10.1371/journal.pone.0066358. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+57. Zankari E, Hasman H, Cosentino S, Vestergaard M, Rasmussen S, Lund O, Aarestrup FM, Larsen MV. 2012. Identification of acquired antimicrobial resistance genes. J Antimicrob Chemother
+67:2640–2644. doi: 10.1093/jac/dks261. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+58. Li H, Durbin R. 2009. Fast and accurate short read alignment with Burrows-Wheeler transform. Bioinformatics
+25:1754–1760. doi: 10.1093/bioinformatics/btp324. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+59. Datsenko KA, Wanner BL. 2000. One-step inactivation of chromosomal genes in Escherichia coli K-12 using PCR products. Proc Natl Acad Sci USA
+97:6640–6645. doi: 10.1073/pnas.120163297. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+60. Derbise A, Lesic B, Dacheux D, Ghigo JM, Carniel E. 2003. A rapid and simple method for inactivating chromosomal genes in Yersinia . FEMS Immunol Med Microbiol
+38:113–116. doi: 10.1016/S0928-8244(03)00181-0. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+61. Doublet B, Douard G, Targant H, Meunier D, Madec JY, Cloeckaert A. 2008. Antibiotic marker modifications of λ Red and FLP helper plasmids, pKD46 and pCP20, for inactivation of chromosomal genes using PCR products in multidrug-resistant strains. J Microbiol Methods
+75:359–361. doi: 10.1016/j.mimet.2008.06.010. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+62. Guerin F, Isnard C, Cattoir V, Giard JC. 2015. Complex regulation pathways of AmpC-mediated β-lactam resistance in Enterobacter cloacae complex. Antimicrob Agents Chemother
+59:7753–7761. doi: 10.1128/AAC.01729-15. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+63. Guerin F, Lallement C, Isnard C, Dhalluin A, Cattoir V, Giard JC. 2016. Landscape of resistance-nodulation-cell division (RND)-type efflux pumps in Enterobacter cloacae complex. Antimicrob Agents Chemother
+60:2373–2382. doi: 10.1128/AAC.02840-15. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+64. Philippe N, Alcaraz JP, Coursange E, Geiselmann J, Schneider D. 2004. Improvement of pCVD442, a suicide plasmid for gene allele exchange in bacteria. Plasmid
+51:246–255. doi: 10.1016/j.plasmid.2004.02.003. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Associated Data 
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+
+Supplementary Materials 
+
+Supplemental file 1 
+Supplemental material. Download aac.00358-23-s0001.pdf, PDF file, 0.09 MB (91.4KB, pdf) 
+
+Supplemental file 2 
+Supplemental material. Download aac.00358-23-s0002.xlsx, XLSX file, 0.01 MB (10.4KB, xlsx) 
+
+Data Availability Statement 
+
+The genomic sequences of the E. asburiae Temo_S and Temo_R clinical isolates were deposited in GenBank under BioProject accession number PRJNA902787 . 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (828.9 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

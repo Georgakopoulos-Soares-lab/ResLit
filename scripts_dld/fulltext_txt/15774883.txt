@@ -1,0 +1,514 @@
+PMID: 15774883
+PMCID: PMC1065235
+DOI: 10.1128/JB.187.7.2395-2405.2005
+Title: MgrA is a multiple regulator of two new efflux pumps in Staphylococcus aureus.
+Journal: Journal of bacteriology
+PubDate: 2005 Apr
+Authors: Truong-Bolduc QC, Dunman PM, Strahilevitz J, Projan SJ, Hooper DC
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+MgrA Is a Multiple Regulator of Two New Efflux Pumps in Staphylococcus aureus - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+J Bacteriol 
+. 2005 Apr;187(7):2395–2405. doi: 10.1128/JB.187.7.2395-2405.2005 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+MgrA Is a Multiple Regulator of Two New Efflux Pumps in Staphylococcus aureus † 
+
+Q C Truong-Bolduc 
+
+Q C Truong-Bolduc 
+
+Division of Infectious Diseases and Medical Services, Massachusetts General Hospital, 1 Harvard Medical School, Boston, Massachusetts, 2 Department of Infectious Diseases, Wyeth Research, Pearl River, New York 3 
+
+Find articles by Q C Truong-Bolduc 
+
+1,2 , P M Dunman 
+
+P M Dunman 
+
+Division of Infectious Diseases and Medical Services, Massachusetts General Hospital, 1 Harvard Medical School, Boston, Massachusetts, 2 Department of Infectious Diseases, Wyeth Research, Pearl River, New York 3 
+
+Find articles by P M Dunman 
+
+3 , J Strahilevitz 
+
+J Strahilevitz 
+
+Division of Infectious Diseases and Medical Services, Massachusetts General Hospital, 1 Harvard Medical School, Boston, Massachusetts, 2 Department of Infectious Diseases, Wyeth Research, Pearl River, New York 3 
+
+Find articles by J Strahilevitz 
+
+1,2 , S J Projan 
+
+S J Projan 
+
+Division of Infectious Diseases and Medical Services, Massachusetts General Hospital, 1 Harvard Medical School, Boston, Massachusetts, 2 Department of Infectious Diseases, Wyeth Research, Pearl River, New York 3 
+
+Find articles by S J Projan 
+
+3 , D C Hooper 
+
+D C Hooper 
+
+Division of Infectious Diseases and Medical Services, Massachusetts General Hospital, 1 Harvard Medical School, Boston, Massachusetts, 2 Department of Infectious Diseases, Wyeth Research, Pearl River, New York 3 
+
+Find articles by D C Hooper 
+
+1,2, * 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+Division of Infectious Diseases and Medical Services, Massachusetts General Hospital, 1 Harvard Medical School, Boston, Massachusetts, 2 Department of Infectious Diseases, Wyeth Research, Pearl River, New York 3 
+
+* 
+Corresponding author. Mailing address: Division of Infectious Diseases, Massachusetts General Hospital, 55 Fruit St., Boston, MA 02114-2696. Phone: (617) 726-3812. Fax: (617) 726-7416. E-mail: dhooper@partners.org . 
+
+Received 2004 Oct 18; Accepted 2004 Dec 23. 
+
+Copyright © 2005, American Society for Microbiology 
+
+PMC Copyright notice 
+
+PMCID: PMC1065235  PMID: 15774883 
+
+Abstract 
+
+In an analysis of the resistance mechanisms of an mgrA mutant, we identified two genes encoding previously undescribed transporters, NorB and Tet38. norB was 1,392 bp and encoded a predicted 49-kDa protein. When overexpressed, NorB led to an increase in resistance to hydrophilic quinolones, ethidium bromide, and cetrimide and also to sparfloxacin, moxifloxacin, and tetracycline, a resistance phenotype of the mgrA mutant. NorA and NorB shared 30% similarity, and NorB shared 30 and 41% similarities with the Bmr and Blt transporters of Bacillus subtilis , respectively. The second efflux pump was a more selective transporter that we have called Tet38, which had 46% similarity with the plasmid-encoded TetK efflux transporter of S. aureus. tet38 was 1,353 bp and encoded a predicted 49-kDa protein. Overexpression of tet38 produced resistance to tetracycline but not to minocycline and other drugs. norB and tet38 transcription was negatively regulated by MgrA. Limited binding of MgrA to the promoter regions of norB and tet38 was demonstrated by gel shift assays, suggesting that MgrA was an indirect regulator of norB and tet38 expression. The mgrA norB double mutant was reproducibly twofold more susceptible to the tested quinolones than the mgrA mutant. The mgrA tet38 double mutant became more susceptible to tetracycline than the wild-type parent strain. These data demonstrate that overexpression of NorB and Tet38 contribute, respectively, to the hydrophobic quinolone resistance and the tetracycline resistance of the mgrA mutant and that MgrA regulates expression of norB and tet38 in addition to its role in regulation of norA expression. 
+
+Microorganisms have developed various systems to resist the lethal effects of environmental toxins, which include natural antibacterial agents, some of which have been developed into anti-infective drugs. One initial step in blocking these toxic compounds is actively reducing their entry into cells through the action of efflux pumps located in the cytoplasmic membrane. Specific efflux pumps have evolved for a number of antibacterial agents. In contrast, some efflux pumps, referred to as multidrug resistance (MDR) pumps, have broad substrate specificity. The original physiological role played by these proteins is still not completely understood, but their ability to extrude a broad range of structurally unrelated compounds that can include synthetic and natural antibacterial drugs can lead to a serious problem in the treatment of patients with infectious diseases ( 27 , 29 ). 
+
+Staphylococcus aureus is a major human pathogen that produces many virulence factors which contribute to its pathogenicity ( 2 , 9 ). The S. aureus chromosome and plasmids encode a range of MDR transporters ( 17 ). Several of these efflux pumps have been identified and demonstrated to cause resistance to various compounds. Chromosomally encoded NorA protects the cell from lipophilic, monocationic compounds (ethidium bromide, cetrimide, benzalkonium chloride, tetraphenylphosphonium bromide [TPP], and acriflavine) as well as hydrophilic quinolones ( 24 , 38 , 39 ). Recently, MdeA, a novel chromosomally encoded multidrug transporter was identified in S. aureus ( 13 ). This transporter confers resistance to a range of quaternary ammonium compounds and antibiotics but not to fluoroquinolones. 
+
+Plasmid-encoded transporters QacA and QacB mediate resistance to a wide array of monovalent (ethidium, benzalkonium, and cetrimide) and divalent (chlorhexidine and pentamidine) cationic compounds and antimicrobial drugs ( 21 ). QacC and QacD, which are identical plasmid-encoded determinants, confer resistance to quaternary ammonium compounds and to ethidium bromide ( 19 ). SepA, a novel multidrug efflux pump, was shown to confer resistance to antiseptics, acriflavine, and ethidium bromide ( 22 ). Some transporters have a more limited substrate profile and are responsible for the extrusion of some members of a class or classes of structurally similar drugs, as seen in the case of the efflux of tetracycline by TetK and TetL efflux pumps ( 3 , 11 ) or the case of the plasmid-borne determinant msrA , which causes resistance to erythromycin and other macrolides and to type B streptogramins ( 30 ). 
+
+Based on bioenergetic and structural criteria, the multidrug transporters have been grouped into two major classes: the secondary multidrug transporters, which utilize the transmembrane electrochemical gradient of protons or sodium ions to extrude drugs from the cell, and the ATP-binding cassette (ABC)-type multidrug transporters, which utilize the free energy of ATP hydrolysis to pump drugs out of the cell ( 20 ). The secondary multidrug transporters are subdivided into four distinct families of efflux proteins. The major facilitator superfamily (MFS), the small multidrug resistance (SMR) family, the resistance-nodulation-cell division (RND) family, and the multidrug and toxic compound extrusion (MATE) family. The NorA, QacA, QacB, TetK, TetL, and MdeA efflux pumps are members of the MFS family, with their structures having 12 or 14 transmembrane segments (TMS) ( 19 ). The predicted structure of the S. aureus SepA transporter revealed approximately four TMS, but the three conserved motifs of proteins of the SMR family were not identified in SepA, suggesting that it might belong to a new family of MDR pumps ( 22 ). 
+
+The regulation of the expression of the chromosomally encoded NorA efflux pump depends on at least two systems, the two-component regulatory system ArlRS and MgrA (formerly NorR), which binds the norA promoter and when overexpressed from a plasmid causes increased expression of norA ( 6 , 7 , 35 ). MgrA contains a helix-turn-helix motif within a region of homology with the MarR transcriptional regulator family. MgrA was also shown to regulate autolytic activity and the expression of several virulence factors, including alpha-toxin, nuclease, and protein A ( 14 , 18 ). In our previous study characterizing MgrA, we observed that an mgrA mutant, QT1, showed resistance to quinolones, tetracycline, and to other compounds such as ethidium bromide, cetrimide, and TPP. This resistance was not associated with increased expression of norA , and with the exception of tetracycline, was reduced in the presence of reserpine, a known inhibitor of several MDR pumps, suggesting that MgrA modulates the expression of other MDR efflux pumps located on the S. aureus chromosome ( 35 ). 
+
+Microarray analysis is an additional tool that has provided broader data sets for studies of global regulatory systems of S. aureus such as agr , sarA , and rot , which regulate the production of a broad range of target genes, a number of which are involved in virulence ( 5 , 31 ). Using transcriptional profiling assays combined with traditional tools, we analyzed the global role of MgrA in the regulatory network for drug efflux pumps modulated by this regulator. 
+
+In this report, we describe the identification of two novel efflux transporters regulated negatively by MgrA, NorB and Tet38, which confer resistance to multiple drugs including quinolones and tetracycline, respectively. NorB is homologous to Blt of Bacillus subtilis ( 1 ) and is capable of causing resistance to both NorA substrates (norfloxacin and ciprofloxacin) and non-NorA substrates such as moxifloxacin and sparfloxacin. Tet38 is a novel chromosomal tetracycline transporter related to TetK. 
+
+MATERIALS AND METHODS 
+
+Bacterial strains, plasmids, growth media, and other materials. 
+
+Bacterial strains and plasmids used in this study are listed in Table 1 . Staphylococci were cultivated in brain heart infusion broth (Difco, Sparks, Md.) at 37°C unless otherwise stated. Lysostaphin was obtained from AMBI Products, Inc., New York, N.Y. Ciprofloxacin and moxifloxacin were obtained from Bayer Corp., West Haven, Conn. Sparfloxacin was obtained from Park-Davis Pharmaceutical Research Division, Ann Arbor, Mich. Norfloxacin, ethidium bromide, cetrimide, TPP, erythromycin, tetracycline, minocycline, chloramphenicol, isopropyl-β-D-thiogalactopyranoside (IPTG), and reserpine were obtained from Sigma Chemical Co., St. Louis, Mo. All primers used in this study were synthesized at the Tufts University Core Facility, Boston, Mass., and are listed in Table 2 . 
+
+TABLE 1. 
+
+Bacterial strains and plasmids used in this study 
+
+Strain or plasmid Genotype or relevant characteristic(s) Reference or source S. aureus RN4220 8325-4 r − 16 ISP794 8325-4 pig-131 34 MT23142 8325 pig-131 flqB 24 KL820 RN4220 norA :: cat 12 QT1 ISP794 mgrA :: cat 35 QT5 ISP794 norB :: cat This study QT6 ISP794 mgrA :: cat norB :: cat This study QT7 ISP794 tet38 Δ This study QT8 ISP794 mgrA :: cat tet38 Δ This study E. coli DH5α F − φ80d lacZ ΔM15 Δ( lacZYA-argF ) U169 deoR recA1 endA1 phoA hsdR17 (r K − m K − ) supE44 λ − thi-1 gyrA96 relA1 Gibco-BRL Plasmids pGEM3-zf(+) 2.9-kb E. coli cloning vector, Ap r Promega pLI50 Shuttle cloning vector (Ap r Cm r ) 32 pCL52.2 Temperature-sensitive E. coli-S. aureus shuttle vector 32 pSK950 10.5-kb plasmid carrying the attP site of phage L54a, replicon of pE194, Tc r Em r ( S. aureus ) 25 pQT8 pSK950- norB This study pQT9 pCL52.2- norB :: cat This study pQT10 pLI50- tet38 This study pQT11 pCL52.2- tet38 Δ This study 
+
+Open in a new tab 
+
+TABLE 2. 
+
+Primers used in this study 
+
+Primer Primer sequence Comment(s) tet38 -1 5′-TTCAGTTTGGTTATAGACAA-3′ Sense primer, amplified a 200-bp DNA fragment of the tet38 gene tet38 -2 5′-CGTAGAAATAAATCCACCTG-3′ Antisense primer, amplified a 200-bp DNA fragment of the tet38 gene tet38 B 5′-GTCATT GGATCC GATGATTATG-3′ Upstream of tet38 , BamHI site added (bold and underlined) tet38 E 5′-CTTACTACTC GAATTC TATTTA-3′ Downstream of tet38 , EcoRI site added (bold and underlined) tet38P 5′-TTQAGCTG CTGCAG AGACATTATAT-3′ Downstream of tet38 , PstI site on the DNA sequence (bold and underlined) norB 1 5′-GAAGATAGTTTCAATACAGA-3′ Sense primer, amplified a 200-bp DNA fragment of the norB gene norB 2 5′-ATTATAAATGATAGGATGAA-3′ Antisense primer, amplified a 200-bp DNA fragment of the norB gene norB B 5′-TTTCAATT GGATCC TCAATTA-3′ Upstream of norB , BamHI site added (bold and underlined) norB E 5′-GTATAG GAATTC AAATAGAGA-3′ Downstream of norB , EcoRI site added (bold and underlined) norA 1 5′-TGCAATTTCATATGATCAATCCC-3′ Biotinylated sense primer, located upstream of norA (−35), amplifies a 150-bp DNA fragment of the promoter norA 2 5′-AGATTGCAATTCATGCTAAATATT-3′ Antisense primer, located downstream of norA (−35), amplifies a 150-bp DNA fragment of the promoter norB3 5′-ATAAGGTAAGATAACTAGCA-3′ Biotinylated sense primer, located upstream of norB (−35), amplifies a 150-bp DNA fragment of the promoter norB4 5′-ATCTCTATTTGCCTCCCTATA-3′ Antisense primer, located downstream of norB (−35), amplifies a 150-bp DNA fragment of the promoter tet38 -3 5′-TTGGATGCGTATGGGTATTT-3′ Biotinylated sense primer, located upstream of tet38 (−35), amplifies a 200-bp DNA fragment of the promoter tet38 -4 5′-TAATCATCTACACCAATGAC-3′ Antisense primer, located downstream of tet38 (−35), amplifies a 200-bp DNA fragment of the promoter 
+
+Open in a new tab 
+
+Drug susceptibility testing. 
+
+MICs of quinolones, ethidium bromide, cetrimide, TPP, erythromycin, tetracycline, and minocycline were determined by serial twofold agar dilutions on Trypticase soy agar (TSA). All plates were incubated at 37°C for 24 h before reading. Determinations of MICs of quinolones, diverse antibiotics, and chemical compounds for transformants containing plasmids pSK950, pQT4, and pQT8 were done on TSA containing 5 μg of erythromycin or tetracycline per ml to ensure maintenance of the plasmid, with incubation at 30°C ( 35 ). For transformants containing pLI50 and pQT10, the MICs were done on TSA containing 10 μg of chloramphenicol per ml to maintain the plasmids ( 32 ). 
+
+DNA isolation and Southern hybridization analysis. 
+
+Chromosomal DNA from S. aureus was prepared with the EasyDNA kit (Invitrogen Life Technologies, Carlsbad, Calif.) as recommended by the manufacturer. Restriction endonuclease-digested staphylococcal chromosomal DNA was resolved by electrophoresis at 100 V in 0.9% agarose for 8 h. The DNA was transferred to Hybond-N+ nylon membranes by alkaline blotting (Amersham, Pharmacia Biotech, Little Chalfont, United Kingdom). Target genes were detected by hybridization with a gel-purified DNA probe that was nonradioactively labeled with an ECL (enhanced chemiluminescence) direct nucleic acid labeling kit (Amersham, Pharmacia Biotech). 
+
+RNA isolation and Northern hybridization analysis. 
+
+Total S. aureus RNA was prepared by extraction from lysostaphin-treated cells grown to the exponential or postexponential phase at 37 or 30°C, using the RNeasy mini kit (QIAGEN, Valencia, Calif.). The concentration of RNA was determined spectrophotometrically by A 260 . For Northern blot analysis, 10 to 20 μg of total RNA was electrophoresed through a 0.9% agarose-0.66 M formaldehyde gel in morpholinepropanesulfonic acid (MOPS) and blotted onto Hybond-N+ membranes as previously described ( 35 ). DNA probes were amplified from the ISP794 chromosome and labeled with psoralen for the detection of specific transcripts by using the Northern Max kit (Ambion, Inc., Austin, Tex.) as recommended by the manufacturer. Blots were hybridized with probes overnight at 42°C, washed, and autoradiographed with Kodak X-Omat film. In comparisons of the relative levels of transcripts, equal amounts of total cellular RNA were loaded, and the uniformity of loading was confirmed by assessment of the intensities of the rRNA bands after ethidium bromide staining. 
+
+DNA mobility shift analysis. 
+
+A DNA mobility shift assay was performed as described previously ( 35 ). Sense and antisense primers (Table 2 ) were used to amplify either 150- or 200-bp DNA fragments containing the promoter region of the norA , norB , or tet38 gene. The sense primers were biotinylated by the Tufts University Core Facility. The gel mobility shift assay was carried out using the LightShift Chemiluminescent EMSA (electrophoretic mobility shift assay) kit (Pierce, Rockford, Ill.) as recommended by the manufacturer. The biotin-labeled DNA was incubated with the indicated amount of purified MgrA protein in 20 μl of binding buffer (10 mM HEPES [pH 8], 60 mM KCl, 4 mM MgCl 2 , 0.1 mM EDTA, 0.1 mg of bovine serum albumin per ml, 0.25 mM dithiothreitol) containing 1 μg of poly(dI-dC), 200 ng of sheared herring sperm DNA, and 10% glycerol. The reaction mixture was incubated for 20 min at room temperature and analyzed by 5% nondenaturing polyacrylamide electrophoresis. 
+
+Purification of the MgrA protein. 
+
+The purification of the MgrA protein was carried out as described previously ( 35 ). Escherichia coli BL21(DE3) cells harboring plasmid pQT5 encoding histidine-tagged MgrA were grown to mid-logarithmic phase in Luria-Bertani medium, at which time, IPTG (1 mM) was added to the culture. After 3 h, the cells were harvested by centrifugation and then resuspended in 20 mM sodium phosphate buffer (pH 7.4). The cells were lysed with lysozyme (0.02%) and then centrifuged (100,000 × g ) for 90 min. The supernatant was applied to a nickel affinity column (iminodiacetic acid-Sepharose-Ni; Amersham Pharmacia Biotech, Uppsala, Sweden) and then washed with start buffer (100 mM NaCl, 20 mM Tris-HCl [pH 7.4], 10% [vol/vol] glycerol) supplemented with concentrations of imidazole increasing from 10 to 60 mM. MgrA protein was eluted with the same buffer containing 300 mM imidazole. The homogeneity of the eluted protein was estimated to be 98% by sodium dodecyl sulfate-polyacrylamide gel electrophoresis. 
+
+Construction of a norB :: cat mutant by allelic exchange. 
+
+To generate a norB mutant, an 800-bp DNA fragment containing the cat gene was amplified from plasmid pLI50, using primers catpvu1 and catpvu2 as described previously ( 35 ). The PCR product was digested with PvuII and then ligated into a BsgI site within the putative norB coding region of the construct pGEM3- zf (+)- norB . The resultant plasmid, containing the 1.4-kb norB :: cat fragment, was confirmed by restriction mapping and sequencing. The 1.4-kb norB :: cat fragment was then subcloned into the temperature-sensitive shuttle plasmid pCL52.z to yield pQT9. This plasmid was then introduced into RN4220 by electroporation to generate chloramphenicol- and tetracycline-resistant transformants. Putative transformants were confirmed by restriction mapping and DNA sequencing. Electrocompetent ISP794 was subsequently transformed with pQT9 isolated from RN4220. Tetracycline-resistant colonies growing at 30°C were selected for allelic exchange. ISP794 harboring pQT9 was grown in brain heart infusion broth with tetracycline (3 μg/ml) at 30°C, diluted 1:1,000 in fresh medium, and propagated at 42°C for 24 h. The culture was diluted and grown again at 30°C without selection for 48 h. Chloramphenicol-resistant, tetracycline-sensitive colonies, representing possible double-crossover events, were screened and tested for the presence of a cat gene insertion into norB by Southern hybridization, PCR, and sequencing of the PCR fragment containing the junctional fragment. Transfer of the norB :: cat gene into QT1 ( mgrA :: cat ) was performed by transduction using phage φ85 as described below. Selection for this double mgrA :: cat norB :: cat mutant was carried out using chloramphenicol at 10 μg/ml, a concentration at which the mgrA single mutant having one copy of the cat gene in the chromosome failed to grow. DNA sequencing and Southern hybridization were performed to verify the presence of cat in both the norB and mgrA genes. 
+
+Construction of an mgrA norB double mutant by phage transduction. 
+
+The norB :: cat locus was transferred into recipient QT1 cells by phage transduction ( 26 ), using phage φ85 as the transducing phage. The phage titer was 10 10 PFU/ml. Colonies of interest were selected on TSA plates containing sodium citrate (10 μg/ml) and chloramphenicol (5 μg/ml) and were characterized by restriction mapping and Southern hybridization analysis. 
+
+Construction of a tet38 Δ mutant. 
+
+A 313-bp DNA fragment was amplified from the S. aureus chromosome, using primers tet 38E and tet 38P (Table 2 ). The PCR product was first digested with restriction enzymes EcoRI and PstI, followed by cloning into plasmid pCL52.2 to generate plasmid pQT11. The construct was first introduced into S. aureus RN4220 and then into ISP794. The allelic exchange procedure was carried out as described above by incubating the bacteria successively at 42 and 30°C. The tetracycline-sensitive colonies were chosen after screening and then characterized by Southern hybridization, followed by PCR and sequencing to confirm the presence of the deletion in the tet38 gene. This tet38 mutant was named QT7. To construct the double mutant mgrA tet38 Δ, we transferred mgrA :: cat into recipient QT7 cells by phage transduction ( 26 ), using phage φ85 as the transducing phage, with selection with chloramphenicol (5 μg/ml). Sequencing was performed on selected colonies to ensure the presence of the modified genes. 
+
+Fragmentation and labeling of cDNA. 
+
+RNA was converted to cDNA, and microarray analysis was performed according to the Affymetrix Expression Analysis technical manual (Affymetrix Inc., Santa Clara, Calif.). Briefly, 10 μg of total RNA, mixed with random hexameric primers (Invitrogen, Carlsbad, Calif.), was denatured at 70°C for 10 min and allowed to anneal at 25°C for 10 min. cDNA was synthesized by using Superscript II reverse transcriptase (Invitrogen) in 1× first-strand synthesis buffer (dithiothreitol, deoxynucleoside triphosphates, SUPERase-In [Ambion, Inc., Austin, Tex.]). The mixture was incubated at 25°C for 10 min, 37°C for 60 min, and 42°C for 60 min. The reaction was stopped by incubating for 10 min at 70°C prior to degrading the RNA with 1 N NaOH for 30 min at 65°C and neutralizing with 1 N HCl. The cDNA was purified by using a QIAquick PCR purification kit (QIAGEN) and fragmented with DNase I in One-Phor-All buffer (Amersham Biosciences, Piscataway, N.J.). DNase I was inactivated by heating the reaction mixture for 10 min at 98°C. The fragmented cDNA products were labeled with biotin on the 3′ terminus, using the Enzo BioArray terminal labeling kit with biotin ddUTP (Affymetrix Inc.). 
+
+DNA microarray hybridization and analysis. 
+
+Labeled cDNA (1.5 μg) was hybridized to a custom-made S. aureus GeneChip according to the manufacturer's (Affymetrix Inc.) instructions for antisense prokaryotic arrays. Seven thousand seven hundred twenty-three qualifiers representing the consensus open reading frame (ORF) sequences of the S. aureus genomes N315, Mu50, COL, 8325, and EMRSA-16 (strain 252), an MSSA strain (strain 476), novel GenBank entries, and N315 intergenic regions greater than 50 bp are represented on the GeneChip. Following hybridization the arrays were scanned with an Agilent GeneArray laser scanner (Agilent Technologies, Palo Alto, Calif.). Data from duplicate experiments were normalized and analyzed with GeneSpring Version 5.1 gene expression software (Silicon Genetics, Redwood City, Calif.). 
+
+RESULTS 
+
+Identification of the tet38 gene. 
+
+In order to explain the 32-fold increase in the MIC of tetracycline for the mutant QT1 ( mgrA :: cat ), we performed a preliminary screening using a custom-made S. aureus GeneChip that represents consensus ORF sequences of S. aureus genomes, including all of the greater than 50-bp intergenic regions of S. aureus N315 ( 4 ). We found an increase in the transcript signals of the ORF (SA0132) encoding tetracycline-like resistance within QT1 cells, while these signals were undetectable within wild-type ISP794 cells (data not shown). We searched the published genome of S. aureus N315 to identify a potential candidate gene(s) associated with this finding. We found a single ORF (SA0132), the deduced amino acid sequence of which showed 46% similarity to the TetK (plasmid-encoded tetracycline resistance) protein of S. aureus and 45% similarity to the TetL protein of B. subtilis . By PCR and DNA sequencing using DNA extracted from S. aureus ISP794 and primers designed from ORF SA0132 of S. aureus N315, we identified an identical ORF from ISP794 (Table 2 ). Based on the homology between ORF SA0132 and tetK and the role of this ORF in tetracycline resistance as detailed below, we called this new gene tet38 . The tet38 DNA sequence and the predicted Tet38 protein were both 98% identical among the sequenced genomes of S. aureus strains Mu50, COL, and MW2. The Tet38 protein has 14 predicted TMS, which have positions similar to those of the TMS of TetK and TetL, except for the positions of the glutamate (E) residues (Fig. 1 ). 
+
+FIG. 1. 
+
+Open in a new tab 
+
+Amino acid sequence alignment of TetL of B. subtilis (GenBank accession number YTBSRT ), TetK of S. aureus (GenBank accession number P02983 ), and Tet38 of S. aureus (GenBank accession number AY825285 ). *, identical residues; :, conserved residues. Solid highlights represent the TMS of the correspondent transporter: blue for TetL, red for TetK, and yellow for Tet38. 
+
+To demonstrate that the increase in resistance to tetracycline of mutant QT1 could be due to an increase in the transcription level of the tet38 gene, we overexpressed this gene by first cloning it into plasmid pLI50 to generate plasmid pQT10. We introduced this construct into RN4220 and then into ISP794 for evaluation of a resistance phenotype. The original plasmid, pLI50, was also introduced into ISP794 and was used as a control. Transformants were selected in the presence of chloramphenicol (10 μg/ml). The MIC of tetracycline for ISP794(pQT10) was 4 μg/ml, which was 32-fold higher than that of ISP794 with or without pLI50 (Table 3 ), indicating that the tet38 gene encodes resistance to tetracycline. The MICs of minocycline, however, were not increased for strain ISP794(pQT10) relative to those for plasmid-free ISP794, a finding in keeping with the relatedness of Tet38 and TetK, which also confers resistance to tetracycline but not minocycline (Table 3 ). A single mutant, QT7 ( tet38 Δ), and a double mutant, QT8 ( mgrA :: cat tet38 Δ), were created by allelic exchange and phage transduction to assess the role of tet38 in the resistance to tetracycline. The presence of a partially deleted tet38 gene was confirmed by DNA sequencing. As expected, QT7 and QT8 were fourfold and twofold more susceptible, respectively, to tetracycline than ISP794. Minocycline MICs remained unchanged for the two mutants and the wild-type strain. 
+
+TABLE 3. 
+
+Susceptibilities of strains to quinolones and other agents 
+
+Strain (plasmid) a Reserpine b MIC (μg/ml) of c : NOR CIP SPX MXF MIN TET TPP CET EB ISP794 − 0.5 0.25 0.125 0.06 0.5 0.125 0.25 0.25 2 + 0.5 0.25 0.125 0.06 0.5 0.125 0.25 0.25 2 KL820 − 0.33 0.33 0.06 0.06 0.5 0.125 2 2 0.33 + 0.33 0.33 0.06 0.06 0.5 0.125 2 2 0.33 MT23142 − 8 2 0.5 0.06 0.5 0.125 4 8 8 + 2 0.5 0.25 0.06 0.5 0.125 0.5 2 2 QT1 − 4 2 0.5 0.25 0.25 4 2 1 4-8 + 1 0.5 0.125 0.06 0.25 2 0.5 0.25 2-4 QT5 − 0.25 0.25 0.06 0.06 0.5 0.125 0.25 0.25 2 + 0.25 0.25 0.06 0.06 0.5 0.125 0.25 0.25 2 QT6 − 1 0.5 0.25 0.125 0.25 2 0.25 0.25 4 + 0.5 0.25 0.125 0.06 0.25 2 0.25 0.25 2 QT7 − 0.5 0.25 0.125 0.06 0.25 0.03 0.125 0.125 1 + 0.5 0.25 0.125 0.06 0.25 0.03 0.125 0.125 1 QT8 − 4 1 0.5 0.25 0.25 0.06 1 1 4 + 0.5 0.5 0.125 0.06 0.25 0.03 0.25 0.25 1 ISP794 (pSK950) − 0.5 0.25 0.125 0.06 0.5 - 0.25 0.25 2 + 0.5 0.25 0.125 0.06 0.5 - 0.25 0.25 2 ISP794(pQT8) − 4 1 0.5 0.25 0.5 - 2 1 4 + 1 0.5 0.125 0.06 0.5 - 0.5 0.25 2 ISP794(pQT10) − 0.5 0.25 0.125 0.06 0.5 4 + 0.5 0.25 0.125 0.06 0.5 4 KL820(pQT8) − 2 1 0.25 0.125 0.5 - 4 4 2 + 0.5 0.5 0.125 0.06 0.5 - 2 2 0.5 KL820(pQT10) − 0.33 0.33 0.06 0.06 0.5 4 + 0.33 0.33 0.06 0.06 0.5 4 MT23142(pQT8) − 8-16 4 1 0.25 0.5 - 4 8 8-16 + 2 0.5 0.125 0.06 0.5 - 0.5 2 2 MT23142(pQT10) − 8 2 0.5 0.06 0.5 4 + 2 0.5 0.125 0.06 0.5 4 
+
+Open in a new tab 
+
+a 
+Strains harboring plasmid pSK950 and pQT8 were grown in the presence of tetracycline (5 μg/ml); strain harboring plasmid pQT10 was grown in the presence of chloramphenicol (10 μg/ml). 
+
+b 
+−, reserpine absent; +, reserpine present. 
+
+c 
+NOR, norfloxacin; CIP, ciprofloxacin; SPX, sparfloxacin; MXF, moxifloxacin; MIN, minocycline; TET, tetracycline; TPP, tetraphenylammonium; CET, cetrimide; EB, ethidium bromide. 
+
+To validate the differences in the transcription level of tet38 , we performed Northern blotting using total RNA extracted from strain ISP794, mutant QT1, and ISP794(pQT10), which overexpresses tet38 from a plasmid, using a 200-bp DNA fragment of the tet38 gene as a probe. Northern blot data showed a fourfold increase in the tet38 transcripts for QT1 relative to those found from ISP794 (see Fig. 3A ). 
+
+FIG. 3. 
+
+Open in a new tab 
+
+Northern blot analysis of RNAs isolated from various S. aureus strains. The same amount of RNA (10 μg) was loaded in each lane and was verified by ethidium bromide staining before RNAs were transferred onto a nylon membrane. (A) RNAs isolated from S. aureus ISP794 (wild type), QT1 ( mgrA :: cat ), and ISP94(pQT10) ( tet38 overexpressor) were hybridized with a tet38 -specific probe. (B) RNAs isolated from S. aureus ISP794, QT1, and ISP794(pQT8) ( norB overexpressor) were hybridized with a norB -specific probe. (C) Ethidium bromide staining of the RNA after electrophoresis. The gel was appropriately divided for the Northern analysis. 
+
+Identification of the norB gene. 
+
+Using the microarray as a screening tool, we searched for a putative transporter(s) with the level of transcription of its gene up-regulated in the QT1 background. We detected an ORF, SA1269, which is 1,392 bp in length and adjacent to a cluster of three ORFs, SA1270 (putative amino acid permease), SA1271 (putative threonine deaminase), and SA1272(putative alanine dehydrogenase), that had at least threefold increases in their transcript levels (data not shown) (see Fig. 5 ). The standard deviation for ORF SA1269 was too large for it to be considered significantly changed in microarray data, although the profile was suggestive of a difference in expression. Furthermore, the deduced amino acid sequence of SA1269 showed similarity to those of S. aureus NorA (30%), B. subtilis Bmr (30%), B. subtilis Blt (41%), S. aureus QacA/QacB (39%), and the newly identified S. aureus MdeA multidrug efflux pump (31%). Three of these MDR pumps, Bmr, Blt, and NorA, were known to cause quinolone resistance (Fig. 2 ). Thus, we investigated SA1269 further. By PCR and DNA sequencing using primers designed from the SA1269 ORF of S. aureus N315, we found an identical ORF from the ISP794 genome. The DNA sequence and deduced amino acid of SA1269 were 95 and 97% identical, respectively, for the S. aureus strains Mu50 and MW2 and were 75 and 77% identical for the S. aureus strain COL. 
+
+FIG. 5. 
+
+Open in a new tab 
+
+Schematic representation of the orientation of the norB and tet38 genes and their neighboring ORFs on the S. aureus N315 published genome. The arrows indicates the gene orientations. 
+
+FIG. 2. 
+
+Open in a new tab 
+
+Amino acid sequence alignment of NorB and NorA proteins of S. aureus and Bmr and Blt proteins of B. subtilis . GenBank accession numbers for NorA, Bmr, and Blt are BAA14147 , M33768 , and L32599 , respectively. Identical residues are represented in red, and conserved residues are represented in blue. Green represents identical residues between two or three proteins. 
+
+Because of the relatedness of ORF SA1269 to known quinolone efflux transporter genes like norA , we named it norB and analyzed its level of expression. Northern blots of RNA prepared from ISP794, QT1, and ISP794(pQT8) (see below) when probed with a 200-bp DNA fragment of the norB gene showed a reproducible increase of about threefold in the RNA level of the norB gene of mutant QT1 relative to that of the wild-type strain (Fig. 3B ). To demonstrate that norB could confer resistance to quinolones when overexpressed, we subcloned this gene into plasmid pSK950, as was done previously with the mgrA gene. The resulting plasmid, pQT8 and the original plasmid, pSK950, were then introduced into ISP794, and the transformants were selected in the presence of tetracycline (5 μg/ml). ISP794(pQT8) relative to ISP794(pSK950) showed an eightfold increase in the MICs of norfloxacin, ciprofloxacin, cetrimide, and TPP and a fourfold increase in the MICs of sparfloxacin, moxifloxacin, and ethidium bromide. These levels of resistance to diverse quinolones and chemical compounds were similar to those of the mgrA mutant QT1. Transformants harboring plasmid pSK950 showed the same susceptibility level as that of plasmid-free ISP794 (Table 3 ). Furthermore, the same resistance phenotype was seen when pQT8 was introduced into strain KL820, which has a knockout of the norA gene, indicating that norB acts independently of norA . Thus, overexpression of norB produces an MDR phenotype similar to that of QT1, suggesting that the norB overexpression seen in QT1 contributed to quinolone and other drug resistance. 
+
+To understand further the interactions of norB overexpression with norA , we assessed resistance phenotypes when norB was overexpressed from plasmid pQT8 in a strain that also overexpresses norA . The findings indicated that resistance phenotypes of drugs that are substrates for both NorA and NorB were not additive when both norA and norB were overexpressed (Table 3 ). In strain MT23142 norA is overexpressed from the chromosome due to mutation in the 5′ untranslated region upstream of the structural gene ( 39 ). The mutation in MT23142 causes an eightfold increase in resistance to norfloxacin and various increases in resistance to other drugs tested but no increase in resistance to moxifloxacin. In contrast, overexpression of norB on plasmid pQT8 causes an eightfold increase in resistance to norfloxacin, a fourfold increase in resistance to moxifloxacin, and two- to eightfold increases in resistance to the other drugs. Thus, none of the drugs tested was a NorA-specific substrate, but moxifloxacin appeared to be a NorB-specific substrate. For norfloxacin the introduction of pQT8 into MT23142 produced a twofold increase in resistance, in contrast to the expected eightfold increase in resistance if the resistance phenotypes were additive. Similar nonadditivity was also seen for the other drugs that were substrates for both NorA and NorB. In contrast, pQT8 produced in both MT23142 and ISP794 the expected fourfold increase in resistance to moxifloxacin, the NorB-specific substrate, suggesting that norB was equivalently expressed from pQT8 in both genetic backgrounds. Thus, overexpression of norB appears to result in a limit in the extent of resistance to NorA substrates but not to the NorB-specific substrate. One possible explanation for this finding is that overexpression of norB limits the overexpression or causes the downregulation of norA , an interpretation that is in keeping with the known cellular toxicities resulting from excess expression of some efflux pumps ( 10 , 39 ). An interaction of tet38 and norA was not apparent, however, since the tetracycline resistance conferred by pQT10 was similarly expressed in ISP794 and MT23142, and there was no effect of the plasmid on the other resistance phenotypes of MT23142. Thus, phenotypic interactions did not occur with overexpression of both pairs of efflux pumps, but only with the pair of MDR pumps. The mechanism(s) underlying these effects will require further study. 
+
+To assess directly the role of norB expression in the MDR phenotype of mgrA mutant QT1, we constructed a knockout of the norB gene and introduced it into QT1 to generate a double mutant. We increased the concentration of chloramphenicol to 10 μg/ml for the selection of the double mutant. We verified the construction by PCR and DNA sequencing. Although the norB single-knockout mutant QT5 showed the same susceptibility to moxifloxacin and sparfloxacin as wild-type ISP794, suggesting that the wild-type level of expression of norB was insufficient to affect drug susceptibility, the double mutant norB :: cat mgrA :: cat , called QT6, showed relative to QT1 ( mgrA ) a reproducible twofold decrease in the MICs of moxifloxacin and sparfloxacin, a fourfold decrease in the MICs of norfloxacin and ciprofloxacin, an eightfold decrease in the MICs of TPP and cetrimide, and a twofold decrease in the MIC of ethidium bromide (Table 3 ). Thus, increased expression of norB in the mgrA mutant accounts for a portion of the resistance phenotype of this mutant. 
+
+We also observed a twofold decrease in the resistance to tetracycline associated with mutant QT6 ( norB :: cat mgrA :: cat tet38 + ). This finding suggested that norB also contributes in part to the efflux of tetracycline, leading to the 32-fold increase in the MIC of tetracycline for QT1. 
+
+Interaction between MgrA and the promoter regions of norB and tet38 genes. 
+
+We amplified DNA fragments (150 or 200 bp) containing the promoter or putative promoter regions of norA , norB , and tet38 , using primers listed in Table 2 . The biotinylated DNA fragments were then mixed with an increasing amount of the purified MgrA protein, and the mixtures were incubated for 20 min at room temperature, followed by electrophoresis in 5% polyacrylamide. DNA mobility shift analysis (Fig. 4 ) showed that MgrA bound most strongly to the norA promoter (substantial band shift at 1 μg of MgrA), which contained four putative binding motifs (TTAATA, TTAATT, TTAAAT, and ATAATT), while this binding was less in the case of the norB promoter (limited band shift at 2 μg of MgrA), which contained only one such motif (TTAAAT). No binding was evident for the tet38 promoter (with 2 μg of MgrA), which did not contain any of these motifs. These putative binding motifs were previously proposed by Fournier et al. ( 6 ). To evaluate the weak binding of MgrA to the putative norB promoter, we performed a competition test using herring sperm DNA as nonspecific competing DNA and norB unlabeled DNA as a specific competitor for the binding assays. The gel shift still occurred in the presence of a 100-fold excess of herring sperm DNA, while it was substantially reduced by a 100-fold excess of unlabeled norB DNA, suggesting that MgrA binds specifically to the norB promoter (Fig. 4 ). Thus, the negative regulation of tet38 by MgrA appears to be indirect, in contrast to its apparently direct regulation of norB and norA ( 35 ). 
+
+FIG. 4. 
+
+Open in a new tab 
+
+Gel mobility shift analysis of the interaction of the MgrA-His 6 protein with the norA (150 bp), norB (150 bp), and tet38 (200 bp) upstream putative promoter fragments. The labeled DNA fragments were incubated with increasing amounts of purified proteins. MgrA binds to the tested DNA and retards its mobility, creating different gel shift patterns for different promoter fragments. MgrA binding to the norA promoter was previously demonstrated to be specific ( 35 ). The binding of MgrA to the norB promoter is specific, proven by a deplacement of the shifted DNA by unlabeled norB DNA, while nonspecific DNA had no effect on MgrA- norB promoter binding. 
+
+DISCUSSION 
+
+Tet38 and NorB are efflux transporters. 
+
+In this study, we demonstrated the presence of two novel chromosomally encoded transporters, Tet38 and NorB, in S. aureus . The Tet38 efflux pump confers resistance to tetracycline and shares 46% similarity with the tetracycline resistance TetK protein carried on plasmids in S. aureus and 45% similarity with the TetL protein of B. subtilis (also plasmid borne). The deduced amino acid sequence of Tet38 contains 450 residues with 14 predicted TMS located at positions similar to those in TetK and TetL, except for the positions of the glutamate residues. Overexpression of the tet38 gene led to a 32-fold increase in resistance to tetracycline, which was unaffected by reserpine, and with no change in susceptibility to other antimicrobials, a phenotype in keeping with that of other Tet pumps ( 15 , 36 ). Since S. aureus strains carrying tetK have been described as resistant only to tetracycline and not minocycline, we determined the MIC of minocycline for the mutant QT1 as well as the wild-type parent, the tet38 overexpressor, and the tet38 mutant. An increase in the MICs of minocycline, which has been described for bacteria with tetL but not tetK , was not seen with overexpression of tet38 . These findings, in addition to sequence similarities, indicate that tet38 is more closely related to tetK than to tetL ( 36 ). No other ORFs neighboring tet38 showed any change in transcription level (Fig. 5 ). 
+
+In contrast to the single-drug resistance of tet38 , overexpression of norB confers resistance to a range of quinolones and other compounds. Addition of reserpine led to a decrease in norB -mediated resistance, in keeping with the reserpine sensitivity of many MDR pumps. NorB is structurally similar to the previously described B. subtilis transporters Blt (41% similarity) and Bmr (30% similarity), and it also shares 30% similarity with the NorA efflux pump of S. aureus . A 31% similarity was also found between NorB and the newly identified multidrug efflux pump MdeA ( 13 ). The deduced amino acid sequence of the NorB protein contains 463 residues with 12 TMS. The three drug transporters, Tet38, NorB, and NorA, all belong to the major facilitator superfamily of transporters. When overexpressed, norB produced resistance to quinolones and dyes that are NorA substrates (norfloxacin, ethidium bromide, and cetrimide), as well as non-NorA substrates (sparfloxacin and moxifloxacin), and also to tetracycline at a lesser level (Table 3 ). Thus, statements of whether a quinolone or other antibiotic is subject to efflux-mediated resistance must be pump specific and can be made broadly only when the full array of relevant pumps is known and tested. 
+
+The norB gene is 150 bp downstream of a putative operon encoding an alanine dehydrogenase, a threonine deaminase, and a glycoprotein-associated amino acid permease ( 17 ). No putative transcriptional terminator was detected between the glycoprotein-associated amino acid permease (SA1270) and norB . A putative promoter for the operon was found upstream of the alanine dehydrogenase (SA1272). Downstream from norB (∼200 bp), we found an ORF encoding a putative extracellular matrix binding adhesin (SA1268) ( 17 ) (Fig. 5 ). 
+
+Role of MgrA in expression of the NorB efflux pump. 
+
+The NorB efflux pump was discovered in QT1, an mgrA :: cat mutant, which had an eightfold increase in the MICs of norfloxacin and ciprofloxacin and a fourfold increase in the MICs of sparfloxacin and moxifloxacin ( 35 ). This mutant also showed an increase of fourfold in resistance to dyes and compounds such as ethidium bromide, cetrimide, and TPP. In the absence of MgrA, norB RNA levels were threefold higher than those in the wild-type parent strain. Thus, norB overexpression correlated with a resistance phenotype that could not be attributed to norA overexpression in the mgrA mutant background. Furthermore expression of norB alone from a plasmid reproduced the MDR phenotype for the wild-type ISP794 as well as for the norA null mutant KL820 (Table 3 ). Thus, norB encodes a newly identified MDR efflux pump that is negatively regulated by mgrA and that acts independently of norA . Disruption of the norB gene alone by cat insertion only partially decreased the resistance phenotype of QT1 and had no effect on the susceptibility of the wild-type strain. We interpret these findings as indicating that the limited level of expression of norB in wild-type cells is not sufficient to reduce drug susceptibility and that norB contributes to but is not wholly responsible for the resistance phenotype of QT1. Reserpine reduced the residual resistance phenotype of the mgrA norB double mutant, further suggesting that other factors may also regulate multidrug efflux transporters in addition to NorB and NorA. The transcriptional profile of QT1 reveals another candidate efflux pump, for which the mRNA levels are increased 2.5-fold (data not shown). This new candidate pump showed 70% amino acid similarity with NorB and is the subject of ongoing studies. 
+
+MgrA is known to bind directly to the norA promoter/operator region ( 35 ). To determine if MgrA acts directly as a repressor on the norB promoter, we performed DNA mobility shift assays using purified MgrA protein and the putative promoter region of norB . We found specific DNA gel retardation for a putative promoter region of norB by MgrA that was somewhat less than that seen with norA promoter DNA. This finding correlated with the presence of only one putative MgrA-binding motif in the norB promoter, in contrast to four such motifs in the norA promoter. These binding motifs were determined by MgrA-binding assays using different portions of the norA promoter ( 7 ). Taken together, these data suggest that MgrA acts as a direct repressor for norB . Because binding of MgrA to the putative norB promoter is less than that to the norA promoter, we cannot exclude the possibility that MgrA could act together with additional proteins in repressing norB expression or that binding could occur more strongly to other DNA sequences involved in norB expression. 
+
+Compared with the Bmr and Blt efflux pumps of B. subtilis , the NorA and NorB pumps of S. aureus appear to be regulated differently. Bmr and Blt have their own regulators, called BmrR and BltR, respectively, which belong to the MerR family of transcriptional activators. The genes encoding these two regulators are located near their respective structural genes, bmr and blt , and they are capable of binding directly to the promoter regions of the two genes. NorA and NorB share the same regulator, MgrA, which can act directly as an activator of norA expression, but represses norB expression. The mgrA gene is located 7 kb from the norA gene and about 700 kb from the norB gene, and mgrA has been shown to have multiple regulatory functions within the cell ( 14 , 18 , 35 ). 
+
+The Tet38 efflux pump and MgrA regulator. 
+
+The tet38 gene was identified in the QT1 background due to a 32-fold increase in the MIC of tetracycline for this mutant. In the absence of MgrA, the levels of tet38 transcripts increased fourfold. Overexpression of tet38 in the wild-type background produced tetracycline resistance at the same level as in QT1, and the tet38 mgrA double mutant QT8 substantially lost tetracycline resistance, indicating that tet38 overexpression contributes to the QT1 tetracycline resistance phenotype and that MgrA is a negative regulator of its expression. We found that NorB also contributed slightly to the resistance to tetracycline, as demonstrated by the twofold increase in susceptibility to tetracycline of the double mutant QT6 ( mgr tet38 + norB ) and the twofold difference in MICs between the single mutant QT7 ( tet38 ) and the double mutant QT8 ( mgrA tet38 norB + ) (Table 3 ). The absence of demonstrable binding of MgrA to the tet38 promoter region in DNA shift assays correlated with the absence of postulated MgrA-binding motifs, suggesting that the negative regulation of tet38 by MgrA was indirect. We speculate that MgrA binds to other DNA elements involved in regulation of tet38 , but the nature of the direct regulator(s) of tet38 expression remains to be defined. The TetR repressor found to regulate other Tet proteins differs in structure from MgrA and like BmrR and BltR binds pump substrates, an event that mediates substrate induction ( 20 ). We identified five TetR homologues on the genome of S. aureus N315 ( 17 ) with similarities ranging from 41 to 49% within a 119-amino-acid portion of the 217 amino acids of the TetR protein. Further studies are under way to identify the specific proximal regulator(s) of tet 38. 
+
+TetK and TetL belong to the group 2 efflux proteins based on their amino acid sequence identity. Generally, transporters of this group show 58 to 59% amino acid identity and have 14 predicted transmembrane α-helices. These proteins are predominantly found in gram-positive bacteria ( 3 , 33 ). Tet38 had 14 predicted TMS but showed only 26% identity to TetK and 25% identity to TetL. Furthermore, tet38 was a chromosomal gene, and its protein confers resistance to tetracycline and not to minocycline or other drugs, suggesting that Tet38 is not a classical group 2 efflux protein. 
+
+Figure 6 is a phylogenetic tree of Tet38, NorB, and other previously characterized MDR efflux pumps from S. aureus (NorA, QacA, QacB, MdeA, SepA, and TetK), B. subtilis (Bmr, Blt, and TetL) and E. coli (EmrA and EmrB) ( 1 , 8 , 13 , 22 , 23 ). From this rooted tree, we observed that Tet38 was closely related to TetK and TetL, as mentioned above, and we also found that Tet38 appeared to diverge sooner than TetK and TetL from a putative ancestral Tet pump. NorB, on the other hand, was more closely related to QacA and QacB than to NorA, Bmr, and Blt. Tet38 and NorB share 41% amino acid sequence similarity, which was higher than what was found between NorA and NorB, while no similarity or very low similarity was detected between NorB, TetK, and TetL. These relationships suggest that the ancestors of Tet and MDR pumps might have been more closely related. Since the nature of the putative ancestral pump(s) is unknown, it is not possible from these data to assess whether the more specific staphylococcal pumps evolved from less specific pumps or vice versa. The alignment of the amino acid sequences of the 13 efflux pumps used to construct the phylogenetic tree in Fig. 6 is shown in the supplemental material. 
+
+FIG. 6. 
+
+Open in a new tab 
+
+Phylogenetic tree of NorB, Tet38, and related proteins. Each protein has the accession number indicated. Bmr ( NP_390281 ), Blt ( NP_390536 ), and TetL( YTBSRT ) are from B. subtilis . NorA ( A37838 ), QacA ( CAA39963 ), QacB( AAQ10697 ), MdeA( NP_372939 ), and SepA ( BAB83937 ) are from S. aureus . EmrA ( P27303 ) and EmrB ( P27304 ) are from E. coli . The tree was created and analyzed with the web program available at http://tcdb.ucsd.edu/progs/msaTMS.php ( 40 ). 
+
+The levels of expression of norA , norB , and tet38 are normally low in wild-type cells grown under conventional laboratory conditions, suggesting that their physiologic roles may be more important under other environmental conditions. Furthermore, there appears to be a limit on the level of overexpression of related pumps such as NorA and NorB that have partially overlapping substrate profiles, highlighting the importance of control of pump expression. That MgrA, as a global regulator affecting capsule biosynthesis and autolysis among other functions ( 14 , 18 ), also acts both directly and indirectly in regulating expression of a multiplicity of efflux transporters further implies the centrality of regulation of efflux pump expression in the physiology and adaptability of the cell. In Lactococcus lactis expression of two MDR pumps, LmrP and LmrA, appears to be reciprocally expressed, but the nature of the regulator(s) of pump expression remains to be defined in this organism ( 28 , 37 ). Further studies to identify the environmental or other cellular triggers for modulation of efflux pump expression will be important, since levels of expression of various members of the complex array of efflux pumps in S. aureus are likely to affect responses to antimicrobial therapy at the sites staphylococcal infections in animals and humans. 
+
+Supplementary Material 
+
+[Supplemental material] 
+
+jbacter_187_7_2395__index.html (814B, html) 
+
+Acknowledgments 
+
+We thank Glenn Kaatz for supplying phage φ85. 
+
+This work was supported in part by Public Health Service grant R01 AI23988 from the National Institutes of Health to D.C.H. 
+
+Footnotes 
+
+† 
+Supplemental material for this article may be found at http://jb.asm.org/ . 
+
+REFERENCES 
+
+1. Ahmed, M., L. Lyass, P. N. Markham, S. S. Taylor, N. Vazquez-Laslop, and A. A. Neyfakh. 1995. Two highly similar multidrug transporters of Bacillus subtilis whose expression is differentially regulated. J. Bacteriol. 177 : 3904-3910. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+2. Chan, P. F., and S. J. Foster. 1998. The role of environmental factors in the regulation of virulence-determinant expression in Staphylococcus aureus 8325-4. Microbiology 144 : 2469-2479. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+3. Chopra, I., and M. Roberts. 2001. Tetracycline antibiotics: mode of action, applications, molecular biology, and epidemiology of bacterial resistance. Microbiol. Mol. Biol. Rev. 65 : 232-260. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+4. Dunman, P. M., W. Mounts, F. McAleese, F. Immermann, D. Macapagal, E. Marsilio, L. McDougal, F. C. Tenover, P. A. Bradford, P. J. Petersen, S. J. Projan, and E. Murphy. 2004. Uses of Staphylococcus aureus GeneChips in genotyping and genetic composition analysis. J. Clin. Microbiol. 42 : 4275-4283. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Dunman, P. M., E. Murphy, S. Haney, D. Palacios, G. Tucker-Kellogg, S. Wu, E. L. Brown, R. J. Zagursky, D. Shlaes, and S. J. Projan. 2001. Transcription profiling-based identification of Staphylococcus aureus genes regulated by the agr and/or sarA loci. J. Bacteriol. 183 : 7341-7353. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Fournier, B., R. Aras, and D. C. Hooper. 2000. Expression of the multidrug resistance transporter NorA from Staphylococcus aureus is modified by a two-component regulatory system. J. Bacteriol. 182 : 664-671. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+7. Fournier, B., and D. C. Hooper. 2000. A new two-component regulatory system involved in adhesion, autolysis, and extracellular proteolytic activity of Staphylococcus aureus . J. Bacteriol. 182 : 3955-3964. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Furukawa, H., J. T. Tsay, S. Jackowski, Y. Takamura, and C. O. Rock. 1993. Thiolactomycin resistance in Escherichia coli is associated with the multidrug resistance efflux pump encoded by emrAB . J. Bacteriol. 175 : 3723-3729. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Gemmell, C. G., S. C. Goutcher, R. Reid, and R. D. Sturrock. 1997. Role of certain virulence factors in a murine model of Staphylococcus aureus arthritis. J. Med. Microbiol. 46 : 208-213. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+10. Grkovic, S., M. H. Brown, and R. A. Skurray. 2002. Regulation of bacterial drug export systems. Microbiol. Mol. Biol. Rev. 66 : 671-701. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Hirata, T., R. Wakatabe, J. Nielsen, Y. Someya, E. Fujihira, T. Kimura, and A. Yamaguchi. 1997. A novel compound, 1,1-dimethyl-5-(1-hydroxypropyl)-4,6,7-trimethylindan, is an effective inhibitor of the tet (K) gene-encoded metal-tetracycline/H + antiporter of Staphylococcus aureus . FEBS Lett. 412 : 337-340. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+12. Hsieh, P. C., S. A. Siegel, B. Rogers, D. Davis, and K. Lewis. 1998. Bacteria lacking a multidrug pump: a sensitive tool for drug discovery. Proc. Natl. Acad. Sci. USA 95 : 6602-6606. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Huang, J., P. W. O'Toole, W. Shen, H. Amrine-Madsen, X. Jiang, N. Lobo, L. M. Palmer, L. Voelker, F. Fan, M. N. Gwynn, and D. McDevitt. 2004. Novel chromosomally encoded multidrug efflux transporter MdeA in Staphylococcus aureus . Antimicrob. Agents Chemother. 48 : 909-917. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+14. Ingavale, S. S., W. Van Wamel, and A. L. Cheung. 2003. Characterization of RAT, an autolysis regulator in Staphylococcus aureus . Mol. Microbiol. 48 : 1451-1466. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+15. Jin, J., A. A. Guffanti, C. Beck, and T. A. Krulwich. 2001. Twelve-transmembrane-segment (TMS) version (ΔTMS VII-VIII) of the 14-TMS Tet(L) antibiotic resistance protein retains monovalent cation transport modes but lacks tetracycline efflux capacity. J. Bacteriol. 183 : 2667-2671. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+16. Kreiswirth, B. N., S. Lofdahl, M. J. Betley, M. O'Reilly, P. M. Schlievert, M. S. Bergdoll, and R. P. Novick. 1983. The toxic shock syndrome exotoxin structural gene is not detectably transmitted by a prophage. Nature 305 : 709-712. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+17. Kuroda, M., T. Ohta, I. Uchiyama, T. Baba, H. Yuzawa, I. Kobayashi, L. Cui, A. Oguchi, K. Aoki, Y. Nagai, J. Lian, T. Ito, M. Kanamori, H. Matsumaru, A. Maruyama, H. Murakami, A. Hosoyama, Y. Mizutani-Ui, N. K. Takahashi, T. Sawano, R. Inoue, C. Kaito, K. Sekimizu, H. Hirakawa, S. Kuhara, S. Goto, J. Yabuzaki, M. Kanehisa, A. Yamashita, K. Oshima, K. Furuya, C. Yoshino, T. Shiba, M. Hattori, N. Ogasawara, H. Hayashi, and K. Hiramatsu. 2001. Whole genome sequencing of meticillin-resistant Staphylococcus aureus . Lancet 357 : 1225-1240. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+18. Luong, T. T., S. W. Newell, and C. Y. Lee. 2003. mgr , a novel global regulator in Staphylococcus aureus . J. Bacteriol. 185 : 3703-3710. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+19. Mayer, S., M. Boos, A. Beyer, A. C. Fluit, and F. J. Schmitz. 2001. Distribution of the antiseptic resistance genes qacA , qacB and qacC in 497 methicillin-resistant and -susceptible European isolates of Staphylococcus aureus . J. Antimicrob. Chemother. 47 : 896-897. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+20. McKeegan, K. S., M. I. Borges-Walmsley, and A. R. Walmsley. 2003. The structure and function of drug pumps: an update. Trends Microbiol. 11 : 21-29. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+21. Mitchell, B. A., M. H. Brown, and R. A. Skurray. 1998. QacA multidrug efflux pump from Staphylococcus aureus : comparative analysis of resistance to diamidines, biguanidines, and guanylhydrazones. Antimicrob. Agents Chemother. 42 : 475-477. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+22. Narui, K., N. Noguchi, K. Wakasugi, and M. Sasatsu. 2002. Cloning and characterization of a novel chromosomal drug efflux gene in S. aureus . Biol. Pharm. Bull. 25 : 1533-1536. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+23. Neyfakh, A. A., C. M. Borsch, and G. W. Kaatz. 1993. Fluoroquinolone resistance protein NorA of Staphylococcus aureus is a multidrug efflux transporter. Antimicrob. Agents Chemother. 37 : 128-129. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+24. Ng, E. Y., M. Trucksis, and D. C. Hooper. 1994. Quinolone resistance mediated by norA : physiologic characterization and relationship to flqB , a quinolone resistance locus on the Staphylococcus aureus chromosome. Antimicrob. Agents Chemother. 38 : 1345-1355. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Niemeyer, D. M., M. J. Pucci, J. A. Thanassi, V. K. Sharma, and G. L. Archer. 1996. Role of mecA transcriptional regulation in the phenotypic expression of methicillin resistance in Staphylococcus aureus . J. Bacteriol. 178 : 5464-5471. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+26. Novick, R. P. 1991. Genetic systems in staphylococci. Methods Enzymol. 204 : 587-636. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+27. Putman, M., H. W. Van Veen, J. E. Degener, and W. N. Konings. 2000. Antibiotic resistance: era of the multidrug pump. Mol. Microbiol. 36 : 772-773. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+28. Putman, M., H. W. Van Veen, J. E. Degener, and W. N. Konings. 2001. The lactococcal secondary multidrug transporter LmrP confers resistance to lincosamides, macrolides, streptogramins and tetracyclines. Microbiology 147 : 2873-2880. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+29. Putman, M., H. W. Van Veen, and W. N. Konings. 2000. Molecular properties of bacterial multidrug transporters. Microbiol. Mol. Biol. Rev. 64 : 672-693. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+30. Ross, J. I., E. A. Eady, J. H. Cove, and S. Baumberg. 1996. Minimal functional system required for expression of erythromycin resistance by msrA in Staphylococcus aureus RN4220. Gene 183 : 143-148. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+31. Saïd-Salim, B., P. M. Dunman, F. M. Mcaleese, D. Macapagal, E. Murphy, P. J. McNamara, S. Arvidson, T. J. Foster, S. J. Projan, and B. N. Kreiswirth. 2003. Global regulation of Staphylococcus aureus genes by rot . J. Bacteriol. 185 : 610-619. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+32. Sau, S., J. Sun, and C. Y. Lee. 1997. Molecular characterization and transcriptional analysis of type 8 capsule genes in Staphylococcus aureus . J. Bacteriol. 179 : 1614-1621. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+33. Schwarz, S., M. C. Roberts, C. Werckenthin, Y. J. Pang, and C. Lange. 1998. Tetracycline resistance in Staphylococcus spp. from domestic animals. Vet. Microbiol. 63 : 217-227. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+34. Stahl, M. L., and P. A. Pattee. 1983. Confirmation of protoplast fusion-derived linkages in Staphylococcus aureus by transformation with protoplast DNA. J. Bacteriol. 154 : 406-412. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+35. Truong-Bolduc, Q. C., X. Zhang, and D. C. Hooper. 2003. Characterization of NorR protein, a multifunctional regulator of norA expression in Staphylococcus aureus . J. Bacteriol. 185 : 3127-3138. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+36. Trzcinski, K., B. S. Cooper, W. Hryniewicz, and C. G. Dowson. 2000. Expression of resistance to tetracyclines in strains of methicillin-resistant Staphylococcus aureus . J. Antimicrob. Chemother. 45 : 763-770. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+37. Van Veen, H. W., M. Putman, A. Margolles, K. Sakamoto, and W. N. Konings. 1999. Structure-function analysis of multidrug transporters in Lactococcus lactis . Biochim. Biophys. Acta Rev. Biomembr. 1461 : 201-206. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+38. Yoshida, H., M. Bogaki, S. Nakamura, K. Ubukata, and M. Konno. 1990. Nucleotide sequence and characterization of the Staphylococcus aureus norA gene, which confers resistance to quinolones. J. Bacteriol. 172 : 6942-6949. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+39. Yu, J. L., L. Grinius, and D. C. Hooper. 2002. NorA functions as a multidrug efflux protein in both cytoplasmic membrane vesicles and reconstituted proteoliposomes. J. Bacteriol. 184 : 1370-1377. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+40. Zmasek, C. M., and S. R. Eddy. 2001. ATV: display and manipulation of annotated phylogenetic trees. Bioinformatics 17 : 383-384. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Associated Data 
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+
+Supplementary Materials 
+
+[Supplemental material] 
+
+jbacter_187_7_2395__index.html (814B, html) 
+
+jbacter_187_7_2395__JB1509_04Appendix.ppt (178.5KB, ppt) 
+
+Articles from Journal of Bacteriology are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (670.4 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

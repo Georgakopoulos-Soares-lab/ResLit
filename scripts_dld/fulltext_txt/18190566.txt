@@ -1,0 +1,1836 @@
+PMID: 18190566
+PMCID: 
+DOI: 10.1111/j.1469-0691.2007.01919.x
+Title: OXA-51-like beta-lactamases and their association with particular epidemic lineages of Acinetobacter baumannii.
+Journal: Clinical microbiology and infection : the official publication of the European Society of Clinical Microbiology and Infectious Diseases
+PubDate: 2008 Mar
+Authors: Evans BA, Hamouda A, Towner KJ, Amyes SG
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1198743X14612477</prism:url><dc:identifier>doi:10.1111/j.1469-0691.2007.01919.x</dc:identifier><eid>1-s2.0-S1198743X14612477</eid><prism:doi>10.1111/j.1469-0691.2007.01919.x</prism:doi><pii>S1198-743X(14)61247-7</pii><dc:title>OXA-51-like β-lactamases and their association with particular epidemic lineages of Acinetobacter baumannii
+             </dc:title><prism:publicationName>Clinical Microbiology and Infection</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>1198743X</prism:issn><prism:volume>14</prism:volume><prism:issueIdentifier>3</prism:issueIdentifier><prism:startingPage>268</prism:startingPage><prism:endingPage>275</prism:endingPage><prism:pageRange>268-275</prism:pageRange><prism:number>3</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2008-03-31</prism:coverDate><prism:coverDisplayDate>March 2008</prism:coverDisplayDate><prism:copyright>Copyright © 2008 European Society of Clinical Infectious Diseases. Published by Elsevier Ltd.</prism:copyright><prism:publisher>European Society of Clinical Infectious Diseases. Published by Elsevier Ltd.</prism:publisher><dc:creator>Evans, B.A.</dc:creator><dc:creator>Hamouda, A.</dc:creator><dc:creator>Towner, K.J.</dc:creator><dc:creator>Amyes, S.G.B.</dc:creator><dc:description>
+                  Sixty diverse clinical Acinetobacter baumannii isolates of worldwide origin were assigned to sequence groups, based on a multiplex PCR for the ompA, csuE and bla
+                     OXA-51-like genes. The majority (77%) of isolates belonged to sequence groups 1 and 2 (SG1 and SG2), with sequence group 3 (SG3) and non-grouped isolates accounting for the remainder. The isolates were not closely related according to pulsed-field gel electrophoresis (PFGE), and the majority were sensitive to imipenem and meropenem. The construction of a linkage map of OXA-51-like β-lactamase sequence relationships revealed two closely related clusters of enzymes, one focused around OXA-66 and the other around OXA-69. Isolates belonging to SG1 encoded an enzyme from the OXA-66 cluster, while those belonging to SG2 encoded an enzyme from the OXA-69 cluster. All SG3 isolates encoded OXA-71, which does not form part of a close enzyme grouping. Major multinational lineages accounted for a significant proportion of A. baumannii clinical isolates, and the evolution of the OXA-51-like enzymes appears to be an ongoing process.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>true</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>Author</openaccessSponsorType><openaccessUserLicense>http://www.elsevier.com/open-access/userlicense/1.0/</openaccessUserLicense><dcterms:subject>
+                     Acinetobacter baumannii
+                  </dcterms:subject><dcterms:subject>
+                     bla
+                     OXA-51-like
+                  </dcterms:subject><dcterms:subject>carbapenemase</dcterms:subject><dcterms:subject>lineages</dcterms:subject><dcterms:subject>linkage map</dcterms:subject><dcterms:subject>sequence groups</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1198743X14612477" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1198743X14612477" rel="scidir"/></coredata><objects><object ref="gr2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="711" height="545" size="75005">https://api.elsevier.com/content/object/eid/1-s2.0-S1198743X14612477-gr2.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="635" height="923" size="176601">https://api.elsevier.com/content/object/eid/1-s2.0-S1198743X14612477-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="214" height="164" size="4714">https://api.elsevier.com/content/object/eid/1-s2.0-S1198743X14612477-gr2.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="113" height="164" size="4876">https://api.elsevier.com/content/object/eid/1-s2.0-S1198743X14612477-gr1.sml?httpAccept=%2A%2F%2A</object></objects><scopus-id>38849194030</scopus-id><scopus-eid>2-s2.0-38849194030</scopus-eid><pubmed-id>18190566</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/38849194030" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>312004</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291783</xocs:ssid>
+         <xocs:ssid type="subj">291890</xocs:ssid>
+         <xocs:ssid type="subj">291891</xocs:ssid>
+         <xocs:ssid type="subj">291904</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Clinical Microbiology and Infection</xocs:srctitle>
+      <xocs:normalized-srctitle>CLINICALMICROBIOLOGYINFECTION</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20141212">2014-12-12</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20141212">2014-12-12</xocs:available-online-date>
+      <xocs:ew-transaction-id>2014-12-12T06:25:39</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1198743X14612477</xocs:eid>
+      <xocs:pii-formatted>S1198-743X(14)61247-7</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1198743X14612477</xocs:pii-unformatted>
+      <xocs:doi>10.1111/j.1469-0691.2007.01919.x</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.1</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1198743X14X60738</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20150515">2015-05-15T05:23:29.459122-04:00</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20080301</xocs:date-search-begin>
+      <xocs:date-search-end>20080331</xocs:date-search-end>
+      <xocs:year-nav>2008</xocs:year-nav>
+      <xocs:indexeddate epoch="1418373943">2014-12-12T08:45:43.284126Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sortorder srctitle srctitlenorm srctype ssids alllist content oa subj subheadings tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body acknowledge affil articletitle auth authfirstini authfull authkeywords authlast primabst pubtype ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1198-743X</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>1198743X</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>14</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>14</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>3</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>3</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 14, Issue 3</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>11</xocs:sort-order>
+      <xocs:first-fp>268</xocs:first-fp>
+      <xocs:last-lp>275</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>268</xocs:first-page>
+         <xocs:last-page>275</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>200803</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>March 2008</xocs:cover-date-text>
+      <xocs:cover-date-start>2008-03-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2008-03-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2008</xocs:cover-date-year>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2008 European Society of Clinical Infectious Diseases. Published by Elsevier Ltd.</xocs:copyright-line>
+      <xocs:normalized-article-title>OXA51LIKELACTAMASESASSOCIATIONPARTICULAREPIDEMICLINEAGESACINETOBACTERBAUMANNII</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>EVANS</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>B</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>INTRODUCTION</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>MATERIALS AND METHODS</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Bacterial isolates</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>PCR amplification and sequence analysis of <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">OXA-51-like</ce:inf> genes</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Pulsed-field gel electrophoresis (PFGE)</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>MICs</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Sequence groups</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>OXA-51-like enzyme linkage map</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>RESULTS</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Sequence groups and <ce:italic>bla</ce:italic>
+                  <ce:inf loc="post">OXA-51-like</ce:inf> sequence analysis</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>Susceptibility testing</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-section-title>OXA-51-like enzyme linkage map</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>DISCUSSION</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>ACKNOWLEDGEMENTS</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sbref10">
+            <xocs:ref-normalized-surname>BERGOGNEBEREZIN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-first-fp>148</xocs:ref-first-fp>
+            <xocs:ref-last-lp>165</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>E</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref20">
+            <xocs:ref-normalized-surname>FALAGAS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>R48</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref30">
+            <xocs:ref-normalized-surname>BROWN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref40">
+            <xocs:ref-normalized-surname>RICHET</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2001</xocs:ref-pub-year>
+            <xocs:ref-first-fp>319</xocs:ref-first-fp>
+            <xocs:ref-last-lp>322</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref50">
+            <xocs:ref-normalized-surname>MANIKAL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>101</xocs:ref-first-fp>
+            <xocs:ref-last-lp>106</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>V</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref60">
+            <xocs:ref-normalized-surname>DIJKSHOORN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1519</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1525</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref70">
+            <xocs:ref-normalized-surname>VANDESSEL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2004</xocs:ref-pub-year>
+            <xocs:ref-first-fp>105</xocs:ref-first-fp>
+            <xocs:ref-last-lp>112</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref80">
+            <xocs:ref-normalized-surname>DASILVA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>190</xocs:ref-first-fp>
+            <xocs:ref-last-lp>195</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref90">
+            <xocs:ref-normalized-surname>DONALD</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>196</xocs:ref-first-fp>
+            <xocs:ref-last-lp>199</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref100">
+            <xocs:ref-normalized-surname>HERITIER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2005</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3198</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3202</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref110">
+            <xocs:ref-normalized-surname>BROWN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2005</xocs:ref-pub-year>
+            <xocs:ref-first-fp>15</xocs:ref-first-fp>
+            <xocs:ref-last-lp>23</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref120">
+            <xocs:ref-normalized-surname>HERITIER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2005</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4174</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4179</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref130">
+            <xocs:ref-normalized-surname>BROWN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2005</xocs:ref-pub-year>
+            <xocs:ref-first-fp>326</xocs:ref-first-fp>
+            <xocs:ref-last-lp>329</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref140">
+            <xocs:ref-normalized-surname>MERKIER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>110</xocs:ref-first-fp>
+            <xocs:ref-last-lp>113</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref150">
+            <xocs:ref-normalized-surname>EVANS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1137</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1138</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref160">
+            <xocs:ref-normalized-surname>TURTON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>72</xocs:ref-first-fp>
+            <xocs:ref-last-lp>77</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref170">
+            <xocs:ref-normalized-surname>TURTON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2974</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2976</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref180">
+            <xocs:ref-normalized-surname>TURTON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>807</xocs:ref-first-fp>
+            <xocs:ref-last-lp>815</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref190">
+            <xocs:ref-normalized-surname>EHRENSTEIN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2414</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2420</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>B</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref200">
+            <xocs:ref-normalized-surname>HERITIER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2006</xocs:ref-pub-year>
+            <xocs:ref-first-fp>123</xocs:ref-first-fp>
+            <xocs:ref-last-lp>130</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref210">
+            <xocs:ref-normalized-surname>MIRANDA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3138</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3141</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref220">
+            <xocs:ref-normalized-surname>ANONYMOUS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1991</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-last-lp>50</xocs:ref-last-lp>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref230">
+            <xocs:ref-normalized-surname>ANDREWS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>20</xocs:ref-first-fp>
+            <xocs:ref-last-lp>41</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref240">
+            <xocs:ref-normalized-surname>SEIFERT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2005</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4328</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4335</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref250">
+            <xocs:ref-normalized-surname>SEGAL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2005</xocs:ref-pub-year>
+            <xocs:ref-first-fp>425</xocs:ref-first-fp>
+            <xocs:ref-last-lp>429</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref260">
+            <xocs:ref-normalized-surname>PALMEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>179</xocs:ref-first-fp>
+            <xocs:ref-last-lp>190</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>EVANSX2008X268</xocs:refkey3>
+         <xocs:refkey4lp>EVANSX2008X268X275</xocs:refkey4lp>
+         <xocs:refkey4ai>EVANSX2008X268XB</xocs:refkey4ai>
+         <xocs:refkey5>EVANSX2008X268X275XB</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="1">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2014-11-29T23:49:10Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>Author</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://www.elsevier.com/open-access/userlicense/1.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/1198743X_P1Y_Author" wintype="OpenArchive">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1198-743X(14)61247-7</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1198743X14612477</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1198743X14612477</xocs:eid>
+         <xocs:doi>10.1111/j.1469-0691.2007.01919.x</xocs:doi>
+         <xocs:cid>312004</xocs:cid>
+         <xocs:timestamp>2014-12-12T02:45:43.284126-05:00</xocs:timestamp>
+         <xocs:cover-date-start>2008-03-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2008-03-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1198743X14612477-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14612477/MAIN/application/pdf/0791d20f92dd5c574458e084eeae254d/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14612477/MAIN/application/pdf/0791d20f92dd5c574458e084eeae254d/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>218040</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>8</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1198743X14612477-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14612477/PREVIEW/image/png/6ad874e9cbda2377c19439d79ae6ba57/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14612477/PREVIEW/image/png/6ad874e9cbda2377c19439d79ae6ba57/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>74848</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1198743X14612477-gr2.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14612477/gr2/DOWNSAMPLED/image/jpeg/02521a5068846689a1a3e9225dd7598f/gr2.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14612477/gr2/DOWNSAMPLED/image/jpeg/02521a5068846689a1a3e9225dd7598f/gr2.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>75005</xocs:filesize>
+               <xocs:pixel-height>545</xocs:pixel-height>
+               <xocs:pixel-width>711</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1198743X14612477-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14612477/gr1/DOWNSAMPLED/image/jpeg/1baea538710d6b2f5b5f5f4316c194f3/gr1.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14612477/gr1/DOWNSAMPLED/image/jpeg/1baea538710d6b2f5b5f5f4316c194f3/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>176601</xocs:filesize>
+               <xocs:pixel-height>923</xocs:pixel-height>
+               <xocs:pixel-width>635</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1198743X14612477-gr2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14612477/gr2/THUMBNAIL/image/gif/134d249f98b239fab415b4644501a36f/gr2.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14612477/gr2/THUMBNAIL/image/gif/134d249f98b239fab415b4644501a36f/gr2.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>4714</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>214</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1198743X14612477-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1198743X14612477/gr1/THUMBNAIL/image/gif/8830e0705103c5e7547d6945dee4c37b/gr1.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1198743X14612477/gr1/THUMBNAIL/image/gif/8830e0705103c5e7547d6945dee4c37b/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>4876</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>113</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="fla" version="5.2" xml:lang="en">
+         <item-info>
+            <jid>CMI</jid>
+            <aid>61247</aid>
+            <ce:pii>S1198-743X(14)61247-7</ce:pii>
+            <ce:doi>10.1111/j.1469-0691.2007.01919.x</ce:doi>
+            <ce:copyright type="society" year="2008">European Society of Clinical Infectious Diseases</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig1">
+               <ce:label>Fig. 1</ce:label>
+               <ce:caption id="cecap10">
+                  <ce:simple-para id="spara10" view="all">Pulsed-field gel electrophoresis profiles for strains of <ce:italic>Acinetobacter baumannii</ce:italic>, showing imipenem and meropenem MICs, OXA-51-like β-lactamase types, the presence of IS<ce:italic>Aba1</ce:italic> upstream of the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-51-like</ce:inf> gene, and sequence group types. IMI, imipenem; MER, meropenem; STG, sequence type group.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr1"/>
+            </ce:figure>
+            <ce:figure id="fig2">
+               <ce:label>Fig. 2</ce:label>
+               <ce:caption id="cecap20">
+                  <ce:simple-para id="spara20" view="all">OXA-51-like β-lactamase enzyme linkage map. Amino-acid substitutions are labelled with respect to OXA-65.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr2"/>
+            </ce:figure>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl1" frame="topbot" rowsep="0" colsep="0">
+               <ce:label>Table 1</ce:label>
+               <ce:caption id="cecap30">
+                  <ce:simple-para id="spara30" view="all">Primers used in this study</ce:simple-para>
+               </ce:caption>
+               <tgroup cols="3">
+                  <colspec colname="col1" colnum="1"/>
+                  <colspec colname="col2" colnum="2"/>
+                  <colspec colname="col3" colnum="3"/>
+                  <thead>
+                     <row valign="bottom" rowsep="1">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Primer</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Sequence (5′–3′)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Reference</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">OXA-69A</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">CTAATAATTGATCTACTCAAG</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">[<cross-ref id="cecref10" refid="bib12">12</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">OXA-69B</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">CCAGTGGATGGATGGATAGATTATC</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">[<cross-ref id="cecref20" refid="bib12">12</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">preABprom+</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">GACCTGCAAAGAAGCGCTGC</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">[<cross-ref id="cecref30" refid="bib20">20</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Group1ompAF306</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">GATGGCGTAAATCGTGGTA</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">[<cross-ref id="cecref40" refid="bib18">18</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Group1and2ompAR660</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">CAACTTTAGCGATTTCTGG</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">[<cross-ref id="cecref50" refid="bib18">18</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Group1csuEF</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">CTTTAGCAAACATGACCTACC</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">[<cross-ref id="cecref60" refid="bib18">18</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Group1csuER</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">TACACCCGGGTTAATCGT</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">[<cross-ref id="cecref70" refid="bib18">18</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Gp1OXA66F89</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">GCGCTTCAAAATCTGATGTA</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">[<cross-ref id="cecref80" refid="bib18">18</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Gp1OXA66R647</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">GCGTATATTTTGTTTCCATTC</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">[<cross-ref id="cecref90" refid="bib18">18</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Group2ompAF378</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">GACCTTTCTTATCACAACGA</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">[<cross-ref id="cecref100" refid="bib18">18</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Group2csuEF</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">GGCGAACATGACCTATTT</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">[<cross-ref id="cecref110" refid="bib18">18</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Group2csuER</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">CTTCATGGCTCGTTGGTT</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">[<cross-ref id="cecref120" refid="bib18">18</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Gp2OXA69F169</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">CATCAAGGTCAAACTCAA</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">[<cross-ref id="cecref130" refid="bib18">18</cross-ref>]</entry>
+                     </row>
+                     <row valign="top">
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">Gp2OXA69R330</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">TAGCCTTTTTTCCCCATC</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">[<cross-ref id="cecref140" refid="bib18">18</cross-ref>]</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+            </ce:table>
+         </ce:floats>
+         <head>
+            <ce:dochead id="cedoch10">
+               <ce:textfn>Original Article</ce:textfn>
+            </ce:dochead>
+            <ce:title id="cetitle10">OXA-51-like β-lactamases and their association with particular epidemic lineages of <ce:italic>Acinetobacter baumannii</ce:italic>
+            </ce:title>
+            <ce:author-group id="aug10">
+               <ce:author id="au10">
+                  <ce:given-name>B.A.</ce:given-name>
+                  <ce:surname>Evans</ce:surname>
+                  <ce:cross-ref id="cecref150" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au20">
+                  <ce:given-name>A.</ce:given-name>
+                  <ce:surname>Hamouda</ce:surname>
+                  <ce:cross-ref id="cecref160" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au30">
+                  <ce:given-name>K.J.</ce:given-name>
+                  <ce:surname>Towner</ce:surname>
+                  <ce:cross-ref id="cecref170" refid="aff2">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="au40">
+                  <ce:given-name>S.G.B.</ce:given-name>
+                  <ce:surname>Amyes</ce:surname>
+                  <ce:cross-ref id="cecref180" refid="aff1">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="cecref190" refid="cor1">
+                     <ce:sup loc="post">*</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="aff1">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>Centre for Infectious Diseases, The University of Edinburgh, Edinburgh, UK</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Centre for Infectious Diseases</sa:organization>
+                     <sa:address-line>The University of Edinburgh</sa:address-line>
+                     <sa:city>Edinburgh</sa:city>
+                     <sa:country>UK</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff2">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>Department of Clinical Microbiology, Nottingham University Hospitals NHS Trust, Queen's Medical Centre, Nottingham, UK</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Clinical Microbiology</sa:organization>
+                     <sa:address-line>Nottingham University Hospitals NHS Trust</sa:address-line>
+                     <sa:address-line>Queen's Medical Centre</sa:address-line>
+                     <sa:city>Nottingham</sa:city>
+                     <sa:country>UK</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:correspondence id="cor1">
+                  <ce:label>*</ce:label>
+                  <ce:text>Corresponding author and reprint requests: S. G. B. Amyes, Molecular Chemotherapy, Centre for Infectious Diseases, The University of Edinburgh, Room SU.312, The Chancellor's Building, 49 Little France Crescent, Edinburgh, EH16 4SB, UK</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="9" month="8" year="2007"/>
+            <ce:date-revised day="19" month="10" year="2007"/>
+            <ce:date-accepted day="7" month="11" year="2007"/>
+            <ce:abstract id="ceab10" view="all" class="author"><ce:abstract-sec id="ceabs10" view="all">
+                  <ce:simple-para id="spara40" view="all">Sixty diverse clinical <ce:italic>Acinetobacter baumannii</ce:italic> isolates of worldwide origin were assigned to sequence groups, based on a multiplex PCR for the <ce:italic>ompA, csuE</ce:italic> and <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-51-like</ce:inf> genes. The majority (77%) of isolates belonged to sequence groups 1 and 2 (SG1 and SG2), with sequence group 3 (SG3) and non-grouped isolates accounting for the remainder. The isolates were not closely related according to pulsed-field gel electrophoresis (PFGE), and the majority were sensitive to imipenem and meropenem. The construction of a linkage map of OXA-51-like β-lactamase sequence relationships revealed two closely related clusters of enzymes, one focused around OXA-66 and the other around OXA-69. Isolates belonging to SG1 encoded an enzyme from the OXA-66 cluster, while those belonging to SG2 encoded an enzyme from the OXA-69 cluster. All SG3 isolates encoded OXA-71, which does not form part of a close enzyme grouping. Major multinational lineages accounted for a significant proportion of <ce:italic>A. baumannii</ce:italic> clinical isolates, and the evolution of the OXA-51-like enzymes appears to be an ongoing process.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="cekeyws10" view="all" class="keyword">
+               <ce:section-title id="cestitle20">Keywords</ce:section-title>
+               <ce:keyword id="cekeyw10">
+                  <ce:text>
+                     <ce:italic>Acinetobacter baumannii</ce:italic>
+                  </ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw20">
+                  <ce:text>
+                     <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-51-like</ce:inf>
+                  </ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw30">
+                  <ce:text>carbapenemase</ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw40">
+                  <ce:text>lineages</ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw50">
+                  <ce:text>linkage map</ce:text>
+               </ce:keyword>
+               <ce:keyword id="cekeyw60">
+                  <ce:text>sequence groups</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:section id="cesec10" view="all">
+                  <ce:section-title id="cestitle30">INTRODUCTION</ce:section-title>
+                  <ce:para id="para10" view="all">
+                     <ce:italic>Acinetobacter baumannii</ce:italic> is an important Gram-negative nosocomial pathogen responsible for serious infections in immunocompromised patients, particularly in intensive care units [<ce:cross-refs id="cecrefs10" refid="bib1 bib2">1,2</ce:cross-refs>]. Infections are often difficult to treat because of the development of antimicrobial resistance, and particularly because of the emergence of carbapenem-hydrolysing β-lactamases, since carbapenems are now the drugs of choice for the treatment of <ce:italic>Acinetobacter</ce:italic> infections [<ce:cross-refs id="cecrefs20" refid="bib3 bib4">3,4</ce:cross-refs>]. Carbapenem-resistant <ce:italic>A. baumannii</ce:italic> strains have been described as endemic since 1997 [<ce:cross-ref id="cecref200" refid="bib5">5</ce:cross-ref>], and carbapenem resistance in <ce:italic>A. baumannii</ce:italic> has been described as a global sentinel event for emerging antimicrobial resistance [<ce:cross-ref id="cecref210" refid="bib4">4</ce:cross-ref>]. In particular, the identification of three major lineages (termed European clones I, II and III), prevalent in hospitals across Europe, highlights the ability of successful lineages of this organism to disseminate widely [<ce:cross-refs id="cecrefs30" refid="bib6 bib7 bib8">6–8</ce:cross-refs>].</ce:para>
+                  <ce:para id="para20" view="all">Since the first report of an OXA-type carbapenemase in an <ce:italic>A. baumannii</ce:italic> isolate from 1985 [<ce:cross-ref id="cecref220" refid="bib9">9</ce:cross-ref>], reports of class D β-lactamases have become common, and their contribution to high-level carbapenem resistance within strains of <ce:italic>A. baumannii</ce:italic> has been demonstrated [<ce:cross-refs id="cecrefs40" refid="bib9 bib10">9,10</ce:cross-refs>]. The class D β-lactamase OXA-51 was first identified in <ce:italic>A. baumannii</ce:italic> in 2004 [<ce:cross-ref id="cecref230" refid="bib11">11</ce:cross-ref>], and minor variations in the sequence encoding OXA-51 have subsequently been reported, constituting the OXA-51-like subgroup of enzymes [<ce:cross-refs id="cecrefs50" refid="bib12 bib13 bib14 bib15">12–15</ce:cross-refs>]. It has been suggested that <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-51-like</ce:inf> genes are ubiquitous in <ce:italic>A. baumannii</ce:italic>, and that insertion of IS<ce:italic>Aba1</ce:italic> upstream of the genes may provide a promoter to enhance gene expression, potentially contributing to increased levels of resistance to carbapenems [<ce:cross-refs id="cecrefs60" refid="bib14 bib16">14,16</ce:cross-refs>]. As these genes are apparently ubiquitous and unique to <ce:italic>A. baumannii</ce:italic>, it has been proposed that identification of this species can be based simply on the detection of an OXA-51-like enzyme [<ce:cross-ref id="cecref240" refid="bib17">17</ce:cross-ref>].</ce:para>
+                  <ce:para id="para30" view="all">Sequence typing of 31 <ce:italic>A. baumannii</ce:italic> isolates, predominantly from the UK, using specific regions of <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-51-like</ce:inf> genes, the <ce:italic>ompA</ce:italic> gene (encoding the porin outer-membrane protein A) and the <ce:italic>csuE</ce:italic> gene (encoding a product important in a pilus chaperone–usher secretion system), has revealed three distinct lineages or sequence groups [<ce:cross-ref id="cecref250" refid="bib18">18</ce:cross-ref>]. Interestingly, each sequence group was found to correspond to three predominant European lineages designated as European clones I, II and III. Also, three <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-51-like</ce:inf> alleles, corresponding to the three main sequence groups, were identified as <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-66</ce:inf>, <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-69</ce:inf> and <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-71</ce:inf>, respectively.</ce:para>
+                  <ce:para id="para40" view="all">There are currently 37 members of the OXA-51-like group of enzymes, varying in structure by between one and 16 amino-acids. The present study aimed to investigate the relationships among the OXA-51-like enzyme family, together with the association of these enzymes with particular clonal groupings found among epidemic lineages and temporally diverse isolates of <ce:italic>A. baumannii</ce:italic> obtained from worldwide sources.</ce:para>
+               </ce:section>
+               <ce:section id="cesec20" view="all">
+                  <ce:section-title id="cestitle40">MATERIALS AND METHODS</ce:section-title>
+                  <ce:section id="cesec30" view="all">
+                     <ce:section-title id="cestitle50">Bacterial isolates</ce:section-title>
+                     <ce:para id="para50" view="all">Sixty <ce:italic>A. baumannii</ce:italic> isolates were collected between 1982 and 2006 from hospitals worldwide (<ce:cross-ref id="cecref260" refid="fig1">Fig. 1</ce:cross-ref>
+                        <ce:float-anchor refid="fig1"/>). Isolates were initially identified in the individual hospital laboratories using standard microbiological techniques, and were then confirmed as members of the <ce:italic>A. baumannii</ce:italic> complex [<ce:cross-ref id="cecref270" refid="bib1">1</ce:cross-ref>] by tRNA finger-printing [<ce:cross-ref id="cecref280" refid="bib19">19</ce:cross-ref>].</ce:para>
+                  </ce:section>
+                  <ce:section id="cesec40" view="all">
+                     <ce:section-title id="cestitle60">PCR amplification and sequence analysis of <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-51-like</ce:inf> genes</ce:section-title>
+                     <ce:para id="para60" view="all">All primers used in this study are listed in <ce:cross-ref id="cecref290" refid="tbl1">Table 1</ce:cross-ref>
+                        <ce:float-anchor refid="tbl1"/>. DNA extraction was performed by boiling up to three colonies in 50 μL of sterile distilled water for 10 min. PCRs were performed in 50-μL volumes containing 20 mM Tris-HCl (pH 8.8), 10 mM KCl, 10 mM (NH<ce:inf loc="post">4</ce:inf>)<ce:inf loc="post">2</ce:inf>SO<ce:inf loc="post">4</ce:inf>, 2 mM MgSO<ce:inf loc="post">4</ce:inf>, nuclease-free bovine serum albumin 0.1 mg/mL, Triton X-100 0.1% v/v, 1.5 mM MgCl<ce:inf loc="post">2</ce:inf>, 800 μM PCR nucleotide mix, and 1.25 U of <ce:italic>Pfu</ce:italic> DNA polymerase (Promega, Southampton, UK). The primers OXA-69A and OXA-69B [<ce:cross-ref id="cecref300" refid="bib12">12</ce:cross-ref>] were used to amplify a 975-bp fragment containing the <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-51-like</ce:inf> gene under the following conditions: 95°C for 2 min, followed by 30 cycles of 95°C for 1 min, 48°C for 40 s and 72°C for 3 min, followed by 72°C for 6 min. For isolates that produced a product larger than 975 bp because of the presence of IS<ce:italic>Aba1</ce:italic> upstream of the <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-51-like</ce:inf> gene, the primer preABprom+ [<ce:cross-ref id="cecref310" refid="bib20">20</ce:cross-ref>] was used with OXA-69B to produce a 1189-bp product under the same cycling conditions, except that the annealing temperature was increased to 53°C. Reactions were carried out in a Px2 Thermal Cycler (Thermo Fisher Scientific, Waltham, MA, USA) using primer concentrations of 25 pmol/μL and 0.5 μL of template DNA. PCR products were analysed on agarose 1.5% w/v gels stained with ethidium bromide, and were then scanned using the Diversity Database software image-capturing system (Bio-Rad, Hemel Hempstead, UK). Products were purified using a QIAquick PCR Purification Kit (Qiagen, Crawley, UK) and were sequenced in both directions on a 3730 DNA Analyzer (Applied Biosystems, Warrington, UK). Sequences were analysed using BLAST (<ce:inter-ref id="interrefs10" xlink:href="http://www.ncbi.nlm.nih.gov/BLAST/" xlink:type="simple">http://www.ncbi.nlm.nih.gov/BLAST/</ce:inter-ref>) and MultAlin (<ce:inter-ref id="interrefs20" xlink:href="http://bioinfo.genopole-toulouse.prd.fr/multalin/" xlink:type="simple">http://bioinfo.genopole-toulouse.prd.fr/multalin/</ce:inter-ref>) software.</ce:para>
+                  </ce:section>
+                  <ce:section id="cesec50" view="all">
+                     <ce:section-title id="cestitle70">Pulsed-field gel electrophoresis (PFGE)</ce:section-title>
+                     <ce:para id="para70" view="all">All isolates were typed by PFGE [<ce:cross-ref id="cecref320" refid="bib21">21</ce:cross-ref>] following digestion of intact genomic DNA with <ce:italic>Apa</ce:italic>I (Promega). DNA fragments were separated on agarose 1% w/v gels in 0.5x TBE buffer (1x TBE buffer comprises 89 mM Tris, 89 mM boric acid, 2 mM EDTA) at 14°C using a CHEF DRII apparatus (Bio-Rad) with 6 V/cm, pulsed from 5 to 35 s, for 24 h. Gels were stained with ethidium bromide and scanned using the Diversity Database software image-capturing system. Analysis of the gels was performed using BioNumerics v.4.0 (Applied Maths, Sint-Martins-Latem, Belgium). Similarity was calculated using the Dice coefficient with a tolerance of 1.3% and the unweighted pair-group method using arithmetic averages (UPGMA).</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="cesec60" view="all">
+                  <ce:section-title id="cestitle80">MICs</ce:section-title>
+                  <ce:para id="para80" view="all">All isolates were tested for their susceptibility to imipenem and meropenem. MICs were determined by doubling dilutions in agar, according to the British Society for Antimicrobial Chemotherapy (BSAC) methodology [<ce:cross-ref id="cecref330" refid="bib22">22</ce:cross-ref>]. The results were interpreted according to the guidelines of the BSAC [<ce:cross-ref id="cecref340" refid="bib23">23</ce:cross-ref>]. <ce:italic>Pseudomonas aeruginosa</ce:italic> NCTC 10662, <ce:italic>Escherichia coli</ce:italic> NCTC 10418 and <ce:italic>Staphylococcus aureus</ce:italic> NCTC 6571 were used as quality control strains.</ce:para>
+                  <ce:section id="cesec70" view="all">
+                     <ce:section-title id="cestitle90">Sequence groups</ce:section-title>
+                     <ce:para id="para90" view="all">Multiplex PCRs for identification of the <ce:italic>ompA, csuE</ce:italic> and <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-51-like</ce:inf> sequence groupings were performed as described by Turton <ce:italic>et al.</ce:italic> [<ce:cross-ref id="cecref350" refid="bib18">18</ce:cross-ref>], except that each reaction used a Ready-to-Go PCR Bead (GE Healthcare Life Sciences, Little Chalfont, UK) containing pre-formulated PCR buffer, dNTPs and <ce:italic>Taq</ce:italic> polymerase in a final reaction volume of 25 μL.</ce:para>
+                  </ce:section>
+                  <ce:section id="cesec80" view="all">
+                     <ce:section-title id="cestitle100">OXA-51-like enzyme linkage map</ce:section-title>
+                     <ce:para id="para100" view="all">All publicly available OXA-51-like amino-acid sequences were obtained from the National Center for Biotechnology Information website (<ce:inter-ref id="interrefs30" xlink:href="http://www.ncbi.nlm.nih.gov/" xlink:type="simple">http://www.ncbi.nlm.nih.gov/</ce:inter-ref>). Sequences were analysed using MultAlin software (<ce:inter-ref id="interrefs40" xlink:href="http://bioinfo.genopole-toulouse.prd.fr/multalin/" xlink:type="simple">http://bioinfo.genopole-toulouse.prd.fr/multalin/</ce:inter-ref>) and all amino-acid variations were recorded. OXA-69 was chosen as a starting point in constructing the map, as this was the enzyme found in the oldest isolate in this study (strain A1, isolated in 1982). The map was subsequently re-drawn with OXA-65 as a starting point (see Results). Branches were constructed for each enzyme by listing the amino-acid changes from OXA-65, from the most common across all enzymes first, to the least common last. The branches were drawn in order, from the enzymes with the fewest differences from OXA-65 first, through to the enzymes with the highest number of differences. Branches with the same changes within them were merged to produce the fewest number of branches possible. Amino-acid changes were not reversed within the same branch.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="cesec90" view="all">
+                  <ce:section-title id="cestitle110">RESULTS</ce:section-title>
+                  <ce:section id="cesec100" view="all">
+                     <ce:section-title id="cestitle120">Sequence groups and <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-51-like</ce:inf> sequence analysis</ce:section-title>
+                     <ce:para id="para110" view="all">All experimental results are summarised in <ce:cross-ref id="cecref360" refid="fig1">Fig. 1</ce:cross-ref>. SG1 formed the largest group, accounting for 47% of the isolates. The second largest group was SG2, containing 30% of the isolates, and SG3 was the smallest group, representing 10% of the isolates. Representatives of the three European lineages were found in separate sequence groups, with EC1 belonging to SG2, EC2 belonging to SG1, and EC3 belonging to SG3, as described previously [<ce:cross-ref id="cecref370" refid="bib18">18</ce:cross-ref>]. Eight (13%) isolates did not belong to any of the three major sequence groups, and produced novel combinations of products in the two multiplex PCRs.</ce:para>
+                     <ce:para id="para120" view="all">The majority of isolates yielded a <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-66</ce:inf>, <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-69</ce:inf> or a <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-71</ce:inf> sequence; <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-66</ce:inf> was found in 22 (37%) isolates, <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-69</ce:inf> was found in 14 (23%) isolates, and <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-71</ce:inf> was found in six (10%) isolates. Sequences corresponding to the other enzymes were found in one or two isolates only, except for <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-107</ce:inf>, which was found in three isolates. The sequence from isolate A92 had five nucleotide substitutions compared with the published <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-69</ce:inf> sequence (G<ce:inf loc="post">426</ce:inf> → A, C<ce:inf loc="post">474</ce:inf> → A, C<ce:inf loc="post">511</ce:inf> → T, G<ce:inf loc="post">540</ce:inf> → A and T<ce:inf loc="post">801</ce:inf> → C), but none of these resulted in an amino-acid change. The representative isolates of EC1 (A297), EC2 (A320) and EC3 (A478) encoded OXA-69, OXA-66 and OXA-71, respectively. Ten isolates (17%) were found to contain an IS<ce:italic>Aba1</ce:italic> element seven nucleotides upstream of their <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-51-like</ce:inf> gene.</ce:para>
+                     <ce:para id="para130" view="all">PFGE profile analysis revealed that the isolates varied considerably, with very few distinct groups. Six pairs of isolates and two groups of three isolates clustered at ≥87% similarity, which is a cut-off value that has been suggested for use in identifying isolates belonging to the same epidemic strain [<ce:cross-ref id="cecref380" refid="bib24">24</ce:cross-ref>]. The majority (52%) of isolates shared ≤78% similarity. Some isolates with different <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-51-like</ce:inf> sequences, and belonging to different sequence groups, were more similar to one another, according to PFGE analysis, than they were to isolates that contained the same <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-51-like</ce:inf> gene and belonged to the same sequence group. Thus, isolate A186, which belonged to SG1 and contained a <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-66</ce:inf> gene, shared 80% identity with isolate A335, which belonged to SG2 and contained a <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-69</ce:inf> gene. Similarly, isolate A368, which belonged to SG2 and contained a <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-112</ce:inf> gene, shared 82% identity with isolate A457, which contained a <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-106</ce:inf> gene and belonged to a novel sequence group. When isolates were from the same location, contained the same <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-51-like</ce:inf> gene, and belonged to the same sequence group, they tended to form more closely related clusters. This can be seen with isolates A480, A484, A481 and A482 from Nottingham, UK. These isolates represent a dominant clone in the particular hospital from which the isolates were taken.</ce:para>
+                  </ce:section>
+                  <ce:section id="cesec110" view="all">
+                     <ce:section-title id="cestitle130">Susceptibility testing</ce:section-title>
+                     <ce:para id="para140" view="all">The majority (60%) of isolates included in the study were susceptible to both imipenem and meropenem according to BSAC criteria. Resistance to imipenem or meropenem or both was seen in nine isolates. Of the four imipenem- and meropenem-resistant isolates, three were from Spain, and all contained one of the three most common enzymes; A332, A380 and A369 had a <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-66</ce:inf> sequence, while A329 had a <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-71</ce:inf> sequence. Of the five isolates that were resistant only to meropenem, three encoded less common enzymes that were closely related to OXA-66 or OXA-69: A371 encoded OXA-83, A401 encoded OXA-82, and A424 encoded OXA-107.</ce:para>
+                  </ce:section>
+                  <ce:section id="cesec120" view="all">
+                     <ce:section-title id="cestitle140">OXA-51-like enzyme linkage map</ce:section-title>
+                     <ce:para id="para150" view="all">The linkage map revealed that the enzymes formed distinct groupings (<ce:cross-ref id="cecref390" refid="fig2">Fig. 2</ce:cross-ref>
+                        <ce:float-anchor refid="fig2"/>). Three very closely inter-related enzyme groups, with each member separated by one or two amino-acid differences, were formed around OXA-66, OXA-69 and OXA-98. Two other major enzyme groups were not as closely inter-related. In the group containing OXA-71, differences at five positions separated OXA-71 and OXA-99. The second group had OXA-108 separated from OXA-104, also by changes at five positions. OXA-67, OXA-86 and OXA-87 formed a chain rather than a cluster. The three enzymes representative of SG1, SG2 and SG3 were not closely related, with changes at four positions between OXA-66 and OXA-69, five positions between OXA-66 and OXA-71, and seven positions between OXA-69 and OXA-71. The OXA-66 cluster was the largest group, with ten members (OXA-66, OXA-65, OXA-88, OXA-76, OXA-109, OXA-82, OXA-83, OXA-84, OXA-79 and OXA-80). A member of this group, OXA-65, appeared to form a central hub within the map from which all the major branches radiated. The OXA-69 cluster had five members (OXA-69, OXA-92, OXA-107, OXA-110 and OXA-112), as did the OXA-98 cluster (OXA-98, OXA-91, OXA-68, OXA-77 and OXA-78). In contrast, OXA-71 was closely related only to OXA-64 and, unlike OXA-66, OXA-69 and OXA-98, was not a group hub, but was instead found on a branch tip.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="cesec130" view="all">
+                  <ce:section-title id="cestitle150">DISCUSSION</ce:section-title>
+                  <ce:para id="para160" view="all">Construction of a map showing the relationships among the OXA-51-like enzymes revealed that the representative enzymes found in SG1, SG2 and SG3 belonged to separate groups. OXA-66 and OXA-69 appear to be ancestral to their groups of very closely related enzymes. Such a high degree of conservation of the OXA-66 cluster and OXA-69 cluster, relative to the rest of the OXA-51-like enzymes, is consistent with these enzymes belonging to highly successful lineages such as EC1 and EC2. By multiplex PCR sequence typing, the isolates encoding the members of the OXA-66 cluster were all assigned to SG1, and all except two (A92 and A388) of the isolates encoding the OXA-69 cluster were assigned to SG2, demonstrating that they contain the same <ce:italic>ompA and csuE</ce:italic> alleles as well as <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-51-like</ce:inf> alleles. This suggests that the similarities within these isolates extend not just to the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-51-like</ce:inf> β-lactamase gene, but also to other genes potentially involved in the successful colonisation and infection of patients.</ce:para>
+                  <ce:para id="para170" view="all">Two isolates, A92 and A388, encoded OXA-69-clustered enzymes, but did not belong to SG2. Both isolates were positive within the group 2 multiplex PCR for the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-51-like</ce:inf> amplicon, but both differed from other SG2 isolates in that they failed to yield a <ce:italic>csuE</ce:italic> amplicon in the group 2 multiplex PCR (data not shown). These two isolates, and the six other isolates which were not assigned to a sequence group, may represent strains that are capable of causing outbreaks of infection in particular locations, but that are unable to establish themselves more widely in competition with other more successful epidemic lineages. Comparisons of such isolates with members of the more prevalent lineages may provide insights into the factors involved in successful epidemic spread. It would be interesting to determine the sequence groups of a range of isolates representing all of the OXA-51-like enzymes in order to determine whether there are other small sequence groups, such as SG3, which may represent future highly successful lineages such as SG1 and SG2.</ce:para>
+                  <ce:para id="para180" view="all">The enzyme linkage map shows that OXA-65 is a central hub from which all of the major groupings radiate. To progress from OXA-69 to the other major groupings would require the unlikely event of multiple substitutions at the same amino-acid position. This suggests that <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-65</ce:inf>, or an as yet undiscovered closely related gene sequence, may be ancestral to all <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-51-like</ce:inf> genes in <ce:italic>A. baumannii.</ce:italic> Previously, isolates from 1982, 1983 and 1984 were found to encode OXA-51, OXA-78 and OXA-89, respectively [<ce:cross-ref id="cecref400" refid="bib14">14</ce:cross-ref>]. These enzymes are not closely related to OXA-66 or OXA-69, which suggests that much of the diversity of the OXA-51-like enzymes had evolved before <ce:italic>A. baumannii</ce:italic> was identified as a significant nosocomial pathogen.</ce:para>
+                  <ce:para id="para190" view="all">The enzyme linkage map demonstrates that the OXA-66 cluster forms the largest group of closely related enzymes. In the present study, isolates encoding enzymes in the OXA-66 cluster formed the largest group, accounting for 45% of all isolates. The second largest enzyme group, the OXA-69 cluster, formed the second largest isolate group, accounting for 33% of isolates. Isolates encoding OXA-71 accounted for only 10% of the total. In this study of mainly European <ce:italic>A. baumannii</ce:italic> isolates, SG1 was by far the most prolific, suggesting that EC2 is part of an extensive lineage that is well-established and exhibits little variation in certain genes involved in virulence. This is mirrored in the enzyme linkage map, with the OXA-66 cluster being the largest, but also being highly conserved. The same is true for SG2, although this lineage, containing EC1, is slightly less prolific. SG3/EC3 is different, in that it is associated with only one enzyme, OXA-71. SG3 was not nearly as prevalent in this study as the other two sequence groups, although this clone may well have been more highly represented had more isolates been included from the Iberian peninsular. While the enzyme linkage map shows a closely related group surrounding OXA-98, only three isolates in this study encoded enzymes belonging to this cluster, indicating that these enzymes are not associated with predominant lineages. The most recently identified enzymes largely branch from the main cluster foci, suggesting that the evolution of these enzymes is progressing in real-time.</ce:para>
+                  <ce:para id="para200" view="all">IS<ce:italic>Aba1</ce:italic> was detected upstream of <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-51-like</ce:inf> genes in only ten isolates. Nine of these were resistant or had intermediate MICs of at least one carbapenem; however, these accounted for only 37.5% of such isolates, demonstrating that this feature was not responsible for conferring carbapenem resistance in the majority of isolates. The IS<ce:italic>Aba1</ce:italic> sequences were all found upstream of more recently identified, branch-tip enzymes. The reason for this is unknown. The ability of mobile elements such as IS<ce:italic>Aba1</ce:italic> to insert upstream of the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-51-like</ce:inf> genes presents the possibility of their past or future mobilisation.</ce:para>
+                  <ce:para id="para210" view="all">As might be expected from such a broad range of isolates, there was a large degree of genomic variation among the isolates. It is interesting to note that isolates can be more closely related, according to PFGE, to an isolate of a different sequence group than they are to other members of their own sequence group. Previously it was shown that isolates of major outbreak strains with related PFGE patterns all corresponded to a specific sequence group, while the sporadic isolates did not [<ce:cross-ref id="cecref410" refid="bib18">18</ce:cross-ref>]. The data presented here indicate that non-major outbreak isolates can also be assigned to one of the three identified sequence groups, although this is not always the case, and that isolates of the same sequence group are not always related according to PFGE. <ce:italic>A. baumannii</ce:italic> is known to contain a variety of mobile elements, such as IS<ce:italic>Aba1</ce:italic>, often in multiple copies, and the movement of such elements, along with the possibility of natural transformation, as seen in other <ce:italic>Acinetobacter</ce:italic> spp., could contribute to the genomic variation observed [<ce:cross-refs id="cecrefs70" refid="bib25 bib26">25,26</ce:cross-refs>].</ce:para>
+                  <ce:para id="para220" view="all">If <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-51-like</ce:inf> genes are immobile, it would be expected that isolates containing closely related enzymes would generally be more closely related to one another than to isolates containing distantly related enzymes. In addition, sequence typing of two further genes such as <ce:italic>ompA</ce:italic> and <ce:italic>csuE</ce:italic> should reduce still further any differences seen between PFGE typing and sequence typing. The apparent disparity between the two typing schemes in these data raises important questions as to the appropriateness of these schemes for <ce:italic>A. baumannii.</ce:italic> Further work to determine their suitability is required.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:acknowledgment id="ceack10" view="all">
+               <ce:section-title id="cestitle160">ACKNOWLEDGEMENTS</ce:section-title>
+               <ce:para id="para230" view="all">This work was funded by the UK Medical Research Council (grant no. RA0119). The authors would like to thank N. Woodford, F. Tenover, Z. Gülay, P. Higgins and participants in the EU ARPAC project for kindly providing isolates of <ce:italic>A. baumannii.</ce:italic> L. Dijkshoorn is thanked for providing previously characterised reference strains belonging to European clones I, II and III. S. G. B. Amyes has received an educational grant from Astra-Zeneca. The authors declare that they have no other conflicts of interest in relation to this work.</ce:para>
+            </ce:acknowledgment>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="bibl10" view="all">
+               <ce:section-title id="cestitle170">References</ce:section-title>
+               <ce:bibliography-sec id="cebibsec10" view="all">
+                  <ce:bib-reference id="bib1">
+                     <ce:label>1</ce:label>
+                     <sb:reference id="sbref10">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>E</ce:given-name>
+                                 <ce:surname>Bergogne‐Berezin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>KJ</ce:given-name>
+                                 <ce:surname>Towner</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>
+                                 <ce:italic>Acinetobacter</ce:italic> spp., as nosocomial pathogens: microbiological, clinical, and epidemiological features</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Clin Microbiol Rev</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>9</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1996</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>148</sb:first-page>
+                              <sb:last-page>165</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib2">
+                     <ce:label>2</ce:label>
+                     <sb:reference id="sbref20">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>ME</ce:given-name>
+                                 <ce:surname>Falagas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>IA</ce:given-name>
+                                 <ce:surname>Bliziotis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X</ce:given-name>
+                                 <ce:surname>Siempos</ce:surname>
+                                 <ce:suffix>II</ce:suffix>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Attributable mortality of <ce:italic>Acinetobacter baumannii</ce:italic> infections in critically ill patients: a systematic review of matched cohort and case‐control studies</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Crit Care</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>10</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>R48</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib3">
+                     <ce:label>3</ce:label>
+                     <sb:reference id="sbref30">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Brown</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Amyes</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>OXA beta‐lactamases in <ce:italic>Acinetobacter</ce:italic>: the story so far</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Antimicrob Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>57</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                              <sb:last-page>3</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib4">
+                     <ce:label>4</ce:label>
+                     <sb:reference id="sbref40">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>HM</ce:given-name>
+                                 <ce:surname>Richet</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Mohammed</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>LC</ce:given-name>
+                                 <ce:surname>McDonald</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>WR</ce:given-name>
+                                 <ce:surname>Jarvis</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Building communication networks: international network for the study and prevention of emerging antimicrobial resistance</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Emerg Infect Dis</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>7</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2001</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>319</sb:first-page>
+                              <sb:last-page>322</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib5">
+                     <ce:label>5</ce:label>
+                     <sb:reference id="sbref50">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>VM</ce:given-name>
+                                 <ce:surname>Manikal</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Landman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Saurina</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E</ce:given-name>
+                                 <ce:surname>Oydna</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Lal</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Quale</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Endemic carbapenem‐resistant <ce:italic>Acinetobacter</ce:italic> species in Brooklyn, New York: citywide prevalence, interinstitutional spread, and relation to antibiotic usage</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Clin Infect Dis</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>31</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>101</sb:first-page>
+                              <sb:last-page>106</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib6">
+                     <ce:label>6</ce:label>
+                     <sb:reference id="sbref60">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Dijkshoorn</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Aucken</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>GernerSmidt</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Comparison of outbreak and nonoutbreak <ce:italic>Acinetobacter baumannii</ce:italic> strains by genotypic and phenotypic methods</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>34</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1996</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1519</sb:first-page>
+                              <sb:last-page>1525</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib7">
+                     <ce:label>7</ce:label>
+                     <sb:reference id="sbref70">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Van Dessel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Dijkshoorn</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Van Der Reijden</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Identification of a new geographically widespread multiresistant <ce:italic>Acinetobacter baumannii</ce:italic> clone from European hospitals</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Res Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>155</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2004</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>105</sb:first-page>
+                              <sb:last-page>112</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib8">
+                     <ce:label>8</ce:label>
+                     <sb:reference id="sbref80">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Da Silva</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Dijkshoorn</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Van Der Reijden</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B</ce:given-name>
+                                 <ce:surname>Van Strijen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Duarte</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Identification of widespread, closely related <ce:italic>Acinetobacter baumannii</ce:italic> isolates in Portugal as a subgroup of European clone II</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Clin Microbiol Infect</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>13</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>190</sb:first-page>
+                              <sb:last-page>195</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib9">
+                     <ce:label>9</ce:label>
+                     <sb:reference id="sbref90">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>HM</ce:given-name>
+                                 <ce:surname>Donald</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W</ce:given-name>
+                                 <ce:surname>Scaife</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>SGB</ce:given-name>
+                                 <ce:surname>Amyes</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>HK</ce:given-name>
+                                 <ce:surname>Young</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Sequence analysis of ARI‐1, a novel OXA beta‐lactamase, responsible for imipenem resistance in <ce:italic>Acinetobacter baumannii</ce:italic> 6B92</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>44</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>196</sb:first-page>
+                              <sb:last-page>199</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib10">
+                     <ce:label>10</ce:label>
+                     <sb:reference id="sbref100">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Heritier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Poirel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T</ce:given-name>
+                                 <ce:surname>Lambert</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Nordmann</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Contribution of acquired carbapenem‐hydrolyzing oxacillinases to carbapenem resistance in <ce:italic>Acinetobacter baumannii</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>49</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2005</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3198</sb:first-page>
+                              <sb:last-page>3202</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib11">
+                     <ce:label>11</ce:label>
+                     <sb:reference id="sbref110">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Brown</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>HK</ce:given-name>
+                                 <ce:surname>Young</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>SGB</ce:given-name>
+                                 <ce:surname>Amyes</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Characterisation of OXA‐51, a novel class D carbapenemase found in genetically unrelated clinical strains of <ce:italic>Acinetobacter baumannii</ce:italic> from Argentina</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Clin Microbiol Infect</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>11</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2005</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>15</sb:first-page>
+                              <sb:last-page>23</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib12">
+                     <ce:label>12</ce:label>
+                     <sb:reference id="sbref120">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Heritier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Poirel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>PE</ce:given-name>
+                                 <ce:surname>Fournier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JM</ce:given-name>
+                                 <ce:surname>Claverie</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Raoult</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Nordmann</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Characterization of the naturally occurring oxacillinase of <ce:italic>Acinetobacter baumannii</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>49</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2005</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4174</sb:first-page>
+                              <sb:last-page>4179</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib13">
+                     <ce:label>13</ce:label>
+                     <sb:reference id="sbref130">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Brown</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>SGB</ce:given-name>
+                                 <ce:surname>Amyes</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The sequences of seven class D beta‐lactamases isolated from carbapenem‐resistant <ce:italic>Acinetobacter baumannii</ce:italic> from four continents</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Clin Microbiol Infect</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>11</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2005</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>326</sb:first-page>
+                              <sb:last-page>329</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib14">
+                     <ce:label>14</ce:label>
+                     <sb:reference id="sbref140">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>AK</ce:given-name>
+                                 <ce:surname>Merkier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D</ce:given-name>
+                                 <ce:surname>Centron</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>
+                                 <ce:italic>bla</ce:italic>
+                                 <ce:inf loc="post">OXA‐51</ce:inf>‐type beta‐lactamase genes are ubiquitous and vary within a strain in <ce:italic>Acinetobacter baumannii</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int J Antimicrob Agents</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>28</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>110</sb:first-page>
+                              <sb:last-page>113</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib15">
+                     <ce:label>15</ce:label>
+                     <sb:reference id="sbref150">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>BA</ce:given-name>
+                                 <ce:surname>Evans</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Brown</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A</ce:given-name>
+                                 <ce:surname>Hamouda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Findlay</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>SG</ce:given-name>
+                                 <ce:surname>Amyes</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Eleven novel OXA‐51‐like enzymes from clinical isolates of <ce:italic>Acinetobacter baumannii</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Clin Microbiol Infect</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>13</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1137</sb:first-page>
+                              <sb:last-page>1138</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib16">
+                     <ce:label>16</ce:label>
+                     <sb:reference id="sbref160">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JF</ce:given-name>
+                                 <ce:surname>Turton</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>ME</ce:given-name>
+                                 <ce:surname>Ward</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N</ce:given-name>
+                                 <ce:surname>Woodford</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>The role of IS<ce:italic>Aba1</ce:italic> in expression of OXA carbapenemase genes in <ce:italic>Acinetobacter baumannii</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>FEMS Microbiol Lett</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>258</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>72</sb:first-page>
+                              <sb:last-page>77</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib17">
+                     <ce:label>17</ce:label>
+                     <sb:reference id="sbref170">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JF</ce:given-name>
+                                 <ce:surname>Turton</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N</ce:given-name>
+                                 <ce:surname>Woodford</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J</ce:given-name>
+                                 <ce:surname>Glover</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Yarde</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>ME</ce:given-name>
+                                 <ce:surname>Kaufmann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>TL</ce:given-name>
+                                 <ce:surname>Pitt</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Identification of <ce:italic>Acinetobacter baumannii</ce:italic> by detection of the <ce:italic>bla</ce:italic>
+                                 <ce:inf loc="post">OXA‐51‐like</ce:inf> carbapenemase gene intrinsic to this species</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>44</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2974</sb:first-page>
+                              <sb:last-page>2976</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib18">
+                     <ce:label>18</ce:label>
+                     <sb:reference id="sbref180">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JF</ce:given-name>
+                                 <ce:surname>Turton</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>SN</ce:given-name>
+                                 <ce:surname>Gabriel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Valderrey</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>ME</ce:given-name>
+                                 <ce:surname>Kaufmann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>TL</ce:given-name>
+                                 <ce:surname>Pitt</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Use of sequence‐based typing and multiplex PCR to identify clonal lineages of outbreak strains of <ce:italic>Acinetobacter baumannii</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Clin Microbiol Infect</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>13</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>807</sb:first-page>
+                              <sb:last-page>815</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib19">
+                     <ce:label>19</ce:label>
+                     <sb:reference id="sbref190">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>B</ce:given-name>
+                                 <ce:surname>Ehrenstein</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>AT</ce:given-name>
+                                 <ce:surname>Bernards</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Dijkshoorn</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>
+                                 <ce:italic>Acinetobacter</ce:italic> species identification by using tRNA spacer fingerprinting</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>34</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1996</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2414</sb:first-page>
+                              <sb:last-page>2420</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib20">
+                     <ce:label>20</ce:label>
+                     <sb:reference id="sbref200">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Heritier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Poirel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P</ce:given-name>
+                                 <ce:surname>Nordmann</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Cephalosporinase over‐expression resulting from insertion of IS<ce:italic>Aba1</ce:italic> in <ce:italic>Acinetobacter baumannii</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Clin Microbiol Infect</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>12</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2006</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>123</sb:first-page>
+                              <sb:last-page>130</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib21">
+                     <ce:label>21</ce:label>
+                     <sb:reference id="sbref210">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G</ce:given-name>
+                                 <ce:surname>Miranda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C</ce:given-name>
+                                 <ce:surname>Kelly</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F</ce:given-name>
+                                 <ce:surname>Solorzano</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B</ce:given-name>
+                                 <ce:surname>Leanos</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R</ce:given-name>
+                                 <ce:surname>Coria</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>JE</ce:given-name>
+                                 <ce:surname>Patterson</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Use of pulsed‐field gel electrophoresis typing to study an outbreak of infection due to <ce:italic>Serratia marcescens</ce:italic> in a neonatal intensive care unit</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>34</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1996</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3138</sb:first-page>
+                              <sb:last-page>3141</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib22">
+                     <ce:label>22</ce:label>
+                     <sb:reference id="sbref220">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:surname>Anonymous</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>A guide to sensitivity testing. Report of the Working Party on Antibiotic Sensitivity Testing of the British Society for Antimicrobial Chemotherapy</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Antimicrob Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>27</sb:volume-nr>
+                              </sb:series>
+                              <sb:issue-nr>suppl D</sb:issue-nr>
+                              <sb:date>1991</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                              <sb:last-page>50</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib23">
+                     <ce:label>23</ce:label>
+                     <sb:reference id="sbref230">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>JM</ce:given-name>
+                                 <ce:surname>Andrews</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>BSAC standardized disc susceptibility testing method (version 6)</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Antimicrob Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>60</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>20</sb:first-page>
+                              <sb:last-page>41</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib24">
+                     <ce:label>24</ce:label>
+                     <sb:reference id="sbref240">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Seifert</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L</ce:given-name>
+                                 <ce:surname>Dolzani</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R</ce:given-name>
+                                 <ce:surname>Bressan</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Standardization and interlaboratory reproducibility assessment of pulsed‐field gel electrophoresis‐generated fingerprints of <ce:italic>Acinetobacter baumannii</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>43</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2005</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4328</sb:first-page>
+                              <sb:last-page>4335</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib25">
+                     <ce:label>25</ce:label>
+                     <sb:reference id="sbref250">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H</ce:given-name>
+                                 <ce:surname>Segal</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S</ce:given-name>
+                                 <ce:surname>Garny</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>BG</ce:given-name>
+                                 <ce:surname>Elisha</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Is IS<ce:inf loc="post">
+                                    <ce:italic>ABA‐1</ce:italic>
+                                 </ce:inf> customized for <ce:italic>Acinetobacter</ce:italic>?</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>FEMS Microbiol Lett</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>243</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2005</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>425</sb:first-page>
+                              <sb:last-page>429</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib26">
+                     <ce:label>26</ce:label>
+                     <sb:reference id="sbref260">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R</ce:given-name>
+                                 <ce:surname>Palmen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>KJ</ce:given-name>
+                                 <ce:surname>Hellingwerf</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Uptake and processing of DNA by <ce:italic>Acinetobacter calcoaceticus</ce:italic>—a review</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Gene</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>192</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>179</sb:first-page>
+                              <sb:last-page>190</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

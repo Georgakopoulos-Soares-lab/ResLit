@@ -1,0 +1,495 @@
+PMID: 24777102
+PMCID: PMC4068568
+DOI: 10.1128/AAC.02363-13
+Title: Crystal structure of Mox-1, a unique plasmid-mediated class C β-lactamase with hydrolytic activity towards moxalactam.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2014 Jul
+Authors: Oguri T, Furuyama T, Okuno T, Ishii Y, Tateda K, Bonomo RA, Shimizu-Ibuka A
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Crystal Structure of Mox-1, a Unique Plasmid-Mediated Class C β-Lactamase with Hydrolytic Activity towards Moxalactam - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2014 Jul;58(7):3914–3920. doi: 10.1128/AAC.02363-13 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Crystal Structure of Mox-1, a Unique Plasmid-Mediated Class C β-Lactamase with Hydrolytic Activity towards Moxalactam 
+
+Takuma Oguri 
+
+Takuma Oguri 
+
+a Department of Science, Yamagata University, Yamagata, Japan 
+
+Find articles by Takuma Oguri 
+
+a , Takamitsu Furuyama 
+
+Takamitsu Furuyama 
+
+a Department of Science, Yamagata University, Yamagata, Japan 
+
+Find articles by Takamitsu Furuyama 
+
+a , Takashi Okuno 
+
+Takashi Okuno 
+
+a Department of Science, Yamagata University, Yamagata, Japan 
+
+Find articles by Takashi Okuno 
+
+a , Yoshikazu Ishii 
+
+Yoshikazu Ishii 
+
+b Division of Infection Control and Prevention, Department of Microbiology and Infectious Diseases, Toho University School of Medicine, Tokyo, Japan 
+
+Find articles by Yoshikazu Ishii 
+
+b , Kazuhiro Tateda 
+
+Kazuhiro Tateda 
+
+b Division of Infection Control and Prevention, Department of Microbiology and Infectious Diseases, Toho University School of Medicine, Tokyo, Japan 
+
+Find articles by Kazuhiro Tateda 
+
+b , Robert A Bonomo 
+
+Robert A Bonomo 
+
+c Research Service, Louis Stokes Cleveland Department of Veterans Affairs Medical Center, Cleveland, Ohio, USA 
+
+d Department of Medicine, Pharmacology, Molecular Biology and Microbiology, Case Western Reserve University School of Medicine, Cleveland, Ohio, USA 
+
+Find articles by Robert A Bonomo 
+
+c, d , Akiko Shimizu-Ibuka 
+
+Akiko Shimizu-Ibuka 
+
+a Department of Science, Yamagata University, Yamagata, Japan 
+
+Find articles by Akiko Shimizu-Ibuka 
+
+a, ✉ 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a Department of Science, Yamagata University, Yamagata, Japan 
+
+b Division of Infection Control and Prevention, Department of Microbiology and Infectious Diseases, Toho University School of Medicine, Tokyo, Japan 
+
+c Research Service, Louis Stokes Cleveland Department of Veterans Affairs Medical Center, Cleveland, Ohio, USA 
+
+d Department of Medicine, Pharmacology, Molecular Biology and Microbiology, Case Western Reserve University School of Medicine, Cleveland, Ohio, USA 
+
+✉ 
+Address correspondence to Akiko Shimizu-Ibuka, ibuka@sci.kj.yamagata-u.ac.jp . 
+
+✉ 
+Corresponding author. 
+
+Received 2013 Oct 30; Revision requested 2013 Dec 15; Accepted 2014 Apr 20. 
+
+Copyright © 2014, American Society for Microbiology. All Rights Reserved. 
+
+PMC Copyright notice 
+
+PMCID: PMC4068568  PMID: 24777102 
+
+Abstract 
+
+Mox-1 is a unique plasmid-mediated class C β-lactamase that hydrolyzes penicillins, cephalothin, and the expanded-spectrum cephalosporins cefepime and moxalactam. In order to understand the unique substrate profile of this enzyme, we determined the X-ray crystallographic structure of Mox-1 β-lactamase at a 1.5-Å resolution. The overall structure of Mox-1 β-lactamase resembles that of other AmpC enzymes, with some notable exceptions. First, comparison with other enzymes whose structures have been solved reveals significant differences in the composition of amino acids that make up the hydrogen-bonding network and the position of structural elements in the substrate-binding cavity. Second, the main-chain electron density is not observed in two regions, one containing amino acid residues 214 to 216 positioned in the Ω loop and the other in the N terminus of the B3 β-strand corresponding to amino acid residues 303 to 306. The last two observations suggest that there is significant structural flexibility of these regions, a property which may impact the recognition and binding of substrates in Mox-1. These important differences allow us to propose that the binding of moxalactam in Mox-1 is facilitated by the avoidance of steric clashes, indicating that a substrate-induced conformational change underlies the basis of the hydrolytic profile of Mox-1 β-lactamase. 
+
+INTRODUCTION 
+
+Production of β-lactamases (EC 3.5.2.6) that hydrolyze and inactivate β-lactam antibiotics is the most widespread resistance mechanism that Gram-negative bacteria use against penicillins, cephalosporins, and related β-lactam molecules ( 1 ). The β-lactamases that confer resistance in Gram-negative bacteria are grouped into four classes (classes A, B, C, and D) on the basis of their primary structures ( 2 ). Classes A, C, and D hydrolyze β-lactams using an active-site serine residue; class B enzymes are metallo-β-lactamases that employ one or two Zn 2+ molecules in the active site to inactivate β-lactams. The former serine-based enzymes hydrolyze β-lactams using a two-step mechanism that includes the formation of an acyl enzyme. The class B β-lactamases inactivate β-lactams through a noncovalent pathway. 
+
+Class C β-lactamases are widely distributed among many bacteria and show increased catalytic efficiency toward certain cephalosporins. This catalytic efficiency ( k cat / K m ) approaches the diffusion limit, particularly against good substrates like cephalothin ( 3 ). In contrast, against 7-methoxy-cephalosporins (e.g., cefoxitin), the catalytic efficiency is significantly less. Importantly, class C enzymes are not inhibited by clavulanate, a mechanism-based β-lactamase inhibitor that is used to treat infections caused by Gram-negative bacteria ( 4 ). 
+
+Historically known as AmpC β-lactamases, class C enzymes were originally regarded as strictly chromosomally encoded cephalosporinases produced by members of such genera as Enterobacter , Citrobacter , Morganella , Salmonella , Shigella , and Aeromonas and Hafnia alvei ( 5 ). Among these bacteria, β-lactamase production is often induced in the presence of certain β-lactams and is mediated by the existence of regulatory genes, such as ampD and ampR ( 5 , 6 ). Regrettably, many plasmid-encoded class C enzymes have also been identified in the last 3 decades ( 7 ). The widespread dissemination of these plasmid-encoded enzymes has created a significant threat to our antibiotic formulary. 
+
+Interestingly, the level of expression of plasmid-mediated class C enzymes can be higher than that of chromosomal β-lactamases, because of a higher gene copy number and/or a more efficient promoter for the plasmid genes ( 5 ). Promoters within elements such as IS Ecp1 and IS CR1 are found upstream of β-lactamase genes, and in some cases, they are critical for high-level expression of β-lactamases ( 8 , 9 ). In some cases, such high-level production of the enzymes is combined with the loss of outer membrane proteins (porins), which lowers the permeability of the membrane to carbapenem antibiotics ( 10 ). Many strains with plasmid-mediated class C enzymes also produce extended-spectrum β-lactamases (ESBLs) and often carry multiple determinants of resistance to non-β-lactam drugs, such as aminoglycosides, chloramphenicol, sulfonamide, tetracycline, trimethoprim, and mercuric ions ( 7 ). Taken together, these resistance factors portend the emergence of multidrug-resistant phenotypes that are creating a crisis in health care. 
+
+Mox-1 is a plasmid-mediated CMY-type class C β-lactamase. Mox-1 was isolated from Klebsiella pneumoniae NU2936, a strain which showed resistance to expanded-spectrum cephalosporins, including moxalactam, an oxacephem that was stable to the hydrolysis by other β-lactamases ( Fig. 1 ) ( 11 ). The primary amino acid sequence of Mox-1 suggested that this enzyme has a close evolutionary relationship with the chromosomal AmpC of Pseudomonas aeruginosa , and it was reported that these two enzymes showed similar kinetic profiles for some substrates ( 7 , 11 ). Detailed kinetic studies showed that benzylpenicillin, cephalothin, cefcapene, and moxalactam were good substrates for Mox-1, with k cat / K m values being greater than 2.5 × 10 6 M −1 s −1 , while ceftazidime and cefepime were poor substrates ( 12 ). Clavulanic acid had no inhibitory effect, while aztreonam behaved as an inhibitor. Compelled by these findings, we determined the X-ray crystallographic structure of the Mox-1 β-lactamase at a 1.5-Å resolution in order to understand the substrate profile of this enzyme. Our results revealed that unique structural features are present in Mox-1, and these give us insight into the substrate profile of this enzyme. 
+
+FIG 1. 
+
+Open in a new tab 
+
+Chemical structures of cephalothin and moxalactam. 
+
+MATERIALS AND METHODS 
+
+Bacterial strains, plasmids, and site-directed mutagenesis. 
+
+Escherichia coli strains CJ236, MV1184 (TaKaRa Bio Inc., Shiga, Japan), and BL21(DE3)/pLysS (Promega Corporation, Madison, WI) were used for site-directed mutagenesis, designing genetic constructs, and overproduction of proteins, respectively. pMTY145, a plasmid previously constructed for the expression of Mox-1 with a signal sequence ( 12 ), was used for construction of a plasmid to express mature Mox-1 without a signal sequence. In pMTY145, the Mox-1 gene, which has an NdeI site at the 5′ end and a HindIII site at the 3′ end, was inserted into the multicloning site of pET-28a. This plasmid was digested with restriction enzymes NdeI and HindIII, and the 1.2-kbp fragment that was obtained, which contains the bla Mox-1 gene, was directionally inserted into the multiple-cloning region of pUC119 in the reverse direction to obtain single-strand DNA using phage M13K07 for mutagenesis by the method of Kunkel et al. ( 13 ). An oligonucleotide primer, mox1nde (5′-CCG GTC TGG CCC ATC ATA TGG AGG CTT CAC CGG T-3′), was used to introduce a new NdeI site at the position corresponding to the cleavage site of the signal peptide (i.e., between the alanine at position 23 and the glycine at position 24). The nucleotide sequence of the mutated gene was confirmed by DNA sequencing with a Taq Dye Deoxy Terminator cycle sequencing kit and an ABI Prism 373A DNA sequencer (Applied Biosystems Inc., Foster City, CA). The plasmid with the new NdeI site was digested with NdeI and ScaI, to obtain an approximately 0.5-kbp fragment that contains the gene encoding the N-terminal half of Mox-1 without a signal sequence. This was inserted into the plasmid vector pMTY145, which was digested with the same restriction enzymes to yield pET28-Mox1Δss. 
+
+Expression and purification of the protein. 
+
+Plasmid pET28-Mox1Δss was transformed into E. coli BL21(DE3)/pLysS, and protein production was performed in 100 ml of 2-YT (yeast extract and tryptone) broth supplemented with 50 μg/ml of kanamycin. The cells were grown at 30°C for 8 h, and β-lactamase production was induced by addition of 0.1 mM IPTG (isopropyl β- d -1-thiogalactopyranoside) when the absorbance of the cell culture at 600 nm reached 0.4 optical density unit. The cells were harvested by centrifugation, dissolved in 6 ml of 50 mM sodium phosphate buffer (pH 7.0), and then disrupted by sonication. After centrifugation, the enzyme in the supernatant was loaded on Ni-nitrilotriacetic acid agarose (Qiagen, Hilden, Germany) equilibrated with 50 mM sodium phosphate buffer (pH 7.0) including 500 mM NaCl and eluted with a 0 to 250 mM linear imidazole gradient. The protein was subjected to desalting and buffer exchange with a Hi-Trap desalting column (GE Healthcare UK Ltd., Buckinghamshire, England) with 10 mM Tris-HCl buffer (pH 7.0). The purity of the enzyme was assessed to be more than 95% by SDS-polyacrylamide gel electrophoresis and staining of the gel with Coomassie brilliant blue. 
+
+Crystal preparation and data collection. 
+
+The purified protein was concentrated to 10 mg/ml for crystallization. Crystals for X-ray analysis were grown at 16°C by the hanging-drop or sitting-drop vapor diffusion method with reservoir solutions of 20% polyethylene glycol 8000 in 100 mM sodium cacodylate buffer (pH 6.5) with 0.2 M zinc acetate. The volume of a drop was 10 μl, and that of the reservoir solution in each well was 500 μl. The crystals were obtained within 1 month. At data collection, the crystals were flash frozen in a liquid nitrogen stream (100 K) with 20% ethylene glycol as a cryoprotectant. X-ray diffraction data were collected at Station NE3A of the Photon Factory-AR, the High Energy Accelerator Research Organization (KEK, Ibaraki, Japan), with λ equal to 1.0 Å at 100 K, using an ADSC Quantum 270 charge-coupled-device (CCD) detector with 1.0° rotation for each image. The reflection was indexed, integrated, and scaled using the HKL2000 software package ( 14 ). 
+
+Structure determination. 
+
+The initial model for refinement was the structure of the CMY-10 β-lactamase (PDB accession number 1ZKJ) ( 15 ). The model was subjected to molecular replacement using the Molrep program ( 16 ) in CCP4 software ( 17 ). Subsequently, rigid body refinement, restrained refinement, and B-factor refinement were performed using the Refmac program ( 18 ). We performed manual model building and picked water molecules with the COOT program ( 19 ). The stereochemical quality of the model was periodically monitored with the Quality Control Check (v2.8) program developed at the Joint Center for Structural Genomics ( http://smb.slac.stanford.edu/jcsg/QC ). 
+
+Protein sequence accession number. 
+
+The coordinate and structure factor files have been deposited in the Protein Data Bank (PDB) under accession number 3W8K. Alignment of the three-dimensional structures was generated with the DaliLite (v3) program ( 20 ). 
+
+RESULTS AND DISCUSSION 
+
+We obtained approximately 10 mg of purified Mox-1 β-lactamase from 100 ml culture, and the protein was subjected to crystallization and data collection. The data collection and refinement statistics are summarized in Table 1 . X-ray diffraction data were collected to 1.38 Å, but the intensity of reflection ( I ) and the average intensity (σ〈 I 〉) for the highest-resolution shell showed that the intensity in this resolution range was too weak ( Table 1 ). The I /σ〈 I 〉 value was 3.7 in the shell of 1.49 to 1.52 Å; thus, the data obtained at a 1.5-Å resolution were used in the refinement, and the X-ray crystallographic structure of Mox-1 was determined with an R factor of 16.2% and an R free factor of 18.8%. Only one molecule is present in the asymmetric unit. All nonglycine residues are in allowed regions of the Ramachandran plot. Electron density for the N-terminal end, the region from Asn213 to Pro214, and a loop from Glu303 to Ser306 was not observed. 
+
+TABLE 1. 
+
+Data collection and refinement statistics 
+
+Parameter Value for Mox-1 a Data collection statistics Space group P2 1 Unit cell dimensions a , b , c (Å) 49.62, 59.38, 62.69 α, β, γ (°) 90.00, 102.19, 90.00 Resolution (Å) 1.38–61.28 (1.38–1.40) No. of reflections Observed 263,620 Unique 72,411 (3,330) Completeness (%) 99.0 (92.7) Redundancy 3.7 (2.9) R factor 0.062 (0.561) I /σ〈 I 〉 26.14 (1.49) Refinement statistics Resolution range (Å) 1.50–25.0 (1.50–1.54) No. of unique reflections 56,607 (4,172) Completeness (%) 99.2 (100.0) No. of protein atoms 2,620 No. of water molecules 319 R factor ( R work ) 0.164 (0.207) R factor ( R free ) 0.189 (0.233) Average B factor (Å 2 ) Protein 21.52 Water 32.91 RMSD Bond lengths (Å) 0.008 Bond angles (°) 1.321 
+
+Open in a new tab 
+
+a 
+Values in parentheses are for the highest-resolution shell. 
+
+Mox-1 β-lactamase possesses a two-domain structure (α-helical and α-helical–β-pleated sheet domains), which is common in all the structure-solved class C enzymes. The active-site serine (Ser65) rests between the two domains. Similar to all other class C enzymes, the conserved motifs in Mox-1 are Ser-X-X-Lys at residues 65 to 68, Tyr-(A/S)-Asn at residues 151 to 153, and Lys-Thr-Gly at residues 312 to 314 (these residues are generally numbered 65 to 68, 150 to 152, and 315 to 317, respectively, in other enzymes). Partial structure-based alignments of Mox-1 and structure-solved class C enzymes are shown in Fig. 2 . Mox-1 shares the highest homology with CMY-10 in both the primary and tertiary structures, with the root mean square deviation (RMSD) being 0.60 Å for all atoms. For the AmpC enzyme from P. aeruginosa , a chromosomal enzyme closest to Mox-1 in amino acid sequence (56% identity) ( 21 ), the RMSD with the Mox-1 structure was 2.24 Å. Among the enzymes whose kinetic properties have been studied, the AmpC β-lactamase from Enterobacter cloacae P99 is the most similar to Mox-1 in amino acid sequence with 45% identity, and the RMSD is 3.03 Å. The RMSD value between Mox-1 and an extended-spectrum enzyme (GC1) from E. cloacae (45% identical in primary sequence) was 3.29 Å. GC1 is 98% identical to P99, and it was reported that GC1 acquired its extended substrate specificity by the insertion of 3 amino acids in the Ω loop ( 22 ). The large RMSD suggests that the extended-spectrum β-lactamase activity is different between Mox-1 and GC1. 
+
+FIG 2. 
+
+Open in a new tab 
+
+Multiple-sequence alignment of class C β-lactamases whose structures have been solved. The sequences of the structure-solved class C enzymes that have high similarity with Mox-1 were aligned by use of the DaliLite (v3) program ( 20 ). The aligned enzymes (with their Protein Databank and Uniprot accession numbers) are as follows: Mox-1 (Uniprot accession number Q51578 ); AmpC from P. aeruginosa PAO1 (PDB accession no. 4GZB, Uniprot accession no. P24735 ); AmpC from Pseudomonas fluorescens (PFLU; PDB accession no. 2QZ6, Uniprot accession no. P85302 ); AmpC from E. cloacae P99 (PDB accession no. 1XX2, Uniprot accession no. P05364 ); GC1, which is an AmpC enzyme from E. cloacae (PDB accession no. 1GCE, Uniprot accession no. Q59401 ); CMY-2 (PDB accession no. 1ZC2, Uniprot accession no. Q48434 ); and AmpC from E. coli (ECOLI; PDB accession no. 1KE4, Uniprot accession no. P00811 ). The residue different between Mox-1 and CMY-10 is marked with a black dot. Residues that are conserved in all the enzymes listed here are shown with white letters with a black background. One of the three conserved regions is boxed. The Mox-1 residues whose structural model is not built because of a lack of electron density are shown in lowercase. The residues mentioned in the text are indicated with arrows and the residue name and number. The secondary structure of Mox-1 mentioned in the text is shown just below its sequence. 
+
+Active-site topology. 
+
+The active site resides in the cavity between two domains. The electron density map shows modification of the catalytic serine residue. From the shape of the observed density, the active-site Ser is likely to be phosphorylated ( Fig. 3A ). The modification seems to be partial, and occupancy of the phosphate in the model has been set to 0.70. The position of this modified serine residue overlaps that of the active-site serine of the P99 enzyme bound to the phosphonate monoester inhibitor ( 23 ). No special reagents for phosphorylation were added throughout the expression, purification, and crystallization of Mox-1, except that sodium phosphate buffer was used in the first step of purification. The density is fairly clear, but the modification is not confirmed by another analytic method at this moment, leaving the possibility that it is a temporary, pseudomodification. 
+
+FIG 3. 
+
+Open in a new tab 
+
+The active site of Mox-1. (A) Stereoview of the active site 2 F o − F c electron density map contoured at 1.5 σ. The hydrogen-bonding interaction is shown with a dotted line. (B) The active site of Mox-1 in comparison with that of other class C enzymes whose structures have been solved. The backbone and side-chain carbons of Mox-1 (green), CMY-10 (cyan), AmpC from P. aeruginosa (yellow), P99 (magenta), GC1 (pale pink), and AmpC from E. coli (orange) are shown. 
+
+The hydrogen-bonding network in the active site of Mox-1 is depicted in Fig. 3A . As a whole, the network is well conserved in all the structure-solved class C enzymes. A unique feature observed in Mox-1 is the participation of the side chain of Asn287 and the main-chain O atom of Gly286 in this network. They are hydrogen bonded to water molecules that are assigned in the R2 site of the substrate-binding cavity with a low B-factor value. These hydrogen bonds are also observed in the structures of CMY-10 and AmpC from P. aeruginosa , which have an Asn residue at the corresponding position. No such interaction is observed in P99 and the AmpC from E. coli , in which a Ser residue occupies the position corresponding to Asn287 in Mox-1 ( Fig. 2 ). The position of α-helix H10, on which these residues are positioned, is significantly different among the enzymes. In Mox-1 and CMY-10, the H10 helix shifts to be more apart from the catalytic serine than that of P99 and GC1 and the AmpC from E. coli . α-Helix H10 of the AmpC from P. aeruginosa is observed to be somewhere between these two groups ( Fig. 3B ). 
+
+Another feature related to the hydrogen-bonding network was also observed in the R2 site. In the active site of the P99 β-lactamase, Ser289 and Asn346 are hydrogen bonded to the water molecules that are assigned in the vicinity of the catalytic serine residue. In Mox-1, these residues are replaced by hydrophobic amino acids, Ala289 and Ile343, respectively ( Fig. 3B ). Such a replacement by hydrophobic residues is also observed in CMY-10. These residues are exposed to the substrate-binding cavity, so their substitution may affect the interaction with β-lactam antibiotics, especially with their R2 groups ( Fig. 3B ). The structural features mentioned here may give an extended substrate profile to Mox-1 and CMY-10, though it is difficult to discuss the similarity and/or difference of their kinetic properties precisely on the basis of a comparison of their structures, since kinetic data for CMY-10 are limited. 
+
+Structural mobility of the Ω and B2g-B3 loops. 
+
+In our structural analysis, the electron density was not clear for several side chains, which are often exposed to the solvent, and also for some main-chain atoms. A significant disruption of electron density was observed in two notable regions. The first region was residues Asn214 and Pro215; these residues are positioned in the Ω loop, which is at the bottom of the active-site cleft and is an important region for the binding of the β-lactam R1 side chain ( Fig. 3B ). The second area where the electron density was unclear involved residues Glu303 to Ser306. This region is exposed to the solvent on the surface of the protein, and it is a part of a loop that connects two β-strands, the so-called B2g and B3 loops ( Fig. 2 and 4 ). 
+
+FIG 4. 
+
+Open in a new tab 
+
+Disordered B2g-B3 loop in Mox-1. The region containing residues 303 to 306 of Mox-1 is shown in green, and the corresponding regions of CMY-10, AmpC from P. aeruginosa , and P99 are shown in cyan, magenta, and pale pink, respectively, on the molecular surface of Mox-1. The disordered region is indicated with a dotted line and black arrow. The active-site cavity is shown with a red arrow. 
+
+In Mox-1, the B factors for these two disrupted regions were considerably larger than average. The B factor of the Ω loop, which includes the first disrupted region of Mox-1, was very large in all the structures of class C enzymes, including Mox-1. In the Ω loop of Mox-1, electron density for Asn214 and Pro215 was not observed, and the B factor was very large in residues Lys206 to Gly216. The B factor of the same regions was exceptionally large in GC1, which has an insertion of 3 residues. For the area including the second disrupted region in Mox-1, the high peak of the B factor was observed in residues Ala300 to Gln307 in Mox-1 and also in the corresponding region in CMY-10 and AmpC from P. aeruginosa but not in P99, GC1, or the AmpC from E. coli . In the latter group of enzymes, residues 276 to 291 possess a large B factor; this area includes α-helix α10. As described above, the side chain of Asn287 and the main-chain O atom of Gly286 participate in the hydrogen-bonding network of the active-site cavity in Mox-1, CMY-10, and AmpC from P. aeruginosa . Immobilization of α-helix H10 with these hydrogen bonds lowers the B factor of this region in these enzymes. Mox-1 and CMY-10 are ESBLs, and the AmpC from P. aeruginosa is known to have kinetic properties similar to those of Mox-1 ( 11 ). These observations allow us to hypothesize that the unique B-factor pattern represents the flexibility/mobility of this region and might explain the substrate specificity in these enzymes. The mobility of the B3 strand may also be affected; this strand resides on the C-terminal side of this loop and constitutes one wall of the active site. These structural features might give Mox-1 a preferred disposition of structural elements in the substrate-binding cavity and/or the flexibility necessary for conformational changes when substrates bind to the active site, resulting in greater hydrolytic activity toward moxalactam than other enzymes. In contrast to the kinetic behavior of the P99 β-lactamase against moxalactam ( 24 ), such a structural change may result in significant increases of the k cat and k cat / K m values in Mox-1. 
+
+Insights into the mechanism to hydrolyze moxalactam. 
+
+We undertook the analysis of the crystal structure of Mox-1 to increase our understanding of the mechanistic basis of its unique properties. Previous studies showed that moxalactam is a fairly good substrate for Mox-1, but it is an inhibitor of the E. coli AmpC enzyme ( 24 ). In contrast, cephalothin, whose structure is shown in Fig. 1 , is effectively hydrolyzed by Mox-1, E. coli AmpC, and other class C enzymes ( 12 , 24 , 25 ). Why does this occur? 
+
+Structural analysis of the E. coli AmpC complexed with cephalothin shows that the ligand undergoes a significant conformational change as the reaction progresses. That is, the six-membered dihydrothiazine ring of cephalothin rotates around the C-6—C-7 bond so that its carboxylate is 109° from its original position ( 26 ). Such rotation of the ligand side seems to be common in the acylation step in class C enzymes. One of the main distinguishing characteristics of moxalactam is the existence of a 7α-methoxy group. In the E. coli AmpC structure, this methoxy group comes near O-δ1 of Asn152 (Asn153 in Mox-1). The methoxy group causes additional rotation along the C-7—C-8 bond to relieve the steric conflict between them, resulting in the displacement of C-4 COOH group and deacylating water ( 25 ). 
+
+In Fig. 5 , we compare the crystal structure of Mox-1 with that of E. coli AmpC β-lactamase complexed with moxalactam (PDB accession number 1FCO). E. coli AmpC is the only enzyme whose crystal structure has been solved in complex with moxalactam. Comparison of these two enzymes shows a significant shift of structural elements that compose the active-site cleft ( Fig. 5 ). In Mox-1, a loop composed of residues 112 to 128, which composes a part of the R1 binding site, is farther from the Ω loop. C-α of Glu124 in Mox-1 shifts 2.77 Å from its corresponding atom in E. coli AmpC (C-α of Asp120). The H10 helix, an α-helix composed of residues 289 to 293, is on the R2 binding site side, and it also shifts to widen the R2 binding space. The C-α of Ala289 in Mox-1 moves away from its corresponding atom in E. coli AmpC (C-α of Asn286) by 2.31 Å. Consequently, Mox-1 has more space in the substrate-binding site than the AmpC enzyme, and it makes substrate rotation more facile or the deposition of deacylating water molecules possible. 
+
+FIG 5. 
+
+Open in a new tab 
+
+Superposition of Mox-1 and the E. coli AmpC enzyme complexed with moxalactam. Mox-1 carbon atoms are shown in green. Two molecules of E. coli AmpC enzymes complexed with moxalactam (molecules A and B in the protein with PDB accession no. 1FCO) are shown in pale orange and pale pink, respectively, and the moxalactam molecules bound to them are shown in magenta and purple, respectively. 
+
+A true understanding of the catalytic and structural properties of given class C β-lactamases requires the integration of microbiological, kinetic, and atomic analyses. Taken together, these efforts advance our ability to design more effective β-lactams and β-lactamase inhibitors. Mox-1 is a unique class C enzyme whose three-dimensional structure is presented herein. Our comparison of Mox-1 with other enzymes whose structures have been solved revealed the difference in the hydrogen-bonding network. We also observed that the main-chain electron density in two regions (the Ω loop and residues 303 to 306) suggests that there is significant structural flexibility in these regions and possibly a higher mobility of the neighboring structural elements. This active site allows moxalactam to bind in the proper orientation and to undergo the conformational change necessary for hydrolysis. The results from this study propose an explanation for why moxalactam is hydrolyzed by Mox-1. However, since data regarding the detailed kinetic study of class C enzymes are limited, further kinetic analyses and exploration of inhibitors are awaited to understand the importance of the residues and/or structural features mentioned in this article. Knowledge derived from this analysis adds to our growing understanding of how novel β-lactams with activity against class C β-lactamases should be designed. 
+
+ACKNOWLEDGMENTS 
+
+We thank Hiromi Yoshida, Takashi Tonozuka, and KEK staff for their kind support and advice during data collection at KEK. 
+
+This study was supported in part by funds and/or facilities provided by the Cleveland Department of Veterans Affairs, the Veterans Affairs Merit Review Program, and the Geriatric Research Education and Clinical Center VISN 10 (VISN 10 GRECC) to R.A.B. NIAID of NIH also supported R.A.B. under award numbers R01AI072219 and R01AI063517. 
+
+Footnotes 
+
+Published ahead of print 28 April 2014 
+
+REFERENCES 
+
+1. Wilke MS, Lovering AL, Strynadka NC.
+2005. 
+β-Lactam antibiotic resistance: a current structural perspective. Curr. Opin. Microbiol.
+8:525–533. 10.1016/j.mib.2005.08.016 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+2. Ambler RP.
+1980. 
+The structure of β-lactamases. Philos. Trans. R. Soc. Lond. B Biol. Sci.
+289:321–331. 10.1098/rstb.1980.0049 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+3. Bulychev A, Mobashery S.
+1999. 
+Class C β-lactamases operate at the diffusion limit for turnover of their preferred cephalosporin substrates. Antimicrob. Agents Chemother.
+43:1743–1746 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+4. Bush K, Jacoby GA, Medeiros AA.
+1995. 
+A functional classification scheme for β-lactamases and its correlation with molecular structure. Antimicrob. Agents Chemother.
+39:1211–1233. 10.1128/AAC.39.6.1211 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Jacoby GA.
+2009. 
+AmpC β-lactamases. Clin. Microbiol. Rev.
+22:161–182. 10.1128/CMR.00036-08 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Harris PN, Ferguson JK.
+2012. 
+Antibiotic therapy for inducible AmpC β-lactamase-producing Gram-negative bacilli: what are the alternatives to carbapenems, quinolones and aminoglycosides?
+Int. J. Antimicrob. Agents
+40:297–305. 10.1016/j.ijantimicag.2012.06.004 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Philippon A, Arlet G, Jacoby GA.
+2002. 
+Plasmid-determined AmpC-type β-lactamases. Antimicrob. Agents Chemother.
+46:1–11. 10.1128/AAC.46.1.1-11.2002 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Toleman MA, Bennett PM, Walsh TR.
+2006. 
+IS CR elements: novel gene-capturing systems of the 21st century?
+Microbiol. Mol. Biol. Rev.
+70:296–316. 10.1128/MMBR.00048-05 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Ma L, Siu LK, Lu PL.
+2011. 
+Effect of spacer sequences between bla CTX-M and IS Ecp1 on bla CTX-M expression. J. Med. Microbiol.
+60:1787–1792. 10.1099/jmm.0.033910-0 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+10. Bradford PA, Urban C, Mariano N, Projan SJ, Rahal JJ, Bush K.
+1997. 
+Imipenem resistance in Klebsiella pneumoniae is associated with the combination of ACT-1, a plasmid-mediated AmpC β-lactamase, and the loss of an outer membrane protein. Antimicrob. Agents Chemother.
+41:563–569 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Horii T, Arakawa Y, Ohta M, Ichiyama S, Wacharotayankun R, Kato N.
+1993. 
+Plasmid-mediated AmpC-type β-lactamase isolated from Klebsiella pneumoniae confers resistance to broad-spectrum β-lactams, including moxalactam. Antimicrob. Agents Chemother.
+37:984–990. 10.1128/AAC.37.5.984 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Alba J, Bauvois C, Ishii Y, Galleni M, Masuda K, Ishiguro M, Ito M, Frere JM, Yamaguchi K.
+2003. 
+A detailed kinetic study of Mox-1, a plasmid-encoded class C β-lactamase. FEMS Microbiol. Lett.
+225:183–188. 10.1016/S0378-1097(03)00448-8 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+13. Kunkel TA, Roberts JD, Zakour RA.
+1987. 
+Rapid and efficient site-specific mutagenesis without phenotypic selection. Methods Enzymol.
+154:367–382. 10.1016/0076-6879(87)54085-X [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+14. Otwinowski Z, Minor W.
+1997. 
+Processing of X-ray diffraction data collected in oscillation mode. Methods Enzymol.
+276:307–326. 10.1016/s0076-6879(97)76066-x [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+15. Kim JY, Jung HI, An YJ, Lee JH, Kim SJ, Jeong SH, Lee KJ, Suh PG, Lee HS, Lee SH, Cha SS.
+2006. 
+Structural basis for the extended substrate spectrum of CMY-10, a plasmid-encoded class C β-lactamase. Mol. Microbiol.
+60:907–916. 10.1111/j.1365-2958.2006.05146.x [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+16. Vagin A, Teplyakov A.
+2010. 
+Molecular replacement with MOLREP. Acta Crystallogr. D Biol. Crystallogr.
+66:22–25. 10.1107/S0907444909042589 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+17. Collaborative Computational Project N. 1994. 
+The CCP4 suite: programs for protein crystallography. Acta Crystallogr. D Biol. Crystallogr.
+50:760–763. 10.1107/S0907444994003112 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+18. Murshudov GN, Vagin AA, Dodson EJ.
+1997. 
+Refinement of macromolecular structures by the maximum-likelihood method. Acta Crystallogr. D Biol. Crystallogr.
+53:240–255. 10.1107/S0907444996012255 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+19. Emsley P, Lohkamp B, Scott WG, Cowtan K.
+2010. 
+Features and development of Coot. Acta Crystallogr. D Biol. Crystallogr.
+66:486–501. 10.1107/S0907444910007493 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. Holm L, Rosenstrom P.
+2010. 
+Dali server: conservation mapping in 3D. Nucleic Acids Res.
+38:W545–W549. 10.1093/nar/gkq366 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+21. Bauernfeind A, Stemplinger I, Jungwirth R, Wilhelm R, Chong Y.
+1996. 
+Comparative characterization of the cephamycinase bla CMY-1 gene and its relationship with other β-lactamase genes. Antimicrob. Agents Chemother.
+40:1926–1930 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+22. Nukaga M, Kumar S, Nukaga K, Pratt RF, Knox JR.
+2004. 
+Hydrolysis of third-generation cephalosporins by class C β-lactamases. Structures of a transition state analog of cefotoxamine in wild-type and extended spectrum enzymes. J. Biol. Chem.
+279:9344–9352. 10.1074/jbc.M312356200 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+23. Lobkovsky E, Billings EM, Moews PC, Rahil J, Pratt RF, Knox JR.
+1994. 
+Crystallographic structure of a phosphonate derivative of the Enterobacter cloacae P99 cephalosporinase: mechanistic interpretation of a β-lactamase transition-state analog. Biochemistry
+33:6762–6772. 10.1021/bi00188a004 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+24. Galleni M, Amicosante G, Frere JM.
+1988. 
+A survey of the kinetic parameters of class C β-lactamases. Cephalosporins and other β-lactam compounds. Biochem. J.
+255:123–129 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Patera A, Blaszczak LC, Shoichet BK.
+2000. 
+Crystal structures of substrate and inhibitor complexes with AmpC β-lactamase: possible implications for substrate-assisted catalysis. J. Am. Chem. Soc.
+122:10504–10512. 10.1021/ja001676x [ DOI ] [ Google Scholar ] 
+
+26. Beadle BM, Trehan I, Focia PJ, Shoichet BK.
+2002. 
+Structural milestones in the reaction pathway of an amide hydrolase: substrate, acyl, and product complexes of cephalothin with AmpC β-lactamase. Structure
+10:413–424. 10.1016/S0969-2126(02)00725-6 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (2.6 MB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

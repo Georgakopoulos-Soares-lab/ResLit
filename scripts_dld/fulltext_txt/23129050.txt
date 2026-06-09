@@ -1,0 +1,498 @@
+PMID: 23129050
+PMCID: PMC3535958
+DOI: 10.1128/AAC.02049-12
+Title: Novel aminoglycoside 2''-phosphotransferase identified in a gram-negative pathogen.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2013 Jan
+Authors: Toth M, Frase H, Antunes NT, Vakulenko SB
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Novel Aminoglycoside 2″-Phosphotransferase Identified in a Gram-Negative Pathogen - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2013 Jan;57(1):452–457. doi: 10.1128/AAC.02049-12 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Novel Aminoglycoside 2″-Phosphotransferase Identified in a Gram-Negative Pathogen 
+
+Marta Toth 
+
+Marta Toth 
+
+1 Department of Chemistry and Biochemistry, University of Notre Dame, Notre Dame, Indiana, USA 
+
+Find articles by Marta Toth 
+
+1 , Hilary Frase 
+
+Hilary Frase 
+
+1 Department of Chemistry and Biochemistry, University of Notre Dame, Notre Dame, Indiana, USA 
+
+Find articles by Hilary Frase 
+
+1 , Nuno T Antunes 
+
+Nuno T Antunes 
+
+1 Department of Chemistry and Biochemistry, University of Notre Dame, Notre Dame, Indiana, USA 
+
+Find articles by Nuno T Antunes 
+
+1 , Sergei B Vakulenko 
+
+Sergei B Vakulenko 
+
+1 Department of Chemistry and Biochemistry, University of Notre Dame, Notre Dame, Indiana, USA 
+
+Find articles by Sergei B Vakulenko 
+
+1, ✉ 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+1 Department of Chemistry and Biochemistry, University of Notre Dame, Notre Dame, Indiana, USA 
+
+✉ 
+Address correspondence to Sergei B. Vakulenko, svakulen@nd.edu . 
+
+✉ 
+Corresponding author. 
+
+Received 2012 Oct 8; Revision requested 2012 Oct 22; Accepted 2012 Oct 29. 
+
+Copyright © 2013, American Society for Microbiology. All Rights Reserved. 
+
+PMC Copyright notice 
+
+PMCID: PMC3535958  PMID: 23129050 
+
+Abstract 
+
+Aminoglycoside 2″-phosphotransferases are the major aminoglycoside-modifying enzymes in clinical isolates of enterococci and staphylococci. We describe a novel aminoglycoside 2″-phosphotransferase from the Gram-negative pathogen Campylobacter jejuni , which shares 78% amino acid sequence identity with the APH(2″)-Ia domain of the bifunctional aminoglycoside-modifying enzyme aminoglycoside (6′) acetyltransferase-Ie/aminoglycoside 2″-phosphotransferase-Ia or AAC(6′)-Ie/APH(2″)-Ia from Gram-positive cocci, which we called APH(2″)-If. This enzyme confers resistance to the 4,6-disubstituted aminoglycosides kanamycin, tobramycin, dibekacin, gentamicin, and sisomicin, but not to arbekacin, amikacin, isepamicin, or netilmicin, but not to any of the 4,5-disubstituted antibiotics tested. Steady-state kinetic studies demonstrated that GTP, and not ATP, is the preferred cosubstrate for APH(2″)-If. The enzyme phosphorylates the majority of 4,6-disubstituted aminoglycosides with high catalytic efficiencies ( k cat / K m = 10 5 to 10 7 M −1 s −1 ), while the catalytic efficiencies against the 4,6-disubstituted antibiotics amikacin and isepamicin are 1 to 2 orders of magnitude lower, due mainly to the low apparent affinities of these substrates for the enzyme. Both 4,5-disubstituted antibiotics and the atypical aminoglycoside neamine are not substrates of APH(2″)-If, but are inhibitors. The antibiotic susceptibility and substrate profiles of APH(2″)-If are very similar to those of the APH(2″)-Ia phosphotransferase domain of the bifunctional AAC(6′)-Ie/APH(2″)-Ia enzyme. 
+
+INTRODUCTION 
+
+Aminoglycoside antibiotics constitute a large and diverse group of naturally occurring and semisynthetic compounds. Structurally, aminoglycosides are classified as those which contain a 2-deoxystreptamine ring, and those that do not are considered atypical. The 2-deoxystreptamine-containing antibiotics are further subdivided into 4,5- and 4,6-disubstituted aminoglycosides based on the position of substituents on the ring (ring B in Fig. 1 ) ( 1 ). Most of the currently used aminoglycosides (gentamicin, tobramycin, amikacin, isepamicin, sisomicin, netilmicin, and arbekacin) are 4,6-disubstituted compounds. Aminoglycoside antibiotics exert their antibacterial activity by binding to the bacterial 30S ribosomal subunit, thus interfering with protein synthesis ( 2 – 4 ). Following their discovery in 1944, aminoglycosides were intensively used for prophylaxis and in the treatment of a wide variety of infections, including tuberculosis, throughout much of the 1980s ( 5 ). Subsequently, the consumption of aminoglycosides significantly decreased due to their nephro- and ototoxicity and the availability of alternative, less toxic, compounds such as β-lactams in combination with β-lactam inhibitors, extended-spectrum cephalosporins, carbapenems, and fluoroquinolones, among others. Over the last decade, interest in aminoglycosides has been rejuvenated due to the selection and dissemination of clinical bacterial isolates resistant to all other available antimicrobial agents and the implementation of novel strategies for administering and monitoring aminoglycosides that significantly decrease the intensity and frequency of side effects ( 6 , 7 ). Currently, indications for aminoglycoside administration include, among others, surgical prophylaxis, empirical therapy of intra-abdominal, genitourinary, and respiratory infections, endocarditis and sepsis, and directed therapy of various serious infections, often in combination with other antimicrobial agents ( 8 ). 
+
+Fig 1. 
+
+Open in a new tab 
+
+Structures of 4,6-disubstituted (kanamycin A and isepamicin), 4,5-disubstituted (lividomycin A), and atypical (neamine) aminoglycosides. The rings (A, B, and C) and the numbering of the rings are indicated. 
+
+A wide variety of aminoglycoside resistance mechanisms have been described in Gram-positive and Gram-negative bacteria ( 5 ). They include impaired uptake of aminoglycosides by anaerobes and facultative anaerobes ( 9 , 10 ), active efflux of the antibiotics ( 11 – 13 ), and mutational modification of their target, the 30S ribosomal subunit ( 14 – 16 ). More clinically relevant mechanisms of aminoglycoside resistance are methylation of rRNA and enzymatic modification of the antibiotic. Posttranslational methylation of rRNA produces high-level resistance to 4,6-disubstituted aminoglycoside antibiotics. This mechanism of resistance was first discovered in aminoglycoside-producing bacteria ( 17 ) and has subsequently been recognized as an important mechanism of aminoglycoside resistance in Gram-negative pathogens ( 18 , 19 ). Enzymatic modification of antibiotics is the major mechanism of resistance to aminoglycosides in both Gram-negative and Gram-positive bacteria. Three families of aminoglycoside-modifying enzymes, aminoglycoside acetyltransferases (AACs), aminoglycoside nucleotidyltransferases (ANTs), and aminoglycoside phosphotransferases (APHs), also known as aminoglycoside kinases, perform cofactor-dependent modification of the amino (AACs) and hydroxyl (ANTs and APHs) groups of aminoglycoside antibiotics ( 1 , 5 , 20 ). 
+
+Aminoglycoside 2″-phosphotransferases [APH(2″)s], enzymes that phosphorylate the 2″-hydroxyl groups of aminoglycoside antibiotics, are widely distributed in enterococci and staphylococci. Four distantly related APH(2″) subfamilies, sharing 28 to 32% amino acid sequence identity, have been identified in clinical enterococcal isolates ( 21 ). Recently, a novel nomenclature for these enzymes has been proposed based on their detailed kinetic characterization ( 22 – 25 ). The enzymes were renamed according to the subfamily into which they belong: thus, APH(2″)-Ib, -Ic, and -Id are now referred to as APH(2″)-IIa, -IIIa, and -IVa, respectively. All APH(2″)s are monofunctional enzymes, with the exception of the APH(2″)-Ia, which is expressed as the C-terminal domain of the bifunctional enzyme AAC(6′)-Ie/APH(2″)-Ia. The gene for this bifunctional enzyme has been identified exclusively in Gram-positive pathogens and is the major determinant for high-level resistance to aminoglycosides in enterococci and staphylococci. Our analysis of amino acid sequences deposited in the GenBank database allowed us to identify a novel monofunctional 2″-phosphotransferase in a Gram-negative pathogen, Campylobacter jejuni , whose amino acid sequence is 78% identical to that of the APH(2″)-Ia domain of the bifunctional enzyme. Herein, we report the substrate profile and steady-state kinetic parameters of this enzyme, which we refer to as APH(2″)-If, a monofunctional kinase of the APH(2″)-I subfamily. 
+
+MATERIALS AND METHODS 
+
+Cloning of the aph-If and aph-Ia genes. 
+
+The gene encoding APH(2″)-If was custom synthesized (GenScript) using the sequence reported for the C. jejuni plasmid pCG8245 (GenBank accession no. GI:57118025 ). The gene for the APH(2″)-Ia domain of AAC(6′)-Ie/APH(2″)-Ia was PCR amplified, starting at the codon for Met 175, using the gene for the bifunctional enzyme as the template. NdeI and HindIII sites were introduced at the 5′ and 3′ ends of the gene during the amplification. Each gene was cloned between the NdeI and HindIII sites of the pET22b(+) expression vector, to generate the plasmids pET22:: aph(2″)-If and pET22:: aph(2″)-Ia , and also into the pBluescript II KS(+) vector, under the control of the promoter for aph(2″)-IIIa as described elsewhere ( 23 ), to generate the plasmids pBluescript:: aph(2″)-If and pBluescript:: aph(2″)-Ia . For protein expression and purification, the recombinant plasmids pET22:: aph(2″)-If and pET22:: aph(2″)-Ia were transformed into Escherichia coli BL21(DE3) cells, and clones were selected on LB agar plates supplemented with 100 μg/ml ampicillin. The pBluescript:: aph(2″)-If and pBluescript:: aph(2″)-Ia plasmids were transformed into E. coli JM83, and clones, selected with 100 μg/ml ampicillin, were used for antibiotic susceptibility testing. 
+
+Antibiotic susceptibility testing. 
+
+The antibiotics used in this study were from the following sources: kanamycin A, gentamicin C, sisomicin, tobramycin, lividomycin A, paromomycin, and neomycin B were from Sigma, St. Louis, MO; amikacin was from US Pharmacopeia, Rockville, MD; isepamicin and netilmicin were from Schering-Plough, Kenilworth, NJ; and arbekacin, dibekacin, and kanamycin B were from Meiji Seika Kaisha, Ltd., Tokyo, Japan. Neamine was a generous gift from S. Mobashery (University of Notre Dame). MICs of various aminoglycoside antibiotics were determined by the broth microdilution method according to the guidelines of the Clinical and Laboratory Standards Institute ( 26 ). The MIC values were determined in Mueller-Hinton II broth (Difco), using E. coli JM83 cells harboring either the pBluescript:: aph(2″)-If or pBluescript:: aph(2″)-Ia plasmid and E. coli JM83 without vector as a control. The optical densities of freshly grown bacterial cultures were measured at 625 nm, and the cultures were diluted to result in a final inoculum of 5 × 10 5 CFU/ml. The MICs were determined in triplicate in 96-well plates containing 100 μl/well of Mueller-Hinton II broth with 2-fold serial dilutions of the antibiotics. The plates were incubated at 37°C for 16 to 20 h before the results were analyzed. 
+
+Expression and purification of APH(2″)-If and -Ia. 
+
+An E. coli BL21(DE3) strain harboring the pET22:: aph-If plasmid was grown in a shaker/incubator at 37°C in LB broth supplemented with 100 μg/ml ampicillin. When the optical density of the bacterial culture reached 0.6 at 600 nm, protein expression was induced with 0.5 mM isopropyl-β- d -thiogalactoside and the culture was grown for an additional 20 h at 22°C. Cells were collected by centrifugation at 5,000 × g at 4°C for 10 min, resuspended in buffer A (25 mM HEPES, pH 7.5), supplemented with 1 mM EDTA and 0.2 mM dithiothreitol (DTT), and disrupted by sonication. The cell lysate was clarified by centrifugation at 20,000 × g at 4°C for 30 min, and the nucleic acids were precipitated from the supernatant using 1.5% (wt/vol) streptomycin sulfate. The centrifugation step was repeated, and the sample was dialyzed against buffer A at 4°C. The sample was centrifuged at 20,000 × g at 4°C for 30 min to remove any precipitate. The supernatant was supplemented with 100 mM NaCl and 1 μg/ml RNase A and loaded onto an Affi-Gel 15-kanamycin A affinity column, which was equilibrated in buffer A supplemented with 100 mM NaCl. Bound proteins were eluted from the affinity resin with a linear NaCl gradient (100 to 800 mM) in buffer A, and fractions were analyzed by 12% SDS-PAGE. Fractions containing APH(2″)-If (peak eluted at ∼520 mM NaCl) were pooled, concentrated, and desalted. The enzyme was purified to homogeneity, as judged by SDS-PAGE. The protein concentration was measured spectrophotometrically using the theoretical extinction coefficient (Δε 280 = 33,000 cm −1 M −1 ) ( 27 ) and the Pierce bicinchoninic acid (BCA) protein assay kit (Thermo Scientific, Rockford, IL). The purified APH-If protein was stored in aliquots either in liquid nitrogen or in 50% glycerol at −20°C. APH(2″)-Ia was expressed and purified as previously described ( 23 ). 
+
+Enzyme kinetics. 
+
+Phosphorylation of aminoglycoside antibiotics by the APH(2″)-If and APH(2″)-Ia enzymes was monitored with a continuous spectrophotometric assay in the presence of a saturating concentration of GTP (100 μM) as a phosphate donor. In this coupled assay system, the amount of GDP released is monitored at 340 nm (Δε 340 = −6,200 cm −1 M −1 ) by coupling it to the oxidation of NADH ( 25 ). Data were collected on a Cary 50 spectrophotometer (Varian) at room temperature. Reactions were initiated by the addition of enzyme [final concentrations of 2.5 to 400 nM for APH(2″)-If and 5 to 240 nM for APH(2″)-Ia] in a 250-μl reaction mixture that contained 100 mM HEPES (pH 7.0), 10 mM MgCl 2 , 20 mM KCl, 2 mM phosphoenolpyruvate, 100 μM NADH, a commercial mixture of pyruvate kinase (PK) and lactate dehydrogenase (LD) (Sigma P0294; 12 to 20 U/ml PK and 18 to 28 U/ml LD final), 100 μM GTP, and various concentrations of aminoglycoside. The steady-state kinetic parameters for GTP and ATP were measured with a saturating concentration of tobramycin (20 μM) using the same reaction conditions and varying nucleotide instead of aminoglycoside. The steady-state velocities were determined from the linear phase of the progress curves of the reactions and plotted as a function of the variable substrate concentration. These data were fit nonlinearly with the Michaelis-Menten equation ( equation 1 ) using Prism 5 (GraphPad Software, Inc.) to calculate the steady-state kinetic parameters K m and k cat . 
+v = V max S K m + S (1) 
+where v is the steady-state velocity, S is the substrate concentration, and V max = k cat [ E ], where [ E ] is the enzyme concentration. 
+
+The inhibitor dissociation constants ( K i ) for lividomycin A and paromomycin from the enzyme/GTP complex were determined by the method of Dixon ( 28 ) using APH(2″)-If at a final concentration 5 nM, the competitive substrate netilmicin at two fixed concentrations (20 and 40 μM), GTP at a saturating concentration (100 μM), and the inhibitor at various concentrations (lividomycin A at 0 to 60 μM and paromomycin at 0 to 100 μM) in the same reaction mixture described above. The K i values for neomycin B and neamine from the enzyme/GTP complex were calculated from data obtained at a single fixed concentration of substrate (netilmicin, 40 μM) and various concentrations of the inhibitor (0 to 20 μM neomycin B and 0 to 2 μM neamine), but were fit using Prism 5 with equation 2 due to the high affinity of the inhibitors ( 29 ): 
+v i v o = 1 − E + I + K i ( 1 + S K m ) − ( E + I + K i ( 1 + S K m ) ) 2 − 4 E I 2 E (2) 
+where v 0 and v i are the steady-state velocities in the absence and presence of inhibitor, respectively, E is the enzyme concentration, I is the inhibitor concentration, K i is the inhibitor dissociation constant, S is the substrate concentration, and K m is the Michaelis constant for the substrate. 
+
+The inhibitor dissociation constants were also determined for APH(2″)-Ia using the same procedure as APH(2″)-If with the following modifications. The enzyme was used at a final concentration of 20 nM, the competitive substrate was sisomicin at concentrations of 10 and/or 20 μM, and the inhibitors were used at concentrations of 0 to 2,000 μM (lividomycin A and paromomycin), 0 to 100 μM (neomycin B), or 0 to 5 μM (neamine). 
+
+RESULTS AND DISCUSSION 
+
+Aminoglycoside kinases phosphorylate the hydroxyl groups of aminoglycoside antibiotics, rendering them inactive. Four clinically important APH(2″) enzymes are widely distributed among Gram-positive enterococcal and staphylococcal isolates ( 21 ). Members of this enzyme family, APH(2″)-Ia, -IIa, -IIIa, and -IVa are bisubstrate enzymes that phosphorylate aminoglycoside antibiotics using GTP and/or ATP as the phosphate donor ( 23 ). The recently determined X-ray crystal structures of three of these enzymes, APH(2″)-IIa, -IIIa, and -IVa, have shed light on substrate recognition and NTP selectivity by these aminoglycoside kinases ( 24 , 30 , 31 ). In our quest for novel APH(2″) phosphotransferases, we analyzed the amino acid sequences of enzymes deposited in the database of the National Center for Biotechnology Information. As the result of these efforts, a putative APH(2″), sharing 78% amino acid sequence identity with the APH(2″)-Ia domain of the bifunctional AAC(6′)-Ie/APH(2″)-Ia enzyme, was identified ( Fig. 2 ). Based on the high sequence similarity to APH(2″)-Ia, we named this enzyme APH(2″)-If. We chose the classification “-If” to avoid confusion with the previous employed -Ib, -Ic, -Id, and -Ie designations of the old nomenclature, although these are no longer used. Unlike all previously described APH(2″) enzymes, which have been identified exclusively in Gram-positive pathogens, APH(2″)-If was identified on a multidrug-resistant conjugative plasmid from a Gram-negative clinical isolate of C. jejuni ( 32 ). The GC content of this gene (23%) is almost identical to that of the gene for the APH(2″)-Ia domain (24%) but lower than the GC content of C. jejuni genomes (30 to 31%), an indication that the gene for APH(2″)-If was acquired by C. jejuni from an unknown bacterial source. Furthermore, while APH(2″)-Ia occurs in nature as part of the bifunctional AAC(6′)-Ie/APH(2″)-Ia enzyme, APH(2″)-If is a monofunctional aminoglycoside kinase. 
+
+Fig 2. 
+
+Open in a new tab 
+
+Amino acid sequence alignment of APH(2″)-Ia and -If. APH(2″)-Ia was truncated from the AAC(6′)-Ie/APH(2″)-Ia bifunctional enzyme starting at Met175 of the native sequence. APH(2″)-If was found in Campylobacter jejuni plasmid pCG8245. Tyr100 of APH(2″)-Ia and Tyr87 of APH(2″)-If are highlighted in black. The alignment was prepared using ClustalW version 2 ( 37 ), where asterisks indicate identical amino acids, double dots indicate strongly similar residues, and single dots indicate weakly similar residues. 
+
+To establish whether APH(2″)-If is a functional phosphotransferase, the aph-If gene was cloned into the pBluescript II KS(+) vector under the control of the promoter for aph(2″)-IIIa and used for MIC testing side by side with an identical construct expressing the APH(2″)-Ia domain of the bifunctional AAC(6′)-Ie/APH(2″)-Ia enzyme. There were no significant differences in the levels and spectrum of antibiotic resistance produced by the APH(2″)-If and -Ia enzymes ( Table 1 ). Both enzymes significantly elevated the MICs of the 4,6-disubstituted aminoglycosides kanamycin A, kanamycin B, tobramycin, dibekacin, gentamicin C, and sisomicin (32- to 128-fold), but they were much less efficient in conferring resistance to the semisynthetic 4,6-disubstituted aminoglycosides netilmicin, arbekacin, amikacin, and isepamicin. These semisynthetic antibiotics have substituents at the N1 position of the 2-deoxystreptamine ring, implying the importance of this position for the antibacterial potency of 4,6-disubstituted aminoglycosides in the presence of APH(2″)-Ia and APH(2″)-If enzymes. The MICs for netilmicin, a sisomicin derivative with a small ethyl group at position N1 of the 2-deoxystreptamine ring, increased only 4- to 8-fold in the presence of these enzymes. When the size of the side chain at N1 increased beyond ethyl, such as the ( S )-3-amino-2-hydroxypropionyl in isepamicin and ( S )-4-amino-2-hydroxybutyryl moieties in arbekacin or amikacin, the expression of APH(2″)-Ia or APH(2″)-If in E. coli JM83 conferred no resistance (MIC values within 2-fold of the control) ( 33 ). Finally, the MICs for 4,5-disubstituted (neomycin B, lividomycin A, and paromomycin) and atypical (neamine) aminoglycosides tested were increased at most 2-fold. 
+
+Table 1. 
+
+MICs of aminoglycoside antibiotics for E. coli JM83 expressing the APH(2″)-Ia or APH(2″)-If enzyme 
+
+Aminoglycoside MIC (μg/ml) E. coli JM83 expressing: E. coli JM83 control APH(2″)-Ia APH(2″)-If Kanamycin A 512 256 4 Kanamycin B 32 32 1 Tobramycin 32 32 0.5 Dibekacin 32 32 0.5 Arbekacin 0.5 0.5 0.25 Amikacin 4 2 2 Isepamicin 1 1 1 Gentamicin C 32 32 0.25 Sisomicin 16 16 0.25 Netilmicin 2 1 0.25 Neomycin 1 1 0.5 Paromomycin 4 4 4 Lividomycin A 8 4 4 Neamine 16 16 8 
+
+Open in a new tab 
+
+As we have recently reported, two of the four APH(2″) phosphotransferases, APH(2″)-IIa and -IVa, can utilize both ATP and GTP as a phosphate source, while two other enzymes, APH(2″)-Ia and -IIIa, prefer GTP as a cofactor ( 23 ). The nucleotide specificity of the enzymes stems from the existence of structural templates for recognition of both ATP and GTP in the active sites of these APH(2″) enzymes ( 30 ). For APH(2″)-IIIa, it was shown that access to the ATP-binding template is blocked by a bulky tyrosine residue, so the enzyme preferentially uses GTP as a cofactor ( 30 ). Although at present no structural information is available for either APH(2″)-Ia or -If, alignment of their amino acid sequences with that of APH(2″)-IIIa (data not shown) reveals that they also possess a tyrosine residue within the predicted nucleotide binding pocket [Tyr100 in APH(2″)-Ia and Tyr87 in APH(2″)-If] ( Fig. 2 ). To determine whether the monofunctional APH(2″)-If also prefers GTP during phosphate transfer, we evaluated the K m values of GTP and ATP for both APH(2″)-Ia and -If in the presence of tobramycin at a saturating concentration ( Table 2 ). APH(2″)-If shows an increase in relative affinity of greater than 2,000-fold for GTP over ATP, an even stronger preference than was observed with APH(2″)-Ia (∼600-fold increase). This preference for GTP is also observed with the bifunctional AAC(6′)-Ie/APH(2″)-Ia (∼1,000-fold increase) ( 34 ), and thus the nucleotide selectivity is not influenced by the AAC(6′)-Ie domain. The conservation of tyrosine in the nucleotide binding pocket of both APH(2″)-Ia and -If and their preference for GTP are consistent with our hypothesis that this bulky amino acid residue blocks access to the ATP binding template. 
+
+Table 2. 
+
+Substrate profiles for phosphotransferase activity of APH(2″)-Ia and APH(2″)-If 
+
+Substrate a APH(2″)-Ia APH(2″)-If k cat (s −1 ) K m (μM) k cat / K m (M −1 s −1 ) k cat (s −1 ) K m (μM) k cat / K m (M −1 s −1 ) Kanamycin A 0.63 ± 0.03 <0.5 >1.3 × 10 6 1.7 ± 0.1 1.1 ± 0.2 (1.5 ± 0.3) × 10 6 Kanamycin B 0.16 ± 0.01 1.1 ± 0.1 (1.5 ± 0.1) × 10 5 0.38 ± 0.01 0.55 ± 0.05 (6.9 ± 0.7) × 10 5 Tobramycin 0.24 ± 0.01 1.2 ± 0.2 (2.0 ± 0.3) × 10 5 0.48 ± 0.02 <1 > 4.8 × 10 5 Dibekacin 0.30 ± 0.01 1.0 ± 0.1 (3.0 ± 0.3) × 10 5 0.79 ± 0.01 1.2 ± 0.1 (6.6 ± 0.5) × 10 5 Arbekacin 2.1 ± 0.1 2.7 ± 0.3 (7.8 ± 0.9) × 10 5 4.3 ± 0.1 6.2 ± 0.5 (6.9 ± 0.6) × 10 5 Amikacin 4.0 ± 0.2 49 ± 4 (8.2 ± 0.8) × 10 4 6.5 ± 0.2 260 ± 20 (2.5 ± 0.2) × 10 4 Isepamicin 0.57 ± 0.02 210 ± 30 (2.7 ± 0.4) × 10 3 0.25 ± 0.01 560 ± 60 (4.5 ± 0.5) × 10 2 Gentamicin C 3.5 ± 0.2 1.2 ± 0.2 (2.9 ± 0.6) × 10 6 8.3 ± 0.3 0.7 ± 0.2 (1.2 ± 0.3) × 10 7 Sisomicin 7.6 ± 0.2 1.5 ± 0.3 (5 ± 1) × 10 6 17 ± 1 1.6 ± 0.3 (1.1 ± 0.2) × 10 7 Netilmicin 8.2 ± 0.4 3.0 ± 0.4 (2.7 ± 0.4) × 10 6 18 ± 1 10 ± 1 (1.7 ± 0.2) × 10 6 ATP 0.25 ± 0.01 1100 ± 100 (2.3 ± 0.2) × 10 2 0.38 ± 0.05 2000 ± 400 (1.9 ± 0.5) × 10 2 GTP 0.24 ± 0.01 1.9 ± 0.1 (1.3 ± 0.1) × 10 5 0.40 ± 0.01 0.80 ± 0.06 (5.1 ± 0.4) × 10 5 
+
+Open in a new tab 
+
+a 
+Steady-state kinetic parameters for aminoglycosides were measured at 100 μM GTP; for nucleotides, they were measured at 20 μM tobramycin. 
+
+Next, we evaluated the GTP-dependent substrate profile of the APH(2″)-If and APH(2″)-Ia enzymes. Both produce very similar substrate profiles, with only minor differences in the steady-state kinetic parameters. In the presence of a saturating concentration of GTP, both enzymes phosphorylate the majority of 4,6-disubstituted aminoglycosides studied, with catalytic efficiencies ( k cat / K m ) ranging from 10 5 to 10 7 M −1 s −1 ( Table 2 ). The catalytic efficiencies of the APH(2″)-Ia domain previous evaluated using ATP as the cosubstrate are lower than or comparable to those obtained with GTP, which is consistent with its preference for GTP as the phosphate donor ( 35 ). These high catalytic efficiencies result mostly from the high relative affinities (low K m values) of the antibiotics for the enzyme/GTP complex. The only two exceptions, amikacin and isepamicin, whose catalytic efficiencies are in the 10 2 to 10 4 M −1 s −1 range, have much lower apparent affinities (higher K m values) for the enzymes ( Table 2 ), which results in the inability of the enzymes to confer resistance to these antibiotics ( Table 1 ). It is of interest that both enzymes have good catalytic efficiency against the 4,6-disubstituted aminoglycoside arbekacin, but were only able to increase the MIC of this antibiotic a mere 2-fold, a strong indication that phosphorylated arbekacin retains significant antimicrobial activity. 
+
+With 4,5-disubstituted (neomycin B, paromomycin, and lividomycin A) and atypical (neamine) aminoglycosides, very low rates of phosphate transfer from GTP were observed. These rates were unchanged even when the reactions were monitored long enough to observe nonstoichiometric phosphorylation (greater than 3-fold excess of the aminoglycoside concentration). This indicates that either multiple sites on the antibiotic are phosphorylated or phosphate is actually transferred to water, instead of the antibiotic, as has been observed with the APH(3′)-Ia kinase ( 36 ). The activity of the APH(2″)-Ia domain in the presence of ATP with 4,5-disubstituted and atypical aminoglycosides was also reported, but the catalytic efficiencies are low, and it is not known whether phosphate transfer was stoichiometric ( 35 ). Regardless, the 4,5-disubstituted and atypical aminoglycosides are at most very poor substrates for the APH(2″)-If and APH(2″)-Ia phosphotransferases, and this finding is consistent with the MIC data, which show no resistance to these antibiotics ( Table 1 ). These data are also in good agreement with the substrate profiles of three other APH(2″) enzymes, none of which showed the ability to efficiently phosphorylate 4,5-disubstituted or atypical aminoglycosides ( 22 , 24 , 25 ). Next, we tested neomycin B, paromomycin, lividomycin A, and neamine as inhibitors, and overall, 4,5-disubstituted aminoglycosides are better inhibitors of APH(2″)-If than the APH(2″)-Ia domain of the bifunctional enzyme ( Table 3 ). Of the three 4,5-disubstituted antibiotics tested, neomycin B is the most potent inhibitor, with K i values of 0.7 and 3.3 μM for APH(2″)-If and -Ia, respectively. The atypical aminoglycoside neamine lacks a 2″-hydroxyl and is a very efficient inhibitor of both enzymes ( Table 3 ). 
+
+Table 3. 
+
+Inhibitor dissociation constants ( K i ) of 4,5-disubstituted aminoglycosides and neamine from the enzyme/GTP complex 
+
+Aminoglycoside K i (μM) APH(2″)-Ia APH(2″)-If Lividomycin A 83 ± 6 12 ± 1 Paromomycin 82 ± 4 8.5 ± 0.5 Neomycin B 3.3 ± 0.5 0.73 ± 0.07 Neamine 0.22 ± 0.02 0.16 ± 0.02 
+
+Open in a new tab 
+
+In conclusion, APH(2″)-If is the monofunctional counterpart to the APH(2″)-Ia domain of the bifunctional enzyme AAC(6′)-Ie/APH(2″)-Ia. The APH(2″)-If and -Ia kinases produce very similar antibiotic, substrate, and inhibitor profiles. Although found in a Gram-negative pathogen, C. jejuni , the GC content of the gene for APH(2″)-If indicates that the enzyme was acquired from another organism. Although reported 7 years ago, it is encouraging that the discovery in C. jejuni of the gene for APH(2″)-If, a monofunctional aminoglycoside kinase, remains the only example of this enzyme in bacterial pathogens. 
+
+ACKNOWLEDGMENT 
+
+This work was supported by grant R01AI075393 from the National Institutes of Health. 
+
+Footnotes 
+
+Published ahead of print 5 November 2012 
+
+REFERENCES 
+
+1. Wright GD, Berghuis AM, Mobashery S.
+1998. 
+Aminoglycoside antibiotics. Structures, functions, and resistance. Adv. Exp. Med. Biol.
+456:27–69 [ PubMed ] [ Google Scholar ] 
+
+2. Mehta R, Champney WS.
+2002. 
+30S ribosomal subunit assembly is a target for inhibition by aminoglycosides in Escherichia coli. Antimicrob. Agents Chemother.
+46:1546–1549 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Moazed D, Noller HF.
+1987. 
+Interaction of antibiotics with functional sites in 16S ribosomal RNA. Nature
+327:389–394 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+4. Ogle JM, Brodersen DE, Clemons WM, Jr, Tarry MJ, Carter AP, Ramakrishnan V.
+2001. 
+Recognition of cognate transfer RNA by the 30S ribosomal subunit. Science
+292:897–902 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+5. Vakulenko SB, Mobashery S.
+2003. 
+Versatility of aminoglycosides and prospects for their future. Clin. Microbiol. Rev.
+16:430–450 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Drusano GL, Ambrose PG, Bhavnani SM, Bertino JS, Nafziger AN, Louie A.
+2007. 
+Back to the future: using aminoglycosides again and how to dose them optimally. Clin. Infect. Dis.
+45:753–760 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Durante-Mangoni E, Grammatikos A, Utili R, Falagas ME.
+2009. 
+Do we still need the aminoglycosides?
+Int. J. Antimicrob. Agents
+33:201–205 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+8. Avent ML, Rogers BA, Cheng AC, Paterson DL.
+2011. 
+Current use of aminoglycosides: indications, pharmacokinetics and monitoring for toxicity. Intern. Med. J.
+41:441–449 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+9. Bryan LE, Kowand SK, van den Elzen HM.
+1979. 
+Mechanism of aminoglycoside antibiotic resistance in anaerobic bacteria: Clostridium perfringens and Bacteroides fragilis. Antimicrob. Agents Chemother.
+15:7–13 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+10. Moellering RC., Jr
+1991. 
+The Garrod Lecture. The enterococcus: a classic example of the impact of antimicrobial resistance on therapeutic options. J. Antimicrob. Chemother.
+28:1–12 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+11. Aires JR, Kohler T, Nikaido H, Plesiat P.
+1999. 
+Involvement of an active efflux system in the natural resistance of Pseudomonas aeruginosa to aminoglycosides. Antimicrob. Agents Chemother.
+43:2624–2628 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Magnet S, Courvalin P, Lambert T.
+2001. 
+Resistance-nodulation-cell division-type efflux pump involved in aminoglycoside resistance in Acinetobacter baumannii strain BM4454. Antimicrob. Agents Chemother.
+45:3375–3380 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Moore RA, DeShazer D, Reckseidler S, Weissman A, Woods DE.
+1999. 
+Efflux-mediated aminoglycoside and macrolide resistance in Burkholderia pseudomallei. Antimicrob. Agents Chemother.
+43:465–470 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+14. Eliopoulos GM, Farber BF, Murray BE, Wennersten C, Moellering RC., Jr
+1984. 
+Ribosomal resistance of clinical enterococcal isolates to streptomycin. Antimicrob. Agents Chemother.
+25:398–399 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Lacey RW, Chopra I.
+1972. 
+Evidence for mutation to streptomycin resistance in clinical strains of Staphylococcus aureus. J. Gen. Microbiol.
+73:175–180 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+16. Maness MJ, Foster GC, Sparling PF.
+1974. 
+Ribosomal resistance to streptomycin and spectinomycin in Neisseria gonorrhoeae. J. Bacteriol.
+120:1293–1299 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+17. Beauclerk AA, Cundliffe E.
+1987. 
+Sites of action of two ribosomal RNA methylases responsible for resistance to aminoglycosides. J. Mol. Biol.
+193:661–671 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+18. Courvalin P.
+2008. 
+New plasmid-mediated resistances to antimicrobial agents. Arch. Microbiol.
+189:289–291 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+19. Doi Y, Arakawa Y.
+2007. 
+16S ribosomal RNA methylation: emerging resistance mechanism against aminoglycosides. Clin. Infect. Dis.
+45:88–94 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+20. Ramirez MS, Tolmasky ME.
+2010. 
+Aminoglycoside modifying enzymes. Drug Resist Updat.
+13:151–171 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+21. Chow JW.
+2000. 
+Aminoglycoside resistance in enterococci. Clin. Infect. Dis.
+31:586–589 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+22. Badarau A, Shi Q, Chow JW, Zajicek J, Mobashery S, Vakulenko S.
+2008. 
+Aminoglycoside 2″-phosphotransferase type IIIa from Enterococcus. J. Biol. Chem.
+283:7638–7647 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+23. Toth M, Chow JW, Mobashery S, Vakulenko SB.
+2009. 
+Source of phosphate in the enzymic reaction as a point of distinction among aminoglycoside 2″-phosphotransferases. J. Biol. Chem.
+284:6690–6696 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+24. Toth M, Frase H, Antunes NT, Smith CA, Vakulenko SB.
+2010. 
+Crystal structure and kinetic mechanism of aminoglycoside phosphotransferase-2″-IVa. Protein Sci.
+19:1565–1576 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Toth M, Zajicek J, Kim C, Chow JW, Smith C, Mobashery S, Vakulenko S.
+2007. 
+Kinetic mechanism of enterococcal aminoglycoside phosphotransferase 2″-Ib. Biochemistry
+46:5570–5578 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+26. Clinical and Laboratory Standards Institute
+2009. 
+Methods for dilution antimicrobial susceptibility tests for bacteria that grow aerobically: approved standard, 8th ed
+Clinical and Laboratory Standards Institute, Wayne, PA [ Google Scholar ] 
+
+27. Gasteiger E, Gattiker A, Hoogland C, Ivanyi I, Appel RD, Bairoch A.
+2003. 
+ExPASy: the proteomics server for in-depth protein knowledge and analysis. Nucleic Acids Res.
+31:3784–3788 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Dixon M.
+1953. 
+The determination of enzyme inhibitor constants. Biochem. J.
+55:170–171 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+29. Copeland RA.
+2000. 
+Enzymes: a practical introduction to structure, mechanism, and data analysis, 2nd ed
+J. Wiley, New York, NY [ Google Scholar ] 
+
+30. Smith CA, Toth M, Frase H, Byrnes LJ, Vakulenko SB.
+2012. 
+Aminoglycoside 2″-phosphotransferase IIIa (APH(2″)-IIIa) prefers GTP over ATP: structural templates for nucleotide recognition in the bacterial aminoglycoside-2″ kinases. J. Biol. Chem.
+287:12893–12903 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+31. Young PG, Walanj R, Lakshmi V, Byrnes LJ, Metcalf P, Baker EN, Vakulenko SB, Smith CA.
+2009. 
+The crystal structures of substrate and nucleotide complexes of Enterococcus faecium aminoglycoside-2″-phosphotransferase-IIa [APH(2″)-IIa] provide insights into substrate selectivity in the APH(2″) subfamily. J. Bacteriol.
+191:4133–4143 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+32. Nirdnoy W, Mason CJ, Guerry P.
+2005. 
+Mosaic structure of a multiple-drug-resistant, conjugative plasmid from Campylobacter jejuni. Antimicrob. Agents Chemother.
+49:2454–2459 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+33. Kondo S, Hotta K.
+1999. 
+Semisynthetic aminoglycoside antibiotics: development and enzymatic modifications. J. Infect. Chemother.
+5:1–9 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+34. Martel A, Masson M, Moreau N, Le Goffic F.
+1983. 
+Kinetic studies of aminoglycoside acetyltransferase and phosphotransferase from Staphylococcus aureus RPAL. Relationship between the two activities. Eur. J. Biochem.
+133:515–521 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+35. Daigle DM, Hughes DW, Wright GD.
+1999. 
+Prodigious substrate specificity of AAC(6′)-APH(2″), an aminoglycoside antibiotic resistance determinant in enterococci and staphylococci. Chem. Biol.
+6:99–110 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+36. Kim C, Cha JY, Yan H, Vakulenko SB, Mobashery S.
+2006. 
+Hydrolysis of ATP by aminoglycoside 3′-phosphotransferases: an unexpected cost to bacteria for harboring an antibiotic resistance enzyme. J. Biol. Chem.
+281:6964–6969 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+37. Larkin MA, Blackshields G, Brown NP, Chenna R, McGettigan PA, McWilliam H, Valentin F, Wallace IM, Wilm A, Lopez R, Thompson JD, Gibson TJ, Higgins DG.
+2007. 
+Clustal W and Clustal X version 2.0. Bioinformatics
+23:2947–2948 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (408.7 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

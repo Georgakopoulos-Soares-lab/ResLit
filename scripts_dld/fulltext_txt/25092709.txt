@@ -1,0 +1,591 @@
+PMID: 25092709
+PMCID: PMC4187952
+DOI: 10.1128/AAC.02949-14
+Title: The novel macrolide-Lincosamide-Streptogramin B resistance gene erm(44) is associated with a prophage in Staphylococcus xylosus.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2014 Oct
+Authors: Wipf JR, Schwendener S, Perreten V
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+The Novel Macrolide-Lincosamide-Streptogramin B Resistance Gene erm(44) Is Associated with a Prophage in Staphylococcus xylosus - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2014 Oct;58(10):6133–6138. doi: 10.1128/AAC.02949-14 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+The Novel Macrolide-Lincosamide-Streptogramin B Resistance Gene erm (44) Is Associated with a Prophage in Staphylococcus xylosus 
+
+Juliette R K Wipf 
+
+Juliette R K Wipf 
+
+1 Institute of Veterinary Bacteriology, Vetsuisse Faculty, University of Bern, Bern, Switzerland 
+
+Find articles by Juliette R K Wipf 
+
+1 , Sybille Schwendener 
+
+Sybille Schwendener 
+
+1 Institute of Veterinary Bacteriology, Vetsuisse Faculty, University of Bern, Bern, Switzerland 
+
+Find articles by Sybille Schwendener 
+
+1 , Vincent Perreten 
+
+Vincent Perreten 
+
+1 Institute of Veterinary Bacteriology, Vetsuisse Faculty, University of Bern, Bern, Switzerland 
+
+Find articles by Vincent Perreten 
+
+1, ✉ 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+1 Institute of Veterinary Bacteriology, Vetsuisse Faculty, University of Bern, Bern, Switzerland 
+
+✉ 
+Address correspondence to Vincent Perreten, vincent.perreten@vetsuisse.unibe.ch . 
+
+✉ 
+Corresponding author. 
+
+Received 2014 Apr 2; Revision requested 2014 Apr 26; Accepted 2014 Jul 31. 
+
+Copyright © 2014, American Society for Microbiology. All Rights Reserved. 
+
+PMC Copyright notice 
+
+PMCID: PMC4187952  PMID: 25092709 
+
+Abstract 
+
+A novel erythromycin ribosome methylase gene, erm (44), that confers resistance to macrolide, lincosamide, and streptogramin B (MLS B ) antibiotics was identified by whole-genome sequencing of the chromosome of Staphylococcus xylosus isolated from bovine mastitis milk. The erm (44) gene is preceded by a regulatory sequence that encodes two leader peptides responsible for the inducible expression of the methylase gene, as demonstrated by cloning in Staphylococcus aureus . The erm (44) gene is located on a 53-kb putative prophage designated ΦJW4341-pro. The 56 predicted open reading frames of ΦJW4341-pro are structurally organized into the five functional modules found in members of the family Siphoviridae . ΦJW4341-pro is site-specifically integrated into the S. xylosus chromosome, where it is flanked by two perfect 19-bp direct repeats, and exhibits the ability to circularize. The presence of erm (44) in three additional S. xylosus strains suggests that this putative prophage has the potential to disseminate MLS B resistance. 
+
+INTRODUCTION 
+
+Staphylococcus xylosus is a ubiquitous bacterium and a commensal of human and animal skin ( 1 ). It is also used in the fermentation and production of cheeses and raw meat products ( 2 , 3 ). Although rarely associated with human infections ( 4 – 6 ), S. xylosus plays a major role in the pathogenesis of subclinical bovine mastitis, in which it is in frequent contact with intramammary antibiotics used for mastitis treatment, such as macrolides and lincosamides ( 7 – 10 ). Simultaneous resistance to both of these drugs is due mainly to the acquisition of erythromycin ribosome methylase ( erm ) genes ( 11 ). Erm methylases are enzymes that add one or two methyl groups to adenine A2058 of the 23S rRNA, preventing the binding of macrolide, lincosamide, and streptogramin B (MLS B ) antibiotics. To date, 35 Erm methylases have been identified in bacterial species ( 12 , 13 ), 10 of which [Erm(A), Erm(B), Erm(C), Erm(F), Erm(G), Erm(Q), Erm(T), Erm(Y), Erm(33), and Erm(43)] have been detected on plasmids, transposons, or integrated elements in different Staphylococcus species ( 12 , 14 , 15 ). 
+
+Staphylococci can also acquire new genes by temperate-bacteriophage-mediated gene transfer ( 16 , 17 ). The vast majority of staphylococcal bacteriophages belong to Siphoviridae , a family of the double-stranded DNA virus order Caudovirales ( 18 ). Members of the family Siphoviridae display a distinct genomic structure that corresponds to five functional modules, which are lysogeny, DNA replication, DNA packaging and capsid morphogenesis, tail morphogenesis, and host cell lysis ( 18 , 19 ). In addition, they possess accessory genes, generally situated downstream of the lysis module. Those genes can be expressed by the bacteria following lysogenic conversion, providing novel phenotypes to the host, like virulence in staphylococci (e.g., Panton-Valentine leukocidin, superantigens, toxic shock syndrome toxins) ( 18 , 20 ). 
+
+S. xylosus strain JW4341, isolated from bovine mastitis milk in Switzerland, was found to exhibit resistance to erythromycin, together with inducible resistance to clindamycin, suggesting the presence of an MLS B Erm methylase ( 10 ). However, the mechanism could not be attributed to a known methylase. In this study, we identified and characterized the novel MLS B resistance gene erm (44) carried by ΦJW4341-pro, a 52,814-bp putative prophage in S. xylosus . 
+
+MATERIALS AND METHODS 
+
+Bacterial strains, species identification, and growth conditions. 
+
+S. xylosus strains were isolated from bovine milk samples in Switzerland as described previously ( 10 ). The strains were grown aerobically on Trypticase soy agar plates containing 5% sheep blood (Becton, Dickinson & Company, Franklin Lakes, NJ) at 37°C. Identification at the species level was determined by matrix-assisted laser desorption ionization–time of flight mass spectrometry (Microflex LT; Bruker Daltonics GmbH, Bremen, Germany). 
+
+Staphylococcus aureus strains RN4220 ( 21 ) and 80CR5 ( 22 ) were grown in brain heart infusion (BHI) medium, and Escherichia coli DH5α was grown in Luria broth. 
+
+Antimicrobial susceptibility testing. 
+
+D-zone testing was used to screen for constitutive macrolide resistance and inducible clindamycin resistance ( 23 ). MICs of erythromycin, clindamycin (Sigma-Aldrich, St. Louis, MO), and pristinamycin IA (Molcan Corporation, Richmond Hill, Ontario, Canada) for S. xylosus and S. aureus strains were determined by broth microdilution with Mueller-Hinton broth ( 23 ). MICs for inducible resistance to clindamycin and pristinamycin IA were measured in the presence of 2 μg/ml erythromycin ( 23 ). 
+
+Antibiotic resistance genes were detected with a custom-made microarray (AMR+ve-4 array tubes; Alere GmbH, Jena, Germany) ( 24 ). 
+
+DNA extraction. 
+
+Crude genomic DNA of staphylococci for PCR and microarray analyses was obtained by lysostaphin lysis ( 10 ). The genomic DNA used for next-generation sequencing and for long-range PCR experiments was isolated by acid guanidinium thiocyanate phenol-chloroform extraction ( 25 ). 
+
+Plasmid DNA of the S. xylosus strains was extracted by the protocol of Anderson and McKay ( 26 ). Plasmid DNA of the cloning vectors and derived constructs was obtained with PeqGold Plasmid miniprep kit 1 (Peqlab, Erlangen, Germany) by following the manufacturer's instructions. 
+
+PCR, sequencing, and annotation. 
+
+Taq DNA polymerase (Solis BioDyne, Tartu, Estonia) was used for standard PCRs. Promega GoTaq Long PCR master mix (Promega Corporation, Madison, WI) was used to obtain amplicons of up to 20 kb. The reaction mixtures were cycled 35 times for amplification by using the primers and conditions indicated below. 
+
+Primers erm(44)-F (5′-TACAAAATACATGTCCAATATAGC) and erm(44)-R (5′-GAGATTAAAGATTTGTGCTGC) were used to amplify a 420-bp fragment of erm (44) at an annealing temperature of 55°C and an extension time of 50 s. The flanking region and attachment site of erm (44)-containing inserts were amplified and sequenced with primers IC11-F9 (5′-AGGTAGAGGTTCAACAATCC) and IC11-R1 (5′-CACTGCTCTTATCTCCTTGC) to detect attL (annealing temperature, 50°C; extension time, 30 s) and with primers ClpP-R (5′-CGTGAGTAAATGTCATAGG) and erm(44)-F to detect attR (annealing temperature, 50°C; extension time 20 min). Circular forms were detected with primers IC11-F10 (5′-AATAGG[A/T]GGGTTGTTTTGTC) and IC11-R1 (annealing temperature, 50°C; extension time, 40 s). Primers IC11-F9 and ClpP-R (annealing temperature, 50°C; extension time, 2 min) were used to detect attB in erm (44)-negative strains. 
+
+Sequence analysis of the PCR products was performed with an ABI Prism 3100 genetic analyzer (Applied Biosystems, Foster City, CA). Whole-genome sequencing of S. xylosus JW4341 was performed at the UZH/ETH Functional Genomics Center (Zurich, Switzerland) by Life Technologies Ion Torrent semiconductor sequencing with a 400-bp library on a 314v2 chip. 
+
+Genomic sequence analysis to detect open reading frames (ORFs) was performed with the Prokaryotic Dynamic Programming Genefinding Algorithm (Prodigal) ( 27 ). Deduced amino acid sequences of predicted ORFs were compared to protein sequences and conserved domains in the BLASTp program ( http://blast.ncbi.nlm.nih.gov/Blast.cgi ) and the Swiss Institute of Bioinformatics PROSITE database ( http://prosite.expasy.org/ ). 
+
+Cloning of erm (44). 
+
+A 1,134-bp fragment containing erm (44), along with a 292-bp upstream region and a 110-bp downstream region, was amplified from S. xylosus JW4341 DNA by PCR with Pfu DNA polymerase (Promega Corporation) and primers erm(44)sal1-F (5′- CAT GTCGAC TATCCATATTCTAATGTTTTAGATTAG) and erm(44)sac1-R (5′- CAT GAGCTC AATCACAAGTGTATTTTAACAC) (annealing temperature, 53°C; extension time, 2 min). The fragment was cloned into the SalI and SacI sites of E. coli - S. aureus shuttle vector pBUS1 ( 28 ), generating plasmid pBJW5. The 732-bp erm (44) gene was amplified with primers erm(44)cap-F (5′- CATA CAT ATG AATAACAAAAATCCTAAAAACTC) and erm(44)cap-R (5′- CATA GTCGAC TAGTC AATTAAACAATTTATAACTATG) (annealing temperature, 50°C; extension time, 1 min) and cloned into the NdeI and SalI sites of pBUS1-P cap to generate plasmid pBJW13. In this vector, erm (44) is under the control of the S. aureus type 1 capsule polysaccharide biosynthesis gene cluster ( cap ) promoter ( 29 ). The primers were supplemented with linkers (boldface letters) containing a restriction site (underlined) to facilitate vector cloning. Plasmids pBJW5 and pBJW13 were obtained in E. coli DH5α and subsequently electroporated into S. aureus RN4220 with 10 μg/ml tetracycline in the selection plates ( 30 ). 
+
+Transfer experiments. 
+
+Conjugation was carried out by filter mating with S. xylosus JW4341 as the donor strain and S. aureus 80CR5 as the recipient strain ( 31 ). Selection occurred on BHI agar containing 100 μg/ml rifampin; 25 μg/ml fusidic acid; and 2, 4, or 8 μg/ml erythromycin. Electrotransformation of S. aureus RN4220 with the plasmid DNA of JW4341 was performed as previously described with 2, 4, and 8 μg/ml erythromycin in the selective plates ( 30 ). 
+
+Nucleotide sequence accession numbers. 
+
+The sequences of erm (44)-containing prophage ΦJW4341-pro and its insertion region in S. xylosus JW4341 and erm (44) in S. xylosus JW3659 have been deposited in the EMBL database under accession numbers HG796218 and LK392593 , respectively. 
+
+RESULTS AND DISCUSSION 
+
+Detection and characterization of erm (44). 
+
+To detect the unknown macrolide resistance gene of S. xylosus JW4341, whole-genome sequencing was performed. De novo assembly generated 53 contigs obtained from a total of 160.9 Mbp in 582,303 reads, with a mean read length of 276 bp. The nucleotide sequences of the 53 contigs were compared to erm (A) (GenBank accession no. X03216 ) with BLASTn megablast for the alignment of several discontinuous sequences. An ORF of 732 bp was identified that displayed 67% nucleotide and 60% amino acid identity to Erm(A). Alignment of this putative methylase with all known Erm proteins revealed the highest identity to Erm(43) of Staphylococcus lentus ( 12 ), with 73% amino acid and 78% nucleotide identity. This new methylase gene was named erm (44) according to the nomenclature for MLS B resistance genes ( http://faculty.washington.edu/marilynr/ ) ( 32 ). The relatedness of Erm(44) with other described Erm proteins of Staphylococcus is presented in Fig. 1 . 
+
+FIG 1. 
+
+Open in a new tab 
+
+Relatedness of erythromycin resistance methylases (Erm proteins) of different Staphylococcus species. Amino acid and nucleotide sequence identity percentages were obtained by sequence alignment with ClustalW ( http://www.ebi.ac.uk/Tools/msa/clustalw2/ ). The sequences chosen for comparison are from the species for which the Erm protein was initially described. Clustering of Erm amino acid sequences was performed by BioNumerics 7.1 (Applied Maths). The comparison settings were standard algorithm for pairwise alignment, an open gap penalty of 100%, a unit gap penalty of 0%, and the unweighted-pair group method using average linkages. Methylase genes that were detected in Staphylococcus only by PCR and/or hybridization and for which sequences are not available [e.g., erm (F), erm (G), erm (Q)] were not included ( http://faculty.washington.edu/marilynr/ ). 
+
+The new erm (44) gene encodes a 243-amino-acid (aa) protein. This protein contains an rRNA adenine dimethylase signature with the PROSITE pattern PS01131, which can be found in almost all described Erm methylases ( 12 ). Erm(44) is preceded by two small ORFs encoding leader peptide 1 (Lp1) of 14 aa and Lp2 of 17 aa, similar to the regulatory region of erm (A) in Tn 554 ( 33 ). Lp2 contains the IFVI motif, which is known to play a key role in the induction mechanism of erm genes ( 34 ). Putative −10 (TATTAT) and −35 (TTCAAT) promoter sequences were found 222 and 240 bp upstream of the erm (44) start codon, respectively. Two pairs of inverted repeats (IRs) (IR1, 5′-AAGTTCATTAT; IR2, 5′-ATAATGAACTT; IR3, 5′-TTCGTTATGAT; IR4, 5′-ATATAATGAA) were found within the putative regulatory sequence of erm (44). In erm (C), a similar structure of two IR pairs within the leader region is known to regulate translational attenuation ( 35 ). The regulator sequences of erm (44), erm (A) (accession no. X03216 ), erm (C) (accession no. M19652 ), and erm (43) (accession no. HE650138 ) were aligned by using a fragment that includes the putative ribosomal binding site of Lp1 and the first 2 nucleotides (nt) after the start codon, which is 208 nt for erm (44). Overall, the putative translational attenuator region of erm (44) showed the closest identity (83%) with that of erm (43) in a 207-bp overlap (208 nt/207 nt). 
+
+Expression of erm (44). 
+
+The functionality of Erm(44) was assessed by cloning erm (44) with its own regulatory sequence (pBJW5) and by cloning erm (44) solely downstream of the cap promoter (pBJW13) ( Table 1 ). When erm (44) was expressed from plasmid pBJW5 in S. aureus RN4220, the erythromycin MIC increased 32-fold, while the MICs of clindamycin and pristinamycin Ia remained unchanged. Only after induction with erythromycin, resistance to clindamycin increased at least 32-fold and resistance to pristinamycin Ia doubled. The RN4220 transformants carrying pBJW13 expressed erm (44) constitutively and exhibited higher MICs, with a >1,024-fold increase in resistance to erythromycin and clindamycin and a 4-fold increase in resistance to pristinamycin Ia. RN4220 harboring the empty vectors remained susceptible to these antibiotics. 
+
+TABLE 1. 
+
+MIC of erythromycin, clindamycin, and pristinamycin Ia for different Staphylococcus strains, as determined by broth microdilution 
+
+Strain Characteristic(s) or origin Reference or source Antibiotic resistance gene(s) a MIC (μg/ml) b ERY CLI iCLI PIA iPIA S. aureus 80CR5 Recipient strain for conjugation, plasmid free 22 ≤0.25 ≤0.25 NA 4 NA RN4220 Recipient strain for electrotransformation, plasmid free 21 0.25 ≤0.25 NA 4 NA RN4220/pBUS1 RN4220 with cloning vector pBUS1 28 , this study tet (L) 0.25 ≤0.25 NA 4 NA RN4220/pBUS1-P cap c RN4220 with pBUS1 containing cap promoter S. Schwendener tet (L) 0.25 ≤0.25 NA 4 NA RN4220/pBJW5 RN4220 with erm (44) and its regulatory region cloned into pBUS1 This study tet (L), erm (44) 8 ≤0.25 8 4 8 RN4220/pBJW13 RN4220 with erm (44) cloned into pBUS1-P cap This study tet (L), erm (44) >256 >256 >256 16 32 S. xylosus JW4341 Subclinical bovine mastitis milk 10 , this study erm (44), mph (C) 16 0.5 8 8 128 JW1049 Subclinical bovine mastitis milk 10 , this study erm (44) 16 1 8 16 256 JW3659 Subclinical bovine mastitis milk This study erm (44) 128 0.5 16 32 256 JW4305 Subclinical bovine mastitis milk This study erm (44) 32 0.5 8 16 256 
+
+Open in a new tab 
+
+a 
+Antibiotic resistance genes and functions: tet (L), tetracycline efflux gene; mph (C), macrolide phosphotransferase gene; erm (44), 23S rRNA methylase gene. 
+
+b 
+Abbreviations: ERY, erythromycin; CLI, clindamycin; PIA, pristinamycin IA; iCLI and iPIA, 2 μg/ml erythromycin added to the broth for the detection of inducible resistance to clindamycin (iCLI) and pristinamycin IA (iPIA); NA, not applicable. 
+
+c 
+Vector pBUS1-P cap is a pBUS1 derivate that harbors the cap promoter of the S. aureus type 1 capsular polysaccharide biosynthesis gene cluster. 
+
+Even if situated above the CLSI resistance breakpoint for staphylococci, the erythromycin MIC of 16 μg/ml conferred by Erm(44) in S. xylosus JW4341 is low for a 23S rRNA methylase resistance mechanism. In the presence of Erm methylases like Erm(B) and Erm(C), which are the most frequent among coagulase-negative staphylococci (CoNS) from bovine mastitis, the erythromycin MICs were higher than 128 μg/ml ( 10 , 36 ). The lower MIC generated by erm (44) is likely due to weak expression from its own regulatory sequence, since a higher MIC of >256 μg/ml was measured when erm (44) was under the control of the cap promoter in pBJW13. Furthermore, in S. xylosus strain JW3659, which contained a different erm (44) regulatory and promoter region, the MIC of erythromycin was higher at 128 μg/ml (see below). 
+
+Characterization of ΦJW4341-pro harboring erm (44). 
+
+Alignment of the 737,222-bp contig containing erm (44) with the draft genomes of S. xylosus DMB3-Bh1 isolated from mouse feces (GenBank accession no. of contig 3, AURW01000003.1 ) and S. xylosus NJ from human nasal cavities (GenBank accession no. of contig 6, ANMR01000006.1 ) revealed that erm (44) is present on a 52,814-bp insert in JW4341, which is absent from the erm (44)-negative S. xylosus NJ and DMB3-Bh1 genomes. 
+
+This insert was integrated at a specific 19-bp (TTATAAGTCCCCTCGAAGG) core integration site ( attB ) situated between two housekeeping genes, one coding for a putative DNA-binding helix-turn-helix protein (WhiA) and the other coding for a putative caseinolytic protease (ClpP) ( Fig. 2 ). In S. xylosus strains JW4341 and NJ, an additional orf ( orfA ) is present between the whiA gene and the attB site. Both erm (44)-negative strains NJ and DMB3-Bh1 contain only the empty attB site. In S. xylosus JW4341, two perfect copies of the att site ( attL and attR ) are present at each site of the insert. 
+
+FIG 2. 
+
+Open in a new tab 
+
+Schematic gene map showing erm (44)-containing S. xylosus prophage ΦJW4341-pro and its integration region (EMBL accession no. HG796218 ) and comparison with S. aureus Φ42e (accession no. AY954955 ), a related representative of the Siphoviridae family of phages. Gray areas represent high (>66%) similarity at the nucleotide level. Arrows represent the positions and orientation of ORFs. New MLS B resistance gene erm (44) and its two leader peptide genes ( lp1 and lp2 ) are shown in pink. The 19-bp (TTATAAGTCCCCTCGAAGG) core integration site of erm (44)-containing bacteriophages is designated attB in the genome of S. xylosus and attL and attR at both sites of ΦJW4341-pro. The 29-bp DR (AGGCAGTCGTTAATTCGGCTGTCTTTTTT) flanking erm (44) in the prophage accessory region is indicated by upward-pointing black arrows. Selected putative gene products and functions: whiA , DNA-binding helix-turn-helix protein; orfA , hypothetical protein; clpP , caseinolytic protease; int , integrase; cl / cro , transcriptional regulators; dnaB / dnaC , DNA replication proteins; terS and terL , small- and large-subunit terminases, respectively; por , portal protein; pep , prohead peptidase; cap , major capsid protein; meas , tail tape measure protein; hol , holin; lys , lysin; sta , staphylokinase; imp , IMP dehydrogenase. Prophage modules are color coded as follows: lysogeny, red; DNA replication, yellow; DNA packaging and capsid morphogenesis, orange; tail morphogenesis, green; host cell lysis, blue; virulence, sky blue; resistance, pink; unattributed, gray. Primers used to detect erm (44) and ΦJW4341-pro insertion sites are indicated by small black horizontal arrows. This image was generated with the program Easyfig ( 47 ). 
+
+Sequence analysis of this insert showed a G+C content of 32%, which is similar to that of S. xylosus and in the range of staphylococcal bacteriophages ( 19 ). Additionally, 29 of the 56 ORFs detected (see Table S1 in the supplemental material) in this insert could be assessed with regard to the genetic organization of the five functional modules of the family Siphoviridae ( Fig. 1 ). This genetic structure suggested that this insert is the genome of a temperate siphoviral bacteriophage ( 18 , 19 ). This putative S. xylosus prophage was designated ΦJW4341-pro. By using the S. aureus phage classification proposed by Kwan et al., which is based on genome size, comparative nucleotide and amino acid sequence analysis, and gene map organization with special regard to the bacteriophage head region, ΦJW4341-pro could be grouped into class II clade B of the family Siphoviridae ( 19 ). Comparative analysis of the nucleotide sequences of ΦJW4341-pro and S. aureus phage Φ42e (accession no. AY954955 ), a prototype of the class II, clade B group, revealed that both phages show the highest DNA sequence identity within the integrase gene (73%, nt 2482 to 3519 of the sequence with accession no. HG796218 ), within the DNA replication region (68%, nt 9772 to 10898), within the packaging and head region (73%, nt 17638 to 22817), and within the tail morphogenesis region (63%, nt 23511 to 26037), indicating that ΦJW4341-pro belongs to the same group ( Fig. 2 ). ΦJW4341-pro has the peculiarity of containing the erm (44) gene within the accessory region, which is situated toward the attR site downstream of the putative lysis module. To date, more than 100 Staphylococcus phage and prophage DNA sequences have been deposited in GenBank. However, to our knowledge, none of them has been reported to contain an antibiotic resistance gene within the accessory region ( 37 ). Otherwise, some of the most relevant virulence factors are located in this area of the phage genomes ( 18 ). In staphylococci, bacteriophage-mediated transfer of antibiotic resistance occurred mostly by transducing plasmids or resistance islands ( 38 – 40 ). Nonetheless, other bacterial species have been found to harbor phages that contained a resistance gene after the insertion of a transposon. Transposon Tn 6215 , which contains erm (B), was found to be integrated into transducing phage ΦC2 of C. difficile ( 41 ), and a mef (A)-carrying Tn 1207 .1-like transposon was found in phage Φm46.1 in S. pyogenes ( 42 ). In contrast, no genes associated with transposable elements were detected in the ΦJW4341-pro accessory region. However, the erm (44)-flanking region contains three 29-bp direct repeats (DRs) (AGGCAGTCGTTAATTCGGCTGTCTTTTTT), two situated upstream and one situated downstream of erm (44) ( Fig. 2 ). DRs longer than 100 bp were suggested to be involved in the spread of antibiotic resistance genes independently of a recombinase ( 43 ). Whether these DRs play a role in the integration of erm (44) into ΦJW4341-pro is not known. 
+
+Prophages can form free circular DNA in the host cell, and circular excision is the first step of the phage lytic pathway ( 42 , 44 ). ΦJW4341-pro was detected in circular form with the sole att as a joining region in its host S. xylosus JW4341, indicating potential lytic activity. Excision and site-specific integration of ΦJW4341-pro are likely to be catalyzed by the ΦJW4341-pro integrase ( orf1 ), which was found to harbor conserved similarity regions of tyrosine recombinases, including a potential active-site tyrosine residue ( 45 ). Tyrosine recombinases are predominant integrase types in S. aureus phages, while both tyrosine and serine recombinases have been found equally in CoNS phages ( 37 , 46 ). 
+
+Distribution of erm (44) in S. xylosus and ΦJW4341-pro relatives. 
+
+After the discovery of erm (44) in S. xylosus JW4341, 410 additional S. xylosus strains isolated from bovine milk were screened for the presence of constitutive macrolide resistance and inducible clindamycin resistance by D-zone testing. Three unrelated D-zone test-positive strains, JW1049, JW3659, and JW4305, were identified, all originating from cows with subclinical mastitis. The strains showed a phenotype similar to that of JW4341 and exhibited erythromycin resistance and inducible clindamycin and pristinamycin IA resistance, as confirmed by MIC measurements ( Table 1 ). JW1049, JW3659, and JW4305 all carried erm (44), and no known erm or other resistance genes were detected. Of note, macrolide resistance in S. xylosus from bovine mastitis has previously always been associated with drug efflux mediated by msr ( 10 , 36 ). 
+
+S. xylosus JW3659 exhibited high resistance to erythromycin, with an MIC 8-fold higher than that for JW4341. Erm(44) of JW3659 (accession no. LK392593 ) differed from that of JW4341 by 14 amino acid changes (94% amino acid identity), and their leader peptides differed by three amino acid changes in Lp1 and one amino acid change in Lp2. Additionally, the putative −10 and −35 promoter sequences of erm (44) were different in S. xylosus JW3659 (TATAAT and TCCACC, respectively), which may explain the MIC differences, which are likely due to possible different expression levels. 
+
+In the three additional erm (44)-positive S. xylosus strains, JW1049, JW3659, and JW4305, an erm (44)-containing fragment was integrated into the chromosome at the same core integration site and duplication of the att sequence was observed, suggesting a structure related to that of ΦJW4341-pro. In addition, circular forms with the sole att sequence as a joining region were detected in all of these erm (44)-positive strains, indicating that the putative prophage is capable of excision from the genome. 
+
+Transfer experiments. 
+
+Although a circular form of ΦJW4341-pro was detected, no transfer of S. xylosus JW4341 macrolide resistance was observed by either electrotransformation or conjugation with S. aureus . The absence of conjugative and transposable elements from ΦJW4341-pro explains the lack of transfer of erm (44) by conjugation. On the other hand, the inability to transform S. aureus with erm (44)-containing DNA may be due to either low transformation efficiency or a deficient integration mechanism in S. aureus . Further experiments are necessary to determine the lytic and transducing properties of ΦJW4341-pro. Nevertheless, detection of similar prophages carrying erm (44) at the same integration site in four unrelated S. xylosus strains from bovine mastitis milk strongly suggests that this prophage has the capacity of transduction in vivo . 
+
+Conclusion. 
+
+Detection of a new prophage containing the novel erm (44) resistance gene once again showed the ability of staphylococci to acquire and spread antibiotic resistance genes by multifaceted mechanisms. This study contains the first description of an MLS B resistance gene within a prophage in staphylococci, highlighting the fact that phages may act as vehicles and disseminate antibiotic resistance in this clinically important group of bacteria. The presence of such an antibiotic resistance-carrying prophage in S. xylosus from bovine mastitis milk is a further demonstration of the role of animal bacteria as a reservoir of novel genetic elements carrying antibiotic resistance genes. 
+
+Supplementary Material 
+
+Supplemental material 
+
+supp_58_10_6133__index.html (998B, html) 
+
+ACKNOWLEDGMENTS 
+
+This study was partially financed by a research grant from Medinova AG, Zurich, Switzerland, and by the Institute of Veterinary Bacteriology, University of Bern, Bern, Switzerland (grant 35-539). 
+
+Footnotes 
+
+Published ahead of print 4 August 2014 
+
+Supplemental material for this article may be found at http://dx.doi.org/10.1128/AAC.02949-14 . 
+
+REFERENCES 
+
+1. Dordet-Frisoni E, Dorchies G, De Araujo C, Talon R, Leroy S.
+2007. 
+Genomic diversity in Staphylococcus xylosus. Appl. Environ. Microbiol.
+73:7199–7209. 10.1128/AEM.01629-07 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+2. Bockelmann W.
+2010. 
+Secondary cheese starter cultures, p 193–224 In Law BA, Tamine AY. (ed), Technology of cheesemaking. Wiley-Blackwell Publishing, Oxford, United Kingdom [ Google Scholar ] 
+
+3. Blaiotta G, Pennacchia C, Villani F, Ricciardi A, Tofalo R, Parente E.
+2004. 
+Diversity and dynamics of communities of coagulase-negative staphylococci in traditional fermented sausages. J. Appl. Microbiol.
+97:271–284. 10.1111/j.1365-2672.2004.02298.x [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+4. Giordano N, Corallo C, Miracco C, Papakostas P, Montella A, Figura N, Nuti R.
+18
+December
+2012. 
+Erythema nodosum associated with Staphylococcus xylosus septicemia. J. Microbiol. Immunol. Infect.
+pii:S1684–1182(12)00215–0. 10.1016/j.jmii.2012.10.003 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+5. Akhaddar A, Elouennass M, Naama O, Boucetta M.
+2010. 
+Staphylococcus xylosus isolated from an otogenic brain abscess in an adolescent. Surg. Infect.
+11:559–561. 10.1089/sur.2010.010 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+6. Tselenis-Kotsowilis AD, Koliomichalis MP, Papavassiliou JT.
+1982. 
+Acute pyelonephritis caused by Staphylococcus xylosus. J. Clin. Microbiol.
+16:593–594 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+7. Rajala-Schultz PJ, Torres AH, Degraves FJ, Gebreyes WA, Patchanee P.
+2009. 
+Antimicrobial resistance and genotypic characterization of coagulase-negative staphylococci over the dry period. Vet. Microbiol.
+134:55–64. 10.1016/j.vetmic.2008.09.008 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+8. Piessens V, Van Coillie E, Verbist B, Supré K, Braem G, Van Nuffel A, De Vuyst L, Heyndrickx M, De Vliegher S.
+2011. 
+Distribution of coagulase-negative Staphylococcus species from milk and environment of dairy cows differs between herds. J. Dairy Sci.
+94:2933–2944. 10.3168/jds.2010-3956 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+9. Pyörälä S, Taponen S.
+2009. 
+Coagulase-negative staphylococci emerging mastitis pathogens. Vet. Microbiol.
+134:3–8. 10.1016/j.vetmic.2008.09.015 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+10. Frey Y, Rodriguez JP, Thomann A, Schwendener S, Perreten V.
+2013. 
+Genetic characterization of antimicrobial resistance in coagulase-negative staphylococci from bovine mastitis milk. J. Dairy Sci.
+96:2247–2257. 10.3168/jds.2012-6091 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+11. Roberts MC.
+2008. 
+Update on macrolide-lincosamide-streptogramin, ketolide, and oxazolidinone resistance genes. FEMS Microbiol. Lett.
+282:147–159. 10.1111/j.1574-6968.2008.01145.x [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+12. Schwendener S, Perreten V.
+2012. 
+New MLS B resistance gene erm (43) in Staphylococcus lentus. Antimicrob. Agents Chemother.
+56:4746–4752. 10.1128/AAC.00627-12 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. van Hoek AH, Mevius D, Guerra B, Mullany P, Roberts AP, Aarts HJ.
+2011. 
+Acquired antibiotic resistance genes: an overview. Front. Microbiol.
+2:203. 10.3389/fmicb.2011.00203 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+14. Schwarz S, Fessler AT, Hauschild T, Kehrenberg C, Kadlec K.
+2011. 
+Plasmid-mediated resistance to protein biosynthesis inhibitors in staphylococci. Ann. N. Y. Acad. Sci.
+1241:82–103. 10.1111/j.1749-6632.2011.06275.x [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+15. Roberts MC.
+2002. 
+Resistance to tetracycline, macrolide-lincosamide-streptogramin, trimethoprim, and sulfonamide drug classes. Mol. Biotechnol.
+20:261–283. 10.1385/MB:20:3:261 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+16. Brabban AD, Hite E, Callaway TR.
+2005. 
+Evolution of foodborne pathogens via temperate bacteriophage-mediated gene transfer. Foodborne Pathog. Dis.
+2:287–303. 10.1089/fpd.2005.2.287 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+17. Colomer-Lluch M, Jofre J, Muniesa M.
+2011. 
+Antibiotic resistance genes in the bacteriophage DNA fraction of environmental samples. PLoS One
+6(3):e17549. 10.1371/journal.pone.0017549 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Deghorain M, Van Melderen L.
+2012. 
+The staphylococci phages family: an overview. Viruses
+4:3316–3335. 10.3390/v4123316 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+19. Kwan T, Liu J, DuBow M, Gros P, Pelletier J.
+2005. 
+The complete genomes and proteomes of 27 Staphylococcus aureus bacteriophages. Proc. Natl. Acad. Sci. U. S. A.
+102:5174–5179. 10.1073/pnas.0501140102 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. Brüssow H, Canchaya C, Hardt WD.
+2004. 
+Phages and the evolution of bacterial pathogens: from genomic rearrangements to lysogenic conversion. Microbiol. Mol. Biol. Rev.
+68:560–602. 10.1128/MMBR.68.3.560-602.2004 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+21. Kreiswirth BN, Löfdahl S, Betley MJ, O'Reilly M, Schlievert PM, Bergdoll MS, Novick RP.
+1983. 
+The toxic shock syndrome exotoxin structural gene is not detectably transmitted by a prophage. Nature
+305:709–712. 10.1038/305709a0 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+22. Engel HW, Soedirman N, Rost JA, van Leeuwen WJ, van Embden JD.
+1980. 
+Transferability of macrolide, lincomycin, and streptogramin resistances between group A, B, and D streptococci, Streptococcus pneumoniae, and Staphylococcus aureus. J. Bacteriol.
+142:407–413 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+23. Clinical and Laboratory Standards Institute. 2013. 
+Performance standards for antimicrobial susceptibility testing; twenty-third informational supplement M100-S23, vol. 33, no. 1
+Clinical and Laboratory Standards Institute, Wayne, PA [ Google Scholar ] 
+
+24. Perreten V, Vorlet-Fawer L, Slickers P, Ehricht R, Kuhnert P, Frey J.
+2005. 
+Microarray-based detection of 90 antibiotic resistance genes of Gram-positive bacteria. J. Clin. Microbiol.
+43:2291–2302. 10.1128/JCM.43.5.2291-2302.2005 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Pitcher DG, Saunders NA, Owen RJ.
+1989. 
+Rapid extraction of bacterial genomic DNA with guanidium thiocyanate. Lett. Appl. Microbiol.
+8:151–156. 10.1111/j.1472-765X.1989.tb00262.x [ DOI ] [ Google Scholar ] 
+
+26. Anderson DG, McKay LL.
+1983. 
+Simple and rapid method for isolating large plasmid DNA from lactic streptococci. Appl. Environ. Microbiol.
+46:549–552 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+27. Hyatt D, Chen GL, LoCascio PF, Land ML, Larimer FW, Hauser LJ.
+2010. 
+Prodigal: prokaryotic gene recognition and translation initiation site identification. BMC Bioinformatics
+11:119. 10.1186/1471-2105-11-119 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Rossi J, Bischoff M, Wada A, Berger-Bächi B.
+2003. 
+MsrR, a putative cell envelope-associated element involved in Staphylococcus aureus sarA attenuation. Antimicrob. Agents Chemother.
+47:2558–2564. 10.1128/AAC.47.8.2558-2564.2003 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+29. Ouyang S, Lee CY.
+1997. 
+Transcriptional analysis of type 1 capsule genes in Staphylococcus aureus. Mol. Microbiol.
+23:473–482. 10.1046/j.1365-2958.1997.d01-1865.x [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+30. Schenk S, Laddaga RA.
+1992. 
+Improved method for electroporation of Staphylococcus aureus. FEMS Microbiol. Lett.
+73:133–138 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+31. Perreten V, Kollöffel B, Teuber M.
+1997. 
+Conjugal transfer of the Tn 916 -like transposon Tn FO1 from Enterococcus faecalis isolated from cheese to other Gram-positive bacteria. Syst. Appl. Microbiol.
+20:27–38 [ Google Scholar ] 
+
+32. Roberts MC, Sutcliffe J, Courvalin P, Jensen LB, Rood J, Seppälä H.
+1999. 
+Nomenclature for macrolide and macrolide-lincosamide-streptogramin B resistance determinants. Antimicrob. Agents Chemother.
+43:2823–2830 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+33. Murphy E.
+1985. 
+Nucleotide sequence of ermA , a macrolide-lincosamide-streptogramin B determinant in Staphylococcus aureus. J. Bacteriol.
+162:633–640 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+34. Weisblum B.
+1995. 
+Insights into erythromycin action from studies of its activity as inducer of resistance. Antimicrob. Agents Chemother.
+39:797–805 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+35. Depardieu F, Podglajen I, Leclercq R, Collatz E, Courvalin P.
+2007. 
+Modes and modulations of antibiotic resistance gene expression. Clin. Microbiol. Rev.
+20:79–114. 10.1128/CMR.00015-06 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+36. Lüthje P, Schwarz S.
+2006. 
+Antimicrobial resistance of coagulase-negative staphylococci from bovine subclinical mastitis with particular reference to macrolide-lincosamide resistance phenotypes and genotypes. J. Antimicrob. Chemother.
+57:966–969. 10.1093/jac/dkl061 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+37. Deghorain M, Bobay LM, Smeesters PR, Bousbata S, Vermeersch M, Perez-Morga D, Drèze PA, Rocha EP, Touchon M, Van Melderen L.
+2012. 
+Characterization of novel phages isolated in coagulase-negative staphylococci reveals evolutionary relationships with Staphylococcus aureus phages. J. Bacteriol.
+194:5829–5839. 10.1128/JB.01085-12 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+38. Muniesa M, Colomer-Lluch M, Jofre J.
+2013. 
+Potential impact of environmental bacteriophages in spreading antibiotic resistance genes. Future Microbiol.
+8:739–751. 10.2217/fmb.13.32 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+39. Malachowa N, Deleo FR.
+2010. 
+Mobile genetic elements of Staphylococcus aureus. Cell. Mol. Life Sci.
+67:3057–3071. 10.1007/s00018-010-0389-4 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+40. Mašlaňová I, Doškař J, Varga M, Kuntová L, Mužík J, Malúšková D, Růžičková V, Pantůček R.
+2013. 
+Bacteriophages of Staphylococcus aureus efficiently package various bacterial genes and mobile genetic elements including SCC mec with different frequencies. Environ. Microbiol. Rep.
+5:66–73. 10.1111/j.1758-2229.2012.00378.x [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+41. Goh S, Hussain H, Chang BJ, Emmett W, Riley TV, Mullany P.
+2013. 
+Phage ϕC2 mediates transduction of Tn 6215 , encoding erythromycin resistance, between Clostridium difficile strains. mBio
+4(6):e00840–13. 10.1128/mBio.00840-13 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+42. Brenciani A, Bacciaglia A, Vignaroli C, Pugnaloni A, Varaldo PE, Giovanetti E.
+2010. 
+Phim46.1, the main Streptococcus pyogenes element carrying mef (A) and tet (O) genes. Antimicrob. Agents Chemother.
+54:221–229. 10.1128/AAC.00499-09 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+43. Palmieri C, Mingoia M, Varaldo PE.
+2013. 
+Unconventional circularizable bacterial genetic structures carrying antibiotic resistance determinants. Antimicrob. Agents Chemother.
+57:2440–2441. 10.1128/AAC.02548-12 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+44. Fineran PC, Petty NK, Salmond GP.
+2009. 
+Transduction: host DNA transfer by bacteriophages, p 666–679 In Schaechter M. (ed), The desk encyclopedia of microbiology, 2nd ed.
+Elsevier Academic Press, San Diego, CA [ Google Scholar ] 
+
+45. Esposito D, Scocca JJ.
+1997. 
+The integrase family of tyrosine recombinases: evolution of a conserved active site domain. Nucleic Acids Res.
+25:3605–3614. 10.1093/nar/25.18.3605 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+46. Goerke C, Pantucek R, Holtfreter S, Schulte B, Zink M, Grumann D, Bröker BM, Doskar J, Wolz C.
+2009. 
+Diversity of prophages in dominant Staphylococcus aureus clonal lineages. J. Bacteriol.
+191:3462–3468. 10.1128/JB.01804-08 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+47. Sullivan MJ, Petty NK, Beatson SA.
+2011. 
+Easyfig: a genome comparison visualizer. Bioinformatics
+27:1009–1010. 10.1093/bioinformatics/btr039 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+Associated Data 
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+
+Supplementary Materials 
+
+Supplemental material 
+
+supp_58_10_6133__index.html (998B, html) 
+
+AAC.02949-14_zac010143332so1.pdf (76KB, pdf) 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (769.3 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

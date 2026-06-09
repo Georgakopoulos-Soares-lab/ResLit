@@ -1,0 +1,1450 @@
+PMID: 24176550
+PMCID: 
+DOI: 10.1016/j.ijid.2013.07.016
+Title: First report of NDM-1-producing Acinetobacter baumannii in East Africa.
+Journal: International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases
+PubDate: 2013 Dec
+Authors: Revathi G, Siu LK, Lu PL, Huang LY
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S1201971213002609</prism:url><dc:identifier>doi:10.1016/j.ijid.2013.07.016</dc:identifier><eid>1-s2.0-S1201971213002609</eid><prism:doi>10.1016/j.ijid.2013.07.016</prism:doi><pii>S1201-9712(13)00260-9</pii><dc:title>First report of NDM-1-producing Acinetobacter baumannii in East Africa </dc:title><prism:publicationName>International Journal of Infectious Diseases</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>sco</pubType><prism:issn>12019712</prism:issn><prism:volume>17</prism:volume><prism:issueIdentifier>12</prism:issueIdentifier><prism:startingPage>e1255</prism:startingPage><prism:endingPage>e1258</prism:endingPage><prism:pageRange>e1255-e1258</prism:pageRange><prism:number>12</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2013-12-31</prism:coverDate><prism:coverDisplayDate>December 2013</prism:coverDisplayDate><prism:copyright>Copyright © 2013 International Society for Infectious Diseases. Published by Elsevier Ltd. All rights reserved.</prism:copyright><prism:publisher>International Society for Infectious Diseases. Published by Elsevier Ltd.</prism:publisher><dc:creator>Revathi, Gunturu</dc:creator><dc:creator>Siu, L. Kristopher</dc:creator><dc:creator>Lu, Po-Liang</dc:creator><dc:creator>Huang, Li-Yueh</dc:creator><dc:description>
+                  Background
+                  The emergence of carbapenem-resistant Acinetobacter baumannii (CRAB) was observed in a Kenyan hospital from 2009 to 2010. Further investigation of the dissemination of CRAB isolates and the molecular characterization of associated resistance determinants were therefore performed.
+               
+                  Methods
+                  Antibiotic susceptibilities were determined by broth microdilution and Etest. Metallo-β-lactamases were detected by Etest method. Clonal relationships were studied by pulsed-field gel electrophoresis (PFGE) and multilocus sequence typing (MLST). β-Lactam and aminoglycoside resistance determinants and the clonal relatedness to widespread European clones were studied by PCR and sequencing.
+               
+                  Results
+                  Sixteen CRAB isolates from 10 patients possessed six pulsotypes; half of the isolates belonged to the European clone II (ECII) lineage. ECII strains were typed as MLST sequence type 2 (ST2) and ST109, and non-ECII strains as ST25 and ST113. All isolates harbored ISAba1–bla
+                     OXA-23, bla
+                     OXA-51-like, bla
+                     ADC, and class 1 integron, including one that also harbored bla
+                     NDM-1. ADC-57 and two integron cassettes (arr-2-cmlA5 and aadB-aadA2-cmlA6-aadA15) were newly-identified. Non-ECII isolates, designated non-ECII clone, carried armA and integron cassette arr-2-cmlA5.
+               
+                  Conclusions
+                  Two distinct clones of CRAB – ECII and non-ECII epidemic clones – were disseminated in Kenya. The concomitance of ISAba1–bla
+                     OXA-23 was the major mechanism contributing to CRAB. The first identification of ECII CRAB and New Delhi metallo-β-lactamase 1 (NDM-1) extensively drug-resistant A. baumannii in East Africa is of concern.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>true</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>ElsevierBranded</openaccessSponsorType><openaccessUserLicense>http://www.elsevier.com/open-access/userlicense/1.0/</openaccessUserLicense><dcterms:subject>OXA-23</dcterms:subject><dcterms:subject>NDM-1</dcterms:subject><dcterms:subject>European clone II</dcterms:subject><dcterms:subject>Carbapenem-resistant Acinetobacter baumannii
+                  </dcterms:subject><dcterms:subject>Kenya</dcterms:subject><link href="https://api.elsevier.com/content/article/pii/S1201971213002609" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S1201971213002609" rel="scidir"/></coredata><objects><object ref="gr1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="3075" height="1116" size="217479">https://api.elsevier.com/content/object/eid/1-s2.0-S1201971213002609-gr1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="694" height="252" size="27495">https://api.elsevier.com/content/object/eid/1-s2.0-S1201971213002609-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="79" size="1652">https://api.elsevier.com/content/object/eid/1-s2.0-S1201971213002609-gr1.sml?httpAccept=%2A%2F%2A</object></objects><scopus-id>84888431001</scopus-id><scopus-eid>2-s2.0-84888431001</scopus-eid><pubmed-id>24176550</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/84888431001" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>272991</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291783</xocs:ssid>
+         <xocs:ssid type="subj">291832</xocs:ssid>
+         <xocs:ssid type="subj">291890</xocs:ssid>
+         <xocs:ssid type="subj">291891</xocs:ssid>
+         <xocs:ssid type="subj">291903</xocs:ssid>
+         <xocs:ssid type="subj">291904</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">80</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>International Journal of Infectious Diseases</xocs:srctitle>
+      <xocs:normalized-srctitle>INTERNATIONALJOURNALINFECTIOUSDISEASES</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20130910">2013-09-10</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20130910">2013-09-10</xocs:available-online-date>
+      <xocs:ew-transaction-id>2014-10-01T12:59:13</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S1201971213002609</xocs:eid>
+      <xocs:pii-formatted>S1201-9712(13)00260-9</xocs:pii-formatted>
+      <xocs:pii-unformatted>S1201971213002609</xocs:pii-unformatted>
+      <xocs:doi>10.1016/j.ijid.2013.07.016</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.2</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S1201971213X00128</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20150515">2015-05-15T05:24:35.564343-04:00</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20131201</xocs:date-search-begin>
+      <xocs:date-search-end>20131231</xocs:date-search-end>
+      <xocs:year-nav>2013</xocs:year-nav>
+      <xocs:indexeddate epoch="1378771200">2013-09-10T00:00:00Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdateend pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content oa subj subheadings tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure table body acknowledge affil articletitle auth authfirstini authfull authkeywords authlast misctext primabst pubtype ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>1201-9712</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>12019712</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="1">true</xocs:crossmark>
+      <xocs:vol-first>17</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>17</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>12</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>12</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 17, Issue 12</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>35</xocs:sort-order>
+      <xocs:first-fp>e1255</xocs:first-fp>
+      <xocs:last-lp>e1258</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>e1255</xocs:first-page>
+         <xocs:last-page>e1258</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>201312</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>December 2013</xocs:cover-date-text>
+      <xocs:cover-date-start>2013-12-01</xocs:cover-date-start>
+      <xocs:cover-date-end>2013-12-31</xocs:cover-date-end>
+      <xocs:cover-date-year>2013</xocs:cover-date-year>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Short Communications</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>sco</xocs:document-subtype>
+      <xocs:copyright-line>Copyright © 2013 International Society for Infectious Diseases. Published by Elsevier Ltd. All rights reserved.</xocs:copyright-line>
+      <xocs:normalized-article-title>FIRSTREPORTNDM1PRODUCINGACINETOBACTERBAUMANNIIINEASTAFRICA</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>REVATHI</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>G</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>1</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Introduction</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>2</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Methods</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.1</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Isolates and antimicrobial susceptibility testing</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.2</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Molecular typing and PCR assays</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>2.3</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Nucleotide accession numbers</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>3</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Results</xocs:item-toc-section-title>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.1</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Isolation and clonal relatedness of collected isolates</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.2</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Antimicrobial susceptibility</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.3</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Detection of resistance genes and resistance determinants</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+            <xocs:item-toc-entry ref-elem="ce:sections">
+               <xocs:item-toc-label>3.4</xocs:item-toc-label>
+               <xocs:item-toc-section-title>Associations among clonality, antimicrobial susceptibility profiles, and detected resistance determinants</xocs:item-toc-section-title>
+            </xocs:item-toc-entry>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-label>4</xocs:item-toc-label>
+            <xocs:item-toc-section-title>Discussion</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>Acknowledgements</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sbref0005">
+            <xocs:ref-normalized-surname>HIGGINS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>233</xocs:ref-first-fp>
+            <xocs:ref-last-lp>238</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0010">
+            <xocs:ref-normalized-surname>MUGNIER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>35</xocs:ref-first-fp>
+            <xocs:ref-last-lp>40</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0015">
+            <xocs:ref-normalized-surname>OLAITAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2013</xocs:ref-pub-year>
+            <xocs:ref-first-fp>e469</xocs:ref-first-fp>
+            <xocs:ref-last-lp>e470</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0020">
+            <xocs:ref-normalized-surname>POIREL</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2011</xocs:ref-pub-year>
+            <xocs:ref-first-fp>934</xocs:ref-first-fp>
+            <xocs:ref-last-lp>936</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0025">
+            <xocs:ref-normalized-surname>HUANG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2699</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2703</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0030">
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-normalized-srctitle>PERFORMANCESTANDARDSFORANTIMICROBIALSUSCEPTIBILITYTESTINGCLSIM100S20</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0035">
+            <xocs:ref-normalized-surname>KARAH</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2012</xocs:ref-pub-year>
+            <xocs:ref-first-fp>237</xocs:ref-first-fp>
+            <xocs:ref-last-lp>247</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>N</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0040">
+            <xocs:ref-normalized-surname>AKERS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2010</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1132</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1138</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0045">
+            <xocs:ref-normalized-surname>MA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2009</xocs:ref-pub-year>
+            <xocs:ref-first-fp>104</xocs:ref-first-fp>
+            <xocs:ref-last-lp>111</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref0050">
+            <xocs:ref-normalized-surname>TURTON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2007</xocs:ref-pub-year>
+            <xocs:ref-first-fp>807</xocs:ref-first-fp>
+            <xocs:ref-last-lp>815</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>REVATHIX2013Xe1255</xocs:refkey3>
+         <xocs:refkey4lp>REVATHIX2013Xe1255Xe1258</xocs:refkey4lp>
+         <xocs:refkey4ai>REVATHIX2013Xe1255XG</xocs:refkey4ai>
+         <xocs:refkey5>REVATHIX2013Xe1255Xe1258XG</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="1">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2014-01-08T12:57:02Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>ElsevierBranded</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://www.elsevier.com/open-access/userlicense/1.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/12019712_UNBOUNDED_ESBranded" wintype="OpenArchive">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S1201-9712(13)00260-9</xocs:pii-formatted>
+         <xocs:pii-unformatted>S1201971213002609</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S1201971213002609</xocs:eid>
+         <xocs:doi>10.1016/j.ijid.2013.07.016</xocs:doi>
+         <xocs:cid>272991</xocs:cid>
+         <xocs:timestamp>2014-10-02T13:41:03.622844-04:00</xocs:timestamp>
+         <xocs:cover-date-start>2013-12-01</xocs:cover-date-start>
+         <xocs:cover-date-end>2013-12-31</xocs:cover-date-end>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S1201971213002609-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1201971213002609/MAIN/application/pdf/bc8da0f2ce0dda6f29c619838c0fb935/main.pdf</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1201971213002609/MAIN/application/pdf/bc8da0f2ce0dda6f29c619838c0fb935/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>411448</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>4</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S1201971213002609-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1201971213002609/PREVIEW/image/png/00be4009303d3a484b4f8dd63e28485f/main_1.png</xocs:ucs-locator>
+                     <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1201971213002609/PREVIEW/image/png/00be4009303d3a484b4f8dd63e28485f/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>63659</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1201971213002609-gr1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1201971213002609/gr1/HIGHRES/image/jpeg/b2faeab94fe7d08f3080bd1864baeb40/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1201971213002609/gr1/HIGHRES/image/jpeg/b2faeab94fe7d08f3080bd1864baeb40/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>217479</xocs:filesize>
+               <xocs:pixel-height>1116</xocs:pixel-height>
+               <xocs:pixel-width>3075</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1201971213002609-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1201971213002609/gr1/DOWNSAMPLED/image/jpeg/f84083321db7a1a34c1060431152d5fc/gr1.jpg</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1201971213002609/gr1/DOWNSAMPLED/image/jpeg/f84083321db7a1a34c1060431152d5fc/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>27495</xocs:filesize>
+               <xocs:pixel-height>252</xocs:pixel-height>
+               <xocs:pixel-width>694</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S1201971213002609-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3.amazonaws.com/prod-ucs-content-store-us-east/content/pii:S1201971213002609/gr1/THUMBNAIL/image/gif/610fe23aa1835d14d9de57b687a9537a/gr1.sml</xocs:ucs-locator>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S1201971213002609/gr1/THUMBNAIL/image/gif/610fe23aa1835d14d9de57b687a9537a/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>1652</xocs:filesize>
+               <xocs:pixel-height>79</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" version="5.2" xml:lang="en" docsubtype="sco">
+         <item-info>
+            <jid>IJID</jid>
+            <aid>1779</aid>
+            <ce:pii>S1201-9712(13)00260-9</ce:pii>
+            <ce:doi>10.1016/j.ijid.2013.07.016</ce:doi>
+            <ce:copyright type="society" year="2013">International Society for Infectious Diseases</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig0005">
+               <ce:label>Figure 1</ce:label>
+               <ce:caption id="cap0005">
+                  <ce:simple-para id="spar0025" view="all">Relationships between integron cassette genes, encoded resistance, and clonal lineages among carbapenem-resistant <ce:italic>Acinetobacter baumannii</ce:italic> isolates. Cassette types (1–4) are arranged in order of integron PCR amplicon size. The open reading frames of the identified cassette gene are shown as arrows, with the direction of transcription indicated by the arrowheads. Aminoglycoside resistance genes are shown as hatched arrows, rifampin resistance genes as filled arrows, chloramphenicol resistance genes as gray arrows, and other identified genes as clear arrows. Clear rectangles indicate 5′- and 3′-conserved segments (CSs). The 5′-CS and 3′-CS amplification primers are indicated by filled arrowheads. GEN, gentamicin; SPT, spectinomycin; STR, streptomycin; RIF, rifampin; CHL, chloramphenicol.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr1"/>
+            </ce:figure>
+            <ce:table xmlns="http://www.elsevier.com/xml/common/cals/dtd" id="tbl0005" frame="topbot" rowsep="0" colsep="0">
+               <ce:label>Table 1</ce:label>
+               <ce:caption id="cap0010">
+                  <ce:simple-para id="spar0030" view="all">Characteristics of carbapenem-resistant <ce:italic>Acinetobacter baumannii</ce:italic> isolates</ce:simple-para>
+               </ce:caption>
+               <tgroup cols="13">
+                  <colspec colname="col1"/>
+                  <colspec colname="col2"/>
+                  <colspec colname="col3"/>
+                  <colspec colname="col4"/>
+                  <colspec colname="col5"/>
+                  <colspec colname="col6"/>
+                  <colspec colname="col7"/>
+                  <colspec colname="col8"/>
+                  <colspec colname="col9"/>
+                  <colspec colname="col10"/>
+                  <colspec colname="col11"/>
+                  <colspec colname="col12"/>
+                  <colspec colname="col13"/>
+                  <thead valign="top">
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd"/>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd"/>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" namest="col3" nameend="col5" rowsep="1" align="left">Relative carbapenem resistance</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd"/>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" namest="col7" nameend="col8" rowsep="1" align="left">Relative aminoglycoside resistance</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd"/>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" rowsep="1" align="left">Relative cephalosporin resistance</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" namest="col11" nameend="col13" rowsep="1" align="left">Clonality</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" rowsep="1" align="left">Isolate<br/>No.</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" rowsep="1" align="left">IPM<br/>MIC</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" rowsep="1" align="left">MBL<cross-ref id="crf0005" refid="tblfn0005">
+                              <sup loc="post">a</sup>
+                           </cross-ref>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" rowsep="1" align="left">IS<italic>Aba1</italic> + <italic>bla</italic>
+                           <inf loc="post">OXA-23</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" rowsep="1" align="left">IS<italic>Aba1</italic> + <italic>bla</italic>
+                           <inf loc="post">OXA-51-like</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" rowsep="1" align="left">AMK<br/>MIC</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" rowsep="1" align="left">16S-rRNA methylase</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" rowsep="1" align="left">AME<cross-ref id="crf0010" refid="tblfn0010">
+                              <sup loc="post">b</sup>
+                           </cross-ref>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" rowsep="1" align="left">CAZ<br/>MIC</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" rowsep="1" align="left">IS<italic>Aba1</italic> + <italic>bla</italic>
+                           <inf loc="post">ADC-like</inf>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" rowsep="1" align="left">European clone<cross-ref id="crf0015" refid="tblfn0015">
+                              <sup loc="post">c</sup>
+                           </cross-ref>
+                        </entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" rowsep="1" align="left">ST</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" rowsep="1" align="left">Pulsotype</entry>
+                     </row>
+                  </thead>
+                  <tbody>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">1</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">≥512</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (NDM-1)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (OXA-64)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (ArmA)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (Aac(6′)-Ih, Aph(3′)-VI)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (ADC-26)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">25</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">I</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">16</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (OXA-64)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (ArmA)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (ADC-26)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">25</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">I</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">3</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">16</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (OXA-64)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (ArmA)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (ADC-26)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">25</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">I</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">16</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (OXA-64)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (ArmA)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (ADC-26)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">25</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">II</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">5</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">32</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (OXA-64)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (ArmA)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (ADC-26)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">25</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">II</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">6</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">32</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (OXA-64)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (ArmA)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (ADC-26)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">25</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">II</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">7</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">32</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (OXA-66)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">≤2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (ADC-30)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">II</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">III</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">8</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (OXA-66)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">≤2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (ADC-30)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">II</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">III</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">9</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">16</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (OXA-66)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">≤2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (ADC-30)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">II</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">IIIa</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">10</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">32</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (OXA-66)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">≤2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (ADC-30)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">II</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">IIIb</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">11</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">32</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (OXA-66)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">≤2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (ADC-30)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">II</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">IIIb</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">12</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (OXA-64)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (ArmA)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (ADC-57)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">113</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">IV</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">13</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (OXA-64)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">4</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (ArmA)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (ADC-57)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">113</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">IVa</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">14</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">16</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (OXA-67)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">≤2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (ADC-26)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">II</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">109</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">V</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">15</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">16</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (OXA-66)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">16</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (Aph(3′)-VI)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (ADC-30)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">II</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">VI</entry>
+                     </row>
+                     <row>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">16</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">32</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">-</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">− (OXA-66)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">32</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">−</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (Aph(3′)-VI)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">≥64</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">+ (ADC-30)</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">II</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="char" char=".">2</entry>
+                        <entry xmlns="http://www.elsevier.com/xml/common/dtd" align="left">IIIa</entry>
+                     </row>
+                  </tbody>
+               </tgroup>
+               <ce:legend>
+                  <ce:simple-para id="spar0035" view="all">MIC, minimum inhibitory concentration; IPM, imipenem; AMK, amikacin; CAZ, ceftazidime; MBL, metallo-β-lactamase; AME, aminoglycoside-modifying enzyme; ST, sequence type.</ce:simple-para>
+               </ce:legend>
+               <ce:table-footnote id="tblfn0005">
+                  <ce:label>a</ce:label>
+                  <ce:note-para id="npar0005" view="all">The screened MBL genes included <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">IMP</ce:inf>-like, <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">VIM</ce:inf>-like, <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">SIM</ce:inf>, <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">GIM</ce:inf>, <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">SPM</ce:inf>, and <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">NDM</ce:inf>.</ce:note-para>
+               </ce:table-footnote>
+               <ce:table-footnote id="tblfn0010">
+                  <ce:label>b</ce:label>
+                  <ce:note-para id="npar0010" view="all">The screened AME genes included amikacin resistance genes <ce:italic>aac(6′)-Iad</ce:italic>, <ce:italic>aac(6′)-Ib</ce:italic>, <ce:italic>aac(6′)-Ih</ce:italic>, and <ce:italic>aph(3′)-VI</ce:italic>.</ce:note-para>
+               </ce:table-footnote>
+               <ce:table-footnote id="tblfn0015">
+                  <ce:label>c</ce:label>
+                  <ce:note-para id="npar0015" view="all">Determined using the multiplex PCR assay developed by Turton et al.<ce:cross-ref id="crf0020" refid="bib0050">
+                        <ce:sup loc="post">10</ce:sup>
+                     </ce:cross-ref>
+                  </ce:note-para>
+               </ce:table-footnote>
+            </ce:table>
+         </ce:floats>
+         <head>
+            <ce:dochead id="doh0005">
+               <ce:textfn>Short Communication</ce:textfn>
+            </ce:dochead>
+            <ce:title id="tit0005">First report of NDM-1-producing <ce:italic>Acinetobacter baumannii</ce:italic> in East Africa</ce:title>
+            <ce:author-group id="aug0005">
+               <ce:author id="aut0005">
+                  <ce:given-name>Gunturu</ce:given-name>
+                  <ce:surname>Revathi</ce:surname>
+                  <ce:cross-ref id="crf0025" refid="aff0005">
+                     <ce:sup loc="post">a</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0010">
+                  <ce:given-name>L. Kristopher</ce:given-name>
+                  <ce:surname>Siu</ce:surname>
+                  <ce:cross-ref id="crf0030" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0035" refid="aff0015">
+                     <ce:sup loc="post">c</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0040" refid="aff0020">
+                     <ce:sup loc="post">d</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0045" refid="aff0025">
+                     <ce:sup loc="post">e</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0015">
+                  <ce:given-name>Po-Liang</ce:given-name>
+                  <ce:surname>Lu</ce:surname>
+                  <ce:cross-ref id="crf0050" refid="aff0030">
+                     <ce:sup loc="post">f</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0055" refid="aff0035">
+                     <ce:sup loc="post">g</ce:sup>
+                  </ce:cross-ref>
+               </ce:author>
+               <ce:author id="aut0020">
+                  <ce:given-name>Li-Yueh</ce:given-name>
+                  <ce:surname>Huang</ce:surname>
+                  <ce:cross-ref id="crf0060" refid="aff0010">
+                     <ce:sup loc="post">b</ce:sup>
+                  </ce:cross-ref>
+                  <ce:cross-ref id="crf0065" refid="cor0005">
+                     <ce:sup loc="post">⁎</ce:sup>
+                  </ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="aff0005">
+                  <ce:label>a</ce:label>
+                  <ce:textfn>Division of Microbiology, Department of Pathology, Aga Khan University Hospital, Nairobi, Kenya</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Division of Microbiology</sa:organization>
+                     <sa:organization>Department of Pathology</sa:organization>
+                     <sa:address-line>Aga Khan University Hospital</sa:address-line>
+                     <sa:city>Nairobi</sa:city>
+                     <sa:country>Kenya</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0010">
+                  <ce:label>b</ce:label>
+                  <ce:textfn>National Institute of Infectious Diseases and Vaccinology, National Health Research Institutes, No. 35, Keyan Road, Zhunan Town, Miaoli County, Taiwan</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>National Institute of Infectious Diseases and Vaccinology</sa:organization>
+                     <sa:address-line>National Health Research Institutes</sa:address-line>
+                     <sa:address-line>No. 35</sa:address-line>
+                     <sa:address-line>Keyan Road</sa:address-line>
+                     <sa:city>Zhunan Town</sa:city>
+                     <sa:state>Miaoli County</sa:state>
+                     <sa:country>Taiwan</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0015">
+                  <ce:label>c</ce:label>
+                  <ce:textfn>Graduate Institute of Medical Sciences, National Defense Medical Center, Taipei, Taiwan</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Graduate Institute of Medical Sciences</sa:organization>
+                     <sa:address-line>National Defense Medical Center</sa:address-line>
+                     <sa:city>Taipei</sa:city>
+                     <sa:country>Taiwan</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0020">
+                  <ce:label>d</ce:label>
+                  <ce:textfn>Division of Infectious Diseases and Tropical Medicine, Department of Internal Medicine, Tri-Service General Hospital, Taipei, Taiwan</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Division of Infectious Diseases and Tropical Medicine</sa:organization>
+                     <sa:address-line>Department of Internal Medicine</sa:address-line>
+                     <sa:address-line>Tri-Service General Hospital</sa:address-line>
+                     <sa:city>Taipei</sa:city>
+                     <sa:country>Taiwan</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0025">
+                  <ce:label>e</ce:label>
+                  <ce:textfn>Graduate Institute of Basic Medical Science, China Medical University, Taichung, Taiwan</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Graduate Institute of Basic Medical Science</sa:organization>
+                     <sa:address-line>China Medical University</sa:address-line>
+                     <sa:city>Taichung</sa:city>
+                     <sa:country>Taiwan</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0030">
+                  <ce:label>f</ce:label>
+                  <ce:textfn>Department of Internal Medicine and Laboratory Medicine, Kaohsiung Medical University Hospital, Kaohsiung, Taiwan</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Internal Medicine and Laboratory Medicine</sa:organization>
+                     <sa:address-line>Kaohsiung Medical University Hospital</sa:address-line>
+                     <sa:city>Kaohsiung</sa:city>
+                     <sa:country>Taiwan</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:affiliation id="aff0035">
+                  <ce:label>g</ce:label>
+                  <ce:textfn>School of Medicine, Kaohsiung Medical University, Kaohsiung, Taiwan</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>School of Medicine</sa:organization>
+                     <sa:address-line>Kaohsiung Medical University</sa:address-line>
+                     <sa:city>Kaohsiung</sa:city>
+                     <sa:country>Taiwan</sa:country>
+                  </sa:affiliation>
+               </ce:affiliation>
+               <ce:correspondence id="cor0005">
+                  <ce:label>⁎</ce:label>
+                  <ce:text>Corresponding author. Tel.: +886 37 246 166; fax: +886 37 586 457.</ce:text>
+               </ce:correspondence>
+            </ce:author-group>
+            <ce:date-received day="21" month="5" year="2013"/>
+            <ce:date-revised day="30" month="6" year="2013"/>
+            <ce:date-accepted day="25" month="7" year="2013"/>
+            <ce:miscellaneous id="misc0005">
+               <ce:bold>Corresponding Editor:</ce:bold> Eskild Petersen, Aarhus, Denmark</ce:miscellaneous>
+            <ce:abstract id="abs0005" view="all" class="author"><ce:abstract-sec id="abst0005" view="all">
+                  <ce:section-title id="sect0010">Background</ce:section-title>
+                  <ce:simple-para id="spar0005" view="all">The emergence of carbapenem-resistant <ce:italic>Acinetobacter baumannii</ce:italic> (CRAB) was observed in a Kenyan hospital from 2009 to 2010. Further investigation of the dissemination of CRAB isolates and the molecular characterization of associated resistance determinants were therefore performed.</ce:simple-para>
+               </ce:abstract-sec><ce:abstract-sec id="abst0010" view="all">
+                  <ce:section-title id="sect0015">Methods</ce:section-title>
+                  <ce:simple-para id="spar0010" view="all">Antibiotic susceptibilities were determined by broth microdilution and Etest. Metallo-β-lactamases were detected by Etest method. Clonal relationships were studied by pulsed-field gel electrophoresis (PFGE) and multilocus sequence typing (MLST). β-Lactam and aminoglycoside resistance determinants and the clonal relatedness to widespread European clones were studied by PCR and sequencing.</ce:simple-para>
+               </ce:abstract-sec><ce:abstract-sec id="abst0015" view="all">
+                  <ce:section-title id="sect0020">Results</ce:section-title>
+                  <ce:simple-para id="spar0015" view="all">Sixteen CRAB isolates from 10 patients possessed six pulsotypes; half of the isolates belonged to the European clone II (ECII) lineage. ECII strains were typed as MLST sequence type 2 (ST2) and ST109, and non-ECII strains as ST25 and ST113. All isolates harbored IS<ce:italic>Aba1–bla</ce:italic>
+                     <ce:inf loc="post">OXA-23</ce:inf>, <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-51-like</ce:inf>, <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">ADC</ce:inf>, and class 1 integron, including one that also harbored <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">NDM-1</ce:inf>. ADC-57 and two integron cassettes (<ce:italic>arr-2-cmlA5</ce:italic> and <ce:italic>aadB-aadA2-cmlA6-aadA15</ce:italic>) were newly-identified. Non-ECII isolates, designated non-ECII clone, carried <ce:italic>armA</ce:italic> and integron cassette <ce:italic>arr-2</ce:italic>-<ce:italic>cmlA5</ce:italic>.</ce:simple-para>
+               </ce:abstract-sec><ce:abstract-sec id="abst0020" view="all">
+                  <ce:section-title id="sect0025">Conclusions</ce:section-title>
+                  <ce:simple-para id="spar0020" view="all">Two distinct clones of CRAB – ECII and non-ECII epidemic clones – were disseminated in Kenya. The concomitance of IS<ce:italic>Aba1</ce:italic>–<ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-23</ce:inf> was the major mechanism contributing to CRAB. The first identification of ECII CRAB and New Delhi metallo-β-lactamase 1 (NDM-1) extensively drug-resistant <ce:italic>A. baumannii</ce:italic> in East Africa is of concern.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+            <ce:keywords id="kwd0005" class="keyword" view="all">
+               <ce:section-title id="sect0030">Keywords</ce:section-title>
+               <ce:keyword id="kw0005">
+                  <ce:text>OXA-23</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0010">
+                  <ce:text>NDM-1</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0015">
+                  <ce:text>European clone II</ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0020">
+                  <ce:text>Carbapenem-resistant <ce:italic>Acinetobacter baumannii</ce:italic>
+                  </ce:text>
+               </ce:keyword>
+               <ce:keyword id="kw0025">
+                  <ce:text>Kenya</ce:text>
+               </ce:keyword>
+            </ce:keywords>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:section id="sec0005" view="all">
+                  <ce:label>1</ce:label>
+                  <ce:section-title id="sect0035">Introduction</ce:section-title>
+                  <ce:para id="par0005" view="all">The global spread of carbapenem-resistant <ce:italic>Acinetobacter baumannii</ce:italic> (CRAB) has been observed and is considered a sentinel event of emerging antimicrobial resistance.<ce:cross-ref id="crf0070" refid="bib0005">
+                        <ce:sup loc="post">1</ce:sup>
+                     </ce:cross-ref> In an extensive survey, the European clone II (ECII) clonal complex was found to be the most widespread clone of clinical CRAB isolates on five continents.<ce:cross-ref id="crf0075" refid="bib0005">
+                        <ce:sup loc="post">1</ce:sup>
+                     </ce:cross-ref> Reports describing CRAB dissemination in the African continent are scarce and the studies have been limited to northern and southern regions of Africa.<ce:cross-refs id="crfs0005" refid="bib0005 bib0010">
+                        <ce:sup loc="post">1,2</ce:sup>
+                     </ce:cross-refs>
+                  </ce:para>
+                  <ce:para id="par0010" view="all">Carbapenem resistance mechanisms in <ce:italic>A. baumannii</ce:italic> are more commonly mediated by carbapenem-hydrolyzing class D β-lactamases (CHDLs) and less often by class B metallo-β-lactamases (MBLs).<ce:cross-ref id="crf0080" refid="bib0010">
+                        <ce:sup loc="post">2</ce:sup>
+                     </ce:cross-ref> To our knowledge, several CHDLs (OXA-23, OXA-24, OXA-58, and OXA-97) and a few MBLs (GES and NDM-1) have been identified so far in clinical <ce:italic>A. baumannii</ce:italic> isolates in Africa.<ce:cross-ref id="crf0085" refid="bib0015">
+                        <ce:sup loc="post">3</ce:sup>
+                     </ce:cross-ref> OXA-23-producing CRAB has been reported from African countries including Algeria, Tunisia, Libya, Egypt, Senegal, Nigeria, South Africa, and Madagascar. The acquisition of the <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-23</ce:inf> gene has been associated with four genetic structures that consist of diverse conjunctions with insertion sequences IS<ce:italic>Aba1</ce:italic> and IS<ce:italic>Aba4</ce:italic>, and all of these structures have been identified in Tunisia, Algeria, Libya, and South Africa.<ce:cross-refs id="crfs0010" refid="bib0010 bib0015">
+                        <ce:sup loc="post">2,3</ce:sup>
+                     </ce:cross-refs>
+                  </ce:para>
+                  <ce:para id="par0015" view="all">Before 2008, <ce:italic>A. baumannii</ce:italic> was uncommon among pathogens recovered at Aga Khan University Hospital, Kenya, and it had remained susceptible to several antibiotics including extended-spectrum cephalosporins, carbapenems, and aminoglycosides. CRAB appeared in 2009 and caused an outbreak in an intensive care unit that lasted for 5 months before being controlled by strict and sustained infection control measures. During the same period, clonally-related New Delhi metallo-β-lactamase 1 (NDM-1)-producing <ce:italic>Klebsiella pneumoniae</ce:italic> isolates were identified in our hospital and were found to carry various genes encoding β-lactam and aminoglycoside resistance.<ce:cross-ref id="crf0090" refid="bib0020">
+                        <ce:sup loc="post">4</ce:sup>
+                     </ce:cross-ref> In the present study, we investigated clonal dissemination and mechanisms of resistance to carbapenem and aminoglycosides in CRAB isolates.</ce:para>
+               </ce:section>
+               <ce:section id="sec0010" view="all">
+                  <ce:label>2</ce:label>
+                  <ce:section-title id="sect0040">Methods</ce:section-title>
+                  <ce:section id="sec0015" view="all">
+                     <ce:label>2.1</ce:label>
+                     <ce:section-title id="sect0045">Isolates and antimicrobial susceptibility testing</ce:section-title>
+                     <ce:para id="par0020" view="all">CRAB isolates were collected in Aga Khan University Hospital, a 250-bed tertiary care facility, from January 2009 to August 2010. Among the 16 isolates, 10 were from seven Kenyan patients, three were from two Rwandan patients, and three were from a Tanzanian patient. The isolates were initially identified by API 20E and confirmed using the Vitek system (Vitek AMS; bioMérieux Vitek Systems Inc., Hazelwood, MO, USA); further species identification was done by multiplex PCR and <ce:italic>recA</ce:italic> sequencing.<ce:cross-ref id="crf0095" refid="bib0025">
+                           <ce:sup loc="post">5</ce:sup>
+                        </ce:cross-ref>
+                     </ce:para>
+                     <ce:para id="par0025" view="all">The minimum inhibitory concentrations (MICs) were determined by broth microdilution method with Sensititre plates (TREK Diagnostic Systems, West Sussex, UK), except the MICs of imipenem, which were determined with MBL Etest strips (AB Biodisk, Solna, Sweden), and interpreted in accordance with the Clinical and Laboratory Standards Institute (CLSI) guidelines.<ce:cross-ref id="crf0100" refid="bib0030">
+                           <ce:sup loc="post">6</ce:sup>
+                        </ce:cross-ref> The antimicrobial agents tested using broth microdilution included ampicillin, ampicillin/sulbactam, piperacillin, piperacillin/tazobactam, cefazolin, ceftazidime, ceftriaxone, cefepime, cefmetazole, meropenem, ciprofloxacin, levofloxacin, gentamicin, amikacin, tigecycline, and trimethoprim/sulfamethoxazole. <ce:italic>Escherichia coli</ce:italic> ATCC 25922 and <ce:italic>Pseudomonas aeruginosa</ce:italic> ATCC 27853 were used as quality control strains.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0020" view="all">
+                     <ce:label>2.2</ce:label>
+                     <ce:section-title id="sect0050">Molecular typing and PCR assays</ce:section-title>
+                     <ce:para id="par0030" view="all">All isolates were typed by pulsed-field gel electrophoresis (PFGE) and multilocus sequence typing (MLST).<ce:cross-refs id="crfs0015" refid="bib0025 bib0035">
+                           <ce:sup loc="post">5,7</ce:sup>
+                        </ce:cross-refs>
+                     </ce:para>
+                     <ce:para id="par0035" view="all">β-Lactamase genes (<ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">KPC</ce:inf>, <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">IMP</ce:inf>, <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">VIM</ce:inf>, <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">GIM</ce:inf>, <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">SPM</ce:inf>, <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">SIM</ce:inf>, <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-23-like</ce:inf>, <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-24/OXA-40-like</ce:inf>, <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-51-like</ce:inf>, <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-58-like</ce:inf> and <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">ADC</ce:inf>), amikacin resistance genes (<ce:italic>armA</ce:italic>, <ce:italic>rmtA</ce:italic>, <ce:italic>rmtB</ce:italic>, <ce:italic>rmtC</ce:italic>, <ce:italic>rmtD</ce:italic>, <ce:italic>aac(6′)-Iad</ce:italic>, <ce:italic>aac(6′)-Ib</ce:italic>, <ce:italic>aac(6′)-Ih</ce:italic> and <ce:italic>aph(3′)-VI</ce:italic>), the relative genetic mobile elements (<ce:italic>intI1</ce:italic>, <ce:italic>intI2</ce:italic>, <ce:italic>intI3</ce:italic>, IS<ce:italic>Aba1</ce:italic>, and IS<ce:italic>Aba4</ce:italic>), the variable regions of class 1 integrons, and clonality (European clones I, II, III) were investigated by PCR, and the amplicons were sequenced as described previously.<ce:cross-refs id="crfs0020" refid="bib0025 bib0040 bib0045 bib0050">
+                           <ce:sup loc="post">5,8–10</ce:sup>
+                        </ce:cross-refs> 
+                        <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">NDM</ce:inf> was detected with the primers ATGGAATTGCCCAATATTATGC and CGAAAGTCAGGCTGTGTTG. The full-length of the <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">NDM</ce:inf>, <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">ADC</ce:inf>, and <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-23</ce:inf> genes were sought with primer pairs NDM ATGGAATTGCCCAATATTATGC and TCAGCGCAGCTTGTCGG, ADC ATGCGATTTAAAAAAATTTCTTGTC and TTATTTCTTTATTGCATTCAGCAC, and OXA23 TTATTTTCTATTGATCTGGTGTTT and TAGAGTTTCTGTCAAGC, respectively.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0025" view="all">
+                     <ce:label>2.3</ce:label>
+                     <ce:section-title id="sect0055">Nucleotide accession numbers</ce:section-title>
+                     <ce:para id="par0040" view="all">The sequences of the variable regions of the integrons of representative isolates 5 and 14 have been deposited in GenBank under the accession numbers <ce:inter-ref id="intr0005" xlink:href="ncbi-n:HQ141279" xlink:type="simple">
+                           <ce:bold>
+                              <ce:underline>HQ141279</ce:underline>
+                           </ce:bold>
+                        </ce:inter-ref> and <ce:inter-ref id="intr0010" xlink:href="ncbi-n:HQ148722" xlink:type="simple">
+                           <ce:bold>
+                              <ce:underline>HQ148722</ce:underline>
+                           </ce:bold>
+                        </ce:inter-ref>, respectively. The nucleotide sequence of the novel ADC-57 enzyme has been assigned the accession number <ce:bold>
+                           <ce:underline>HQ258925</ce:underline>
+                        </ce:bold>.</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="sec0030" view="all">
+                  <ce:label>3</ce:label>
+                  <ce:section-title id="sect0060">Results</ce:section-title>
+                  <ce:section id="sec0035" view="all">
+                     <ce:label>3.1</ce:label>
+                     <ce:section-title id="sect0065">Isolation and clonal relatedness of collected isolates</ce:section-title>
+                     <ce:para id="par0045" view="all">Among 16 isolates, 10 (55.6%) were obtained from tracheal aspirate; the others were from bone marrow aspirate, cerebrospinal fluid, catheter tip, axillary swab, nasal swab, urine, blood, and debrided tissue samples. Six pulsotypes were identified among these isolates and were determined to be non-clonally related. Eight isolates (50%) belonging to the pulsotypes III, V, VI, were found to be affiliated with ECII lineages. MLST analysis revealed four sequence types (ST). Among eight ECII strains, seven belonged to ST2 (2-2-2-2-2-2-2) and one to ST109 (26-4-2-2-9-1-5). In the other eight non-ECII strains, six belonged to ST25 (3-3-2-4-7-2-4) and two to ST113 (3-3-3-4-7-4-4) (<ce:cross-ref id="crf0105" refid="tbl0005">Table 1</ce:cross-ref>
+                        <ce:float-anchor refid="tbl0005"/>).</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0040" view="all">
+                     <ce:label>3.2</ce:label>
+                     <ce:section-title id="sect0070">Antimicrobial susceptibility</ce:section-title>
+                     <ce:para id="par0050" view="all">All CRAB isolates were resistant to β-lactams, with the exception of one cefepime-intermediate isolate. With respect to fluoroquinolone antibiotics, there was a higher resistance rate to ciprofloxacin (100%) than to levofloxacin (43.8%). With regard to aminoglycosides, the resistance rates were 68.8% for gentamicin and 37.5% for amikacin. All isolates were susceptible to colistin. One isolate (isolate 14) was resistant to tigecycline.</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0045" view="all">
+                     <ce:label>3.3</ce:label>
+                     <ce:section-title id="sect0075">Detection of resistance genes and resistance determinants</ce:section-title>
+                     <ce:para id="par0055" view="all">All isolates harbored <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-23</ce:inf>, <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-51-like</ce:inf>, and <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">ADC</ce:inf> genes, with one isolate also harboring <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">NDM-1</ce:inf>. One novel ADC, <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">ADC-57</ce:inf>, was designated with five amino acid substitutions (K150Q, S167P, G242D, L253F, and R342G) in comparison to the ADC-1 protein. The IS<ce:italic>Aba1</ce:italic> element was detected upstream of all <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-23</ce:inf>, <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">ADC-30</ce:inf>, and <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-66</ce:inf> gene-harboring isolates. Eight isolates harbored <ce:italic>armA</ce:italic>, two harbored <ce:italic>aph(3′)</ce:italic>-<ce:italic>VI</ce:italic>, and one harbored both <ce:italic>aac(6′)-Ih</ce:italic> and <ce:italic>aph(3′)</ce:italic>-<ce:italic>VI</ce:italic> (<ce:cross-ref id="crf0110" refid="tbl0005">Table 1</ce:cross-ref>). Four different types of gene cassette were identified, including two novel ones (<ce:italic>arr-2</ce:italic>-<ce:italic>cmlA5</ce:italic> and <ce:italic>aadB</ce:italic>-<ce:italic>aadA2</ce:italic>-<ce:italic>cmlA6</ce:italic>-<ce:italic>aadA15</ce:italic>). Each isolate had one integron gene cassette, except isolate 14 which had two cassettes. These integron cassette genes encoded resistance to rifampin, chloramphenicol, and gentamicin (<ce:cross-ref id="crf0115" refid="fig0005">Figure 1</ce:cross-ref>
+                        <ce:float-anchor refid="fig0005"/>).</ce:para>
+                  </ce:section>
+                  <ce:section id="sec0050" view="all">
+                     <ce:label>3.4</ce:label>
+                     <ce:section-title id="sect0080">Associations among clonality, antimicrobial susceptibility profiles, and detected resistance determinants</ce:section-title>
+                     <ce:para id="par0060" view="all">Half of the study isolates were associated with the ECII lineage (ECII isolates), while the other half were not (non-ECII isolates). ECII isolates harbored the <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">OXA-66</ce:inf> gene, which was carried with a specific integron cassette arrangement (<ce:italic>aacC1</ce:italic>-<ce:italic>orfX</ce:italic>-<ce:italic>orfX</ce:italic>-<ce:italic>orfX</ce:italic>′-<ce:italic>aadA1</ce:italic>). Non-ECII isolates all carried the <ce:italic>arr-2</ce:italic>-<ce:italic>cmlA5</ce:italic> integron cassette and <ce:italic>armA</ce:italic> (<ce:cross-ref id="crf0120" refid="fig0005">Figure 1</ce:cross-ref>), exhibited their clonality, and were designated non-ECII clone. The <ce:italic>bla</ce:italic>
+                        <ce:inf loc="post">NDM-1</ce:inf>-positive isolate (isolate 1) belonging to non-ECII clone and ST25, exhibited high-level resistance to imipenem (MIC<ce:hsp sp="0.25"/>≥<ce:hsp sp="0.25"/>512<ce:hsp sp="0.25"/>
+                        <ce:italic>μ</ce:italic>g/ml) and retained its susceptibility to ampicillin/sulbactam, tigecycline, and colistin. All non-ECII strains carrying <ce:italic>armA</ce:italic> were resistant to amikacin, except two ST113 strains (isolate 12 and 13), which were susceptible to this antimicrobial drug (<ce:cross-ref id="crf0125" refid="tbl0005">Table 1</ce:cross-ref>).</ce:para>
+                  </ce:section>
+               </ce:section>
+               <ce:section id="sec0055" view="all">
+                  <ce:label>4</ce:label>
+                  <ce:section-title id="sect0085">Discussion</ce:section-title>
+                  <ce:para id="par0065" view="all">Different pulsotypes of our ECII CRAB isolates with dissimilar antibiograms have been reported from South Africa,<ce:cross-ref id="crf0130" refid="bib0005">
+                        <ce:sup loc="post">1</ce:sup>
+                     </ce:cross-ref> suggesting that the ECII clone has been disseminated to and has perhaps acquired carbapenem resistance in East Africa. Apart from three European clonal complexes, the relationship with some other novel genotypes in the global dissemination of CRAB has only recently been addressed; only the ST25 clone has been suggested to be well-established and highly associated with carbapenem resistance.<ce:cross-ref id="crf0135" refid="bib0035">
+                        <ce:sup loc="post">7</ce:sup>
+                     </ce:cross-ref> Three ST25 isolates (isolates 4, 5, and 6) from different patients, belonging to the non-ECII clone and sharing an identical PFGE pattern, were presumed to comprise a small-sized outbreak.</ce:para>
+                  <ce:para id="par0070" view="all">CRAB isolates in this study were susceptible to amikacin (50%) and levofloxacin (56.3%); these susceptibility rates are higher than those reported in the global surveillance study (35.7% and 5.6%, respectively).<ce:cross-ref id="crf0140" refid="bib0005">
+                        <ce:sup loc="post">1</ce:sup>
+                     </ce:cross-ref> Although tigecycline has so far never been used in East Africa, one ECII isolate exhibited resistance to tigecycline, which is of concern.</ce:para>
+                  <ce:para id="par0075" view="all">Three carbapenem resistance gene structures were observed: IS<ce:italic>Aba1</ce:italic>-<ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-23</ce:inf>, IS<ce:italic>Aba1</ce:italic>-<ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-51-like</ce:inf>, and <ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">NDM-1</ce:inf>. IS<ce:italic>Aba1</ce:italic>-<ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-23</ce:inf> was the major carbapenem resistance mechanism found, as in reports from other African countries.<ce:cross-refs id="crfs0025" refid="bib0010 bib0015">
+                        <ce:sup loc="post">2,3</ce:sup>
+                     </ce:cross-refs> An intriguing finding was the identification of an OXA-23 and NDM-1 co-producing extensively drug-resistant <ce:italic>A. baumannii</ce:italic> (XDR-AB) isolate (isolate 1). This is the first report of NDM-1-encoded XDR-AB in East Africa. Previous reports have shown NDM-1-producing bacteria mainly of the <ce:italic>Enterobacteriaceae</ce:italic> species.<ce:cross-ref id="crf0145" refid="bib0020">
+                        <ce:sup loc="post">4</ce:sup>
+                     </ce:cross-ref> In Kenya, we reported the first isolations of NDM-1 in <ce:italic>K. pneumoniae</ce:italic>.<ce:cross-ref id="crf0150" refid="bib0020">
+                        <ce:sup loc="post">4</ce:sup>
+                     </ce:cross-ref> Whether the XDR-AB carrying NDM-1 was due to the horizontal transfer of the resistance gene by broad-host plasmid needs further investigation. Three isolates (isolates 1, 2, and 3) from the same patient shared an identical pulsotype. Isolate 1 was from the axilla and not from a respiratory-related sample, indicating the nosocomial acquisition of NDM-1 from another source or skin contact. As well as <ce:italic>armA</ce:italic>, isolate 1 also carried <ce:italic>aac(6′)-Ih</ce:italic> and <ce:italic>aph(3′)</ce:italic>-<ce:italic>VI</ce:italic>, leading to high-level amikacin resistance (<ce:cross-ref id="crf0155" refid="tbl0005">Table 1</ce:cross-ref>).</ce:para>
+                  <ce:para id="par0080" view="all">In conclusion, this study shows the emergence of the genetic structure IS<ce:italic>Aba1</ce:italic>-<ce:italic>bla</ce:italic>
+                     <ce:inf loc="post">OXA-23</ce:inf>, conferring carbapenem resistance in <ce:italic>A. baumannii</ce:italic> in Kenya, in two distinct clonal lineages. One lineage is linked to international clone ECII and the other is a newly identified epidemic non-ECII clone carrying a novel integron cassette and the ArmA gene. Remarkably, one ST25 CRAB isolate belonging to non-ECII clone had acquired MBL NDM-1 and amikacin resistance determinants, including <ce:italic>armA</ce:italic>, <ce:italic>aac(6′)-Ih</ce:italic>, and <ce:italic>aph(3′)</ce:italic>-<ce:italic>VI</ce:italic>. Highly stringent control measures should be applied to prevent these resistance genes spreading further into other bacterial species.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:acknowledgment id="ack0005" view="all">
+               <ce:section-title id="sect0090">Acknowledgements</ce:section-title>
+               <ce:para id="par0085" view="all">The authors thank the microbiology technologist team of Aga Khan University Hospital, Nairobi, Kenya for their technical assistance.</ce:para>
+               <ce:para id="par0090" view="all">
+                  <ce:italic>Funding:</ce:italic> The project was supported by intramural grants from the National Research Institutes. The funders had no role in the study design, data collection and analysis, decision to publish, or preparation of the manuscript.</ce:para>
+               <ce:para id="par0095" view="all">
+                  <ce:italic>Ethical approval</ce:italic>: The study was approved by the Aga Khan University Hospital Research and Ethics Committee.</ce:para>
+               <ce:para id="par0100" view="all">
+                  <ce:italic>Conflict of interest:</ce:italic> The authors declare that no conflicts of interest exist.</ce:para>
+            </ce:acknowledgment>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="bibl0005" view="all">
+               <ce:section-title id="sect0095">References</ce:section-title>
+               <ce:bibliography-sec id="bibs0005" view="all">
+                  <ce:bib-reference id="bib0005">
+                     <ce:label>1</ce:label>
+                     <sb:reference id="sbref0005">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.G.</ce:given-name>
+                                 <ce:surname>Higgins</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Dammhayn</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Hackel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Seifert</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Global spread of carbapenem-resistant <ce:italic>Acinetobacter baumannii</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Antimicrob Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>65</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>233</sb:first-page>
+                              <sb:last-page>238</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0010">
+                     <ce:label>2</ce:label>
+                     <sb:reference id="sbref0010">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.D.</ce:given-name>
+                                 <ce:surname>Mugnier</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Poirel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Naas</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Nordmann</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Worldwide dissemination of the <ce:italic>bla</ce:italic>
+                                 <ce:inf loc="post">OXA-23</ce:inf> carbapenemase gene of <ce:italic>Acinetobacter baumannii</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Emerg Infect Dis</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>16</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>35</sb:first-page>
+                              <sb:last-page>40</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0015">
+                     <ce:label>3</ce:label>
+                     <sb:reference id="sbref0015">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.O.</ce:given-name>
+                                 <ce:surname>Olaitan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Berrazeg</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.E.</ce:given-name>
+                                 <ce:surname>Fagade</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.O.</ce:given-name>
+                                 <ce:surname>Adelowo</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.A.</ce:given-name>
+                                 <ce:surname>Alli</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.M.</ce:given-name>
+                                 <ce:surname>Rolain</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Emergence of multidrug-resistant <ce:italic>Acinetobacter baumannii</ce:italic> producing OXA-23 carbapenemase, Nigeria</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Int J Infect Dis</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>17</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2013</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>e469</sb:first-page>
+                              <sb:last-page>e470</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0020">
+                     <ce:label>4</ce:label>
+                     <sb:reference id="sbref0020">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Poirel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Revathi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Bernabeu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Nordmann</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Detection of NDM-1-producing <ce:italic>Klebsiella pneumoniae</ce:italic> in Kenya</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>55</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2011</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>934</sb:first-page>
+                              <sb:last-page>936</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0025">
+                     <ce:label>5</ce:label>
+                     <sb:reference id="sbref0025">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.Y.</ce:given-name>
+                                 <ce:surname>Huang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.L.</ce:given-name>
+                                 <ce:surname>Lu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.L.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.Y.</ce:given-name>
+                                 <ce:surname>Chang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.P.</ce:given-name>
+                                 <ce:surname>Fung</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.K.</ce:given-name>
+                                 <ce:surname>Siu</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Molecular characterization of β-lactamase genes and their genetic structures in Acinetobacter genospecies 3 isolates in Taiwan</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>54</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2699</sb:first-page>
+                              <sb:last-page>2703</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0030">
+                     <ce:label>6</ce:label>
+                     <sb:reference id="sbref0030">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:collaboration>Clinical and Laboratory Standards Institute</sb:collaboration>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Performance standards for antimicrobial susceptibility testing. CLSI M100-S20</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:date>2010</sb:date>
+                              <sb:publisher>
+                                 <sb:name>CLSI</sb:name>
+                                 <sb:location>Wayne, PA</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0035">
+                     <ce:label>7</ce:label>
+                     <sb:reference id="sbref0035">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Karah</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Sundsfjord</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Towner</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>O.</ce:given-name>
+                                 <ce:surname>Samuelsen</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Insights into the global molecular epidemiology of carbapenem non-susceptible clones of <ce:italic>Acinetobacter baumannii</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Drug Resist Updat</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>15</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2012</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>237</sb:first-page>
+                              <sb:last-page>247</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0040">
+                     <ce:label>8</ce:label>
+                     <sb:reference id="sbref0040">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.S.</ce:given-name>
+                                 <ce:surname>Akers</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Chaney</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Barsoumian</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Beckius</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Zera</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>X.</ce:given-name>
+                                 <ce:surname>Yu</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Aminoglycoside resistance and susceptibility testing errors in <ce:italic>Acinetobacter baumannii–calcoaceticus</ce:italic> complex</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J Clin Microbiol</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>48</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2010</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1132</sb:first-page>
+                              <sb:last-page>1138</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0045">
+                     <ce:label>9</ce:label>
+                     <sb:reference id="sbref0045">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Ma</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.J.</ce:given-name>
+                                 <ce:surname>Lin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.H.</ce:given-name>
+                                 <ce:surname>Chen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.P.</ce:given-name>
+                                 <ce:surname>Fung</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>F.Y.</ce:given-name>
+                                 <ce:surname>Chang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.K.</ce:given-name>
+                                 <ce:surname>Lai</ce:surname>
+                              </sb:author>
+                              <sb:et-al/>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Widespread dissemination of aminoglycoside resistance genes <ce:italic>armA</ce:italic> and <ce:italic>rmtB</ce:italic> in <ce:italic>Klebsiella pneumoniae</ce:italic> isolates in Taiwan producing CTX-M-type extended-spectrum β-lactamases</sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob Agents Chemother</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>53</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2009</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>104</sb:first-page>
+                              <sb:last-page>111</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib0050">
+                     <ce:label>10</ce:label>
+                     <sb:reference id="sbref0050">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.F.</ce:given-name>
+                                 <ce:surname>Turton</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.N.</ce:given-name>
+                                 <ce:surname>Gabriel</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Valderrey</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.E.</ce:given-name>
+                                 <ce:surname>Kaufmann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.L.</ce:given-name>
+                                 <ce:surname>Pitt</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                           <sb:title>
+                              <sb:maintitle>Use of sequence-based typing and multiplex PCR to identify clonal lineages of outbreak strains of <ce:italic>Acinetobacter baumannii</ce:italic>
+                              </sb:maintitle>
+                           </sb:title>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Clin Microbiol Infect</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>13</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2007</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>807</sb:first-page>
+                              <sb:last-page>815</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>

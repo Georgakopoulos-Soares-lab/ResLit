@@ -1,0 +1,572 @@
+PMID: 22644028
+PMCID: PMC3421627
+DOI: 10.1128/AAC.00456-12
+Title: Characterization of RarA, a novel AraC family multidrug resistance regulator in Klebsiella pneumoniae.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2012 Aug
+Authors: Veleba M, Higgins PG, Gonzalez G, Seifert H, Schneiders T
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Characterization of RarA, a Novel AraC Family Multidrug Resistance Regulator in Klebsiella pneumoniae - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2012 Aug;56(8):4450–4458. doi: 10.1128/AAC.00456-12 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Characterization of RarA, a Novel AraC Family Multidrug Resistance Regulator in Klebsiella pneumoniae 
+
+Mark Veleba 
+
+Mark Veleba 
+
+a Centre for Infection and Immunity, Queen's University Belfast, Medical Biology Centre, Belfast, United Kingdom 
+
+Find articles by Mark Veleba 
+
+a , Paul G Higgins 
+
+Paul G Higgins 
+
+b Institute for Medical Microbiology, Immunology and Hygiene, University of Cologne, Cologne, Germany 
+
+Find articles by Paul G Higgins 
+
+b , Gerardo Gonzalez 
+
+Gerardo Gonzalez 
+
+c Laboratorio de Investigación en Agentes Antibacterianos, Departamento de Microbiología, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción, Chile 
+
+Find articles by Gerardo Gonzalez 
+
+c , Harald Seifert 
+
+Harald Seifert 
+
+b Institute for Medical Microbiology, Immunology and Hygiene, University of Cologne, Cologne, Germany 
+
+Find articles by Harald Seifert 
+
+b , Thamarai Schneiders 
+
+Thamarai Schneiders 
+
+a Centre for Infection and Immunity, Queen's University Belfast, Medical Biology Centre, Belfast, United Kingdom 
+
+Find articles by Thamarai Schneiders 
+
+a, ✉ 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a Centre for Infection and Immunity, Queen's University Belfast, Medical Biology Centre, Belfast, United Kingdom 
+
+b Institute for Medical Microbiology, Immunology and Hygiene, University of Cologne, Cologne, Germany 
+
+c Laboratorio de Investigación en Agentes Antibacterianos, Departamento de Microbiología, Facultad de Ciencias Biológicas, Universidad de Concepción, Concepción, Chile 
+
+✉ 
+Address correspondence to Thamarai Schneiders, t.schneiders@qub.ac.uk . 
+
+✉ 
+Corresponding author. 
+
+Received 2012 Feb 29; Revision requested 2012 Mar 29; Accepted 2012 May 20. 
+
+Copyright © 2012, American Society for Microbiology. All Rights Reserved. 
+
+The authors have paid a fee to allow immediate free access to this article. 
+
+PMC Copyright notice 
+
+PMCID: PMC3421627  PMID: 22644028 
+
+See " Tigecycline Resistance Can Occur Independently of the ramA Gene in Klebsiella pneumoniae " on page 4466. 
+
+Abstract 
+
+Transcriptional regulators, such as SoxS, RamA, MarA, and Rob, which upregulate the AcrAB efflux pump, have been shown to be associated with multidrug resistance in clinically relevant Gram-negative bacteria. In addition to the multidrug resistance phenotype, these regulators have also been shown to play a role in the cellular metabolism and possibly the virulence potential of microbial cells. As such, the increased expression of these proteins is likely to cause pleiotropic phenotypes. Klebsiella pneumoniae is a major nosocomial pathogen which can express the SoxS, MarA, Rob, and RamA proteins, and the accompanying paper shows that the increased transcription of ramA is associated with tigecycline resistance ( M. Veleba and T. Schneiders , Antimicrob. Agents Chemother. 56:4466–4467, 2012). Bioinformatic analyses of the available Klebsiella genome sequences show that an additional AraC-type regulator is encoded chromosomally. In this work, we characterize this novel AraC-type regulator, hereby called RarA (Regulator of antibiotic resistance A), which is encoded in K. pneumoniae , Enterobacter sp. 638, Serratia proteamaculans 568, and Enterobacter cloacae . We show that the overexpression of rarA results in a multidrug resistance phenotype which requires a functional AcrAB efflux pump but is independent of the other AraC regulators. Quantitative real-time PCR experiments show that rarA (MGH 78578 KPN_02968) and its neighboring efflux pump operon oqxAB (KPN_02969_02970) are consistently upregulated in clinical isolates collected from various geographical locations (Chile, Turkey, and Germany). Our results suggest that rarA overexpression upregulates the oqxAB efflux pump. Additionally, it appears that oqxR , encoding a GntR-type regulator adjacent to the oqxAB operon, is able to downregulate the expression of the oqxAB efflux pump, where OqxR complementation resulted in reductions to olaquindox MICs. 
+
+INTRODUCTION 
+
+Multidrug resistance in Gram-negative bacteria is a significant issue in the treatment of infectious diseases. Research associated with reduced antimicrobial susceptibility is largely focused on specific mechanisms that confer high levels of antibiotic resistance and are generally acquired extrinsically ( 18 ). In contrast, genes that encode transcriptional regulators such as MarA, SoxS, Rob, and RamA confer a low-level multidrug-resistant (MDR) phenotype by increasing levels of efflux pump expression ( 1 ). 
+
+The study of these intrinsic genetic mechanisms is key to the understanding of the development and persistence of antimicrobial resistance, as these intrinsic systems are generally encoded by transcription factors that control a plethora of genes. In Escherichia coli and Salmonella spp., two major systems, namely, the marAB and soxRS systems, have been extensively studied ( 3 , 25 ). In numerous studies involving multidrug-resistant clinical strains, it has been shown that mutations that alter the levels of the MarA or SoxS proteins also lead to increased levels of the efflux system AcrAB ( 20 , 30 ). Generally, mutations that result in derepression or activation generate the constitutive expression of the MarA/SoxS proteins; however, transient induction of these intrinsic proteins can also occur through interaction with ligands such as salicylate ( 5 ) or menadione ( 13 ). 
+
+Chromosomally intrinsic systems in E. coli and Klebsiella pneumoniae such as MarRAB and SoxRS have been shown to control efflux pumps, particularly the AcrAB pump, which confers low-level resistance to a variety of antibiotics and disinfectants ( 22 ). Additionally, several global transcriptional profiling studies have shown that other less-well-characterized efflux pumps and other genes involved in cellular metabolism are also regulated by these intrinsic systems ( 3 , 24 ). Accordingly, studies show that the virulence profiles and infectivity potential of bacteria can be altered on the basis of the expression levels of these intrinsic regulators ( 4 ). Addressing the role of accessory genes or operons associated with or involved in antimicrobial resistance is an integral part of understanding the microbial response to antibiotic challenge, as antibiotics have been shown to function as signaling molecules that trigger specific transcriptional signals ( 7 ). Hence, it is evident from these studies that the intrinsic resistome of bacteria consists of genes that may be involved in a wide variety of cellular functions but which also provide protection against antibiotic challenge. 
+
+Klebsiella pneumoniae is a commonly encountered major nosocomial pathogen that is increasingly multidrug resistant ( 12 ). As in E. coli and Salmonella spp., transcription factors that mediate multidrug resistance have been identified in K. pneumoniae ( 16 , 27 , 28 ). To date, most studies that have identified the role of transcriptional regulators in the multidrug resistance phenotype have shown that, in clinical K. pneumoniae isolates, increased expression of a marA -like gene, ramA , has been associated with upregulation of the acrAB efflux pump and multidrug resistance ( 27 , 28 ). In order to determine whether other intrinsic systems exist that can confer multidrug resistance in K. pneumoniae , we performed bioinformatic analyses to mine the three sequenced K. pneumoniae genomes for AraC-type regulators. As a result of these analyses, we have identified and characterized a novel AraC-type regulator, KPN_02968 (designation based on MGH 78578 genome sequence), that confers a multidrug-resistant phenotype, which we now call RarA ( R egulator of a ntibiotic r esistance A). Bioinformatic analyses show that the rarA gene is encoded in K. pneumoniae , Enterobacter sp. 638, Serratia proteamaculans 568, and E. cloacae ( Fig. 1A ). 
+
+Fig 1. 
+
+Open in a new tab 
+
+(A) Comparison of genomic organizations of rarA (KPN_02968) locus in Klebsiella pneumoniae strain MGH 78578 to those of other Enterobacteriaceae harboring the locus. (B) Predicted phylogenetic tree of MarA-type protein homologues in Klebsiella pneumoniae determined using PhyML 3.0 ( 14 ). The amino acid sequences for MarA (KPN_01624), Rob (KPN_04851), RarA (KPN_02968), RamA (KPN_00556), SoxS (KPN_04462), and KPN_01709 were used in Muscle alignment software to generate the phylogenetic tree. All amino acid sequences were obtained from the genome sequence of MGH 78578 ( NC_009648 ). Of note, different branch lengths denote relative amino acid identities. 
+
+MATERIALS AND METHODS 
+
+Bacterial strains. 
+
+A complete list of all bacterial strains and plasmids used and constructed is shown in Table 1 . The propagation of all strains was either performed in LB broth at 37°C with shaking or LB agar at 37°C. The targeted genetic mutants were generated from K. pneumoniae Ecl8 by the use of a modified protocol as described by Merlin et al. ( 21 ). Briefly, flanking regions of rarA were amplified using PCR primers (Co-Ci and No-Ni 02968) ( Table 2 ), and the products were then reamplified using the outer flank primers, Co and No, which generated a PCR fragment that contained both flanking regions but not rarA . This fragment was restriction digested by the use of PstI and SalI (NEB, England) and cloned into the pTOF25 replacement vector ( 21 ). The kanamycin resistance cassette was excised from the recombinant pTOF3 plasmid by the use of NotI excision and cloned between the flanking regions in the recombinant pTOF25. This recombinant plasmid was electroporated into K. pneumoniae Ecl8, and a kanamycin-resistant variant was selected after growth on selection plates at 30°C. The insertion was verified by PCR amplification using the primers 02968delchkF and 02968delchkR. Similarly, for the acrAB gene knockout, we used Co-acrB/Ci-acrB and No-acrA/Ni-acrA to create the flanks. In this case, the overlap PCR product was restricted using XhoI and PstI (NEB, England) prior to cloning and gene replacement as described above. 
+
+Table 1. 
+
+List of strains used in experiments 
+
+Strain Relevant genotype and phenotype a Reference or source E. coli strains AG100 E. coli wt strain 11 AG100/pACrarA-1 AG100 + pACrarA-1 (wt rarA cloned into pACYC177 (BamHI, ScaI), Kan r This work AG100/pACYC177 AG100 + pACYC177 (Kan r , Amp r ) This work AG100/pACrarA-2 AG100 + pACrarA-2 (wt rarA cloned into pACYC184 [BamHI, HindIII]), Cm r This work AG100/pACYC184 AG100 + pACYC184 (Cm r , Tet r ) This work AG100A acrAB efflux pump-deleted strain 28 AG100A/pACrarA-2 AG100A + pACrarA-2 (wt rarA cloned into pACYC184 [BamHI, HindIII]), Cm r This work AG100A/pACYC184 AG100A + pACYC184 (Cm r , Tet r ) This work MG1655 E. coli K-12 laboratory isolate In-house strain collection MG1655/pACrarA-1 MG1655 + pACrarA-1 (wt rarA cloned into pACYC177 [BamHI, ScaI]), Kan r This work MG1655/pACYC177 MG1655 + pACYC177 (Kan r , Amp r ) This work MG1655 Δ marA marA -deleted strain S. B. Levy, L. McMurry MG1655 Δ marA /pACrarA-1 MG1655 Δ marA + pACrarA-1 (wt rarA cloned into pACYC177 [BamHI, ScaI]), Kan r This work MG1655 Δ marA /pACYC177 MG1655 Δ marA + pACYC177 (Kan r , Amp r ) This work AG100 Δ soxS Δ rob Δ marA soxS -, rob -, marA -deleted strain S. B. Levy, L. McMurry AG100 Δ soxS Δ rob Δ marA /pACrarA-2 AG100 Δ soxS Δ rob Δ marA + pACrarA-2 (wt rarA cloned into pACYC184 [BamHI, HindIII]), Cm r This work AG100 Δ soxS Δ rob Δ marA /pACYC184 AG100 Δ soxS Δ rob Δ marA + pACYC184 (Cm r , Tet r ) This work K. pneumoniae strains MGH 78578 ATCC 700721 19 Ecl8 K. pneumoniae wt strain 8 Ecl8/pACrarA-1 Ecl8 + pACrarA-1 (wt rarA cloned into pACYC177 [BamHI, ScaI]), Kan r This work Ecl8/pACYC177 Ecl8 + pACYC177 (Kan r , Amp r ) This work Ecl8Mdr1 Spontaneous MDR mutant of Ecl8 10 Ecl8 Δ ramA ramA -deleted strain derived from Ecl8 27 Ecl8 Δ ramA /pACrarA-1 Ecl8 Δ ramA + pACrarA-1 (wt rarA cloned into pACYC177 [BamHI, ScaI]), Kan r This work Ecl8 Δ ramA /pACYC177 Ecl8 Δ ramA + pACYC177 (Kan r , Amp r ) This work Kp342 K. pneumoniae isolated from maize 9 Ecl8 Δ acrAB acrAB -deleted strain derived from Ecl8, Kan r This work Ecl8 Δ acrAB /pACrarA-2 Ecl8 Δ acrAB + pACrarA-2 (wt rarA cloned into pACYC184 [BamHI, HindIII]), Cm r This work Ecl8 Δ acrAB /pACYC184 Ecl8 Δ acrAB + pACYC184 (Cm r , Tet r ) This work Ecl8 Δ rarA rarA (KPN_02968)-deleted strain derived from Ecl8, Kan r This work Ecl8 Δ rarA /pACrarA-2 Ecl8 Δ rarA + pACrarA-2 (wt rarA cloned into pACYC184 [BamHI, HindIII]), Cm r This work Ecl8 Δ rarA /pACYC184 Ecl8 Δ rarA + pACYC184 (Cm r , Tet r ) This work TS152, TS165 K. pneumoniae clinical isolates (Turkey) 27 TS180, TS202 K. pneumoniae clinical isolates (Chile) 27 GC9, GC12, GC19, GC21 K. pneumoniae clinical isolate (Germany) This work GC9, GC12, GC19, GC21/pACoqxR GC isolates + pACoqxR (wt oqxR cloned into pACYC177 [BamHI, ScaI]), Kan r This work GC9, GC12, GC19, GC21/pACYC177 GC isolates + pACYC177 (Kan r , Amp r ) This work 
+
+Open in a new tab 
+
+a 
+wt, wild type; Kan, kanamycin; Amp, ampicillin; Cm, chloramphenicol; Tet, tetracycline. 
+
+Table 2. 
+
+List of primers used in experiments 
+
+Primer Sequence (5′–3′) a Cloning 02968FB CG GGATCC CACTATCGCGGCGATTGTA 02968RS AAA AGTACT TCATGCGGATCGCTGACG 02968HR CCC AAGCTT TCATGCGGATCGCTGACG 02968BF CG GGATCC TTGCACTTTATGTGCGGT OqxRbamHIF CG GGATCC TTTACTTCGCAGGCTAAC OqxRsca1R AGTACT TCATTTTCTGGTGACGAAAA Deletion Ci-02968 CCGTTCCAA GCGGCCGC AAGAGCGCATCTCGTCAGCGATCCGCATG Co-02968 AAAAA GTCGAC TCAGTCCTGACCCGGCCCATG Ni-02968 CGCTCTT GCGGCCGC TTGGAACGGTCGCGGCCG GTTAAAAGCATC No-02968 AAAAA CTGCAG GTATGGACTAATTTATCGGTGC 02968delchkF TCAGCCAGATGGCAACCG 02968delchkR ACCGCTTCAATGCGACCG Ci-acrB CGCTCTT GCGGCCGC TTGGAACGGGGCGCGCCTCTCCTGGTT Co-acrB AAAAA CTCGAG CCACTTTTGCAAATCCGTAGAG Ni-acrA CGCTCTT GCGGCCGC TTGGAACGGGTGTCCAATTTCAAAATGTTC No-acrA AAAAA CTGCAG GCGTAGCGTCGGG CAGAATTG AcrABdelchkF GAGCGAATGTGGCAATGTGC AcrABdelchkR CACGGTCATTTCACCGACG Sequencing 02968FB CGGGATCCCACTATCGCGGCGATTGTA 02968RS AAAAGTACTTCATGCGGATCGCTGACG 02698intF GACAGATCCTGAATGAT 02698intR TGAATGTTTCCCCAGGTT OqxRF GTCACCAGAAAATGATTAATGCGC OqxRR GCCTTTGCCCGTGAAATCAG Q-RTPCR Kp02968F TGGATCGACAACCATCTTGA Kp02968R AAGGACTGCTGGGAGTCAAA Kp_16SQ_F GTTACCCGCAGAAGAAGCAC Kp_16SQ_R CTACGCATTTCACCGCTACA 02969F AAGGTGCTGGTGAAGTCGAT 02969R GGAGACGAGGTTGGTATGGA Kp_ramAQ_F AGCCTGGGGCGCTATATT Kp_ramAQ_R GTGGTTCTCTTTGCGGTAGG Kp_marAF TCGAGGATAACCTGGAATCG Kp_marAR ACAAATGGGCTCATTGCTC oqxRqpcrF TAACGAAGCCTGCTCTGCTT oqxRqpcrR AATGGTTCCGCTAACTCGTG 5′ RACE GSP1 ATGTCTGCGCAACAG GSP2 GCTCGTCGGGCAACGGTGTC GSP3 CCAGACGGCTATCAAGATGGTTG 
+
+Open in a new tab 
+
+a 
+Underlined sequences denote restriction enzyme cut sites. 
+
+Bioinformatic analyses. 
+
+Amino acid identity was analyzed using NCBI's Basic Local Alignment Search Tool ( http://blast.ncbi.nlm.nih.gov ) and the MarA amino acid sequence (KPN_01624) from the NCBI entry Klebsiella pneumoniae subsp. pneumoniae MGH 78578 (accession number NC_009648.1 ). To assess the genetic relatedness of the AraC regulators such as Rob, RamA, RarA, and SoxS, a phylogenetic tree was generated using the Phylogeny Analysis tool at LIRMM Methodes et Algorithmes pour la Bio-informatique ( http://www.phylogeny.fr/version2_cgi/simple_phylogeny.cgi ) ( 14 ) by inputting sequences of Rob (KPN_04851), RamA (KPN_00556), RarA (KPN_02968), SoxS (KPN_04462), and putative helix-turn-helix (HTH) AraC-type regulator KPN_01709. 
+
+Antimicrobial susceptibility testing. 
+
+Susceptibility testing was undertaken as described by the British Society for Antimicrobial Chemotherapy (BSAC) guidelines using the agar dilution method ( 2 ). Overnight cultures were briefly diluted 10 4 in PBS medium, and 5 μl of each dilution was spotted on the LB agar plates supplemented with antibiotics. Plates were incubated overnight at 37°C prior to scoring for growth. All MIC tests were performed in triplicate. 
+
+Cloning and transformations. 
+
+All primers used are shown in Table 2 . A recombinant plasmid containing the gene of interest, rarA (KPN_02968), was constructed. Due to conflicting antibiotic resistance determinants in the chromosomal gene knockouts, two plasmid recombinants (pACrarA-1 and pACrarA-2) harboring the rarA gene were constructed. The fragment for cloning into pACYC177 was amplified using 02968FB and 02968RS and restricted using the BamHI and ScaI enzymes (New England BioLabs, United Kingdom). Similarly, the fragment for cloning into pACYC184 was amplified using 02968HR and 02968BF and restricted using the BamHI and HindIII enzymes to generate pACrarA-2. Depending on the strain, one of these constructs was then electroporated or heat shock transformed into bacterial strains harboring the different genetic deletions (shown in Table 1 ). In order to determine the effect of oqxR mutations, the open reading frame (ORF) of oqxR (amplified using OqxRBamHI and OqxRScaIR) was cloned into pACYC177 by the use of the BamHI/ScaI restriction sites. 
+
+RNA extraction. 
+
+RNA was extracted from relevant strains of K. pneumoniae or E. coli ( Table 1 ) by the use of the TRIzol extraction method as described previously ( 27 ). Briefly, cells were grown to the mid-log phase at 37°C with shaking and then harvested by centrifugation at 3,000 × g at room temperature. The cell pellet was then resuspended in TRIzol reagent (Invitrogen, Paisley, United Kingdom) and chloroform and centrifuged to separate the phases. The upper phase was then precipitated using sodium acetate, glycogen, and 100% ethanol. The resulting pellet was washed and resuspended in an appropriate amount of diethyl pyrocarbonate (DEPC)-treated water. 
+
+Real-time RT-PCR. 
+
+Quantitative real-time reverse transcription-PCR (RT-PCR) was performed to assess levels of gene expression for rarA , ramA , marA , soxS , and oqxA . 16S RNA was used as a control gene to normalize cDNA levels. cDNA was generated using am AffinityScript quantitative PCR (QPCR) cDNA synthesis kit (Agilent, United Kingdom). A Brilliant III Ultra-Fast SYBR green kit (Agilent, United Kingdom) was used for amplification, and experiments were conducted using a Stratagene Mx3005P QPCR system (Agilent Technologies). The strains used as controls when determining rarA , oqxA , ramA , and acrAB expression were wild-type and antibiotic-susceptible K. pneumoniae strain Ecl8 and its isogenic resistant variant K. pneumoniae Ecl8Mdr1 ( Table 1 ). Expression levels were normalized against levels of 16S expression, and these data were calibrated against expression levels of the sensitive Ecl8 strain as the baseline to determine fold changes in expression. All data were analyzed using Agilent MxPro software. 
+
+Sequence studies. 
+
+For sequence analysis, PCR amplification was undertaken for intergenic regions (between rarA and oqxA —primers 02698intF and 02698intR) to determine whether any promoter-associated or ORF mutations result in increased expression of rarA . Additionally, oqxR (KPN_02971), a putative regulator of the oqxAB efflux pump, was sequenced (primers OqxRF and OqxRR) to identify any mutations that could result in the upregulation of the oqxAB efflux pump (KPN_02969, KPN_02970). Primers 02968FB and 02968RS were used to verify the rarA gene in the recombinant plasmids pACrarA-1 and pACrarA-2. Prior to sequencing, the PCR products were purified using a Genejet purification kit (Fermentas, Germany), and the sequencing reactions were performed using a BigDye Terminator 3.1 cycle sequencing kit (Applied Biosystems) prior to the automated runs being performed at the Genomics Core at Queen's University Belfast's Centre for Public Health, City Hospital. The consensus sequence (based on both the forward and reverse strands) were aligned and compared to the wild-type sequences from NCBI using MultAlin software ( http://multalin.toulouse.inra.fr/multalin/multalin.html ). 
+
+Mapping the TSS of rarA . 
+
+The transcription start site (TSS) was mapped according to the manufacturer's instructions as outlined in the 5′ Rapid Amplification of cDNA Ends (RACE) kit (Invitrogen, Paisley, United Kingdom). Briefly, DNase I-digested RNA was converted to cDNA by the use of primer GSP1, prior to SNAP purification and TdT tailing (Invitrogen, Paisley, United Kingdom). The dc-tailed cDNA was amplified using the Abridged anchor primer and GSP2 ( Table 2 ). This was followed by an additional round of amplifications using the Abridged universal anchor primer and GSP3 ( Table 2 ), yielding a product sized at 172 bp. The purified PCR product was TA cloned into pGEMTeasy vector (Promega, Southampton, United Kingdom), and the insertion sequence was verified using bidirectional sequencing. The junction between the C tail and the start site of rarA open reading frame was taken to be the transcriptional start site. Predictions of the putative −10 and −35 hexamers were determined using SoftBerry analysis of the intergenic region. 
+
+RESULTS 
+
+Bioinformatic analyses. 
+
+In order to mine the K. pneumoniae genomes for other uncharacterized AraC-type transcriptional regulators, we used the amino acid sequence for the prototype regulator MarA (KPN_01624) from K. pneumoniae MGH 78578. We focused on the top five hits from the BLAST analyses, in descending order of identity, which were Rob (53%), RamA (46%), KPN_02968 (called rarA [46%]), SoxS (42%), and another putative AraC-type regulatory protein, KPN_01709 (34%). We decided to focus on rarA in further work for two reasons: first, because of its higher level of identity to MarA, and second, because of its predicted size of 121 amino acids being closer to that of the subset of AraC regulators such as RamA, SoxS, and MarA rather than the considerably larger KPN_01709 (326 amino acids). As expected, the phylogenetic tree generated using MUSCLE for multiple alignments of the five AraC regulators ( Fig. 1B ) shows that KPN_02968 is closely related to the MarA, SoxS, and RamA proteins; however, KPN_01709 appears to be an outlier, as shown by the branch lengths denoting relative sequence similarities. 
+
+Antimicrobial susceptibility testing. 
+
+Given the identity of RarA with the other AraC-type proteins such as MarA and RamA, we hypothesized that RarA might possess similar functional properties in conferring low-level multidrug resistance. In order to address this, we cloned the open reading frame encoding rarA with its putative promoter region into pACYC177 or pACYC184 and determined the multidrug resistance phenotype conferred by this regulator in both wild-type E. coli and K. pneumoniae strains as well as in strains harboring deletions in various loci such as marA , ramA , and the efflux operon acrAB ( Table 1 ). Overexpression of rarA in the Δ marA strain ( E. coli K-12 MG1655 Δ marA ) led to increases in MICs as follows: a 2-fold increase in the tigecycline MIC, 4-fold increases in the ciprofloxacin, norfloxacin, and tetracycline MICs, and an 8-fold increase in the chloramphenicol MIC ( Table 3 ). Similarly, in the AG100 Δ soxS Δ rob Δ marA strain, the increased expression of pACrarA-2 resulted in increases in the olaquindox and ciprofloxacin MICs (2-fold) and the tigecycline and norfloxacin MICs (8-fold) relative to the MICs seen with the vector-only control ( Table 3 ). However, when the pACrarA-2 construct was overexpressed in AG100A, there were no differences in the susceptibility profiles in comparison to the vector-only control, implying that the multidrug-resistant phenotype is dependent on the presence of a functional acrAB efflux pump. Regardless of the absence of marA , soxS , or rob , either singly or in combination, overexpression of rarA resulted in a low-level multidrug resistance phenotype in E. coli ( Table 3 ). 
+
+Table 3. 
+
+Susceptibility profiles of E. coli strains transformed with pACrarA and vector-only control a 
+
+Strain MIC (μg/ml) CHL OQX TET TIG NOR CIP AG100 4 16 4 < 0.500 0.125 0.031 AG100/pACrarA-1 16 32 8 2 1 0.062 AG100/pACYC177 4 16 4 < 0.500 0.125 0.031 AG100/pACrarA-2 * 32 * 2 0.250 0.062 AG100/pACYC184 * 16 * < 0.5 0.125 0.031 AG100A * 8 * 0.250 0.008 0.004 AG100A/pACrarA-2 * 8 * 0.250 0.008 0.004 AG100A/pACYC184 * 8 * 0.250 0.008 0.004 AG100 Δ soxS Δ rob Δ marA * 16 * 0.500 0.032 0.031 AG100 Δ soxS Δ rob Δ marA /pACrarA-2 * 32 * 4 0.250 0.062 AG100 Δ soxS Δ rob Δ marA /pACYC184 * 16 * 0.500 0.031 0.031 MG1655 4 16 4 4 0.500 0.062 MG1655/pACrarA-1 16 32 8 8 1 0.125 MG1655/pACYC177 4 16 4 4 0.500 0.062 MG1655 Δ marA 4 8 4 4 0.250 0.031 MG1655 Δ marA /pACrarA-1 32 16 16 8 1 0.125 MG1655 Δ marA /pACYC177 4 8 4 4 0.250 0.031 
+
+Open in a new tab 
+
+a 
+A pACYC177 or pACYC184 backbone was used to clone the rarA open reading frame. Depending on the resistance cassettes already in situ , the appropriate recombinant constructs would be used. Asterisks denote that MIC testing for that particular antibiotic was not done due to presence of a conflicting antibiotic resistance cassette on the plasmid and/or construct. Entries in bold denote increased MICs over those seen with wild-type/parental strains. CHL, chloramphenicol, OQX, olaquindox, TET, tetracycline, TIG, tigecycline, NOR, norfloxacin, CIP, ciprofloxacin. 
+
+Correspondingly, in K. pneumoniae Ecl8 Δ ramA , the absence of ramA did not affect the multidrug-resistant phenotype when rarA was overexpressed ( Table 4 ). The increases in MIC ranged from 2-fold for tetracycline and norfloxacin to 4-fold for olaquindox, ciprofloxacin, and tigecycline and 8-fold for chloramphenicol. The deletion of the rarA open reading frame (Ecl8 Δ rarA ) resulted in a 2- to 8-fold reduction in MIC ( Table 4 ). As expected, the complementation of the rarA regulator in trans resulted in MIC levels higher than that observed for the parental strains. Similar to the experiments in E. coli , overexpression of rarA in K. pneumoniae Ecl8 Δ acrAB did not result in an MDR phenotype ( Table 4 ). 
+
+Table 4. 
+
+Susceptibility profiles of K. pneumoniae strains transformed with pACrarA and vector-only control a 
+
+Strain MIC (μg/ml) CHL OQX TET TIG NOR CIP Ecl8 4 16 4 2 0.250 0.031 Ecl8/pACrarA-1 8 32 8 4 0.500 0.062 Ecl8/pACYC177 4 16 4 2 0.250 0.031 Ecl8 Δ ramA 0.5 8 1 1 0.250 0.016 Ecl8 Δ ramA/ pACrarA-1 4 32 2 4 0.500 0.062 Ecl8 Δ ramA/ pACYC177 0.5 8 1 1 0.250 0.016 Ecl8 Δ rarA * 8 * 0.500 0.031 0.016 Ecl8 Δ rarA /pACrarA-2 * 64 * 4 0.250 0.062 Ecl8 Δ rarA /pACYC184 * 8 * 0.500 0.031 0.016 Ecl8 Δ acrAB * 2 * 0.25 0.031 0.016 Ecl8 Δ acrAB /pACrarA-2 * 64 * 0.25 0.031 0.016 Ecl8 Δ acrAB /pACYC184 * 2 * 0.25 0.031 0.016 
+
+Open in a new tab 
+
+a 
+A pACYC177 or pACYC184 backbone was used to clone the rarA open reading frame. Depending on the resistance cassettes already in situ , the appropriate recombinant constructs would be used. Asterisks denote that MIC testing for that particular antibiotic was not done due to presence of a conflicting antibiotic resistance cassette on the plasmid and/or construct. Entries in bold denote increased MICs over those seen with wild-type/parental strains. CHL, chloramphenicol; OQX, olaquindox; TET, tetracycline; TIG, tigecycline; NOR, norfloxacin; CIP, ciprofloxacin. 
+
+Gene expression levels of rarA in clinical multidrug-resistant isolates of K. pneumoniae . 
+
+In order to establish a role for rarA in clinical resistance, we determined by quantitative real-time RT-PCR whether rarA was upregulated in clinical isolates of K. pneumoniae obtained from various geographical locations. In our survey, we included 17 multidrug-resistant strains collected from Chile, Turkey, and Germany, where our results show that of the 17 strains tested, 7 overexpressed rarA -specific transcripts compared to the sensitive K. pneumoniae strain Ecl8 (see Fig. 3 ), including two Turkish isolates, TS152 (6.62-fold) and TS165 (3.77-fold), as well as one from Chile (TS202; 7.37-fold). Most of the isolates from Germany also showed overexpression of the rarA regulator (GC9, 9.6-fold; GC12, 7.91-fold; GC19, 8.24-fold; GC21, 8.09-fold). For those strains that overexpressed rarA , we were also able to demonstrate that the levels of either marA or ramA were also elevated (4- to 5-fold) among all isolates showing expression (data not shown). Furthermore, analyses of rarA and oqxA levels in the constitutive rarA expresser, K. pneumoniae strain Ecl8/pACrarA-1 ( Table 1 ), demonstrated the increased transcription of both genes (see Fig. 3 ). 
+
+Fig 3. 
+
+Open in a new tab 
+
+Fold change in expression levels of rarA and oqxA among clinical isolates compared to K. pneumoniae Ecl8. All QPCR experiments were performed as outlined in Materials and Methods. For strains Ecl8Mdr1 [represented by EcL8(R)], Kp342, TS152, TS165, TS202, GC9, GC12, GC19, and GC21, fold change values were generated after normalizing to 16S levels for each strain and then using oqxA and rarA levels derived from the sensitive K. pneumoniae Ecl8 strain. To assess whether rarA could activate the expression of the efflux pump oqxAB , transcription of oqxA was assessed in Ecl8/pACrarA-1 [EcL8(P)] and Ecl8 Δ rarA /pACrarA-2 [EcL8(Δ)]. In this case, the fold change was normalized as mentioned before but calibrated against either Ecl8/pACYC177 or Ecl8Δ rarA /pACYC184. 
+
+In all the strains where rarA overexpression was noted, we sought to determine the molecular basis of upregulation by initially focusing on identifying changes within the promoter and associated regions of the rarA regulator by (i) determining the transcriptional start site of rarA , (ii) mapping the changes within the intergenic region between rarA and the oqxAB operon relative to the transcription-relevant sequences ( Fig. 2 ), and (iii) determining the sequence of the rarA regulator itself. 
+
+Fig 2. 
+
+Open in a new tab 
+
+Nucleotide changes within the intergenic region between KPN_02968 ( rarA ) and KPN_02969 ( oqxA ). Changes observed within the intergenic region between rarA and oqxA in the different clinical strains tested are shown. The numbering scheme is based on the first nucleotide before the ATG of rarA as position 1. The transcription start site of rarA , determined by 5′ RACE analysis, is labeled TSS. The Shine-Dalgarno sequence is underlined; putative −10 and −35 promoter regions determined through Softberry analysis are shown boxed and labeled accordingly. 
+
+DNA sequence analyses of the intergenic region and ORF of the rarA regulator. (i) Intergenic region. 
+
+Sequence analyses within the intergenic region for detection of polymorphisms highlighted changes within many of the rarA -overexpressing strains ( Fig. 2 ). To clarify the possible significance of these intergenic changes, we performed 5′ RACE experiments using strain K. pneumoniae Ecl8Mdr1 to determine the transcription start site (TSS), which maps 58 bp upstream of the open reading frame of rarA ( Fig. 2 ). Notably, none of the rarA -overexpressing clinical strains showed changes within regions, e.g., the rarA TSS, −10 or −35 hexamer, relevant to gene transcription ( Fig. 2 ). In contrast, all of the rarA -overexpressing strains (TS152, TS165, Kp342, GC9, GC12, GC19, and GC21), with the exception of Ecl8MDR1 and TS202, harbored changes approximately 121 to 131 bp upstream of the rarA open reading frame ( Fig. 2 ), where the most common change was a C insertion at 131 bp ( Fig. 2 ). However, two of the rarA overexpressers (GC12 and GC21) showed identical changes (C8→T and T11→G) within the putative Shine-Dalgarno sequence ( Fig. 2 ). Interestingly, no changes were found in multidrug-resistant strains Ecl8Mdr1 and TS202, but those strains still overexpressed rarA . Our findings suggest that the molecular basis for rarA upregulation may not be linked to the changes identified within the intergenic region. 
+
+(ii) rarA regulator. 
+
+Only 4 (GC19, Ecl8, Ecl8Mdr1, and Kp342) of the 10 strains sequenced (9 rarA overexpressers and the sensitive Ecl8 strain) harbored changes within the rarA regulator. Identical mutations in rarA leading to a Glu96→Arg substitution were found in both nonexpresser K. pneumoniae Ecl8 and rarA overexpresser K. pneumoniae Ecl8Mdr1. This change is located within the α-helix in the predicted HTH binding site ( http://bioinf.cs.ucl.ac.uk/psipred/ ); however, its presence in both strains implies that it is not a crucial residue. Several substitutions not present in other strains were identified in K. pneumoniae Kp342: Ala31→Ser, Lys57→Gln, Ile63→Val, Val111→Ala, Ala112→Glu, and Thr114→Ala. This strain also harbors a mutation at position Arg117→STOP which leads to a premature stop codon (TGA). Of all the other clinical isolates that overexpress rarA , only GC9 showed a unique change, Gln99→Lys, within the sequence between helices 6 and 7, proximal to the C-terminal end of the protein. 
+
+The oqxAB (KPN_02969 and KPN_02970) efflux operon lies downstream from the rarA regulator where the oqxAB pump has been associated with reduced susceptibility to olaquindox, ciprofloxacin, and chloramphenicol ( 15 ). Interestingly, all clinical strains that showed upregulation of rarA also demonstrated increased expression of KPN_02969 ( oqxA ) ( Fig. 3 ). In order to dissect the molecular basis for this upregulation, we determined the following: (i) whether there was an association between rarA and oqxAB upregulation and (ii) whether the GntR-type regulator (OqxR_KPN_02971) encoded downstream of the oqxAB operon would function as a repressor. 
+
+Our results show that plasmid-mediated overexpression of rarA resulted in increased levels of oqxA in K. pneumoniae Ecl8 and Ecl8Δ rarA ( Fig. 3 ). Additionally, a reproducible (1.5-fold, mean of 4 experiments) increase in acrAB levels was also observed in the same strains. Therefore, we surmise that rarA may function as a positive regulator of oqxAB and acrAB levels. 
+
+Putative regulator OqxR. (i) Sequencing results. 
+
+We first sequenced all the rarA - and oqxAB -overexpressing strains and found that not all strains (e.g., TS202) that overexpressed oqxA (KPN_02969) harbored changes within the oqxR gene ( Table 5 ). However, there were several recurring changes, namely, Gln11→Leu (GC12 and GC21), Asp95→Glu (GC12 and GC21), Val113→Ile (GC12, GC21, and and KP342) and Val130→Ala (TS152 and TS165). Based on alignments with other GntR family regulators, Gln11→Leu is located within the DNA-binding domain of the winged helix-turn-helix (WHTH) of OqxR. The other mutations were located within the predicted C-terminal effector binding and oligomerization domain ( 26 ). 
+
+Table 5. 
+
+Sequence analysis of OqxR and rarA/oqxA expression levels of clinical K. pneumoniae isolates a 
+
+Strain OqxR change(s) Expression level of rarA calibrated against Ecl8 Con/Comp log 2 expression level(s) b rarA oqxA 152 Val130 → Ala 6.62 — 6.42/— 165 Arg25→His, Val130 → Ala 3.77 — 4.76/— 202 Ala133→Thr 7.37 — 5.64/— GC9 Phe6→Ser 9.60 17.97/17.53 8.68/−1.4 GC12 Gln11 → Leu , Asp95 → Glu, V113 → Ile 7.91 21.77/23.6 2.89/0.64 GC19 Frameshift Δ, aa 73-77 8.24 21.06/20.84 7.6/0.74 GC21 Gln11 → Leu , Asp95 → Glu , Val 113 → Ile 8.09 23.34/21.75 3.72/0.01 Kp342 Asn38→Thr, Asp95 → Glu, Val113 → Ile , His159→Leu 6.21 21.76/22.03 1.77/−0.735 Ecl8Mdr1 Frameshift Δ, aa 88-94 10.46 17.88/17.44 9.06/0.28 
+
+Open in a new tab 
+
+a 
+Strains whose names are underlined were complemented with pACoqxR. Boldface font denotes amino acid changes present in several strains. Expression levels of rarA calibrated against sensitive K. pneumoniae strain Ecl8 are shown. 
+
+b 
+Con, control data representing either the wild-type or vector-only strains (pACYC177); Comp, complementation data representing increases or decreases of rarA or oqxA expression levels in the different strains after complementation with pACOqxR. Negative values indicate reduction of oqxA levels below the levels noted in the vector-only calibrators. —, strains not complemented due to high levels of innate kanamycin resistance. aa, amino acids. 
+
+(ii) oqxR overexpression effects on 02969 ( oqxA ) levels. 
+
+In order to confirm that the mutations noted within OqxR would be directly associated with increased expression of the oqxAB efflux pump, we performed complementation assays with wild-type oqxR on strains (Ecl8Mdr1, GC9, GC12, GC19, GC21, and Kp342) that overexpressed oqxAB . QPCR analyses showed that oqxA levels were lower in all of the complemented strains than in the vector-only control strains, while rarA levels remained unaffected ( Table 5 ). Only two (Kp342 and Ecl8Mdr1) of the six strains were found to show reductions in olaquindox MICs ( Table 6 ). The lack of reduction in olaquinodox MICs noted for the clinical strains (GC9, GC12, GC19, and GC21) may have been due to other mechanisms ( Table 6 ). In all strains (Ecl8Mdr1, GC9, GC12, GC19, GC21, and Kp342) where we expressed the recombinant oqxR , we also ascertained that the levels of the AcrA protein (Western blot analyses for the AcrA protein; data not shown) remained identical to those of the vector-only controls. From our results, we surmise that a decrease in oqxAB transcription does result in the reduction of olaquindox MICs for some strains. 
+
+Table 6. 
+
+Susceptibility profiles of K. pneumoniae strains after complementation with pACoqxR a 
+
+Strain MICs (mg/liter) for strain transformed with pACoqxR/paCYC177 CHL OQX TET TIG NOR CIP GC9 64/64 768/768 16/16 4/4 8/8 8/8 GC12 24/24 768/768 16/16 8/8 8/8 12/12 GC19 256/256 768/768 32/32 4/4 4/4 1/1 GC21 24/24 768/768 16/16 8/8 8/8 12/12 Kp342 48/64 384/512 32/32 8/8 4/8 0.375/0.500 Ecl8Mdr1 32/32 384/512 4/4 1/1 8/8 0.500/0.500 
+
+Open in a new tab 
+
+a 
+MICs show values for strains complemented with pACoqxR/strains complemented with pACYC177. Numbers in bold indicate MIC reductions seen with the complemented strain versus the vector-only control. CHL, chloramphenicol, OQX, olaquindox, TET, tetracycline, TIG, tigecycline, NOR, norfloxacin, CIP, ciprofloxacin. 
+
+DISCUSSION 
+
+In this work, we have characterized a novel AraC regulator, KPN_02968 ( rarA ), in K. pneumoniae . We demonstrate that plasmid-mediated overexpression of rarA produces a multidrug-resistant phenotype in either E. coli or K. pneumoniae independently of the presence of marA , soxS , or rob ( 29 ) but requires the presence of a functional efflux pump, acrAB , to exhibit the multidrug-resistant phenotype ( Table 3 and Table 4 ). In clinical isolates where we find upregulation of the rarA gene, there appears to be a concurrent increase in the levels of transcripts of oqxAB , which encodes an efflux pump that has been previously implicated in mediating resistance to ciprofloxacin and olaquindox ( 15 , 17 ). 
+
+In K. pneumoniae MGH 78578, oqxAB is flanked by genes encoding two regulators, RarA (KPN_02968) and OqxR (KPN_02971). We first tried to ascertain whether plasmid-mediated overexpression of rarA in a genetically manipulated K. pneumoniae strain would result in the upregulation of the oqxAB operon. Our results show that the plasmid-mediated overexpression of rarA does result in the increased expression of oqxAB ( Fig. 3 ). In contrast, the introduction of wild-type oqxR in trans repressed the oqxAB transcripts ( Table 5 ), which did result in reductions to olaquindox in two strains (Ecl8Mdr1 and Kp342) ( Table 6 ). We surmised that the lack of the reduction in the MICs may be due to AcrA levels which mask the decrease in the MIC or that other alternate mechanisms for olaquindox resistance exist in these strains which may compensate for the reduction of the oqxAB levels. Western blot analyses showed that the levels of AcrA protein remained unaltered (data not shown). Taken together, the results suggest that oqxAB may be subject to regulation by both RarA (activator) and OqxR (repressor). 
+
+The sequencing of the oqxR gene in all the strains where rarA and oqxAB levels were elevated revealed several recurring changes, namely, Gln11→Leu (located in strains GC12 and GC21), Asn95→Glu and Val113→Ile (located in strains GC12, GC21, and Kp342), and Val130→Ala (located in strains TS152 and TS165). On the basis of our complementation studies, we surmise that the changes associated with producing a mutated OqxR protein are Phe 6→Ser, Gln11→Leu, Asp95→Glu, Val113→Ile, and the frameshift deletion spanning positions 73 to 77 or positions 88 to 94. Further experiments are under way to determine whether all other changes reported here are also detrimental to OqxR function. 
+
+Seven out of 17 of the clinical multidrug-resistant strains that we tested overexpressed rarA as well as either ramA or marA . While it is clear that decreased susceptibility occurred with rarA overexpression in the absence of marA , soxS , and rob , the coexpression of the other AraC regulators in multidrug-resistant clinical strains is not uncommon ( 6 , 23 ). Despite the small number of isolates reported here that exhibited rarA overexpression, we find that rarA upregulation is not confined only to clinical isolates from geographically diverse locations but is also noted in the plant endophyte Kp342. Genome analyses of this plant endophyte did indicate that it was multidrug resistant, but the molecular basis of this resistance was not evident from sequence analyses of the commonly encountered mutations ( 9 ). Our finding here suggests that the reason for the decreased susceptibility noted in Kp342 may be linked to the upregulation of rarA . However, to exactly pinpoint the relative contributions of the transcriptional regulators rarA , ramA , and marA and the efflux pumps acrAB and oqxAB , multidrug-resistant clinical isolates should be subjected to specific genetic manipulations and complementation experiments. In conclusion, our data show that K. pneumoniae encodes another multidrug resistance regulator, RarA, which functions as an activator of the oqxAB efflux pump, which is itself negatively regulated by OqxR. 
+
+ACKNOWLEDGMENTS 
+
+This work was funded by MRC New Investigator Grant G0601199 to T.S. and studentship support for M.V. by the Department for Employment and Learning (Northern Ireland). 
+
+We thank S. B. Levy and L. McMurry for E. coli strains AG100A, MG1655, MG1655 Δ marA , and AG100 Δ soxS Δ rob Δ marA . 
+
+Footnotes 
+
+Published ahead of print 29 May 2012 
+
+REFERENCES 
+
+1. Alekshun MN, Levy SB.
+1999. 
+The mar regulon: multiple resistance to antibiotics and other toxic chemicals. Trends Microbiol.
+7:410–413 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+2. Andrews JM.
+2001. 
+Determination of minimum inhibitory concentrations. J. Antimicrob. Chemother.
+48(Suppl. 1):5–16 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+3. Barbosa TM, Levy SB.
+2000. 
+Differential expression of over 60 chromosomal genes in Escherichia coli by constitutive expression of MarA. J. Bacteriol.
+182:3467–3474 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+4. Casaz P, et al. 
+2006. 
+MarA, SoxS and Rob function as virulence factors in an Escherichia coli murine model of ascending pyelonephritis. Microbiology
+152:3643–3650 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+5. Cohen SP, Levy SB, Foulds J, Rosner JL.
+1993. 
+Salicylate induction of antibiotic resistance in Escherichia coli: activation of the mar operon and a mar -independent pathway. J. Bacteriol.
+175:7856–7862 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Eaves DJ, Ricci V, Piddock LJ.
+2004. 
+Expression of acrB , acrF , acrD , marA , and soxS in Salmonella enterica serovar Typhimurium: role in multiple antibiotic resistance. Antimicrob. Agents Chemother.
+48:1145–1150 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+7. Fajardo A, Martinez JL.
+2008. 
+Antibiotics as signals that trigger specific bacterial responses. Curr. Opin. Microbiol.
+11:161–167 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+8. Forage RG, Lin EC.
+1982. 
+DHA system mediating aerobic and anaerobic dissimilation of glycerol in Klebsiella pneumoniae NCIB 418. J. Bacteriol.
+151:591–599 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Fouts DE, et al. 
+2008. 
+Complete genome sequence of the N2-fixing broad host range endophyte Klebsiella pneumoniae 342 and virulence predictions verified in mice. PLoS Genet.
+4:e1000141
+doi: 10.1371/journal.pgen.1000141 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+10. George AM, Hall RM, Stokes HW.
+1995. 
+Multidrug resistance in Klebsiella pneumoniae: a novel gene, ramA , confers a multidrug resistance phenotype in Escherichia coli. Microbiology
+141(Pt. 8):1909–1920 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+11. George AM, Levy SB.
+1983. 
+Amplifiable resistance to tetracycline, chloramphenicol, and other antibiotics in Escherichia coli: involvement of a non-plasmid-determined efflux of tetracycline. J. Bacteriol.
+155:531–540 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Giamarellou H, Poulakou G.
+2009. 
+Multidrug-resistant Gram-negative infections: what are the treatment options?
+Drugs
+69:1879–1901 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+13. Greenberg JT, Chou JH, Monach PA, Demple B.
+1991. 
+Activation of oxidative stress genes by mutations at the soxQ / cfxB / marA locus of Escherichia coli. J. Bacteriol.
+173:4433–4439 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+14. Guindon S, et al. 
+2010. 
+New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0. Syst. Biol.
+59:307–321 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+15. Hansen LH, Jensen LB, Sorensen HI, Sorensen SJ.
+2007. 
+Substrate specificity of the OqxAB multidrug resistance pump in Escherichia coli and selected enteric bacteria. J. Antimicrob. Chemother.
+60:145–147 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+16. Hentschke M, Wolters M, Sobottka I, Rohde H, Aepfelbacher M.
+2010. ramR mutations in clinical isolates of Klebsiella pneumoniae with reduced susceptibility to tigecycline. Antimicrob. Agents Chemother.
+54:2720–2723 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+17. Kim HB, et al. 
+2009. oqxAB encoding a multidrug efflux pump in human clinical isolates of Enterobacteriaceae. Antimicrob. Agents Chemother.
+53:3582–3584 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Levy SB, Marshall B.
+2004. 
+Antibacterial resistance worldwide: causes, challenges and responses. Nat. Med.
+10:S122–S129 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+19. McClelland M, et al. 
+2000. 
+Comparison of the Escherichia coli K-12 genome with sampled genomes of a Klebsiella pneumoniae and three Salmonella enterica serovars, Typhimurium, Typhi and Paratyphi. Nucleic Acids Res.
+28:4974–4986 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. McMurry LM, Oethinger M, Levy SB.
+1998. 
+Overexpression of marA , soxS , or acrAB produces resistance to triclosan in laboratory and clinical strains of Escherichia coli. FEMS Microbiol. Lett.
+166:305–309 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+21. Merlin C, McAteer S, Masters M.
+2002. 
+Tools for characterization of Escherichia coli genes of unknown function. J. Bacteriol.
+184:4573–4581 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+22. Moken MC, McMurry LM, Levy SB.
+1997. 
+Selection of multiple-antibiotic-resistant ( mar ) mutants of Escherichia coli by using the disinfectant pine oil: roles of the mar and acrAB loci. Antimicrob. Agents Chemother.
+41:2770–2772 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+23. Oethinger M, Kern WV, Goldman JD, Levy SB.
+1998. 
+Association of organic solvent tolerance and fluoroquinolone resistance in clinical isolates of Escherichia coli. J. Antimicrob. Chemother.
+41:111–114 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+24. Pomposiello PJ, Bennik MH, Demple B.
+2001. 
+Genome-wide transcriptional profiling of the Escherichia coli responses to superoxide stress and sodium salicylate. J. Bacteriol.
+183:3890–3902 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+25. Pomposiello PJ, Demple B.
+2000. 
+Identification of SoxS-regulated genes in Salmonella enterica serovar Typhimurium. J. Bacteriol.
+182:23–29 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+26. Rigali S, Derouaux A, Giannotta F, Dusart J.
+2002. 
+Subdivision of the helix-turn-helix GntR family of bacterial regulators in the FadR, HutC, MocR, and YtrA subfamilies. J. Biol. Chem.
+277:12507–12515 [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+27. Rosenblum R, Khan E, Gonzalez G, Hasan R, Schneiders T.
+2011. 
+Genetic regulation of the ramA locus and its expression in clinical isolates of Klebsiella pneumoniae. Int. J. Antimicrob. Agents
+38:39–45 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+28. Schneiders T, Amyes SG, Levy SB.
+2003. 
+Role of AcrR and ramA in fluoroquinolone resistance in clinical Klebsiella pneumoniae isolates from Singapore. Antimicrob. Agents Chemother.
+47:2831–2837 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+29. Veleba M, Schneiders T.
+2012. 
+Tigecycline resistance can occur independently of the ramA gene in Klebsiella pneumoniae. Antimicrob. Agents Chemother.
+56:4466–4467 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+30. Wang H, Dzink-Fox JL, Chen M, Levy SB.
+2001. 
+Genetic characterization of highly fluoroquinolone-resistant clinical Escherichia coli strains from China: role of acrR mutations. Antimicrob. Agents Chemother.
+45:1515–1521 [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (691.9 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

@@ -1,0 +1,383 @@
+PMID: 30126962
+PMCID: PMC6201135
+DOI: 10.1128/AAC.01281-18
+Title: Carbapenem Resistance Caused by High-Level Expression of OXA-663 β-Lactamase in an OmpK36-Deficient Klebsiella pneumoniae Clinical Isolate.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2018 Nov
+Authors: Ma P, Laibinis HH, Ernst CM, Hung DT
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Carbapenem Resistance Caused by High-Level Expression of OXA-663 β-Lactamase in an OmpK36-Deficient Klebsiella pneumoniae Clinical Isolate - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2018 Oct 24;62(11):e01281-18. doi: 10.1128/AAC.01281-18 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Carbapenem Resistance Caused by High-Level Expression of OXA-663 β-Lactamase in an OmpK36-Deficient Klebsiella pneumoniae Clinical Isolate 
+
+Peijun Ma 
+
+Peijun Ma 
+
+a The Broad Institute of MIT and Harvard, Cambridge, Massachusetts, USA 
+
+b Department of Molecular Biology, Center for Computational and Integrative Biology, Massachusetts General Hospital, Boston, Massachusetts, USA 
+
+c Department of Genetics, Harvard Medical School, Boston, Massachusetts, USA 
+
+Find articles by Peijun Ma 
+
+a, b, c , Hannah H Laibinis 
+
+Hannah H Laibinis 
+
+a The Broad Institute of MIT and Harvard, Cambridge, Massachusetts, USA 
+
+b Department of Molecular Biology, Center for Computational and Integrative Biology, Massachusetts General Hospital, Boston, Massachusetts, USA 
+
+Find articles by Hannah H Laibinis 
+
+a, b , Christoph M Ernst 
+
+Christoph M Ernst 
+
+a The Broad Institute of MIT and Harvard, Cambridge, Massachusetts, USA 
+
+b Department of Molecular Biology, Center for Computational and Integrative Biology, Massachusetts General Hospital, Boston, Massachusetts, USA 
+
+c Department of Genetics, Harvard Medical School, Boston, Massachusetts, USA 
+
+Find articles by Christoph M Ernst 
+
+a, b, c , Deborah T Hung 
+
+Deborah T Hung 
+
+a The Broad Institute of MIT and Harvard, Cambridge, Massachusetts, USA 
+
+b Department of Molecular Biology, Center for Computational and Integrative Biology, Massachusetts General Hospital, Boston, Massachusetts, USA 
+
+c Department of Genetics, Harvard Medical School, Boston, Massachusetts, USA 
+
+Find articles by Deborah T Hung 
+
+a, b, c, ✉ 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a The Broad Institute of MIT and Harvard, Cambridge, Massachusetts, USA 
+
+b Department of Molecular Biology, Center for Computational and Integrative Biology, Massachusetts General Hospital, Boston, Massachusetts, USA 
+
+c Department of Genetics, Harvard Medical School, Boston, Massachusetts, USA 
+
+✉ 
+Address correspondence to Deborah T. Hung, hung@molbio.mgh.harvard.edu . 
+
+Citation Ma P, Laibinis HH, Ernst CM, Hung DT. 2018. Carbapenem resistance caused by high-level expression of OXA-663 β-lactamase in an OmpK36-deficient Klebsiella pneumoniae clinical isolate. Antimicrob Agents Chemother 62:e01281-18. https://doi.org/10.1128/AAC.01281-18 . 
+
+✉ 
+Corresponding author. 
+
+Received 2018 Jun 15; Revision requested 2018 Jul 13; Accepted 2018 Aug 10; Prepublished 2018 Aug 20; Collection date 2018 Nov. 
+
+Copyright © 2018 American Society for Microbiology. 
+
+All Rights Reserved . 
+
+PMC Copyright notice 
+
+PMCID: PMC6201135  PMID: 30126962 
+
+Carbapenem resistance is mainly mediated by carbapenemases or extended-spectrum β-lactamases (ESBL) plus a loss of porins. However, we have identified a Klebsiella pneumoniae clinical isolate that contains neither carbapenemases nor ESBLs. 
+
+KEYWORDS: Klebsiella , OXA-663, β-lactamases, carbapenem resistance 
+
+ABSTRACT 
+
+Carbapenem resistance is mainly mediated by carbapenemases or extended-spectrum β-lactamases (ESBL) plus a loss of porins. However, we have identified a Klebsiella pneumoniae clinical isolate that contains neither carbapenemases nor ESBLs. Instead, we found that high-level expression of a novel bla OXA-10 -derived β-lactamase gene, bla OXA-663 , in conjunction with OmpK36 deficiency results in high-level carbapenem resistance. This finding demonstrates the combinatorial complexity of factors, including β-lactamase activity, its expression levels, and porin activity, that yield carbapenem resistance. 
+
+TEXT 
+
+Resistance to β-lactam antibiotics emerged even before the first β-lactam, the microbial metabolite penicillin, was used therapeutically ( 1 ), with many bacteria naturally harboring β-lactamases. Each deployment of the next, new, more powerful β-lactam and/or β-lactamase inhibitor has been followed by the inevitable emergence of resistance. This cycle was recently observed for the extended-spectrum β-lactams with the emergence and expansion of extended-spectrum β-lactamases (ESBLs) ( 2 ) and even more recently for the carbapenems ( 2 , 3 ). Carbapenem resistance is mainly mediated by the production of carbapenemases, such as class A serine β-lactamases (i.e., KPC family), class B metallo-β-lactamases (i.e., NDM, IMP, and VIM), and class D serine β-lactamases (i.e., OXA-48) ( 2 , 3 ). Carbapenem resistance can also occur via a combination of an ESBL and a malfunctioning porin where an ESBL alone is not sufficient to cause resistance ( 1 , 2 ). 
+
+Previously, our colleagues sequenced 122 carbapenem-resistant Enterobacteriaceae (CRE) isolates that were obtained from four large referral hospitals in the United States, aiming to investigate the diversity of the genetic mechanisms of carbapenem resistance ( 4 ). Whole-genome sequencing (WGS) revealed that the majority of these isolates contain either carbapenemase genes or ESBL genes in combination with porin gene mutations. However, there were 15 isolates (12%) in which none of the known carbapenem resistance mechanisms were identified ( 4 ). Among these 15 isolates, only 2 isolates had high-level resistance to carbapenems (MIC > 16 μg/ml), including one Klebsiella pneumoniae strain, BIDMC35 (NCBI accession no. PRJNA202047 ). In this study, we investigated the carbapenem-resistance mechanism of BIDMC35. 
+
+While WGS did not detect any known carbapenemase or ESBL genes in BIDMC35, it did identify a bla OXA-10 variant gene that resides on an IncA/C2 plasmid. Besides this bla OXA-10 variant gene, the only β-lactamase gene identified in BIDMC35 is the chromosome-encoded bla SHV-1 . In comparison to the original bla OXA-10 , this bla OXA-10 variant gene harbors a point mutation that results in a T16K substitution ( 4 , 5 ); this allele is designated bla OXA-663 . To date, the class D OXA-10 β-lactamase has been predominantly isolated from Pseudomonas aeruginosa and has been classically thought of as a narrow-spectrum β-lactamase ( 1 ). The breadth of its spectrum was revisited by the demonstration of its ability to confer resistance to carbapenems when expressed in Acinetobacter baumannii but not in Escherichia coli ( 6 ). Neither bla SHV-1 nor bla OXA-10 has to date been shown to confer carbapenem resistance in K. pneumoniae . Because some OXA-type ESBL genes have been reported that differ from bla OXA-10 by just a few mutations ( 1 ), we hypothesized that the novel mutation observed in bla OXA-663 might play a role in its high-level carbapenem resistance, despite the fact that none of the reported OXA-10-derived ESBLs harbor this particular amino acid substitution and that this mutation is located in the leader signal sequence ( 5 ). In addition to the single base pair substitution in the coding region, the upstream region of bla OXA-663 differs from those of bla OXA-10 genes identified in P. aeruginosa and in other K. pneumoniae strains (i.e., MGH71 and MGH65). While all contain a 182-nucleotide consensus upstream region (P OXA-10 c ), BIDMC35 contains an additional 174 nucleotides upstream of the consensus sequence (P OXA-663 ; 356 bp total) compared to the upstream regions of MGH71 and MGH65. Compared to the upstream sequences of bla OXA-10 in some P. aeruginosa strains ( 7 ), the 174-bp region of P OXA-663 contains a 34-bp duplication and a 5-bp insertion. 
+
+We first investigated if bla OXA-663 can confer resistance to carbapenems. We expressed bla OXA-663 in a wild-type E. coli strain 10beta (NEB) using the pSMART-LCKan (Lucigen) plasmid ( Table 1 ). When we tried to express bla OXA-663 by including the whole upstream region (P OXA-663 ) along with the coding sequence, we were unable to obtain any transformants, suggesting that E. coli may not tolerate this DNA construct. However, we were able to express bla OXA-663 in E. coli under the control of either an inducible P BAD promoter ( 8 ) or the 182-nucleotide consensus promoter region (P OXA-10 c ) ( Table 1 ). MICs of meropenem against these two strains were determined by the broth microdilution method, as described in the Clinical and Laboratory Standards Institute guidelines ( 9 ). The MICs were measured in triplicates in Mueller-Hinton broth (Sigma), with a final inoculum size of 5 × 10 5 CFU/ml. MIC tests showed that the susceptibility of E. coli strains expressing bla OXA-663 driven by either P OXA-10 c or P BAD in the presence of 2% arabinose does not differ from that of the host E. coli strain ( Table 2 ), suggesting that other factors or multiple genes are involved in the resistance mechanism. 
+
+TABLE 1. 
+
+Plasmids used in the study 
+
+Plasmid Description Reference or source pBAD24 Expression vector containing arabinose inducible P BAD promoter, Amp r 8 pSMART-LCKan Cloning vector without a promoter, Kan r Lucigen pRU1097 Expression vector containing Gm r resistance gene, Gm r 15 pBAD24_Gm Gm r resistance gene was amplified by PCR from pRU1097 and then ligated to the HindIII site of pBAD24, Gm r This study pBAD24_Gm_ bla OXA-663 bla OXA-663 was amplified from BIDMC35 and ligated to pBAD24_Gm in the EcoRI-KpnI sites, Gm r This study pBAD24_Gm_ bla OXA-10 bla OXA-663 in pBAD24_Gm_ bla OXA-663 was site-mutagenized to bla OXA-10 , Gm r This study pSMART_ bla OXA-663 bla OXA-663 and the 182-bp upstream region (P OXA-10 c ) were amplified from BIDMC35 and blunt ligated to pSMART-LCKan, Kan r This study pSMART_Gm_ ompK36 ompK36 containing the promoter region was amplified from UCI64 and blunt ligated to pSMART-LCKan. Gm r resistance gene was amplified by PCR from pRU1097 and then ligated to the XbaI site, Gm r This study 
+
+Open in a new tab 
+
+TABLE 2. 
+
+Strains and their MICs of meropenem 
+
+Strain MIC of meropenem (μg/ml) Strain description Reference or source BIDMC35 32 Clinical K. pneumoniae isolate harboring bla OXA-663 , ST17 4 MGH71 4 Clinical K. pneumoniae isolate harboring bla OXA-10 and bla KPC-2 , ST258 4 MGH65 8 Clinical K. pneumoniae isolate harboring bla OXA-10 and bla CTX-M-15 , ST15 4 UCI64 <0.25 Clinical K. pneumoniae isolate, susceptible to carbapenems, ST17 4 UCI7 <0.25 Clinical K. pneumoniae isolate, susceptible to Carbapenems, ST17 4 10beta <0.25 Wild-type E. coli NEB 10beta_P BAD : bla OXA-663 <0.25 a bla OXA-663 expressed in E. coli 10beta driven by P BAD promoter This study 10beta_P OXA-10 c : bla OXA-663 <0.25 bla OXA-663 expressed in E. coli 10beta driven by upstream 182-bp consensus region of bla OXA-6 63 and bla OXA-10 (P OXA-10 c ) This study BIDMC35 Δ bla OXA-663 0.5 Mutant that lost the IncA/C2 plasmid containing bla OXA-663 This study BIDMC35 Δ bla OXA-663 _P BAD : bla OXA-663 16 a BIDMC35 Δ bla OXA-663 expressing bla OXA-663 driven by P BAD promoter This study BIDMC35 Δ bla OXA-663 _P BAD : bla OXA-10 16 a BIDMC35 Δ bla OXA-663 expressing bla OXA-10 driven by P BAD promoter This study BIDMC35 ompK36 + <0.25 BIDMC35 expressing ompK36 amplified from UCI64 This study 
+
+Open in a new tab 
+
+a 
+MIC was obtained in Mueller-Hinton broth supplemented with 2% arabinose. 
+
+To identify the additional factors involved in the resistance mechanism to carbapenems in BIDMC35, we performed RNA sequencing (RNA-seq) of BIDMC35 and two other susceptible but closely related isolates, K. pneumoniae UCI7 and UCI64 ( 4 ) ( Table 2 ), all belonging to the same multilocus sequence type (ST17). Bacteria were inoculated in Mueller-Hinton broth and at an optical density at 600 nm (OD 600 ) of ∼0.1 (time zero), and meropenem was added to individual cultures to a final concentration of 0, 2, 32, or 64 μg/ml. The cells were harvested at 0, 30, 60, and 120 min. RNA-seq libraries were prepared by using an RNA tag-seq protocol ( 10 ), and the data were analyzed by using BWA ( 11 ) for alignment and DESeq2 ( 12 ) for differential expression. RNA-seq results showed that bla OXA-663 is constitutively and very highly expressed, regardless of meropenem treatment. In fact, bla OXA-663 was always among the top 10 abundant mRNA transcripts in BIDMC35. In contrast, bla SHV-1 was expressed at the same level as the other two susceptible strains UCI64 and UCI7. To confirm the RNA-seq results of bla OXA-663 , we performed reverse transcriptase quantitative PCR (RT-qPCR) for BIDMC35 and MGH71 with or without meropenem treatment (5 μg/ml). The expression level of bla OXA-663 was approximately 1,000 times higher in BIDMC35 than the expression level of bla OXA-10 in MGH71 ( Fig. 1A ). Altogether, these results suggested that the expression level of bla OXA-663 in BIDMC35 is much higher than the expression level of bla OXA-10 in MGH71, indicating that P OXA-663 is a stronger promoter than P OXA-10 c . This result may explain the inability to obtain transformants expressing bla OXA-663 with P OXA-663 , as the levels expressed from the multicopy pSMART-LCKan may be toxic to E. coli , while the levels expressed with P OXA-10 c from the same vector may be tolerated. 
+
+FIG 1. 
+
+Open in a new tab 
+
+(A) Relative expression levels of bla OXA-663 in BIDMC35 and BIDMC35 Δ bla OXA-663 and of bla OXA-10 in MGH71. RNA was prepared from treated (meropenem at 5 μg/ml) or untreated cultures. The quantification cycle ( Cq ) value was normalized to Cq values of 16S rRNA from each sample to calculate the relative expression. (B) MICs of meropenem against BIDMC35 Δ bla OXA-663 expressing bla OXA-663 or bla OXA-10 under the control of the P BAD promoter and with different concentrations of arabinose. (C) RPKM (reads per kilobase of transcript per million mapped reads) of ompK36 in BIDMC35 and two other susceptible strains, UCI7 and UCI64, (time zero, no meropenem) from the RNA-seq experiment. Data from the other time points and treatment are not shown because they all have similar patterns. 
+
+Given these observations, we hypothesized that the high-level expression of bla OXA-663 may be the key to the high-level-carbapenem resistance in BIDMC35. To test this hypothesis, we isolated a clone from BIDMC35 that had lost the IncA/C2 plasmid harboring bla OXA-663 (BIDMC35 Δ bla OXA-663 ). The loss of the plasmid and bla OXA-663 was confirmed by PCR and RT-qPCR ( Fig. 1A ). The loss of the IncA/C2 plasmid resulted in a MIC shift of BIDMC35 Δ bla OXA-663 into the susceptible range, indicating that a gene(s) on this plasmid is necessary for carbapenem resistance; this result indicated that the chromosomal bla SHV-1 does not play a role in carbapenem resistance and further suggested that bla OXA-663 might be the relevant gene ( Tables 2 and 3 ). To confirm that it is bla OXA-663 rather than the entire plasmid or any other genes on the plasmid that confer resistance to carbapenems, we reintroduced bla OXA-663 driven by the inducible P BAD promoter ( 8 ) into BIDMC35 Δ bla OXA-663 ( Table 1 ). With increasing concentrations of arabinose, carbapenem resistance was restored with MICs correlating with the level of induction of bla OXA-663 expression ( Fig. 1B ). Of note, when we introduced bla OXA-10 into BIDMC35 Δ bla OXA-663 using the same P BAD plasmid ( Table 1 ), we obtained essentially the same resistance levels as obtained with bla OXA-663 ( Fig. 1B and Table 3 ), suggesting that the T16K mutation in bla OXA-663 is not critical to the resistance mechanism. This is not surprising, since this mutation is located in signal sequence of OXA-10 (residues 1 to 19) ( 5 ). Altogether, these results confirmed that bla OXA-663 plays a role in conferring the resistance to carbapenems in BIDMC35 and that its high-level expression is critical to this phenotype. However, in contrast to BIDMC35, the fact that bla OXA-663 expression in E. coli , even in the presence of high concentrations of arabinose, does not confer carbapenem resistance suggested another factor in BIDMC35 plays a role in carbapenem resistance that distinguishes it from E. coli . 
+
+TABLE 3. 
+
+MICs of selected β-lactam antibiotics against BIDMC35 and relevant strains 
+
+Strains MIC (μg/ml) Meropenem Imipenem Ertapenem Doripenem Meropenem plus avibactam a Cefotaxime BIDMC35 32 32 >64 32 32 64 BIDMC35 Δ bla OXA-663 0.5 0.5 1 0.25 0.5 1 BIDMC35 Δ bla OXA-663 _P BAD : bla OXA-663 16 b 16 b >64 b 16 b 16 b 64 b BIDMC35 Δ bla OXA-663 _P BAD : bla OXA-10 16 b 16 b >64 b 16 b 16 b 64 b BIDMC35 ompK36 + <0.25 0.5 0.5 0.25 <0.25 16 
+
+Open in a new tab 
+
+a 
+The concentration of avibactam was fixed at 4 μg/ml, and the values shown are MICs of meropenem. 
+
+b 
+MIC was obtained in Mueller-Hinton broth supplemented with 2% arabinose. 
+
+Returning to the RNA-seq data for BIDMC35, we noted that in addition to the high expression level of bla OXA-663 , one of the major porin genes, ompK36 , was significantly downregulated. Comparing to the other two ST17 susceptible isolates, UCI7 and UCI64, the ompK36 transcription level (indicated by reads per kilobase per million mapped reads [RPKM]) was approximately 500 times lower ( Fig. 1C ), indicating that BIDMC35 may be an OmpK36-deficient strain. We examined the DNA sequences surrounding ompK36 and found that a transposon was inserted at nucleotide position 123 of ompK36 , disrupting ompK36 . To test if porin loss is another factor that contributes to the resistance, we episomally introduced an intact ompK36 gene, including the promoter region of ompK36 from the susceptible UCI64 ( Table 1 ), into BIDMC35. Restoring a functional OmpK36 porin restored susceptibility to BIDMC35 ( Table 3 ). Of note, since OmpK36 is a major porin for Klebsiella species by which they acquire nutrients, we measured the relative growth rates of BIDMC35 after bla OXA-663 loss or porin complementation and found no differences (data not shown), suggesting that BIDMC35 may have adapted to compensate for any fitness costs of the resistance mechanisms ( 13 ). Altogether, these data show that OmpK36 deficiency is another essential factor that contributes to carbapenem resistance in BIDMC35 and that OmpK36 deficiency and high-level expression of bla OXA-663 together result in carbapenem resistance. 
+
+These results demonstrate that high-level expression of bla OXA-663 and bla OXA-10 , regardless of what is traditionally considered their spectrum of activity, can confer carbapenem resistance when expressed at sufficiently high levels in the OmpK36 deficiency background. This work aligns well with an in vitro study showing that almost all class D β-lactamases are capable of hydrolyzing carbapenems at low rates ( 6 ), and now with confirmation that even β-lactamases with weak carbapenemase activity can result in clinically significant high-level resistance. Of note, the prior in vitro demonstration of OXA-10 ability to confer carbapenem resistance was in A. baumannii , a Gram-negative pathogen that is notorious for its poor outer membrane permeability ( 14 ). Here, we show that the bla OXA-663 and bla OXA-10 can confer resistance in a K. pneumoniae clinical isolate, with the additional requirement of a porin mutation as an alternative solution to impairing carbapenem periplasmic accumulation. Resistance should thus be considered the combinatorial result of several factors, including β-lactamase enzymatic activity, the expression level of the β-lactamase, and carbapenem periplasmic accumulation. Additionally, the impact of a missense mutation in a gene required for resistance, in this case bla OXA-10 , on its gene function and thus on a strain's resistance levels cannot be known in the absence of more in-depth investigation, thereby further complicating resistance predictions. In this era of increasing antibiotic resistance and drive for more rapid diagnostics with antimicrobial susceptibility testing, this complexity highlights the challenges and limitations of identifying clinical carbapenem resistance solely on the basis of genotypic identification of β-lactamases with presumed carbapenemase activity. 
+
+ACKNOWLEDGMENTS 
+
+We thank Jonathan Livny, Nirmalya Bandyopadhyay, Roby Bhattacharyya, Ashlee Earl, Gustavo Cerqueira, and Alejandro Pironti for their helpful discussions. We thank James Gomez for his comments and suggestions on the manuscript. 
+
+This study was supported by NIH grant 1R01AI117043-04 (D.T.H.). 
+
+We declare that we have no conflicts of interest. 
+
+REFERENCES 
+
+1. Bradford PA.
+2001. 
+Extended-spectrum beta-lactamases in the 21st century: characterization, epidemiology, and detection of this important resistance threat. Clin Microbiol Rev
+14:933–951. doi: 10.1128/CMR.14.4.933-951.2001. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+2. Papp-Wallace KM, Endimiani A, Taracila MA, Bonomo RA. 
+2011. 
+Carbapenems: past, present, and future. Antimicrob Agents Chemother
+55:4943–4960. doi: 10.1128/AAC.00296-11. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Meletis G.
+2016. 
+Carbapenem resistance: overview of the problem and future perspectives. Ther Adv Infect Dis
+3:15–21. doi: 10.1177/2049936115621709. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+4. Cerqueira GC, Earl AM, Ernst CM, Grad YH, Dekker JP, Feldgarden M, Chapman SB, Reis-Cunha JL, Shea TP, Young S, Zeng Q, Delaney ML, Kim D, Peterson EM, O'Brien TF, Ferraro MJ, Hooper DC, Huang SS, Kirby JE, Onderdonk AB, Birren BW, Hung DT, Cosimi LA, Wortman JR, Murphy CI, Hanage WP. 
+2017. 
+Multi-institute analysis of carbapenem resistance reveals remarkable diversity, unexplained mechanisms, and limited clonal outbreaks. Proc Natl Acad Sci U S A
+114:1135–1140. doi: 10.1073/pnas.1616248114. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Paetzel M, Danel F, de Castro L, Mosimann SC, Page MG, Strynadka NC. 
+2000. 
+Crystal structure of the class D beta-lactamase OXA-10. Nat Struct Biol
+7:918–925. doi: 10.1038/79688. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+6. Antunes NT, Lamoureaux TL, Toth M, Stewart NK, Frase H, Vakulenko SB. 
+2014. 
+Class D beta-lactamases: are they all carbapenemases?
+Antimicrob Agents Chemother
+58:2119–2125. doi: 10.1128/AAC.02522-13. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+7. Kim MJ, Bae IK, Jeong SH, Kim SH, Song JH, Choi JY, Yoon SS, Thamlikitkul V, Hsueh PR, Yasin RM, Lalitha MK, Lee K. 
+2013. 
+Dissemination of metallo-beta-lactamase-producing Pseudomonas aeruginosa of sequence type 235 in Asian countries. J Antimicrob Chemother
+68:2820–2824. doi: 10.1093/jac/dkt269. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+8. Guzman LM, Belin D, Carson MJ, Beckwith J. 
+1995. 
+Tight regulation, modulation, and high-level expression by vectors containing the arabinose PBAD promoter. J Bacteriol
+177:4121–4130. doi: 10.1128/jb.177.14.4121-4130.1995. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Clinical and Laboratory Standards Institute. 2015. 
+Methods for dilution antimicrobial susceptibility tests for bacteria that grow aerobically; approved standard—10th ed
+Clinical and Laboratory Standards Institute, Wayne, PA. [ Google Scholar ] 
+
+10. Shishkin AA, Giannoukos G, Kucukural A, Ciulla D, Busby M, Surka C, Chen J, Bhattacharyya RP, Rudy RF, Patel MM, Novod N, Hung DT, Gnirke A, Garber M, Guttman M, Livny J. 
+2015. 
+Simultaneous generation of many RNA-seq libraries in a single reaction. Nat Methods
+12:323–325. doi: 10.1038/nmeth.3313. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Li H, Durbin R. 
+2009. 
+Fast and accurate short read alignment with Burrows-Wheeler transform. Bioinformatics
+25:1754–1760. doi: 10.1093/bioinformatics/btp324. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Love MI, Huber W, Anders S. 
+2014. 
+Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biol
+15:550. doi: 10.1186/s13059-014-0550-8. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Knopp M, Andersson DI. 
+2015. 
+Amelioration of the fitness costs of antibiotic resistance due to reduced outer membrane permeability by upregulation of alternative porins. Mol Biol Evol
+32:3252–3263. doi: 10.1093/molbev/msv195. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+14. Moran-Barrio J, Cameranesi MM, Relling V, Limansky AS, Brambilla L, Viale AM. 
+2017. 
+The Acinetobacter outer membrane contains multiple specific channels for carbapenem beta-lactams as revealed by kinetic characterization analyses of imipenem permeation into Acinetobacter baylyi cells. Antimicrob Agents Chemother
+61:e01737-16. doi: 10.1128/AAC.01737-16. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Karunakaran R, Mauchline TH, Hosie AH, Poole PS. 
+2005. 
+A family of promoter probe vectors incorporating autofluorescent and chromogenic reporter proteins for studying gene expression in Gram-negative bacteria. Microbiology
+151:3249–3256. doi: 10.1099/mic.0.28311-0. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (305.7 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

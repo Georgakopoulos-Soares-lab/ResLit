@@ -1,0 +1,381 @@
+PMID: 29237785
+PMCID: PMC5824041
+DOI: 10.1128/JCM.01562-17
+Title: mcr-3 and mcr-4 Variants in Carbapenemase-Producing Clinical Enterobacteriaceae Do Not Confer Phenotypic Polymyxin Resistance.
+Journal: Journal of clinical microbiology
+PubDate: 2018 Mar
+Authors: Teo JWP, Kalisvar M, Venkatachalam I, Ng OT, Lin RTP, Octavia S
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+mcr-3 and mcr-4 Variants in Carbapenemase-Producing Clinical Enterobacteriaceae Do Not Confer Phenotypic Polymyxin Resistance - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+letter 
+J Clin Microbiol 
+. 2018 Feb 22;56(3):e01562-17. doi: 10.1128/JCM.01562-17 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+mcr-3 and mcr-4 Variants in Carbapenemase-Producing Clinical Enterobacteriaceae Do Not Confer Phenotypic Polymyxin Resistance 
+
+Jeanette W P Teo 
+
+Jeanette W P Teo 
+
+a National University Hospital, Department of Laboratory Medicine, Singapore 
+
+Find articles by Jeanette W P Teo 
+
+a, ✉ , Marimuthu Kalisvar 
+
+Marimuthu Kalisvar 
+
+b Tan Tock Seng Hospital, Department of Infectious Diseases, Singapore 
+
+c National Centre for Infectious Diseases, Singapore 
+
+d National University of Singapore, Yong Loo Lin School of Medicine, Singapore 
+
+Find articles by Marimuthu Kalisvar 
+
+b, c, d , Indumathi Venkatachalam 
+
+Indumathi Venkatachalam 
+
+e Singapore General Hospital, Department of Infectious Diseases, Singapore 
+
+Find articles by Indumathi Venkatachalam 
+
+e , Oon Tek Ng 
+
+Oon Tek Ng 
+
+b Tan Tock Seng Hospital, Department of Infectious Diseases, Singapore 
+
+c National Centre for Infectious Diseases, Singapore 
+
+f Nanyang Technological University, Lee Kong Chian School of Medicine, Singapore 
+
+Find articles by Oon Tek Ng 
+
+b, c, f , Raymond T P Lin 
+
+Raymond T P Lin 
+
+a National University Hospital, Department of Laboratory Medicine, Singapore 
+
+g National Public Health Laboratory, Ministry of Health, Singapore 
+
+Find articles by Raymond T P Lin 
+
+a, g , Sophie Octavia 
+
+Sophie Octavia 
+
+g National Public Health Laboratory, Ministry of Health, Singapore 
+
+Find articles by Sophie Octavia 
+
+g 
+
+Editor: Nathan A Ledeboer h 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a National University Hospital, Department of Laboratory Medicine, Singapore 
+
+b Tan Tock Seng Hospital, Department of Infectious Diseases, Singapore 
+
+c National Centre for Infectious Diseases, Singapore 
+
+d National University of Singapore, Yong Loo Lin School of Medicine, Singapore 
+
+e Singapore General Hospital, Department of Infectious Diseases, Singapore 
+
+f Nanyang Technological University, Lee Kong Chian School of Medicine, Singapore 
+
+g National Public Health Laboratory, Ministry of Health, Singapore 
+
+h Medical College of Wisconsin 
+
+✉ 
+Address correspondence to Jeanette W. P. Teo, Jeanette_Teo@nuhs.edu.sg . 
+
+Citation Teo JWP, Kalisvar M, Venkatachalam I, Ng OT, Lin RTP, Octavia S. 2018. mcr-3 and mcr-4 variants in carbapenemase-producing clinical Enterobacteriaceae do not confer phenotypic polymyxin resistance. J Clin Microbiol 56:e01562-17. https://doi.org/10.1128/JCM.01562-17 . 
+
+✉ 
+Corresponding author. 
+
+Roles 
+
+Nathan A Ledeboer : Editor 
+
+Prepublished 2017 Dec 13; Collection date 2018 Mar. 
+
+KEYWORDS: bioinformatics, Enterobacteriaceae , next-generation sequencing, PCR, antibiotic resistance, plasmid, polymyxin 
+
+Copyright © 2018 American Society for Microbiology. 
+
+All Rights Reserved . 
+
+PMC Copyright notice 
+
+PMCID: PMC5824041  PMID: 29237785 
+
+LETTER 
+
+The worldwide distribution of plasmid-mediated colistin resistance determinants ( mcr-1 , mcr-2 , mcr-3 , and mcr-4 ) coupled to the emerging observation that colistin resistance is more prevalent in carbapenem-resistant Enterobacteriaceae (CRE) ( 1 , 2 ) presents a daunting challenge in combatting antimicrobial resistance. Undoubtedly, next-generation sequencing approaches have expedited the discovery of mobile colistin resistance determinants ( 3 ). In this study, we undertook the in silico screening of 500 phenotypically carbapenem-resistant carbapenemase-producing Enterobacteriaceae whole genomes for the presence of the mcr gene, using CLC Genomics Workbench (CLC Bio-Qiagen, Aarhus, Denmark). The isolates comprised clinical and screening pure cultures submitted to the national reference laboratory for mandatory CRE surveillance. Locally, the presence of mcr-1 as well as its cocarriage with KPC-2 had been previously well described ( 4 , 5 ); hence, we did not look further into the distribution of mcr-1. mcr-2 was not detected among the genomes analyzed. mcr-3 was identified in one Escherichia coli genome (ENT1955) by the use of both read mapping and de novo assembly. To date, several mcr-3 variants have been observed ( 6 , 7 ). The mcr-3 gene identified in this study shared 99.94% nucleotide identity with the first mcr-3 gene discovered by Yin et al. ( 8 ) (GenBank accession no. KY924928.1 ) due to a “C” deletion at nucleotide position 218; the deletion was confirmed by Sanger sequencing. This resulted in a truncated protein of only 88 amino acids ( Table 1 ) that was deemed to be nonfunctional ( 10 ). This mcr-3 -like gene has been deposited in GenBank (see below). The genome of ENT1955 was de novo assembled using all the reads, and the draft genome was annotated. No plasmid-related genes were found in the approximately 9-kb contig containing the mcr-3 -like gene. We also performed read mapping using E. coli Y5 (GenBank accession no. CP013483.1 ) as the reference because it was the most closely related genome available in GenBank. Reads that did not match the E. coli Y5 chromosome were separately assembled. Using this approach, the derived mcr-3 -like contig was almost identical to the one obtained from de novo assembly using all reads and, again, no plasmid-related genes were observed. This led us to believe that, in contrast to those reported in several previous studies ( 8 , 11 , 12 ), our mcr-3 -like gene was not plasmid associated. Interestingly, downstream of the mcr-3 -like gene, a gene encoding IS 2 transposase TnpB, matching the gene encoding the transposase carried by mcr-3 -bearing plasmid pWJ1 ( 8 ), was detected. Phenotypically, the isolate was susceptible to both colistin and polymyxin B ( Table 1 ) as determined by the reference broth microdilution method ( 13 ). 
+
+TABLE 1. 
+
+Characteristics of KPC-2 carbapenemase-producing Enterobacteriaceae cocarrying mcr variants 
+
+Isolate name Species Source a MIC (mg/liter) b Date of isolation Multilocus sequence type MCR mutation(s) Other acquired resistance determinants d Replicon of mcr plasmid Reference mcr plasmid (GenBank accession no.) Colistin Polymyxin B mcr-3 -like isolate ENT1955 E. coli Rectal swab 0.25 0.25 4 April 2015 167 MCR-3-like truncated at amino acid position 88 bla KPC-2 , bla TEM-1B , aadA1 , erm (B), mph (A), floR , sul3 , tet (A) mcr-4.2 isolates ENT1164 E. cloacae Rectal swab 32 c 16 c 11 May 2014 54 V179G, V236F in comparison to MCR-4 bla KPC-2 , bla TEM-1A , bla TEM-1B , aac(6′)Ib-cr, aacA4, fosA , mph (A), catB8 , catA1 , sul1 ColE10 Salmonella sp. plasmid pMCR_R3445 ( MF543359 ) ENT1344 E. cloacae Rectal swab 16 c 16 c 28 July 2014 54 V179G, V236F in comparison to MCR-4 bla KPC-2 , bla TEM-1A , bla TEM-1B , bla SHV-12 , aac(6′)Ib-cr, aacA4, fosA , mph (A), catA1 , catB8 , sul1 , QnrS1 ColE10 Salmonella sp. plasmid pMCR_R3445 ( MF543359 ) ENT1606 E. cloacae Rectal swab 16 c 16 c 24 October 2014 54 V179G, V236F in comparison to MCR-4 bla KPC-2 , bla TEM-1A , aac(6′)Ib-cr, aacA4, fosA, mph(A), catA1, catB8, sul1 ColE10 Salmonella sp. plasmid pMCR_R3445 ( MF543359 ) ENT1017 E. cloacae Rectal swab 0.25 0.25 2 February 2014 54 V179G, V236F in comparison to MCR-4 bla KPC-2 , bla TEM-1B , bla SHV-12 , fosA , mph (A), catA1 , qnrS1 ColE10 Salmonella sp. plasmid pMCR_R3445 ( MF543359 ) ENT1018 E. cloacae Rectal swab 0.125 0.125 2 February 2014 54 V179G, V236F in comparison to MCR-4 bla KPC-2 , bla TEM-1B , bla SHV-12 , fosA , mph (A), catA1 , qnrS1 ColE10 Salmonella sp. plasmid pMCR_R3445 ( MF543359 ) ENT1019 E. cloacae Rectal swab 0.25 0.25 2 February 2014 54 V179G, V236F in comparison to MCR-4 bla KPC-2 , bla TEM-1B , bla SHV-12 , fosA , mph (A), catA1 , qnrS1 ColE10 Salmonella sp. plasmid pMCR_R3445 ( MF543359 ) 
+
+Open in a new tab 
+
+a 
+Isolates were from a routine surveillance study suggesting colonization. 
+
+b 
+European Committee on Antimicrobial Susceptibility Testing (EUCAST) breakpoints were used for interpretation of colistin MIC results (susceptible, ≤2 mg/liter; resistant, >2 mg/liter). 
+
+c 
+A single “skip well” was observed during testing, which suggests heteroresistance to polymyxins in these isolates ( 9 ). 
+
+d 
+Determined by ResFinder 3.0 ( https://cge.cbs.dtu.dk/services/ResFinder/ ). 
+
+There were no exact matches to mcr-4 in the screened genomes. Instead, the mcr-4 -like gene was found in six Enterobacter cloacae isolates ( Table 1 ), which had 100% nucleotide identity to a putative sulfatase from Shewanella frigidimarina . Compared to mcr-4 (GenBank accession no. MF543359 ), this mcr-4 -like gene carried 2 missense mutations resulting in codon changes at positions V179G and V236F. The mcr-4 -like gene was located on a 7.7-kb contig, and a BLAST search showed 95% coverage and 99% similarity to the mcr-4 gene in plasmid pMCR_R3445 (GenBank accession no. MF543359 ). Thus, we named this mcr-4 -like gene “ mcr-4.2 ” (see below). 
+
+Interestingly, the genomes of all of the mcr-4.2 -positive isolates also possessed another putative phosphoethanolamine transferase (EPT) (GenBank accession no. WP_012477388 ). This putative EPT was not encoded on the plasmid. An alignment of the MCR-4.2 amino acid sequence and the putative EPT against MCR-1 and MCR-2 showed conservation in active site residues (data not shown) ( 10 ). However, it appears that the presence of mcr-4.2 and the predicted novel EPT genes did not confer overt phenotypic resistance to polymyxins ( Table 1 ). The finding of heterogeneously elevated drug MICs for E. cloacae isolates is likely attributable to heteroresistance causing a “skip well” phenomenon observed during the broth microdilution susceptibility testing ( Table 1 ) ( 9 ). 
+
+Expression vector pET-48b(+) (Novagen, WI, USA) was used for functional cloning of the full coding sequences of the mcr-3 -like and mcr-4.2 genes but without the fusion tags. There was essentially no difference in the polymyxin MICs for the cloned mcr-3 -like and mcr-4.2 genes, which suggests that they did not confer phenotypic resistance ( Table 2 ). Therefore, we concluded that the mcr-3 -like gene carrying a nonsense mutation was nonfunctional and that mcr-4.2 alone was unlikely to be the major mechanism of resistance to polymyxins. 
+
+TABLE 2. 
+
+Broth microdilution polymyxin susceptibility testing of cloned mcr-3 -like and mcr-4.2 expressed in E. coli BL21(DE3) host 
+
+E. coli BL21(DE3) strain a MIC (mg/liter) Colistin Polymyxin B pET48b— mcr-3 -like 1 1 pET48b— mcr-4.2 1 1 pET48b 1 0.5 No vector 0.5 1 
+
+Open in a new tab 
+
+a 
+Expression of mcr was induced by the addition of 1 mM isopropyl β-d-1-thiogalactopyranoside (IPTG) to cation-adjusted Mueller-Hinton broth media. 
+
+In summary, we describe the discovery of new mcr -like elements, although phenotypic susceptibility testing indicates that the presence of these genes alone was unlikely to contribute to colistin resistance. 
+
+Accession number(s). 
+
+The mcr-3 -like and mcr-4.2 genes identified in this study have been deposited in GenBank under accession no. MG026622 and MG026621 , respectively. 
+
+ACKNOWLEDGMENTS 
+
+We thank the National Public Health Laboratory (NPHL), Singapore, for providing carbapenemase-producing Enterobacteriaceae isolates and, in particular, Felicia Ong for performing the carbapenemase screening assays and Siti Zulaina for preparing plate cultures. We thank Bernadette Cheng for performing the expression cloning. We also thank the Carbapenemase-producing Enterobacteriaceae in Singapore (CaPES) study group. CaPES study group members are Asok Kurup, Benjamin Cherng, Choong Weng Lam, Deepak Rama Narayana, De Partha Pratim, Hsu Li Yang, Indumathi Venkatachalam, Jeanette Teo, Kalisvar Marimuthu, Koh Tse Hsien, Micehlle Ang, Nancy Tee, Nares Smitasin, Ng Oon Tek, Ooi Say Tat, Prabha Unny Krishnan, Raymond Fong, Raymond Lin Tzer Pin, Surinder Kaur Pada, Tan Thean Yen, and Thoon Koh Cheng. 
+
+REFERENCES 
+
+1. Giani T, Antonelli A, Caltagirone M, Mauri C, Nicchi J, Arena F, Nucleo E, Bracco S, Pantosti A; AMCLI-CoSA survey participants, Luzzaro F, Pagani L, Rossolini GM. 
+2017. 
+Evolving beta-lactamase epidemiology in Enterobacteriaceae from Italian nationwide surveillance, October 2013: KPC-carbapenemase spreading among outpatients. Euro Surveill
+22:30583. doi: 10.2807/1560-7917.ES.2017.22.31.30583. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+2. Huang TD, Bogaerts P, Berhin C, Hoebeke M, Bauraing C, Glupczynski Y. 
+2017. 
+Increasing proportion of carbapenemase-producing Enterobacteriaceae and emergence of a MCR-1 producer through a multicentric study among hospital-based and private laboratories in Belgium from September to November. Euro Surveill
+22:30530. doi: 10.2807/1560-7917.ES.2017.22.19.30530. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Kluytmans J.
+2017. 
+Plasmid-encoded colistin resistance: mcr-one, two, three and counting. Euro Surveill
+22:30588. doi: 10.2807/1560-7917.ES.2017.22.31.30588. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+4. Teo JQM, Ong RTH, Xia E, Koh TH, Khor CC, Lee SJY, Lim TP, Kwa AL. 
+2016. 
+mcr-1 in multidrug-resistant blaKPC-2-producing clinical Enterobacteriaceae isolates in Singapore. Antimicrob Agents Chemother
+60:6435–6437. doi: 10.1128/AAC.00804-16. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Teo JW, Chew KL, Lin RT. 
+2016. 
+Transmissible colistin resistance encoded by mcr-1 detected in clinical Enterobacteriaceae isolates in Singapore. Emerg Microbes Infect
+5:e87. doi: 10.1038/emi.2016.85. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Roer L, Hansen F, Stegger M, Sönksen UW, Hasman H, Hammerum AM. 
+2017. 
+Novel mcr-3 variant, encoding mobile colistin resistance, in an ST131 Escherichia coli isolate from bloodstream infection, Denmark, 2014. Euro Surveill
+22:22846. doi: 10.2807/1560-7917.ES.2017.22.31.30584. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. Ling Z, Yin W, Li H, Zhang Q, Wang X, Wang Z, Ke Y, Wang Y, Shen J. 
+24
+October
+2017. 
+Chromosome-mediated mcr-3 variants in Aeromonas veronii from chicken meat. Antimicrob Agents Chemother doi: 10.1128/AAC.01272-17. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Yin W, Li H, Shen Y, Liu Z, Wang S, Shen Z, Zhang R, Walsh TR, Shen J, Wang Y. 
+2017. 
+Novel plasmid-mediated colistin resistance gene mcr-3 in Escherichia coli. mBio
+8:e00543-17. doi: 10.1128/mBio.00543-17. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Landman D, Salamera J, Quale J. 
+2013. 
+Irreproducible and uninterpretable polymyxin B MICs for Enterobacter cloacae and Enterobacter aerogenes. J Clin Microbiol
+51:4106–4111. doi: 10.1128/JCM.02129-13. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+10. Hu M, Guo J, Cheng Q, Yang Z, Chan EWC, Chen S, Hao Q. 
+2016. 
+Crystal structure of Escherichia coli originated MCR-1, a phosphoethanolamine transferase for colistin resistance. Sci Rep
+6:38793. doi: 10.1038/srep38793. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Hernández M, Iglesias MR, Rodríguez-Lázaro D, Gallardo A, Quijada N, Miguela-Villoldo P, Campos MJ, Píriz S, López-Orozco G, de Frutos C, Sáez JL, Ugarte-Ruiz M, Domínguez L, Quesada A. 
+2017. 
+Co-occurrence of colistin-resistance genes mcr-1 and mcr-3 among multidrug-resistant Escherichia coli isolated from cattle, Spain, September 2015. Euro Surveill
+22:30586. doi: 10.2807/1560-7917.ES.2017.22.31.30586. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Litrup E, Kiil K, Hammerum AM, Roer L, Nielsen EM, Torpdahl M. 
+2017. 
+Plasmid-borne colistin resistance gene mcr-3 in Salmonella isolates from human infections, Denmark, 2009–17. Euro Surveill
+22:30587. doi: 10.2807/1560-7917.ES.2017.22.31.30587. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Clinical and Laboratory Standards Institute. 2015. 
+M07-A10. Methods for dilution antimicrobial susceptibility tests for bacteria that grow aerobically; approved standard: ninth edition. Clinical and Laboratory Standards Institute, Wayne, PA. [ Google Scholar ] 
+
+Articles from Journal of Clinical Microbiology are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (160.5 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

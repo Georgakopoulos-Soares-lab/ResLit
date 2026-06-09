@@ -1,0 +1,471 @@
+PMID: 32816720
+PMCID: PMC7577141
+DOI: 10.1128/AAC.00867-20
+Title: Identification of a Novel Plasmid-Borne Gentamicin Resistance Gene in Nontyphoidal Salmonella Isolated from Retail Turkey.
+Journal: Antimicrobial agents and chemotherapy
+PubDate: 2020 Oct 20
+Authors: Kim HL, Rodriguez RD, Morris SK, Zhao S, Donato JJ
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Identification of a Novel Plasmid-Borne Gentamicin Resistance Gene in Nontyphoidal Salmonella Isolated from Retail Turkey - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Antimicrob Agents Chemother 
+. 2020 Oct 20;64(11):e00867-20. doi: 10.1128/AAC.00867-20 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Identification of a Novel Plasmid-Borne Gentamicin Resistance Gene in Nontyphoidal Salmonella Isolated from Retail Turkey 
+
+Happy-Sarah L Kim 
+
+Happy-Sarah L Kim 
+
+a Chemistry Department, University of St. Thomas, St. Paul, Minnesota, USA 
+
+Find articles by Happy-Sarah L Kim 
+
+a , Ricardo D Rodriguez 
+
+Ricardo D Rodriguez 
+
+a Chemistry Department, University of St. Thomas, St. Paul, Minnesota, USA 
+
+Find articles by Ricardo D Rodriguez 
+
+a , Sydney K Morris 
+
+Sydney K Morris 
+
+a Chemistry Department, University of St. Thomas, St. Paul, Minnesota, USA 
+
+Find articles by Sydney K Morris 
+
+a , Shaohua Zhao 
+
+Shaohua Zhao 
+
+b Division of Animal and Food Microbiology, Office of Research, Center for Veterinary Medicine, U.S. Food and Drug Administration, Laurel, Maryland, USA 
+
+Find articles by Shaohua Zhao 
+
+b , Justin J Donato 
+
+Justin J Donato 
+
+a Chemistry Department, University of St. Thomas, St. Paul, Minnesota, USA 
+
+Find articles by Justin J Donato 
+
+a, ✉ 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+a Chemistry Department, University of St. Thomas, St. Paul, Minnesota, USA 
+
+b Division of Animal and Food Microbiology, Office of Research, Center for Veterinary Medicine, U.S. Food and Drug Administration, Laurel, Maryland, USA 
+
+✉ 
+Address correspondence to Justin J. Donato, dona1145@stthomas.edu . 
+
+Citation Kim H-SL, Rodriguez RD, Morris SK, Zhao S, Donato JJ. 2020. Identification of a novel plasmid-borne gentamicin resistance gene in nontyphoidal Salmonella isolated from retail turkey. Antimicrob Agents Chemother 64:e00867-20. https://doi.org/10.1128/AAC.00867-20 . 
+
+✉ 
+Corresponding author. 
+
+Received 2020 May 1; Revision requested 2020 May 31; Accepted 2020 Aug 6; Prepublished 2020 Aug 17; Collection date 2020 Nov. 
+
+Copyright © 2020 American Society for Microbiology. 
+
+All Rights Reserved . 
+
+PMC Copyright notice 
+
+PMCID: PMC7577141  PMID: 32816720 
+
+The spread of antibiotic-resistant bacteria presents a global health challenge. Efficient surveillance of bacteria harboring antibiotic resistance genes (ARGs) is a critical aspect to controlling the spread. Increased access to microbial genomic data from many diverse populations informs this surveillance but only when functional ARGs are identifiable within the data set. Current, homology-based approaches are effective at identifying the majority of ARGs within given clinical and nonclinical data sets for several pathogens, yet there are still some whose identities remain elusive. 
+
+KEYWORDS: antibiotic resistance, comparative genomics, gentamicin 
+
+ABSTRACT 
+
+The spread of antibiotic-resistant bacteria presents a global health challenge. Efficient surveillance of bacteria harboring antibiotic resistance genes (ARGs) is a critical aspect to controlling the spread. Increased access to microbial genomic data from many diverse populations informs this surveillance but only when functional ARGs are identifiable within the data set. Current, homology-based approaches are effective at identifying the majority of ARGs within given clinical and nonclinical data sets for several pathogens, yet there are still some whose identities remain elusive. By coupling phenotypic profiling with genotypic data, these unknown ARGs can be identified to strengthen homology-based searches. To prove the efficacy and feasibility of this approach, a published data set from the U.S. National Antimicrobial Resistance Monitoring System (NARMS), for which the phenotypic and genotypic data of 640 Salmonella isolates are available, was subjected to this analysis. Six isolates recovered from the NARMS retail meat program between 2011 and 2013 were identified previously as phenotypically resistant to gentamicin but contained no known gentamicin resistance gene. Using the phenotypic and genotypic data, a comparative genomics approach was employed to identify the gene responsible for the observed resistance in all six of the isolates. This gene, grdA , is harbored on a 9,016-bp plasmid that is transferrable to Escherichia coli , confers gentamicin resistance to E. coli , and has never before been reported to confer gentamicin resistance. Bioinformatic analysis of the encoded protein suggests an ATP binding motif. This work demonstrates the advantages associated with coupling genomics technologies with phenotypic data for novel ARG identification. 
+
+INTRODUCTION 
+
+Bacteria play an essential role in maintaining balance in various ecosystems, including the human gut, marine ecosystems, and soil ( 1 – 3 ). Despite their contributions to maintaining ecological balance, pathogenic bacteria are also responsible for some of the most devastating infections in humans, animals, livestock, and crops. The development of antibiotics was a medical breakthrough that saved lives, with an estimated 47 million courses of antibiotics prescribed in a clinical setting per year ( 4 ). Unfortunately, the long-term use and misuse of this class of medication has led to a new crisis, i.e., antibiotic resistance. 
+
+Historically, reliance on antibiotics has had both positive and negative effects: they provide the means to control the spread of bacterial infections, and they serve as a selective pressure for the development of single-drug- and multidrug-resistant pathogens. Currently, there are efforts to encourage more responsible management of antibiotics, including limiting their access, use, and disposal. 
+
+Another effort complementary to responsible drug use is systematic surveillance of antibiotic resistance through standard susceptibility testing and genomic surveillance of antibiotic resistance genes (ARGs). The large amount of data from genomic surveillance is making it possible to discover novel ARGs and to elucidate the mechanisms of resistance, which contributes to the development/discovery of improved antimicrobial agents. These initiatives rely on the ability to recognize ARGs within genomic information. Therefore, comprehensive catalogs of known ARGs need to constantly be updated with novel ARGs as they are discovered. This strategy poses challenges in that the quality of the analysis is completely dependent on the completeness of the data in the database ( 5 ). This approach also suffers from the potential limitation of reliance on the need to coordinate sequence data with phenotypic data for confirmation of novel resistance mechanisms. Advances in next-generation sequencing technologies have aided in implementation of these surveillance strategies. To effectively identify novel ARGs, there are challenges within available and currently practiced methods that need to be overcome, including reliance on homology-based searches commonly used in sequence-based methods, repeated identification of known genes seen in phenotype-based methods, and detection of novel ARGs that are masked by the existence of known ARGs within the same isolate ( 6 ). 
+
+Although current databases contain many known ARGs, and the correlation between clinical resistance and the presence of known ARGs is high, resistance is found in some isolates with no known determinant in the databases ( 7 , 8 ). This suggests that there are unknown genes responsible for the unexplained and unpredicted resistance hidden among the thousands of known ARGs. These instances offer an opportunity for candidate genes to be characterized for previously unrecorded antibiotic resistance potential. A number of research groups have compiled data on the genotypes and phenotypes for many of the notorious pathogenic bacterial species, including Salmonella enterica , Staphylococcus aureus , Klebsiella pneumoniae , Campylobacter jejuni , Escherichia coli , Enterococcus , Acinetobacter baumannii , and Mycobacterium tuberculosis , making the whole-genome sequencing (WGS) data for these and similar studies accessible ( 7 – 12 ). Within these data, a subset of isolates exists that are phenotypically resistant to a given antibiotic but for which no known ARG is identifiable in the genome. These are termed GSPR (genotypically sensitive, phenotypically resistant) isolates and serve as potential candidates for novel ARG discovery. 
+
+In this work, a comparative genomics approach was employed to predict novel ARGs from GSPR isolates in a given collection. As a proof-of-concept experiment, 640 Salmonella isolated from the U.S. National Antimicrobial Resistance Monitoring System (NARMS) were analyzed ( 7 ). That data set contained 6 isolates that were classified GSPR with respect to their gentamicin resistance profile. One potential ARG was found to be common to all 6 GSPR isolates. On cloning and introduction into E. coli , the gene conferred resistance to gentamicin. To our knowledge, this is the first report of that gene being associated with antibiotic resistance and accounts for the observed resistance in the 6 original isolates. 
+
+RESULTS 
+
+The goal of this study was to identify novel ARGs while avoiding the challenges associated with rediscovery of known ARGs within a sample set of interest. A comparative genomics approach was employed to isolate potential candidate novel ARGs of interest. A previously reported, publicly available data set containing both WGS and antibiotic resistance phenotypic data for 640 Salmonella isolates was used to validate this method ( 7 ). The WGS data were downloaded and subjected to the computational analysis outlined in Fig. S1 in the supplemental material. The assembled genomic sequences were first annotated with Prokka and then used to construct a pangenome of all isolates in the data set with Roary. The isolates were then grouped according to their phenotypic and genotypic resistance profiles. Six isolates from the group formed a subgroup, categorized as GSPR with respect to their gentamicin resistance profiles. Because they were genotypically sensitive (contained no known gentamicin resistance gene) and phenotypically resistant (growing in the presence of gentamicin), this subgroup was used to query the Salmonella pangenome. Genetic features that distinguish this subset from the set of gentamicin-susceptible isolates are likely to confer gentamicin resistance. The relevant portion of the output of this analysis is shown in Table S1 in the supplemental material. All six isolates contained two genes that were linked on the same contig and did not appear in the set of susceptible isolates. One gene encodes a predicted IS 30 family transposase, and the other encodes a hypothetical protein. The gene encoding the hypothetical protein was hypothesized to be responsible for conferring the gentamicin resistance and has been named gentamicin resistance determinant, or grdA . 
+
+The predicted protein encoded by grdA was used in a BLASTp search of GenBank. The only matches in the database that were 100% identical to this protein at the amino acid level were from Salmonella (accession no. EAA2172449.1 , EAA8537079.1 , and WP_052905207.1 ). Two of these proteins are annotated as hypothetical proteins, and the third is predicted to be an AAA family ATPase. The translated product contained matches to the Walker A motif characteristic of ATP binding (see Fig. S2 in the supplemental material). Amino acid residues 7 to 14 (GPLGIGKS) fit the consensus for the Walker A element (GxxxxGK[S/T]) ( 13 ). No other potential biochemical activity was attributed to this protein based on the bioinformatic analysis. 
+
+To independently verify that grdA encodes a gentamicin resistance gene, total DNA from one of the six GSPR isolates was analyzed (isolate N46855 ). To test whether the unknown gentamicin resistance gene from this isolate is harbored on a plasmid, a sample of the total DNA was used to transform E. coli . The resulting transformants grew on medium supplemented with gentamicin, confirming the transfer of a plasmid-borne resistance gene to E. coli . The gene on the plasmid responsible for the resistance was identified through transposon mutagenesis. Three independent transposon insertions were isolated that restored sensitivity to gentamicin. Two of three transposons were inserted into the coding sequence of a single genetic element (Fig. S2). That genetic element is the same grdA gene that was identified through the computational analysis. The remaining transposon insertion that restored gentamicin sensitivity inserted between the open reading frame and the promoter of grdA and likely disrupted expression of the gene. 
+
+The sequence of the entire plasmid from the transformation of strain N46855 , named pZJ18, was assembled by sequencing individual random transposon insertions and assembling them with contigs from the original published data set. The resulting sequence revealed a 9,016-bp Col-type plasmid that contains two regions with homology to known sequences ( Fig. 1 ). The first region is 100% identical via BLASTn to a plasmid (GenBank accession no. CP044113.1 ) isolated from multiple bacteria, including Klebsiella michiganensis and Salmonella enterica . The following regions of pZJ18 together span this entire plasmid sequence: 5089-59. pZJ18 appears to be a version of this plasmid that has gained a transposon, with the segment containing the transposon (pZJ18 nt 60–4970) 99% identical to a region of the S. enterica chromosome (GenBank accession no. CP043222.1 ). The genes harbored on pZJ18 are depicted in Fig. 1 and encode the following predicted proteins: three transposases, factors involved in plasmid maintenance, two lipoproteins, and GrdA. pZJ18 also contains a repeated sequence. The regions containing nucleotides (nt) 60 to 1443 and 3587 to 4970 differ by one nucleotide. To rule out an assembly error, the plasmid was purified from E. coli and subjected to restriction fragment analysis. The banding pattern that verified the assembled sequence matched the observed restriction pattern, indicating that the repeated region is present on the plasmid (data not shown). 
+
+FIG 1. 
+
+Open in a new tab 
+
+Map of pZJ18, including functional annotation of encoding genes and homology to known sequences. 
+
+Because the sequence flanking grdA suggests that it is present on a mobile genetic element, it is possible that that gene is present in other genetic contexts. In that case, this data set would contain isolates that harbor grdA but do not have pZJ18. To test this, total DNA from each of the other five GSPR isolates was used to transform E. coli and was selected for gentamicin-resistant colonies. None were found, suggesting that pZJ18 was not present in any of those samples. To test this bioinformatically, a BLAST database was created from all of the isolates in this data set. That database was queried first for sequences matching grdA . Eight total isolates have this gene. All eight of these isolates were originally reported to be resistant to gentamicin. Six of them are the six GSPR isolates used in this study. The remaining two isolates ( N31844 and N51292 ) harbor known gentamicin resistance genes in addition to grdA , which led to their not being classified as genotypically sensitive. The second query of this BLAST database was performed using the region of pZJ18 from nt 5089-50. This is the region that contains known plasmid sequences but does not contain the transposon bearing grdA . Two isolates contain this sequence. One is the GSPR isolate detailed in this study. The second ( N45398 ) does not contain the grdA gene and does not display any phenotypic resistance to gentamicin. All plasmids in the eight isolates that contain grdA were identified. The assembled genomic sequence from each of these isolates was queried for plasmid sequences using PlasmidFinder 2.1 ( 14 ). The isolates each harbor 0, 2, or 3 identifiable plasmids ( Table 1 ). 
+
+TABLE 1. 
+
+Plasmids present in eight isolates containing grdA identified using PlasmidFinder 2.1 
+
+Isolate Plasmid detected a Accession no. b N29351 1. Col 1. KU674895 2. IncI1-I 2. AP005147 N31844 1. IncHI2 1. BX664015 2. IncH12A 2. BX664015 N32755 1. IncFIB 1. CP001919 2. IncFII 2. CP001919 N32779 None NA N46827 None NA N46855 1. Col 1. KU674895 2. IncQ1 2. M28829 N51271 1. IncHI2 1. BX664015 2. IncH12A 2. BX664015 3. IncI1-1 3. AP005147 N51292 1. IncHI2 1. BX664015 2. IncH12A 2. BX664015 
+
+Open in a new tab 
+
+a 
+Type of plasmid. 
+
+b 
+Best BLAST match. NA, not applicable. 
+
+To demonstrate that this gene alone is sufficient to confer the resistant phenotype, grdA was amplified, cloned, and introduced into E. coli without the other genes present on pZJ18. The subcloned grdA gene was able to confer resistance to gentamicin. The MICs of E. coli bearing pZJ18 or the subcloned grdA gene against gentamicin were 32 and 64 μg/ml, respectively ( Table 2 ). In comparison, disruptions of grdA via transposon mutagenesis restored the gentamicin susceptibility to background levels. The ability of grdA to confer resistance to other aminoglycoside antibiotics was also investigated. In addition to the elevated resistance to gentamicin, pZJ18 and the subclone of grdA conferred resistance to sisomicin. In contrast, grdA was unable to confer resistance to the following aminoglycoside antibiotics: amikacin, kanamycin, spectinomycin, streptomycin, and tobramycin. 
+
+TABLE 2. 
+
+MIC of each aminoglycoside antibiotic determined via 2-fold broth serial dilution method 
+
+Antibiotic MIC (μg/ml) a Control pZJ18 grdA TA clone Gentamicin <0.5 32 64 Sisomicin <0.5 32 128 Amikacin <0.5 <0.5 <0.5 Kanamycin 0.5 0.5 0.5 Spectinomycin 4 4 4 Streptomycin b <0.5 <0.5 0.5 Tobramycin <0.5 <0.5 0.5 
+
+Open in a new tab 
+
+a 
+MICs for all antibiotics except streptomycin were determined using the EPI300 strain of E. coli with unmodified cells as the control. 
+
+b 
+MIC values determined in the DH5α strain of E. coli with unmodified cells as the control. 
+
+DISCUSSION 
+
+The work presented here represents an application of existing comparative genomics tools to identify and begin to characterize a novel ARG. In addition to identifying the grdA gene, the genomic context flanking this gene suggests its ability to spread. Of the eight isolates harboring this gene, one contains the gene on the pZJ18 plasmid, and the others potentially harbor this gene on a different plasmid or within their chromosomes. One isolate within this study also bears a plasmid that is identical to a part of pZJ18 but lacks the grdA gene. Taken together, these data suggest that grdA is an ARG located on a mobile genetic element that can move from one genetic context to another, giving it increased potential to spread through horizontal gene transfer. 
+
+Current detection strategies that either use ARG databases to identify resistant bacteria or use sequence-independent strategies have limitations that are well documented (reviewed in reference 15 ). Now that phenotypic and genomic information is being generated more routinely in ARG surveillance, it is easier to identify GSPR strains as candidates for alternative approaches to identify novel ARGs. These include machine learning approaches, as well as the comparative genomics strategy used in this study ( 16 ). Given the increasing abundance of paired WGS and phenotypic data sets that are made publicly available every day, this study demonstrates the utility of combining the data for identification of novel ARGs in a wide variety of samples. Ultimately, studies like this one will contribute to that knowledgebase and improve the ability to recognize ARGs in a sample. This will be increasingly important as sequencing technologies continue to improve and sequence-based analyses increasingly replace phenotypic analyses. 
+
+The grdA gene identified in this study confers resistance to gentamicin; however, the mechanism of resistance remains unknown. Preliminary bioinformatic analysis of the encoded protein revealed the presence of the Walker A motif and indicated that the encoded protein likely binds to ATP. Future work will focus on determining the importance of this predicted function, among other possibilities, to characterize the biochemical advantage this protein affords the host bacterium that leads to gentamicin resistance. 
+
+During preparation of the manuscript, a study was published in which the novel gentamicin resistance gene gar was identified ( 17 ). A BLAST of the Gar protein against GrdA revealed 50% identity between the two proteins. The homologous regions include the Walker A domain and the DXD domain, expected to be critical to the function of Gar, and therefore likely GrdA as well. In addition to their sequence-based similarities, the spectrum of resistance conferred by grdA is consistent with the reported spectrum of resistance for gar . Although the proteins likely confer resistance in the same way, they differ in their ecological contexts. gar was found to be associated with class 1 integrons, whereas grdA was not associated with this type of mobile genetic element. grdA was instead found on a mobile genetic element that is present in both plasmid and chromosomal contexts. The importance of this difference is highlighted by experiments aimed at demonstrating the propensity for these genes to participate in horizontal gene transfer. Published attempts to mobilize the integron containing gar from its Pseudomonas host into E. coli were unsuccessful. Conversely, the pZJ18 plasmid containing grdA was readily moved from its Salmonella host into E. coli , demonstrating the propensity for this resistance gene to move between species. These findings do not imply an inability of gar to participate in horizontal gene transfer. The finding of gar in different host species provides evidence to the contrary. Whereas its presence on integrons provides a plausible mechanism for mobility, a plasmid responsible for horizontal transfer has not yet been identified. Continued work is needed to further characterize the similarities and differences between these two novel resistance determinants. 
+
+MATERIALS AND METHODS 
+
+Genomic data and annotation. 
+
+WGS data pertaining to the Salmonella isolates were downloaded from GenBank using BioProject accession number PRJNA242614 ( 7 ). The assembled sequences within that data set were annotated using Prokka ( 18 ). The six GSPR isolates used in this study were N29351 , N32755 , N32779 , N46827 , N46855 , and N51271 . All six isolates were recovered from NARMS retail turkey between 2011 and 2013. 
+
+Pangenome creation and interrogation. 
+
+Roary was used to create a pangenome from the annotated assemblies generated by Prokka ( 19 ). To identify potentially novel gentamicin resistance genes, the pangenome was queried to identify genes that distinguished the GSPR isolates from those that were not resistant to gentamicin according to the Roary user manual. 
+
+Gentamicin resistance plasmid discovery. 
+
+Total DNA was extracted from isolate N46855 using the DNeasy blood and tissue kit (Qiagen, Valencia, CA) according to the manufacturer’s instructions. That DNA was used to transform E. coli strain EPI300 (Lucigen, Madison, WI). The resulting transformants were selected for growth on LB supplemented with 10 μg/ml gentamicin. Plasmid DNA was recovered from one of the resulting colonies using the Qiagen miniprep kit according to the manufacturer’s instructions. This plasmid, which contains the grdA gene and confers gentamicin resistance, was named pZJ18. 
+
+Transposon mutagenesis and sequencing. 
+
+Plasmid DNA was randomly mutagenized using the Entraceposon (Cam R -3) transposon from the Template Generation System II kit according to the manufacturer’s instructions (Thermo Scientific). The seqE and seqW primers provided in the kit were used in Sanger sequencing reactions to sequence DNA directly adjacent to the transposon insertions. All sequencing was done at the University of Minnesota Genomics Center. 
+
+Cloning the gentamicin resistance gene. 
+
+The candidate gene was amplified via PCR using Taq polymerase and the primers gentRsalmonellaF-TGTGTAGCGGTTTCGGTTTTATTG and gentRsalmonellaR-TCTAGATGGAATACAGGTGGATAATCA. The template was genomic DNA from isolate N46855 . The resulting 693-bp product was cloned into the pGEM-EZT TA cloning vector (Promega, Madison, WI) and introduced into the EPI300 strain of E. coli via standard methods. 
+
+MIC analysis. 
+
+MICs were determined using a 2-fold broth serial dilution method ( 20 ). 
+
+Plasmid annotation. 
+
+The full sequence of pZJ18 was annotated using a combination of Prokka, GeneMark, BLAST, and SeqBuilder (DNAStar, Madison, WI) ( 18 , 21 , 22 ). The sequence data have been deposited in GenBank and are available using accession no. MT246861 ( 23 ). 
+
+Supplementary Material 
+
+Supplemental file 1 
+
+supp_data_source_481280_868028_1.pdf (129.4KB, pdf) 
+
+ACKNOWLEDGMENTS 
+
+This work was funded by the Undergraduate Research Opportunities Program and the Chemistry Department at the University of St. Thomas. 
+
+We thank Patrick McDermott (U.S. Food and Drug Administration) for comments on the manuscript and Sampa Mukherjee (U.S. Food and Drug Administration) for DNA sample preparation. 
+
+Footnotes 
+
+Supplemental material is available online only. 
+
+REFERENCES 
+
+1. Azam F, Malfatti F. 
+2007. 
+Microbial structuring of marine ecosystems. Nat Rev Microbiol
+5:782–791. doi: 10.1038/nrmicro1747. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+2. Donaldson GP, Lee SM, Mazmanian SK. 
+2016. 
+Gut biogeography of the bacterial microbiota. Nat Rev Microbiol
+14:20–32. doi: 10.1038/nrmicro3552. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+3. Fierer N, Bradford MA, Jackson RB. 
+2007. 
+Toward an ecological classification of soil bacteria. Ecology
+88:1354–1364. doi: 10.1890/05-1839. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+4. Centers for Disease Control and Prevention. 2018. 
+Antibiotic use in the United States: progress and opportunities, 2018 update. Centers for Disease Control and Prevention, Atlanta, GA. [ Google Scholar ] 
+
+5. Bengtsson-Palme J, Larsson DGJ, Kristiansson E. 
+2017. 
+Using metagenomics to investigate human and environmental resistomes. J Antimicrob Chemother
+72:2690–2703. doi: 10.1093/jac/dkx199. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+6. Sukhum KV, Diorio-Toth L, Dantas G. 
+2019. 
+Genomic and metagenomic approaches for predictive surveillance of emerging pathogens and antibiotic resistance. Clin Pharmacol Ther
+106:512–524. doi: 10.1002/cpt.1535. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+7. McDermott PF, Tyson GH, Kabera C, Chen Y, Li C, Folster JP, Ayers SL, Lam C, Tate HP, Zhao S. 
+2016. 
+Whole-genome sequencing for detecting antimicrobial resistance in nontyphoidal Salmonella . Antimicrob Agents Chemother
+60:5515–5520. doi: 10.1128/AAC.01030-16. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+8. Zhao S, Tyson GH, Chen Y, Li C, Mukherjee S, Young S, Lam C, Folster JP, Whichard JM, McDermott PF. 
+2016. 
+Whole-genome sequencing analysis accurately predicts antimicrobial resistance phenotypes in Campylobacter spp. Appl Environ Microbiol
+82:459–466. doi: 10.1128/AEM.02873-15. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Fournier P-E, Vallenet D, Barbe V, Audic S, Ogata H, Poirel L, Richet H, Robert C, Mangenot S, Abergel C, Nordmann P, Weissenbach J, Raoult D, Claverie J-M. 
+2006. 
+Comparative genomics of multidrug resistance in Acinetobacter baumannii. PLoS Genet
+2:e7. doi: 10.1371/journal.pgen.0020007. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+10. Gordon NC, Price JR, Cole K, Everitt R, Morgan M, Finney J, Kearns AM, Pichon B, Young B, Wilson DJ, Llewelyn MJ, Paul J, Peto TEA, Crook DW, Walker AS, Golubchik T. 
+2014. 
+Prediction of Staphylococcus aureus antimicrobial resistance by whole-genome sequencing. J Clin Microbiol
+52:1182–1191. doi: 10.1128/JCM.03117-13. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Kumar V, Sun P, Vamathevan J, Li Y, Ingraham K, Palmer L, Huang J, Brown JR. 
+2011. 
+Comparative genomics of Klebsiella pneumoniae strains with different antibiotic resistance profiles. Antimicrob Agents Chemother
+55:4267–4276. doi: 10.1128/AAC.00052-11. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Walker TM, Kohl TA, Omar SV, Hedge J, Del Ojo Elias C, Bradley P, Iqbal Z, Feuerriegel S, Niehaus KE, Wilson DJ, Clifton DA, Kapatai G, Ip CLC, Bowden R, Drobniewski FA, Allix-Béguec C, Gaudin C, Parkhill J, Diel R, Supply P, Crook DW, Smith EG, Walker AS, Ismail N, Niemann S, Peto TEA, Modernizing Medical Microbiology (MMM) Informatics Group. 2015. 
+Whole-genome sequencing for prediction of Mycobacterium tuberculosis drug susceptibility and resistance: a retrospective cohort study. Lancet Infect Dis
+15:1193–1202. doi: 10.1016/S1473-3099(15)00062-6. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+13. Walker J, Saraste M, Runswick M, Gay N. 
+1982. 
+Distantly related sequences in the alpha- and beta-subunits of ATP synthase, myosin, kinases and other ATP-requiring enzymes and a common nucleotide binding fold. EMBO J
+1:945–951. doi: 10.1002/j.1460-2075.1982.tb01276.x. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+14. Carattoli A, Zankari E, García-Fernández A, Larsen MV, Lund O, Villa L, Aarestrup FM, Hasman H. 
+2014. In silico detection and typing of plasmids using PlasmidFinder and plasmid multilocus sequence typing. Antimicrob Agents Chemother
+58:3895–3903. doi: 10.1128/AAC.02412-14. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+15. Mullany P.
+2014. 
+Functional metagenomics for the investigation of antibiotic resistance. Virulence
+5:443–447. doi: 10.4161/viru.28196. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+16. Nguyen M, Long SW, McDermott PF, Olsen RJ, Olson R, Stevens RL, Tyson GH, Zhao S, Davis JJ. 
+2018. 
+Using machine learning to predict antimicrobial MICs and associated genomic features for nontyphoidal Salmonella . J Clin Microbiol
+57:e01260-18. doi: 10.1128/JCM.01260-18. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+17. Böhm M-E, Razavi M, Marathe NP, Flach C-F, Larsson DGJ. 
+2020. 
+Discovery of a novel integron-borne aminoglycoside resistance gene present in clinical pathogens by screening environmental bacterial communities. Microbiome
+8:41. doi: 10.1186/s40168-020-00814-z. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+18. Seemann T.
+2014. 
+Prokka: rapid prokaryotic genome annotation. Bioinformatics
+30:2068–2069. doi: 10.1093/bioinformatics/btu153. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+19. Page AJ, Cummins CA, Hunt M, Wong VK, Reuter S, Holden MTG, Fookes M, Falush D, Keane JA, Parkhill J. 
+2015. 
+Roary: rapid large-scale prokaryote pan genome analysis. Bioinformatics
+31:3691–3693. doi: 10.1093/bioinformatics/btv421. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+20. National Committee for Clinical Laboratory Standards. 2004. 
+Performance standards for antimicrobial susceptibility testing; 14th informational supplement, vol 24
+National Committee for Clinical Laboratory Standards, Wayne, PA. [ Google Scholar ] 
+
+21. Altschul SF, Madden TL, Schaffer AA, Zhang J, Zhang Z, Miller W, Lipman DJ. 
+1997. 
+Gapped BLAST and PSI-BLAST: a new generation of protein database search programs. Nucleic Acids Res
+25:3389–3402. doi: 10.1093/nar/25.17.3389. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+22. Zhu W, Lomsadze A, Borodovsky M. 
+2010. 
+Ab initio gene identification in metagenomic sequences. Nucleic Acids Res
+38:e132. doi: 10.1093/nar/gkq275. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+23. Lehwark P, Greiner S. 
+2019. 
+GB2sequin - a file converter preparing custom GenBank files for database submission. Genomics
+111:759–761. doi: 10.1016/j.ygeno.2018.05.003. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+Associated Data 
+
+This section collects any data citations, data availability statements, or supplementary materials included in this article. 
+
+Supplementary Materials 
+
+Supplemental file 1 
+
+supp_data_source_481280_868028_1.pdf (129.4KB, pdf) 
+
+Articles from Antimicrobial Agents and Chemotherapy are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (422.1 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

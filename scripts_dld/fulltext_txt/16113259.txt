@@ -1,0 +1,536 @@
+PMID: 16113259
+PMCID: PMC1231069
+DOI: 10.1128/IAI.73.9.5426-5437.2005
+Title: Cable pili and the 22-kilodalton adhesin are required for Burkholderia cenocepacia binding to and transmigration across the squamous epithelium.
+Journal: Infection and immunity
+PubDate: 2005 Sep
+Authors: Urban TA, Goldberg JB, Forstner JF, Sajjan US
+Source: OA_HTML
+License: pmc_html_oa
+
+## OA_HTML
+Cable Pili and the 22-Kilodalton Adhesin Are Required for Burkholderia cenocepacia Binding to and Transmigration across the Squamous Epithelium - PMC 
+Skip to main content 
+
+An official website of the United States government 
+Here's how you know 
+Here's how you know 
+
+Official websites use .gov A .gov website belongs to an official
+ government organization in the United States. 
+
+Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely
+ connected to the .gov website. Share sensitive
+ information only on official, secure websites. 
+
+Search 
+Log in 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log out 
+
+Search… Search NCBI 
+
+Primary site navigation 
+Search 
+
+Logged in as: 
+
+Dashboard 
+
+Publications 
+
+Account settings 
+
+Log in 
+
+Search PMC Full-Text Archive Search in PMC 
+
+Journal List 
+
+User Guide 
+
+PERMALINK 
+
+Copy 
+
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with,
+ the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice 
+
+Infect Immun 
+. 2005 Sep;73(9):5426–5437. doi: 10.1128/IAI.73.9.5426-5437.2005 
+
+Search in PMC 
+
+Search in PubMed 
+
+View in NLM Catalog 
+
+Add to search 
+
+Cable Pili and the 22-Kilodalton Adhesin Are Required for Burkholderia cenocepacia Binding to and Transmigration across the Squamous Epithelium 
+
+Teresa A Urban 
+
+Teresa A Urban 
+
+Department of Microbiology, University of Virginia Health Sciences, Charlottesville, Virginia, 1 Structural Biology and Biochemistry, The Hospital for Sick Children, Toronto, Ontario, Canada 2 
+
+Find articles by Teresa A Urban 
+
+1 , Joanna B Goldberg 
+
+Joanna B Goldberg 
+
+Department of Microbiology, University of Virginia Health Sciences, Charlottesville, Virginia, 1 Structural Biology and Biochemistry, The Hospital for Sick Children, Toronto, Ontario, Canada 2 
+
+Find articles by Joanna B Goldberg 
+
+1 , Janet F Forstner 
+
+Janet F Forstner 
+
+Department of Microbiology, University of Virginia Health Sciences, Charlottesville, Virginia, 1 Structural Biology and Biochemistry, The Hospital for Sick Children, Toronto, Ontario, Canada 2 
+
+Find articles by Janet F Forstner 
+
+2 , Umadevi S Sajjan 
+
+Umadevi S Sajjan 
+
+Department of Microbiology, University of Virginia Health Sciences, Charlottesville, Virginia, 1 Structural Biology and Biochemistry, The Hospital for Sick Children, Toronto, Ontario, Canada 2 
+
+Find articles by Umadevi S Sajjan 
+
+2, * 
+
+Author information 
+
+Article notes 
+
+Copyright and License information 
+
+Department of Microbiology, University of Virginia Health Sciences, Charlottesville, Virginia, 1 Structural Biology and Biochemistry, The Hospital for Sick Children, Toronto, Ontario, Canada 2 
+
+* 
+Corresponding author. Present address: Department of Pediatrics, Infectious Diseases, University of Michigan, 8323 MSRB III, 1150 W. Medical Center Drive, Ann Arbor, MI 48109. Phone: (734) 936-9767. Fax: (734) 764-4279. E-mail: usajjan@umich.edu . 
+
+Received 2005 Feb 4; Revised 2005 Apr 13; Accepted 2005 May 4. 
+
+Copyright © 2005, American Society for Microbiology 
+
+PMC Copyright notice 
+
+PMCID: PMC1231069  PMID: 16113259 
+
+Abstract 
+
+Burkholderia cenocepacia strains expressing both cable (Cbl) pili and the 22-kDa adhesin bind to cytokeratin 13 (CK13) strongly and invade squamous epithelium efficiently. It has not been established, however, whether the gene encoding the adhesin is located in the cbl operon or what specific contribution the adhesin and Cbl pili lend to binding and transmigration or invasion capacity of B. cenocepacia . By immunoscreening an expression library of B. cenocepacia isolate BC7, we identified a large gene ( adhA ) that encodes the 22-kDa adhesin. Isogenic mutants lacking expression of either Cbl pili ( cblA or cblS mutants) or the adhesin ( adhA mutant) were constructed to assess the individual role of Cbl pili and the adhesin in mediating B. cenocepacia binding to and transmigration across squamous epithelium. Relative to the parent strain, mutants of Cbl pili showed reduced binding (50%) to isolated CK13, while the adhesin mutant showed almost no binding (0 to 8%). Mutants lacking either cable pili or the adhesin were compromised in their ability to bind to and transmigrate across the squamous epithelium compared to the wild-type strain, although this deficiency was most pronounced in the adhA mutant. These results indicate that both Cbl pili and the 22-kDa adhesin are necessary for the optimal binding to CK13 and transmigration properties of B. cenocepacia . 
+
+The Burkholderia cepacia complex (Bcc) represents at least nine phylogenetically closely related yet distinct species (or genomovars) of bacteria which are commonly found in the environment and can serve as agents of both plant and human infection ( 2 , 46 ). Members of this complex can cause lung infections in cystic fibrosis (CF) patients, resulting in various clinical outcomes, including asymptomatic carriage, chronic infection, and “cepacia syndrome.” The latter is characterized by necrotizing pneumonia and, in some cases, bacteremia and septicemia, leading to death ( 8 , 46 ). Although all nine Bcc species have been isolated from CF patients, B. cenocepacia (genomovar III) and B. multivorans (genomovar II) together account for 95% of Bcc infections in CF patients ( 16 , 17 ). B. cenocepacia epidemic strains have largely contributed to the incidence of disease in this patient population and are more likely to cause severe, chronic infection, interpatient spread, and increased mortality than other Bcc species ( 17 , 42 ). One B. cenocepacia lineage, designated ET12, infected a large number of the CF population in Canada and the United Kingdom as a result of person-to-person transmission ( 17 , 18 , 44 ) and hence is considered one of the highly transmissible strains of B. cenocepacia . Isolates of the ET12 strain express large, peritrichous appendages, designated cable (Cbl) pili, which are presumed to be a marker of epidemic strains ( 5 , 30 , 44 ). 
+
+Bacterial adherence to host cells is an important step in infection and determines the host specificity and tissue tropism, due to specific interactions between bacterial adhesins and host receptors ( 13 ). Members of the Bcc have been shown to bind to a variety of epithelial cells, including those from nasal polyps, bovine trachea, and human buccal and airway epithelia and also to alveolar type II pneumocytes (A549) ( 3 , 12 , 23 , 29 , 31 ). To date, two classes of host cell receptors have been identified for Bcc. Lipid receptors (such as digalactosylceramide, globotriosylceramide, and gangliosides) are expressed mainly on the basolateral surface of all the above-mentioned cell types and are utilized primarily by nonpiliated strains ( 12 , 45 ). Cytokeratin 13 (CK13), a member of a family of intermediate filaments, is expressed in tracheobronchial epithelial cells and in cells differentiated into a squamous phenotype. Although CK13 is essentially a cytoplasmic protein, it is expressed on the apical surface of airway epithelium undergoing squamous metaplasia after repeated injury and repair ( 14 , 22 , 43 ). Previously, we have shown that CK13 expression is increased in CF airways, mainly in bronchiolar and respiratory epithelium ( 27 ). Therefore, we presume that B. cenocepacia capable of binding to CK13 may have a greater potential to cause infection, particularly in CF patients. 
+
+The cbl operon consists of at least seven genes: cblB , a proposed chaperone-like protein; cblA , the major pilin subunit; cblC , a proposed usher protein; cblD , a minor pilin protein; and the regulatory genes cblS , cblT , and cblR ( 32 , 48 ). The first four genes in the operon, cblB , cblA , cblC , and cblD , are sufficient for pilus biogenesis, as determined by heterologous expression in Escherichia coli ( 32 ). However, the regulatory genes cblS , cblT , and cblR are necessary for pilus biogenesis in B. cenocepacia ( 48 ). Although the organization of genes necessary for pilus biogenesis in the cbl operon and their predicted products are very similar to enterotoxigenic E. coli CS and CFA/I families ( 33 , 35 ), they differ from the CS and CFA/I class of pili with regard to the adhesin. In E. coli CS1 and CFA/I pili, the adhesin protein is a minor component that is located at the tip of the pili and is encoded by one of the genes in the pilus gene cluster ( cooD and cfaE in gene clusters of CS1 and CFA/I pili, respectively) ( 34 ). In contrast, the Cbl pilus-associated 22-kDa adhesin of B. cenocepacia , which mediates binding to CK13, is distributed along the shaft of the pili and is not encoded by any of the genes identified in the cbl operon ( 28 , 32 ). 
+
+Our previous studies using nonisogenic strains indicated that both Cbl pili and the 22-kDa adhesin are necessary for optimal binding to isolated CK13 and probably also for transmigration across squamous epithelium, as the latter depends on bacterial adhesion to CK13 ( 32 ). However, we were not able to directly relate CK13 binding to expression of Cbl pili or the adhesin. To investigate the individual role of these factors in mediating the binding of B. cenocepacia to CK13 and transmigration across squamous epithelium, we identified the gene ( adhA ) that encodes the 22-kDa adhesin in B. cenocepacia isolate BC7, constructed isogenic mutants lacking expression of this adhesin or the Cbl pili, and characterized these mutants with respect to these processes. 
+
+MATERIALS AND METHODS 
+
+Strains, plasmids, and growth conditions. 
+
+The bacterial strains and plasmids used in this study are listed in Table 1 . All bacterial strains were grown at 37°C in Luria broth (LB). E. coli and B. cenocepacia cells were routinely grown on either Luria agar containing 1.5% Bacto agar (Difco, Franklin Lakes, NJ) or trypticase soy agar plates (Remel, Lenexa, KS). B. cenocepacia was also grown on Pseudomonas isolation agar (Difco, Franklin Lakes, NJ) according to the manufacturer's instructions. Medium was supplemented with 10 μg/ml of tetracycline, 1.5 μg/ml of trimethoprim, or 50 μg/ml of kanamycin for E. coli and 300 μg/ml of tetracycline or 1.2 mg/ml of trimethoprim for B. cenocepacia , as appropriate. For the bacterial binding assay, B. cenocepacia cells were grown in trypticase soy broth in the absence or presence of appropriate antibiotics and [ 35 S]Cys-Met (Amersham Canada Ltd., Oakville, Ontario, Canada). 
+
+TABLE 1. 
+
+Bacterial strains and plasmids used in this study 
+
+Strain or plasmid Description a Source or reference Strains E. coli DH5α supE44 hsdR17 recAI endAI gyrA96 thi-1 relA1 Gibco SM10 thi-1 thr leu tonA lacY supE recA RP4-2-Tc::Mu, Km r 41 B. cepacia ATCC 25416 Onion rot isolate, Cbl − Adh − ATCC, Manassas, VA b B. cenocepacia J2315 CF respiratory isolate, Cbl pili + /Adh − J. R. W. Govan BC7 CF respiratory isolate, Cbl pili + /Adh + U. S. Sajjan adhA ::Tp adhA :: dhfr derivative of BC7, Tp r This study cblA ::Tp cblA :: dhfr derivative of BC7, Tp r This study cblS ::Tp cblS :: dhfr derivative of BC7, Tp r This study Plasmids pUCP18Tc Broad-host-range vector, pUCP18, derivative, Tc r 6 pEX18Tc Suicide vector, sacB Tc r 9 p34ETp Source of trimethoprim resistance cassette 7 pEX- adhA -Tp pEX18Tc with adhA -Tp fragment, Tc r Tp r This study pEX- cblA -Tp pEX18Tc with cblA -Tp fragment, Tc r Tp r This study pEX- cblS -Tp pEX18Tc with cblS -Tp fragment, Tc r Tp r This study pUCP18Tc- cblS pUCP18Tc with 2.3-kb cblS gene, Tc r This study 
+
+Open in a new tab 
+
+a 
+Km r , kanamycin resistance; Tc r , tetracycline resistance; Tp r , trimethoprim resistance. 
+
+b 
+ATCC, American Type Culture Collection. 
+
+Cell cultures. 
+
+Normal human bronchial epithelial cells were purchased at passage 1 from Cambrex (East Rutherford, NJ). The cells were seeded onto semipermeable membranes (Corning, Rochester, NY) and grown at the air/liquid interface in the absence of retinoic acid to promote squamous differentiation, as described previously ( 24 ). 
+
+Antibodies. 
+
+Monoclonal antibody to CK13 was purchased from Vector Diagnostics Inc. (Burlingame, CA). Polyclonal antibodies to B. cenocepacia (R418, which recognizes multiple antigens), Cbl pili, and the 22-kDa adhesin have been previously described ( 27 , 32 , 45 ). 
+
+Construction and screening of genomic library from BC7. 
+
+Genomic DNA was randomly sheared, and >8-kb DNA fragments were isolated. EcoRI restriction endonuclease recognition sites were added to both the ends of sheared fragments and cloned into the EcoRI site of the λzap II expression vector according to the manufacturer's instructions (Stratagene, La Jolla, CA). The unamplified library was screened with a polyclonal antibody specific to the 22-kDa adhesin. The positive clones were rescued as phagemids, generated nested deletion clones of insert DNA using Erase a base kit (Promega, Madison, WI), and subjected to sequencing using vector- and gene-specific primers by automated sequencing at the sequencing facility of the Hospital for Sick Children, Toronto, Ontario, Canada. DNA sequence from nested deletion clones was assembled manually. 
+
+Bacterial extracts. 
+
+Whole-cell and heat extracts were prepared as previously described ( 32 ). Briefly, for whole-cell extracts, B. cenocepacia cells were grown overnight on LB agar plates with appropriate antibiotics at 37°C and suspended in phosphate-buffered saline (PBS) to an optical density at 600 nm of 10.0 (1 × 10 10 CFU/ml). Samples were diluted 1:4 with Laemmli reducing buffer, boiled for 10 min, and centrifuged, and supernatant was stored at −20°C. Heat extracts were prepared by suspending bacteria grown in trypticase soy broth overnight to 3 × 10 10 CFU/ml in PBS containing complete protease inhibitors (Roche Diagnostics Canada, Laval, Quebec City, Canada), heating at 60°C for 20 min with occasional mixing, and centrifugation. Supernatant enriched in surface proteins with minimal contamination with cytoplasmic and periplasmic proteins ( 38 ) was collected and stored at −70°C until needed. Heat extracts are suitable to detect less-abundant surface proteins such as the adhesin. 
+
+Amino acid sequence analysis of the 22-kDa adhesin. 
+
+Heat extract from BC7 or ATCC 25416 was incubated with cytokeratins isolated from buccal epithelial cells ( 27 , 31 ) for 1 h at 37°C. After removing unbound proteins, cytokeratins along with the bound bacterial proteins were solubilized in a solution containing 8 M urea, 1 M thiourea, 2% CHAPS {3-[(3-cholamidopropyl)-dimethylammonio]-1-propanesulfonate}, 20 mM dithiothreitol, and 2% IPG buffer (Amersham Biosciences, Piscataway, NJ) and subjected to two-dimensional electrophoresis. Separated proteins were visualized either by staining with Coomassie blue or by Western blot with an antibody to the 22-kDa adhesin. A protein spot at approximately 22 kDa, which reacted with antibody, was observed only in cytokeratins incubated with the BC7 extract. The corresponding protein spot from the Coomassie-stained gel was cut out and subjected to in-gel trypsin digestion, as described previously ( 39 ). Briefly, the protein spot was reduced with 10 mM dithiothreitol, alkylated with 55 mM iodoacetamide, and incubated with 0.02 μg of sequencing-grade trypsin (Promega Corp., Madison, WI) overnight at 37°C. Tryptic peptides were extracted from the gel slice in 0.1% trifluoroacetic acid followed by acetonitrile. The extractions were pooled, desalted with a C 18 ZipTip (Millipore, Nepean, Ontario, Canada), and subjected to peptide mapping and tandem mass spectrometry (MS/MS) sequencing with Applied Biosystems/MDS Sciex API QSTAR XL MALDI QTOF (Foster City, CA). Sequences were then compared with the predicted open reading frame of the 22-kDa adhesin adhA . 
+
+Plasmid construction. 
+
+The gene replacement plasmid pEX-cblA-Tp was constructed by amplifying a 511-bp fragment of the cblA gene from B. cenocepacia strain J2315 genomic DNA with Vent DNA polymerase (NEB) using the following primers: 5′-GCTGCTGCTCTGATGTCGAT-3′ ( cblA -3) and 5′-CATTCAGGCGCGCCCCGTCG-3′ ( cblA -4). The J2315 cblA gene ( http://www.sanger.ac.uk/Projects/B_cenocepacia ) was used, as it shares >99% identity with the cblA gene from strain BC7 (GenBank accession no. U10244 ). This fragment was ligated into pEX18Tc and was insertionally inactivated with a trimethoprim resistance (Tp) cassette from plasmid p34ETp ( 7 ) at an SmaI site in cblA . 
+
+pEX- cblS -Tp was constructed by amplifying a 760-bp fragment of the cblS gene from strain BC7 with Taq polymerase with the following primers: 5′-GGAAGCAAGGTTCTCCGCGC-3′ ( cblS -1) and 5′-TGATCGATGCGAGGATCGGCAGGTC-3′ ( cblS -2). This fragment was insertionally inactivated with a trimethoprim resistance (Tp) cassette at a blunted MluI site. The interrupted gene was then ligated into pEX18Tc. 
+
+pEX -adhA -Tp was constructed by amplifying an 830-bp fragment with Taq polymerase in the proposed B. cenocepacia 22-kDa adhesin ( adhA ) gene of strain BC7 with the primers 5′-ACTACGTCGATGTTCCGGTCGCCAAC-3′ ( adhA -1) and 5′-GCGTCGGCTCGTATCGCTCGTCGGCACCGCCGAT-3′ ( adhA -2) and was inactivated by inserting a trimethoprim resistance (Tp) cassette at a blunted AgeI site. The interrupted gene fragment was then ligated into pEX18Tc. 
+
+The complementing plasmid, pUCP18Tc- cblS , was constructed by amplifying the full-length cblS gene with Taq polymerase using the primers 5′-CCACAAGCTGACGATCACGTTTACG-3′ ( cblS compF) and 5′-CACGTTGCCGGAAACCCGACAGCGGG-3′ ( cblS compR) and was subsequently ligated into pUCP18Tc in the same orientation as the plasmid-encoded promoter. 
+
+Allelic exchange in B. cenocepacia . 
+
+Biparental matings were performed to transfer pEX- adhA -Tp, pEX- cblA -Tp, or pEX- cblS -Tp from E. coli SM10 to B. cenocepacia strain BC7, as previously described ( 37 ). Transconjugants were plated onto Pseudomonas isolation agar supplemented with 1.2 mg/ml trimethoprim to select for crossover events in B. cenocepacia . Gene replacements were selected from plates containing 1.2 mg/ml trimethoprim and 5% sucrose. 
+
+Bacterial binding and transmigration assays. 
+
+Binding of the wild-type or mutant strains to isolated CK13 was determined by bacterial overlay assay, as described previously ( 29 ). Semiquantification of bacterial binding to CK13 was performed using a Kodak Gel Logic 200 imaging system furnished with 1-D image analysis software (Mandel Scientific Company Inc., Guelph, Ontario, Canada). 
+
+Bacterial binding to squamous epithelial cell cultures was determined as previously described ( 29 ). Briefly, B. cenocepacia BC7 or described mutants (10 6 CFU [multiplicity of infection of 1] in 10 μl) were incubated with the apical surface of squamous-differentiated cultures for 2 h at 37°C in 5% CO 2 . The apical surface of the culture was washed gently with PBS to remove unbound bacteria, and the number of bound bacteria was determined by plating the culture lysates. In some experiments, after removal of unbound bacteria, cultures were dissociated, fixed with cold methanol, and immunostained with antibodies to CK13 and B. cenocepacia (R418). The number of bacteria bound to CK13-positive and CK13-negative cells was counted under a fluorescent microscope. To examine whether the bacterial invasion of cells accounts for binding, cultures were pretreated with 2 or 5 μM of cytochalasin D and incubated with bacteria for 2 h, and cells were lysed and plated to determine the binding. 
+
+To determine the capacity of bacteria to transmigrate across the squamous epithelial cell cultures, and to persist and replicate, cell cultures were infected with bacteria (10 6 CFU) as described above and incubated for 2 h, and the apical surface was washed gently with PBS to remove nonadherent bacteria and incubated further, for a total of 24 h. Cell cultures were then lysed with 0.5% Triton X-100, and serial dilutions were plated to determine the number of bacteria. Samples of the basolateral chamber medium from the same experiment were plated to determine the number of bacteria that had transmigrated across the squamous culture. 
+
+Western blot analysis. 
+
+Proteins from whole-cell extracts or heat extracts (extracted from an equal number of bacteria [1 × 10 8 CFU]) were separated by 12% sodium dodecyl sulfate-polyacrylamide gel electrophoresis, transferred onto a polyvinylidene difluoride membrane (Millipore Corp., Billerica, MA), and stained with Ponceau S to confirm the equivalent protein load in each lane. The blots were then briefly rinsed with 10 mM Tris-HCl buffer (pH 7.8), blocked with 5% skim milk, and probed with purified antibody to CblA protein or the 22-kDa adhesin protein (AdhA) ( 26 , 27 ). After washing, bound antibody was detected by using anti-rabbit immunoglobulin G (IgG) (for detection of CblA) or anti-mouse IgG (for detection of the 22-kDa adhesin) conjugated to horseradish peroxidase and chemiluminescent substrate (Pierce Biotechnology Inc., Rockford, IL). Blots were semiquantified using a Kodak Gel Logic 200 imaging system. 
+
+Aggregation of bacteria. 
+
+Bacteria (wild-type BC7 or mutants) were suspended in cell culture medium to a concentration of 1 × 10 6 CFU/ml and incubated for 2 h at 37°C. Bacteria were sampled carefully using a flat-tipped 18-gauge needle (to minimize dissociation of bacterial aggregates) from the bottom of the tube and observed under a light microscope to determine the aggregation pattern of bacteria. 
+
+Morphology of cultures. 
+
+Squamous cultures before or after infection with bacteria were fixed in 10% buffered formalin overnight at 4°C and embedded in agar-paraffin ( 1 ). Sections (5 μm thick) were stained with hematoxylin and eosin for morphological evaluation. To localize CK13 or B. cenocepacia , sections were treated with antibody to CK13 or antibody to B. cenocepacia , respectively, as described previously ( 24 , 25 ) and observed under a fluorescence microscope. 
+
+Transmission electron microscopy. 
+
+Bacteria grown on agar plates in the presence of appropriate antibiotics were transferred to Formvar-coated grids and negatively stained with 1% phosphotungstic acid, as described previously ( 26 , 32 ). Immunogold labeling of bacteria was carried out essentially as described previously ( 30 ). Antibody specific to the 22-kDa adhesin was used at a 1:20 dilution, and the secondary antibody, conjugated with 10-nm gold particles, was used at a 1:50 dilution. Grids were counterstained with 1% phosphotungstic acid and observed under a JEOL 1200 EXII transmission electron microscope at 80 kV. 
+
+Statistical analysis. 
+
+Percentages of bacteria that were adherent, persistent, and proliferated or that had transmigrated were analyzed using analysis of variance (ANOVA) by modeling the natural logarithm transformation based on two ANOVA factors: infection type [wild-type, adhA ::Tp, cblA ::Tp, cblS ::Tp, or cblS ::Tp(pUCP18Tc- cblS )] and experimental variation. Model-based fold ratios (reported percentages of wild type) and 95% confidence intervals were calculated between strains of interest, and statistical tests were performed at the 0.05 level. 
+
+Nucleotide sequence accession number. 
+
+Sequence data have been deposited in the GenBank database under accession number AY608695 . 
+
+RESULTS 
+
+Identification of the gene ( adhA ) encoding the 22-kDa adhesin. 
+
+An expression library of BC7 genomic DNA was screened with an antibody specific to the 22-kDa adhesin, resulting in two positive clones that contained inserts greater than 8 kb in size. The insert DNA within these clones was used to construct plasmids containing progressive unidirectional deletions, which were sequenced. The assembled sequence was compared to the genome of the ET12 strain, J2315, at the Sanger database ( http://www.sanger.ac.uk/cgi-bin/BLAST/submitblast/B_cenocepacia ). Sequences exhibited greater than 99% homology to a large gene encoding a single open reading frame that is most similar to a putative hemagglutinin and spans nucleotides 2392077 to 2383414 in chromosome 2 of J2315. One of the recombinant plasmids contained the complete hemagglutinin gene, and the other had a 3′ truncation. This sequence is predicted to encode a 2,888-amino-acid-long polypeptide, which contained unique N- and C-terminal regions of 274 and 455 amino acids, respectively, with 12 nearly identical large repeats of 110 to 190 amino acids in the central portion (Fig. 1 ). Repeat 1 was the shortest and was immediately downstream of unique sequence at the N terminus. A putative signal peptide cleavage site was found between amino acid residues 136 and 137 of the encoded polypeptide as predicted by SignalIP V1.1 ( http://www.cbs.dtu.dk/services/SignalP/ [ 20 ]). 
+
+FIG. 1. 
+
+Open in a new tab 
+
+Deduced amino acid sequence of the 22-kDa adhesin gene. The signal peptide cleavage site is shown by an arrow pointing down between amino acids 136 and 137. Repeat regions are represented by alternate shading of the amino acid residues. Numbers on the right correspond to the repeat number. Asterisks on the repeats 1, 7, and 12 represent shorter repeats. The end of the last repeat is shown by an arrow pointing up. The amino acid sequence (determined by MS/MS analysis) of tryptic peptides generated from the isolated 22-kDa adhesin molecule is underlined. 
+
+To confirm that the amino acid sequence of the 22-kDa adhesin corresponded to the inferred amino acid sequence of the adhA gene, we isolated the 22-kDa adhesin bound to CK13 using biochemical techniques and subjected it to partial in-gel tryptic digestion followed by MS/MS analysis. The amino acid sequence from two individual peptides of the adhesin, “LAIDSIDGQSTD” and “VSVYDGTTLLG”, matched the deduced amino acid sequence (underlined in Fig. 1 ) of the adhesin gene. The first peptide was found in the unique region of N terminus of the polypeptide downstream of a predicted signal peptide cleavage site and upstream of the first repeat. The amino acid sequence of the second peptide was found in the repeat region and was present in all 12 repeats. These results suggest that the adhesin is derived from the N terminus of a much larger protein. 
+
+Construction of BC7 cblA , cblS , and adhA mutants. 
+
+To understand the role of Cbl pili and the 22-kDa adhesin in the binding of B. cenocepacia to CK13 and transmigration across the squamous epithelial cell cultures, isogenic mutants of isolate BC7 were made by insertional mutagenesis in genes encoding the major Cbl pilin subunit, cblA , and the 22-kDa adhesin, adhA (Fig. 2 ). To determine whether expression of the adhesin is regulated by genes that control the expression of Cbl pili, we created an isogenic mutant of cblS , one of the regulatory genes of a multicomponent regulatory system that regulates the biogenesis of Cbl pili ( 48 ). Successful insertion of the trimethoprim resistance cassette in all three mutants was confirmed by PCR and Southern blot analysis (data not shown). 
+
+FIG. 2. 
+
+Open in a new tab 
+
+Construction of B. cenocepacia BC7 mutants in the 22-kDa adhesin and cbl pilus operon. (A) Physical map of the B. cenocepacia adhA gene with insertion of the trimethoprim resistance cassette. The adhA gene in BC7 corresponds to nucleotide numbers 2383022 through 2391644 on chromosome 2 in J2315. The adhA gene was interrupted at the AgeI site (344 bp from the start of translation) with a trimethoprim resistance (Tp r ) cassette in the B. cenocepacia BC7 chromosome. The large arrow indicates the direction of adhA transcription. Primers generated for gene replacement strategy ( adhA -1 and adhA -2) are represented by directional arrows. Asterisks indicate repeats with deletions or truncations. The scale legend corresponds to the size of an intact repeat unit. (B) Physical map of the cbl operon with insertion of trimethoprim resistance cassettes. Arrows indicate the direction of transcription. cblA and cblS were interrupted individually in the B. cenocepacia BC7 chromosome with a trimethoprim resistance cassette. 
+
+Expression of Cbl pili and that of the 22-kDa adhesin are not interdependent. 
+
+We tested the effect of the trimethoprim resistance cassette insertion in cblA , cblS , and adhA on the expression of CblA and AdhA. Whole-cell extracts (for detection of CblA) or heat extracts enriched in surface proteins (for detection of AdhA) from 1 × 10 8 CFU of wild-type BC7 or constructed mutants were subjected to Western blot analysis, probing with antibody specific to either CblA or AdhA. Protein loading in each lane was confirmed to be almost equal before probing with antibody by staining the membrane with Ponceau S (data not shown). A band at 15.8 kDa, reacting with the CblA antibody, was observed in extracts from wild-type BC7 and adhA ::Tp; the reactivity of the adhA mutant was approximately 30% more than that of the wild-type strain. No CblA reactivity was observed from either the cblA ::Tp or cblS ::Tp mutant (Fig. 3a ). A band at 22 kDa, reacting with AdhA antibody, was detected in wild-type BC7 but not in adhA ::Tp (Fig. 3b ). AdhA reactivity was observed in cblA ::Tp and cblS ::Tp mutants at levels that were visibly reduced compared to that of the parent strain. These results demonstrate that the insertions abrogated only the expression of the respective genes and that CblS is necessary for the expression of CblA in B. cenocepacia but not AdhA. Effects of the insertions on the expression of Cbl pili and adhesin were then investigated by transmission and immunoelectron microscopy. Cbl pili were observed on wild-type BC7 (Fig. 4a ) and the adhA ::Tp mutant (data not shown), while both cblA ::Tp (data not shown) and cblS ::Tp (Fig. 4b ) mutants showed no detectable pili on their surface. Lack of CblA expression and assembled pili in cblS ::Tp was restored by providing cblS in trans on pUCP18Tc. cblS ::Tp (pUCP18Tc- cblS ) showed an immunoreactive band at 15.8 kDa (Fig. 3a , lane 6) and peritrichous pili on the surface similar to those of wild-type BC7 (Fig. 4c ), which indicates the successful complementation of cblS ::Tp. 
+
+FIG. 3. 
+
+Open in a new tab 
+
+Immunoblot analysis of CblA and AdhA expression in BC7 and mutants. Whole-cell (a) or heat (b) extracts of B. cenocepacia (obtained from 1 × 10 8 CFU) were subjected to 10% sodium dodecyl sulfate-polyacrylamide gel electrophoresis, and proteins were transferred to a polyvinylidene difluoride membrane. The membrane was probed with CblA antiserum (a) or with 22-kDa antibody (b). The bound antibody was detected by using the appropriate secondary antibody conjugated to horseradish peroxidase and chemiluminescent substrate. Molecular masses are indicated. 
+
+FIG. 4. 
+
+Open in a new tab 
+
+Transmission electron microscopy of bacteria. Bacteria grown on LB agar with appropriate antibiotics were transferred to Formvar-coated grids and negatively stained with 1% phosphotungstic acid. Panels a, b, and c represent wild-type BC7, cblS ::Tp, and cblS ::Tp(pUCP18Tc- cblS ), respectively. Bars represent 100 nm. 
+
+Immunolocalization of the adhesin with a specific antibody revealed a dense distribution of gold particles along the shaft of the Cbl pili in wild-type BC7 (Fig. 5a ). In contrast, the cblA ::Tp mutant showed a reduced number of gold particles around the bacterial surface (Fig. 5b ), which is consistent with the Western blot analysis. In the adhA ::Tp mutant, very few gold particles were observed around the bacterial surface (Fig. 5c ), similar to negative (preimmune serum) control (data not shown). Attempts to complement the cblA ::Tp and adhA ::Tp mutants were unsuccessful. Similar to our experience, another group was also unable to complement the cblA mutant for unknown reasons ( 47 ). In the case of the adhA gene, while the cloned DNA was originally noted to have an insert greater than 8 kb, reisolation of the DNA insert from phagemid and subsequent cloning into another vector resulted in rearrangements and deletions of the insert DNA. Efforts to stabilize the full-length adhA gene in another vector are currently under way. 
+
+FIG. 5. 
+
+Open in a new tab 
+
+Immunolocalization of adhesin. Bacteria grown on LB agar with appropriate antibiotics were transferred to Formvar-coated grids, incubated with 22-kDa antibody, and then incubated with anti-mouse IgG conjugated to colloidal gold. Samples were negatively stained with 1% phosphotungstic acid. Panels a, b, and c represent wild-type BC7, cblA ::Tp, and adhA ::Tp, respectively. Bars represent 500 nm. 
+
+The 22-kDa adhesin is responsible for B. cenocepacia binding to CK13. 
+
+Cbl pilus- and adhesin-positive B. cenocepacia isolate BC7 was previously shown to bind to CK13 ( 31 ). To assess the contribution of Cbl pili and the 22-kDa adhesin to this interaction, bacterial overlay assays were performed to determine the degree of binding of B. cenocepacia strains to isolated CK13. Both cblA ::Tp and cblS ::Tp, lacking Cbl pili, exhibited binding to CK13, but it was approximately 50% less than that of wild-type BC7 (Table 2 ). Binding of cblS ::Tp to CK13 was fully restored by pUCP18Tc- cblS . In contrast, adhA ::Tp, which expresses Cbl pili but not the adhesin, was deficient in binding to CK13. That is, compared to wild-type BC7, binding exhibited by adhA ::Tp was reduced by 96%. These data demonstrate that the 22-kDa adhesin is sufficient to mediate binding of B. cenocepacia to isolated CK13 in vitro but that Cbl pili are required for optimal binding. 
+
+TABLE 2. 
+
+Binding of wild-type and mutant BC7 to isolated CK13 a 
+
+Strain % of binding to BC7 (range [%]) BC7 100 cblA ::Tp 57 (50-68) cblS ::Tp 53 (46-59) cblS ::Tp(pUCP18Tc) 56 (49-67) cblS ::Tp(pUCP18Tc- cblS ) 96 (89-103) adhA ::Tp 4 (0-8) 
+
+Open in a new tab 
+
+a 
+Wild-type BC7 or mutants of Cbl pili or the 22-kDa adhesin were metabolically labeled with [ 35 S]Cys-Met and incubated with blots of isolated CK13 for 1 h. Blots were washed to remove unbound bacteria, and bound bacteria were detected by autoradiography and semiquantitated by densitometry. Binding of wild-type BC7 to CK13 was considered to be 100%. The values represent the means of three independent experiments, and the range of experimental values is given in the parentheses. 
+
+Cbl pili and the adhesin are required for maximal binding to and transmigration across squamous epithelium. 
+
+For determination of early adherence events, airway epithelial cells differentiated into squamous phenotype were infected apically with B. cenocepacia strains for 2 h. After washing, cells were lysed and plated to assess the number of adherent bacteria. Some experiments were carried out using cultures pretreated with cytochalasin D to separate the binding events from intracellular invasion. Five independent experiments with duplicates or triplicates were performed, and the percentage of bacteria bound relative to control (BC7) and corresponding P values were determined by employing two ANOVA factors (Table 3 ). Compared to wild-type BC7, both the cblA ::Tp and cblS ::Tp mutants exhibited reduced adherence to squamous epithelium (89.4% and 94.4% reduction, respectively; P < 0.001 for both strains). The adhA ::Tp mutant showed almost no binding (97.5% reduction compared to wild type BC7; P < 0.001); this level was similar to binding exhibited by the Cbl- and adhesin-negative strain ATCC 25416, as shown previously ( 24 ). The decrease in cblS ::Tp adherence to squamous epithelium was restored by providing cblS in trans [ cblS ::Tp(pUCP18Tc- cblS )]. Pretreatment of cultures with cytochalasin D had no effect on binding of either wild-type BC7 or mutants to squamous epithelial cell cultures (data not shown). These results suggest that intracellular invasion may not significantly obscure the binding results. 
+
+TABLE 3. 
+
+Adherence to and transmigration across the squamous epithelium by wild-type and mutant BC7 a 
+
+Strain Bacteria (% reduction ± SD) Adherent Transmigrated BC7 0 0 cblA ::Tp 89.4* ± 5.37 93.2* ± 10.73 cblS ::Tp 94.4* ± 5.70 98.5* ± 10.80 adhA ::Tp 98.5* ± 1.45 100.0* ± 0.0 cblS ::Tp (pUCP18Tc- cblS ) 3.0 ± 2.41 2.9 ± 5.00 
+
+Open in a new tab 
+
+a 
+The numbers represent the average and standard deviation (SD) from five independent experiments of duplicates or triplicates ( n = 10 to 15). For calculation of percent reduction, wild-type BC7 binding to and transmigration across squamous epithelial cell cultures was considered 100%, which was 7.8 × 10 3 ± 9.0 × 10 2 and 6.7 × 10 2 ± 8.5 × 10 1 , respectively. The P values were derived from percentages using ANOVA by modeling the natural log transformation based on two factors: the infection type and the experimental variations. * P < 0.001. 
+
+Self-aggregation of bacteria can significantly affect the binding of bacteria to the cell cultures. Hence, wild-type BC7 and mutants ( cblA ::Tp and adhA ::Tp) were examined for self-aggregation by light microscopy. All three bacteria remained predominantly as single cells when suspended in cell culture medium with a few small aggregates (Fig. 6 ). These observations suggest that aggregation of bacteria may not have significant impact on binding under the present experimental conditions. 
+
+FIG. 6. 
+
+Open in a new tab 
+
+Aggregation of bacteria. Wild-type BC7 or mutants (1 × 10 6 CFU/ml) were suspended in cell culture medium and incubated for 2 h at 37°C. Bacteria sampled from bottom of the tube were observed under a phase-contrast microscope. Panels a, b, and c represent wild-type BC7, cblA ::Tp, and adhA ::Tp, respectively. Bar represents 50 μm. 
+
+Immunoassaying of paraffin sections of squamous cultures with monoclonal antibody to CK13 indicated that CK13 is expressed on the apical surface of squamous cultures (Fig. 7a and b ). However, expression of CK13 was not uniform throughout the cultures, suggesting the availability of receptors other than CK13 for B. cenocepacia on CK13-negative cells. Hence, we determined the number of bacteria bound to CK13-positive and CK13-negative cells. Squamous cultures incubated with wild-type BC7 showed the highest number of bacteria per cell (75 ± 4.9 bacteria/10 cells), the majority of which were bound to the CK13-positive cells. Cultures incubated with cblA ::Tp, cblS ::Tp, or adhA ::Tp showed 15.5 ± 3.7, 9.9 ± 2.3, and 4.3 ± 2.8 bacteria/10 cells, respectively, the majority of which were bound to CK13-negative cells. These results suggest that CK13 is a major receptor in squamous cell cultures for Cbl- and adhesin-positive B. cenocepacia and is readily available on the apical surface for bacterial binding. 
+
+FIG. 7. 
+
+Open in a new tab 
+
+Immunolocalization of CK13. Paraffin sections of squamous culture were stained with either hematoxylin and eosin (a) or monoclonal antibody to CK13 antibody, and the bound antibody was detected by anti-mouse IgG conjugated with CY3 (b). Bar represents 100 μm. 
+
+To assess the capacity of mutants lacking Cbl pili or the adhesin to transmigrate across the squamous epithelium, we infected the cultures with wild-type BC7 or the constructed mutants. Nonadherent bacteria were removed at 2 h postinfection, and the cultures were further incubated for a total of 24 h. Medium from the basolateral chamber was plated to determine the number of bacteria that had migrated through the whole depth of the squamous cultures. In addition, cells were lysed and plated to determine the persistence of bacteria. 
+
+Basolateral medium from cultures infected with wild-type BC7 for 24 h showed 6.7 × 10 2 CFU/culture, demonstrating that wild-type BC7 transmigrates across squamous cultures (Table 3 ). In contrast, no bacteria were detected in medium from adhA ::Tp-infected cultures, indicating that the adhesin is required for transmigration across the culture. Basolateral medium from cultures infected with cblA ::Tp and cblS ::Tp mutants showed 93 to 98% less bacteria than wild-type BC7 ( P < 0.001 for both strains). Complementation of cblS ::Tp with the wild-type cblS gene in trans restored the transmigration capacity of the cblS mutant. 
+
+Cell lysates from the cultures infected for 24 h with cblA ::Tp, cblS ::Tp, and adhA ::Tp mutants showed slightly less bacteria than the cultures infected with wild-type BC7. The cblS ::Tp mutant complemented with wild-type cblS in trans showed persistence and proliferation capacity that were comparable to those of wild-type BC7. In an independent experiment, we examined the growth rate of the wild type and mutants in cell culture medium alone up to 24 h. No difference in growth rate was observed between wild-type BC7 and mutants (data not shown). These results suggest that the observed attenuated transmigration capacity of Cbl and Adh mutants is not due to differential bacterial growth or persistence but rather correlates with the 22-kDa adhesin-mediated binding of B. cenocepacia to squamous epithelial cell cultures. 
+
+Damage to culture correlates with bacterial density. 
+
+We examined hemotoxylin- and eosin-stained sections of cultures incubated with bacteria for 2 or 24 h to evaluate the damage to culture caused by BC7 or mutants. Neither the wild type nor any of the mutants caused damage to cultures during the first 2 h of infection (data not shown). In contrast, cultures infected for 24 h showed varying damage which corresponded to bacterial density. Cultures infected with wild-type BC7 showed localized damage to squamous epithelium (Fig. 8a ) that was severe in areas where the bacterial density was high (Fig. 8b ). Superimposition of Fig. 8a and b revealed the presence of bacteria on the apical surface as well as in the basal and suprabasal layers of culture (Fig. 8c ). In contrast, cultures treated with the CblA mutant showed mild or no damage (Fig. 8d ). Similar results were observed in cultures treated with CblS or AdhA mutants (data not shown). Immunolocalization experiments revealed that the majority of bacteria remain associated with the apical surface of cultures and are rarely found in the basal or suprabasal layers (Fig. 8e and f ). Cultures treated with cblS ::Tp complemented with cblS in trans showed damage and distribution of bacteria similar to that of wild-type BC7 (data not shown). 
+
+FIG. 8. 
+
+Open in a new tab 
+
+Morphology of cultures and immunolocalization of bacteria. Paraffin sections of squamous culture, incubated with wild-type BC7 (a, b, and c) or cblA ::Tp (d, e, and f) for 24 h, were stained with hemotoxylin and eosin (a and d) or incubated with anti- B. cenocepacia antibody (R418). The bound antibody was detected by anti-rabbit IgG conjugated with CY3 (b and e). Panels c and f represent the superimposition of panels a and b and panels d and e, respectively. Bar represents 50 μm. 
+
+DISCUSSION 
+
+The present study indicates that the 22-kDa adhesin, which mediates binding of B. cenocepacia to CK13, is derived from a much larger polypeptide and is encoded by a gene that is not contained in the cbl operon. Although the adhesin is sufficient to mediate binding of bacteria to isolated CK13, Cbl pili are required for optimal binding. Furthermore, adhesin-mediated binding to CK13 appears to be a prerequisite for transmigration of bacteria across multilayered squamous epithelial cell cultures. 
+
+The adhesin, which was previously identified as a protein with a molecular mass of 22 kDa by various biochemical methods ( 28 , 29 ), is encoded by a large gene with a predicted sequence that is similar to putative hemagglutinins from Ralstonia solanacearum and Myxococcus xanthus , putative surface adhesins from Bordetella pertussis and Pseudomonas putida , an autotransporter adhesin of Vibrio vulnificus , and RTX toxins and related Ca 2+ -binding proteins from several bacterial species ( 4 , 11 , 19 , 21 , 36 ). The biochemically determined amino acid sequence of two tryptic peptides of the purified 22-kDa adhesin matched the inferred amino acid sequence of the adhA gene in the N terminus, suggesting that the 22-kDa adhesin may be a proteolytic product from the N terminus of a large polypeptide. Whether the large polypeptide precursor has a role in binding to CK13 is currently under investigation. 
+
+Although immunolocalization studies indicated physical association of the adhesin with Cbl pili, the present study suggests that the adhesin is not an integral member of Cbl pili, unlike well-studied E. coli pilin adhesins such as CooD, CFAE, PapG, and FimH, which are integral members of CS1, CFAI, P, and type I pili, respectively ( 10 , 15 , 34 ). Furthermore, expression of AdhA appears to be independent of CblA, as the inactivation of CblS, a regulator of cbl operon ( 48 ), completely abrogated the expression of CblA but not AdhA. Based on these observations, we speculate that Cbl pili and the adhesin protein are expressed independently of each other, that interaction of the adhesin with Cbl pili occurs after it is translocated to the surface, and that this event maintains the adhesin molecules at the bacterial surface. Attenuated binding to isolated CK13 exhibited by Cbl mutants and natural B. cenocepacia variants lacking only Cbl pili but not the adhesin ( 32 ) and partial loss of secreted adhesin from the surface of Cbl mutants further support the notion that in the presence of Cbl pili, the secreted adhesin remains attached to the surface pili, thereby facilitating bacterial binding to CK13 in the presence of Cbl pili. 
+
+Previously, by using nonisogenic strains lacking either Cbl pili or the adhesin, we have shown that the binding of B. cenocepacia to the CK13 receptor is necessary for the subsequent invasion and transmigration of bacteria across squamous epithelial cell cultures via paracellular and transcellular routes ( 24 ). B. cenocepacia expressing both Cbl pili and the adhesin is more efficient in binding to and transmigrating across squamous epithelium than the nonisogenic isolates expressing either Cbl pili or the adhesin alone. However, it was not possible to correlate the specific contribution of Cbl pili and the adhesin to these processes. In the present study, using isogenic strains, we have established that although the 22-kDa adhesin is sufficient for bacterial binding to isolated CK13 in bacterial overlay assays, the adhesin acting alone does not account for the maximal binding of B. cenocepacia to its CK13 receptor in a purified form or cell-associated form or bacterial transmigration across the multilayered squamous epithelial cell cultures. While the cblA and cblS mutants, which lacked Cbl pili but expressed the adhesin, showed significantly reduced binding and transmigration capacity, the adhA mutant, which lacked the adhesin but expressed Cbl pili, showed minimal binding to squamous cultures and failed to transmigrate across the multilayer squamous cultures as monitored by fluorescence microscopy and sampling of basolateral medium for bacteria. These studies confirmed that adhesin-mediated binding of B. cenocepacia to the CK13 receptor on squamous epithelial cell cultures is absolutely necessary for subsequent invasion and transmigration, but Cbl pili are also required, presumably to stabilize the interaction. The presence of Cbl pili probably also increases the amount of secreted adhesin that can be tethered to the bacterial surface, which, in turn, potentiates binding and transmigration capacity of bacteria. 
+
+In contrast to our findings, Tomich and Mohr recently reported that Cbl pili have a minimal role in B. cenocepacia binding to porcine gastric mucin or monolayers of A549 cells ( 47 ). This is not surprising, as those investigators were likely observing interactions between nonpilin adhesins and glycolipid receptors, as commercially available porcine mucin is not purified and contains abundant amounts of nonmucin peptides, proteoglycans, and glycolipids. Likewise, A549 cells grown as monolayers do not express CK13 ( 31 ) but have exposed basolateral glycolipid receptors. We and others have shown that members of Bcc, including nonpiliated B. cenocepacia , also bind to glycolipid receptors ( 12 , 45 ). In the present study, we have either used purified CK13 or polarized and differentiated airway epithelial cells enriched in surface CK13, in which basolateral glycolipid receptors are not available for binding. These differences in cell preparations and receptor availability likely explain the different binding results obtained. Those same authors also showed that disruption of cable pilus biogenesis promotes autoaggregation and influences binding of the CblA mutant to epithelial and nonepithelial surfaces. However, in the present study, no such differences in autoaggregation patterns between the parent and mutants were observed, indicating that the observed binding is due to specific interaction between the CK13 receptor and the adhesin. This discrepancy may be due to a low number of bacteria and/or the presence of divalent cations in the suspension medium used in the present studies. 
+
+In summary, we have shown that both Cbl pili and the adhesin are necessary for optimal binding to CK13 and transmigration capacity of the B. cenocepacia ET12 lineage. Thus, the presence of Cbl pili and the associated adhesin may increase the infection potential of B. cenocepacia in cystic fibrosis patients. Although CK13 is predominantly a cytoplasmic protein and expressed in the basal layer of tracheal and bronchial epithelium under normal conditions, its expression is increased in airways undergoing squamous metaplasia due to repeated injury and repair. This state is frequently observed in cystic fibrosis patients ( 27 , 40 ). Since CK13 is readily available on the apical surface of airway epithelium undergoing squamous metaplasia ( 27 ), we speculate that CF airways provide a suitable environmental niche for highly transmissible and potentially virulent Cbl- and adhesin-positive B. cenocepacia strains. 
+
+Acknowledgments 
+
+This work was supported by grants from the Canadian Cystic Fibrosis Foundation (J.F.F.) and from the National Institutes of Health (J.B.G. [AI050230]) and the Cystic Fibrosis Foundation (J.B.G. [GOLDBE03P0]). T.A.U. was supported in part by the National Institutes of Health through the University of Virginia Infectious Diseases training grant (AI07046). 
+
+We thank Mark E. Smolkin, Department of Health Evaluation Sciences, University of Virginia, for advice on the statistical analyses. We thank Arlene Vinion-Dubiel for her invaluable insights regarding analysis of the adhesin amino acid sequence. Assistance from Yew Meng Heng (Department of Pediatric Laboratory Medicine, the Hospital for Sick Children) in electron microscopy is greatly appreciated. 
+
+Editor: J. N. Weiser 
+
+REFERENCES 
+
+1. Bourgeois, N., E. Braspenninckx, M. Wijnen, and N. Buyssens. 1982. The agar-paraffin embedding technique applied to small diagnostic biopsies. Stain Technol. 57 : 251-254. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+2. Burkholder, W. H. 1950. Sour skin, a bacterial rot of onion bulbs. Phytopathology 40 : 115-117. [ Google Scholar ] 
+
+3. Cervin, M. A., D. A. Simpson, A. L. Smith, and S. Lory. 1994. Differences in eucaryotic cell binding of Pseudomonas . Microb. Pathog. 17 : 291-299. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+4. Chain, P., J. Lamerdin, F. Larimer, W. Regala, M. Land, L. Hauser, A. Hooper, M. Klotz, J. Norton, L. Sayavedra-Soto, D. Arciero, N. Hommes, M. Whittaker, and D. Arp. 2003. Complete genome sequence of the ammonia-oxidizing bacterium and obligate chemolithoautotroph Nitrosomonas europaea . J. Bacteriol. 185 : 2759-2773. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+5. Clode, F. E., M. E. Kaufmann, H. Malnick, and T. L. Pitt. 2000. Distribution of genes encoding putative transmissibility factors among epidemic and nonepidemic strains of Burkholderia cepacia from cystic fibrosis patients in the United Kingdom. J. Clin. Microbiol. 38 : 1763-1766. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+6. Dean, C. R., and J. B. Goldberg. 2002. Pseudomonas aeruginosa galU is required for a complete lipopolysaccharide core and repairs a secondary mutation in a PA103 (serogroup O11) wbpM mutant. FEMS Microbiol. Lett. 210 : 277-283. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+7. DeShazer, D., and D. E. Woods. 1996. Broad-host-range cloning and cassette vectors based on the R388 trimethoprim resistance gene. BioTechniques 20 : 762-764. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+8. Govan, J. R., and V. Deretic. 1996. Microbial pathogenesis in cystic fibrosis: mucoid Pseudomonas aeruginosa and Burkholderia cepacia . Microbiol. Rev. 60 : 539-574. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+9. Hoang, T. T., R. R. Karkhoff-Schweizer, A. J. Kutchma, and H. P. Schweizer. 1998. A broad-host-range Flp-FRT recombination system for site-specific excision of chromosomally-located DNA sequences: application for isolation of unmarked Pseudomonas aeruginosa mutants. Gene 212 : 77-86. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+10. Jones, C. H., J. S. Pinkner, R. Roth, J. Heuser, A. V. Nicholes, S. N. Abraham, and S. J. Hultgren. 1995. FimH adhesin of type 1 pili is assembled into a fibrillar tip structure in the Enterobacteriaceae . Proc. Natl. Acad. Sci. USA 92 : 2081-2085. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+11. Kim, Y. R., S. E. Lee, C. M. Kim, S. Y. Kim, E. K. Shin, D. H. Shin, S. S. Chung, H. E. Choy, A. Progulske-Fox, J. D. Hillman, M. Handfield, and J. H. Rhee. 2003. Characterization and pathogenic significance of Vibrio vulnificus antigens preferentially expressed in septicemic patients. Infect. Immun. 71 : 5461-5471. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+12. Krivan, H. C., V. Ginsburg, and D. D. Roberts. 1988. Pseudomonas aeruginosa and Pseudomonas cepacia isolated from cystic fibrosis patients bind specifically to gangliotetraosylceramide (asialo GM1) and gangliotriaosylceramide (asialo GM2). Arch. Biochem. Biophys. 260 : 493-496. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+13. Krogfelt, K. 1991. Bacterial adhesion: genetics, biogenesis, and role in pathogenesis of fimbrial adhesins of Escherichia coli . Rev. Infect. Dis. 13 : 721-735. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+14. Leube, R. E., and T. J. Rustad. 1991. Squamous cell metaplasia in the human lung: molecular characteristics of epithelial stratification. Virchows Arch. B Cell Pathol. Incl. Mol. Pathol. 61 : 227-253. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+15. Lindberg, F., B. Lund, L. Johansson, and S. Normark. 1987. Localization of the receptor-binding protein adhesin at the tip of the bacterial pilus. Nature 328 : 84-87. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+16. LiPuma, J. J. 2003. Burkholderia and emerging pathogens in cystic fibrosis. Semin. Respir. Crit. Care Med. 24 : 681-692. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+17. Mahenthiralingam, E., A. Baldwin, and P. Vandamme. 2002. Burkholderia cepacia complex infection in patients with cystic fibrosis. J. Med. Microbiol. 51 : 533-538. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+18. Mahenthiralingam, E., P. Vandamme, M. E. Campbell, D. A. Henry, A. M. Gravelle, L. T. Wong, A. G. Davidson, P. G. Wilcox, B. Nakielna, and D. P. Speert. 2001. Infection with Burkholderia cepacia complex genomovars in patients with cystic fibrosis: virulent transmissible strains of genomovar III can replace Burkholderia multivorans . Clin. Infect. Dis. 33 : 1469-1475. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+19. Nelson, K., I. Paulsen, C. Weinel, R. Dodson, H. Hilbert, D. Fouts, S. Gill, M. Pop, V. M. Dos Santos, M. Holmes, L. Brinkac, M. Beanan, R. DeBoy, S. Daugherty, J. Kolonay, R. Madupu, W. Nelson, O. White, J. Peterson, H. Khouri, I. Hance, P. Lee, E. Holtzapple, D. Scanlan, K. Tran, A. Moazzez, T. Utterback, M. Rizzo, K. Lee, D. Kosack, D. Moestl, H. Wedler, J. Lauber, J. Hoheisel, M. Straetz, S. Heim, C. Kiewitz, J. Eisen, K. Timmis, A. Duesterhoft, B. Tummler, and C. Fraser. 2002. Complete genome sequence and comparative analysis of the metabolically versatile Pseudomonas putida KT2440. Environ. Microbiol. 4 : 799-808. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+20. Nielsen, H., J. Engelbrecht, S. Brunak, and G. von Heijne. 1997. Identification of prokaryotic and eukaryotic signal peptides and prediction of their cleavage sites. Protein Eng. 10 : 1-6. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+21. Parkhill, J., M. Sebaihia, A. Preston, L. D. Murphy, N. Thomson, D. E. Harris, M. T. Holden, C. M. Churcher, S. D. Bentley, K. L. Mungall, A. M. Cerdeno-Tarraga, L. Temple, K. James, B. Harris, M. A. Quail, M. Achtman, R. Atkin, S. Baker, D. Basham, N. Bason, I. Cherevach, T. Chillingworth, M. Collins, A. Cronin, P. Davis, J. Doggett, T. Feltwell, A. Goble, N. Hamlin, H. Hauser, S. Holroyd, K. Jagels, S. Leather, S. Moule, H. Norberczak, S. O'Neil, D. Ormond, C. Price, E. Rabbinowitsch, S. Rutter, M. Sanders, D. Saunders, K. Seeger, S. Sharp, M. Simmonds, J. Skelton, R. Squares, S. Squares, K. Stevens, L. Unwin, S. Whitehead, B. G. Barrell, and D. J. Maskell. 2003. Comparative analysis of the genome sequences of Bordetella pertussis , Bordetella parapertussis and Bordetella bronchiseptica . Nat. Genet. 35 : 32-40. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+22. Roger, P., E. Puchelle, O. Bajolet-Laudinat, J. M. Tournier, C. Debordeaux, M. C. Plotkowski, J. H. Cohen, D. Sheppard, and S. de Bentzmann. 1999. Fibronectin and alpha5beta1 integrin mediate binding of Pseudomonas aeruginosa to repairing airway epithelium. Eur. Respir. J. 13 : 1301-1309. [ PubMed ] [ Google Scholar ] 
+
+23. Saiman, L., G. Cacalano, and A. Prince. 1990. Pseudomonas cepacia adherence to respiratory epithelial cells is enhanced by Pseudomonas aeruginosa . Infect. Immun. 58 : 2578-2584. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+24. Sajjan, U., C. Ackerley, and J. Forstner. 2002. Interaction of cblA /adhesin-positive Burkholderia cepacia with squamous epithelium. Cell. Microbiol. 4 : 73-86. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+25. Sajjan, U., M. Corey, A. Humar, E. Tullis, E. Cutz, C. Ackerley, and J. Forstner. 2001. Immunolocalization of Burkholderia cepacia in the lungs of cystic fibrosis patients. J. Med. Microbiol. 50 : 535-546. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+26. Sajjan, U., L. Liu, A. Lu, T. Spilker, J. Forstner, and J. J. LiPuma. 2002. Lack of cable pili expression by cblA-containing Burkholderia cepacia complex. Microbiology 148 : 3477-3484. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+27. Sajjan, U., Y. Wu, G. Kent, and J. Forstner. 2000. Preferential adherence of cable-piliated Burkholderia cepacia to respiratory epithelia of CF knockout mice and human cystic fibrosis lung explants. J. Med. Microbiol. 49 : 875-885. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+28. Sajjan, U. S., and J. F. Forstner. 1992. Identification of the mucin-binding adhesin of isolated Pseudomonas cepacia from patients with cystic fibrosis. Infect. Immun. 60 : 1434-1440. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+29. Sajjan, U. S., and J. F. Forstner. 1993. Role of a 22-kilodalton pilin protein in binding of Pseudomonas cepacia to buccal epithelial cells. Infect. Immun. 61 : 3157-3163. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+30. Sajjan, U. S., L. Sun, R. Goldstein, and J. F. Forstner. 1995. Cable (Cbl) type II pili of cystic fibrosis-associated Burkholderia ( Pseudomonas ) cepacia : nucleotide sequence of the cblA major subunit pilin gene and novel morphology of the assembled appendage fibers. J. Bacteriol. 177 : 1030-1038. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+31. Sajjan, U. S., F. A. Sylvester, and J. Forstner. 2000. Cable-piliated Burkholderia cepacia binds to cytokeratin 13 of epithelial cells. Infect. Immun. 68 : 1787-1795. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+32. Sajjan, U. S., H. Xie, M. D. Lefebre, M. A. Valvano, and J. F. Forstner. 2003. Identification and molecular analysis of cable pilus biosynthesis genes in Burkholderia cepacia . Microbiology 149 : 961-971. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+33. Sakellaris, H., D. P. Balding, and J. R. Scott. 1996. Assembly proteins of CS1 pili of enterotoxigenic Escherichia coli . Mol. Microbiol. 21 : 529-541. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+34. Sakellaris, H., G. P. Munson, and J. R. Scott. 1999. A conserved residue in the tip proteins of CS1 and CFA/I pili of enterotoxigenic Escherichia coli that is essential for adherence. Proc. Natl. Acad. Sci. USA 96 : 12828-12832. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+35. Sakellaris, H., and J. R. Scott. 1998. New tools in an old trade: CS1 pilus morphogenesis. Mol. Microbiol. 30 : 681-687. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+36. Salanoubat, M., S. Genin, F. Artiguenave, J. Gouzy, S. Mangenot, M. Arlat, A. Billault, P. Brottier, J. C. Camus, L. Cattolico, M. Chandler, N. Choisne, C. Claudel-Renard, S. Cunnac, N. Demange, C. Gaspin, M. Lavie, A. Moisan, C. Robert, W. Saurin, T. Schiex, P. Siguier, P. Thebault, M. Whalen, P. Wincker, M. Levy, J. Weissenbach, and C. A. Boucher. 2002. Genome sequence of the plant pathogen Ralstonia solanacearum . Nature 415 : 497-502. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+37. Schweizer, H. P. 1992. Allelic exchange in Pseudomonas aeruginosa using novel ColE1-type vectors and a family of cassettes containing a portable oriT and the counter-selectable Bacillus subtilis sacB marker. Mol. Microbiol. 6 : 1195-1204. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+38. Scott, J. R., J. C. Wakefield, P. W. Russell, P. E. Orndorff, and B. J. Froehlich. 1992. CooB is required for assembly but not transport of CS1 pilin. Mol. Microbiol. 6 : 293-300. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+39. She, Y. M., G. Q. Wang, A. Loboda, W. Ens, K. G. Standing, and F. J. Burczynski. 2002. Sequencing of rat liver cytosoloic proteins by matrix-assisted laser desorption ionization-quadrupole time-of-flight mass spectrometry following electrophoresis separation and extraction. Anal. Biochem. 310 : 137-147. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+40. Simel, D. L., J. P. Mastin, P. C. Pratt, C. L. Wisseman, J. D. Shelburne, and A. Spock. 1984. Scanning electron microscopic study of the airways in normal children and in patients with cystic fibrosis and other lung diseases. Pediatr. Pathol. 2 : 47-64. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+41. Simon, R. U. P., and A. Puhler. 1983. A broad-host-range mobilization system for in vivo genetic engineering: transposon mutagenesis in Gram-negative bacteria. Biotechnology 1 : 784-791. [ Google Scholar ] 
+
+42. Speert, D. P., D. Henry, P. Vandamme, M. Corey, and E. Mahenthiralingam. 2002. Epidemiology of Burkholderia cepacia complex in patients with cystic fibrosis, Canada. Emerg. Infect. Dis. 8 : 181-187. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+43. Stosiek, P., M. Kasper, and R. Moll. 1992. Changes in cytokeratin expression accompany squamous metaplasia of the human respiratory epithelium. Virchows Arch. A Pathol. Anat. Histopathol. 421 : 133-141. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+44. Sun, L., R. Z. Jiang, S. Steinbach, A. Holmes, C. Campanelli, J. Forstner, U. Sajjan, Y. Tan, M. Riley, and R. Goldstein. 1995. The emergence of a highly transmissible lineage of cbl+ Pseudomonas ( Burkholderia ) cepacia causing CF centre epidemics in North America and Britain. Nat. Med. 1 : 661-666. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+45. Sylvester, F. A., U. S. Sajjan, and J. F. Forstner. 1996. Burkholderia (basonym Pseudomonas ) cepacia binding to lipid receptors. Infect. Immun. 64 : 1420-1425. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+46. Thomassen, M. J., C. A. Demko, J. D. Klinger, and R. C. Stern. 1985. Pseudomonas cepacia colonization among patients with cystic fibrosis. A new opportunist. Am. Rev. Respir. Dis. 131 : 791-796. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+47. Tomich, M., and C. D. Mohr. 2003. Adherence and autoaggregation phenotypes of a Burkholderia cenocepacia cable pilus mutant. FEMS Microbiol. Lett. 228 : 287-297. [ DOI ] [ PubMed ] [ Google Scholar ] 
+
+48. Tomich, M., and C. D. Mohr. 2004. Genetic characterization of a multicomponent signal transduction system controlling the expression of cable pili in Burkholderia cenocepacia . J. Bacteriol. 186 : 3826-3836. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ] 
+
+Articles from Infection and Immunity are provided here courtesy of American Society for Microbiology (ASM) 
+
+ACTIONS 
+
+View on publisher site 
+
+PDF (771.5 KB) 
+
+Cite 
+
+Collections 
+
+Permalink 
+
+PERMALINK 
+
+Copy 
+
+RESOURCES 
+
+Similar articles 
+
+Cited by other articles 
+
+Links to NCBI Databases 
+
+Cite 
+
+Copy 
+
+Download .nbib .nbib 
+
+Format: AMA APA MLA NLM 
+
+Add to Collections 
+
+Create a new collection 
+
+Add to an existing collection 
+
+Name your collection * 
+
+Choose a collection 
+Unable to load your collection due to an error Please try again 
+
+Add Cancel 
+
+Follow NCBI 
+
+NCBI on X (formerly known as Twitter) NCBI on Facebook NCBI on LinkedIn NCBI on GitHub NCBI RSS feed 
+
+Connect with NLM 
+
+NLM on X (formerly known as Twitter) NLM on Facebook NLM on YouTube 
+
+National Library of Medicine 8600 Rockville Pike Bethesda, MD 20894 
+
+Web Policies 
+
+FOIA 
+
+HHS Vulnerability Disclosure 
+
+Help 
+
+Accessibility 
+
+Careers 
+
+NLM 
+
+NIH 
+
+HHS 
+
+USA.gov 
+
+Back to Top

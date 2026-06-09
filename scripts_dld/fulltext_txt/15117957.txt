@@ -1,0 +1,2527 @@
+PMID: 15117957
+PMCID: 
+DOI: 10.1074/jbc.C400164200
+Title: Crystal structure of the membrane fusion protein, MexA, of the multidrug transporter in Pseudomonas aeruginosa.
+Journal: The Journal of biological chemistry
+PubDate: 2004 Jun 18
+Authors: Akama H, Matsuura T, Kashiwagi S, Yoneyama H, Narita S, Tsukihara T, Nakagawa A, Nakae T
+Source: Elsevier_Candidate_XML
+License: publisher_api_candidate
+
+## ELSEVIER_XML
+<full-text-retrieval-response xmlns="http://www.elsevier.com/xml/svapi/article/dtd" xmlns:bk="http://www.elsevier.com/xml/bk/dtd" xmlns:cals="http://www.elsevier.com/xml/common/cals/dtd" xmlns:ce="http://www.elsevier.com/xml/common/dtd" xmlns:ja="http://www.elsevier.com/xml/ja/dtd" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:sa="http://www.elsevier.com/xml/common/struct-aff/dtd" xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd" xmlns:tb="http://www.elsevier.com/xml/common/table/dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xocs="http://www.elsevier.com/xml/xocs/dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><coredata><prism:url>https://api.elsevier.com/content/article/pii/S0021925820855665</prism:url><dc:identifier>doi:10.1074/jbc.C400164200</dc:identifier><eid>1-s2.0-S0021925820855665</eid><prism:doi>10.1074/jbc.C400164200</prism:doi><pii>S0021-9258(20)85566-5</pii><dc:title>Crystal Structure of the Membrane Fusion Protein, MexA, of the Multidrug Transporter in Pseudomonas aeruginosa
+               *
+               
+                  
+                     
+                        
+                     
+                  
+               
+             </dc:title><prism:publicationName>Journal of Biological Chemistry</prism:publicationName><prism:aggregationType>Journal</prism:aggregationType><pubType>fla</pubType><prism:issn>00219258</prism:issn><prism:volume>279</prism:volume><prism:issueIdentifier>25</prism:issueIdentifier><prism:startingPage>25939</prism:startingPage><prism:endingPage>25942</prism:endingPage><prism:pageRange>25939-25942</prism:pageRange><prism:number>25</prism:number><dc:format>text/xml</dc:format><prism:coverDate>2004-06-18</prism:coverDate><prism:coverDisplayDate>18 June 2004</prism:coverDisplayDate><prism:copyright>© 2004 ASBMB. Currently published by Elsevier Inc; originally published by American Society for Biochemistry and Molecular Biology.</prism:copyright><prism:publisher>ASBMB. Currently published by Elsevier Inc; originally published by American Society for Biochemistry and Molecular Biology.</prism:publisher><dc:creator>Akama, Hiroyuki</dc:creator><dc:creator>Matsuura, Takanori</dc:creator><dc:creator>Kashiwagi, Sachiko</dc:creator><dc:creator>Yoneyama, Hiroshi</dc:creator><dc:creator>Narita, Shin-ichiro</dc:creator><dc:creator>Tsukihara, Tomitake</dc:creator><dc:creator>Nakagawa, Atsushi</dc:creator><dc:creator>Nakae, Taiji</dc:creator><dc:description>
+                  The MexAB-OprM efflux pump of Pseudomonas aeruginosa is central to multidrug resistance of this organism, which infects immunocompromised hospital patients. The MexA, MexB, and OprM subunits were assumed to function as the membrane fusion protein, the body of the transporter, and the outer membrane channel protein, respectively. For better understanding of this important xenobiotic transporter, we show the x-ray crystallographic structure of MexA at a resolution of 2.40 Å. The global MexA structure showed unforeseen new features with a spiral assembly of six and seven protomers that were joined together at one end by a pseudo 2-fold image. The protomer showed a new protein structure with a tandem arrangement consisting of at least three domains and presumably one more. The rod domain had a long hairpin of twisted coiled-coil that extended to one end. The second domain adjacent to the rod α-helical domain was globular and constructed by a cluster of eight short β-sheets. The third domain located distal to the α-helical rod was globular and composed of seven short β-sheets and one short α-helix. The 13-mer was shaped like a woven rattan cylinder with a large internal tubular space and widely opened flared ends. The 6-mer and 7-mer had a funnel-like structure consisting of a tubular rod at one side and a widely opened flared funnel top at the other side. Based on these results, we constructed a model of the MexAB-OprM pump assembly. The three pairs of MexA dimers interacted with the periplasmic α-barrel domain of OprM via the α-helical hairpin, the second domain interacted with both MexB and OprM at their contact site, and the third and disordered domains probably interacted with the distal domain of MexB. In this fashion, the MexA subunit connected MexB and OprM, indicating that MexA is the membrane bridge protein.
+               </dc:description><openaccess>1</openaccess><openaccessArticle>true</openaccessArticle><openaccessType>Full</openaccessType><openArchiveArticle>false</openArchiveArticle><openaccessSponsorName/><openaccessSponsorType>Author</openaccessSponsorType><openaccessUserLicense>http://creativecommons.org/licenses/by/4.0/</openaccessUserLicense><link href="https://api.elsevier.com/content/article/pii/S0021925820855665" rel="self"/><link href="https://www.sciencedirect.com/science/article/pii/S0021925820855665" rel="scidir"/></coredata><objects><object ref="gr1" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="482" height="367" size="48526">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925820855665-gr1.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="482" height="366" size="50199">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925820855665-gr2.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="355" height="409" size="93977">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925820855665-gr3.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="482" height="258" size="74508">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925820855665-gr4.jpg?httpAccept=%2A%2F%2A</object><object ref="sbox" category="standard" type="IMAGE-DOWNSAMPLED" multimediatype="JPEG image file" mimetype="image/jpeg" width="5" height="5" size="330">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925820855665-sbox.jpg?httpAccept=%2A%2F%2A</object><object ref="gr1" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="215" height="164" size="8725">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925820855665-gr1.sml?httpAccept=%2A%2F%2A</object><object ref="gr2" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="216" height="164" size="8411">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925820855665-gr2.sml?httpAccept=%2A%2F%2A</object><object ref="gr3" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="142" height="164" size="14170">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925820855665-gr3.sml?httpAccept=%2A%2F%2A</object><object ref="gr4" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="219" height="117" size="15153">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925820855665-gr4.sml?httpAccept=%2A%2F%2A</object><object ref="sbox" category="thumbnail" type="IMAGE-THUMBNAIL" multimediatype="GIF image file" mimetype="image/gif" width="15" height="15" size="576">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925820855665-sbox.sml?httpAccept=%2A%2F%2A</object><object ref="gr1" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1280" height="974" size="161637">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925820855665-gr1_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr2" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1280" height="971" size="178019">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925820855665-gr2_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr3" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="943" height="1087" size="435465">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925820855665-gr3_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="gr4" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="1280" height="686" size="350301">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925820855665-gr4_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="sbox" category="high" type="IMAGE-HIGH-RES" multimediatype="JPEG image file" mimetype="image/jpeg" width="15" height="15" size="485">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925820855665-sbox_lrg.jpg?httpAccept=%2A%2F%2A</object><object ref="mmc1" category="standard" type="APPLICATION" multimediatype="Acrobat PDF file" mimetype="application/pdf" size="18524">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925820855665-mmc1.pdf?httpAccept=%2A%2F%2A</object><object ref="si1" category="thumbnail" type="ALTIMG" multimediatype="GIF image file" mimetype="image/gif" width="89" height="22" size="452">https://api.elsevier.com/content/object/eid/1-s2.0-S0021925820855665-si1.gif?httpAccept=%2A%2F%2A</object></objects><scopus-id>2942731519</scopus-id><scopus-eid>2-s2.0-2942731519</scopus-eid><pubmed-id>15117957</pubmed-id><link href="https://api.elsevier.com/content/abstract/scopus_id/2942731519" rel="abstract"/><originalText><xocs:doc xsi:schemaLocation="http://www.elsevier.com/xml/xocs/dtd http://null/schema/dtds/document/fulltext/xcr/xocs-article.xsd"><xocs:meta xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <xocs:content-family>serial</xocs:content-family>
+      <xocs:content-type>JL</xocs:content-type>
+      <xocs:cid>778417</xocs:cid>
+      <xocs:ssids>
+         <xocs:ssid type="alllist">291210</xocs:ssid>
+         <xocs:ssid type="subj">291847</xocs:ssid>
+         <xocs:ssid type="content">31</xocs:ssid>
+         <xocs:ssid type="oa">90</xocs:ssid>
+      </xocs:ssids>
+      <xocs:srctitle>Journal of Biological Chemistry</xocs:srctitle>
+      <xocs:normalized-srctitle>JOURNALBIOLOGICALCHEMISTRY</xocs:normalized-srctitle>
+      <xocs:orig-load-date yyyymmdd="20200928">2020-09-28</xocs:orig-load-date>
+      <xocs:available-online-date yyyymmdd="20210104">2021-01-04</xocs:available-online-date>
+      <xocs:vor-load-date yyyymmdd="20200928">2020-09-28</xocs:vor-load-date>
+      <xocs:vor-available-online-date yyyymmdd="20210104">2021-01-04</xocs:vor-available-online-date>
+      <xocs:original-available-online-date yyyymmdd="20040426">2004-04-26</xocs:original-available-online-date>
+      <xocs:ew-transaction-id>2021-04-22T12:00:33</xocs:ew-transaction-id>
+      <xocs:eid>1-s2.0-S0021925820855665</xocs:eid>
+      <xocs:pii-formatted>S0021-9258(20)85566-5</xocs:pii-formatted>
+      <xocs:pii-unformatted>S0021925820855665</xocs:pii-unformatted>
+      <xocs:doi>10.1074/jbc.C400164200</xocs:doi>
+      <xocs:item-stage>S300</xocs:item-stage>
+      <xocs:item-version-number>S300.3</xocs:item-version-number>
+      <xocs:item-weight>FULL-TEXT</xocs:item-weight>
+      <xocs:hub-eid>1-s2.0-S0021925820X67627</xocs:hub-eid>
+      <xocs:timestamp yyyymmdd="20211231">2021-12-31T00:03:10.881528Z</xocs:timestamp>
+      <xocs:dco>0</xocs:dco>
+      <xocs:tomb>0</xocs:tomb>
+      <xocs:date-search-begin>20040618</xocs:date-search-begin>
+      <xocs:year-nav>2004</xocs:year-nav>
+      <xocs:indexeddate epoch="1601300020">2020-09-28T13:33:40.569086Z</xocs:indexeddate>
+      <xocs:articleinfo>articleinfo articletitlenorm authfirstinitialnorm authfirstsurnamenorm cid cids contenttype copyright crossmark dateloaded dateloadedtxt datesearch datesort dateupdated dco docsubtype doctype doi eid ewtransactionid hubeid indexeddate issfirst issn issnnorm issuelist itemstage itemtransactionid itemweight oauserlicense openaccess openarchive pg pgfirst pglast pii piinorm pubdatestart pubdatetxt pubyr sectiontitle sortorder srctitle srctitlenorm srctype ssids alllist content oa subj subheadings tomb volfirst volissue volumelist webpdf webpdfpagecount yearnav figure e-component body mmlmath acknowledge affil appendices articletitle auth authfirstini authfull authlast footnotes primabst pubtype ref</xocs:articleinfo>
+      <xocs:issns>
+         <xocs:issn-primary-formatted>0021-9258</xocs:issn-primary-formatted>
+         <xocs:issn-primary-unformatted>00219258</xocs:issn-primary-unformatted>
+      </xocs:issns>
+      <xocs:crossmark is-crossmark="0">false</xocs:crossmark>
+      <xocs:vol-first>279</xocs:vol-first>
+      <xocs:volume-list>
+         <xocs:volume>279</xocs:volume>
+      </xocs:volume-list>
+      <xocs:iss-first>25</xocs:iss-first>
+      <xocs:issue-list>
+         <xocs:issue>25</xocs:issue>
+      </xocs:issue-list>
+      <xocs:vol-iss-suppl-text>Volume 279, Issue 25</xocs:vol-iss-suppl-text>
+      <xocs:sort-order>4</xocs:sort-order>
+      <xocs:first-fp>25939</xocs:first-fp>
+      <xocs:last-lp>25942</xocs:last-lp>
+      <xocs:pages>
+         <xocs:first-page>25939</xocs:first-page>
+         <xocs:last-page>25942</xocs:last-page>
+      </xocs:pages>
+      <xocs:cover-date-orig>
+         <xocs:start-date>20040618</xocs:start-date>
+      </xocs:cover-date-orig>
+      <xocs:cover-date-text>18 June 2004</xocs:cover-date-text>
+      <xocs:cover-date-start>2004-06-18</xocs:cover-date-start>
+      <xocs:cover-date-year>2004</xocs:cover-date-year>
+      <xocs:hub-sec>
+         <xocs:hub-sec-title>Accelerated Publications</xocs:hub-sec-title>
+      </xocs:hub-sec>
+      <xocs:document-type>article</xocs:document-type>
+      <xocs:document-subtype>fla</xocs:document-subtype>
+      <xocs:copyright-line>© 2004 ASBMB. Currently published by Elsevier Inc; originally published by American Society for Biochemistry and Molecular Biology.</xocs:copyright-line>
+      <xocs:normalized-article-title>CRYSTALSTRUCTUREMEMBRANEFUSIONPROTEINMEXAMULTIDRUGTRANSPORTERINPSEUDOMONASAERUGINOSA</xocs:normalized-article-title>
+      <xocs:normalized-first-auth-surname>AKAMA</xocs:normalized-first-auth-surname>
+      <xocs:normalized-first-auth-initial>H</xocs:normalized-first-auth-initial>
+      <xocs:item-toc>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>EXPERIMENTAL PROCEDURES</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:sections">
+            <xocs:item-toc-section-title>RESULTS AND DISCUSSION</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:acknowledgment">
+            <xocs:item-toc-section-title>Acknowledgments</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:appendices">
+            <xocs:item-toc-section-title>Supplementary Material</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+         <xocs:item-toc-entry ref-elem="ce:bibliography">
+            <xocs:item-toc-section-title>References</xocs:item-toc-section-title>
+         </xocs:item-toc-entry>
+      </xocs:item-toc>
+      <xocs:references>
+         <xocs:ref-info refid="sbref10">
+            <xocs:ref-normalized-surname>LI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1995</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1948</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1953</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>X</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref20">
+            <xocs:ref-normalized-surname>MORSHED</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1995</xocs:ref-pub-year>
+            <xocs:ref-first-fp>356</xocs:ref-first-fp>
+            <xocs:ref-last-lp>362</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref30">
+            <xocs:ref-normalized-surname>POOLE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1993</xocs:ref-pub-year>
+            <xocs:ref-first-fp>529</xocs:ref-first-fp>
+            <xocs:ref-last-lp>544</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref40">
+            <xocs:ref-normalized-surname>POOLE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2001</xocs:ref-pub-year>
+            <xocs:ref-first-fp>255</xocs:ref-first-fp>
+            <xocs:ref-last-lp>263</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref50">
+            <xocs:ref-normalized-surname>PAULSEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1</xocs:ref-first-fp>
+            <xocs:ref-last-lp>8</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>I</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref60">
+            <xocs:ref-normalized-surname>RELLA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1982</xocs:ref-pub-year>
+            <xocs:ref-first-fp>242</xocs:ref-first-fp>
+            <xocs:ref-last-lp>249</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>M</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref70">
+            <xocs:ref-normalized-surname>SAITO</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2001</xocs:ref-pub-year>
+            <xocs:ref-first-fp>23</xocs:ref-first-fp>
+            <xocs:ref-last-lp>28</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref80">
+            <xocs:ref-normalized-surname>SRIKUMAR</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1410</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1414</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>R</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref90">
+            <xocs:ref-normalized-surname>DONG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1994</xocs:ref-pub-year>
+            <xocs:ref-first-fp>185</xocs:ref-first-fp>
+            <xocs:ref-last-lp>187</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Q</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref100">
+            <xocs:ref-normalized-surname>PAULSEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-first-fp>575</xocs:ref-first-fp>
+            <xocs:ref-last-lp>608</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>I</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref110">
+            <xocs:ref-normalized-surname>TSENG</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>107</xocs:ref-first-fp>
+            <xocs:ref-last-lp>125</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref120">
+            <xocs:ref-normalized-surname>GUAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>10517</xocs:ref-first-fp>
+            <xocs:ref-last-lp>10522</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref130">
+            <xocs:ref-normalized-surname>EDA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2003</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2085</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2088</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref140">
+            <xocs:ref-normalized-surname>GUAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2001</xocs:ref-pub-year>
+            <xocs:ref-first-fp>1734</xocs:ref-first-fp>
+            <xocs:ref-last-lp>1739</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref150">
+            <xocs:ref-normalized-surname>MURAKAMI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2002</xocs:ref-pub-year>
+            <xocs:ref-first-fp>587</xocs:ref-first-fp>
+            <xocs:ref-last-lp>593</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref160">
+            <xocs:ref-normalized-surname>MA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1994</xocs:ref-pub-year>
+            <xocs:ref-first-fp>489</xocs:ref-first-fp>
+            <xocs:ref-last-lp>493</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>D</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref170">
+            <xocs:ref-normalized-surname>NAKAJIMA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>30064</xocs:ref-first-fp>
+            <xocs:ref-last-lp>30068</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref180">
+            <xocs:ref-normalized-surname>KORONAKIS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>914</xocs:ref-first-fp>
+            <xocs:ref-last-lp>919</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>V</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref190">
+            <xocs:ref-normalized-surname>YONEYAMA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4628</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4634</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref200">
+            <xocs:ref-normalized-surname>DINH</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1994</xocs:ref-pub-year>
+            <xocs:ref-first-fp>3825</xocs:ref-first-fp>
+            <xocs:ref-last-lp>3831</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref210">
+            <xocs:ref-normalized-surname>YONEYAMA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>611</xocs:ref-first-fp>
+            <xocs:ref-last-lp>618</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref220">
+            <xocs:ref-normalized-surname>POOLE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1993</xocs:ref-pub-year>
+            <xocs:ref-first-fp>7363</xocs:ref-first-fp>
+            <xocs:ref-last-lp>7372</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref230">
+            <xocs:ref-normalized-surname>OTWINOWSKI</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>307</xocs:ref-first-fp>
+            <xocs:ref-last-lp>326</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>Z</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref240">
+            <xocs:ref-pub-year>1994</xocs:ref-pub-year>
+            <xocs:ref-first-fp>760</xocs:ref-first-fp>
+            <xocs:ref-last-lp>763</xocs:ref-last-lp>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref250">
+            <xocs:ref-normalized-surname>SHELDRICK</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>628</xocs:ref-first-fp>
+            <xocs:ref-last-lp>641</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref260">
+            <xocs:ref-normalized-surname>DELAFORTELLE</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>472</xocs:ref-first-fp>
+            <xocs:ref-last-lp>494</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>E</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref270">
+            <xocs:ref-normalized-surname>ABRAHAMS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1996</xocs:ref-pub-year>
+            <xocs:ref-first-fp>30</xocs:ref-first-fp>
+            <xocs:ref-last-lp>42</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref280">
+            <xocs:ref-normalized-surname>COWTAN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1994</xocs:ref-pub-year>
+            <xocs:ref-first-fp>34</xocs:ref-first-fp>
+            <xocs:ref-last-lp>38</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>K</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref290">
+            <xocs:ref-normalized-surname>JONES</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1991</xocs:ref-pub-year>
+            <xocs:ref-first-fp>110</xocs:ref-first-fp>
+            <xocs:ref-last-lp>119</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>T</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref300">
+            <xocs:ref-normalized-surname>BRUNGER</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1998</xocs:ref-pub-year>
+            <xocs:ref-first-fp>240</xocs:ref-first-fp>
+            <xocs:ref-last-lp>255</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref310">
+            <xocs:ref-normalized-surname>MURSHUDOV</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>240</xocs:ref-first-fp>
+            <xocs:ref-last-lp>255</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>G</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref320">
+            <xocs:ref-normalized-surname>MURZIN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1995</xocs:ref-pub-year>
+            <xocs:ref-first-fp>536</xocs:ref-first-fp>
+            <xocs:ref-last-lp>540</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref330">
+            <xocs:ref-normalized-surname>JOHNSON</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1999</xocs:ref-pub-year>
+            <xocs:ref-first-fp>695</xocs:ref-first-fp>
+            <xocs:ref-last-lp>715C. G.</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>J</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref340">
+            <xocs:ref-normalized-surname>ELKINS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2003</xocs:ref-pub-year>
+            <xocs:ref-first-fp>5349</xocs:ref-first-fp>
+            <xocs:ref-last-lp>5356</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref350">
+            <xocs:ref-normalized-surname>ZGURSKAYA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2000</xocs:ref-pub-year>
+            <xocs:ref-first-fp>4264</xocs:ref-first-fp>
+            <xocs:ref-last-lp>4267</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>H</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref360">
+            <xocs:ref-normalized-surname>GRAHAM</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1991</xocs:ref-pub-year>
+            <xocs:ref-first-fp>328</xocs:ref-first-fp>
+            <xocs:ref-last-lp>329</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>L</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref370">
+            <xocs:ref-normalized-surname>NARITA</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2003</xocs:ref-pub-year>
+            <xocs:ref-first-fp>922</xocs:ref-first-fp>
+            <xocs:ref-last-lp>926</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>S</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref380">
+            <xocs:ref-normalized-surname>BRANDEN</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1991</xocs:ref-pub-year>
+            <xocs:ref-first-fp>41</xocs:ref-first-fp>
+            <xocs:ref-normalized-initial>C</xocs:ref-normalized-initial>
+            <xocs:ref-normalized-srctitle>INTRODUCTIONPROTEINSTRUCTURE</xocs:ref-normalized-srctitle>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref390">
+            <xocs:ref-normalized-surname>AVILASAKAR</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>2001</xocs:ref-pub-year>
+            <xocs:ref-first-fp>81</xocs:ref-first-fp>
+            <xocs:ref-last-lp>88</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>A</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref400">
+            <xocs:ref-normalized-surname>KRAULIS</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1991</xocs:ref-pub-year>
+            <xocs:ref-first-fp>946</xocs:ref-first-fp>
+            <xocs:ref-last-lp>950</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>P</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref410">
+            <xocs:ref-normalized-surname>MERRITT</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1997</xocs:ref-pub-year>
+            <xocs:ref-first-fp>505</xocs:ref-first-fp>
+            <xocs:ref-last-lp>524</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>E</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+         <xocs:ref-info refid="sbref420">
+            <xocs:ref-normalized-surname>KABSCH</xocs:ref-normalized-surname>
+            <xocs:ref-pub-year>1983</xocs:ref-pub-year>
+            <xocs:ref-first-fp>2577</xocs:ref-first-fp>
+            <xocs:ref-last-lp>2637</xocs:ref-last-lp>
+            <xocs:ref-normalized-initial>W</xocs:ref-normalized-initial>
+         </xocs:ref-info>
+      </xocs:references>
+      <xocs:refkeys>
+         <xocs:refkey3>AKAMAX2004X25939</xocs:refkey3>
+         <xocs:refkey4lp>AKAMAX2004X25939X25942</xocs:refkey4lp>
+         <xocs:refkey4ai>AKAMAX2004X25939XH</xocs:refkey4ai>
+         <xocs:refkey5>AKAMAX2004X25939X25942XH</xocs:refkey5>
+      </xocs:refkeys>
+      <xocs:open-access>
+         <xocs:oa-article-status is-open-access="1" is-open-archive="0">Full</xocs:oa-article-status>
+         <xocs:oa-access-effective-date>2020-09-26T03:11:45Z</xocs:oa-access-effective-date>
+         <xocs:oa-sponsor>
+            <xocs:oa-sponsor-type>Author</xocs:oa-sponsor-type>
+         </xocs:oa-sponsor>
+         <xocs:oa-user-license>http://creativecommons.org/licenses/by/4.0/</xocs:oa-user-license>
+         <xocs:oa-access-inherited-from winid="http://vtw.elsevier.com/content/oaw/00219258_UNBOUNDED_Author">OA-Window</xocs:oa-access-inherited-from>
+      </xocs:open-access>
+      <xocs:open-research/>
+      <xocs:copyright-info>
+         <xocs:cp-license-lines>
+            <xocs:cp-license-line lang="en">This is an open access article under the CC BY license.</xocs:cp-license-line>
+         </xocs:cp-license-lines>
+         <xocs:cp-notices>
+            <xocs:cp-notice lang="en">© 2004 ASBMB. Currently published by Elsevier Inc; originally published by American Society for Biochemistry and Molecular Biology.</xocs:cp-notice>
+         </xocs:cp-notices>
+      </xocs:copyright-info>
+      <xocs:attachment-metadata-doc>
+         <xocs:attachment-set-type>item</xocs:attachment-set-type>
+         <xocs:pii-formatted>S0021-9258(20)85566-5</xocs:pii-formatted>
+         <xocs:pii-unformatted>S0021925820855665</xocs:pii-unformatted>
+         <xocs:eid>1-s2.0-S0021925820855665</xocs:eid>
+         <xocs:doi>10.1074/jbc.C400164200</xocs:doi>
+         <xocs:cid>778417</xocs:cid>
+         <xocs:timestamp>2021-04-22T14:36:16.453288Z</xocs:timestamp>
+         <xocs:cover-date-start>2004-06-18</xocs:cover-date-start>
+         <xocs:attachments>
+            <xocs:web-pdf>
+               <xocs:attachment-eid>1-s2.0-S0021925820855665-main.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/MAIN/application/pdf/48c3bdb4b76345603621d9359a0ec025/main.pdf</xocs:ucs-locator>
+               <xocs:filename>main.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>true</xocs:pdf-optimized>
+               <xocs:filesize>425761</xocs:filesize>
+               <xocs:web-pdf-purpose>MAIN</xocs:web-pdf-purpose>
+               <xocs:web-pdf-page-count>4</xocs:web-pdf-page-count>
+               <xocs:web-pdf-images>
+                  <xocs:web-pdf-image>
+                     <xocs:attachment-eid>1-s2.0-S0021925820855665-main_1.png</xocs:attachment-eid>
+                     <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/PREVIEW/image/png/97cd62933f7a799bd09d2b243ce189c7/main_1.png</xocs:ucs-locator>
+                     <xocs:filename>main_1.png</xocs:filename>
+                     <xocs:extension>png</xocs:extension>
+                     <xocs:filesize>118205</xocs:filesize>
+                     <xocs:pixel-height>849</xocs:pixel-height>
+                     <xocs:pixel-width>656</xocs:pixel-width>
+                     <xocs:attachment-type>IMAGE-WEB-PDF</xocs:attachment-type>
+                     <xocs:pdf-page-num>1</xocs:pdf-page-num>
+                  </xocs:web-pdf-image>
+               </xocs:web-pdf-images>
+            </xocs:web-pdf>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925820855665-gr1.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/gr1/DOWNSAMPLED/image/jpeg/70fb16730b2cad578e1fff5f4f9d9e13/gr1.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>48526</xocs:filesize>
+               <xocs:pixel-height>367</xocs:pixel-height>
+               <xocs:pixel-width>482</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925820855665-gr2.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/gr2/DOWNSAMPLED/image/jpeg/d4d16c288db3e909e8f5235f08e249ce/gr2.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>50199</xocs:filesize>
+               <xocs:pixel-height>366</xocs:pixel-height>
+               <xocs:pixel-width>482</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925820855665-gr3.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/gr3/DOWNSAMPLED/image/jpeg/a8a34c18091f47f632f60d5849fad69d/gr3.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>93977</xocs:filesize>
+               <xocs:pixel-height>409</xocs:pixel-height>
+               <xocs:pixel-width>355</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925820855665-gr4.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/gr4/DOWNSAMPLED/image/jpeg/c8d8c1179f176376334c99bc42297375/gr4.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>74508</xocs:filesize>
+               <xocs:pixel-height>258</xocs:pixel-height>
+               <xocs:pixel-width>482</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925820855665-sbox.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/sbox/DOWNSAMPLED/image/jpeg/2d398f00ff35afb5e3b6fdd8b113d479/sbox.jpg</xocs:ucs-locator>
+               <xocs:file-basename>sbox</xocs:file-basename>
+               <xocs:filename>sbox.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>330</xocs:filesize>
+               <xocs:pixel-height>5</xocs:pixel-height>
+               <xocs:pixel-width>5</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-DOWNSAMPLED</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925820855665-gr1.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/gr1/THUMBNAIL/image/gif/e69dc5570dfaa3b63698c38befdeebb8/gr1.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>8725</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>215</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925820855665-gr2.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/gr2/THUMBNAIL/image/gif/2f49ef88feff43fe3ac3d7944b5ecb32/gr2.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>8411</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>216</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925820855665-gr3.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/gr3/THUMBNAIL/image/gif/4dc2cfa87d31aafd4bb821c0e942c9a6/gr3.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>14170</xocs:filesize>
+               <xocs:pixel-height>164</xocs:pixel-height>
+               <xocs:pixel-width>142</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925820855665-gr4.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/gr4/THUMBNAIL/image/gif/8c6cd6300a3fb379fa5fb65a6f8c876e/gr4.sml</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>15153</xocs:filesize>
+               <xocs:pixel-height>117</xocs:pixel-height>
+               <xocs:pixel-width>219</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925820855665-sbox.sml</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/sbox/THUMBNAIL/image/gif/ff4445ebdd4f606dbd259a57c56e9d32/sbox.sml</xocs:ucs-locator>
+               <xocs:file-basename>sbox</xocs:file-basename>
+               <xocs:filename>sbox.sml</xocs:filename>
+               <xocs:extension>sml</xocs:extension>
+               <xocs:filesize>576</xocs:filesize>
+               <xocs:pixel-height>15</xocs:pixel-height>
+               <xocs:pixel-width>15</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-THUMBNAIL</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925820855665-gr1_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/gr1/HIGHRES/image/jpeg/bad350c165872c09f983bc086f085105/gr1_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr1</xocs:file-basename>
+               <xocs:filename>gr1_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>161637</xocs:filesize>
+               <xocs:pixel-height>974</xocs:pixel-height>
+               <xocs:pixel-width>1280</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925820855665-gr2_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/gr2/HIGHRES/image/jpeg/41fce7493dd6cec1f2d9ea2f63e9a214/gr2_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr2</xocs:file-basename>
+               <xocs:filename>gr2_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>178019</xocs:filesize>
+               <xocs:pixel-height>971</xocs:pixel-height>
+               <xocs:pixel-width>1280</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925820855665-gr3_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/gr3/HIGHRES/image/jpeg/8c6050046e5bfcf1317a26918a13c81e/gr3_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr3</xocs:file-basename>
+               <xocs:filename>gr3_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>435465</xocs:filesize>
+               <xocs:pixel-height>1087</xocs:pixel-height>
+               <xocs:pixel-width>943</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925820855665-gr4_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/gr4/HIGHRES/image/jpeg/8cb6f94a7300f480e2af4c8c4ea115d9/gr4_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>gr4</xocs:file-basename>
+               <xocs:filename>gr4_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>350301</xocs:filesize>
+               <xocs:pixel-height>686</xocs:pixel-height>
+               <xocs:pixel-width>1280</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925820855665-sbox_lrg.jpg</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/sbox/HIGHRES/image/jpeg/a4f3d66a395f21efc3f8a702ffb17f0e/sbox_lrg.jpg</xocs:ucs-locator>
+               <xocs:file-basename>sbox</xocs:file-basename>
+               <xocs:filename>sbox_lrg.jpg</xocs:filename>
+               <xocs:extension>jpg</xocs:extension>
+               <xocs:filesize>485</xocs:filesize>
+               <xocs:pixel-height>15</xocs:pixel-height>
+               <xocs:pixel-width>15</xocs:pixel-width>
+               <xocs:attachment-type>IMAGE-HIGH-RES</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925820855665-mmc1.pdf</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/mmc1/MAIN/application/pdf/e5ca4db774963ec9310f90194353efc3/mmc1.pdf</xocs:ucs-locator>
+               <xocs:file-basename>mmc1</xocs:file-basename>
+               <xocs:filename>mmc1.pdf</xocs:filename>
+               <xocs:extension>pdf</xocs:extension>
+               <xocs:pdf-optimized>false</xocs:pdf-optimized>
+               <xocs:filesize>18524</xocs:filesize>
+               <xocs:attachment-type>APPLICATION</xocs:attachment-type>
+            </xocs:attachment>
+            <xocs:attachment>
+               <xocs:attachment-eid>1-s2.0-S0021925820855665-si1.gif</xocs:attachment-eid>
+               <xocs:ucs-locator>https://s3-eu-west-1.amazonaws.com/prod-ucs-content-store-eu-west/content/pii:S0021925820855665/STRIPIN/image/gif/bcb2da00d0f0586b2ebf4ca97855f47a/si1.gif</xocs:ucs-locator>
+               <xocs:file-basename>si1</xocs:file-basename>
+               <xocs:filename>si1.gif</xocs:filename>
+               <xocs:extension>gif</xocs:extension>
+               <xocs:filesize>452</xocs:filesize>
+               <xocs:pixel-height>22</xocs:pixel-height>
+               <xocs:pixel-width>89</xocs:pixel-width>
+               <xocs:attachment-type>ALTIMG</xocs:attachment-type>
+            </xocs:attachment>
+         </xocs:attachments>
+      </xocs:attachment-metadata-doc>
+   </xocs:meta><xocs:serial-item xmlns:xoe="http://www.elsevier.com/xml/xoe/dtd">
+      <article xmlns="http://www.elsevier.com/xml/ja/dtd" docsubtype="fla" version="5.6" xml:lang="en">
+         <item-info>
+            <jid>JBC</jid>
+            <aid>85566</aid>
+            <ce:pii>S0021-9258(20)85566-5</ce:pii>
+            <ce:doi>10.1074/jbc.C400164200</ce:doi>
+            <ce:copyright type="other" year="2004">© 2004 ASBMB. Currently published by Elsevier Inc; originally published by American Society for Biochemistry and Molecular Biology.</ce:copyright>
+         </item-info>
+         <ce:floats>
+            <ce:figure id="fig1">
+               <ce:label>F<ce:small-caps>ig</ce:small-caps>. 1</ce:label>
+               <ce:caption id="cecap10">
+                  <ce:simple-para id="spara10" view="all">
+                     <ce:bold>Two-dimensional topology models of MexA.</ce:bold> The two-dimensional model was constructed on the basis of the x-ray crystallographic data and the DSSP program (<ce:cross-ref id="cecref10" refid="bib42">42</ce:cross-ref>). Localization of α-helices and β-sheets was arbitrary and that of each domain was simplified to ease understanding of the relative position. <ce:italic>Columns</ce:italic> and <ce:italic>arrows</ce:italic> indicate α-helices (<ce:italic>magenta</ce:italic>) and β-sheets (<ce:italic>cyan</ce:italic>).</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr1" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0021925820855665/gr1"/>
+            </ce:figure>
+            <ce:figure id="fig2">
+               <ce:label>F<ce:small-caps>ig</ce:small-caps>. 2</ce:label>
+               <ce:caption id="cecap20">
+                  <ce:simple-para id="spara20" view="all">
+                     <ce:bold>Stereo view of the MexA monomer.</ce:bold> Ribbon model of the MexA monomer: gradient rainbow color of <ce:italic>blue</ce:italic> to <ce:italic>red</ce:italic> indicates N- to C-terminal.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr2" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0021925820855665/gr2"/>
+            </ce:figure>
+            <ce:figure id="fig3">
+               <ce:label>F<ce:small-caps>ig</ce:small-caps>. 3</ce:label>
+               <ce:caption id="cecap30">
+                  <ce:simple-para id="spara30" view="all">
+                     <ce:bold>Ribbon diagrams of a representative MexA structure.</ce:bold>
+                     <ce:italic>A</ce:italic>, stereo side view of the structure of the tridecamer. Heptamer and hexamer are colored <ce:italic>red</ce:italic> and <ce:italic>blue</ce:italic>, respectively. <ce:italic>B</ce:italic>, bottom view of <ce:cross-ref id="cecref20" refid="fig1">Fig. 1<ce:italic>A</ce:italic>
+                     </ce:cross-ref> (hexamer). Each monomer is distinguished by alternatively changing the color to <ce:italic>blue</ce:italic> and <ce:italic>gray</ce:italic>, respectively. <ce:italic>C</ce:italic>, top view of <ce:cross-ref id="cecref30" refid="fig1">Fig. 1<ce:italic>A</ce:italic>
+                     </ce:cross-ref> (heptamer). Each monomer is distinguished by alternatively changing the color to <ce:italic>red</ce:italic> and <ce:italic>gray</ce:italic>, respectively. The figures were drawn by MolScript version 2.1.2 (<ce:cross-ref id="cecref40" refid="bib40">40</ce:cross-ref>) and Raster 3D version 2.7b (<ce:cross-ref id="cecref50" refid="bib41">41</ce:cross-ref>).</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr3" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0021925820855665/gr3"/>
+            </ce:figure>
+            <ce:figure id="fig4">
+               <ce:label>F<ce:small-caps>ig</ce:small-caps>. 4</ce:label>
+               <ce:caption id="cecap40">
+                  <ce:simple-para id="spara40" view="all">
+                     <ce:bold>Fitting model of the MexA structure to MexB and OprM.</ce:bold> MexA, MexB, and OprM are colored <ce:italic>red, pink</ce:italic>, and <ce:italic>light sky-blue</ce:italic>, respectively. <ce:italic>A</ce:italic>, the figure is drawn on the basis of the sleeve model. The first and twelfth molecules are distinguished by <ce:italic>magenta</ce:italic> and <ce:italic>blue</ce:italic> colors, respectively. Symbols: <ce:italic>a</ce:italic>, a side view; <ce:italic>b</ce:italic>, a vertical view from the OprM side. <ce:italic>B</ce:italic>, figure is based on the 3-fold MexA-dimer model. Two MexA molecules in the dimer are distinguished by <ce:italic>blue</ce:italic> and <ce:italic>red</ce:italic> colors, respectively. Symbols: <ce:italic>a</ce:italic>, a side view; <ce:italic>b</ce:italic>, a vertical view from the OprM side.</ce:simple-para>
+               </ce:caption>
+               <ce:link locator="gr4" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0021925820855665/gr4"/>
+            </ce:figure>
+         </ce:floats>
+         <head>
+            <ce:dochead id="cedoch10">
+               <ce:textfn>Accelerated Publications</ce:textfn>
+            </ce:dochead>
+            <ce:title id="cetitle10">Crystal Structure of the Membrane Fusion Protein, MexA, of the Multidrug Transporter in <ce:italic>Pseudomonas aeruginosa</ce:italic>
+               <ce:cross-ref id="cecref60" refid="FN1">*</ce:cross-ref>
+               <ce:cross-ref id="cecref70" refid="FN2">
+                  <ce:sup loc="post">
+                     <ce:inline-figure baseline="0.0">
+                        <ce:link locator="sbox" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0021925820855665/sbox"/>
+                     </ce:inline-figure>
+                  </ce:sup>
+               </ce:cross-ref>
+            </ce:title>
+            <ce:author-group id="aug10">
+               <ce:author id="au10" author-id="S0021925820855665-97a834302fdf20bad17e9ab81e34c2f5">
+                  <ce:given-name>Hiroyuki</ce:given-name>
+                  <ce:surname>Akama</ce:surname>
+                  <ce:cross-ref id="cecref80" refid="aff1">‡</ce:cross-ref>
+               </ce:author>
+               <ce:author id="au20" author-id="S0021925820855665-610aaf7b51e01c920dbe4e10371dc072">
+                  <ce:given-name>Takanori</ce:given-name>
+                  <ce:surname>Matsuura</ce:surname>
+                  <ce:cross-ref id="cecref90" refid="aff2">§</ce:cross-ref>
+               </ce:author>
+               <ce:author id="au30" author-id="S0021925820855665-3b3cae300cd4ae3be9c581d4b61dea18">
+                  <ce:given-name>Sachiko</ce:given-name>
+                  <ce:surname>Kashiwagi</ce:surname>
+                  <ce:cross-ref id="cecref100" refid="aff1">‡</ce:cross-ref>
+               </ce:author>
+               <ce:author id="au40" author-id="S0021925820855665-c9559fbb193475fad633a93c6b7bc125">
+                  <ce:given-name>Hiroshi</ce:given-name>
+                  <ce:surname>Yoneyama</ce:surname>
+                  <ce:cross-ref id="cecref110" refid="aff1">‡</ce:cross-ref>
+                  <ce:cross-ref id="cecref120" refid="FN3">¶</ce:cross-ref>
+               </ce:author>
+               <ce:author id="au50" author-id="S0021925820855665-69247fee8ebf3f1c8d74b15c83cd4215">
+                  <ce:given-name>Shin-ichiro</ce:given-name>
+                  <ce:surname>Narita</ce:surname>
+                  <ce:cross-ref id="cecref130" refid="aff1">‡</ce:cross-ref>
+               </ce:author>
+               <ce:author id="au60" author-id="S0021925820855665-35ea57400774f9f9eb501abbdfb4942a">
+                  <ce:given-name>Tomitake</ce:given-name>
+                  <ce:surname>Tsukihara</ce:surname>
+                  <ce:cross-ref id="cecref140" refid="aff2">§</ce:cross-ref>
+               </ce:author>
+               <ce:author id="au70" author-id="S0021925820855665-942d7f5e1f61cf60de14a77cb9bd01ca">
+                  <ce:given-name>Atsushi</ce:given-name>
+                  <ce:surname>Nakagawa</ce:surname>
+                  <ce:cross-ref id="cecref150" refid="aff2">§</ce:cross-ref>
+                  <ce:cross-ref id="cecref160" refid="COR1">∥</ce:cross-ref>
+                  
+               </ce:author>
+               <ce:author id="au80" author-id="S0021925820855665-11da5d282e9e985f7df73a139393b219">
+                  <ce:given-name>Taiji</ce:given-name>
+                  <ce:surname>Nakae</ce:surname>
+                  <ce:cross-ref id="cecref170" refid="aff1">‡</ce:cross-ref>
+                  <ce:cross-ref id="cecref180" refid="COR2">**</ce:cross-ref>
+                  
+               </ce:author>
+               <ce:affiliation id="aff1" affiliation-id="S0021925820855665-647017eb5d8fb2bbdbfac8528fa1a09e">
+                  <ce:label>‡</ce:label>
+                  <ce:textfn>Department of Molecular Life Science, Tokai University School of Medicine, Isehara, 259-1193, Japan</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Department of Molecular Life Science</sa:organization>
+                     <sa:organization>Tokai University School of Medicine</sa:organization>
+                     <sa:city>Isehara</sa:city>
+                     <sa:postal-code>259-1193</sa:postal-code>
+                     <sa:country>Japan</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="sourcetext3a">Department of Molecular Life Science, Tokai University School of Medicine, Isehara, 259-1193, Japan</ce:source-text>
+               </ce:affiliation>
+               <ce:affiliation id="aff2" affiliation-id="S0021925820855665-5ba307feed8d4920167b6edf12b1c51d">
+                  <ce:label>§</ce:label>
+                  <ce:textfn>Institute for Protein Research, Osaka University, Suita 565-0871, Japan</ce:textfn>
+                  <sa:affiliation>
+                     <sa:organization>Institute for Protein Research</sa:organization>
+                     <sa:organization>Osaka University</sa:organization>
+                     <sa:city>Suita</sa:city>
+                     <sa:postal-code>565-0871</sa:postal-code>
+                     <sa:country>Japan</sa:country>
+                  </sa:affiliation>
+                  <ce:source-text id="sourcetext4a">Institute for Protein Research, Osaka University, Suita 565-0871, Japan</ce:source-text>
+               </ce:affiliation>
+               <ce:correspondence id="COR1">
+                  <ce:label>∥</ce:label>
+                  <ce:text>To whom correspondence may be addressed: The Inst. for Protein Research, Osaka University, Suita 565-0871, Japan. Tel./Fax: 81-6-6879-4313;</ce:text>
+                  <sa:affiliation>
+                     <sa:organization>The Inst. for Protein Research</sa:organization>
+                     <sa:organization>Osaka University</sa:organization>
+                     <sa:address-line>Tel./Fax: 81-6-6879-4313</sa:address-line>
+                     <sa:city>Suita</sa:city>
+                     <sa:postal-code>565-0871</sa:postal-code>
+                     <sa:country>Japan</sa:country>
+                  </sa:affiliation>
+               </ce:correspondence>
+               <ce:correspondence id="COR2">
+                  <ce:label>**</ce:label>
+                  <ce:text>To whom correspondence may be addressed: Dept. of Molecular Life Science, Tokai University School of Medicine, Isehara, 259-1193, Japan. Tel.: 81-463-93-5436; Fax: 81-463-93-5437;</ce:text>
+                  <sa:affiliation>
+                     <sa:organization>Dept. of Molecular Life Science</sa:organization>
+                     <sa:organization>Tokai University School of Medicine</sa:organization>
+                     <sa:address-line>Tel.: 81-463-93-5436; Fax: 81-463-93-5437</sa:address-line>
+                     <sa:city>Isehara</sa:city>
+                     <sa:postal-code>259-1193</sa:postal-code>
+                     <sa:country>Japan</sa:country>
+                  </sa:affiliation>
+               </ce:correspondence>
+               <ce:footnote id="FN1">
+                  <ce:label>*</ce:label>
+                  <ce:note-para id="cenpara30" view="all">This work was supported in part by a grant-in-aid for the 21st Century Centers of Excellence Research and the National Project on Protein Structural and Functional Analyses from the Ministry of Education, Culture, Sport, Science and Technology; a grant-in-aid from the New Energy and Industrial Technology Department Organization (NEDO); a Tokai University Project Research Grant; and by a Tokai University School of Medicine Research Project Grant. The costs of publication of this article were defrayed in part by the payment of page charges. This article must therefore be hereby marked “<ce:italic>advertisement</ce:italic>” in accordance with 18 U.S.C. Section 1734 solely to indicate this fact.</ce:note-para>
+               </ce:footnote>
+               <ce:footnote id="FN2">
+                  <ce:label>
+                     <ce:inline-figure baseline="0.0">
+                        <ce:link locator="sbox" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/23.4" xlink:href="pii:S0021925820855665/sbox"/>
+                     </ce:inline-figure>
+                  </ce:label>
+                  <ce:note-para id="cenpara40" view="all">The on-line version of this article (available at <ce:inter-ref id="interrefs10" xlink:href="http://www.jbc.org" xlink:type="simple">http://www.jbc.org</ce:inter-ref>) contains <ce:cross-ref id="cecref180a" refid="ecomp10">Table I and supplemental material</ce:cross-ref> for “Results and Discussion.”</ce:note-para>
+                  <ce:note-para id="cenpara50" view="all">
+                     <ce:italic>The atomic coordinates and structure factors (code 1VF7) have been deposited in the Protein Data Bank, Research Collaboratory for Structural Bioinformatics, Rutgers University, New Brunswick, NJ (</ce:italic>
+                     <ce:inter-ref id="interrefs20" xlink:href="http://www.rcsb.org/" xlink:type="simple">http://www.rcsb.org/</ce:inter-ref>).</ce:note-para>
+               </ce:footnote>
+               <ce:footnote id="FN3">
+                  <ce:label>¶</ce:label>
+                  <ce:note-para id="cenpara60" view="all">Present address: Faculty of Agriculture, Tohoku University, Sendai 981-8555, Japan.</ce:note-para>
+               </ce:footnote>
+            </ce:author-group>
+            <ce:date-received day="13" month="4" year="2004"/>
+            <ce:date-revised day="26" month="4" year="2004"/>
+            <ce:abstract id="ceab10" xml:lang="en" view="all" class="author"><ce:abstract-sec id="ceabs10" view="all">
+                  <ce:simple-para id="spara50" view="all">The MexAB-OprM efflux pump of <ce:italic>Pseudomonas aeruginosa</ce:italic> is central to multidrug resistance of this organism, which infects immunocompromised hospital patients. The MexA, MexB, and OprM subunits were assumed to function as the membrane fusion protein, the body of the transporter, and the outer membrane channel protein, respectively. For better understanding of this important xenobiotic transporter, we show the x-ray crystallographic structure of MexA at a resolution of 2.40 Å. The global MexA structure showed unforeseen new features with a spiral assembly of six and seven protomers that were joined together at one end by a pseudo 2-fold image. The protomer showed a new protein structure with a tandem arrangement consisting of at least three domains and presumably one more. The rod domain had a long hairpin of twisted coiled-coil that extended to one end. The second domain adjacent to the rod α-helical domain was globular and constructed by a cluster of eight short β-sheets. The third domain located distal to the α-helical rod was globular and composed of seven short β-sheets and one short α-helix. The 13-mer was shaped like a woven rattan cylinder with a large internal tubular space and widely opened flared ends. The 6-mer and 7-mer had a funnel-like structure consisting of a tubular rod at one side and a widely opened flared funnel top at the other side. Based on these results, we constructed a model of the MexAB-OprM pump assembly. The three pairs of MexA dimers interacted with the periplasmic α-barrel domain of OprM via the α-helical hairpin, the second domain interacted with both MexB and OprM at their contact site, and the third and disordered domains probably interacted with the distal domain of MexB. In this fashion, the MexA subunit connected MexB and OprM, indicating that MexA is the membrane bridge protein.</ce:simple-para>
+               </ce:abstract-sec></ce:abstract>
+         </head>
+         <body view="all">
+            <ce:sections>
+               <ce:para id="para10" view="all">Emergence of infectious agents resistant to structurally and functionally dissimilar chemotherapeutic agents is increasingly problematic in human health. An important factor contributing to this multidrug resistance is the drug or xenobiotic efflux pump, which lowers the intracellular drug concentration by exporting incoming chemotherapeutic agent across the membranes. <ce:italic>Pseudomonas aeruginosa</ce:italic> easily infects immunocompromised hospital patients, and this low virulent bacterium often is life-threatening. A problem associated with <ce:italic>P. aeruginosa</ce:italic> infection is that this organism shows a broad spectrum of intrinsic and mutational resistances to structurally and functionally dissimilar antibiotics (<ce:cross-refs id="cecrefs10" refid="bib1 bib2 bib3 bib4 bib5 bib6">1–6</ce:cross-refs>). These multiantibiotic resistances in this organism are largely attributable to the expression of multidrug efflux pumps (<ce:cross-ref id="cecref190" refid="bib7">7</ce:cross-ref>, <ce:cross-ref id="cecref200" refid="bib8">8</ce:cross-ref>). The <ce:italic>P. aeruginosa</ce:italic> chromosome encodes several drug exporter genes, and among them, MexAB-OprM is central to both intrinsic and mutational multidrug resistance.</ce:para>
+               <ce:para id="para20" view="all">The resistance nodulation division (RND)<ce:cross-ref id="cecref210" refid="FN4">
+                     <ce:sup loc="post">1</ce:sup>
+                  </ce:cross-ref>
+                  <ce:footnote id="FN4">
+                     <ce:label>1</ce:label>
+                     <ce:note-para id="cenpara10" view="all">The abbreviations used are: RND, resistance nodulation cell division; MFP, membrane fusion protein; SIRAS, single isomorphous replacement with anomalous scattering.</ce:note-para>
+                  </ce:footnote> family efflux pump, including MexAB-OprM, consists of three membrane bound subunits, such as MexA, MexB, and OprM, anchoring the inner and outer membranes, respectively (<ce:cross-ref id="cecref220" refid="bib4">4</ce:cross-ref>, <ce:cross-ref id="cecref230" refid="bib5">5</ce:cross-ref>, <ce:cross-refs id="cecrefs20" refid="bib9 bib10 bib11">9–11</ce:cross-refs>). The MexB subunit is central to the pump function, which spans the cytoplasmic membrane 12 times, selects antibiotics to be exported, and is assumed to transport the substrates expending the energy of the proton gradient across the cytoplasmic membrane (<ce:cross-refs id="cecrefs30" refid="bib12 bib13 bib14">12–14</ce:cross-refs>). The crystal structure of an MexB homologue, AcrB of <ce:italic>Escherichia coli</ce:italic>, showed that the protein consisted mainly of three domains: the membrane spanning domain, the pore domain, and the TolC docking domain (<ce:cross-ref id="cecref240" refid="bib15">15</ce:cross-ref>).</ce:para>
+               <ce:para id="para30" view="all">The OprM subunit is the outer membrane-anchored lipoprotein that is assumed to play a role in the final step of antibiotic extrusion facilitating the exit of antibiotic across the outer membrane (<ce:cross-ref id="cecref250" refid="bib5">5</ce:cross-ref>, <ce:cross-ref id="cecref260" refid="bib16">16</ce:cross-ref>, <ce:cross-ref id="cecref270" refid="bib17">17</ce:cross-ref>). Structural analysis of the OprM homologue, TolC of <ce:italic>E. coli</ce:italic>, revealed that the trimeric assemblies of the protomer consisted largely of two domains: an outer membrane spanning the β-barrel and a long α-helical barrel extended to the periplasmic space (<ce:cross-ref id="cecref280" refid="bib18">18</ce:cross-ref>).</ce:para>
+               <ce:para id="para40" view="all">The MexA subunit anchors an inner membrane via fatty acid(s) attached to the N-terminal cysteine residue (<ce:cross-ref id="cecref290" refid="bib5">5</ce:cross-ref>, <ce:cross-ref id="cecref300" refid="bib16">16</ce:cross-ref>, <ce:cross-ref id="cecref310" refid="bib19">19</ce:cross-ref>, <ce:cross-ref id="cecref320" refid="bib20">20</ce:cross-ref>). Presence of the membrane fusion protein is indispensable in xenobiotic export by the RND family proteins (<ce:cross-ref id="cecref330" refid="bib1">1</ce:cross-ref>, <ce:cross-ref id="cecref340" refid="bib21">21</ce:cross-ref>, <ce:cross-ref id="cecref350" refid="bib22">22</ce:cross-ref>). Deletion of the fatty acyl moiety liberates the protein from the membrane, and the protein became freely soluble in aqueous solutions. This mutant protein had a fully functional antibiotic efflux (<ce:cross-ref id="cecref360" refid="bib19">19</ce:cross-ref>) and, therefore, it was assumed that the entire protein moiety of MexA protruded to the periplasmic aqueous space. The MexA subunit and its homologue proteins were, therefore, assumed to connect the inner and outer membrane subunits and hence designated as the membrane fusion protein (MFP) (<ce:cross-ref id="cecref370" refid="bib16">16</ce:cross-ref>). However, the precise structure and function of the MFPs remain to be clarified. For better understanding of the MFPs, we analyzed the x-ray crystal structure of MexA of <ce:italic>P. aeruginosa</ce:italic>, and here we report its structure.</ce:para>
+               <ce:section id="cesec20" view="all">
+                  <ce:section-title id="cestitle10">EXPERIMENTAL PROCEDURES</ce:section-title>
+                  <ce:para id="para50" view="all">
+                     <ce:italic>Bacterial Cell, Culture Conditions, and Cell Fractionation—</ce:italic>The bacterial strain used was <ce:italic>P. aeruginosa</ce:italic> TNP070 lacking chromosomal <ce:italic>mexA</ce:italic> (<ce:cross-ref id="cecref380" refid="bib21">21</ce:cross-ref>). The pAzu-MexA plasmid was a derivative of pMMB67EH/HE carrying the Azu-MexA-(His)<ce:inf loc="post">6</ce:inf> fusion gene as described previously (<ce:cross-ref id="cecref390" refid="bib19">19</ce:cross-ref>). TNP070 was transformed with pAzu-MexA, and this was used throughout this study. Cells were grown in L-broth at 37 °C with shaking at 220 rpm to <mml:math altimg="si1.gif">
+                        <mml:msubsup>
+                           <mml:mrow>
+                              <mml:mi mathvariant="normal">A</mml:mi>
+                           </mml:mrow>
+                           <mml:mrow>
+                              <mml:mn>600</mml:mn>
+                           </mml:mrow>
+                           <mml:mrow>
+                              <mml:mn>1.0</mml:mn>
+                              <mml:mrow>
+                                 <mml:mi mathvariant="normal">c</mml:mi>
+                                 <mml:mi mathvariant="normal">m</mml:mi>
+                              </mml:mrow>
+                           </mml:mrow>
+                        </mml:msubsup>
+                        <mml:mo>=</mml:mo>
+                        <mml:mn>0.7</mml:mn>
+                     </mml:math>. Isopropyl-1-thio-β-<ce:small-caps>d</ce:small-caps>-galactoside was added to the concentration of 0.5 m<ce:small-caps>m</ce:small-caps> and shaken as above for an additional 2.5 h. The cells were harvested by centrifugation at 24 °C, suspended in a buffer containing 50 m<ce:small-caps>m</ce:small-caps> Tris-HCl, pH 7.2, 0.2 m<ce:small-caps>m</ce:small-caps> MgCl<ce:inf loc="post">2</ce:inf>, and a tablet of the protease inhibitor mixture (Roche Applied Science, Complete Mix) and subjected to cold-shock treatment by alternatively immersing the cell suspension in water baths at 37 and 0 °C three times (<ce:cross-ref id="cecref400" refid="bib17">17</ce:cross-ref>). The cell suspension was centrifuged at 10,000 × <ce:italic>g</ce:italic> for 10 min at 4 °C, and the supernatant fraction was centrifuged again at 150,000 × <ce:italic>g</ce:italic> for 60 min at 4 °C. The soluble fraction was retained for further treatment.</ce:para>
+                  <ce:para id="para60" view="all">
+                     <ce:italic>Purification of the MexA-(His)<ce:inf loc="post">6</ce:inf>—</ce:italic>The cold-shock material from 1 liter of culture was mixed with a 2-ml packed volume of nickel-nitrilotriacetic acid-Sepharose resin (Invitrogen, ProBond) and gently stirred at 4 °C for 15 min. The resin suspension was packed into an open column, washed with 20 ml of the washing buffer containing 50 m<ce:small-caps>m</ce:small-caps> sodium phosphate, pH 7.2, 0.3 <ce:small-caps>m</ce:small-caps> NaCl, and 20 m<ce:small-caps>m</ce:small-caps> imidazole. Next, the column was eluted with a buffer containing 50 m<ce:small-caps>m</ce:small-caps> sodium phosphate, pH 7.2, 0.3 <ce:small-caps>m</ce:small-caps> NaCl, 250 m<ce:small-caps>m</ce:small-caps> imidazole. The yield of homogeneously purified MexA was consistently 6–7 mg/liter of culture. Purified MexA was subjected to dialysis against a large excess of 20 m<ce:small-caps>m</ce:small-caps> HEPES, pH 7.2, 0.3 <ce:small-caps>m</ce:small-caps> LiCl, 80 m<ce:small-caps>m</ce:small-caps> imidazole overnight with several changes of dialysis buffer. The protein concentration was adjusted to 10 mg/ml using the Vivaspin concentrator (VivaScience).</ce:para>
+                  <ce:para id="para70" view="all">
+                     <ce:italic>Crystallization—</ce:italic>The hanging-top vapor diffusion technique was used throughout this study. Five parts of MexA (10 mg/ml) in the dialysis buffer was mixed with 4 parts of the reservoir buffer containing 60 m<ce:small-caps>m</ce:small-caps> HEPES, pH 7.2, 40 m<ce:small-caps>m</ce:small-caps> Tris-HCl, pH 7.2, 10% of glycerol, 3% of 2-methyl-2,4-pentandiol, and 26–28% polyethylene glycol 1000 and one part of the additive (50% Jeffamine-M600, pH 7.0, Hampton Research). The setup mixture was kept at 20 °C in an incubator for 1–2 weeks. The rod-shaped MexA crystals grew to the size of about 0.7 × 0.5 × 0.3 mm<ce:sup loc="post">3</ce:sup>. The space group was <ce:italic>P</ce:italic>2<ce:inf loc="post">1</ce:inf> with cell dimensions of <ce:italic>a</ce:italic> = 130.0 Å, <ce:italic>b</ce:italic> = 180.3 Å, <ce:italic>c</ce:italic> = 214.2 Å, β = 107.0°.</ce:para>
+                  <ce:para id="para80" view="all">
+                     <ce:italic>Diffraction Data Collection—</ce:italic>Diffraction data for structure determination were collected at beamlines of the synchrotron facilities of Photon Factory (Ibaraki, Japan) and SPring-8 (Hyogo, Japan). Diffraction data of native MexA were collected on the DIP6040 imaging plate/CCD hybrid detector (MacScience, Bruker-AXS) at BL44XU at SPring-8 (Native 1) and on the Quantum 4R CCD detector (Area Detector System Corp.) at BL6A at the Photon Factory (Native 2). Diffraction data of the Lu derivative, which was prepared by soaking in 2 m<ce:small-caps>m</ce:small-caps> Lu(O<ce:inf loc="post">2</ce:inf>C<ce:inf loc="post">2</ce:inf>H<ce:inf loc="post">5</ce:inf>)<ce:inf loc="post">2</ce:inf> for 2 h, were collected on the Quantum 210 CCD detector (Area Detector System Corp.) at AR-NW12 at the Photon Factory. The diffraction images were reduced, scaled, and merged with the HKL2000 package (<ce:cross-ref id="cecref410" refid="bib23">23</ce:cross-ref>). The intensities were then converted to the structure factor amplitudes with TRUNCATE in CCP4 (<ce:cross-ref id="cecref420" refid="bib24">24</ce:cross-ref>). Summary of crystallographic data and refinement statistics are given in <ce:cross-ref id="cecref420a" refid="ecomp10">Table I in the supplemental material</ce:cross-ref>.</ce:para>
+                  <ce:para id="para90" view="all">
+                     <ce:italic>Structure Determination—</ce:italic>The single isomorphous replacement with the anomalous scattering (SIRAS) method using the Lu derivative was applied to solve the crystallographic phase problem. Native 2 data were used as a native data set for phase determination. Initially six Lu sites were located using SHELX-97 (<ce:cross-ref id="cecref430" refid="bib25">25</ce:cross-ref>). Heavy atom parameter refinement and SIRAS phasing were carried out using the program SHARP (<ce:cross-ref id="cecref440" refid="bib26">26</ce:cross-ref>). Minor sites of heavy atoms were found subsequently in residual maps after the refinement of heavy atom parameters by SHARP, and finally 14 Lu sites were included for phase calculation. Phase improvement using the density modification technique with SOLOMON (<ce:cross-ref id="cecref450" refid="bib27">27</ce:cross-ref>) and DM (<ce:cross-ref id="cecref460" refid="bib28">28</ce:cross-ref>) integrated in SHARP was applied. The atomic model was built using program O (<ce:cross-ref id="cecref470" refid="bib29">29</ce:cross-ref>) and refined against the native 1 data set. At the initial stage of refinement, a simulated-annealed torsion angle refinement using CNS (<ce:cross-ref id="cecref480" refid="bib30">30</ce:cross-ref>) was applied. Subsequent cycles of manual revision of the atomic model using program O and restrained-parameter maximum-likelihood refinement carried out by REFMAC5 (<ce:cross-ref id="cecref490" refid="bib31">31</ce:cross-ref>) in CCP4 (<ce:cross-ref id="cecref500" refid="bib24">24</ce:cross-ref>) were conducted to refine the atomic structure.</ce:para>
+               </ce:section>
+               <ce:section id="cesec30" view="all">
+                  <ce:section-title id="cestitle20">RESULTS AND DISCUSSION</ce:section-title>
+                  <ce:para id="para100" view="all">
+                     <ce:italic>Structural Analysis—</ce:italic>The SIRAS method using the Lu(O<ce:inf loc="post">2</ce:inf>C<ce:inf loc="post">2</ce:inf>H<ce:inf loc="post">5</ce:inf>)<ce:inf loc="post">2</ce:inf> was applied using SHARP (<ce:cross-ref id="cecref510" refid="bib26">26</ce:cross-ref>). The atomic model was built using program O (<ce:cross-ref id="cecref520" refid="bib29">29</ce:cross-ref>) and then refined using CNS (<ce:cross-ref id="cecref530" refid="bib30">30</ce:cross-ref>) and refmac5 (<ce:cross-ref id="cecref540" refid="bib31">31</ce:cross-ref>). Details of structure analysis were given in the section of <ce:cross-ref id="cecref540a" refid="ecomp10">supplemental materials</ce:cross-ref>.</ce:para>
+                  <ce:para id="para110" view="all">
+                     <ce:italic>Overall Structure of the Monomer—</ce:italic>At the current stage of refinement, 68.3% of the residues were visible. N- and C-terminal residues provided little structural information. The best ordered monomer structure shows 252 residues (from 23 to 274) among 369 amino acid residues of Azu-MexA-(His)<ce:inf loc="post">6</ce:inf>. The overall structure showed that the MexA monomer consisted mainly of three domains and possibly one additional unseen domain due to a disorder as follows (Figs. <ce:cross-ref id="cecref550" refid="fig1">1</ce:cross-ref>
+                     <ce:float-anchor refid="fig1"/> and <ce:cross-ref id="cecref560" refid="fig2">2</ce:cross-ref>
+                     <ce:float-anchor refid="fig2"/>). (i) At one end, two α-helices (from Ala<ce:sup loc="post">74</ce:sup> to Ala<ce:sup loc="post">102</ce:sup> and from Lys<ce:sup loc="post">108</ce:sup> to Arg<ce:sup loc="post">133</ce:sup>) formed a long left-hand twisted α-helical hairpin structure designated as the α-domain. (ii) The globular domain adjacent to the α-helical domain consisted of eight short β-sheets designated as the β-domain. This domain shows a topology similar to the biotinyl/lipoyl carrier proteins and domains family was defined in the SCOP data base (<ce:cross-ref id="cecref570" refid="bib32">32</ce:cross-ref>). (iii) Another globular domain adjacent to the central β-domain, distal to the α-domain, was composed of seven short β-strands and one short α-helix designated as the α+β-domain. (iv) The poorly solved disordered domain contained the N- and C-terminal regions (<ce:cross-ref id="cecref580" refid="fig1">Fig. 1</ce:cross-ref>). There was a turn of about +60° against the α-helix hairpin at the loops between the α-domain and the β-domain forming a sickle shape (<ce:cross-ref id="cecref590" refid="fig2">Fig. 2</ce:cross-ref>). The topological arrangement of α- and β-domains agreed well with the predicted model (<ce:cross-ref id="cecref600" refid="bib33">33</ce:cross-ref>).</ce:para>
+                  <ce:para id="para120" view="all">
+                     <ce:italic>Overall Structure of the Tridecamer (13-mer)—</ce:italic>The crystal structure of MexA appeared as a spiral assembly of the 13 protomer by contiguous joining of the hexamer and heptamer forming a rod at the middle and a funnel-top structure at both ends (<ce:cross-ref id="cecref610" refid="fig3">Fig. 3<ce:italic>A</ce:italic>
+                     </ce:cross-ref>
+                     <ce:float-anchor refid="fig3"/>). The 13-mer had an internal space with widely opened ends. The hexamer and heptamer were spirally assembled with a side-by-side contiguity of each monomer so that the spiral structure continued until the first molecule touched the seventh molecule at the narrower end, but the wider part of the first and last molecules remained untouched exhibiting a large unsealed lateral side (<ce:cross-ref id="cecref620" refid="fig3">Fig. 3, <ce:italic>B</ce:italic> and <ce:italic>C</ce:italic>
+                     </ce:cross-ref>). At the end of the heptamer, the orientation of the protomer was inverted, and the spiral assembly of the hexamer continued along one end of the heptamer. The structure of the hexamer and heptamer may be divided into two parts; one domain is a tightly packed barrel structure with anti-parallel arranged α-helices and another is a widely opened petal-like structure mainly formed by two (or more) globular domains mostly composed of the β-barrel structure.</ce:para>
+                  <ce:para id="para130" view="all">
+                     <ce:italic>Assembly Model of the MexAB-OprM Efflux Pump—</ce:italic>As we constructed the MexA model, it was of great interest to fit this newly obtained MexA structure to that of the MexB and OprM subunits and envisages the structure of the whole transporter assembly. One may ask whether or not MexA, MexB, and OprM interact each other. We examined interaction of MexB and OprM with tagged MexA and found by the immunoblotting method that non-tagged MexB and OprM were copurified with tagged MexA suggesting that these three subunits are in complex <ce:italic>in vivo</ce:italic>.<ce:cross-ref id="cecref630" refid="FN5">
+                        <ce:sup loc="post">2</ce:sup>
+                     </ce:cross-ref>
+                     <ce:footnote id="FN5">
+                        <ce:label>2</ce:label>
+                        <ce:note-para id="cenpara20" view="all">E. Mokhonova, V. Mokhonov, and T. Nakae, manuscript in preparation.</ce:note-para>
+                     </ce:footnote> Since the three-dimensional structures of MexB and OprM is not yet available, they were simulated by amino acid replacement of the MexB and OprM instead of their homologues, AcrB and TolC of <ce:italic>E. coli</ce:italic>, respectively, and molecular models were constructed.</ce:para>
+                  <ce:para id="para140" view="all">At first, it was necessary to determine the orientation of the MexA structure. Since MexA was mainly located in the inner membrane fraction (<ce:cross-ref id="cecref640" refid="bib19">19</ce:cross-ref>), and the N-terminal end of MexA was fatty acid-modified, it is highly likely that at least one end of MexA anchored the inner membrane (<ce:cross-ref id="cecref650" refid="bib19">19</ce:cross-ref>). Since the N- and C-terminal ends of MexA were located at the disordered domain adjacent to the α+β-domain, MexA must be oriented with the α+β-domain located proximal to MexB and the α-domain directed toward OprM. Lines of evidence support this conclusion. (i) The domain swapping experiments between AcrA of <ce:italic>E. coli</ce:italic> and its homologue protein suggested that the C-terminal proximal region of AcrA is important in the interaction with AcrB (<ce:cross-ref id="cecref660" refid="bib34">34</ce:cross-ref>). (ii) AcrA was chemically cross-linked with AcrB (<ce:cross-ref id="cecref670" refid="bib35">35</ce:cross-ref>).</ce:para>
+                  <ce:para id="para150" view="all">The first question to be answered was whether or not the MexA 13-mer is present in intact cells. Although an approximate longitudinal size of the 13-mer agreed well with the distance between the inner and outer membranes (<ce:cross-ref id="cecref680" refid="bib36">36</ce:cross-ref>), we assume that the 13-mer is most likely a crystallographic artifact by the reasons that MexA is mainly fractionated with the inner membrane and the α+β-domain is located at both ends of the 13-mer (<ce:cross-ref id="cecref690" refid="fig3">Fig. 3<ce:italic>A</ce:italic>
+                     </ce:cross-ref>). The next question was whether or not the spiral assembly of MexAs exists in the cells. The first model we present is the sleeve model based on the structure of MexA in which an MexA sleeve holds the distal domains of MexB, and the α-helical domains of MexA interact with OprM (<ce:cross-ref id="cecref700" refid="fig4">Fig. 4<ce:italic>A</ce:italic>
+                     </ce:cross-ref>
+                     <ce:float-anchor refid="fig4"/>). This simple model fitted well with the predicted function of MexA; however, the interior space of the sleeve appeared to be too small to accommodate the MexB and OprM junction, and also the spiral structure of MexA was less compatible with the flat configuration of MexB and OprM. Yet, it is conceivable that MexA winds around the MexB-OprM interaction site laterally (<ce:cross-ref id="cecref710" refid="fig4">Fig. 4<ce:italic>A</ce:italic>
+                     </ce:cross-ref>). We calculated that a total 12 of MexA molecules might be needed to wind around a MexB-OprM trimer. Thus, we have not yet discarded this model.</ce:para>
+                  <ce:para id="para160" view="all">The second model we would like to offer is the 3-fold MexA-dimer model that interacts with an MexA-OprM trimer (<ce:cross-ref id="cecref720" refid="fig4">Fig. 4<ce:italic>B</ce:italic>
+                     </ce:cross-ref>). This subunit stoichiometry is based on our quantitative determination in intact cells of the individual subunit that five to six molecules of MexA are present per trimer of MexB and OprM (<ce:cross-ref id="cecref730" refid="bib37">37</ce:cross-ref>). Presence of the dimeric MexA was supported by gel filtration experiments in which a small fraction of MexA was eluted in the position corresponding to the dimer, although the majority of MexA appeared to be monomeric in aqueous solution (data not shown). Fitting of α-helices of the MexA dimer with the lower part of OprM resulted in good helix-helix interaction of OprM and MexA with a contact angle of about 20° (<ce:cross-ref id="cecref740" refid="fig4">Fig. 4<ce:italic>B</ce:italic>
+                     </ce:cross-ref>). This 20°-angle contact of the α-helices was supported by a report that the second most abundant α-helix contact was a20° angle (<ce:cross-ref id="cecref750" refid="bib38">38</ce:cross-ref>). Thus, it is likely that MexA and OprM interact by means of the respective α-helices. Consequently, the globular β-domain in the middle of the MexA fits with the MexB-OprM contact region, where a gap was formed. The globular α+β-domains and disordered domain may have interacted with the MexB trimer. The disordered region is likely to have interacted with MexB as suggested with AcrA of <ce:italic>E. coli</ce:italic> (<ce:cross-ref id="cecref760" refid="bib34">34</ce:cross-ref>).</ce:para>
+                  <ce:para id="para170" view="all">Three models have been proposed for a possible mechanical role of MFP based on the sequence alignment study (<ce:cross-ref id="cecref770" refid="bib33">33</ce:cross-ref>); a fully extended MFP directly bridges the inner and outer membranes; the α-helical hairpins is located parallel to the membrane domain; a α-helical hairpin interacts with the outer membrane subunits, and the remaining domains anchor to the inner membrane. Our crystal structure of MexA supports none of these proposals. The two-dimensional crystals of AcrA were subjected to electron cryography (<ce:cross-ref id="cecref780" refid="bib39">39</ce:cross-ref>). The 20-Å resolution model predicted the presence of a central opening with a diameter of about 30 Å, which is in fairly good agreement with the present result. However, the global structure based on the two-dimensional crystals was largely different from that elucidated from x-ray crystallography.</ce:para>
+               </ce:section>
+            </ce:sections>
+            <ce:acknowledgment id="ceack10" view="all">
+               <ce:section-title id="cestitle30">Acknowledgments</ce:section-title>
+               <ce:para id="para180" view="all">We are grateful to the beamline staffs of SPring8 BL44XU (E. Yamashita and M. Yoshimura) and Photon Factory BL6A, AR-NW12 (N. Igarashi, N. Matugaki, and M. Suzuki) for their assistance in data collection. T. N. thanks Jurg P. Rosenbusch and Tilman Schirmer of Biozentrum, University of Basel, for their initial instruction on membrane protein crystallization.</ce:para>
+            </ce:acknowledgment>
+            <ce:appendices view="all">
+               <ce:section id="sec1" view="extended">
+                  <ce:section-title id="cestitle40">Supplementary Material</ce:section-title>
+                  <ce:para id="para190" view="all">
+                     <ce:display>
+                        <ce:e-component id="ecomp10">
+                           <ce:link locator="mmc1" xlink:type="simple" xlink:role="http://data.elsevier.com/vocabulary/ElsevierContentTypes/46.1" xlink:href="pii:S0021925820855665/mmc1"/>
+                        </ce:e-component>
+                     </ce:display>
+                  </ce:para>
+               </ce:section>
+            </ce:appendices>
+         </body>
+         <tail view="all">
+            <ce:bibliography id="bibl10" view="all">
+               <ce:section-title id="cestitle50">References</ce:section-title>
+               <ce:bibliography-sec id="cebibsec10" view="all">
+                  <ce:bib-reference id="bib1">
+                     <ce:label>1</ce:label>
+                     <sb:reference id="sbref10">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>X.Z.</ce:given-name>
+                                 <ce:surname>Li</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Nikaido</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Poole</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob. Agents Chemother.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>39</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1995</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1948</sb:first-page>
+                              <sb:last-page>1953</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext1">Li, X. Z., Nikaido, H., and Poole, K. (1995) Antimicrob. Agents Chemother., 39, 1948–1953</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib2">
+                     <ce:label>2</ce:label>
+                     <sb:reference id="sbref20">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.R.</ce:given-name>
+                                 <ce:surname>Morshed</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Lei</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Yoneyama</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Nakae</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Biochem. Biophys. Res. Commun.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>210</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1995</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>356</sb:first-page>
+                              <sb:last-page>362</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext2">Morshed, S. R., Lei, Y., Yoneyama, H., and Nakae, T. (1995) Biochem. Biophys. Res. Commun., 210, 356–362</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib3">
+                     <ce:label>3</ce:label>
+                     <sb:reference id="sbref30">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Poole</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.E.</ce:given-name>
+                                 <ce:surname>Heinrichs</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Neshat</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Mol. Microbiol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>10</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1993</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>529</sb:first-page>
+                              <sb:last-page>544</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext3">Poole, K., Heinrichs, D. E., and Neshat, S. (1993) Mol. Microbiol., 10, 529–544</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib4">
+                     <ce:label>4</ce:label>
+                     <sb:reference id="sbref40">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Poole</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Mol. Microbiol. Biotechnol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>3</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2001</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>255</sb:first-page>
+                              <sb:last-page>263</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext4">Poole, K. (2001) J. Mol. Microbiol. Biotechnol., 3, 255–263</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib5">
+                     <ce:label>5</ce:label>
+                     <sb:reference id="sbref50">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>I.T.</ce:given-name>
+                                 <ce:surname>Paulsen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.H.</ce:given-name>
+                                 <ce:surname>Park</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.S.</ce:given-name>
+                                 <ce:surname>Choi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.H.</ce:given-name>
+                                 <ce:surname>Saier</ce:surname>
+                                 <ce:suffix>Jr.</ce:suffix>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>FEMS Microbiol. Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>156</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1</sb:first-page>
+                              <sb:last-page>8</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext5">Paulsen, I. T., Park, J. H., Choi, P. S., and Saier, M. H., Jr. (1997) FEMS Microbiol. Lett., 156, 1–8</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib6">
+                     <ce:label>6</ce:label>
+                     <sb:reference id="sbref60">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Rella</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Haas</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Antimicrob. Agents Chemother.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>22</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1982</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>242</sb:first-page>
+                              <sb:last-page>249</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext6">Rella, M., and Haas, D. (1982) Antimicrob. Agents Chemother., 22, 242–249</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib7">
+                     <ce:label>7</ce:label>
+                     <sb:reference id="sbref70">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Saito</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Eda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Maseda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Nakae</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>FEMS Microbiol. Lett.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>195</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2001</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>23</sb:first-page>
+                              <sb:last-page>28</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext7">Saito, K., Eda, S., Maseda, H., and Nakae, T. (2001) FEMS Microbiol. Lett., 195, 23–28</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib8">
+                     <ce:label>8</ce:label>
+                     <sb:reference id="sbref80">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Srikumar</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.J.</ce:given-name>
+                                 <ce:surname>Paul</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Poole</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Bacteriol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>182</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1410</sb:first-page>
+                              <sb:last-page>1414</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext8">Srikumar, R., Paul, C. J., and Poole, K. (2000) J. Bacteriol., 182, 1410–1414</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib9">
+                     <ce:label>9</ce:label>
+                     <sb:reference id="sbref90">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Q.</ce:given-name>
+                                 <ce:surname>Dong</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Mergeay</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Mol. Microbiol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>14</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1994</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>185</sb:first-page>
+                              <sb:last-page>187</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext9">Dong, Q., and Mergeay, M. (1994) Mol. Microbiol., 14, 185–187</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib10">
+                     <ce:label>10</ce:label>
+                     <sb:reference id="sbref100">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>I.T.</ce:given-name>
+                                 <ce:surname>Paulsen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.H.</ce:given-name>
+                                 <ce:surname>Brown</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.A.</ce:given-name>
+                                 <ce:surname>Skurray</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Microbiol. Rev.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>60</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1996</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>575</sb:first-page>
+                              <sb:last-page>608</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext10">Paulsen, I. T., Brown, M. H., and Skurray, R. A. (1996) Microbiol. Rev., 60, 575–608</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib11">
+                     <ce:label>11</ce:label>
+                     <sb:reference id="sbref110">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.T.</ce:given-name>
+                                 <ce:surname>Tseng</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.S.</ce:given-name>
+                                 <ce:surname>Gratwick</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Kollman</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Park</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.H.</ce:given-name>
+                                 <ce:surname>Nies</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Goffeau</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.H.</ce:given-name>
+                                 <ce:surname>Saier</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Mol. Microbiol. Biotechnol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>1</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>107</sb:first-page>
+                              <sb:last-page>125</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext11">Tseng, T. T., Gratwick, K. S., Kollman, J., Park, D., Nies, D. H., Goffeau, A., and Saier, M. H. (1999) J. Mol. Microbiol. Biotechnol., 1, 107–125</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib12">
+                     <ce:label>12</ce:label>
+                     <sb:reference id="sbref120">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Guan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Ehrmann</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Yoneyama</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Nakae</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Biol. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>274</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>10517</sb:first-page>
+                              <sb:last-page>10522</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext12">Guan, L., Ehrmann, M., Yoneyama, H., and Nakae, T. (1999) J. Biol. Chem., 274, 10517–10522</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib13">
+                     <ce:label>13</ce:label>
+                     <sb:reference id="sbref130">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Eda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Maseda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Nakae</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Biol. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>278</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2003</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2085</sb:first-page>
+                              <sb:last-page>2088</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext13">Eda, S., Maseda, H., and Nakae, T. (2003) J. Biol. Chem., 278, 2085–2088</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib14">
+                     <ce:label>14</ce:label>
+                     <sb:reference id="sbref140">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.</ce:given-name>
+                                 <ce:surname>Guan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Nakae</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Bacteriol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>185</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2001</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>1734</sb:first-page>
+                              <sb:last-page>1739</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext14">Guan, L., and Nakae, T. (2001) J. Bacteriol., 185, 1734–1739</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib15">
+                     <ce:label>15</ce:label>
+                     <sb:reference id="sbref150">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Murakami</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.</ce:given-name>
+                                 <ce:surname>Nakashima</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Yamaguchi</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nature</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>419</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2002</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>587</sb:first-page>
+                              <sb:last-page>593</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext15">Murakami, S., Nakashima, R., and Yamaguchi, A. (2002) Nature, 419, 587–593</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib16">
+                     <ce:label>16</ce:label>
+                     <sb:reference id="sbref160">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>D.</ce:given-name>
+                                 <ce:surname>Ma</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.N.</ce:given-name>
+                                 <ce:surname>Cook</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.E.</ce:given-name>
+                                 <ce:surname>Hearst</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Nikaido</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Trends Microbiol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>2</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1994</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>489</sb:first-page>
+                              <sb:last-page>493</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext16">Ma, D., Cook, D. N., Hearst, J. E., and Nikaido, H. (1994) Trends Microbiol., 2, 489–493</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib17">
+                     <ce:label>17</ce:label>
+                     <sb:reference id="sbref170">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Nakajima</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>Y.</ce:given-name>
+                                 <ce:surname>Sugimoto</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Yoneyama</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Nakae</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Biol. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>275</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>30064</sb:first-page>
+                              <sb:last-page>30068</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext17">Nakajima, A., Sugimoto, Y., Yoneyama, H., and Nakae, T. (2000) J. Biol. Chem., 275, 30064–30068</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib18">
+                     <ce:label>18</ce:label>
+                     <sb:reference id="sbref180">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>V.</ce:given-name>
+                                 <ce:surname>Koronakis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Sharff</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Koronakis</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>B.</ce:given-name>
+                                 <ce:surname>Luisi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Hughes</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Nature</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>405</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>914</sb:first-page>
+                              <sb:last-page>919</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext18">Koronakis, V., Sharff, A., Koronakis, E., Luisi, B., and Hughes, C. (2000) Nature, 405, 914–919</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib19">
+                     <ce:label>19</ce:label>
+                     <sb:reference id="sbref190">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Yoneyama</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Maseda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Kamiguchi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Nakae</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Biol. Chem.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>275</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4628</sb:first-page>
+                              <sb:last-page>4634</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext19">Yoneyama, H., Maseda, H., Kamiguchi, H., and Nakae, T. (2000) J. Biol. Chem., 275, 4628–4634</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib20">
+                     <ce:label>20</ce:label>
+                     <sb:reference id="sbref200">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Dinh</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>I.T.</ce:given-name>
+                                 <ce:surname>Paulsen</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.H.</ce:given-name>
+                                 <ce:surname>Saier</ce:surname>
+                                 <ce:suffix>Jr.</ce:suffix>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Bacteriol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>176</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1994</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>3825</sb:first-page>
+                              <sb:last-page>3831</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext20">Dinh, T., Paulsen, I. T., and Saier, M. H., Jr. (1994) J. Bacteriol., 176, 3825–3831</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib21">
+                     <ce:label>21</ce:label>
+                     <sb:reference id="sbref210">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Yoneyama</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.</ce:given-name>
+                                 <ce:surname>Ocaktan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Tsuda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Nakae</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Biochem. Biophy. Res. Commun.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>233</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>611</sb:first-page>
+                              <sb:last-page>618</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext21">Yoneyama, H., Ocaktan, A., Tsuda, M., and Nakae, T. (1997) Biochem. Biophy. Res. Commun., 233, 611–618</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib22">
+                     <ce:label>22</ce:label>
+                     <sb:reference id="sbref220">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Poole</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Krebes</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>McNally</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Neshat</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Bacteriol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>175</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1993</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>7363</sb:first-page>
+                              <sb:last-page>7372</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext22">Poole, K., Krebes, K., McNally, C., and Neshat, S. (1993) J. Bacteriol., 175, 7363–7372</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib23">
+                     <ce:label>23</ce:label>
+                     <sb:reference id="sbref230">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>Z.</ce:given-name>
+                                 <ce:surname>Otwinowski</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Minor</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Methods Enzymol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>276</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>307</sb:first-page>
+                              <sb:last-page>326</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext23">Otwinowski, Z., and Minor, W. (1997) Methods Enzymol., 276, 307–326</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib24">
+                     <ce:label>24</ce:label>
+                     <sb:reference id="sbref240">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:collaboration>Collaborative Computational Project No4 (CCP4)</sb:collaboration>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Acta Crystallogr. Sect. D Biol. Crystallogr.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>50</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1994</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>760</sb:first-page>
+                              <sb:last-page>763</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext24">Collaborative Computational Project No. 4 (CCP4) (1994) Acta Crystallogr. Sect. D Biol. Crystallogr., 50, 760–763</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib25">
+                     <ce:label>25</ce:label>
+                     <sb:reference id="sbref250">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Sheldrick</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Methods Enzymol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>276</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>628</sb:first-page>
+                              <sb:last-page>641</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext25">Sheldrick, G. (1997) Methods Enzymol., 276, 628–641</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib26">
+                     <ce:label>26</ce:label>
+                     <sb:reference id="sbref260">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>de la Fortelle</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.</ce:given-name>
+                                 <ce:surname>Bricogne</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Methods Enzymol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>276</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>472</sb:first-page>
+                              <sb:last-page>494</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext26">de la Fortelle, E., and Bricogne, G. (1997) Methods Enzymol., 276, 472–494</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib27">
+                     <ce:label>27</ce:label>
+                     <sb:reference id="sbref270">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.P.</ce:given-name>
+                                 <ce:surname>Abrahams</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.G.W.</ce:given-name>
+                                 <ce:surname>Leslie</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Acta Crystallogr. Sect. D Biol. Crystallogr.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>52</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1996</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>30</sb:first-page>
+                              <sb:last-page>42</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext27">Abrahams, J. P., and Leslie, A. G. W. (1996) Acta Crystallogr. Sect. D Biol. Crystallogr., 52, 30–42</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib28">
+                     <ce:label>28</ce:label>
+                     <sb:reference id="sbref280">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>K.</ce:given-name>
+                                 <ce:surname>Cowtan</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Joint CCP4 and EST-EACBM Newslett. Protein Crystallogr.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>31</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1994</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>34</sb:first-page>
+                              <sb:last-page>38</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext28">Cowtan, K. (1994) Joint CCP4 and EST-EACBM Newslett. Protein Crystallogr., 31, 34–38</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib29">
+                     <ce:label>29</ce:label>
+                     <sb:reference id="sbref290">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>T.A.</ce:given-name>
+                                 <ce:surname>Jones</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.Y.</ce:given-name>
+                                 <ce:surname>Zou</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.W.</ce:given-name>
+                                 <ce:surname>Cowan</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Kjeldgaard</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Acra Crystallogr. Sect. A</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>47</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1991</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>110</sb:first-page>
+                              <sb:last-page>119</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext29">Jones, T. A., Zou, J. Y., Cowan, S. W., and Kjeldgaard, M. (1991) Acra Crystallogr. Sect. A, 47, 110–119</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib30">
+                     <ce:label>30</ce:label>
+                     <sb:reference id="sbref300">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.T.</ce:given-name>
+                                 <ce:surname>Brunger</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.D.</ce:given-name>
+                                 <ce:surname>Adams</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.M.</ce:given-name>
+                                 <ce:surname>Clore</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>W.L.</ce:given-name>
+                                 <ce:surname>DeLano</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>P.</ce:given-name>
+                                 <ce:surname>Gros</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.W.</ce:given-name>
+                                 <ce:surname>Grosse-Kunstleve</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.S.</ce:given-name>
+                                 <ce:surname>Jiang</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Kuszewski</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>M.</ce:given-name>
+                                 <ce:surname>Nilges</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.S.</ce:given-name>
+                                 <ce:surname>Pannu</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>R.J.</ce:given-name>
+                                 <ce:surname>Read</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>L.M.</ce:given-name>
+                                 <ce:surname>Rice</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Simonson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.L.</ce:given-name>
+                                 <ce:surname>Warren</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Acta Crystallgor. Sect. D Biol. Crystallogr.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>54</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1998</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>240</sb:first-page>
+                              <sb:last-page>255</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext30">Brunger, A. T., Adams, P. D., Clore, G. M., DeLano, W. L., Gros, P., Grosse-Kunstleve, R. W., Jiang, J. S., Kuszewski, J., Nilges, M., Pannu, N. S., Read, R. J., Rice, L. M., Simonson, T., and Warren, G. L. (1998) Acta Crystallgor. Sect. D Biol. Crystallogr., 54, 240–255</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib31">
+                     <ce:label>31</ce:label>
+                     <sb:reference id="sbref310">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>G.N.</ce:given-name>
+                                 <ce:surname>Murshudov</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>A.A.</ce:given-name>
+                                 <ce:surname>Vagin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.J.</ce:given-name>
+                                 <ce:surname>Dodson</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Acta Crystallogr. Sect. D Biol. Crystallogr.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>53</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>240</sb:first-page>
+                              <sb:last-page>255</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext31">Murshudov, G. N., Vagin, A. A., and Dodson, E. J. (1997) Acta Crystallogr. Sect. D Biol. Crystallogr., 53, 240–255</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib32">
+                     <ce:label>32</ce:label>
+                     <sb:reference id="sbref320">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.G.</ce:given-name>
+                                 <ce:surname>Murzin</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.E.</ce:given-name>
+                                 <ce:surname>Brenner</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Hubard</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Chothia</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Mol. Biol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>247</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1995</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>536</sb:first-page>
+                              <sb:last-page>540</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext32">Murzin, A. G., Brenner, S. E., Hubard, T., and Chothia, C. (1995) J. Mol. Biol., 247, 536–540</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib33">
+                     <ce:label>33</ce:label>
+                     <sb:reference id="sbref330">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>J.M.</ce:given-name>
+                                 <ce:surname>Johnson</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>G.M.</ce:given-name>
+                                 <ce:surname>Church</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Mol. Biol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>287</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1999</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>695</sb:first-page>
+                              <sb:last-page>715C. G.</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext33">Johnson, J. M., and Church, G. M. (1999) J. Mol. Biol., 287, 695–715C. G.</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib34">
+                     <ce:label>34</ce:label>
+                     <sb:reference id="sbref340">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.A.</ce:given-name>
+                                 <ce:surname>Elkins</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Nikaido</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Bacteriol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>185</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2003</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>5349</sb:first-page>
+                              <sb:last-page>5356</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext34">Elkins, C. A., and Nikaido, H. (2003) J. Bacteriol., 185, 5349–5356</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib35">
+                     <ce:label>35</ce:label>
+                     <sb:reference id="sbref350">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>H.I.</ce:given-name>
+                                 <ce:surname>Zgurskaya</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Nikaido</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Bacteriol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>182</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2000</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>4264</sb:first-page>
+                              <sb:last-page>4267</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext35">Zgurskaya, H. I., and Nikaido, H. (2000) J. Bacteriol., 182, 4264–4267</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib36">
+                     <ce:label>36</ce:label>
+                     <sb:reference id="sbref360">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>L.L.</ce:given-name>
+                                 <ce:surname>Graham</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.J.</ce:given-name>
+                                 <ce:surname>Beveridge</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>N.</ce:given-name>
+                                 <ce:surname>Nanninga</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Trends Biochem. Sci.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>16</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1991</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>328</sb:first-page>
+                              <sb:last-page>329</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext36">Graham, L. L., Beveridge, T. J., and Nanninga, N. (1991) Trends Biochem. Sci., 16, 328–329</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib37">
+                     <ce:label>37</ce:label>
+                     <sb:reference id="sbref370">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>S.-I.</ce:given-name>
+                                 <ce:surname>Narita</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Eda</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Yoshihara</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>T.</ce:given-name>
+                                 <ce:surname>Nakae</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Biochem. Biophys. Res. Commun.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>308</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2003</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>922</sb:first-page>
+                              <sb:last-page>926</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext37">Narita, S.-I., Eda, S., Yoshihara, E., and Nakae, T. (2003) Biochem. Biophys. Res. Commun., 308, 922–926</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib38">
+                     <ce:label>38</ce:label>
+                     <sb:reference id="sbref380">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Branden</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>J.</ce:given-name>
+                                 <ce:surname>Tooze</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:book>
+                              <sb:title>
+                                 <sb:maintitle>Introduction to Protein Structure</sb:maintitle>
+                              </sb:title>
+                              <sb:edition>2nd Ed.</sb:edition>
+                              <sb:date>1991</sb:date>
+                              <sb:publisher>
+                                 <sb:name>Garland Publishers</sb:name>
+                                 <sb:location>New York</sb:location>
+                              </sb:publisher>
+                           </sb:book>
+                           <sb:pages>
+                              <sb:first-page>41</sb:first-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext38">Branden, C., and Tooze, J. (1991) Introduction to Protein Structure, 2nd Ed., p. 41, Garland Publishers, New York</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib39">
+                     <ce:label>39</ce:label>
+                     <sb:reference id="sbref390">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>A.J.</ce:given-name>
+                                 <ce:surname>Avila-Sakar</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>S.</ce:given-name>
+                                 <ce:surname>Misaghi</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.M.</ce:given-name>
+                                 <ce:surname>Wilson-Kubalek</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>K.H.</ce:given-name>
+                                 <ce:surname>Downing</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Zgurskaya</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>H.</ce:given-name>
+                                 <ce:surname>Nikaido</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>E.</ce:given-name>
+                                 <ce:surname>Nogales</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Struct. Biol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>136</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>2001</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>81</sb:first-page>
+                              <sb:last-page>88</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext39">Avila-Sakar, A. J., Misaghi, S., Wilson-Kubalek, E. M., Downing, K. H., Zgurskaya, H., Nikaido, H., and Nogales, E. (2001) J. Struct. Biol., 136, 81–88</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib40">
+                     <ce:label>40</ce:label>
+                     <sb:reference id="sbref400">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>P.J.</ce:given-name>
+                                 <ce:surname>Kraulis</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>J. Appl. Crystallogr.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>24</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1991</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>946</sb:first-page>
+                              <sb:last-page>950</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext40">Kraulis, P. J. (1991) J. Appl. Crystallogr., 24, 946–950</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib41">
+                     <ce:label>41</ce:label>
+                     <sb:reference id="sbref410">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>E.A.</ce:given-name>
+                                 <ce:surname>Merritt</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>D.V.</ce:given-name>
+                                 <ce:surname>Bacon</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Methods Enzymol.</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>277</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1997</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>505</sb:first-page>
+                              <sb:last-page>524</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext41">Merritt, E. A., and Bacon, D. V. (1997) Methods Enzymol., 277, 505–524</ce:source-text>
+                  </ce:bib-reference>
+                  <ce:bib-reference id="bib42">
+                     <ce:label>42</ce:label>
+                     <sb:reference id="sbref420">
+                        <sb:contribution langtype="en">
+                           <sb:authors>
+                              <sb:author>
+                                 <ce:given-name>W.</ce:given-name>
+                                 <ce:surname>Kabsch</ce:surname>
+                              </sb:author>
+                              <sb:author>
+                                 <ce:given-name>C.</ce:given-name>
+                                 <ce:surname>Sander</ce:surname>
+                              </sb:author>
+                           </sb:authors>
+                        </sb:contribution>
+                        <sb:host>
+                           <sb:issue>
+                              <sb:series>
+                                 <sb:title>
+                                    <sb:maintitle>Biopolymers</sb:maintitle>
+                                 </sb:title>
+                                 <sb:volume-nr>22</sb:volume-nr>
+                              </sb:series>
+                              <sb:date>1983</sb:date>
+                           </sb:issue>
+                           <sb:pages>
+                              <sb:first-page>2577</sb:first-page>
+                              <sb:last-page>2637</sb:last-page>
+                           </sb:pages>
+                        </sb:host>
+                     </sb:reference>
+                     <ce:source-text id="sourcetext42">Kabsch, W., and Sander, C. (1983) Biopolymers, 22, 2577–2637</ce:source-text>
+                  </ce:bib-reference>
+               </ce:bibliography-sec>
+            </ce:bibliography>
+         </tail>
+      </article>
+   </xocs:serial-item></xocs:doc></originalText></full-text-retrieval-response>
