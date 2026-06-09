@@ -1,0 +1,47 @@
+{
+  "original_fulltext_count": 1788,
+  "retained_after_body_filter": 1596,
+  "filtered_no_real_body": 192,
+  "retained_by_source": {
+    "OA_HTML": 1145,
+    "PMC_OA_Bulk_XML": 290,
+    "Publisher_HTML": 71,
+    "Elsevier_Candidate_XML": 57,
+    "PMC_EFetch_XML": 25,
+    "Elsevier_Candidate_Text": 6,
+    "PMC_OA_BioC": 2
+  },
+  "filtered_by_reason": {
+    "publisher_preview_only": 125,
+    "wiley_pdf_note_only": 24,
+    "pmc_pdf_page_only": 24,
+    "jstage_overview_only": 13,
+    "epmc_pdf_placeholder": 2,
+    "meta_sections_only": 2,
+    "body_below_min_words": 2
+  },
+  "filtered_by_source": {
+    "Publisher_HTML": 83,
+    "OA_HTML": 79,
+    "Wiley_TDM_PDF": 24,
+    "PMC_OA_Bulk_XML": 3,
+    "EuropePMC_FullText_XML": 2,
+    "Elsevier_Candidate_Text": 1
+  },
+  "retained_word_stats": {
+    "min": 31,
+    "p10": 41,
+    "p25": 47,
+    "median": 61,
+    "p75": 2785,
+    "p90": 6891,
+    "max": 46915
+  },
+  "retained_word_bins": {
+    "<500": 880,
+    "500-999": 12,
+    "1000-1999": 129,
+    "2000-4999": 353,
+    "5000+": 222
+  }
+}
