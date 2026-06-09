@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/update-gene-status.mjs)",
+      "Bash(node -e ' *)",
+      "Bash(pnpm install *)"
+    ]
+  }
+}
