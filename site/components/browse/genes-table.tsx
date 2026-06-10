@@ -61,15 +61,15 @@ export function GenesTable({ genes }: GenesTableProps) {
 
   return (
     <div className="rounded-lg border border-border/60 overflow-hidden overflow-x-auto">
-      <Table>
+      <Table className="table-fixed">
         <TableHeader>
           <TableRow className="bg-muted/60 border-b-2 border-border">
-            <TableHead className="font-bold text-foreground">Gene Name</TableHead>
-            <TableHead className="font-bold text-foreground">Encodes</TableHead>
-            <TableHead className="font-bold text-foreground">Confers Resistance To</TableHead>
-            <TableHead className="font-bold text-foreground">Organisms</TableHead>
-            <TableHead className="font-bold text-foreground">Database</TableHead>
-            <TableHead className="font-bold text-foreground">Status</TableHead>
+            <TableHead className="font-bold text-foreground w-[12%]">Gene Name</TableHead>
+            <TableHead className="font-bold text-foreground w-[15%]">Encodes</TableHead>
+            <TableHead className="font-bold text-foreground w-[28%]">Confers Resistance To</TableHead>
+            <TableHead className="font-bold text-foreground w-[20%]">Organisms</TableHead>
+            <TableHead className="font-bold text-foreground w-[13%]">Database</TableHead>
+            <TableHead className="font-bold text-foreground w-[12%]">Status</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -120,7 +120,7 @@ export function GenesTable({ genes }: GenesTableProps) {
                 </TableCell>
                 <TableCell>
                   {primary.encodes ? (
-                    <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium capitalize bg-purple-50 text-purple-700 border border-purple-200">
+                    <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium capitalize bg-purple-50 text-purple-700 border border-purple-200 leading-snug whitespace-normal">
                       {primary.encodes}
                     </span>
                   ) : (
@@ -130,11 +130,19 @@ export function GenesTable({ genes }: GenesTableProps) {
                 <TableCell>
                   {allResistances.length > 0 ? (
                     <div className="flex flex-wrap gap-1">
-                      {allResistances.map((r) => (
+                      {allResistances.slice(0, 9).map((r) => (
                         <span key={r} className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-indigo-50 text-indigo-700 border border-indigo-200">
                           {r}
                         </span>
                       ))}
+                      {allResistances.length > 9 && (
+                        <span
+                          className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-indigo-100 text-indigo-600 border border-indigo-200 cursor-default"
+                          title={allResistances.slice(9).join(', ')}
+                        >
+                          +{allResistances.length - 9} more
+                        </span>
+                      )}
                     </div>
                   ) : (
                     <span className="text-muted-foreground">-</span>

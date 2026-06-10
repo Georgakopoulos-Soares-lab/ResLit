@@ -59,13 +59,38 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <a 
-                  href="https://pubmed.ncbi.nlm.nih.gov/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="hover:text-foreground transition-colors"
-                >
+                <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
                   PubMed
+                </a>
+              </li>
+              <li>
+                <a href="https://www.ncbi.nlm.nih.gov/pathogens/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                  NCBI Pathogens
+                </a>
+              </li>
+              <li>
+                <a href="https://www.uniprot.org/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                  UniProt
+                </a>
+              </li>
+              <li>
+                <a href="https://card.mcmaster.ca/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                  CARD
+                </a>
+              </li>
+              <li>
+                <a href="https://bitbucket.org/genomicepidemiology/resfinder_db/src/master/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                  ResFinder DB
+                </a>
+              </li>
+              <li>
+                <a href="https://bitbucket.org/genomicepidemiology/pointfinder_db/src/master/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                  PointFinder DB
+                </a>
+              </li>
+              <li>
+                <a href="https://browse.amrrules.org/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                  AMR Rules
                 </a>
               </li>
             </ul>
