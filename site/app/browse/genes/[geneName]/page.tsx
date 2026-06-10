@@ -161,6 +161,19 @@ export default async function GeneDetailPage({ params }: PageProps) {
                   </div>
                 </a>
               )}
+              <a
+                href={`https://browse.amrrules.org/?search=${encodeURIComponent(decodedName.toLowerCase())}`}
+                target="_blank" rel="noopener noreferrer"
+                className="inline-flex items-start gap-2.5 px-3.5 py-2.5 rounded-lg border border-emerald-200 bg-emerald-50 hover:bg-emerald-100 transition-colors group"
+              >
+                <svg className="h-4 w-4 mt-0.5 shrink-0 text-emerald-400 group-hover:text-emerald-600 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+                <div>
+                  <div className="text-sm font-semibold leading-tight text-emerald-900">AMR Rules</div>
+                  <div className="text-xs text-emerald-600 mt-0.5">Browse AMR rules for {decodedName}</div>
+                </div>
+              </a>
             </div>
             {gene && (
               <div className="flex flex-col items-end gap-1">

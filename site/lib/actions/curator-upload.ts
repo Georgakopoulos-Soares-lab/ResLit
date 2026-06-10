@@ -25,10 +25,6 @@ export async function uploadGene(data: Partial<AMRGene>) {
       role_in_paper: data.role_in_paper || null,
       validation_method: data.validation_method || null,
       paper_pmid: data.paper_pmid || null,
-      isolation_location: data.isolation_location || null,
-      isolation_country: data.isolation_country || null,
-      year: data.year || null,
-      pmid: data.pmid || null,
       key_findings: data.key_findings || null,
       geographic_location: data.geographic_location || null,
       title_pmid: data.title_pmid || null,
@@ -45,7 +41,12 @@ export async function uploadGene(data: Partial<AMRGene>) {
 
     return { success: true, message: 'Gene uploaded successfully' }
   } catch (err: unknown) {
-    const message = err instanceof Error ? err.message : 'Failed to upload gene'
+    const message =
+      err instanceof Error
+        ? err.message
+        : err && typeof err === 'object' && 'message' in err
+          ? String((err as { message: unknown }).message)
+          : JSON.stringify(err)
     return { success: false, error: message }
   }
 }
@@ -63,23 +64,16 @@ export async function uploadMutation(data: Partial<AMRMutation>) {
     // Prepare mutation data with defaults
     const mutationData = {
       gene_name: data.gene_name || '',
-      mutation_name: data.mutation_name || null,
       notation: data.notation || null,
       nucleotide_change: data.nucleotide_change || '',
       protein_change: data.protein_change || null,
       position_in_molecule: data.position_in_molecule || null,
-      wild_type: data.wild_type || null,
-      mutant: data.mutant || null,
+      paper_pmid: data.paper_pmid || null,
       confers_resistance_to: data.confers_resistance_to || null,
       organisms_observed_in: data.organisms_observed_in || null,
       effect_on_function: data.effect_on_function || null,
       mutation_type: data.mutation_type || null,
-      validated_by: data.validated_by || null,
-      origin: data.origin || null,
-      paper_pmid: data.paper_pmid || null,
       key_findings: data.key_findings || null,
-      country: data.country || null,
-      resistance_mechanism_class: data.resistance_mechanism_class || null,
       title_pmid: data.title_pmid || null,
       year_pmid: data.year_pmid || null,
       source_database: 'Manually Uploaded',
@@ -94,7 +88,12 @@ export async function uploadMutation(data: Partial<AMRMutation>) {
 
     return { success: true, message: 'Mutation uploaded successfully' }
   } catch (err: unknown) {
-    const message = err instanceof Error ? err.message : 'Failed to upload mutation'
+    const message =
+      err instanceof Error
+        ? err.message
+        : err && typeof err === 'object' && 'message' in err
+          ? String((err as { message: unknown }).message)
+          : JSON.stringify(err)
     return { success: false, error: message }
   }
 }

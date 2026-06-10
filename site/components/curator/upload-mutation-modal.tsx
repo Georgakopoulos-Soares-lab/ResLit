@@ -15,22 +15,16 @@ import { Alert, AlertDescription } from '@/components/ui/alert'
 
 const MUTATION_FIELDS = [
   'gene_name',
-  'mutation_name',
   'notation',
   'nucleotide_change',
   'protein_change',
-  'position_in_molecule',
-  'wild_type',
-  'mutant',
+  'nucleotide_position',
+  'protein_position',
+  'paper_pmid',
   'confers_resistance_to',
   'organisms_observed_in',
   'effect_on_function',
   'mutation_type',
-  'validated_by',
-  'origin',
-  'paper_pmid',
-  'country',
-  'resistance_mechanism_class',
   'title_pmid',
   'year_pmid',
   'key_findings',
@@ -38,22 +32,16 @@ const MUTATION_FIELDS = [
 
 const FIELD_LABELS: Record<string, string> = {
   gene_name: 'Gene Name *',
-  mutation_name: 'Mutation Name',
   notation: 'Notation',
   nucleotide_change: 'Nucleotide Change *',
   protein_change: 'Protein Change',
-  position_in_molecule: 'Position in Molecule',
-  wild_type: 'Wild Type',
-  mutant: 'Mutant',
+  nucleotide_position: 'Nucleotide Position *',
+  protein_position: 'Protein Position *',
+  paper_pmid: 'PMID *',
   confers_resistance_to: 'Confers Resistance To (comma-separated)',
   organisms_observed_in: 'Organisms Observed In (comma-separated)',
   effect_on_function: 'Effect on Function',
   mutation_type: 'Mutation Type',
-  validated_by: 'Validated By',
-  origin: 'Origin',
-  paper_pmid: 'Paper PMID',
-  country: 'Country',
-  resistance_mechanism_class: 'Resistance Mechanism Class',
   title_pmid: 'Title PMID',
   year_pmid: 'Year PMID',
   key_findings: 'Key Findings',
@@ -101,8 +89,20 @@ export function UploadMutationModal() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    if (!formData.gene_name.trim() || !formData.nucleotide_change.trim()) {
-      setError('Gene Name and Nucleotide Change are required')
+    if (!formData.gene_name.trim()) {
+      setError('Gene Name is required')
+      return
+    }
+    if (!formData.nucleotide_change.trim() && !formData.protein_change.trim()) {
+      setError('Either Nucleotide Change or Protein Change is required')
+      return
+    }
+    if (!formData.nucleotide_position.trim() && !formData.protein_position.trim()) {
+      setError('Either Nucleotide Position or Protein Position is required')
+      return
+    }
+    if (!formData.paper_pmid.trim()) {
+      setError('PMID is required')
       return
     }
 
@@ -110,16 +110,19 @@ export function UploadMutationModal() {
     setSuccess(false)
     setLoading(true)
 
+    const positionParts = [
+      formData.nucleotide_position.trim() ? `nt:${formData.nucleotide_position.trim()}` : '',
+      formData.protein_position.trim() ? `aa:${formData.protein_position.trim()}` : '',
+    ].filter(Boolean)
+
     try {
       const result = await uploadMutation({
         gene_name: formData.gene_name,
-        mutation_name: formData.mutation_name || null,
         notation: formData.notation || null,
-        nucleotide_change: formData.nucleotide_change,
+        nucleotide_change: formData.nucleotide_change || '',
         protein_change: formData.protein_change || null,
-        position_in_molecule: formData.position_in_molecule || null,
-        wild_type: formData.wild_type || null,
-        mutant: formData.mutant || null,
+        position_in_molecule: positionParts.length > 0 ? positionParts.join(', ') : null,
+        paper_pmid: formData.paper_pmid || null,
         confers_resistance_to: formData.confers_resistance_to
           ? formData.confers_resistance_to.split(',').map((s) => s.trim())
           : null,
@@ -128,12 +131,7 @@ export function UploadMutationModal() {
           : null,
         effect_on_function: formData.effect_on_function || null,
         mutation_type: formData.mutation_type || null,
-        validated_by: formData.validated_by || null,
-        origin: formData.origin || null,
-        paper_pmid: formData.paper_pmid || null,
         key_findings: formData.key_findings || null,
-        country: formData.country || null,
-        resistance_mechanism_class: formData.resistance_mechanism_class || null,
         title_pmid: formData.title_pmid || null,
         year_pmid: formData.year_pmid ? parseInt(formData.year_pmid) : null,
       })
@@ -165,7 +163,7 @@ export function UploadMutationModal() {
         <DialogHeader>
           <DialogTitle>Upload AMR Mutation</DialogTitle>
           <DialogDescription>
-            Click on any cell to edit. Press Ctrl+Enter or click away to save. Gene Name and Nucleotide Change are required.
+            Click on any cell to edit. Press Ctrl+Enter or click away to save. Gene Name, PMID, and at least one of Nucleotide/Protein Change and Position are required.
           </DialogDescription>
         </DialogHeader>
 
@@ -253,7 +251,13 @@ export function UploadMutationModal() {
             >
               Cancel
             </Button>
-            <Button type="submit" disabled={loading || !formData.gene_name.trim() || !formData.nucleotide_change.trim()}>
+            <Button type="submit" disabled={
+              loading ||
+              !formData.gene_name.trim() ||
+              (!formData.nucleotide_change.trim() && !formData.protein_change.trim()) ||
+              (!formData.nucleotide_position.trim() && !formData.protein_position.trim()) ||
+              !formData.paper_pmid.trim()
+            }>
               {loading ? 'Uploading...' : 'Upload Mutation'}
             </Button>
           </div>

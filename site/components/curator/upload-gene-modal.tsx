@@ -23,11 +23,7 @@ const GENE_FIELDS = [
   'organisms_tested_in',
   'validation_method',
   'role_in_paper',
-  'year',
-  'pmid',
   'paper_pmid',
-  'isolation_location',
-  'isolation_country',
   'geographic_location',
   'title_pmid',
   'year_pmid',
@@ -37,18 +33,14 @@ const GENE_FIELDS = [
 const FIELD_LABELS: Record<string, string> = {
   gene_name: 'Gene Name *',
   allele: 'Allele',
-  encodes: 'Encodes',
+  encodes: 'Encodes *',
   mechanism: 'Mechanism',
   resistance_mechanism_class: 'Resistance Mechanism Class',
   confers_resistance_to: 'Confers Resistance To (comma-separated)',
   organisms_tested_in: 'Organisms Tested In (comma-separated)',
   validation_method: 'Validation Method',
   role_in_paper: 'Role in Paper',
-  year: 'Year',
-  pmid: 'PMID',
-  paper_pmid: 'Paper PMID',
-  isolation_location: 'Isolation Location',
-  isolation_country: 'Isolation Country',
+  paper_pmid: 'PMID *',
   geographic_location: 'Geographic Location',
   title_pmid: 'Title PMID',
   year_pmid: 'Year PMID',
@@ -101,6 +93,14 @@ export function UploadGeneModal() {
       setError('Gene Name is required')
       return
     }
+    if (!formData.paper_pmid.trim()) {
+      setError('PMID is required')
+      return
+    }
+    if (!formData.encodes.trim()) {
+      setError('Encodes is required')
+      return
+    }
 
     setError(null)
     setSuccess(false)
@@ -122,10 +122,6 @@ export function UploadGeneModal() {
         role_in_paper: formData.role_in_paper || null,
         validation_method: formData.validation_method || null,
         paper_pmid: formData.paper_pmid || null,
-        isolation_location: formData.isolation_location || null,
-        isolation_country: formData.isolation_country || null,
-        year: formData.year ? parseInt(formData.year) : null,
-        pmid: formData.pmid || null,
         key_findings: formData.key_findings || null,
         geographic_location: formData.geographic_location || null,
         title_pmid: formData.title_pmid || null,
@@ -159,7 +155,7 @@ export function UploadGeneModal() {
         <DialogHeader>
           <DialogTitle>Upload AMR Gene</DialogTitle>
           <DialogDescription>
-            Click on any cell to edit. Press Ctrl+Enter or click away to save. Gene Name is required.
+            Click on any cell to edit. Press Ctrl+Enter or click away to save. Gene Name, PMID, and Encodes are required.
           </DialogDescription>
         </DialogHeader>
 
@@ -247,7 +243,7 @@ export function UploadGeneModal() {
             >
               Cancel
             </Button>
-            <Button type="submit" disabled={loading || !formData.gene_name.trim()}>
+            <Button type="submit" disabled={loading || !formData.gene_name.trim() || !formData.paper_pmid.trim() || !formData.encodes.trim()}>
               {loading ? 'Uploading...' : 'Upload Gene'}
             </Button>
           </div>
