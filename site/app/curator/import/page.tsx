@@ -14,11 +14,10 @@ import {
   importGenes,
   importMutations,
   importQwen3,
-  parseCSV,
-  parseJSON,
   type ImportResult,
   type Qwen3ImportResult,
 } from "@/lib/actions/import"
+import { parseCSV, parseJSON } from "@/lib/utils/parse"
 import { Upload, FileJson, FileSpreadsheet, CheckCircle, AlertCircle, ArrowLeft, Cpu } from "lucide-react"
 import Link from "next/link"
 
