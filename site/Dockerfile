@@ -24,6 +24,9 @@ RUN pnpm install --frozen-lockfile
 FROM node:20-alpine AS builder
 WORKDIR /app
 
+# Install pnpm (each Docker stage is isolated — tools don't carry over)
+RUN corepack enable && corepack prepare pnpm@9 --activate
+
 # Copy installed node_modules from installer
 COPY --from=installer /app/node_modules ./node_modules
 
