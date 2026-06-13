@@ -2,6 +2,8 @@
 
 import { createClient } from "@/lib/supabase/server"
 import { revalidatePath } from "next/cache"
+import { parseQwen3Text } from "@/lib/utils/parse"
+export type { Qwen3GeneData, Qwen3MutationEntry, Qwen3MutationData, Qwen3PaperJson } from "@/lib/utils/parse"
 
 // ------------------------------------------------------------
 // Flat import row types (manual CSV/JSON import)
@@ -43,59 +45,11 @@ export interface ImportResult {
   errors: string[]
 }
 
-// ------------------------------------------------------------
-// QWEN3 extraction types
-// ------------------------------------------------------------
-
-export interface Qwen3GeneData {
-  allele?: string
-  encodes?: string
-  mechanism?: string
-  confers_resistance_to?: string[]
-  resistance_mechanism_class?: string
-  organisms_tested_in?: string[]
-  role_in_paper?: string
-  validation_method?: string
-}
-
-export interface Qwen3MutationEntry {
-  notation?: string
-  nucleotide_change?: string
-  protein_change?: string
-  confers_resistance_to?: string[]
-  organisms_observed_in?: string[]
-  effect_on_function?: string
-  mutation_type?: string
-  validated_by?: string
-  origin?: string
-}
-
-export interface Qwen3MutationData {
-  mutations_found?: Qwen3MutationEntry[]
-}
-
-export interface Qwen3PaperJson {
-  pmid?: string
-  title?: string
-  year?: number
-  paper_type?: string
-  genes?: Record<string, Qwen3GeneData>
-  mutations?: Record<string, Qwen3MutationData>
-  key_findings?: string
-  methodology?: string
-  geographic_location?: string[]
-  sample_size?: number
-}
-
 export interface Qwen3ImportResult extends ImportResult {
   papersProcessed: number
   genesImported: number
   mutationsImported: number
 }
-
-// parseQwen3Text, parseCSV, parseJSON are synchronous utilities
-// and must live outside this "use server" file.
-export { parseQwen3Text, parseCSV, parseJSON } from "@/lib/utils/parse"
 
 // ------------------------------------------------------------
 // importQwen3 – server action
