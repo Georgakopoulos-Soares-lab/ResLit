@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- DNA/beaker inspired icon for ResLit -->
+  <rect width="32" height="32" rx="6" fill="#0d9488"/>
+  <path d="M8 24c4-6 12-6 16 0M8 16c4-6 12-6 16 0M8 8c4-6 12-6 16 0" 
+        stroke="white" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <circle cx="10" cy="24" r="1.5" fill="white"/>
+  <circle cx="22" cy="16" r="1.5" fill="white"/>
+  <circle cx="10" cy="8" r="1.5" fill="white"/>
+</svg>
