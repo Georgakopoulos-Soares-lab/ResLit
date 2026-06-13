@@ -10,7 +10,7 @@ FROM node:20-alpine AS installer
 WORKDIR /app
 
 # Install pnpm globally
-RUN corepack enable && corepack prepare pnpm@latest --activate
+RUN corepack enable && corepack prepare pnpm@9 --activate
 
 # Copy package manifests for layer caching
 COPY pnpm-lock.yaml package.json .npmrc ./
