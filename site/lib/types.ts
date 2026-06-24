@@ -1,5 +1,15 @@
 export type CurationStatus = 'pending' | 'curated' | 'rejected'
 
+export type ValidationTier = 'Confirmed' | 'Established' | 'Supported' | 'Candidate'
+
+export type ConfirmationReason = 'cross-database' | 'curator-verified' | 'both'
+
+export interface ValidationInfo {
+  tier: ValidationTier
+  reason?: ConfirmationReason
+  databases?: string[]
+}
+
 export type MutationType = 'substitution' | 'insertion' | 'deletion' | 'frameshift' | 'other'
 
 export interface Paper {
@@ -43,8 +53,12 @@ export interface AMRGene {
   title_pmid: string | null
   year_pmid: number | null
   source_database: string | null
+  sequence_accession: string | null
+  protein_accession: string | null
+  notes: string | null
   status: CurationStatus
   gene_status: CurationStatus
+  validation_tier?: ValidationTier
   created_at: string
   updated_at: string
   paper?: PaperSummary | null
@@ -74,6 +88,10 @@ export interface AMRMutation {
   year_pmid: number | null
   source_database: string | null
   status: CurationStatus
+  validation_tier?: ValidationTier
+  all_databases?: string[]
+  gene_encodes?: string | null
+  gene_mechanism?: string | null
   created_at: string
   updated_at: string
   gene?: {
@@ -107,6 +125,9 @@ export interface CurationHistory {
   target_type: 'gene' | 'mutation'
   target_id: string
   curator_id: string | null
+  curator_name: string | null
+  curator_email: string | null
+  curator_affiliation: string | null
   action: 'approve' | 'reject' | 'edit' | 'create'
   previous_status: string | null
   new_status: string | null
@@ -168,6 +189,10 @@ export interface BrowseFilters {
   geneName?: string
   mutationType?: string
   sourceDatabases?: string[]
+  pmid?: string
+  validationTier?: ValidationTier
+  geneNameSearch?: string
+  alleleSearch?: string
 }
 
 export interface GeneWithMutationCount {
@@ -176,6 +201,7 @@ export interface GeneWithMutationCount {
   best_status: CurationStatus
   mutation_types: string[]
   resistances: string[]
+  validation_tier?: ValidationTier
 }
 
 export interface PaginationParams {

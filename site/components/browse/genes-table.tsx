@@ -7,7 +7,7 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table'
-import { StatusBadge } from './status-badge'
+import { ValidationTierBadge } from './validation-tier-badge'
 import { extractGeneFamily } from '@/lib/utils'
 import type { AMRGene } from '@/lib/types'
 
@@ -64,12 +64,13 @@ export function GenesTable({ genes }: GenesTableProps) {
       <Table className="table-fixed">
         <TableHeader>
           <TableRow className="bg-muted/60 border-b-2 border-border">
-            <TableHead className="font-bold text-foreground w-[12%]">Gene Name</TableHead>
-            <TableHead className="font-bold text-foreground w-[15%]">Encodes</TableHead>
-            <TableHead className="font-bold text-foreground w-[28%]">Confers Resistance To</TableHead>
-            <TableHead className="font-bold text-foreground w-[20%]">Organisms</TableHead>
-            <TableHead className="font-bold text-foreground w-[13%]">Database</TableHead>
-            <TableHead className="font-bold text-foreground w-[12%]">Status</TableHead>
+            <TableHead className="font-bold text-foreground w-[11%]">Gene Name</TableHead>
+            <TableHead className="font-bold text-foreground w-[5%] text-center">Alleles</TableHead>
+            <TableHead className="font-bold text-foreground w-[13%]">Encodes</TableHead>
+            <TableHead className="font-bold text-foreground w-[25%]">Confers Resistance To</TableHead>
+            <TableHead className="font-bold text-foreground w-[17%]">Organisms</TableHead>
+            <TableHead className="font-bold text-foreground w-[16%]">Database</TableHead>
+            <TableHead className="font-bold text-foreground w-[13%]">Validation Status</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -83,9 +84,10 @@ export function GenesTable({ genes }: GenesTableProps) {
             const allOrganisms = [
               ...new Set(group.flatMap((g) => g.organisms_tested_in ?? [])),
             ]
-            // Use gene_status from any row in the group (all rows share the same gene_status)
-            const bestStatus = primary.gene_status
-
+            const allDatabases = [
+              ...new Set(group.map((g) => g.source_database).filter(Boolean)),
+            ].sort()
+            const alleleCount = new Set(group.map((g) => g.allele || g.gene_name).filter(Boolean)).size
             const family = extractGeneFamily(geneName)
 
             return (
@@ -117,6 +119,9 @@ export function GenesTable({ genes }: GenesTableProps) {
                       {geneName}
                     </Link>
                   )}
+                </TableCell>
+                <TableCell className="text-center">
+                  <span className="text-sm font-medium text-muted-foreground">{alleleCount}</span>
                 </TableCell>
                 <TableCell>
                   {primary.encodes ? (
@@ -151,25 +156,43 @@ export function GenesTable({ genes }: GenesTableProps) {
                 <TableCell className="text-sm">
                   {allOrganisms.length > 0 ? (
                     <ul className="space-y-0.5">
-                      {allOrganisms.map((o) => (
+                      {allOrganisms.slice(0, 5).map((o) => (
                         <li key={o} className="italic text-emerald-700">{o}</li>
                       ))}
+                      {allOrganisms.length > 5 && (
+                        <li>
+                          <Link
+                            href={`/browse/genes/${encodeURIComponent(primary.gene_name)}`}
+                            className="text-xs text-primary hover:underline font-medium"
+                          >
+                            +{allOrganisms.length - 5} more
+                          </Link>
+                        </li>
+                      )}
                     </ul>
                   ) : (
                     <span className="text-muted-foreground">-</span>
                   )}
                 </TableCell>
                 <TableCell>
-                  {primary.source_database ? (
-                    <span className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200">
-                      {primary.source_database}
-                    </span>
+                  {allDatabases.length > 0 ? (
+                    <div className="flex flex-wrap gap-1">
+                      {allDatabases.map((db) => (
+                        <span key={db} className="inline-flex items-center px-2 py-0.5 rounded-md text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200">
+                          {db}
+                        </span>
+                      ))}
+                    </div>
                   ) : (
                     <span className="text-muted-foreground">-</span>
                   )}
                 </TableCell>
                 <TableCell>
-                  <StatusBadge status={bestStatus} />
+                  {primary.validation_tier ? (
+                    <ValidationTierBadge tier={primary.validation_tier} />
+                  ) : (
+                    <span className="text-muted-foreground">-</span>
+                  )}
                 </TableCell>
               </TableRow>
             )

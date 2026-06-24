@@ -7,7 +7,7 @@ import {
   TableHeader,
   TableRow,
 } from '@/components/ui/table'
-import { StatusBadge } from './status-badge'
+import { ValidationTierBadge } from './validation-tier-badge'
 import type { GeneWithMutationCount } from '@/lib/types'
 
 interface GenesForMutationsTableProps {
@@ -42,9 +42,8 @@ export function GenesForMutationsTable({ genes }: GenesForMutationsTableProps) {
           <TableRow className="bg-muted/60 border-b-2 border-border">
             <TableHead className="font-bold text-foreground">Gene Name</TableHead>
             <TableHead className="font-bold text-foreground">Mutations</TableHead>
-            <TableHead className="font-bold text-foreground">Type</TableHead>
             <TableHead className="font-bold text-foreground">Resistance To</TableHead>
-            <TableHead className="font-bold text-foreground">Status</TableHead>
+            <TableHead className="font-bold text-foreground">Validation Status</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -52,7 +51,7 @@ export function GenesForMutationsTable({ genes }: GenesForMutationsTableProps) {
             <TableRow key={gene.gene_name} className="hover:bg-primary/5 transition-colors">
               <TableCell>
                 <Link
-                  href={`/browse/mutations/gene/${encodeURIComponent(gene.gene_name)}`}
+                  href={`/browse/genes/${encodeURIComponent(gene.gene_name)}`}
                   className="font-medium text-primary hover:underline"
                 >
                   {gene.gene_name}
@@ -62,17 +61,6 @@ export function GenesForMutationsTable({ genes }: GenesForMutationsTableProps) {
                 <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-violet-100 text-violet-800 border border-violet-200">
                   {gene.mutation_count} {gene.mutation_count === 1 ? 'mutation' : 'mutations'}
                 </span>
-              </TableCell>
-              <TableCell>
-                {gene.mutation_types.length > 0 ? (
-                  <div className="flex flex-wrap gap-1">
-                    {gene.mutation_types.map((t) => (
-                      <span key={t} className="text-xs bg-slate-100 text-slate-700 border border-slate-200 px-2 py-0.5 rounded capitalize">
-                        {t}
-                      </span>
-                    ))}
-                  </div>
-                ) : '-'}
               </TableCell>
               <TableCell>
                 {gene.resistances.length > 0 ? (
@@ -89,7 +77,11 @@ export function GenesForMutationsTable({ genes }: GenesForMutationsTableProps) {
                 ) : '-'}
               </TableCell>
               <TableCell>
-                <StatusBadge status={gene.best_status} />
+                {gene.validation_tier ? (
+                  <ValidationTierBadge tier={gene.validation_tier} />
+                ) : (
+                  <span className="text-muted-foreground">-</span>
+                )}
               </TableCell>
             </TableRow>
           ))}

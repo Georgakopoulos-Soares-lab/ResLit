@@ -7,6 +7,8 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Building2, Users } from "lucide-react"
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
 
 async function getCurators() {
   const supabase = await createClient()
@@ -52,6 +54,37 @@ export default async function CollaboratorsPage() {
                 resistance data from the scientific literature.
               </p>
             </div>
+          </div>
+        </section>
+
+        {/* Join Section */}
+        <section className="py-12 border-b border-border">
+          <div className="container mx-auto px-4">
+            <Card className="max-w-2xl mx-auto">
+              <CardHeader className="text-center">
+                <CardTitle>Become a Curator</CardTitle>
+                <CardDescription>
+                  Are you a researcher with expertise in antimicrobial resistance?
+                  Join our team of curators and help validate AMR data from the literature.
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="text-sm text-muted-foreground mb-4">
+                  As a curator, you will:
+                </p>
+                <ul className="text-sm text-muted-foreground space-y-2 mb-6">
+                  <li>Review and validate gene and mutation entries</li>
+                  <li>Add expert annotations and notes</li>
+                  <li>Help maintain data quality and accuracy</li>
+                  <li>Be credited as a collaborator on the platform</li>
+                </ul>
+                <Link href="/curator/signup">
+                  <Button size="lg" className="w-full sm:w-auto">
+                    Apply as Curator
+                  </Button>
+                </Link>
+              </CardContent>
+            </Card>
           </div>
         </section>
 
@@ -149,38 +182,6 @@ export default async function CollaboratorsPage() {
           </div>
         </section>
 
-        {/* Join Section */}
-        <section className="py-16 bg-muted/50">
-          <div className="container mx-auto px-4">
-            <Card className="max-w-2xl mx-auto">
-              <CardHeader className="text-center">
-                <CardTitle>Become a Curator</CardTitle>
-                <CardDescription>
-                  Are you a researcher with expertise in antimicrobial resistance? 
-                  Join our team of curators and help validate AMR data from the literature.
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="text-center">
-                <p className="text-sm text-muted-foreground mb-4">
-                  As a curator, you will:
-                </p>
-                <ul className="text-sm text-muted-foreground space-y-2 mb-6">
-                  <li>Review and validate gene and mutation entries</li>
-                  <li>Add expert annotations and notes</li>
-                  <li>Help maintain data quality and accuracy</li>
-                  <li>Be credited as a collaborator on the platform</li>
-                </ul>
-                <p className="text-sm text-muted-foreground">
-                  Contact us at{" "}
-                  <a href="mailto:curators@reslit.org" className="text-primary hover:underline">
-                    curators@reslit.org
-                  </a>{" "}
-                  to apply.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-        </section>
       </main>
 
       <Footer />

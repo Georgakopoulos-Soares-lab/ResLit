@@ -67,7 +67,7 @@ function stringToArray(value) {
 
 async function importMutations(csvFile) {
   console.log(`\n📖 Reading: ${csvFile}`)
-  
+
   let records
   try {
     records = parseCSVFile(csvFile)
@@ -75,46 +75,60 @@ async function importMutations(csvFile) {
     console.error(`❌ Failed to parse CSV: ${error.message}`)
     process.exit(1)
   }
-  
-  console.log(`✓ Parsed ${records.length} mutations\n`)
-  console.log('💾 Importing to database...\n')
-  
+
+  console.log(`✓ Parsed ${records.length} mutations`)
+
+  // Show detected columns
+  if (records.length > 0) {
+    console.log(`  Columns: ${Object.keys(records[0]).join(', ')}`)
+  }
+
+  console.log('\n💾 Importing to database...\n')
+
   let imported = 0
+  let skipped = 0
   const errors = []
 
+  // Build mutation name for display
+  const label = (r) => r.Protein_Change || r.Nucleotide_Change || r.Gene || '(unknown)'
+
   for (const record of records) {
+    const geneName = record.Gene?.trim() || null
+    const nucleotideChange = record.Nucleotide_Change?.trim() || null
+    const proteinChange = record.Protein_Change?.trim() || null
+
+    if (!geneName && !nucleotideChange && !proteinChange) {
+      skipped++
+      continue
+    }
+
     const { error } = await supabase
       .from('amr_mutations')
       .insert({
-        gene_name: record.gene_name || null,
-        notation: record.notation || null,
-        nucleotide_change: record.nucleotide_change || null,
-        protein_change: record.protein_change || null,
-        position_in_molecule: record.position_in_molecule || null,
-        confers_resistance_to: stringToArray(record.confers_resistance_to),
-        organisms_observed_in: stringToArray(record.organisms_observed_in),
-        effect_on_function: record.effect_on_function || null,
-        mutation_type: record.mutation_type || null,
-        validated_by: record.validated_by || null,
-        origin: record.origin || null,
-        paper_pmid: record.paper_pmid || null,
-        key_findings: record.key_findings || null,
-        country: record.geographic_location || null,
-        title_pmid: record.Title_PMID || null,
-        year_pmid: record.YEAR_PMID ? parseInt(record.YEAR_PMID) : null,
+        gene_name: geneName,
+        nucleotide_change: nucleotideChange || '',
+        protein_change: proteinChange,
+        paper_pmid: record.PMID?.trim() || null,
+        confers_resistance_to: record.Resistance?.trim() ? [record.Resistance.trim()] : null,
+        organisms_observed_in: record.Organism?.trim() ? [record.Organism.trim()] : null,
+        key_findings: record.Notes?.trim() || null,
+        effect_on_function: record.Mechanism?.trim() || null,
+        title_pmid: record.Paper_title?.trim() || null,
+        year_pmid: record.Publication_year ? parseInt(record.Publication_year) : null,
+        source_database: record.Database?.trim() || 'Reslit',
         status: 'pending',
       })
 
     if (error) {
-      errors.push(`${record.notation}: ${error.message}`)
-      console.log(`  ❌ ${record.notation}`)
+      errors.push(`${label(record)}: ${error.message}`)
+      console.log(`  ❌ ${label(record)}: ${error.message}`)
     } else {
       imported++
-      console.log(`  ✓ ${record.notation}`)
+      if (imported % 50 === 0) console.log(`  ✓ ${imported} imported...`)
     }
   }
 
-  return { imported, total: records.length, errors }
+  return { imported, total: records.length, skipped, errors }
 }
 
 // ============================================================
@@ -134,7 +148,7 @@ async function main() {
     process.exit(1)
   }
 
-  const { imported, total, errors } = await importMutations(filePath)
+  const { imported, total, skipped, errors } = await importMutations(filePath)
 
   console.log(`\n╔════════════════════════════════════════════════════════════════╗`)
   console.log(`║                    IMPORT COMPLETE ✓                         ║`)
@@ -142,6 +156,7 @@ async function main() {
 
   console.log(`\n📊 Results:`)
   console.log(`   Imported: ${imported}/${total}`)
+  if (skipped > 0) console.log(`   Skipped (empty): ${skipped}`)
   
   if (errors.length > 0) {
     console.log(`\n❌ Errors (${errors.length}):`)

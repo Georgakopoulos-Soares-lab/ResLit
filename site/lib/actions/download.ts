@@ -9,51 +9,52 @@ interface GeneEnrichment {
   commentsByGeneId: Map<string, string[]>
 }
 
-// Convert genes to CSV format using new schema columns
 function genesToCSV(genes: AMRGene[], enrichment: GeneEnrichment): string {
   const headers = [
     'Gene Name',
+    'Allele',
+    'Encodes',
+    'Source Database',
     'Resistance Mechanism Class',
+    'Mechanism',
     'Confers Resistance To',
     'Organisms Tested In',
-    'Encodes',
-    'Mechanism',
     'Validation Method',
     'Role in Paper',
-    'Country',
+    'Geographic Location',
+    'Isolation Country',
+    'Isolation Location',
     'Year',
     'PMID',
-    'Status',
-    'Validated',
-    'Validated From',
-    'Comments',
+    'Paper Title',
+    'Key Findings',
+    'Sequence Accession',
+    'Protein Accession',
+    'Notes',
   ]
 
   const rows = genes.map((gene) => {
-    const id = String(gene.id)
-    const allPmids = [...(enrichment.pmidsByGene.get(gene.gene_name) ?? [])].join('; ')
-    const validator = enrichment.validatorByGeneId.get(id) ?? ''
-    const comments = (enrichment.commentsByGeneId.get(id) ?? [])
-      .map((c) => c.replace(/"/g, '""'))
-      .join(' | ')
-    const isValidated = gene.status === 'curated'
-
     return [
       gene.gene_name,
+      gene.allele || '',
+      gene.encodes || '',
+      gene.source_database || '',
       gene.resistance_mechanism_class || '',
+      (gene.mechanism || '').replace(/"/g, '""'),
       (gene.confers_resistance_to || []).join('; '),
       (gene.organisms_tested_in || []).join('; '),
-      gene.encodes || '',
-      (gene.mechanism || '').replace(/"/g, '""'),
       (gene.validation_method || '').replace(/"/g, '""'),
       gene.role_in_paper || '',
       gene.geographic_location || '',
-      gene.year?.toString() || '',
-      allPmids,
-      'Reslit',
-      isValidated ? 'Validated' : 'No',
-      validator,
-      comments,
+      gene.isolation_country || '',
+      gene.isolation_location || '',
+      gene.year_pmid?.toString() || gene.year?.toString() || '',
+      gene.paper_pmid || '',
+      (gene.title_pmid || '').replace(/"/g, '""'),
+      (gene.key_findings || '').replace(/"/g, '""'),
+      gene.sequence_accession || '',
+      gene.protein_accession || '',
+      (gene.notes || '').replace(/"/g, '""'),
     ]
   })
 
@@ -248,23 +249,67 @@ async function fetchMutationEnrichment(
   return { pmidsByGene, validatorByMutationId, commentsByMutationId }
 }
 
+export async function downloadGenesByValidation(tier: string): Promise<{ csv: string; count: number }> {
+  const supabase = await createClient()
+  const { getValidationTiers } = await import('@/lib/actions/browse')
+  const tiers = await getValidationTiers(supabase)
+
+  const matchingGeneNames = [...tiers.entries()]
+    .filter(([, info]) => info.tier === tier)
+    .map(([name]) => name)
+
+  if (matchingGeneNames.length === 0) return { csv: '', count: 0 }
+
+  const allGenes: AMRGene[] = []
+  const NAME_BATCH = 30
+  for (let i = 0; i < matchingGeneNames.length; i += NAME_BATCH) {
+    const nameBatch = matchingGeneNames.slice(i, i + NAME_BATCH)
+    let offset = 0
+    const ROW_BATCH = 1000
+    while (true) {
+      const { data } = await supabase
+        .from('amr_genes')
+        .select('*')
+        .in('gene_name', nameBatch)
+        .order('gene_name')
+        .range(offset, offset + ROW_BATCH - 1)
+      if (!data || data.length === 0) break
+      allGenes.push(...data)
+      if (data.length < ROW_BATCH) break
+      offset += ROW_BATCH
+    }
+  }
+
+  const enrichment = await fetchGeneEnrichment(supabase, allGenes)
+  return { csv: genesToCSV(allGenes, enrichment), count: allGenes.length }
+}
+
+async function fetchAllFromTable(
+  supabase: Awaited<ReturnType<typeof createClient>>,
+  table: string,
+  orderCol: string,
+): Promise<Record<string, unknown>[]> {
+  const all: Record<string, unknown>[] = []
+  const BATCH = 1000
+  let offset = 0
+  while (true) {
+    const { data } = await supabase
+      .from(table)
+      .select('*')
+      .order(orderCol)
+      .range(offset, offset + BATCH - 1)
+    if (!data || data.length === 0) break
+    all.push(...data)
+    if (data.length < BATCH) break
+    offset += BATCH
+  }
+  return all
+}
+
 export async function downloadAllGenes(curatedOnly: boolean = false): Promise<{ csv: string; count: number }> {
   const supabase = await createClient()
 
-  let query = supabase.from('amr_genes').select('*').order('gene_name')
-
-  if (curatedOnly) {
-    query = query.eq('status', 'curated')
-  }
-
-  const { data, error } = await query
-
-  if (error) {
-    console.error('Error fetching genes for download:', error)
-    return { csv: '', count: 0 }
-  }
-
-  const genes = data || []
+  const genes = await fetchAllFromTable(supabase, 'amr_genes', 'gene_name') as unknown as AMRGene[]
   const enrichment = await fetchGeneEnrichment(supabase, genes)
 
   return {
@@ -273,23 +318,37 @@ export async function downloadAllGenes(curatedOnly: boolean = false): Promise<{ 
   }
 }
 
+export async function downloadMutationsByValidation(tier: string): Promise<{ csv: string; count: number }> {
+  const supabase = await createClient()
+  const { getMutationValidationTiers } = await import('@/lib/actions/browse')
+  const mutTiers = await getMutationValidationTiers(supabase)
+
+  const matchingIds = [...mutTiers.entries()]
+    .filter(([, info]) => info.tier === tier)
+    .map(([id]) => id)
+
+  if (matchingIds.length === 0) return { csv: '', count: 0 }
+
+  const allMutations: AMRMutation[] = []
+  const BATCH = 50
+  for (let i = 0; i < matchingIds.length; i += BATCH) {
+    const batch = matchingIds.slice(i, i + BATCH)
+    const { data } = await supabase
+      .from('amr_mutations')
+      .select('*')
+      .in('id', batch)
+      .order('nucleotide_change')
+    if (data) allMutations.push(...data)
+  }
+
+  const enrichment = await fetchMutationEnrichment(supabase, allMutations)
+  return { csv: mutationsToCSV(allMutations, enrichment), count: allMutations.length }
+}
+
 export async function downloadAllMutations(curatedOnly: boolean = false): Promise<{ csv: string; count: number }> {
   const supabase = await createClient()
 
-  let query = supabase.from('amr_mutations').select('*').order('nucleotide_change')
-
-  if (curatedOnly) {
-    query = query.eq('status', 'curated')
-  }
-
-  const { data, error } = await query
-
-  if (error) {
-    console.error('Error fetching mutations for download:', error)
-    return { csv: '', count: 0 }
-  }
-
-  const mutations = data || []
+  const mutations = await fetchAllFromTable(supabase, 'amr_mutations', 'nucleotide_change') as unknown as AMRMutation[]
   const enrichment = await fetchMutationEnrichment(supabase, mutations)
 
   return {
@@ -416,34 +475,41 @@ export async function downloadFilteredMutations(filters: BrowseFilters): Promise
 // Get download statistics
 export async function getDownloadStats(): Promise<{
   totalGenes: number
-  curatedGenes: number
   totalMutations: number
-  curatedMutations: number
+  confirmedMutations: number
+  tierCounts: { Confirmed: number; Established: number; Supported: number; Candidate: number }
 }> {
   const supabase = await createClient()
 
-  const [
-    { count: totalGenes },
-    { count: curatedGenes },
-    { count: totalMutations },
-    { count: curatedMutations },
-  ] = await Promise.all([
-    supabase.from('amr_genes').select('*', { count: 'exact', head: true }),
-    supabase
-      .from('amr_genes')
-      .select('*', { count: 'exact', head: true })
-      .eq('status', 'curated'),
+  const { getValidationTiers } = await import('@/lib/actions/browse')
+
+  const [{ count: totalMutations }, tiers] = await Promise.all([
     supabase.from('amr_mutations').select('*', { count: 'exact', head: true }),
-    supabase
-      .from('amr_mutations')
-      .select('*', { count: 'exact', head: true })
-      .eq('status', 'curated'),
+    getValidationTiers(supabase),
   ])
 
+  const tierCounts = { Confirmed: 0, Established: 0, Supported: 0, Candidate: 0 }
+  for (const info of tiers.values()) {
+    tierCounts[info.tier]++
+  }
+
+  const confirmedGeneNames = [...tiers.entries()]
+    .filter(([, info]) => info.tier === 'Confirmed')
+    .map(([name]) => name)
+
+  let confirmedMutations = 0
+  if (confirmedGeneNames.length > 0) {
+    const { count } = await supabase
+      .from('amr_mutations')
+      .select('*', { count: 'exact', head: true })
+      .in('gene_name', confirmedGeneNames)
+    confirmedMutations = count || 0
+  }
+
   return {
-    totalGenes: totalGenes || 0,
-    curatedGenes: curatedGenes || 0,
+    totalGenes: tiers.size,
     totalMutations: totalMutations || 0,
-    curatedMutations: curatedMutations || 0,
+    confirmedMutations,
+    tierCounts,
   }
 }

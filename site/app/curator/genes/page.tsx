@@ -15,7 +15,7 @@ import { EditGeneDialog } from '@/components/curator/edit-gene-dialog'
 import { HistoryDialog } from '@/components/curator/history-dialog'
 import { StatusBadge } from '@/components/browse/status-badge'
 import { browseGenes, getFilterOptions } from '@/lib/actions/browse'
-import type { AMRGene, BrowseFilters, PaginatedResult, FilterOptions } from '@/lib/types'
+import type { AMRGene, BrowseFilters, PaginatedResult, FilterOptions, ValidationTier } from '@/lib/types'
 
 export default function CuratorGenesPage() {
   const [genes, setGenes] = useState<AMRGene[]>([])
@@ -26,8 +26,13 @@ export default function CuratorGenesPage() {
   
   // Filter state
   const [search, setSearch] = useState('')
+  const [geneNameSearch, setGeneNameSearch] = useState('')
+  const [alleleSearch, setAlleleSearch] = useState('')
+  const [validationTier, setValidationTier] = useState<string>('')
   const [mechanismClass, setMechanismClass] = useState<string>('')
   const [antibiotic, setAntibiotic] = useState<string>('')
+  const [encodes, setEncodes] = useState<string>('')
+  const [sourceDatabase, setSourceDatabase] = useState<string>('')
   const [organism, setOrganism] = useState<string>('')
   const [country, setCountry] = useState<string>('')
 
@@ -46,14 +51,15 @@ export default function CuratorGenesPage() {
       setLoading(true)
       const filters: BrowseFilters = {
         search: search || undefined,
+        geneNameSearch: geneNameSearch || undefined,
+        alleleSearch: alleleSearch || undefined,
+        validationTier: (validationTier as ValidationTier) || undefined,
         mechanismClass: mechanismClass || undefined,
         antibiotic: antibiotic || undefined,
+        encodes: encodes || undefined,
         organism: organism || undefined,
         country: country || undefined,
-        yearFrom: undefined,
-        yearTo: undefined,
-        geneName: undefined,
-        curatedOnly: undefined, // Show all genes (pending and curated)
+        sourceDatabases: sourceDatabase ? [sourceDatabase] : undefined,
       }
       const result: PaginatedResult<AMRGene> = await browseGenes(filters, page)
       setGenes(result.data)
@@ -61,12 +67,17 @@ export default function CuratorGenesPage() {
       setLoading(false)
     }
     loadGenes()
-  }, [page, search, mechanismClass, antibiotic, organism, country])
+  }, [page, search, geneNameSearch, alleleSearch, validationTier, mechanismClass, antibiotic, encodes, sourceDatabase, organism, country])
 
   const handleResetFilters = () => {
     setSearch('')
+    setGeneNameSearch('')
+    setAlleleSearch('')
+    setValidationTier('')
     setMechanismClass('')
     setAntibiotic('')
+    setEncodes('')
+    setSourceDatabase('')
     setOrganism('')
     setCountry('')
     setPage(1)
@@ -110,21 +121,57 @@ export default function CuratorGenesPage() {
                 <CardTitle className="text-base">Filters</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                {/* Search */}
+                {/* Gene Name Search */}
                 <div className="space-y-2">
-                  <Label htmlFor="search" className="text-sm">Search Gene Name</Label>
+                  <Label htmlFor="geneNameSearch" className="text-sm">Gene Name</Label>
+                  <Input
+                    id="geneNameSearch"
+                    placeholder="e.g., aac(2')-IIa"
+                    value={geneNameSearch}
+                    onChange={(e) => { setGeneNameSearch(e.target.value); setPage(1) }}
+                  />
+                </div>
+
+                {/* Allele Search */}
+                <div className="space-y-2">
+                  <Label htmlFor="alleleSearch" className="text-sm">Allele</Label>
+                  <Input
+                    id="alleleSearch"
+                    placeholder="e.g., blaADC-30"
+                    value={alleleSearch}
+                    onChange={(e) => { setAlleleSearch(e.target.value); setPage(1) }}
+                  />
+                </div>
+
+                {/* Combined Search */}
+                <div className="space-y-2">
+                  <Label htmlFor="search" className="text-sm">Search All (name, allele, encodes)</Label>
                   <Input
                     id="search"
-                    placeholder="e.g., aac(2')-IIa"
+                    placeholder="Search across all fields…"
                     value={search}
-                    onChange={(e) => {
-                      setSearch(e.target.value)
-                      setPage(1)
-                    }}
+                    onChange={(e) => { setSearch(e.target.value); setPage(1) }}
                   />
                 </div>
 
                 <Separator />
+
+                {/* Validation Status */}
+                <div className="space-y-2">
+                  <Label htmlFor="validationTier" className="text-sm">Validation Status</Label>
+                  <select
+                    id="validationTier"
+                    value={validationTier}
+                    onChange={(e) => { setValidationTier(e.target.value); setPage(1) }}
+                    className="w-full px-3 py-2 rounded-md border border-input bg-background text-sm"
+                  >
+                    <option value="">All statuses</option>
+                    <option value="Confirmed">Confirmed</option>
+                    <option value="Established">Established</option>
+                    <option value="Supported">Supported</option>
+                    <option value="Candidate">Candidate</option>
+                  </select>
+                </div>
 
                 {/* Mechanism Class */}
                 <div className="space-y-2">
@@ -167,6 +214,42 @@ export default function CuratorGenesPage() {
                     ))}
                   </select>
                 </div>
+
+                {/* Encodes */}
+                {filterOptions && filterOptions.encodes.length > 0 && (
+                  <div className="space-y-2">
+                    <Label htmlFor="encodes" className="text-sm">Encodes</Label>
+                    <select
+                      id="encodes"
+                      value={encodes}
+                      onChange={(e) => { setEncodes(e.target.value); setPage(1) }}
+                      className="w-full px-3 py-2 rounded-md border border-input bg-background text-sm"
+                    >
+                      <option value="">All proteins</option>
+                      {filterOptions.encodes.map((enc) => (
+                        <option key={enc} value={enc}>{enc}</option>
+                      ))}
+                    </select>
+                  </div>
+                )}
+
+                {/* Source Database */}
+                {filterOptions && filterOptions.sourceDatabases.length > 0 && (
+                  <div className="space-y-2">
+                    <Label htmlFor="sourceDb" className="text-sm">Source Database</Label>
+                    <select
+                      id="sourceDb"
+                      value={sourceDatabase}
+                      onChange={(e) => { setSourceDatabase(e.target.value); setPage(1) }}
+                      className="w-full px-3 py-2 rounded-md border border-input bg-background text-sm"
+                    >
+                      <option value="">All databases</option>
+                      {filterOptions.sourceDatabases.map((db) => (
+                        <option key={db} value={db}>{db}</option>
+                      ))}
+                    </select>
+                  </div>
+                )}
 
                 {/* Organism */}
                 <div className="space-y-2">

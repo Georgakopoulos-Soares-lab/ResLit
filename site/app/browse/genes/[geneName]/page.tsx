@@ -5,13 +5,15 @@ import { Footer } from '@/components/footer'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { StatusBadge } from '@/components/browse/status-badge'
+import { ValidationTierBadge } from '@/components/browse/validation-tier-badge'
+import { MutationsTable } from '@/components/browse/mutations-table'
 import { CommentsSection } from '@/components/comments/comments-section'
 import { CombinedPapersSection } from '@/components/browse/combined-papers-section'
 import { HistoryDialog } from '@/components/curator/history-dialog'
-import { getGeneAllPapers, getMutationsByGeneName } from '@/lib/actions/browse'
+import { getGeneAllPapers, getMutationsByGeneName, getValidationTiers, getMutationValidationTiers } from '@/lib/actions/browse'
 import { getComments } from '@/lib/actions/comments'
 import { createClient } from '@/lib/supabase/server'
+import type { ValidationTier } from '@/lib/types'
 
 
 interface PageProps {
@@ -22,11 +24,19 @@ export default async function GeneDetailPage({ params }: PageProps) {
   const { geneName } = await params
   const decodedName = decodeURIComponent(geneName)
 
-  const [genePapers, mutations, supabase] = await Promise.all([
+  const [genePapers, rawMutations, supabase, tiers, mutTiers] = await Promise.all([
     getGeneAllPapers(decodedName),
     getMutationsByGeneName(decodedName),
     createClient(),
+    getValidationTiers(),
+    getMutationValidationTiers(),
   ])
+
+  const mutations = rawMutations.map((m) => ({
+    ...m,
+    validation_tier: (mutTiers.get(m.id)?.tier ?? 'Candidate') as ValidationTier,
+    all_databases: mutTiers.get(m.id)?.databases ?? (m.source_database ? [m.source_database] : []),
+  }))
 
   if (genePapers.length === 0 && mutations.length === 0) {
     notFound()
@@ -53,14 +63,13 @@ export default async function GeneDetailPage({ params }: PageProps) {
   const alleleEntries = Object.entries(alleleMap).map(([name, rows]) => ({
     name,
     paperCount: rows.length,
+    databases: [...new Set(rows.map((r) => r.source_database).filter(Boolean) as string[])].sort(),
     resistances: [...new Set(rows.flatMap((r) => r.confers_resistance_to ?? []))],
     organisms: [...new Set(rows.flatMap((r) => r.organisms_tested_in ?? []))],
     countries: [...new Set(rows.map((r) => r.geographic_location || r.isolation_country).filter(Boolean) as string[])],
     years: [...new Set(rows.map((r) => r.year_pmid || r.year).filter(Boolean) as number[])].sort((a, b) => a - b),
-    status: rows.reduce((best, r) => {
-      const pri: Record<string, number> = { curated: 0, pending: 1, rejected: 2 }
-      return (pri[r.status] ?? 99) < (pri[best.status] ?? 99) ? r : best
-    }).status,
+    sequenceAccession: rows.map((r) => r.sequence_accession).find(Boolean) ?? null,
+    proteinAccession: rows.map((r) => r.protein_accession).find(Boolean) ?? null,
   }))
 
   // Overview aggregates (family-level)
@@ -68,7 +77,17 @@ export default async function GeneDetailPage({ params }: PageProps) {
   const allOrganisms = [...new Set(genePapers.flatMap((r) => r.organisms_tested_in ?? []))]
   const mechanismClass = gene?.resistance_mechanism_class
     ?? genePapers.find((r) => r.resistance_mechanism_class)?.resistance_mechanism_class
-  const uniquePaperCount = new Set(genePapers.map((r) => r.paper_pmid || r.pmid).filter(Boolean)).size
+  const mechanism = gene?.mechanism ?? genePapers.find((r) => r.mechanism)?.mechanism
+  const validationMethod = gene?.validation_method ?? genePapers.find((r) => r.validation_method)?.validation_method
+  const allLocations = [...new Set(genePapers.map((r) => r.geographic_location || r.isolation_country).filter(Boolean) as string[])].sort()
+  const uniquePaperCount = new Set([
+    ...genePapers.map((r) => r.paper_pmid || r.pmid).filter(Boolean),
+    ...mutations.map((m) => m.paper_pmid).filter(Boolean),
+  ]).size
+  const allDatabases = [...new Set(genePapers.map((r) => r.source_database).filter(Boolean))].sort() as string[]
+  const validationInfo = tiers.get(decodedName)
+  const validationTier = validationInfo?.tier ?? 'Candidate'
+  const confirmationReason = validationInfo?.reason
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -175,25 +194,29 @@ export default async function GeneDetailPage({ params }: PageProps) {
                 </div>
               </a>
             </div>
-            {gene && (
-              <div className="flex flex-col items-end gap-1">
-                <div className="flex items-center gap-2 px-3.5 py-2.5 rounded-lg border border-border bg-white shadow-sm">
-                  <span className="text-xs text-muted-foreground">Curation Status</span>
-                  <StatusBadge status={gene.gene_status} />
-                </div>
-                <HistoryDialog targetType="gene" targetId={gene.id} />
+            <div className="flex flex-col items-end gap-1">
+              <div className="flex items-center gap-2 px-3.5 py-2.5 rounded-lg border border-border bg-white shadow-sm">
+                <span className="text-xs text-muted-foreground">Validation Status</span>
+                <ValidationTierBadge tier={validationTier} reason={confirmationReason} />
               </div>
-            )}
+              {gene && <HistoryDialog targetType="gene" targetId={gene.id} allTargetIds={genePapers.map((g) => g.id)} confirmationReason={confirmationReason} />}
+            </div>
           </div>
 
           {/* Overview */}
           <div className="rounded-lg border border-border/60 bg-muted/20 px-5 py-4">
             <p className="text-base font-bold text-foreground mb-3">Overview</p>
             <dl className="flex flex-wrap gap-x-10 gap-y-4">
-              {mechanismClass && (
+              {mechanism && (
                 <div>
-                  <dt className="text-sm text-muted-foreground mb-1">Resistance Mechanism</dt>
-                  <dd className="text-base font-medium capitalize">{mechanismClass.replace(/_/g, ' ')}</dd>
+                  <dt className="text-sm text-muted-foreground mb-1">Mechanism</dt>
+                  <dd className="text-base font-medium">{mechanism}</dd>
+                </div>
+              )}
+              {validationMethod && (
+                <div>
+                  <dt className="text-sm text-muted-foreground mb-1">Validation Method</dt>
+                  <dd className="text-base font-medium">{validationMethod}</dd>
                 </div>
               )}
               {allResistances.length > 0 && (
@@ -206,8 +229,16 @@ export default async function GeneDetailPage({ params }: PageProps) {
                 <div>
                   <dt className="text-sm text-muted-foreground mb-1">Organisms</dt>
                   <dd className="text-base italic">
-                    {allOrganisms.slice(0, 3).join(', ')}
-                    {allOrganisms.length > 3 && <span className="not-italic text-muted-foreground"> +{allOrganisms.length - 3} more</span>}
+                    {allOrganisms.join(', ')}
+                  </dd>
+                </div>
+              )}
+              {allLocations.length > 0 && (
+                <div>
+                  <dt className="text-sm text-muted-foreground mb-1">Geographic Location</dt>
+                  <dd className="text-base">
+                    {allLocations.slice(0, 5).join(', ')}
+                    {allLocations.length > 5 && <span className="text-muted-foreground"> +{allLocations.length - 5} more</span>}
                   </dd>
                 </div>
               )}
@@ -221,10 +252,22 @@ export default async function GeneDetailPage({ params }: PageProps) {
                 <dt className="text-sm text-muted-foreground mb-1">Papers</dt>
                 <dd className="text-base font-semibold">{uniquePaperCount}</dd>
               </div>
+              {allDatabases.length > 0 && (
+                <div>
+                  <dt className="text-sm text-muted-foreground mb-1">Databases</dt>
+                  <dd className="flex flex-wrap gap-1">
+                    {allDatabases.map((db) => (
+                      <span key={db} className="inline-flex items-center px-2 py-0.5 rounded-md text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200">
+                        {db}
+                      </span>
+                    ))}
+                  </dd>
+                </div>
+              )}
               {mutations.length > 0 && (
                 <div>
                   <dt className="text-sm text-muted-foreground mb-1">Mutations</dt>
-                  <dd className="text-base font-semibold">{mutations.length}</dd>
+                  <dd className="text-base font-semibold">{new Set(mutations.map((m) => m.protein_change ? `p:${m.gene_name}:${m.protein_change}` : `n:${m.gene_name}:${m.nucleotide_change}`)).size}</dd>
                 </div>
               )}
             </dl>
@@ -233,92 +276,12 @@ export default async function GeneDetailPage({ params }: PageProps) {
 
         {/* Main content — full width */}
         <div className="space-y-6">
-            {/* Mutations — immediately below overview */}
+            {/* Mutations — grouped table */}
             {mutations.length > 0 && (
-              <Card className="border-border/60">
-                <CardHeader>
-                  <CardTitle>
-                    Mutations
-                    <Badge variant="secondary" className="ml-2 text-sm font-normal">
-                      {mutations.length}
-                    </Badge>
-                  </CardTitle>
-                </CardHeader>
-                <CardContent className="p-0">
-                  <div className="overflow-x-auto">
-                    <table className="w-full text-sm">
-                      <thead>
-                        <tr className="border-b bg-muted/40">
-                          <th className="text-left font-semibold px-4 py-3">Nucleotide Change</th>
-                          <th className="text-left font-semibold px-4 py-3">Protein Change</th>
-                          <th className="text-left font-semibold px-4 py-3">Type</th>
-                          <th className="text-left font-semibold px-4 py-3">Effect on Function</th>
-                          <th className="text-left font-semibold px-4 py-3">Resistance To</th>
-                          <th className="text-left font-semibold px-4 py-3">Year</th>
-                          <th className="text-left font-semibold px-4 py-3">Paper</th>
-                          <th className="text-left font-semibold px-4 py-3">Status</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        {mutations.map((mutation) => (
-                          <tr key={mutation.id} className="border-b last:border-0 hover:bg-muted/30">
-                            <td className="px-4 py-3">
-                              <Link
-                                href={`/browse/mutations/${mutation.id}`}
-                                className="font-mono font-medium text-primary hover:underline"
-                              >
-                                {mutation.nucleotide_change || '-'}
-                              </Link>
-                            </td>
-                            <td className="px-4 py-3 font-mono text-sm">{mutation.protein_change || '-'}</td>
-                            <td className="px-4 py-3 capitalize text-sm">{mutation.mutation_type || '-'}</td>
-                            <td className="px-4 py-3 max-w-[200px] text-sm" title={mutation.effect_on_function || undefined}>
-                              <span className="line-clamp-2">{mutation.effect_on_function || '-'}</span>
-                            </td>
-                            <td className="px-4 py-3">
-                              {mutation.confers_resistance_to && mutation.confers_resistance_to.length > 0 ? (
-                                <div className="flex flex-wrap gap-1">
-                                  {mutation.confers_resistance_to.slice(0, 2).map((ab) => (
-                                    <span key={ab} className="text-xs bg-indigo-50 text-indigo-700 border border-indigo-200 px-2 py-0.5 rounded">
-                                      {ab}
-                                    </span>
-                                  ))}
-                                  {mutation.confers_resistance_to.length > 2 && (
-                                    <span className="text-xs text-muted-foreground">+{mutation.confers_resistance_to.length - 2}</span>
-                                  )}
-                                </div>
-                              ) : '-'}
-                            </td>
-                            <td className="px-4 py-3 text-sm text-muted-foreground whitespace-nowrap">
-                              {mutation.year_pmid ?? '-'}
-                            </td>
-                            <td className="px-4 py-3 max-w-[200px]">
-                              {mutation.paper_pmid ? (
-                                <div className="space-y-0.5">
-                                  {mutation.title_pmid && (
-                                    <p className="text-xs leading-tight line-clamp-2" title={mutation.title_pmid}>
-                                      {mutation.title_pmid}
-                                    </p>
-                                  )}
-                                  <a
-                                    href={`https://pubmed.ncbi.nlm.nih.gov/${mutation.paper_pmid}`}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-xs text-primary hover:underline"
-                                  >
-                                    PMID: {mutation.paper_pmid}
-                                  </a>
-                                </div>
-                              ) : '-'}
-                            </td>
-                            <td className="px-4 py-3"><StatusBadge status={mutation.status} /></td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-                </CardContent>
-              </Card>
+              <div>
+                <h2 className="text-xl font-bold mb-4">Mutations</h2>
+                <MutationsTable mutations={mutations} hideGene />
+              </div>
             )}
 
             {/* Allele Variants — shown when multiple alleles are present */}
@@ -338,12 +301,14 @@ export default async function GeneDetailPage({ params }: PageProps) {
                       <thead>
                         <tr className="border-b bg-muted/40">
                           <th className="text-left font-semibold px-4 py-3">Allele</th>
+                          <th className="text-left font-semibold px-4 py-3">Database</th>
                           <th className="text-left font-semibold px-4 py-3">Papers</th>
                           <th className="text-left font-semibold px-4 py-3">Drug Classes</th>
                           <th className="text-left font-semibold px-4 py-3">Organisms</th>
                           <th className="text-left font-semibold px-4 py-3">Countries</th>
                           <th className="text-left font-semibold px-4 py-3">Years</th>
-                          <th className="text-left font-semibold px-4 py-3">Status</th>
+                          <th className="text-left font-semibold px-4 py-3">Sequence Accession</th>
+                          <th className="text-left font-semibold px-4 py-3">Protein Accession</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -351,6 +316,17 @@ export default async function GeneDetailPage({ params }: PageProps) {
                           <tr key={allele.name} className="border-b last:border-0 hover:bg-muted/30">
                             <td className="px-4 py-3 font-medium font-mono">
                               {allele.name}
+                            </td>
+                            <td className="px-4 py-3">
+                              {allele.databases.length > 0 ? (
+                                <div className="flex flex-wrap gap-1">
+                                  {allele.databases.map((db) => (
+                                    <span key={db} className="inline-flex items-center px-2 py-0.5 rounded-md text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200">
+                                      {db}
+                                    </span>
+                                  ))}
+                                </div>
+                              ) : '-'}
                             </td>
                             <td className="px-4 py-3 text-sm">
                               {allele.paperCount}
@@ -377,8 +353,29 @@ export default async function GeneDetailPage({ params }: PageProps) {
                             <td className="px-4 py-3 text-muted-foreground whitespace-nowrap">
                               {allele.years.join(', ') || '-'}
                             </td>
-                            <td className="px-4 py-3">
-                              <StatusBadge status={allele.status} />
+                            <td className="px-4 py-3 text-sm font-mono">
+                              {allele.sequenceAccession ? (
+                                <a
+                                  href={`https://www.ncbi.nlm.nih.gov/nuccore/${allele.sequenceAccession}`}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-primary hover:underline"
+                                >
+                                  {allele.sequenceAccession}
+                                </a>
+                              ) : '-'}
+                            </td>
+                            <td className="px-4 py-3 text-sm font-mono">
+                              {allele.proteinAccession ? (
+                                <a
+                                  href={`https://www.ncbi.nlm.nih.gov/protein/${allele.proteinAccession}`}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="text-primary hover:underline"
+                                >
+                                  {allele.proteinAccession}
+                                </a>
+                              ) : '-'}
                             </td>
                           </tr>
                         ))}

@@ -12,12 +12,14 @@ import {
   DialogTrigger,
 } from '@/components/ui/dialog'
 import { getCurationHistory } from '@/lib/actions/curator'
-import type { CurationHistory } from '@/lib/types'
+import type { CurationHistory, ConfirmationReason } from '@/lib/types'
 
 interface HistoryDialogProps {
   targetType: 'gene' | 'mutation'
   targetId: string
+  allTargetIds?: string[]
   compact?: boolean
+  confirmationReason?: ConfirmationReason
 }
 
 function toLabel(key: string) {
@@ -37,7 +39,8 @@ const actionStyle: Record<string, string> = {
   create:  'bg-gray-100 text-gray-800 border-gray-200',
 }
 
-export function HistoryDialog({ targetType, targetId, compact }: HistoryDialogProps) {
+export function HistoryDialog({ targetType, targetId, allTargetIds, compact, confirmationReason }: HistoryDialogProps) {
+  const hasCrossDb = confirmationReason === 'cross-database' || confirmationReason === 'both'
   const [open, setOpen] = useState(false)
   const [loading, setLoading] = useState(false)
   const [history, setHistory] = useState<CurationHistory[] | null>(null)
@@ -46,7 +49,7 @@ export function HistoryDialog({ targetType, targetId, compact }: HistoryDialogPr
     setOpen(isOpen)
     if (isOpen && history === null) {
       setLoading(true)
-      const data = await getCurationHistory(targetType, targetId)
+      const data = await getCurationHistory(targetType, targetId, allTargetIds)
       setHistory(data)
       setLoading(false)
     }
@@ -76,12 +79,25 @@ export function HistoryDialog({ targetType, targetId, compact }: HistoryDialogPr
           <DialogTitle>Curation History</DialogTitle>
         </DialogHeader>
         <div className="overflow-y-auto max-h-[70vh] space-y-3 pr-1">
+          {hasCrossDb && (
+            <div className="border border-emerald-200 rounded-md p-3 space-y-2 bg-emerald-50/50">
+              <div className="flex items-center gap-2 flex-wrap">
+                <Badge variant="outline" className="text-xs bg-emerald-100 text-emerald-800 border-emerald-200">
+                  auto-confirmed
+                </Badge>
+                <span className="text-sm font-medium">Automated Validation</span>
+              </div>
+              <p className="text-xs text-muted-foreground">
+                This {targetType} was automatically confirmed because it is reported in 2 or more databases.
+              </p>
+            </div>
+          )}
           {loading ? (
             <div className="flex items-center justify-center py-8">
               <Spinner className="h-5 w-5" />
             </div>
           ) : !history || history.length === 0 ? (
-            <p className="text-sm text-muted-foreground py-4">No history yet.</p>
+            !hasCrossDb && <p className="text-sm text-muted-foreground py-4">No history yet.</p>
           ) : (
             history.map((entry) => (
               <div key={entry.id} className="border border-border/60 rounded-md p-3 space-y-2">
@@ -91,12 +107,22 @@ export function HistoryDialog({ targetType, targetId, compact }: HistoryDialogPr
                     {entry.action}
                   </Badge>
                   <span className="text-sm font-medium">
-                    {entry.curator?.name ?? entry.curator?.email ?? 'Unknown'}
+                    {entry.curator_name ?? entry.curator?.name ?? entry.curator_email ?? entry.curator?.email ?? 'Unknown'}
                   </span>
+                  {(entry.curator_affiliation || entry.curator?.affiliation) && (
+                    <span className="text-xs text-muted-foreground">({entry.curator_affiliation ?? entry.curator?.affiliation})</span>
+                  )}
                   <span className="text-xs text-muted-foreground ml-auto whitespace-nowrap">
                     {new Date(entry.created_at).toLocaleString()}
                   </span>
                 </div>
+
+                {/* Allele info (stored in changes.allele) */}
+                {entry.changes && (entry.changes as Record<string, unknown>).allele && (
+                  <p className="text-xs text-muted-foreground">
+                    Allele: <span className="font-medium text-foreground">{String((entry.changes as Record<string, unknown>).allele)}</span>
+                  </p>
+                )}
 
                 {/* Status change */}
                 {entry.previous_status !== entry.new_status && (

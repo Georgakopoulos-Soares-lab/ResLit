@@ -54,7 +54,7 @@ export function DatabaseFilter({ available, selected, onChange }: DatabaseFilter
               onChange={selectAll}
               className="w-4 h-4 cursor-pointer"
             />
-            <label htmlFor="select-all" className="text-sm font-medium cursor-pointer flex-1">
+            <label htmlFor="select-all" className="text-sm cursor-pointer flex-1">
               All Databases
             </label>
           </div>
