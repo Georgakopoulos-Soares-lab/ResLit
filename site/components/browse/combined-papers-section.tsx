@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { GenePaperTabs } from './gene-paper-tabs'
-import { MutationPaperEntry } from './mutation-paper-groups'
+import { GroupedMutationPapers } from './mutation-paper-groups'
 import type { AMRGene, AMRMutation } from '@/lib/types'
 
 interface CombinedPapersSectionProps {
@@ -30,13 +30,21 @@ export function CombinedPapersSection({ genePapers, mutations }: CombinedPapersS
       ? genePapers
       : genePapers.filter((p) => (p.allele || p.gene_name) === selectedAllele)
 
-  // Mutation filter buttons
-  const hasMultipleMutations = mutationsWithPapers.length > 1
+  // Deduplicate mutation filter buttons by identity (protein_change or nucleotide_change)
+  const mutationIdentities = [...new Map(
+    mutationsWithPapers.map((m) => {
+      const label = m.protein_change || m.nucleotide_change || m.mutation_name || m.id
+      return [label, { label, id: m.id }]
+    })
+  ).values()]
+  const hasMultipleMutations = mutationIdentities.length > 1
 
   const filteredMutations =
     selectedMutation === 'all'
       ? mutationsWithPapers
-      : mutationsWithPapers.filter((m) => m.id === selectedMutation)
+      : mutationsWithPapers.filter((m) =>
+          (m.protein_change || m.nucleotide_change || m.mutation_name || m.id) === selectedMutation
+        )
 
   const totalPapers = new Set([
     ...genePapers.map((p) => p.paper_pmid || p.pmid).filter(Boolean),
@@ -130,26 +138,22 @@ export function CombinedPapersSection({ genePapers, mutations }: CombinedPapersS
                 >
                   All mutations
                 </button>
-                {mutationsWithPapers.map((m) => (
+                {mutationIdentities.map((mi) => (
                   <button
-                    key={m.id}
-                    onClick={() => setSelectedMutation(m.id)}
+                    key={mi.label}
+                    onClick={() => setSelectedMutation(mi.label)}
                     className={`px-3 py-1 text-sm font-mono rounded-full border transition-colors ${
-                      selectedMutation === m.id
+                      selectedMutation === mi.label
                         ? 'bg-primary text-primary-foreground border-primary'
                         : 'border-border hover:bg-muted'
                     }`}
                   >
-                    {m.nucleotide_change || m.protein_change || m.mutation_name || m.id}
+                    {mi.label}
                   </button>
                 ))}
               </div>
             )}
-            <div className="space-y-6">
-              {filteredMutations.map((mutation, idx) => (
-                <MutationPaperEntry key={mutation.id} mutation={mutation} entryNumber={idx + 1} />
-              ))}
-            </div>
+            <GroupedMutationPapers mutations={filteredMutations} />
           </div>
         )}
 

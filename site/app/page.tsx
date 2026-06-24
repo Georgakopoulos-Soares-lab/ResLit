@@ -4,12 +4,12 @@ import { Footer } from '@/components/footer'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { createClient } from '@/lib/supabase/server'
+import { getValidationTiers, getGroupedMutationTierCounts } from '@/lib/actions/browse'
 
 async function getStats() {
   const supabase = await createClient()
-  
-  const [genesResult, mutationsResult, curatorsResult] = await Promise.all([
-    supabase.from('amr_genes').select('id', { count: 'exact', head: true }),
+
+  const [mutationsResult, curatorsResult] = await Promise.all([
     supabase.from('amr_mutations').select('id', { count: 'exact', head: true }),
     supabase.from('curators').select('id', { count: 'exact', head: true }),
   ])
@@ -25,19 +25,23 @@ async function getStats() {
   ])
   const totalPapers = allPmids.size
 
-  // Count distinct validated gene families, and curated mutations
-  const [curatedGenesData, curatedMutationsResult] = await Promise.all([
-    supabase.from('amr_genes').select('gene_name').eq('gene_status', 'curated'),
-    supabase.from('amr_mutations').select('id', { count: 'exact', head: true }).eq('status', 'curated'),
+  // Compute validation tiers for genes and grouped mutations
+  const [tiers, mutGrouped] = await Promise.all([
+    getValidationTiers(supabase),
+    getGroupedMutationTierCounts(supabase),
   ])
+  const tierCounts = { Confirmed: 0, Established: 0, Supported: 0, Candidate: 0 }
+  for (const info of tiers.values()) {
+    tierCounts[info.tier]++
+  }
 
   return {
-    totalGenes: genesResult.count || 0,
-    totalMutations: mutationsResult.count || 0,
+    totalGenes: tiers.size,
+    totalMutations: mutGrouped.total,
     totalCurators: curatorsResult.count || 0,
     totalPapers,
-    curatedGenes: new Set(curatedGenesData.data?.map((r: { gene_name: string }) => r.gene_name) ?? []).size,
-    curatedMutations: curatedMutationsResult.count || 0,
+    tierCounts,
+    mutTierCounts: mutGrouped.tierCounts,
   }
 }
 
@@ -58,8 +62,7 @@ export default async function HomePage() {
                 <span className="block text-primary">Gene & Mutation Database</span>
               </h1>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed text-pretty">
-                A comprehensive, curated database of AMR genes and mutations extracted from scientific literature. 
-                Browse thousands of entries with direct PubMed links, filtered by antibiotic, organism, location, and year.
+                The AMR literature is vast and growing rapidly. ResLit brings it together: an automatically curated database of resistance genes and mutations extracted from the primary literature using a large language model pipeline, cross-referenced against CARD, ResFinder, and NCBI. Each entry is evidence-graded and linked to its source publication, so researchers can quickly assess what's well-established versus newly reported.
               </p>
               <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
                 <Link href="/browse/genes">
@@ -101,18 +104,21 @@ export default async function HomePage() {
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
               <Card className="border-border/60">
                 <CardHeader className="pb-2">
-                  <CardDescription>Total Genes</CardDescription>
+                  <CardDescription>Unique Genes</CardDescription>
                   <CardTitle className="text-3xl font-bold text-primary">
                     {stats.totalGenes.toLocaleString()}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground">
-                    {stats.curatedGenes.toLocaleString()} curated
-                  </p>
+                  <div className="flex flex-wrap gap-x-3 gap-y-1 text-xs">
+                    <span className="text-emerald-700">{stats.tierCounts.Confirmed} Confirmed</span>
+                    <span className="text-blue-700">{stats.tierCounts.Established} Established</span>
+                    <span className="text-amber-700">{stats.tierCounts.Supported} Supported</span>
+                    <span className="text-slate-500">{stats.tierCounts.Candidate} Candidate</span>
+                  </div>
                 </CardContent>
               </Card>
-              
+
               <Card className="border-border/60">
                 <CardHeader className="pb-2">
                   <CardDescription>Total Mutations</CardDescription>
@@ -121,9 +127,12 @@ export default async function HomePage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground">
-                    {stats.curatedMutations.toLocaleString()} curated
-                  </p>
+                  <div className="flex flex-wrap gap-x-3 gap-y-1 text-xs">
+                    <span className="text-emerald-700">{stats.mutTierCounts.Confirmed} Confirmed</span>
+                    <span className="text-blue-700">{stats.mutTierCounts.Established} Established</span>
+                    <span className="text-amber-700">{stats.mutTierCounts.Supported} Supported</span>
+                    <span className="text-slate-500">{stats.mutTierCounts.Candidate} Candidate</span>
+                  </div>
                 </CardContent>
               </Card>
               

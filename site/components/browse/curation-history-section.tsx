@@ -1,10 +1,12 @@
 import { getCurationHistory } from '@/lib/actions/curator'
 import { Badge } from '@/components/ui/badge'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import type { ConfirmationReason } from '@/lib/types'
 
 interface Props {
   targetType: 'gene' | 'mutation'
   targetId: string
+  confirmationReason?: ConfirmationReason
 }
 
 function toLabel(key: string) {
@@ -22,12 +24,16 @@ const actionStyle: Record<string, string> = {
   reject:  'bg-red-100 text-red-800 border-red-200',
   edit:    'bg-blue-100 text-blue-800 border-blue-200',
   create:  'bg-gray-100 text-gray-800 border-gray-200',
+  'auto-confirmed': 'bg-emerald-100 text-emerald-800 border-emerald-200',
 }
 
-export async function CurationHistorySection({ targetType, targetId }: Props) {
+export async function CurationHistorySection({ targetType, targetId, confirmationReason }: Props) {
   const history = await getCurationHistory(targetType, targetId)
 
-  if (history.length === 0) return null
+  const hasManualApproval = history.some((e) => e.action === 'approve')
+  const hasCrossDb = confirmationReason === 'cross-database' || confirmationReason === 'both'
+
+  if (history.length === 0 && !confirmationReason) return null
 
   return (
     <Card className="border-border/60">
@@ -37,10 +43,25 @@ export async function CurationHistorySection({ targetType, targetId }: Props) {
             <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
           Curation History
-          <span className="text-xs font-normal text-muted-foreground">({history.length} {history.length === 1 ? 'entry' : 'entries'})</span>
+          <span className="text-xs font-normal text-muted-foreground">({history.length + (hasCrossDb ? 1 : 0)} {(history.length + (hasCrossDb ? 1 : 0)) === 1 ? 'entry' : 'entries'})</span>
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-3">
+        {hasCrossDb && (
+          <div className="border border-emerald-200 rounded-md p-3 space-y-2 bg-emerald-50/50">
+            <div className="flex items-center gap-2 flex-wrap">
+              <Badge variant="outline" className="text-xs bg-emerald-100 text-emerald-800 border-emerald-200">
+                auto-confirmed
+              </Badge>
+              <span className="text-sm font-medium">
+                Automated Validation
+              </span>
+            </div>
+            <p className="text-xs text-muted-foreground">
+              This {targetType} was automatically confirmed because it is reported in 2 or more databases.
+            </p>
+          </div>
+        )}
         {history.map((entry) => (
           <div key={entry.id} className="border border-border/60 rounded-md p-3 space-y-2">
             <div className="flex items-center gap-2 flex-wrap">

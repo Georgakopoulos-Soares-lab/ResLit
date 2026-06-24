@@ -96,10 +96,10 @@ export async function updateGeneStatus(
     return { success: false, error: 'Not authenticated as curator' }
   }
 
-  // Get current gene status
+  // Get current gene status and allele
   const { data: gene } = await supabase
     .from('amr_genes')
-    .select('status, gene_name')
+    .select('status, gene_name, allele')
     .eq('id', Number(geneId))
     .single()
 
@@ -107,11 +107,12 @@ export async function updateGeneStatus(
     return { success: false, error: 'Gene not found' }
   }
 
-  // Update gene status and curator info
+  // Update this row's status and curator info
   const { error: updateError } = await supabase
     .from('amr_genes')
-    .update({ 
+    .update({
       status,
+      gene_status: status,
       validated_by: curator.id,
       curator_name: curator.name,
       curator_email: curator.email,
@@ -120,12 +121,20 @@ export async function updateGeneStatus(
     })
     .eq('id', Number(geneId))
 
+  // When approving, propagate gene_status to all alleles of the same gene
+  if (!updateError && status === 'curated' && gene.gene_name) {
+    await supabase
+      .from('amr_genes')
+      .update({ gene_status: 'curated' })
+      .eq('gene_name', gene.gene_name)
+  }
+
   if (updateError) {
     return { success: false, error: updateError.message }
   }
 
   // Log curation history
-  await supabase.from('curation_history').insert({
+  const { error: historyError } = await supabase.from('curation_history').insert({
     target_type: 'gene',
     target_id: String(geneId),
     curator_id: curator.id,
@@ -135,7 +144,11 @@ export async function updateGeneStatus(
     action: status === 'curated' ? 'approve' : 'reject',
     previous_status: gene.status,
     new_status: status,
+    changes: { allele: gene.allele || gene.gene_name, gene_name: gene.gene_name },
   })
+  if (historyError) {
+    console.error('Failed to log curation history:', historyError.message)
+  }
 
   // Add note if provided
   if (note) {
@@ -399,16 +412,23 @@ export async function getCurationNotes(
 
 export async function getCurationHistory(
   targetType: 'gene' | 'mutation',
-  targetId: string
+  targetId: string,
+  allTargetIds?: string[]
 ): Promise<CurationHistory[]> {
   const supabase = await createClient()
 
-  const { data } = await supabase
+  let query = supabase
     .from('curation_history')
     .select('*, curator:curators(*)')
     .eq('target_type', targetType)
-    .eq('target_id', targetId)
-    .order('created_at', { ascending: false })
+
+  if (allTargetIds && allTargetIds.length > 0) {
+    query = query.in('target_id', allTargetIds)
+  } else {
+    query = query.eq('target_id', targetId)
+  }
+
+  const { data } = await query.order('created_at', { ascending: false })
 
   return data || []
 }

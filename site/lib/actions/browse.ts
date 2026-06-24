@@ -1,9 +1,205 @@
 'use server'
 
 import { createClient } from '@/lib/supabase/server'
-import type { AMRGene, AMRMutation, FilterOptions, BrowseFilters, PaginatedResult, GeneWithMutationCount, CurationStatus, PaperEntry } from '@/lib/types'
+import type { AMRGene, AMRMutation, FilterOptions, BrowseFilters, PaginatedResult, GeneWithMutationCount, CurationStatus, PaperEntry, ValidationTier, ValidationInfo, ConfirmationReason } from '@/lib/types'
 
-const PAGE_SIZE = 20
+const PAGE_SIZE = 10
+
+const EXTERNAL_DATABASES = ['Card Database', 'ResFinder Database', 'Reference Gene Catalog', 'ResFinder', 'CARD', 'Card']
+
+export async function getValidationTiers(supabaseClient?: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
+  const supabase = supabaseClient ?? await createClient()
+
+  // Supabase caps at 1000 rows per request; paginate to get all
+  const allRows: { gene_name: string; source_database: string; paper_pmid: string; gene_status: string }[] = []
+  const batchSize = 1000
+  let offset = 0
+  while (true) {
+    const { data } = await supabase
+      .from('amr_genes')
+      .select('gene_name, source_database, paper_pmid, gene_status')
+      .range(offset, offset + batchSize - 1)
+    if (!data || data.length === 0) break
+    allRows.push(...data)
+    if (data.length < batchSize) break
+    offset += batchSize
+  }
+
+  const rows = allRows
+  if (rows.length === 0) return new Map()
+
+  const geneInfo = new Map<string, {
+    databases: Set<string>
+    hasCurated: boolean
+    reslitPmids: Set<string>
+  }>()
+
+  for (const r of rows) {
+    if (!r.gene_name) continue
+    let info = geneInfo.get(r.gene_name)
+    if (!info) {
+      info = { databases: new Set(), hasCurated: false, reslitPmids: new Set() }
+      geneInfo.set(r.gene_name, info)
+    }
+    if (r.source_database) info.databases.add(r.source_database)
+    if (r.source_database === 'Reslit' && r.paper_pmid) info.reslitPmids.add(r.paper_pmid)
+    if (r.gene_status === 'curated') info.hasCurated = true
+  }
+
+  const tiers = new Map<string, ValidationInfo>()
+  for (const [gene, info] of geneInfo) {
+    let tier: ValidationTier
+    let reason: ConfirmationReason | undefined
+    const hasReslit = info.databases.has('Reslit')
+    const hasExternal = [...info.databases].some((db) => EXTERNAL_DATABASES.includes(db))
+    const crossDb = info.databases.size >= 2
+    if (crossDb || info.hasCurated) {
+      tier = 'Confirmed'
+      if (crossDb && info.hasCurated) reason = 'both'
+      else if (crossDb) reason = 'cross-database'
+      else reason = 'curator-verified'
+    } else if (hasExternal && !hasReslit) {
+      tier = 'Established'
+    } else if (hasReslit && info.reslitPmids.size >= 3) {
+      tier = 'Supported'
+    } else {
+      tier = 'Candidate'
+    }
+    tiers.set(gene, { tier, reason })
+  }
+  return tiers
+}
+
+export async function getMutationValidationTiers(supabaseClient?: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
+  const supabase = supabaseClient ?? await createClient()
+
+  const allRows: { id: string; gene_name: string; protein_change: string | null; nucleotide_change: string | null; source_database: string; paper_pmid: string | null; status: string }[] = []
+  const batchSize = 1000
+  let offset = 0
+  while (true) {
+    const { data } = await supabase
+      .from('amr_mutations')
+      .select('id, gene_name, protein_change, nucleotide_change, source_database, paper_pmid, status')
+      .range(offset, offset + batchSize - 1)
+    if (!data || data.length === 0) break
+    allRows.push(...data)
+    if (data.length < batchSize) break
+    offset += batchSize
+  }
+
+  if (allRows.length === 0) return new Map()
+
+  type MutInfo = { databases: Set<string>; reslitPmids: Set<string>; hasCurated: boolean }
+
+  const byKey = new Map<string, MutInfo>()
+
+  function getOrCreate(key: string): MutInfo {
+    let info = byKey.get(key)
+    if (!info) {
+      info = { databases: new Set(), reslitPmids: new Set(), hasCurated: false }
+      byKey.set(key, info)
+    }
+    return info
+  }
+
+  for (const r of allRows) {
+    if (!r.gene_name) continue
+    const keys: string[] = []
+    if (r.protein_change) keys.push(`${r.gene_name}::p::${r.protein_change}`)
+    if (r.nucleotide_change) keys.push(`${r.gene_name}::n::${r.nucleotide_change}`)
+    if (keys.length === 0) keys.push(`${r.gene_name}::id::${r.id}`)
+
+    for (const key of keys) {
+      const info = getOrCreate(key)
+      if (r.source_database) info.databases.add(r.source_database)
+      if (r.source_database === 'Reslit' && r.paper_pmid) info.reslitPmids.add(r.paper_pmid)
+      if (r.status === 'curated') info.hasCurated = true
+    }
+  }
+
+  const tiers = new Map<string, ValidationInfo>()
+  for (const r of allRows) {
+    const proteinKey = r.protein_change ? `${r.gene_name}::p::${r.protein_change}` : null
+    const nucleotideKey = r.nucleotide_change ? `${r.gene_name}::n::${r.nucleotide_change}` : null
+    const fallbackKey = (!proteinKey && !nucleotideKey) ? `${r.gene_name}::id::${r.id}` : null
+
+    const pInfo = proteinKey ? byKey.get(proteinKey) : null
+    const nInfo = nucleotideKey ? byKey.get(nucleotideKey) : null
+    const fInfo = fallbackKey ? byKey.get(fallbackKey) : null
+
+    const databases = new Set([
+      ...(pInfo?.databases ?? []),
+      ...(nInfo?.databases ?? []),
+      ...(fInfo?.databases ?? []),
+    ])
+    const reslitPmids = new Set([
+      ...(pInfo?.reslitPmids ?? []),
+      ...(nInfo?.reslitPmids ?? []),
+      ...(fInfo?.reslitPmids ?? []),
+    ])
+    const hasCurated = (pInfo?.hasCurated ?? false) || (nInfo?.hasCurated ?? false) || (fInfo?.hasCurated ?? false)
+
+    let tier: ValidationTier
+    let reason: ConfirmationReason | undefined
+    const crossDb = databases.size >= 2
+    const hasReslit = databases.has('Reslit')
+    const hasExternal = [...databases].some((db) => EXTERNAL_DATABASES.includes(db))
+
+    if (crossDb || hasCurated) {
+      tier = 'Confirmed'
+      if (crossDb && hasCurated) reason = 'both'
+      else if (crossDb) reason = 'cross-database'
+      else reason = 'curator-verified'
+    } else if (hasExternal && !hasReslit) {
+      tier = 'Established'
+    } else if (hasReslit && reslitPmids.size >= 3) {
+      tier = 'Supported'
+    } else {
+      tier = 'Candidate'
+    }
+
+    tiers.set(r.id, { tier, reason, databases: [...databases].sort() })
+  }
+
+  return tiers
+}
+
+export async function getGroupedMutationTierCounts(supabaseClient?: Awaited<ReturnType<typeof createClient>>): Promise<{ total: number; tierCounts: Record<string, number> }> {
+  const supabase = supabaseClient ?? await createClient()
+  const mutTiers = await getMutationValidationTiers(supabase)
+
+  const allRows: { id: string; gene_name: string; protein_change: string | null; nucleotide_change: string | null }[] = []
+  const batchSize = 1000
+  let offset = 0
+  while (true) {
+    const { data } = await supabase
+      .from('amr_mutations')
+      .select('id, gene_name, protein_change, nucleotide_change')
+      .range(offset, offset + batchSize - 1)
+    if (!data || data.length === 0) break
+    allRows.push(...data)
+    if (data.length < batchSize) break
+    offset += batchSize
+  }
+
+  const tierPri: Record<string, number> = { Confirmed: 0, Established: 1, Supported: 2, Candidate: 3 }
+  const groups = new Map<string, ValidationTier>()
+  for (const r of allRows) {
+    const key = mutationGroupKey(r)
+    const tier = mutTiers.get(r.id)?.tier ?? 'Candidate'
+    const existing = groups.get(key)
+    if (!existing || (tierPri[tier] ?? 99) < (tierPri[existing] ?? 99)) {
+      groups.set(key, tier)
+    }
+  }
+
+  const tierCounts: Record<string, number> = { Confirmed: 0, Established: 0, Supported: 0, Candidate: 0 }
+  for (const tier of groups.values()) {
+    tierCounts[tier]++
+  }
+
+  return { total: groups.size, tierCounts }
+}
 
 export async function getFilterOptions(): Promise<FilterOptions> {
   const supabase = await createClient()
@@ -24,9 +220,10 @@ export async function getFilterOptions(): Promise<FilterOptions> {
     { data: mutationSourceDatabases },
   ] = await Promise.all([
     supabase
-      .from('distinct_mechanism_classes')
-      .select('resistance_mechanism_class')
-      .order('resistance_mechanism_class'),
+      .from('amr_genes')
+      .select('mechanism')
+      .not('mechanism', 'is', null)
+      .order('mechanism'),
     supabase
       .from('distinct_antibiotics')
       .select('antibiotic')
@@ -86,7 +283,7 @@ export async function getFilterOptions(): Promise<FilterOptions> {
       .order('source_database'),
   ])
 
-  const uniqueMechanismClasses = [...new Set(mechanismClasses?.map((r) => r.resistance_mechanism_class) || [])].filter(Boolean).sort() as string[]
+  const uniqueMechanismClasses = [...new Set(mechanismClasses?.map((r) => r.mechanism) || [])].filter(Boolean).sort() as string[]
   const uniqueAntibiotics = [...new Set(antibiotics?.map((r) => r.antibiotic) || [])].filter(Boolean).sort() as string[]
   const uniqueEncodes = [...new Set(encodesData?.map((r) => r.encodes) || [])].filter(Boolean).sort() as string[]
   const uniqueOrganisms = [...new Set(organisms?.map((r) => r.organism) || [])].filter(Boolean).sort() as string[]
@@ -99,6 +296,7 @@ export async function getFilterOptions(): Promise<FilterOptions> {
   const uniqueMutationTypes = [...new Set((mutationTypeData || []).map((r) => r.mutation_type).filter(Boolean))].sort() as string[]
   const allSourceDatabases = [
     ...new Set([
+      'Reslit',
       ...(geneSourceDatabases?.map((r) => r.source_database).filter(Boolean) || []),
       ...(mutationSourceDatabases?.map((r) => r.source_database).filter(Boolean) || []),
     ]),
@@ -126,86 +324,143 @@ export async function browseGenes(
 ): Promise<PaginatedResult<AMRGene>> {
   const supabase = await createClient()
 
-  let query = supabase
-    .from('amr_genes')
-    .select('*', { count: 'exact' })
+  const tiers = await getValidationTiers(supabase)
 
-  // Apply filters
-  if (filters.search) {
-    query = query.or(
-      `gene_name.ilike.%${filters.search}%,mechanism.ilike.%${filters.search}%,encodes.ilike.%${filters.search}%`
-    )
-  }
-
-  if (filters.mechanismClass) {
-    query = query.eq('resistance_mechanism_class', filters.mechanismClass)
-  }
-
-  if (filters.antibiotic) {
-    query = query.contains('confers_resistance_to', [filters.antibiotic])
-  }
-
-  if (filters.encodes) {
-    query = query.eq('encodes', filters.encodes)
-  }
-
-  if (filters.organism) {
-    query = query.contains('organisms_tested_in', [filters.organism])
-  }
-
-  if (filters.country) {
-    if (filters.country === '__missing__') {
-      query = query.is('geographic_location', null)
-    } else {
-      query = query.eq('geographic_location', filters.country)
+  // If filtering by validation tier, resolve matching gene names first
+  if (filters.validationTier) {
+    const matchingGenes = [...tiers.entries()]
+      .filter(([, info]) => info.tier === filters.validationTier)
+      .map(([g]) => g)
+    if (matchingGenes.length === 0) {
+      return { data: [], total: 0, page, pageSize: PAGE_SIZE, totalPages: 0 }
     }
+    // Supabase .in() has a practical limit; chunk if needed
   }
 
-  if (filters.yearFrom) {
-    query = query.gte('year', filters.yearFrom)
+  function buildQuery() {
+    let q = supabase
+      .from('amr_genes')
+      .select('*')
+
+    if (filters.search) {
+      q = q.or(
+        `gene_name.ilike.%${filters.search}%,allele.ilike.%${filters.search}%,mechanism.ilike.%${filters.search}%,encodes.ilike.%${filters.search}%`
+      )
+    }
+
+    if (filters.geneNameSearch) {
+      q = q.ilike('gene_name', `%${filters.geneNameSearch}%`)
+    }
+
+    if (filters.alleleSearch) {
+      q = q.ilike('allele', `%${filters.alleleSearch}%`)
+    }
+
+    if (filters.pmid) {
+      q = q.eq('paper_pmid', filters.pmid)
+    }
+
+    if (filters.validationTier) {
+      const matchingGenes = [...tiers.entries()]
+        .filter(([, info]) => info.tier === filters.validationTier)
+        .map(([g]) => g)
+      q = q.in('gene_name', matchingGenes)
+    }
+
+    if (filters.mechanismClass) {
+      q = q.eq('mechanism', filters.mechanismClass)
+    }
+
+    if (filters.antibiotic) {
+      q = q.contains('confers_resistance_to', [filters.antibiotic])
+    }
+
+    if (filters.encodes) {
+      q = q.eq('encodes', filters.encodes)
+    }
+
+    if (filters.organism) {
+      q = q.contains('organisms_tested_in', [filters.organism])
+    }
+
+    if (filters.country) {
+      if (filters.country === '__missing__') {
+        q = q.is('geographic_location', null)
+      } else {
+        q = q.eq('geographic_location', filters.country)
+      }
+    }
+
+    if (filters.yearFrom) {
+      q = q.gte('year', filters.yearFrom)
+    }
+
+    if (filters.yearTo) {
+      q = q.lte('year', filters.yearTo)
+    }
+
+    if (filters.sourceDatabases && filters.sourceDatabases.length > 0) {
+      const orConditions = filters.sourceDatabases
+        .map((db) => `source_database.eq.${db}`)
+        .join(',')
+      q = q.or(orConditions)
+    }
+
+    if (filters.curatedOnly) {
+      q = q.eq('gene_status', 'curated')
+    }
+
+    return q.order('gene_name', { ascending: true })
   }
 
-  if (filters.yearTo) {
-    query = query.lte('year', filters.yearTo)
+  // Paginate through Supabase's 1000-row limit
+  const rows: AMRGene[] = []
+  let offset = 0
+  const BATCH = 1000
+  while (true) {
+    const { data, error } = await buildQuery().range(offset, offset + BATCH - 1)
+    if (error) {
+      console.error('Error fetching genes:', error.message, error.details)
+      return { data: [], total: 0, page, pageSize: PAGE_SIZE, totalPages: 0 }
+    }
+    if (!data || data.length === 0) break
+    rows.push(...data)
+    if (data.length < BATCH) break
+    offset += BATCH
   }
 
-  // Apply source database multi-select filter
-  if (filters.sourceDatabases && filters.sourceDatabases.length > 0) {
-    // For multi-select, we need to apply an OR condition for each selected database
-    const orConditions = filters.sourceDatabases
-      .map((db) => `source_database.eq.${db}`)
-      .join(',')
-    query = query.or(orConditions)
+  // Group by gene_name, keeping all rows per gene together
+  const grouped = new Map<string, AMRGene[]>()
+  for (const row of rows) {
+    const key = row.gene_name
+    if (!grouped.has(key)) grouped.set(key, [])
+    grouped.get(key)!.push({
+      ...row,
+      validation_tier: (tiers.get(row.gene_name)?.tier ?? 'Candidate') as ValidationTier,
+    })
   }
 
-  // Apply curated only filter (use gene_status for gene-level validation)
-  if (filters.curatedOnly) {
-    query = query.eq('gene_status', 'curated')
-  }
-
-  // Pagination
-  const from = (page - 1) * PAGE_SIZE
-  const to = from + PAGE_SIZE - 1
-
-  query = query.order('gene_name', { ascending: true }).range(from, to)
-
-  const { data, error, count } = await query
-
-  if (error) {
-    console.error('Error fetching genes:', error.message, error.details)
-    return { data: [], total: 0, page, pageSize: PAGE_SIZE, totalPages: 0 }
-  }
-
-  const total = count || 0
+  const geneNames = [...grouped.keys()].sort()
+  const total = geneNames.length
   const totalPages = Math.ceil(total / PAGE_SIZE)
+  const pagedNames = geneNames.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE)
+
+  // Return flattened rows for the paged gene names (table groups them for display)
+  const enriched = pagedNames.flatMap((name) => grouped.get(name)!)
 
   return {
-    data: data || [],
+    data: enriched,
     total,
     page,
     pageSize: PAGE_SIZE,
     totalPages,
   }
+}
+
+function mutationGroupKey(m: { gene_name: string; protein_change: string | null; nucleotide_change: string | null; id?: string }): string {
+  if (m.protein_change) return `${m.gene_name}::p::${m.protein_change}`
+  if (m.nucleotide_change) return `${m.gene_name}::n::${m.nucleotide_change}`
+  return `${m.gene_name}::id::${m.id ?? ''}`
 }
 
 export async function browseMutations(
@@ -214,70 +469,99 @@ export async function browseMutations(
 ): Promise<PaginatedResult<AMRMutation>> {
   const supabase = await createClient()
 
-  let query = supabase
-    .from('amr_mutations')
-    .select('*', { count: 'exact' })
+  const mutTiers = await getMutationValidationTiers(supabase)
 
-  // Apply filters
-  if (filters.search) {
-    query = query.or(
-      `nucleotide_change.ilike.%${filters.search}%,gene_name.ilike.%${filters.search}%,protein_change.ilike.%${filters.search}%,effect_on_function.ilike.%${filters.search}%,paper_pmid.ilike.%${filters.search}%,title_pmid.ilike.%${filters.search}%`
-    )
-  }
+  // Build the base query with all filters (no pagination yet)
+  function buildQuery(selectClause: string) {
+    let q = supabase.from('amr_mutations').select(selectClause)
 
-  if (filters.geneName) {
-    query = query.eq('gene_name', filters.geneName)
-  }
-
-  if (filters.antibiotic) {
-    query = query.contains('confers_resistance_to', [filters.antibiotic])
-  }
-
-  if (filters.mutationType) {
-    query = query.eq('mutation_type', filters.mutationType)
-  }
-
-  if (filters.country) {
-    if (filters.country === '__missing__') {
-      query = query.is('country', null)
-    } else {
-      query = query.eq('country', filters.country)
+    if (filters.pmid) q = q.eq('paper_pmid', filters.pmid)
+    if (filters.search) {
+      q = q.or(
+        `nucleotide_change.ilike.%${filters.search}%,gene_name.ilike.%${filters.search}%,protein_change.ilike.%${filters.search}%,effect_on_function.ilike.%${filters.search}%,paper_pmid.ilike.%${filters.search}%,title_pmid.ilike.%${filters.search}%`
+      )
     }
+    if (filters.geneName) q = q.eq('gene_name', filters.geneName)
+    if (filters.antibiotic) q = q.contains('confers_resistance_to', [filters.antibiotic])
+    if (filters.mutationType) q = q.eq('mutation_type', filters.mutationType)
+    if (filters.country) {
+      if (filters.country === '__missing__') q = q.is('country', null)
+      else q = q.eq('country', filters.country)
+    }
+    if (filters.sourceDatabases && filters.sourceDatabases.length > 0) {
+      q = q.or(filters.sourceDatabases.map((db) => `source_database.eq.${db}`).join(','))
+    }
+    if (filters.status && filters.status !== 'all') q = q.eq('status', filters.status)
+    else if (filters.curatedOnly) q = q.eq('status', 'curated')
+
+    return q
   }
 
-  // Apply source database multi-select filter
-  if (filters.sourceDatabases && filters.sourceDatabases.length > 0) {
-    // For multi-select, we need to apply an OR condition for each selected database
-    const orConditions = filters.sourceDatabases
-      .map((db) => `source_database.eq.${db}`)
-      .join(',')
-    query = query.or(orConditions)
+  // Fetch all matching mutation identities for grouping
+  const allIdentities: { id: string; gene_name: string; protein_change: string | null; nucleotide_change: string | null }[] = []
+  const batchSize = 1000
+  let offset = 0
+  while (true) {
+    const q = buildQuery('id, gene_name, protein_change, nucleotide_change')
+      .order('gene_name', { ascending: true })
+      .range(offset, offset + batchSize - 1)
+    const { data } = await q
+    if (!data || data.length === 0) break
+    allIdentities.push(...data)
+    if (data.length < batchSize) break
+    offset += batchSize
   }
 
-  if (filters.status && filters.status !== 'all') {
-    query = query.eq('status', filters.status)
-  } else if (filters.curatedOnly) {
-    query = query.eq('status', 'curated')
+  // Filter by validation tier if needed
+  let filtered = allIdentities
+  if (filters.validationTier) {
+    filtered = allIdentities.filter((m) => (mutTiers.get(m.id)?.tier ?? 'Candidate') === filters.validationTier)
   }
 
-  // Pagination
-  const from = (page - 1) * PAGE_SIZE
-  const to = from + PAGE_SIZE - 1
-
-  query = query.order('mutation_name', { ascending: true }).range(from, to)
-
-  const { data, error, count } = await query
-
-  if (error) {
-    console.error('Error fetching mutations:', error.message, error.details)
-    return { data: [], total: 0, page, pageSize: PAGE_SIZE, totalPages: 0 }
+  // Group by mutation identity (gene + protein_change, or gene + nucleotide_change)
+  const groups = new Map<string, string[]>()
+  for (const m of filtered) {
+    const key = mutationGroupKey(m)
+    if (!groups.has(key)) groups.set(key, [])
+    groups.get(key)!.push(m.id)
   }
 
-  const total = count || 0
+  const groupKeys = [...groups.keys()].sort()
+  const total = groupKeys.length
   const totalPages = Math.ceil(total / PAGE_SIZE)
+  const pagedKeys = groupKeys.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE)
+
+  if (pagedKeys.length === 0) {
+    return { data: [], total, page, pageSize: PAGE_SIZE, totalPages }
+  }
+
+  // Collect all IDs for the current page's groups
+  const pagedIds = pagedKeys.flatMap((k) => groups.get(k)!)
+
+  // Fetch full mutation data for these IDs
+  const allData: AMRMutation[] = []
+  const ID_BATCH = 50
+  for (let i = 0; i < pagedIds.length; i += ID_BATCH) {
+    const batch = pagedIds.slice(i, i + ID_BATCH)
+    const { data } = await supabase.from('amr_mutations').select('*').in('id', batch)
+    if (data) allData.push(...data)
+  }
+
+  const enriched = allData.map((m) => ({
+    ...m,
+    validation_tier: (mutTiers.get(m.id)?.tier ?? 'Candidate') as ValidationTier,
+    all_databases: mutTiers.get(m.id)?.databases ?? [m.source_database].filter(Boolean),
+  }))
+
+  // Sort to maintain stable order within the page
+  enriched.sort((a, b) => {
+    const ka = mutationGroupKey(a)
+    const kb = mutationGroupKey(b)
+    return ka.localeCompare(kb)
+  })
 
   return {
-    data: data || [],
+    data: enriched,
     total,
     page,
     pageSize: PAGE_SIZE,
@@ -388,13 +672,15 @@ export async function browseGenesWithMutations(
 ): Promise<PaginatedResult<GeneWithMutationCount>> {
   const supabase = await createClient()
 
+  const tiers = await getValidationTiers(supabase)
+
   // mechanismClass lives on amr_genes — resolve to gene names first
   let allowedGeneNames: string[] | null = null
   if (filters.mechanismClass) {
     const { data: geneRows } = await supabase
       .from('amr_genes')
       .select('gene_name')
-      .eq('resistance_mechanism_class', filters.mechanismClass)
+      .eq('mechanism', filters.mechanismClass)
     allowedGeneNames = [...new Set((geneRows || []).map((r) => r.gene_name).filter(Boolean))]
   }
 
@@ -403,6 +689,18 @@ export async function browseGenesWithMutations(
     .select('gene_name, status, confers_resistance_to, organisms_observed_in, country, mutation_type')
     .not('gene_name', 'is', null)
 
+  if (filters.pmid) {
+    query = query.eq('paper_pmid', filters.pmid)
+  }
+  if (filters.validationTier) {
+    const tierGenes = [...tiers.entries()]
+      .filter(([, info]) => info.tier === filters.validationTier)
+      .map(([g]) => g)
+    if (tierGenes.length === 0) {
+      return { data: [], total: 0, page, pageSize: PAGE_SIZE, totalPages: 0 }
+    }
+    query = query.in('gene_name', tierGenes)
+  }
   if (filters.search) {
     query = query.ilike('gene_name', `%${filters.search}%`)
   }
@@ -481,6 +779,7 @@ export async function browseGenesWithMutations(
       )) as CurationStatus,
       mutation_types: [...g.mutationTypes].sort(),
       resistances: [...g.resistances].sort(),
+      validation_tier: (tiers.get(gene_name)?.tier ?? 'Candidate') as ValidationTier,
     }))
     .sort((a, b) => a.gene_name.localeCompare(b.gene_name))
 

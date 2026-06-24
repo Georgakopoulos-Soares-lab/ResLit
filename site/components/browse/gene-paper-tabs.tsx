@@ -45,10 +45,20 @@ function GenePaperContent({ paper, paperNumber }: { paper: AMRGene; paperNumber:
           <div className="flex items-center justify-center h-8 w-8 rounded-full bg-white font-bold text-sm shrink-0 mt-0.5">
             {paperNumber}
           </div>
-          <div className="space-y-1">
-            {paper.title_pmid ? (
-              <p className="font-semibold text-sm leading-snug">{paper.title_pmid}</p>
-            ) : null}
+          <div className="space-y-1 flex-1">
+            <div className="flex items-center gap-2">
+              {paper.title_pmid ? (
+                <p className="font-semibold text-sm leading-snug">{paper.title_pmid}</p>
+              ) : null}
+              {paper.status === 'curated' && (
+                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-100 text-emerald-800 border border-emerald-300 shrink-0">
+                  <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                  Curated
+                </span>
+              )}
+            </div>
             <a
               href={`https://pubmed.ncbi.nlm.nih.gov/${paper.paper_pmid}`}
               target="_blank"
@@ -70,112 +80,113 @@ function GenePaperContent({ paper, paperNumber }: { paper: AMRGene; paperNumber:
         )}
       </div>
 
-      {/* Gene Information Card */}
-      <div className="space-y-4">
-        <div className="border rounded-lg p-4">
-          <h3 className="text-sm font-semibold mb-4">Gene Information</h3>
-          <dl className="grid gap-4 sm:grid-cols-2">
+      {/* All gene details in a single card */}
+      <div className="border rounded-lg p-4">
+        <h3 className="text-sm font-semibold mb-4">Gene Information</h3>
+        <dl className="grid gap-4 sm:grid-cols-2">
+          <div>
+            <dt className="text-sm text-muted-foreground">Gene Name</dt>
+            <dd className="font-medium font-mono">{paper.gene_name}</dd>
+          </div>
+          {paper.allele && (
             <div>
-              <dt className="text-sm text-muted-foreground">Gene Name</dt>
-              <dd className="font-medium font-mono">{paper.gene_name}</dd>
+              <dt className="text-sm text-muted-foreground">Allele</dt>
+              <dd className="font-medium font-mono">{paper.allele}</dd>
             </div>
-            {paper.allele && (
-              <div>
-                <dt className="text-sm text-muted-foreground">Allele</dt>
-                <dd className="font-medium font-mono">{paper.allele}</dd>
-              </div>
-            )}
-            {paper.encodes && (
-              <div className="sm:col-span-2">
-                <dt className="text-sm text-muted-foreground">Encodes</dt>
-                <dd className="font-medium">{paper.encodes}</dd>
-              </div>
-            )}
-            {paper.resistance_mechanism_class && (
-              <div>
-                <dt className="text-sm text-muted-foreground">Resistance Mechanism Class</dt>
-                <dd>
-                  <Badge variant="secondary" className="capitalize">
-                    {paper.resistance_mechanism_class.replace(/_/g, ' ')}
+          )}
+          {paper.encodes && (
+            <div className="sm:col-span-2">
+              <dt className="text-sm text-muted-foreground">Encodes</dt>
+              <dd className="font-medium">{paper.encodes}</dd>
+            </div>
+          )}
+          {paper.source_database && (
+            <div>
+              <dt className="text-sm text-muted-foreground">Source Database</dt>
+              <dd>
+                <span className="inline-flex items-center px-2 py-0.5 rounded-md text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200">
+                  {paper.source_database}
+                </span>
+              </dd>
+            </div>
+          )}
+          {paper.mechanism && (
+            <div className="sm:col-span-2">
+              <dt className="text-sm text-muted-foreground">Mechanism</dt>
+              <dd className="font-medium">{paper.mechanism}</dd>
+            </div>
+          )}
+          {paper.confers_resistance_to && paper.confers_resistance_to.length > 0 && (
+            <div className="sm:col-span-2">
+              <dt className="text-sm text-muted-foreground mb-1">Confers Resistance To</dt>
+              <dd className="flex flex-wrap gap-1">
+                {paper.confers_resistance_to.map((antibiotic, i) => (
+                  <Badge key={i} variant="outline">
+                    {antibiotic}
                   </Badge>
-                </dd>
-              </div>
-            )}
-            {paper.role_in_paper && (
-              <div>
-                <dt className="text-sm text-muted-foreground">Role in Paper</dt>
-                <dd className="font-medium capitalize">
-                  {paper.role_in_paper.replace(/_/g, ' ')}
-                </dd>
-              </div>
-            )}
-            {paper.validation_method && (
-              <div className="sm:col-span-2">
-                <dt className="text-sm text-muted-foreground">Validation Method</dt>
-                <dd className="font-medium">{paper.validation_method}</dd>
-              </div>
-            )}
-          </dl>
-        </div>
-
-        {/* Mechanism Card */}
-        {paper.mechanism && (
-          <div className="border rounded-lg p-4">
-            <h3 className="text-sm font-semibold mb-3">Mechanism</h3>
-            <p className="text-sm text-muted-foreground">{paper.mechanism}</p>
-          </div>
-        )}
-
-        {/* Antibiotic Resistance Card */}
-        {paper.confers_resistance_to && paper.confers_resistance_to.length > 0 && (
-          <div className="border rounded-lg p-4">
-            <h3 className="text-sm font-semibold mb-3">Confers Resistance To</h3>
-            <div className="flex flex-wrap gap-2">
-              {paper.confers_resistance_to.map((antibiotic, i) => (
-                <Badge key={i} variant="outline">
-                  {antibiotic}
-                </Badge>
-              ))}
+                ))}
+              </dd>
             </div>
-          </div>
-        )}
-
-        {/* Organisms Tested Card */}
-        {paper.organisms_tested_in && paper.organisms_tested_in.length > 0 && (
-          <div className="border rounded-lg p-4">
-            <h3 className="text-sm font-semibold mb-3">Organisms Tested In</h3>
-            <div className="space-y-2">
-              {paper.organisms_tested_in.map((organism, i) => (
-                <div key={i} className="text-sm text-muted-foreground">
-                  • {organism}
-                </div>
-              ))}
+          )}
+          {paper.organisms_tested_in && paper.organisms_tested_in.length > 0 && (
+            <div className="sm:col-span-2">
+              <dt className="text-sm text-muted-foreground mb-1">Organisms Tested In</dt>
+              <dd>
+                {paper.organisms_tested_in.map((organism, i) => (
+                  <div key={i} className="text-sm">• {organism}</div>
+                ))}
+              </dd>
             </div>
-          </div>
-        )}
-
-        {/* Isolation Details Card */}
-        {(paper.geographic_location || paper.isolation_country || paper.isolation_location) && (
-          <div className="border rounded-lg p-4">
-            <h3 className="text-sm font-semibold mb-3">Isolation Details</h3>
-            <div className="space-y-2">
-              {(paper.geographic_location || paper.isolation_country) && (
-                <div>
-                  <dt className="text-sm text-muted-foreground">Country</dt>
-                  <dd className="text-sm font-medium">
-                    {paper.geographic_location || paper.isolation_country}
-                  </dd>
-                </div>
-              )}
-              {paper.isolation_location && (
-                <div>
-                  <dt className="text-sm text-muted-foreground">Location</dt>
-                  <dd className="text-sm font-medium">{paper.isolation_location}</dd>
-                </div>
-              )}
+          )}
+          {(paper.geographic_location || paper.isolation_country) && (
+            <div>
+              <dt className="text-sm text-muted-foreground">Geographic Location</dt>
+              <dd className="font-medium">{paper.geographic_location || paper.isolation_country}</dd>
             </div>
-          </div>
-        )}
+          )}
+          {paper.validation_method && (
+            <div className="sm:col-span-2">
+              <dt className="text-sm text-muted-foreground">Validation Method</dt>
+              <dd className="font-medium">{paper.validation_method}</dd>
+            </div>
+          )}
+          {paper.sequence_accession && (
+            <div>
+              <dt className="text-sm text-muted-foreground">Sequence Accession</dt>
+              <dd className="font-medium font-mono">
+                <a
+                  href={`https://www.ncbi.nlm.nih.gov/nuccore/${paper.sequence_accession}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  {paper.sequence_accession}
+                </a>
+              </dd>
+            </div>
+          )}
+          {paper.protein_accession && (
+            <div>
+              <dt className="text-sm text-muted-foreground">Protein Accession</dt>
+              <dd className="font-medium font-mono">
+                <a
+                  href={`https://www.ncbi.nlm.nih.gov/protein/${paper.protein_accession}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline"
+                >
+                  {paper.protein_accession}
+                </a>
+              </dd>
+            </div>
+          )}
+          {paper.notes && (
+            <div className="sm:col-span-2">
+              <dt className="text-sm text-muted-foreground">Notes</dt>
+              <dd className="font-medium">{paper.notes}</dd>
+            </div>
+          )}
+        </dl>
       </div>
     </>
   )

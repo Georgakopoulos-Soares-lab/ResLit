@@ -15,7 +15,7 @@ import { EditMutationDialog } from '@/components/curator/edit-mutation-dialog'
 import { HistoryDialog } from '@/components/curator/history-dialog'
 import { StatusBadge } from '@/components/browse/status-badge'
 import { browseMutations, getFilterOptions } from '@/lib/actions/browse'
-import type { AMRMutation, BrowseFilters, PaginatedResult, FilterOptions, CurationStatus } from '@/lib/types'
+import type { AMRMutation, BrowseFilters, PaginatedResult, FilterOptions, ValidationTier } from '@/lib/types'
 
 export default function CuratorMutationsPage() {
   const [mutations, setMutations] = useState<AMRMutation[]>([])
@@ -27,10 +27,11 @@ export default function CuratorMutationsPage() {
 
   // Filter state
   const [search, setSearch] = useState('')
-  const [status, setStatus] = useState<string>('')
+  const [validationTier, setValidationTier] = useState<string>('')
   const [antibiotic, setAntibiotic] = useState<string>('')
   const [mutationType, setMutationType] = useState<string>('')
   const [geneName, setGeneName] = useState<string>('')
+  const [sourceDatabase, setSourceDatabase] = useState<string>('')
   const [country, setCountry] = useState<string>('')
 
   useEffect(() => {
@@ -42,11 +43,12 @@ export default function CuratorMutationsPage() {
       setLoading(true)
       const filters: BrowseFilters = {
         search: search || undefined,
-        status: (status as CurationStatus | 'all') || undefined,
+        validationTier: (validationTier as ValidationTier) || undefined,
         antibiotic: antibiotic || undefined,
         mutationType: mutationType || undefined,
         geneName: geneName || undefined,
         country: country || undefined,
+        sourceDatabases: sourceDatabase ? [sourceDatabase] : undefined,
         curatedOnly: false,
       }
       const result: PaginatedResult<AMRMutation> = await browseMutations(filters, page)
@@ -56,14 +58,15 @@ export default function CuratorMutationsPage() {
       setLoading(false)
     }
     load()
-  }, [page, search, status, antibiotic, mutationType, geneName, country])
+  }, [page, search, validationTier, antibiotic, mutationType, geneName, sourceDatabase, country])
 
   const handleReset = () => {
     setSearch('')
-    setStatus('')
+    setValidationTier('')
     setAntibiotic('')
     setMutationType('')
     setGeneName('')
+    setSourceDatabase('')
     setCountry('')
     setPage(1)
   }
@@ -114,19 +117,20 @@ export default function CuratorMutationsPage() {
 
                 <Separator />
 
-                {/* Status */}
+                {/* Validation Status */}
                 <div className="space-y-2">
-                  <Label htmlFor="status" className="text-sm">Status</Label>
+                  <Label htmlFor="validationTier" className="text-sm">Validation Status</Label>
                   <select
-                    id="status"
-                    value={status}
-                    onChange={(e) => { setStatus(e.target.value); setPage(1) }}
+                    id="validationTier"
+                    value={validationTier}
+                    onChange={(e) => { setValidationTier(e.target.value); setPage(1) }}
                     className="w-full px-3 py-2 rounded-md border border-input bg-background text-sm"
                   >
                     <option value="">All statuses</option>
-                    <option value="pending">Pending</option>
-                    <option value="curated">Curated</option>
-                    <option value="rejected">Rejected</option>
+                    <option value="Confirmed">Confirmed</option>
+                    <option value="Established">Established</option>
+                    <option value="Supported">Supported</option>
+                    <option value="Candidate">Candidate</option>
                   </select>
                 </div>
 
@@ -177,6 +181,24 @@ export default function CuratorMutationsPage() {
                     ))}
                   </select>
                 </div>
+
+                {/* Source Database */}
+                {filterOptions && filterOptions.sourceDatabases.length > 0 && (
+                  <div className="space-y-2">
+                    <Label htmlFor="sourceDb" className="text-sm">Source Database</Label>
+                    <select
+                      id="sourceDb"
+                      value={sourceDatabase}
+                      onChange={(e) => { setSourceDatabase(e.target.value); setPage(1) }}
+                      className="w-full px-3 py-2 rounded-md border border-input bg-background text-sm"
+                    >
+                      <option value="">All databases</option>
+                      {filterOptions.sourceDatabases.map((db) => (
+                        <option key={db} value={db}>{db}</option>
+                      ))}
+                    </select>
+                  </div>
+                )}
 
                 {/* Country */}
                 <div className="space-y-2">

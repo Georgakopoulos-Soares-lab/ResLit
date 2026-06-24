@@ -1,5 +1,6 @@
 'use client'
 
+import { useState } from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
 import {
   Pagination,
@@ -24,7 +25,9 @@ export function BrowsePagination({
   totalPages,
   totalItems 
 }: BrowsePaginationProps) {
+  const router = useRouter()
   const searchParams = useSearchParams()
+  const [goToValue, setGoToValue] = useState('')
 
   const createPageUrl = (page: number) => {
     const params = new URLSearchParams(searchParams.toString())
@@ -80,41 +83,66 @@ export function BrowsePagination({
       <p className="text-sm text-muted-foreground">
         Page {currentPage} of {totalPages} ({totalItems.toLocaleString()} results)
       </p>
-      
-      <Pagination>
-        <PaginationContent>
-          <PaginationItem>
-            <PaginationPrevious 
-              href={createPageUrl(Math.max(1, currentPage - 1))}
-              aria-disabled={currentPage === 1}
-              className={currentPage === 1 ? 'pointer-events-none opacity-50' : ''}
-            />
-          </PaginationItem>
-          
-          {getVisiblePages().map((page, index) => (
-            <PaginationItem key={index}>
-              {page === 'ellipsis' ? (
-                <PaginationEllipsis />
-              ) : (
-                <PaginationLink
-                  href={createPageUrl(page)}
-                  isActive={page === currentPage}
-                >
-                  {page}
-                </PaginationLink>
-              )}
+
+      <div className="flex items-center gap-4">
+        <Pagination>
+          <PaginationContent>
+            <PaginationItem>
+              <PaginationPrevious
+                href={createPageUrl(Math.max(1, currentPage - 1))}
+                aria-disabled={currentPage === 1}
+                className={currentPage === 1 ? 'pointer-events-none opacity-50' : ''}
+              />
             </PaginationItem>
-          ))}
-          
-          <PaginationItem>
-            <PaginationNext 
-              href={createPageUrl(Math.min(totalPages, currentPage + 1))}
-              aria-disabled={currentPage === totalPages}
-              className={currentPage === totalPages ? 'pointer-events-none opacity-50' : ''}
-            />
-          </PaginationItem>
-        </PaginationContent>
-      </Pagination>
+
+            {getVisiblePages().map((page, index) => (
+              <PaginationItem key={index}>
+                {page === 'ellipsis' ? (
+                  <PaginationEllipsis />
+                ) : (
+                  <PaginationLink
+                    href={createPageUrl(page)}
+                    isActive={page === currentPage}
+                  >
+                    {page}
+                  </PaginationLink>
+                )}
+              </PaginationItem>
+            ))}
+
+            <PaginationItem>
+              <PaginationNext
+                href={createPageUrl(Math.min(totalPages, currentPage + 1))}
+                aria-disabled={currentPage === totalPages}
+                className={currentPage === totalPages ? 'pointer-events-none opacity-50' : ''}
+              />
+            </PaginationItem>
+          </PaginationContent>
+        </Pagination>
+
+        <form
+          className="flex items-center gap-1.5"
+          onSubmit={(e) => {
+            e.preventDefault()
+            const page = parseInt(goToValue)
+            if (page >= 1 && page <= totalPages) {
+              router.push(createPageUrl(page))
+              setGoToValue('')
+            }
+          }}
+        >
+          <label htmlFor="go-to-page" className="text-xs text-muted-foreground whitespace-nowrap">Go to</label>
+          <input
+            id="go-to-page"
+            type="text"
+            inputMode="numeric"
+            value={goToValue}
+            onChange={(e) => setGoToValue(e.target.value.replace(/\D/g, ''))}
+            placeholder="#"
+            className="w-12 h-8 rounded-md border border-input bg-background px-2 text-sm text-center focus:outline-none focus:ring-2 focus:ring-ring"
+          />
+        </form>
+      </div>
     </div>
   )
 }

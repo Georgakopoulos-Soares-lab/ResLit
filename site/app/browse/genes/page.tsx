@@ -20,8 +20,9 @@ interface PageProps {
     country?: string
     yearFrom?: string
     yearTo?: string
-    curatedOnly?: string
     sourceDatabases?: string
+    pmid?: string
+    validationTier?: string
     page?: string
   }>
 }
@@ -49,8 +50,9 @@ export default async function BrowseGenesPage({ searchParams }: PageProps) {
     country: params.country,
     yearFrom: params.yearFrom ? parseInt(params.yearFrom) : undefined,
     yearTo: params.yearTo ? parseInt(params.yearTo) : undefined,
-    curatedOnly: params.curatedOnly === 'true',
     sourceDatabases: params.sourceDatabases ? params.sourceDatabases.split(',').filter(Boolean) : undefined,
+    pmid: params.pmid,
+    validationTier: params.validationTier as any,
   }
 
   const page = params.page ? parseInt(params.page) : 1
