@@ -27,8 +27,8 @@ async function getStats() {
 
   // Compute validation tiers for genes and grouped mutations
   const [tiers, mutGrouped] = await Promise.all([
-    getValidationTiers(),
-    getGroupedMutationTierCounts(),
+    getValidationTiers(supabase),
+    getGroupedMutationTierCounts(supabase),
   ])
   const tierCounts = { Confirmed: 0, Established: 0, Supported: 0, Candidate: 0 }
   for (const info of tiers.values()) {

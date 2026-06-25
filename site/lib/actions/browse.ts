@@ -1,26 +1,170 @@
 'use server'
 
 import { createClient } from '@/lib/supabase/server'
-import { getCachedValidationTiers, getCachedMutationValidationTiers, getCachedFilterOptions } from '@/lib/browse-cache'
+import { getCachedFilterOptions } from '@/lib/browse-cache'
 import type { AMRGene, AMRMutation, FilterOptions, BrowseFilters, PaginatedResult, GeneWithMutationCount, CurationStatus, PaperEntry, ValidationTier, ValidationInfo, ConfirmationReason } from '@/lib/types'
 
 const PAGE_SIZE = 10
 
 const EXTERNAL_DATABASES = ['Card Database', 'ResFinder Database', 'Reference Gene Catalog', 'ResFinder', 'CARD', 'Card']
 
-export async function getValidationTiers(): Promise<Map<string, ValidationInfo>> {
-  const cached = await getCachedValidationTiers()
-  return new Map(Object.entries(cached))
+export async function getValidationTiers(supabaseClient?: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
+  const supabase = supabaseClient ?? await createClient()
+
+  const allRows: { gene_name: string; source_database: string; paper_pmid: string; gene_status: string }[] = []
+  const batchSize = 1000
+  let offset = 0
+  while (true) {
+    const { data } = await supabase
+      .from('amr_genes')
+      .select('gene_name, source_database, paper_pmid, gene_status')
+      .range(offset, offset + batchSize - 1)
+    if (!data || data.length === 0) break
+    allRows.push(...data)
+    if (data.length < batchSize) break
+    offset += batchSize
+  }
+
+  if (allRows.length === 0) return new Map()
+
+  const geneInfo = new Map<string, {
+    databases: Set<string>
+    hasCurated: boolean
+    reslitPmids: Set<string>
+  }>()
+
+  for (const r of allRows) {
+    if (!r.gene_name) continue
+    let info = geneInfo.get(r.gene_name)
+    if (!info) {
+      info = { databases: new Set(), hasCurated: false, reslitPmids: new Set() }
+      geneInfo.set(r.gene_name, info)
+    }
+    if (r.source_database) info.databases.add(r.source_database)
+    if (r.source_database === 'Reslit' && r.paper_pmid) info.reslitPmids.add(r.paper_pmid)
+    if (r.gene_status === 'curated') info.hasCurated = true
+  }
+
+  const tiers = new Map<string, ValidationInfo>()
+  for (const [gene, info] of geneInfo) {
+    let tier: ValidationTier
+    let reason: ConfirmationReason | undefined
+    const hasReslit = info.databases.has('Reslit')
+    const hasExternal = [...info.databases].some((db) => EXTERNAL_DATABASES.includes(db))
+    const crossDb = info.databases.size >= 2
+    if (crossDb || info.hasCurated) {
+      tier = 'Confirmed'
+      if (crossDb && info.hasCurated) reason = 'both'
+      else if (crossDb) reason = 'cross-database'
+      else reason = 'curator-verified'
+    } else if (hasExternal && !hasReslit) {
+      tier = 'Established'
+    } else if (hasReslit && info.reslitPmids.size >= 3) {
+      tier = 'Supported'
+    } else {
+      tier = 'Candidate'
+    }
+    tiers.set(gene, { tier, reason })
+  }
+  return tiers
 }
 
-export async function getMutationValidationTiers(): Promise<Map<string, ValidationInfo>> {
-  const cached = await getCachedMutationValidationTiers()
-  return new Map(Object.entries(cached))
+export async function getMutationValidationTiers(supabaseClient?: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
+  const supabase = supabaseClient ?? await createClient()
+
+  const allRows: { id: string; gene_name: string; protein_change: string | null; nucleotide_change: string | null; source_database: string; paper_pmid: string | null; status: string }[] = []
+  const batchSize = 1000
+  let offset = 0
+  while (true) {
+    const { data } = await supabase
+      .from('amr_mutations')
+      .select('id, gene_name, protein_change, nucleotide_change, source_database, paper_pmid, status')
+      .range(offset, offset + batchSize - 1)
+    if (!data || data.length === 0) break
+    allRows.push(...data)
+    if (data.length < batchSize) break
+    offset += batchSize
+  }
+
+  if (allRows.length === 0) return new Map()
+
+  type MutInfo = { databases: Set<string>; reslitPmids: Set<string>; hasCurated: boolean }
+  const byKey = new Map<string, MutInfo>()
+
+  function getOrCreate(key: string): MutInfo {
+    let info = byKey.get(key)
+    if (!info) {
+      info = { databases: new Set(), reslitPmids: new Set(), hasCurated: false }
+      byKey.set(key, info)
+    }
+    return info
+  }
+
+  for (const r of allRows) {
+    if (!r.gene_name) continue
+    const keys: string[] = []
+    if (r.protein_change) keys.push(`${r.gene_name}::p::${r.protein_change}`)
+    if (r.nucleotide_change) keys.push(`${r.gene_name}::n::${r.nucleotide_change}`)
+    if (keys.length === 0) keys.push(`${r.gene_name}::id::${r.id}`)
+
+    for (const key of keys) {
+      const info = getOrCreate(key)
+      if (r.source_database) info.databases.add(r.source_database)
+      if (r.source_database === 'Reslit' && r.paper_pmid) info.reslitPmids.add(r.paper_pmid)
+      if (r.status === 'curated') info.hasCurated = true
+    }
+  }
+
+  const tiers = new Map<string, ValidationInfo>()
+  for (const r of allRows) {
+    const proteinKey = r.protein_change ? `${r.gene_name}::p::${r.protein_change}` : null
+    const nucleotideKey = r.nucleotide_change ? `${r.gene_name}::n::${r.nucleotide_change}` : null
+    const fallbackKey = (!proteinKey && !nucleotideKey) ? `${r.gene_name}::id::${r.id}` : null
+
+    const pInfo = proteinKey ? byKey.get(proteinKey) : null
+    const nInfo = nucleotideKey ? byKey.get(nucleotideKey) : null
+    const fInfo = fallbackKey ? byKey.get(fallbackKey) : null
+
+    const databases = new Set([
+      ...(pInfo?.databases ?? []),
+      ...(nInfo?.databases ?? []),
+      ...(fInfo?.databases ?? []),
+    ])
+    const reslitPmids = new Set([
+      ...(pInfo?.reslitPmids ?? []),
+      ...(nInfo?.reslitPmids ?? []),
+      ...(fInfo?.reslitPmids ?? []),
+    ])
+    const hasCurated = (pInfo?.hasCurated ?? false) || (nInfo?.hasCurated ?? false) || (fInfo?.hasCurated ?? false)
+
+    let tier: ValidationTier
+    let reason: ConfirmationReason | undefined
+    const crossDb = databases.size >= 2
+    const hasReslit = databases.has('Reslit')
+    const hasExternal = [...databases].some((db) => EXTERNAL_DATABASES.includes(db))
+
+    if (crossDb || hasCurated) {
+      tier = 'Confirmed'
+      if (crossDb && hasCurated) reason = 'both'
+      else if (crossDb) reason = 'cross-database'
+      else reason = 'curator-verified'
+    } else if (hasExternal && !hasReslit) {
+      tier = 'Established'
+    } else if (hasReslit && reslitPmids.size >= 3) {
+      tier = 'Supported'
+    } else {
+      tier = 'Candidate'
+    }
+
+    tiers.set(r.id, { tier, reason, databases: [...databases].sort() })
+  }
+
+  return tiers
 }
 
 export async function getGroupedMutationTierCounts(supabaseClient?: Awaited<ReturnType<typeof createClient>>): Promise<{ total: number; tierCounts: Record<string, number> }> {
   const supabase = supabaseClient ?? await createClient()
-  const mutTiers = await getMutationValidationTiers()
+  const mutTiers = await getMutationValidationTiers(supabase)
 
   const allRows: { id: string; gene_name: string; protein_change: string | null; nucleotide_change: string | null }[] = []
   const batchSize = 1000
@@ -65,7 +209,7 @@ export async function browseGenes(
 ): Promise<PaginatedResult<AMRGene>> {
   const supabase = await createClient()
 
-  const tiers = await getValidationTiers()
+  const tiers = await getValidationTiers(supabase)
 
   // If filtering by validation tier, resolve matching gene names first
   if (filters.validationTier) {
@@ -248,7 +392,7 @@ export async function browseMutations(
 ): Promise<PaginatedResult<AMRMutation>> {
   const supabase = await createClient()
 
-  const mutTiers = await getMutationValidationTiers()
+  const mutTiers = await getMutationValidationTiers(supabase)
 
   // Build the base query with all filters (no pagination yet)
   function buildQuery(selectClause: string) {
@@ -451,7 +595,7 @@ export async function browseGenesWithMutations(
 ): Promise<PaginatedResult<GeneWithMutationCount>> {
   const supabase = await createClient()
 
-  const tiers = await getValidationTiers()
+  const tiers = await getValidationTiers(supabase)
 
   // mechanismClass lives on amr_genes — resolve to gene names first
   let allowedGeneNames: string[] | null = null
