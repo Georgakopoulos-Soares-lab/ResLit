@@ -57,7 +57,7 @@ export default async function HomePage() {
         <section className="relative overflow-hidden bg-gradient-to-b from-accent/50 to-background py-20 md:py-32">
           <div className="container mx-auto px-4">
             <div className="mx-auto max-w-3xl text-center">
-              <p className="text-sm font-medium text-muted-foreground mb-2">test</p>
+              <p className="text-2xl font-bold text-red-500 mb-2">TEST - Railway Deploy Check</p>
               <h1 className="text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl text-balance">
                 Antimicrobial Resistance
                 <span className="block text-primary">Gene & Mutation Database</span>
