@@ -8,9 +8,13 @@ const PAGE_SIZE = 10
 
 const EXTERNAL_DATABASES = ['Card Database', 'ResFinder Database', 'Reference Gene Catalog', 'ResFinder', 'CARD', 'Card']
 
-export async function getValidationTiers(supabaseClient?: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
-  const supabase = supabaseClient ?? await createClient()
+const TIER_CACHE_TTL = 3600_000 // 1 hour
+let _geneTierCache: { data: Map<string, ValidationInfo>; ts: number } | null = null
+let _mutTierCache: { data: Map<string, ValidationInfo>; ts: number } | null = null
+let _geneTierPromise: Promise<Map<string, ValidationInfo>> | null = null
+let _mutTierPromise: Promise<Map<string, ValidationInfo>> | null = null
 
+async function _fetchValidationTiers(supabase: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
   const allRows: { gene_name: string; source_database: string; paper_pmid: string; gene_status: string }[] = []
   const batchSize = 1000
   let offset = 0
@@ -69,9 +73,25 @@ export async function getValidationTiers(supabaseClient?: Awaited<ReturnType<typ
   return tiers
 }
 
-export async function getMutationValidationTiers(supabaseClient?: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
-  const supabase = supabaseClient ?? await createClient()
+export async function getValidationTiers(supabaseClient?: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
+  if (_geneTierCache && Date.now() - _geneTierCache.ts < TIER_CACHE_TTL) {
+    return _geneTierCache.data
+  }
+  if (!_geneTierPromise) {
+    const supabase = supabaseClient ?? await createClient()
+    _geneTierPromise = _fetchValidationTiers(supabase).then((data) => {
+      _geneTierCache = { data, ts: Date.now() }
+      _geneTierPromise = null
+      return data
+    }).catch((err) => {
+      _geneTierPromise = null
+      throw err
+    })
+  }
+  return _geneTierPromise
+}
 
+async function _fetchMutationValidationTiers(supabase: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
   const allRows: { id: string; gene_name: string; protein_change: string | null; nucleotide_change: string | null; source_database: string; paper_pmid: string | null; status: string }[] = []
   const batchSize = 1000
   let offset = 0
@@ -160,6 +180,24 @@ export async function getMutationValidationTiers(supabaseClient?: Awaited<Return
   }
 
   return tiers
+}
+
+export async function getMutationValidationTiers(supabaseClient?: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
+  if (_mutTierCache && Date.now() - _mutTierCache.ts < TIER_CACHE_TTL) {
+    return _mutTierCache.data
+  }
+  if (!_mutTierPromise) {
+    const supabase = supabaseClient ?? await createClient()
+    _mutTierPromise = _fetchMutationValidationTiers(supabase).then((data) => {
+      _mutTierCache = { data, ts: Date.now() }
+      _mutTierPromise = null
+      return data
+    }).catch((err) => {
+      _mutTierPromise = null
+      throw err
+    })
+  }
+  return _mutTierPromise
 }
 
 export async function getGroupedMutationTierCounts(supabaseClient?: Awaited<ReturnType<typeof createClient>>): Promise<{ total: number; tierCounts: Record<string, number> }> {
