@@ -38,22 +38,22 @@ export default async function DownloadPage() {
             <div className="rounded-lg border border-border/60 bg-card p-4 text-center">
               <Database className="h-5 w-5 text-muted-foreground mx-auto mb-2" />
               <p className="text-2xl font-bold">{stats.totalGenes}</p>
-              <p className="text-xs text-muted-foreground">Total Genes</p>
+              <p className="text-xs text-muted-foreground">Unique Genes</p>
             </div>
-            <div className="rounded-lg border border-border/60 bg-card p-4 text-center">
-              <CheckCircle className="h-5 w-5 text-green-600 mx-auto mb-2" />
-              <p className="text-2xl font-bold">{stats.curatedGenes}</p>
-              <p className="text-xs text-muted-foreground">Curated Genes</p>
+            <div className="rounded-lg border border-emerald-200 bg-emerald-50/30 p-4 text-center">
+              <CheckCircle className="h-5 w-5 text-emerald-600 mx-auto mb-2" />
+              <p className="text-2xl font-bold text-emerald-700">{stats.tierCounts.Confirmed}</p>
+              <p className="text-xs text-emerald-600">Confirmed Genes</p>
             </div>
             <div className="rounded-lg border border-border/60 bg-card p-4 text-center">
               <FileText className="h-5 w-5 text-muted-foreground mx-auto mb-2" />
               <p className="text-2xl font-bold">{stats.totalMutations}</p>
-              <p className="text-xs text-muted-foreground">Total Mutations</p>
+              <p className="text-xs text-muted-foreground">Unique Mutations</p>
             </div>
-            <div className="rounded-lg border border-border/60 bg-card p-4 text-center">
-              <CheckCircle className="h-5 w-5 text-green-600 mx-auto mb-2" />
-              <p className="text-2xl font-bold">{stats.curatedMutations}</p>
-              <p className="text-xs text-muted-foreground">Curated Mutations</p>
+            <div className="rounded-lg border border-emerald-200 bg-emerald-50/30 p-4 text-center">
+              <CheckCircle className="h-5 w-5 text-emerald-600 mx-auto mb-2" />
+              <p className="text-2xl font-bold text-emerald-700">{stats.confirmedMutations}</p>
+              <p className="text-xs text-emerald-600">Confirmed Mutations</p>
             </div>
           </div>
 
@@ -68,19 +68,19 @@ export default async function DownloadPage() {
               <div className="grid md:grid-cols-2 gap-4">
                 <DownloadCard
                   title="All AMR Genes"
-                  description="Download all genes in the database including pending and curated entries"
+                  description="Download all genes in the database across all validation tiers"
                   type="genes"
                   curatedOnly={false}
                   count={stats.totalGenes}
                   variant="default"
                 />
                 <DownloadCard
-                  title="Curated AMR Genes"
-                  description="Download only manually curated and verified gene entries"
+                  title="Confirmed Genes"
+                  description="Download only Confirmed genes (found in ResLit + external DB or expert-curated)"
                   type="genes"
-                  curatedOnly={true}
-                  count={stats.curatedGenes}
-                  variant="curated"
+                  validationTier="Confirmed"
+                  count={stats.tierCounts.Confirmed}
+                  variant="confirmed"
                 />
               </div>
             </section>
@@ -94,19 +94,19 @@ export default async function DownloadPage() {
               <div className="grid md:grid-cols-2 gap-4">
                 <DownloadCard
                   title="All AMR Mutations"
-                  description="Download all mutations in the database including pending and curated entries"
+                  description="Download all mutations in the database"
                   type="mutations"
                   curatedOnly={false}
                   count={stats.totalMutations}
                   variant="default"
                 />
                 <DownloadCard
-                  title="Curated AMR Mutations"
-                  description="Download only manually curated and verified mutation entries"
+                  title="Confirmed Mutations"
+                  description="Download only mutations belonging to Confirmed genes"
                   type="mutations"
-                  curatedOnly={true}
-                  count={stats.curatedMutations}
-                  variant="curated"
+                  validationTier="Confirmed"
+                  count={stats.confirmedMutations}
+                  variant="confirmed"
                 />
               </div>
             </section>
@@ -115,8 +115,8 @@ export default async function DownloadPage() {
             <section className="rounded-lg border border-border/60 bg-card/50 p-6">
               <h2 className="text-xl font-semibold mb-2">Custom Filtered Download</h2>
               <p className="text-muted-foreground mb-4">
-                Need a specific subset of data? Use our browse pages to apply filters 
-                (antibiotic class, organism, country, year range) and download your 
+                Need a specific subset of data? Use our browse pages to apply filters
+                (antibiotic class, organism, country, year range) and download your
                 filtered selection directly.
               </p>
               <div className="flex flex-wrap gap-3">
