@@ -4,7 +4,7 @@ import type { FilterOptions, ValidationTier, ValidationInfo, ConfirmationReason 
 
 const EXTERNAL_DATABASES = ['Card Database', 'ResFinder Database', 'Reference Gene Catalog', 'ResFinder', 'CARD', 'Card']
 
-const CACHE_TTL = 300 // 5 minutes
+const CACHE_TTL = 3600 // 1 hour
 
 function createPublicClient() {
   return createClient(

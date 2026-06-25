@@ -154,40 +154,78 @@ export async function browseGenes(
     return q.order('gene_name', { ascending: true })
   }
 
-  // Paginate through Supabase's 1000-row limit
-  const rows: AMRGene[] = []
+  // Step 1: Fetch only gene_name column (lightweight) to determine unique names and total count
+  function buildNameQuery() {
+    let q = supabase.from('amr_genes').select('gene_name')
+    if (filters.search) {
+      q = q.or(
+        `gene_name.ilike.%${filters.search}%,allele.ilike.%${filters.search}%,mechanism.ilike.%${filters.search}%,encodes.ilike.%${filters.search}%`
+      )
+    }
+    if (filters.geneNameSearch) q = q.ilike('gene_name', `%${filters.geneNameSearch}%`)
+    if (filters.alleleSearch) q = q.ilike('allele', `%${filters.alleleSearch}%`)
+    if (filters.pmid) q = q.eq('paper_pmid', filters.pmid)
+    if (filters.validationTier) {
+      const matchingGenes = [...tiers.entries()]
+        .filter(([, info]) => info.tier === filters.validationTier)
+        .map(([g]) => g)
+      q = q.in('gene_name', matchingGenes)
+    }
+    if (filters.mechanismClass) q = q.eq('mechanism', filters.mechanismClass)
+    if (filters.antibiotic) q = q.contains('confers_resistance_to', [filters.antibiotic])
+    if (filters.encodes) q = q.eq('encodes', filters.encodes)
+    if (filters.organism) q = q.contains('organisms_tested_in', [filters.organism])
+    if (filters.country) {
+      if (filters.country === '__missing__') q = q.is('geographic_location', null)
+      else q = q.eq('geographic_location', filters.country)
+    }
+    if (filters.yearFrom) q = q.gte('year', filters.yearFrom)
+    if (filters.yearTo) q = q.lte('year', filters.yearTo)
+    if (filters.sourceDatabases && filters.sourceDatabases.length > 0) {
+      q = q.or(filters.sourceDatabases.map((db) => `source_database.eq.${db}`).join(','))
+    }
+    if (filters.curatedOnly) q = q.eq('gene_status', 'curated')
+    return q.order('gene_name', { ascending: true })
+  }
+
+  const allNames: string[] = []
   let offset = 0
   const BATCH = 1000
   while (true) {
-    const { data, error } = await buildQuery().range(offset, offset + BATCH - 1)
+    const { data, error } = await buildNameQuery().range(offset, offset + BATCH - 1)
     if (error) {
-      console.error('Error fetching genes:', error.message, error.details)
+      console.error('Error fetching gene names:', error.message, error.details)
       return { data: [], total: 0, page, pageSize: PAGE_SIZE, totalPages: 0 }
     }
     if (!data || data.length === 0) break
-    rows.push(...data)
+    for (const r of data) if (r.gene_name) allNames.push(r.gene_name)
     if (data.length < BATCH) break
     offset += BATCH
   }
 
-  // Group by gene_name, keeping all rows per gene together
-  const grouped = new Map<string, AMRGene[]>()
-  for (const row of rows) {
-    const key = row.gene_name
-    if (!grouped.has(key)) grouped.set(key, [])
-    grouped.get(key)!.push({
-      ...row,
-      validation_tier: (tiers.get(row.gene_name)?.tier ?? 'Candidate') as ValidationTier,
-    })
+  const uniqueNames = [...new Set(allNames)].sort()
+  const total = uniqueNames.length
+  const totalPages = Math.ceil(total / PAGE_SIZE)
+  const pagedNames = uniqueNames.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE)
+
+  if (pagedNames.length === 0) {
+    return { data: [], total, page, pageSize: PAGE_SIZE, totalPages }
   }
 
-  const geneNames = [...grouped.keys()].sort()
-  const total = geneNames.length
-  const totalPages = Math.ceil(total / PAGE_SIZE)
-  const pagedNames = geneNames.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE)
+  // Step 2: Fetch full data only for the genes on the current page
+  const { data: pageData, error: pageError } = await buildQuery()
+    .in('gene_name', pagedNames)
 
-  // Return flattened rows for the paged gene names (table groups them for display)
-  const enriched = pagedNames.flatMap((name) => grouped.get(name)!)
+  if (pageError || !pageData) {
+    return { data: [], total: 0, page, pageSize: PAGE_SIZE, totalPages: 0 }
+  }
+
+  const enriched = pageData.map((row) => ({
+    ...row,
+    validation_tier: (tiers.get(row.gene_name)?.tier ?? 'Candidate') as ValidationTier,
+  }))
+
+  enriched.sort((a, b) => a.gene_name.localeCompare(b.gene_name))
 
   return {
     data: enriched,
