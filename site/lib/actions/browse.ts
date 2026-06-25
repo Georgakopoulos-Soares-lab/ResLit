@@ -8,11 +8,16 @@ const PAGE_SIZE = 10
 
 const EXTERNAL_DATABASES = ['Card Database', 'ResFinder Database', 'Reference Gene Catalog', 'ResFinder', 'CARD', 'Card']
 
-const TIER_CACHE_TTL = 3600_000 // 1 hour
+const CACHE_TTL = 3600_000 // 1 hour
 let _geneTierCache: { data: Map<string, ValidationInfo>; ts: number } | null = null
 let _mutTierCache: { data: Map<string, ValidationInfo>; ts: number } | null = null
 let _geneTierPromise: Promise<Map<string, ValidationInfo>> | null = null
 let _mutTierPromise: Promise<Map<string, ValidationInfo>> | null = null
+
+let _geneNamesCache: { data: string[]; ts: number } | null = null
+let _geneNamesPromise: Promise<string[]> | null = null
+let _mutGroupsCache: { data: Map<string, string[]>; ts: number } | null = null
+let _mutGroupsPromise: Promise<Map<string, string[]>> | null = null
 
 async function _fetchValidationTiers(supabase: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
   const allRows: { gene_name: string; source_database: string; paper_pmid: string; gene_status: string }[] = []
@@ -74,7 +79,7 @@ async function _fetchValidationTiers(supabase: Awaited<ReturnType<typeof createC
 }
 
 export async function getValidationTiers(supabaseClient?: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
-  if (_geneTierCache && Date.now() - _geneTierCache.ts < TIER_CACHE_TTL) {
+  if (_geneTierCache && Date.now() - _geneTierCache.ts < CACHE_TTL) {
     return _geneTierCache.data
   }
   if (!_geneTierPromise) {
@@ -183,7 +188,7 @@ async function _fetchMutationValidationTiers(supabase: Awaited<ReturnType<typeof
 }
 
 export async function getMutationValidationTiers(supabaseClient?: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
-  if (_mutTierCache && Date.now() - _mutTierCache.ts < TIER_CACHE_TTL) {
+  if (_mutTierCache && Date.now() - _mutTierCache.ts < CACHE_TTL) {
     return _mutTierCache.data
   }
   if (!_mutTierPromise) {
@@ -200,41 +205,121 @@ export async function getMutationValidationTiers(supabaseClient?: Awaited<Return
   return _mutTierPromise
 }
 
-export async function getGroupedMutationTierCounts(supabaseClient?: Awaited<ReturnType<typeof createClient>>): Promise<{ total: number; tierCounts: Record<string, number> }> {
-  const supabase = supabaseClient ?? await createClient()
-  const mutTiers = await getMutationValidationTiers(supabase)
+async function _fetchUniqueGeneNames(supabase: Awaited<ReturnType<typeof createClient>>): Promise<string[]> {
+  const allNames: string[] = []
+  let offset = 0
+  while (true) {
+    const { data } = await supabase
+      .from('amr_genes')
+      .select('gene_name')
+      .range(offset, offset + 999)
+      .order('gene_name', { ascending: true })
+    if (!data || data.length === 0) break
+    for (const r of data) if (r.gene_name) allNames.push(r.gene_name)
+    if (data.length < 1000) break
+    offset += 1000
+  }
+  return [...new Set(allNames)].sort()
+}
 
+async function getCachedGeneNames(supabase: Awaited<ReturnType<typeof createClient>>): Promise<string[]> {
+  if (_geneNamesCache && Date.now() - _geneNamesCache.ts < CACHE_TTL) {
+    return _geneNamesCache.data
+  }
+  if (!_geneNamesPromise) {
+    _geneNamesPromise = _fetchUniqueGeneNames(supabase).then((data) => {
+      _geneNamesCache = { data, ts: Date.now() }
+      _geneNamesPromise = null
+      return data
+    }).catch((err) => {
+      _geneNamesPromise = null
+      throw err
+    })
+  }
+  return _geneNamesPromise
+}
+
+async function _fetchMutationGroups(supabase: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, string[]>> {
   const allRows: { id: string; gene_name: string; protein_change: string | null; nucleotide_change: string | null }[] = []
-  const batchSize = 1000
   let offset = 0
   while (true) {
     const { data } = await supabase
       .from('amr_mutations')
       .select('id, gene_name, protein_change, nucleotide_change')
-      .range(offset, offset + batchSize - 1)
+      .range(offset, offset + 999)
     if (!data || data.length === 0) break
     allRows.push(...data)
-    if (data.length < batchSize) break
-    offset += batchSize
+    if (data.length < 1000) break
+    offset += 1000
   }
+  const groups = new Map<string, string[]>()
+  for (const m of allRows) {
+    const key = mutationGroupKey(m)
+    if (!groups.has(key)) groups.set(key, [])
+    groups.get(key)!.push(m.id)
+  }
+  return groups
+}
+
+async function getCachedMutationGroups(supabase: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, string[]>> {
+  if (_mutGroupsCache && Date.now() - _mutGroupsCache.ts < CACHE_TTL) {
+    return _mutGroupsCache.data
+  }
+  if (!_mutGroupsPromise) {
+    _mutGroupsPromise = _fetchMutationGroups(supabase).then((data) => {
+      _mutGroupsCache = { data, ts: Date.now() }
+      _mutGroupsPromise = null
+      return data
+    }).catch((err) => {
+      _mutGroupsPromise = null
+      throw err
+    })
+  }
+  return _mutGroupsPromise
+}
+
+function hasComplexGeneFilters(filters: BrowseFilters): boolean {
+  return !!(
+    filters.mechanismClass || filters.antibiotic || filters.encodes ||
+    filters.organism || filters.country || filters.yearFrom || filters.yearTo ||
+    filters.sourceDatabases?.length || filters.pmid || filters.curatedOnly ||
+    filters.geneNameSearch || filters.alleleSearch
+  )
+}
+
+function hasComplexMutationFilters(filters: BrowseFilters): boolean {
+  return !!(
+    filters.geneName || filters.antibiotic || filters.mutationType ||
+    filters.country || filters.sourceDatabases?.length || filters.pmid ||
+    filters.status || filters.curatedOnly
+  )
+}
+
+export async function getGroupedMutationTierCounts(supabaseClient?: Awaited<ReturnType<typeof createClient>>): Promise<{ total: number; tierCounts: Record<string, number> }> {
+  const supabase = supabaseClient ?? await createClient()
+  const [mutTiers, allGroups] = await Promise.all([
+    getMutationValidationTiers(supabase),
+    getCachedMutationGroups(supabase),
+  ])
 
   const tierPri: Record<string, number> = { Confirmed: 0, Established: 1, Supported: 2, Candidate: 3 }
-  const groups = new Map<string, ValidationTier>()
-  for (const r of allRows) {
-    const key = mutationGroupKey(r)
-    const tier = mutTiers.get(r.id)?.tier ?? 'Candidate'
-    const existing = groups.get(key)
-    if (!existing || (tierPri[tier] ?? 99) < (tierPri[existing] ?? 99)) {
-      groups.set(key, tier)
+  const bestTierPerGroup = new Map<string, ValidationTier>()
+  for (const [key, ids] of allGroups) {
+    for (const id of ids) {
+      const tier = mutTiers.get(id)?.tier ?? 'Candidate'
+      const existing = bestTierPerGroup.get(key)
+      if (!existing || (tierPri[tier] ?? 99) < (tierPri[existing] ?? 99)) {
+        bestTierPerGroup.set(key, tier)
+      }
     }
   }
 
   const tierCounts: Record<string, number> = { Confirmed: 0, Established: 0, Supported: 0, Candidate: 0 }
-  for (const tier of groups.values()) {
+  for (const tier of bestTierPerGroup.values()) {
     tierCounts[tier]++
   }
 
-  return { total: groups.size, tierCounts }
+  return { total: bestTierPerGroup.size, tierCounts }
 }
 
 export async function getFilterOptions(): Promise<FilterOptions> {
@@ -246,113 +331,20 @@ export async function browseGenes(
   page: number = 1
 ): Promise<PaginatedResult<AMRGene>> {
   const supabase = await createClient()
+  const [tiers, cachedNames] = await Promise.all([
+    getValidationTiers(supabase),
+    getCachedGeneNames(supabase),
+  ])
 
-  const tiers = await getValidationTiers(supabase)
+  let uniqueNames: string[]
 
-  // If filtering by validation tier, resolve matching gene names first
-  if (filters.validationTier) {
-    const matchingGenes = [...tiers.entries()]
-      .filter(([, info]) => info.tier === filters.validationTier)
-      .map(([g]) => g)
-    if (matchingGenes.length === 0) {
-      return { data: [], total: 0, page, pageSize: PAGE_SIZE, totalPages: 0 }
-    }
-    // Supabase .in() has a practical limit; chunk if needed
-  }
-
-  function buildQuery() {
-    let q = supabase
-      .from('amr_genes')
-      .select('*')
-
-    if (filters.search) {
-      q = q.or(
-        `gene_name.ilike.%${filters.search}%,allele.ilike.%${filters.search}%,mechanism.ilike.%${filters.search}%,encodes.ilike.%${filters.search}%`
-      )
-    }
-
-    if (filters.geneNameSearch) {
-      q = q.ilike('gene_name', `%${filters.geneNameSearch}%`)
-    }
-
-    if (filters.alleleSearch) {
-      q = q.ilike('allele', `%${filters.alleleSearch}%`)
-    }
-
-    if (filters.pmid) {
-      q = q.eq('paper_pmid', filters.pmid)
-    }
-
-    if (filters.validationTier) {
-      const matchingGenes = [...tiers.entries()]
-        .filter(([, info]) => info.tier === filters.validationTier)
-        .map(([g]) => g)
-      q = q.in('gene_name', matchingGenes)
-    }
-
-    if (filters.mechanismClass) {
-      q = q.eq('mechanism', filters.mechanismClass)
-    }
-
-    if (filters.antibiotic) {
-      q = q.contains('confers_resistance_to', [filters.antibiotic])
-    }
-
-    if (filters.encodes) {
-      q = q.eq('encodes', filters.encodes)
-    }
-
-    if (filters.organism) {
-      q = q.contains('organisms_tested_in', [filters.organism])
-    }
-
-    if (filters.country) {
-      if (filters.country === '__missing__') {
-        q = q.is('geographic_location', null)
-      } else {
-        q = q.eq('geographic_location', filters.country)
-      }
-    }
-
-    if (filters.yearFrom) {
-      q = q.gte('year', filters.yearFrom)
-    }
-
-    if (filters.yearTo) {
-      q = q.lte('year', filters.yearTo)
-    }
-
-    if (filters.sourceDatabases && filters.sourceDatabases.length > 0) {
-      const orConditions = filters.sourceDatabases
-        .map((db) => `source_database.eq.${db}`)
-        .join(',')
-      q = q.or(orConditions)
-    }
-
-    if (filters.curatedOnly) {
-      q = q.eq('gene_status', 'curated')
-    }
-
-    return q.order('gene_name', { ascending: true })
-  }
-
-  // Step 1: Fetch only gene_name column (lightweight) to determine unique names and total count
-  function buildNameQuery() {
+  if (hasComplexGeneFilters(filters)) {
+    // Complex filters need DB — fetch gene_name column with filters applied
     let q = supabase.from('amr_genes').select('gene_name')
-    if (filters.search) {
-      q = q.or(
-        `gene_name.ilike.%${filters.search}%,allele.ilike.%${filters.search}%,mechanism.ilike.%${filters.search}%,encodes.ilike.%${filters.search}%`
-      )
-    }
+    if (filters.search) q = q.or(`gene_name.ilike.%${filters.search}%,allele.ilike.%${filters.search}%,mechanism.ilike.%${filters.search}%,encodes.ilike.%${filters.search}%`)
     if (filters.geneNameSearch) q = q.ilike('gene_name', `%${filters.geneNameSearch}%`)
     if (filters.alleleSearch) q = q.ilike('allele', `%${filters.alleleSearch}%`)
     if (filters.pmid) q = q.eq('paper_pmid', filters.pmid)
-    if (filters.validationTier) {
-      const matchingGenes = [...tiers.entries()]
-        .filter(([, info]) => info.tier === filters.validationTier)
-        .map(([g]) => g)
-      q = q.in('gene_name', matchingGenes)
-    }
     if (filters.mechanismClass) q = q.eq('mechanism', filters.mechanismClass)
     if (filters.antibiotic) q = q.contains('confers_resistance_to', [filters.antibiotic])
     if (filters.encodes) q = q.eq('encodes', filters.encodes)
@@ -367,25 +359,33 @@ export async function browseGenes(
       q = q.or(filters.sourceDatabases.map((db) => `source_database.eq.${db}`).join(','))
     }
     if (filters.curatedOnly) q = q.eq('gene_status', 'curated')
-    return q.order('gene_name', { ascending: true })
-  }
-
-  const allNames: string[] = []
-  let offset = 0
-  const BATCH = 1000
-  while (true) {
-    const { data, error } = await buildNameQuery().range(offset, offset + BATCH - 1)
-    if (error) {
-      console.error('Error fetching gene names:', error.message, error.details)
-      return { data: [], total: 0, page, pageSize: PAGE_SIZE, totalPages: 0 }
+    if (filters.validationTier) {
+      const tierGenes = [...tiers.entries()].filter(([, i]) => i.tier === filters.validationTier).map(([g]) => g)
+      q = q.in('gene_name', tierGenes)
     }
-    if (!data || data.length === 0) break
-    for (const r of data) if (r.gene_name) allNames.push(r.gene_name)
-    if (data.length < BATCH) break
-    offset += BATCH
+
+    const allNames: string[] = []
+    let offset = 0
+    while (true) {
+      const { data } = await q.order('gene_name', { ascending: true }).range(offset, offset + 999)
+      if (!data || data.length === 0) break
+      for (const r of data) if (r.gene_name) allNames.push(r.gene_name)
+      if (data.length < 1000) break
+      offset += 1000
+    }
+    uniqueNames = [...new Set(allNames)].sort()
+  } else {
+    // Simple filters — use cached gene names, filter in memory (0 XHR)
+    uniqueNames = cachedNames
+    if (filters.search) {
+      const s = filters.search.toLowerCase()
+      uniqueNames = uniqueNames.filter((g) => g.toLowerCase().includes(s))
+    }
+    if (filters.validationTier) {
+      uniqueNames = uniqueNames.filter((g) => (tiers.get(g)?.tier ?? 'Candidate') === filters.validationTier)
+    }
   }
 
-  const uniqueNames = [...new Set(allNames)].sort()
   const total = uniqueNames.length
   const totalPages = Math.ceil(total / PAGE_SIZE)
   const pagedNames = uniqueNames.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE)
@@ -394,11 +394,14 @@ export async function browseGenes(
     return { data: [], total, page, pageSize: PAGE_SIZE, totalPages }
   }
 
-  // Step 2: Fetch full data only for the genes on the current page
-  const { data: pageData, error: pageError } = await buildQuery()
+  // Single query for the actual page data
+  const { data: pageData, error } = await supabase
+    .from('amr_genes')
+    .select('*')
     .in('gene_name', pagedNames)
+    .order('gene_name', { ascending: true })
 
-  if (pageError || !pageData) {
+  if (error || !pageData) {
     return { data: [], total: 0, page, pageSize: PAGE_SIZE, totalPages: 0 }
   }
 
@@ -409,13 +412,7 @@ export async function browseGenes(
 
   enriched.sort((a, b) => a.gene_name.localeCompare(b.gene_name))
 
-  return {
-    data: enriched,
-    total,
-    page,
-    pageSize: PAGE_SIZE,
-    totalPages,
-  }
+  return { data: enriched, total, page, pageSize: PAGE_SIZE, totalPages }
 }
 
 function mutationGroupKey(m: { gene_name: string; protein_change: string | null; nucleotide_change: string | null; id?: string }): string {
@@ -429,19 +426,18 @@ export async function browseMutations(
   page: number = 1
 ): Promise<PaginatedResult<AMRMutation>> {
   const supabase = await createClient()
+  const [mutTiers, cachedGroups] = await Promise.all([
+    getMutationValidationTiers(supabase),
+    getCachedMutationGroups(supabase),
+  ])
 
-  const mutTiers = await getMutationValidationTiers(supabase)
+  let groups: Map<string, string[]>
 
-  // Build the base query with all filters (no pagination yet)
-  function buildQuery(selectClause: string) {
-    let q = supabase.from('amr_mutations').select(selectClause)
-
+  if (hasComplexMutationFilters(filters)) {
+    // Complex filters need DB
+    let q = supabase.from('amr_mutations').select('id, gene_name, protein_change, nucleotide_change')
     if (filters.pmid) q = q.eq('paper_pmid', filters.pmid)
-    if (filters.search) {
-      q = q.or(
-        `nucleotide_change.ilike.%${filters.search}%,gene_name.ilike.%${filters.search}%,protein_change.ilike.%${filters.search}%,effect_on_function.ilike.%${filters.search}%,paper_pmid.ilike.%${filters.search}%,title_pmid.ilike.%${filters.search}%`
-      )
-    }
+    if (filters.search) q = q.or(`nucleotide_change.ilike.%${filters.search}%,gene_name.ilike.%${filters.search}%,protein_change.ilike.%${filters.search}%,effect_on_function.ilike.%${filters.search}%,paper_pmid.ilike.%${filters.search}%,title_pmid.ilike.%${filters.search}%`)
     if (filters.geneName) q = q.eq('gene_name', filters.geneName)
     if (filters.antibiotic) q = q.contains('confers_resistance_to', [filters.antibiotic])
     if (filters.mutationType) q = q.eq('mutation_type', filters.mutationType)
@@ -455,39 +451,40 @@ export async function browseMutations(
     if (filters.status && filters.status !== 'all') q = q.eq('status', filters.status)
     else if (filters.curatedOnly) q = q.eq('status', 'curated')
 
-    return q
+    const allIdentities: { id: string; gene_name: string; protein_change: string | null; nucleotide_change: string | null }[] = []
+    let offset = 0
+    while (true) {
+      const { data } = await q.order('gene_name', { ascending: true }).range(offset, offset + 999)
+      if (!data || data.length === 0) break
+      allIdentities.push(...data)
+      if (data.length < 1000) break
+      offset += 1000
+    }
+
+    groups = new Map<string, string[]>()
+    for (const m of allIdentities) {
+      const key = mutationGroupKey(m)
+      if (!groups.has(key)) groups.set(key, [])
+      groups.get(key)!.push(m.id)
+    }
+  } else {
+    // No complex filters — use cached groups (0 XHR)
+    groups = cachedGroups
   }
 
-  // Fetch all matching mutation identities for grouping
-  const allIdentities: { id: string; gene_name: string; protein_change: string | null; nucleotide_change: string | null }[] = []
-  const batchSize = 1000
-  let offset = 0
-  while (true) {
-    const q = buildQuery('id, gene_name, protein_change, nucleotide_change')
-      .order('gene_name', { ascending: true })
-      .range(offset, offset + batchSize - 1)
-    const { data } = await q
-    if (!data || data.length === 0) break
-    allIdentities.push(...data)
-    if (data.length < batchSize) break
-    offset += batchSize
+  // Apply simple filters in memory
+  let groupKeys = [...groups.keys()].sort()
+  if (filters.search && !hasComplexMutationFilters(filters)) {
+    const s = filters.search.toLowerCase()
+    groupKeys = groupKeys.filter((k) => k.toLowerCase().includes(s))
   }
-
-  // Filter by validation tier if needed
-  let filtered = allIdentities
   if (filters.validationTier) {
-    filtered = allIdentities.filter((m) => (mutTiers.get(m.id)?.tier ?? 'Candidate') === filters.validationTier)
+    groupKeys = groupKeys.filter((key) => {
+      const ids = groups.get(key)!
+      return ids.some((id) => (mutTiers.get(id)?.tier ?? 'Candidate') === filters.validationTier)
+    })
   }
 
-  // Group by mutation identity (gene + protein_change, or gene + nucleotide_change)
-  const groups = new Map<string, string[]>()
-  for (const m of filtered) {
-    const key = mutationGroupKey(m)
-    if (!groups.has(key)) groups.set(key, [])
-    groups.get(key)!.push(m.id)
-  }
-
-  const groupKeys = [...groups.keys()].sort()
   const total = groupKeys.length
   const totalPages = Math.ceil(total / PAGE_SIZE)
   const pagedKeys = groupKeys.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE)
@@ -496,38 +493,26 @@ export async function browseMutations(
     return { data: [], total, page, pageSize: PAGE_SIZE, totalPages }
   }
 
-  // Collect all IDs for the current page's groups
+  // Single query for the actual page data
   const pagedIds = pagedKeys.flatMap((k) => groups.get(k)!)
+  const { data: allData } = await supabase
+    .from('amr_mutations')
+    .select('*')
+    .in('id', pagedIds)
 
-  // Fetch full mutation data for these IDs
-  const allData: AMRMutation[] = []
-  const ID_BATCH = 50
-  for (let i = 0; i < pagedIds.length; i += ID_BATCH) {
-    const batch = pagedIds.slice(i, i + ID_BATCH)
-    const { data } = await supabase.from('amr_mutations').select('*').in('id', batch)
-    if (data) allData.push(...data)
-  }
-
-  const enriched = allData.map((m) => ({
+  const enriched = (allData || []).map((m) => ({
     ...m,
     validation_tier: (mutTiers.get(m.id)?.tier ?? 'Candidate') as ValidationTier,
     all_databases: mutTiers.get(m.id)?.databases ?? [m.source_database].filter(Boolean),
   }))
 
-  // Sort to maintain stable order within the page
   enriched.sort((a, b) => {
     const ka = mutationGroupKey(a)
     const kb = mutationGroupKey(b)
     return ka.localeCompare(kb)
   })
 
-  return {
-    data: enriched,
-    total,
-    page,
-    pageSize: PAGE_SIZE,
-    totalPages,
-  }
+  return { data: enriched, total, page, pageSize: PAGE_SIZE, totalPages }
 }
 
 export async function getGeneById(id: string): Promise<AMRGene | null> {
