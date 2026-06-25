@@ -252,7 +252,7 @@ async function fetchMutationEnrichment(
 export async function downloadGenesByValidation(tier: string): Promise<{ csv: string; count: number }> {
   const supabase = await createClient()
   const { getValidationTiers } = await import('@/lib/actions/browse')
-  const tiers = await getValidationTiers(supabase)
+  const tiers = await getValidationTiers()
 
   const matchingGeneNames = [...tiers.entries()]
     .filter(([, info]) => info.tier === tier)
@@ -321,7 +321,7 @@ export async function downloadAllGenes(curatedOnly: boolean = false): Promise<{ 
 export async function downloadMutationsByValidation(tier: string): Promise<{ csv: string; count: number }> {
   const supabase = await createClient()
   const { getMutationValidationTiers } = await import('@/lib/actions/browse')
-  const mutTiers = await getMutationValidationTiers(supabase)
+  const mutTiers = await getMutationValidationTiers()
 
   const matchingIds = [...mutTiers.entries()]
     .filter(([, info]) => info.tier === tier)
@@ -485,7 +485,7 @@ export async function getDownloadStats(): Promise<{
 
   const [{ count: totalMutations }, tiers] = await Promise.all([
     supabase.from('amr_mutations').select('*', { count: 'exact', head: true }),
-    getValidationTiers(supabase),
+    getValidationTiers(),
   ])
 
   const tierCounts = { Confirmed: 0, Established: 0, Supported: 0, Candidate: 0 }

@@ -27,8 +27,8 @@ async function getStats() {
 
   // Compute validation tiers for genes and grouped mutations
   const [tiers, mutGrouped] = await Promise.all([
-    getValidationTiers(supabase),
-    getGroupedMutationTierCounts(supabase),
+    getValidationTiers(),
+    getGroupedMutationTierCounts(),
   ])
   const tierCounts = { Confirmed: 0, Established: 0, Supported: 0, Candidate: 0 }
   for (const info of tiers.values()) {
@@ -57,6 +57,7 @@ export default async function HomePage() {
         <section className="relative overflow-hidden bg-gradient-to-b from-accent/50 to-background py-20 md:py-32">
           <div className="container mx-auto px-4">
             <div className="mx-auto max-w-3xl text-center">
+              <p className="text-sm font-medium text-muted-foreground mb-2">test</p>
               <h1 className="text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl text-balance">
                 Antimicrobial Resistance
                 <span className="block text-primary">Gene & Mutation Database</span>
