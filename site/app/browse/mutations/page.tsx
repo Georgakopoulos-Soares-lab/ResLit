@@ -43,7 +43,6 @@ function LoadingSkeleton() {
 
 export default async function BrowseMutationsPage({ searchParams }: PageProps) {
   const params = await searchParams
-  const filterOptions = await getFilterOptions()
   const page = params.page ? parseInt(params.page) : 1
   const mode = params.mode || 'mutations'
 
@@ -62,7 +61,8 @@ export default async function BrowseMutationsPage({ searchParams }: PageProps) {
     validationTier: params.validationTier as any,
   }
 
-  const [mutationsResult, genesResult] = await Promise.all([
+  const [filterOptions, mutationsResult, genesResult] = await Promise.all([
+    getFilterOptions(),
     mode === 'mutations' ? browseMutations(filters, page) : Promise.resolve(null),
     mode === 'genes' ? browseGenesWithMutations(filters, page) : Promise.resolve(null),
   ])

@@ -39,7 +39,6 @@ function LoadingSkeleton() {
 
 export default async function BrowseGenesPage({ searchParams }: PageProps) {
   const params = await searchParams
-  const filterOptions = await getFilterOptions()
 
   const filters: BrowseFilters = {
     search: params.search,
@@ -56,7 +55,10 @@ export default async function BrowseGenesPage({ searchParams }: PageProps) {
   }
 
   const page = params.page ? parseInt(params.page) : 1
-  const result = await browseGenes(filters, page)
+  const [filterOptions, result] = await Promise.all([
+    getFilterOptions(),
+    browseGenes(filters, page),
+  ])
 
   return (
     <div className="flex min-h-screen flex-col">
