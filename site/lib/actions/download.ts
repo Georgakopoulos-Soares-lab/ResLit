@@ -472,7 +472,7 @@ export async function downloadFilteredMutations(filters: BrowseFilters): Promise
   }
 }
 
-// Get download statistics
+// Get download statistics — uses same grouped logic as home page
 export async function getDownloadStats(): Promise<{
   totalGenes: number
   totalMutations: number
@@ -481,11 +481,11 @@ export async function getDownloadStats(): Promise<{
 }> {
   const supabase = await createClient()
 
-  const { getValidationTiers } = await import('@/lib/actions/browse')
+  const { getValidationTiers, getGroupedMutationTierCounts } = await import('@/lib/actions/browse')
 
-  const [{ count: totalMutations }, tiers] = await Promise.all([
-    supabase.from('amr_mutations').select('*', { count: 'exact', head: true }),
+  const [tiers, mutGrouped] = await Promise.all([
     getValidationTiers(supabase),
+    getGroupedMutationTierCounts(supabase),
   ])
 
   const tierCounts = { Confirmed: 0, Established: 0, Supported: 0, Candidate: 0 }
@@ -493,23 +493,10 @@ export async function getDownloadStats(): Promise<{
     tierCounts[info.tier]++
   }
 
-  const confirmedGeneNames = [...tiers.entries()]
-    .filter(([, info]) => info.tier === 'Confirmed')
-    .map(([name]) => name)
-
-  let confirmedMutations = 0
-  if (confirmedGeneNames.length > 0) {
-    const { count } = await supabase
-      .from('amr_mutations')
-      .select('*', { count: 'exact', head: true })
-      .in('gene_name', confirmedGeneNames)
-    confirmedMutations = count || 0
-  }
-
   return {
     totalGenes: tiers.size,
-    totalMutations: totalMutations || 0,
-    confirmedMutations,
+    totalMutations: mutGrouped.total,
+    confirmedMutations: mutGrouped.tierCounts.Confirmed || 0,
     tierCounts,
   }
 }
