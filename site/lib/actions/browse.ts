@@ -6,7 +6,7 @@ import type { AMRGene, AMRMutation, FilterOptions, BrowseFilters, PaginatedResul
 
 const PAGE_SIZE = 10
 
-const EXTERNAL_DATABASES = ['Card Database', 'ResFinder Database', 'Reference Gene Catalog', 'ResFinder', 'CARD', 'Card']
+const EXTERNAL_DATABASES = ['Card Database', 'ResFinder Database', 'Reference Gene Catalog']
 
 const CACHE_TTL = 3600_000 // 1 hour
 let _geneTierCache: { data: Map<string, ValidationInfo>; ts: number } | null = null

@@ -40,8 +40,8 @@ async function _fetchFilterOptions(): Promise<FilterOptions> {
     supabase.from('amr_mutations').select('gene_name').not('gene_name', 'is', null).order('gene_name'),
     supabase.from('amr_mutations').select('confers_resistance_to').not('confers_resistance_to', 'is', null),
     supabase.from('amr_mutations').select('mutation_type').not('mutation_type', 'is', null).order('mutation_type'),
-    supabase.from('amr_genes').select('source_database').not('source_database', 'is', null).order('source_database'),
-    supabase.from('amr_mutations').select('source_database').not('source_database', 'is', null).order('source_database'),
+    supabase.from('amr_genes').select('source_database').not('source_database', 'is', null).order('source_database').limit(100000),
+    supabase.from('amr_mutations').select('source_database').not('source_database', 'is', null).order('source_database').limit(100000),
   ])
 
   return {
