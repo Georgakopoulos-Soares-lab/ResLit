@@ -22,7 +22,7 @@ let _mutGroupsPromise: Promise<Map<string, string[]>> | null = null
 let _genePmids: Set<string> | null = null
 let _geneDbMap: Map<string, Set<string>> | null = null
 
-export function invalidateTierCaches() {
+export async function invalidateTierCaches() {
   _geneTierCache = null
   _mutTierCache = null
   _geneTierPromise = null
