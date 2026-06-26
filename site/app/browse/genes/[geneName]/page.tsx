@@ -181,21 +181,19 @@ export default async function GeneDetailPage({ params }: PageProps) {
                   <div className="text-xs text-indigo-600 mt-0.5">Known alleles and reference sequences</div>
                 </div>
               </a>
-              {encodes && (
-                <a
-                  href={`https://www.uniprot.org/uniprotkb?query=${encodeURIComponent(encodes)}+${encodeURIComponent(decodedName)}+AND+(taxonomy_id%3A2)`}
-                  target="_blank" rel="noopener noreferrer"
-                  className="inline-flex items-start gap-2.5 px-3.5 py-2.5 rounded-lg border border-amber-200 bg-amber-50 hover:bg-amber-100 transition-colors group"
-                >
-                  <svg className="h-4 w-4 mt-0.5 shrink-0 text-amber-400 group-hover:text-amber-600 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                  </svg>
-                  <div>
-                    <div className="text-sm font-semibold leading-tight text-amber-900">UniProt</div>
-                    <div className="text-xs text-amber-600 mt-0.5">Protein entries specific to {decodedName}</div>
-                  </div>
-                </a>
-              )}
+              <a
+                href={`https://www.uniprot.org/uniprotkb?query=${encodes ? encodeURIComponent(encodes) + '+' : ''}${encodeURIComponent(decodedName)}+AND+(taxonomy_id%3A2)`}
+                target="_blank" rel="noopener noreferrer"
+                className="inline-flex items-start gap-2.5 px-3.5 py-2.5 rounded-lg border border-amber-200 bg-amber-50 hover:bg-amber-100 transition-colors group"
+              >
+                <svg className="h-4 w-4 mt-0.5 shrink-0 text-amber-400 group-hover:text-amber-600 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+                <div>
+                  <div className="text-sm font-semibold leading-tight text-amber-900">UniProt</div>
+                  <div className="text-xs text-amber-600 mt-0.5">Protein entries specific to {decodedName}</div>
+                </div>
+              </a>
               <a
                 href={`https://browse.amrrules.org/?search=${encodeURIComponent(decodedName.toLowerCase())}`}
                 target="_blank" rel="noopener noreferrer"
