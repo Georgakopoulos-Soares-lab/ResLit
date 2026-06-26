@@ -22,20 +22,35 @@ let _mutGroupsPromise: Promise<Map<string, string[]>> | null = null
 let _genePmids: Set<string> | null = null
 let _geneDbMap: Map<string, Set<string>> | null = null
 
-async function _fetchValidationTiers(supabase: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
-  const allRows: { gene_name: string; source_database: string; paper_pmid: string; gene_status: string }[] = []
-  const batchSize = 1000
-  let offset = 0
-  while (true) {
-    const { data } = await supabase
-      .from('amr_genes')
-      .select('gene_name, source_database, paper_pmid, gene_status')
-      .range(offset, offset + batchSize - 1)
-    if (!data || data.length === 0) break
-    allRows.push(...data)
-    if (data.length < batchSize) break
-    offset += batchSize
+const BATCH_SIZE = 1000
+const PARALLEL_BATCHES = 10
+
+async function fetchAllRows<T>(
+  supabase: Awaited<ReturnType<typeof createClient>>,
+  table: string,
+  select: string,
+): Promise<T[]> {
+  const { count } = await supabase.from(table).select(select, { count: 'exact', head: true })
+  if (!count || count === 0) return []
+  const totalBatches = Math.ceil(count / BATCH_SIZE)
+  const allRows: T[] = []
+  for (let i = 0; i < totalBatches; i += PARALLEL_BATCHES) {
+    const batch = Array.from({ length: Math.min(PARALLEL_BATCHES, totalBatches - i) }, (_, j) => {
+      const offset = (i + j) * BATCH_SIZE
+      return supabase.from(table).select(select).range(offset, offset + BATCH_SIZE - 1)
+    })
+    const results = await Promise.all(batch)
+    for (const { data } of results) {
+      if (data) allRows.push(...(data as T[]))
+    }
   }
+  return allRows
+}
+
+async function _fetchValidationTiers(supabase: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
+  const allRows = await fetchAllRows<{ gene_name: string; source_database: string; paper_pmid: string; gene_status: string }>(
+    supabase, 'amr_genes', 'gene_name, source_database, paper_pmid, gene_status'
+  )
 
   _genePmids = new Set(
     allRows.flatMap((r) => r.paper_pmid ? r.paper_pmid.split(',').map((p) => p.trim()).filter((p) => p && /^\d+$/.test(p)) : [])
@@ -111,19 +126,9 @@ export async function getValidationTiers(supabaseClient?: Awaited<ReturnType<typ
 let _mutPmids: Set<string> | null = null
 
 async function _fetchMutationValidationTiers(supabase: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
-  const allRows: { id: string; gene_name: string; protein_change: string | null; nucleotide_change: string | null; source_database: string; paper_pmid: string | null; status: string }[] = []
-  const batchSize = 1000
-  let offset = 0
-  while (true) {
-    const { data } = await supabase
-      .from('amr_mutations')
-      .select('id, gene_name, protein_change, nucleotide_change, source_database, paper_pmid, status')
-      .range(offset, offset + batchSize - 1)
-    if (!data || data.length === 0) break
-    allRows.push(...data)
-    if (data.length < batchSize) break
-    offset += batchSize
-  }
+  const allRows = await fetchAllRows<{ id: string; gene_name: string; protein_change: string | null; nucleotide_change: string | null; source_database: string; paper_pmid: string | null; status: string }>(
+    supabase, 'amr_mutations', 'id, gene_name, protein_change, nucleotide_change, source_database, paper_pmid, status'
+  )
 
   _mutPmids = new Set(
     allRows.flatMap((r) => r.paper_pmid ? r.paper_pmid.split(',').map((p) => p.trim()).filter((p) => p && /^\d+$/.test(p)) : [])
@@ -231,20 +236,8 @@ export async function getDistinctPaperCount(supabaseClient?: Awaited<ReturnType<
 }
 
 async function _fetchUniqueGeneNames(supabase: Awaited<ReturnType<typeof createClient>>): Promise<string[]> {
-  const allNames: string[] = []
-  let offset = 0
-  while (true) {
-    const { data } = await supabase
-      .from('amr_genes')
-      .select('gene_name')
-      .range(offset, offset + 999)
-      .order('gene_name', { ascending: true })
-    if (!data || data.length === 0) break
-    for (const r of data) if (r.gene_name) allNames.push(r.gene_name)
-    if (data.length < 1000) break
-    offset += 1000
-  }
-  return [...new Set(allNames)].sort()
+  const allRows = await fetchAllRows<{ gene_name: string }>(supabase, 'amr_genes', 'gene_name')
+  return [...new Set(allRows.map((r) => r.gene_name).filter(Boolean))].sort()
 }
 
 async function getCachedGeneNames(supabase: Awaited<ReturnType<typeof createClient>>): Promise<string[]> {
@@ -265,18 +258,9 @@ async function getCachedGeneNames(supabase: Awaited<ReturnType<typeof createClie
 }
 
 async function _fetchMutationGroups(supabase: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, string[]>> {
-  const allRows: { id: string; gene_name: string; protein_change: string | null; nucleotide_change: string | null }[] = []
-  let offset = 0
-  while (true) {
-    const { data } = await supabase
-      .from('amr_mutations')
-      .select('id, gene_name, protein_change, nucleotide_change')
-      .range(offset, offset + 999)
-    if (!data || data.length === 0) break
-    allRows.push(...data)
-    if (data.length < 1000) break
-    offset += 1000
-  }
+  const allRows = await fetchAllRows<{ id: string; gene_name: string; protein_change: string | null; nucleotide_change: string | null }>(
+    supabase, 'amr_mutations', 'id, gene_name, protein_change, nucleotide_change'
+  )
   const groups = new Map<string, string[]>()
   for (const m of allRows) {
     const key = mutationGroupKey(m)
