@@ -36,7 +36,9 @@ async function _fetchValidationTiers(supabase: Awaited<ReturnType<typeof createC
     offset += batchSize
   }
 
-  _genePmids = new Set(allRows.map((r) => r.paper_pmid).filter(Boolean))
+  _genePmids = new Set(
+    allRows.flatMap((r) => r.paper_pmid ? r.paper_pmid.split(',').map((p) => p.trim()).filter((p) => p && /^\d+$/.test(p)) : [])
+  )
 
   if (allRows.length === 0) return new Map()
 
@@ -117,7 +119,9 @@ async function _fetchMutationValidationTiers(supabase: Awaited<ReturnType<typeof
     offset += batchSize
   }
 
-  _mutPmids = new Set(allRows.map((r) => r.paper_pmid).filter(Boolean) as string[])
+  _mutPmids = new Set(
+    allRows.flatMap((r) => r.paper_pmid ? r.paper_pmid.split(',').map((p) => p.trim()).filter((p) => p && /^\d+$/.test(p)) : [])
+  )
 
   if (allRows.length === 0) return new Map()
 
