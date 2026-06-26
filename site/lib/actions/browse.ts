@@ -20,6 +20,7 @@ let _mutGroupsCache: { data: Map<string, string[]>; ts: number } | null = null
 let _mutGroupsPromise: Promise<Map<string, string[]>> | null = null
 
 let _genePmids: Set<string> | null = null
+let _geneDbMap: Map<string, Set<string>> | null = null
 
 async function _fetchValidationTiers(supabase: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
   const allRows: { gene_name: string; source_database: string; paper_pmid: string; gene_status: string }[] = []
@@ -58,6 +59,11 @@ async function _fetchValidationTiers(supabase: Awaited<ReturnType<typeof createC
     if (r.source_database) info.databases.add(r.source_database)
     if (r.source_database === 'Reslit' && r.paper_pmid) info.reslitPmids.add(r.paper_pmid)
     if (r.gene_status === 'curated') info.hasCurated = true
+  }
+
+  _geneDbMap = new Map()
+  for (const [gene, info] of geneInfo) {
+    _geneDbMap.set(gene, info.databases)
   }
 
   const tiers = new Map<string, ValidationInfo>()
@@ -301,7 +307,7 @@ function hasComplexGeneFilters(filters: BrowseFilters): boolean {
   return !!(
     filters.mechanismClass || filters.antibiotic || filters.encodes ||
     filters.organism || filters.country || filters.yearFrom || filters.yearTo ||
-    filters.sourceDatabases?.length || filters.pmid || filters.curatedOnly ||
+    filters.pmid || filters.curatedOnly ||
     filters.geneNameSearch || filters.alleleSearch
   )
 }
@@ -402,6 +408,12 @@ export async function browseGenes(
     }
     if (filters.validationTier) {
       uniqueNames = uniqueNames.filter((g) => (tiers.get(g)?.tier ?? 'Candidate') === filters.validationTier)
+    }
+    if (filters.sourceDatabases?.length && _geneDbMap) {
+      uniqueNames = uniqueNames.filter((g) => {
+        const dbs = _geneDbMap!.get(g)
+        return dbs && filters.sourceDatabases!.some((db) => dbs.has(db))
+      })
     }
   }
 
