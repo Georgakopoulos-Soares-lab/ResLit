@@ -18,6 +18,7 @@ interface MutationsTableProps {
 interface MergedMutation {
   ids: string[]
   gene_name: string | null
+  gene_encodes: string | null
   protein_change: string | null
   nucleotide_changes: string[]
   mechanisms: string[]
@@ -61,6 +62,7 @@ function groupMutations(mutations: AMRMutation[]): MergedMutation[] {
       groups.set(key, {
         ids: [m.id],
         gene_name: m.gene_name,
+        gene_encodes: m.gene_encodes ?? null,
         protein_change: m.protein_change,
         nucleotide_changes: m.nucleotide_change ? [m.nucleotide_change] : [],
         mechanisms: m.effect_on_function ? [m.effect_on_function] : [],
@@ -113,12 +115,17 @@ export function MutationsTable({ mutations, hideGene }: MutationsTableProps) {
               {!hideGene && (
                 <TableCell>
                   {row.gene_name ? (
-                    <Link
-                      href={`/browse/genes/${encodeURIComponent(row.gene_name)}`}
-                      className="text-primary text-sm hover:underline font-medium"
-                    >
-                      {row.gene_name}
-                    </Link>
+                    <div>
+                      <Link
+                        href={`/browse/genes/${encodeURIComponent(row.gene_name)}`}
+                        className="text-primary text-sm hover:underline font-medium"
+                      >
+                        {row.gene_name}
+                      </Link>
+                      {row.gene_encodes && (
+                        <p className="text-xs text-muted-foreground mt-0.5">{row.gene_encodes}</p>
+                      )}
+                    </div>
                   ) : (
                     '-'
                   )}
