@@ -8,19 +8,9 @@ import {
   TableRow,
 } from '@/components/ui/table'
 import { ValidationTierBadge } from './validation-tier-badge'
-import { extractGeneFamily } from '@/lib/utils'
+
 import type { AMRGene } from '@/lib/types'
 
-function mechanismBadgeClass(cls: string): string {
-  const lower = cls.toLowerCase()
-  if (lower.includes('inactivat')) return 'bg-amber-100 text-amber-800 border border-amber-300'
-  if (lower.includes('efflux'))    return 'bg-sky-100 text-sky-800 border border-sky-300'
-  if (lower.includes('target'))    return 'bg-violet-100 text-violet-800 border border-violet-300'
-  if (lower.includes('permeab'))   return 'bg-teal-100 text-teal-800 border border-teal-300'
-  if (lower.includes('bypass'))    return 'bg-rose-100 text-rose-800 border border-rose-300'
-  if (lower.includes('protect'))   return 'bg-green-100 text-green-800 border border-green-300'
-  return 'bg-muted text-muted-foreground border border-border'
-}
 
 interface GenesTableProps {
   genes: AMRGene[]
@@ -88,37 +78,15 @@ export function GenesTable({ genes }: GenesTableProps) {
               ...new Set(group.map((g) => g.source_database).filter(Boolean)),
             ].sort()
             const alleleCount = new Set(group.map((g) => g.allele || g.gene_name).filter(Boolean)).size
-            const family = extractGeneFamily(geneName)
-
             return (
               <TableRow key={geneName} className="hover:bg-primary/5 align-top transition-colors">
                 <TableCell>
-                  {family ? (
-                    <div className="space-y-0.5">
-                      <Link
-                        href={`/browse/genes/family/${encodeURIComponent(family)}`}
-                        className="font-medium text-primary hover:underline block"
-                      >
-                        {geneName}
-                      </Link>
-                      <span className="text-xs text-muted-foreground">
-                        Family:{' '}
-                        <Link
-                          href={`/browse/genes/family/${encodeURIComponent(family)}`}
-                          className="hover:underline"
-                        >
-                          {family}
-                        </Link>
-                      </span>
-                    </div>
-                  ) : (
-                    <Link
-                      href={`/browse/genes/${encodeURIComponent(primary.gene_name)}`}
-                      className="font-medium text-primary hover:underline"
-                    >
-                      {geneName}
-                    </Link>
-                  )}
+                  <Link
+                    href={`/browse/genes/${encodeURIComponent(primary.gene_name)}`}
+                    className="font-medium text-primary hover:underline"
+                  >
+                    {geneName}
+                  </Link>
                 </TableCell>
                 <TableCell className="text-center">
                   <span className="text-sm font-medium text-muted-foreground">{alleleCount}</span>
