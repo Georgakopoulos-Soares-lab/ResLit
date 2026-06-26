@@ -39,9 +39,14 @@ async function fetchAllRows<T>(
       const offset = (i + j) * BATCH_SIZE
       return supabase.from(table).select(select).range(offset, offset + BATCH_SIZE - 1)
     })
-    const results = await Promise.all(batch)
-    for (const { data } of results) {
-      if (data) allRows.push(...(data as T[]))
+    const results = await Promise.allSettled(batch)
+    for (const result of results) {
+      if (result.status === 'fulfilled' && result.value.data) {
+        allRows.push(...(result.value.data as T[]))
+      }
+    }
+    if (i + PARALLEL_BATCHES < totalBatches) {
+      await new Promise((r) => setTimeout(r, 50))
     }
   }
   return allRows
