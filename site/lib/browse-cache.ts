@@ -40,8 +40,8 @@ async function _fetchFilterOptions(): Promise<FilterOptions> {
     supabase.from('amr_mutations').select('gene_name').not('gene_name', 'is', null).order('gene_name'),
     supabase.from('amr_mutations').select('confers_resistance_to').not('confers_resistance_to', 'is', null),
     supabase.from('amr_mutations').select('mutation_type').not('mutation_type', 'is', null).order('mutation_type'),
-    supabase.from('amr_genes').select('source_database').not('source_database', 'is', null).order('source_database').limit(100000),
-    supabase.from('amr_mutations').select('source_database').not('source_database', 'is', null).order('source_database').limit(100000),
+    supabase.from('amr_genes').select('source_database').not('source_database', 'is', null).order('source_database'),
+    supabase.from('amr_mutations').select('source_database').not('source_database', 'is', null).order('source_database'),
   ])
 
   return {
@@ -56,13 +56,7 @@ async function _fetchFilterOptions(): Promise<FilterOptions> {
     mutationGeneNames: [...new Set((mutationGeneData || []).map((r) => r.gene_name).filter(Boolean))].sort() as string[],
     mutationAntibiotics: [...new Set((mutationAntibioticData || []).flatMap((r) => r.confers_resistance_to || []).filter(Boolean))].sort() as string[],
     mutationTypes: [...new Set((mutationTypeData || []).map((r) => r.mutation_type).filter(Boolean))].sort() as string[],
-    sourceDatabases: [
-      ...new Set([
-        'Reslit',
-        ...(geneSourceDatabases?.map((r) => r.source_database).filter(Boolean) || []),
-        ...(mutationSourceDatabases?.map((r) => r.source_database).filter(Boolean) || []),
-      ]),
-    ].sort() as string[],
+    sourceDatabases: ['Card Database', 'Reference Gene Catalog', 'ResFinder Database', 'Reslit'],
   }
 }
 
