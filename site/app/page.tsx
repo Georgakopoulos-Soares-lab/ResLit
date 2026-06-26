@@ -16,15 +16,25 @@ async function getStats() {
     supabase.from('curators').select('id', { count: 'exact', head: true }),
   ])
 
-  // Count distinct PMIDs across both tables
+  // Count distinct PMIDs across both tables (paginate to bypass 1000-row API limit)
+  async function fetchAllPmids(table: string) {
+    const pmids: string[] = []
+    const pageSize = 1000
+    let offset = 0
+    while (true) {
+      const { data } = await supabase.from(table).select('paper_pmid').not('paper_pmid', 'is', null).range(offset, offset + pageSize - 1)
+      if (!data || data.length === 0) break
+      pmids.push(...data.map((r: { paper_pmid: string }) => r.paper_pmid))
+      if (data.length < pageSize) break
+      offset += pageSize
+    }
+    return pmids
+  }
   const [genePmids, mutationPmids] = await Promise.all([
-    supabase.from('amr_genes').select('paper_pmid').not('paper_pmid', 'is', null).limit(100000),
-    supabase.from('amr_mutations').select('paper_pmid').not('paper_pmid', 'is', null).limit(100000),
+    fetchAllPmids('amr_genes'),
+    fetchAllPmids('amr_mutations'),
   ])
-  const allPmids = new Set([
-    ...(genePmids.data?.map((r: { paper_pmid: string }) => r.paper_pmid) ?? []),
-    ...(mutationPmids.data?.map((r: { paper_pmid: string }) => r.paper_pmid) ?? []),
-  ])
+  const allPmids = new Set([...genePmids, ...mutationPmids])
   const totalPapers = allPmids.size
 
   // Compute validation tiers for genes and grouped mutations
