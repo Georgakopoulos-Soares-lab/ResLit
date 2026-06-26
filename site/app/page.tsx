@@ -18,8 +18,8 @@ async function getStats() {
 
   // Count distinct PMIDs across both tables
   const [genePmids, mutationPmids] = await Promise.all([
-    supabase.from('amr_genes').select('paper_pmid').not('paper_pmid', 'is', null),
-    supabase.from('amr_mutations').select('paper_pmid').not('paper_pmid', 'is', null),
+    supabase.from('amr_genes').select('paper_pmid').not('paper_pmid', 'is', null).limit(100000),
+    supabase.from('amr_mutations').select('paper_pmid').not('paper_pmid', 'is', null).limit(100000),
   ])
   const allPmids = new Set([
     ...(genePmids.data?.map((r: { paper_pmid: string }) => r.paper_pmid) ?? []),
