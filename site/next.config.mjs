@@ -11,6 +11,7 @@ const nextConfig = {
     serverActions: {
       allowedOrigins: ['localhost:3000', '192.168.*'],
     },
+    instrumentationHook: true,
   },
 }
 
