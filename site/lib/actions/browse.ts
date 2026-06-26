@@ -423,10 +423,10 @@ export async function browseGenes(
     return { data: [], total, page, pageSize: PAGE_SIZE, totalPages }
   }
 
-  // Single query for the actual page data
+  // Single query for the actual page data — select only columns the table needs
   const { data: pageData, error } = await supabase
     .from('amr_genes')
-    .select('*')
+    .select('id, gene_name, allele, encodes, confers_resistance_to, organisms_tested_in, source_database, mechanism, status, gene_status')
     .in('gene_name', pagedNames)
     .order('gene_name', { ascending: true })
 
@@ -437,7 +437,7 @@ export async function browseGenes(
   const enriched = pageData.map((row) => ({
     ...row,
     validation_tier: (tiers.get(row.gene_name)?.tier ?? 'Candidate') as ValidationTier,
-  }))
+  })) as AMRGene[]
 
   enriched.sort((a, b) => a.gene_name.localeCompare(b.gene_name))
 
