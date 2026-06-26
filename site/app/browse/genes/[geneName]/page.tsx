@@ -72,12 +72,28 @@ export default async function GeneDetailPage({ params }: PageProps) {
     proteinAccession: rows.map((r) => r.protein_accession).find(Boolean) ?? null,
   }))
 
+  // Derive encodes from gene papers or mutation data
+  const encodes = gene?.encodes
+    ?? genePapers.find((r) => r.encodes)?.encodes
+    ?? mutations.find((m) => m.gene_encodes)?.gene_encodes
+    ?? null
+
+  const isMutationOnly = genePapers.length === 0 && mutations.length > 0
+
   // Overview aggregates (family-level)
-  const allResistances = [...new Set(genePapers.flatMap((r) => r.confers_resistance_to ?? []))]
-  const allOrganisms = [...new Set(genePapers.flatMap((r) => r.organisms_tested_in ?? []))]
+  const allResistances = [...new Set([
+    ...genePapers.flatMap((r) => r.confers_resistance_to ?? []),
+    ...mutations.flatMap((m) => m.confers_resistance_to ?? []),
+  ])]
+  const allOrganisms = [...new Set([
+    ...genePapers.flatMap((r) => r.organisms_tested_in ?? []),
+    ...mutations.flatMap((m) => m.organisms_observed_in ?? []),
+  ])]
   const mechanismClass = gene?.resistance_mechanism_class
     ?? genePapers.find((r) => r.resistance_mechanism_class)?.resistance_mechanism_class
-  const mechanism = gene?.mechanism ?? genePapers.find((r) => r.mechanism)?.mechanism
+  const mechanism = gene?.mechanism
+    ?? genePapers.find((r) => r.mechanism)?.mechanism
+    ?? mutations.find((m) => m.gene_mechanism)?.gene_mechanism
   const validationMethod = gene?.validation_method ?? genePapers.find((r) => r.validation_method)?.validation_method
   const allLocations = [...new Set(genePapers.map((r) => r.geographic_location || r.isolation_country).filter(Boolean) as string[])].sort()
   const uniquePaperCount = new Set([
@@ -132,8 +148,8 @@ export default async function GeneDetailPage({ params }: PageProps) {
               </Button>
             )}
           </div>
-          {gene?.encodes && (
-            <p className="text-muted-foreground mb-5">{gene.encodes}</p>
+          {encodes && (
+            <p className="text-muted-foreground mb-5">{encodes}</p>
           )}
 
           {/* External links + curation status */}
@@ -165,9 +181,9 @@ export default async function GeneDetailPage({ params }: PageProps) {
                   <div className="text-xs text-indigo-600 mt-0.5">Known alleles and reference sequences</div>
                 </div>
               </a>
-              {gene?.encodes && (
+              {encodes && (
                 <a
-                  href={`https://www.uniprot.org/uniprotkb?query=${encodeURIComponent(gene.encodes)}+${encodeURIComponent(decodedName)}+AND+(taxonomy_id%3A2)`}
+                  href={`https://www.uniprot.org/uniprotkb?query=${encodeURIComponent(encodes)}+${encodeURIComponent(decodedName)}+AND+(taxonomy_id%3A2)`}
                   target="_blank" rel="noopener noreferrer"
                   className="inline-flex items-start gap-2.5 px-3.5 py-2.5 rounded-lg border border-amber-200 bg-amber-50 hover:bg-amber-100 transition-colors group"
                 >
@@ -194,13 +210,15 @@ export default async function GeneDetailPage({ params }: PageProps) {
                 </div>
               </a>
             </div>
-            <div className="flex flex-col items-end gap-1">
-              <div className="flex items-center gap-2 px-3.5 py-2.5 rounded-lg border border-border bg-white shadow-sm">
-                <span className="text-xs text-muted-foreground">Validation Status</span>
-                <ValidationTierBadge tier={validationTier} reason={confirmationReason} />
+            {!isMutationOnly && (
+              <div className="flex flex-col items-end gap-1">
+                <div className="flex items-center gap-2 px-3.5 py-2.5 rounded-lg border border-border bg-white shadow-sm">
+                  <span className="text-xs text-muted-foreground">Validation Status</span>
+                  <ValidationTierBadge tier={validationTier} reason={confirmationReason} />
+                </div>
+                {gene && <HistoryDialog targetType="gene" targetId={gene.id} allTargetIds={genePapers.map((g) => g.id)} confirmationReason={confirmationReason} />}
               </div>
-              {gene && <HistoryDialog targetType="gene" targetId={gene.id} allTargetIds={genePapers.map((g) => g.id)} confirmationReason={confirmationReason} />}
-            </div>
+            )}
           </div>
 
           {/* Overview */}
