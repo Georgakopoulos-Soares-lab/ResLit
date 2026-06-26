@@ -33,6 +33,12 @@ COPY --from=installer /app/node_modules ./node_modules
 # Copy source code
 COPY . .
 
+# Make Railway env vars available at build time for NEXT_PUBLIC_ inlining
+ARG NEXT_PUBLIC_SUPABASE_URL
+ARG NEXT_PUBLIC_SUPABASE_ANON_KEY
+ENV NEXT_PUBLIC_SUPABASE_URL=$NEXT_PUBLIC_SUPABASE_URL
+ENV NEXT_PUBLIC_SUPABASE_ANON_KEY=$NEXT_PUBLIC_SUPABASE_ANON_KEY
+
 # Build the Next.js app (output: standalone produces .next/standalone/)
 ENV NODE_ENV=production
 RUN pnpm build
