@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description: 'A comprehensive, curated database of antimicrobial resistance genes and mutations extracted from scientific literature. Browse, search, and explore AMR data with PubMed integration.',
   keywords: ['AMR', 'antimicrobial resistance', 'genes', 'mutations', 'database', 'PubMed', 'antibiotics', 'research'],
   authors: [{ name: 'ResLit Team' }],
-  generator: 'v0.app',
+  robots: { index: true, follow: true },
   icons: {
     icon: '/icon.svg',
   },
