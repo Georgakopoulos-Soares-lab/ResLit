@@ -2,6 +2,7 @@
 
 import { createClient } from '@/lib/supabase/server'
 import { revalidatePath } from 'next/cache'
+import { invalidateTierCaches } from '@/lib/actions/browse'
 import type { AMRGene, AMRMutation, Curator, CurationNote, CurationHistory } from '@/lib/types'
 
 export async function getCurrentCurator(): Promise<Curator | null> {
@@ -163,6 +164,7 @@ export async function updateGeneStatus(
     })
   }
 
+  invalidateTierCaches()
   revalidatePath('/curator/dashboard')
   revalidatePath('/curator/genes')
   revalidatePath('/browse/genes')
@@ -237,6 +239,7 @@ export async function updateMutationStatus(
     })
   }
 
+  invalidateTierCaches()
   revalidatePath('/curator/dashboard')
   revalidatePath('/curator/mutations')
   revalidatePath('/browse/mutations')
