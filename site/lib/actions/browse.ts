@@ -24,7 +24,7 @@ let _geneDbMap: Map<string, Set<string>> | null = null
 
 async function _fetchValidationTiers(supabase: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
   const allRows: { gene_name: string; source_database: string; paper_pmid: string; gene_status: string }[] = []
-  const batchSize = 10000
+  const batchSize = 1000
   let offset = 0
   while (true) {
     const { data } = await supabase
@@ -112,7 +112,7 @@ let _mutPmids: Set<string> | null = null
 
 async function _fetchMutationValidationTiers(supabase: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
   const allRows: { id: string; gene_name: string; protein_change: string | null; nucleotide_change: string | null; source_database: string; paper_pmid: string | null; status: string }[] = []
-  const batchSize = 10000
+  const batchSize = 1000
   let offset = 0
   while (true) {
     const { data } = await supabase
@@ -237,7 +237,7 @@ async function _fetchUniqueGeneNames(supabase: Awaited<ReturnType<typeof createC
     const { data } = await supabase
       .from('amr_genes')
       .select('gene_name')
-      .range(offset, offset + 9999)
+      .range(offset, offset + 999)
       .order('gene_name', { ascending: true })
     if (!data || data.length === 0) break
     for (const r of data) if (r.gene_name) allNames.push(r.gene_name)
@@ -271,7 +271,7 @@ async function _fetchMutationGroups(supabase: Awaited<ReturnType<typeof createCl
     const { data } = await supabase
       .from('amr_mutations')
       .select('id, gene_name, protein_change, nucleotide_change')
-      .range(offset, offset + 9999)
+      .range(offset, offset + 999)
     if (!data || data.length === 0) break
     allRows.push(...data)
     if (data.length < 1000) break
@@ -392,11 +392,11 @@ export async function browseGenes(
     const allNames: string[] = []
     let offset = 0
     while (true) {
-      const { data } = await q.order('gene_name', { ascending: true }).range(offset, offset + 9999)
+      const { data } = await q.order('gene_name', { ascending: true }).range(offset, offset + 999)
       if (!data || data.length === 0) break
       for (const r of data) if (r.gene_name) allNames.push(r.gene_name)
-      if (data.length < 10000) break
-      offset += 10000
+      if (data.length < 1000) break
+      offset += 1000
     }
     uniqueNames = [...new Set(allNames)].sort()
   } else {
@@ -485,11 +485,11 @@ export async function browseMutations(
     const allIdentities: { id: string; gene_name: string; protein_change: string | null; nucleotide_change: string | null }[] = []
     let offset = 0
     while (true) {
-      const { data } = await q.order('gene_name', { ascending: true }).range(offset, offset + 9999)
+      const { data } = await q.order('gene_name', { ascending: true }).range(offset, offset + 999)
       if (!data || data.length === 0) break
       allIdentities.push(...data)
-      if (data.length < 10000) break
-      offset += 10000
+      if (data.length < 1000) break
+      offset += 1000
     }
 
     groups = new Map<string, string[]>()
