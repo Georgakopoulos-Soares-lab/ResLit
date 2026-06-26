@@ -19,6 +19,8 @@ let _geneNamesPromise: Promise<string[]> | null = null
 let _mutGroupsCache: { data: Map<string, string[]>; ts: number } | null = null
 let _mutGroupsPromise: Promise<Map<string, string[]>> | null = null
 
+let _genePmids: Set<string> | null = null
+
 async function _fetchValidationTiers(supabase: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
   const allRows: { gene_name: string; source_database: string; paper_pmid: string; gene_status: string }[] = []
   const batchSize = 1000
@@ -33,6 +35,8 @@ async function _fetchValidationTiers(supabase: Awaited<ReturnType<typeof createC
     if (data.length < batchSize) break
     offset += batchSize
   }
+
+  _genePmids = new Set(allRows.map((r) => r.paper_pmid).filter(Boolean))
 
   if (allRows.length === 0) return new Map()
 
@@ -96,6 +100,8 @@ export async function getValidationTiers(supabaseClient?: Awaited<ReturnType<typ
   return _geneTierPromise
 }
 
+let _mutPmids: Set<string> | null = null
+
 async function _fetchMutationValidationTiers(supabase: Awaited<ReturnType<typeof createClient>>): Promise<Map<string, ValidationInfo>> {
   const allRows: { id: string; gene_name: string; protein_change: string | null; nucleotide_change: string | null; source_database: string; paper_pmid: string | null; status: string }[] = []
   const batchSize = 1000
@@ -110,6 +116,8 @@ async function _fetchMutationValidationTiers(supabase: Awaited<ReturnType<typeof
     if (data.length < batchSize) break
     offset += batchSize
   }
+
+  _mutPmids = new Set(allRows.map((r) => r.paper_pmid).filter(Boolean) as string[])
 
   if (allRows.length === 0) return new Map()
 
@@ -203,6 +211,13 @@ export async function getMutationValidationTiers(supabaseClient?: Awaited<Return
     })
   }
   return _mutTierPromise
+}
+
+export async function getDistinctPaperCount(supabaseClient?: Awaited<ReturnType<typeof createClient>>): Promise<number> {
+  const supabase = supabaseClient ?? await createClient()
+  await Promise.all([getValidationTiers(supabase), getMutationValidationTiers(supabase)])
+  const all = new Set([...(_genePmids ?? []), ...(_mutPmids ?? [])])
+  return all.size
 }
 
 async function _fetchUniqueGeneNames(supabase: Awaited<ReturnType<typeof createClient>>): Promise<string[]> {

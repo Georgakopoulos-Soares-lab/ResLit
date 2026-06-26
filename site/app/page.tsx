@@ -6,7 +6,7 @@ import { Footer } from '@/components/footer'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { createClient } from '@/lib/supabase/server'
-import { getValidationTiers, getGroupedMutationTierCounts } from '@/lib/actions/browse'
+import { getValidationTiers, getGroupedMutationTierCounts, getDistinctPaperCount } from '@/lib/actions/browse'
 
 async function getStats() {
   const supabase = await createClient()
@@ -16,32 +16,13 @@ async function getStats() {
     supabase.from('curators').select('id', { count: 'exact', head: true }),
   ])
 
-  // Count distinct PMIDs across both tables (paginate to bypass 1000-row API limit)
-  async function fetchAllPmids(table: string) {
-    const pmids: string[] = []
-    const pageSize = 1000
-    let offset = 0
-    while (true) {
-      const { data } = await supabase.from(table).select('paper_pmid').not('paper_pmid', 'is', null).range(offset, offset + pageSize - 1)
-      if (!data || data.length === 0) break
-      pmids.push(...data.map((r: { paper_pmid: string }) => r.paper_pmid))
-      if (data.length < pageSize) break
-      offset += pageSize
-    }
-    return pmids
-  }
-  const [genePmids, mutationPmids] = await Promise.all([
-    fetchAllPmids('amr_genes'),
-    fetchAllPmids('amr_mutations'),
-  ])
-  const allPmids = new Set([...genePmids, ...mutationPmids])
-  const totalPapers = allPmids.size
-
   // Compute validation tiers for genes and grouped mutations
+  // (also collects distinct PMIDs as a side effect for the paper count)
   const [tiers, mutGrouped] = await Promise.all([
     getValidationTiers(supabase),
     getGroupedMutationTierCounts(supabase),
   ])
+  const totalPapers = await getDistinctPaperCount(supabase)
   const tierCounts = { Confirmed: 0, Established: 0, Supported: 0, Candidate: 0 }
   for (const info of tiers.values()) {
     tierCounts[info.tier]++
