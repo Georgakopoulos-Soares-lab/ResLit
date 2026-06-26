@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { createClient } from '@/lib/supabase/client'
 import { Header } from '@/components/header'
@@ -20,6 +21,7 @@ import {
 type Step = 'form' | 'check-email'
 
 export default function CuratorSignupPage() {
+  const router = useRouter()
   const [step, setStep] = useState<Step>('form')
 
   const [email, setEmail] = useState('')
@@ -39,7 +41,7 @@ export default function CuratorSignupPage() {
 
     try {
       const supabase = createClient()
-      const { error: signUpError } = await supabase.auth.signUp({
+      const { data, error: signUpError } = await supabase.auth.signUp({
         email,
         password,
         options: {
@@ -50,7 +52,22 @@ export default function CuratorSignupPage() {
 
       if (signUpError) throw signUpError
 
-      // Show email check screen - user needs to click link in email
+      // If user is auto-confirmed (email confirmation disabled), create curator record and redirect
+      if (data.session && data.user) {
+        const { error: insertError } = await supabase
+          .from('curators')
+          .insert({
+            id: data.user.id,
+            email: data.user.email!,
+            name,
+            affiliation: institution || null,
+          })
+        if (insertError) console.error('Error creating curator record:', insertError)
+        router.push('/curator/dashboard')
+        return
+      }
+
+      // Otherwise show email check screen
       setStep('check-email')
     } catch (err: unknown) {
       setError(err instanceof Error ? err.message : 'Sign-up failed')
