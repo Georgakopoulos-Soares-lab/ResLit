@@ -30,7 +30,7 @@ export default async function CollaboratorsPage() {
 
   // Group curators by institution
   const byInstitution = curators.reduce((acc, curator) => {
-    const inst = curator.institution || "Independent"
+    const inst = curator.affiliation || curator.institution || "Independent"
     if (!acc[inst]) acc[inst] = []
     acc[inst].push(curator)
     return acc
@@ -160,9 +160,6 @@ export default async function CollaboratorsPage() {
                                 <h3 className="font-semibold text-foreground truncate">
                                   {curator.name}
                                 </h3>
-                                <p className="text-sm text-muted-foreground truncate">
-                                  {curator.email}
-                                </p>
                                 <Badge 
                                   variant={curator.role === "admin" ? "default" : "secondary"}
                                   className="mt-2"
