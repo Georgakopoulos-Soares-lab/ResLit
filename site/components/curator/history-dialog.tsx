@@ -134,6 +134,16 @@ export function HistoryDialog({ targetType, targetId, allTargetIds, compact, con
                   </p>
                 )}
 
+                {/* Validation tier change */}
+                {entry.changes && (entry.changes as Record<string, unknown>).previous_tier && (entry.changes as Record<string, unknown>).new_tier && (entry.changes as Record<string, unknown>).previous_tier !== (entry.changes as Record<string, unknown>).new_tier && (
+                  <p className="text-xs text-muted-foreground">
+                    Validation:{' '}
+                    <span className="font-medium text-foreground">{String((entry.changes as Record<string, unknown>).previous_tier)}</span>
+                    {' → '}
+                    <span className="font-medium text-emerald-700">{String((entry.changes as Record<string, unknown>).new_tier)}</span>
+                  </p>
+                )}
+
                 {/* Field-level diff */}
                 {entry.action === 'edit' && entry.changes && Object.keys(entry.changes).length > 0 && (
                   <ul className="space-y-1">

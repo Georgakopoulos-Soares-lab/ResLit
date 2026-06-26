@@ -2,7 +2,7 @@
 
 import { createClient } from '@/lib/supabase/server'
 import { revalidatePath } from 'next/cache'
-import { invalidateTierCaches } from '@/lib/actions/browse'
+import { invalidateTierCaches, getValidationTiers } from '@/lib/actions/browse'
 import type { AMRGene, AMRMutation, Curator, CurationNote, CurationHistory } from '@/lib/types'
 
 export async function getCurrentCurator(): Promise<Curator | null> {
@@ -97,7 +97,7 @@ export async function updateGeneStatus(
     return { success: false, error: 'Not authenticated as curator' }
   }
 
-  // Get current gene status and allele
+  // Get current gene status, allele, and previous validation tier
   const { data: gene } = await supabase
     .from('amr_genes')
     .select('status, gene_name, allele')
@@ -107,6 +107,9 @@ export async function updateGeneStatus(
   if (!gene) {
     return { success: false, error: 'Gene not found' }
   }
+
+  const tiers = await getValidationTiers(supabase)
+  const previousTier = tiers.get(gene.gene_name)?.tier ?? 'Candidate'
 
   // Update this row's status and curator info
   const { error: updateError } = await supabase
@@ -134,6 +137,11 @@ export async function updateGeneStatus(
     return { success: false, error: updateError.message }
   }
 
+  // Invalidate and recompute to get new tier
+  await invalidateTierCaches()
+  const newTiers = await getValidationTiers(supabase)
+  const newTier = newTiers.get(gene.gene_name)?.tier ?? 'Candidate'
+
   // Log curation history
   const { error: historyError } = await supabase.from('curation_history').insert({
     target_type: 'gene',
@@ -145,7 +153,12 @@ export async function updateGeneStatus(
     action: status === 'curated' ? 'approve' : 'reject',
     previous_status: gene.status,
     new_status: status,
-    changes: { allele: gene.allele || gene.gene_name, gene_name: gene.gene_name },
+    changes: {
+      allele: gene.allele || gene.gene_name,
+      gene_name: gene.gene_name,
+      previous_tier: previousTier,
+      new_tier: newTier,
+    },
   })
   if (historyError) {
     console.error('Failed to log curation history:', historyError.message)
@@ -164,7 +177,6 @@ export async function updateGeneStatus(
     })
   }
 
-  invalidateTierCaches()
   revalidatePath('/curator/dashboard')
   revalidatePath('/curator/genes')
   revalidatePath('/browse/genes')
