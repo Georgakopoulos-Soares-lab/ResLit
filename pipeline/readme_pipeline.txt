@@ -182,3 +182,68 @@ Output:
   Not copied into this repo (stray duplicate script found alongside the
   above, appears to be a working copy, not part of the canonical pipeline):
     /work/11252/skulakis/projects/reslit/screen_abstract_multiGPU copy.py
+
+
+STEP 4 — Full-text download
+--------------------------------------------------------
+Folder:  /work/11252/skulakis/projects/reslit/pipeline/scripts_dld/
+(moved here from the repo's top-level scripts_dld/ folder; full details in
+pipeline/scripts_dld/README.md)
+
+What it does:
+  Given a PMID list, retrieves full-text articles and produces a verified,
+  deduplicated text corpus, in three stages:
+    Stage 1 - OA download (05_run_oa_in_chunks.py -> 01_download_oa.py):
+      tries PMC Bulk XML -> EuropePMC XML -> PMC EFetch -> OA HTML ->
+      Publisher HTML -> PubMed BioC, per PMID, highest quality first.
+    Stage 2 - API download (06_run_api_in_chunks.py ->
+      02_download_api_key_articles.py): for PMIDs stage 1 couldn't resolve,
+      tries PMC EFetch -> EuropePMC -> Elsevier -> Wiley TDM PDF ->
+      Publisher HTML -> PubMed BioC, using API keys (NCBI/Elsevier/Wiley/
+      Springer) from apikey.env (git-ignored, not committed).
+    Stage 3 - Merge & filter (merge_and_filter.py): deduplicates PMIDs found
+      in both OA and API output (keeps the highest-quality source), then
+      classifies each as full-text (body word count >= 500 and real body
+      sections present) vs abstract-only/rejected.
+  run_pipeline.py orchestrates all three stages end-to-end; 03_report_failures.py
+  and 04_filter_fulltext.py are utility/audit scripts (failure breakdown by
+  publisher, re-classification without re-downloading).
+
+Input used so far (IMPORTANT - see note below):
+  The runs recorded in STATUS_LOG_2026-04-15.md and STATUS_LOG_2026-04-21.md
+  were done on amr_genes_pmids_amrprofiler_uniq.txt - a curated seed list of
+  2,630 PMIDs from the existing AMRprofiler database - NOT on the
+  BioMistral-passed PMIDs from Step 3 (results_first_run.csv "YES" set,
+  ~102,687 PMIDs, or the larger 900K remaining batches). In other words,
+  this stage has so far only been validated/run at small scale on a
+  different, pre-existing PMID list; it has not yet been pointed at the
+  Step 3 output at scale.
+  full path: /work/11252/skulakis/projects/reslit/amrprofiler_database/amr_genes_pmids_amrprofiler_uniq.txt
+             (2,630 PMIDs; copies also exist at
+             /work/11252/skulakis/projects/reslit/downloading_papers/amr_genes_pmids_amrprofiler_uniq.txt
+             and /work/11252/skulakis/projects/reslit/site/amr_genes_pmids_amrprofiler_uniq.txt)
+
+Output (as published in this repo, per STATUS_LOG_2026-04-21.md):
+  Valid PMIDs considered:              2,627
+  Retrieval-level full-text found:     1,787
+  Abstract-only:                       839
+  Failed:                              1
+  Verified full-text after body validation: 1,596
+  Excluded as preview/placeholder/non-body: 192
+
+    pipeline/scripts_dld/fulltext_txt/   - 1,595 verified full-text .txt
+                                            files, one per PMID, each with a
+                                            header (PMID/PMCID/DOI/Title/
+                                            Journal/Source/License) followed
+                                            by section-tagged body text
+      full path: /work/11252/skulakis/projects/reslit/pipeline/scripts_dld/fulltext_txt/
+
+    pipeline/scripts_dld/reports/        - JSON/TSV/JSONL summaries: failure
+                                            report by publisher, abstract-only
+                                            follow-up candidates, TDM
+                                            candidates manifest, next-steps
+                                            action list
+      full path: /work/11252/skulakis/projects/reslit/pipeline/scripts_dld/reports/
+
+    pipeline/scripts_dld/runs/           - JSONL result logs per API chunk
+      full path: /work/11252/skulakis/projects/reslit/pipeline/scripts_dld/runs/
