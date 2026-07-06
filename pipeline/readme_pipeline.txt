@@ -9,7 +9,7 @@ to the repo.
 
 STEP 1 — PubMed keyword search
 -------------------------------
-Folder:  pipeline/pubmed_search/scripts/pubmed_fetch.ipynb
+Folder:  /work/11252/skulakis/projects/reslit/pipeline/pubmed_search/scripts/pubmed_fetch.ipynb
 
 What it does:
   Queries the NCBI E-utilities ESearch endpoint directly (raw HTTP via
@@ -26,8 +26,9 @@ What it does:
   across the range 1960-2025, then deduplicates all PMIDs into one set.
 
 Output:
-  Location (local, not yet in this repo): scripts/amr_pmids_genetics2.txt
-  and scripts/amr_pmids_genetics2.csv
+  Location (local, not yet in this repo):
+    /work/11252/skulakis/projects/reslit/scripts/amr_pmids_genetics2.txt
+    /work/11252/skulakis/projects/reslit/scripts/amr_pmids_genetics2.csv
   Contents: one PMID per line (txt) / single "PMID" column (csv) — the full
   deduplicated set of candidate PMIDs from all ~80 queries.
   Current size: 2,057,492 unique PMIDs.
@@ -35,7 +36,7 @@ Output:
 
 STEP 2 — PubTator3 + MeSH hybrid classifier (filtering)
 --------------------------------------------------------
-Folder:  pipeline/pubmed_search/scripts/reslit_classifier.ipynb
+Folder:  /work/11252/skulakis/projects/reslit/pipeline/pubmed_search/scripts/reslit_classifier.ipynb
 
 What it does (takes Step 1's PMID list as input):
   1. Downloads PubTator3 bulk annotation files (~3.3GB) and builds a DuckDB
@@ -58,25 +59,45 @@ What it does (takes Step 1's PMID list as input):
      to override.
 
 Output:
-  Location (local, not yet in this repo): results_amr_pmids_genetics/
+  Location (local, not yet in this repo):
+    /work/11252/skulakis/projects/reslit/results_amr_pmids_genetics/
+
     passed.txt                        - PMIDs passing the 4-signal classifier
                                          (1,543,368 PMIDs)
+      full path: /work/11252/skulakis/projects/reslit/results_amr_pmids_genetics/passed.txt
+
     not_passed.txt                    - PMIDs failing all signals
                                          (514,123 PMIDs)
+      full path: /work/11252/skulakis/projects/reslit/results_amr_pmids_genetics/not_passed.txt
+
     passed_cleaned.txt                - passed.txt after removing non-English
                                          and wrong-organism entries
                                          (1,420,586 PMIDs) — this is the set
                                          that feeds the next pipeline stage
+      full path: /work/11252/skulakis/projects/reslit/results_amr_pmids_genetics/passed_cleaned.txt
+
     removed_non_english.txt           - PMIDs dropped for non-English language
                                          (79,379 PMIDs)
+      full path: /work/11252/skulakis/projects/reslit/results_amr_pmids_genetics/removed_non_english.txt
+
     removed_wrong_organism.txt        - PMIDs dropped for non-bacterial
                                          organism MeSH terms (43,401 PMIDs)
+      full path: /work/11252/skulakis/projects/reslit/results_amr_pmids_genetics/removed_wrong_organism.txt
+
     seed_pmids_not_passed.txt /
     seed_pmids_not_passed_details.tsv - audit trail of which seed PMIDs
                                          failed and which signal/decision
                                          they got
+      full paths: /work/11252/skulakis/projects/reslit/results_amr_pmids_genetics/seed_pmids_not_passed.txt
+                  /work/11252/skulakis/projects/reslit/results_amr_pmids_genetics/seed_pmids_not_passed_details.tsv
+
   Intermediate/support files (large, not tracked in this repo):
     papers.sqlite            - Entrez metadata + PubTator flags +
                                 screen_decision/screen_signal per PMID
+      full path: /work/11252/skulakis/projects/reslit/papers.sqlite
+
     pubtator3_index.duckdb   - DuckDB index built from PubTator3 files
+      full path: /work/11252/skulakis/projects/reslit/pubtator3_index.duckdb
+
     pubtator3_data/          - raw PubTator3 bulk downloads (~3.3GB)
+      full path: /work/11252/skulakis/projects/reslit/pubtator3_data/
