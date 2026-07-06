@@ -247,3 +247,103 @@ Output (as published in this repo, per STATUS_LOG_2026-04-21.md):
 
     pipeline/scripts_dld/runs/           - JSONL result logs per API chunk
       full path: /work/11252/skulakis/projects/reslit/pipeline/scripts_dld/runs/
+
+
+STEP 5 — LLM gene/mutation extraction (Qwen3-30B-A3B via vLLM)
+--------------------------------------------------------
+Folder:  /work/11252/skulakis/projects/reslit/pipeline/read_papers/scripts/
+(copied from /work/11252/skulakis/projects/reslit/read_papers/fulltext_txt_50000/,
+which is the current/final version of this step - an earlier, smaller-scale
+version of the same script lives locally at
+read_papers/analyse_papers/process_all_papers_vllm_final_gemini.py and is
+NOT copied into the repo, to avoid duplicating the same script twice)
+
+Scripts:
+  process_all_papers_vllm_final_gemini.py - the extraction pipeline itself.
+    Despite the filename, it runs Qwen/Qwen3-30B-A3B locally via vLLM (not
+    Gemini - leftover name from an earlier iteration). Two-pass design:
+      Pass 1 - structured JSON extraction of AMR genes/mutations per paper
+        against a strict whitelist schema (allele, encodes, mechanism,
+        confers_resistance_to, resistance_mechanism_class,
+        organisms_tested_in, role_in_paper, validation_method,
+        evidence_level, key_substitutions, genetic_context, source,
+        evidence_note for genes; notation, amino_acid_position,
+        nucleotide_position, codon_change, nucleotide_change,
+        protein_change, position_in_molecule, confers_resistance_to,
+        organisms_observed_in, effect_on_function, mutation_type,
+        validated_by, origin for mutations).
+      Pass 2 - "atomic auditor": re-verifies each extracted field against
+        the actual paper text, field by field, to cut false positives
+        (design goal stated in the script: precision over recall, since
+        1% FP at 400K papers = 4000 wrong entries).
+    Design rules baked into the prompt/schema: only extract what THIS paper
+    experimentally validated (not citations/background); regulatory or
+    biosynthesis genes (mgrB, pmrA/B, phoP/Q, lpxA-T, arnB-T, etc.) only
+    count when mutated; review papers get bibliography-inference rules
+    (evidence_level="inferred", source="bibliography").
+    Reads full-text from PAPERS_FOLDER env var (defaults to
+    read_papers/fulltext_txt), writes one <PMID>.json per paper plus
+    extraction_summary.json / reviews_summary.json / irrelevant_summary.json
+    / errors_summary.json to OUTPUT_DIR env var. Supports --PMID (process
+    specific PMIDs), --override (reprocess existing), --skip-audit (skip
+    Pass 2). Resumes automatically - already-processed PMIDs are skipped.
+  regenerate_extraction_summary.py - rebuilds extraction_summary.json (and
+    the reviews/irrelevant/errors summaries) from the individual <PMID>.json
+    files in one results/ folder, without re-running the model.
+  job_extract_all_vllm.sh - SLURM launcher (TACC, partition gh) for a single
+    run over the whole PAPERS_FOLDER.
+  job_extract_all_vllm_fulltext_1.sh ... _6.sh - SLURM launchers for a 6-way
+    split of the corpus, each setting PAPERS_FOLDER=fulltext_txt_50000/fulltext_N
+    and OUTPUT_DIR=fulltext_txt_50000/analyse_papers/batch_N/results, so all
+    6 batches can run in parallel as separate SLURM jobs.
+
+Input:
+  Full-text .txt files from Step 4, split into 6 folders for parallel SLURM
+  jobs:
+    /work/11252/skulakis/projects/reslit/read_papers/fulltext_txt_50000/fulltext_1/ ... fulltext_6/
+  (117,112 papers total across the 6 folders)
+
+Output (current state, 2026-07-06 - NOT yet a single merged/final file,
+see note below):
+  Location: /work/11252/skulakis/projects/reslit/read_papers/fulltext_txt_50000/analyse_papers/
+    batch_1/results/ ... batch_6/results/ - one <PMID>.json per paper, plus
+    per-batch extraction_summary.json / reviews_summary.json /
+    irrelevant_summary.json / errors_summary.json
+      full paths:
+        /work/11252/skulakis/projects/reslit/read_papers/fulltext_txt_50000/analyse_papers/batch_1/results/
+        /work/11252/skulakis/projects/reslit/read_papers/fulltext_txt_50000/analyse_papers/batch_2/results/
+        /work/11252/skulakis/projects/reslit/read_papers/fulltext_txt_50000/analyse_papers/batch_3/results/
+        /work/11252/skulakis/projects/reslit/read_papers/fulltext_txt_50000/analyse_papers/batch_4/results/
+        /work/11252/skulakis/projects/reslit/read_papers/fulltext_txt_50000/analyse_papers/batch_5/results/
+        /work/11252/skulakis/projects/reslit/read_papers/fulltext_txt_50000/analyse_papers/batch_6/results/
+
+  Per-batch totals (from each batch's extraction_summary.json):
+    batch_1: 20,233 papers | 11,758 successful extractions | 22,155 genes
+    batch_2: 18,619 papers | 10,212 successful extractions | 18,894 genes
+    batch_3: 18,617 papers | 10,313 successful extractions | 19,556 genes
+    batch_4: 19,919 papers |  9,892 successful extractions | 17,656 genes
+    batch_5: 19,945 papers | 11,734 successful extractions | 26,835 genes
+    batch_6: 19,779 papers | 10,367 successful extractions | 20,867 genes
+    TOTAL:  117,112 papers |  64,276 successful extractions | 125,963 genes
+
+  NOTE: there is currently no single merged file combining all 6 batches.
+  regenerate_extraction_summary.py only rebuilds the summary for one
+  results/ folder at a time. Producing one final combined CSV/JSON across
+  all 6 batches (for import into the site database) is still a TODO.
+
+  Also present locally but NOT copied into the repo:
+    read_papers/analyse_papers/ - an earlier, smaller-scale run of the same
+      extraction script (process_all_papers_vllm_final_gemini.py, plus
+      several superseded variants: _18_5, _19_5, _final_22_5, _final,
+      _final_gemini_old, _final_gemini_backup, _final_gemini_backUpbeforAuditor,
+      _final_gemini_backupAfterAuditor) against results_vllm/ (1,603 files,
+      current), results_vllm_old/ (1,596), results_vllm_notGood/ (1,590),
+      results_vllm_test/, results_vllm_gemini_test/ (small test runs).
+      full path: /work/11252/skulakis/projects/reslit/read_papers/analyse_papers/
+    read_papers/fulltext_txt_50000/process_all_papers_vllm_final_gemini copy.py
+      and process_all_papers_vllm_final_gemini_old.py - stray duplicate /
+      superseded versions found alongside the current script, not part of
+      the canonical pipeline.
+    read_papers/fulltext_txt_50000/mutations-20260604T085950Z-3-001.zip - a
+      raw full-text corpus backup (fulltext_oa/ and fulltext_api/ subfolders),
+      unrelated to extraction output.
