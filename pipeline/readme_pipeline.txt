@@ -131,20 +131,39 @@ Scripts:
                                  screen_abstract.sh with a specific input PMID
                                  file / output folder / final CSV name.
 
+  vista/screen_abstract_multiGPU_vista.py - single-GPU variant of
+    screen_abstract_multiGPU.py, adapted for TACC's Vista system (Grace
+    Hopper "gh" partition, ~120GB unified GPU memory): loads
+    BioMistral-7B once on a single GPU instead of splitting across 2 GPUs
+    with multiprocessing, and uses a larger per-inference batch size (12)
+    since more VRAM is available. Same few-shot YES/NO prompt logic and
+    same papers.sqlite source as the original script.
+  vista/screen_abstract_vista.sh - same orchestrator as screen_abstract.sh
+    (splits into 10,000-PMID batches, merges results_batch_N.csv into one
+    final CSV) but calls screen_abstract_multiGPU_vista.py.
+  vista/job_biomistral_300000_vista.sh / _600000_vista.sh / _900000_vista.sh
+    - SLURM launchers (TACC Vista, partition gh) that run
+    screen_abstract_vista.sh against the 0-300K / 300-600K / 600-900K PMID
+    chunks respectively (see Output below — these are the ACTUAL runs for
+    those three chunks; the local biomistral_filtering_0_300_old/,
+    _300_600/, _600_900/ folders are stale/incomplete and superseded by
+    the Vista runs).
+
 What it does:
   Takes Step 2's passed_cleaned.txt (1,420,586 PMIDs) as input, split into
-  batches on 2026-04-15/16/20 (first_run = first 490,046 PMIDs; the
-  remaining 930,590 split into 0-300K / 300-600K / 600-900K chunks of
-  ~300,000 PMIDs each — this split was done for job-scheduling convenience,
-  not a separate pipeline step). Each batch is run through the BioMistral
-  few-shot YES/NO classifier above to flag which papers are actually about
-  antimicrobial resistance (narrowing the corpus before the expensive
-  full-text download/extraction stages).
+  batches on 2026-04-15/16/20 (first_run = first 490,046 PMIDs, run
+  locally; the remaining 930,590 split into 0-300K / 300-600K / 600-900K
+  chunks of ~300,000 PMIDs each, run on the Vista system — this split was
+  done for job-scheduling convenience, not a separate pipeline step). Each
+  batch is run through the BioMistral few-shot YES/NO classifier above to
+  flag which papers are actually about antimicrobial resistance (narrowing
+  the corpus before the expensive full-text download/extraction stages).
 
 Output:
   Location (local, not yet in this repo):
 
-    biomistral_filtering/results_first_run.csv        - first_run batch
+    biomistral_filtering/results_first_run.csv        - first_run batch,
+                                                         run locally
                                                          (490,046 PMIDs)
                                                          columns: pmid,
                                                          prediction, is_amr
@@ -155,33 +174,50 @@ Output:
                                                          merging)
       full path: /work/11252/skulakis/projects/reslit/biomistral_filtering/results_first_run.csv
 
-    biomistral_filtering_0_300_old/passed_cleaned_300000.csv - 0-300K chunk
-                                                         (299,995 PMIDs)
-      full path: /work/11252/skulakis/projects/reslit/biomistral_filtering_0_300_old/passed_cleaned_300000.csv
-      NOTE (current state, 2026-07-06): this run's `prediction` column
-      contains garbled/truncated text (MeSH-term fragments etc.) instead of
-      clean YES/NO — looks like a bad run, which is presumably why the
-      folder is named "_old". Needs to be re-run before it can be trusted.
+    vista/results_300000/  - 0-300K chunk, run on Vista
+                             (input: results_amr_pmids_genetics/0_300K_passed_cleaned_remaining_900K.txt)
+      passed_cleaned_300000.csv - all 299,995 PMIDs scored (pmid, prediction, is_amr)
+      passed_pmids_300000.csv   - 68,731 PMIDs that scored YES
+      results_batch_1.csv ... results_batch_30.csv - per-batch intermediate results
+      full path: /work/11252/skulakis/projects/reslit/vista/results_300000/
 
-    biomistral_filtering_300_600/                     - EMPTY as of
-                                                         2026-07-06; the
-                                                         300-600K chunk has
-                                                         not been run yet.
-      full path: /work/11252/skulakis/projects/reslit/biomistral_filtering_300_600/
+    vista/results_600000/  - 300-600K chunk, run on Vista
+                             (input: results_amr_pmids_genetics/300_600K_passed_cleaned_remaining_900K.txt)
+      passed_cleaned_600000.csv - all 300,000 PMIDs scored
+      passed_pmids_600000.csv   - 88,677 PMIDs that scored YES
+      results_batch_1.csv ... results_batch_30.csv - per-batch intermediate results
+      full path: /work/11252/skulakis/projects/reslit/vista/results_600000/
 
-    biomistral_filtering_600_900/                     - EMPTY as of
-                                                         2026-07-06; the
-                                                         600-900K chunk has
-                                                         not been run yet.
-      full path: /work/11252/skulakis/projects/reslit/biomistral_filtering_600_900/
+    vista/results_900000/  - 600-900K chunk, run on Vista
+                             (input: results_amr_pmids_genetics/600_900K_passed_cleaned_remaining_900K.txt)
+      passed_cleaned_900000.csv - all 330,590 PMIDs scored
+      passed_pmids_900000.csv   - 96,166 PMIDs that scored YES
+      results_batch_1.csv ... results_batch_34.csv - per-batch intermediate results
+      full path: /work/11252/skulakis/projects/reslit/vista/results_900000/
+
+    vista/logs/             - SLURM stdout/stderr logs per Vista job
+      full path: /work/11252/skulakis/projects/reslit/vista/logs/
 
     biomistral_filtering/logs/                         - SLURM stdout/stderr
-                                                         logs per job
+                                                         logs for the first_run
+                                                         (local) job
       full path: /work/11252/skulakis/projects/reslit/biomistral_filtering/logs/
 
-  Not copied into this repo (stray duplicate script found alongside the
-  above, appears to be a working copy, not part of the canonical pipeline):
-    /work/11252/skulakis/projects/reslit/screen_abstract_multiGPU copy.py
+  Combined total across all 4 runs (first_run + Vista 300K/600K/900K):
+    1,420,631 PMIDs scored | 356,261 scored YES (~25%)
+    (1,420,631 vs. 1,420,586 in passed_cleaned.txt — off by ~45 due to
+    minor batch-boundary/header artifacts noted above, not a data-loss bug)
+
+  Superseded / not used (kept locally, not copied into this repo):
+    /work/11252/skulakis/projects/reslit/biomistral_filtering_0_300_old/ - an
+      earlier, apparently broken local run of the 0-300K chunk (prediction
+      column contains garbled MeSH-term fragments, not clean YES/NO).
+      Superseded by vista/results_300000/ above.
+    /work/11252/skulakis/projects/reslit/biomistral_filtering_300_600/ and
+      /work/11252/skulakis/projects/reslit/biomistral_filtering_600_900/ - both
+      empty; these chunks were run on Vista instead (see above), not locally.
+    /work/11252/skulakis/projects/reslit/screen_abstract_multiGPU copy.py -
+      stray duplicate script, not part of the canonical pipeline.
 
 
 STEP 4 — Full-text download
