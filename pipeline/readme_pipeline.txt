@@ -101,3 +101,84 @@ Output:
 
     pubtator3_data/          - raw PubTator3 bulk downloads (~3.3GB)
       full path: /work/11252/skulakis/projects/reslit/pubtator3_data/
+
+
+STEP 3 — BioMistral abstract relevance filtering
+--------------------------------------------------------
+Folder:  /work/11252/skulakis/projects/reslit/pipeline/biomistral_filtering/scripts/
+
+Scripts:
+  screen_abstract_multiGPU.py - loads BioMistral/BioMistral-7B (via
+    transformers) on 2 GPUs in parallel. For each PMID it pulls title,
+    journal, abstract, MeSH terms, substances, keywords, and PubTator
+    entity flags (has_gene/has_chemical/has_mutation) from papers.sqlite
+    (built in Step 2), builds a few-shot prompt ("is this paper about
+    antimicrobial resistance? YES/NO") with 5 fixed example papers, and
+    asks the model to answer strictly YES or NO.
+  screen_abstract_9GPU.py     - same approach, scaled for more GPUs
+                                 (invoked via screen_abstract_6GPU.sh,
+                                 batches of 5000 PMIDs instead of 10000)
+  screen_abstract.sh          - orchestrator: takes <pmid_file> <output_folder>
+                                 <final_csv_name>, splits the PMID file into
+                                 batches of 10,000, calls
+                                 screen_abstract_multiGPU.py once per batch
+                                 (results_batch_N.csv), then concatenates all
+                                 batches into the final merged CSV.
+  screen_abstract_6GPU.sh     - same orchestrator, batches of 5,000, calls
+                                 screen_abstract_9GPU.py instead.
+  job_biomistral*.sh          - SLURM job launchers (TACC, gpu-a100/gpu-h100
+                                 partitions) that activate venv_a100 and call
+                                 screen_abstract.sh with a specific input PMID
+                                 file / output folder / final CSV name.
+
+What it does:
+  Takes Step 2's passed_cleaned.txt (1,420,586 PMIDs) as input, split into
+  batches on 2026-04-15/16/20 (first_run = first 490,046 PMIDs; the
+  remaining 930,590 split into 0-300K / 300-600K / 600-900K chunks of
+  ~300,000 PMIDs each — this split was done for job-scheduling convenience,
+  not a separate pipeline step). Each batch is run through the BioMistral
+  few-shot YES/NO classifier above to flag which papers are actually about
+  antimicrobial resistance (narrowing the corpus before the expensive
+  full-text download/extraction stages).
+
+Output:
+  Location (local, not yet in this repo):
+
+    biomistral_filtering/results_first_run.csv        - first_run batch
+                                                         (490,046 PMIDs)
+                                                         columns: pmid,
+                                                         prediction, is_amr
+                                                         Result: 102,687 YES /
+                                                         387,279 NO (~50 rows
+                                                         malformed/header
+                                                         artifacts from batch
+                                                         merging)
+      full path: /work/11252/skulakis/projects/reslit/biomistral_filtering/results_first_run.csv
+
+    biomistral_filtering_0_300_old/passed_cleaned_300000.csv - 0-300K chunk
+                                                         (299,995 PMIDs)
+      full path: /work/11252/skulakis/projects/reslit/biomistral_filtering_0_300_old/passed_cleaned_300000.csv
+      NOTE (current state, 2026-07-06): this run's `prediction` column
+      contains garbled/truncated text (MeSH-term fragments etc.) instead of
+      clean YES/NO — looks like a bad run, which is presumably why the
+      folder is named "_old". Needs to be re-run before it can be trusted.
+
+    biomistral_filtering_300_600/                     - EMPTY as of
+                                                         2026-07-06; the
+                                                         300-600K chunk has
+                                                         not been run yet.
+      full path: /work/11252/skulakis/projects/reslit/biomistral_filtering_300_600/
+
+    biomistral_filtering_600_900/                     - EMPTY as of
+                                                         2026-07-06; the
+                                                         600-900K chunk has
+                                                         not been run yet.
+      full path: /work/11252/skulakis/projects/reslit/biomistral_filtering_600_900/
+
+    biomistral_filtering/logs/                         - SLURM stdout/stderr
+                                                         logs per job
+      full path: /work/11252/skulakis/projects/reslit/biomistral_filtering/logs/
+
+  Not copied into this repo (stray duplicate script found alongside the
+  above, appears to be a working copy, not part of the canonical pipeline):
+    /work/11252/skulakis/projects/reslit/screen_abstract_multiGPU copy.py
