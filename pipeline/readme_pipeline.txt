@@ -383,3 +383,214 @@ see note below):
     read_papers/fulltext_txt_50000/mutations-20260604T085950Z-3-001.zip - a
       raw full-text corpus backup (fulltext_oa/ and fulltext_api/ subfolders),
       unrelated to extraction output.
+
+
+STEP 6 — Post-extraction cleaning and harmonization (JSON -> final tables)
+----------------------------------------------------------------------------
+Folder:  pipeline/harmonization/  (scripts + reference data, in this repo)
+         pipeline/final_output/   (delivered final tables, in this repo)
+
+This step picks up exactly where STEP 5 leaves off, and completes the TODO
+noted at the end of STEP 5: it takes the per-batch extraction_summary.json
+files (batch_1/results/extraction_summary.json ... batch_6/results/
+extraction_summary.json, referred to below as extraction_summary_batch1.json
+... batch6.json) and turns them into one final, cleaned gene table and one
+final, cleaned mutation table, harmonized against external AMR databases
+(CARD, ResFinder, NCBI Reference Gene Catalog) and ready for import into the
+site's Supabase database.
+
+Folder layout:
+  pipeline/harmonization/  all scripts and reference/lookup files used to
+                            create the final gene and mutation tables
+  pipeline/final_output/   the delivered final tables (see below)
+
+harmonization/ contents:
+
+  Scripts (run in the order described below)
+    qwen3_to_csv.py                    extraction JSON -> gene rows CSV
+    qwen3_mutations_to_csv.py          extraction JSON -> mutation rows CSV
+    build_reslit_genes.py              normalised gene CSV -> final column schema
+    build_reslit_mutations.py          normalised mutation CSV -> final column schema
+    harmonize_names.py                 rewrites gene/allele casing to match
+                                        CARD/ResFinder/Reference Gene Catalog
+    fix_gene_capitalization_genes.py   restores gene-name capitalization (genes table)
+    fix_gene_capitalization_reslit.py  restores gene-name capitalization (mutations table)
+    clean_organism_resistance.py       final Organism/Resistance QA (genes table)
+    clean_mutations.py                 final Organism/Resistance QA (mutations table)
+    enrich_database_metadata.py        backfills paper_title/publication_year from PubMed
+    run_genes_pipeline.sh              full command sequence for the genes table
+    run_mutations_pipeline.sh          full command sequence for the mutations table
+
+  Reference / lookup data
+    allele_geneFamily.txt                        allele -> RGC gene-family name mapping
+    amrGenesUniq.txt                              AMR gene name whitelist
+    antibiotics_names.txt                         valid antibiotic names
+    antibiotics_names_abreviations.txt            valid antibiotic abbreviations
+    available_species.txt                         valid bacterial species/genus names
+    chromosomalMutationGenes.txt                  chromosomal genes with point mutations
+    pointMutationsGenesUniq.txt                   genes that are point-mutation-only
+    Full_list_genes_otherDatabases_AlleleCorrected-1_filtered_concatenated_bla_fixed.csv
+                                                   CARD + ResFinder + Reference Gene Catalog
+                                                   genes, harmonized schema — input to
+                                                   harmonize_names.py
+
+All scripts expect to be run from INSIDE harmonization/, with input/output
+files alongside the scripts (this mirrors how they were originally developed
+and run; several scripts hardcode Path(__file__).parent to locate their
+reference files). When you re-run the pipeline, the intermediate and final
+files are written into harmonization/ itself — the copies kept in
+../final_output/ are the delivered snapshot from the last full run, not a
+live output target.
+
+Requirements: Python 3.10+ (build_reslit_genes.py / build_reslit_mutations.py
+use parenthesized multi-context-manager "with" syntax), pandas, and
+biopython (for enrich_database_metadata.py's PubMed/Entrez calls).
+
+Not included (too large for git):
+  - extraction_summary_batch1.json ... batch6.json — raw QWEN extraction
+    output (STEP 5's per-batch summaries), ~40-50 MB each (~250 MB total).
+    Regenerate via STEP 5, or copy the 6 batch extraction_summary.json files
+    here under these names.
+  - Bacteria_genes_all.txt / Bacteria_genes.txt (~104 MB each) and
+    Bacteria.gene_info (~1.5 GB) — used by fix_gene_capitalization_*.py and
+    the bacterial-gene filter in qwen3_to_csv.py / qwen3_mutations_to_csv.py.
+    Derived from NCBI's Gene database "Bacteria" gene_info dump
+    (ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Bacteria/).
+    Bacteria_genes_all.txt is the Symbol (+ Synonyms) column extracted from
+    that file. Download the dump and re-derive the symbol list, or place
+    your own copy of Bacteria_genes_all.txt into harmonization/ before
+    running the capitalization-fix or filtering steps — the scripts degrade
+    gracefully (filter/fix simply skipped) if it's absent.
+  - Intermediate scratch files (genes_batch*.csv, genes_all*.csv,
+    mutations_batch*.csv, mutations_all*.csv, normalised_genes_all*.csv,
+    etc.) — regenerated by running the pipeline scripts in order; not kept
+    in git to avoid bloating the repo with regenerable data.
+
+Genes pipeline (harmonization/run_genes_pipeline.sh):
+  1. qwen3_to_csv.py on each of the 6 extraction batches
+     -> genes_batch{1..6}.csv
+     One row per gene per paper. Applies gene-name normalization against
+     allele_geneFamily.txt (two-pass: heuristic string transforms, e.g.
+     adding a missing "bla" prefix, fixing AME prime-mark variants,
+     stripping mutation suffixes, fixing mcr spelling; then mapping to the
+     canonical family string), drops point-mutation-only genes not in
+     amrGenesUniq.txt, and filters to genes present in Bacteria_genes_all.txt
+     (allele-aware matching).
+  2. Concatenate all 6 batches, keeping one header -> genes_all.csv
+  3. Filter to rows tagged "experimentally_characterized"
+     -> genes_all_experimental_characterized.csv
+  4. Add a normalized gene-name column (lowercased, primes/quotes stripped)
+     -> normalised_genes_all_experimental_characterized.csv
+  5. Drop rows with no paper title (and other malformed rows)
+     -> normalised_genes_all_experimental_characterized_full.csv
+  6. Append a literal Database = "Reslit" column
+     -> normalised_genes_all_experimental_characterized_full_final.csv
+  7. build_reslit_genes.py — maps to the final column schema (Database,
+     Gene, Allele, Encodes, Mechanism, Resistance, Organism,
+     Sequence_accession, Protein_accession, Validation_method, PMID,
+     Paper_title, Publication_year, Key_findings, Geographic_location,
+     Notes) -> Full_list_genes_Reslit.csv
+  8. harmonize_names.py — rewrites gene/allele casing to match the most
+     frequent original-case spelling found in CARD/ResFinder/Reference Gene
+     Catalog (normalized-name lookup, both gene and allele level)
+     -> Full_list_genes_Reslit_harmonized.csv
+  9. fix_gene_capitalization_genes.py — restores correct capitalization by
+     matching (case-insensitively, primes/quotes stripped) against
+     Bacteria_genes_all.txt; when matched, uses that file's original
+     casing. Result from the last run: 1,419 of 3,716 unique gene names
+     corrected (e.g. blaVEB, ampC, sul1); 1,121 genes had no match and were
+     left as-is (allele variants with complex suffixes, fused names, or LLM
+     artifacts like "aac(6)-lb-cr", "bla(oxa-51-like)").
+  10. clean_organism_resistance.py — final QA pass:
+      Organism: checks each pipe-separated organism against
+        available_species.txt (genus+species match against the reference
+        list); removes non-bacterial entries.
+      Resistance: checks each pipe-separated value against
+        antibiotics_names.txt / antibiotics_names_abreviations.txt; handles
+        plurals (carbapenems -> carbapenem), hyphenated combos
+        (piperacillin-tazobactam), slash combos (amoxicillin/clavulanate),
+        and common variant spellings; removes non-antibiotic entries
+        (metals, biocides, vague terms); standardizes capitalization;
+        deduplicates.
+      -> Full_list_genes_Reslit_harmonized_antib_bact.csv   [FINAL]
+
+Mutations pipeline (harmonization/run_mutations_pipeline.sh):
+  1. qwen3_mutations_to_csv.py on each extraction batch
+     -> mutations_batch{1..6}.csv
+     Same chromosomal-gene handling as qwen3_to_csv.py, but mutations on
+     chromosomal genes (gyrA, rpoB, etc.) are KEPT here — this is the
+     correct table for them. Locus tags, hallucinations, and fused mutation
+     notations are cleaned.
+  2. Concatenate all 6 batches, keeping one header -> mutations_all.csv
+  3. enrich_database_metadata.py — backfills missing paper_title /
+     publication_year via PubMed Entrez: rows with a PMID but no title get
+     the title/year fetched directly; rows with no PMID get one looked up
+     via GenBank accession first. Rows that already have both fields are
+     skipped. -> mutations_all_enriched.csv
+  4. MANUAL QA STEP (not scripted) -> mutations_all_final.csv ->
+     mutations_all_final_organisms.csv. Applied by hand:
+       - dropped rows with neither a normalised_gene_mutation nor a
+         normalised_protein_change
+       - dropped rows where either of those fields contained "?"
+       - normalized "rss<something>" variants to "rrs"
+       - dropped rrs rows mislabeled as "23s" and rrl rows mislabeled as
+         "50s"
+       - kept only rows with a reported microorganism
+  5. build_reslit_mutations.py — maps to the final column schema (Database,
+     Nucleotide_Change, Protein_Change, Gene, Encodes, Mechanism,
+     Resistance, Organism, Validated_by, Notes, Accession_number, PMID,
+     Paper_title, Publication_year, Origin; Organism = first two words of
+     each "|"-separated entry in organisms_observed_in, each organism
+     becomes its own output row) -> Full_list_mutations_Reslit.csv
+  6. fix_gene_capitalization_reslit.py — same capitalization fix as the
+     genes pipeline. Result from the last run: 211 of 1,180 unique gene
+     names corrected (e.g. GyrA -> gyrA, RpoB -> rpoB, PBP2x -> pbp2x,
+     rv0678 -> Rv0678); 180 had no match and were left as-is.
+  7. clean_mutations.py — reuses clean_organism_resistance.py's Organism
+     and Resistance matching logic, plus two mutation-specific rules:
+       - if Nucleotide_Change encodes a negative position (e.g. C-12T, a
+         promoter mutation), an empty Resistance is accepted and not
+         flagged
+       - if both Nucleotide_Change and Protein_Change carry a position
+         number, the nucleotide position must be approximately 3x the
+         protein position (+/- 2); otherwise Nucleotide_Change is cleared
+         (it was likely a stray copy of the protein position)
+     -> Full_list_mutations_Reslit_antib_bact.csv   [FINAL]
+
+Output (as published in this repo):
+  pipeline/final_output/Full_list_genes_Reslit_harmonized_antib_bact.csv
+    54,175 rows
+    Columns: Database, Gene, Allele, Encodes, Mechanism, Resistance,
+    Organism, Sequence_accession, Protein_accession, Validation_method,
+    PMID, Paper_title, Publication_year, Key_findings, Geographic_location,
+    Notes
+
+  pipeline/final_output/Full_list_mutations_Reslit_antib_bact.csv
+    26,094 rows
+    Columns: Database, Nucleotide_Change, Protein_Change, Gene, Encodes,
+    Mechanism, Resistance, Organism, Validated_by, Notes, Accession_number,
+    PMID, Paper_title, Publication_year, Origin
+
+  Together these cover 14,060 unique PMIDs (a subset of STEP 5's 64,276
+  successful extractions — the QA/filtering steps above are precision-
+  oriented and drop rows that don't pass validation). These are imported
+  into Supabase via ../site/scripts/import-reslit-harmonized.mjs (and
+  import-genes-csv.mjs / import-mutations-csv.mjs for the other-databases
+  comparison rows), which the website then serves on the /browse pages.
+
+Known open items:
+  - The production database was last (re)imported before this cleaning
+    pass — it currently reflects the pre-clean_organism_resistance.py data
+    (which includes ~2,941 gene rows this step later removed for invalid
+    organism/resistance values). pipeline/final_output/*.csv needs to be
+    re-imported.
+  - empty_organism_rows.csv / empty_resistance_rows.csv (produced by
+    clean_organism_resistance.py, not included here) list rows where no
+    organism/antibiotic match was found against the reference lists — these
+    need either reference-list expansion or manual curator review.
+  - The CARD/ResFinder/Reference-Gene-Catalog coverage comparison
+    (other_databases/comparison/genes/comparison_all.ipynb, not in this
+    repo) currently runs against a pre-harmonization intermediate file and
+    should be re-run against
+    pipeline/final_output/Full_list_genes_Reslit_harmonized_antib_bact.csv
+    for publication-accurate numbers.
