@@ -1,6 +1,6 @@
 'use client'
 
-import { createClient } from '@/lib/supabase/client'
+import { login, requestPasswordReset } from '@/lib/actions/auth'
 import { Button } from '@/components/ui/button'
 import {
   Card,
@@ -28,29 +28,12 @@ export default function CuratorLoginPage() {
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault()
-    const supabase = createClient()
     setIsLoading(true)
     setError(null)
 
     try {
-      const { data, error: signInError } = await supabase.auth.signInWithPassword({
-        email,
-        password,
-      })
-      
-      if (signInError) throw signInError
-
-      // Check if user is a curator
-      const { data: curator, error: curatorError } = await supabase
-        .from('curators')
-        .select('id')
-        .eq('id', data.user?.id)
-        .single()
-
-      if (curatorError || !curator) {
-        await supabase.auth.signOut()
-        throw new Error('You are not registered as a curator. Please contact an administrator.')
-      }
+      const result = await login(email, password)
+      if (!result.success) throw new Error(result.error || 'An error occurred')
 
       router.push('/curator/dashboard')
       router.refresh()
@@ -67,16 +50,12 @@ export default function CuratorLoginPage() {
       return
     }
 
-    const supabase = createClient()
     setIsLoading(true)
     setError(null)
 
     try {
-      const { error } = await supabase.auth.resetPasswordForEmail(email, {
-        redirectTo: `${window.location.origin}/auth/callback?next=/curator/reset-password`,
-      })
-
-      if (error) throw error
+      const result = await requestPasswordReset(email)
+      if (!result.success) throw new Error(result.error || 'Failed to send reset email')
 
       setResetSent(true)
     } catch (err: unknown) {

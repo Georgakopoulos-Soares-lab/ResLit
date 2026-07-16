@@ -8,9 +8,13 @@ import { ValidationTierBadge } from '@/components/browse/validation-tier-badge'
 import { GroupedMutationPapers } from '@/components/browse/mutation-paper-groups'
 import { CommentsSection } from '@/components/comments/comments-section'
 import { HistoryDialog } from '@/components/curator/history-dialog'
+import { eq, and, isNotNull } from 'drizzle-orm'
+import { db } from '@/lib/db/client'
+import { amrGenes, amrMutations } from '@/lib/db/schema'
+import { toSnakeCase } from '@/lib/db/helpers'
 import { getMutationById, getMutationValidationTiers } from '@/lib/actions/browse'
 import { getComments } from '@/lib/actions/comments'
-import { createClient } from '@/lib/supabase/server'
+import { getCurrentCurator } from '@/lib/actions/curator'
 import type { AMRMutation } from '@/lib/types'
 
 interface PageProps {
@@ -25,15 +29,11 @@ export default async function MutationDetailPage({ params }: PageProps) {
     notFound()
   }
 
-  const [comments, supabase, mutTiers] = await Promise.all([
+  const [comments, curator, mutTiers] = await Promise.all([
     getComments('mutation', id),
-    createClient(),
+    getCurrentCurator(),
     getMutationValidationTiers(),
   ])
-
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
 
   // Fetch ALL related mutations (same gene + protein_change or nucleotide_change)
   let relatedMutations: AMRMutation[] = [mutation]
@@ -41,23 +41,24 @@ export default async function MutationDetailPage({ params }: PageProps) {
     const queries = []
     if (mutation.protein_change) {
       queries.push(
-        supabase.from('amr_mutations').select('*')
-          .eq('gene_name', mutation.gene_name)
-          .eq('protein_change', mutation.protein_change)
+        db.select().from(amrMutations).where(
+          and(eq(amrMutations.geneName, mutation.gene_name), eq(amrMutations.proteinChange, mutation.protein_change))
+        )
       )
     }
     if (mutation.nucleotide_change) {
       queries.push(
-        supabase.from('amr_mutations').select('*')
-          .eq('gene_name', mutation.gene_name)
-          .eq('nucleotide_change', mutation.nucleotide_change)
+        db.select().from(amrMutations).where(
+          and(eq(amrMutations.geneName, mutation.gene_name), eq(amrMutations.nucleotideChange, mutation.nucleotide_change))
+        )
       )
     }
     const results = await Promise.all(queries)
-    const seen = new Set<string>()
+    const seen = new Set<AMRMutation['id']>()
     relatedMutations = []
-    for (const r of results) {
-      for (const m of r.data ?? []) {
+    for (const rows of results) {
+      for (const row of rows) {
+        const m = toSnakeCase(row) as unknown as AMRMutation
         if (!seen.has(m.id)) {
           seen.add(m.id)
           relatedMutations.push(m)
@@ -92,13 +93,11 @@ export default async function MutationDetailPage({ params }: PageProps) {
   // Fetch gene info for encodes
   let geneEncodes: string | null = null
   if (mutation.gene_name) {
-    const { data: geneRow } = await supabase
-      .from('amr_genes')
-      .select('encodes')
-      .eq('gene_name', mutation.gene_name)
-      .not('encodes', 'is', null)
+    const [geneRow] = await db
+      .select({ encodes: amrGenes.encodes })
+      .from(amrGenes)
+      .where(and(eq(amrGenes.geneName, mutation.gene_name), isNotNull(amrGenes.encodes)))
       .limit(1)
-      .maybeSingle()
     geneEncodes = geneRow?.encodes ?? null
   }
 
@@ -249,7 +248,7 @@ export default async function MutationDetailPage({ params }: PageProps) {
             targetType="mutation"
             targetId={id}
             initialComments={comments}
-            currentUserId={user?.id}
+            currentUserId={curator?.id}
           />
         </div>
       </main>

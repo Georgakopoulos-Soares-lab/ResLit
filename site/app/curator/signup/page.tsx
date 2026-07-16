@@ -1,9 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { useRouter } from 'next/navigation'
 import Link from 'next/link'
-import { createClient } from '@/lib/supabase/client'
+import { signUp, resendVerificationEmail } from '@/lib/actions/auth'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { Button } from '@/components/ui/button'
@@ -21,7 +20,6 @@ import {
 type Step = 'form' | 'check-email'
 
 export default function CuratorSignupPage() {
-  const router = useRouter()
   const [step, setStep] = useState<Step>('form')
 
   const [email, setEmail] = useState('')
@@ -40,34 +38,9 @@ export default function CuratorSignupPage() {
     setLoading(true)
 
     try {
-      const supabase = createClient()
-      const { data, error: signUpError } = await supabase.auth.signUp({
-        email,
-        password,
-        options: {
-          data: { name, affiliation: institution },
-          emailRedirectTo: `${window.location.origin}/auth/callback?next=/curator/dashboard`,
-        },
-      })
+      const result = await signUp(email, password, name, institution)
+      if (!result.success) throw new Error(result.error || 'Sign-up failed')
 
-      if (signUpError) throw signUpError
-
-      // If user is auto-confirmed (email confirmation disabled), create curator record and redirect
-      if (data.session && data.user) {
-        const { error: insertError } = await supabase
-          .from('curators')
-          .insert({
-            id: data.user.id,
-            email: data.user.email!,
-            name,
-            affiliation: institution || null,
-          })
-        if (insertError) console.error('Error creating curator record:', insertError)
-        router.push('/curator/dashboard')
-        return
-      }
-
-      // Otherwise show email check screen
       setStep('check-email')
     } catch (err: unknown) {
       setError(err instanceof Error ? err.message : 'Sign-up failed')
@@ -83,16 +56,8 @@ export default function CuratorSignupPage() {
     setLoading(true)
 
     try {
-      const supabase = createClient()
-      const { error: resendError } = await supabase.auth.resend({
-        type: 'signup',
-        email,
-        options: {
-          emailRedirectTo: `${window.location.origin}/auth/callback?next=/curator/dashboard`,
-        },
-      })
-
-      if (resendError) throw resendError
+      const result = await resendVerificationEmail(email)
+      if (!result.success) throw new Error(result.error || 'Could not resend email')
 
       setResent(true)
     } catch (err: unknown) {
@@ -223,7 +188,7 @@ export default function CuratorSignupPage() {
               </CardHeader>
               <CardContent className="flex flex-col gap-5">
                 <p className="text-sm text-muted-foreground text-center">
-                  Click the link in the email to verify your address and activate your curator account. The link expires in 1 hour.
+                  Click the link in the email to verify your address and activate your curator account. The link expires in 24 hours.
                 </p>
 
                 {error && (

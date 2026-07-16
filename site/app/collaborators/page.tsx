@@ -1,6 +1,6 @@
 "use server"
 
-import { createClient } from "@/lib/supabase/server"
+import { getAllCurators } from "@/lib/actions/curator"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
@@ -10,23 +10,8 @@ import { Building2, Users } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
-async function getCurators() {
-  const supabase = await createClient()
-  const { data, error } = await supabase
-    .from("curators")
-    .select("*")
-    .order("name")
-
-  if (error) {
-    console.error("Error fetching curators:", error)
-    return []
-  }
-
-  return data || []
-}
-
 export default async function CollaboratorsPage() {
-  const curators = await getCurators()
+  const curators = await getAllCurators()
 
   // Group curators by institution
   const byInstitution = curators.reduce((acc, curator) => {
@@ -148,7 +133,7 @@ export default async function CollaboratorsPage() {
                             <div className="flex items-start gap-4">
                               <Avatar className="h-12 w-12">
                                 <AvatarFallback className="bg-primary/10 text-primary font-semibold">
-                                  {curator.name
+                                  {(curator.name || curator.email)
                                     .split(" ")
                                     .map((n: string) => n[0])
                                     .join("")

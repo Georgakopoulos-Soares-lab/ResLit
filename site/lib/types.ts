@@ -106,6 +106,8 @@ export interface Curator {
   email: string
   name: string | null
   affiliation: string | null
+  institution: string | null
+  role: string | null
   created_at: string
   updated_at: string
 }

@@ -9,6 +9,11 @@
 FROM node:20-alpine AS installer
 WORKDIR /app
 
+# better-sqlite3 is a native module — Alpine (musl) needs a build toolchain
+# to compile it reliably, rather than depending on a prebuilt binary being
+# available for this platform.
+RUN apk add --no-cache python3 make g++
+
 # Install pnpm globally
 RUN corepack enable && corepack prepare pnpm@9 --activate
 
@@ -33,12 +38,6 @@ COPY --from=installer /app/node_modules ./node_modules
 # Copy source code
 COPY . .
 
-# Make Railway env vars available at build time for NEXT_PUBLIC_ inlining
-ARG NEXT_PUBLIC_SUPABASE_URL
-ARG NEXT_PUBLIC_SUPABASE_ANON_KEY
-ENV NEXT_PUBLIC_SUPABASE_URL=$NEXT_PUBLIC_SUPABASE_URL
-ENV NEXT_PUBLIC_SUPABASE_ANON_KEY=$NEXT_PUBLIC_SUPABASE_ANON_KEY
-
 # Build the Next.js app (output: standalone produces .next/standalone/)
 ENV NODE_ENV=production
 RUN pnpm build
@@ -62,8 +61,13 @@ COPY --from=builder /app/.next/static ./.next/static
 # Copy public assets (icons, images, etc.)
 COPY --from=builder /app/public ./public
 
+# Directory for the SQLite database file — expected to be a Railway Volume
+# mounted at exactly this path, so the database survives redeploys/restarts
+# instead of living on the container's disposable filesystem.
+RUN mkdir -p /data
+
 # Set proper ownership
-RUN chown -R nextjs:nodejs /app
+RUN chown -R nextjs:nodejs /app /data
 
 # Switch to non-root user
 USER nextjs
@@ -75,6 +79,7 @@ EXPOSE 3000
 ENV NODE_ENV=production
 ENV PORT=3000
 ENV HOSTNAME="0.0.0.0"
+ENV DATABASE_PATH=/data/reslit.db
 
 # Start the Next.js server
 CMD ["node", "server.js"]

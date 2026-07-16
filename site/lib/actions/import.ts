@@ -1,9 +1,12 @@
-"use server"
+'use server'
 
-import { createClient } from "@/lib/supabase/server"
-import { revalidatePath } from "next/cache"
-import { parseQwen3Text } from "@/lib/utils/parse"
-export type { Qwen3GeneData, Qwen3MutationEntry, Qwen3MutationData, Qwen3PaperJson } from "@/lib/utils/parse"
+import { eq, desc } from 'drizzle-orm'
+import { revalidatePath } from 'next/cache'
+import { db } from '@/lib/db/client'
+import { papers, amrGenes, amrMutations } from '@/lib/db/schema'
+import { getCurrentCurator } from '@/lib/actions/curator'
+import { parseQwen3Text } from '@/lib/utils/parse'
+export type { Qwen3GeneData, Qwen3MutationEntry, Qwen3MutationData, Qwen3PaperJson } from '@/lib/utils/parse'
 
 // ------------------------------------------------------------
 // Flat import row types (manual CSV/JSON import)
@@ -11,9 +14,9 @@ export type { Qwen3GeneData, Qwen3MutationEntry, Qwen3MutationData, Qwen3PaperJs
 
 interface GeneImportRow {
   gene_name: string
-  antibiotic?: string                 // single value; mapped to confers_resistance_to array
+  antibiotic?: string // single value; mapped to confers_resistance_to array
   resistance_mechanism_class?: string
-  organisms_tested_in?: string        // single value; mapped to organisms_tested_in array
+  organisms_tested_in?: string // single value; mapped to organisms_tested_in array
   encodes?: string
   mechanism?: string
   validation_method?: string
@@ -25,7 +28,7 @@ interface GeneImportRow {
 }
 
 interface MutationImportRow {
-  gene_name: string                   // used to link to gene
+  gene_name: string // used to link to gene
   mutation_name: string
   position?: number | string
   mutation_type?: string
@@ -57,49 +60,26 @@ export interface Qwen3ImportResult extends ImportResult {
 // ------------------------------------------------------------
 
 export async function importQwen3(text: string): Promise<Qwen3ImportResult> {
-  const supabase = await createClient()
-
-  // Auth checks
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-  if (!user) {
-    return {
-      success: false,
-      message: "Not authenticated",
-      imported: 0,
-      errors: ["Please log in as a curator"],
-      papersProcessed: 0,
-      genesImported: 0,
-      mutationsImported: 0,
-    }
-  }
-
-  const { data: curator } = await supabase
-    .from("curators")
-    .select("id")
-    .eq("id", user.id)
-    .single()
-
+  const curator = await getCurrentCurator()
   if (!curator) {
     return {
       success: false,
-      message: "Not authorized",
+      message: 'Not authorized',
       imported: 0,
-      errors: ["Only curators can import data"],
+      errors: ['Only curators can import data'],
       papersProcessed: 0,
       genesImported: 0,
       mutationsImported: 0,
     }
   }
 
-  const papers = parseQwen3Text(text)
-  if (papers.length === 0) {
+  const parsedPapers = parseQwen3Text(text)
+  if (parsedPapers.length === 0) {
     return {
       success: false,
-      message: "No valid QWEN3 records found",
+      message: 'No valid QWEN3 records found',
       imported: 0,
-      errors: ["Could not parse any paper records from input"],
+      errors: ['Could not parse any paper records from input'],
       papersProcessed: 0,
       genesImported: 0,
       mutationsImported: 0,
@@ -113,74 +93,70 @@ export async function importQwen3(text: string): Promise<Qwen3ImportResult> {
 
   const mutationNotationRegex = /^([A-Za-z*]+)(\d+)([A-Za-z*]+)$/
 
-  for (const paper of papers) {
+  for (const paper of parsedPapers) {
     const pmid = paper.pmid?.trim() || null
 
     // 1. Upsert into papers table (if we have a pmid)
     if (pmid) {
-      const { error: paperError } = await supabase
-        .from("papers")
-        .upsert(
-          {
+      try {
+        await db
+          .insert(papers)
+          .values({
             pmid,
             title: paper.title || null,
             year: paper.year ?? null,
-            paper_type: paper.paper_type || null,
-            key_findings: paper.key_findings || null,
+            paperType: paper.paper_type || null,
+            keyFindings: paper.key_findings || null,
             methodology: paper.methodology || null,
-            geographic_location: paper.geographic_location || null,
-            sample_size: paper.sample_size ?? null,
-          },
-          { onConflict: "pmid" }
-        )
-
-      if (paperError) {
-        errors.push(`Paper ${pmid}: ${paperError.message}`)
-      } else {
+            geographicLocation: paper.geographic_location || null,
+            sampleSize: paper.sample_size ?? null,
+          })
+          .onConflictDoUpdate({
+            target: papers.pmid,
+            set: {
+              title: paper.title || null,
+              year: paper.year ?? null,
+              paperType: paper.paper_type || null,
+              keyFindings: paper.key_findings || null,
+              methodology: paper.methodology || null,
+              geographicLocation: paper.geographic_location || null,
+              sampleSize: paper.sample_size ?? null,
+            },
+          })
         papersProcessed++
+      } catch (err) {
+        errors.push(`Paper ${pmid}: ${err instanceof Error ? err.message : 'insert failed'}`)
       }
     }
 
     // 2. Insert genes
     const geneEntries = Object.entries(paper.genes || {})
-    const geneIdMap = new Map<string, string>() // gene_name → inserted id
+    const geneIdMap = new Map<string, number>() // gene_name → inserted id
 
     for (const [geneName, geneData] of geneEntries) {
-      // Build a description string from the rich fields for backward compat / search
-      const descriptionParts: string[] = []
-      if (geneData.encodes) descriptionParts.push(`Encodes: ${geneData.encodes}`)
-      if (geneData.mechanism) descriptionParts.push(`Mechanism: ${geneData.mechanism}`)
-      if (geneData.validation_method)
-        descriptionParts.push(`Validation: ${geneData.validation_method}`)
-      if (geneData.role_in_paper)
-        descriptionParts.push(`Role: ${geneData.role_in_paper}`)
-      if (paper.key_findings)
-        descriptionParts.push(`Key findings: ${paper.key_findings}`)
+      try {
+        const [insertedGene] = await db
+          .insert(amrGenes)
+          .values({
+            geneName: geneName.trim(),
+            allele: geneData.allele || null,
+            encodes: geneData.encodes || null,
+            mechanism: geneData.mechanism || null,
+            resistanceMechanismClass: geneData.resistance_mechanism_class || null,
+            confersResistanceTo: geneData.confers_resistance_to || null,
+            organismsTestedIn: geneData.organisms_tested_in || null,
+            roleInPaper: geneData.role_in_paper || null,
+            validationMethod: geneData.validation_method || null,
+            paperPmid: pmid,
+            pmid,
+            status: 'pending',
+          })
+          .returning({ id: amrGenes.id })
 
-      const { data: insertedGene, error: geneError } = await supabase
-        .from("amr_genes")
-        .insert({
-          gene_name: geneName.trim(),
-          allele: geneData.allele || null,
-          encodes: geneData.encodes || null,
-          mechanism: geneData.mechanism || null,
-          resistance_mechanism_class: geneData.resistance_mechanism_class || null,
-          confers_resistance_to: geneData.confers_resistance_to || null,
-          organisms_tested_in: geneData.organisms_tested_in || null,
-          role_in_paper: geneData.role_in_paper || null,
-          validation_method: geneData.validation_method || null,
-          paper_pmid: pmid,
-          pmid: pmid,
-          status: "pending",
-        })
-        .select("id")
-        .single()
-
-      if (geneError) {
-        errors.push(`Gene "${geneName}" (paper ${pmid || "unknown"}): ${geneError.message}`)
-      } else if (insertedGene) {
         genesImported++
         geneIdMap.set(geneName, insertedGene.id)
+      } catch (err) {
+        errors.push(`Gene "${geneName}" (paper ${pmid || 'unknown'}): ${err instanceof Error ? err.message : 'insert failed'}`)
       }
     }
 
@@ -188,25 +164,23 @@ export async function importQwen3(text: string): Promise<Qwen3ImportResult> {
     const mutationEntries = Object.entries(paper.mutations || {})
 
     for (const [geneName, mutationData] of mutationEntries) {
-      const geneId = geneIdMap.get(geneName) || null
+      let resolvedGeneId = geneIdMap.get(geneName) ?? null
 
       // If the gene wasn't just inserted, try to find it in the DB
-      let resolvedGeneId = geneId
       if (!resolvedGeneId && geneName) {
-        const { data: existingGene } = await supabase
-          .from("amr_genes")
-          .select("id")
-          .eq("gene_name", geneName.trim())
-          .order("created_at", { ascending: false })
+        const [existingGene] = await db
+          .select({ id: amrGenes.id })
+          .from(amrGenes)
+          .where(eq(amrGenes.geneName, geneName.trim()))
+          .orderBy(desc(amrGenes.createdAt))
           .limit(1)
-          .single()
-        resolvedGeneId = existingGene?.id || null
+        resolvedGeneId = existingGene?.id ?? null
       }
 
       const mutationsFound = mutationData.mutations_found || []
 
       for (const mut of mutationsFound) {
-        const notation = mut.notation || mut.protein_change || ""
+        const notation = mut.notation || mut.protein_change || ''
 
         // Parse notation into wild_type / position / mutant
         let wildType: string | null = null
@@ -220,51 +194,44 @@ export async function importQwen3(text: string): Promise<Qwen3ImportResult> {
           mutant = match[3]
         }
 
-        const validMutationTypes = [
-          "substitution",
-          "insertion",
-          "deletion",
-          "frameshift",
-          "other",
-        ]
+        const validMutationTypes = ['substitution', 'insertion', 'deletion', 'frameshift', 'other'] as const
         let mutationType = mut.mutation_type?.toLowerCase().trim() || null
-        if (mutationType && !validMutationTypes.includes(mutationType)) {
-          mutationType = "other"
+        if (mutationType && !validMutationTypes.includes(mutationType as (typeof validMutationTypes)[number])) {
+          mutationType = 'other'
         }
 
-        const { error: mutError } = await supabase.from("amr_mutations").insert({
-          gene_id: resolvedGeneId,
-          gene_name: geneName,
-          mutation_name: notation || `mutation_${mutationsImported + 1}`,
-          position,
-          mutation_type: mutationType,
-          wild_type: wildType,
-          mutant,
-          effect: mut.effect_on_function || null,
-          nucleotide_change: mut.nucleotide_change || null,
-          protein_change: mut.protein_change || null,
-          confers_resistance_to: mut.confers_resistance_to || null,
-          organisms_observed_in: mut.organisms_observed_in || null,
-          validated_by: mut.validated_by || null,
-          origin: mut.origin || null,
-          pmid: pmid,
-          status: "pending",
-        })
-
-        if (mutError) {
-          errors.push(
-            `Mutation "${notation}" for gene "${geneName}" (paper ${pmid || "unknown"}): ${mutError.message}`
-          )
-        } else {
+        try {
+          await db.insert(amrMutations).values({
+            geneId: resolvedGeneId,
+            geneName,
+            mutationName: notation || `mutation_${mutationsImported + 1}`,
+            position,
+            mutationType: mutationType as (typeof validMutationTypes)[number] | null,
+            wildType,
+            mutant,
+            effect: mut.effect_on_function || null,
+            nucleotideChange: mut.nucleotide_change || null,
+            proteinChange: mut.protein_change || null,
+            confersResistanceTo: mut.confers_resistance_to || null,
+            organismsObservedIn: mut.organisms_observed_in || null,
+            validatedBy: mut.validated_by || null,
+            origin: mut.origin || null,
+            pmid,
+            status: 'pending',
+          })
           mutationsImported++
+        } catch (err) {
+          errors.push(
+            `Mutation "${notation}" for gene "${geneName}" (paper ${pmid || 'unknown'}): ${err instanceof Error ? err.message : 'insert failed'}`
+          )
         }
       }
     }
   }
 
-  revalidatePath("/browse/genes")
-  revalidatePath("/browse/mutations")
-  revalidatePath("/curator/dashboard")
+  revalidatePath('/browse/genes')
+  revalidatePath('/browse/mutations')
+  revalidatePath('/curator/dashboard')
 
   const totalImported = genesImported + mutationsImported
   return {
@@ -284,33 +251,9 @@ export async function importQwen3(text: string): Promise<Qwen3ImportResult> {
 // ------------------------------------------------------------
 
 export async function importGenes(data: GeneImportRow[]): Promise<ImportResult> {
-  const supabase = await createClient()
-
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-  if (!user) {
-    return {
-      success: false,
-      message: "Not authenticated",
-      imported: 0,
-      errors: ["Please log in as a curator"],
-    }
-  }
-
-  const { data: curator } = await supabase
-    .from("curators")
-    .select("id")
-    .eq("id", user.id)
-    .single()
-
+  const curator = await getCurrentCurator()
   if (!curator) {
-    return {
-      success: false,
-      message: "Not authorized",
-      imported: 0,
-      errors: ["Only curators can import data"],
-    }
+    return { success: false, message: 'Not authorized', imported: 0, errors: ['Only curators can import data'] }
   }
 
   const errors: string[] = []
@@ -319,58 +262,46 @@ export async function importGenes(data: GeneImportRow[]): Promise<ImportResult> 
   for (let i = 0; i < data.length; i++) {
     const row = data[i]
 
-    if (!row.gene_name || row.gene_name.trim() === "") {
+    if (!row.gene_name || row.gene_name.trim() === '') {
       errors.push(`Row ${i + 1}: gene_name is required`)
       continue
     }
 
     let year: number | null = null
     if (row.year) {
-      year = typeof row.year === "string" ? parseInt(row.year, 10) : row.year
+      year = typeof row.year === 'string' ? parseInt(row.year, 10) : row.year
       if (isNaN(year)) year = null
     }
 
-    // Map single-value antibiotic/organism to arrays
-    const confers_resistance_to = row.antibiotic?.trim()
-      ? [row.antibiotic.trim()]
-      : null
+    const confersResistanceTo = row.antibiotic?.trim() ? [row.antibiotic.trim()] : null
+    const organismsTestedIn = row.organisms_tested_in?.trim() ? [row.organisms_tested_in.trim()] : null
 
-    const organisms_tested_in = row.organisms_tested_in?.trim()
-      ? [row.organisms_tested_in.trim()]
-      : null
-
-    const { error } = await supabase.from("amr_genes").insert({
-      gene_name: row.gene_name.trim(),
-      encodes: row.encodes?.trim() || null,
-      mechanism: row.mechanism?.trim() || null,
-      resistance_mechanism_class: row.resistance_mechanism_class?.trim() || null,
-      confers_resistance_to,
-      organisms_tested_in,
-      role_in_paper: row.role_in_paper?.trim() || null,
-      validation_method: row.validation_method?.trim() || null,
-      isolation_location: row.isolation_location?.trim() || null,
-      isolation_country: row.isolation_country?.trim() || null,
-      year,
-      pmid: row.pmid?.trim() || null,
-      status: "pending",
-    })
-
-    if (error) {
-      errors.push(`Row ${i + 1}: ${error.message}`)
-    } else {
+    try {
+      await db.insert(amrGenes).values({
+        geneName: row.gene_name.trim(),
+        encodes: row.encodes?.trim() || null,
+        mechanism: row.mechanism?.trim() || null,
+        resistanceMechanismClass: row.resistance_mechanism_class?.trim() || null,
+        confersResistanceTo,
+        organismsTestedIn,
+        roleInPaper: row.role_in_paper?.trim() || null,
+        validationMethod: row.validation_method?.trim() || null,
+        isolationLocation: row.isolation_location?.trim() || null,
+        isolationCountry: row.isolation_country?.trim() || null,
+        year,
+        pmid: row.pmid?.trim() || null,
+        status: 'pending',
+      })
       imported++
+    } catch (err) {
+      errors.push(`Row ${i + 1}: ${err instanceof Error ? err.message : 'insert failed'}`)
     }
   }
 
-  revalidatePath("/browse/genes")
-  revalidatePath("/curator/dashboard")
+  revalidatePath('/browse/genes')
+  revalidatePath('/curator/dashboard')
 
-  return {
-    success: imported > 0,
-    message: `Imported ${imported} of ${data.length} genes`,
-    imported,
-    errors,
-  }
+  return { success: imported > 0, message: `Imported ${imported} of ${data.length} genes`, imported, errors }
 }
 
 // ------------------------------------------------------------
@@ -378,41 +309,16 @@ export async function importGenes(data: GeneImportRow[]): Promise<ImportResult> 
 // ------------------------------------------------------------
 
 export async function importMutations(data: MutationImportRow[]): Promise<ImportResult> {
-  const supabase = await createClient()
-
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-  if (!user) {
-    return {
-      success: false,
-      message: "Not authenticated",
-      imported: 0,
-      errors: ["Please log in as a curator"],
-    }
-  }
-
-  const { data: curator } = await supabase
-    .from("curators")
-    .select("id")
-    .eq("id", user.id)
-    .single()
-
+  const curator = await getCurrentCurator()
   if (!curator) {
-    return {
-      success: false,
-      message: "Not authorized",
-      imported: 0,
-      errors: ["Only curators can import data"],
-    }
+    return { success: false, message: 'Not authorized', imported: 0, errors: ['Only curators can import data'] }
   }
 
   // Get all gene names and IDs for linking
-  const { data: genes } = await supabase.from("amr_genes").select("id, gene_name")
-
-  const geneMap = new Map<string, string>()
-  genes?.forEach((g) => {
-    geneMap.set(g.gene_name.toLowerCase(), g.id)
+  const genes = await db.select({ id: amrGenes.id, geneName: amrGenes.geneName }).from(amrGenes)
+  const geneMap = new Map<string, number>()
+  genes.forEach((g) => {
+    if (g.geneName) geneMap.set(g.geneName.toLowerCase(), g.id)
   })
 
   const errors: string[] = []
@@ -421,12 +327,12 @@ export async function importMutations(data: MutationImportRow[]): Promise<Import
   for (let i = 0; i < data.length; i++) {
     const row = data[i]
 
-    if (!row.mutation_name || row.mutation_name.trim() === "") {
+    if (!row.mutation_name || row.mutation_name.trim() === '') {
       errors.push(`Row ${i + 1}: mutation_name is required`)
       continue
     }
 
-    if (!row.gene_name || row.gene_name.trim() === "") {
+    if (!row.gene_name || row.gene_name.trim() === '') {
       errors.push(`Row ${i + 1}: gene_name is required to link mutation`)
       continue
     }
@@ -439,48 +345,39 @@ export async function importMutations(data: MutationImportRow[]): Promise<Import
 
     let position: number | null = null
     if (row.position) {
-      position =
-        typeof row.position === "string" ? parseInt(row.position, 10) : row.position
+      position = typeof row.position === 'string' ? parseInt(row.position, 10) : row.position
       if (isNaN(position)) position = null
     }
 
-    const validTypes = ["substitution", "insertion", "deletion", "frameshift", "other"]
+    const validTypes = ['substitution', 'insertion', 'deletion', 'frameshift', 'other'] as const
     let mutationType = row.mutation_type?.toLowerCase().trim() || null
-    if (mutationType && !validTypes.includes(mutationType)) {
-      mutationType = "other"
+    if (mutationType && !validTypes.includes(mutationType as (typeof validTypes)[number])) {
+      mutationType = 'other'
     }
 
-    const { error } = await supabase.from("amr_mutations").insert({
-      gene_id: geneId,
-      mutation_name: row.mutation_name.trim(),
-      position,
-      mutation_type: mutationType,
-      wild_type: row.wild_type?.trim() || null,
-      mutant: row.mutant?.trim() || null,
-      effect: row.effect?.trim() || null,
-      nucleotide_change: row.nucleotide_change?.trim() || null,
-      validated_by: row.validated_by?.trim() || null,
-      origin: row.origin?.trim() || null,
-      pmid: row.pmid?.trim() || null,
-      status: "pending",
-    })
-
-    if (error) {
-      errors.push(`Row ${i + 1}: ${error.message}`)
-    } else {
+    try {
+      await db.insert(amrMutations).values({
+        geneId,
+        mutationName: row.mutation_name.trim(),
+        position,
+        mutationType: mutationType as (typeof validTypes)[number] | null,
+        wildType: row.wild_type?.trim() || null,
+        mutant: row.mutant?.trim() || null,
+        effect: row.effect?.trim() || null,
+        nucleotideChange: row.nucleotide_change?.trim() || null,
+        validatedBy: row.validated_by?.trim() || null,
+        origin: row.origin?.trim() || null,
+        pmid: row.pmid?.trim() || null,
+        status: 'pending',
+      })
       imported++
+    } catch (err) {
+      errors.push(`Row ${i + 1}: ${err instanceof Error ? err.message : 'insert failed'}`)
     }
   }
 
-  revalidatePath("/browse/mutations")
-  revalidatePath("/curator/dashboard")
+  revalidatePath('/browse/mutations')
+  revalidatePath('/curator/dashboard')
 
-  return {
-    success: imported > 0,
-    message: `Imported ${imported} of ${data.length} mutations`,
-    imported,
-    errors,
-  }
+  return { success: imported > 0, message: `Imported ${imported} of ${data.length} mutations`, imported, errors }
 }
-
-

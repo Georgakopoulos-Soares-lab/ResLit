@@ -5,3 +5,4 @@ node_modules/
 *.csv#
 .~lock.*
 !pipeline/**/*.csv
+!site/scripts/seed-data/*.csv
