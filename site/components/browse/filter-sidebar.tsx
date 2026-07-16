@@ -15,6 +15,7 @@ import {
 import { Separator } from '@/components/ui/separator'
 import { MultiSelectFilter } from './multi-select-filter'
 import { DatabaseFilter } from './database-filter'
+import { SearchableSelect } from './searchable-select'
 import type { FilterOptions } from '@/lib/types'
 
 function FilterLabel({ label, tooltip, richTooltip }: { label: string; tooltip: string; richTooltip?: React.ReactNode }) {
@@ -207,22 +208,14 @@ export function FilterSidebar({ filterOptions, type, basePath, keepParams, hideG
             label="Resistance Mechanism"
             tooltip="The biochemical mechanism by which the gene confers antimicrobial resistance (e.g. enzymatic inactivation, target modification, efflux pump)."
           />
-          <Select
-            value={currentMechanismClass || 'all'}
-            onValueChange={(value) => updateFilter('mechanismClass', value)}
-          >
-            <SelectTrigger id="mechanism-class">
-              <SelectValue placeholder="All mechanisms" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="all">All mechanisms</SelectItem>
-              {filterOptions.mechanismClasses.map((cls) => (
-                <SelectItem key={cls} value={cls}>
-                  {cls}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
+          <SearchableSelect
+            id="mechanism-class"
+            value={currentMechanismClass}
+            onChange={(value) => updateFilter('mechanismClass', value || null)}
+            options={filterOptions.mechanismClasses}
+            placeholder="All mechanisms"
+            allLabel="All mechanisms"
+          />
         </div>
       )}
 
@@ -232,22 +225,14 @@ export function FilterSidebar({ filterOptions, type, basePath, keepParams, hideG
           label="Antibiotic"
           tooltip="Filter by the antibiotic or drug class that the gene or mutation confers resistance to."
         />
-        <Select
-          value={currentAntibiotic || 'all'}
-          onValueChange={(value) => updateFilter('antibiotic', value)}
-        >
-          <SelectTrigger id="antibiotic">
-            <SelectValue placeholder="All antibiotics" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="all">All antibiotics</SelectItem>
-            {(type === 'mutations' ? filterOptions.mutationAntibiotics : filterOptions.antibiotics).map((ab) => (
-              <SelectItem key={ab} value={ab}>
-                {ab}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
+        <SearchableSelect
+          id="antibiotic"
+          value={currentAntibiotic}
+          onChange={(value) => updateFilter('antibiotic', value || null)}
+          options={type === 'mutations' ? filterOptions.mutationAntibiotics : filterOptions.antibiotics}
+          placeholder="All antibiotics"
+          allLabel="All antibiotics"
+        />
       </div>
 
       {/* 4. Encodes (genes only) */}
@@ -257,22 +242,14 @@ export function FilterSidebar({ filterOptions, type, basePath, keepParams, hideG
             label="Encodes"
             tooltip="The protein or enzyme product that the gene encodes (e.g. beta-lactamase, aminoglycoside acetyltransferase)."
           />
-          <Select
-            value={currentEncodes || 'all'}
-            onValueChange={(value) => updateFilter('encodes', value)}
-          >
-            <SelectTrigger id="encodes">
-              <SelectValue placeholder="All proteins" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="all">All proteins</SelectItem>
-              {filterOptions.encodes.map((enc) => (
-                <SelectItem key={enc} value={enc}>
-                  {enc}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
+          <SearchableSelect
+            id="encodes"
+            value={currentEncodes}
+            onChange={(value) => updateFilter('encodes', value || null)}
+            options={filterOptions.encodes}
+            placeholder="All proteins"
+            allLabel="All proteins"
+          />
         </div>
       )}
 
@@ -304,22 +281,14 @@ export function FilterSidebar({ filterOptions, type, basePath, keepParams, hideG
             label="Organism"
             tooltip="The bacterial species or organism in which resistance was observed or tested."
           />
-          <Select
-            value={currentOrganism || 'all'}
-            onValueChange={(value) => updateFilter('organism', value)}
-          >
-            <SelectTrigger id="organism">
-              <SelectValue placeholder="All organisms" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="all">All organisms</SelectItem>
-              {filterOptions.organisms.map((org) => (
-                <SelectItem key={org} value={org}>
-                  {org}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
+          <SearchableSelect
+            id="organism"
+            value={currentOrganism}
+            onChange={(value) => updateFilter('organism', value || null)}
+            options={filterOptions.organisms}
+            placeholder="All organisms"
+            allLabel="All organisms"
+          />
         </div>
       )}
 
@@ -330,22 +299,14 @@ export function FilterSidebar({ filterOptions, type, basePath, keepParams, hideG
             label="Gene Name"
             tooltip="Filter mutations by the gene they belong to."
           />
-          <Select
-            value={currentGeneName || 'all'}
-            onValueChange={(value) => updateFilter('geneName', value)}
-          >
-            <SelectTrigger id="gene-name">
-              <SelectValue placeholder="All genes" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="all">All genes</SelectItem>
-              {filterOptions.mutationGeneNames.map((gene) => (
-                <SelectItem key={gene} value={gene}>
-                  {gene}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
+          <SearchableSelect
+            id="gene-name"
+            value={currentGeneName}
+            onChange={(value) => updateFilter('geneName', value || null)}
+            options={filterOptions.mutationGeneNames}
+            placeholder="All genes"
+            allLabel="All genes"
+          />
         </div>
       )}
 
@@ -400,23 +361,15 @@ export function FilterSidebar({ filterOptions, type, basePath, keepParams, hideG
           label="Country"
           tooltip="The geographic location or country where the resistant isolate was collected."
         />
-        <Select
-          value={currentCountry || 'all'}
-          onValueChange={(value) => updateFilter('country', value)}
-        >
-          <SelectTrigger id="country">
-            <SelectValue placeholder="All countries" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="all">All countries</SelectItem>
-            <SelectItem value="__missing__">Missing</SelectItem>
-            {(type === 'genes' ? filterOptions.countries : filterOptions.mutationCountries).map((country) => (
-              <SelectItem key={country} value={country}>
-                {country}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
+        <SearchableSelect
+          id="country"
+          value={currentCountry}
+          onChange={(value) => updateFilter('country', value || null)}
+          options={type === 'genes' ? filterOptions.countries : filterOptions.mutationCountries}
+          placeholder="All countries"
+          allLabel="All countries"
+          specialOptions={[{ value: '__missing__', label: 'Missing' }]}
+        />
       </div>
 
       {hasActiveFilters && (
