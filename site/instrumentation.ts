@@ -14,15 +14,16 @@ export async function register() {
     const { getValidationTiers, getMutationValidationTiers } = await import('@/lib/actions/browse')
     const { getCachedFilterOptions } = await import('@/lib/browse-cache')
 
-    // Warm all caches in the background so the first user request is fast
-    Promise.all([
-      getValidationTiers(),
-      getMutationValidationTiers(),
-      getCachedFilterOptions(),
-    ]).then(() => {
+    // Awaited (not fire-and-forget): Railway's healthcheck retries for
+    // several minutes before routing real traffic to a deployment, so
+    // paying the cache-computation cost here means it happens once per
+    // restart, hidden behind that window — instead of whichever real
+    // visitor's request happens to land first paying it synchronously.
+    try {
+      await Promise.all([getValidationTiers(), getMutationValidationTiers(), getCachedFilterOptions()])
       console.log('Cache warm-up complete')
-    }).catch((err) => {
+    } catch (err) {
       console.error('Cache warm-up failed:', err)
-    })
+    }
   }
 }
