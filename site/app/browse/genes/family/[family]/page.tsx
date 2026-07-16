@@ -165,6 +165,7 @@ export default async function GeneFamilyPage({ params }: PageProps) {
                           <td className="px-4 py-3">
                             <Link
                               href={`/browse/genes/${encodeURIComponent(allele.name)}`}
+                              prefetch={false}
                               className="font-medium text-primary hover:underline font-mono"
                             >
                               {allele.name}

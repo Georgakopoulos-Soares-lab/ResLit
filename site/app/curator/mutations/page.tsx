@@ -248,6 +248,7 @@ export default function CuratorMutationsPage() {
                         <div className="flex items-center gap-3 mb-1 flex-wrap">
                           <Link
                             href={`/browse/mutations/${mutation.id}`}
+                            prefetch={false}
                             className="text-lg font-semibold text-primary hover:underline"
                           >
                             {mutation.mutation_name ?? mutation.nucleotide_change ?? `Mutation #${mutation.id}`}
@@ -264,6 +265,7 @@ export default function CuratorMutationsPage() {
                             Gene:{' '}
                             <Link
                               href={`/browse/genes/${encodeURIComponent(mutation.gene_name)}`}
+                              prefetch={false}
                               className="text-primary hover:underline font-medium"
                             >
                               {mutation.gene_name}
@@ -404,6 +406,7 @@ export default function CuratorMutationsPage() {
                       <div className="flex items-center justify-between">
                         <Link
                           href={`/browse/mutations/${mutation.id}`}
+                          prefetch={false}
                           className="text-sm text-primary hover:underline"
                         >
                           View full details

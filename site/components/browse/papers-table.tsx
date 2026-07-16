@@ -60,6 +60,7 @@ export function PapersTable({ papers }: PapersTableProps) {
                 <div className="flex items-center gap-2">
                   <Link
                     href={`/browse/papers/${paper.pmid}`}
+                    prefetch={false}
                     className="font-medium text-primary hover:underline"
                   >
                     {paper.pmid}

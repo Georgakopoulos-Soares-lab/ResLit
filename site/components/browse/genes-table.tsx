@@ -83,6 +83,7 @@ export function GenesTable({ genes }: GenesTableProps) {
                 <TableCell>
                   <Link
                     href={`/browse/genes/${encodeURIComponent(primary.gene_name)}`}
+                    prefetch={false}
                     className="font-medium text-primary hover:underline"
                   >
                     {geneName}
@@ -131,6 +132,7 @@ export function GenesTable({ genes }: GenesTableProps) {
                         <li>
                           <Link
                             href={`/browse/genes/${encodeURIComponent(primary.gene_name)}`}
+                            prefetch={false}
                             className="text-xs text-primary hover:underline font-medium"
                           >
                             +{allOrganisms.length - 5} more

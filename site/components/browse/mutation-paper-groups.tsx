@@ -151,6 +151,7 @@ function MergedMutationPaperEntry({ paper, entryNumber }: { paper: MergedPaper; 
             <Link
               key={mut.id}
               href={`/browse/mutations/${mut.id}`}
+              prefetch={false}
               className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-medium font-mono bg-violet-50 text-violet-700 border border-violet-200 hover:bg-violet-100 transition-colors"
             >
               {mut.gene_name}:{' '}
