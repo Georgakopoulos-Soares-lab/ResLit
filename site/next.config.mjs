@@ -7,11 +7,14 @@ const nextConfig = {
     unoptimized: true,
   },
   output: process.env.NODE_ENV === 'production' ? 'standalone' : undefined,
+  // better-sqlite3 is a native module — keep it external rather than letting
+  // the bundler try to inline it, so the compiled .node binary is traced and
+  // copied into .next/standalone correctly.
+  serverExternalPackages: ['better-sqlite3'],
   experimental: {
     serverActions: {
       allowedOrigins: ['localhost:3000', '192.168.*'],
     },
-    instrumentationHook: true,
   },
   async headers() {
     return [{

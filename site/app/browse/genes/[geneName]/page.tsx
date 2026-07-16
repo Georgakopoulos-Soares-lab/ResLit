@@ -12,7 +12,7 @@ import { CombinedPapersSection } from '@/components/browse/combined-papers-secti
 import { HistoryDialog } from '@/components/curator/history-dialog'
 import { getGeneAllPapers, getMutationsByGeneName, getValidationTiers, getMutationValidationTiers } from '@/lib/actions/browse'
 import { getComments } from '@/lib/actions/comments'
-import { createClient } from '@/lib/supabase/server'
+import { getCurrentCurator } from '@/lib/actions/curator'
 import type { ValidationTier } from '@/lib/types'
 
 
@@ -24,10 +24,10 @@ export default async function GeneDetailPage({ params }: PageProps) {
   const { geneName } = await params
   const decodedName = decodeURIComponent(geneName)
 
-  const [genePapers, rawMutations, supabase, tiers, mutTiers] = await Promise.all([
+  const [genePapers, rawMutations, curator, tiers, mutTiers] = await Promise.all([
     getGeneAllPapers(decodedName),
     getMutationsByGeneName(decodedName),
-    createClient(),
+    getCurrentCurator(),
     getValidationTiers(),
     getMutationValidationTiers(),
   ])
@@ -45,10 +45,6 @@ export default async function GeneDetailPage({ params }: PageProps) {
   const gene = genePapers[0] ?? null
 
   const comments = gene ? await getComments('gene', gene.id) : []
-
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
 
   // Group papers by allele (supports both data models)
   const alleleMap = genePapers.reduce<Record<string, typeof genePapers>>((acc, p) => {
@@ -413,7 +409,7 @@ export default async function GeneDetailPage({ params }: PageProps) {
                 targetType="gene"
                 targetId={gene.id}
                 initialComments={comments}
-                currentUserId={user?.id}
+                currentUserId={curator?.id}
               />
             )}
         </div>

@@ -5,24 +5,19 @@ import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { createClient } from '@/lib/supabase/server'
+import { count } from 'drizzle-orm'
+import { db } from '@/lib/db/client'
+import { curators } from '@/lib/db/schema'
 import { getValidationTiers, getGroupedMutationTierCounts, getDistinctPaperCount } from '@/lib/actions/browse'
 
 async function getStats() {
-  const supabase = await createClient()
-
-  const [mutationsResult, curatorsResult] = await Promise.all([
-    supabase.from('amr_mutations').select('id', { count: 'exact', head: true }),
-    supabase.from('curators').select('id', { count: 'exact', head: true }),
+  const [curatorsResult, tiers, mutGrouped, totalPapers] = await Promise.all([
+    db.select({ n: count() }).from(curators),
+    getValidationTiers(),
+    getGroupedMutationTierCounts(),
+    getDistinctPaperCount(),
   ])
 
-  // Compute validation tiers for genes and grouped mutations
-  // (also collects distinct PMIDs as a side effect for the paper count)
-  const [tiers, mutGrouped] = await Promise.all([
-    getValidationTiers(supabase),
-    getGroupedMutationTierCounts(supabase),
-  ])
-  const totalPapers = await getDistinctPaperCount(supabase)
   const tierCounts = { Confirmed: 0, Established: 0, Supported: 0, Candidate: 0 }
   for (const info of tiers.values()) {
     tierCounts[info.tier]++
@@ -31,7 +26,7 @@ async function getStats() {
   return {
     totalGenes: tiers.size,
     totalMutations: mutGrouped.total,
-    totalCurators: curatorsResult.count || 0,
+    totalCurators: curatorsResult[0]?.n || 0,
     totalPapers,
     tierCounts,
     mutTierCounts: mutGrouped.tierCounts,

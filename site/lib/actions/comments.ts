@@ -1,28 +1,26 @@
 'use server'
 
-import { createClient } from '@/lib/supabase/server'
+import { eq, and, desc } from 'drizzle-orm'
 import { revalidatePath } from 'next/cache'
+import { db } from '@/lib/db/client'
+import { comments } from '@/lib/db/schema'
+import { toSnakeCase } from '@/lib/db/helpers'
+import { getCurrentCurator } from '@/lib/actions/curator'
 import type { Comment } from '@/lib/types'
 
-export async function getComments(
-  targetType: 'gene' | 'mutation',
-  targetId: string
-): Promise<Comment[]> {
-  const supabase = await createClient()
+export async function getComments(targetType: 'gene' | 'mutation', targetId: string): Promise<Comment[]> {
+  try {
+    const rows = await db
+      .select()
+      .from(comments)
+      .where(and(eq(comments.targetType, targetType), eq(comments.targetId, targetId)))
+      .orderBy(desc(comments.createdAt))
 
-  const { data, error } = await supabase
-    .from('comments')
-    .select('*')
-    .eq('target_type', targetType)
-    .eq('target_id', targetId)
-    .order('created_at', { ascending: false })
-
-  if (error) {
+    return rows.map((r) => toSnakeCase(r)) as unknown as Comment[]
+  } catch (error) {
     console.error('Error fetching comments:', error)
     return []
   }
-
-  return data as Comment[]
 }
 
 export async function addComment(
@@ -33,103 +31,62 @@ export async function addComment(
   userEmail?: string
 ): Promise<{ success: boolean; error?: string; comment?: Comment }> {
   try {
-    const supabase = await createClient()
+    const curator = await getCurrentCurator()
 
-    // Get the current user (optional - anonymous comments allowed)
-    const {
-      data: { user },
-    } = await supabase.auth.getUser()
+    const [row] = await db
+      .insert(comments)
+      .values({
+        targetType,
+        targetId,
+        userId: curator?.id ?? null,
+        userEmail: userEmail || curator?.email || null,
+        userName: userName || curator?.name || curator?.email?.split('@')[0] || 'Anonymous',
+        content,
+      })
+      .returning()
 
-    const insertPayload = {
-      target_type: targetType,
-      target_id: targetId,
-      user_id: user?.id || null,
-      user_email: userEmail || user?.email || null,
-      user_name: userName || user?.user_metadata?.full_name || user?.email?.split('@')[0] || 'Anonymous',
-      content,
-    }
-
-    const { data, error } = await supabase
-      .from('comments')
-      .insert(insertPayload)
-      .select()
-      .single()
-
-    if (error) {
-      console.error('Error adding comment:', error)
-      return { success: false, error: 'Failed to add comment' }
-    }
-
-    // Revalidate the page to show new comment
     if (targetType === 'gene') {
       revalidatePath('/browse/genes')
     } else {
       revalidatePath(`/browse/mutations/${targetId}`)
     }
 
-    return { success: true, comment: data as Comment }
+    return { success: true, comment: toSnakeCase(row) as unknown as Comment }
   } catch (error) {
     console.error('Exception adding comment:', error)
-    return { success: false, error: 'Exception occurred while adding comment' }
+    return { success: false, error: 'Failed to add comment' }
   }
 }
 
-export async function deleteComment(
-  commentId: string
-): Promise<{ success: boolean; error?: string }> {
-  const supabase = await createClient()
-
-  // Get the current user
-  const {
-    data: { user },
-    error: userError,
-  } = await supabase.auth.getUser()
-
-  if (userError || !user) {
+export async function deleteComment(commentId: string): Promise<{ success: boolean; error?: string }> {
+  const curator = await getCurrentCurator()
+  if (!curator) {
     return { success: false, error: 'You must be logged in to delete a comment' }
   }
 
-  // Delete the comment (RLS will ensure only owner can delete)
-  const { error } = await supabase
-    .from('comments')
-    .delete()
-    .eq('id', commentId)
-    .eq('user_id', user.id)
-
-  if (error) {
+  try {
+    await db.delete(comments).where(and(eq(comments.id, commentId), eq(comments.userId, curator.id)))
+    return { success: true }
+  } catch (error) {
     console.error('Error deleting comment:', error)
     return { success: false, error: 'Failed to delete comment' }
   }
-
-  return { success: true }
 }
 
-export async function updateComment(
-  commentId: string,
-  content: string
-): Promise<{ success: boolean; error?: string }> {
-  const supabase = await createClient()
-
-  // Get the current user
-  const {
-    data: { user },
-    error: userError,
-  } = await supabase.auth.getUser()
-
-  if (userError || !user) {
+export async function updateComment(commentId: string, content: string): Promise<{ success: boolean; error?: string }> {
+  const curator = await getCurrentCurator()
+  if (!curator) {
     return { success: false, error: 'You must be logged in to edit a comment' }
   }
 
-  const { error } = await supabase
-    .from('comments')
-    .update({ content, updated_at: new Date().toISOString() })
-    .eq('id', commentId)
-    .eq('user_id', user.id)
-
-  if (error) {
+  try {
+    await db
+      .update(comments)
+      .set({ content })
+      .where(and(eq(comments.id, commentId), eq(comments.userId, curator.id)))
+    return { success: true }
+  } catch (error) {
     console.error('Error updating comment:', error)
     return { success: false, error: 'Failed to update comment' }
   }
-
-  return { success: true }
 }
