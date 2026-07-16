@@ -1,4 +1,8 @@
-"use server"
+// Default Next.js behavior would statically pre-render this at build time
+// (no request-specific data used) — but Railway's build stage can't see
+// real data (the database only exists on a Volume mounted at runtime), so
+// force live rendering instead.
+export const dynamic = 'force-dynamic'
 
 import { getAllCurators } from "@/lib/actions/curator"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"

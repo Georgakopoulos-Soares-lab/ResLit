@@ -1,4 +1,9 @@
-export const revalidate = 86400 // 24 hours
+// Was ISR (24h revalidate) to hide Supabase's network latency. Now backed
+// by embedded SQLite (sub-millisecond reads) with no such latency to hide,
+// and static/ISR pages can't see real data at Railway build time anyway
+// (the database only exists on a Volume mounted at runtime, not during the
+// build) — so this always renders live instead.
+export const dynamic = 'force-dynamic'
 
 import Link from 'next/link'
 import { Header } from '@/components/header'

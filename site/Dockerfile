@@ -38,6 +38,13 @@ COPY --from=installer /app/node_modules ./node_modules
 # Copy source code
 COPY . .
 
+# Create a throwaway schema so any page that queries the database during
+# static generation doesn't crash the build with "no such table" — this is
+# NOT the real database (which only exists on the Railway Volume, mounted
+# at runtime, invisible to this build stage), just enough structure for
+# build-time rendering to succeed. Real data is seeded separately post-deploy.
+RUN mkdir -p data && pnpm db:migrate
+
 # Build the Next.js app (output: standalone produces .next/standalone/)
 ENV NODE_ENV=production
 RUN pnpm build
