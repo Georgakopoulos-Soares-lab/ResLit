@@ -118,6 +118,7 @@ export function MutationsTable({ mutations, hideGene }: MutationsTableProps) {
                     <div>
                       <Link
                         href={`/browse/genes/${encodeURIComponent(row.gene_name)}`}
+                        prefetch={false}
                         className="text-primary text-sm hover:underline font-medium"
                       >
                         {row.gene_name}
@@ -135,6 +136,7 @@ export function MutationsTable({ mutations, hideGene }: MutationsTableProps) {
                 {row.protein_change ? (
                   <Link
                     href={`/browse/mutations/${row.ids[0]}`}
+                    prefetch={false}
                     className="text-primary hover:underline font-medium"
                   >
                     {row.protein_change}
@@ -150,6 +152,7 @@ export function MutationsTable({ mutations, hideGene }: MutationsTableProps) {
                       <Link
                         key={nc}
                         href={`/browse/mutations/${row.ids[i] ?? row.ids[0]}`}
+                        prefetch={false}
                         className="text-primary hover:underline"
                       >
                         {nc}

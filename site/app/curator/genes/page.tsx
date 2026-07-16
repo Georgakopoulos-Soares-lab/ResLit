@@ -331,6 +331,7 @@ export default function CuratorGenesPage() {
                         <div className="flex items-center gap-3 mb-2">
                           <Link
                             href={`/browse/genes/${encodeURIComponent(gene.gene_name)}`}
+                            prefetch={false}
                             className="text-lg font-semibold text-primary hover:underline"
                           >
                             {gene.gene_name}
@@ -413,6 +414,7 @@ export default function CuratorGenesPage() {
                       <div className="flex items-center justify-between">
                         <Link
                           href={`/browse/genes/${encodeURIComponent(gene.gene_name)}`}
+                          prefetch={false}
                           className="text-sm text-primary hover:underline"
                         >
                           View full details

@@ -28,7 +28,7 @@ export function MutationsCards({ mutations }: MutationsCardsProps) {
   return (
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {mutations.map((mutation) => (
-        <Link key={mutation.id} href={`/browse/mutations/${mutation.id}`}>
+        <Link key={mutation.id} href={`/browse/mutations/${mutation.id}`} prefetch={false}>
           <Card className="h-full border-border/60 hover:border-primary/40 hover:shadow-md transition-all cursor-pointer">
             <CardHeader className="pb-3">
               <div className="flex items-start justify-between gap-2">

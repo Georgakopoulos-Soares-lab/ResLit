@@ -52,6 +52,7 @@ export function GenesForMutationsTable({ genes }: GenesForMutationsTableProps) {
               <TableCell>
                 <Link
                   href={`/browse/genes/${encodeURIComponent(gene.gene_name)}`}
+                  prefetch={false}
                   className="font-medium text-primary hover:underline"
                 >
                   {gene.gene_name}

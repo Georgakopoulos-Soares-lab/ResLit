@@ -43,7 +43,7 @@ export function GenesCards({ genes }: GenesCardsProps) {
         const year = gene.year_pmid || gene.year || null
 
         return (
-          <Link key={gene.id} href={`/browse/genes/${encodeURIComponent(gene.gene_name)}`}>
+          <Link key={gene.id} href={`/browse/genes/${encodeURIComponent(gene.gene_name)}`} prefetch={false}>
             <Card className="h-full border-border/60 hover:border-primary/40 hover:shadow-md transition-all cursor-pointer">
               <CardHeader className="pb-3">
                 <div className="flex items-start justify-between gap-2">
