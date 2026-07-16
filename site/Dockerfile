@@ -68,6 +68,20 @@ COPY --from=builder /app/.next/static ./.next/static
 # Copy public assets (icons, images, etc.)
 COPY --from=builder /app/public ./public
 
+# Next's standalone output above is deliberately minimal (no pnpm, no dev
+# tooling, no scripts/) — enough to serve the app but not to run one-off
+# production tasks like the data seed. Give those their own isolated tree
+# with a full node_modules, so they don't disturb the standalone app's
+# carefully traced dependencies. Run via: cd admin && pnpm db:seed
+RUN corepack enable && corepack prepare pnpm@9 --activate
+COPY --from=installer /app/node_modules ./admin/node_modules
+COPY --from=builder /app/scripts ./admin/scripts
+COPY --from=builder /app/lib ./admin/lib
+COPY --from=builder /app/package.json ./admin/package.json
+COPY --from=builder /app/pnpm-lock.yaml ./admin/pnpm-lock.yaml
+COPY --from=builder /app/tsconfig.json ./admin/tsconfig.json
+COPY --from=builder /app/drizzle.config.ts ./admin/drizzle.config.ts
+
 # Directory for the SQLite database file — expected to be a Railway Volume
 # mounted at exactly this path, so the database survives redeploys/restarts
 # instead of living on the container's disposable filesystem.
