@@ -50,9 +50,27 @@ seed data).
 
 ## Deployment (Railway)
 
-Not yet wired up — the SQLite migration has been verified locally only so far. Remaining work: a Railway
-Volume for the database file, `better-sqlite3`'s native build in the Alpine Docker stage, and a one-time
-production seed via `railway ssh`. See the migration plan for the full checklist.
+Live. The service runs as a single Docker container with a Railway Volume mounted at `/data`
+(`DATABASE_PATH=/data/reslit.db`). Schema migrations apply automatically on boot (`instrumentation.ts`
+runs `drizzle-orm`'s migrator before the server starts accepting traffic).
+
+Notes specific to this deployment:
+
+- **`RAILWAY_RUN_UID=0`** is set as a service variable. Railway mounts the Volume owned by `root`, which
+  conflicts with the Dockerfile's non-root `nextjs` user — without this, the container can't create the
+  database file on first boot (`SQLITE_CANTOPEN`). Railway's own deploy diagnostics surface a one-click
+  fix for this exact case.
+- **One-time/one-off tasks** (seeding, ad hoc scripts) run via the Railway **Console** tab, `cd admin &&
+  pnpm <script>`. The production runtime image is Next's standalone output, which deliberately excludes
+  pnpm and dev tooling — the Dockerfile copies an isolated `admin/` tree (full `node_modules`, `scripts/`,
+  `lib/`, and the Drizzle config) alongside the app specifically so these scripts have something to run
+  with in that environment.
+- **Re-seeding in production** works the same as locally (`pnpm db:seed` clears and reloads
+  papers/genes/mutations only) — run it from the Console as above, then **restart the service** so the
+  in-process caches (`instrumentation.ts` warm-up, `unstable_cache` entries) pick up the new data; they
+  don't refresh automatically when the underlying file changes externally.
+- **Backups**: not yet set up. The Volume isn't backed up off-site the way Supabase was — a scheduled
+  `VACUUM INTO` snapshot pushed somewhere off-instance is a planned follow-up, not yet built.
 
 ## Environment variables
 
