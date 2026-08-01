@@ -12,7 +12,11 @@ async function send(to: string, subject: string, html: string, devLabel: string,
     console.log(`\n[dev email] ${devLabel}\n  to: ${to}\n  link: ${url}\n`)
     return
   }
-  await resend.emails.send({ from: FROM_EMAIL, to, subject, html })
+  const { error } = await resend.emails.send({ from: FROM_EMAIL, to, subject, html })
+  if (error) {
+    console.error(`[email] Resend failed to send "${subject}" to ${to}:`, error)
+    throw new Error(`Failed to send email: ${error.message}`)
+  }
 }
 
 export async function sendVerificationEmail(to: string, verifyUrl: string): Promise<void> {
