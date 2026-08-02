@@ -8,6 +8,22 @@ export function jsonContains(column: SQLiteColumn, value: string): SQL {
   return sql`EXISTS (SELECT 1 FROM json_each(${column}) WHERE value = ${value})`
 }
 
+/** Lowercases and strips everything but letters/digits — shared by the
+ * `alnum` SQLite function (registered in lib/db/client.ts) and the JS-side
+ * comparisons below, so a search for "blaOXA14" matches a stored "blaOXA-14"
+ * regardless of hyphens/underscores/spaces on either side. */
+export function normalizeAlnum(value: string): string {
+  return value.toLowerCase().replace(/[^a-z0-9]/g, '')
+}
+
+/** Punctuation-insensitive substring match for gene/allele/mutation
+ * identifier columns. Relies on the `alnum` SQLite function registered on
+ * the connection in lib/db/client.ts — plain SQL LIKE/REPLACE can't express
+ * "strip all non-alphanumeric characters" in one shot. */
+export function alnumLike(column: SQLiteColumn, term: string): SQL {
+  return sql`alnum(${column}) LIKE ${'%' + normalizeAlnum(term) + '%'}`
+}
+
 /** better-sqlite3's compiled SQLITE_MAX_VARIABLE_NUMBER is 32766 — a single
  * query binding more parameters than that throws "too many SQL variables".
  * Any `inArray()` fed by an unbounded list (not a fixed-size page) must be

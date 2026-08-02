@@ -3,6 +3,7 @@ import { drizzle, type BetterSQLite3Database } from 'drizzle-orm/better-sqlite3'
 import fs from 'fs'
 import path from 'path'
 import * as schema from './schema'
+import { normalizeAlnum } from './helpers'
 
 const DATABASE_PATH = process.env.DATABASE_PATH || './data/reslit.db'
 
@@ -26,6 +27,11 @@ function getSqlite(): Database.Database {
     _sqlite.pragma('journal_mode = WAL')
     _sqlite.pragma('foreign_keys = ON')
     _sqlite.pragma('busy_timeout = 5000')
+    // Backs alnumLike() in ./helpers — punctuation-insensitive search
+    // (e.g. "blaOXA14" matches "blaOXA-14").
+    _sqlite.function('alnum', { deterministic: true }, (value: unknown) =>
+      value == null ? null : normalizeAlnum(String(value))
+    )
   }
   return _sqlite
 }
