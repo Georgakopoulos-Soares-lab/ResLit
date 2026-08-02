@@ -3,7 +3,7 @@
 import { eq, gte, lte, isNull, isNotNull, like, or, and, inArray, asc } from 'drizzle-orm'
 import { db } from '@/lib/db/client'
 import { amrGenes, amrMutations, papers } from '@/lib/db/schema'
-import { jsonContains, toSnakeCase } from '@/lib/db/helpers'
+import { jsonContains, toSnakeCase, alnumLike, normalizeAlnum } from '@/lib/db/helpers'
 import { getCachedFilterOptions } from '@/lib/browse-cache'
 import type { AMRGene, AMRMutation, FilterOptions, BrowseFilters, PaginatedResult, GeneWithMutationCount, GeneAllele, CurationStatus, PaperEntry, ValidationTier, ValidationInfo, ConfirmationReason } from '@/lib/types'
 
@@ -336,11 +336,11 @@ function buildGeneConditions(filters: BrowseFilters, tiers: Map<string, Validati
   if (filters.search) {
     const p = `%${filters.search}%`
     conditions.push(
-      or(like(amrGenes.geneName, p), like(amrGenes.allele, p), like(amrGenes.mechanism, p), like(amrGenes.encodes, p))
+      or(alnumLike(amrGenes.geneName, filters.search), alnumLike(amrGenes.allele, filters.search), like(amrGenes.mechanism, p), like(amrGenes.encodes, p))
     )
   }
-  if (filters.geneNameSearch) conditions.push(like(amrGenes.geneName, `%${filters.geneNameSearch}%`))
-  if (filters.alleleSearch) conditions.push(like(amrGenes.allele, `%${filters.alleleSearch}%`))
+  if (filters.geneNameSearch) conditions.push(alnumLike(amrGenes.geneName, filters.geneNameSearch))
+  if (filters.alleleSearch) conditions.push(alnumLike(amrGenes.allele, filters.alleleSearch))
   if (filters.pmid) conditions.push(eq(amrGenes.paperPmid, filters.pmid))
   if (filters.mechanismClass) conditions.push(eq(amrGenes.mechanism, filters.mechanismClass))
   if (filters.antibiotic) conditions.push(jsonContains(amrGenes.confersResistanceTo, filters.antibiotic))
@@ -378,8 +378,8 @@ export async function browseGenes(filters: BrowseFilters, page: number = 1): Pro
   } else {
     uniqueNames = cachedNames
     if (filters.search) {
-      const s = filters.search.toLowerCase()
-      uniqueNames = uniqueNames.filter((g) => g.toLowerCase().includes(s))
+      const s = normalizeAlnum(filters.search)
+      uniqueNames = uniqueNames.filter((g) => normalizeAlnum(g).includes(s))
     }
     if (filters.validationTier) {
       uniqueNames = uniqueNames.filter((g) => (tiers.get(g)?.tier ?? 'Candidate') === filters.validationTier)
@@ -494,8 +494,8 @@ export async function browseGenesByAllele(filters: BrowseFilters, page: number =
     groups = cachedGroups
     groupKeys = [...groups.keys()].sort()
     if (filters.search) {
-      const s = filters.search.toLowerCase()
-      groupKeys = groupKeys.filter((k) => k.toLowerCase().includes(s))
+      const s = normalizeAlnum(filters.search)
+      groupKeys = groupKeys.filter((k) => normalizeAlnum(k).includes(s))
     }
     if (filters.validationTier) {
       groupKeys = groupKeys.filter((k) => (tiers.get(geneNameFromAlleleKey(k))?.tier ?? 'Candidate') === filters.validationTier)
@@ -575,9 +575,9 @@ export async function browseMutations(filters: BrowseFilters, page: number = 1):
       const p = `%${filters.search}%`
       conditions.push(
         or(
-          like(amrMutations.nucleotideChange, p),
-          like(amrMutations.geneName, p),
-          like(amrMutations.proteinChange, p),
+          alnumLike(amrMutations.nucleotideChange, filters.search),
+          alnumLike(amrMutations.geneName, filters.search),
+          alnumLike(amrMutations.proteinChange, filters.search),
           like(amrMutations.effectOnFunction, p),
           like(amrMutations.paperPmid, p),
           like(amrMutations.titlePmid, p)
@@ -621,8 +621,8 @@ export async function browseMutations(filters: BrowseFilters, page: number = 1):
 
   let groupKeys = [...groups.keys()].sort()
   if (filters.search && !hasComplexMutationFilters(filters)) {
-    const s = filters.search.toLowerCase()
-    groupKeys = groupKeys.filter((k) => k.toLowerCase().includes(s))
+    const s = normalizeAlnum(filters.search)
+    groupKeys = groupKeys.filter((k) => normalizeAlnum(k).includes(s))
   }
   if (filters.validationTier) {
     groupKeys = groupKeys.filter((key) => {
@@ -720,7 +720,7 @@ export async function browseGenesWithMutations(filters: BrowseFilters, page: num
     }
     conditions.push(inArray(amrMutations.geneName, tierGenes))
   }
-  if (filters.search) conditions.push(like(amrMutations.geneName, `%${filters.search}%`))
+  if (filters.search) conditions.push(alnumLike(amrMutations.geneName, filters.search))
   if (allowedGeneNames !== null) {
     if (allowedGeneNames.length === 0) {
       return { data: [], total: 0, page, pageSize: PAGE_SIZE, totalPages: 0 }

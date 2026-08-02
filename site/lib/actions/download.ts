@@ -3,7 +3,7 @@
 import { eq, and, or, like, gte, lte, isNull, isNotNull, inArray, asc, desc } from 'drizzle-orm'
 import { db } from '@/lib/db/client'
 import { amrGenes, amrMutations, curationHistory, comments } from '@/lib/db/schema'
-import { jsonContains, toSnakeCase, chunk } from '@/lib/db/helpers'
+import { jsonContains, toSnakeCase, chunk, alnumLike } from '@/lib/db/helpers'
 import { getValidationTiers, getMutationValidationTiers, getGroupedMutationTierCounts } from '@/lib/actions/browse'
 import type { AMRGene, AMRMutation, BrowseFilters } from '@/lib/types'
 
@@ -315,7 +315,7 @@ export async function downloadFilteredGenes(filters: BrowseFilters): Promise<{ c
   if (filters.curatedOnly) conditions.push(eq(amrGenes.status, 'curated'))
   if (filters.search) {
     const p = `%${filters.search}%`
-    conditions.push(or(like(amrGenes.geneName, p), like(amrGenes.mechanism, p), like(amrGenes.encodes, p)))
+    conditions.push(or(alnumLike(amrGenes.geneName, filters.search), alnumLike(amrGenes.allele, filters.search), like(amrGenes.mechanism, p), like(amrGenes.encodes, p)))
   }
   if (filters.mechanismClass) conditions.push(eq(amrGenes.resistanceMechanismClass, filters.mechanismClass))
   if (filters.antibiotic) conditions.push(jsonContains(amrGenes.confersResistanceTo, filters.antibiotic))
@@ -351,9 +351,9 @@ export async function downloadFilteredMutations(filters: BrowseFilters): Promise
     const p = `%${filters.search}%`
     conditions.push(
       or(
-        like(amrMutations.nucleotideChange, p),
-        like(amrMutations.geneName, p),
-        like(amrMutations.proteinChange, p),
+        alnumLike(amrMutations.nucleotideChange, filters.search),
+        alnumLike(amrMutations.geneName, filters.search),
+        alnumLike(amrMutations.proteinChange, filters.search),
         like(amrMutations.effectOnFunction, p),
         like(amrMutations.paperPmid, p)
       )
