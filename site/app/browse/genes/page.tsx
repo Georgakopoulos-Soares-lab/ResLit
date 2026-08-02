@@ -4,10 +4,12 @@ import { Footer } from '@/components/footer'
 import { FilterSidebar } from '@/components/browse/filter-sidebar'
 import { SearchBar } from '@/components/browse/search-bar'
 import { GenesTable } from '@/components/browse/genes-table'
+import { GenesByAlleleTable } from '@/components/browse/genes-by-allele-table'
+import { GenesModeToggle } from '@/components/browse/genes-mode-toggle'
 import { BrowsePagination } from '@/components/browse/browse-pagination'
 import { DownloadFilteredButton } from '@/components/browse/download-filtered-button'
 import { Skeleton } from '@/components/ui/skeleton'
-import { getFilterOptions, browseGenes } from '@/lib/actions/browse'
+import { getFilterOptions, browseGenes, browseGenesByAllele } from '@/lib/actions/browse'
 import type { BrowseFilters } from '@/lib/types'
 
 interface PageProps {
@@ -24,6 +26,7 @@ interface PageProps {
     pmid?: string
     validationTier?: string
     page?: string
+    mode?: string
   }>
 }
 
@@ -39,6 +42,7 @@ function LoadingSkeleton() {
 
 export default async function BrowseGenesPage({ searchParams }: PageProps) {
   const params = await searchParams
+  const mode = params.mode === 'alleles' ? 'alleles' : 'genes'
 
   const filters: BrowseFilters = {
     search: params.search,
@@ -55,10 +59,13 @@ export default async function BrowseGenesPage({ searchParams }: PageProps) {
   }
 
   const page = params.page ? parseInt(params.page) : 1
-  const [filterOptions, result] = await Promise.all([
+  const [filterOptions, genesResult, allelesResult] = await Promise.all([
     getFilterOptions(),
-    browseGenes(filters, page),
+    mode === 'genes' ? browseGenes(filters, page) : Promise.resolve(null),
+    mode === 'alleles' ? browseGenesByAllele(filters, page) : Promise.resolve(null),
   ])
+
+  const result = mode === 'genes' ? genesResult! : allelesResult!
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -72,12 +79,19 @@ export default async function BrowseGenesPage({ searchParams }: PageProps) {
           </p>
         </div>
 
+        {/* Mode toggle */}
+        <div className="mb-6">
+          <Suspense>
+            <GenesModeToggle currentMode={mode} />
+          </Suspense>
+        </div>
+
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Sidebar Filters */}
           <aside className="w-full lg:w-72 shrink-0">
             <div className="sticky top-24 rounded-lg border border-border/60 bg-card p-4">
               <Suspense fallback={<Skeleton className="h-96 w-full" />}>
-                <FilterSidebar filterOptions={filterOptions} type="genes" />
+                <FilterSidebar filterOptions={filterOptions} type="genes" keepParams={['mode']} />
               </Suspense>
             </div>
           </aside>
@@ -88,7 +102,7 @@ export default async function BrowseGenesPage({ searchParams }: PageProps) {
             <div className="flex flex-col sm:flex-row gap-4 mb-6">
               <div className="flex-1">
                 <Suspense fallback={<Skeleton className="h-10 w-full" />}>
-                  <SearchBar type="genes" placeholder="Search genes by name..." />
+                  <SearchBar type="genes" placeholder={mode === 'alleles' ? 'Search by gene or allele name...' : 'Search genes by name...'} />
                 </Suspense>
               </div>
               <div className="flex items-center gap-2">
@@ -100,7 +114,7 @@ export default async function BrowseGenesPage({ searchParams }: PageProps) {
 
             {/* Results */}
             <Suspense fallback={<LoadingSkeleton />}>
-              <GenesTable genes={result.data} />
+              {mode === 'genes' ? <GenesTable genes={genesResult!.data} /> : <GenesByAlleleTable alleles={allelesResult!.data} />}
             </Suspense>
 
             {/* Pagination */}
