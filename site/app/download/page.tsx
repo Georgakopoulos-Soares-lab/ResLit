@@ -9,6 +9,8 @@ export const metadata = {
   description: 'Download antimicrobial resistance genes and mutations data in CSV format',
 }
 
+export const dynamic = 'force-dynamic'
+
 export default async function DownloadPage() {
   const stats = await getDownloadStats()
 
