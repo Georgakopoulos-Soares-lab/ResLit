@@ -4,7 +4,7 @@
  * Sources (all under scripts/seed-data/):
  *   Full_list_genes_Reslit_harmonized_antib_bact.csv       — your own extraction pipeline ("Reslit")
  *   Full_list_mutations_Reslit_antib_bact.csv               — your own extraction pipeline ("Reslit")
- *   Full_list_genes_otherDatabases_AlleleCorrected-1_filtered_concatenated_bla_fixed.csv
+ *   Full_list_genes_otherDatabases_AlleleCorrected-1_filtered_concatenated_bla_fixed_pubmed_antibiotic_corrected.csv
  *                                                            — CARD / ResFinder / Reference Gene Catalog
  *   Full_list_mutations_otherDatabases_clean.csv             — CARD / ResFinder / AMRFinder
  *
@@ -53,7 +53,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const SEED_DATA_DIR = path.join(__dirname, 'seed-data')
 const GENES_CSV = path.join(SEED_DATA_DIR, 'Full_list_genes_Reslit_harmonized_antib_bact.csv')
 const MUTATIONS_CSV = path.join(SEED_DATA_DIR, 'Full_list_mutations_Reslit_antib_bact.csv')
-const GENES_OTHER_CSV = path.join(SEED_DATA_DIR, 'Full_list_genes_otherDatabases_AlleleCorrected-1_filtered_concatenated_bla_fixed.csv')
+const GENES_OTHER_CSV = path.join(SEED_DATA_DIR, 'Full_list_genes_otherDatabases_AlleleCorrected-1_filtered_concatenated_bla_fixed_pubmed_antibiotic_corrected.csv')
 const MUTATIONS_OTHER_CSV = path.join(SEED_DATA_DIR, 'Full_list_mutations_otherDatabases_clean.csv')
 
 // Canonical source-database names, matching lib/actions/browse.ts's EXTERNAL_DATABASES
