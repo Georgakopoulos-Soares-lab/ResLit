@@ -5,7 +5,7 @@ import { db } from '@/lib/db/client'
 import { amrGenes, amrMutations, papers } from '@/lib/db/schema'
 import { jsonContains, toSnakeCase } from '@/lib/db/helpers'
 import { getCachedFilterOptions } from '@/lib/browse-cache'
-import type { AMRGene, AMRMutation, FilterOptions, BrowseFilters, PaginatedResult, GeneWithMutationCount, CurationStatus, PaperEntry, ValidationTier, ValidationInfo, ConfirmationReason } from '@/lib/types'
+import type { AMRGene, AMRMutation, FilterOptions, BrowseFilters, PaginatedResult, GeneWithMutationCount, GeneAllele, CurationStatus, PaperEntry, ValidationTier, ValidationInfo, ConfirmationReason } from '@/lib/types'
 
 const PAGE_SIZE = 10
 
@@ -21,6 +21,8 @@ let _geneNamesCache: { data: string[]; ts: number } | null = null
 let _geneNamesPromise: Promise<string[]> | null = null
 let _mutGroupsCache: { data: Map<string, string[]>; ts: number } | null = null
 let _mutGroupsPromise: Promise<Map<string, string[]>> | null = null
+let _alleleGroupsCache: { data: Map<string, string[]>; ts: number } | null = null
+let _alleleGroupsPromise: Promise<Map<string, string[]>> | null = null
 
 let _genePmids: Set<string> | null = null
 let _mutPmids: Set<string> | null = null
@@ -329,44 +331,47 @@ export async function getFilterOptions(): Promise<FilterOptions> {
   return getCachedFilterOptions()
 }
 
+function buildGeneConditions(filters: BrowseFilters, tiers: Map<string, ValidationInfo>) {
+  const conditions = []
+  if (filters.search) {
+    const p = `%${filters.search}%`
+    conditions.push(
+      or(like(amrGenes.geneName, p), like(amrGenes.allele, p), like(amrGenes.mechanism, p), like(amrGenes.encodes, p))
+    )
+  }
+  if (filters.geneNameSearch) conditions.push(like(amrGenes.geneName, `%${filters.geneNameSearch}%`))
+  if (filters.alleleSearch) conditions.push(like(amrGenes.allele, `%${filters.alleleSearch}%`))
+  if (filters.pmid) conditions.push(eq(amrGenes.paperPmid, filters.pmid))
+  if (filters.mechanismClass) conditions.push(eq(amrGenes.mechanism, filters.mechanismClass))
+  if (filters.antibiotic) conditions.push(jsonContains(amrGenes.confersResistanceTo, filters.antibiotic))
+  if (filters.encodes) conditions.push(eq(amrGenes.encodes, filters.encodes))
+  if (filters.organism) conditions.push(jsonContains(amrGenes.organismsTestedIn, filters.organism))
+  if (filters.country) {
+    conditions.push(filters.country === '__missing__' ? isNull(amrGenes.geographicLocation) : eq(amrGenes.geographicLocation, filters.country))
+  }
+  if (filters.yearFrom) conditions.push(gte(amrGenes.year, filters.yearFrom))
+  if (filters.yearTo) conditions.push(lte(amrGenes.year, filters.yearTo))
+  if (filters.sourceDatabases && filters.sourceDatabases.length > 0) {
+    conditions.push(inArray(amrGenes.sourceDatabase, filters.sourceDatabases))
+  }
+  if (filters.curatedOnly) conditions.push(eq(amrGenes.geneStatus, 'curated'))
+  if (filters.validationTier) {
+    const tierGenes = [...tiers.entries()].filter(([, i]) => i.tier === filters.validationTier).map(([g]) => g)
+    conditions.push(inArray(amrGenes.geneName, tierGenes))
+  }
+  return conditions
+}
+
 export async function browseGenes(filters: BrowseFilters, page: number = 1): Promise<PaginatedResult<AMRGene>> {
   const [tiers, cachedNames] = await Promise.all([getValidationTiers(), getCachedGeneNames()])
 
   let uniqueNames: string[]
 
   if (hasComplexGeneFilters(filters)) {
-    const conditions = []
-    if (filters.search) {
-      const p = `%${filters.search}%`
-      conditions.push(
-        or(like(amrGenes.geneName, p), like(amrGenes.allele, p), like(amrGenes.mechanism, p), like(amrGenes.encodes, p))
-      )
-    }
-    if (filters.geneNameSearch) conditions.push(like(amrGenes.geneName, `%${filters.geneNameSearch}%`))
-    if (filters.alleleSearch) conditions.push(like(amrGenes.allele, `%${filters.alleleSearch}%`))
-    if (filters.pmid) conditions.push(eq(amrGenes.paperPmid, filters.pmid))
-    if (filters.mechanismClass) conditions.push(eq(amrGenes.mechanism, filters.mechanismClass))
-    if (filters.antibiotic) conditions.push(jsonContains(amrGenes.confersResistanceTo, filters.antibiotic))
-    if (filters.encodes) conditions.push(eq(amrGenes.encodes, filters.encodes))
-    if (filters.organism) conditions.push(jsonContains(amrGenes.organismsTestedIn, filters.organism))
-    if (filters.country) {
-      conditions.push(filters.country === '__missing__' ? isNull(amrGenes.geographicLocation) : eq(amrGenes.geographicLocation, filters.country))
-    }
-    if (filters.yearFrom) conditions.push(gte(amrGenes.year, filters.yearFrom))
-    if (filters.yearTo) conditions.push(lte(amrGenes.year, filters.yearTo))
-    if (filters.sourceDatabases && filters.sourceDatabases.length > 0) {
-      conditions.push(inArray(amrGenes.sourceDatabase, filters.sourceDatabases))
-    }
-    if (filters.curatedOnly) conditions.push(eq(amrGenes.geneStatus, 'curated'))
-    if (filters.validationTier) {
-      const tierGenes = [...tiers.entries()].filter(([, i]) => i.tier === filters.validationTier).map(([g]) => g)
-      conditions.push(inArray(amrGenes.geneName, tierGenes))
-    }
-
     const rows = await db
       .select({ geneName: amrGenes.geneName })
       .from(amrGenes)
-      .where(conditions.length ? and(...conditions) : undefined)
+      .where(and(...buildGeneConditions(filters, tiers)))
       .orderBy(asc(amrGenes.geneName))
 
     uniqueNames = [...new Set(rows.map((r) => r.geneName).filter(Boolean))].sort()
@@ -418,6 +423,136 @@ export async function browseGenes(filters: BrowseFilters, page: number = 1): Pro
   })) as unknown as AMRGene[]
 
   enriched.sort((a, b) => a.gene_name.localeCompare(b.gene_name))
+
+  return { data: enriched, total, page, pageSize: PAGE_SIZE, totalPages }
+}
+
+// Groups amr_genes rows by (gene_name, allele) — falling back to gene_name
+// itself when a row has no allele, matching the grouping already used on the
+// gene-detail page's "Allele Variants" table.
+function alleleGroupKey(geneName: string, allele: string | null): string {
+  return `${geneName}::${allele || geneName}`
+}
+
+function geneNameFromAlleleKey(key: string): string {
+  return key.split('::')[0]
+}
+
+async function _fetchAlleleGroups(): Promise<Map<string, string[]>> {
+  const rows = await db.select({ id: amrGenes.id, geneName: amrGenes.geneName, allele: amrGenes.allele }).from(amrGenes)
+
+  const groups = new Map<string, string[]>()
+  for (const r of rows) {
+    if (!r.geneName) continue
+    const key = alleleGroupKey(r.geneName, r.allele)
+    if (!groups.has(key)) groups.set(key, [])
+    groups.get(key)!.push(String(r.id))
+  }
+  return groups
+}
+
+async function getCachedAlleleGroups(): Promise<Map<string, string[]>> {
+  if (_alleleGroupsCache && Date.now() - _alleleGroupsCache.ts < CACHE_TTL) {
+    return _alleleGroupsCache.data
+  }
+  if (!_alleleGroupsPromise) {
+    _alleleGroupsPromise = _fetchAlleleGroups()
+      .then((data) => {
+        _alleleGroupsCache = { data, ts: Date.now() }
+        _alleleGroupsPromise = null
+        return data
+      })
+      .catch((err) => {
+        _alleleGroupsPromise = null
+        throw err
+      })
+  }
+  return _alleleGroupsPromise
+}
+
+export async function browseGenesByAllele(filters: BrowseFilters, page: number = 1): Promise<PaginatedResult<GeneAllele>> {
+  const [tiers, cachedGroups] = await Promise.all([getValidationTiers(), getCachedAlleleGroups()])
+
+  let groups: Map<string, string[]>
+  let groupKeys: string[]
+
+  if (hasComplexGeneFilters(filters)) {
+    const rows = await db
+      .select({ id: amrGenes.id, geneName: amrGenes.geneName, allele: amrGenes.allele })
+      .from(amrGenes)
+      .where(and(...buildGeneConditions(filters, tiers)))
+
+    groups = new Map<string, string[]>()
+    for (const r of rows) {
+      if (!r.geneName) continue
+      const key = alleleGroupKey(r.geneName, r.allele)
+      if (!groups.has(key)) groups.set(key, [])
+      groups.get(key)!.push(String(r.id))
+    }
+    groupKeys = [...groups.keys()].sort()
+  } else {
+    groups = cachedGroups
+    groupKeys = [...groups.keys()].sort()
+    if (filters.search) {
+      const s = filters.search.toLowerCase()
+      groupKeys = groupKeys.filter((k) => k.toLowerCase().includes(s))
+    }
+    if (filters.validationTier) {
+      groupKeys = groupKeys.filter((k) => (tiers.get(geneNameFromAlleleKey(k))?.tier ?? 'Candidate') === filters.validationTier)
+    }
+    if (filters.sourceDatabases?.length && _geneDbMap) {
+      groupKeys = groupKeys.filter((k) => {
+        const dbs = _geneDbMap!.get(geneNameFromAlleleKey(k))
+        return dbs && filters.sourceDatabases!.some((db) => dbs.has(db))
+      })
+    }
+  }
+
+  const total = groupKeys.length
+  const totalPages = Math.ceil(total / PAGE_SIZE)
+  const pagedKeys = groupKeys.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE)
+
+  if (pagedKeys.length === 0) {
+    return { data: [], total, page, pageSize: PAGE_SIZE, totalPages }
+  }
+
+  const pagedIds = pagedKeys.flatMap((k) => groups.get(k)!).map(Number)
+  const rows = await db
+    .select({
+      geneName: amrGenes.geneName,
+      allele: amrGenes.allele,
+      encodes: amrGenes.encodes,
+      confersResistanceTo: amrGenes.confersResistanceTo,
+      organismsTestedIn: amrGenes.organismsTestedIn,
+      sourceDatabase: amrGenes.sourceDatabase,
+    })
+    .from(amrGenes)
+    .where(inArray(amrGenes.id, pagedIds))
+
+  const byKey = new Map<string, typeof rows>()
+  for (const r of rows) {
+    if (!r.geneName) continue
+    const key = alleleGroupKey(r.geneName, r.allele)
+    if (!byKey.has(key)) byKey.set(key, [])
+    byKey.get(key)!.push(r)
+  }
+
+  const enriched: GeneAllele[] = pagedKeys.map((key) => {
+    const groupRows = byKey.get(key) ?? []
+    const first = groupRows[0]
+    return {
+      gene_name: first.geneName!,
+      allele: first.allele || first.geneName!,
+      encodes: groupRows.map((r) => r.encodes).find(Boolean) ?? null,
+      paper_count: groupRows.length,
+      databases: [...new Set(groupRows.map((r) => r.sourceDatabase).filter((d): d is string => !!d))].sort(),
+      resistances: [...new Set(groupRows.flatMap((r) => r.confersResistanceTo ?? []))],
+      organisms: [...new Set(groupRows.flatMap((r) => r.organismsTestedIn ?? []))],
+      validation_tier: (tiers.get(first.geneName!)?.tier ?? 'Candidate') as ValidationTier,
+    }
+  })
+
+  enriched.sort((a, b) => a.gene_name.localeCompare(b.gene_name) || a.allele.localeCompare(b.allele))
 
   return { data: enriched, total, page, pageSize: PAGE_SIZE, totalPages }
 }

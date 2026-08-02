@@ -206,6 +206,17 @@ export interface GeneWithMutationCount {
   validation_tier?: ValidationTier
 }
 
+export interface GeneAllele {
+  gene_name: string
+  allele: string
+  encodes: string | null
+  paper_count: number
+  databases: string[]
+  resistances: string[]
+  organisms: string[]
+  validation_tier?: ValidationTier
+}
+
 export interface PaginationParams {
   page: number
   pageSize: number
