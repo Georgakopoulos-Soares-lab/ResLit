@@ -19,6 +19,7 @@ const navigation = [
   { name: 'Download', href: '/download' },
   { name: 'Collaborators', href: '/collaborators' },
   { name: 'About', href: '/about' },
+  { name: 'Help', href: '/help' },
 ]
 
 export function Header() {
