@@ -59,6 +59,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/help" className="hover:text-foreground transition-colors">
+                  Help
+                </Link>
+              </li>
+              <li>
                 <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
                   PubMed
                 </a>
