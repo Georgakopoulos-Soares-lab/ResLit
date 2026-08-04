@@ -6,3 +6,4 @@ node_modules/
 .~lock.*
 !pipeline/**/*.csv
 !site/scripts/seed-data/*.csv
+!comparison_with_other_databases/**/*.csv

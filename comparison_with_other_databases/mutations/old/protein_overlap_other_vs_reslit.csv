@@ -1,0 +1,1831 @@
+Source_DB,Protein_Change,Organism,Gene,Resistance,ResLit_Gene,ResLit_Resistance,ResLit_PMID
+AMRFinder,D20N,Acinetobacter baumannii,ader,EFFLUX,adeR,tigecycline,20921306
+AMRFinder,A91V,Acinetobacter baumannii,ader,EFFLUX,AdeR,ciprofloxacin,29998878
+AMRFinder,P116L,Acinetobacter baumannii,ader,EFFLUX,adeR,ciprofloxacin,25368818
+AMRFinder,L192R,Acinetobacter baumannii,ader,EFFLUX,AdeR,ciprofloxacin,29998878
+AMRFinder,R152K,Acinetobacter baumannii,ades,EFFLUX,adeS,tigecycline,23587960
+AMRFinder,T153M,Acinetobacter baumannii,ades,EFFLUX,adeS,ciprofloxacin,25368818
+AMRFinder,A515V,Acinetobacter baumannii,ftsi,CARBAPENEM/SULBACTAM-DURLOBACTAM,FtsI,meropenem,29547094
+AMRFinder,S81L,Acinetobacter baumannii,gyra,QUINOLONE,gyrA,ciprofloxacin,34154405
+AMRFinder,P30L,Acinetobacter baumannii,lpxc,COLISTIN,lpxC,colistin,20855724
+AMRFinder,S84F,Acinetobacter baumannii,parc,QUINOLONE,parC,ciprofloxacin,36985332
+AMRFinder,S84L,Acinetobacter baumannii,parc,QUINOLONE,gyrA,ciprofloxacin,34154405
+AMRFinder,E88K,Acinetobacter baumannii,parc,QUINOLONE,gyrA,ciprofloxacin,34154405
+AMRFinder,E8D,Acinetobacter baumannii,pmra,COLISTIN,pmrA,colistin,29160808
+AMRFinder,M12I,Acinetobacter baumannii,pmra,COLISTIN,pmrB,polymyxin B,21646482
+AMRFinder,S17R,Acinetobacter baumannii,pmrb,COLISTIN,pmrB,colistin,29160808
+AMRFinder,I164F,Acinetobacter baumannii,pmrb,COLISTIN,pmrB,colistin,36659926
+AMRFinder,P170L,Acinetobacter baumannii,pmrb,COLISTIN,PmrB,colistin,34832671
+AMRFinder,A226T,Acinetobacter baumannii,pmrb,COLISTIN,pmrB,colistin,29914966
+AMRFinder,A227V,Acinetobacter baumannii,pmrb,COLISTIN,pmrB,colistin,19528270
+AMRFinder,R231L,Acinetobacter baumannii,pmrb,COLISTIN,pmrB,polymyxin B,21646482
+AMRFinder,T232I,Acinetobacter baumannii,pmrb,COLISTIN,pmrB,Polymyxin B,33897637
+AMRFinder,P233S,Acinetobacter baumannii,pmrb,COLISTIN,pmrB,colistin,19528270
+AMRFinder,P233T,Acinetobacter baumannii,pmrb,COLISTIN,pmrB,colistin,19528270
+AMRFinder,T235I,Acinetobacter baumannii,pmrb,COLISTIN,pmrB,polymyxin B,21646482
+AMRFinder,R263L,Acinetobacter baumannii,pmrb,COLISTIN,pmrB,colistin,29160808
+AMRFinder,Q270P,Acinetobacter baumannii,pmrb,COLISTIN,pmrB,colistin,39770308
+AMRFinder,G315D,Acinetobacter baumannii,pmrb,COLISTIN,pmrB,polymyxin B,21646482
+AMRFinder,V57I,Acinetobacter baumannii,rpsj,TIGECYCLINE,rpsJ,tigecycline,26488727
+AMRFinder,V57L,Acinetobacter baumannii,rpsj,TIGECYCLINE,rpsJ,tigecycline,39635040
+AMRFinder,S174P,Burkholderia cenocepacia,amrr,CHLORAMPHENICOL/MEROPENEM/QUINOLONE,amrR,doxycycline|trimethoprim-sulfamethoxazole,30256166
+AMRFinder,Y77S,Burkholderia pseudomallei,gyra,QUINOLONE,gyrA,ciprofloxacin,28400528
+AMRFinder,G86A,Campylobacter jejuni,cmer,MACROLIDE,cmeR,macrolides|fluoroquinolones|tetracycline,33903652
+AMRFinder,T86A,Campylobacter coli,gyra,QUINOLONE,gyrA,nalidixic acid,32974772
+AMRFinder,T86A,Campylobacter jejuni,gyra,QUINOLONE,gyrA,nalidixic acid,32974772
+AMRFinder,T86I,Campylobacter coli,gyra,QUINOLONE,gyrA,fluoroquinolones,11230433
+AMRFinder,T86I,Campylobacter jejuni,gyra,QUINOLONE,gyrA,fluoroquinolones,11230433
+AMRFinder,T86K,Campylobacter coli,gyra,QUINOLONE,gyrA,ciprofloxacin|nalidixic acid,33809410
+AMRFinder,T86K,Campylobacter jejuni,gyra,QUINOLONE,gyrA,ciprofloxacin|nalidixic acid,33809410
+AMRFinder,T86V,Campylobacter coli,gyra,QUINOLONE,gyrA,ciprofloxacin|nalidixic acid,33809410
+AMRFinder,T86V,Campylobacter jejuni,gyra,QUINOLONE,gyrA,ciprofloxacin|nalidixic acid,33809410
+AMRFinder,D90N,Campylobacter jejuni,gyra,QUINOLONE,gyrA,ciprofloxacin|nalidixic acid,32974772
+AMRFinder,D90Y,Campylobacter coli,gyra,QUINOLONE,gyrA,ciprofloxacin|nalidixic acid,33809410
+AMRFinder,D90Y,Campylobacter jejuni,gyra,QUINOLONE,gyrA,ciprofloxacin|nalidixic acid,33809410
+AMRFinder,G56D,Campylobacter jejuni,pora,CARBAPENEM,porA,ertapenem,37358443
+AMRFinder,G74D,Campylobacter jejuni,rpld,ERYTHROMYCIN/TYLOSIN,rplD,erythromycin,18779354
+AMRFinder,A84D,Campylobacter coli,rplv,MACROLIDE,rplV,erythromycin,23274667
+AMRFinder,A84D,Campylobacter jejuni,rplv,MACROLIDE,rplV,erythromycin,23274667
+AMRFinder,G86E,Campylobacter coli,rplv,MACROLIDE,rplV,erythromycin,23274667
+AMRFinder,G86E,Campylobacter jejuni,rplv,MACROLIDE,rplV,erythromycin,23274667
+AMRFinder,G86V,Campylobacter coli,rplv,MACROLIDE,rplV,erythromycin,23274667
+AMRFinder,G86V,Campylobacter jejuni,rplv,MACROLIDE,rplV,erythromycin,23274667
+AMRFinder,A88E,Campylobacter coli,rplv,MACROLIDE,rplV,erythromycin,23274667
+AMRFinder,A88E,Campylobacter jejuni,rplv,MACROLIDE,rplV,erythromycin,23274667
+AMRFinder,K43R,Campylobacter coli,rpsl,STREPTOMYCIN,rpsL,streptomycin,32974772
+AMRFinder,K88R,Campylobacter coli,rpsl,STREPTOMYCIN,rpsL,streptomycin,32974772
+AMRFinder,V183A,Clostridioides difficile,dacs,VANCOMYCIN,dacS,vancomycin,39146240
+AMRFinder,E238D,Clostridioides difficile,dacs,VANCOMYCIN,dacS,vancomycin,39146240
+AMRFinder,T82I,Clostridioides difficile,gyra,QUINOLONE,gyrA,levofloxacin|ciprofloxacin,34125660
+AMRFinder,D426N,Clostridioides difficile,gyrb,QUINOLONE,gyrB,fluoroquinolones,34793295
+AMRFinder,R447K,Clostridioides difficile,gyrb,QUINOLONE,gyrB,levofloxacin|ciprofloxacin,34125660
+AMRFinder,M496V,Clostridioides difficile,mree,CEPHALOSPORIN,mreE,ampicillin|ceftriaxone|cefoxitin|cephalexin|cefoperazone|cefepime,37961251
+AMRFinder,V497L,Clostridioides difficile,mree,CEPHALOSPORIN,mreE,ampicillin|ceftriaxone|cefoxitin|cephalexin|cefoperazone|cefepime,37961251
+AMRFinder,A694V,Clostridioides difficile,mree,CEPHALOSPORIN,mreE,ampicillin|ceftriaxone|cefoxitin|cephalexin|cefoperazone|cefepime,37961251
+AMRFinder,Y721C,Clostridioides difficile,mree,CEPHALOSPORIN,mreE,ampicillin|ceftriaxone|cefoxitin|cephalexin|cefoperazone|cefepime,37961251
+AMRFinder,Y721S,Clostridioides difficile,mree,CEPHALOSPORIN,mreE,ampicillin|ceftriaxone|cefoxitin|cephalexin|cefoperazone|cefepime,37961251
+AMRFinder,A778V,Clostridioides difficile,mree,CEPHALOSPORIN,mreE,ampicillin|ceftriaxone|cefoxitin|cephalexin|cefoperazone|cefepime,37961251
+AMRFinder,A795V,Clostridioides difficile,mree,CEPHALOSPORIN,mreE,ampicillin|ceftriaxone|cefoxitin|cephalexin|cefoperazone|cefepime,37961251
+AMRFinder,H502N,Clostridioides difficile,rpob,RIFAMPIN,rpoB,rifampicin,34125660
+AMRFinder,H502Y,Clostridioides difficile,rpob,RIFAXIMIN,rpoB,rifampicin,40483626
+AMRFinder,R505K,Clostridioides difficile,rpob,RIFAMPIN,rpoB,rifampicin,34125660
+AMRFinder,T115A,Clostridioides difficile,vanrcd,VANCOMYCIN,vanR,vancomycin,34297842
+AMRFinder,R334L,Clostridioides difficile,vanscd,VANCOMYCIN,vanS,vancomycin,36065735
+AMRFinder,S442Y,Corynebacterium diphtheriae,rpob,RIFAMYCIN,rpoB,rifampin,39196424
+AMRFinder,S83F,Enterobacter cloacae,gyra,QUINOLONE,gyrA,ciprofloxacin,10428935
+AMRFinder,S83I,Enterobacter cloacae,gyra,QUINOLONE,gyrA,ciprofloxacin,10428935
+AMRFinder,S83Y,Enterobacter cloacae,gyra,QUINOLONE,gyrA,ciprofloxacin,10428935
+AMRFinder,D87H,Enterobacter cloacae,gyra,QUINOLONE,gyrA,ciprofloxacin,10428935
+AMRFinder,D87N,Enterobacter cloacae,gyra,QUINOLONE,gyrA,ciprofloxacin,10428935
+AMRFinder,S80I,Enterobacter cloacae,parc,QUINOLONE,parC,ciprofloxacin,10428935
+AMRFinder,H215R,Enterococcus faecalis,cls,DAPTOMYCIN,cls,daptomycin,33796088
+AMRFinder,R218Q,Enterococcus faecalis,cls,DAPTOMYCIN,cls,daptomycin,23076243
+AMRFinder,R267H,Enterococcus faecalis,cls,DAPTOMYCIN,clsA,daptomycin,33332354
+AMRFinder,S83I,Enterococcus faecalis,gyra,QUINOLONE,gyrA,ciprofloxacin|enrofloxacin,28081148
+AMRFinder,S83L,Enterococcus faecalis,gyra,QUINOLONE,gyrA,ciprofloxacin|levofloxacin,38929467
+AMRFinder,S83R,Enterococcus faecalis,gyra,QUINOLONE,gyrA,ciprofloxacin,16517894
+AMRFinder,S83Y,Enterococcus faecalis,gyra,QUINOLONE,GyrA,enrofloxacin,38786138
+AMRFinder,E87K,Enterococcus faecalis,gyra,QUINOLONE,fusA,kanamycin,39907470
+AMRFinder,D191N,Enterococcus faecalis,liar,DAPTOMYCIN,liaF,daptomycin,41206754
+AMRFinder,S80I,Enterococcus faecalis,parc,QUINOLONE,parC,ciprofloxacin,16517894
+AMRFinder,S80R,Enterococcus faecalis,parc,QUINOLONE,parC,ciprofloxacin,16517894
+AMRFinder,E84K,Enterococcus faecalis,parc,QUINOLONE,parC,ciprofloxacin,16517894
+AMRFinder,N13I,Enterococcus faecium,cls,DAPTOMYCIN,cls,daptomycin,30576392
+AMRFinder,N13S,Enterococcus faecium,cls,DAPTOMYCIN,clsA,daptomycin,33332354
+AMRFinder,N13T,Enterococcus faecium,cls,DAPTOMYCIN,cls,daptomycin,30576392
+AMRFinder,A20D,Enterococcus faecium,cls,DAPTOMYCIN,cls,daptomycin,30576392
+AMRFinder,D27N,Enterococcus faecium,cls,DAPTOMYCIN,clsA,daptomycin,32393645
+AMRFinder,R211Q,Enterococcus faecium,cls,DAPTOMYCIN,cls,daptomycin,35543524
+AMRFinder,H215R,Enterococcus faecium,cls,DAPTOMYCIN,cls,daptomycin,33796088
+AMRFinder,R218Q,Enterococcus faecium,cls,DAPTOMYCIN,cls,daptomycin,23076243
+AMRFinder,R267H,Enterococcus faecium,cls,DAPTOMYCIN,clsA,daptomycin,33332354
+AMRFinder,T450I,Enterococcus faecium,eata,PLEUROMUTILIN,eat(A),lincomycin|clindamycin|dalfopristin|quinupristin|tiamulin,23836170
+AMRFinder,S83I,Enterococcus faecium,gyra,QUINOLONE,gyrA,ciprofloxacin|enrofloxacin,28081148
+AMRFinder,S83L,Enterococcus faecium,gyra,QUINOLONE,gyrA,ciprofloxacin|levofloxacin,38929467
+AMRFinder,S83R,Enterococcus faecium,gyra,QUINOLONE,gyrA,ciprofloxacin,16517894
+AMRFinder,S83Y,Enterococcus faecium,gyra,QUINOLONE,GyrA,enrofloxacin,38786138
+AMRFinder,E87K,Enterococcus faecium,gyra,QUINOLONE,fusA,kanamycin,39907470
+AMRFinder,S19F,Enterococcus faecium,liar,DAPTOMYCIN,liaR,daptomycin,26200029
+AMRFinder,W73C,Enterococcus faecium,liar,DAPTOMYCIN,LiaR,daptomycin,27670715
+AMRFinder,E75K,Enterococcus faecium,liar,DAPTOMYCIN,liaR,daptomycin,40525834
+AMRFinder,T120A,Enterococcus faecium,lias,DAPTOMYCIN,liaR,daptomycin,41206754
+AMRFinder,S80I,Enterococcus faecium,parc,QUINOLONE,parC,ciprofloxacin,16517894
+AMRFinder,S80R,Enterococcus faecium,parc,QUINOLONE,parC,ciprofloxacin,16517894
+AMRFinder,E84K,Enterococcus faecium,parc,QUINOLONE,parC,ciprofloxacin,16517894
+AMRFinder,D434A,Enterococcus faecium,pbp5,BETA-LACTAM,pbp5,ampicillin,31010813
+AMRFinder,M485A,Enterococcus faecium,pbp5,BETA-LACTAM,pbp5,ampicillin,25199988
+AMRFinder,E629V,Enterococcus faecium,pbp5,BETA-LACTAM,pbp5,ampicillin,40525834
+AMRFinder,G482D,Enterococcus faecium,rpob,DAPTOMYCIN/RIFAXIMIN,RpoB,rifampin,41342532
+AMRFinder,H486Y,Enterococcus faecium,rpob,DAPTOMYCIN/RIFAXIMIN,RpoB,rifampin,41342532
+AMRFinder,T641K,Enterococcus faecium,rpoc,DAPTOMYCIN,rpoC,daptomycin,37821741
+AMRFinder,D60Y,Enterococcus faecium,rpsj,TIGECYCLINE,rpsJ,tigecycline,25348531
+AMRFinder,R717L,Escherichia coli,acrb,AZITHROMYCIN/CLARITHROMYCIN/ERYTHROMYCIN,AcrB,macrolides|fluoroquinolones,35311521
+AMRFinder,R717Q,Escherichia coli,acrb,AZITHROMYCIN/CLARITHROMYCIN/ERYTHROMYCIN,AcrB,macrolides|fluoroquinolones,35311521
+AMRFinder,T5N,Escherichia coli,acrr,AMPICILLIN/CHLORAMPHENICOL/FLUOROQUINOLONE/RIFAMPIN/TETRACYCLINE,acrR,minocycline|meropenem|aztreonam,34516251
+AMRFinder,G28R,Escherichia coli,acrr,AMPICILLIN/CHLORAMPHENICOL/FLUOROQUINOLONE/RIFAMPIN/TETRACYCLINE,marR,fluoroquinolones,33468485
+AMRFinder,S39I,Escherichia coli,basr,COLISTIN,PmrA,colistin,31736909
+AMRFinder,G53A,Escherichia coli,basr,COLISTIN,pmrA,colistin,34612488
+AMRFinder,G53R,Escherichia coli,basr,COLISTIN,pmrA,colistin,31354315
+AMRFinder,G53S,Escherichia coli,basr,COLISTIN,pmrA,polymyxin,41158526
+AMRFinder,G53V,Escherichia coli,basr,COLISTIN,pmrA,polymyxin B,16428424
+AMRFinder,L105P,Escherichia coli,basr,COLISTIN,pmrA,colistin,29914952
+AMRFinder,S352T,Escherichia coli,cyaa,FOSMIDOMYCIN,cyaA,fosfomycin,34832635
+AMRFinder,G93S,Escherichia coli,fabi,ISONIAZID/TRICLOSAN,fabI,triclosan,33945454
+AMRFinder,G93V,Escherichia coli,fabi,ISONIAZID/TRICLOSAN,fabI,triclosan,33997609
+AMRFinder,M159T,Escherichia coli,fabi,TRICLOSAN,fabI,triclosan,33945454
+AMRFinder,F203C,Escherichia coli,fabi,ISONIAZID/TRICLOSAN,fabI,triclosan,33945454
+AMRFinder,F203L,Escherichia coli,fabi,ISONIAZID/TRICLOSAN,fabI,triclosan,33945454
+AMRFinder,F203V,Escherichia coli,fabi,TRICLOSAN,fabI,triclosan,33945454
+AMRFinder,A51V,Escherichia coli,gyra,QUINOLONE,gyrA,fluoroquinolones,10582891
+AMRFinder,A67S,Escherichia coli,gyra,QUINOLONE,gyrA,fluoroquinolones,10582891
+AMRFinder,G81C,Escherichia coli,gyra,QUINOLONE,gyrA,fluoroquinolones,10582891
+AMRFinder,G81D,Escherichia coli,gyra,QUINOLONE,gyrA,nalidixic acid|fluoroquinolones,8980760
+AMRFinder,D82G,Escherichia coli,gyra,QUINOLONE,gyrA,ciprofloxacin,34154405
+AMRFinder,S83A,Escherichia coli,gyra,QUINOLONE,gyrA,ciprofloxacin,1850970
+AMRFinder,S83F,Escherichia coli,gyra,QUINOLONE/TRICLOSAN,gyrA,nalidixic acid,16013378
+AMRFinder,S83I,Escherichia coli,gyra,QUINOLONE,gyrA,ciprofloxacin|levofloxacin,23295059
+AMRFinder,S83L,Escherichia coli,gyra,QUINOLONE,gyrA,ciprofloxacin|ofloxacin|nalidixic acid,11600360
+AMRFinder,S83V,Escherichia coli,gyra,QUINOLONE,gyrA,nalidixic acid|ciprofloxacin,24755830
+AMRFinder,S83W,Escherichia coli,gyra,QUINOLONE,gyrA,nalidixic acid|fluoroquinolones,2548439
+AMRFinder,A84P,Escherichia coli,gyra,QUINOLONE,gyrA,fluoroquinolones,10582891
+AMRFinder,D87G,Escherichia coli,gyra,QUINOLONE/TRICLOSAN,gyrA,ofloxacin|ciprofloxacin|trovafloxacin|sparfloxacin,10602715
+AMRFinder,D87H,Escherichia coli,gyra,QUINOLONE/TRICLOSAN,gyrA,fluoroquinolones,32723358
+AMRFinder,D87N,Escherichia coli,gyra,QUINOLONE,parC,ciprofloxacin|ofloxacin|nalidixic acid,11600360
+AMRFinder,D87Y,Escherichia coli,gyra,QUINOLONE,gyrA,ciprofloxacin,34154405
+AMRFinder,Q106H,Escherichia coli,gyra,QUINOLONE,gyrA,fluoroquinolones,10582891
+AMRFinder,Q106R,Escherichia coli,gyra,QUINOLONE,gyrA,ciprofloxacin,1850970
+AMRFinder,D426N,Escherichia coli,gyrb,QUINOLONE,gyrB,nalidixic acid,31689338
+AMRFinder,S3N,Escherichia coli,marr,AMPICILLIN/CHLORAMPHENICOL/QUINOLONE/RIFAMPIN/TETRACYCLINE,marR,chloramphenicol|rifampin,40033002
+AMRFinder,R73S,Escherichia coli,marr,AMPICILLIN/CHLORAMPHENICOL/QUINOLONE/RIFAMPIN/TETRACYCLINE,marR,fluoxetine|amitriptyline|chloramphenicol,36374097
+AMRFinder,R94H,Escherichia coli,marr,AMPICILLIN/CHLORAMPHENICOL/QUINOLONE/RIFAMPIN/TETRACYCLINE,marR,norfloxacin,15917531
+AMRFinder,L370I,Escherichia coli,mura,FOSFOMYCIN,murA,fosfomycin,32847131
+AMRFinder,H11Y,Escherichia coli,nfsa,NITROFURANTOIN,nfsA,nitrofurantoin,34860151
+AMRFinder,G126R,Escherichia coli,nfsa,NITROFURANTOIN,nfsA,nitrofurantoin,34860151
+AMRFinder,G131D,Escherichia coli,nfsa,NITROFURANTOIN,nfsA,nitrofurantoin,34860151
+AMRFinder,G154E,Escherichia coli,nfsa,NITROFURANTOIN,nfsA,nitrofurantoin,34860151
+AMRFinder,F84S,Escherichia coli,nfsb,NITROFURANTOIN,nfsA,nitrofurantoin,34860151
+AMRFinder,G192D,Escherichia coli,nfsb,NITROFURANTOIN,nfsA,nitrofurantoin,34860151
+AMRFinder,R195L,Escherichia coli,ompc,CARBAPENEM,ompC,ceftazidime|ceftriaxone|cefepime,38193668
+AMRFinder,G141D,Escherichia coli,ompf,CEPHALOSPORIN,AcrB,linezolid,25182653
+AMRFinder,G63S,Escherichia coli,ompr,BETA-LACTAM,ompR,imipenem|meropenem|ertapenem|doripenem,30323356
+AMRFinder,A56T,Escherichia coli,parc,QUINOLONE,parC,ciprofloxacin,35336064
+AMRFinder,S57T,Escherichia coli,parc,QUINOLONE,parC,ciprofloxacin,30272036
+AMRFinder,F60L,Escherichia coli,parc,QUINOLONE,parC,ciprofloxacin|levofloxacin,37151743
+AMRFinder,G78C,Escherichia coli,parc,QUINOLONE,parC,ciprofloxacin,41023203
+AMRFinder,G78D,Escherichia coli,parc,QUINOLONE,parC,ciprofloxacin,8849244
+AMRFinder,S80F,Escherichia coli,parc,QUINOLONE,parC,nalidixic acid,16013378
+AMRFinder,S80I,Escherichia coli,parc,QUINOLONE,parC,nalidixic acid,11699598
+AMRFinder,S80L,Escherichia coli,parc,QUINOLONE,parC,levofloxacin,20597679
+AMRFinder,S80R,Escherichia coli,parc,QUINOLONE,parC,ciprofloxacin,29018116
+AMRFinder,S80W,Escherichia coli,parc,QUINOLONE,parC,ciprofloxacin|nalidixic acid,21856834
+AMRFinder,E84A,Escherichia coli,parc,QUINOLONE,parC,ciprofloxacin,23302578
+AMRFinder,E84G,Escherichia coli,parc,QUINOLONE,parC,ciprofloxacin,23259844
+AMRFinder,E84K,Escherichia coli,parc,QUINOLONE,parC,norfloxacin|ciprofloxacin,14506034
+AMRFinder,E84V,Escherichia coli,parc,QUINOLONE,parC,ciprofloxacin,23259844
+AMRFinder,A108T,Escherichia coli,parc,QUINOLONE,parC,nalidixic acid|ciprofloxacin|enrofloxacin,27536030
+AMRFinder,A108V,Escherichia coli,parc,QUINOLONE,parC,nalidixic acid|ciprofloxacin,21352598
+AMRFinder,I355T,Escherichia coli,pare,QUINOLONE,parE,ciprofloxacin,34442755
+AMRFinder,L416F,Escherichia coli,pare,QUINOLONE,parE,ciprofloxacin|levofloxacin,34803966
+AMRFinder,I444F,Escherichia coli,pare,QUINOLONE,parE,norfloxacin|ciprofloxacin,14506034
+AMRFinder,S458A,Escherichia coli,pare,QUINOLONE,parE,enrofloxacin,33198103
+AMRFinder,S458L,Escherichia coli,pare,QUINOLONE,parE,fluoroquinolones,36204996
+AMRFinder,S458T,Escherichia coli,pare,QUINOLONE,parE,norfloxacin|ciprofloxacin,14506034
+AMRFinder,I464F,Escherichia coli,pare,QUINOLONE,parE,ciprofloxacin|nalidixic acid,33918946
+AMRFinder,D475E,Escherichia coli,pare,QUINOLONE,parE,norfloxacin|ciprofloxacin,14506034
+AMRFinder,I529L,Escherichia coli,pare,QUINOLONE,parE,norfloxacin|ciprofloxacin,14506034
+AMRFinder,L10R,Escherichia coli,pmrb,COLISTIN,basRS,colistin,32161146
+AMRFinder,E121K,Escherichia coli,pmrb,COLISTIN,pmrB,colistin,37199645
+AMRFinder,A159P,Escherichia coli,pmrb,COLISTIN,basRS,colistin,32161146
+AMRFinder,V161G,Escherichia coli,pmrb,COLISTIN,pmrB,colistin,32897511
+AMRFinder,G206D,Escherichia coli,pmrb,COLISTIN,pmrB,colistin,29914952
+AMRFinder,V25I,Escherichia coli,ptsi,FOSFOMYCIN,gyrA,fluoroquinolones,35240351
+AMRFinder,V57D,Escherichia coli,rpsj,TETRACYCLINE/TIGECYCLINE,rpsJ,tetracycline|tigecycline|minocycline,34220749
+AMRFinder,V57I,Escherichia coli,rpsj,TETRACYCLINE/TIGECYCLINE,rpsJ,tetracycline|tigecycline|minocycline,34220749
+AMRFinder,V57L,Escherichia coli,rpsj,TETRACYCLINE/TIGECYCLINE,rpsJ,tetracycline|tigecycline|minocycline,34220749
+AMRFinder,K43T,Escherichia coli,rpsl,STREPTOMYCIN,rpsL,streptomycin,28419091
+AMRFinder,G121D,Escherichia coli,soxr,AMPICILLIN/CHLORAMPHENICOL/QUINOLONE/RIFAMPIN/TETRACYCLINE,gyrA,ciprofloxacin,34154405
+AMRFinder,E350Q,Escherichia coli,uhpt,FOSFOMYCIN,uhpT,fosfomycin,34832635
+AMRFinder,D350N,Haemophilus influenzae,ftsi,CEPHALOSPORIN,ftsI,ampicillin|amoxicillin,18443129
+AMRFinder,S357N,Haemophilus influenzae,ftsi,CEPHALOSPORIN,ftsI,ampicillin|amoxicillin,18443129
+AMRFinder,M377I,Haemophilus influenzae,ftsi,BETA-LACTAM,ftsI,ampicillin|amoxicillin,18443129
+AMRFinder,S385T,Haemophilus influenzae,ftsi,CEPHALOSPORIN,ftsI,ampicillin|amoxicillin,18443129
+AMRFinder,L389F,Haemophilus influenzae,ftsi,CEPHALOSPORIN,PBP3,ampicillin|cephalosporins,39650731
+AMRFinder,A437S,Haemophilus influenzae,ftsi,BETA-LACTAM,ftsI,ampicillin|penicillin,39895369
+AMRFinder,I449V,Haemophilus influenzae,ftsi,BETA-LACTAM,ftsI,ampicillin|penicillin,39895369
+AMRFinder,G490E,Haemophilus influenzae,ftsi,BETA-LACTAM,ftsI,ampicillin|amoxicillin,39200061
+AMRFinder,A502T,Haemophilus influenzae,ftsi,CEPHALOSPORIN,ftsI,ampicillin|penicillin,39895369
+AMRFinder,R517H,Haemophilus influenzae,ftsi,BETA-LACTAM,ftsI,ampicillin|amoxicillin,18443129
+AMRFinder,N526H,Haemophilus influenzae,ftsi,CEPHALOSPORIN,ftsI,ampicillin|amoxicillin/clavulanate,36824068
+AMRFinder,N526K,Haemophilus influenzae,ftsi,CEPHALOSPORIN,ftsI,ampicillin|amoxicillin,18443129
+AMRFinder,A530S,Haemophilus influenzae,ftsi,CEPHALOSPORIN,ftsI,ampicillin|penicillin,39895369
+AMRFinder,T532S,Haemophilus influenzae,ftsi,CEPHALOSPORIN,ftsI,ampicillin|amoxicillin,18443129
+AMRFinder,V562L,Haemophilus influenzae,ftsi,CEPHALOSPORIN,ftsI,ampicillin,29352811
+AMRFinder,S84L,Haemophilus influenzae,gyra,QUINOLONE,gyrA,fluoroquinolones,20435780
+AMRFinder,D88G,Haemophilus influenzae,gyra,QUINOLONE,gyrA,ciprofloxacin|levofloxacin|moxifloxacin,30145620
+AMRFinder,D88Y,Haemophilus influenzae,gyra,QUINOLONE,gyrA,ciprofloxacin,15980348
+AMRFinder,G82D,Haemophilus influenzae,parc,QUINOLONE,parC,fluoroquinolone,31740553
+AMRFinder,S84I,Haemophilus influenzae,parc,QUINOLONE,parC,levofloxacin|nalidixic acid,16208027
+AMRFinder,S84R,Haemophilus influenzae,parc,QUINOLONE,parC,fluoroquinolones,10681330
+AMRFinder,E88K,Haemophilus influenzae,parc,QUINOLONE,parC,fluoroquinolones,10681330
+AMRFinder,D420N,Haemophilus influenzae,pare,QUINOLONE,parE,fluoroquinolones,20435780
+AMRFinder,P439S,Haemophilus influenzae,pare,QUINOLONE,parE,levofloxacin|tosufloxacin|moxifloxacin,34932443
+AMRFinder,L502F,Haemophilus influenzae,pare,QUINOLONE,parE,levofloxacin|tosufloxacin|moxifloxacin,34932443
+AMRFinder,N87K,Helicobacter pylori,gyra,QUINOLONE,gyrA,levofloxacin|moxifloxacin|ciprofloxacin,20458765
+AMRFinder,D91G,Helicobacter pylori,gyra,QUINOLONE,gyrA,levofloxacin|moxifloxacin|ciprofloxacin,20458765
+AMRFinder,D91N,Helicobacter pylori,gyra,QUINOLONE,gyrA,levofloxacin|moxifloxacin|ciprofloxacin,20458765
+AMRFinder,D91Y,Helicobacter pylori,gyra,QUINOLONE,gyrA,levofloxacin|moxifloxacin|ciprofloxacin,20458765
+AMRFinder,S414R,Helicobacter pylori,pbp1a,BETA-LACTAM,pbp1a,amoxicillin,34183046
+AMRFinder,V469M,Helicobacter pylori,pbp1a,BETA-LACTAM,pbp1a,amoxicillin,34183046
+AMRFinder,S543R,Helicobacter pylori,pbp1a,BETA-LACTAM,pbp1A,ampicillin,26236355
+AMRFinder,T556S,Helicobacter pylori,pbp1a,BETA-LACTAM,pbp1a,amoxicillin,34183046
+AMRFinder,T83I,Klebsiella oxytoca,gyra,QUINOLONE,gyrA,fluoroquinolones,39516432
+AMRFinder,D87G,Klebsiella oxytoca,gyra,QUINOLONE,gyrA,ciprofloxacin,10428935
+AMRFinder,S80I,Klebsiella oxytoca,parc,QUINOLONE,parC,ciprofloxacin,10428935
+AMRFinder,S80R,Klebsiella oxytoca,parc,QUINOLONE,parC,ciprofloxacin,10428935
+AMRFinder,M109I,Klebsiella pneumoniae,acrr,TIGECYCLINE,acrR,tigecycline,25182649
+AMRFinder,Y114F,Klebsiella pneumoniae,acrr,TIGECYCLINE,ramR,tigecycline,40182765
+AMRFinder,V165I,Klebsiella pneumoniae,acrr,TIGECYCLINE,ramR,tigecycline,40182765
+AMRFinder,Q10L,Klebsiella pneumoniae,crrb,COLISTIN,crrB,colistin,25385117
+AMRFinder,F84S,Klebsiella pneumoniae,crrb,COLISTIN,crrB,colistin,28874377
+AMRFinder,L94M,Klebsiella pneumoniae,crrb,COLISTIN,crrB,colistin,25385117
+AMRFinder,N141Y,Klebsiella pneumoniae,crrb,COLISTIN,crrB,colistin,28874377
+AMRFinder,P151L,Klebsiella pneumoniae,crrb,COLISTIN,crrB,colistin,28874377
+AMRFinder,P151S,Klebsiella pneumoniae,crrb,COLISTIN,crrB,colistin,32229491
+AMRFinder,G183V,Klebsiella pneumoniae,crrb,COLISTIN,crrB,colistin,28874377
+AMRFinder,L367Q,Klebsiella pneumoniae,ftsi,CEFTAZIDIME-AVIBACTAM,PBP3,ceftazidime|avibactam,41278478
+AMRFinder,S83F,Klebsiella pneumoniae,gyra,QUINOLONE,gyrA,ciprofloxacin,10428935
+AMRFinder,S83I,Klebsiella pneumoniae,gyra,QUINOLONE,gyrA,ciprofloxacin,10428935
+AMRFinder,S83L,Klebsiella pneumoniae,gyra,QUINOLONE,gyrA,ciprofloxacin|nalidixic acid|norfloxacin,21867486
+AMRFinder,S83T,Klebsiella pneumoniae,gyra,QUINOLONE,gyrA,fluoroquinolone,40640834
+AMRFinder,S83Y,Klebsiella pneumoniae,gyra,QUINOLONE,gyrA,ciprofloxacin,10428935
+AMRFinder,D87A,Klebsiella pneumoniae,gyra,QUINOLONE,gyrA,fluoroquinolones,34078263
+AMRFinder,D87G,Klebsiella pneumoniae,gyra,QUINOLONE,gyrA,ciprofloxacin,10428935
+AMRFinder,D87N,Klebsiella pneumoniae,gyra,QUINOLONE,gyrA,ciprofloxacin,10428935
+AMRFinder,D87Y,Klebsiella pneumoniae,gyra,QUINOLONE,gyrA,ciprofloxacin,10428935
+AMRFinder,R134P,Klebsiella pneumoniae,lamb,CEFTAZIDIME-AVIBACTAM,lamB,ceftazidime-avibactam,34551677
+AMRFinder,R374S,Klebsiella pneumoniae,lamb,CEFTAZIDIME-AVIBACTAM,lamB,ceftazidime-avibactam,34551677
+AMRFinder,V43G,Klebsiella pneumoniae,lapb,COLISTIN,yciM,colistin,27600049
+AMRFinder,V30G,Klebsiella pneumoniae,lpxm,COLISTIN,lpxM,colistin,27600049
+AMRFinder,L17R,Klebsiella pneumoniae,mgrb,COLISTIN,mgrB,colistin,30061868
+AMRFinder,L24H,Klebsiella pneumoniae,mgrb,COLISTIN,mgrB,colistin,30112189
+AMRFinder,C28Y,Klebsiella pneumoniae,mgrb,COLISTIN,mgrB,colistin,34202395
+AMRFinder,D31N,Klebsiella pneumoniae,mgrb,COLISTIN,mgrB,colistin,37962370
+AMRFinder,V32G,Klebsiella pneumoniae,mgrb,COLISTIN,mgrB,colistin,30061868
+AMRFinder,G37S,Klebsiella pneumoniae,mgrb,COLISTIN,mgrB,colistin,35607432
+AMRFinder,C39Y,Klebsiella pneumoniae,mgrb,COLISTIN,mgrB,colistin,35607432
+AMRFinder,W47R,Klebsiella pneumoniae,mgrb,COLISTIN,mgrB,colistin,26177547
+AMRFinder,W46C,Klebsiella pneumoniae,nfsb,NITROFURANTOIN,nfsB,nitrofurantoin,38078757
+AMRFinder,D198Y,Klebsiella pneumoniae,nfsb,NITROFURANTOIN,ompK36,nitrofurantoin,38078757
+AMRFinder,E132K,Klebsiella pneumoniae,ompk35,CARBAPENEM,ompK35,ceftazidime-avibactam,41078357
+AMRFinder,S80I,Klebsiella pneumoniae,parc,QUINOLONE,parC,ciprofloxacin,10428935
+AMRFinder,E84K,Klebsiella pneumoniae,parc,QUINOLONE,parC,ciprofloxacin,24860827
+AMRFinder,V3F,Klebsiella pneumoniae,phop,COLISTIN,phoP,colistin,36139950
+AMRFinder,D191Y,Klebsiella pneumoniae,phop,COLISTIN,phoP,colistin,25733503
+AMRFinder,V24G,Klebsiella pneumoniae,phoq,COLISTIN,phoQ,colistin,37962370
+AMRFinder,L26P,Klebsiella pneumoniae,phoq,COLISTIN,phoQ,colistin,25691646
+AMRFinder,G385S,Klebsiella pneumoniae,phoq,COLISTIN,phoQ,colistin,33139278
+AMRFinder,L396Q,Klebsiella pneumoniae,phoq,COLISTIN,phoQ,colistin,28983088
+AMRFinder,G53C,Klebsiella pneumoniae,pmra,COLISTIN,pmrA,colistin,36548669
+AMRFinder,G53S,Klebsiella pneumoniae,pmra,COLISTIN,pmrA,colistin,39533012
+AMRFinder,L82R,Klebsiella pneumoniae,pmrb,COLISTIN,pmrB,colistin,24841267
+AMRFinder,S85R,Klebsiella pneumoniae,pmrb,COLISTIN,pmrB,polymyxin B,36882683
+AMRFinder,T140P,Klebsiella pneumoniae,pmrb,COLISTIN,pmrB,colistin,38411998
+AMRFinder,T157P,Klebsiella pneumoniae,pmrb,COLISTIN,pmrB,colistin,24914122
+AMRFinder,D313N,Klebsiella pneumoniae,pmrb,COLISTIN,pmrB,polymyxin,41158526
+AMRFinder,A19V,Klebsiella pneumoniae,ramr,TIGECYCLINE,ramR,tigecycline,25182649
+AMRFinder,V57L,Klebsiella pneumoniae,rpsj,TIGECYCLINE,rpsJ,tigecycline,33050506
+AMRFinder,S91F,Neisseria gonorrhoeae,gyra,QUINOLONE,gyrA,fluoroquinolones,15243093
+AMRFinder,S91Y,Neisseria gonorrhoeae,gyra,QUINOLONE,gyrA,ciprofloxacin,11181352
+AMRFinder,D95A,Neisseria gonorrhoeae,gyra,QUINOLONE,gyrA,ciprofloxacin,34683991
+AMRFinder,D95G,Neisseria gonorrhoeae,gyra,QUINOLONE,gyrA,ciprofloxacin,34683991
+AMRFinder,D95N,Neisseria gonorrhoeae,gyra,QUINOLONE,gyrA,ciprofloxacin,10799008
+AMRFinder,D429N,Neisseria gonorrhoeae,gyrb,ZOLIFLODACIN,gyrB,zoliflodacin,40256400
+AMRFinder,K450N,Neisseria gonorrhoeae,gyrb,ZOLIFLODACIN,GyrB,zoliflodacin,31730160
+AMRFinder,K450T,Neisseria gonorrhoeae,gyrb,ZOLIFLODACIN,GyrB,zoliflodacin,31730160
+AMRFinder,K823E,Neisseria gonorrhoeae,mtrd,AZITHROMYCIN,mtrD,azithromycin|erythromycin,30482834
+AMRFinder,A39T,Neisseria gonorrhoeae,mtrr,AZITHROMYCIN/BETA-LACTAM/TETRACYCLINE,mtrR,Triton X-100|erythromycin|azithromycin|kanamycin|progesterone|CRAMP-38,18761689
+AMRFinder,G45D,Neisseria gonorrhoeae,mtrr,AZITHROMYCIN/CEPHALOSPORIN/TETRACYCLINE,mtrR,ceftriaxone|cefixime,19528266
+AMRFinder,G45S,Neisseria gonorrhoeae,mtrr,AZITHROMYCIN/BETA-LACTAM/TETRACYCLINE,mtrR,ciprofloxacin,39788725
+AMRFinder,D86G,Neisseria gonorrhoeae,parc,QUINOLONE,parC,fluoroquinolones,15243093
+AMRFinder,D86N,Neisseria gonorrhoeae,parc,QUINOLONE,parC,ciprofloxacin|gatifloxacin|levofloxacin|ofloxacin,16145072
+AMRFinder,S87I,Neisseria gonorrhoeae,parc,QUINOLONE,parC,ciprofloxacin,34755593
+AMRFinder,S87N,Neisseria gonorrhoeae,parc,QUINOLONE,parC,ciprofloxacin,34755593
+AMRFinder,S87R,Neisseria gonorrhoeae,parc,QUINOLONE,parC,ciprofloxacin,34755593
+AMRFinder,S88P,Neisseria gonorrhoeae,parc,QUINOLONE,parC,ciprofloxacin,10655338
+AMRFinder,E91A,Neisseria gonorrhoeae,parc,QUINOLONE,parC,fluoroquinolones,30397529
+AMRFinder,E91G,Neisseria gonorrhoeae,parc,QUINOLONE,parC,ciprofloxacin,10655338
+AMRFinder,E91K,Neisseria gonorrhoeae,parc,QUINOLONE,parC,ciprofloxacin|gatifloxacin|levofloxacin|ofloxacin,16145072
+AMRFinder,E91Q,Neisseria gonorrhoeae,parc,QUINOLONE,parC,ciprofloxacin,11181352
+AMRFinder,A311V,Neisseria gonorrhoeae,pena,CEPHALOSPORIN,penA,ceftizoxime|ceftriaxone,23587946
+AMRFinder,I312M,Neisseria gonorrhoeae,pena,CEPHALOSPORIN,penA,ceftriaxone|cefixime,20704258
+AMRFinder,V316P,Neisseria gonorrhoeae,pena,CEPHALOSPORIN,penA,ceftriaxone|cefixime,27690121
+AMRFinder,V316T,Neisseria gonorrhoeae,pena,CEPHALOSPORIN,penA,ceftriaxone|cefixime,20704258
+AMRFinder,T483S,Neisseria gonorrhoeae,pena,CEPHALOSPORIN,penA,ceftizoxime|ceftriaxone,23587946
+AMRFinder,A501P,Neisseria gonorrhoeae,pena,CEPHALOSPORIN,penA,ceftriaxone|cefixime,27690121
+AMRFinder,A501T,Neisseria gonorrhoeae,pena,BETA-LACTAM,penA,cefixime|ceftriaxone,28145684
+AMRFinder,A501V,Neisseria gonorrhoeae,pena,CEPHALOSPORIN,penA,cefixime|ceftriaxone,20093260
+AMRFinder,F504L,Neisseria gonorrhoeae,pena,CEPHALOSPORIN,penA,ceftriaxone|cefixime,27690121
+AMRFinder,A510V,Neisseria gonorrhoeae,pena,CEPHALOSPORIN,penA,ceftriaxone|cefixime,27690121
+AMRFinder,N512Y,Neisseria gonorrhoeae,pena,CEPHALOSPORIN,penA,ceftriaxone|cefixime,20704258
+AMRFinder,A516G,Neisseria gonorrhoeae,pena,CEPHALOSPORIN,PenA,ceftriaxone,41648021
+AMRFinder,G542S,Neisseria gonorrhoeae,pena,CEPHALOSPORIN,PenA,ceftriaxone,28303829
+AMRFinder,G545S,Neisseria gonorrhoeae,pena,CEPHALOSPORIN,penA,ceftriaxone|cefixime,20704258
+AMRFinder,P551L,Neisseria gonorrhoeae,pena,BETA-LACTAM,PenA,ceftriaxone,41648021
+AMRFinder,P551S,Neisseria gonorrhoeae,pena,BETA-LACTAM,penA,ceftriaxone|cefixime,27690121
+AMRFinder,L421P,Neisseria gonorrhoeae,pona,BETA-LACTAM,ponA,cefixime|ceftriaxone,20093260
+AMRFinder,G120D,Neisseria gonorrhoeae,porb1b,BETA-LACTAM,porB1B,penicillin|tetracycline,21067570
+AMRFinder,G120K,Neisseria gonorrhoeae,porb1b,BETA-LACTAM,porB1B,penicillin|tetracycline,21067570
+AMRFinder,A121D,Neisseria gonorrhoeae,porb1b,BETA-LACTAM,porB1b,ceftriaxone|cefixime,34755593
+AMRFinder,A121G,Neisseria gonorrhoeae,porb1b,BETA-LACTAM,porB1B,penicillin|tetracycline,21067570
+AMRFinder,A121N,Neisseria gonorrhoeae,porb1b,BETA-LACTAM,porB1b,ceftriaxone|cefixime,34755593
+AMRFinder,A121S,Neisseria gonorrhoeae,porb1b,CEPHALOSPORIN/QUINOLONE/TETRACYCLINE,porB1b,penicillin,37945345
+AMRFinder,G70D,Neisseria gonorrhoeae,rpld,AZITHROMYCIN,RplD,azithromycin,33097713
+AMRFinder,R201H,Neisseria gonorrhoeae,rpob,CEPHALOSPORIN,rpoB,Ceftriaxone,32011233
+AMRFinder,H553N,Neisseria gonorrhoeae,rpob,RIFAMPIN,rpoB,rifampicin,35678576
+AMRFinder,E98K,Neisseria gonorrhoeae,rpod,CEPHALOSPORIN,rpoD,Ceftriaxone,32011233
+AMRFinder,T24P,Neisseria meningitidis,rpse,SPECTINOMYCIN,rpsE,spectinomycin,23847609
+AMRFinder,V57L,Neisseria meningitidis,rpsj,TETRACYCLINE,rpsJ,tetracycline,27506605
+AMRFinder,V57M,Neisseria meningitidis,rpsj,TETRACYCLINE,rpsJ,tetracycline,34755593
+AMRFinder,T91F,Neisseria meningitidis,gyra,QUINOLONE,gyrA,ciprofloxacin,41017063
+AMRFinder,T91I,Neisseria meningitidis,gyra,QUINOLONE,gyrA,ciprofloxacin,39714270
+AMRFinder,D95A,Neisseria meningitidis,gyra,QUINOLONE,gyrA,ciprofloxacin,34683991
+AMRFinder,D95G,Neisseria meningitidis,gyra,QUINOLONE,gyrA,ciprofloxacin,34683991
+AMRFinder,D95N,Neisseria meningitidis,gyra,QUINOLONE,gyrA,ciprofloxacin,10799008
+AMRFinder,D95Y,Neisseria meningitidis,gyra,QUINOLONE,gyrA,ciprofloxacin,34755593
+AMRFinder,D86N,Neisseria meningitidis,parc,QUINOLONE,parC,ciprofloxacin|gatifloxacin|levofloxacin|ofloxacin,16145072
+AMRFinder,S87I,Neisseria meningitidis,parc,QUINOLONE,parC,ciprofloxacin,34755593
+AMRFinder,S87N,Neisseria meningitidis,parc,QUINOLONE,parC,ciprofloxacin,34755593
+AMRFinder,S87R,Neisseria meningitidis,parc,QUINOLONE,parC,ciprofloxacin,34755593
+AMRFinder,S88P,Neisseria meningitidis,parc,QUINOLONE,parC,ciprofloxacin,10655338
+AMRFinder,E91G,Neisseria meningitidis,parc,QUINOLONE,parC,ciprofloxacin,10655338
+AMRFinder,E91K,Neisseria meningitidis,parc,QUINOLONE,parC,ciprofloxacin|gatifloxacin|levofloxacin|ofloxacin,16145072
+AMRFinder,F504L,Neisseria meningitidis,pena,BETA-LACTAM,penA,ceftriaxone|cefixime,27690121
+AMRFinder,A510V,Neisseria meningitidis,pena,BETA-LACTAM,penA,ceftriaxone|cefixime,27690121
+AMRFinder,I515V,Neisseria meningitidis,pena,BETA-LACTAM,penA,penicillin,27690121
+AMRFinder,H541N,Neisseria meningitidis,pena,BETA-LACTAM,penA,penicillin,27690121
+AMRFinder,I566V,Neisseria meningitidis,pena,BETA-LACTAM,penA,penicillin,37508232
+AMRFinder,H553N,Neisseria meningitidis,rpob,RIFAMPIN,rpoB,rifampicin,35678576
+AMRFinder,H553Y,Neisseria meningitidis,rpob,RIFAMPIN,rpoB,penicillin,39714270
+AMRFinder,V121G,Pseudomonas aeruginosa,amgs,AMIKACIN/TOBRAMYCIN,amgS,tobramycin|gentamicin|amikacin,36671353
+AMRFinder,R182C,Pseudomonas aeruginosa,amgs,AMIKACIN/TOBRAMYCIN,amgS,tobramycin|gentamicin|amikacin|paromomycin|neomycin|streptomycin,23459488
+AMRFinder,H157Y,Pseudomonas aeruginosa,ampd,CEPHALOSPORIN/TAZOBACTAM,ampD,ceftolozane/tazobactam,37695298
+AMRFinder,D135G,Pseudomonas aeruginosa,ampr,CEPHALOSPORIN,ampR,ceftolozane|tazobactam,33199392
+AMRFinder,D135N,Pseudomonas aeruginosa,ampr,CEPHALOSPORIN,ampR,ceftolozane|tazobactam,33199392
+AMRFinder,G154R,Pseudomonas aeruginosa,ampr,CEPHALOSPORIN,ampR,ceftazidime|piperacillin-tazobactam,27736752
+AMRFinder,D32N,Pseudomonas aeruginosa,colr,COLISTIN,colR,colistin,29681898
+AMRFinder,A106V,Pseudomonas aeruginosa,cols,COLISTIN,colS,colistin,29681898
+AMRFinder,R241C,Pseudomonas aeruginosa,cprs,COLISTIN,cprS,colistin,29681898
+AMRFinder,V194L,Pseudomonas aeruginosa,czcs,CARBAPENEM,czcS,zinc|cadmium|cobalt|imipenem,14679195
+AMRFinder,T428P,Pseudomonas aeruginosa,dacb,CEPHALOSPORIN,dacB,ceftazidime,19325877
+AMRFinder,V471G,Pseudomonas aeruginosa,ftsi,CARBAPENEM,ftsI,carbenicillin|cefuroxime|doripenem,34318749
+AMRFinder,R504C,Pseudomonas aeruginosa,ftsi,CARBAPENEM,ftsI,ceftazidime|meropenem|aztreonam,29681898
+AMRFinder,V523M,Pseudomonas aeruginosa,ftsi,CARBAPENEM,ftsI,ceftazidime,35766499
+AMRFinder,P527S,Pseudomonas aeruginosa,ftsi,CARBAPENEM,PBP3,aztreonam,40612392
+AMRFinder,F533L,Pseudomonas aeruginosa,ftsi,CARBAPENEM,ftsI,ceftazidime|meropenem|aztreonam,29681898
+AMRFinder,I61M,Pseudomonas aeruginosa,fusa1,AMIKACIN/TOBRAMYCIN,fusA1,tobramycin|gentamicin|amikacin,29437613
+AMRFinder,E100G,Pseudomonas aeruginosa,fusa1,AMIKACIN/TOBRAMYCIN,fusA1,aminoglycosides,29681898
+AMRFinder,R371C,Pseudomonas aeruginosa,fusa1,AMIKACIN/TOBRAMYCIN,fusA1,gentamicin|amikacin|tobramycin,29133559
+AMRFinder,T456A,Pseudomonas aeruginosa,fusa1,AMIKACIN,fusA1,gentamicin|amikacin|tobramycin,29133559
+AMRFinder,Y552C,Pseudomonas aeruginosa,fusa1,AMIKACIN,fusA1,aminoglycosides,29681898
+AMRFinder,P554L,Pseudomonas aeruginosa,fusa1,AMIKACIN/TOBRAMYCIN,fusA1,aminoglycosides,29681898
+AMRFinder,A555E,Pseudomonas aeruginosa,fusa1,AMIKACIN/TOBRAMYCIN,fusA1,gentamicin|amikacin|tobramycin,29133559
+AMRFinder,N592I,Pseudomonas aeruginosa,fusa1,AMIKACIN/TOBRAMYCIN,fusA1,gentamicin|amikacin|tobramycin,29133559
+AMRFinder,P618L,Pseudomonas aeruginosa,fusa1,TOBRAMYCIN,fusA1,aminoglycosides,29681898
+AMRFinder,T671A,Pseudomonas aeruginosa,fusa1,AMIKACIN/TOBRAMYCIN,fusA1,gentamicin|amikacin|tobramycin,29133559
+AMRFinder,T671I,Pseudomonas aeruginosa,fusa1,AMIKACIN/TOBRAMYCIN,fusA1,aminoglycosides,29681898
+AMRFinder,Q678L,Pseudomonas aeruginosa,fusa1,AMIKACIN/TOBRAMYCIN,fusA1,tobramycin,32457248
+AMRFinder,R680C,Pseudomonas aeruginosa,fusa1,AMIKACIN/TOBRAMYCIN,fusA1,gentamicin|amikacin|tobramycin,29133559
+AMRFinder,T211P,Pseudomonas aeruginosa,glpt,FOSFOMYCIN,glpT,fosfomycin,27736752
+AMRFinder,D72G,Pseudomonas aeruginosa,gyra,QUINOLONE,parE,ciprofloxacin|garenoxacin,15917569
+AMRFinder,G81D,Pseudomonas aeruginosa,gyra,QUINOLONE,gyrA,fluoroquinolones,29681898
+AMRFinder,T83A,Pseudomonas aeruginosa,gyra,QUINOLONE,gyrA,ciprofloxacin,36533961
+AMRFinder,T83I,Pseudomonas aeruginosa,gyra,QUINOLONE,gyrA,ciprofloxacin,14507757
+AMRFinder,D87G,Pseudomonas aeruginosa,gyra,QUINOLONE,parE,ciprofloxacin|garenoxacin,15917569
+AMRFinder,D87H,Pseudomonas aeruginosa,gyra,QUINOLONE,parE,ciprofloxacin|garenoxacin,15917569
+AMRFinder,D87N,Pseudomonas aeruginosa,gyra,QUINOLONE,parE,ciprofloxacin|garenoxacin,15917569
+AMRFinder,D87Y,Pseudomonas aeruginosa,gyra,QUINOLONE,parE,ciprofloxacin|garenoxacin,15917569
+AMRFinder,A372L,Pseudomonas aeruginosa,gyrb,QUINOLONE,gyrB,ciprofloxacin|levofloxacin|ofloxacin,30804676
+AMRFinder,A372V,Pseudomonas aeruginosa,gyrb,QUINOLONE,gyrB,ciprofloxacin|levofloxacin|ofloxacin,30804676
+AMRFinder,I424L,Pseudomonas aeruginosa,gyrb,QUINOLONE,gyrB,ciprofloxacin|levofloxacin|ofloxacin,30804676
+AMRFinder,L464I,Pseudomonas aeruginosa,gyrb,QUINOLONE,gyrB,ciprofloxacin|levofloxacin|ofloxacin,30804676
+AMRFinder,S466F,Pseudomonas aeruginosa,gyrb,QUINOLONE,gyrB,ciprofloxacin,23274661
+AMRFinder,S466Y,Pseudomonas aeruginosa,gyrb,QUINOLONE,gyrB,ciprofloxacin,23274661
+AMRFinder,E468D,Pseudomonas aeruginosa,gyrb,QUINOLONE,gyrB,levofloxacin,22905192
+AMRFinder,E483D,Pseudomonas aeruginosa,gyrb,QUINOLONE,gyrB,ciprofloxacin|levofloxacin|ofloxacin,30804676
+AMRFinder,R620C,Pseudomonas aeruginosa,mexb,CARBAPENEM/VABORBACTAM,mexB,ceftazidime-avibactam,40464559
+AMRFinder,S133G,Pseudomonas aeruginosa,mexd,AVIBACTAM,mexD,ceftolozane-tazobactam|ceftazidime-avibactam,34060900
+AMRFinder,Q178R,Pseudomonas aeruginosa,mexd,AVIBACTAM,mexD,ceftolozane-tazobactam|ceftazidime-avibactam,34060900
+AMRFinder,L57P,Pseudomonas aeruginosa,mexr,AZTREONAM-AVIBACTAM/CARBAPENEM/CEPHALOSPORIN/CHLORAMPHENICOL/VABORBACTAM,mexR,aztreonam|ofloxacin,14526032
+AMRFinder,R70Q,Pseudomonas aeruginosa,mexr,AZTREONAM-AVIBACTAM/CARBAPENEM/CEPHALOSPORIN/CHLORAMPHENICOL/VABORBACTAM,mexR,aztreonam,34248872
+AMRFinder,R83C,Pseudomonas aeruginosa,mexr,AZTREONAM-AVIBACTAM/CARBAPENEM/CEPHALOSPORIN/CHLORAMPHENICOL/VABORBACTAM,mexR,aztreonam|ofloxacin,14526032
+AMRFinder,G46S,Pseudomonas aeruginosa,mexz,AMINOGLYCOSIDE/CEFEPIME/FLUOROQUINOLONE,mexZ,aminoglycosides,24145539
+AMRFinder,G195E,Pseudomonas aeruginosa,mexz,AMINOGLYCOSIDE/CEFEPIME/FLUOROQUINOLONE,mexZ,cefepime|aminoglycosides,27736752
+AMRFinder,G71E,Pseudomonas aeruginosa,nalc,CARBAPENEM,nalC,aztreonam|carbenicillin|piperacillin-tazobactam|meropenem,20194693
+AMRFinder,G125D,Pseudomonas aeruginosa,nalc,AZTREONAM,nalC,meropenem,31570397
+AMRFinder,S209R,Pseudomonas aeruginosa,nalc,CARBAPENEM,mexR,aminoglycosides|fluoroquinolones|macrolides,33922748
+AMRFinder,T11N,Pseudomonas aeruginosa,nald,AZTREONAM/CARBAPENEM/CHLORAMPHENICOL/TETRACYCLINE/VABORBACTAM,nalD,fluoroquinolones|cephalosporins|aminoglycosides,33114277
+AMRFinder,T158I,Pseudomonas aeruginosa,nald,AZTREONAM/CARBAPENEM/CHLORAMPHENICOL/TETRACYCLINE/VABORBACTAM,pmrB,colistin,38849863
+AMRFinder,F198L,Pseudomonas aeruginosa,nald,AZTREONAM/CARBAPENEM/CHLORAMPHENICOL/TETRACYCLINE/VABORBACTAM,NalD,aztreonam,31860667
+AMRFinder,V359L,Pseudomonas aeruginosa,oprd,CARBAPENEM,oprD,imipenem,30212579
+AMRFinder,S87L,Pseudomonas aeruginosa,parc,QUINOLONE,parC,ciprofloxacin,14507757
+AMRFinder,S87W,Pseudomonas aeruginosa,parc,QUINOLONE,parC,ciprofloxacin,23045355
+AMRFinder,S457G,Pseudomonas aeruginosa,pare,QUINOLONE,parE,fluoroquinolones,29681898
+AMRFinder,S457T,Pseudomonas aeruginosa,pare,QUINOLONE,parE,fluoroquinolones,29681898
+AMRFinder,E459D,Pseudomonas aeruginosa,pare,QUINOLONE,parE,fluoroquinolones,29681898
+AMRFinder,A473V,Pseudomonas aeruginosa,pare,QUINOLONE,gyrB,ciprofloxacin|garenoxacin,15917569
+AMRFinder,M59I,Pseudomonas aeruginosa,parr,COLISTIN,parR,colistin|imipenem,21149619
+AMRFinder,L14Q,Pseudomonas aeruginosa,pars,CARBAPENEM,parS,colistin|imipenem,21149619
+AMRFinder,V260G,Pseudomonas aeruginosa,phoq,COLISTIN,phoQ,polymyxin B,24349887
+AMRFinder,L157Q,Pseudomonas aeruginosa,pmra,COLISTIN,pmrA,colistin,29681898
+AMRFinder,V9A,Pseudomonas aeruginosa,pmrb,COLISTIN,pmrB,colistin,28630206
+AMRFinder,L14P,Pseudomonas aeruginosa,pmrb,COLISTIN,pmrB,colistin,22106224
+AMRFinder,V15I,Pseudomonas aeruginosa,pmrb,COLISTIN,basS,colistin,40763289
+AMRFinder,A54V,Pseudomonas aeruginosa,pmrb,COLISTIN,pmrB,colistin,22106224
+AMRFinder,G188D,Pseudomonas aeruginosa,pmrb,COLISTIN,pmrB,colistin,22106224
+AMRFinder,L243Q,Pseudomonas aeruginosa,pmrb,COLISTIN,pmrB,colistin,22106224
+AMRFinder,A247T,Pseudomonas aeruginosa,pmrb,COLISTIN,pmrB,polymyxin B,24349887
+AMRFinder,A248T,Pseudomonas aeruginosa,pmrb,COLISTIN,pmrB,colistin,22106224
+AMRFinder,A248V,Pseudomonas aeruginosa,pmrb,COLISTIN,pmrB,colistin,22106224
+AMRFinder,T253M,Pseudomonas aeruginosa,pmrb,COLISTIN,pmrB,colistin,22106224
+AMRFinder,S257N,Pseudomonas aeruginosa,pmrb,COLISTIN,pmrB,colistin,22106224
+AMRFinder,R259H,Pseudomonas aeruginosa,pmrb,COLISTIN,pmrB,colistin,22106224
+AMRFinder,M292T,Pseudomonas aeruginosa,pmrb,COLISTIN,pmrB,polymyxin B,24349887
+AMRFinder,P456S,Pseudomonas aeruginosa,pmrb,COLISTIN,pmrB,colistin,22106224
+AMRFinder,Q176K,Salmonella enterica,acrb,CEPHALOSPORIN,AcrB,cefotaxime,38686215
+AMRFinder,G288D,Salmonella enterica,acrb,QUINOLONE,AcrB,fluoroquinolones,32585951
+AMRFinder,R717L,Salmonella enterica,acrb,AZITHROMYCIN,acrB,azithromycin,34223059
+AMRFinder,R717Q,Salmonella enterica,acrb,AZITHROMYCIN,acrB,azithromycin,33515460
+AMRFinder,F28I,Salmonella enterica,folp,SULFONAMIDE,folP,sulfonamide,37906281
+AMRFinder,F28L,Salmonella enterica,folp,SULFONAMIDE,folP,sulfonamide,37906281
+AMRFinder,R171P,Salmonella enterica,folp,SULFONAMIDE,folP,sulfonamide,37906281
+AMRFinder,G81C,Salmonella enterica,gyra,QUINOLONE,gyrA,ciprofloxacin|norfloxacin|nalidixic acid,19946377
+AMRFinder,G81D,Salmonella enterica,gyra,QUINOLONE,GyrA,ciprofloxacin,28831084
+AMRFinder,D82N,Salmonella enterica,gyra,QUINOLONE,gyrA,nalidixic acid,26121266
+AMRFinder,S83A,Salmonella enterica,gyra,QUINOLONE,gyrA,ciprofloxacin,15215081
+AMRFinder,S83F,Salmonella enterica,gyra,QUINOLONE/TRICLOSAN,GyrA,ciprofloxacin,14718091
+AMRFinder,S83I,Salmonella enterica,gyra,QUINOLONE,GyrA,ciprofloxacin,34943668
+AMRFinder,S83Y,Salmonella enterica,gyra,QUINOLONE,gyrA,ciprofloxacin,20409393
+AMRFinder,D87G,Salmonella enterica,gyra,QUINOLONE/TRICLOSAN,gyrA,ciprofloxacin,15078598
+AMRFinder,D87N,Salmonella enterica,gyra,QUINOLONE,gyrA,ciprofloxacin,15078598
+AMRFinder,D87Y,Salmonella enterica,gyra,QUINOLONE,gyrA,nalidixic acid,16416922
+AMRFinder,A131G,Salmonella enterica,gyra,QUINOLONE,gyrA,fluoroquinolones,16377664
+AMRFinder,S464F,Salmonella enterica,gyrb,QUINOLONE,GyrB,ciprofloxacin,14718091
+AMRFinder,S464T,Salmonella enterica,gyrb,QUINOLONE,gyrB,ciprofloxacin,37107581
+AMRFinder,S464Y,Salmonella enterica,gyrb,QUINOLONE,gyrB,ciprofloxacin,33101240
+AMRFinder,E466D,Salmonella enterica,gyrb,QUINOLONE,gyrB,ciprofloxacin,19104017
+AMRFinder,G78D,Salmonella enterica,parc,QUINOLONE,ParC,ciprofloxacin,28831084
+AMRFinder,S80I,Salmonella enterica,parc,QUINOLONE,parC,ciprofloxacin,15078598
+AMRFinder,S80R,Salmonella enterica,parc,QUINOLONE,ParC,ciprofloxacin,14718091
+AMRFinder,E84G,Salmonella enterica,parc,QUINOLONE,parC,ciprofloxacin,39397980
+AMRFinder,E84K,Salmonella enterica,parc,QUINOLONE,ParC,ciprofloxacin,14718091
+AMRFinder,W106G,Salmonella enterica,parc,QUINOLONE,parC,ciprofloxacin,27630841
+AMRFinder,M438I,Salmonella enterica,pare,QUINOLONE,parE,nalidixic acid,25371903
+AMRFinder,S458P,Salmonella enterica,pare,QUINOLONE,parE,ciprofloxacin|nalidixic acid,17080579
+AMRFinder,V461G,Salmonella enterica,pare,QUINOLONE,parE,ciprofloxacin,19104017
+AMRFinder,G15R,Salmonella enterica,pmra,COLISTIN,pmrA,polymyxin B|colistin,25505462
+AMRFinder,G53E,Salmonella enterica,pmra,COLISTIN,pmrA,polymyxin B|colistin,25505462
+AMRFinder,G53R,Salmonella enterica,pmra,COLISTIN,pmrA,polymyxin B|colistin,25505462
+AMRFinder,R81C,Salmonella enterica,pmra,COLISTIN,pmrA,polymyxin B|colistin,25505462
+AMRFinder,R81H,Salmonella enterica,pmra,COLISTIN,pmrA,polymyxin B|colistin,25505462
+AMRFinder,N130Y,Salmonella enterica,pmrb,COLISTIN,pmrB,colistin,19332669
+AMRFinder,T147P,Salmonella enterica,pmrb,COLISTIN,pmrB,colistin,36584420
+AMRFinder,E166K,Salmonella enterica,pmrb,COLISTIN,pmrB,colistin,19332669
+AMRFinder,T18P,Salmonella enterica,ramr,AMPICILLIN/CHLORAMPHENICOL/FLUOROQUINOLONE/RIFAMPIN/TETRACYCLINE,ramR,tigecycline,28261566
+AMRFinder,G25A,Salmonella enterica,ramr,AMPICILLIN/CHLORAMPHENICOL/FLUOROQUINOLONE/RIFAMPIN/TETRACYCLINE,ramR,ciprofloxacin,19104017
+AMRFinder,Y59H,Salmonella enterica,ramr,AMPICILLIN/CHLORAMPHENICOL/FLUOROQUINOLONE/RIFAMPIN/TETRACYCLINE,ramR,tetracycline,35732677
+AMRFinder,R20H,Salmonella enterica,soxr,AMPICILLIN/CHLORAMPHENICOL/QUINOLONE/RIFAMPIN/TETRACYCLINE,soxR,ciprofloxacin,19104017
+AMRFinder,E52K,Salmonella enterica,soxs,AMPICILLIN/CHLORAMPHENICOL/QUINOLONE/RIFAMPIN/TETRACYCLINE,soxS,ciprofloxacin,19104017
+AMRFinder,S83I,Serratia marcescens,gyra,QUINOLONE,gyrA,fluoroquinolones,35298517
+AMRFinder,A23V,Staphylococcus aureus,cls,DAPTOMYCIN,cls2,daptomycin,22238576
+AMRFinder,T33N,Staphylococcus aureus,cls,DAPTOMYCIN,pgsA,daptomycin,22238576
+AMRFinder,L52F,Staphylococcus aureus,cls,DAPTOMYCIN,cls2,daptomycin,22238576
+AMRFinder,F60S,Staphylococcus aureus,cls,DAPTOMYCIN,cls2,daptomycin,22238576
+AMRFinder,L21V,Staphylococcus aureus,dfrb,TRIMETHOPRIM,dfrB,trimethoprim,33178416
+AMRFinder,L41F,Staphylococcus aureus,dfrb,TRIMETHOPRIM,dfrB,trimethoprim,33178416
+AMRFinder,F99Y,Staphylococcus aureus,dfrb,TRIMETHOPRIM,dfrB,trimethoprim,33178416
+AMRFinder,A135T,Staphylococcus aureus,dfrb,TRIMETHOPRIM,dfrB,trimethoprim,33178416
+AMRFinder,H150R,Staphylococcus aureus,dfrb,TRIMETHOPRIM,dfrA,trimethoprim,39805814
+AMRFinder,F17L,Staphylococcus aureus,folp,SULFONAMIDE,folP,sulfamethoxazole,33519755
+AMRFinder,S18L,Staphylococcus aureus,folp,SULFONAMIDE,folP,sulfonamide,30065703
+AMRFinder,T51M,Staphylococcus aureus,folp,SULFONAMIDE,thyA,trimethoprim-sulfamethoxazole,31159295
+AMRFinder,E208K,Staphylococcus aureus,folp,SULFONAMIDE,folP,sulfonamide,30065703
+AMRFinder,F88L,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,33522241
+AMRFinder,V90A,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,39805814
+AMRFinder,V90I,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,33322073
+AMRFinder,E233Q,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,21149625
+AMRFinder,D373N,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,21149625
+AMRFinder,A376V,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,31023224
+AMRFinder,T385N,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,33322073
+AMRFinder,P404L,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,21149625
+AMRFinder,P404Q,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,21149625
+AMRFinder,P406L,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,33322073
+AMRFinder,S416F,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,40827472
+AMRFinder,D434N,Staphylococcus aureus,fusa,FUSIDIC ACID,parE,levofloxacin|gatifloxacin|moxifloxacin|tosufloxacin,18460536
+AMRFinder,T436I,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,33522241
+AMRFinder,G451V,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,33322073
+AMRFinder,M453I,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,20566766
+AMRFinder,L456F,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,33322073
+AMRFinder,H457L,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,33522241
+AMRFinder,H457N,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,33522241
+AMRFinder,H457Q,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,20566766
+AMRFinder,H457Y,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,33322073
+AMRFinder,L461K,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,Fusidic acid,22869569
+AMRFinder,L461S,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,21149625
+AMRFinder,R464L,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,33522241
+AMRFinder,A655P,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,33322073
+AMRFinder,T656K,Staphylococcus aureus,fusa,FUSIDIC ACID,fusA,fusidic acid,21149625
+AMRFinder,N182K,Staphylococcus aureus,gdpp,CEPHALOSPORIN,gdpP,nafcillin,32234776
+AMRFinder,A100V,Staphylococcus aureus,glpt,FOSFOMYCIN,glpT,fosfomycin,36970692
+AMRFinder,W137R,Staphylococcus aureus,glpt,FOSFOMYCIN,glpT,fosfomycin,26793179
+AMRFinder,D73G,Staphylococcus aureus,gyra,QUINOLONE,gyrA,ciprofloxacin,9527766
+AMRFinder,S84A,Staphylococcus aureus,gyra,QUINOLONE,gyrA,levofloxacin|moxifloxacin,34156294
+AMRFinder,S84L,Staphylococcus aureus,gyra,QUINOLONE,gyrA,ciprofloxacin,10390214
+AMRFinder,S85P,Staphylococcus aureus,gyra,QUINOLONE,gyrA,ciprofloxacin,11600359
+AMRFinder,E88A,Staphylococcus aureus,gyra,QUINOLONE,gyrA,ciprofloxacin|enrofloxacin,34063179
+AMRFinder,E88G,Staphylococcus aureus,gyra,QUINOLONE,gyrA,enrofloxacin,18305127
+AMRFinder,E88K,Staphylococcus aureus,gyra,QUINOLONE,gyrA,ciprofloxacin,10817688
+AMRFinder,G106D,Staphylococcus aureus,gyra,QUINOLONE,gyrA,ciprofloxacin|levofloxacin|moxifloxacin,35897667
+AMRFinder,V588F,Staphylococcus aureus,iles,MUPIROCIN,ileS,mupirocin,11796355
+AMRFinder,V631F,Staphylococcus aureus,iles,MUPIROCIN,ileS,mupirocin,11796355
+AMRFinder,A103V,Staphylococcus aureus,mepr,TIGECYCLINE,mepR,tigecycline,23982071
+AMRFinder,G61V,Staphylococcus aureus,mprf,DAPTOMYCIN,mprF,daptomycin,22238576
+AMRFinder,S295L,Staphylococcus aureus,mprf,DAPTOMYCIN,mprF,Daptomycin,32922373
+AMRFinder,P314L,Staphylococcus aureus,mprf,DAPTOMYCIN,mprF,daptomycin,28120188
+AMRFinder,S337L,Staphylococcus aureus,mprf,DAPTOMYCIN,mprF,daptomycin,28120188
+AMRFinder,L341S,Staphylococcus aureus,mprf,DAPTOMYCIN,mprF,daptomycin,21986832
+AMRFinder,T345A,Staphylococcus aureus,mprf,DAPTOMYCIN,mprF,daptomycin,35196789
+AMRFinder,T345I,Staphylococcus aureus,mprf,DAPTOMYCIN,mprF,daptomycin,19332678
+AMRFinder,I420N,Staphylococcus aureus,mprf,DAPTOMYCIN,mprF,daptomycin,22238576
+AMRFinder,L826F,Staphylococcus aureus,mprf,DAPTOMYCIN,mprF,daptomycin|thrombin-induced platelet microbicidal proteins|human neutrophil peptide-1,21709105
+AMRFinder,G257D,Staphylococcus aureus,mura,FOSFOMYCIN,murA,fosfomycin,32807239
+AMRFinder,D278E,Staphylococcus aureus,mura,FOSFOMYCIN,murA,fosfomycin,32807239
+AMRFinder,E291D,Staphylococcus aureus,mura,FOSFOMYCIN,murA,fosfomycin,33692199
+AMRFinder,T396N,Staphylococcus aureus,mura,FOSFOMYCIN,murA,fosfomycin,37630513
+AMRFinder,S80F,Staphylococcus aureus,parc,QUINOLONE,grlA,ciprofloxacin,11600359
+AMRFinder,S80Y,Staphylococcus aureus,parc,QUINOLONE,parC,fluoroquinolones,20435780
+AMRFinder,E84G,Staphylococcus aureus,parc,QUINOLONE,grlA,fluoroquinolones,22032541
+AMRFinder,E84K,Staphylococcus aureus,parc,QUINOLONE,grlA,ciprofloxacin|levofloxacin|sparfloxacin|pefloxacin,10428901
+AMRFinder,A116E,Staphylococcus aureus,parc,QUINOLONE,grlA,fluoroquinolones,36435256
+AMRFinder,A116V,Staphylococcus aureus,parc,QUINOLONE,grlA,fluoroquinolones,36290036
+AMRFinder,D432N,Staphylococcus aureus,pare,QUINOLONE,parE,nemonoxacin|moxifloxacin|levofloxacin|ciprofloxacin,39825371
+AMRFinder,P451S,Staphylococcus aureus,pare,QUINOLONE,parE,fluoroquinolones,31050254
+AMRFinder,E183A,Staphylococcus aureus,pbp4,CEPHALOSPORIN,pbp4,ceftaroline|ceftobiprole,27067335
+AMRFinder,R200L,Staphylococcus aureus,pbp4,CEPHALOSPORIN,pbp4,nafcillin|cefoxitin,34151961
+AMRFinder,E218K,Staphylococcus aureus,pbp4,CEPHALOSPORIN,pbp4,nafcillin|cefoxitin,34151961
+AMRFinder,F241R,Staphylococcus aureus,pbp4,CEPHALOSPORIN,pbp4,ceftobiprole|ceftaroline,30366985
+AMRFinder,V59N,Staphylococcus aureus,pgsa,DAPTOMYCIN,pgsA,daptomycin,22238576
+AMRFinder,A64V,Staphylococcus aureus,pgsa,DAPTOMYCIN,pgsA,daptomycin,22238576
+AMRFinder,S177F,Staphylococcus aureus,pgsa,DAPTOMYCIN,pgsA,daptomycin,30891010
+AMRFinder,G139R,Staphylococcus aureus,rplc,LINEZOLID,rplC,linezolid,24915435
+AMRFinder,G152D,Staphylococcus aureus,rplc,LINEZOLID,rplC,linezolid,39420155
+AMRFinder,G155R,Staphylococcus aureus,rplc,LINEZOLID,rplC,linezolid,39420155
+AMRFinder,S464P,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,vancomycin,22948864
+AMRFinder,L466S,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampin,16377701
+AMRFinder,Q468K,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampicin,39913260
+AMRFinder,Q468L,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampicin,39913260
+AMRFinder,Q468R,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampin,16495239
+AMRFinder,D471E,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampin,33199387
+AMRFinder,D471G,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,vancomycin,22948864
+AMRFinder,D471Y,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampicin,39913260
+AMRFinder,A473T,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampin,34764656
+AMRFinder,A477D,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampin,16377701
+AMRFinder,A477T,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampicin,20202188
+AMRFinder,A477V,Staphylococcus aureus,rpob,BETA-LACTAM/RIFAMPIN,rpoB,rifampin,9756760
+AMRFinder,H481D,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampin,16495239
+AMRFinder,H481N,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampin,12384339
+AMRFinder,H481Y,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampin,16377701
+AMRFinder,R484C,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampin,16495239
+AMRFinder,R484H,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampin,16495239
+AMRFinder,S486L,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampin,16495239
+AMRFinder,I527L,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampicin,20202188
+AMRFinder,I527M,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampicin,39913260
+AMRFinder,S529L,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampin,16377701
+AMRFinder,D550G,Staphylococcus aureus,rpob,RIFAMPIN,rpoB,rifampin,9756760
+AMRFinder,A621E,Staphylococcus aureus,rpob,DAPTOMYCIN,rpoB,vancomycin|daptomycin,20837752
+AMRFinder,I953S,Staphylococcus aureus,rpob,DAPTOMYCIN,rpoB,daptomycin,19332678
+AMRFinder,N967I,Staphylococcus aureus,rpob,BETA-LACTAM,rpoB,methicillin,23877693
+AMRFinder,F632S,Staphylococcus aureus,rpoc,DAPTOMYCIN,RpoC,vancomycin|daptomycin,37237831
+AMRFinder,G950R,Staphylococcus aureus,rpoc,BETA-LACTAM,rpoC,oxacillin|cefoxitin|imipenem,38988221
+AMRFinder,Q961K,Staphylococcus aureus,rpoc,DAPTOMYCIN,RpoC,vancomycin|daptomycin,37237831
+AMRFinder,K57M,Staphylococcus lugdunensis,rpsj,TIGECYCLINE,rpsJ,Tetracycline,23281931
+AMRFinder,Y58D,Staphylococcus lugdunensis,rpsj,TIGECYCLINE,rpsJ,tigecycline|eravacycline|omadacycline,37287125
+AMRFinder,G358V,Staphylococcus aureus,uhpt,FOSFOMYCIN,uhpT,fosfomycin,35848785
+AMRFinder,T331I,Staphylococcus aureus,vras,DAPTOMYCIN/VANCOMYCIN,vraS,vancomycin|methicillin|daptomycin,40233945
+AMRFinder,S221P,Staphylococcus aureus,walk,DAPTOMYCIN,WalKR,vancomycin,38456702
+AMRFinder,L466S,Staphylococcus epidermidis,rpob,RIFAMPIN,rpoB,rifampin,16377701
+AMRFinder,Q468K,Staphylococcus epidermidis,rpob,RIFAMPIN,rpoB,rifampicin,39913260
+AMRFinder,Q468L,Staphylococcus epidermidis,rpob,RIFAMPIN,rpoB,rifampicin,39913260
+AMRFinder,D471E,Staphylococcus epidermidis,rpob,RIFAMPIN/TEICOPLANIN/VANCOMYCIN,rpoB,rifampin,33199387
+AMRFinder,H481C,Staphylococcus epidermidis,rpob,RIFAMPIN,rpoB,rifampicin,39913260
+AMRFinder,H481N,Staphylococcus epidermidis,rpob,RIFAMPIN,rpoB,rifampin,12384339
+AMRFinder,H481Y,Staphylococcus epidermidis,rpob,RIFAMPIN,rpoB,rifampin,16377701
+AMRFinder,S486F,Staphylococcus epidermidis,rpob,RIFAMPIN,rpoB,rifampicin,39913260
+AMRFinder,S486Y,Staphylococcus epidermidis,rpob,RIFAMPIN,rpoB,rifampicin,39913260
+AMRFinder,I527M,Staphylococcus epidermidis,rpob,RIFAMPIN/TEICOPLANIN/VANCOMYCIN,rpoB,rifampicin,39913260
+AMRFinder,S529L,Staphylococcus epidermidis,rpob,RIFAMPIN,rpoB,rifampin,16377701
+AMRFinder,S80I,Staphylococcus intermedius,grla,QUINOLONE,grlA,enrofloxacin,18305127
+AMRFinder,S80R,Staphylococcus intermedius,grla,QUINOLONE,grlA,enrofloxacin,34063179
+AMRFinder,D84G,Staphylococcus intermedius,grla,QUINOLONE,parC,gatifloxacin|moxifloxacin,23824766
+AMRFinder,D84N,Staphylococcus intermedius,grla,QUINOLONE,grlA,enrofloxacin,18305127
+AMRFinder,D84Y,Staphylococcus intermedius,grla,QUINOLONE,parC,gatifloxacin|moxifloxacin,23824766
+AMRFinder,S84A,Staphylococcus pseudintermedius,gyra,QUINOLONE,gyrA,levofloxacin|moxifloxacin,34156294
+AMRFinder,S84L,Staphylococcus pseudintermedius,gyra,QUINOLONE,gyrA,ciprofloxacin,10390214
+AMRFinder,E88G,Staphylococcus pseudintermedius,gyra,QUINOLONE,gyrA,enrofloxacin,18305127
+AMRFinder,E88K,Staphylococcus pseudintermedius,gyra,QUINOLONE,gyrA,ciprofloxacin,10817688
+AMRFinder,H481Y,Staphylococcus pseudintermedius,rpob,RIFAMPIN,rpoB,rifampin,16377701
+AMRFinder,S486L,Staphylococcus pseudintermedius,rpob,RIFAMPIN,rpoB,rifampin,16495239
+AMRFinder,Q557E,Streptococcus agalactiae,pbp2x,BETA-LACTAM,pbp2x,penicillin|cefotaxime|cefoxitin|cefazolin,18541727
+AMRFinder,S79F,Streptococcus pneumoniae,parc,QUINOLONE,parC,levofloxacin|clinafloxacin,11036007
+AMRFinder,S79Y,Streptococcus pneumoniae,parc,QUINOLONE,ParC,clinafloxacin|ciprofloxacin|trovafloxacin,10991854
+AMRFinder,P601L,Streptococcus pyogenes,pbp2x,BETA-LACTAM,pbp2a,ampicillin|cefotaxime,37065204
+AMRFinder,S83I,Vibrio cholerae,gyra,QUINOLONE,gyrA,ciprofloxacin,10223929
+AMRFinder,S85I,Vibrio cholerae,parc,QUINOLONE,parC,ciprofloxacin,24867982
+AMRFinder,S85L,Vibrio cholerae,parc,QUINOLONE,parC,norfloxacin|ciprofloxacin|sparfloxacin|ofloxacin,12121955
+AMRFinder,S83I,Vibrio parahaemolyticus,gyra,QUINOLONE,gyrA,ciprofloxacin,10223929
+AMRFinder,S85F,Vibrio parahaemolyticus,parc,QUINOLONE,parC,ciprofloxacin,10223929
+AMRFinder,S85L,Vibrio parahaemolyticus,parc,QUINOLONE,parC,norfloxacin|ciprofloxacin|sparfloxacin|ofloxacin,12121955
+AMRFinder,S83I,Vibrio vulnificus,gyra,QUINOLONE,gyrA,ciprofloxacin,10223929
+AMRFinder,S85L,Vibrio vulnificus,parc,QUINOLONE,parC,norfloxacin|ciprofloxacin|sparfloxacin|ofloxacin,12121955
+CARD,S81L,Acinetobacter baumannii,gyra,Fluoroquinolones,gyrA,ciprofloxacin,34154405
+CARD,S84L,Acinetobacter baumannii,parc,Fluoroquinolones,gyrA,ciprofloxacin,34154405
+CARD,V104I,Acinetobacter baumannii,parc,Fluoroquinolones,parC,fluoroquinolones,39306657
+CARD,D105E,Acinetobacter baumannii,parc,Fluoroquinolones,parC,fluoroquinolones,39306657
+CARD,V29G,Achromobacter insuavis,axyz,,axyZ,tobramycin|amikacin|gentamicin|netilmicin|ceftazidime|cefepime|imipenem|meropenem|doripenem|ofloxacin|levofloxacin|ciprofloxacin|tetracycline|doxycycline|tigecycline|erythromycin,28584156
+CARD,A64V,Staphylococcus aureus,pgsa,Daptomycin,pgsA,daptomycin,22238576
+CARD,S487L,Bacillus subtilis,rpob,Rifampicin,rpoB,rifampin,35258334
+CARD,Q469R,Bacillus subtilis,rpob,Rifampicin,rpoB,cefotaxime,36779708
+CARD,H482Y,Bacillus subtilis,rpob,Rifampicin,rpoB,rifampin,35258334
+CARD,G89C,Bacillus subtilis,rpse,Spectinomycin,rpsE,spectinomycin,34339280
+CARD,D95N,Bartonella bacilliformis,gyra,Fluoroquinolones,GyrA,ciprofloxacin,34358026
+CARD,L71R,Pseudomonas aeruginosa,basr,,pmrA,gentamicin|amikacin,33401446
+CARD,L157Q,Pseudomonas aeruginosa,basr,,pmrA,colistin,29681898
+CARD,T86I,Campylobacter jejuni,gyra,Fluoroquinolones,gyrA,fluoroquinolones,11230433
+CARD,T82I,Clostridioides difficile,gyra,Fluoroquinolones,gyrA,levofloxacin|ciprofloxacin,34125660
+CARD,R447K,Clostridium ljungdahlii,gyrb,Fluoroquinolones,gyrB,moxifloxacin|ciprofloxacin|levofloxacin,18480338
+CARD,D426V,Clostridium ljungdahlii,gyrb,Fluoroquinolones,gyrB,moxifloxacin|ciprofloxacin|gatifloxacin|levofloxacin,18480338
+CARD,S416A,Clostridium ljungdahlii,gyrb,Fluoroquinolones,gyrB,moxifloxacin|ciprofloxacin|gatifloxacin|levofloxacin,18480338
+CARD,E466K,Clostridium ljungdahlii,gyrb,Fluoroquinolones,gyrB,moxifloxacin,18710908
+CARD,D426N,Clostridium ljungdahlii,gyrb,Fluoroquinolones,gyrB,Ciprofloxacin|Moxifloxacin,12384345
+CARD,S366V,Clostridium ljungdahlii,gyrb,Fluoroquinolones,gyrB,ciprofloxacin|moxifloxacin,32170182
+CARD,R447L,Clostridium ljungdahlii,gyrb,Fluoroquinolones,gyrB,Ciprofloxacin|Moxifloxacin,12384345
+CARD,H502Y,Clostridium ljungdahlii,rpob,Rifampicin,rpoB,rifampin|rifaximin,18559647
+CARD,S488T,Clostridium ljungdahlii,rpob,Rifampicin,rpoB,rifampin|rifaximin,18559647
+CARD,R505K,Clostridium ljungdahlii,rpob,Rifampicin,rpoB,rifampin|rifaximin,18559647
+CARD,D492V,Clostridium ljungdahlii,rpob,Rifampicin,rpoB,rifampin|rifaximin,27558181
+CARD,H502N,Clostridium ljungdahlii,rpob,Rifampicin,rpoB,rifampin|rifaximin,18559647
+CARD,I548M,Clostridium ljungdahlii,rpob,Rifampicin,rpoB,rifampin|rifaximin,18559647
+CARD,P496S,Clostridium ljungdahlii,rpob,Rifampicin,rpoB,rifampin,22908175
+CARD,S101L,Cutibacterium acnes,gyra,Fluoroquinolones,gyrA,levofloxacin|moxifloxacin,37289061
+CARD,T450I,Enterococcus faecium,eatav,,eat(A),lincomycin|clindamycin|dalfopristin|quinupristin|tiamulin,23836170
+CARD,R218Q,Enterococcus faecalis,cls,Daptomycin,cls,daptomycin,23076243
+CARD,H215R,Enterococcus faecalis,cls,Daptomycin,cls,daptomycin,33796088
+CARD,R267H,Enterococcus faecalis,cls,Daptomycin,clsA,daptomycin,33332354
+CARD,D191N,Enterococcus faecalis,liar,Daptomycin,liaF,daptomycin,41206754
+CARD,H215R,Enterococcus faecium,cls,Daptomycin,cls,daptomycin,33796088
+CARD,D27N,Enterococcus faecium,cls,Daptomycin,clsA,daptomycin,32393645
+CARD,R267H,Enterococcus faecium,cls,Daptomycin,clsA,daptomycin,33332354
+CARD,A20D,Enterococcus faecium,cls,Daptomycin,cls,daptomycin,30576392
+CARD,N13T,Enterococcus faecium,cls,Daptomycin,cls,daptomycin,30576392
+CARD,N13I,Enterococcus faecium,cls,Daptomycin,cls,daptomycin,30576392
+CARD,W73C,Enterococcus faecium,liar,Daptomycin,LiaR,daptomycin,27670715
+CARD,T120A,Enterococcus faecium,lias,Daptomycin,liaR,daptomycin,41206754
+CARD,T86I,Erysipelothrix rhusiopathiae,gyra,Enrofloxacin,gyrA,enrofloxacin,38731857
+CARD,G103S,Escherichia coli,marr,Multiple antibiotics,MarR,nalidixic acid|ciprofloxacin|ampicillin|kanamycin|streptomycin|rifampin|tetracycline|chloramphenicol|trimethoprim|sulfamethoxazole,15388464
+CARD,S3N,Escherichia coli,marr,Multiple antibiotics,marR,chloramphenicol|rifampin,40033002
+CARD,Y137H,Escherichia coli,marr,Multiple antibiotics,acrR,ciprofloxacin,28004362
+CARD,R94H,Escherichia coli,marr,Multiple antibiotics,marR,norfloxacin,15917531
+CARD,R73S,Escherichia coli,marr,Multiple antibiotics,marR,fluoxetine|amitriptyline|chloramphenicol,36374097
+CARD,S352T,Escherichia coli,cyaa,Fosfomycin,cyaA,fosfomycin,34832635
+CARD,Q124K,Escherichia coli,eftu,Enacyloxin IIa,tufA,kirromycin,7489913
+CARD,G93S,Escherichia coli,fabi,Multiple antibiotics,fabI,triclosan,33945454
+CARD,F203V,Escherichia coli,fabi,Multiple antibiotics,fabI,triclosan,33945454
+CARD,F203C,Escherichia coli,fabi,Multiple antibiotics,fabI,triclosan,33945454
+CARD,F203L,Escherichia coli,fabi,Multiple antibiotics,fabI,triclosan,33945454
+CARD,M159T,Escherichia coli,fabi,Multiple antibiotics,fabI,triclosan,33945454
+CARD,G93V,Escherichia coli,fabi,Multiple antibiotics,fabI,triclosan,33997609
+CARD,G81C,Escherichia coli,gyra,Fluoroquinolones,gyrA,fluoroquinolones,10582891
+CARD,S83L,Escherichia coli,gyra,Fluoroquinolones,gyrA,ciprofloxacin|ofloxacin|nalidixic acid,11600360
+CARD,S83W,Escherichia coli,gyra,Fluoroquinolones,gyrA,nalidixic acid|fluoroquinolones,2548439
+CARD,D87Y,Escherichia coli,gyra,Fluoroquinolones,gyrA,ciprofloxacin,34154405
+CARD,D87N,Escherichia coli,gyra,Fluoroquinolones,parC,ciprofloxacin|ofloxacin|nalidixic acid,11600360
+CARD,Q106H,Escherichia coli,gyra,Fluoroquinolones,gyrA,fluoroquinolones,10582891
+CARD,A67S,Escherichia coli,gyra,Fluoroquinolones,gyrA,fluoroquinolones,10582891
+CARD,A84P,Escherichia coli,gyra,Fluoroquinolones,gyrA,fluoroquinolones,10582891
+CARD,D87H,Escherichia coli,gyra,Fluoroquinolones,gyrA,fluoroquinolones,32723358
+CARD,D87G,Escherichia coli,gyra,Fluoroquinolones,gyrA,ofloxacin|ciprofloxacin|trovafloxacin|sparfloxacin,10602715
+CARD,S83I,Escherichia coli,gyra,Fluoroquinolones,gyrA,ciprofloxacin|levofloxacin,23295059
+CARD,D87G,Escherichia coli,gyra,Triclosan,gyrA,ofloxacin|ciprofloxacin|trovafloxacin|sparfloxacin,10602715
+CARD,S83F,Escherichia coli,gyra,Triclosan,gyrA,nalidixic acid,16013378
+CARD,L370I,Escherichia coli,mura,Fosfomycin,murA,fosfomycin,32847131
+CARD,G131D,Escherichia coli,nfsa,Nitrofurantoin,nfsA,nitrofurantoin,34860151
+CARD,G141D,Escherichia coli,ompf,Beta-lactams,AcrB,linezolid,25182653
+CARD,E84G,Escherichia coli,parc,Fluoroquinolones,parC,ciprofloxacin,23259844
+CARD,S80I,Escherichia coli,parc,Fluoroquinolones,parC,nalidixic acid,11699598
+CARD,V25I,Escherichia coli,ptsi,Fosfomycin,gyrA,fluoroquinolones,35240351
+CARD,R687H,Escherichia coli,rpob,Rifampicin,rpoB,rifampin,15805525
+CARD,P564L,Escherichia coli,rpob,Rifampicin,rpoB,rifampin|rifabutin|rifapentine,15805525
+CARD,T563P,Escherichia coli,rpob,Rifampicin,rpoB,rifampin|rifabutin|rifapentine,15805525
+CARD,S531F,Escherichia coli,rpob,Rifampicin,rpoB,rifampin|rifabutin|rifapentine,15805525
+CARD,R529C,Escherichia coli,rpob,Rifampicin,rpoB,rifampin|rifabutin|rifapentine,15805525
+CARD,H526Y,Escherichia coli,rpob,Rifampicin,rpoB,rifampin|rifabutin|rifapentine|sorangicin A,15805525
+CARD,Q513P,Escherichia coli,rpob,Rifampicin,rpoB,rifampin|rifabutin|rifapentine,15805525
+CARD,Q513L,Escherichia coli,rpob,Rifampicin,rpoB,rifampin|rifabutin|rifapentine,15805525
+CARD,V146F,Escherichia coli,rpob,Rifampicin,rpoB,rifampicin,37583318
+CARD,G121D,Escherichia coli,soxr,Multiple antibiotics,gyrA,ciprofloxacin,34154405
+CARD,E350Q,Escherichia coli,uhpt,Fosfomycin,uhpT,fosfomycin,34832635
+CARD,S385T,Haemophilus influenzae,pbp3,Beta-lactams,ftsI,ampicillin|amoxicillin,18443129
+CARD,V562L,Haemophilus influenzae,pbp3,Beta-lactams,ftsI,ampicillin,29352811
+CARD,D350N,Haemophilus influenzae,pbp3,Beta-lactams,ftsI,ampicillin|amoxicillin,18443129
+CARD,L389F,Haemophilus influenzae,pbp3,Beta-lactams,PBP3,ampicillin|cephalosporins,39650731
+CARD,S357N,Haemophilus influenzae,pbp3,Beta-lactams,ftsI,ampicillin|amoxicillin,18443129
+CARD,D91N,Helicobacter pylori,gyra,Fluoroquinolones,gyrA,levofloxacin|moxifloxacin|ciprofloxacin,20458765
+CARD,A97V,Helicobacter pylori,gyra,Fluoroquinolones,gyrA,levofloxacin,29085236
+CARD,R130K,Helicobacter pylori,gyra,Fluoroquinolones,gyrA,levofloxacin,37088871
+CARD,D91H,Helicobacter pylori,gyra,Fluoroquinolones,gyrA,levofloxacin,37088871
+CARD,R140K,Helicobacter pylori,gyra,Fluoroquinolones,gyrA,levofloxacin|moxifloxacin|ciprofloxacin,20458765
+CARD,A88P,Helicobacter pylori,gyra,Fluoroquinolones,gyrA,levofloxacin,37088871
+CARD,N87K,Helicobacter pylori,gyra,Fluoroquinolones,gyrA,levofloxacin|moxifloxacin|ciprofloxacin,20458765
+CARD,G85C,Helicobacter pylori,gyra,Fluoroquinolones,gyrA,levofloxacin|moxifloxacin,32471292
+CARD,N87I,Helicobacter pylori,gyra,Fluoroquinolones,gyrA,levofloxacin|moxifloxacin|ciprofloxacin,20458765
+CARD,N87Y,Helicobacter pylori,gyra,Fluoroquinolones,gyrA,levofloxacin|moxifloxacin|ciprofloxacin,20458765
+CARD,D91G,Helicobacter pylori,gyra,Fluoroquinolones,gyrA,levofloxacin|moxifloxacin|ciprofloxacin,20458765
+CARD,D91Y,Helicobacter pylori,gyra,Fluoroquinolones,gyrA,levofloxacin|moxifloxacin|ciprofloxacin,20458765
+CARD,V172I,Helicobacter pylori,gyra,Fluoroquinolones,gyrA,levofloxacin,40565090
+CARD,D91N,Helicobacter pylori,gyrb,Fluoroquinolones,gyrA,levofloxacin|moxifloxacin|ciprofloxacin,20458765
+CARD,R484K,Helicobacter pylori,gyrb,Fluoroquinolones,gyrB,fluoroquinolones,28018334
+CARD,N87Y,Helicobacter pylori,gyrb,Fluoroquinolones,gyrA,levofloxacin|moxifloxacin|ciprofloxacin,20458765
+CARD,N87K,Helicobacter pylori,gyrb,Fluoroquinolones,gyrA,levofloxacin|moxifloxacin|ciprofloxacin,20458765
+CARD,F438S,Helicobacter pylori,gyrb,Fluoroquinolones,gyrB,fluoroquinolone,25003707
+CARD,D91G,Helicobacter pylori,gyrb,Fluoroquinolones,gyrA,levofloxacin|moxifloxacin|ciprofloxacin,20458765
+CARD,V199I,Helicobacter pylori,gyrb,Fluoroquinolones,gyrA,fluoroquinolone,25003707
+CARD,D481E,Helicobacter pylori,gyrb,Fluoroquinolones,gyrB,levofloxacin,39661273
+CARD,D484K,Helicobacter pylori,gyrb,Fluoroquinolones,gyrB,fluoroquinolone,25003707
+CARD,E463K,Helicobacter pylori,gyrb,Fluoroquinolones,gyrB,levofloxacin,39444024
+CARD,A129T,Helicobacter pylori,gyrb,Fluoroquinolones,gyrA,levofloxacin,37317213
+CARD,S479G,Helicobacter pylori,gyrb,Fluoroquinolones,gyrB,levofloxacin,28193745
+CARD,V199A,Helicobacter pylori,gyrb,Fluoroquinolones,gyrA,ciprofloxacin|levofloxacin,31744181
+CARD,N562Y,Helicobacter pylori,pbp1,Amoxicillin,PBP1A,amoxicillin,35652644
+CARD,T556S,Helicobacter pylori,pbp1,Amoxicillin,pbp1a,amoxicillin,34183046
+CARD,R656H,Helicobacter pylori,pbp1,Amoxicillin,pbp1A,amoxicillin,37485536
+CARD,R656P,Helicobacter pylori,pbp1,Amoxicillin,pbp1A,amoxicillin,37485536
+CARD,R649K,Helicobacter pylori,pbp1,Amoxicillin,pbp1A,amoxicillin,37485536
+CARD,T593K,Helicobacter pylori,pbp1,Amoxicillin,rpoB,rifabutin,34293298
+CARD,T593S,Helicobacter pylori,pbp1,Amoxicillin,pbp1A,amoxicillin,37485536
+CARD,V374L,Helicobacter pylori,pbp1,Amoxicillin,pbp1A,amoxicillin,39742338
+CARD,S543T,Helicobacter pylori,pbp1,Amoxicillin,pbp1A,ampicillin,26236355
+CARD,S414R,Helicobacter pylori,pbp1,Amoxicillin,pbp1a,amoxicillin,34183046
+CARD,S402G,Helicobacter pylori,pbp1,Amoxicillin,PBP1A,amoxicillin,37088871
+CARD,N562H,Helicobacter pylori,pbp1,Amoxicillin,pbp1A,amoxicillin,32545318
+CARD,T558S,Helicobacter pylori,pbp1,Amoxicillin,pbp1A,amoxicillin,32545318
+CARD,A474T,Helicobacter pylori,pbp1,Amoxicillin,pbp1A,amoxicillin,32545318
+CARD,S405N,Helicobacter pylori,pbp1,Amoxicillin,pbp1A,amoxicillin,32545318
+CARD,F366L,Helicobacter pylori,pbp1,Amoxicillin,pbp1A,amoxicillin,39742338
+CARD,G595S,Helicobacter pylori,pbp1,Amoxicillin,rpoB,rifabutin,34293298
+CARD,T593A,Helicobacter pylori,pbp1,Amoxicillin,rpoB,rifabutin,34293298
+CARD,E572G,Helicobacter pylori,pbp2,Amoxicillin,pbp2,amoxicillin,40565090
+CARD,S494H,Helicobacter pylori,pbp2,Amoxicillin,pbp2,amoxicillin,40565090
+CARD,A541T,Helicobacter pylori,pbp3,Amoxicillin,pbp3,amoxicillin,40565090
+CARD,A50S,Helicobacter pylori,pbp3,Amoxicillin,pbp3,Amoxicillin,39930978
+CARD,F490Y,Helicobacter pylori,pbp3,Amoxicillin,pbp3,Amoxicillin,39930978
+CARD,V374L,Helicobacter pylori,pbp3,Amoxicillin,pbp1A,amoxicillin,39742338
+CARD,R90K,Helicobacter pylori,rdxa,Metronidazole,rdxA,metronidazole,40565090
+CARD,T31E,Helicobacter pylori,rdxa,Metronidazole,rdxA,metronidazole,40565090
+CARD,D59S,Helicobacter pylori,rdxa,Metronidazole,rdxA,metronidazole,37485536
+CARD,R16C,Helicobacter pylori,rdxa,Metronidazole,rdxA,metronidazole,39661273
+CARD,R16H,Helicobacter pylori,rdxa,Metronidazole,rdxA,metronidazole,39661273
+CARD,K64N,Helicobacter pylori,rdxa,Metronidazole,rdxA,metronidazole,39661273
+CARD,P106S,Helicobacter pylori,rdxa,Metronidazole,rdxA,metronidazole,40565090
+CARD,A67V,Helicobacter pylori,rdxa,Metronidazole,rdxA,metronidazole,40565090
+CARD,H97Y,Helicobacter pylori,rdxa,Metronidazole,rdxA,metronidazole,40565090
+CARD,D59N,Helicobacter pylori,rdxa,Metronidazole,rdxA,metronidazole,40565090
+CARD,T184G,Helicobacter pylori,rdxa,Metronidazole,rdxA,Metronidazole,32099422
+CARD,A118S,Helicobacter pylori,rdxa,Metronidazole,rdxA,metronidazole,37485536
+CARD,A118T,Helicobacter pylori,rdxa,Metronidazole,rdxA,metronidazole,40565090
+CARD,S108A,Helicobacter pylori,rdxa,Metronidazole,rdxA,metronidazole,40565090
+CARD,H97T,Helicobacter pylori,rdxa,Metronidazole,rdxA,metronidazole,40565090
+CARD,G47A,Helicobacter pylori,rdxa,Metronidazole,rdxA,Metronidazole,32099422
+CARD,D530G,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin,41233511
+CARD,I586L,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin|rifabutin,21765819
+CARD,I586N,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin|rifabutin,21765819
+CARD,S545L,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin|rifabutin,21765819
+CARD,D530V,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin|rifabutin,21765819
+CARD,Q527R,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin|rifabutin,21765819
+CARD,Q527K,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin|rifabutin,21765819
+CARD,L525P,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin|rifabutin,21765819
+CARD,H540Y,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin|rifabutin,21765819
+CARD,H540N,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin|rifabutin,21765819
+CARD,L525I,Helicobacter pylori,rpob,Rifampicin,rpoB,rifabutin,35644041
+CARD,D530N,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin|rifabutin,21765819
+CARD,D530E,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin,41233511
+CARD,R701H,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin|rifabutin,21765819
+CARD,V149F,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin|rifabutin,21765819
+CARD,Q2079K,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin,40565090
+CARD,K2068R,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin,40565090
+CARD,I837V,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin,40565090
+CARD,D191Y,Klebsiella pneumoniae,phop,Colistin,phoP,colistin,25733503
+CARD,Y114F,Klebsiella pneumoniae,acrr,Multiple antibiotics,ramR,tigecycline,40182765
+CARD,V165I,Klebsiella pneumoniae,acrr,Multiple antibiotics,ramR,tigecycline,40182765
+CARD,M109I,Klebsiella pneumoniae,acrr,Multiple antibiotics,acrR,tigecycline,25182649
+CARD,R374L,Klebsiella pneumoniae,lamb,Ceftazidime-Avibactam,lamB,ceftazidime-avibactam,34551677
+CARD,R374S,Klebsiella pneumoniae,lamb,Ceftazidime-Avibactam,lamB,ceftazidime-avibactam,34551677
+CARD,R134P,Klebsiella pneumoniae,lamb,Ceftazidime-Avibactam,lamB,ceftazidime-avibactam,34551677
+CARD,V24G,Klebsiella pneumoniae,phoq,Colistin,phoQ,colistin,37962370
+CARD,L367Q,Klebsiella pneumoniae,pbp3,Beta-lactams,PBP3,ceftazidime|avibactam,41278478
+CARD,A19V,Klebsiella pneumoniae,ramr,,ramR,tigecycline,25182649
+CARD,P30L,Acinetobacter baumannii,lpxc,,lpxC,colistin,20855724
+CARD,L57P,Pseudomonas aeruginosa,mexr,,mexR,aztreonam|ofloxacin,14526032
+CARD,I72N,Pseudomonas aeruginosa,mexr,,mexR,aztreonam|ofloxacin,14526032
+CARD,L57R,Pseudomonas aeruginosa,mexr,,mexR,aztreonam|ofloxacin,14526032
+CARD,L45P,Pseudomonas aeruginosa,mexr,,mexR,aztreonam|ofloxacin,14526032
+CARD,R91H,Pseudomonas aeruginosa,mexr,,mexR,aztreonam|ofloxacin,14526032
+CARD,R91C,Pseudomonas aeruginosa,mexr,,mexR,aztreonam|ofloxacin,14526032
+CARD,L75P,Pseudomonas aeruginosa,mexr,,mexR,aztreonam|ofloxacin,14526032
+CARD,L75R,Pseudomonas aeruginosa,mexr,,mexR,aztreonam|ofloxacin,14526032
+CARD,T69I,Pseudomonas aeruginosa,mexr,,mexR,aztreonam|ofloxacin,14526032
+CARD,H107P,Pseudomonas aeruginosa,mexr,,mexR,fluoroquinolones,12760863
+CARD,I46N,Pseudomonas aeruginosa,mexr,,mexR,aztreonam|ofloxacin,14526032
+CARD,R83C,Pseudomonas aeruginosa,mexr,,mexR,aztreonam|ofloxacin,14526032
+CARD,V73A,Pseudomonas aeruginosa,mexs,,mexS,ciprofloxacin|levofloxacin,40261546
+CARD,G195E,Pseudomonas aeruginosa,mexz,,mexZ,cefepime|aminoglycosides,27736752
+CARD,G46S,Pseudomonas aeruginosa,mexz,,mexZ,aminoglycosides,24145539
+CARD,G45D,Neisseria gonorrhoeae,mtrr,,mtrR,ceftriaxone|cefixime,19528266
+CARD,V48F,Mycobacterium leprae,folp,Dapsone,folP1,dapsone,21115799
+CARD,V48G,Mycobacterium leprae,folp,Dapsone,folP1,dapsone,21115799
+CARD,R54G,Mycobacterium leprae,folp,Dapsone,folP1,dapsone,21115799
+CARD,P55A,Mycobacterium leprae,folp,Dapsone,folP1,dapsone,21115799
+CARD,P55H,Mycobacterium leprae,folp,Dapsone,folP1,dapsone,21115799
+CARD,P55L,Mycobacterium leprae,folp,Dapsone,folP1,dapsone,40391941
+CARD,T53I,Mycobacterium leprae,folp,Dapsone,folP1,dapsone,40391941
+CARD,T53A,Mycobacterium leprae,folp,Dapsone,folP1,dapsone,23260417
+CARD,P55R,Mycobacterium leprae,folp,Dapsone,folP1,dapsone,40391941
+CARD,P55S,Mycobacterium leprae,folp,Dapsone,folP1,dapsone,21115799
+CARD,T53P,Mycobacterium leprae,folp,Dapsone,folP1,dapsone,21115799
+CARD,T53N,Mycobacterium leprae,folp,Dapsone,folP1,dapsone,21115799
+CARD,P55T,Mycobacterium leprae,folp,Dapsone,folP1,dapsone,21115799
+CARD,V48A,Mycobacterium leprae,folp,Dapsone,folP1,dapsone,21115799
+CARD,D464N,Mycobacterium leprae,gyrb,Fluoroquinolones,gyrB,ofloxacin|moxifloxacin|sitafloxacin|ciprofloxacin|levofloxacin,23071850
+CARD,S456L,Mycobacterium leprae,rpob,Rifampicin,rpoB,rifampin,22170923
+CARD,D28A,Mycobacterium tuberculosis,atpe,Bedaquiline,atpE,TBAJ-876|5366|5316|5307|BDQ,31358589
+CARD,D28G,Mycobacterium tuberculosis,atpe,Bedaquiline,atpE,bedaquiline,41420205
+CARD,I66M,Mycobacterium tuberculosis,atpe,Bedaquiline,atpE,bedaquiline,39431709
+CARD,A63P,Mycobacterium tuberculosis,atpe,Bedaquiline,atpE,bedaquiline,39431709
+CARD,E61D,Mycobacterium tuberculosis,atpe,Bedaquiline,atpE,BDQ,39692505
+CARD,D28V,Mycobacterium tuberculosis,atpe,Bedaquiline,atpE,bedaquiline,41420205
+CARD,P913S,Mycobacterium tuberculosis,emba,Ethambutol,embA,ethambutol,25492392
+CARD,G406C,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,19822701
+CARD,M306I,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,18591265
+CARD,M306V,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,19822701
+CARD,Q497K,Mycobacterium tuberculosis,embb,Ethambutol,embB,Ethambutol,35590243
+CARD,Q497R,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,19822701
+CARD,G406A,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,19822701
+CARD,G406D,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,19822701
+CARD,D354A,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,35086603
+CARD,D328Y,Mycobacterium tuberculosis,embb,Ethambutol,embB,Ethambutol,35590243
+CARD,Y334H,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,29084750
+CARD,D1024N,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,19822701
+CARD,G406S,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,19822701
+CARD,M306L,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,34802420
+CARD,L413P,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,24392447
+CARD,E504Q,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,24392447
+CARD,R507G,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,24392447
+CARD,E378A,Mycobacterium tuberculosis,embb,Ethambutol,embB,Ethambutol,35590243
+CARD,R469P,Mycobacterium tuberculosis,embb,Ethambutol,ethA,ethionamide,27005572
+CARD,Y319S,Mycobacterium tuberculosis,embb,Ethambutol,embB,Ethambutol,35590243
+CARD,Y319C,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,27524852
+CARD,S297A,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,30348088
+CARD,D328G,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,35328028
+CARD,L402V,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,27530852
+CARD,T270I,Mycobacterium tuberculosis,embc,Ethambutol,embC,ethambutol,39487429
+CARD,N394D,Mycobacterium tuberculosis,embc,Ethambutol,embC,ethambutol,25492392
+CARD,P454L,Mycobacterium tuberculosis,etha,Isoniazid,rpoB,Rifampicin,36193294
+CARD,G324R,Mycobacterium tuberculosis,etha,Isoniazid,embB,ethambutol,19822701
+CARD,Q254P,Mycobacterium tuberculosis,etha,Isoniazid,ethA,PTO,33361124
+CARD,H102P,Mycobacterium tuberculosis,etha,Isoniazid,rpoB,ethionamide,30165908
+CARD,H102P,Mycobacterium tuberculosis,etha,Prothionamide,rpoB,ethionamide,30165908
+CARD,P454L,Mycobacterium tuberculosis,etha,Prothionamide,rpoB,Rifampicin,36193294
+CARD,Q254P,Mycobacterium tuberculosis,etha,Prothionamide,ethA,PTO,33361124
+CARD,G324R,Mycobacterium tuberculosis,etha,Prothionamide,embB,ethambutol,19822701
+CARD,A381P,Mycobacterium tuberculosis,etha,Ethionamide,ethA,ethionamide,32014024
+CARD,G43S,Mycobacterium tuberculosis,etha,Ethionamide,ethA,Ethionamide,41625156
+CARD,I338S,Mycobacterium tuberculosis,etha,Ethionamide,ethA,ethionamide,39687724
+CARD,G43C,Mycobacterium tuberculosis,etha,Ethionamide,embA,ethambutol,29075131
+CARD,I43T,Mycobacterium tuberculosis,folc,Para-aminosalicylic acid,folC,para-aminosalicylic acid,35444430
+CARD,E40G,Mycobacterium tuberculosis,folc,Para-aminosalicylic acid,gidB,streptomycin,27530852
+CARD,E153G,Mycobacterium tuberculosis,folc,Para-aminosalicylic acid,folC,para-aminosalicylic acid,30930162
+CARD,E153A,Mycobacterium tuberculosis,folc,Para-aminosalicylic acid,folC,para-aminosalicylic acid,36335391
+CARD,R49P,Mycobacterium tuberculosis,folc,Para-aminosalicylic acid,folC,para-aminosalicylic acid,36335391
+CARD,S150G,Mycobacterium tuberculosis,folc,Para-aminosalicylic acid,folC,para-aminosalicylic acid,33622486
+CARD,I43S,Mycobacterium tuberculosis,folc,Para-aminosalicylic acid,folC,PAS,36062095
+CARD,E92D,Mycobacterium tuberculosis,gidb,Streptomycin,gidB,streptomycin,25629610
+CARD,V139A,Mycobacterium tuberculosis,gidb,Streptomycin,pncA,pyrazinamide,19963078
+CARD,E92A,Mycobacterium tuberculosis,gidb,Streptomycin,gidB,streptomycin,28348821
+CARD,P75S,Mycobacterium tuberculosis,gidb,Streptomycin,gidB,streptomycin,24884632
+CARD,D94N,Mycobacterium tuberculosis,gyra,Fluoroquinolones,gyrA,fluoroquinolones,17938193
+CARD,G88C,Mycobacterium tuberculosis,gyra,Fluoroquinolones,gyrA,ciprofloxacin|levofloxacin|moxifloxacin|gatifloxacin,39746086
+CARD,G88A,Mycobacterium tuberculosis,gyra,Fluoroquinolones,GyrA,fluoroquinolones,20805881
+CARD,D94Y,Mycobacterium tuberculosis,gyra,Fluoroquinolones,gyrA,ofloxacin,22552454
+CARD,D94H,Mycobacterium tuberculosis,gyra,Fluoroquinolones,gyrA,fluoroquinolones,34446095
+CARD,A90V,Mycobacterium tuberculosis,gyra,Fluoroquinolones,gyrA,fluoroquinolones,10049284
+CARD,D94A,Mycobacterium tuberculosis,gyra,Fluoroquinolones,GyrA,fluoroquinolones,20805881
+CARD,D94G,Mycobacterium tuberculosis,gyra,Fluoroquinolones,gyrA,fluoroquinolones,20713679
+CARD,D89N,Mycobacterium tuberculosis,gyra,Fluoroquinolones,gyrA,fluoroquinolones,29017248
+CARD,S91P,Mycobacterium tuberculosis,gyra,Fluoroquinolones,gyrA,ofloxacin,22552454
+CARD,D94V,Mycobacterium tuberculosis,gyra,Fluoroquinolones,gyrA,fluoroquinolones,34446095
+CARD,D89G,Mycobacterium tuberculosis,gyra,Fluoroquinolones,gyrA,ofloxacin|levofloxacin|moxifloxacin,26100699
+CARD,A90G,Mycobacterium tuberculosis,gyra,Fluoroquinolones,gyrA,fluoroquinolones,28137812
+CARD,A74S,Mycobacterium tuberculosis,gyra,Fluoroquinolones,gyrA,fluoroquinolones,20956608
+CARD,T80A,Mycobacterium tuberculosis,gyra,Fluoroquinolones,GyrA,fluoroquinolones,20805881
+CARD,D472H,Mycobacterium tuberculosis,gyra,Fluoroquinolones,gyrB,Ofloxacin,33787739
+CARD,G247S,Mycobacterium tuberculosis,gyra,Fluoroquinolones,gyrA,fluoroquinolone,33441660
+CARD,D500N,Mycobacterium tuberculosis,gyra,Fluoroquinolones,gyrB,fluoroquinolones,34446095
+CARD,D461N,Mycobacterium tuberculosis,gyrb,Fluoroquinolones,gyrB,fluoroquinolones,34446095
+CARD,D461H,Mycobacterium tuberculosis,gyrb,Fluoroquinolones,gyrA,fluoroquinolones,30789128
+CARD,S447F,Mycobacterium tuberculosis,gyrb,Fluoroquinolones,gyrB,fluoroquinolones,34446095
+CARD,N499D,Mycobacterium tuberculosis,gyrb,Fluoroquinolones,GyrA,fluoroquinolones,20805881
+CARD,N538D,Mycobacterium tuberculosis,gyrb,Fluoroquinolones,gyrB,fluoroquinolones,33592172
+CARD,R485C,Mycobacterium tuberculosis,gyrb,Fluoroquinolones,gyrB,ofloxacin,19470506
+CARD,T539N,Mycobacterium tuberculosis,gyrb,Fluoroquinolones,gyrB,fluoroquinolones,33833390
+CARD,E501D,Mycobacterium tuberculosis,gyrb,Fluoroquinolones,gyrB,levofloxacin,33947918
+CARD,A504V,Mycobacterium tuberculosis,gyrb,Fluoroquinolones,gyrB,fluoroquinolones,41267660
+CARD,T500N,Mycobacterium tuberculosis,gyrb,Fluoroquinolones,gyrB,ofloxacin|levofloxacin|moxifloxacin|antofloxacin,27324769
+CARD,N538T,Mycobacterium tuberculosis,gyrb,Fluoroquinolones,gyrB,fluoroquinolones,22290942
+CARD,N499T,Mycobacterium tuberculosis,gyrb,Fluoroquinolones,gyrB,fluoroquinolones,32218465
+CARD,I194T,Mycobacterium tuberculosis,inha,Ethionamide,inhA,isoniazid,35016609
+CARD,I21V,Mycobacterium tuberculosis,inha,Ethionamide,inhA,isoniazid,34802420
+CARD,I21T,Mycobacterium tuberculosis,inha,Ethionamide,inhA,isoniazid,35086603
+CARD,S94A,Mycobacterium tuberculosis,inha,Ethionamide,inhA,isoniazid,33785614
+CARD,I194T,Mycobacterium tuberculosis,inha,Isoniazid,inhA,isoniazid,35016609
+CARD,S94A,Mycobacterium tuberculosis,inha,Isoniazid,inhA,isoniazid,33785614
+CARD,I21V,Mycobacterium tuberculosis,inha,Isoniazid,inhA,isoniazid,34802420
+CARD,I16T,Mycobacterium tuberculosis,inha,Isoniazid,InhA,isoniazid,15908576
+CARD,I21T,Mycobacterium tuberculosis,inha,Isoniazid,inhA,isoniazid,35086603
+CARD,I47T,Mycobacterium tuberculosis,inha,Isoniazid,inhA,isoniazid,17600151
+CARD,G312S,Mycobacterium tuberculosis,kasa,Isoniazid,kasA,isoniazid,34802420
+CARD,G269S,Mycobacterium tuberculosis,kasa,Isoniazid,kasA,isoniazid,35366177
+CARD,S315T,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,10770765
+CARD,W91R,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,28348821
+CARD,R463L,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,11796356
+CARD,S315N,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,15504855
+CARD,S315I,Mycobacterium tuberculosis,katg,Isoniazid,katG,Isoniazid,39935875
+CARD,N138D,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,35016609
+CARD,N138S,Mycobacterium tuberculosis,katg,Isoniazid,katG,INH,34466004
+CARD,W300G,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,24055765
+CARD,T275P,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,24055765
+CARD,S315G,Mycobacterium tuberculosis,katg,Isoniazid,katG,Isoniazid,35590243
+CARD,S315R,Mycobacterium tuberculosis,katg,Isoniazid,katG,Isoniazid,35590243
+CARD,W328F,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,22553245
+CARD,H97R,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,35086603
+CARD,G299S,Mycobacterium tuberculosis,katg,Isoniazid,katG,Isoniazid,34408186
+CARD,Y64S,Mycobacterium tuberculosis,katg,Isoniazid,pncA,pyrazinamide,34095218
+CARD,Y95C,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,26251830
+CARD,P131T,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,26251830
+CARD,A139P,Mycobacterium tuberculosis,katg,Isoniazid,katG,INH,34466004
+CARD,D142G,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,35016609
+CARD,A162V,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,26251830
+CARD,G269D,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,26251830
+CARD,T306P,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,26251830
+CARD,R385W,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,29523317
+CARD,D387G,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,26251830
+CARD,T394M,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,26251830
+CARD,Q439P,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,26251830
+CARD,F483L,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,26251830
+CARD,A541D,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,26251830
+CARD,D194G,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,26251830
+CARD,Y98C,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,35016609
+CARD,A379T,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,40990696
+CARD,A110V,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,29523317
+CARD,P2S,Mycobacterium tuberculosis,katg,Isoniazid,rv2749,d-cycloserine,28961957
+CARD,N596S,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,26251830
+CARD,Y597H,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,26251830
+CARD,I317V,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,26162362
+CARD,F183L,Mycobacterium tuberculosis,katg,Isoniazid,katG,INH,34466004
+CARD,D189G,Mycobacterium tuberculosis,katg,Isoniazid,katG,INH,34466004
+CARD,Y413C,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,27459848
+CARD,A109V,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,35016609
+CARD,G297V,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,35016609
+CARD,L141F,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,35016609
+CARD,S481L,Mycobacterium tuberculosis,katg,Isoniazid,katG,INH,34466004
+CARD,W191G,Mycobacterium tuberculosis,katg,Isoniazid,katG,INH,34466004
+CARD,W300C,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,35016609
+CARD,W328L,Mycobacterium tuberculosis,katg,Isoniazid,katG,isoniazid,37750734
+CARD,A110V,Mycobacterium tuberculosis,katg,Prothionamide,katG,isoniazid,29523317
+CARD,S315T,Mycobacterium tuberculosis,katg,Prothionamide,katG,isoniazid,10770765
+CARD,T275A,Mycobacterium tuberculosis,katg,Prothionamide,katG,isoniazid,22450970
+CARD,S315N,Mycobacterium tuberculosis,katg,Prothionamide,katG,isoniazid,15504855
+CARD,D142G,Mycobacterium tuberculosis,katg,Prothionamide,katG,isoniazid,35016609
+CARD,W91R,Mycobacterium tuberculosis,katg,Prothionamide,katG,isoniazid,28348821
+CARD,S315G,Mycobacterium tuberculosis,katg,Prothionamide,katG,Isoniazid,35590243
+CARD,A187V,Mycobacterium tuberculosis,msha,Isoniazid,mshA,isoniazid,34817282
+CARD,R268H,Mycobacterium tuberculosis,ndh,Isoniazid,ndh,isoniazid|ethionamide,26104204
+CARD,R13C,Mycobacterium tuberculosis,ndh,Isoniazid,ndh,isoniazid|ethionamide,26104204
+CARD,T110A,Mycobacterium tuberculosis,ndh,Isoniazid,ndh,isoniazid|ethionamide,26104204
+CARD,I31S,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,20727143
+CARD,Y34D,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,L35P,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,20727143
+CARD,A46V,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,10681313
+CARD,T47A,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,10952570
+CARD,K48T,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,D49A,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,PZA,35205308
+CARD,D49N,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,34095218
+CARD,D49G,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,21283666
+CARD,H51Y,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,33972244
+CARD,H51P,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,33972244
+CARD,H51D,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,33972244
+CARD,H51R,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,P54L,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,PZA,40023848
+CARD,H57D,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,28275074
+CARD,H57R,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,22372927
+CARD,S59P,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,26752297
+CARD,P62L,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,P62S,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,32132191
+CARD,D63A,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,28697808
+CARD,Y64D,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,29020922
+CARD,S67P,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,20727143
+CARD,W68R,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,Pyrazinamide,39935875
+CARD,V139L,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,31910804
+CARD,L85P,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,K96N,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,35424144
+CARD,V139A,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,L19P,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,35907429
+CARD,D12A,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,10681313
+CARD,T168N,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,10681313
+CARD,V155G,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,10681313
+CARD,Q141P,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,28697808
+CARD,W68G,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,34095218
+CARD,W68L,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,17360809
+CARD,W68C,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,28697808
+CARD,H71Y,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,H71R,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,28697808
+CARD,H71P,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,28697808
+CARD,C72Y,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,20727143
+CARD,A134V,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,33972244
+CARD,G97S,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,10681313
+CARD,L85R,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,10681313
+CARD,H82R,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,10681313
+CARD,D53A,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,10681313
+CARD,Q10R,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,10681313
+CARD,D136Y,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,33972244
+CARD,A146V,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,28106529
+CARD,C138R,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,28697808
+CARD,C14R,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,28630430
+CARD,D8E,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,21283666
+CARD,I133T,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,Pyrazinamide,31243306
+CARD,I5T,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,28697808
+CARD,L151S,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,26752297
+CARD,L182S,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,36135195
+CARD,L4S,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,33972244
+CARD,Q10P,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,32867304
+CARD,T135P,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,T76P,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,33903103
+CARD,V139G,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,20727143
+CARD,V180A,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,33972244
+CARD,V180F,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,31628383
+CARD,V180G,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,37750734
+CARD,G78V,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,31971587
+CARD,G78D,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,35780211
+CARD,L27P,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,20727143
+CARD,R140G,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,35780211
+CARD,G17S,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,37374968
+CARD,D12E,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,29310751
+CARD,L4W,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,30789128
+CARD,V7F,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,V7A,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,28697808
+CARD,D12G,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,F13L,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,21283666
+CARD,V21G,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,34181476
+CARD,G24D,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,I31T,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,20727143
+CARD,R140S,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,10681313
+CARD,L172P,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,20554826
+CARD,A146T,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,20727143
+CARD,R154G,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,41249964
+CARD,V155A,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,L159R,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,Pyrazinamide,29460750
+CARD,L159V,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,34181476
+CARD,G162D,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,PZA,29188195
+CARD,C14Y,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,28697808
+CARD,D136N,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,38892433
+CARD,L182W,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,29020922
+CARD,H71D,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,20727143
+CARD,H137P,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,K96Q,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,21283666
+CARD,T142M,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,20727143
+CARD,W119R,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,34802420
+CARD,A26G,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,20717529
+CARD,G78C,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,F94L,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,35424144
+CARD,F94S,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,35424144
+CARD,G108R,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,33972244
+CARD,G132A,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19890396
+CARD,G97C,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,35424144
+CARD,G97D,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,35424144
+CARD,K96R,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,35424144
+CARD,L116P,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,L120P,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,25819011
+CARD,S104R,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,20727143
+CARD,V125F,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,20727143
+CARD,V125G,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,25407810
+CARD,F81S,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,32132191
+CARD,F94C,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,20554826
+CARD,G105D,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,G105R,Mycobacterium tuberculosis,pnca,Pyrazinamide,katG,isoniazid,28704501
+CARD,G105V,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,33972244
+CARD,I31F,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,28348821
+CARD,P62A,Mycobacterium tuberculosis,pnca,Pyrazinamide,atpE,bedaquiline,39331607
+CARD,P69Q,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,38892433
+CARD,S32N,Mycobacterium tuberculosis,pnca,Pyrazinamide,gyrA,fluoroquinolones,24731071
+CARD,V130E,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,Pyrazinamide,29460750
+CARD,V147A,Mycobacterium tuberculosis,pnca,Pyrazinamide,rv1726,d-cycloserine,28961957
+CARD,W119G,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,27530852
+CARD,W119L,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,A30V,Mycobacterium tuberculosis,pnca,Pyrazinamide,rpoB,ethambutol,22840848
+CARD,A102V,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,26752297
+CARD,Q10K,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,38892433
+CARD,Y103D,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,29906261
+CARD,F106L,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,PZA,35931954
+CARD,V130G,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,10681313
+CARD,V131G,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,29020922
+CARD,D136G,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,T142P,Mycobacterium tuberculosis,pnca,Pyrazinamide,pncA,pyrazinamide,19963078
+CARD,G31S,Mycobacterium tuberculosis,rpoa,Rifampicin,gyrA,fluoroquinolone,28404672
+CARD,T187A,Mycobacterium tuberculosis,rpoa,Rifampicin,rpoA,rifampicin,41152417
+CARD,V183G,Mycobacterium tuberculosis,rpoa,Rifampicin,rpoA,rifampicin,34244539
+CARD,Q432L,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,35016609
+CARD,L430P,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,33903103
+CARD,Q432P,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,35086603
+CARD,S441W,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,CAP,40449326
+CARD,D435H,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,39487429
+CARD,D435V,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,35086603
+CARD,L440P,Mycobacterium tuberculosis,rpob,Rifampicin,ethA,ethionamide|perchlozone,36978456
+CARD,A286V,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,Rifampicin,36193294
+CARD,V170F,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,33775224
+CARD,D435E,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,39179783
+CARD,N437D,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,35089253
+CARD,P439L,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,40990696
+CARD,S441A,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,38957687
+CARD,S441L,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,capreomycin,40449326
+CARD,S441Q,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,33715498
+CARD,D435A,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,37452349
+CARD,D435F,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,39179783
+CARD,D435N,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,Rifampicin,36193294
+CARD,L443F,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,Rifampicin,39185123
+CARD,H445Y,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,34802420
+CARD,H445S,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,39764135
+CARD,K446Q,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,40887591
+CARD,H445P,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,35086603
+CARD,H445N,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,41599000
+CARD,H445L,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,27784282
+CARD,H445C,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,33715498
+CARD,H445G,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,33268535
+CARD,H445R,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,capreomycin,40449326
+CARD,H445D,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,RIF,40023848
+CARD,S450L,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,Rifampicin,27664776
+CARD,I491F,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,Rifampicin,27664776
+CARD,H445T,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,32063558
+CARD,R448L,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,Rifampicin,36193294
+CARD,L449M,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,34641802
+CARD,Q432K,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,34802420
+CARD,S450F,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,33715498
+CARD,S431T,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,33715498
+CARD,S450Y,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,34641802
+CARD,S450W,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,33715498
+CARD,A451V,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,34386770
+CARD,L452P,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,19890396
+CARD,D435G,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,19890396
+CARD,D435Y,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,19890396
+CARD,M434I,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,30061294
+CARD,I1106T,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,19890396
+CARD,I480V,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,29310751
+CARD,L731P,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,25407810
+CARD,P45L,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,26620446
+CARD,S428R,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,37452349
+CARD,M434V,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,Rifampicin,36193294
+CARD,S428T,Mycobacterium tuberculosis,rpob,Rifampicin,rpoC,rifampin,32474533
+CARD,S428I,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,37982632
+CARD,L464M,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,35311541
+CARD,Q432R,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,40990696
+CARD,Q429H,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,30061294
+CARD,N438K,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,37982632
+CARD,Q432E,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,37452349
+CARD,S431G,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,24731071
+CARD,S493L,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,34641802
+CARD,F505L,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifabutin,15958167
+CARD,Q432H,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,40990696
+CARD,M434T,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,37452349
+CARD,V483A,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,34244539
+CARD,V517L,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,34244539
+CARD,L507V,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampin,32474533
+CARD,L516P,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoB,rifampicin,34827305
+CARD,W484G,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,38051742
+CARD,N416S,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,34244539
+CARD,V483G,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,34244539
+CARD,N698S,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,40672307
+CARD,P1040S,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,34244539
+CARD,A734V,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,26110649
+CARD,E1092D,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,34244539
+CARD,I491T,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,34244539
+CARD,I491V,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,41053587
+CARD,K445R,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,RIF,37627744
+CARD,V431M,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampin,30789133
+CARD,E325K,Mycobacterium tuberculosis,rpsa,Pyrazinamide,rpsA,Pyrazinamide,32328498
+CARD,A440T,Mycobacterium tuberculosis,rpsa,Pyrazinamide,rpsA,pyrazinamide,39487429
+CARD,A412V,Mycobacterium tuberculosis,rpsa,Pyrazinamide,rpsA,Pyrazinamide,29460750
+CARD,I351F,Mycobacterium tuberculosis,rpsa,Pyrazinamide,rpsA,Pyrazinamide,32328498
+CARD,A344P,Mycobacterium tuberculosis,rpsa,Pyrazinamide,rpsA,Pyrazinamide,32328498
+CARD,G341R,Mycobacterium tuberculosis,rpsa,Pyrazinamide,rpsA,Pyrazinamide,32328498
+CARD,D123A,Mycobacterium tuberculosis,rpsa,Pyrazinamide,rpsA,pyrazinamide,30858213
+CARD,S324F,Mycobacterium tuberculosis,rpsa,Pyrazinamide,rpsA,Pyrazinamide,32328498
+CARD,D342N,Mycobacterium tuberculosis,rpsa,Pyrazinamide,rpsA,pyrazinamide,31097767
+CARD,D343N,Mycobacterium tuberculosis,rpsa,Pyrazinamide,rpsA,Pyrazinamide,32328498
+CARD,K88R,Mycobacterium tuberculosis,rpsl,Streptomycin,rpsL,streptomycin,32867304
+CARD,K43R,Mycobacterium tuberculosis,rpsl,Streptomycin,rpsL,streptomycin,33591982
+CARD,K88Q,Mycobacterium tuberculosis,rpsl,Streptomycin,rpsL,Streptomycin,22943573
+CARD,G121R,Mycobacterium tuberculosis,rv0678,Bedaquiline,Rv0678,bedaquiline|clofazimine,33239092
+CARD,M146T,Mycobacterium tuberculosis,rv0678,Bedaquiline,Rv0678,bedaquiline|clofazimine,33239092
+CARD,L117R,Mycobacterium tuberculosis,rv0678,Bedaquiline,mmpR5,bedaquiline,37205550
+CARD,T33A,Mycobacterium tuberculosis,rv0678,Bedaquiline,rv0678,bedaquiline|clofazimine,30642938
+CARD,I67S,Mycobacterium tuberculosis,rv0678,Bedaquiline,Rv0678,clofazimine,33903103
+CARD,N70D,Mycobacterium tuberculosis,rv0678,Bedaquiline,mmpR5,bedaquiline,37205550
+CARD,I67S,Mycobacterium tuberculosis,rv0678,Clofazimine,Rv0678,clofazimine,33903103
+CARD,N70D,Mycobacterium tuberculosis,rv0678,Clofazimine,mmpR5,bedaquiline,37205550
+CARD,L117R,Mycobacterium tuberculosis,rv0678,Clofazimine,mmpR5,bedaquiline,37205550
+CARD,G121R,Mycobacterium tuberculosis,rv0678,Clofazimine,Rv0678,bedaquiline|clofazimine,33239092
+CARD,M146T,Mycobacterium tuberculosis,rv0678,Clofazimine,Rv0678,bedaquiline|clofazimine,33239092
+CARD,V219A,Mycobacterium tuberculosis,tap,Multiple antibiotics,Rv1258c,pyrazinamide|isoniazid|streptomycin,30837962
+CARD,H75N,Mycobacterium tuberculosis,thya,Para-aminosalicylic acid,thyA,para-aminosalicylic acid,36335391
+CARD,T22A,Mycobacterium tuberculosis,thya,Para-aminosalicylic acid,thyA,PAS,36062095
+CARD,T202A,Mycobacterium tuberculosis,thya,Para-aminosalicylic acid,thyA,pyrazinamide,29848567
+CARD,R235P,Mycobacterium tuberculosis,thya,Para-aminosalicylic acid,thyA,para-aminosalicylic acid,39906217
+CARD,N236K,Mycobacterium tuberculosis,tlya,Aminoglycosides,tlyA,capreomycin,29247181
+CARD,W175C,Mycobacterium tuberculosis,ubia,Ethambutol,ubiA,ethambutol,39050826
+CARD,A237V,Mycobacterium tuberculosis,ubia,Ethambutol,ubiA,ethambutol,27139478
+CARD,R240C,Mycobacterium tuberculosis,ubia,Ethambutol,ubiA,ethambutol,27139478
+CARD,S173A,Mycobacterium tuberculosis,ubia,Ethambutol,ubiA,ethambutol,27139478
+CARD,S209R,Pseudomonas aeruginosa,nalc,,mexR,aminoglycosides|fluoroquinolones|macrolides,33922748
+CARD,G71E,Pseudomonas aeruginosa,nalc,,nalC,aztreonam|carbenicillin|piperacillin-tazobactam|meropenem,20194693
+CARD,S32N,Pseudomonas aeruginosa,nald,,nalD,amikacin,35468158
+CARD,D95N,Neisseria gonorrhoeae,gyra,Fluoroquinolones,gyrA,ciprofloxacin,10799008
+CARD,S91F,Neisseria gonorrhoeae,gyra,Fluoroquinolones,gyrA,fluoroquinolones,15243093
+CARD,D95Y,Neisseria gonorrhoeae,gyra,Fluoroquinolones,gyrA,ciprofloxacin,34755593
+CARD,D95G,Neisseria gonorrhoeae,gyra,Fluoroquinolones,gyrA,ciprofloxacin,34683991
+CARD,K450T,Neisseria gonorrhoeae,gyrb,Zoliflodacin,GyrB,zoliflodacin,31730160
+CARD,D429N,Neisseria gonorrhoeae,gyrb,Zoliflodacin,gyrB,zoliflodacin,40256400
+CARD,K450N,Neisseria gonorrhoeae,gyrb,Zoliflodacin,GyrB,zoliflodacin,31730160
+CARD,A39T,Neisseria gonorrhoeae,mtrr,Azithromycin,mtrR,Triton X-100|erythromycin|azithromycin|kanamycin|progesterone|CRAMP-38,18761689
+CARD,G45D,Neisseria gonorrhoeae,mtrr,Azithromycin,mtrR,ceftriaxone|cefixime,19528266
+CARD,S87R,Neisseria gonorrhoeae,parc,Fluoroquinolones,parC,ciprofloxacin,34755593
+CARD,S87N,Neisseria gonorrhoeae,parc,Fluoroquinolones,parC,ciprofloxacin,34755593
+CARD,E91G,Neisseria gonorrhoeae,parc,Fluoroquinolones,parC,ciprofloxacin,10655338
+CARD,L421P,Neisseria meningitidis,pbp1,Beta-lactams,ponA,cefixime|ceftriaxone,20093260
+CARD,A510V,Neisseria gonorrhoeae,pbp2,Beta-lactams,penA,ceftriaxone|cefixime,27690121
+CARD,A516G,Neisseria gonorrhoeae,pbp2,Beta-lactams,PenA,ceftriaxone,41648021
+CARD,P551L,Neisseria gonorrhoeae,pbp2,Beta-lactams,PenA,ceftriaxone,41648021
+CARD,G545S,Neisseria gonorrhoeae,pbp2,Beta-lactams,penA,ceftriaxone|cefixime,20704258
+CARD,N513Y,Neisseria gonorrhoeae,pbp2,Beta-lactams,penA,ceftriaxone|cefixime,30063202
+CARD,V316P,Neisseria gonorrhoeae,pbp2,Beta-lactams,penA,ceftriaxone|cefixime,27690121
+CARD,T483S,Neisseria gonorrhoeae,pbp2,Beta-lactams,penA,ceftizoxime|ceftriaxone,23587946
+CARD,F504L,Neisseria gonorrhoeae,pbp2,Beta-lactams,penA,ceftriaxone|cefixime,27690121
+CARD,P551S,Neisseria gonorrhoeae,pbp2,Beta-lactams,penA,ceftriaxone|cefixime,27690121
+CARD,A501P,Neisseria gonorrhoeae,pbp2,Beta-lactams,penA,ceftriaxone|cefixime,27690121
+CARD,A501V,Neisseria gonorrhoeae,pbp2,Beta-lactams,penA,cefixime|ceftriaxone,20093260
+CARD,A501T,Neisseria gonorrhoeae,pbp2,Beta-lactams,penA,cefixime|ceftriaxone,28145684
+CARD,A311V,Neisseria gonorrhoeae,pbp2,Beta-lactams,penA,ceftizoxime|ceftriaxone,23587946
+CARD,G542S,Neisseria gonorrhoeae,pbp2,Beta-lactams,PenA,ceftriaxone,28303829
+CARD,G120D,Neisseria gonorrhoeae,porin,,porB1B,penicillin|tetracycline,21067570
+CARD,A121D,Neisseria gonorrhoeae,porin,,porB1b,ceftriaxone|cefixime,34755593
+CARD,G120K,Neisseria gonorrhoeae,porin,,porB1B,penicillin|tetracycline,21067570
+CARD,G70D,Neisseria gonorrhoeae,rpld,,RplD,azithromycin,33097713
+CARD,F504L,Neisseria meningitidis,pbp2,Beta-lactams,penA,ceftriaxone|cefixime,27690121
+CARD,V316T,Neisseria meningitidis,pbp2,Beta-lactams,penA,ceftriaxone|cefixime,20704258
+CARD,A501P,Neisseria meningitidis,pbp2,Beta-lactams,penA,ceftriaxone|cefixime,27690121
+CARD,G545S,Neisseria meningitidis,pbp2,Beta-lactams,penA,ceftriaxone|cefixime,20704258
+CARD,A510V,Neisseria meningitidis,pbp2,Beta-lactams,penA,ceftriaxone|cefixime,27690121
+CARD,I312M,Neisseria meningitidis,pbp2,Beta-lactams,penA,ceftriaxone|cefixime,20704258
+CARD,N512Y,Neisseria meningitidis,pbp2,Beta-lactams,penA,ceftriaxone|cefixime,20704258
+CARD,G482S,Neisseria meningitidis,pbp2,Beta-lactams,penA,ceftriaxone|cefixime,27690121
+CARD,D135N,Pseudomonas aeruginosa,ampr,Aztreonam,ampR,ceftolozane|tazobactam,33199392
+CARD,D135G,Pseudomonas aeruginosa,ampr,Aztreonam,ampR,ceftolozane|tazobactam,33199392
+CARD,S80L,Pseudomonas aeruginosa,parc,Fluoroquinolones,parC,ciprofloxacin,16451415
+CARD,T83I,Pseudomonas aeruginosa,gyra,Fluoroquinolones,gyrA,ciprofloxacin,14507757
+CARD,D87H,Pseudomonas aeruginosa,gyra,Fluoroquinolones,parE,ciprofloxacin|garenoxacin,15917569
+CARD,D87G,Pseudomonas aeruginosa,gyra,Fluoroquinolones,parE,ciprofloxacin|garenoxacin,15917569
+CARD,D87N,Pseudomonas aeruginosa,gyra,Fluoroquinolones,parE,ciprofloxacin|garenoxacin,15917569
+CARD,Q142X,Pseudomonas aeruginosa,oprd,Imipenem,oprD,ceftolozane/tazobactam,35782142
+CARD,A473V,Pseudomonas aeruginosa,pare,Fluoroquinolones,gyrB,ciprofloxacin|garenoxacin,15917569
+CARD,V260G,Pseudomonas aeruginosa,phoq,Colistin,phoQ,polymyxin B,24349887
+CARD,V57L,Neisseria gonorrhoeae,rpsj,,rpsJ,tetracycline,27506605
+CARD,V57M,Neisseria gonorrhoeae,rpsj,,rpsJ,tetracycline,34755593
+CARD,S83F,Salmonella enterica,gyra,Fluoroquinolones,GyrA,ciprofloxacin,14718091
+CARD,D87N,Salmonella enterica,gyra,Fluoroquinolones,gyrA,ciprofloxacin,15078598
+CARD,D87Y,Salmonella enterica,gyra,Fluoroquinolones,gyrA,nalidixic acid,16416922
+CARD,S83F,Salmonella enterica,gyra,Triclosan,GyrA,ciprofloxacin,14718091
+CARD,D87G,Salmonella enterica,gyra,Triclosan,gyrA,ciprofloxacin,15078598
+CARD,W106G,Salmonella enterica,parc,Fluoroquinolones,parC,ciprofloxacin,27630841
+CARD,G25A,Salmonella enterica,ramr,,ramR,ciprofloxacin,19104017
+CARD,T18P,Salmonella enterica,ramr,,ramR,tigecycline,28261566
+CARD,Y59H,Salmonella enterica,ramr,,ramR,tetracycline,35732677
+CARD,R20H,Salmonella enterica,soxr,Multiple antibiotics,soxR,ciprofloxacin,19104017
+CARD,R171P,Salmonella enterica,folp,Sulfonamides,folP,sulfonamide,37906281
+CARD,S464F,Salmonella enterica,gyrb,Fluoroquinolones,GyrB,ciprofloxacin,14718091
+CARD,E466D,Salmonella enterica,gyrb,Fluoroquinolones,gyrB,ciprofloxacin,19104017
+CARD,V461G,Salmonella enterica,pare,Fluoroquinolones,parE,ciprofloxacin,19104017
+CARD,E52K,Salmonella enterica,soxs,Multiple antibiotics,soxS,ciprofloxacin,19104017
+CARD,N57K,Shigella flexneri,gyra,Fluoroquinolones,gyrA,nalidixic acid|norfloxacin,27620866
+CARD,A85T,Shigella flexneri,parc,Fluoroquinolones,parC,nalidixic acid|norfloxacin,27620866
+CARD,D111H,Shigella flexneri,parc,Fluoroquinolones,parC,nalidixic acid|norfloxacin,27620866
+CARD,S129P,Shigella flexneri,parc,Fluoroquinolones,parC,nalidixic acid|norfloxacin,27620866
+CARD,L52F,Staphylococcus aureus,cls,Daptomycin,cls2,daptomycin,22238576
+CARD,F60S,Staphylococcus aureus,cls,Daptomycin,cls2,daptomycin,22238576
+CARD,A23V,Staphylococcus aureus,cls,Daptomycin,cls2,daptomycin,22238576
+CARD,T33N,Staphylococcus aureus,cls,Daptomycin,pgsA,daptomycin,22238576
+CARD,V90A,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,39805814
+CARD,R464L,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,33522241
+CARD,G451V,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,33322073
+CARD,D434N,Staphylococcus aureus,fusa,Fusidic acid,parE,levofloxacin|gatifloxacin|moxifloxacin|tosufloxacin,18460536
+CARD,P404Q,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,21149625
+CARD,F88L,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,33522241
+CARD,L456F,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,33322073
+CARD,T436I,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,33522241
+CARD,L461S,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,21149625
+CARD,V90I,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,33322073
+CARD,A376V,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,31023224
+CARD,P404L,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,21149625
+CARD,M453I,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,20566766
+CARD,H457Q,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,20566766
+CARD,P406L,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,33322073
+CARD,H457Y,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,33322073
+CARD,S416F,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,40827472
+CARD,L461K,Staphylococcus aureus,fusa,Fusidic acid,fusA,Fusidic acid,22869569
+CARD,H457L,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,33522241
+CARD,H457N,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,33522241
+CARD,A100V,Staphylococcus aureus,glpt,Fosfomycin,glpT,fosfomycin,36970692
+CARD,W137R,Staphylococcus aureus,glpt,Fosfomycin,glpT,fosfomycin,26793179
+CARD,E88K,Staphylococcus aureus,gyra,Fluoroquinolones,gyrA,ciprofloxacin,10817688
+CARD,E88A,Staphylococcus aureus,gyra,Fluoroquinolones,gyrA,ciprofloxacin|enrofloxacin,34063179
+CARD,S84L,Staphylococcus aureus,gyra,Fluoroquinolones,gyrA,ciprofloxacin,10390214
+CARD,S85P,Staphylococcus aureus,gyra,Fluoroquinolones,gyrA,ciprofloxacin,11600359
+CARD,V588F,Staphylococcus aureus,iles,Mupirocin,ileS,mupirocin,11796355
+CARD,V631F,Staphylococcus aureus,iles,Mupirocin,ileS,mupirocin,11796355
+CARD,T345A,Staphylococcus aureus,mprf,,mprF,daptomycin,35196789
+CARD,T345A,Staphylococcus aureus,mprf,Daptomycin,mprF,daptomycin,35196789
+CARD,S295L,Staphylococcus aureus,mprf,Daptomycin,mprF,Daptomycin,32922373
+CARD,L826F,Staphylococcus aureus,mprf,Daptomycin,mprF,daptomycin|thrombin-induced platelet microbicidal proteins|human neutrophil peptide-1,21709105
+CARD,I420N,Staphylococcus aureus,mprf,Daptomycin,mprF,daptomycin,22238576
+CARD,G61V,Staphylococcus aureus,mprf,Daptomycin,mprF,daptomycin,22238576
+CARD,L341S,Staphylococcus aureus,mprf,Daptomycin,mprF,daptomycin,21986832
+CARD,P314L,Staphylococcus aureus,mprf,Daptomycin,mprF,daptomycin,28120188
+CARD,T345I,Staphylococcus aureus,mprf,Daptomycin,mprF,daptomycin,19332678
+CARD,S337L,Staphylococcus aureus,mprf,Daptomycin,mprF,daptomycin,28120188
+CARD,D278E,Staphylococcus aureus,mura,Fosfomycin,murA,fosfomycin,32807239
+CARD,G257D,Staphylococcus aureus,mura,Fosfomycin,murA,fosfomycin,32807239
+CARD,T396N,Staphylococcus aureus,mura,Fosfomycin,murA,fosfomycin,37630513
+CARD,E291D,Staphylococcus aureus,mura,Fosfomycin,murA,fosfomycin,33692199
+CARD,E84G,Staphylococcus aureus,parc,Fluoroquinolones,grlA,fluoroquinolones,22032541
+CARD,S80Y,Staphylococcus aureus,parc,Fluoroquinolones,parC,fluoroquinolones,20435780
+CARD,S80F,Staphylococcus aureus,parc,Fluoroquinolones,grlA,ciprofloxacin,11600359
+CARD,D434N,Staphylococcus aureus,pare,Fluoroquinolones,parE,levofloxacin|gatifloxacin|moxifloxacin|tosufloxacin,18460536
+CARD,V59N,Staphylococcus aureus,pgsa,Daptomycin,pgsA,daptomycin,22238576
+CARD,S177F,Staphylococcus aureus,pgsa,Daptomycin,pgsA,daptomycin,30891010
+CARD,A621E,Staphylococcus aureus,rpob,Daptomycin,rpoB,vancomycin|daptomycin,20837752
+CARD,I953S,Staphylococcus aureus,rpob,Daptomycin,rpoB,daptomycin,19332678
+CARD,L466S,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampin,16377701
+CARD,Q468K,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampicin,39913260
+CARD,H481N,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampin,12384339
+CARD,A477T,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampicin,20202188
+CARD,A473T,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampin,34764656
+CARD,F632S,Staphylococcus aureus,rpoc,Daptomycin,RpoC,vancomycin|daptomycin,37237831
+CARD,Q961K,Staphylococcus aureus,rpoc,Daptomycin,RpoC,vancomycin|daptomycin,37237831
+CARD,G358V,Staphylococcus aureus,uhpt,Fosfomycin,uhpT,fosfomycin,35848785
+CARD,S221P,Staphylococcus aureus,walk,Daptomycin,WalKR,vancomycin,38456702
+CARD,S82F,Streptococcus pneumoniae,parc,Fluoroquinolones,parC,ciprofloxacin,26100702
+CARD,S575T,Streptococcus pneumoniae,pbp1a,Amoxicillin,pbp1a,penicillin,15155228
+CARD,T445A,Streptococcus pneumoniae,pbp2b,Amoxicillin,pbp2b,amoxicillin,12121904
+CARD,M339F,Streptococcus pneumoniae,pbp2x,Amoxicillin,pbp2x,cefotaxime,12121904
+CARD,R384G,Streptococcus pneumoniae,pbp2x,Amoxicillin,pbp2x,penicillin,22108223
+CARD,N605T,Streptococcus pneumoniae,pbp2x,Amoxicillin,pbp2x,penicillin|cefotaxime,28971878
+CARD,M400T,Streptococcus pneumoniae,pbp2x,Amoxicillin,pbp2x,cefotaxime,12121904
+CARD,L546V,Streptococcus pneumoniae,pbp2x,Amoxicillin,pbp2x,penicillin,32003298
+CARD,I371T,Streptococcus pneumoniae,pbp2x,Amoxicillin,pbp2x,penicillin|cefotaxime,28971878
+CARD,T553K,Streptococcus pyogenes,pbp2x,Beta-lactams,pbp2x,penicillin|ampicillin|cefotaxime,37065204
+CARD,M593T,Streptococcus pyogenes,pbp2x,Beta-lactams,pbp2b,penicillin,37065204
+CARD,P601L,Streptococcus pyogenes,pbp2x,Beta-lactams,pbp2a,ampicillin|cefotaxime,37065204
+CARD,P462S,Ureaplasma urealyticum,gyrb,Fluoroquinolones,gyrB,ciprofloxacin|levofloxacin|sitafloxacin|tosufloxacin|garenoxacin,25645833
+CARD,E87Q,Ureaplasma parvum,parc,Fluoroquinolones,ParC,levofloxacin|moxifloxacin,32229497
+CARD,S84P,Ureaplasma parvum,parc,Fluoroquinolones,parC,ciprofloxacin|levofloxacin|sitafloxacin|tosufloxacin|garenoxacin,25645833
+CARD,S83L,Ureaplasma parvum,parc,Fluoroquinolones,ParC,fluoroquinolones,35532225
+CARD,S83W,Ureaplasma parvum,parc,Fluoroquinolones,ParC,levofloxacin|moxifloxacin,32229497
+ResFinder,T86I,Campylobacter jejuni,gyra,"Nalidixic acid, Ciprofloxacin",gyrA,fluoroquinolones,11230433
+ResFinder,T86A,Campylobacter jejuni,gyra,"Nalidixic acid, Ciprofloxacin",gyrA,nalidixic acid,32974772
+ResFinder,T86K,Campylobacter jejuni,gyra,"Nalidixic acid, Ciprofloxacin",gyrA,ciprofloxacin|nalidixic acid,33809410
+ResFinder,T86V,Campylobacter jejuni,gyra,"Nalidixic acid, Ciprofloxacin",gyrA,ciprofloxacin|nalidixic acid,33809410
+ResFinder,D90N,Campylobacter jejuni,gyra,"Nalidixic acid, Ciprofloxacin",gyrA,ciprofloxacin|nalidixic acid,32974772
+ResFinder,K43R,Campylobacter jejuni,rpsl,Streptomycin,rpsL,streptomycin,32974772
+ResFinder,K88R,Campylobacter jejuni,rpsl,Streptomycin,rpsL,streptomycin,32974772
+ResFinder,T86I,Campylobacter coli,gyra,"Nalidixic acid, Ciprofloxacin",gyrA,fluoroquinolones,11230433
+ResFinder,T86A,Campylobacter coli,gyra,"Nalidixic acid, Ciprofloxacin",gyrA,nalidixic acid,32974772
+ResFinder,T86K,Campylobacter coli,gyra,"Nalidixic acid, Ciprofloxacin",gyrA,ciprofloxacin|nalidixic acid,33809410
+ResFinder,T86V,Campylobacter coli,gyra,"Nalidixic acid, Ciprofloxacin",gyrA,ciprofloxacin|nalidixic acid,33809410
+ResFinder,D90N,Campylobacter coli,gyra,"Nalidixic acid, Ciprofloxacin",gyrA,ciprofloxacin|nalidixic acid,32974772
+ResFinder,G56D,Campylobacter jejuni,pora,"Ertapenem, Meropenem",porA,ertapenem,37358443
+ResFinder,S83R,Enterococcus faecalis,gyra,"Nalidixic acid, Ciprofloxacin",gyrA,ciprofloxacin,16517894
+ResFinder,S83I,Enterococcus faecalis,gyra,"Nalidixic acid, Ciprofloxacin",gyrA,ciprofloxacin|enrofloxacin,28081148
+ResFinder,S83L,Enterococcus faecalis,gyra,"Nalidixic acid, Ciprofloxacin",gyrA,ciprofloxacin|levofloxacin,38929467
+ResFinder,S83Y,Enterococcus faecalis,gyra,"Nalidixic acid, Ciprofloxacin",GyrA,enrofloxacin,38786138
+ResFinder,E87K,Enterococcus faecalis,gyra,"Nalidixic acid, Ciprofloxacin",fusA,kanamycin,39907470
+ResFinder,S80R,Enterococcus faecalis,parc,"Nalidixic acid, Ciprofloxacin",parC,ciprofloxacin,16517894
+ResFinder,S80I,Enterococcus faecalis,parc,"Nalidixic acid, Ciprofloxacin",parC,ciprofloxacin,16517894
+ResFinder,E84K,Enterococcus faecalis,parc,"Nalidixic acid, Ciprofloxacin",parC,ciprofloxacin,16517894
+ResFinder,S83R,Enterococcus faecium,gyra,"Nalidixic acid, Ciprofloxacin",gyrA,ciprofloxacin,16517894
+ResFinder,S83I,Enterococcus faecium,gyra,"Nalidixic acid, Ciprofloxacin",gyrA,ciprofloxacin|enrofloxacin,28081148
+ResFinder,S83L,Enterococcus faecium,gyra,"Nalidixic acid, Ciprofloxacin",gyrA,ciprofloxacin|levofloxacin,38929467
+ResFinder,S83Y,Enterococcus faecium,gyra,"Nalidixic acid, Ciprofloxacin",GyrA,enrofloxacin,38786138
+ResFinder,E87K,Enterococcus faecium,gyra,"Nalidixic acid, Ciprofloxacin",fusA,kanamycin,39907470
+ResFinder,S80R,Enterococcus faecium,parc,"Nalidixic acid, Ciprofloxacin",parC,ciprofloxacin,16517894
+ResFinder,S80I,Enterococcus faecium,parc,"Nalidixic acid, Ciprofloxacin",parC,ciprofloxacin,16517894
+ResFinder,E84K,Enterococcus faecium,parc,"Nalidixic acid, Ciprofloxacin",parC,ciprofloxacin,16517894
+ResFinder,M485A,Enterococcus faecium,pbp5,Ampicillin,pbp5,ampicillin,25199988
+ResFinder,E629V,Enterococcus faecium,pbp5,Ampicillin,pbp5,ampicillin,40525834
+ResFinder,A51V,Escherichia coli,gyra,Nalidixic acid,gyrA,fluoroquinolones,10582891
+ResFinder,A67S,Escherichia coli,gyra,Nalidixic acid,gyrA,fluoroquinolones,10582891
+ResFinder,G81C,Escherichia coli,gyra,Ciprofloxacin,gyrA,fluoroquinolones,10582891
+ResFinder,G81D,Escherichia coli,gyra,Ciprofloxacin,gyrA,nalidixic acid|fluoroquinolones,8980760
+ResFinder,G81C,Escherichia coli,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,fluoroquinolones,10582891
+ResFinder,G81D,Escherichia coli,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,nalidixic acid|fluoroquinolones,8980760
+ResFinder,D82G,Escherichia coli,gyra,Ciprofloxacin,gyrA,ciprofloxacin,34154405
+ResFinder,D82G,Escherichia coli,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,ciprofloxacin,34154405
+ResFinder,S83L,Escherichia coli,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,ciprofloxacin|ofloxacin|nalidixic acid,11600360
+ResFinder,S83W,Escherichia coli,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,nalidixic acid|fluoroquinolones,2548439
+ResFinder,S83A,Escherichia coli,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,ciprofloxacin,1850970
+ResFinder,S83V,Escherichia coli,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,nalidixic acid|ciprofloxacin,24755830
+ResFinder,A84P,Escherichia coli,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,fluoroquinolones,10582891
+ResFinder,D87N,Escherichia coli,gyra,Nalidixic acid,parC,ciprofloxacin|ofloxacin|nalidixic acid,11600360
+ResFinder,D87G,Escherichia coli,gyra,Nalidixic acid,gyrA,ofloxacin|ciprofloxacin|trovafloxacin|sparfloxacin,10602715
+ResFinder,D87Y,Escherichia coli,gyra,Nalidixic acid,gyrA,ciprofloxacin,34154405
+ResFinder,D87A,Escherichia coli,gyra,Nalidixic acid,gyrA,fluoroquinolones,35240351
+ResFinder,D87H,Escherichia coli,gyra,Nalidixic acid,gyrA,fluoroquinolones,32723358
+ResFinder,D87N,Escherichia coli,gyra,"Nalidixic acid,Ciprofloxacin",parC,ciprofloxacin|ofloxacin|nalidixic acid,11600360
+ResFinder,D87G,Escherichia coli,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,ofloxacin|ciprofloxacin|trovafloxacin|sparfloxacin,10602715
+ResFinder,D87Y,Escherichia coli,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,ciprofloxacin,34154405
+ResFinder,D87A,Escherichia coli,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,fluoroquinolones,35240351
+ResFinder,D87H,Escherichia coli,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,fluoroquinolones,32723358
+ResFinder,Q106H,Escherichia coli,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,fluoroquinolones,10582891
+ResFinder,Q106R,Escherichia coli,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,ciprofloxacin,1850970
+ResFinder,D426N,Escherichia coli,gyrb,"Nalidixic acid,Ciprofloxacin",gyrB,nalidixic acid,31689338
+ResFinder,A56T,Escherichia coli,parc,"Nalidixic acid,Ciprofloxacin",parC,ciprofloxacin,35336064
+ResFinder,S57T,Escherichia coli,parc,"Nalidixic acid,Ciprofloxacin",parC,ciprofloxacin,30272036
+ResFinder,G78D,Escherichia coli,parc,"Nalidixic acid,Ciprofloxacin",parC,ciprofloxacin,8849244
+ResFinder,G78C,Escherichia coli,parc,"Nalidixic acid,Ciprofloxacin",parC,ciprofloxacin,41023203
+ResFinder,S80R,Escherichia coli,parc,"Nalidixic acid,Ciprofloxacin",parC,ciprofloxacin,29018116
+ResFinder,S80I,Escherichia coli,parc,"Nalidixic acid,Ciprofloxacin",parC,nalidixic acid,11699598
+ResFinder,S80W,Escherichia coli,parc,"Nalidixic acid,Ciprofloxacin",parC,ciprofloxacin|nalidixic acid,21856834
+ResFinder,S80L,Escherichia coli,parc,"Nalidixic acid,Ciprofloxacin",parC,levofloxacin,20597679
+ResFinder,E84G,Escherichia coli,parc,"Nalidixic acid,Ciprofloxacin",parC,ciprofloxacin,23259844
+ResFinder,E84K,Escherichia coli,parc,"Nalidixic acid,Ciprofloxacin",parC,norfloxacin|ciprofloxacin,14506034
+ResFinder,E84V,Escherichia coli,parc,"Nalidixic acid,Ciprofloxacin",parC,ciprofloxacin,23259844
+ResFinder,E84A,Escherichia coli,parc,"Nalidixic acid,Ciprofloxacin",parC,ciprofloxacin,23302578
+ResFinder,A108V,Escherichia coli,parc,Unknown,parC,nalidixic acid|ciprofloxacin,21352598
+ResFinder,A108T,Escherichia coli,parc,Unknown,parC,nalidixic acid|ciprofloxacin|enrofloxacin,27536030
+ResFinder,I355T,Escherichia coli,pare,"Nalidixic acid,Ciprofloxacin",parE,ciprofloxacin,34442755
+ResFinder,L416F,Escherichia coli,pare,"Nalidixic acid,Ciprofloxacin",parE,ciprofloxacin|levofloxacin,34803966
+ResFinder,I444F,Escherichia coli,pare,"Nalidixic acid,Ciprofloxacin",parE,norfloxacin|ciprofloxacin,14506034
+ResFinder,S458T,Escherichia coli,pare,"Nalidixic acid,Ciprofloxacin",parE,norfloxacin|ciprofloxacin,14506034
+ResFinder,S458A,Escherichia coli,pare,"Nalidixic acid,Ciprofloxacin",parE,enrofloxacin,33198103
+ResFinder,I464F,Escherichia coli,pare,"Nalidixic acid,Ciprofloxacin",parE,ciprofloxacin|nalidixic acid,33918946
+ResFinder,I529L,Escherichia coli,pare,"Nalidixic acid,Ciprofloxacin",parE,norfloxacin|ciprofloxacin,14506034
+ResFinder,S39I,Escherichia coli,pmra,Colistin,PmrA,colistin,31736909
+ResFinder,V161G,Escherichia coli,pmrb,Colistin,pmrB,colistin,32897511
+ResFinder,V146F,Escherichia coli,rpob,Rifampicin,rpoB,rifampicin,37583318
+ResFinder,Q513L,Escherichia coli,rpob,Rifampicin,rpoB,rifampin|rifabutin|rifapentine,15805525
+ResFinder,Q513P,Escherichia coli,rpob,Rifampicin,rpoB,rifampin|rifabutin|rifapentine,15805525
+ResFinder,H526Y,Escherichia coli,rpob,Rifampicin,rpoB,rifampin|rifabutin|rifapentine|sorangicin A,15805525
+ResFinder,R529C,Escherichia coli,rpob,Rifampicin,rpoB,rifampin|rifabutin|rifapentine,15805525
+ResFinder,S531F,Escherichia coli,rpob,Rifampicin,rpoB,rifampin|rifabutin|rifapentine,15805525
+ResFinder,T563P,Escherichia coli,rpob,Rifampicin,rpoB,rifampin|rifabutin|rifapentine,15805525
+ResFinder,P564L,Escherichia coli,rpob,Rifampicin,rpoB,rifampin|rifabutin|rifapentine,15805525
+ResFinder,I572L,Escherichia coli,rpob,Rifampicin,rpoB,rifampin,30397062
+ResFinder,I572F,Escherichia coli,rpob,Rifampicin,rpoB,rifampin|rifabutin|rifapentine,15805525
+ResFinder,I572N,Escherichia coli,rpob,Rifampicin,rpoB,rifampicin,33068537
+ResFinder,R687H,Escherichia coli,rpob,Rifampicin,rpoB,rifampin,15805525
+ResFinder,L525P,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin|rifabutin,21765819
+ResFinder,H540N,Helicobacter pylori,rpob,Rifampicin,rpoB,rifampicin|rifabutin,21765819
+ResFinder,L59V,Klebsiella pneumoniae,ompk36,Cephalosporins,ompK36,cephalosporin|carbapenem,34576775
+ResFinder,G189T,Klebsiella pneumoniae,ompk36,Cephalosporins,ompK36,cephalosporin|carbapenem,34576775
+ResFinder,F198Y,Klebsiella pneumoniae,ompk36,Cephalosporins,ompK36,cephalosporin|carbapenem,34576775
+ResFinder,F207Y,Klebsiella pneumoniae,ompk36,Cephalosporins,ompK36,cephalosporin|carbapenem,34576775
+ResFinder,A217S,Klebsiella pneumoniae,ompk36,Carbapenem,ompK36,cephalosporin|carbapenem,34576775
+ResFinder,T222L,Klebsiella pneumoniae,ompk36,Cephalosporins,ompK36,cephalosporin|carbapenem,34576775
+ResFinder,D223G,Klebsiella pneumoniae,ompk36,Cephalosporins,ompK36,cephalosporin|carbapenem,34576775
+ResFinder,E232R,Klebsiella pneumoniae,ompk36,Cephalosporins,ompK36,cephalosporin|carbapenem,34576775
+ResFinder,N304E,Klebsiella pneumoniae,ompk36,Cephalosporins,ompK36,cephalosporin|carbapenem,34576775
+ResFinder,P161R,Klebsiella pneumoniae,acrr,Fluoroquinolone,acrR,fluoroquinolones|tigecycline,40732086
+ResFinder,G164A,Klebsiella pneumoniae,acrr,Fluoroquinolone,acrR,fluoroquinolones|tigecycline,40732086
+ResFinder,F172S,Klebsiella pneumoniae,acrr,Fluoroquinolone,acrR,fluoroquinolones|tigecycline,40732086
+ResFinder,R173G,Klebsiella pneumoniae,acrr,Fluoroquinolone,acrR,fluoroquinolones|tigecycline,40732086
+ResFinder,L195V,Klebsiella pneumoniae,acrr,Fluoroquinolone,acrR,fluoroquinolones|tigecycline,40732086
+ResFinder,F197I,Klebsiella pneumoniae,acrr,Fluoroquinolone,acrR,fluoroquinolones|tigecycline,40732086
+ResFinder,K201M,Klebsiella pneumoniae,acrr,Fluoroquinolone,acrR,fluoroquinolones|tigecycline,40732086
+ResFinder,F204L,Klebsiella pneumoniae,acrr,Tigecycline,pmrB,polymyxin B,34460074
+ResFinder,A19V,Klebsiella pneumoniae,ramr,Tigecycline,ramR,tigecycline,25182649
+ResFinder,Q122*,Klebsiella pneumoniae,ramr,Tigecycline,ramR,tigecycline,34421858
+ResFinder,I70M,Klebsiella pneumoniae,ompk37,Carbapenem,ompK37,cephalosporin|carbapenem,34576775
+ResFinder,I128M,Klebsiella pneumoniae,ompk37,Carbapenem,ompK37,cephalosporin|carbapenem,34576775
+ResFinder,N230G,Klebsiella pneumoniae,ompk37,Carbapenem,ompK37,ceftazidime|avibactam,28031200
+ResFinder,R239K,Klebsiella pneumoniae,ompk37,Carbapenem,ompK37,ceftazidime|avibactam,28031200
+ResFinder,E244D,Klebsiella pneumoniae,ompk37,Carbapenem,ompK37,ceftazidime|avibactam,28031200
+ResFinder,N274S,Klebsiella pneumoniae,ompk37,Carbapenem,ompK37,ceftazidime|avibactam,28031200
+ResFinder,D275T,Klebsiella pneumoniae,ompk37,Carbapenem,ompK37,ceftazidime|avibactam,28031200
+ResFinder,V277I,Klebsiella pneumoniae,ompk37,Carbapenem,ompK37,ceftazidime|avibactam,28031200
+ResFinder,S83L,Klebsiella pneumoniae,gyra,Ciprofloxacin,gyrA,ciprofloxacin|nalidixic acid|norfloxacin,21867486
+ResFinder,S83F,Klebsiella pneumoniae,gyra,Ciprofloxacin,gyrA,ciprofloxacin,10428935
+ResFinder,D87A,Klebsiella pneumoniae,gyra,Ciprofloxacin,gyrA,fluoroquinolones,34078263
+ResFinder,D87N,Klebsiella pneumoniae,gyra,Ciprofloxacin,gyrA,ciprofloxacin,10428935
+ResFinder,D87G,Klebsiella pneumoniae,gyra,Ciprofloxacin,gyrA,ciprofloxacin,10428935
+ResFinder,S80I,Klebsiella pneumoniae,parc,Ciprofloxacin,parC,ciprofloxacin,10428935
+ResFinder,E84K,Klebsiella pneumoniae,parc,Ciprofloxacin,parC,ciprofloxacin,24860827
+ResFinder,R94Q,Mycobacterium tuberculosis,rv0678,"Bedaquiline,Clofazimine",Rv0678,bedaquiline|clofazimine,25010492
+ResFinder,S68G,Mycobacterium tuberculosis,rv0678,"Bedaquiline,Clofazimine",mmpR5,bedaquiline,32958714
+ResFinder,S63R,Mycobacterium tuberculosis,rv0678,"Bedaquiline,Clofazimine",Rv0678,bedaquiline,35209842
+ResFinder,R18*,Mycobacterium tuberculosis,tlya,Capreomycin,tlyA,KAN|AMK|CAP,40023848
+ResFinder,N236K,Mycobacterium tuberculosis,tlya,Capreomycin,tlyA,capreomycin,29247181
+ResFinder,S297A,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,30348088
+ResFinder,M306L,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,34802420
+ResFinder,M306V,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,19822701
+ResFinder,M306I,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,18591265
+ResFinder,Y319S,Mycobacterium tuberculosis,embb,Ethambutol,embB,Ethambutol,35590243
+ResFinder,Y319C,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,27524852
+ResFinder,F320L,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,19822701
+ResFinder,D328Y,Mycobacterium tuberculosis,embb,Ethambutol,embB,Ethambutol,35590243
+ResFinder,D328G,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,35328028
+ResFinder,Y334H,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,29084750
+ResFinder,D354A,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,35086603
+ResFinder,E378A,Mycobacterium tuberculosis,embb,Ethambutol,embB,Ethambutol,35590243
+ResFinder,A379T,Mycobacterium tuberculosis,embb,Ethambutol,katG,isoniazid,40990696
+ResFinder,P397T,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,25407810
+ResFinder,G406S,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,19822701
+ResFinder,G406C,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,19822701
+ResFinder,G406D,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,19822701
+ResFinder,G406A,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,19822701
+ResFinder,R469P,Mycobacterium tuberculosis,embb,Ethambutol,ethA,ethionamide,27005572
+ResFinder,Q497K,Mycobacterium tuberculosis,embb,Ethambutol,embB,Ethambutol,35590243
+ResFinder,Q497P,Mycobacterium tuberculosis,embb,Ethambutol,embB,Ethambutol,35590243
+ResFinder,Q497R,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,19822701
+ResFinder,E504D,Mycobacterium tuberculosis,embb,Ethambutol,pncA,pyrazinamide,27530852
+ResFinder,H1002R,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,39906217
+ResFinder,D1024N,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,19822701
+ResFinder,T1082A,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,33045067
+ResFinder,T270I,Mycobacterium tuberculosis,embc,Ethambutol,embC,ethambutol,39487429
+ResFinder,A187V,Mycobacterium tuberculosis,embr,Ethambutol,mshA,isoniazid,34817282
+ResFinder,L172R,Mycobacterium tuberculosis,embr,Ethambutol,rpoB,Rifampin,32445364
+ResFinder,I21T,Mycobacterium tuberculosis,inha,Ethionamide,inhA,isoniazid,35086603
+ResFinder,S94A,Mycobacterium tuberculosis,inha,Ethionamide,inhA,isoniazid,33785614
+ResFinder,H70R,Mycobacterium tuberculosis,gyra,Fluoroquinolone,gyrA,fluoroquinolone,22363772
+ResFinder,A74S,Mycobacterium tuberculosis,gyra,Fluoroquinolone,gyrA,fluoroquinolones,20956608
+ResFinder,T80A,Mycobacterium tuberculosis,gyra,Fluoroquinolone,GyrA,fluoroquinolones,20805881
+ResFinder,G88C,Mycobacterium tuberculosis,gyra,Fluoroquinolone,gyrA,ciprofloxacin|levofloxacin|moxifloxacin|gatifloxacin,39746086
+ResFinder,G88A,Mycobacterium tuberculosis,gyra,Fluoroquinolone,GyrA,fluoroquinolones,20805881
+ResFinder,D89N,Mycobacterium tuberculosis,gyra,Fluoroquinolone,gyrA,fluoroquinolones,29017248
+ResFinder,A90E,Mycobacterium tuberculosis,gyra,Fluoroquinolone,gyrA,fluoroquinolones,32049255
+ResFinder,A90V,Mycobacterium tuberculosis,gyra,Fluoroquinolone,gyrA,fluoroquinolones,10049284
+ResFinder,A90G,Mycobacterium tuberculosis,gyra,Fluoroquinolone,gyrA,fluoroquinolones,28137812
+ResFinder,S91P,Mycobacterium tuberculosis,gyra,Fluoroquinolone,gyrA,ofloxacin,22552454
+ResFinder,S91A,Mycobacterium tuberculosis,gyra,Fluoroquinolone,gyrA,fluoroquinolone,22363772
+ResFinder,D94N,Mycobacterium tuberculosis,gyra,Fluoroquinolone,gyrA,fluoroquinolones,17938193
+ResFinder,D94Y,Mycobacterium tuberculosis,gyra,Fluoroquinolone,gyrA,ofloxacin,22552454
+ResFinder,D94H,Mycobacterium tuberculosis,gyra,Fluoroquinolone,gyrA,fluoroquinolones,34446095
+ResFinder,D94V,Mycobacterium tuberculosis,gyra,Fluoroquinolone,gyrA,fluoroquinolones,34446095
+ResFinder,D94A,Mycobacterium tuberculosis,gyra,Fluoroquinolone,GyrA,fluoroquinolones,20805881
+ResFinder,D94G,Mycobacterium tuberculosis,gyra,Fluoroquinolone,gyrA,fluoroquinolones,20713679
+ResFinder,A90G,Mycobacterium tuberculosis,gyrb,Fluoroquinolone,gyrA,fluoroquinolones,28137812
+ResFinder,S447F,Mycobacterium tuberculosis,gyrb,Fluoroquinolone,gyrB,fluoroquinolones,34446095
+ResFinder,D461N,Mycobacterium tuberculosis,gyrb,Fluoroquinolone,gyrB,fluoroquinolones,34446095
+ResFinder,D461H,Mycobacterium tuberculosis,gyrb,Fluoroquinolone,gyrA,fluoroquinolones,30789128
+ResFinder,N499D,Mycobacterium tuberculosis,gyrb,Fluoroquinolone,GyrA,fluoroquinolones,20805881
+ResFinder,N499T,Mycobacterium tuberculosis,gyrb,Fluoroquinolone,gyrB,fluoroquinolones,32218465
+ResFinder,T500N,Mycobacterium tuberculosis,gyrb,Fluoroquinolone,gyrB,ofloxacin|levofloxacin|moxifloxacin|antofloxacin,27324769
+ResFinder,E501D,Mycobacterium tuberculosis,gyrb,Fluoroquinolone,gyrB,levofloxacin,33947918
+ResFinder,A504T,Mycobacterium tuberculosis,gyrb,Fluoroquinolone,gyrB,fluoroquinolones,34446095
+ResFinder,A504V,Mycobacterium tuberculosis,gyrb,Fluoroquinolone,gyrB,fluoroquinolones,41267660
+ResFinder,I16T,Mycobacterium tuberculosis,inha,Isoniazid,InhA,isoniazid,15908576
+ResFinder,I21V,Mycobacterium tuberculosis,inha,Isoniazid,inhA,isoniazid,34802420
+ResFinder,I21T,Mycobacterium tuberculosis,inha,Isoniazid,inhA,isoniazid,35086603
+ResFinder,I47T,Mycobacterium tuberculosis,inha,Isoniazid,inhA,isoniazid,17600151
+ResFinder,S94A,Mycobacterium tuberculosis,inha,Isoniazid,inhA,isoniazid,33785614
+ResFinder,I194T,Mycobacterium tuberculosis,inha,Isoniazid,inhA,isoniazid,35016609
+ResFinder,G269S,Mycobacterium tuberculosis,kasa,Isoniazid,kasA,isoniazid,35366177
+ResFinder,G312S,Mycobacterium tuberculosis,kasa,Isoniazid,kasA,isoniazid,34802420
+ResFinder,C154R,Mycobacterium tuberculosis,rplc,Linezolid,rplC,linezolid|sutezolid,28760892
+ResFinder,H75N,Mycobacterium tuberculosis,thya,Para-aminosalicyclic acid,thyA,para-aminosalicylic acid,36335391
+ResFinder,T22A,Mycobacterium tuberculosis,thya,Para-aminosalicyclic acid,thyA,PAS,36062095
+ResFinder,R235P,Mycobacterium tuberculosis,thya,Para-aminosalicyclic acid,thyA,para-aminosalicylic acid,39906217
+ResFinder,E153G,Mycobacterium tuberculosis,folc,Para-aminosalicyclic acid,folC,para-aminosalicylic acid,30930162
+ResFinder,E153A,Mycobacterium tuberculosis,folc,Para-aminosalicyclic acid,folC,para-aminosalicylic acid,36335391
+ResFinder,S150G,Mycobacterium tuberculosis,folc,Para-aminosalicyclic acid,folC,para-aminosalicylic acid,33622486
+ResFinder,E40G,Mycobacterium tuberculosis,folc,Para-aminosalicyclic acid,gidB,streptomycin,27530852
+ResFinder,R49P,Mycobacterium tuberculosis,folc,Para-aminosalicyclic acid,folC,para-aminosalicylic acid,36335391
+ResFinder,I43T,Mycobacterium tuberculosis,folc,Para-aminosalicyclic acid,folC,para-aminosalicylic acid,35444430
+ResFinder,I43S,Mycobacterium tuberculosis,folc,Para-aminosalicyclic acid,folC,PAS,36062095
+ResFinder,A128S,Mycobacterium tuberculosis,pand,Pyrazinamide,panD,pyrazinamide,26038471
+ResFinder,V138A,Mycobacterium tuberculosis,pand,Pyrazinamide,panD,pyrazinamide,26038471
+ResFinder,V138G,Mycobacterium tuberculosis,pand,Pyrazinamide,panD,pyrazinoic acid|pyrazinamide,26038753
+ResFinder,V138E,Mycobacterium tuberculosis,pand,Pyrazinamide,panD,pyrazinoic acid|pyrazinamide,26038753
+ResFinder,I49V,Mycobacterium tuberculosis,pand,Pyrazinamide,panD,pyrazinamide,26038471
+ResFinder,H21R,Mycobacterium tuberculosis,pand,Pyrazinamide,panD,pyrazinamide,26038471
+ResFinder,E130G,Mycobacterium tuberculosis,pand,Pyrazinamide,panD,pyrazinamide,26038471
+ResFinder,M117I,Mycobacterium tuberculosis,pand,Pyrazinamide,panD,pyrazinoic acid|pyrazinamide,26038753
+ResFinder,L136R,Mycobacterium tuberculosis,pand,Pyrazinamide,panD,pyrazinoic acid|pyrazinamide,26038753
+ResFinder,V170F,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,33775224
+ResFinder,A286V,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,Rifampicin,36193294
+ResFinder,T400A,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin|rifabutin,28106529
+ResFinder,F424V,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,33903103
+ResFinder,S428R,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,37452349
+ResFinder,S428I,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,37982632
+ResFinder,S428T,Mycobacterium tuberculosis,rpob,Rifampicin,rpoC,rifampin,32474533
+ResFinder,Q429H,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,30061294
+ResFinder,L430P,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,33903103
+ResFinder,S431G,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,24731071
+ResFinder,S431T,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,33715498
+ResFinder,Q432K,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,34802420
+ResFinder,Q432E,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,37452349
+ResFinder,Q432L,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,35016609
+ResFinder,Q432P,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,35086603
+ResFinder,Q432R,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,40990696
+ResFinder,Q432H,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,40990696
+ResFinder,M434T,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,37452349
+ResFinder,M434I,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,30061294
+ResFinder,D435F,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,39179783
+ResFinder,D435N,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,Rifampicin,36193294
+ResFinder,D435Y,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,19890396
+ResFinder,D435H,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,39487429
+ResFinder,D435V,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,35086603
+ResFinder,D435A,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,37452349
+ResFinder,D435G,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,19890396
+ResFinder,D435E,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,39179783
+ResFinder,N437D,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,35089253
+ResFinder,N438K,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,37982632
+ResFinder,L440P,Mycobacterium tuberculosis,rpob,Rifampicin,ethA,ethionamide|perchlozone,36978456
+ResFinder,S441Q,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,33715498
+ResFinder,S441L,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,capreomycin,40449326
+ResFinder,S441W,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,CAP,40449326
+ResFinder,H445G,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,33268535
+ResFinder,H445N,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,41599000
+ResFinder,H445Y,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,34802420
+ResFinder,H445D,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,RIF,40023848
+ResFinder,H445L,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,27784282
+ResFinder,H445P,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,35086603
+ResFinder,H445R,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,capreomycin,40449326
+ResFinder,K446Q,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,40887591
+ResFinder,S450L,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,Rifampicin,27664776
+ResFinder,S450W,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,33715498
+ResFinder,S450F,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,33715498
+ResFinder,S450Y,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,34641802
+ResFinder,L452P,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,19890396
+ResFinder,P454L,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,Rifampicin,36193294
+ResFinder,L464M,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampin,35311541
+ResFinder,I480V,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,29310751
+ResFinder,I491F,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,Rifampicin,27664776
+ResFinder,S493L,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,34641802
+ResFinder,E761D,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,35171016
+ResFinder,G332R,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,34244539
+ResFinder,D485N,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,34725411
+ResFinder,I491T,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,34244539
+ResFinder,K43T,Mycobacterium tuberculosis,rpsl,Streptomycin,rpsL,Streptomycin,39935875
+ResFinder,K43R,Mycobacterium tuberculosis,rpsl,Streptomycin,rpsL,streptomycin,33591982
+ResFinder,K88Q,Mycobacterium tuberculosis,rpsl,Streptomycin,rpsL,Streptomycin,22943573
+ResFinder,K88T,Mycobacterium tuberculosis,rpsl,Streptomycin,rpsL,streptomycin,25629610
+ResFinder,K88R,Mycobacterium tuberculosis,rpsl,Streptomycin,rpsL,streptomycin,32867304
+ResFinder,L113R,Mycobacterium tuberculosis,alr,D-Cycloserine,alr,cycloserine,40488463
+ResFinder,A80P,Mycobacterium tuberculosis,gidb,Streptomycin,gidB,streptomycin,29755957
+ResFinder,L731P,Mycobacterium tuberculosis,rpob,Rifampicin,rpoB,rifampicin,25407810
+ResFinder,N416S,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,34244539
+ResFinder,V483A,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,34244539
+ResFinder,V483G,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,34244539
+ResFinder,W484G,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,38051742
+ResFinder,I491V,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,41053587
+ResFinder,L516P,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoB,rifampicin,34827305
+ResFinder,N698S,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,40672307
+ResFinder,P1040S,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,34244539
+ResFinder,K1152Q,Mycobacterium tuberculosis,rpoc,Rifampicin,rpoC,rifampicin,25407810
+ResFinder,M423T,Mycobacterium tuberculosis,embb,Ethambutol,embB,ethambutol,25407810
+ResFinder,A501V,Neisseria gonorrhoeae,pena,Cephalosporins,penA,cefixime|ceftriaxone,20093260
+ResFinder,A501T,Neisseria gonorrhoeae,pena,Cephalosporins,penA,cefixime|ceftriaxone,28145684
+ResFinder,A501P,Neisseria gonorrhoeae,pena,Cephalosporins,penA,ceftriaxone|cefixime,27690121
+ResFinder,G542S,Neisseria gonorrhoeae,pena,Cephalosporins,PenA,ceftriaxone,28303829
+ResFinder,P551S,Neisseria gonorrhoeae,pena,Cephalosporins,penA,ceftriaxone|cefixime,27690121
+ResFinder,P551L,Neisseria gonorrhoeae,pena,Cephalosporins,PenA,ceftriaxone,41648021
+ResFinder,A311V,Neisseria gonorrhoeae,pena,Cephalosporins,penA,ceftizoxime|ceftriaxone,23587946
+ResFinder,I312M,Neisseria gonorrhoeae,pena,Cephalosporins,penA,ceftriaxone|cefixime,20704258
+ResFinder,V316T,Neisseria gonorrhoeae,pena,Cephalosporins,penA,ceftriaxone|cefixime,20704258
+ResFinder,T483S,Neisseria gonorrhoeae,pena,Cephalosporins,penA,ceftizoxime|ceftriaxone,23587946
+ResFinder,N512Y,Neisseria gonorrhoeae,pena,Cephalosporins,penA,ceftriaxone|cefixime,20704258
+ResFinder,G545S,Neisseria gonorrhoeae,pena,Cephalosporins,penA,ceftriaxone|cefixime,20704258
+ResFinder,G546S,Neisseria gonorrhoeae,pena,Cephalosporins,penA,ceftriaxone|cefixime,30063202
+ResFinder,V57M,Neisseria gonorrhoeae,rpsj,Tetracycline,rpsJ,tetracycline,34755593
+ResFinder,V57L,Neisseria gonorrhoeae,rpsj,Tetracycline,rpsJ,tetracycline,27506605
+ResFinder,T24P,Neisseria gonorrhoeae,rpse,Spectinomycin,rpsE,spectinomycin,23847609
+ResFinder,S91F,Neisseria gonorrhoeae,gyra,Fluoroquinolone,gyrA,fluoroquinolones,15243093
+ResFinder,D95N,Neisseria gonorrhoeae,gyra,Fluoroquinolone,gyrA,ciprofloxacin,10799008
+ResFinder,D95G,Neisseria gonorrhoeae,gyra,Fluoroquinolone,gyrA,ciprofloxacin,34683991
+ResFinder,E91G,Neisseria gonorrhoeae,parc,Fluoroquinolone,parC,ciprofloxacin,10655338
+ResFinder,E91Q,Neisseria gonorrhoeae,parc,Fluoroquinolone,parC,ciprofloxacin,11181352
+ResFinder,E91K,Neisseria gonorrhoeae,parc,Fluoroquinolone,parC,ciprofloxacin|gatifloxacin|levofloxacin|ofloxacin,16145072
+ResFinder,S88P,Neisseria gonorrhoeae,parc,Fluoroquinolone,parC,ciprofloxacin,10655338
+ResFinder,G120D,Neisseria gonorrhoeae,porb,"Penicillin, Tetracycline,Cephalosporins",porB1B,penicillin|tetracycline,21067570
+ResFinder,A121D,Neisseria gonorrhoeae,porb,"Penicillin, Tetracycline,Cephalosporins",porB1b,ceftriaxone|cefixime,34755593
+ResFinder,G120K,Neisseria gonorrhoeae,porb,"Penicillin, Tetracycline,Cephalosporins",porB1B,penicillin|tetracycline,21067570
+ResFinder,L421P,Neisseria gonorrhoeae,pona,Penicillin,ponA,cefixime|ceftriaxone,20093260
+ResFinder,G15R,Salmonella enterica,pmra,Colistin,pmrA,polymyxin B|colistin,25505462
+ResFinder,G53E,Salmonella enterica,pmra,Colistin,pmrA,polymyxin B|colistin,25505462
+ResFinder,G53R,Salmonella enterica,pmra,Colistin,pmrA,polymyxin B|colistin,25505462
+ResFinder,R81C,Salmonella enterica,pmrb,Colistin,pmrA,polymyxin B|colistin,25505462
+ResFinder,R81H,Salmonella enterica,pmrb,Colistin,pmrA,polymyxin B|colistin,25505462
+ResFinder,N130Y,Salmonella enterica,pmrb,Colistin,pmrB,colistin,19332669
+ResFinder,T147P,Salmonella enterica,pmrb,Colistin,pmrB,colistin,36584420
+ResFinder,E166K,Salmonella enterica,pmrb,Colistin,pmrB,colistin,19332669
+ResFinder,G81C,Salmonella enterica,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,ciprofloxacin|norfloxacin|nalidixic acid,19946377
+ResFinder,D82N,Salmonella enterica,gyra,Nalidixic acid,gyrA,nalidixic acid,26121266
+ResFinder,S83I,Salmonella enterica,gyra,"Nalidixic acid,Ciprofloxacin",GyrA,ciprofloxacin,34943668
+ResFinder,S83Y,Salmonella enterica,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,ciprofloxacin,20409393
+ResFinder,S83F,Salmonella enterica,gyra,"Nalidixic acid,Ciprofloxacin",GyrA,ciprofloxacin,14718091
+ResFinder,D87N,Salmonella enterica,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,ciprofloxacin,15078598
+ResFinder,D87G,Salmonella enterica,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,ciprofloxacin,15078598
+ResFinder,D87Y,Salmonella enterica,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,nalidixic acid,16416922
+ResFinder,A131G,Salmonella enterica,gyra,"Nalidixic acid,Ciprofloxacin",gyrA,fluoroquinolones,16377664
+ResFinder,S464Y,Salmonella enterica,gyrb,Ciprofloxacin,gyrB,ciprofloxacin,33101240
+ResFinder,S464F,Salmonella enterica,gyrb,Ciprofloxacin,GyrB,ciprofloxacin,14718091
+ResFinder,S464T,Salmonella enterica,gyrb,Ciprofloxacin,gyrB,ciprofloxacin,37107581
+ResFinder,E466D,Salmonella enterica,gyrb,"Nalidixic acid,Ciprofloxacin",gyrB,ciprofloxacin,19104017
+ResFinder,T57S,Salmonella enterica,parc,"Nalidixic acid,Ciprofloxacin",parC,ciprofloxacin|nalidixic acid,17080579
+ResFinder,G78D,Salmonella enterica,parc,"Nalidixic acid,Ciprofloxacin",ParC,ciprofloxacin,28831084
+ResFinder,S80R,Salmonella enterica,parc,"Nalidixic acid,Ciprofloxacin",ParC,ciprofloxacin,14718091
+ResFinder,S80I,Salmonella enterica,parc,"Nalidixic acid,Ciprofloxacin",parC,ciprofloxacin,15078598
+ResFinder,E84K,Salmonella enterica,parc,"Nalidixic acid,Ciprofloxacin",ParC,ciprofloxacin,14718091
+ResFinder,E84G,Salmonella enterica,parc,"Nalidixic acid,Ciprofloxacin",parC,ciprofloxacin,39397980
+ResFinder,M438I,Salmonella enterica,pare,"Nalidixic acid,Ciprofloxacin",parE,nalidixic acid,25371903
+ResFinder,S458P,Salmonella enterica,pare,"Nalidixic acid,Ciprofloxacin",parE,ciprofloxacin|nalidixic acid,17080579
+ResFinder,R717Q,Salmonella enterica,acrb,Azithromycin,acrB,azithromycin,33515460
+ResFinder,R717L,Salmonella enterica,acrb,Azithromycin,acrB,azithromycin,34223059
+ResFinder,M16I,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,40827472
+ResFinder,V90I,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,33322073
+ResFinder,E233Q,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,21149625
+ResFinder,D373N,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,21149625
+ResFinder,A376V,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,31023224
+ResFinder,T385N,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,33322073
+ResFinder,P404L,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,21149625
+ResFinder,P404Q,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,21149625
+ResFinder,P406L,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,33322073
+ResFinder,S416F,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,40827472
+ResFinder,D434N,Staphylococcus aureus,fusa,Fusidic acid,parE,levofloxacin|gatifloxacin|moxifloxacin|tosufloxacin,18460536
+ResFinder,T436I,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,33522241
+ResFinder,G451V,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,33322073
+ResFinder,M453I,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,20566766
+ResFinder,L456F,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,33322073
+ResFinder,H457Y,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,33322073
+ResFinder,H457Q,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,20566766
+ResFinder,L461K,Staphylococcus aureus,fusa,Fusidic acid,fusA,Fusidic acid,22869569
+ResFinder,L461S,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,21149625
+ResFinder,A655P,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,33322073
+ResFinder,T656K,Staphylococcus aureus,fusa,Fusidic acid,fusA,fusidic acid,21149625
+ResFinder,S84L,Staphylococcus aureus,gyra,Ciprofloxacin,gyrA,ciprofloxacin,10390214
+ResFinder,S84A,Staphylococcus aureus,gyra,Ciprofloxacin,gyrA,levofloxacin|moxifloxacin,34156294
+ResFinder,S85P,Staphylococcus aureus,gyra,Ciprofloxacin,gyrA,ciprofloxacin,11600359
+ResFinder,E88K,Staphylococcus aureus,gyra,Ciprofloxacin,gyrA,ciprofloxacin,10817688
+ResFinder,E88G,Staphylococcus aureus,gyra,Ciprofloxacin,gyrA,enrofloxacin,18305127
+ResFinder,G106D,Staphylococcus aureus,gyra,Ciprofloxacin,gyrA,ciprofloxacin|levofloxacin|moxifloxacin,35897667
+ResFinder,V41G,Staphylococcus aureus,grla,Ciprofloxacin,grlA,ciprofloxacin|levofloxacin|moxifloxacin,35897667
+ResFinder,I45M,Staphylococcus aureus,grla,Ciprofloxacin,grlA,ciprofloxacin,39108736
+ResFinder,A48T,Staphylococcus aureus,grla,Ciprofloxacin,grlA,ciprofloxacin|levofloxacin|moxifloxacin,35897667
+ResFinder,S80F,Staphylococcus aureus,grla,Ciprofloxacin,grlA,ciprofloxacin,11600359
+ResFinder,S80Y,Staphylococcus aureus,grla,Ciprofloxacin,parC,fluoroquinolones,20435780
+ResFinder,E84K,Staphylococcus aureus,grla,Ciprofloxacin,grlA,ciprofloxacin|levofloxacin|sparfloxacin|pefloxacin,10428901
+ResFinder,E84G,Staphylococcus aureus,grla,Ciprofloxacin,grlA,fluoroquinolones,22032541
+ResFinder,A116E,Staphylococcus aureus,grla,Ciprofloxacin,grlA,fluoroquinolones,36435256
+ResFinder,D432N,Staphylococcus aureus,grlb,Ciprofloxacin,parE,nemonoxacin|moxifloxacin|levofloxacin|ciprofloxacin,39825371
+ResFinder,P451S,Staphylococcus aureus,grlb,Unknown,parE,fluoroquinolones,31050254
+ResFinder,L21V,Staphylococcus aureus,dfrb,Trimethoprim,dfrB,trimethoprim,33178416
+ResFinder,L41F,Staphylococcus aureus,dfrb,Trimethoprim,dfrB,trimethoprim,33178416
+ResFinder,F99Y,Staphylococcus aureus,dfrb,Trimethoprim,dfrB,trimethoprim,33178416
+ResFinder,H150R,Staphylococcus aureus,dfrb,Trimethoprim,dfrA,trimethoprim,39805814
+ResFinder,V588F,Staphylococcus aureus,iles,Mupirocin,ileS,mupirocin,11796355
+ResFinder,V631F,Staphylococcus aureus,iles,Mupirocin,ileS,mupirocin,11796355
+ResFinder,S464P,Staphylococcus aureus,rpob,Rifampicin,rpoB,vancomycin,22948864
+ResFinder,L466S,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampin,16377701
+ResFinder,Q468K,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampicin,39913260
+ResFinder,Q468R,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampin,16495239
+ResFinder,Q468L,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampicin,39913260
+ResFinder,D471G,Staphylococcus aureus,rpob,Rifampicin,rpoB,vancomycin,22948864
+ResFinder,D471Y,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampicin,39913260
+ResFinder,A473T,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampin,34764656
+ResFinder,A477D,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampin,16377701
+ResFinder,A477V,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampin,9756760
+ResFinder,A477T,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampicin,20202188
+ResFinder,H481N,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampin,12384339
+ResFinder,H481Y,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampin,16377701
+ResFinder,H481D,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampin,16495239
+ResFinder,R484H,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampin,16495239
+ResFinder,S486L,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampin,16495239
+ResFinder,I527M,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampicin,39913260
+ResFinder,I527L,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampicin,20202188
+ResFinder,S529L,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampin,16377701
+ResFinder,D550G,Staphylococcus aureus,rpob,Rifampicin,rpoB,rifampin,9756760
+ResFinder,E183A,Staphylococcus aureus,pbp4,"Cefazolin,Ceftriaxone,Ceftaroline",pbp4,ceftaroline|ceftobiprole,27067335
+ResFinder,F241R,Staphylococcus aureus,pbp4,"Cefazolin,Ceftriaxone,Ceftaroline",pbp4,ceftobiprole|ceftaroline,30366985

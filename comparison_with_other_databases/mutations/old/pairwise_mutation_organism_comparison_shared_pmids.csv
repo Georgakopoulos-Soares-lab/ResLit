@@ -1,0 +1,13 @@
+Database_A,Database_B,Unique_mutation_organism_in_A,Correct_same_species,Genus_only_diff_species,Different_from_B,Correct_%,B_total_unique
+AMRFinder,CARD,0,0,0,0,0%,0
+AMRFinder,ResFinder,0,0,0,0,0%,0
+AMRFinder,ResLit,0,0,0,0,0%,0
+CARD,AMRFinder,0,0,0,0,0%,0
+CARD,ResFinder,0,0,0,0,0%,0
+CARD,ResLit,0,0,0,0,0%,0
+ResFinder,AMRFinder,0,0,0,0,0%,0
+ResFinder,CARD,0,0,0,0,0%,0
+ResFinder,ResLit,0,0,0,0,0%,0
+ResLit,AMRFinder,0,0,0,0,0%,0
+ResLit,CARD,0,0,0,0,0%,0
+ResLit,ResFinder,0,0,0,0,0%,0

@@ -1,0 +1,13 @@
+Database_A,Database_B,Unique_mutation_organism_in_A,Correct_same_species,Genus_only_diff_species,Different_from_B,Correct_%,B_total_unique
+AMRFinder,CARD,99,43,2,54,43.4%,196
+AMRFinder,ResFinder,99,38,6,55,38.4%,299
+AMRFinder,ResLit,99,10,12,77,10.1%,3559
+CARD,AMRFinder,196,43,8,145,21.9%,99
+CARD,ResFinder,196,41,6,149,20.9%,299
+CARD,ResLit,196,20,27,149,10.2%,3559
+ResFinder,AMRFinder,299,38,2,259,12.7%,99
+ResFinder,CARD,299,41,2,256,13.7%,196
+ResFinder,ResLit,299,38,15,246,12.7%,3559
+ResLit,AMRFinder,3559,10,61,3488,0.3%,99
+ResLit,CARD,3559,20,86,3453,0.6%,196
+ResLit,ResFinder,3559,38,68,3453,1.1%,299

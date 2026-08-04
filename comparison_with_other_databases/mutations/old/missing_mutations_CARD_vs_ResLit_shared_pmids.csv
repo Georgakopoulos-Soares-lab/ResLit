@@ -1,0 +1,28 @@
+Gene,Nucleotide_Change,Organisms,Resistance,Papers_reporting,PMIDs
+rrl,a1410g,Helicobacter pylori,Clarithromycin,1,32708761
+rrl,a2045g,Neisseria gonorrhoeae,Azithromycin,1,30917979
+rrl,a2129c,Streptococcus pneumoniae,Multiple antibiotics,1,11120988
+rrl,a2143g,Helicobacter pylori,Clarithromycin,1,32708761
+rrl,a2167g,Helicobacter pylori,Clarithromycin,1,32708761
+rrl,a2451t,Thermus thermophilus,Pleuromutilin,1,32526926
+rrl,c1707t,Helicobacter pylori,Clarithromycin,1,32708761
+rrl,c2248t,Helicobacter pylori,Clarithromycin,1,32708761
+rrl,c2452t,Thermus thermophilus,Pleuromutilin,1,32526926
+rrl,c2922t,Helicobacter pylori,Clarithromycin,1,32708761
+rrl,g2061t,Thermus thermophilus,Pleuromutilin,1,32526926
+rrl,g2287a,Helicobacter pylori,Clarithromycin,1,32708761
+rrl,t2500a,Thermus thermophilus,Pleuromutilin,1,32526926
+rrl,t2504g,Thermus thermophilus,Pleuromutilin,1,32526926
+rrs,a1375g,Mycobacteroides abscessus,Amikacin; Gentamicin; Tobramycin,1,21652621
+rrs,a503c,Mycolicibacterium smegmatis,Streptomycin,1,11557484
+rrs,a514c,Mycobacterium tuberculosis,Amikacin; Kanamycin; Streptomycin,2,35944069; 37224060
+rrs,c1376t,Mycobacteroides abscessus,Amikacin; Gentamicin; Kanamycin; Tobramycin,1,21652621
+rrs,c1402a,Mycobacterium tuberculosis,Kanamycin,1,9574680
+rrs,c462t,Mycobacterium tuberculosis,Amikacin; Kanamycin,1,37224060
+rrs,c502t,Mycolicibacterium smegmatis,Streptomycin,1,11557484
+rrs,c506t,Mycolicibacterium smegmatis,Streptomycin,1,11557484
+rrs,c517t,Mycobacterium tuberculosis,Streptomycin,1,35944069
+rrs,g1458t,Mycobacteroides abscessus,Amikacin; Gentamicin; Kanamycin; Tobramycin,1,21652621
+rrs,g504c,Mycolicibacterium smegmatis,Streptomycin,1,11557484
+rrs,g878a,Mycobacterium tuberculosis,Streptomycin,1,35072512
+rrs,t1373a,Mycobacteroides abscessus,Amikacin; Gentamicin; Kanamycin; Tobramycin,1,21652621
