@@ -1,0 +1,74 @@
+Gene,Nucleotide_Change,Organisms,Resistance,Papers_reporting,PMIDs
+BlaOXA-143,A-14G,Acinetobacter pittii,carbapenems,1,32582088
+BlaOXA-143,G-42A,Acinetobacter pittii,carbapenems,1,32582088
+BlaOXA-61,G-57T,Campylobacter jejuni,beta lactams,2,24408987; 3735841
+ampC,C-42A,Escherichia coli,cephalosporins,2,21653764; 7010184
+ampC,C-42G,Escherichia coli,cephalosporins,2,21653764; 7010184
+ampC,G-15GG,Escherichia coli,cephalosporins,1,
+ampC,T-14TGT,Escherichia coli,cephalosporins,1,
+ampC,T-32C,Escherichia coli,cephalosporins,2,21653764; 7010184
+ampC,T-32G,Escherichia coli,cephalosporins,2,21653764; 7010184
+blaOXY,G-34A,Klebsiella oxytoca,cephalosporins,2,1010319; 8834898
+blaOXY,G-38T,Klebsiella oxytoca,cephalosporins,2,1010319; 8834898
+blaOXY,T-58A,Klebsiella oxytoca,cephalosporins,2,1010319; 8834898
+blaOXY,T-67C,Klebsiella oxytoca,cephalosporins,1,7574532
+blaSHV,C-112A,Klebsiella pneumoniae,cefiderocol|cephalosporins,2,10639363; 3878536
+macAB,G-48T,Neisseria gonorrhoeae,azithromycin,1,16162665
+mtrC,C-120T,Neisseria gonorrhoeae,azithromycin|beta lactams|tetracycline,1,21933917
+mtrR,A-53del,Neisseria gonorrhoeae,azithromycin|beta lactams|tetracycline,3,12270819; 12493797; 30087172
+mtrR,A-56C,Neisseria gonorrhoeae,beta lactams|tetracycline,1,30087172
+mtrR,G-131A,Neisseria gonorrhoeae,azithromycin|beta lactams|tetracycline,1,18761689
+norM,A-7G,Neisseria gonorrhoeae,quinolones,1,12533487
+norM,C-104T,Neisseria gonorrhoeae,quinolones,1,12533487
+pbp4,T-266A,Staphylococcus aureus,cephalosporins,1,34151961
+rrl,A2047G,Bordetella pertussis,azithromycin|clarithromycin|erythromycin,2,12624047; 3089808
+rrl,A2074G,Campylobacter coli; Campylobacter jejuni,macrolides,1,
+rrl,A2074T,Campylobacter coli; Campylobacter jejuni,macrolides,1,
+rrl,A2114G,Streptococcus pneumoniae,macrolides,1,10898684
+rrl,A2115G,Streptococcus pneumoniae,macrolides,1,10898684
+rrl,A2118G,Streptococcus pneumoniae,macrolides|streptogramins,1,11120988
+rrl,A2531G,Staphylococcus aureus,linezolid,1,
+rrl,C2220T,Staphylococcus aureus,linezolid,1,
+rrl,C2579T,Staphylococcus aureus,linezolid,1,
+rrl,C2627A,Campylobacter coli; Campylobacter jejuni,macrolides,1,
+rrl,C2630A,Streptococcus pneumoniae,macrolides,1,10898684
+rrl,C2630G,Streptococcus pneumoniae,macrolides,1,10898684
+rrl,C658T,Clostridioides difficile,clindamycin|erythromycin,1,17509804
+rrl,G2032A,Escherichia coli,clindamycin|linezolid,1,
+rrl,G2032C,Escherichia coli,linezolid,1,10986233
+rrl,G2032T,Escherichia coli,clarithromycin|linezolid,1,
+rrl,G2447T,Escherichia coli,linezolid,1,10986233
+rrl,G2475T,Staphylococcus aureus,linezolid,1,
+rrl,G2505A,Enterococcus faecalis; Enterococcus faecium,linezolid,1,30863844
+rrl,G2533A,Staphylococcus aureus,linezolid,1,
+rrl,G2577T,Staphylococcus aureus,linezolid,1,
+rrl,G2604T,Staphylococcus aureus,linezolid,1,
+rrl,G2794T,Staphylococcus aureus,linezolid,1,
+rrl,T2501A,Staphylococcus aureus,linezolid,1,
+rrl,T2528A,Staphylococcus aureus,linezolid,1,
+rrl,T2532C,Staphylococcus aureus,linezolid,1,
+rrl,T2609C,Escherichia coli,telithromycin,1,
+rrl,T754A,Escherichia coli,erythromycin|telithromycin,1,10027979
+rrs,A1055G,Escherichia coli,tetracycline,1,16269538
+rrs,A1519C,Escherichia coli,kasugamycin,1,10512710
+rrs,A1519G,Escherichia coli,kasugamycin,1,10512710
+rrs,A1519T,Escherichia coli,kasugamycin,1,10512710
+rrs,A523C,Escherichia coli,streptomycin,1,3054810
+rrs,A794G,Escherichia coli,kasugamycin,1,10512710
+rrs,A794T,Escherichia coli,kasugamycin,1,10512710
+rrs,A964G,Escherichia coli,tetracycline,1,16269538
+rrs,C1054T,Escherichia coli,tetracycline,1,16269538
+rrs,C1065T,Salmonella enterica,spectinomycin,1,
+rrs,C1066T,Escherichia coli,spectinomycin,1,8127669
+rrs,C1191T,Neisseria gonorrhoeae,spectinomycin,1,2138078
+rrs,C1192G,Escherichia coli,spectinomycin,1,
+rrs,C528T,Escherichia coli,streptomycin,1,16269538
+rrs,G1053A,Escherichia coli,tetracycline,1,16269538
+rrs,G1064A,Escherichia coli,spectinomycin,1,8127669
+rrs,G1064C,Escherichia coli,spectinomycin,1,8127669
+rrs,G1064T,Escherichia coli,spectinomycin,1,8127669
+rrs,G1068A,Escherichia coli,spectinomycin,1,16269538
+rrs,G527T,Escherichia coli,streptomycin,1,16269538
+rrs,G926A,Escherichia coli,kasugamycin,1,10512710
+rrs,G926C,Escherichia coli,kasugamycin,1,10512710
+rrs,G926T,Escherichia coli,kasugamycin,1,10512710

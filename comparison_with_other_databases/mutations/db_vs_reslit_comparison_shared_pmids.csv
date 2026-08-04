@@ -1,0 +1,7 @@
+Database_A,Database_B,Unique_mutation_organism_in_A,Correct_same_species,Genus_only_diff_species,Different_from_B,Correct_%,B_total_unique
+AMRFinder,ResLit,9,1,0,8,11.1%,7
+ResLit,AMRFinder,7,1,0,4,14.3%,9
+CARD,ResLit,31,4,0,27,12.9%,19
+ResLit,CARD,19,4,0,15,21.1%,31
+ResFinder,ResLit,137,6,6,125,4.4%,39
+ResLit,ResFinder,39,6,12,21,15.4%,137

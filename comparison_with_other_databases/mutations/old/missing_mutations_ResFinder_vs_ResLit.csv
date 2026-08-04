@@ -1,0 +1,247 @@
+Gene,Nucleotide_Change,Organisms,Resistance,Papers_reporting,PMIDs
+acrr,del382CAGGCCCAGCGGCAG,Klebsiella pneumoniae,"Norfloxacin, Ciprofloxacin",1,12936981
+acrr,del430ACCTTGAAAGAG,Klebsiella pneumoniae,"Norfloxacin, Ciprofloxacin",1,12936981
+ahpc,A-4G,Mycobacterium tuberculosis,Isoniazid,1,19209951
+ahpc,C-20T,Mycobacterium tuberculosis,Isoniazid,1,19209951
+ahpc,C-39T,Mycobacterium tuberculosis,Isoniazid,1,19209951
+ahpc,C-72T,Mycobacterium tuberculosis,Isoniazid,1,
+ahpc,C-81T,Mycobacterium tuberculosis,Isoniazid,1,10884617
+ahpc,G-48A,Mycobacterium tuberculosis,Isoniazid,3,10884617; 19209951; 23561273
+ahpc,G-48T,Mycobacterium tuberculosis,Isoniazid,3,10884617; 19209951; 23561273
+ahpc,G-51T,Mycobacterium tuberculosis,Isoniazid,1,10884617
+ahpc,G-5A,Mycobacterium tuberculosis,Isoniazid,1,19209951
+ahpc,G-66A,Mycobacterium tuberculosis,Isoniazid,1,19209951
+ahpc,G-74A,Mycobacterium tuberculosis,Isoniazid,2,10884617; 19209951
+ahpc,T-44A,Mycobacterium tuberculosis,Isoniazid,1,19209951
+ahpc,T-49G,Mycobacterium tuberculosis,Isoniazid,1,19209951
+ampc,C-42A,Escherichia coli,"Ampicillin, Ampicillin+clavulanic acid, Amoxicillin, Amoxicillin+clavulanic acid, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Piperacillin",1,21653764
+ampc,C-42G,Escherichia coli,"Ampicillin, Ampicillin+clavulanic acid, Amoxicillin, Amoxicillin+clavulanic acid, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Piperacillin",1,21653764
+ampc,T-32C,Escherichia coli,"Ampicillin, Ampicillin+clavulanic acid, Amoxicillin, Amoxicillin+clavulanic acid, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Piperacillin",1,21653764
+ampc,T-32G,Escherichia coli,"Ampicillin, Ampicillin+clavulanic acid, Amoxicillin, Amoxicillin+clavulanic acid, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Piperacillin",1,21653764
+ampc,ins-13G,Escherichia coli,"Ampicillin, Ampicillin+clavulanic acid, Amoxicillin, Amoxicillin+clavulanic acid, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Piperacillin",1,21653764
+ampc,ins-13GT,Escherichia coli,"Ampicillin, Ampicillin+clavulanic acid, Amoxicillin, Amoxicillin+clavulanic acid, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Piperacillin",1,21653764
+ampc,ins-14GT,Escherichia coli,"Ampicillin, Ampicillin+clavulanic acid, Amoxicillin, Amoxicillin+clavulanic acid, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Piperacillin",1,21653764
+ampc,ins-15TG,Escherichia coli,"Ampicillin, Ampicillin+clavulanic acid, Amoxicillin, Amoxicillin+clavulanic acid, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Piperacillin",1,21653764
+ampc,ins-16GT,Escherichia coli,"Ampicillin, Ampicillin+clavulanic acid, Amoxicillin, Amoxicillin+clavulanic acid, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Piperacillin",1,21653764
+eis,C-8A,Mycobacterium tuberculosis,Kanamycin,1,23995137
+eis,G-54T,Mycobacterium tuberculosis,Kanamycin,1,23995137
+eis,T-53G,Mycobacterium tuberculosis,Kanamycin,1,23995137
+emba,C-12A,Mycobacterium tuberculosis,Ethambutol,1,
+emba,C-8T,Mycobacterium tuberculosis,Ethambutol,1,
+emba,G-43C,Mycobacterium tuberculosis,Ethambutol,1,
+embb,del983A,Mycobacterium tuberculosis,Ethambutol,1,19209951
+etha,T-65C,Mycobacterium tuberculosis,Ethionamide,1,29358649
+etha,del110A,Mycobacterium tuberculosis,Ethionamide,1,19209951
+etha,del1290C,Mycobacterium tuberculosis,Ethionamide,1,19209951
+etha,del1322GC,Mycobacterium tuberculosis,Ethionamide,1,19209951
+etha,del703T,Mycobacterium tuberculosis,Ethionamide,1,19209951
+etha,del768G,Mycobacterium tuberculosis,Ethionamide,1,19209951
+fabg1,A-11T,Mycobacterium tuberculosis,Isoniazid,1,19209951
+fabg1,A-16G,Mycobacterium tuberculosis,Isoniazid,2,19209951; Jin_et_al._2012
+fabg1,A-92T,Mycobacterium tuberculosis,Isoniazid,1,19209951
+fabg1,G-24T,Mycobacterium tuberculosis,Isoniazid,2,10884617; 19209951
+fabg1,G-67C,Mycobacterium tuberculosis,Isoniazid,1,19209951
+fabg1,T-5A,Mycobacterium tuberculosis,Isoniazid,1,19209951
+fabg1,T-8A,Mycobacterium tuberculosis,Isoniazid,6,10884617; 19209951; 19486070; 22461677; 23561273; Jin_et_al._2012
+fabg1,T-8G,Mycobacterium tuberculosis,Isoniazid,6,10884617; 19209951; 19486070; 22461677; 23561273; Jin_et_al._2012
+fabg10,C-15T,Mycobacterium tuberculosis,"Ethionamide,Isoniazid",1,22461677
+fabg11,C-15T,Mycobacterium tuberculosis,"Ethionamide,Isoniazid",1,Jin_et_al._2012
+fabg12,T-8C,Mycobacterium tuberculosis,Ethionamide,1,20974869
+fabg2,G-17T,Mycobacterium tuberculosis,"Ethionamide,Isoniazid",1,23561273
+fabg3,G-17T,Mycobacterium tuberculosis,"Ethionamide,Isoniazid",1,22461677
+fabg4,C-15T,Mycobacterium tuberculosis,"Ethionamide,Isoniazid",1,10944230
+fabg5,C-15T,Mycobacterium tuberculosis,"Ethionamide,Isoniazid",1,19209951
+fabg6,C-15T,Mycobacterium tuberculosis,"Ethionamide,Isoniazid",1,23561273
+fabg7,C-15T,Mycobacterium tuberculosis,"Ethionamide,Isoniazid",1,19486070
+fabg8,C-15T,Mycobacterium tuberculosis,"Ethionamide,Isoniazid",1,Wang_et_al._2013
+fabg9,C-15T,Mycobacterium tuberculosis,"Ethionamide,Isoniazid",1,10884617
+idsa2,A-65G,Mycobacterium tuberculosis,Capreomycin,1,29358649
+katg,A-10C,Mycobacterium tuberculosis,Isoniazid,1,24055765
+katg,G-12A,Mycobacterium tuberculosis,Isoniazid,1,24055765
+katg,G-7A,Mycobacterium tuberculosis,Isoniazid,1,24055765
+katg,del1037G,Mycobacterium tuberculosis,Isoniazid,1,24731071
+katg,del1091T,Mycobacterium tuberculosis,Isoniazid,2,1920995; 24731071
+katg,del109G,Mycobacterium tuberculosis,Isoniazid,2,1920995; 24731071
+katg,del1203C,Mycobacterium tuberculosis,Isoniazid,1,24731071
+katg,del149A,Mycobacterium tuberculosis,Isoniazid,2,1920995; 24731071
+katg,del152ACCCGGCCGTCGCTG,Mycobacterium tuberculosis,Isoniazid,1,24731071
+katg,del1667C,Mycobacterium tuberculosis,Isoniazid,2,1920995; 24731071
+katg,del2203GAC,Mycobacterium tuberculosis,Isoniazid,2,1920995; 24731071
+katg,del28GAAACCAC,Mycobacterium tuberculosis,Isoniazid,1,24731071
+katg,del358GGCGGCGCCGGG,Mycobacterium tuberculosis,Isoniazid,1,24731071
+katg,del561G,Mycobacterium tuberculosis,Isoniazid,1,19209951
+katg,del572G,Mycobacterium tuberculosis,Isoniazid,2,1920995; 24731071
+katg,del795G,Mycobacterium tuberculosis,Isoniazid,1,19209951
+katg,del803G,Mycobacterium tuberculosis,Isoniazid,1,24731071
+katg,del928A,Mycobacterium tuberculosis,Isoniazid,2,1920995; 24731071
+katg,ins1171CTA,Mycobacterium tuberculosis,Isoniazid,1,24731071
+katg,ins1330A,Mycobacterium tuberculosis,Isoniazid,1,24731071
+katg,ins1560TGCAGCCACAAGTCGGGTGGGAGGTCAACGACCCCGACGGGGATCTGCGCAAGGTCATTCGCAC,Mycobacterium tuberculosis,Isoniazid,1,24731071
+katg,ins1850AC,Mycobacterium tuberculosis,Isoniazid,1,24731071
+katg,ins186C,Mycobacterium tuberculosis,Isoniazid,1,24731071
+katg,ins196CCCC,Mycobacterium tuberculosis,Isoniazid,1,24731071
+katg,ins373G,Mycobacterium tuberculosis,Isoniazid,1,24731071
+katg,ins374CAT,Mycobacterium tuberculosis,Isoniazid,1,24731071
+katg,ins902T,Mycobacterium tuberculosis,Isoniazid,1,24731071
+katg,ins99A,Mycobacterium tuberculosis,Isoniazid,1,24731071
+mtrr,del-57A,Neisseria gonorrhoeae,"Penicillin, Tetracycline, Cephalosporins, Macrolide",1,24982323
+nuoa,G-314T,Mycobacterium tuberculosis,XDR-TB,1,
+pand,del393G,Mycobacterium tuberculosis,Pyrazinamide,1,26038753
+pbp5,ins1396AGC,Enterococcus faecium,Ampicillin,2,25182648; 2518265
+pbp5,ins1396AGT,Enterococcus faecium,Ampicillin,2,25182648; 2518265
+pbp5,ins1396GAC,Enterococcus faecium,Ampicillin,2,25182648; 2518265
+pbp5,ins1396GAT,Enterococcus faecium,Ampicillin,2,25182648; 2518265
+pbp5,ins1396TCA,Enterococcus faecium,Ampicillin,2,25182648; 2518265
+pbp5,ins1396TCC,Enterococcus faecium,Ampicillin,2,25182648; 2518265
+pbp5,ins1396TCG,Enterococcus faecium,Ampicillin,2,25182648; 2518265
+pbp5,ins1396TCT,Enterococcus faecium,Ampicillin,2,25182648; 2518265
+pena,ins1035GAC,Neisseria gonorrhoeae,Cephalosporins,2,2498232; 24982323
+pena,ins1035GAT,Neisseria gonorrhoeae,Cephalosporins,2,2498232; 24982323
+pnca,T-10C,Mycobacterium tuberculosis,Pyrazinamide,1,22825123
+pnca,T-12G,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 2282512
+pnca,del118GACTACCATCACGTCGTGGCAACCAAGGACTTC,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,del158A,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del161C,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del162G,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del172T,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del1ATGCGGGC,Mycobacterium tuberculosis,Pyrazinamide,2,2473107; 24731071
+pnca,del1ATGCGGGCGTT,Mycobacterium tuberculosis,Pyrazinamide,2,2473107; 24731071
+pnca,del239A,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del288G,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del28C,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del307TACAG,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del312C,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del341C,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del379GAGGTCGATGT,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,del381GG,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del386ATGT,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del391G,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del395GTATTGCCACC,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,del406G,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del416TG,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del436G,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del443G,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del446ATGGCTTG,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,del452T,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del475C,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del47G,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del512C,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del59C,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del64A,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del70G,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del71G,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del84C,Mycobacterium tuberculosis,Pyrazinamide,2,19209951; 24731071
+pnca,del88GCCATCAGCGACTACCTGGCCGAA,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins101T,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins137G,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins163T,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins193A,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins219CGCATTGCCG,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins222G,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins288T,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins302A,Mycobacterium tuberculosis,Pyrazinamide,2,2473107; 24731071
+pnca,ins302G,Mycobacterium tuberculosis,Pyrazinamide,2,2473107; 24731071
+pnca,ins307C,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins369AG,Mycobacterium tuberculosis,Pyrazinamide,2,2473107; 24731071
+pnca,ins369NNNNNNNNNNNNNNNNNN,Mycobacterium tuberculosis,Pyrazinamide,2,2473107; 24731071
+pnca,ins383AG,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins389AGGTCGATG,Mycobacterium tuberculosis,Pyrazinamide,2,2473107; 24731071
+pnca,ins389GAGGTCGAT,Mycobacterium tuberculosis,Pyrazinamide,2,2473107; 24731071
+pnca,ins392GG,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins393G,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins398T,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins404C,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins408C,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins415G,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins421G,Mycobacterium tuberculosis,Pyrazinamide,2,2473107; 24731071
+pnca,ins421GG,Mycobacterium tuberculosis,Pyrazinamide,2,2473107; 24731071
+pnca,ins429GG,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins466T,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins481TGAC,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins502GC,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins519NNNNN,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins533C,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+pnca,ins53GG,Mycobacterium tuberculosis,Pyrazinamide,1,24731071
+rpob,del1275CGGCAC,Mycobacterium tuberculosis,Rifampicin,1,24731071
+rpob,del1276GGCACC,Mycobacterium tuberculosis,Rifampicin,2,19209951; 24731071
+rpob,del1294CAATTC,Mycobacterium tuberculosis,Rifampicin,2,19209951; 24731071
+rpob,del1295AATTCATGG,Mycobacterium tuberculosis,Rifampicin,2,19209951; 24731071
+rpob,del1297TTC,Mycobacterium tuberculosis,Rifampicin,2,19209951; 24731071
+rpob,del1297TTCATGGAC,Mycobacterium tuberculosis,Rifampicin,2,19209951; 24731071
+rpob,del1299CAT,Mycobacterium tuberculosis,Rifampicin,2,19209951; 24731071
+rpob,del1299CATGGACCAGAA,Mycobacterium tuberculosis,Rifampicin,2,19209951; 24731071
+rpob,del1300ATGGACCAGAAC,Mycobacterium tuberculosis,Rifampicin,2,19209951; 24731071
+rpob,del1303GACCAG,Mycobacterium tuberculosis,Rifampicin,2,19209951; 24731071
+rpob,del1306CAG,Mycobacterium tuberculosis,Rifampicin,2,19209951; 24731071
+rpob,del1306CAGAAC,Mycobacterium tuberculosis,Rifampicin,2,19209951; 24731071
+rpob,del1308GAACAA,Mycobacterium tuberculosis,Rifampicin,2,19209951; 24731071
+rpob,del1312AAC,Mycobacterium tuberculosis,Rifampicin,2,19209951; 24731071
+rpob,del1336AAG,Mycobacterium tuberculosis,Rifampicin,2,19209951; 24731071
+rpob,ins1294TTC,Mycobacterium tuberculosis,Rifampicin,2,2473107; 24731071
+rpob,ins1294TTCATG,Mycobacterium tuberculosis,Rifampicin,2,2473107; 24731071
+rpob,ins1297CGG,Mycobacterium tuberculosis,Rifampicin,1,24731071
+rpob,ins1300TTC,Mycobacterium tuberculosis,Rifampicin,1,24731071
+rpob,ins1419CAC,Staphylococcus aureus,Rifampicin,1,18716806
+rpob,ins1419CAT,Staphylococcus aureus,Rifampicin,1,18716806
+rpob,ins1419GGA,Staphylococcus aureus,Rifampicin,1,21393177
+rpob,ins1419GGC,Staphylococcus aureus,Rifampicin,1,21393177
+rpob,ins1419GGG,Staphylococcus aureus,Rifampicin,1,21393177
+rpob,ins1419GGT,Staphylococcus aureus,Rifampicin,1,21393177
+rpse,del78GTT,Neisseria gonorrhoeae,Spectinomycin,1,23183436
+rrl,A2050G,Neisseria gonorrhoeae,Macrolide,2,12183262; 2058512
+rrl,A2051G,Neisseria gonorrhoeae,Macrolide,2,12183262; 2058512
+rrl,A2074G,Campylobacter jejuni,"Azithromycin, Erythromycin, Clindamycin, Telithromycin",1,16713726
+rrl,A2074T,Campylobacter jejuni,"Azithromycin, Erythromycin, Clindamycin, Telithromycin",1,16713726
+rrl,C2603T,Neisseria gonorrhoeae,Macrolide,1,12183262
+rrl,C2604T,Neisseria gonorrhoeae,Macrolide,1,12183262
+rrl,G2032A,Escherichia coli,Linezolid,1,10986233
+rrl,G2032C,Escherichia coli,Linezolid,1,10986233
+rrl,G2032T,Escherichia coli,Linezolid,1,10986233
+rrl,G2447T,Escherichia coli,Linezolid,1,10986233
+rrl,T2500A,Staphylococcus aureus,Linezolid,1,15216466
+rrl,T2609C,Escherichia coli,Telithromycin,1,11698379
+rrl,T754A,Escherichia coli,"Erythromycin,Telithromycin",1,10027979
+rrs,A1519C,Escherichia coli,Kasugamycin,1,10512710
+rrs,A1519G,Escherichia coli,Kasugamycin,1,10512710
+rrs,A1519T,Escherichia coli,Kasugamycin,1,10512710
+rrs,A523C,Escherichia coli,Streptomycin,1,3054810
+rrs,A794G,Escherichia coli,Kasugamycin,2,1051271; 10512710
+rrs,A794T,Escherichia coli,Kasugamycin,2,1051271; 10512710
+rrs,A907T,Mycobacterium tuberculosis,Streptomycin,3,19209951; 23561273; 23906937
+rrs,C1065T,Salmonella enterica,Spectinomycin,1,12402084
+rrs,C1066T,Escherichia coli,Spectinomycin,1,7885842
+rrs,C1192G,Escherichia coli,Spectinomycin,1,2447957
+rrs,C1229T,Mycobacterium tuberculosis,Streptomycin,2,23561273; 23906937
+rrs,C462T,Mycobacterium tuberculosis,Streptomycin,1,19209951
+rrs,C516T,Mycobacterium tuberculosis,Streptomycin,1,23906937
+rrs,C905A,Mycobacterium tuberculosis,Streptomycin,2,1920995; 19209951
+rrs,C905G,Mycobacterium tuberculosis,Streptomycin,2,1920995; 19209951
+rrs,G1064A,Escherichia coli,Spectinomycin,1,8127669
+rrs,G1064C,Escherichia coli,Spectinomycin,1,8127669
+rrs,G1064T,Escherichia coli,Spectinomycin,1,8127669
+rrs,G190A,Mycobacterium tuberculosis,Streptomycin,1,19209951
+rrs,G277C,Mycobacterium tuberculosis,Streptomycin,2,23561273; 23906937
+rrs,G427C,Mycobacterium tuberculosis,Streptomycin,2,1920995; 19209951
+rrs,G427T,Mycobacterium tuberculosis,Streptomycin,2,1920995; 19209951
+rrs,G628C,Mycobacterium tuberculosis,Streptomycin,1,19209951
+rrs,G926A,Escherichia coli,Kasugamycin,1,10512710
+rrs,G926C,Escherichia coli,Kasugamycin,1,10512710
+rrs,G926T,Escherichia coli,Kasugamycin,1,10512710
+rrs,T1239C,Mycobacterium tuberculosis,Streptomycin,1,19209951
+rv0678,ins193G,Mycobacterium tuberculosis,"Bedaquiline,Clofazimine",1,25010492
+rv0678,ins39A,Mycobacterium tuberculosis,"Bedaquiline,Clofazimine",1,25010492
+thya,del111T,Mycobacterium tuberculosis,Para-aminosalicyclic acid,1,Zhang_et_al._2014
+thya,del472C,Mycobacterium tuberculosis,Para-aminosalicyclic acid,1,Zhang_et_al._2014
+thya,del86C,Mycobacterium tuberculosis,Para-aminosalicyclic acid,1,Zhang_et_al._2014
+thya,ins218CACGAGCAC,Mycobacterium tuberculosis,Para-aminosalicyclic acid,1,Zhang_et_al._2014
+thya,ins373T,Mycobacterium tuberculosis,Para-aminosalicyclic acid,1,Zhang_et_al._2014
+tlya,del23A,Mycobacterium tuberculosis,Capreomycin,1,19209951
+tlya,del26C,Mycobacterium tuberculosis,Capreomycin,1,19209951
+tlya,del310G,Mycobacterium tuberculosis,Capreomycin,1,19209951
+tlya,del400A,Mycobacterium tuberculosis,Capreomycin,1,19209951
+tlya,del477G,Mycobacterium tuberculosis,Capreomycin,1,19209951
+tlya,del586G,Mycobacterium tuberculosis,Capreomycin,1,19209951
+tlya,del653T,Mycobacterium tuberculosis,Capreomycin,1,19209951
+tlya,del673GT,Mycobacterium tuberculosis,Capreomycin,1,19209951
+tlya,del67GCC,Mycobacterium tuberculosis,Capreomycin,1,19209951
+tlya,del758C,Mycobacterium tuberculosis,Capreomycin,1,19209951

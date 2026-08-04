@@ -1,0 +1,4 @@
+Database,Shared_PMIDs,Qualifying_PMIDs,DB_nuc_rows,ResLit_nuc_rows,In_ResLit,Not_in_ResLit,ResLit_only,Match_%
+AMRFinder,131,131,445,671,231,214,380,51.9%
+CARD,78,78,1088,398,236,852,162,21.7%
+ResFinder,29,29,607,151,150,457,82,24.7%

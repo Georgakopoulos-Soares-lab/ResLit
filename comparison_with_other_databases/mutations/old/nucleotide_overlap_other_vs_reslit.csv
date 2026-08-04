@@ -1,0 +1,110 @@
+Source_DB,Nucleotide_Change,Organism,ResLit_species,Same_species,Gene,Resistance,ResLit_Gene,ResLit_Resistance,ResLit_PMID
+AMRFinder,A2074C,Campylobacter jejuni,campylobacter jejuni,True,rrl,MACROLIDE,rrl,erythromycin,39338908
+AMRFinder,A2074C,Campylobacter coli,campylobacter jejuni,False,rrl,MACROLIDE,rrl,erythromycin,39338908
+AMRFinder,A2075G,Campylobacter jejuni,campylobacter coli,False,rrl,MACROLIDE,rrl,erythromycin,39316598
+AMRFinder,A2075G,Campylobacter coli,campylobacter coli,True,rrl,MACROLIDE,rrl,erythromycin,39316598
+AMRFinder,G2576T,Enterococcus faecalis,enterococcus faecium,False,rrl,LINEZOLID,rplC,linezolid,41496757
+AMRFinder,G2576T,Enterococcus faecium,enterococcus faecium,True,rrl,LINEZOLID,rplC,linezolid,41496757
+AMRFinder,A1408G,Escherichia coli,escherichia coli,True,rrs,GENTAMICIN C/NEOMYCIN/PAROMOMYCIN,rrsB,AMK|KAN,37537169
+AMRFinder,C-42T,Escherichia coli,escherichia coli,True,ampc,CEPHALOSPORIN,ampC,cefotaxime,33843573
+AMRFinder,T-32A,Escherichia coli,escherichia coli,True,ampc,CEPHALOSPORIN,ampC,cefoxitin|cefixime|cefuroxime,38534653
+AMRFinder,A2059G,Neisseria gonorrhoeae,neisseria gonorrhoeae,True,rrl,AZITHROMYCIN,ermB,macrolides,36142410
+AMRFinder,C2611T,Neisseria gonorrhoeae,neisseria gonorrhoeae,True,rrl,AZITHROMYCIN,rrl,erythromycin|azithromycin,12183262
+CARD,a2075g,Campylobacter jejuni,campylobacter coli,False,rrl,Erythromycin,rrl,erythromycin,39316598
+CARD,a2074c,Campylobacter jejuni,campylobacter jejuni,True,rrl,Erythromycin,rrl,erythromycin,39338908
+CARD,a1408g,Escherichia coli,escherichia coli,True,rrs,Gentamicin C,rrsB,AMK|KAN,37537169
+CARD,a1408g,Escherichia coli,escherichia coli,True,16rrsb,Kanamycin,rrsB,AMK|KAN,37537169
+CARD,a1408g,Escherichia coli,escherichia coli,True,16rrsb,Neomycin,rrsB,AMK|KAN,37537169
+CARD,a1408g,Escherichia coli,escherichia coli,True,16rrsb,Paromomycin,rrsB,AMK|KAN,37537169
+CARD,a1401g,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Amikacin,rrs,aminoglycosides,35005254
+CARD,a514c,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Amikacin,rpoB,rifampicin,32938393
+CARD,g1484t,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Amikacin,rrs,amikacin|kanamycin,35311541
+CARD,c1402t,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Amikacin,rrs,streptomycin,39730579
+CARD,g1484t,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,"AAC Abbreviation
+CAP    Capreomycin
+CAP    capreomycin
+Name: Molecule, dtype: object",rrs,amikacin|kanamycin,35311541
+CARD,c1402t,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,"AAC Abbreviation
+CAP    Capreomycin
+CAP    capreomycin
+Name: Molecule, dtype: object",rrs,streptomycin,39730579
+CARD,a1401g,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,"AAC Abbreviation
+CAP    Capreomycin
+CAP    capreomycin
+Name: Molecule, dtype: object",rrs,aminoglycosides,35005254
+CARD,a514c,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,"AAC Abbreviation
+CAP    Capreomycin
+CAP    capreomycin
+Name: Molecule, dtype: object",rpoB,rifampicin,32938393
+CARD,a1401g,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Kanamycin,rrs,aminoglycosides,35005254
+CARD,c517t,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Kanamycin,rrs,streptomycin,39179783
+CARD,a514c,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Kanamycin,rpoB,rifampicin,32938393
+CARD,c1402t,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Kanamycin,rrs,streptomycin,39730579
+CARD,g1484t,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Kanamycin,rrs,amikacin|kanamycin,35311541
+CARD,c1402a,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Kanamycin,rrs,amikacin|kanamycin,35311541
+CARD,c517t,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Streptomycin,rrs,streptomycin,39179783
+CARD,c492t,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Streptomycin,rrs,kanamycin,37886522
+CARD,c513t,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Streptomycin,rrs,streptomycin,35005254
+CARD,a1401g,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Streptomycin,rrs,aminoglycosides,35005254
+CARD,a514c,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Streptomycin,rpoB,rifampicin,32938393
+CARD,a514t,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Streptomycin,rpoB,rifampicin,32938393
+CARD,a1401g,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Viomycin,rrs,aminoglycosides,35005254
+CARD,c1402t,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,16rrns,Amikacin,rrs,streptomycin,39730579
+CARD,g1484t,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,16rrns,Amikacin,rrs,amikacin|kanamycin,35311541
+CARD,a1401g,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,16rrns,Amikacin,rrs,aminoglycosides,35005254
+CARD,a514c,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,16rrns,Amikacin,rpoB,rifampicin,32938393
+CARD,a1401g,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,16rrns,Kanamycin,rrs,aminoglycosides,35005254
+CARD,c1402t,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,16rrns,Kanamycin,rrs,streptomycin,39730579
+CARD,a514c,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,16rrns,Kanamycin,rpoB,rifampicin,32938393
+CARD,g1484t,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,16rrns,Kanamycin,rrs,amikacin|kanamycin,35311541
+CARD,a2059g,Neisseria gonorrhoeae,neisseria gonorrhoeae,True,rrl,Azithromycin,ermB,macrolides,36142410
+CARD,c2611t,Neisseria gonorrhoeae,neisseria gonorrhoeae,True,rrl,Azithromycin,rrl,erythromycin|azithromycin,12183262
+ResFinder,A2074C,Campylobacter jejuni,campylobacter jejuni,True,rrl,"Azithromycin, Erythromycin, Clindamycin, Telithromycin",rrl,erythromycin,39338908
+ResFinder,A2075G,Campylobacter jejuni,campylobacter coli,False,rrl,"Azithromycin, Erythromycin, Clindamycin, Telithromycin",rrl,erythromycin,39316598
+ResFinder,A1408G,Escherichia coli,escherichia coli,True,rrs,"Gentamicin C, Kanamycin A, Neomycin, Paromomycin",rrsB,AMK|KAN,37537169
+ResFinder,C-42T,Escherichia coli,escherichia coli,True,ampcpromotersize53bp,"Ampicillin, Ampicillin+clavulanic acid, Amoxicillin, Amoxicillin+clavulanic acid, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Piperacillin",ampC,cefotaxime,33843573
+ResFinder,T-32A,Escherichia coli,escherichia coli,True,ampcpromotersize53bp,"Ampicillin, Ampicillin+clavulanic acid, Amoxicillin, Amoxicillin+clavulanic acid, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Piperacillin",ampC,cefoxitin|cefixime|cefuroxime,38534653
+ResFinder,A514C,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Amikacin,rpoB,rifampicin,32938393
+ResFinder,C517T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,"Amikacin,Streptomycin",rrs,streptomycin,39179783
+ResFinder,C517T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Streptomycin,rrs,streptomycin,39179783
+ResFinder,A1338C,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Amikacin,rpoB,rifampin,40887591
+ResFinder,A1401G,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,"Amikacin,Capreomycin,KANAMYCIN,Streptomycin",rrs,aminoglycosides,35005254
+ResFinder,A1401G,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,"Amikacin,Capreomycin,KANAMYCIN",rrs,aminoglycosides,35005254
+ResFinder,C1402A,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,"Amikacin,Capreomycin,KANAMYCIN",rrs,amikacin|kanamycin,35311541
+ResFinder,C1402T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,"Amikacin,Capreomycin,KANAMYCIN",rrs,streptomycin,39730579
+ResFinder,G1484T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,"Amikacin,Capreomycin,KANAMYCIN,Streptomycin",rrs,amikacin|kanamycin,35311541
+ResFinder,C-16T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,embapromotersize115bp,Ethambutol,thyX,para-aminosalicylic acid,35311541
+ResFinder,C-12T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,embapromotersize115bp,Ethambutol,eis,kanamycin,26927983
+ResFinder,C-11A,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,embapromotersize115bp,Ethambutol,embA,EMB,40023848
+ResFinder,G-17T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,fabg1promotersize223bp,"Ethionamide,Isoniazid",inhA,ethionamide,24058399
+ResFinder,C-15T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,fabg1promotersize223bp,"Ethionamide,Isoniazid",inhA,isoniazid,34337183
+ResFinder,T-8C,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,fabg1promotersize223bp,Ethionamide,inhA,isoniazid,39731145
+ResFinder,C-54T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,ahpcpromotersize180bp,Isoniazid,ahpC,isoniazid,40261011
+ResFinder,C-52T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,ahpcpromotersize180bp,Isoniazid,ahpC,isoniazid,35907429
+ResFinder,G-5A,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,ahpcpromotersize180bp,Isoniazid,embB,ethambutol,29084750
+ResFinder,A-16G,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,fabg1promotersize223bp,Isoniazid,inhA,isoniazid,18784319
+ResFinder,T-8A,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,fabg1promotersize223bp,Isoniazid,inhA,isoniazid,40059193
+ResFinder,T-8C,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,fabg1promotersize223bp,Isoniazid,inhA,isoniazid,39731145
+ResFinder,T-8G,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,fabg1promotersize223bp,Isoniazid,inhA,isoniazid,40985744
+ResFinder,G-12A,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,katgpromotersize107bp,Isoniazid,eis,kanamycin,30348088
+ResFinder,G-10A,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,eispromotersize119bp,Kanamycin,eis,amikacin|kanamycin,41168684
+ResFinder,G-10C,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,eispromotersize119bp,Kanamycin,eis,kanamycin,26927983
+ResFinder,C-12T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,eispromotersize119bp,Kanamycin,eis,kanamycin,26927983
+ResFinder,C-14T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,eispromotersize119bp,Kanamycin,eis,kanamycin,28630205
+ResFinder,G-37T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,eispromotersize119bp,Kanamycin,eis,amikacin|kanamycin,41168684
+ResFinder,G2814T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrl,Linezolid,rrl,linezolid,40817101
+ResFinder,T-7C,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,pncapromotersize107bp,Pyrazinamide,pncA,pyrazinamide,10952570
+ResFinder,A-11G,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,pncapromotersize107bp,Pyrazinamide,pncA,pyrazinamide,20727143
+ResFinder,A-11C,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,pncapromotersize107bp,Pyrazinamide,pncA,pyrazinamide,20727143
+ResFinder,C492T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Streptomycin,rrs,kanamycin,37886522
+ResFinder,C513T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Streptomycin,rrs,streptomycin,35005254
+ResFinder,A514T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Streptomycin,rpoB,rifampicin,32938393
+ResFinder,A514C,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Streptomycin,rpoB,rifampicin,32938393
+ResFinder,C799T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Streptomycin,rrs,streptomycin,35311541
+ResFinder,G888A,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Streptomycin,rrs,streptomycin,35311541
+ResFinder,C1402T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,rrs,Streptomycin,rrs,streptomycin,39730579
+ResFinder,C-16T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,thyxpromotersize259bp,Para-aminosalicyclic acid,thyX,para-aminosalicylic acid,35311541
+ResFinder,C-8T,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,embapromotersize115bp,Ethambutol,alr,d-cycloserine,28971867
+ResFinder,C-16G,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,embapromotersize115bp,Ethambutol,embB,ethambutol,29084750
+ResFinder,G-43C,Mycobacterium tuberculosis,mycobacterium tuberculosis,True,embapromotersize115bp,Ethambutol,embB,ethambutol,29084750
+ResFinder,G2576T,Staphylococcus aureus,staphylococcus aureus,True,rrl,"Linezolid,Quinupristin+Dalfopristin,Chloramphenicol",rplV,linezolid,37013561

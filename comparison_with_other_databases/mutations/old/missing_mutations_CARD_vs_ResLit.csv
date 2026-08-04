@@ -1,0 +1,144 @@
+Gene,Nucleotide_Change,Organisms,Resistance,Papers_reporting,PMIDs
+rrl,a1410g,Helicobacter pylori,Clarithromycin,1,32708761
+rrl,a2045g,Neisseria gonorrhoeae,Azithromycin,1,30917979
+rrl,a2064g,Mycoplasmoides pneumoniae,Erythromycin,1,8593017
+rrl,a2071c,Mycoplasmoides genitalium,Multiple antibiotics,1,18990060
+rrl,a2071g,Mycoplasmoides genitalium,Multiple antibiotics,1,18990060
+rrl,a2071t,Mycoplasmoides genitalium,Multiple antibiotics,1,22532861
+rrl,a2072g,Mycoplasmoides gallisepticum; Mycoplasmoides genitalium,Multiple antibiotics; Pleuromutilin,2,18990060; 20487023
+rrl,a2073g,Mycoplasmoides gallisepticum,Pleuromutilin,1,20487023
+rrl,a2088c,Halobacterium salinarum,Chloramphenicol,1,2045374
+rrl,a2100g,Treponema pallidum,Erythromycin,1,15247355
+rrl,a2101g,Treponema pallidum,Erythromycin,1,19429763
+rrl,a2107c,Chlamydia trachomatis,Macrolides,1,15047540
+rrl,a2107g,Chlamydia trachomatis,Macrolides,1,26622462
+rrl,a2109g,Chlamydia trachomatis,Macrolides,1,26622462
+rrl,a2125g,Streptococcus pneumoniae,Macrolides,1,10898684
+rrl,a2126g,Streptococcus pneumoniae,Macrolides,1,10898684
+rrl,a2129c,Streptococcus pneumoniae,Multiple antibiotics,1,11120988
+rrl,a2142g,Helicobacter pylori,Clarithromycin,1,37485536
+rrl,a2144g,Helicobacter pylori,Clarithromycin,1,35002447
+rrl,a2145g,Neisseria gonorrhoeae,Azithromycin,1,26601852
+rrl,a2146c,Helicobacter pylori,Clarithromycin,1,35002447
+rrl,a2146t,Helicobacter pylori,Clarithromycin,1,35002447
+rrl,a2147c,Helicobacter pylori,Clarithromycin,1,35002447
+rrl,a2167g,Helicobacter pylori,Clarithromycin,1,32708761
+rrl,a2265t,Mycobacterium kansasii,Clarithromycin,1,9635911
+rrl,a2266c,Mycobacterium intracellulare,Clarithromycin,1,8192472
+rrl,a2266g,Mycobacterium intracellulare; Mycolicibacterium smegmatis,Clarithromycin,2,8192472; 9402018
+rrl,a2266t,Mycobacterium intracellulare,Clarithromycin,1,8192472
+rrl,a2267g,Mycolicibacterium smegmatis,Clarithromycin,1,9402018
+rrl,a2268c,Mycobacterium intracellulare,Azithromycin,1,8192472
+rrl,a2272c,Mycobacterium avium; Mycobacteroides abscessus; Mycobacteroides chelonae,Clarithromycin,2,8592991; 8807061
+rrl,a2272g,Mycobacteroides abscessus; Mycobacteroides chelonae,Clarithromycin,1,8807061
+rrl,a2273c,Mycobacteroides chelonae,Clarithromycin,1,8807061
+rrl,a2273g,Mycobacteroides chelonae,Clarithromycin,1,8807061
+rrl,a2274g,Mycobacterium avium,Clarithromycin,1,8592991
+rrl,a2274t,Mycobacterium avium,Clarithromycin,1,8592991
+rrl,a2305g,Streptomyces ambofaciens,Macrolides,1,2834204
+rrl,a2330t,Moraxella catarrhalis,Macrolides,1,25923017
+rrl,a2451t,Thermus thermophilus,Pleuromutilin,1,32526926
+rrl,a2517t,Mycoplasmoides gallisepticum,Pleuromutilin,1,20487023
+rrl,a2578t,Metamycoplasma hominis,Macrolides,1,12234836
+rrl,a2586t,Mycoplasmoides gallisepticum,Pleuromutilin,1,19154331
+rrl,a2663c,Chlamydia trachomatis,Macrolides,1,15047540
+rrl,c1707t,Helicobacter pylori,Clarithromycin,1,32708761
+rrl,c196a,Chlamydia trachomatis,Macrolides,1,17908942
+rrl,c2069a,Mycoplasmoides gallisepticum,Pleuromutilin,1,19154331
+rrl,c2248t,Helicobacter pylori,Clarithromycin,1,32708761
+rrl,c2452t,Thermus thermophilus,Pleuromutilin,1,32526926
+rrl,c2471t,Halobacterium salinarum,Chloramphenicol,1,2045374
+rrl,c2579t,Staphylococcus aureus,Linezolid,1,27727405
+rrl,c2600t,Neisseria gonorrhoeae,Azithromycin,1,25394255
+rrl,c2641a,Streptococcus pneumoniae,Macrolides,1,10898684
+rrl,c2641g,Streptococcus pneumoniae,Macrolides,1,10898684
+rrl,c2922t,Helicobacter pylori,Clarithromycin,1,32708761
+rrl,c656t,Clostridioides difficile,Multiple antibiotics,1,17509804
+rrl,g1627a,Chlamydomonas reinhardtii,Erythromycin,1,11120937
+rrl,g2032a,Escherichia coli,Clindamycin; Oxazolidinone,2,10986233; 1531223
+rrl,g2032c,Escherichia coli,Oxazolidinone,1,10986233
+rrl,g2032t,Escherichia coli,Clarithromycin; Oxazolidinone,2,10986233; 1531223
+rrl,g2075t,Mycoplasmoides gallisepticum,Pleuromutilin,1,20487023
+rrl,g2087a,Metamycoplasma hominis,Macrolides,1,12234836
+rrl,g2281a,Propionibacterium freudenreichii,Macrolides,1,9145890
+rrl,g2287a,Helicobacter pylori,Clarithromycin,1,32708761
+rrl,g2295a,Propionibacterium freudenreichii,Macrolides,1,9145890
+rrl,g2447t,Escherichia coli,Oxazolidinone,1,10986233
+rrl,g2461a,Mycoplasmoides gallisepticum,Pleuromutilin,1,20487023
+rrl,g2461t,Mycoplasmoides gallisepticum,Pleuromutilin,1,19154331
+rrl,g2604t,Staphylococcus aureus,Linezolid,1,27727405
+rrl,t2500a,Thermus thermophilus,Pleuromutilin,1,32526926
+rrl,t2504g,Thermus thermophilus,Pleuromutilin,1,32526926
+rrl,t2518g,Mycoplasmoides gallisepticum,Pleuromutilin,1,19154331
+rrl,t2663c,Chlamydia trachomatis,Macrolides,1,26622462
+rrl,t754a,Escherichia coli,Multiple antibiotics,1,10027979
+rrs,a1055g,Escherichia coli,Tetracycline,1,16269538
+rrs,a1123c,Chlamydomonas reinhardtii,Streptomycin,1,2583478
+rrs,a1123g,Chlamydomonas reinhardtii,Streptomycin,1,2583478
+rrs,a1184g,Borreliella burgdorferi,Spectinomycin,1,16436695
+rrs,a1192g,Chlamydia psittaci,Spectinomycin,1,15980362
+rrs,a1355g,Mycobacteroides chelonae,Amikacin; Gentamicin C; Neomycin; Tobramycin,1,9607835
+rrs,a1389g,Mycolicibacterium smegmatis,Neomycin,1,9244267
+rrs,a1391g,Mycolicibacterium smegmatis,Kanamycin,1,9244267
+rrs,a1402g,Borreliella burgdorferi,Kanamycin,1,16436695
+rrs,a1519c,Escherichia coli,Kasugamicin,1,10512710
+rrs,a1519g,Escherichia coli,Kasugamicin,1,10512710
+rrs,a1519t,Escherichia coli,Kasugamicin,1,10512710
+rrs,a474c,Chlamydomonas reinhardtii,Streptomycin,1,2583478
+rrs,a503c,Mycolicibacterium smegmatis,Streptomycin,1,11557484
+rrs,a523c,Escherichia coli,Streptomycin,1,3054810
+rrs,a633g,Halobacterium salinarum,Pactamycin,1,9398510
+rrs,a794g,Escherichia coli,Kasugamicin,1,10512710
+rrs,a794t,Escherichia coli,Kasugamicin,1,10512710
+rrs,a858c,Chlamydomonas reinhardtii,Streptomycin,1,2583478
+rrs,a859g,Chlamydomonas reinhardtii,Streptomycin,1,2583478
+rrs,a926g,Helicobacter pylori,Tetracycline,1,20035020
+rrs,a928c,Helicobacter pylori,Tetracycline,1,20035020
+rrs,a964g,Escherichia coli,Tetracycline,1,16269538
+rrs,a965g,Helicobacter pylori,Tetracycline,1,12435699
+rrs,c1054t,Escherichia coli,Tetracycline,1,16269538
+rrs,c1066t,Escherichia coli; Salmonella enterica,Spectinomycin,2,12402084; 8127669
+rrs,c1185t,Borreliella burgdorferi,Spectinomycin,1,16436695
+rrs,c1192g,Escherichia coli,Spectinomycin,1,8127669
+rrs,c1193g,Chlamydia psittaci,Spectinomycin,1,15980362
+rrs,c1193t,Chlamydia psittaci,Spectinomycin,1,15980362
+rrs,c1194g,Pasteurella multocida,Spectinomycin,1,17371823
+rrs,c1198t,Neisseria gonorrhoeae,Spectinomycin,1,10770780
+rrs,c1376t,Mycobacteroides abscessus,Amikacin; Gentamicin; Kanamycin; Tobramycin,1,21652621
+rrs,c1439t,Mycolicibacterium smegmatis,Hyrgomycin B,1,12709313
+rrs,c1480t,Mycolicibacterium smegmatis,Hyrgomycin B,1,12709313
+rrs,c462t,Mycobacterium tuberculosis,Amikacin; Kanamycin,1,37224060
+rrs,c502t,Mycolicibacterium smegmatis,Streptomycin,1,11557484
+rrs,c506t,Mycolicibacterium smegmatis,Streptomycin,1,11557484
+rrs,c516t,Mycobacterium tuberculosis,Streptomycin,1,8192448
+rrs,c528t,Escherichia coli,Streptomycin,1,16269538
+rrs,c734t,Halobacterium salinarum,Pactamycin,1,9398510
+rrs,c735t,Halobacterium salinarum,Pactamycin,1,9398510
+rrs,c856t,Chlamydomonas reinhardtii,Streptomycin,1,2583478
+rrs,g1032c,Cutibacterium acnes,Tetracycline,1,9661007
+rrs,g1053a,Escherichia coli,Tetracycline,1,16269538
+rrs,g1064a,Escherichia coli,Spectinomycin,1,8127669
+rrs,g1064c,Escherichia coli,Spectinomycin,1,8127669
+rrs,g1064t,Escherichia coli,Spectinomycin,1,8127669
+rrs,g1065c,Neisseria meningitidis,Spectinomycin,1,10770780
+rrs,g1068a,Escherichia coli,Spectinomycin,1,16269538
+rrs,g1125a,Chlamydomonas reinhardtii,Streptomycin,1,2583478
+rrs,g1194c,Chlamydia psittaci,Spectinomycin,1,15980362
+rrs,g1458t,Mycobacteroides abscessus,Amikacin; Gentamicin; Kanamycin; Tobramycin,1,21652621
+rrs,g1475a,Mycolicibacterium smegmatis,Viomycin,1,9244267
+rrs,g1475t,Mycolicibacterium smegmatis,Viomycin,1,9244267
+rrs,g427c,Mycobacterium tuberculosis,Streptomycin,1,8192448
+rrs,g504c,Mycolicibacterium smegmatis,Streptomycin,1,11557484
+rrs,g527t,Escherichia coli,Streptomycin,1,16269538
+rrs,g926a,Escherichia coli,Kasugamicin,1,10512710
+rrs,g926c,Escherichia coli,Kasugamicin,1,10512710
+rrs,g926t,Escherichia coli,Kasugamicin,1,10512710
+rrs,g966t,Helicobacter pylori,Tetracycline,1,12435699
+rrs,t1348c,Mycolicibacterium smegmatis,Hyrgomycin B,1,12709313
+rrs,t1373a,Mycobacteroides abscessus,Amikacin; Gentamicin; Kanamycin; Tobramycin,1,21652621
+rrs,t1389a,Mycolicibacterium smegmatis,Kanamycin; Neomycin,1,9244267
+rrs,t1389c,Mycolicibacterium smegmatis,Hyrgomycin B,1,12709313
+rrs,t1441c,Mycolicibacterium smegmatis,Hyrgomycin B,1,12709313
+rrs,t1482c,Mycolicibacterium smegmatis,Hyrgomycin B,1,12709313
+rrs,t14g,Chlamydomonas reinhardtii,Streptomycin,1,2583478
+rrs,t1506a,Escherichia coli,Edeine,1,16269538

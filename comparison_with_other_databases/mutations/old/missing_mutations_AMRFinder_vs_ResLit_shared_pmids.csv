@@ -1,0 +1,9 @@
+Gene,Nucleotide_Change,Organisms,Resistance,Papers_reporting,PMIDs
+blaoxa143,A-14G,Acinetobacter pittii,CARBAPENEM,1,32582088
+blaoxa143,G-42A,Acinetobacter pittii,CARBAPENEM,1,32582088
+blashv,C-112A,Klebsiella pneumoniae,CEFIDEROCOL/CEPHALOSPORIN,1,10639363
+mtrr,A-53del,Neisseria gonorrhoeae,AZITHROMYCIN/BETA-LACTAM/TETRACYCLINE,2,12270819; 30087172
+mtrr,A-56C,Neisseria gonorrhoeae,BETA-LACTAM/TETRACYCLINE,1,30087172
+norm,A-7G,Neisseria gonorrhoeae,QUINOLONE,1,12533487
+norm,C-104T,Neisseria gonorrhoeae,QUINOLONE,1,12533487
+rrl,A2118G,Streptococcus pneumoniae,MACROLIDE/STREPTOGRAMIN,1,11120988
