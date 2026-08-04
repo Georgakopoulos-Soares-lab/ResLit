@@ -64,8 +64,9 @@ harmonised_pipeline/
 - **Vendored external git repos** (ResFinder's `resfinder_db`/`pointfinder_db`) — clone
   directly from `bitbucket.org/genomicepidemiology/resfinder_db` (used version: 2.6.0)
   and `bitbucket.org/genomicepidemiology/pointfinder_db` if needed.
-- The app-side database seed script and importers (loading these CSVs into SQLite/Supabase)
-  — out of scope for this folder, which is about producing the CSVs, not consuming them.
+- The app-side database seed script and importers (loading these CSVs into SQLite —
+  Supabase was fully removed, see `site/README.md`) — out of scope for this folder,
+  which is about producing the CSVs, not consuming them.
 
 ## Known limitations of the scripts as packaged here
 
