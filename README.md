@@ -1,168 +1,93 @@
 # ResLit — Antimicrobial Resistance Gene & Mutation Database
 
-A curated database of AMR genes and mutations extracted from scientific literature. Researchers can browse genes, mutations, and papers with direct PubMed links, filter by antibiotic, organism, location, and year, and download results as CSV.
+A curated database of AMR genes and mutations extracted from scientific literature, cross-referenced
+against CARD, ResFinder, and the NCBI Reference Gene Catalog (AMRFinder). Researchers can browse genes,
+mutations, and papers with direct PubMed links, filter by antibiotic, organism, location, and year, and
+download results as CSV.
 
-## Tech Stack
+## Repository Structure
 
-- **Next.js** — React framework with server-side rendering
-- **TypeScript** — type-safe throughout
-- **Tailwind CSS + shadcn/ui** — UI components
-- **Supabase** — PostgreSQL database with authentication and RLS
+This repo has three top-level parts: the literature-extraction pipeline that produces the data, the
+cross-database validation that checks it, and the web app that serves it.
 
-## Getting Started
+```
+ResLit/
+├── site/                              # Next.js application — see site/README.md for full details
+│   ├── app/                           # routes: browse/, curator/, download/, about/
+│   ├── components/
+│   ├── lib/
+│   │   ├── db/schema.ts               # Drizzle/SQLite schema — source of truth for tables
+│   │   └── actions/browse.ts          # validation-tier computation, filtering, pagination
+│   └── scripts/
+│       ├── seed-data/                 # the 4 harmonized CSVs actually loaded into the app's DB
+│       └── seed-sqlite.mjs            # pnpm db:seed — clears + reloads papers/genes/mutations
+│
+├── pipeline/                          # literature → cleaned data
+│   └── harmonised_pipeline/           # current pipeline (see its own README.md + PIPELINE.md)
+│       ├── reslit/                    # our own extraction: papers → LLM (Qwen3) → clean/harmonize
+│       │   ├── genes/                 #   → Full_list_genes_Reslit_harmonized_antib_bact.csv
+│       │   └── mutations/             #   → Full_list_mutations_Reslit_antib_bact.csv
+│       ├── other_databases/           # CARD + ResFinder + Reference Gene Catalog → merge/clean
+│       │   ├── genes/                 #   → Full_list_genes_otherDatabases_..._corrected.csv
+│       │   └── mutations/             #   → Full_list_mutations_otherDatabases_clean.csv
+│       ├── reference_data/            # static lookups (e.g. CARD ARO index)
+│       └── shared_scripts/            # scripts used by both pipelines
+│
+└── comparison_with_other_databases/   # does ResLit's own pipeline agree with the external DBs?
+    ├── genes/                         # gene-level overlap: Venn diagrams, per-database membership
+    └── mutations/                     # mutation-level overlap: Venn/UpSet plots, validation-tier
+                                        # reproduction (Confirmed/Established/Supported/Candidate)
+```
 
-### Prerequisites
+**How the pieces connect:** `pipeline/harmonised_pipeline/` turns raw papers and external-database
+exports into four harmonized CSVs (2 from ResLit's own pipeline, 2 merged from CARD/ResFinder/Reference
+Gene Catalog). `comparison_with_other_databases/` cross-checks those same four CSVs against each other —
+this is where the validation-tier logic (see below) gets worked out and verified against the live app's
+numbers. The identical four CSVs are copied into `site/scripts/seed-data/` and loaded into the app's
+database by `pnpm db:seed`. Nothing in `site/` re-derives the CSVs; it only consumes them.
 
-- Node.js 20+ (see note below) and pnpm
-- Supabase project with credentials in `.env.local`
+## Database
 
-> **Node version:** The system may have an older Node. Use nvm's Node 20 for all scripts:
-> `~/.nvm/versions/node/v20.11.0/bin/node`
+**SQLite** (`better-sqlite3` + Drizzle ORM), embedded and queried in-process — not Supabase/Postgres. This
+replaced an earlier Supabase-based backend (Postgres + Supabase Auth), migrated off after the Supabase
+project hit its free-tier egress quota. Auth is now hand-rolled (`site/lib/auth/`), not Supabase Auth.
 
-### Install and run
+See **`site/README.md`** for the full architecture writeup (why SQLite, deployment on Railway, backups)
+and **`site/lib/db/schema.ts`** for the table definitions.
+
+### Validation tiers
+
+Every gene and mutation gets a confidence tier, computed live from cross-database presence and how many
+distinct papers support it (`getMutationValidationTiers`/`getValidationTiers` in
+`site/lib/actions/browse.ts`):
+
+| Tier | Meaning |
+|---|---|
+| **Confirmed** | Reported in ≥ 2 source databases (ResLit + at least one of CARD/ResFinder/Reference Gene Catalog), or curator-approved |
+| **Established** | Reported only in the external databases, not (yet) found by ResLit's own pipeline |
+| **Supported** | ResLit-only, but backed by ≥ 3 distinct papers |
+| **Candidate** | ResLit-only, backed by < 3 papers |
+
+This is exactly what `comparison_with_other_databases/mutations/` and `.../genes/` verify independently
+against static CSV snapshots — useful for sanity-checking the live app's tier counts without querying the
+database directly.
+
+The homepage (`site/app/page.tsx`) surfaces this live: **Unique Genes** and **Total Mutations** cards each
+break down by tier (Confirmed / Established / Supported / Candidate), alongside **Publications** (distinct
+papers cited across genes and mutations) and **Expert Curators** (accounts actively reviewing entries).
+
+## Quick Start
 
 ```bash
+cd site
 pnpm install
-pnpm dev
-# open http://localhost:3000
+pnpm db:migrate   # create/update the local SQLite schema
+pnpm db:seed      # populate genes/mutations/papers from scripts/seed-data/*.csv
+pnpm dev          # open http://localhost:3000
 ```
 
-### Environment variables
-
-Create `.env.local` in the project root:
-
-```
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
-
----
-
-## Database Setup
-
-Run the SQL migrations in order in the Supabase SQL editor:
-
-1. `supabase_migration.sql` — core tables, RLS policies, indexes
-2. `supabase_migration_curation.sql` — curation history and notes tables
-3. `supabase_add_direct_fields.sql` — adds `geographic_location`, `key_findings`, `title_pmid`, `year_pmid` columns
-4. `supabase_add_paper_title_year.sql` — paper title/year fields
-5. `supabase_add_affiliation.sql` — curator affiliation field
-6. `supabase_add_curator_tracking.sql` — curator tracking columns
-7. `supabase_mutations_schema.sql` — additional mutation columns (`country`, `paper_pmid`, etc.)
-
----
-
-## Importing Data
-
-All import scripts are in `scripts/` and must be run with **Node 20** from inside the project directory.
-
-```bash
-cd /path/to/b_KNfmUgaXkR6
-```
-
-### Import genes from CSV
-
-```bash
-~/.nvm/versions/node/v20.11.0/bin/node scripts/import-genes-csv.mjs ../genes_extracted.csv
-```
-
-Expected CSV columns:
-```
-gene_name, allele, encodes, mechanism, confers_resistance_to,
-resistance_mechanism_class, organisms_tested_in, role_in_paper,
-validation_method, paper_pmid, key_findings, geographic_location,
-Title_PMID, YEAR_PMID
-```
-
-### Import mutations from CSV
-
-```bash
-~/.nvm/versions/node/v20.11.0/bin/node scripts/import-mutations-csv.mjs ../mutations_extracted.csv
-```
-
-Expected CSV columns:
-```
-gene_name, notation, nucleotide_change, protein_change, position_in_molecule,
-confers_resistance_to, organisms_observed_in, effect_on_function,
-mutation_type, validated_by, origin, paper_pmid, key_findings,
-geographic_location, Title_PMID, YEAR_PMID
-```
-
-### Backfill mutation country (for data imported before the country fix)
-
-If mutations were imported before the `geographic_location → country` mapping was added, run:
-
-```bash
-~/.nvm/versions/node/v20.11.0/bin/node scripts/backfill-mutation-country.mjs ../mutations_extracted.csv
-```
-
-### Import QWEN3 extraction output (JSON format)
-
-```bash
-~/.nvm/versions/node/v20.11.0/bin/node scripts/import-qwen3.js path/to/qwen3_output.txt
-```
-
----
-
-## Other Useful Scripts
-
-| Script | Purpose |
-|--------|---------|
-| `scripts/clear-data.mjs` | Delete all genes and mutations (keeps schema) |
-| `scripts/check-data.mjs` | Print row counts for all tables |
-| `scripts/check-db.mjs` | Verify database connection and schema |
-| `scripts/deduplicate.mjs` | Remove duplicate gene/mutation rows |
-| `scripts/setup-curator.mjs` | Promote a user to curator role |
-| `scripts/rebuild-database.mjs` | Drop and recreate all tables |
-
-All scripts read credentials from `.env.local` automatically.
-
----
-
-## Project Structure
-
-```
-app/
-  page.tsx                  # Homepage — live stats
-  browse/
-    genes/                  # Browse AMR genes with filters
-    mutations/              # Browse AMR mutations with filters
-    papers/                 # Browse papers; [pmid]/ for detail view
-  curator/
-    dashboard/              # Review pending entries
-    import/                 # Bulk import UI
-    login/                  # Curator authentication
-  download/                 # CSV export
-  about/
-  collaborators/
-
-components/
-  browse/
-    filter-sidebar.tsx      # Filters for genes and mutations
-    paper-filter-sidebar.tsx # Filters for papers
-    genes-table.tsx
-    mutations-table.tsx
-    papers-table.tsx
-    download-filtered-button.tsx
-    search-bar.tsx
-    browse-pagination.tsx
-  curator/
-  ui/                       # shadcn/ui components
-
-lib/
-  types.ts                  # TypeScript interfaces
-  actions/
-    browse.ts               # All browse/filter/pagination queries
-    download.ts             # CSV export with enrichment columns
-    import.ts               # In-app import server actions
-    comments.ts
-    curator.ts
-  supabase/
-    client.ts
-    server.ts
-
-scripts/                    # Node.js data management scripts
-```
+See `site/README.md` for environment variables, re-seeding, Drizzle Studio, and the Railway deployment
+setup.
 
 ---
 
@@ -182,16 +107,6 @@ Click a PMID to see the full detail page (genes + mutations from that paper, key
 
 ---
 
-## CSV Download Columns
-
-Downloaded files include enrichment columns beyond what is stored per row:
-
-**Genes CSV:** Gene Name, Resistance Mechanism Class, Confers Resistance To, Organisms Tested In, Encodes, Mechanism, Validation Method, Role in Paper, Country, Year, **PMID** (all papers citing this gene), **Status** ("Reslit"), **Validated** (No/Validated), **Validated From**, **Comments**
-
-**Mutations CSV:** Mutation Name, Gene Name, Position, Mutation Type, Wild Type, Mutant, Nucleotide Change, Protein Change, Confers Resistance To, Organisms Observed In, Effect, Origin, Validated By, Country, Year, **PMID** (all papers citing this gene), **Status** ("Reslit"), **Validated**, **Validated From**, **Comments**
-
----
-
 ## Database Tables
 
 | Table | Description |
@@ -199,12 +114,12 @@ Downloaded files include enrichment columns beyond what is stored per row:
 | `papers` | Paper metadata — PMID, title, year, key findings, geographic location |
 | `amr_genes` | Gene entries with resistance mechanisms, organisms, location |
 | `amr_mutations` | Mutation records with nucleotide/protein changes |
-| `curators` | Curator user profiles |
+| `curators` | Curator accounts (hand-rolled auth — see `site/README.md`) |
+| `sessions` | Curator login sessions (opaque tokens, hashed at rest) |
+| `verification_tokens` | Single-use email verification / password reset tokens |
 | `curation_history` | Audit log of approve/reject actions |
 | `curation_notes` | Curator annotations on entries |
 | `comments` | Public comments on genes and mutations |
-
----
 
 ## Role-Based Access
 
