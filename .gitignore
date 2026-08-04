@@ -7,3 +7,4 @@ node_modules/
 !pipeline/**/*.csv
 !site/scripts/seed-data/*.csv
 !comparison_with_other_databases/**/*.csv
+__pycache__/
