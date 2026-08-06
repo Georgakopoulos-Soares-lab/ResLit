@@ -87,29 +87,13 @@ Every gene and mutation is scored on two independent lines of evidence — wheth
 ## What you can browse
 
 **🧬 Genes** — `/browse/genes`
-Filter by resistance mechanism, antibiotic, organism, and country (with a "Missing" option for gaps).
+Filter by resistance mechanism, antibiotic, organism, and country (with a "Missing" option for gaps). View genes or individual alleles.
 
 **🔤 Mutations** — `/browse/mutations`
 Filter by gene name, resistance mechanism, antibiotic, organism, and country. View individual mutations, or group them by gene.
 
-**📄 Papers** — `/browse/papers`
-Every unique paper in the dataset, with its gene count, mutation count, and top antibiotics. Filter by location, antibiotic, organism, and publication-year range. Click any PMID for the full detail page — every gene and mutation from that paper, its key findings, and a PubMed link.
 
 ---
-
-## Database tables
-
-| Table | Description |
-|-------|-------------|
-| `papers` | Paper metadata — PMID, title, year, key findings, geographic location |
-| `amr_genes` | Gene entries with resistance mechanisms, organisms, location |
-| `amr_mutations` | Mutation records with nucleotide/protein changes |
-| `curators` | Curator accounts (hand-rolled auth — see `site/README.md`) |
-| `sessions` | Curator login sessions (opaque tokens, hashed at rest) |
-| `verification_tokens` | Single-use email verification / password-reset tokens |
-| `curation_history` | Audit log of approve/reject actions |
-| `curation_notes` | Curator annotations on entries |
-| `comments` | Public comments on genes and mutations |
 
 ## Who can do what
 
@@ -117,7 +101,6 @@ Every unique paper in the dataset, with its gene count, mutation count, and top 
 |------|-------------|
 | **Public** | Browse, search, filter, download, add comments |
 | **Curator** | Everything public, plus import data and review/approve/reject entries |
-| **Admin** | Everything a curator can do, plus manage users |
 
 ---
 
