@@ -1,6 +1,19 @@
 ResLit Pipeline — Step-by-Step Notes
 =====================================
 
+NOTE ON FOLDER NAMES IN THIS REPO: this pipeline's top-level stage folders
+were renamed with numeric prefixes for GitHub browsing clarity —
+pubmed_search/ -> 01_pubmed_search/, biomistral_filtering/ ->
+02_biomistral_filtering/, scripts_dld/ -> 03_scripts_dld/, read_papers/ ->
+04_read_papers/, harmonised_pipeline/ -> 05_harmonised_pipeline/ (referred to
+below by its working name, "pipeline/harmonization/"), final_output/ ->
+06_final_output/. This file is otherwise unmodified from the original working
+notes: the paths below still use the un-prefixed folder names, and most are
+absolute paths on the original compute cluster (/work/11252/skulakis/...),
+kept as a faithful record of where each script/output actually ran/lived
+rather than rewritten to match this repo's layout. See pipeline/README.md for
+a short map from stage number to folder.
+
 This file documents each stage of the ResLit pipeline in the order the data
 actually flows: what each script/notebook does, and where its output lives
 and what that output contains. Updated incrementally as each step is added

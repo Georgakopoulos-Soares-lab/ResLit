@@ -37,16 +37,22 @@ ResLit/
 │       ├── seed-data/                 # the 4 harmonized CSVs actually loaded into the app's DB
 │       └── seed-sqlite.mjs            # pnpm db:seed — clears + reloads papers/genes/mutations
 │
-├── pipeline/                          # literature → cleaned data
-│   └── harmonised_pipeline/           # current pipeline (see its own README.md + PIPELINE.md)
-│       ├── reslit/                    # our own extraction: papers → LLM (Qwen3) → clean/harmonize
-│       │   ├── genes/                 #   → Full_list_genes_Reslit_harmonized_antib_bact.csv
-│       │   └── mutations/             #   → Full_list_mutations_Reslit_antib_bact.csv
-│       ├── other_databases/           # CARD + ResFinder + Reference Gene Catalog → merge/clean
-│       │   ├── genes/                 #   → Full_list_genes_otherDatabases_..._corrected.csv
-│       │   └── mutations/             #   → Full_list_mutations_otherDatabases_clean.csv
-│       ├── reference_data/            # static lookups (e.g. CARD ARO index)
-│       └── shared_scripts/            # scripts used by both pipelines
+├── pipeline/                          # literature → cleaned data (see pipeline/README.md for the full map)
+│   ├── 01_pubmed_search/              # PubMed keyword search — ~80 hand-crafted AMR queries (ESearch)
+│   ├── 02_biomistral_filtering/       # BioMistral-7B few-shot YES/NO relevance screen
+│   ├── 03_scripts_dld/                # full-text retrieval: OA + publisher-API cascades, merge/dedupe/validate
+│   │   └── fulltext_txt/              #   → 1,595 verified full-text articles (the LLM/RAG corpus)
+│   ├── 04_read_papers/                # Qwen3-30B-A3B (vLLM) structured extraction + field-level audit pass
+│   ├── 05_harmonised_pipeline/        # current pipeline (see its own README.md)
+│   │   ├── reslit/                    # our own extraction: papers → LLM (Qwen3) → clean/harmonize
+│   │   │   ├── genes/                 #   → Full_list_genes_Reslit_harmonized_antib_bact.csv
+│   │   │   └── mutations/             #   → Full_list_mutations_Reslit_antib_bact.csv
+│   │   ├── other_databases/           # CARD + ResFinder + Reference Gene Catalog → merge/clean
+│   │   │   ├── genes/                 #   → Full_list_genes_otherDatabases_..._corrected.csv
+│   │   │   └── mutations/             #   → Full_list_mutations_otherDatabases_clean.csv
+│   │   ├── reference_data/            # static lookups (e.g. CARD ARO index)
+│   │   └── shared_scripts/            # scripts used by both pipelines
+│   └── 06_final_output/               # delivered snapshot of the two Reslit CSVs from 05/reslit/
 │
 └── comparison_with_other_databases/   # does ResLit's own pipeline agree with the external DBs?
     ├── genes/                         # gene-level overlap: Venn diagrams, per-database membership
@@ -54,7 +60,7 @@ ResLit/
                                         # reproduction (Confirmed/Established/Supported/Candidate)
 ```
 
-**How the pieces connect:** `pipeline/harmonised_pipeline/` turns raw papers and external-database exports into four harmonized CSVs — two from ResLit's own extraction, two merged from CARD/ResFinder/Reference Gene Catalog. `comparison_with_other_databases/` cross-checks those same four CSVs against each other; this is where the validation-tier logic (below) is worked out and verified against the live app's numbers. The identical four CSVs are then copied into `site/scripts/seed-data/` and loaded by `pnpm db:seed`. Nothing in `site/` re-derives the CSVs — it only consumes them.
+**How the pieces connect:** `pipeline/01_pubmed_search/` through `04_read_papers/` take the pipeline from a raw PubMed search down to per-paper structured JSON (genes/mutations extracted by Qwen3). `05_harmonised_pipeline/` picks up from there and turns that JSON, plus external-database exports, into four harmonized CSVs — two from ResLit's own extraction, two merged from CARD/ResFinder/Reference Gene Catalog. `comparison_with_other_databases/` cross-checks those same four CSVs against each other; this is where the validation-tier logic (below) is worked out and verified against the live app's numbers. The identical four CSVs are then copied into `site/scripts/seed-data/` and loaded by `pnpm db:seed`. Nothing in `site/` re-derives the CSVs — it only consumes them.
 
 ---
 
