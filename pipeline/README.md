@@ -16,17 +16,12 @@ the step numbers in that file.
 
 | # | Folder | Stage | Status in this repo |
 |---|---|---|---|
-| 1 | [`01_pubmed_search/`](01_pubmed_search/) | PubMed keyword search across ~80 hand-crafted AMR queries (ESearch, year/month/day recursion to work around the 9,999-result cap) | Notebook only; output (2,057,492 PMIDs) not included — too large |
-| 2 | *(not in this repo)* | PubTator3 + MeSH hybrid classifier — narrows to 1,420,586 PMIDs | Local-only; code not carried into this repo |
-| 3 | [`02_biomistral_filtering/`](02_biomistral_filtering/) | BioMistral-7B few-shot YES/NO relevance screen on title/abstract/MeSH/PubTator flags | Scripts + SLURM launchers only; scored 1,420,631 PMIDs, 356,261 YES (~25%) |
-| 4 | [`03_scripts_dld/`](03_scripts_dld/) | Full-text retrieval: OA cascade → publisher-API cascade → merge/dedupe/body-validate | **Full corpus included**: 1,595 verified full-text articles |
-| 5 | [`04_read_papers/`](04_read_papers/) | Qwen3-30B-A3B (via vLLM) two-pass structured extraction of genes/mutations, with a field-by-field "atomic auditor" verification pass | Scripts only; 117,112 papers processed, 64,276 successful extractions (raw JSON output too large to include) |
+| 1 | [`01_pubmed_search/`](01_pubmed_search/) | PubMed keyword search across ~80 hand-crafted AMR queries (ESearch, year/month/day recursion to work around the 9,999-result cap) | Notebook only; output (2,057,492 PMIDs) not included — too large |  PubTator3 + MeSH hybrid classifier — narrows to 1,420,586 PMIDs |
+| 3 | [`02_biomistral_filtering/`](02_biomistral_filtering/) | BioMistral-7B few-shot YES/NO relevance screen on title/abstract/MeSH/PubTator flags 
+| 4 | [`03_scripts_dld/`](03_scripts_dld/) | Full-text retrieval: OA cascade → publisher-API cascade → merge/dedupe/body-validate
+| 5 | [`04_read_papers/`](04_read_papers/) | Qwen3-30B-A3B (via vLLM) two-pass structured extraction of genes/mutations, with a field-by-field "atomic auditor" verification pass | Scripts only; 117,112 papers processed
 | 6 | [`05_harmonised_pipeline/`](05_harmonised_pipeline/) + [`06_final_output/`](06_final_output/) | Post-extraction cleaning, gene/organism/antibiotic-name normalization, harmonization against CARD/ResFinder/NCBI Reference Gene Catalog | **Full scripts + final tables included** |
 
-Stage 4 (full-text download) was run and published against a separate,
-pre-existing curated seed list (2,627 PMIDs from the AMRprofiler database),
-not yet against the Stage 3 output at scale — see `readme_pipeline.txt` Step 4
-for the exact input-provenance note.
 
 ## Final deliverables
 
@@ -36,7 +31,7 @@ for the exact input-provenance note.
   [`05_harmonised_pipeline/other_databases/`](05_harmonised_pipeline/other_databases/)
   (CARD + ResFinder + NCBI Reference Gene Catalog, merged and harmonized).
 
-Together the Reslit tables cover 14,060 unique PMIDs.
+
 
 ## Setup
 
