@@ -76,28 +76,11 @@ Every gene and mutation is scored on two independent lines of evidence — wheth
 
 | Tier | Meaning |
 |---|---|
-| 🟢 **Confirmed** | Backed by more than one line of evidence — present in ≥ 2 source databases (ResLit plus at least one of CARD / ResFinder / Reference Gene Catalog), or curator-approved |
-| 🔵 **Established** | Curated in an external database, but not (yet) recovered by ResLit's own pipeline |
-| 🟠 **Supported** | Found only by ResLit, but backed by ≥ 3 distinct papers |
-| ⚪ **Candidate** | Found only by ResLit, backed by < 3 papers |
+| 🟢**Confirmed** | Backed by more than one line of evidence — present in ≥ 2 source databases (ResLit plus at least one of CARD / ResFinder / Reference Gene Catalog), or curator-approved |
+| 🔵**Established** | Curated in an external database, but not (yet) recovered by ResLit's own pipeline |
+| 🟠**Supported** | Found only by ResLit, but backed by ≥ 3 distinct papers |
+| ⚪**Candidate** | Found only by ResLit, backed by < 3 papers |
 
-The scripts in `comparison_with_other_databases/genes/` and `.../mutations/` reproduce these tiers independently from static CSV snapshots — handy for sanity-checking the live app's counts without touching the database.
-
-The homepage (`site/app/page.tsx`) surfaces all of this live: **Unique Genes** and **Total Mutations** each break down by tier, alongside **Publications** (distinct papers cited) and **Expert Curators** (accounts actively reviewing entries).
-
----
-
-## Quick start
-
-```bash
-cd site
-pnpm install
-pnpm db:migrate   # create/update the local SQLite schema
-pnpm db:seed      # populate genes/mutations/papers from scripts/seed-data/*.csv
-pnpm dev          # → http://localhost:3000
-```
-
-That's it — you'll have a full local copy running in a couple of minutes. See `site/README.md` for environment variables, re-seeding, Drizzle Studio, and the Railway deployment setup.
 
 ---
 
