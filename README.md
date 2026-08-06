@@ -1,4 +1,4 @@
-# ResLit 🧬
+# ResLit 
 
 ### Antimicrobial resistance, straight from the literature.
 
