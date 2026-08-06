@@ -12,10 +12,6 @@ The two pipelines are independent end to end; they only meet at the very end, wh
 app-side seed script loads all four final CSVs into a database (not included here — this
 folder documents the *data-harmonization* process, not the app).
 
-For the full, step-by-step methods write-up (every script, every column transformation,
-exact row counts, known gaps) see `PIPELINE.md` in this folder, which is a copy of the
-project's `README_harmonization.txt`.
-
 ## Layout
 
 ```
@@ -59,8 +55,7 @@ harmonised_pipeline/
 - **Large raw LLM-extraction batches and intermediate CSVs** (`extraction_summary_batch*.json`,
   `genes_batch*.csv`, `genes_all*.csv`, `mutations_all*.csv`, and equivalents on the
   other-databases side) — these are pipeline byproducts on the way to the final CSVs
-  above; `PIPELINE.md` documents every transformation between them in detail, but they
-  aren't reproduced here to keep this folder to source + final data.
+  above; they aren't reproduced here to keep this folder to source + final data.
 - **Vendored external git repos** (ResFinder's `resfinder_db`/`pointfinder_db`) — clone
   directly from `bitbucket.org/genomicepidemiology/resfinder_db` (used version: 2.6.0)
   and `bitbucket.org/genomicepidemiology/pointfinder_db` if needed.
@@ -79,19 +74,17 @@ harmonised_pipeline/
   `SHORTNAME_ANTIBIOTICS_FILE` hardcoded to a path in an unrelated, earlier sibling
   project directory outside this repo entirely. The correct data is bundled here at
   `reference_data/card/shortname_antibiotics.tsv` — point the script there.
-- **Two steps have no script at all** and were done via interactive/manual editing (see
-  `PIPELINE.md` for details): the genes-side "AlleleCorrected" allele/encodes fix, and
-  part of the Reslit mutations cleanup documented only in prose inside
-  `bash_commands_for_mutations.sh`.
-- A couple of the `readme.txt`/`README_mutations.txt` files' documented row-drop counts
-  don't match what the scripts on disk actually do (verified directly, not just taken on
-  faith) — see `PIPELINE.md`'s caveats section for specifics.
+- **Two steps have no script at all** and were done via interactive/manual editing: the
+  genes-side "AlleleCorrected" allele/encodes fix (a fragment of the original request
+  survives verbatim in `other_databases/genes/readme.txt`), and part of the Reslit
+  mutations cleanup documented only in prose inside `bash_commands_for_mutations.sh`.
+- A couple of the `readme.txt`/`README.md` files' documented row-drop counts don't
+  match what the scripts on disk actually do (verified directly, not just taken on
+  faith) — see `other_databases/mutations/README.md`'s Step 9 note for a specific example.
 
 ## Recommended reading order
 
-1. `PIPELINE.md` (this folder) — the full narrative, script by script, with exact
-   commands and verified row counts for every transformation.
-2. `reslit/genes/bash_commands_for_genes.sh` and `reslit/mutations/bash_commands_for_mutations.sh`
+1. `reslit/genes/bash_commands_for_genes.sh` and `reslit/mutations/bash_commands_for_mutations.sh`
    — the literal command sequences for the Reslit pipeline.
-3. `other_databases/genes/readme.txt` and `other_databases/mutations/README_mutations.txt`
+2. `other_databases/genes/readme.txt` and `other_databases/mutations/README.md`
    — the (mostly, see caveats above) step-by-step docs for the other-databases pipeline.
