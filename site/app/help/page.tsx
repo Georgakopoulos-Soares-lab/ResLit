@@ -28,6 +28,7 @@ const sections = [
   { id: 'downloading-data', title: 'Downloading data' },
   { id: 'data-sources', title: 'Data sources and how ResLit is built' },
   { id: 'faq', title: 'Frequently asked questions' },
+  { id: 'feedback', title: 'Feedback and bug reports' },
 ]
 
 const tierCards = [
@@ -469,6 +470,19 @@ export default function HelpPage() {
                   </p>
                 </div>
               </div>
+            </section>
+
+            <section>
+              <h2 id="feedback" className="scroll-mt-24 text-2xl font-bold text-foreground mb-4">
+                Feedback and bug reports
+              </h2>
+              <p className="text-muted-foreground leading-relaxed">
+                Spotted a bug, or have a suggestion for ResLit? Send an email to{' '}
+                <a href="mailto:skulakis@gmail.com" className="text-primary hover:underline">
+                  skulakis@gmail.com
+                </a>
+                .
+              </p>
             </section>
 
             <div className="pt-8 border-t border-border/40 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
