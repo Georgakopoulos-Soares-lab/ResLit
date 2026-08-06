@@ -8,6 +8,8 @@ Every entry links back to the paper it came from. Browse genes, mutations, and p
 
 🔗 **Live at [reslit.info](https://www.reslit.info)** · No login required.
 
+###If you have any suggestions or bug reports, please send an email at skulakis@gmail.com   
+
 ---
 
 ## Why ResLit?
