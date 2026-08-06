@@ -1,14 +1,27 @@
-# ResLit — Antimicrobial Resistance Gene & Mutation Database
+# ResLit 🧬
 
-A curated database of AMR genes and mutations extracted from scientific literature, cross-referenced
-against CARD, ResFinder, and the NCBI Reference Gene Catalog (AMRFinder). Researchers can browse genes,
-mutations, and papers with direct PubMed links, filter by antibiotic, organism, location, and year, and
-download results as CSV.
+### Antimicrobial resistance, straight from the literature.
 
-## Repository Structure
+**ResLit** is a searchable database of antimicrobial resistance (AMR) genes and mutations, mined automatically from the scientific literature and cross-referenced against the field's major curated resources — **CARD**, **ResFinder**, and the **NCBI Reference Gene Catalog** (AMRFinder).
 
-This repo has three top-level parts: the literature-extraction pipeline that produces the data, the
-cross-database validation that checks it, and the web app that serves it.
+Every entry links back to the paper it came from. Browse genes, mutations, and publications with direct PubMed links; filter by antibiotic, organism, country, or year; and export whatever you find as CSV. Each gene and mutation carries a **confidence tier** so you can see at a glance whether it's backed by curated databases, by the literature, or by both.
+
+🔗 **Live at [reslit.info](https://www.reslit.info)** · No login required.
+
+---
+
+## Why ResLit?
+
+Curated AMR databases are excellent but human-curated, so they inevitably lag behind a literature that grows every day. ResLit takes the opposite approach: it reads the papers at scale, extracts the resistance genes and mutations, and then checks its own findings against the curated databases. The result is a resource that's both **broad** (thousands of determinants pulled from the primary literature) and **grounded** (every one cross-referenced and tiered by how well it's supported). It's built for two kinds of people:
+
+- 🔬 **Researchers** who want to see, in one place, everything the literature says about a gene, mutation, organism, or antibiotic.
+- 📋 **Curators** who want to find determinants that appear in papers but not yet in reference databases — and flag existing entries worth a second look.
+
+---
+
+## How it's put together
+
+Three moving parts: a **pipeline** that reads papers and produces the data, a **comparison** step that validates that data against the external databases, and a **web app** that serves it all.
 
 ```
 ResLit/
@@ -39,75 +52,61 @@ ResLit/
                                         # reproduction (Confirmed/Established/Supported/Candidate)
 ```
 
-**How the pieces connect:** `pipeline/harmonised_pipeline/` turns raw papers and external-database
-exports into four harmonized CSVs (2 from ResLit's own pipeline, 2 merged from CARD/ResFinder/Reference
-Gene Catalog). `comparison_with_other_databases/` cross-checks those same four CSVs against each other —
-this is where the validation-tier logic (see below) gets worked out and verified against the live app's
-numbers. The identical four CSVs are copied into `site/scripts/seed-data/` and loaded into the app's
-database by `pnpm db:seed`. Nothing in `site/` re-derives the CSVs; it only consumes them.
+**How the pieces connect:** `pipeline/harmonised_pipeline/` turns raw papers and external-database exports into four harmonized CSVs — two from ResLit's own extraction, two merged from CARD/ResFinder/Reference Gene Catalog. `comparison_with_other_databases/` cross-checks those same four CSVs against each other; this is where the validation-tier logic (below) is worked out and verified against the live app's numbers. The identical four CSVs are then copied into `site/scripts/seed-data/` and loaded by `pnpm db:seed`. Nothing in `site/` re-derives the CSVs — it only consumes them.
 
-## Database
+---
 
-**SQLite** (`better-sqlite3` + Drizzle ORM), embedded and queried in-process — not Supabase/Postgres. This
-replaced an earlier Supabase-based backend (Postgres + Supabase Auth), migrated off after the Supabase
-project hit its free-tier egress quota. Auth is now hand-rolled (`site/lib/auth/`), not Supabase Auth.
+## The database
 
-See **`site/README.md`** for the full architecture writeup (why SQLite, deployment on Railway, backups)
-and **`site/lib/db/schema.ts`** for the table definitions.
+**SQLite** (`better-sqlite3` + Drizzle ORM), embedded and queried in-process — not Supabase/Postgres. This replaced an earlier Supabase backend (Postgres + Supabase Auth) after that project hit its free-tier egress quota; auth is now hand-rolled (`site/lib/auth/`). Keeping the data in-process means no network round-trip and no egress bill, which suits a read-heavy public resource nicely.
 
-### Validation tiers
+See **`site/README.md`** for the full architecture writeup (why SQLite, Railway deployment, backups) and **`site/lib/db/schema.ts`** for the table definitions.
 
-Every gene and mutation gets a confidence tier, computed live from cross-database presence and how many
-distinct papers support it (`getMutationValidationTiers`/`getValidationTiers` in
-`site/lib/actions/browse.ts`):
+### Confidence tiers
+
+Every gene and mutation is scored on two independent lines of evidence — whether it appears in the curated databases, and how many distinct papers support it. Tiers are computed live (`getValidationTiers` / `getMutationValidationTiers` in `site/lib/actions/browse.ts`):
 
 | Tier | Meaning |
 |---|---|
-| **Confirmed** | Reported in ≥ 2 source databases (ResLit + at least one of CARD/ResFinder/Reference Gene Catalog), or curator-approved |
-| **Established** | Reported only in the external databases, not (yet) found by ResLit's own pipeline |
-| **Supported** | ResLit-only, but backed by ≥ 3 distinct papers |
-| **Candidate** | ResLit-only, backed by < 3 papers |
+| 🟢 **Confirmed** | Backed by more than one line of evidence — present in ≥ 2 source databases (ResLit plus at least one of CARD / ResFinder / Reference Gene Catalog), or curator-approved |
+| 🔵 **Established** | Curated in an external database, but not (yet) recovered by ResLit's own pipeline |
+| 🟠 **Supported** | Found only by ResLit, but backed by ≥ 3 distinct papers |
+| ⚪ **Candidate** | Found only by ResLit, backed by < 3 papers |
 
-This is exactly what `comparison_with_other_databases/mutations/` and `.../genes/` verify independently
-against static CSV snapshots — useful for sanity-checking the live app's tier counts without querying the
-database directly.
+The scripts in `comparison_with_other_databases/genes/` and `.../mutations/` reproduce these tiers independently from static CSV snapshots — handy for sanity-checking the live app's counts without touching the database.
 
-The homepage (`site/app/page.tsx`) surfaces this live: **Unique Genes** and **Total Mutations** cards each
-break down by tier (Confirmed / Established / Supported / Candidate), alongside **Publications** (distinct
-papers cited across genes and mutations) and **Expert Curators** (accounts actively reviewing entries).
+The homepage (`site/app/page.tsx`) surfaces all of this live: **Unique Genes** and **Total Mutations** each break down by tier, alongside **Publications** (distinct papers cited) and **Expert Curators** (accounts actively reviewing entries).
 
-## Quick Start
+---
+
+## Quick start
 
 ```bash
 cd site
 pnpm install
 pnpm db:migrate   # create/update the local SQLite schema
 pnpm db:seed      # populate genes/mutations/papers from scripts/seed-data/*.csv
-pnpm dev          # open http://localhost:3000
+pnpm dev          # → http://localhost:3000
 ```
 
-See `site/README.md` for environment variables, re-seeding, Drizzle Studio, and the Railway deployment
-setup.
+That's it — you'll have a full local copy running in a couple of minutes. See `site/README.md` for environment variables, re-seeding, Drizzle Studio, and the Railway deployment setup.
 
 ---
 
-## Browse Features
+## What you can browse
 
-### Genes (`/browse/genes`)
-Filters: resistance mechanism, antibiotic, organism, country (with "Missing" option).
+**🧬 Genes** — `/browse/genes`
+Filter by resistance mechanism, antibiotic, organism, and country (with a "Missing" option for gaps).
 
-### Mutations (`/browse/mutations`)
-Filters: gene name, resistance mechanism, antibiotic, organism, country.
-Two modes: browse individual mutations, or browse by gene.
+**🔤 Mutations** — `/browse/mutations`
+Filter by gene name, resistance mechanism, antibiotic, organism, and country. View individual mutations, or group them by gene.
 
-### Papers (`/browse/papers`)
-Lists all unique papers referenced in the dataset. Shows gene count, mutation count, and top antibiotics per paper.
-Filters: location, antibiotic, organism, publication year range.
-Click a PMID to see the full detail page (genes + mutations from that paper, key findings, PubMed link).
+**📄 Papers** — `/browse/papers`
+Every unique paper in the dataset, with its gene count, mutation count, and top antibiotics. Filter by location, antibiotic, organism, and publication-year range. Click any PMID for the full detail page — every gene and mutation from that paper, its key findings, and a PubMed link.
 
 ---
 
-## Database Tables
+## Database tables
 
 | Table | Description |
 |-------|-------------|
@@ -116,15 +115,31 @@ Click a PMID to see the full detail page (genes + mutations from that paper, key
 | `amr_mutations` | Mutation records with nucleotide/protein changes |
 | `curators` | Curator accounts (hand-rolled auth — see `site/README.md`) |
 | `sessions` | Curator login sessions (opaque tokens, hashed at rest) |
-| `verification_tokens` | Single-use email verification / password reset tokens |
+| `verification_tokens` | Single-use email verification / password-reset tokens |
 | `curation_history` | Audit log of approve/reject actions |
 | `curation_notes` | Curator annotations on entries |
 | `comments` | Public comments on genes and mutations |
 
-## Role-Based Access
+## Who can do what
 
 | Role | Capabilities |
 |------|-------------|
-| Public | Browse, search, filter, download, add comments |
-| Curator | All public + import data, review and approve/reject entries |
-| Admin | All curator + manage users |
+| **Public** | Browse, search, filter, download, add comments |
+| **Curator** | Everything public, plus import data and review/approve/reject entries |
+| **Admin** | Everything a curator can do, plus manage users |
+
+---
+
+## Citing ResLit
+
+If ResLit is useful in your work, please cite:
+
+> _[citation / DOI to be added on publication]_
+
+## License
+
+_[LICENSE to be added — e.g. MIT]_
+
+---
+
+<sub>Built by the Georgakopoulos-Soares Lab. Questions, corrections, or a determinant we missed? Open an issue — or, if you're a curator, flag it right in the app.</sub>
