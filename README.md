@@ -112,7 +112,8 @@ If ResLit is useful in your work, please cite:
 
 ## License
 
-_[LICENSE to be added — e.g. MIT]_
+The ResLit source code is released under the [MIT License](LICENSE).
+
 
 ---
 
