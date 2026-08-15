@@ -76,8 +76,8 @@ Every gene and mutation is scored on two independent lines of evidence — wheth
 
 | Tier | Meaning |
 |---|---|
-| 🟢**Confirmed** | Backed by more than one line of evidence — present in ≥ 2 source databases (ResLit plus at least one of CARD / ResFinder / Reference Gene Catalog), or curator-approved |
-| 🔵**Established** | Curated in an external database, but not (yet) recovered by ResLit's own pipeline |
+| 🟢**Confirmed** | Corroborated by more than one independent line of evidence, either present in two or more reference databases or present in one reference database and independently recovered by ResLit |
+| 🔵**Established** | Curated in only one external database, but not (yet) recovered by ResLit's own pipeline |
 | 🟠**Supported** | Found only by ResLit, but backed by ≥ 3 distinct papers |
 | ⚪**Candidate** | Found only by ResLit, backed by < 3 papers |
 
