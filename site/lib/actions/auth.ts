@@ -7,11 +7,17 @@ import { createSession } from '@/lib/auth/session'
 import { verifyPassword } from '@/lib/auth/password'
 import { sendVerificationEmail, sendPasswordResetEmail } from '@/lib/auth/email'
 
+/** Links in verification/reset emails must use the site's real public domain.
+ * The incoming request's Host header is untrustworthy behind Railway's proxy —
+ * it has been observed forwarding the container's own bind address
+ * (0.0.0.0:8080) instead of reslit.info, producing unreachable email links. */
 async function getBaseUrl(): Promise<string> {
+  if (process.env.SITE_URL) return process.env.SITE_URL
+  if (process.env.NODE_ENV === 'production') return 'https://reslit.info'
+
   const h = await headers()
   const host = h.get('host')
-  const protocol = process.env.NODE_ENV === 'production' ? 'https' : 'http'
-  return `${protocol}://${host}`
+  return `http://${host}`
 }
 
 export async function signUp(
