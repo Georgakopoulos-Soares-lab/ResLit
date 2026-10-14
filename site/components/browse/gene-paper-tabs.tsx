@@ -1,5 +1,6 @@
 import { Badge } from '@/components/ui/badge'
 import type { AMRGene } from '@/lib/types'
+import { uniqueDrugs } from '@/lib/utils'
 
 interface GenePaperTabsProps {
   papers: AMRGene[]
@@ -116,11 +117,11 @@ function GenePaperContent({ paper, paperNumber }: { paper: AMRGene; paperNumber:
               <dd className="font-medium">{paper.mechanism}</dd>
             </div>
           )}
-          {paper.confers_resistance_to && paper.confers_resistance_to.length > 0 && (
+          {uniqueDrugs(paper.confers_resistance_to ?? []).length > 0 && (
             <div className="sm:col-span-2">
               <dt className="text-sm text-muted-foreground mb-1">Confers Resistance To</dt>
               <dd className="flex flex-wrap gap-1">
-                {paper.confers_resistance_to.map((antibiotic, i) => (
+                {uniqueDrugs(paper.confers_resistance_to ?? []).map((antibiotic, i) => (
                   <Badge key={i} variant="outline">
                     {antibiotic}
                   </Badge>

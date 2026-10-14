@@ -10,6 +10,7 @@ import {
 import { ValidationTierBadge } from './validation-tier-badge'
 
 import type { AMRGene } from '@/lib/types'
+import { uniqueDrugs } from '@/lib/utils'
 
 
 interface GenesTableProps {
@@ -68,9 +69,7 @@ export function GenesTable({ genes }: GenesTableProps) {
             const primary = group[0]
 
             // Aggregate across all papers for this gene
-            const allResistances = [
-              ...new Set(group.flatMap((g) => g.confers_resistance_to ?? [])),
-            ]
+            const allResistances = uniqueDrugs(group.flatMap((g) => g.confers_resistance_to ?? []))
             const allOrganisms = [
               ...new Set(group.flatMap((g) => g.organisms_tested_in ?? [])),
             ]

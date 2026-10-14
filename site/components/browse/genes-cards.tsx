@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { StatusBadge } from './status-badge'
 import type { AMRGene } from '@/lib/types'
+import { uniqueDrugs } from '@/lib/utils'
 
 interface GenesCardsProps {
   genes: AMRGene[]
@@ -60,20 +61,20 @@ export function GenesCards({ genes }: GenesCardsProps) {
               </CardHeader>
               <CardContent className="space-y-3">
                 {/* Confers resistance to */}
-                {gene.confers_resistance_to && gene.confers_resistance_to.length > 0 && (
+                {uniqueDrugs(gene.confers_resistance_to ?? []).length > 0 && (
                   <div>
                     <span className="text-xs text-muted-foreground uppercase tracking-wide block mb-1">
                       Confers Resistance To
                     </span>
                     <div className="flex flex-wrap gap-1">
-                      {gene.confers_resistance_to.slice(0, 3).map((ab) => (
+                      {uniqueDrugs(gene.confers_resistance_to ?? []).slice(0, 3).map((ab) => (
                         <Badge key={ab} variant="secondary" className="text-xs">
                           {ab}
                         </Badge>
                       ))}
-                      {gene.confers_resistance_to.length > 3 && (
+                      {uniqueDrugs(gene.confers_resistance_to ?? []).length > 3 && (
                         <Badge variant="secondary" className="text-xs">
-                          +{gene.confers_resistance_to.length - 3}
+                          +{uniqueDrugs(gene.confers_resistance_to ?? []).length - 3}
                         </Badge>
                       )}
                     </div>

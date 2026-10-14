@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { StatusBadge } from './status-badge'
 import type { AMRMutation } from '@/lib/types'
+import { uniqueDrugs } from '@/lib/utils'
 
 interface MutationsCardsProps {
   mutations: AMRMutation[]
@@ -81,13 +82,13 @@ export function MutationsCards({ mutations }: MutationsCardsProps) {
               )}
 
               {/* Resistance To */}
-              {mutation.confers_resistance_to && mutation.confers_resistance_to.length > 0 && (
+              {uniqueDrugs(mutation.confers_resistance_to ?? []).length > 0 && (
                 <div>
                   <span className="text-xs text-muted-foreground uppercase tracking-wide block mb-2">
                     Resistance To
                   </span>
                   <div className="flex flex-wrap gap-2">
-                    {mutation.confers_resistance_to.map((antibiotic) => (
+                    {uniqueDrugs(mutation.confers_resistance_to ?? []).map((antibiotic) => (
                       <Badge key={antibiotic} variant="secondary" className="text-xs">
                         {antibiotic}
                       </Badge>
