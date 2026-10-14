@@ -144,7 +144,6 @@ async function fetchGeneEnrichment(genes: AMRGene[]): Promise<GeneEnrichment> {
 }
 
 interface MutationEnrichment {
-  pmidsByGene: Map<string, Set<string>>
   validatorByMutationId: Map<string, string>
   commentsByMutationId: Map<string, string[]>
   tierByMutationId: Map<string, ValidationInfo>
@@ -170,7 +169,7 @@ function mutationsToCSV(mutations: AMRMutation[], enrichment: MutationEnrichment
     'Country',
     'Year',
     'PMID',
-    'Status',
+    'Source Database',
     'Validated',
     'Validated From',
     'Comments',
@@ -178,7 +177,6 @@ function mutationsToCSV(mutations: AMRMutation[], enrichment: MutationEnrichment
 
   const rows = mutations.map((mutation) => {
     const id = String(mutation.id)
-    const allPmids = [...(enrichment.pmidsByGene.get(mutation.gene_name) ?? [])].join('; ')
     const validator = enrichment.validatorByMutationId.get(id) ?? ''
     const comments = (enrichment.commentsByMutationId.get(id) ?? []).map((c) => c.replace(/"/g, '""')).join(' | ')
     const isValidated = mutation.status === 'curated'
@@ -201,8 +199,8 @@ function mutationsToCSV(mutations: AMRMutation[], enrichment: MutationEnrichment
       mutation.validated_by || '',
       mutation.country || '',
       mutation.year_pmid?.toString() || '',
-      allPmids,
-      'Reslit',
+      mutation.paper_pmid || '',
+      mutation.source_database || '',
       isValidated ? 'Validated' : 'No',
       validator,
       comments,
@@ -216,19 +214,12 @@ function mutationsToCSV(mutations: AMRMutation[], enrichment: MutationEnrichment
 
 async function fetchMutationEnrichment(mutations: AMRMutation[]): Promise<MutationEnrichment> {
   if (mutations.length === 0) {
-    return { pmidsByGene: new Map(), validatorByMutationId: new Map(), commentsByMutationId: new Map(), tierByMutationId: new Map() }
+    return { validatorByMutationId: new Map(), commentsByMutationId: new Map(), tierByMutationId: new Map() }
   }
 
-  const geneNames = [...new Set(mutations.map((m) => m.gene_name).filter(Boolean))]
   const mutationIds = mutations.map((m) => String(m.id))
 
-  const [pmidsRows, curationRows, commentsRows, tierByMutationId] = await Promise.all([
-    queryInChunks(geneNames, (c) =>
-      db
-        .select({ geneName: amrMutations.geneName, paperPmid: amrMutations.paperPmid })
-        .from(amrMutations)
-        .where(and(inArray(amrMutations.geneName, c), isNotNull(amrMutations.paperPmid)))
-    ),
+  const [curationRows, commentsRows, tierByMutationId] = await Promise.all([
     queryInChunks(mutationIds, (c) =>
       db
         .select({
@@ -249,13 +240,6 @@ async function fetchMutationEnrichment(mutations: AMRMutation[]): Promise<Mutati
     getMutationValidationTiers(),
   ])
 
-  const pmidsByGene = new Map<string, Set<string>>()
-  for (const row of pmidsRows) {
-    if (!row.geneName || !row.paperPmid) continue
-    if (!pmidsByGene.has(row.geneName)) pmidsByGene.set(row.geneName, new Set())
-    pmidsByGene.get(row.geneName)!.add(row.paperPmid)
-  }
-
   curationRows.sort((a, b) => (a.createdAt < b.createdAt ? 1 : -1))
   const validatorByMutationId = new Map<string, string>()
   for (const row of curationRows) {
@@ -270,7 +254,7 @@ async function fetchMutationEnrichment(mutations: AMRMutation[]): Promise<Mutati
     commentsByMutationId.get(row.targetId)!.push(row.content)
   }
 
-  return { pmidsByGene, validatorByMutationId, commentsByMutationId, tierByMutationId }
+  return { validatorByMutationId, commentsByMutationId, tierByMutationId }
 }
 
 export async function downloadGenesByValidation(tier: string): Promise<{ csv: string; count: number }> {
