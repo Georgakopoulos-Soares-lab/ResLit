@@ -16,6 +16,7 @@ import { getMutationById, getMutationValidationTiers } from '@/lib/actions/brows
 import { getComments } from '@/lib/actions/comments'
 import { getCurrentCurator } from '@/lib/actions/curator'
 import type { AMRMutation } from '@/lib/types'
+import { uniqueDrugs } from '@/lib/utils'
 
 interface PageProps {
   params: Promise<{ id: string }>
@@ -72,7 +73,7 @@ export default async function MutationDetailPage({ params }: PageProps) {
   const tierPriority: Record<string, number> = { Confirmed: 0, Established: 1, Supported: 2, Candidate: 3 }
   let bestTierInfo = mutTiers.get(id)
   for (const m of relatedMutations) {
-    const ti = mutTiers.get(m.id)
+    const ti = mutTiers.get(String(m.id))
     if (ti && (tierPriority[ti.tier] ?? 99) < (tierPriority[bestTierInfo?.tier ?? 'Candidate'] ?? 99)) {
       bestTierInfo = ti
     }
@@ -83,7 +84,7 @@ export default async function MutationDetailPage({ params }: PageProps) {
     ...relatedMutations.map((m) => m.source_database).filter(Boolean) as string[],
   ])].sort()
   const allOrganisms = [...new Set(relatedMutations.flatMap((m) => m.organisms_observed_in ?? []))]
-  const allResistances = [...new Set(relatedMutations.flatMap((m) => m.confers_resistance_to ?? []))]
+  const allResistances = uniqueDrugs(relatedMutations.flatMap((m) => m.confers_resistance_to ?? []))
   const allEffects = [...new Set(relatedMutations.map((m) => m.effect_on_function).filter(Boolean) as string[])]
   const allNucleotideChanges = [...new Set(relatedMutations.map((m) => m.nucleotide_change).filter(Boolean) as string[])]
   const allProteinChanges = [...new Set(relatedMutations.map((m) => m.protein_change).filter(Boolean) as string[])]

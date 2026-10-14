@@ -14,6 +14,7 @@ import { getGeneAllPapers, getMutationsByGeneName, getValidationTiers, getMutati
 import { getComments } from '@/lib/actions/comments'
 import { getCurrentCurator } from '@/lib/actions/curator'
 import type { ValidationTier } from '@/lib/types'
+import { uniqueDrugs } from '@/lib/utils'
 
 
 interface PageProps {
@@ -34,8 +35,8 @@ export default async function GeneDetailPage({ params }: PageProps) {
 
   const mutations = rawMutations.map((m) => ({
     ...m,
-    validation_tier: (mutTiers.get(m.id)?.tier ?? 'Candidate') as ValidationTier,
-    all_databases: mutTiers.get(m.id)?.databases ?? (m.source_database ? [m.source_database] : []),
+    validation_tier: (mutTiers.get(String(m.id))?.tier ?? 'Candidate') as ValidationTier,
+    all_databases: mutTiers.get(String(m.id))?.databases ?? (m.source_database ? [m.source_database] : []),
   }))
 
   if (genePapers.length === 0 && mutations.length === 0) {
@@ -60,7 +61,7 @@ export default async function GeneDetailPage({ params }: PageProps) {
     name,
     paperCount: rows.length,
     databases: [...new Set(rows.map((r) => r.source_database).filter(Boolean) as string[])].sort(),
-    resistances: [...new Set(rows.flatMap((r) => r.confers_resistance_to ?? []))],
+    resistances: uniqueDrugs(rows.flatMap((r) => r.confers_resistance_to ?? [])),
     organisms: [...new Set(rows.flatMap((r) => r.organisms_tested_in ?? []))],
     countries: [...new Set(rows.map((r) => r.geographic_location || r.isolation_country).filter(Boolean) as string[])],
     years: [...new Set(rows.map((r) => r.year_pmid || r.year).filter(Boolean) as number[])].sort((a, b) => a - b),
@@ -77,10 +78,10 @@ export default async function GeneDetailPage({ params }: PageProps) {
   const isMutationOnly = genePapers.length === 0 && mutations.length > 0
 
   // Overview aggregates (family-level)
-  const allResistances = [...new Set([
+  const allResistances = uniqueDrugs([
     ...genePapers.flatMap((r) => r.confers_resistance_to ?? []),
     ...mutations.flatMap((m) => m.confers_resistance_to ?? []),
-  ])]
+  ])
   const allOrganisms = [...new Set([
     ...genePapers.flatMap((r) => r.organisms_tested_in ?? []),
     ...mutations.flatMap((m) => m.organisms_observed_in ?? []),

@@ -6,6 +6,7 @@ import { amrGenes, amrMutations, papers } from '@/lib/db/schema'
 import { jsonContains, toSnakeCase, alnumLike, normalizeAlnum } from '@/lib/db/helpers'
 import { getCachedFilterOptions } from '@/lib/browse-cache'
 import type { AMRGene, AMRMutation, FilterOptions, BrowseFilters, PaginatedResult, GeneWithMutationCount, GeneAllele, CurationStatus, PaperEntry, ValidationTier, ValidationInfo, ConfirmationReason } from '@/lib/types'
+import { uniqueDrugs } from '@/lib/utils'
 
 const PAGE_SIZE = 10
 
@@ -546,7 +547,7 @@ export async function browseGenesByAllele(filters: BrowseFilters, page: number =
       encodes: groupRows.map((r) => r.encodes).find(Boolean) ?? null,
       paper_count: groupRows.length,
       databases: [...new Set(groupRows.map((r) => r.sourceDatabase).filter((d): d is string => !!d))].sort(),
-      resistances: [...new Set(groupRows.flatMap((r) => r.confersResistanceTo ?? []))],
+      resistances: uniqueDrugs(groupRows.flatMap((r) => r.confersResistanceTo ?? [])),
       organisms: [...new Set(groupRows.flatMap((r) => r.organismsTestedIn ?? []))],
       validation_tier: (tiers.get(first.geneName!)?.tier ?? 'Candidate') as ValidationTier,
     }
@@ -776,7 +777,7 @@ export async function browseGenesWithMutations(filters: BrowseFilters, page: num
       mutation_count: g.count,
       best_status: g.statuses.reduce((best, s) => ((statusPriority[s] ?? 99) < (statusPriority[best] ?? 99) ? s : best), 'pending' as CurationStatus),
       mutation_types: [...g.mutationTypes].sort(),
-      resistances: [...g.resistances].sort(),
+      resistances: uniqueDrugs(g.resistances).sort(),
       validation_tier: (tiers.get(gene_name)?.tier ?? 'Candidate') as ValidationTier,
     }))
     .sort((a, b) => a.gene_name.localeCompare(b.gene_name))

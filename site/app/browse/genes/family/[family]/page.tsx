@@ -8,6 +8,7 @@ import { Separator } from '@/components/ui/separator'
 import { StatusBadge } from '@/components/browse/status-badge'
 import { getGeneFamilyData } from '@/lib/actions/browse'
 import type { AMRGene } from '@/lib/types'
+import { uniqueDrugs } from '@/lib/utils'
 
 interface PageProps {
   params: Promise<{ family: string }>
@@ -35,7 +36,7 @@ export default async function GeneFamilyPage({ params }: PageProps) {
     name,
     primaryId: rows[0].id,
     paperCount: rows.length,
-    resistances: [...new Set(rows.flatMap((r) => r.confers_resistance_to ?? []))],
+    resistances: uniqueDrugs(rows.flatMap((r) => r.confers_resistance_to ?? [])),
     organisms: [...new Set(rows.flatMap((r) => r.organisms_tested_in ?? []))],
     countries: [...new Set(rows.map((r) => r.geographic_location || r.isolation_country).filter(Boolean) as string[])],
     years: [...new Set(rows.map((r) => r.year_pmid || r.year).filter(Boolean) as number[])].sort(),
@@ -47,7 +48,7 @@ export default async function GeneFamilyPage({ params }: PageProps) {
   }))
 
   // Family-level aggregates
-  const allResistances = [...new Set(allRows.flatMap((r) => r.confers_resistance_to ?? []))]
+  const allResistances = uniqueDrugs(allRows.flatMap((r) => r.confers_resistance_to ?? []))
   const allOrganisms = [...new Set(allRows.flatMap((r) => r.organisms_tested_in ?? []))]
   const mechanismClass = allRows.find((r) => r.resistance_mechanism_class)?.resistance_mechanism_class
   const encodes = allRows.find((r) => r.encodes)?.encodes

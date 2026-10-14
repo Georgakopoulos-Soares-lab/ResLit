@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Badge } from '@/components/ui/badge'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import type { AMRMutation } from '@/lib/types'
+import { uniqueDrugs } from '@/lib/utils'
 
 const colors = [
   'bg-blue-100 text-blue-900 hover:bg-blue-200',
@@ -42,7 +43,7 @@ function groupByPmid(mutations: AMRMutation[]): MergedPaper[] {
       }
       if (m.key_findings && !existing.key_findings.includes(m.key_findings)) existing.key_findings.push(m.key_findings)
       for (const o of m.organisms_observed_in ?? []) { if (!existing.organisms.includes(o)) existing.organisms.push(o) }
-      for (const r of m.confers_resistance_to ?? []) { if (!existing.resistances.includes(r)) existing.resistances.push(r) }
+      existing.resistances = uniqueDrugs([...existing.resistances, ...(m.confers_resistance_to ?? [])])
       if (m.effect_on_function && !existing.effects.includes(m.effect_on_function)) existing.effects.push(m.effect_on_function)
       if (m.source_database && !existing.databases.includes(m.source_database)) existing.databases.push(m.source_database)
       if (m.validated_by && !existing.validated_by.includes(m.validated_by)) existing.validated_by.push(m.validated_by)
@@ -58,7 +59,7 @@ function groupByPmid(mutations: AMRMutation[]): MergedPaper[] {
         key_findings: m.key_findings ? [m.key_findings] : [],
         mutations: [{ id: m.id, gene_name: m.gene_name, nucleotide_change: m.nucleotide_change, protein_change: m.protein_change }],
         organisms: [...(m.organisms_observed_in ?? [])],
-        resistances: [...(m.confers_resistance_to ?? [])],
+        resistances: uniqueDrugs(m.confers_resistance_to ?? []),
         effects: m.effect_on_function ? [m.effect_on_function] : [],
         databases: m.source_database ? [m.source_database] : [],
         validated_by: m.validated_by ? [m.validated_by] : [],

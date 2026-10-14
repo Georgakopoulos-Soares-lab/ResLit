@@ -9,6 +9,7 @@ import {
 } from '@/components/ui/table'
 import { ValidationTierBadge } from './validation-tier-badge'
 import type { AMRMutation } from '@/lib/types'
+import { uniqueDrugs } from '@/lib/utils'
 
 interface MutationsTableProps {
   mutations: AMRMutation[]
@@ -48,9 +49,7 @@ function groupMutations(mutations: AMRMutation[]): MergedMutation[] {
       for (const o of m.organisms_observed_in ?? []) {
         if (!existing.organisms.includes(o)) existing.organisms.push(o)
       }
-      for (const r of m.confers_resistance_to ?? []) {
-        if (!existing.resistances.includes(r)) existing.resistances.push(r)
-      }
+      existing.resistances = uniqueDrugs([...existing.resistances, ...(m.confers_resistance_to ?? [])])
       const dbs = m.all_databases ?? (m.source_database ? [m.source_database] : [])
       for (const db of dbs) {
         if (!existing.databases.includes(db)) existing.databases.push(db)
@@ -67,7 +66,7 @@ function groupMutations(mutations: AMRMutation[]): MergedMutation[] {
         nucleotide_changes: m.nucleotide_change ? [m.nucleotide_change] : [],
         mechanisms: m.effect_on_function ? [m.effect_on_function] : [],
         organisms: [...(m.organisms_observed_in ?? [])],
-        resistances: [...(m.confers_resistance_to ?? [])],
+        resistances: uniqueDrugs(m.confers_resistance_to ?? []),
         databases: [...(m.all_databases ?? (m.source_database ? [m.source_database] : []))],
         validation_tier: m.validation_tier,
       })
