@@ -78,7 +78,7 @@ export default async function DownloadPage() {
                 />
                 <DownloadCard
                   title="Confirmed Genes"
-                  description="Download only Confirmed genes (found in ResLit + external DB or expert-curated)"
+                  description="Download only entries belonging to Confirmed genes"
                   type="genes"
                   validationTier="Confirmed"
                   count={stats.tierCounts.Confirmed}
@@ -104,7 +104,7 @@ export default async function DownloadPage() {
                 />
                 <DownloadCard
                   title="Confirmed Mutations"
-                  description="Download only mutations belonging to Confirmed genes"
+                  description="Download only entries belonging to Confirmed mutations"
                   type="mutations"
                   validationTier="Confirmed"
                   count={stats.confirmedMutations}
