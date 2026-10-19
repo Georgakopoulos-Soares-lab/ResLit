@@ -1,5 +1,8 @@
-import { sql, type SQL } from 'drizzle-orm'
+import { sql, inArray, type SQL } from 'drizzle-orm'
 import type { SQLiteColumn } from 'drizzle-orm/sqlite-core'
+import { normalizeGeneName } from '@/lib/gene-name'
+
+export { normalizeGeneName, pickGeneDisplayNames } from '@/lib/gene-name'
 
 /** Array-containment check for JSON-encoded array columns (the SQLite stand-in
  * for Postgres `.contains(col, [value])` on a TEXT[] column). Returns zero
@@ -22,6 +25,17 @@ export function normalizeAlnum(value: string): string {
  * "strip all non-alphanumeric characters" in one shot. */
 export function alnumLike(column: SQLiteColumn, term: string): SQL {
   return sql`alnum(${column}) LIKE ${'%' + normalizeAlnum(term) + '%'}`
+}
+
+/** Gene-identity match on a gene-name column. Relies on the `gene_key`
+ * SQLite function registered in lib/db/client.ts. */
+export function geneKeyEq(column: SQLiteColumn, name: string): SQL {
+  return sql`gene_key(${column}) = ${normalizeGeneName(name)}`
+}
+
+/** `gene_key(column) IN (...keys)` — `keys` must already be normalized. */
+export function geneKeyIn(column: SQLiteColumn, keys: string[]): SQL {
+  return inArray(sql`gene_key(${column})`, keys)
 }
 
 /** better-sqlite3's compiled SQLITE_MAX_VARIABLE_NUMBER is 32766 — a single

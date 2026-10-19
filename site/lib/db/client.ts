@@ -3,7 +3,7 @@ import { drizzle, type BetterSQLite3Database } from 'drizzle-orm/better-sqlite3'
 import fs from 'fs'
 import path from 'path'
 import * as schema from './schema'
-import { normalizeAlnum } from './helpers'
+import { normalizeAlnum, normalizeGeneName } from './helpers'
 
 const DATABASE_PATH = process.env.DATABASE_PATH || './data/reslit.db'
 
@@ -31,6 +31,11 @@ function getSqlite(): Database.Database {
     // (e.g. "blaOXA14" matches "blaOXA-14").
     _sqlite.function('alnum', { deterministic: true }, (value: unknown) =>
       value == null ? null : normalizeAlnum(String(value))
+    )
+    // Backs geneKeyEq()/geneKeyIn() in ./helpers — gene identity matching
+    // (e.g. "OmpA" matches "ompA").
+    _sqlite.function('gene_key', { deterministic: true }, (value: unknown) =>
+      value == null ? null : normalizeGeneName(String(value))
     )
   }
   return _sqlite

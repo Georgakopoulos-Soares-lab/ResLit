@@ -9,6 +9,7 @@ import { StatusBadge } from '@/components/browse/status-badge'
 import { getGeneFamilyData } from '@/lib/actions/browse'
 import type { AMRGene } from '@/lib/types'
 import { uniqueDrugs } from '@/lib/utils'
+import { normalizeGeneName, pickGeneDisplayNames } from '@/lib/gene-name'
 
 interface PageProps {
   params: Promise<{ family: string }>
@@ -26,14 +27,14 @@ export default async function GeneFamilyPage({ params }: PageProps) {
   // Model 1: gene_name = "blaADC-30" (allele in gene_name)
   // Model 2: gene_name = "blaADC", allele = "blaADC-30"
   const alleleMap = allRows.reduce<Record<string, AMRGene[]>>((acc, g) => {
-    const key = g.allele || g.gene_name
+    const key = normalizeGeneName(g.allele || g.gene_name)
     if (!acc[key]) acc[key] = []
     acc[key].push(g)
     return acc
   }, {})
 
-  const alleles = Object.entries(alleleMap).map(([name, rows]) => ({
-    name,
+  const alleles = Object.values(alleleMap).map((rows) => ({
+    name: pickGeneDisplayNames(rows.map((r) => r.allele || r.gene_name)).values().next().value ?? rows[0].gene_name,
     primaryId: rows[0].id,
     paperCount: rows.length,
     resistances: uniqueDrugs(rows.flatMap((r) => r.confers_resistance_to ?? [])),

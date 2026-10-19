@@ -1,6 +1,7 @@
 import { db } from '@/lib/db/client'
 import { amrGenes, amrMutations } from '@/lib/db/schema'
 import type { FilterOptions } from '@/lib/types'
+import { normalizeGeneName, pickGeneDisplayNames } from '@/lib/gene-name'
 
 // Hand-rolled cache (matching lib/actions/browse.ts's tier caches) rather
 // than unstable_cache: unstable_cache requires the Next.js incremental
@@ -13,6 +14,12 @@ let _inFlight: Promise<FilterOptions> | null = null
 
 function sortedUnique(values: (string | null | undefined)[]): string[] {
   return [...new Set(values.filter((v): v is string => Boolean(v)))].sort()
+}
+
+/** One entry per gene identity ("OmpA"/"ompA" are one gene), shown under
+ * its display name — the same spelling the browse pages use. */
+function uniqueGeneNames(names: (string | null | undefined)[], display: Map<string, string>): string[] {
+  return sortedUnique(names.filter((n): n is string => Boolean(n)).map((n) => display.get(normalizeGeneName(n)) ?? n))
 }
 
 async function _fetchFilterOptions(): Promise<FilterOptions> {
@@ -40,6 +47,7 @@ async function _fetchFilterOptions(): Promise<FilterOptions> {
       .from(amrMutations),
   ])
 
+  const geneDisplay = pickGeneDisplayNames(geneRows.map((r) => r.geneName), mutationRows.map((r) => r.geneName))
   const years = [...new Set(geneRows.map((r) => r.year).filter((y): y is number => y != null))].sort((a, b) => b - a)
 
   return {
@@ -50,8 +58,8 @@ async function _fetchFilterOptions(): Promise<FilterOptions> {
     countries: sortedUnique(geneRows.map((r) => r.geographicLocation)),
     mutationCountries: sortedUnique(mutationRows.map((r) => r.country)),
     years,
-    geneNames: sortedUnique(geneRows.map((r) => r.geneName)),
-    mutationGeneNames: sortedUnique(mutationRows.map((r) => r.geneName)),
+    geneNames: uniqueGeneNames(geneRows.map((r) => r.geneName), geneDisplay),
+    mutationGeneNames: uniqueGeneNames(mutationRows.map((r) => r.geneName), geneDisplay),
     mutationAntibiotics: sortedUnique(mutationRows.flatMap((r) => r.confersResistanceTo || [])),
     mutationTypes: sortedUnique(mutationRows.map((r) => r.mutationType)),
     sourceDatabases: ['Card Database', 'Reference Gene Catalog', 'ResFinder Database', 'Reslit'],

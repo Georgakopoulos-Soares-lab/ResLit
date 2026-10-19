@@ -10,6 +10,7 @@ import {
 import { ValidationTierBadge } from './validation-tier-badge'
 
 import type { AMRGene } from '@/lib/types'
+import { normalizeGeneName } from '@/lib/gene-name'
 import { uniqueDrugs } from '@/lib/utils'
 
 
@@ -42,9 +43,10 @@ export function GenesTable({ genes }: GenesTableProps) {
     )
   }
 
-  // Group rows by gene_name so each gene appears once with a papers count
+  // Group rows by gene identity so each gene appears once with a papers count
+  // ("OmpA" and "ompA" rows are one gene, labelled with its display name)
   const grouped = genes.reduce<Record<string, AMRGene[]>>((acc, gene) => {
-    const key = gene.gene_name
+    const key = normalizeGeneName(gene.gene_name)
     if (!acc[key]) acc[key] = []
     acc[key].push(gene)
     return acc
@@ -65,8 +67,9 @@ export function GenesTable({ genes }: GenesTableProps) {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {Object.entries(grouped).map(([geneName, group]) => {
+          {Object.entries(grouped).map(([geneKey, group]) => {
             const primary = group[0]
+            const geneName = primary.gene_display_name ?? primary.gene_name
 
             // Aggregate across all papers for this gene
             const allResistances = uniqueDrugs(group.flatMap((g) => g.confers_resistance_to ?? []))
@@ -76,9 +79,9 @@ export function GenesTable({ genes }: GenesTableProps) {
             const allDatabases = [
               ...new Set(group.map((g) => g.source_database).filter(Boolean)),
             ].sort()
-            const alleleCount = new Set(group.map((g) => g.allele || g.gene_name).filter(Boolean)).size
+            const alleleCount = new Set(group.map((g) => normalizeGeneName(g.allele || g.gene_name))).size
             return (
-              <TableRow key={geneName} className="hover:bg-primary/5 align-top transition-colors">
+              <TableRow key={geneKey} className="hover:bg-primary/5 align-top transition-colors">
                 <TableCell>
                   <Link
                     href={`/browse/genes/${encodeURIComponent(primary.gene_name)}`}

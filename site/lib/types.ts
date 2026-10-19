@@ -35,6 +35,8 @@ export interface PaperSummary {
 export interface AMRGene {
   id: string
   gene_name: string
+  /** Most frequent spelling of this row's gene identity (see normalizeGeneName); set by browseGenes. */
+  gene_display_name?: string
   allele: string | null
   encodes: string | null
   mechanism: string | null

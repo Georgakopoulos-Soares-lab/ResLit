@@ -4,7 +4,7 @@ import { revalidatePath } from 'next/cache'
 import { count, eq, and, inArray, desc } from 'drizzle-orm'
 import { db } from '@/lib/db/client'
 import { amrGenes, amrMutations, curationHistory, curationNotes, curators, publicCuratorColumns } from '@/lib/db/schema'
-import { toSnakeCase } from '@/lib/db/helpers'
+import { toSnakeCase, normalizeGeneName, geneKeyEq } from '@/lib/db/helpers'
 import { getCurrentCurator as getSessionCurator, destroySession } from '@/lib/auth/session'
 import { invalidateTierCaches, getValidationTiers } from '@/lib/actions/browse'
 import type { AMRGene, AMRMutation, Curator, CurationNote, CurationHistory } from '@/lib/types'
@@ -85,7 +85,7 @@ export async function updateGeneStatus(
     }
 
     const tiers = await getValidationTiers()
-    const previousTier = tiers.get(gene.geneName)?.tier ?? 'Candidate'
+    const previousTier = tiers.get(normalizeGeneName(gene.geneName))?.tier ?? 'Candidate'
 
     await db
       .update(amrGenes)
@@ -102,12 +102,12 @@ export async function updateGeneStatus(
 
     // When approving, propagate gene_status to all alleles of the same gene
     if (status === 'curated' && gene.geneName) {
-      await db.update(amrGenes).set({ geneStatus: 'curated' }).where(eq(amrGenes.geneName, gene.geneName))
+      await db.update(amrGenes).set({ geneStatus: 'curated' }).where(geneKeyEq(amrGenes.geneName, gene.geneName))
     }
 
     await invalidateTierCaches()
     const newTiers = await getValidationTiers()
-    const newTier = newTiers.get(gene.geneName)?.tier ?? 'Candidate'
+    const newTier = newTiers.get(normalizeGeneName(gene.geneName))?.tier ?? 'Candidate'
 
     await db.insert(curationHistory).values({
       targetType: 'gene',

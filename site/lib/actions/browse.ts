@@ -1,9 +1,9 @@
 'use server'
 
-import { eq, gte, lte, isNull, isNotNull, like, or, and, inArray, asc } from 'drizzle-orm'
+import { eq, gte, lte, isNull, isNotNull, like, or, and, inArray, asc, sql } from 'drizzle-orm'
 import { db } from '@/lib/db/client'
 import { amrGenes, amrMutations, papers } from '@/lib/db/schema'
-import { jsonContains, toSnakeCase, alnumLike, normalizeAlnum } from '@/lib/db/helpers'
+import { jsonContains, toSnakeCase, alnumLike, normalizeAlnum, normalizeGeneName, geneKeyEq, geneKeyIn, pickGeneDisplayNames } from '@/lib/db/helpers'
 import { getCachedFilterOptions } from '@/lib/browse-cache'
 import type { AMRGene, AMRMutation, FilterOptions, BrowseFilters, PaginatedResult, GeneWithMutationCount, GeneAllele, CurationStatus, PaperEntry, ValidationTier, ValidationInfo, ConfirmationReason } from '@/lib/types'
 import { uniqueDrugs } from '@/lib/utils'
@@ -18,8 +18,12 @@ let _mutTierCache: { data: Map<string, ValidationInfo>; ts: number } | null = nu
 let _geneTierPromise: Promise<Map<string, ValidationInfo>> | null = null
 let _mutTierPromise: Promise<Map<string, ValidationInfo>> | null = null
 
-let _geneNamesCache: { data: string[]; ts: number } | null = null
-let _geneNamesPromise: Promise<string[]> | null = null
+// Gene identity is normalizeGeneName(gene_name) everywhere below ("OmpA" and
+// "ompA" are one gene); `display` holds each identity's most frequent
+// original spelling, which is what the UI shows.
+type GeneNameIndex = { keys: string[]; display: Map<string, string> }
+let _geneNamesCache: { data: GeneNameIndex; ts: number } | null = null
+let _geneNamesPromise: Promise<GeneNameIndex> | null = null
 let _mutGroupsCache: { data: Map<string, string[]>; ts: number } | null = null
 let _mutGroupsPromise: Promise<Map<string, string[]>> | null = null
 let _alleleGroupsCache: { data: Map<string, string[]>; ts: number } | null = null
@@ -58,10 +62,11 @@ async function _fetchValidationTiers(): Promise<Map<string, ValidationInfo>> {
 
   for (const r of allRows) {
     if (!r.geneName) continue
-    let info = geneInfo.get(r.geneName)
+    const key = normalizeGeneName(r.geneName)
+    let info = geneInfo.get(key)
     if (!info) {
       info = { databases: new Set(), hasCurated: false, reslitPmids: new Set() }
-      geneInfo.set(r.geneName, info)
+      geneInfo.set(key, info)
     }
     if (r.sourceDatabase) info.databases.add(r.sourceDatabase)
     if (r.sourceDatabase === 'Reslit' && r.paperPmid) info.reslitPmids.add(r.paperPmid)
@@ -226,12 +231,25 @@ export async function getDistinctPaperCount(): Promise<number> {
   return all.size
 }
 
-async function _fetchUniqueGeneNames(): Promise<string[]> {
-  const rows = await db.select({ geneName: amrGenes.geneName }).from(amrGenes)
-  return [...new Set(rows.map((r) => r.geneName).filter(Boolean))].sort()
+function byDisplayName(display: Map<string, string>) {
+  return (a: string, b: string) => {
+    const nameA = display.get(a) ?? a
+    const nameB = display.get(b) ?? b
+    return nameA < nameB ? -1 : nameA > nameB ? 1 : 0
+  }
 }
 
-async function getCachedGeneNames(): Promise<string[]> {
+async function _fetchUniqueGeneNames(): Promise<GeneNameIndex> {
+  const [geneRows, mutationRows] = await Promise.all([
+    db.select({ geneName: amrGenes.geneName }).from(amrGenes),
+    db.select({ geneName: amrMutations.geneName }).from(amrMutations),
+  ])
+  const display = pickGeneDisplayNames(geneRows.map((r) => r.geneName), mutationRows.map((r) => r.geneName))
+  const keys = [...new Set(geneRows.filter((r) => r.geneName).map((r) => normalizeGeneName(r.geneName)))]
+  return { keys: keys.sort(byDisplayName(display)), display }
+}
+
+async function getCachedGeneNames(): Promise<GeneNameIndex> {
   if (_geneNamesCache && Date.now() - _geneNamesCache.ts < CACHE_TTL) {
     return _geneNamesCache.data
   }
@@ -248,6 +266,12 @@ async function getCachedGeneNames(): Promise<string[]> {
       })
   }
   return _geneNamesPromise
+}
+
+/** Most frequent original spelling of `name`'s gene identity. */
+export async function getGeneDisplayName(name: string): Promise<string> {
+  const { display } = await getCachedGeneNames()
+  return display.get(normalizeGeneName(name)) ?? name
 }
 
 async function _fetchMutationGroups(): Promise<Map<string, string[]>> {
@@ -358,13 +382,13 @@ function buildGeneConditions(filters: BrowseFilters, tiers: Map<string, Validati
   if (filters.curatedOnly) conditions.push(eq(amrGenes.geneStatus, 'curated'))
   if (filters.validationTier) {
     const tierGenes = [...tiers.entries()].filter(([, i]) => i.tier === filters.validationTier).map(([g]) => g)
-    conditions.push(inArray(amrGenes.geneName, tierGenes))
+    conditions.push(geneKeyIn(amrGenes.geneName, tierGenes))
   }
   return conditions
 }
 
 export async function browseGenes(filters: BrowseFilters, page: number = 1): Promise<PaginatedResult<AMRGene>> {
-  const [tiers, cachedNames] = await Promise.all([getValidationTiers(), getCachedGeneNames()])
+  const [tiers, { keys: cachedNames, display }] = await Promise.all([getValidationTiers(), getCachedGeneNames()])
 
   let uniqueNames: string[]
 
@@ -373,14 +397,13 @@ export async function browseGenes(filters: BrowseFilters, page: number = 1): Pro
       .select({ geneName: amrGenes.geneName })
       .from(amrGenes)
       .where(and(...buildGeneConditions(filters, tiers)))
-      .orderBy(asc(amrGenes.geneName))
 
-    uniqueNames = [...new Set(rows.map((r) => r.geneName).filter(Boolean))].sort()
+    uniqueNames = [...new Set(rows.filter((r) => r.geneName).map((r) => normalizeGeneName(r.geneName)))].sort(byDisplayName(display))
   } else {
     uniqueNames = cachedNames
     if (filters.search) {
       const s = normalizeAlnum(filters.search)
-      uniqueNames = uniqueNames.filter((g) => normalizeAlnum(g).includes(s))
+      uniqueNames = uniqueNames.filter((g) => normalizeAlnum(display.get(g) ?? g).includes(s))
     }
     if (filters.validationTier) {
       uniqueNames = uniqueNames.filter((g) => (tiers.get(g)?.tier ?? 'Candidate') === filters.validationTier)
@@ -415,24 +438,28 @@ export async function browseGenes(filters: BrowseFilters, page: number = 1): Pro
       geneStatus: amrGenes.geneStatus,
     })
     .from(amrGenes)
-    .where(inArray(amrGenes.geneName, pagedNames))
+    .where(geneKeyIn(amrGenes.geneName, pagedNames))
     .orderBy(asc(amrGenes.geneName))
 
-  const enriched = pageData.map((row) => ({
-    ...toSnakeCase(row),
-    validation_tier: (tiers.get(row.geneName)?.tier ?? 'Candidate') as ValidationTier,
-  })) as unknown as AMRGene[]
+  const enriched = pageData.map((row) => {
+    const key = normalizeGeneName(row.geneName)
+    return {
+      ...toSnakeCase(row),
+      gene_display_name: display.get(key) ?? row.geneName,
+      validation_tier: (tiers.get(key)?.tier ?? 'Candidate') as ValidationTier,
+    }
+  }) as unknown as AMRGene[]
 
-  enriched.sort((a, b) => a.gene_name.localeCompare(b.gene_name))
+  enriched.sort((a, b) => a.gene_display_name!.localeCompare(b.gene_display_name!) || a.gene_name.localeCompare(b.gene_name))
 
   return { data: enriched, total, page, pageSize: PAGE_SIZE, totalPages }
 }
 
-// Groups amr_genes rows by (gene_name, allele) — falling back to gene_name
-// itself when a row has no allele, matching the grouping already used on the
-// gene-detail page's "Allele Variants" table.
+// Groups amr_genes rows by (gene identity, allele identity) — falling back to
+// gene_name itself when a row has no allele, matching the grouping already
+// used on the gene-detail page's "Allele Variants" table.
 function alleleGroupKey(geneName: string, allele: string | null): string {
-  return `${geneName}::${allele || geneName}`
+  return `${normalizeGeneName(geneName)}::${normalizeGeneName(allele || geneName)}`
 }
 
 function geneNameFromAlleleKey(key: string): string {
@@ -472,7 +499,7 @@ async function getCachedAlleleGroups(): Promise<Map<string, string[]>> {
 }
 
 export async function browseGenesByAllele(filters: BrowseFilters, page: number = 1): Promise<PaginatedResult<GeneAllele>> {
-  const [tiers, cachedGroups] = await Promise.all([getValidationTiers(), getCachedAlleleGroups()])
+  const [tiers, cachedGroups, { display }] = await Promise.all([getValidationTiers(), getCachedAlleleGroups(), getCachedGeneNames()])
 
   let groups: Map<string, string[]>
   let groupKeys: string[]
@@ -541,15 +568,16 @@ export async function browseGenesByAllele(filters: BrowseFilters, page: number =
   const enriched: GeneAllele[] = pagedKeys.map((key) => {
     const groupRows = byKey.get(key) ?? []
     const first = groupRows[0]
+    const geneKey = geneNameFromAlleleKey(key)
     return {
-      gene_name: first.geneName!,
-      allele: first.allele || first.geneName!,
+      gene_name: display.get(geneKey) ?? first.geneName!,
+      allele: pickGeneDisplayNames(groupRows.map((r) => r.allele || r.geneName)).values().next().value ?? first.geneName!,
       encodes: groupRows.map((r) => r.encodes).find(Boolean) ?? null,
       paper_count: groupRows.length,
       databases: [...new Set(groupRows.map((r) => r.sourceDatabase).filter((d): d is string => !!d))].sort(),
       resistances: uniqueDrugs(groupRows.flatMap((r) => r.confersResistanceTo ?? [])),
       organisms: [...new Set(groupRows.flatMap((r) => r.organismsTestedIn ?? []))],
-      validation_tier: (tiers.get(first.geneName!)?.tier ?? 'Candidate') as ValidationTier,
+      validation_tier: (tiers.get(geneKey)?.tier ?? 'Candidate') as ValidationTier,
     }
   })
 
@@ -585,7 +613,7 @@ export async function browseMutations(filters: BrowseFilters, page: number = 1):
         )
       )
     }
-    if (filters.geneName) conditions.push(eq(amrMutations.geneName, filters.geneName))
+    if (filters.geneName) conditions.push(geneKeyEq(amrMutations.geneName, filters.geneName))
     if (filters.antibiotic) conditions.push(jsonContains(amrMutations.confersResistanceTo, filters.antibiotic))
     if (filters.mutationType) {
       conditions.push(eq(amrMutations.mutationType, filters.mutationType as 'substitution' | 'insertion' | 'deletion' | 'frameshift' | 'other'))
@@ -665,7 +693,7 @@ export async function getGeneById(id: string): Promise<AMRGene | null> {
 }
 
 export async function getGeneAllPapers(geneName: string): Promise<AMRGene[]> {
-  const rows = await db.select().from(amrGenes).where(eq(amrGenes.geneName, geneName)).orderBy(asc(amrGenes.paperPmid))
+  const rows = await db.select().from(amrGenes).where(geneKeyEq(amrGenes.geneName, geneName)).orderBy(asc(amrGenes.paperPmid))
   return rows.map((r) => toSnakeCase(r)) as unknown as AMRGene[]
 }
 
@@ -677,8 +705,8 @@ export async function getMutationById(id: string): Promise<AMRMutation | null> {
 
 export async function getGeneFamilyData(family: string): Promise<AMRGene[]> {
   const [byPattern, byExact] = await Promise.all([
-    db.select().from(amrGenes).where(like(amrGenes.geneName, `${family}-%`)).orderBy(asc(amrGenes.geneName)),
-    db.select().from(amrGenes).where(eq(amrGenes.geneName, family)).orderBy(asc(amrGenes.allele)),
+    db.select().from(amrGenes).where(sql`gene_key(${amrGenes.geneName}) LIKE ${normalizeGeneName(family) + '-%'}`).orderBy(asc(amrGenes.geneName)),
+    db.select().from(amrGenes).where(geneKeyEq(amrGenes.geneName, family)).orderBy(asc(amrGenes.allele)),
   ])
 
   const patternRows = byPattern.filter((g) => /^.+-\d+$/.test(g.geneName))
@@ -704,12 +732,12 @@ export async function getMutationsByGeneId(geneId: string): Promise<AMRMutation[
 }
 
 export async function browseGenesWithMutations(filters: BrowseFilters, page: number = 1): Promise<PaginatedResult<GeneWithMutationCount>> {
-  const tiers = await getValidationTiers()
+  const [tiers, { display }] = await Promise.all([getValidationTiers(), getCachedGeneNames()])
 
   let allowedGeneNames: string[] | null = null
   if (filters.mechanismClass) {
     const geneRows = await db.select({ geneName: amrGenes.geneName }).from(amrGenes).where(eq(amrGenes.mechanism, filters.mechanismClass))
-    allowedGeneNames = [...new Set(geneRows.map((r) => r.geneName).filter(Boolean))]
+    allowedGeneNames = [...new Set(geneRows.filter((r) => r.geneName).map((r) => normalizeGeneName(r.geneName)))]
   }
 
   const conditions = []
@@ -719,14 +747,14 @@ export async function browseGenesWithMutations(filters: BrowseFilters, page: num
     if (tierGenes.length === 0) {
       return { data: [], total: 0, page, pageSize: PAGE_SIZE, totalPages: 0 }
     }
-    conditions.push(inArray(amrMutations.geneName, tierGenes))
+    conditions.push(geneKeyIn(amrMutations.geneName, tierGenes))
   }
   if (filters.search) conditions.push(alnumLike(amrMutations.geneName, filters.search))
   if (allowedGeneNames !== null) {
     if (allowedGeneNames.length === 0) {
       return { data: [], total: 0, page, pageSize: PAGE_SIZE, totalPages: 0 }
     }
-    conditions.push(inArray(amrMutations.geneName, allowedGeneNames))
+    conditions.push(geneKeyIn(amrMutations.geneName, allowedGeneNames))
   }
   if (filters.antibiotic) conditions.push(jsonContains(amrMutations.confersResistanceTo, filters.antibiotic))
   if (filters.organism) conditions.push(jsonContains(amrMutations.organismsObservedIn, filters.organism))
@@ -755,14 +783,15 @@ export async function browseGenesWithMutations(filters: BrowseFilters, page: num
 
   for (const m of data) {
     if (!m.geneName) continue
-    const existing = groups.get(m.geneName)
+    const key = normalizeGeneName(m.geneName)
+    const existing = groups.get(key)
     if (existing) {
       existing.count++
       if (m.status) existing.statuses.push(m.status as CurationStatus)
       if (m.mutationType) existing.mutationTypes.add(m.mutationType)
       for (const r of m.confersResistanceTo || []) existing.resistances.add(r)
     } else {
-      groups.set(m.geneName, {
+      groups.set(key, {
         count: 1,
         statuses: m.status ? [m.status as CurationStatus] : [],
         mutationTypes: new Set(m.mutationType ? [m.mutationType] : []),
@@ -772,13 +801,13 @@ export async function browseGenesWithMutations(filters: BrowseFilters, page: num
   }
 
   const entries: GeneWithMutationCount[] = [...groups.entries()]
-    .map(([gene_name, g]) => ({
-      gene_name,
+    .map(([key, g]) => ({
+      gene_name: display.get(key) ?? key,
       mutation_count: g.count,
       best_status: g.statuses.reduce((best, s) => ((statusPriority[s] ?? 99) < (statusPriority[best] ?? 99) ? s : best), 'pending' as CurationStatus),
       mutation_types: [...g.mutationTypes].sort(),
       resistances: uniqueDrugs(g.resistances).sort(),
-      validation_tier: (tiers.get(gene_name)?.tier ?? 'Candidate') as ValidationTier,
+      validation_tier: (tiers.get(key)?.tier ?? 'Candidate') as ValidationTier,
     }))
     .sort((a, b) => a.gene_name.localeCompare(b.gene_name))
 
@@ -790,7 +819,7 @@ export async function browseGenesWithMutations(filters: BrowseFilters, page: num
 }
 
 export async function getMutationsByGeneName(geneName: string): Promise<AMRMutation[]> {
-  const rows = await db.select().from(amrMutations).where(eq(amrMutations.geneName, geneName)).orderBy(asc(amrMutations.nucleotideChange))
+  const rows = await db.select().from(amrMutations).where(geneKeyEq(amrMutations.geneName, geneName)).orderBy(asc(amrMutations.nucleotideChange))
   return rows.map((r) => toSnakeCase(r)) as unknown as AMRMutation[]
 }
 
