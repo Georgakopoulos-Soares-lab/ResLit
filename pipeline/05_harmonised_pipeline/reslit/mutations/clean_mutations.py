@@ -14,6 +14,8 @@ Nucleotide/Protein position validation: when both Nucleotide_Change and
 Protein_Change have a position number, the nucleotide position must be
 approximately 3× the protein position (±2). If not, the Nucleotide_Change
 is cleared (the number was likely a copy of the protein position).
+
+Rows left with neither a Protein_Change nor a Nucleotide_Change are dropped.
 """
 
 import re
@@ -161,6 +163,16 @@ def main():
     df = df[keep]
     dropped = before_drop - len(df)
     print(f"\n  Dropped {dropped} non-promoter rows with no recognized antibiotic in Resistance")
+    print(f"  {len(df)} rows remaining")
+
+    # Drop rows with neither a Protein_Change nor a Nucleotide_Change (e.g. notes
+    # like "mutation in coding region"). Runs after the position validation above,
+    # since that step can clear Nucleotide_Change.
+    prot_empty = df["Protein_Change"].fillna("").astype(str).str.strip() == ""
+    nuc_empty = df["Nucleotide_Change"].fillna("").astype(str).str.strip() == ""
+    no_change = prot_empty & nuc_empty
+    df = df[~no_change]
+    print(f"\n  Dropped {no_change.sum()} rows with neither Protein_Change nor Nucleotide_Change")
     print(f"  {len(df)} rows remaining")
 
     # Save
