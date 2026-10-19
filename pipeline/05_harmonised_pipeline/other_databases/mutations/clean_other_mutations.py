@@ -6,6 +6,8 @@ Cleans Full_list_mutations_otherDatabases.csv:
     special characters, deduplicates. Splits by '/', ',', '&' separators.
   - Nucleotide/Protein position validation (3x ±2 rule)
   - Drops rows with no recognized antibiotic in Resistance (except promoter mutations)
+  - Harmonises notation with ResLit: uppercases simple nucleotide substitutions
+    (a1401g -> A1401G) and writes stop codons as '*' (E31Ter -> E31*)
 """
 
 import re
@@ -38,6 +40,8 @@ OUTPUT_CSV = HERE / "Full_list_mutations_otherDatabases_clean.csv"
 _PROMOTER_RE = re.compile(r"-\d")
 _NUC_POS_RE = re.compile(r"[A-Za-z](-?\d+)[A-Za-z>]")
 _PROT_POS_RE = re.compile(r"[A-Za-z](\d+)[A-Za-z]")
+_SIMPLE_NUC_SUB_RE = re.compile(r"^[ACGTacgt]-?\d+[ACGTacgt]$")
+_STOP_TER_RE = re.compile(r"^[A-Z]-?\d+Ter$")
 
 
 def is_promoter_mutation(nuc_change):
@@ -194,6 +198,22 @@ def main():
     dropped = before_drop - len(df)
     print(f"\n  Dropped {dropped} non-promoter rows with no recognized antibiotic in Resistance")
     print(f"  {len(df)} rows remaining")
+
+    # --- Harmonise notation with ResLit ---
+    df = df.copy()
+    # CARD writes simple substitutions in lowercase (a1401g); ResLit uses A1401G.
+    # del/ins/dup/fs values don't match the pattern and keep their notation.
+    nuc = df["Nucleotide_Change"].fillna("").astype(str)
+    nuc_lower = nuc.str.match(_SIMPLE_NUC_SUB_RE) & nuc.str.contains(r"[a-z]")
+    df.loc[nuc_lower, "Nucleotide_Change"] = nuc[nuc_lower].str.upper()
+    print(f"\n  Uppercased {nuc_lower.sum()} lowercase nucleotide substitutions (e.g. a1401g -> A1401G)")
+
+    # Stop codons: "Ter" -> "*" (E31Ter -> E31*), as in ResLit. Frameshift
+    # (T314AfsTer16, Ter482fs) and insertion (ins238TERY) forms don't match.
+    prot = df["Protein_Change"].fillna("").astype(str)
+    prot_ter = prot.str.match(_STOP_TER_RE)
+    df.loc[prot_ter, "Protein_Change"] = prot[prot_ter].str[:-3] + "*"
+    print(f"  Converted {prot_ter.sum()} stop codons from 'Ter' to '*' (e.g. E31Ter -> E31*)")
 
     # Save
     df.to_csv(OUTPUT_CSV, index=False)
