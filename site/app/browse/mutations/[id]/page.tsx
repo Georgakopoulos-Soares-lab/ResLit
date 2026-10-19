@@ -11,7 +11,7 @@ import { HistoryDialog } from '@/components/curator/history-dialog'
 import { eq, and, isNotNull } from 'drizzle-orm'
 import { db } from '@/lib/db/client'
 import { amrGenes, amrMutations } from '@/lib/db/schema'
-import { toSnakeCase } from '@/lib/db/helpers'
+import { toSnakeCase, geneKeyEq } from '@/lib/db/helpers'
 import { getMutationById, getMutationValidationTiers } from '@/lib/actions/browse'
 import { getComments } from '@/lib/actions/comments'
 import { getCurrentCurator } from '@/lib/actions/curator'
@@ -97,7 +97,7 @@ export default async function MutationDetailPage({ params }: PageProps) {
     const [geneRow] = await db
       .select({ encodes: amrGenes.encodes })
       .from(amrGenes)
-      .where(and(eq(amrGenes.geneName, mutation.gene_name), isNotNull(amrGenes.encodes)))
+      .where(and(geneKeyEq(amrGenes.geneName, mutation.gene_name), isNotNull(amrGenes.encodes)))
       .limit(1)
     geneEncodes = geneRow?.encodes ?? null
   }

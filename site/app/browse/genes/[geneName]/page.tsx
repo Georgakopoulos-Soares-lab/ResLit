@@ -10,7 +10,8 @@ import { MutationsTable } from '@/components/browse/mutations-table'
 import { CommentsSection } from '@/components/comments/comments-section'
 import { CombinedPapersSection } from '@/components/browse/combined-papers-section'
 import { HistoryDialog } from '@/components/curator/history-dialog'
-import { getGeneAllPapers, getMutationsByGeneName, getValidationTiers, getMutationValidationTiers } from '@/lib/actions/browse'
+import { getGeneAllPapers, getMutationsByGeneName, getValidationTiers, getMutationValidationTiers, getGeneDisplayName } from '@/lib/actions/browse'
+import { normalizeGeneName, pickGeneDisplayNames } from '@/lib/gene-name'
 import { getComments } from '@/lib/actions/comments'
 import { getCurrentCurator } from '@/lib/actions/curator'
 import type { ValidationTier } from '@/lib/types'
@@ -25,12 +26,15 @@ export default async function GeneDetailPage({ params }: PageProps) {
   const { geneName } = await params
   const decodedName = decodeURIComponent(geneName)
 
-  const [genePapers, rawMutations, curator, tiers, mutTiers] = await Promise.all([
+  // Lookups match on gene identity, so /browse/genes/ompA also finds rows
+  // stored as "OmpA"; the page shows the gene's most frequent spelling.
+  const [genePapers, rawMutations, curator, tiers, mutTiers, displayName] = await Promise.all([
     getGeneAllPapers(decodedName),
     getMutationsByGeneName(decodedName),
     getCurrentCurator(),
     getValidationTiers(),
     getMutationValidationTiers(),
+    getGeneDisplayName(decodedName),
   ])
 
   const mutations = rawMutations.map((m) => ({
@@ -47,9 +51,9 @@ export default async function GeneDetailPage({ params }: PageProps) {
 
   const comments = gene ? await getComments('gene', gene.id) : []
 
-  // Group papers by allele (supports both data models)
+  // Group papers by allele identity (supports both data models)
   const alleleMap = genePapers.reduce<Record<string, typeof genePapers>>((acc, p) => {
-    const key = p.allele || p.gene_name
+    const key = normalizeGeneName(p.allele || p.gene_name)
     if (!acc[key]) acc[key] = []
     acc[key].push(p)
     return acc
@@ -57,8 +61,8 @@ export default async function GeneDetailPage({ params }: PageProps) {
   const hasMultipleAlleles = Object.keys(alleleMap).length > 1
 
   // Rich per-allele summaries for the allele table
-  const alleleEntries = Object.entries(alleleMap).map(([name, rows]) => ({
-    name,
+  const alleleEntries = Object.values(alleleMap).map((rows) => ({
+    name: pickGeneDisplayNames(rows.map((r) => r.allele || r.gene_name)).values().next().value ?? rows[0].gene_name,
     paperCount: rows.length,
     databases: [...new Set(rows.map((r) => r.source_database).filter(Boolean) as string[])].sort(),
     resistances: uniqueDrugs(rows.flatMap((r) => r.confers_resistance_to ?? [])),
@@ -98,7 +102,7 @@ export default async function GeneDetailPage({ params }: PageProps) {
     ...mutations.map((m) => m.paper_pmid).filter(Boolean),
   ]).size
   const allDatabases = [...new Set(genePapers.map((r) => r.source_database).filter(Boolean))].sort() as string[]
-  const validationInfo = tiers.get(decodedName)
+  const validationInfo = tiers.get(normalizeGeneName(decodedName))
   const validationTier = validationInfo?.tier ?? 'Candidate'
   const confirmationReason = validationInfo?.reason
 
@@ -121,7 +125,7 @@ export default async function GeneDetailPage({ params }: PageProps) {
           >
             <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
           </svg>
-          <span className="text-foreground font-medium">{decodedName}</span>
+          <span className="text-foreground font-medium">{displayName}</span>
         </nav>
 
         {/* Header hero */}
@@ -129,7 +133,7 @@ export default async function GeneDetailPage({ params }: PageProps) {
 
           {/* Gene name + PubMed button */}
           <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-3 mb-1">
-            <h1 className="text-4xl font-bold tracking-tight text-slate-800">{decodedName}</h1>
+            <h1 className="text-4xl font-bold tracking-tight text-slate-800">{displayName}</h1>
             {gene?.pmid && (
               <Button variant="outline" asChild className="shrink-0">
                 <a
@@ -153,7 +157,7 @@ export default async function GeneDetailPage({ params }: PageProps) {
           <div className="flex flex-wrap items-start justify-between gap-3 mb-5">
             <div className="flex flex-wrap gap-2">
               <a
-                href={`https://www.ncbi.nlm.nih.gov/pathogens/isolates/#AMR_genotypes:${decodedName}*`}
+                href={`https://www.ncbi.nlm.nih.gov/pathogens/isolates/#AMR_genotypes:${displayName}*`}
                 target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-start gap-2.5 px-3.5 py-2.5 rounded-lg border border-blue-200 bg-blue-50 hover:bg-blue-100 transition-colors group"
               >
@@ -166,7 +170,7 @@ export default async function GeneDetailPage({ params }: PageProps) {
                 </div>
               </a>
               <a
-                href={`https://www.ncbi.nlm.nih.gov/pathogens/refgene/#${decodedName}`}
+                href={`https://www.ncbi.nlm.nih.gov/pathogens/refgene/#${displayName}`}
                 target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-start gap-2.5 px-3.5 py-2.5 rounded-lg border border-indigo-200 bg-indigo-50 hover:bg-indigo-100 transition-colors group"
               >
@@ -179,7 +183,7 @@ export default async function GeneDetailPage({ params }: PageProps) {
                 </div>
               </a>
               <a
-                href={`https://www.uniprot.org/uniprotkb?query=${encodes ? encodeURIComponent(encodes) + '+' : ''}${encodeURIComponent(decodedName)}+AND+(taxonomy_id%3A2)`}
+                href={`https://www.uniprot.org/uniprotkb?query=${encodes ? encodeURIComponent(encodes) + '+' : ''}${encodeURIComponent(displayName)}+AND+(taxonomy_id%3A2)`}
                 target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-start gap-2.5 px-3.5 py-2.5 rounded-lg border border-amber-200 bg-amber-50 hover:bg-amber-100 transition-colors group"
               >
@@ -188,11 +192,11 @@ export default async function GeneDetailPage({ params }: PageProps) {
                 </svg>
                 <div>
                   <div className="text-sm font-semibold leading-tight text-amber-900">UniProt</div>
-                  <div className="text-xs text-amber-600 mt-0.5">Protein entries specific to {decodedName}</div>
+                  <div className="text-xs text-amber-600 mt-0.5">Protein entries specific to {displayName}</div>
                 </div>
               </a>
               <a
-                href={`https://browse.amrrules.org/?search=${encodeURIComponent(decodedName.toLowerCase())}`}
+                href={`https://browse.amrrules.org/?search=${encodeURIComponent(displayName.toLowerCase())}`}
                 target="_blank" rel="noopener noreferrer"
                 className="inline-flex items-start gap-2.5 px-3.5 py-2.5 rounded-lg border border-emerald-200 bg-emerald-50 hover:bg-emerald-100 transition-colors group"
               >
@@ -201,7 +205,7 @@ export default async function GeneDetailPage({ params }: PageProps) {
                 </svg>
                 <div>
                   <div className="text-sm font-semibold leading-tight text-emerald-900">AMR Rules</div>
-                  <div className="text-xs text-emerald-600 mt-0.5">Browse AMR rules for {decodedName}</div>
+                  <div className="text-xs text-emerald-600 mt-0.5">Browse AMR rules for {displayName}</div>
                 </div>
               </a>
             </div>

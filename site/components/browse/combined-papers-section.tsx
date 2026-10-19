@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge'
 import { GenePaperTabs } from './gene-paper-tabs'
 import { GroupedMutationPapers } from './mutation-paper-groups'
 import type { AMRGene, AMRMutation } from '@/lib/types'
+import { normalizeGeneName, pickGeneDisplayNames } from '@/lib/gene-name'
 
 interface CombinedPapersSectionProps {
   genePapers: AMRGene[]
@@ -21,14 +22,15 @@ export function CombinedPapersSection({ genePapers, mutations }: CombinedPapersS
   const [selectedAllele, setSelectedAllele] = useState('all')
   const [selectedMutation, setSelectedMutation] = useState('all')
 
-  // Allele names for gene papers filter
-  const alleleNames = [...new Set(genePapers.map((p) => p.allele || p.gene_name).filter(Boolean) as string[])]
+  // Allele names for gene papers filter: one per allele identity, labelled
+  // with its most frequent spelling
+  const alleleNames = [...pickGeneDisplayNames(genePapers.map((p) => p.allele || p.gene_name)).values()]
   const hasMultipleAlleles = alleleNames.length > 1
 
   const filteredGenePapers =
     selectedAllele === 'all'
       ? genePapers
-      : genePapers.filter((p) => (p.allele || p.gene_name) === selectedAllele)
+      : genePapers.filter((p) => normalizeGeneName(p.allele || p.gene_name) === normalizeGeneName(selectedAllele))
 
   // Deduplicate mutation filter buttons by identity (protein_change or nucleotide_change)
   const mutationIdentities = [...new Map(

@@ -3,7 +3,7 @@
 import { eq, and, or, like, gte, lte, isNull, isNotNull, inArray, asc, desc } from 'drizzle-orm'
 import { db } from '@/lib/db/client'
 import { amrGenes, amrMutations, curationHistory, comments } from '@/lib/db/schema'
-import { jsonContains, toSnakeCase, chunk, alnumLike } from '@/lib/db/helpers'
+import { jsonContains, toSnakeCase, chunk, alnumLike, normalizeGeneName, geneKeyEq, geneKeyIn } from '@/lib/db/helpers'
 import { getValidationTiers, getMutationValidationTiers, getGroupedMutationTierCounts } from '@/lib/actions/browse'
 import type { AMRGene, AMRMutation, BrowseFilters, ValidationInfo } from '@/lib/types'
 
@@ -44,8 +44,8 @@ function genesToCSV(genes: AMRGene[], enrichment: GeneEnrichment): string {
     return [
       gene.gene_name,
       gene.allele || '',
-      enrichment.tierByGene.get(gene.gene_name)?.tier ?? '',
-      enrichment.tierByGene.get(gene.gene_name)?.reason ?? '',
+      enrichment.tierByGene.get(normalizeGeneName(gene.gene_name))?.tier ?? '',
+      enrichment.tierByGene.get(normalizeGeneName(gene.gene_name))?.reason ?? '',
       gene.encodes || '',
       gene.source_database || '',
       gene.resistance_mechanism_class || '',
@@ -87,7 +87,7 @@ async function fetchGeneEnrichment(genes: AMRGene[]): Promise<GeneEnrichment> {
     return { pmidsByGene: new Map(), validatorByGeneId: new Map(), commentsByGeneId: new Map(), tierByGene: new Map() }
   }
 
-  const geneNames = [...new Set(genes.map((g) => g.gene_name))]
+  const geneNames = [...new Set(genes.map((g) => normalizeGeneName(g.gene_name)))]
   const geneIds = genes.map((g) => String(g.id))
 
   const [pmidsRows, curationRows, commentsRows, tierByGene] = await Promise.all([
@@ -95,7 +95,7 @@ async function fetchGeneEnrichment(genes: AMRGene[]): Promise<GeneEnrichment> {
       db
         .select({ geneName: amrGenes.geneName, paperPmid: amrGenes.paperPmid })
         .from(amrGenes)
-        .where(and(inArray(amrGenes.geneName, c), isNotNull(amrGenes.paperPmid)))
+        .where(and(geneKeyIn(amrGenes.geneName, c), isNotNull(amrGenes.paperPmid)))
     ),
     queryInChunks(geneIds, (c) =>
       db
@@ -120,8 +120,9 @@ async function fetchGeneEnrichment(genes: AMRGene[]): Promise<GeneEnrichment> {
   const pmidsByGene = new Map<string, Set<string>>()
   for (const row of pmidsRows) {
     if (!row.geneName || !row.paperPmid) continue
-    if (!pmidsByGene.has(row.geneName)) pmidsByGene.set(row.geneName, new Set())
-    pmidsByGene.get(row.geneName)!.add(row.paperPmid)
+    const key = normalizeGeneName(row.geneName)
+    if (!pmidsByGene.has(key)) pmidsByGene.set(key, new Set())
+    pmidsByGene.get(key)!.add(row.paperPmid)
   }
 
   // Sort across all chunks (not just within each) so "most recent approval
@@ -264,7 +265,7 @@ export async function downloadGenesByValidation(tier: string): Promise<{ csv: st
 
   if (matchingGeneNames.length === 0) return { csv: '', count: 0 }
 
-  const rows = await queryInChunks(matchingGeneNames, (c) => db.select().from(amrGenes).where(inArray(amrGenes.geneName, c)))
+  const rows = await queryInChunks(matchingGeneNames, (c) => db.select().from(amrGenes).where(geneKeyIn(amrGenes.geneName, c)))
   const allGenes = (rows.map((r) => toSnakeCase(r)) as unknown as AMRGene[]).sort((a, b) => a.gene_name.localeCompare(b.gene_name))
 
   const enrichment = await fetchGeneEnrichment(allGenes)
@@ -355,7 +356,7 @@ export async function downloadFilteredMutations(filters: BrowseFilters): Promise
       )
     )
   }
-  if (filters.geneName) conditions.push(eq(amrMutations.geneName, filters.geneName))
+  if (filters.geneName) conditions.push(geneKeyEq(amrMutations.geneName, filters.geneName))
   if (filters.mechanismClass) conditions.push(eq(amrMutations.resistanceMechanismClass, filters.mechanismClass))
   if (filters.antibiotic) conditions.push(jsonContains(amrMutations.confersResistanceTo, filters.antibiotic))
   if (filters.organism) conditions.push(jsonContains(amrMutations.organismsObservedIn, filters.organism))
