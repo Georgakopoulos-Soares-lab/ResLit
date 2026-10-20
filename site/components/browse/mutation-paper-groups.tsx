@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Badge } from '@/components/ui/badge'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import type { AMRMutation } from '@/lib/types'
+import { PaperTypeLabel } from '@/components/browse/paper-type-label'
 import { uniqueDrugs } from '@/lib/utils'
 
 const colors = [
@@ -18,6 +19,7 @@ const colors = [
 interface MergedPaper {
   pmid: string
   title: string | null
+  paper_type: string | null
   year: number | null
   key_findings: string[]
   mutations: { id: string; gene_name: string; nucleotide_change: string | null; protein_change: string | null }[]
@@ -50,11 +52,13 @@ function groupByPmid(mutations: AMRMutation[]): MergedPaper[] {
       if (m.mutation_type && !existing.mutation_types.includes(m.mutation_type)) existing.mutation_types.push(m.mutation_type)
       if (m.position_in_molecule && !existing.positions.includes(m.position_in_molecule)) existing.positions.push(m.position_in_molecule)
       if (!existing.title && m.title_pmid) existing.title = m.title_pmid
+      if (!existing.paper_type && m.paper_type) existing.paper_type = m.paper_type
       if (!existing.year && m.year_pmid) existing.year = m.year_pmid
     } else {
       groups.set(pmid, {
         pmid: m.paper_pmid || '',
         title: m.title_pmid,
+        paper_type: m.paper_type,
         year: m.year_pmid,
         key_findings: m.key_findings ? [m.key_findings] : [],
         mutations: [{ id: m.id, gene_name: m.gene_name, nucleotide_change: m.nucleotide_change, protein_change: m.protein_change }],
@@ -115,7 +119,10 @@ function MergedMutationPaperEntry({ paper, entryNumber }: { paper: MergedPaper; 
           <div className="space-y-1 flex-1">
             <div className="flex items-center gap-2">
               {paper.title && (
-                <p className="font-semibold text-sm leading-snug">{paper.title}</p>
+                <div>
+                  <p className="font-semibold text-sm leading-snug">{paper.title}</p>
+                  <PaperTypeLabel type={paper.paper_type} className="mt-0.5" />
+                </div>
               )}
             </div>
             {paper.pmid && (

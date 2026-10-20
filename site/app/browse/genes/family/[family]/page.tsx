@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
 import { StatusBadge } from '@/components/browse/status-badge'
 import { getGeneFamilyData } from '@/lib/actions/browse'
+import { PaperTypeLabel } from '@/components/browse/paper-type-label'
 import type { AMRGene } from '@/lib/types'
 import { uniqueDrugs } from '@/lib/utils'
 import { normalizeGeneName, pickGeneDisplayNames } from '@/lib/gene-name'
@@ -41,7 +42,7 @@ export default async function GeneFamilyPage({ params }: PageProps) {
     organisms: [...new Set(rows.flatMap((r) => r.organisms_tested_in ?? []))],
     countries: [...new Set(rows.map((r) => r.geographic_location || r.isolation_country).filter(Boolean) as string[])],
     years: [...new Set(rows.map((r) => r.year_pmid || r.year).filter(Boolean) as number[])].sort(),
-    papers: rows.map((r) => ({ pmid: r.paper_pmid || r.pmid, title: r.title_pmid, year: r.year_pmid || r.year })).filter((p) => p.pmid),
+    papers: rows.map((r) => ({ pmid: r.paper_pmid || r.pmid, title: r.title_pmid, paperType: r.paper_type, year: r.year_pmid || r.year })).filter((p) => p.pmid),
     status: rows.reduce((best, r) => {
       const pri = { curated: 0, pending: 1, rejected: 2 }
       return (pri[r.status] ?? 99) < (pri[best.status] ?? 99) ? r : best
@@ -55,7 +56,7 @@ export default async function GeneFamilyPage({ params }: PageProps) {
   const encodes = allRows.find((r) => r.encodes)?.encodes
   const uniquePapers = [...new Map(
     allRows
-      .map((r) => ({ pmid: r.paper_pmid || r.pmid, title: r.title_pmid, year: r.year_pmid || r.year }))
+      .map((r) => ({ pmid: r.paper_pmid || r.pmid, title: r.title_pmid, paperType: r.paper_type, year: r.year_pmid || r.year }))
       .filter((p) => p.pmid)
       .map((p) => [p.pmid, p])
   ).values()]
@@ -232,9 +233,10 @@ export default async function GeneFamilyPage({ params }: PageProps) {
                       {i + 1}
                     </span>
                     <div>
-                      {p.title && (
-                        <p className="text-sm font-medium leading-snug mb-1">{p.title}</p>
-                      )}
+                      <div className="mb-1">
+                        {p.title && <p className="text-sm font-medium leading-snug">{p.title}</p>}
+                        <PaperTypeLabel type={p.paperType} />
+                      </div>
                       <a
                         href={`https://pubmed.ncbi.nlm.nih.gov/${p.pmid}`}
                         target="_blank"

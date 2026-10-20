@@ -1,5 +1,6 @@
 import { Badge } from '@/components/ui/badge'
 import type { AMRGene } from '@/lib/types'
+import { PaperTypeLabel } from '@/components/browse/paper-type-label'
 import { uniqueDrugs } from '@/lib/utils'
 
 interface GenePaperTabsProps {
@@ -49,7 +50,10 @@ function GenePaperContent({ paper, paperNumber }: { paper: AMRGene; paperNumber:
           <div className="space-y-1 flex-1">
             <div className="flex items-center gap-2">
               {paper.title_pmid ? (
-                <p className="font-semibold text-sm leading-snug">{paper.title_pmid}</p>
+                <div>
+                  <p className="font-semibold text-sm leading-snug">{paper.title_pmid}</p>
+                  <PaperTypeLabel type={paper.paper_type} className="mt-0.5" />
+                </div>
               ) : null}
               {paper.status === 'curated' && (
                 <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-semibold bg-emerald-100 text-emerald-800 border border-emerald-300 shrink-0">

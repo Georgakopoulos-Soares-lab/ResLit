@@ -95,6 +95,7 @@ function seedPapers(geneRecordSets, mutationRecordSets) {
       if (!byPmid.has(pmid)) byPmid.set(pmid, {})
       const entry = byPmid.get(pmid)
       entry.title ??= r.Paper_title || null
+      entry.paperType ??= r.Paper_Type || null
       entry.year ??= parseYear(r.Publication_year)
       entry.keyFindings ??= r.Key_findings || null
       entry.geographicLocation ??= r.Geographic_location || null
@@ -108,6 +109,7 @@ function seedPapers(geneRecordSets, mutationRecordSets) {
       if (!byPmid.has(pmid)) byPmid.set(pmid, {})
       const entry = byPmid.get(pmid)
       entry.title ??= r.Paper_title || null
+      entry.paperType ??= r.Paper_Type || null
       entry.year ??= parseYear(r.Publication_year)
       entry.keyFindings ??= r.Notes || null
     }
@@ -116,6 +118,7 @@ function seedPapers(geneRecordSets, mutationRecordSets) {
   const rows = [...byPmid.entries()].map(([pmid, v]) => ({
     pmid,
     title: v.title,
+    paperType: v.paperType,
     year: v.year,
     keyFindings: v.keyFindings,
     geographicLocation: v.geographicLocation ? [v.geographicLocation] : null,
@@ -138,6 +141,7 @@ function seedGenes(records) {
     paperPmid: r.PMID || null,
     pmid: r.PMID || null,
     titlePmid: r.Paper_title || null,
+    paperType: r.Paper_Type || null,
     yearPmid: parseYear(r.Publication_year),
     year: parseYear(r.Publication_year),
     keyFindings: r.Key_findings || null,
@@ -185,6 +189,7 @@ function seedMutations(records, { normalizeDbName = false } = {}) {
       validatedBy: r.Validated_by?.trim() || null,
       origin: r.Origin?.trim() || null,
       titlePmid: r.Paper_title?.trim() || null,
+      paperType: r.Paper_Type?.trim() || null,
       yearPmid: parseYear(r.Publication_year),
       sourceDatabase,
       status: 'pending',

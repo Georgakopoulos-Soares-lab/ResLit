@@ -8,6 +8,7 @@ import {
   TableRow,
 } from '@/components/ui/table'
 import type { PaperEntry } from '@/lib/types'
+import { PaperTypeLabel } from '@/components/browse/paper-type-label'
 
 interface PapersTableProps {
   papers: PaperEntry[]
@@ -85,6 +86,7 @@ export function PapersTable({ papers }: PapersTableProps) {
                 ) : (
                   <span className="text-muted-foreground text-sm italic">No title</span>
                 )}
+                <PaperTypeLabel type={paper.paper_type} className="mt-0.5" />
               </TableCell>
 
               <TableCell className="whitespace-nowrap text-sm">

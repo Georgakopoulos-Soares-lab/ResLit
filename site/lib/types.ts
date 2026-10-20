@@ -53,6 +53,8 @@ export interface AMRGene {
   key_findings: string | null
   geographic_location: string | null
   title_pmid: string | null
+  /** PubMed-derived: "Review" or "Research Article" (null if unknown) */
+  paper_type: string | null
   year_pmid: number | null
   source_database: string | null
   sequence_accession: string | null
@@ -87,6 +89,8 @@ export interface AMRMutation {
   country: string | null
   resistance_mechanism_class: string | null
   title_pmid: string | null
+  /** PubMed-derived: "Review" or "Research Article" (null if unknown) */
+  paper_type: string | null
   year_pmid: number | null
   source_database: string | null
   status: CurationStatus
@@ -155,6 +159,7 @@ export interface Comment {
 export interface PaperEntry {
   pmid: string
   title: string | null
+  paper_type: string | null
   year: number | null
   geographic_location: string | null
   gene_count: number

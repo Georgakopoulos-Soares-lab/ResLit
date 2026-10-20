@@ -5,6 +5,7 @@ import { Footer } from '@/components/footer'
 import { GenesTable } from '@/components/browse/genes-table'
 import { MutationsTable } from '@/components/browse/mutations-table'
 import { getPaperDetail } from '@/lib/actions/browse'
+import { PaperTypeLabel } from '@/components/browse/paper-type-label'
 
 interface PageProps {
   params: Promise<{ pmid: string }>
@@ -41,6 +42,7 @@ export default async function PaperDetailPage({ params }: PageProps) {
               <h1 className="text-2xl font-bold tracking-tight leading-snug">
                 {paper.title ?? <span className="text-muted-foreground italic">No title available</span>}
               </h1>
+              <PaperTypeLabel type={paper.paper_type} className="mt-1 text-sm" />
               <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted-foreground">
                 <span className="font-mono font-medium text-foreground">PMID: {paper.pmid}</span>
                 {paper.year && <span>{paper.year}</span>}

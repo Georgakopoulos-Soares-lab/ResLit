@@ -34,10 +34,33 @@ harmonised_pipeline/
 | File | Pipeline | Rows |
 |---|---|---|
 | `reslit/genes/Full_list_genes_Reslit_harmonized_antib_bact.csv` | Reslit, genes | 54,181 |
-| `reslit/mutations/Full_list_mutations_Reslit_antib_bact.csv` | Reslit, mutations | 26,094 |
+| `reslit/mutations/Full_list_mutations_Reslit_antib_bact.csv` | Reslit, mutations | 26,042 |
 | `other_databases/genes/Full_list_genes_otherDatabases_AlleleCorrected-1_filtered_concatenated_bla_fixed.csv` | Other DBs, genes | 22,082 |
 | `other_databases/genes/..._bla_fixed_pubmed_antibiotic_corrected.csv` | Other DBs, genes (PMID/antibiotic-class backfilled from CARD ARO lookup — candidate replacement for the file above; not yet wired into the app's seed data) | 22,082 |
 | `other_databases/mutations/Full_list_mutations_otherDatabases_clean.csv` | Other DBs, mutations | 8,866 |
+
+### Final step: `Paper_Type` column
+
+The released CSVs (here, in `06_final_output/` and in `site/scripts/seed-data/`) carry a
+`Paper_Type` column after `Paper_title`: `Review` if PubMed lists the paper as "Review" or
+"Systematic Review", `Research Article` otherwise, blank when there is no numeric PMID or
+PubMed has no record. Rows citing several PMIDs of different types list each type once
+(e.g. `Research Article, Review`). The cleaning scripts do not produce this column, so after
+rerunning them, add it again:
+
+```
+# 1. Fetch PubMed Publication Types for every PMID in the release (writes
+#    reference_data/pubmed_paper_types.csv; resumes if interrupted)
+python3 shared_scripts/fetch_pubmed_paper_types.py --email you@example.com
+# 2. Add/replace the Paper_Type column in each released CSV
+python3 shared_scripts/add_paper_type.py reslit/genes/Full_list_genes_Reslit_harmonized_antib_bact.csv \
+    reslit/mutations/Full_list_mutations_Reslit_antib_bact.csv \
+    other_databases/genes/Full_list_genes_otherDatabases_AlleleCorrected-1_filtered_concatenated_bla_fixed_pubmed_antibiotic_corrected.csv \
+    other_databases/mutations/Full_list_mutations_otherDatabases_clean.csv
+```
+
+`reference_data/pubmed_paper_types.csv` (fetched 2026-10-20) covers all 19,565 PMIDs:
+18,991 Research Article, 572 Review, 2 not in PubMed (85862590, 200386180).
 
 ## What's intentionally NOT included
 

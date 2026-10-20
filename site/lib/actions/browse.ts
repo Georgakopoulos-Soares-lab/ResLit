@@ -826,6 +826,7 @@ export async function getMutationsByGeneName(geneName: string): Promise<AMRMutat
 export async function getPaperDetail(pmid: string): Promise<{
   pmid: string
   title: string | null
+  paper_type: string | null
   year: number | null
   geographic_location: string | null
   key_findings: string | null
@@ -835,7 +836,7 @@ export async function getPaperDetail(pmid: string): Promise<{
   const [genesRows, mutationsRows, paperRows] = await Promise.all([
     db.select().from(amrGenes).where(eq(amrGenes.paperPmid, pmid)).orderBy(asc(amrGenes.geneName)),
     db.select().from(amrMutations).where(eq(amrMutations.paperPmid, pmid)).orderBy(asc(amrMutations.nucleotideChange)),
-    db.select({ keyFindings: papers.keyFindings }).from(papers).where(eq(papers.pmid, pmid)).limit(1),
+    db.select({ keyFindings: papers.keyFindings, paperType: papers.paperType }).from(papers).where(eq(papers.pmid, pmid)).limit(1),
   ])
 
   const genes = genesRows.map((r) => toSnakeCase(r)) as unknown as AMRGene[]
@@ -844,11 +845,12 @@ export async function getPaperDetail(pmid: string): Promise<{
   if (genes.length === 0 && mutations.length === 0) return null
 
   const title = genes[0]?.title_pmid ?? mutations[0]?.title_pmid ?? null
+  const paper_type = paperRows[0]?.paperType ?? genes[0]?.paper_type ?? mutations[0]?.paper_type ?? null
   const year = genes[0]?.year_pmid ?? mutations[0]?.year_pmid ?? null
   const geographic_location = genes[0]?.geographic_location ?? null
   const key_findings = paperRows[0]?.keyFindings ?? genes[0]?.key_findings ?? mutations[0]?.key_findings ?? null
 
-  return { pmid, title, year, geographic_location, key_findings, genes, mutations }
+  return { pmid, title, paper_type, year, geographic_location, key_findings, genes, mutations }
 }
 
 export async function browsePapers(
@@ -877,6 +879,7 @@ export async function browsePapers(
         paperPmid: amrGenes.paperPmid,
         geneName: amrGenes.geneName,
         titlePmid: amrGenes.titlePmid,
+        paperType: amrGenes.paperType,
         yearPmid: amrGenes.yearPmid,
         geographicLocation: amrGenes.geographicLocation,
         confersResistanceTo: amrGenes.confersResistanceTo,
@@ -886,7 +889,7 @@ export async function browsePapers(
       .from(amrGenes)
       .where(and(...geneWhere)),
     db
-      .select({ paperPmid: amrMutations.paperPmid, sourceDatabase: amrMutations.sourceDatabase })
+      .select({ paperPmid: amrMutations.paperPmid, sourceDatabase: amrMutations.sourceDatabase, paperType: amrMutations.paperType })
       .from(amrMutations)
       .where(and(...mutWhere)),
   ])
@@ -895,6 +898,7 @@ export async function browsePapers(
     string,
     {
       title: string | null
+      paper_type: string | null
       year: number | null
       geographic_location: string | null
       geneNames: Set<string>
@@ -910,6 +914,7 @@ export async function browsePapers(
     if (!paperMap.has(gene.paperPmid)) {
       paperMap.set(gene.paperPmid, {
         title: gene.titlePmid || null,
+        paper_type: gene.paperType || null,
         year: gene.yearPmid || null,
         geographic_location: gene.geographicLocation || null,
         geneNames: new Set(),
@@ -932,6 +937,7 @@ export async function browsePapers(
     } else {
       paperMap.set(mut.paperPmid, {
         title: null,
+        paper_type: mut.paperType || null,
         year: null,
         geographic_location: null,
         geneNames: new Set(),
@@ -946,6 +952,7 @@ export async function browsePapers(
   let entries: PaperEntry[] = [...paperMap.entries()].map(([pmid, v]) => ({
     pmid,
     title: v.title,
+    paper_type: v.paper_type,
     year: v.year,
     geographic_location: v.geographic_location,
     gene_count: v.geneNames.size,
