@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { StatusBadge } from './status-badge'
 import type { AMRGene } from '@/lib/types'
+import { PaperTypeLabel } from '@/components/browse/paper-type-label'
 import { uniqueDrugs } from '@/lib/utils'
 
 interface GenesCardsProps {
@@ -154,6 +155,7 @@ export function GenesCards({ genes }: GenesCardsProps) {
                         {gene.title_pmid}
                       </p>
                     )}
+                    <PaperTypeLabel type={gene.paper_type} className="mb-1" />
                     <a
                       href={`https://pubmed.ncbi.nlm.nih.gov/${pmid}`}
                       target="_blank"

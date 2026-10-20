@@ -105,6 +105,7 @@ export const amrGenes = sqliteTable(
     keyFindings: text('key_findings'),
     geographicLocation: text('geographic_location'), // scalar (denormalized from paper) — NOT an array, unlike papers.geographic_location
     titlePmid: text('title_pmid'),
+    paperType: text('paper_type'),
     yearPmid: integer('year_pmid'),
     sourceDatabase: text('source_database'),
     sequenceAccession: text('sequence_accession'),
@@ -165,6 +166,7 @@ export const amrMutations = sqliteTable(
     pmid: text('pmid'),
     keyFindings: text('key_findings'),
     titlePmid: text('title_pmid'),
+    paperType: text('paper_type'),
     yearPmid: integer('year_pmid'),
     resistanceMechanismClass: text('resistance_mechanism_class'),
     sourceDatabase: text('source_database'),

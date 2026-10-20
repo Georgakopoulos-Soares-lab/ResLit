@@ -14,6 +14,7 @@ import { CurationActions } from '@/components/curator/curation-actions'
 import { EditMutationDialog } from '@/components/curator/edit-mutation-dialog'
 import { HistoryDialog } from '@/components/curator/history-dialog'
 import { StatusBadge } from '@/components/browse/status-badge'
+import { PaperTypeLabel } from '@/components/browse/paper-type-label'
 import { browseMutations, getFilterOptions } from '@/lib/actions/browse'
 import type { AMRMutation, BrowseFilters, PaginatedResult, FilterOptions, ValidationTier } from '@/lib/types'
 
@@ -396,9 +397,10 @@ export default function CuratorMutationsPage() {
 
                       {/* Paper title */}
                       {mutation.title_pmid && (
-                        <p className="text-xs text-muted-foreground italic border-l-2 border-border pl-3">
-                          {mutation.title_pmid}
-                        </p>
+                        <div className="border-l-2 border-border pl-3">
+                          <p className="text-xs text-muted-foreground italic">{mutation.title_pmid}</p>
+                          <PaperTypeLabel type={mutation.paper_type} className="mt-0.5" />
+                        </div>
                       )}
 
                       <Separator />
