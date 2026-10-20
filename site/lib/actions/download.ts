@@ -7,6 +7,12 @@ import { jsonContains, toSnakeCase, chunk, alnumLike, normalizeGeneName, geneKey
 import { getValidationTiers, getMutationValidationTiers, getGroupedMutationTierCounts } from '@/lib/actions/browse'
 import type { AMRGene, AMRMutation, BrowseFilters, ValidationInfo } from '@/lib/types'
 
+/** One CSV line: every cell quoted, with embedded quotes doubled (RFC 4180),
+ * so values like `AAC6′-APH2"` cannot break the row. */
+function csvRow(cells: string[]): string {
+  return cells.map((cell) => `"${cell.replace(/"/g, '""')}"`).join(',')
+}
+
 interface GeneEnrichment {
   pmidsByGene: Map<string, Set<string>>
   validatorByGeneId: Map<string, string>
@@ -34,6 +40,7 @@ function genesToCSV(genes: AMRGene[], enrichment: GeneEnrichment): string {
     'Year',
     'PMID',
     'Paper Title',
+    'Paper Type',
     'Key Findings',
     'Sequence Accession',
     'Protein Accession',
@@ -49,25 +56,26 @@ function genesToCSV(genes: AMRGene[], enrichment: GeneEnrichment): string {
       gene.encodes || '',
       gene.source_database || '',
       gene.resistance_mechanism_class || '',
-      (gene.mechanism || '').replace(/"/g, '""'),
+      gene.mechanism || '',
       (gene.confers_resistance_to || []).join('; '),
       (gene.organisms_tested_in || []).join('; '),
-      (gene.validation_method || '').replace(/"/g, '""'),
+      gene.validation_method || '',
       gene.role_in_paper || '',
       gene.geographic_location || '',
       gene.isolation_country || '',
       gene.isolation_location || '',
       gene.year_pmid?.toString() || gene.year?.toString() || '',
       gene.paper_pmid || '',
-      (gene.title_pmid || '').replace(/"/g, '""'),
-      (gene.key_findings || '').replace(/"/g, '""'),
+      gene.title_pmid || '',
+      gene.paper_type || '',
+      gene.key_findings || '',
       gene.sequence_accession || '',
       gene.protein_accession || '',
-      (gene.notes || '').replace(/"/g, '""'),
+      gene.notes || '',
     ]
   })
 
-  const csvContent = [headers.join(','), ...rows.map((row) => row.map((cell) => `"${cell}"`).join(','))].join('\n')
+  const csvContent = [headers.join(','), ...rows.map(csvRow)].join('\n')
 
   return csvContent
 }
@@ -170,6 +178,7 @@ function mutationsToCSV(mutations: AMRMutation[], enrichment: MutationEnrichment
     'Country',
     'Year',
     'PMID',
+    'Paper Type',
     'Source Database',
     'Validated',
     'Validated From',
@@ -179,7 +188,7 @@ function mutationsToCSV(mutations: AMRMutation[], enrichment: MutationEnrichment
   const rows = mutations.map((mutation) => {
     const id = String(mutation.id)
     const validator = enrichment.validatorByMutationId.get(id) ?? ''
-    const comments = (enrichment.commentsByMutationId.get(id) ?? []).map((c) => c.replace(/"/g, '""')).join(' | ')
+    const comments = (enrichment.commentsByMutationId.get(id) ?? []).join(' | ')
     const isValidated = mutation.status === 'curated'
 
     return [
@@ -195,12 +204,13 @@ function mutationsToCSV(mutations: AMRMutation[], enrichment: MutationEnrichment
       mutation.protein_change || '',
       (mutation.confers_resistance_to || []).join('; '),
       (mutation.organisms_observed_in || []).join('; '),
-      (mutation.effect_on_function || '').replace(/"/g, '""'),
+      mutation.effect_on_function || '',
       mutation.origin || '',
       mutation.validated_by || '',
       mutation.country || '',
       mutation.year_pmid?.toString() || '',
       mutation.paper_pmid || '',
+      mutation.paper_type || '',
       mutation.source_database || '',
       isValidated ? 'Validated' : 'No',
       validator,
@@ -208,7 +218,7 @@ function mutationsToCSV(mutations: AMRMutation[], enrichment: MutationEnrichment
     ]
   })
 
-  const csvContent = [headers.join(','), ...rows.map((row) => row.map((cell) => `"${cell}"`).join(','))].join('\n')
+  const csvContent = [headers.join(','), ...rows.map(csvRow)].join('\n')
 
   return csvContent
 }
