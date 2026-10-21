@@ -136,12 +136,49 @@ export interface CurationHistory {
   curator_name: string | null
   curator_email: string | null
   curator_affiliation: string | null
-  action: 'approve' | 'reject' | 'edit' | 'create'
+  action: 'approve' | 'reject' | 'edit' | 'create' | 'reassign'
   previous_status: string | null
   new_status: string | null
   changes: Record<string, unknown> | null
   created_at: string
   curator?: Curator
+  /** Set when the entry comes from curation_proposals (all history does now). */
+  proposal_status?: ProposalStatus
+  previous_tier?: string | null
+  new_tier?: string | null
+  note?: string | null
+  admin_comment?: string | null
+  reviewed_by_name?: string | null
+  reviewed_at?: string | null
+}
+
+export type ProposalStatus = 'pending' | 'accepted' | 'declined'
+
+export interface CurationProposal {
+  id: number
+  target_type: 'gene' | 'mutation'
+  target_id: string | null
+  action: 'edit' | 'reassign' | 'approve' | 'reject' | 'create'
+  changes: Record<string, unknown> | null
+  note: string | null
+  entry_label: string | null
+  pmid: string | null
+  curator_id: string | null
+  curator_email: string | null
+  curator_name: string | null
+  curator_affiliation: string | null
+  status: ProposalStatus
+  admin_comment: string | null
+  reviewed_by: string | null
+  reviewed_by_name: string | null
+  reviewed_at: string | null
+  result: Record<string, unknown> | null
+  applied_target_id: string | null
+  legacy_history_id: number | null
+  created_at: string
+  updated_at: string
+  /** Current state of the targeted entry (null if it no longer exists / not yet created). */
+  entry?: { id: string; gene_name: string | null; status: CurationStatus } | null
 }
 
 export interface Comment {

@@ -1,9 +1,12 @@
 'use server'
 
-import { db } from '@/lib/db/client'
-import { amrGenes, amrMutations } from '@/lib/db/schema'
+import { revalidatePath } from 'next/cache'
 import { getCurrentCurator } from '@/lib/actions/curator'
+import { createProposal, geneLabel, mutationLabel, normalizeMutationType } from '@/lib/curation/proposals'
 import { AMRGene, AMRMutation } from '@/lib/types'
+
+// Uploads are submitted as 'create' proposals; the row is only inserted
+// into amr_genes / amr_mutations when an admin accepts it.
 
 export async function uploadGene(data: Partial<AMRGene>) {
   try {
@@ -12,7 +15,7 @@ export async function uploadGene(data: Partial<AMRGene>) {
       throw new Error('Not authenticated as curator')
     }
 
-    await db.insert(amrGenes).values({
+    const values = {
       geneName: data.gene_name || '',
       allele: data.allele || null,
       encodes: data.encodes || null,
@@ -28,10 +31,20 @@ export async function uploadGene(data: Partial<AMRGene>) {
       titlePmid: data.title_pmid || null,
       yearPmid: data.year_pmid || null,
       sourceDatabase: 'Manually Uploaded',
-      status: 'pending',
-    })
+    }
 
-    return { success: true, message: 'Gene uploaded successfully' }
+    await createProposal(curator, {
+      targetType: 'gene',
+      targetId: null,
+      action: 'create',
+      changes: { values },
+      entryLabel: geneLabel(values),
+      pmid: values.paperPmid,
+    })
+    revalidatePath('/curator/proposals')
+    revalidatePath('/curator/review')
+
+    return { success: true, message: 'Gene submitted for admin review' }
   } catch (err: unknown) {
     const message =
       err instanceof Error
@@ -50,7 +63,7 @@ export async function uploadMutation(data: Partial<AMRMutation>) {
       throw new Error('Not authenticated as curator')
     }
 
-    await db.insert(amrMutations).values({
+    const values = {
       geneName: data.gene_name || '',
       notation: data.notation || null,
       nucleotideChange: data.nucleotide_change || '',
@@ -60,15 +73,25 @@ export async function uploadMutation(data: Partial<AMRMutation>) {
       confersResistanceTo: data.confers_resistance_to || null,
       organismsObservedIn: data.organisms_observed_in || null,
       effectOnFunction: data.effect_on_function || null,
-      mutationType: (data.mutation_type as 'substitution' | 'insertion' | 'deletion' | 'frameshift' | 'other' | undefined) || null,
+      mutationType: normalizeMutationType(data.mutation_type),
       keyFindings: data.key_findings || null,
       titlePmid: data.title_pmid || null,
       yearPmid: data.year_pmid || null,
       sourceDatabase: 'Manually Uploaded',
-      status: 'pending',
-    })
+    }
 
-    return { success: true, message: 'Mutation uploaded successfully' }
+    await createProposal(curator, {
+      targetType: 'mutation',
+      targetId: null,
+      action: 'create',
+      changes: { values },
+      entryLabel: mutationLabel(values),
+      pmid: values.paperPmid,
+    })
+    revalidatePath('/curator/proposals')
+    revalidatePath('/curator/review')
+
+    return { success: true, message: 'Mutation submitted for admin review' }
   } catch (err: unknown) {
     const message =
       err instanceof Error

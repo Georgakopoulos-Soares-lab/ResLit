@@ -1,10 +1,10 @@
 'use server'
 
-import { eq, desc } from 'drizzle-orm'
 import { revalidatePath } from 'next/cache'
 import { db } from '@/lib/db/client'
-import { papers, amrGenes, amrMutations } from '@/lib/db/schema'
+import { amrGenes } from '@/lib/db/schema'
 import { getCurrentCurator } from '@/lib/actions/curator'
+import { createProposal, geneLabel, mutationLabel, normalizeMutationType } from '@/lib/curation/proposals'
 import { parseQwen3Text } from '@/lib/utils/parse'
 export type { Qwen3GeneData, Qwen3MutationEntry, Qwen3MutationData, Qwen3PaperJson } from '@/lib/utils/parse'
 
@@ -56,7 +56,9 @@ export interface Qwen3ImportResult extends ImportResult {
 
 // ------------------------------------------------------------
 // importQwen3 – server action
-// Upserts papers, genes, and mutations from QWEN3 output text
+// Submits each gene and mutation in QWEN3 output text as a pending 'create'
+// proposal. Nothing is written to papers / amr_genes / amr_mutations until
+// an admin accepts a proposal (the paper metadata travels with it).
 // ------------------------------------------------------------
 
 export async function importQwen3(text: string): Promise<Qwen3ImportResult> {
@@ -96,48 +98,26 @@ export async function importQwen3(text: string): Promise<Qwen3ImportResult> {
   for (const paper of parsedPapers) {
     const pmid = paper.pmid?.trim() || null
 
-    // 1. Upsert into papers table (if we have a pmid)
-    if (pmid) {
-      try {
-        await db
-          .insert(papers)
-          .values({
-            pmid,
-            title: paper.title || null,
-            year: paper.year ?? null,
-            paperType: paper.paper_type || null,
-            keyFindings: paper.key_findings || null,
-            methodology: paper.methodology || null,
-            geographicLocation: paper.geographic_location || null,
-            sampleSize: paper.sample_size ?? null,
-          })
-          .onConflictDoUpdate({
-            target: papers.pmid,
-            set: {
-              title: paper.title || null,
-              year: paper.year ?? null,
-              paperType: paper.paper_type || null,
-              keyFindings: paper.key_findings || null,
-              methodology: paper.methodology || null,
-              geographicLocation: paper.geographic_location || null,
-              sampleSize: paper.sample_size ?? null,
-            },
-          })
-        papersProcessed++
-      } catch (err) {
-        errors.push(`Paper ${pmid}: ${err instanceof Error ? err.message : 'insert failed'}`)
-      }
-    }
+    const paperPayload = pmid
+      ? {
+          pmid,
+          title: paper.title || null,
+          year: paper.year ?? null,
+          paperType: paper.paper_type || null,
+          keyFindings: paper.key_findings || null,
+          methodology: paper.methodology || null,
+          geographicLocation: paper.geographic_location || null,
+          sampleSize: paper.sample_size ?? null,
+        }
+      : undefined
+    papersProcessed++
 
-    // 2. Insert genes
+    // 2. Propose genes
     const geneEntries = Object.entries(paper.genes || {})
-    const geneIdMap = new Map<string, number>() // gene_name → inserted id
 
     for (const [geneName, geneData] of geneEntries) {
       try {
-        const [insertedGene] = await db
-          .insert(amrGenes)
-          .values({
+        const values = {
             geneName: geneName.trim(),
             allele: geneData.allele || null,
             encodes: geneData.encodes || null,
@@ -149,34 +129,25 @@ export async function importQwen3(text: string): Promise<Qwen3ImportResult> {
             validationMethod: geneData.validation_method || null,
             paperPmid: pmid,
             pmid,
-            status: 'pending',
-          })
-          .returning({ id: amrGenes.id })
-
+        }
+        await createProposal(curator, {
+          targetType: 'gene',
+          targetId: null,
+          action: 'create',
+          changes: { values, paper: paperPayload },
+          entryLabel: geneLabel(values),
+          pmid,
+        })
         genesImported++
-        geneIdMap.set(geneName, insertedGene.id)
       } catch (err) {
         errors.push(`Gene "${geneName}" (paper ${pmid || 'unknown'}): ${err instanceof Error ? err.message : 'insert failed'}`)
       }
     }
 
-    // 3. Insert mutations linked to gene IDs
+    // 3. Propose mutations; each is linked to its gene (by name) when accepted
     const mutationEntries = Object.entries(paper.mutations || {})
 
     for (const [geneName, mutationData] of mutationEntries) {
-      let resolvedGeneId = geneIdMap.get(geneName) ?? null
-
-      // If the gene wasn't just inserted, try to find it in the DB
-      if (!resolvedGeneId && geneName) {
-        const [existingGene] = await db
-          .select({ id: amrGenes.id })
-          .from(amrGenes)
-          .where(eq(amrGenes.geneName, geneName.trim()))
-          .orderBy(desc(amrGenes.createdAt))
-          .limit(1)
-        resolvedGeneId = existingGene?.id ?? null
-      }
-
       const mutationsFound = mutationData.mutations_found || []
 
       for (const mut of mutationsFound) {
@@ -194,19 +165,12 @@ export async function importQwen3(text: string): Promise<Qwen3ImportResult> {
           mutant = match[3]
         }
 
-        const validMutationTypes = ['substitution', 'insertion', 'deletion', 'frameshift', 'other'] as const
-        let mutationType = mut.mutation_type?.toLowerCase().trim() || null
-        if (mutationType && !validMutationTypes.includes(mutationType as (typeof validMutationTypes)[number])) {
-          mutationType = 'other'
-        }
-
         try {
-          await db.insert(amrMutations).values({
-            geneId: resolvedGeneId,
+          const values = {
             geneName,
             mutationName: notation || `mutation_${mutationsImported + 1}`,
             position,
-            mutationType: mutationType as (typeof validMutationTypes)[number] | null,
+            mutationType: normalizeMutationType(mut.mutation_type),
             wildType,
             mutant,
             effect: mut.effect_on_function || null,
@@ -217,7 +181,14 @@ export async function importQwen3(text: string): Promise<Qwen3ImportResult> {
             validatedBy: mut.validated_by || null,
             origin: mut.origin || null,
             pmid,
-            status: 'pending',
+          }
+          await createProposal(curator, {
+            targetType: 'mutation',
+            targetId: null,
+            action: 'create',
+            changes: { values, paper: paperPayload, resolveGeneName: geneName ? geneName.trim() : undefined },
+            entryLabel: mutationLabel(values),
+            pmid,
           })
           mutationsImported++
         } catch (err) {
@@ -229,14 +200,13 @@ export async function importQwen3(text: string): Promise<Qwen3ImportResult> {
     }
   }
 
-  revalidatePath('/browse/genes')
-  revalidatePath('/browse/mutations')
-  revalidatePath('/curator/dashboard')
+  revalidatePath('/curator/proposals')
+  revalidatePath('/curator/review')
 
   const totalImported = genesImported + mutationsImported
   return {
-    success: totalImported > 0 || papersProcessed > 0,
-    message: `Processed ${papersProcessed} papers, imported ${genesImported} genes and ${mutationsImported} mutations`,
+    success: totalImported > 0,
+    message: `Processed ${papersProcessed} papers, submitted ${genesImported} genes and ${mutationsImported} mutations for admin review`,
     imported: totalImported,
     errors,
     papersProcessed,
@@ -247,7 +217,8 @@ export async function importQwen3(text: string): Promise<Qwen3ImportResult> {
 
 // ------------------------------------------------------------
 // importGenes – flat manual import (CSV/JSON)
-// Maps single antibiotic/organism values to new array columns
+// Maps single antibiotic/organism values to new array columns.
+// Each row becomes a pending 'create' proposal.
 // ------------------------------------------------------------
 
 export async function importGenes(data: GeneImportRow[]): Promise<ImportResult> {
@@ -277,7 +248,7 @@ export async function importGenes(data: GeneImportRow[]): Promise<ImportResult> 
     const organismsTestedIn = row.organisms_tested_in?.trim() ? [row.organisms_tested_in.trim()] : null
 
     try {
-      await db.insert(amrGenes).values({
+      const values = {
         geneName: row.gene_name.trim(),
         encodes: row.encodes?.trim() || null,
         mechanism: row.mechanism?.trim() || null,
@@ -290,7 +261,14 @@ export async function importGenes(data: GeneImportRow[]): Promise<ImportResult> 
         isolationCountry: row.isolation_country?.trim() || null,
         year,
         pmid: row.pmid?.trim() || null,
-        status: 'pending',
+      }
+      await createProposal(curator, {
+        targetType: 'gene',
+        targetId: null,
+        action: 'create',
+        changes: { values },
+        entryLabel: geneLabel({ geneName: values.geneName, allele: null }),
+        pmid: values.pmid,
       })
       imported++
     } catch (err) {
@@ -298,14 +276,15 @@ export async function importGenes(data: GeneImportRow[]): Promise<ImportResult> 
     }
   }
 
-  revalidatePath('/browse/genes')
-  revalidatePath('/curator/dashboard')
+  revalidatePath('/curator/proposals')
+  revalidatePath('/curator/review')
 
-  return { success: imported > 0, message: `Imported ${imported} of ${data.length} genes`, imported, errors }
+  return { success: imported > 0, message: `Submitted ${imported} of ${data.length} genes for admin review`, imported, errors }
 }
 
 // ------------------------------------------------------------
 // importMutations – flat manual import (CSV/JSON)
+// Each row becomes a pending 'create' proposal.
 // ------------------------------------------------------------
 
 export async function importMutations(data: MutationImportRow[]): Promise<ImportResult> {
@@ -349,18 +328,12 @@ export async function importMutations(data: MutationImportRow[]): Promise<Import
       if (isNaN(position)) position = null
     }
 
-    const validTypes = ['substitution', 'insertion', 'deletion', 'frameshift', 'other'] as const
-    let mutationType = row.mutation_type?.toLowerCase().trim() || null
-    if (mutationType && !validTypes.includes(mutationType as (typeof validTypes)[number])) {
-      mutationType = 'other'
-    }
-
     try {
-      await db.insert(amrMutations).values({
+      const values = {
         geneId,
         mutationName: row.mutation_name.trim(),
         position,
-        mutationType: mutationType as (typeof validTypes)[number] | null,
+        mutationType: normalizeMutationType(row.mutation_type),
         wildType: row.wild_type?.trim() || null,
         mutant: row.mutant?.trim() || null,
         effect: row.effect?.trim() || null,
@@ -368,7 +341,14 @@ export async function importMutations(data: MutationImportRow[]): Promise<Import
         validatedBy: row.validated_by?.trim() || null,
         origin: row.origin?.trim() || null,
         pmid: row.pmid?.trim() || null,
-        status: 'pending',
+      }
+      await createProposal(curator, {
+        targetType: 'mutation',
+        targetId: null,
+        action: 'create',
+        changes: { values },
+        entryLabel: mutationLabel({ geneName: row.gene_name.trim(), mutationName: values.mutationName }),
+        pmid: values.pmid,
       })
       imported++
     } catch (err) {
@@ -376,8 +356,8 @@ export async function importMutations(data: MutationImportRow[]): Promise<Import
     }
   }
 
-  revalidatePath('/browse/mutations')
-  revalidatePath('/curator/dashboard')
+  revalidatePath('/curator/proposals')
+  revalidatePath('/curator/review')
 
-  return { success: imported > 0, message: `Imported ${imported} of ${data.length} mutations`, imported, errors }
+  return { success: imported > 0, message: `Submitted ${imported} of ${data.length} mutations for admin review`, imported, errors }
 }

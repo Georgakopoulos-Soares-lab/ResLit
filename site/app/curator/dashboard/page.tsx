@@ -5,6 +5,7 @@ import { Footer } from '@/components/footer'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { getCurrentCurator, getCuratorStats } from '@/lib/actions/curator'
+import { getProposalCounts } from '@/lib/actions/proposals'
 import { SignOutButton } from '@/components/curator/sign-out-button'
 import { UploadGeneModal } from '@/components/curator/upload-gene-modal'
 import { UploadMutationModal } from '@/components/curator/upload-mutation-modal'
@@ -16,7 +17,7 @@ export default async function CuratorDashboard() {
     redirect('/curator/login')
   }
 
-  const stats = await getCuratorStats()
+  const [stats, proposalCounts] = await Promise.all([getCuratorStats(), getProposalCounts()])
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -99,6 +100,53 @@ export default async function CuratorDashboard() {
               </CardContent>
             </Link>
           </Card>
+        </div>
+
+        {/* Proposals */}
+        <div className="grid gap-4 md:grid-cols-2 mb-8">
+          <Card className="border-border/60 hover:border-primary/40 transition-colors cursor-pointer">
+            <Link href="/curator/proposals">
+              <CardHeader>
+                <CardTitle>My Proposals</CardTitle>
+                <CardDescription>
+                  Your edits, approvals, rejections and uploads take effect only after an admin accepts them
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm">
+                  <span className="font-bold text-warning">{proposalCounts.mine.pending}</span> pending ·{' '}
+                  <span className="font-bold text-success">{proposalCounts.mine.accepted}</span> accepted ·{' '}
+                  <span className="font-bold text-muted-foreground">{proposalCounts.mine.declined}</span> declined
+                </p>
+              </CardContent>
+            </Link>
+          </Card>
+
+          {curator.role === 'admin' && (
+            <Card className="border-border/60 hover:border-primary/40 transition-colors cursor-pointer">
+              <Link href="/curator/review">
+                <CardHeader>
+                  <CardTitle>Review Proposals</CardTitle>
+                  <CardDescription>Accept or decline curator proposals (admin only)</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-2xl font-bold text-warning">{proposalCounts.pendingAll ?? 0}</p>
+                  <p className="text-xs text-muted-foreground">awaiting review</p>
+                </CardContent>
+              </Link>
+            </Card>
+          )}
+
+          {curator.role === 'admin' && (
+            <Card className="border-border/60 hover:border-primary/40 transition-colors cursor-pointer">
+              <Link href="/curator/admins">
+                <CardHeader>
+                  <CardTitle>Manage Admins</CardTitle>
+                  <CardDescription>Grant or revoke admin rights for other curators (admin only)</CardDescription>
+                </CardHeader>
+              </Link>
+            </Card>
+          )}
         </div>
 
         {/* Upload Actions */}

@@ -169,7 +169,7 @@ export function UploadMutationModal() {
 
         {success && (
           <Alert>
-            <AlertDescription>Mutation uploaded successfully!</AlertDescription>
+            <AlertDescription>Mutation submitted for admin review. It will be added once an admin accepts it.</AlertDescription>
           </Alert>
         )}
 

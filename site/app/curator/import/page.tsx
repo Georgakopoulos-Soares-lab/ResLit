@@ -144,7 +144,8 @@ export default function ImportPage() {
             </Button>
             <h1 className="text-3xl font-bold text-foreground">Import Data</h1>
             <p className="text-muted-foreground mt-2">
-              Import AMR genes and mutations from QWEN3 extraction output, CSV, or JSON
+              Import AMR genes and mutations from QWEN3 extraction output, CSV, or JSON.
+              Each imported entry is submitted as a proposal and added only once an admin accepts it.
             </p>
           </div>
 
@@ -309,8 +310,8 @@ export default function ImportPage() {
                     Import AMR Genes
                   </CardTitle>
                   <CardDescription>
-                    Upload gene data in CSV or JSON format. All imported entries will
-                    have &quot;pending&quot; status.
+                    Upload gene data in CSV or JSON format. Each row is submitted as a
+                    proposal for admin review.
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-6">

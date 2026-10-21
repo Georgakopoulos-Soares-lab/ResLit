@@ -12,6 +12,7 @@ import {
   DialogTrigger,
 } from '@/components/ui/dialog'
 import { getCurationHistory } from '@/lib/actions/curator'
+import { ProposalStatusBadge } from '@/components/curator/proposal-status-badge'
 import type { CurationHistory, ConfirmationReason } from '@/lib/types'
 
 interface HistoryDialogProps {
@@ -37,6 +38,7 @@ const actionStyle: Record<string, string> = {
   reject:  'bg-red-100 text-red-800 border-red-200',
   edit:    'bg-blue-100 text-blue-800 border-blue-200',
   create:  'bg-gray-100 text-gray-800 border-gray-200',
+  reassign: 'bg-purple-100 text-purple-800 border-purple-200',
 }
 
 export function HistoryDialog({ targetType, targetId, allTargetIds, compact, confirmationReason }: HistoryDialogProps) {
@@ -100,7 +102,14 @@ export function HistoryDialog({ targetType, targetId, allTargetIds, compact, con
             !hasCrossDb && <p className="text-sm text-muted-foreground py-4">No history yet.</p>
           ) : (
             history.map((entry) => (
-              <div key={entry.id} className="border border-border/60 rounded-md p-3 space-y-2">
+              <div
+                key={entry.id}
+                className={`rounded-md p-3 space-y-2 ${
+                  entry.proposal_status && entry.proposal_status !== 'accepted'
+                    ? 'border border-dashed border-border bg-muted/30'
+                    : 'border border-border/60'
+                }`}
+              >
                 {/* Header row */}
                 <div className="flex items-center gap-2 flex-wrap">
                   <Badge variant="outline" className={`text-xs ${actionStyle[entry.action] ?? actionStyle.create}`}>
@@ -117,15 +126,38 @@ export function HistoryDialog({ targetType, targetId, allTargetIds, compact, con
                   </span>
                 </div>
 
+                {/* Proposal status: pending/declined entries were never applied */}
+                {entry.proposal_status && (
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <ProposalStatusBadge status={entry.proposal_status} />
+                    {entry.reviewed_at && (
+                      <span className="text-xs text-muted-foreground">
+                        by {entry.reviewed_by_name ?? 'admin'} on {new Date(entry.reviewed_at).toLocaleString()}
+                      </span>
+                    )}
+                  </div>
+                )}
+
+                {entry.note && (
+                  <p className="text-xs text-muted-foreground">
+                    Curator note: <span className="text-foreground">{entry.note}</span>
+                  </p>
+                )}
+                {entry.admin_comment && (
+                  <p className="text-xs text-muted-foreground">
+                    Admin comment: <span className="text-foreground">{entry.admin_comment}</span>
+                  </p>
+                )}
+
                 {/* Allele info (stored in changes.allele) */}
-                {entry.changes && (entry.changes as Record<string, unknown>).allele && (
+                {Boolean(entry.changes && (entry.changes as Record<string, unknown>).allele) && (
                   <p className="text-xs text-muted-foreground">
                     Allele: <span className="font-medium text-foreground">{String((entry.changes as Record<string, unknown>).allele)}</span>
                   </p>
                 )}
 
                 {/* Status change */}
-                {entry.previous_status !== entry.new_status && (
+                {entry.previous_status !== entry.new_status && entry.new_status && (
                   <p className="text-xs text-muted-foreground">
                     Status:{' '}
                     <span className="font-medium text-foreground">{entry.previous_status ?? '—'}</span>
@@ -135,17 +167,17 @@ export function HistoryDialog({ targetType, targetId, allTargetIds, compact, con
                 )}
 
                 {/* Validation tier change */}
-                {entry.changes && (entry.changes as Record<string, unknown>).previous_tier && (entry.changes as Record<string, unknown>).new_tier && (entry.changes as Record<string, unknown>).previous_tier !== (entry.changes as Record<string, unknown>).new_tier && (
+                {entry.previous_tier && entry.new_tier && entry.previous_tier !== entry.new_tier && (
                   <p className="text-xs text-muted-foreground">
                     Validation:{' '}
-                    <span className="font-medium text-foreground">{String((entry.changes as Record<string, unknown>).previous_tier)}</span>
+                    <span className="font-medium text-foreground">{entry.previous_tier}</span>
                     {' → '}
-                    <span className="font-medium text-emerald-700">{String((entry.changes as Record<string, unknown>).new_tier)}</span>
+                    <span className="font-medium text-emerald-700">{entry.new_tier}</span>
                   </p>
                 )}
 
                 {/* Field-level diff */}
-                {entry.action === 'edit' && entry.changes && Object.keys(entry.changes).length > 0 && (
+                {(entry.action === 'edit' || entry.action === 'reassign') && entry.changes && Object.keys(entry.changes).length > 0 && (
                   <ul className="space-y-1">
                     {Object.entries(entry.changes as Record<string, { old: unknown; new: unknown }>).map(([key, diff]) => (
                       <li key={key} className="text-xs">

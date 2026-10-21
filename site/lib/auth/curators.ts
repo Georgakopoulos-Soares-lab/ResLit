@@ -50,3 +50,22 @@ export async function updateCuratorPassword(curatorId: string, newPassword: stri
   const passwordHash = await hashPassword(newPassword)
   await db.update(curators).set({ passwordHash }).where(eq(curators.id, curatorId))
 }
+
+/** Emails listed in the ADMIN_EMAILS env var (comma-separated) are granted
+ * the admin role when they verify their email or log in. This bootstraps the
+ * first admin(s) without putting anyone's email in the repo; further admins
+ * can then be granted from /curator/admins. */
+function bootstrapAdminEmails(): Set<string> {
+  return new Set(
+    (process.env.ADMIN_EMAILS ?? '')
+      .split(',')
+      .map((e) => e.trim().toLowerCase())
+      .filter(Boolean)
+  )
+}
+
+export async function ensureBootstrapAdmin(curator: { id: string; email: string; role: string | null }): Promise<void> {
+  if (curator.role === 'admin') return
+  if (!bootstrapAdminEmails().has(curator.email.trim().toLowerCase())) return
+  await db.update(curators).set({ role: 'admin' }).where(eq(curators.id, curator.id))
+}

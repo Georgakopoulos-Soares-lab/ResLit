@@ -1,12 +1,12 @@
 'use server'
 
 import { revalidatePath } from 'next/cache'
-import { count, eq, and, inArray, desc } from 'drizzle-orm'
+import { count, eq, and, or, inArray, desc } from 'drizzle-orm'
 import { db } from '@/lib/db/client'
-import { amrGenes, amrMutations, curationHistory, curationNotes, curators, publicCuratorColumns } from '@/lib/db/schema'
-import { toSnakeCase, normalizeGeneName, geneKeyEq } from '@/lib/db/helpers'
+import { amrGenes, amrMutations, curationNotes, curationProposals, curators, publicCuratorColumns } from '@/lib/db/schema'
+import { toSnakeCase } from '@/lib/db/helpers'
 import { getCurrentCurator as getSessionCurator, destroySession } from '@/lib/auth/session'
-import { invalidateTierCaches, getValidationTiers } from '@/lib/actions/browse'
+import { createProposal, EDITABLE_FIELDS, geneLabel, mutationLabel, sameValue } from '@/lib/curation/proposals'
 import type { AMRGene, AMRMutation, Curator, CurationNote, CurationHistory } from '@/lib/types'
 
 export async function getCurrentCurator(): Promise<Curator | null> {
@@ -62,6 +62,10 @@ export async function getPendingItems(type: 'genes' | 'mutations', limit: number
   return rows.map((r) => ({ ...r.mutation, gene: r.gene }))
 }
 
+// Curator actions below never touch amr_genes / amr_mutations: each one
+// records a pending proposal (lib/curation/proposals.ts) that only an admin
+// can accept from /curator/review.
+
 export async function updateGeneStatus(
   geneId: string | number,
   status: 'curated' | 'rejected',
@@ -75,7 +79,7 @@ export async function updateGeneStatus(
 
     const numericId = Number(geneId)
     const [gene] = await db
-      .select({ status: amrGenes.status, geneName: amrGenes.geneName, allele: amrGenes.allele })
+      .select({ geneName: amrGenes.geneName, allele: amrGenes.allele, paperPmid: amrGenes.paperPmid, pmid: amrGenes.pmid })
       .from(amrGenes)
       .where(eq(amrGenes.id, numericId))
       .limit(1)
@@ -84,69 +88,27 @@ export async function updateGeneStatus(
       return { success: false, error: 'Gene not found' }
     }
 
-    const tiers = await getValidationTiers()
-    const previousTier = tiers.get(normalizeGeneName(gene.geneName))?.tier ?? 'Candidate'
-
-    await db
-      .update(amrGenes)
-      .set({
-        status,
-        geneStatus: status,
-        validatedBy: curator.id,
-        curatorName: curator.name,
-        curatorEmail: curator.email,
-        curatorAffiliation: curator.affiliation,
-        validatedAt: status === 'curated' ? new Date().toISOString() : null,
-      })
-      .where(eq(amrGenes.id, numericId))
-
-    // When approving, propagate gene_status to all alleles of the same gene
-    if (status === 'curated' && gene.geneName) {
-      await db.update(amrGenes).set({ geneStatus: 'curated' }).where(geneKeyEq(amrGenes.geneName, gene.geneName))
+    const action = status === 'curated' ? 'approve' : 'reject'
+    if (await hasPendingDuplicate(curator.id, 'gene', String(numericId), action)) {
+      return { success: false, error: `You already have a pending ${action} proposal for this gene` }
     }
 
-    await invalidateTierCaches()
-    const newTiers = await getValidationTiers()
-    const newTier = newTiers.get(normalizeGeneName(gene.geneName))?.tier ?? 'Candidate'
-
-    await db.insert(curationHistory).values({
+    await createProposal(curator, {
       targetType: 'gene',
-      targetId: String(geneId),
-      curatorId: curator.id,
-      curatorEmail: curator.email,
-      curatorName: curator.name,
-      curatorAffiliation: curator.affiliation,
-      action: status === 'curated' ? 'approve' : 'reject',
-      previousStatus: gene.status,
-      newStatus: status,
-      changes: {
-        allele: gene.allele || gene.geneName,
-        gene_name: gene.geneName,
-        previous_tier: previousTier,
-        new_tier: newTier,
-      },
+      targetId: String(numericId),
+      action,
+      changes: { allele: gene.allele || gene.geneName, gene_name: gene.geneName },
+      note,
+      entryLabel: geneLabel(gene),
+      pmid: gene.paperPmid || gene.pmid,
     })
 
-    if (note) {
-      await db.insert(curationNotes).values({
-        targetType: 'gene',
-        targetId: String(geneId),
-        curatorId: curator.id,
-        curatorEmail: curator.email,
-        curatorName: curator.name,
-        curatorAffiliation: curator.affiliation,
-        note,
-      })
-    }
-
-    revalidatePath('/curator/dashboard')
-    revalidatePath('/curator/genes')
-    revalidatePath('/browse/genes')
-    revalidatePath(`/browse/genes/${encodeURIComponent(gene.geneName)}`)
+    revalidatePath('/curator/proposals')
+    revalidatePath('/curator/review')
 
     return { success: true }
   } catch (err) {
-    return { success: false, error: err instanceof Error ? err.message : 'Failed to update gene status' }
+    return { success: false, error: err instanceof Error ? err.message : 'Failed to submit proposal' }
   }
 }
 
@@ -163,7 +125,14 @@ export async function updateMutationStatus(
 
     const numericId = Number(mutationId)
     const [mutation] = await db
-      .select({ status: amrMutations.status })
+      .select({
+        geneName: amrMutations.geneName,
+        proteinChange: amrMutations.proteinChange,
+        nucleotideChange: amrMutations.nucleotideChange,
+        mutationName: amrMutations.mutationName,
+        paperPmid: amrMutations.paperPmid,
+        pmid: amrMutations.pmid,
+      })
       .from(amrMutations)
       .where(eq(amrMutations.id, numericId))
       .limit(1)
@@ -172,51 +141,27 @@ export async function updateMutationStatus(
       return { success: false, error: 'Mutation not found' }
     }
 
-    await db
-      .update(amrMutations)
-      .set({
-        status,
-        validatedBy: curator.id,
-        curatorName: curator.name,
-        curatorEmail: curator.email,
-        curatorAffiliation: curator.affiliation,
-        validatedAt: status === 'curated' ? new Date().toISOString() : null,
-      })
-      .where(eq(amrMutations.id, numericId))
-
-    await db.insert(curationHistory).values({
-      targetType: 'mutation',
-      targetId: String(mutationId),
-      curatorId: curator.id,
-      curatorEmail: curator.email,
-      curatorName: curator.name,
-      curatorAffiliation: curator.affiliation,
-      action: status === 'curated' ? 'approve' : 'reject',
-      previousStatus: mutation.status,
-      newStatus: status,
-    })
-
-    if (note) {
-      await db.insert(curationNotes).values({
-        targetType: 'mutation',
-        targetId: String(mutationId),
-        curatorId: curator.id,
-        curatorEmail: curator.email,
-        curatorName: curator.name,
-        curatorAffiliation: curator.affiliation,
-        note,
-      })
+    const action = status === 'curated' ? 'approve' : 'reject'
+    if (await hasPendingDuplicate(curator.id, 'mutation', String(numericId), action)) {
+      return { success: false, error: `You already have a pending ${action} proposal for this mutation` }
     }
 
-    await invalidateTierCaches()
-    revalidatePath('/curator/dashboard')
-    revalidatePath('/curator/mutations')
-    revalidatePath('/browse/mutations')
-    revalidatePath(`/browse/mutations/${mutationId}`)
+    await createProposal(curator, {
+      targetType: 'mutation',
+      targetId: String(numericId),
+      action,
+      changes: { gene_name: mutation.geneName },
+      note,
+      entryLabel: mutationLabel(mutation),
+      pmid: mutation.paperPmid || mutation.pmid,
+    })
+
+    revalidatePath('/curator/proposals')
+    revalidatePath('/curator/review')
 
     return { success: true }
   } catch (err) {
-    return { success: false, error: err instanceof Error ? err.message : 'Failed to update mutation status' }
+    return { success: false, error: err instanceof Error ? err.message : 'Failed to submit proposal' }
   }
 }
 
@@ -236,33 +181,27 @@ export async function updateGene(
       return { success: false, error: 'Gene not found' }
     }
 
-    const { id, created_at, updated_at, ...rest } = updates as Record<string, unknown>
-    const safeUpdates = toDbColumns(rest)
+    const diff = buildDiff(currentGene as unknown as Record<string, unknown>, editableUpdates('gene', updates))
+    if (Object.keys(diff).length === 0) {
+      return { success: false, error: 'No changes to propose' }
+    }
 
-    await db.update(amrGenes).set(safeUpdates).where(eq(amrGenes.id, numericId))
-
-    const diff = buildDiff(currentGene as unknown as Record<string, unknown>, safeUpdates)
-
-    await db.insert(curationHistory).values({
+    await createProposal(curator, {
       targetType: 'gene',
-      targetId: geneId,
-      curatorId: curator.id,
-      curatorEmail: curator.email,
-      curatorName: curator.name,
-      curatorAffiliation: curator.affiliation,
-      action: 'edit',
-      previousStatus: currentGene.status,
-      newStatus: (safeUpdates.status as string) || currentGene.status,
-      changes: Object.keys(diff).length > 0 ? diff : null,
+      targetId: String(numericId),
+      // Renaming moves this allele to a different gene
+      action: 'geneName' in diff ? 'reassign' : 'edit',
+      changes: diff,
+      entryLabel: geneLabel(currentGene),
+      pmid: currentGene.paperPmid || currentGene.pmid,
     })
 
-    revalidatePath('/curator/dashboard')
-    revalidatePath('/browse/genes')
-    revalidatePath(`/browse/genes/${encodeURIComponent(currentGene.geneName)}`)
+    revalidatePath('/curator/proposals')
+    revalidatePath('/curator/review')
 
     return { success: true }
   } catch (err) {
-    return { success: false, error: err instanceof Error ? err.message : 'Failed to update gene' }
+    return { success: false, error: err instanceof Error ? err.message : 'Failed to submit proposal' }
   }
 }
 
@@ -282,33 +221,27 @@ export async function updateMutation(
       return { success: false, error: 'Mutation not found' }
     }
 
-    const { id, created_at, updated_at, ...rest } = updates as Record<string, unknown>
-    const safeUpdates = toDbColumns(rest)
+    const diff = buildDiff(currentMutation as unknown as Record<string, unknown>, editableUpdates('mutation', updates))
+    if (Object.keys(diff).length === 0) {
+      return { success: false, error: 'No changes to propose' }
+    }
 
-    await db.update(amrMutations).set(safeUpdates).where(eq(amrMutations.id, numericId))
-
-    const diff = buildDiff(currentMutation as unknown as Record<string, unknown>, safeUpdates)
-
-    await db.insert(curationHistory).values({
+    await createProposal(curator, {
       targetType: 'mutation',
-      targetId: mutationId,
-      curatorId: curator.id,
-      curatorEmail: curator.email,
-      curatorName: curator.name,
-      curatorAffiliation: curator.affiliation,
-      action: 'edit',
-      previousStatus: currentMutation.status,
-      newStatus: (safeUpdates.status as string) ?? currentMutation.status,
-      changes: Object.keys(diff).length > 0 ? diff : null,
+      targetId: String(numericId),
+      // Changing the gene reassigns this mutation to a different gene
+      action: 'geneName' in diff ? 'reassign' : 'edit',
+      changes: diff,
+      entryLabel: mutationLabel(currentMutation),
+      pmid: currentMutation.paperPmid || currentMutation.pmid,
     })
 
-    revalidatePath('/curator/mutations')
-    revalidatePath('/browse/mutations')
-    revalidatePath(`/browse/mutations/${mutationId}`)
+    revalidatePath('/curator/proposals')
+    revalidatePath('/curator/review')
 
     return { success: true }
   } catch (err) {
-    return { success: false, error: err instanceof Error ? err.message : 'Failed to update mutation' }
+    return { success: false, error: err instanceof Error ? err.message : 'Failed to submit proposal' }
   }
 }
 
@@ -350,27 +283,54 @@ export async function getCurationNotes(targetType: 'gene' | 'mutation', targetId
   }))
 }
 
+/** Revision history for an entry, read from curation_proposals: accepted,
+ * pending and declined proposals (labelled via proposal_status). Accepted
+ * uploads are matched through applied_target_id. */
 export async function getCurationHistory(
   targetType: 'gene' | 'mutation',
   targetId: string,
   allTargetIds?: string[]
 ): Promise<CurationHistory[]> {
-  const targetIdFilter =
-    allTargetIds && allTargetIds.length > 0
-      ? inArray(curationHistory.targetId, allTargetIds)
-      : eq(curationHistory.targetId, targetId)
+  const ids = allTargetIds && allTargetIds.length > 0 ? allTargetIds : [targetId]
 
   const rows = await db
-    .select({ history: curationHistory, curator: publicCuratorColumns })
-    .from(curationHistory)
-    .leftJoin(curators, eq(curationHistory.curatorId, curators.id))
-    .where(and(eq(curationHistory.targetType, targetType), targetIdFilter))
-    .orderBy(desc(curationHistory.createdAt))
+    .select({ proposal: curationProposals, curator: publicCuratorColumns })
+    .from(curationProposals)
+    .leftJoin(curators, eq(curationProposals.curatorId, curators.id))
+    .where(
+      and(
+        eq(curationProposals.targetType, targetType),
+        or(inArray(curationProposals.targetId, ids), inArray(curationProposals.appliedTargetId, ids))
+      )
+    )
+    .orderBy(desc(curationProposals.createdAt))
 
-  return rows.map((r) => ({
-    ...(toSnakeCase(r.history) as unknown as CurationHistory),
-    curator: r.curator ?? undefined,
-  }))
+  return rows.map(({ proposal: p, curator }) => {
+    const result = p.result ?? {}
+    const isStatusChange = p.action === 'approve' || p.action === 'reject'
+    return {
+      id: String(p.id),
+      target_type: p.targetType,
+      target_id: p.targetId ?? p.appliedTargetId ?? '',
+      curator_id: p.curatorId,
+      curator_name: p.curatorName,
+      curator_email: p.curatorEmail,
+      curator_affiliation: p.curatorAffiliation,
+      action: p.action,
+      previous_status: isStatusChange ? ((result.previous_status as string | null) ?? null) : null,
+      new_status: isStatusChange ? ((result.new_status as string | null) ?? null) : null,
+      changes: p.action === 'create' ? null : p.changes,
+      created_at: p.createdAt,
+      curator: curator ?? undefined,
+      previous_tier: (result.previous_tier as string | null) ?? null,
+      new_tier: (result.new_tier as string | null) ?? null,
+      proposal_status: p.status,
+      note: p.note,
+      admin_comment: p.adminComment,
+      reviewed_by_name: p.reviewedByName,
+      reviewed_at: p.reviewedAt,
+    }
+  })
 }
 
 export async function signOut() {
@@ -398,6 +358,13 @@ function toDbColumns(updates: Record<string, unknown>): Record<string, unknown> 
   return out
 }
 
+
+/** Keeps only the fields a curator may propose editing (see EDITABLE_FIELDS). */
+function editableUpdates(targetType: 'gene' | 'mutation', updates: Record<string, unknown>): Record<string, unknown> {
+  const allowed = EDITABLE_FIELDS[targetType]
+  return Object.fromEntries(Object.entries(toDbColumns(updates)).filter(([key]) => allowed.includes(key)))
+}
+
 function buildDiff(
   current: Record<string, unknown>,
   updates: Record<string, unknown>
@@ -405,9 +372,29 @@ function buildDiff(
   const diff: Record<string, { old: unknown; new: unknown }> = {}
   for (const [key, newVal] of Object.entries(updates)) {
     const oldVal = current[key]
-    const oldStr = Array.isArray(oldVal) ? JSON.stringify(oldVal) : String(oldVal ?? '')
-    const newStr = Array.isArray(newVal) ? JSON.stringify(newVal) : String(newVal ?? '')
-    if (oldStr !== newStr) diff[key] = { old: oldVal, new: newVal }
+    if (!sameValue(oldVal, newVal)) diff[key] = { old: oldVal ?? null, new: newVal }
   }
   return diff
+}
+
+async function hasPendingDuplicate(
+  curatorId: string,
+  targetType: 'gene' | 'mutation',
+  targetId: string,
+  action: 'approve' | 'reject'
+): Promise<boolean> {
+  const [row] = await db
+    .select({ id: curationProposals.id })
+    .from(curationProposals)
+    .where(
+      and(
+        eq(curationProposals.curatorId, curatorId),
+        eq(curationProposals.targetType, targetType),
+        eq(curationProposals.targetId, targetId),
+        eq(curationProposals.action, action),
+        eq(curationProposals.status, 'pending')
+      )
+    )
+    .limit(1)
+  return !!row
 }
