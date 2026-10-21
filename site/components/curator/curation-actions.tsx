@@ -45,19 +45,14 @@ export function CurationActions({ type, id, compact = false, onSuccess }: Curati
       const status = action === 'approve' ? 'curated' : 'rejected'
       const updateFn = type === 'gene' ? updateGeneStatus : updateMutationStatus
       
-      console.log('Executing curation action:', { type, id: String(id), status, action })
-      
       const result = await updateFn(String(id), status, note || undefined)
-      
-      console.log('Curation result:', result)
-      
+
       if (result.success) {
         setDialogOpen(false)
         setAction(null)
         setNote('')
         onSuccess?.()
       } else {
-        console.error('Curation error:', result.error)
         setError(result.error || 'An error occurred')
       }
     })
@@ -95,13 +90,14 @@ export function CurationActions({ type, id, compact = false, onSuccess }: Curati
           <DialogContent>
             <DialogHeader>
               <DialogTitle>
-                {action === 'approve' ? 'Approve' : 'Reject'} {type}
+                Propose to {action === 'approve' ? 'approve' : 'reject'} {type}
               </DialogTitle>
               <DialogDescription>
-                {action === 'approve' 
-                  ? `This will mark the ${type} as curated and visible to all users.`
-                  : `This will mark the ${type} as rejected.`
-                }
+                {action === 'approve'
+                  ? `This submits a proposal to mark the ${type} as curator-verified.`
+                  : `This submits a proposal to mark the ${type} as rejected.`
+                }{' '}
+                Nothing changes until an admin accepts it.
               </DialogDescription>
             </DialogHeader>
             <div className="space-y-4 py-4">
@@ -131,7 +127,7 @@ export function CurationActions({ type, id, compact = false, onSuccess }: Curati
                   action === 'reject' && 'bg-destructive hover:bg-destructive/90'
                 )}
               >
-                {isPending ? <Spinner className="h-4 w-4" /> : action === 'approve' ? 'Approve' : 'Reject'}
+                {isPending ? <Spinner className="h-4 w-4" /> : action === 'approve' ? 'Propose approval' : 'Propose rejection'}
               </Button>
             </DialogFooter>
           </DialogContent>
@@ -170,13 +166,14 @@ export function CurationActions({ type, id, compact = false, onSuccess }: Curati
       <DialogContent>
         <DialogHeader>
           <DialogTitle>
-            {action === 'approve' ? 'Approve' : 'Reject'} {type}
+            Propose to {action === 'approve' ? 'approve' : 'reject'} {type}
           </DialogTitle>
           <DialogDescription>
-            {action === 'approve' 
-              ? `This will mark the ${type} as curated and visible to all users.`
-              : `This will mark the ${type} as rejected.`
-            }
+            {action === 'approve'
+              ? `This submits a proposal to mark the ${type} as curator-verified.`
+              : `This submits a proposal to mark the ${type} as rejected.`
+            }{' '}
+            Nothing changes until an admin accepts it.
           </DialogDescription>
         </DialogHeader>
         <div className="space-y-4 py-4">
@@ -206,7 +203,7 @@ export function CurationActions({ type, id, compact = false, onSuccess }: Curati
               action === 'reject' && 'bg-destructive hover:bg-destructive/90'
             )}
           >
-            {isPending ? <Spinner className="h-4 w-4" /> : action === 'approve' ? 'Approve' : 'Reject'}
+            {isPending ? <Spinner className="h-4 w-4" /> : action === 'approve' ? 'Propose approval' : 'Propose rejection'}
           </Button>
         </DialogFooter>
       </DialogContent>

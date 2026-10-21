@@ -9,6 +9,7 @@ import { Spinner } from '@/components/ui/spinner'
 import {
   Dialog,
   DialogContent,
+  DialogDescription,
   DialogFooter,
   DialogHeader,
   DialogTitle,
@@ -84,7 +85,10 @@ export function EditGeneDialog({ gene, onSuccess }: EditGeneDialogProps) {
       </DialogTrigger>
       <DialogContent className="max-w-2xl">
         <DialogHeader>
-          <DialogTitle>Edit Gene: {gene.gene_name}</DialogTitle>
+          <DialogTitle>Propose edit: {gene.gene_name}</DialogTitle>
+          <DialogDescription>
+            Your changes are submitted for admin review and applied only once accepted.
+          </DialogDescription>
         </DialogHeader>
         <div className="overflow-y-auto max-h-[70vh] pr-1">
           <div className="grid grid-cols-2 gap-4 py-2">
@@ -136,7 +140,7 @@ export function EditGeneDialog({ gene, onSuccess }: EditGeneDialogProps) {
             Cancel
           </Button>
           <Button onClick={handleSave} disabled={isPending}>
-            {isPending ? <Spinner className="h-4 w-4" /> : 'Save'}
+            {isPending ? <Spinner className="h-4 w-4" /> : 'Submit for review'}
           </Button>
         </DialogFooter>
       </DialogContent>

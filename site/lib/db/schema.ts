@@ -254,3 +254,53 @@ export const curationNotes = sqliteTable(
     index('curation_notes_curator_idx').on(t.curatorId),
   ]
 )
+
+// ------------------------------------------------------------
+// Curation proposals (propose-then-validate)
+//
+// Every curator action (edit, reassign, approve, reject, upload/import) is
+// stored here as a pending proposal and leaves amr_genes / amr_mutations
+// untouched. Only an admin accepting a proposal applies it
+// (lib/curation/proposals.ts). curation_history is kept as a legacy
+// archive; its rows were copied in here as pending by migration 0002.
+// ------------------------------------------------------------
+
+export const curationProposals = sqliteTable(
+  'curation_proposals',
+  {
+    id: integer('id').primaryKey({ autoIncrement: true }),
+    targetType: text('target_type', { enum: ['gene', 'mutation'] }).notNull(),
+    // null for 'create' proposals until accepted (then see appliedTargetId)
+    targetId: text('target_id'),
+    action: text('action', { enum: ['edit', 'reassign', 'approve', 'reject', 'create'] }).notNull(),
+    // edit/reassign: { field: { old, new } } (camelCase column keys)
+    // approve/reject: { gene_name, allele }
+    // create: { values: <insert values>, paper?: <paper upsert>, resolveGeneName?: string }
+    changes: text('changes', { mode: 'json' }).$type<Record<string, unknown> | null>(),
+    note: text('note'),
+    // Snapshots taken when the proposal is made, so the review page still
+    // makes sense if the entry changes later.
+    entryLabel: text('entry_label'),
+    pmid: text('pmid'),
+    curatorId: text('curator_id').references(() => curators.id, { onDelete: 'set null' }),
+    curatorEmail: text('curator_email'),
+    curatorName: text('curator_name'),
+    curatorAffiliation: text('curator_affiliation'),
+    status: text('status', { enum: ['pending', 'accepted', 'declined'] }).notNull().default('pending'),
+    adminComment: text('admin_comment'),
+    reviewedBy: text('reviewed_by').references(() => curators.id, { onDelete: 'set null' }),
+    reviewedByName: text('reviewed_by_name'),
+    reviewedAt: text('reviewed_at'),
+    // Outcome recorded on accept: { previous_tier, new_tier, previous_status, new_status }
+    result: text('result', { mode: 'json' }).$type<Record<string, unknown> | null>(),
+    appliedTargetId: text('applied_target_id'),
+    legacyHistoryId: integer('legacy_history_id'),
+    createdAt: text('created_at').notNull().$defaultFn(isoNow),
+    updatedAt: text('updated_at').notNull().$defaultFn(isoNow).$onUpdate(isoNow),
+  },
+  (t) => [
+    index('curation_proposals_target_idx').on(t.targetType, t.targetId),
+    index('curation_proposals_status_idx').on(t.status),
+    index('curation_proposals_curator_idx').on(t.curatorId),
+  ]
+)

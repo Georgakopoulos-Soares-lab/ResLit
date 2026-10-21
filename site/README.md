@@ -79,3 +79,4 @@ Notes specific to this deployment:
 | `DATABASE_PATH` | no (defaults to `./data/reslit.db`) | SQLite file location |
 | `RESEND_API_KEY` | no locally, yes in production | sends verification/password-reset email |
 | `RESEND_FROM_EMAIL` | no | overrides the default `onboarding@resend.dev` sender |
+| `ADMIN_EMAILS` | no (set at least one in production) | comma-separated emails granted the admin role on email verification / login; more admins can then be added at `/curator/admins` |

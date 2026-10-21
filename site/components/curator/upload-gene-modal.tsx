@@ -161,7 +161,7 @@ export function UploadGeneModal() {
 
         {success && (
           <Alert>
-            <AlertDescription>Gene uploaded successfully!</AlertDescription>
+            <AlertDescription>Gene submitted for admin review. It will be added once an admin accepts it.</AlertDescription>
           </Alert>
         )}
 

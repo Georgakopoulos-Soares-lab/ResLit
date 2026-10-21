@@ -1,7 +1,7 @@
 'use server'
 
 import { headers } from 'next/headers'
-import { findCuratorByEmail, createCurator, updateCuratorPassword, markEmailVerified } from '@/lib/auth/curators'
+import { findCuratorByEmail, findCuratorById, createCurator, updateCuratorPassword, markEmailVerified, ensureBootstrapAdmin } from '@/lib/auth/curators'
 import { createVerificationToken, consumeVerificationToken, peekVerificationToken } from '@/lib/auth/verification'
 import { createSession } from '@/lib/auth/session'
 import { verifyPassword } from '@/lib/auth/password'
@@ -69,6 +69,8 @@ export async function verifyEmail(token: string): Promise<{ success: boolean; er
     }
 
     await markEmailVerified(result.curatorId)
+    const curator = await findCuratorById(result.curatorId)
+    if (curator) await ensureBootstrapAdmin(curator)
     await createSession(result.curatorId)
 
     return { success: true }
@@ -96,6 +98,7 @@ export async function login(email: string, password: string): Promise<{ success:
       }
     }
 
+    await ensureBootstrapAdmin(curator)
     await createSession(curator.id)
     return { success: true }
   } catch (err) {

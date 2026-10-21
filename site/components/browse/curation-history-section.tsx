@@ -1,6 +1,7 @@
 import { getCurationHistory } from '@/lib/actions/curator'
 import { Badge } from '@/components/ui/badge'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { ProposalStatusBadge } from '@/components/curator/proposal-status-badge'
 import type { ConfirmationReason } from '@/lib/types'
 
 interface Props {
@@ -24,13 +25,13 @@ const actionStyle: Record<string, string> = {
   reject:  'bg-red-100 text-red-800 border-red-200',
   edit:    'bg-blue-100 text-blue-800 border-blue-200',
   create:  'bg-gray-100 text-gray-800 border-gray-200',
+  reassign: 'bg-purple-100 text-purple-800 border-purple-200',
   'auto-confirmed': 'bg-emerald-100 text-emerald-800 border-emerald-200',
 }
 
 export async function CurationHistorySection({ targetType, targetId, confirmationReason }: Props) {
   const history = await getCurationHistory(targetType, targetId)
 
-  const hasManualApproval = history.some((e) => e.action === 'approve')
   const hasCrossDb = confirmationReason === 'cross-database' || confirmationReason === 'both'
 
   if (history.length === 0 && !confirmationReason) return null
@@ -63,7 +64,14 @@ export async function CurationHistorySection({ targetType, targetId, confirmatio
           </div>
         )}
         {history.map((entry) => (
-          <div key={entry.id} className="border border-border/60 rounded-md p-3 space-y-2">
+          <div
+            key={entry.id}
+            className={`rounded-md p-3 space-y-2 ${
+              entry.proposal_status && entry.proposal_status !== 'accepted'
+                ? 'border border-dashed border-border bg-muted/30'
+                : 'border border-border/60'
+            }`}
+          >
             <div className="flex items-center gap-2 flex-wrap">
               <Badge variant="outline" className={`text-xs ${actionStyle[entry.action] ?? actionStyle.create}`}>
                 {entry.action}
@@ -76,7 +84,23 @@ export async function CurationHistorySection({ targetType, targetId, confirmatio
               </span>
             </div>
 
-            {entry.previous_status !== entry.new_status && (
+            {entry.proposal_status && (
+              <div className="flex items-center gap-2 flex-wrap">
+                <ProposalStatusBadge status={entry.proposal_status} />
+                {entry.reviewed_at && (
+                  <span className="text-xs text-muted-foreground">
+                    by {entry.reviewed_by_name ?? 'admin'} on {new Date(entry.reviewed_at).toLocaleString()}
+                  </span>
+                )}
+              </div>
+            )}
+            {entry.admin_comment && (
+              <p className="text-xs text-muted-foreground">
+                Admin comment: <span className="text-foreground">{entry.admin_comment}</span>
+              </p>
+            )}
+
+            {entry.previous_status !== entry.new_status && entry.new_status && (
               <p className="text-xs text-muted-foreground">
                 Status:{' '}
                 <span className="font-medium text-foreground">{entry.previous_status ?? '—'}</span>
@@ -85,7 +109,7 @@ export async function CurationHistorySection({ targetType, targetId, confirmatio
               </p>
             )}
 
-            {entry.action === 'edit' && entry.changes && Object.keys(entry.changes).length > 0 && (
+            {(entry.action === 'edit' || entry.action === 'reassign') && entry.changes && Object.keys(entry.changes).length > 0 && (
               <ul className="space-y-1">
                 {Object.entries(entry.changes as Record<string, { old: unknown; new: unknown }>).map(([key, diff]) => (
                   <li key={key} className="text-xs">
