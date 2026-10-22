@@ -14,6 +14,10 @@ import { Building2, Users } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
+// Shown in the Administrators section. Listed by hand (not read from
+// curators.role) so the public page shows exactly the names chosen here.
+const ADMINISTRATORS = ['Anargyros Skoulakis, MD, MSc, PhD']
+
 export default async function CollaboratorsPage() {
   const curators = await getAllCurators()
 
@@ -46,19 +50,37 @@ export default async function CollaboratorsPage() {
           </div>
         </section>
 
-        {/* Administrator */}
+        {/* Administrators */}
         <section className="py-12 border-b border-border">
-          <div className="container mx-auto px-4">
-            <Card className="max-w-2xl mx-auto">
-              <CardHeader className="text-center">
-                <CardDescription>Site Administrator</CardDescription>
-                <CardTitle>Anargyros Skoulakis, MD, MSc, PhD</CardTitle>
-              </CardHeader>
-              <CardContent className="text-center text-sm text-muted-foreground">
-                Reviews every curator proposal &mdash; edits, approvals, rejections and uploads &mdash; and
-                accepts or declines it before it is applied to the database.
-              </CardContent>
-            </Card>
+          <div className="container mx-auto px-4 max-w-4xl">
+            <h2 className="text-2xl font-bold text-foreground mb-2 text-center">Administrators</h2>
+            <p className="text-sm text-muted-foreground mb-6 text-center">
+              Administrators review every curator proposal &mdash; edits, approvals, rejections and uploads &mdash;
+              and accept or decline it before it is applied to the database.
+            </p>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 justify-center">
+              {ADMINISTRATORS.map((name) => (
+                <Card key={name} className="sm:col-start-auto">
+                  <CardContent className="pt-6 flex items-center gap-3">
+                    <Avatar className="h-10 w-10">
+                      <AvatarFallback className="bg-primary/10 text-primary font-medium">
+                        {name
+                          .split(',')[0]
+                          .split(' ')
+                          .map((n) => n[0])
+                          .join('')}
+                      </AvatarFallback>
+                    </Avatar>
+                    <div className="min-w-0">
+                      <p className="font-medium text-foreground">{name}</p>
+                      <Badge variant="default" className="mt-1 text-xs">
+                        Administrator
+                      </Badge>
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
           </div>
         </section>
 
