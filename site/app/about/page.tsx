@@ -151,7 +151,7 @@ export default function AboutPage() {
                     <div className="flex items-start gap-4">
                       <Badge className="bg-emerald-100 text-emerald-800 border-emerald-300 shrink-0 text-sm px-3 py-1">Confirmed</Badge>
                       <p className="text-muted-foreground">
-                        Present in 2+ databases (CARD, ResFinder, NCBI RGC, ResLit) — independently curated by more than one reference source.
+                        Present in at least one reference database and recovered by ResLit, or present in two or more reference databases.
                       </p>
                     </div>
                   </CardContent>
@@ -162,7 +162,7 @@ export default function AboutPage() {
                     <div className="flex items-start gap-4">
                       <Badge className="bg-blue-100 text-blue-800 border-blue-300 shrink-0 text-sm px-3 py-1">Established</Badge>
                       <p className="text-muted-foreground">
-                        Present in exactly one external database — high confidence, but not yet cross-validated across references.
+                        Present in exactly one reference database and not recovered by ResLit.
                       </p>
                     </div>
                   </CardContent>
@@ -173,7 +173,7 @@ export default function AboutPage() {
                     <div className="flex items-start gap-4">
                       <Badge className="bg-amber-100 text-amber-800 border-amber-300 shrink-0 text-sm px-3 py-1">Supported</Badge>
                       <p className="text-muted-foreground">
-                        Extracted by ResLit from 3 or more independent publications — replicated in the literature but absent from external databases.
+                        Absent from all reference databases and reported in ≥3 publications.
                       </p>
                     </div>
                   </CardContent>
@@ -184,7 +184,7 @@ export default function AboutPage() {
                     <div className="flex items-start gap-4">
                       <Badge className="bg-slate-100 text-slate-700 border-slate-300 shrink-0 text-sm px-3 py-1">Candidate</Badge>
                       <p className="text-muted-foreground">
-                        Extracted by ResLit from fewer than 3 papers — single or limited reports; highest false-positive risk and highest priority for manual review.
+                        Absent from all reference databases and reported in &lt;3 publications.
                       </p>
                     </div>
                   </CardContent>
