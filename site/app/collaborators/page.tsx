@@ -46,6 +46,22 @@ export default async function CollaboratorsPage() {
           </div>
         </section>
 
+        {/* Administrator */}
+        <section className="py-12 border-b border-border">
+          <div className="container mx-auto px-4">
+            <Card className="max-w-2xl mx-auto">
+              <CardHeader className="text-center">
+                <CardDescription>Site Administrator</CardDescription>
+                <CardTitle>Anargyros Skoulakis, MD, MSc, PhD</CardTitle>
+              </CardHeader>
+              <CardContent className="text-center text-sm text-muted-foreground">
+                Reviews every curator proposal &mdash; edits, approvals, rejections and uploads &mdash; and
+                accepts or declines it before it is applied to the database.
+              </CardContent>
+            </Card>
+          </div>
+        </section>
+
         {/* Join Section */}
         <section className="py-12 border-b border-border">
           <div className="container mx-auto px-4">

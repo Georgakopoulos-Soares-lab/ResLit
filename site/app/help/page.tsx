@@ -31,28 +31,30 @@ const sections = [
   { id: 'feedback', title: 'Feedback and bug reports' },
 ]
 
+const ADMIN_NAME = 'Anargyros Skoulakis, MD, MSc, PhD'
+
 const tierCards = [
   {
     tier: 'Confirmed' as const,
     border: 'border-emerald-200 bg-emerald-50/50',
     description:
-      'Recorded in two or more sources — an external reference database plus ResLit’s own literature extraction, or two external databases — or manually verified by a curator.',
+      'Present in at least one reference database and recovered by ResLit, or present in two or more reference databases. An entry is also Confirmed when it has been manually verified by a curator and that verification has then been accepted by the admin.',
   },
   {
     tier: 'Established' as const,
     border: 'border-blue-200 bg-blue-50/50',
     description:
-      'Recorded in one external reference database, but not independently found in the literature ResLit searched — often because the source paper is paywalled, non-English, or outside the searched corpus.',
+      'Present in exactly one reference database and not recovered by ResLit — often because the source paper is paywalled, non-English, or outside the searched corpus.',
   },
   {
     tier: 'Supported' as const,
     border: 'border-amber-200 bg-amber-50/50',
-    description: 'Not in any reference database, but reported in three or more independent papers found by ResLit.',
+    description: 'Absent from all reference databases and reported in ≥3 publications.',
   },
   {
     tier: 'Candidate' as const,
     border: 'border-slate-200 bg-slate-50/50',
-    description: 'Not in any reference database, and reported in fewer than three papers.',
+    description: 'Absent from all reference databases and reported in <3 publications.',
   },
 ]
 
@@ -191,7 +193,7 @@ export default function HelpPage() {
               </div>
               <p className="text-muted-foreground leading-relaxed">
                 Confirmed and Established entries both rest on reference-database curation (or, for some Confirmed
-                entries, direct curator review) &mdash; the difference is only whether ResLit&rsquo;s own literature
+                entries, curator verification accepted by the admin) &mdash; the difference is only whether ResLit&rsquo;s own literature
                 search also turned them up. Supported and Candidate entries are literature findings with no
                 reference-database backing yet, and are the best starting point for curation.
               </p>
@@ -354,8 +356,10 @@ export default function HelpPage() {
               <h3 className="text-lg font-semibold text-foreground mb-2">What curators can do</h3>
               <ul className="list-disc pl-6 text-muted-foreground leading-relaxed space-y-1 mb-6">
                 <li>Review each gene or mutation alongside its extracted fields and current validation status.</li>
-                <li>Edit an entry to correct a field.</li>
-                <li>Approve or Reject an entry.</li>
+                <li>Propose an edit to correct a field.</li>
+                <li>Propose to Approve or Reject an entry.</li>
+                <li>Upload or import new entries, which are also submitted as proposals.</li>
+                <li>Track the status of their proposals (pending, accepted, declined) under My Proposals.</li>
                 <li>View history to see how an entry has changed over time.</li>
                 <li>Jump from a curation entry to its corresponding public browse page (&ldquo;View full details&rdquo;).</li>
                 <li>
@@ -365,10 +369,12 @@ export default function HelpPage() {
               </ul>
 
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Edits and status changes update the live record, but every change is also logged &mdash; what
-                changed, from what to what, and when &mdash; to that entry&rsquo;s history, visible via View history.
-                That keeps the extraction pipeline auditable against curator judgement even though the record itself
-                shows only the current value.
+                Curator actions do not change the live record directly. Every edit, approval, rejection and upload
+                is saved as a proposal and reviewed by the admin, {ADMIN_NAME}, who accepts or declines it. Only
+                accepted proposals are applied &mdash; an accepted approval makes the entry Confirmed
+                (curator-verified). Every proposal &mdash; pending, accepted or declined, with what changed, from
+                what to what, who proposed it and when &mdash; is shown in that entry&rsquo;s history, visible via
+                View history.
               </p>
 
               <p className="text-muted-foreground leading-relaxed mb-4">
