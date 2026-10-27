@@ -152,7 +152,8 @@ If ResLit is useful in your work, please cite:
 
 ## License
 
-The ResLit source code is released under the [MIT License](LICENSE).
+
+Code: MIT (see LICENSE). Data (tables in data_tables/, PMID lists, benchmark sets, annotations): CC-BY 4.0.
 
 
 ---
