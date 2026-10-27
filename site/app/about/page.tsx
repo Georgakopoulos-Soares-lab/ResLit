@@ -152,6 +152,7 @@ export default function AboutPage() {
                       <Badge className="bg-emerald-100 text-emerald-800 border-emerald-300 shrink-0 text-sm px-3 py-1">Confirmed</Badge>
                       <p className="text-muted-foreground">
                         Present in at least one reference database and recovered by ResLit, or present in two or more reference databases.
+                        Entries verified by a curator and approved by an administrator are also Confirmed.
                       </p>
                     </div>
                   </CardContent>

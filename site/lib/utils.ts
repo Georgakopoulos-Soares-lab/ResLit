@@ -27,3 +27,24 @@ export function uniqueDrugs(values: Iterable<string | null | undefined>): string
   }
   return [...seen.values()]
 }
+
+// Same as uniqueDrugs, but for organism lists, whose entries may pack several
+// comma-separated names ("Escherichia coli, Klebsiella pneumoniae").
+export function uniqueOrganisms(values: Iterable<string | null | undefined>): string[] {
+  const seen = new Map<string, string>()
+  for (const value of values) {
+    if (!value) continue
+    for (const part of value.split(',')) {
+      const organism = part.trim().replace(/\s+/g, ' ')
+      const key = organism.toLowerCase()
+      if (organism && !seen.has(key)) seen.set(key, organism)
+    }
+  }
+  return [...seen.values()]
+}
+
+// "AMINOGLYCOSIDE ANTIBIOTIC" / "tobramycin" → "Aminoglycoside antibiotic" / "Tobramycin"
+export function sentenceCase(value: string): string {
+  const lower = value.toLowerCase()
+  return lower.charAt(0).toUpperCase() + lower.slice(1)
+}

@@ -4,6 +4,15 @@ import { DownloadCard } from '@/components/download/download-card'
 import { getDownloadStats } from '@/lib/actions/download'
 import { Download, Database, CheckCircle, FileText } from 'lucide-react'
 
+// Release described in the manuscript. Fill RELEASE_TAG, RELEASE_COMMIT and
+// VERSION_RECORD once the GitHub release has been archived by Zenodo; until
+// then the box shows only the repository and the concept DOI (latest version).
+const GITHUB_URL = 'https://github.com/Georgakopoulos-Soares-lab/ResLit'
+const RELEASE_TAG: string | null = null // e.g. 'v2.0'
+const RELEASE_COMMIT: string | null = null // e.g. 'f994cf5'
+const VERSION_RECORD: string | null = null // Zenodo record number of that release
+const CONCEPT_DOI = '10.5281/zenodo.22230645'
+
 export const metadata = {
   title: 'Download Data - ResLit AMR Database',
   description: 'Download antimicrobial resistance genes and mutations data in CSV format',
@@ -137,6 +146,59 @@ export default async function DownloadPage() {
                   Browse & Download Mutations
                 </a>
               </div>
+            </section>
+
+            {/* Versions and Archive */}
+            <section className="rounded-lg border border-border/60 bg-card/50 p-6">
+              <h2 className="text-xl font-semibold mb-2">Versions and Archive</h2>
+              <p className="text-muted-foreground mb-4">
+                The code, the data tables and the supporting files are available on GitHub, and each release is
+                archived on Zenodo with its own DOI. ResLit is updated annually; every update is archived as a
+                new version, so earlier versions remain citable.
+              </p>
+              <dl className="grid gap-3 text-sm sm:grid-cols-[max-content_1fr] sm:gap-x-6">
+                <dt className="font-medium">GitHub</dt>
+                <dd>
+                  <a href={GITHUB_URL} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline break-all">
+                    {GITHUB_URL.replace('https://', '')}
+                  </a>
+                </dd>
+                {RELEASE_TAG && (
+                  <>
+                    <dt className="font-medium">Release</dt>
+                    <dd>
+                      <a href={`${GITHUB_URL}/releases/tag/${RELEASE_TAG}`} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                        {RELEASE_TAG}
+                      </a>
+                      {RELEASE_COMMIT && <span className="text-muted-foreground"> (commit <code>{RELEASE_COMMIT}</code>)</span>}
+                    </dd>
+                  </>
+                )}
+                {VERSION_RECORD && (
+                  <>
+                    <dt className="font-medium">Zenodo (this version)</dt>
+                    <dd>
+                      <a href={`https://doi.org/10.5281/zenodo.${VERSION_RECORD}`} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                        10.5281/zenodo.{VERSION_RECORD}
+                      </a>
+                    </dd>
+                  </>
+                )}
+                <dt className="font-medium">Zenodo (all versions)</dt>
+                <dd>
+                  <a href={`https://doi.org/${CONCEPT_DOI}`} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                    {CONCEPT_DOI}
+                  </a>
+                  <span className="text-muted-foreground"> &mdash; always resolves to the latest version</span>
+                </dd>
+              </dl>
+              <p className="text-sm text-muted-foreground mt-4">
+                The archive contains the gene and mutation tables with evidence tiers, source PMIDs and publication
+                types; the PMID lists at each pipeline stage; the benchmark PMID sets; the manual-audit and
+                screening-assessment annotations with their analysis scripts; the raw LLM extraction output; and the
+                source code of the pipeline and this website. Full-text articles are not included because of
+                publisher licensing restrictions.
+              </p>
             </section>
 
             {/* Data Format Info */}

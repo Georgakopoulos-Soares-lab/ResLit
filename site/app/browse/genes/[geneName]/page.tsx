@@ -15,7 +15,7 @@ import { normalizeGeneName, pickGeneDisplayNames } from '@/lib/gene-name'
 import { getComments } from '@/lib/actions/comments'
 import { getCurrentCurator } from '@/lib/actions/curator'
 import type { ValidationTier } from '@/lib/types'
-import { uniqueDrugs } from '@/lib/utils'
+import { uniqueDrugs, uniqueOrganisms, sentenceCase } from '@/lib/utils'
 
 
 interface PageProps {
@@ -65,9 +65,9 @@ export default async function GeneDetailPage({ params }: PageProps) {
     name: pickGeneDisplayNames(rows.map((r) => r.allele || r.gene_name)).values().next().value ?? rows[0].gene_name,
     paperCount: rows.length,
     databases: [...new Set(rows.map((r) => r.source_database).filter(Boolean) as string[])].sort(),
-    resistances: uniqueDrugs(rows.flatMap((r) => r.confers_resistance_to ?? [])),
-    organisms: [...new Set(rows.flatMap((r) => r.organisms_tested_in ?? []))],
-    countries: [...new Set(rows.map((r) => r.geographic_location || r.isolation_country).filter(Boolean) as string[])],
+    resistances: uniqueDrugs(rows.flatMap((r) => r.confers_resistance_to ?? [])).map(sentenceCase),
+    organisms: uniqueOrganisms(rows.flatMap((r) => r.organisms_tested_in ?? [])),
+    countries: [...new Set((rows.map((r) => r.geographic_location || r.isolation_country).filter(Boolean) as string[]).flatMap((c) => c.split('|').map((x) => x.trim()).filter(Boolean)))],
     years: [...new Set(rows.map((r) => r.year_pmid || r.year).filter(Boolean) as number[])].sort((a, b) => a - b),
     sequenceAccession: rows.map((r) => r.sequence_accession).find(Boolean) ?? null,
     proteinAccession: rows.map((r) => r.protein_accession).find(Boolean) ?? null,
@@ -85,11 +85,11 @@ export default async function GeneDetailPage({ params }: PageProps) {
   const allResistances = uniqueDrugs([
     ...genePapers.flatMap((r) => r.confers_resistance_to ?? []),
     ...mutations.flatMap((m) => m.confers_resistance_to ?? []),
-  ])
-  const allOrganisms = [...new Set([
+  ]).map(sentenceCase)
+  const allOrganisms = uniqueOrganisms([
     ...genePapers.flatMap((r) => r.organisms_tested_in ?? []),
     ...mutations.flatMap((m) => m.organisms_observed_in ?? []),
-  ])]
+  ])
   const mechanismClass = gene?.resistance_mechanism_class
     ?? genePapers.find((r) => r.resistance_mechanism_class)?.resistance_mechanism_class
   const mechanism = gene?.mechanism
@@ -348,24 +348,14 @@ export default async function GeneDetailPage({ params }: PageProps) {
                             <td className="px-4 py-3 text-sm">
                               {allele.paperCount}
                             </td>
-                            <td className="px-4 py-3 max-w-[180px]" title={allele.resistances.join(', ')}>
-                              {allele.resistances.length > 0 ? (
-                                <span>
-                                  {allele.resistances.slice(0, 2).join(', ')}
-                                  {allele.resistances.length > 2 && <span className="text-muted-foreground"> +{allele.resistances.length - 2}</span>}
-                                </span>
-                              ) : '-'}
+                            <td className="px-4 py-3 min-w-[180px]">
+                              <ShortList items={allele.resistances} />
                             </td>
-                            <td className="px-4 py-3 max-w-[160px] italic" title={allele.organisms.join(', ')}>
-                              {allele.organisms.length > 0 ? (
-                                <span>
-                                  {allele.organisms[0]}
-                                  {allele.organisms.length > 1 && <span className="not-italic text-muted-foreground"> +{allele.organisms.length - 1}</span>}
-                                </span>
-                              ) : '-'}
+                            <td className="px-4 py-3 min-w-[200px] italic">
+                              <ShortList items={allele.organisms} />
                             </td>
-                            <td className="px-4 py-3 text-muted-foreground">
-                              {allele.countries.join(', ') || '-'}
+                            <td className="px-4 py-3 min-w-[160px] text-muted-foreground">
+                              <ShortList items={allele.countries} />
                             </td>
                             <td className="px-4 py-3 text-muted-foreground whitespace-nowrap">
                               {allele.years.join(', ') || '-'}
@@ -422,5 +412,19 @@ export default async function GeneDetailPage({ params }: PageProps) {
 
       <Footer />
     </div>
+  )
+}
+
+// Shows the first SHORT_LIST_MAX items and "+N more"; hovering the cell shows the full list.
+const SHORT_LIST_MAX = 10
+
+function ShortList({ items }: { items: string[] }) {
+  if (items.length === 0) return <>-</>
+  const hidden = items.length - SHORT_LIST_MAX
+  return (
+    <span title={hidden > 0 ? items.join(', ') : undefined} className={hidden > 0 ? 'cursor-help' : undefined}>
+      {items.slice(0, SHORT_LIST_MAX).join(', ')}
+      {hidden > 0 && <span className="not-italic text-muted-foreground"> +{hidden} more</span>}
+    </span>
   )
 }
