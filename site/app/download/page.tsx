@@ -4,13 +4,12 @@ import { DownloadCard } from '@/components/download/download-card'
 import { getDownloadStats } from '@/lib/actions/download'
 import { Download, Database, CheckCircle, FileText } from 'lucide-react'
 
-// Release described in the manuscript. Fill RELEASE_TAG, RELEASE_COMMIT and
-// VERSION_RECORD once the GitHub release has been archived by Zenodo; until
-// then the box shows only the repository and the concept DOI (latest version).
+// Release described in the manuscript and its Zenodo archive. Update these
+// three for each new release.
 const GITHUB_URL = 'https://github.com/Georgakopoulos-Soares-lab/ResLit'
-const RELEASE_TAG: string | null = null // e.g. 'v2.0'
-const RELEASE_COMMIT: string | null = null // e.g. 'f994cf5'
-const VERSION_RECORD: string | null = null // Zenodo record number of that release
+const RELEASE_TAG: string | null = 'v1.1'
+const RELEASE_COMMIT: string | null = 'cbed683'
+const VERSION_RECORD: string | null = '23691544' // Zenodo record number of that release
 const CONCEPT_DOI = '10.5281/zenodo.22230645'
 
 export const metadata = {

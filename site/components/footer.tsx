@@ -64,6 +64,16 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <a href="https://github.com/Georgakopoulos-Soares-lab/ResLit" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                  GitHub
+                </a>
+              </li>
+              <li>
+                <a href="https://doi.org/10.5281/zenodo.22230645" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+                  Zenodo archive
+                </a>
+              </li>
+              <li>
                 <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
                   PubMed
                 </a>
