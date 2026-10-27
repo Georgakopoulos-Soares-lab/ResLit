@@ -357,7 +357,7 @@ export default async function GeneDetailPage({ params }: PageProps) {
                             <td className="px-4 py-3 min-w-[160px] text-muted-foreground">
                               <ShortList items={allele.countries} />
                             </td>
-                            <td className="px-4 py-3 text-muted-foreground whitespace-nowrap">
+                            <td className="px-4 py-3 min-w-[140px] text-muted-foreground">
                               {allele.years.join(', ') || '-'}
                             </td>
                             <td className="px-4 py-3 text-sm font-mono">
