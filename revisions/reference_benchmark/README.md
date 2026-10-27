@@ -114,7 +114,7 @@ Across databases, 27–29% of full-text gene papers have no ResLit record. For m
 
 ### By validation tier (sheet `by_tier`)
 
-Each entry gets its tier from the site exports (`revisions/human_audit/selection/reslit_*_all_2026-10-14-1.csv`), matched on PMID and the same name or change. The site assigns tiers per gene name, not per allele or paper (`website/lib/actions/browse.ts`):
+Each entry gets its tier from the site exports (`revisions/human_audit/selection/reslit_*_all_2026-10-14-1.csv`), matched on PMID and the same name or change. The site assigns tiers per gene name, not per allele or paper (`site/lib/actions/browse.ts`):
 - *Confirmed*: the gene is in at least two sources (ResLit, CARD, ResFinder, NCBI RGC), or a curator verified it. The two sources can be two reference databases without ResLit.
 - *Established*: the gene is in one reference database only, not in ResLit.
 - *Supported*: the gene is in ResLit only, from at least 3 papers.

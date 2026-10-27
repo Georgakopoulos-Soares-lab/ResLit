@@ -33,7 +33,7 @@ Curated AMR databases are excellent but human-curated, so they inevitably lag be
 | (ii) PMID lists at each pipeline stage | [`pmid_lists/`](pmid_lists/) |
 | (iii) Benchmark PMID sets | [`benchmark_pmid_sets/`](benchmark_pmid_sets/) |
 | (iv) Manual-audit and screening-assessment annotations, with the scripts used to analyse them | [`revisions/`](revisions/) |
-| (v) Source code of the pipeline and the website | [`pipeline/`](pipeline/), [`website/`](website/) |
+| (v) Source code of the pipeline and the website | [`pipeline/`](pipeline/), [`site/`](site/) |
 | Raw LLM extraction output (Qwen3-30B-A3B), for re-analysis | [`llm_extractions/`](llm_extractions/) |
 | Comparison of ResLit with CARD, ResFinder and the NCBI Reference Gene Catalog (manuscript figures) | [`comparison_with_other_databases/`](comparison_with_other_databases/) |
 
@@ -47,7 +47,7 @@ Three moving parts: a **pipeline** that reads papers and produces the data, a **
 
 ```
 ResLit/
-├── website/                           # Next.js application — see website/README.md for full details
+├── site/                           # Next.js application — see site/README.md for full details
 │   ├── app/                           # routes: browse/, curator/, download/, about/
 │   ├── components/
 │   ├── lib/
@@ -92,13 +92,13 @@ ResLit/
     └── paper_type/                    #   publication type (Review / Research Article) of every PMID, from PubMed
 ```
 
-**How the pieces connect:** `pipeline/01_pubmed_search/` through `04_read_papers/` take the pipeline from a raw PubMed search down to per-paper structured JSON (genes/mutations extracted by Qwen3; the raw output is in `llm_extractions/`). `05_harmonised_pipeline/` picks up from there and turns that JSON, plus external-database exports, into four harmonized CSVs — two from ResLit's own extraction, two merged from CARD/ResFinder/Reference Gene Catalog. `comparison_with_other_databases/` cross-checks those same four CSVs against each other; this is where the validation-tier logic (below) is worked out and verified against the live app's numbers. The identical four CSVs are then copied into `website/scripts/seed-data/` and loaded by `pnpm db:seed`. Nothing in `website/` re-derives the CSVs — it only consumes them.
+**How the pieces connect:** `pipeline/01_pubmed_search/` through `04_read_papers/` take the pipeline from a raw PubMed search down to per-paper structured JSON (genes/mutations extracted by Qwen3; the raw output is in `llm_extractions/`). `05_harmonised_pipeline/` picks up from there and turns that JSON, plus external-database exports, into four harmonized CSVs — two from ResLit's own extraction, two merged from CARD/ResFinder/Reference Gene Catalog. `comparison_with_other_databases/` cross-checks those same four CSVs against each other; this is where the validation-tier logic (below) is worked out and verified against the live app's numbers. The identical four CSVs are then copied into `site/scripts/seed-data/` and loaded by `pnpm db:seed`. Nothing in `site/` re-derives the CSVs — it only consumes them.
 
 ### Reproducing the analyses
 
 The analysis scripts in `revisions/` need Python 3 with `pandas` and `openpyxl` (tested with Python 3.8.10, pandas 1.4.3, openpyxl 3.1.5); the sensitivity analysis also needs `matplotlib`. Run each script from its own folder; every path is relative to this repository.
 
-**Not included:** full-text articles (licensing); the local PubMed abstract database `papers.sqlite` (1.4 GB; the 200 validation abstracts are in `revisions/validation_screening/validation_200.csv`); NCBI's `PMC-ids.csv` (download from https://ftp.ncbi.nlm.nih.gov/pub/pmc/PMC-ids.csv.gz); the website's SQLite database (built from `website/scripts/seed-data/` by `website/scripts/seed-sqlite.mjs`).
+**Not included:** full-text articles (licensing); the local PubMed abstract database `papers.sqlite` (1.4 GB; the 200 validation abstracts are in `revisions/validation_screening/validation_200.csv`); NCBI's `PMC-ids.csv` (download from https://ftp.ncbi.nlm.nih.gov/pub/pmc/PMC-ids.csv.gz); the website's SQLite database (built from `site/scripts/seed-data/` by `site/scripts/seed-sqlite.mjs`).
 
 **Processed-paper count:** the extraction batches hold 117,112 records, of which two are not papers (`10103189 copy`, a duplicate of 10103189, and `papers_downloaded`). The raw files are unchanged; `pmid_lists/04_fulltext_llm_processed.txt` lists the 117,110 PMIDs.
 
@@ -106,13 +106,13 @@ The analysis scripts in `revisions/` need Python 3 with `pandas` and `openpyxl` 
 
 ## The database
 
-**SQLite** (`better-sqlite3` + Drizzle ORM), embedded and queried in-process — not Supabase/Postgres. This replaced an earlier Supabase backend (Postgres + Supabase Auth) after that project hit its free-tier egress quota; auth is now hand-rolled (`website/lib/auth/`). Keeping the data in-process means no network round-trip and no egress bill, which suits a read-heavy public resource nicely.
+**SQLite** (`better-sqlite3` + Drizzle ORM), embedded and queried in-process — not Supabase/Postgres. This replaced an earlier Supabase backend (Postgres + Supabase Auth) after that project hit its free-tier egress quota; auth is now hand-rolled (`site/lib/auth/`). Keeping the data in-process means no network round-trip and no egress bill, which suits a read-heavy public resource nicely.
 
-See **`website/README.md`** for the full architecture writeup (why SQLite, Railway deployment, backups) and **`website/lib/db/schema.ts`** for the table definitions.
+See **`site/README.md`** for the full architecture writeup (why SQLite, Railway deployment, backups) and **`site/lib/db/schema.ts`** for the table definitions.
 
 ### Confidence tiers
 
-Every gene and mutation is scored on two independent lines of evidence — whether it appears in the curated databases, and how many distinct papers support it. Tiers are computed live (`getValidationTiers` / `getMutationValidationTiers` in `website/lib/actions/browse.ts`):
+Every gene and mutation is scored on two independent lines of evidence — whether it appears in the curated databases, and how many distinct papers support it. Tiers are computed live (`getValidationTiers` / `getMutationValidationTiers` in `site/lib/actions/browse.ts`):
 
 | Tier | Meaning |
 |---|---|

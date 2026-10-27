@@ -31,7 +31,7 @@ import pandas as pd
 
 HERE = Path(__file__).resolve().parent
 DEFAULT_REPO = HERE.parents[1]  # archive root
-SEED_DATA = Path("website/scripts/seed-data")
+SEED_DATA = Path("site/scripts/seed-data")
 INPUTS = {
     "ResLit genes": SEED_DATA / "Full_list_genes_Reslit_harmonized_antib_bact.csv",
     "Reference genes": SEED_DATA / "Full_list_genes_otherDatabases_AlleleCorrected-1_filtered_concatenated_bla_fixed_pubmed_antibiotic_corrected.csv",

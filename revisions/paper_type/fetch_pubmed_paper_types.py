@@ -47,7 +47,7 @@ import requests
 
 HERE = Path(__file__).resolve().parent
 DEFAULT_REPO = HERE.parents[1]  # archive root
-SEED_DATA = Path("website/scripts/seed-data")
+SEED_DATA = Path("site/scripts/seed-data")
 # (path, fixed source label or None to use each row's Database column)
 INPUTS = [
     (SEED_DATA / "Full_list_genes_Reslit_harmonized_antib_bact.csv", "ResLit"),

@@ -35,7 +35,7 @@ import pandas as pd
 HERE = Path(__file__).resolve().parent
 DEFAULT_REPO = HERE.parents[1]  # archive root
 SUMMARIES = HERE.parents[1] / "llm_extractions"  # extraction_summary_batch1..6.json
-SEED = Path("website/scripts/seed-data")
+SEED = Path("site/scripts/seed-data")
 FILES = {
     "reslit_genes": "Full_list_genes_Reslit_harmonized_antib_bact.csv",
     "ref_genes": "Full_list_genes_otherDatabases_AlleleCorrected-1_filtered_concatenated_bla_fixed_pubmed_antibiotic_corrected.csv",

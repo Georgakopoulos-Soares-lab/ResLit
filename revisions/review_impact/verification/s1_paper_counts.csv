@@ -21,8 +21,8 @@ metric,value,source,field,how
 "1c distinct PMIDs, mutation file",4716,pipeline/06_final_output/Full_list_mutations_Reslit_antib_bact.csv,PMID,same
 "1c distinct PMIDs, union",17385,both files,PMID,union
 1c union PMIDs not in extraction summaries,0,,,set difference
-"1d site DB: distinct ResLit PMIDs, amr_genes",14060,website/data/reslit.db,amr_genes.paper_pmid,source_database = 'Reslit'
-"1d site DB: distinct ResLit PMIDs, amr_mutations",4716,website/data/reslit.db,amr_mutations.paper_pmid,source_database = 'Reslit'
-"1d site DB: distinct ResLit PMIDs, union",17385,website/data/reslit.db,paper_pmid,union
-1d site DB: papers table rows (all sources),19642,website/data/reslit.db,papers.pmid,"raw PMID cells, incl. reference-database and multi-PMID cells"
-"1d site 'Publications' figure (all sources, numeric)",19565,website/data/reslit.db,paper_pmid (genes + mutations),getDistinctPaperCount() rule in lib/actions/browse.ts
+"1d site DB: distinct ResLit PMIDs, amr_genes",14060,site/data/reslit.db,amr_genes.paper_pmid,source_database = 'Reslit'
+"1d site DB: distinct ResLit PMIDs, amr_mutations",4716,site/data/reslit.db,amr_mutations.paper_pmid,source_database = 'Reslit'
+"1d site DB: distinct ResLit PMIDs, union",17385,site/data/reslit.db,paper_pmid,union
+1d site DB: papers table rows (all sources),19642,site/data/reslit.db,papers.pmid,"raw PMID cells, incl. reference-database and multi-PMID cells"
+"1d site 'Publications' figure (all sources, numeric)",19565,site/data/reslit.db,paper_pmid (genes + mutations),getDistinctPaperCount() rule in lib/actions/browse.ts

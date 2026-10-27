@@ -5,7 +5,7 @@ All numbers come from `verify.py` in this folder, run on 2026-10-21 with
 network access) and writes only to this folder; the tier logic is imported unchanged
 from `../review_impact.py`. Paths below were relative to the authors' working folder,
 and `repo/` is the ResLit git repository (commit `5ac81b38`). In this archive, `repo/pipeline/`
-is `pipeline/`, `repo/site/` is `website/`, `paper/` is `llm_extractions/` and `revisions/` is `revisions/`. Every table is also in a CSV:
+is `pipeline/`, `repo/site/` is `site/`, `paper/` is `llm_extractions/` and `revisions/` is `revisions/`. Every table is also in a CSV:
 
 | Table | CSV |
 |---|---|

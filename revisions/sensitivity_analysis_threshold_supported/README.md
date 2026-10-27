@@ -24,10 +24,10 @@ Answers the reviewer comment on the ≥3-publication threshold for the Supported
 ## Inputs (current release, as seeded into production)
 | Input | Path | md5 |
 |---|---|---|
-| ResLit genes | `website/scripts/seed-data/Full_list_genes_Reslit_harmonized_antib_bact.csv` | `9798f619874c59bb09042a6a02288850` |
-| Reference genes | `website/scripts/seed-data/Full_list_genes_otherDatabases_AlleleCorrected-1_filtered_concatenated_bla_fixed_pubmed_antibiotic_corrected.csv` | `b7e51e8a2c9b3dd3b97072e3e74bfa90` |
-| ResLit mutations | `website/scripts/seed-data/Full_list_mutations_Reslit_antib_bact.csv` | `174b181dee004297f1806c19b761b28a` |
-| Reference mutations | `website/scripts/seed-data/Full_list_mutations_otherDatabases_clean.csv` | `7b843b7c790bb31802fc001942ef190b` |
+| ResLit genes | `site/scripts/seed-data/Full_list_genes_Reslit_harmonized_antib_bact.csv` | `9798f619874c59bb09042a6a02288850` |
+| Reference genes | `site/scripts/seed-data/Full_list_genes_otherDatabases_AlleleCorrected-1_filtered_concatenated_bla_fixed_pubmed_antibiotic_corrected.csv` | `b7e51e8a2c9b3dd3b97072e3e74bfa90` |
+| ResLit mutations | `site/scripts/seed-data/Full_list_mutations_Reslit_antib_bact.csv` | `174b181dee004297f1806c19b761b28a` |
+| Reference mutations | `site/scripts/seed-data/Full_list_mutations_otherDatabases_clean.csv` | `7b843b7c790bb31802fc001942ef190b` |
 
 ## Sanity checks (all must pass, otherwise no outputs are written)
 | Entries | Check | Got | Expected | Result |
