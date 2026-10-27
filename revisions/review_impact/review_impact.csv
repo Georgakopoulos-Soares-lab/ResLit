@@ -1,0 +1,29 @@
+section,metric,with reviews,without reviews
+1 Review PMIDs,papers in extraction summaries (batch 1-6),117112,
+1 Review PMIDs,"review PMIDs (paper_type == ""review"")",1558,
+1 Review PMIDs,"not counted: paper_type ""literature_review""",1,
+2 Release rows from reviews,gene rows (of all),"1,198 of 54,181",
+2 Release rows from reviews,unique genes in those rows (normalised name),"403 of 2,545",
+2 Release rows from reviews,mutation rows (of all),"451 of 26,042",
+2 Release rows from reviews,unique mutations in those rows (gene + change),"330 of 10,887",
+2 Release rows from reviews,review PMIDs with >=1 gene / mutation / any row,163 / 79 / 228,
+3 Tier logic check,"genes: current release, C/E/S/Ca (live site)","1221/291/242/1254 (3,008) PASS",
+3 Tier logic check,"mutations: current release, C/E/S/Ca (live site)","1798/2231/399/9009 (13,437) PASS",
+3 Tier logic check,"genes: pre-fix figures (old Table 1), C/E/S/Ca; recovery","1179/401/269/1271; 1,006/1,580 PASS",
+3 Tier logic check,"mutations: pre-fix figures (old Table 1), C/E/S/Ca; recovery","1738/2355/402/9098; 1,439/4,093 PASS",
+4 Without reviews: genes,tiers C/E/S/Ca (total),"1,221/291/242/1,254 (3,008)","1,217/295/230/1,243 (2,985)"
+4 Without reviews: genes,a) Supported -> Candidate,,12
+4 Without reviews: genes,b) ResLit-only entries supported only by reviews (disappear),,"23 of 1,496 (0 Supported, 23 Candidate)"
+4 Without reviews: genes,c) Confirmed entries recovered by ResLit only via reviews,,21 (4 -> Established; 17 stay Confirmed via >=2 reference DBs)
+4 Without reviews: genes,c) recovered by ResLit / in >=1 reference,"1,049/1,512 (69.4%)","1,028/1,512 (68.0%)"
+4 Without reviews: genes,d) Supported at >=2,439,432
+4 Without reviews: genes,d) Supported at >=3 (threshold used),242,230
+4 Without reviews: genes,d) Supported at >=5,133,128
+4 Without reviews: mutations,tiers C/E/S/Ca (total),"1,798/2,231/399/9,009 (13,437)","1,786/2,243/387/8,890 (13,306)"
+4 Without reviews: mutations,a) Supported -> Candidate,,12
+4 Without reviews: mutations,b) ResLit-only entries supported only by reviews (disappear),,"131 of 9,408 (0 Supported, 131 Candidate)"
+4 Without reviews: mutations,c) Confirmed entries recovered by ResLit only via reviews,,14 (12 -> Established; 2 stay Confirmed via >=2 reference DBs)
+4 Without reviews: mutations,c) recovered by ResLit / in >=1 reference,"1,479/4,029 (36.7%)","1,465/4,029 (36.4%)"
+4 Without reviews: mutations,d) Supported at >=2,"1,044","1,023"
+4 Without reviews: mutations,d) Supported at >=3 (threshold used),399,387
+4 Without reviews: mutations,d) Supported at >=5,154,149

@@ -1,10 +1,6 @@
 node_modules/
 .next/
 .env*
-*.csv
-*.csv#
-.~lock.*
-!pipeline/**/*.csv
-!site/scripts/seed-data/*.csv
-!comparison_with_other_databases/**/*.csv
 __pycache__/
+.~lock.*
+.ipynb_checkpoints/

@@ -280,6 +280,7 @@ Output (as published in this repo, per STATUS_LOG_2026-04-21.md):
   Verified full-text after body validation: 1,596
   Excluded as preview/placeholder/non-body: 192
 
+    [Not included in the archive (publisher licensing):]
     pipeline/scripts_dld/fulltext_txt/   - 1,595 verified full-text .txt
                                             files, one per PMID, each with a
                                             header (PMID/PMCID/DOI/Title/

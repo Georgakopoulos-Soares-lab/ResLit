@@ -1,0 +1,7 @@
+threshold,site_threshold,genes_literature_only,genes_supported_n,genes_supported_pct,genes_candidate_n,mutations_literature_only,mutations_supported_n,mutations_supported_pct,mutations_candidate_n
+1,False,1496,1496,100.0,0,9408,9408,100.0,0
+2,False,1496,439,29.3,1057,9408,1044,11.1,8364
+3,True,1496,242,16.2,1254,9408,399,4.2,9009
+4,False,1496,167,11.2,1329,9408,223,2.4,9185
+5,False,1496,133,8.9,1363,9408,154,1.6,9254
+10,False,1496,63,4.2,1433,9408,41,0.4,9367

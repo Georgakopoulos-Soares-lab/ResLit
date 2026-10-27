@@ -1,0 +1,499 @@
+# Aminoglycosides
+Aminoglycoside
+Aminoglycosides
+AMINOGLYCOSIDE
+AMG
+Amikacin
+AMIKACIN
+AMK
+Apramycin
+APRAMYCIN
+Arbekacin
+Astromicin
+Dibekacin
+Fortimicin
+Gentamicin
+GENTAMICIN
+Gentamicin C
+GENC
+GEN
+Hygromycin
+HYGROMYCIN
+Hyrgomycin B
+HGM
+Isepamicin
+Kanamycin
+KANAMYCIN
+KAN
+Kasugamicin
+Kasugamycin
+KASUGAMYCIN
+KAS
+Lividomycin
+Neomycin
+NEO
+Netilmicin
+Paromomycin
+PAROMOMYCIN
+PAR
+Plazomicin
+PLAZOMICIN
+Ribostamycin
+RIBOSTAMYCIN
+Sisomicin
+SISOMICIN
+Spectinomycin
+SPECTINOMYCIN
+SPT
+Streptomycin
+STREPTOMYCIN
+STR
+Tobramycin
+TOBRAMYCIN
+TOB
+Unknown Aminoglycoside
+G418
+
+# Beta-lactams — general
+Beta-lactam
+BETA-LACTAM
+Beta-lactams
+BLA
+Unknown Beta-lactam
+
+# Carbapenems
+CARBAPENEM
+Biapenem
+Doripenem
+Ertapenem
+Imipenem
+IMIPENEM
+IPM
+Imipenem/cilastatin
+Imipenem/relebactam
+Meropenem
+MEROPENEM
+Panipenem
+Meropenem/vaborbactam
+
+# Penicillins
+Penicillin
+PENICILLIN
+PCL
+Ampicillin
+Ampicillin+Clavulanic acid
+Amoxicillin
+AMOXICILLIN
+AMX
+Amoxicillin+Clavulanic acid
+Amoxicillin-clavulanic acid
+Amoxicillin/clavulanic acid
+Co-amoxiclav
+Augmentin
+Cloxacillin
+Dicloxacillin
+Flucloxacillin
+Methicillin
+METHICILLIN
+Nafcillin
+Oxacillin
+OXACILLIN
+OXA
+Piperacillin
+Piperacillin+Clavulanic acid
+Piperacillin+Tazobactam
+Piperacillin/tazobactam
+Pip/tazo
+PIP/TAZ
+Temocillin
+Ticarcillin
+Ticarcillin+Clavulanic acid
+Ticarcillin+Clavulanic acid,Aztreonam
+
+# Cephalosporins
+CEPHALOSPORIN
+Cefazolin
+Cefaclor
+Cefdinir
+Cefepime
+CEFEPIME
+CEF
+Cefiderocol
+CEFIDEROCOL
+Cefixime
+Cefoperazone
+Cefotaxime
+Cefotaxime+Clavulanic acid
+Cefoxitin
+Cefpodoxime
+Cefpirome
+Ceftaroline
+CEFTAROLINE
+Ceftazidime
+Ceftazidime+avibactam
+Ceftazidime+Avibactam
+Ceftazidime-Avibactam
+Ceftazidime/avibactam
+Ceftazidime,Ertapenem
+Ceftibuten-avibactam
+CEFTIBUTEN-AVIBACTAM
+Ceftiofur
+Ceftolozane
+Ceftolozane+tazobactam
+Ceftolozane/tazobactam
+Ceftriaxone
+Cefuroxime
+Cephalothin
+CEPHALOTHIN
+Cefepime-taniborbactam
+CEFEPIME-TANIBORBACTAM
+
+# Monobactams
+Aztreonam
+ATM
+
+# Beta-lactamase inhibitors
+Avibactam
+AVIBACTAM
+AVI
+CZA
+Taniborbactam
+TANIBORBACTAM
+Xeruborbactam
+XERUBORBACTAM
+
+# Quinolones / Fluoroquinolones
+Quinolone
+QUINOLONE
+Unknown Quinolone
+Fluoroquinolone
+Fluoroquinolones
+Ciprofloxacin
+CIP
+Delafloxacin
+Enrofloxacin
+ENR
+Fleroxacin
+Gatifloxacin
+GAT
+Levofloxacin
+LEV
+Moxifloxacin
+MXF
+Nalidixic acid
+Norfloxacin
+NOR
+Ofloxacin
+OFX
+Pefloxacin
+Sitafloxacin
+Sparfloxacin
+
+# Macrolides
+Macrolide
+MACROLIDE
+Macrolides
+MAC
+Azithromycin
+AZITHROMYCIN
+AZM
+Carbomycin
+Clarithromycin
+CLARITHROMYCIN
+CLR
+Dirithromycin
+Erythromycin
+ERYTHROMYCIN
+ERY
+Josamycin
+Midecamycin
+Oleandomycin
+OLEANDOMYCIN
+Roxithromycin
+Spiramycin
+SPIRAMYCIN
+Telithromycin
+TELITHROMYCIN
+Tylosin
+TYLOSIN
+TYL
+
+# Tetracyclines
+Tetracycline
+TETRACYCLINE
+Tetracyclines
+TET
+Chlortetracycline
+Doxycycline
+DOXYCYCLINE
+Eravacycline
+Minocycline
+MINOCYCLINE
+Omadacycline
+Oxytetracycline
+Tigecycline
+TIGECYCLINE
+TETRACENOMYCIN
+
+# Phenicols / Amphenicols
+Amphenicol
+Phenicol
+PHENICOL
+Chloramphenicol
+CHLORAMPHENICOL
+CHL
+Chloramphenicol,Florfenicol
+Florfenicol
+FLORFENICOL
+FLO
+Thiamphenicol
+THIAMPHENICOL
+
+# Sulfonamides / Folate pathway
+Sulfonamide
+SULFONAMIDE
+Sulfonamides
+Sulfamethoxazole
+SMX
+SMZ
+Sulfadiazine
+Sulfamethizole
+Trimethoprim
+TRIMETHOPRIM
+TMP
+Trimethoprim/sulfamethoxazole
+Trimethoprim-sulfamethoxazole
+TMP/SMX
+TMP-SMX
+SXT
+Cotrimoxazole
+Co-trimoxazole
+Folate pathway antagonist
+
+# Glycopeptides
+Glycopeptide
+GLYCOPEPTIDE
+Dalbavancin
+Oritavancin
+Teicoplanin
+Telavancin
+TVN
+Vancomycin
+VANCOMYCIN
+VAN
+
+# Lincosamides
+Lincosamide
+LINCOSAMIDE
+Clindamycin
+CLINDAMYCIN
+CLI
+Lincomycin
+LINCOMYCIN
+
+# Oxazolidinones
+Oxazolidinone
+OXAZOLIDINONE
+OXZ
+Linezolid
+LINEZOLID
+LZD
+Tedizolid
+TEDIZOLID
+Tedizolid phosphate
+
+# Streptogramins
+STREPTOGRAMIN
+Streptogramin A
+STREPTOGRAMIN A
+Streptogramin B
+STREPTOGRAMIN B
+Dalfopristin
+Quinupristin
+Quinupristin+Dalfopristin
+Pristinamycin IA
+Pristinamycin IIA
+PRISTINAMYCIN
+Virginiamycin M
+VIRGINIAMYCIN M
+Virginiamycin S
+VIRGINIAMYCIN
+VERNAMYCIN B
+OSTREOGRYCIN
+
+# Lipopeptides
+LIPOPEPTIDE
+Daptomycin
+DAPTOMYCIN
+DAP
+Polymyxin
+Polymyxin B
+Polymyxin E
+PMB
+COL
+Colistin
+COLISTIN
+Colistin sulfate
+CST
+Bacitracin
+BACITRACIN
+
+# Rifamycins
+Rifamycin
+RIFAMYCIN
+Rifampicin
+Rifabutin
+RFB
+RIF
+Rifampin
+RIFAMPIN
+
+# TB-specific drugs
+Isoniazid
+INH
+Ethambutol
+Ethambutol & Capreomycin
+EMB
+Pyrazinamide
+PZA
+Capreomycin
+CAPREOMYCIN
+CAP
+Cycloserine
+D-cycloserine
+DCS
+Ethionamide
+ETO
+Prothionamide
+PTO
+Para-aminosalicylic acid
+PAS
+Kanamycin
+Bedaquiline
+BDQ
+Delamanid
+DLM
+Pretomanid
+PA-824
+Clofazimine
+CFZ
+Dapsone
+
+# Fusidic acid
+Fusidic acid
+FUSIDIC ACID
+FA
+
+# Fosfomycin
+Fosfomycin
+FOSFOMYCIN
+FOF
+
+# Mupirocin
+Mupirocin
+MUPIROCIN
+MUP
+Pseudomonic acid
+
+# Pleuromutilins
+Pleuromutilin
+PLEUROMUTILIN
+PLM
+Tiamulin
+TIAMULIN
+Lefamulin
+LFM
+Retapamulin
+RETAPAMULIN
+
+# Nitroimidazoles / Nitrofurans
+Nitroimidazole
+NITROIMIDAZOLE
+Metronidazole
+MTZ
+NITROFURAN
+Nitrofurantoin
+NITROFURANTOIN
+NIT
+
+# Aminocoumarins
+Aminocoumarin
+
+# Elfamycins
+Elfamycin
+ELF
+Kirromycin
+KIR
+GE2270A
+GE2A
+Pulvomycin
+Enacyloxin IIa
+ENC
+
+# Other/misc antibiotics
+Spectinomycin
+SPT
+Bleomycin
+BLEOMYCIN
+Butirosin
+Butiromycin
+Astromicin
+Apramycin
+Edeine
+EDN
+Maduramicin
+MADURAMICIN
+Narasin
+NARASIN
+Salinomycin
+SALINOMYCIN
+Pactamycin
+PAC
+Avoparcin
+Avilamycin
+AVILAMYCIN
+Thiostrepton
+THIOSTREPTON
+Streptothricin
+STREPTOTHRICIN
+Tuberactinomycin
+TUBERACTINOMYCIN
+Viomycin
+VIOMYCIN
+VIO
+Zoliflodacin
+ZOL
+Zorbamycin
+ZORBAMYCIN
+Lysocin E
+LYS
+Capreomycin
+CAP
+Hygromycin B
+
+# Biocides / Quaternary ammonium (appear in AMR papers)
+QUATERNARY AMMONIUM
+Chlorhexidine
+Benzalkonium
+Benzalkonium chloride
+BAC
+Triclosan
+TRC
+
+# Steroid antibacterials
+Steroid antibacterial
+
+# Ionophores (veterinary)
+IONOPHORE
+Ionophores
+Monensin
+Salinomycin
+Narasin
+Maduramicin
+
+# Combination / multi-drug entries
+Multiple antibiotics
+MULT
+Unknown Beta-lactam
+Unknown Aminoglycoside
+Unknown Quinolone

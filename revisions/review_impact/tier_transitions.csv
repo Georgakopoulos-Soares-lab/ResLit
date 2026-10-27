@@ -1,0 +1,15 @@
+type,tier_with_reviews,tier_without_reviews,n
+genes,Confirmed,Confirmed,1217
+genes,Confirmed,Established,4
+genes,Established,Established,291
+genes,Supported,Candidate,12
+genes,Supported,Supported,230
+genes,Candidate,Candidate,1231
+genes,Candidate,removed,23
+mutations,Confirmed,Confirmed,1786
+mutations,Confirmed,Established,12
+mutations,Established,Established,2231
+mutations,Supported,Candidate,12
+mutations,Supported,Supported,387
+mutations,Candidate,Candidate,8878
+mutations,Candidate,removed,131

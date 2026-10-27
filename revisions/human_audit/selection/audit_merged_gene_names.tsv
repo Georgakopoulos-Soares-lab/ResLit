@@ -1,0 +1,37 @@
+entity_type	entity	Tier
+gene	Tet(W/32/O)	Confirmed
+gene	aac(6')-Ie/aph(2'') [aac(6')-Ie-aph(2'')-Ia]	Confirmed
+gene	ant(3'')-Ih/aac(6')-IId [ant(3')-Ih-aac(6')-Id]	Confirmed
+gene	blaOXA/blaLRA13	Confirmed
+gene	tet(O/32/O) [tet(O/W/32/O/W/O)]	Confirmed
+gene	tet(O/M/O)	Confirmed
+gene	tet(O/W)	Confirmed
+gene	tet(O/W/32/O)	Confirmed
+gene	tet(O/W/O)	Confirmed
+gene	tet(S/M)	Confirmed
+gene	tet(W/N/W)	Confirmed
+gene	AAC6_30/AAC6_Ib	Established
+gene	AAC6_Ie/APH2_Ia	Established
+gene	AAC_3Ib/AAC_6Ib [AAC_3Ib_AAC_6Ib]	Established
+gene	aadA6/aadA10	Established
+gene	ant(3'')-Ij/aac(6')-Ib [ant(3'')-Ij/aac(6')-IIa]	Established
+gene	catB8/aac(6')-Ib'	Established
+gene	tet(O/W/32/O/W/O)	Established
+gene	aph3/str(A)	Supported
+gene	fupA/B	Supported
+gene	mef(A/E)	Supported
+gene	msrA/B	Supported
+gene	vanC2/3	Supported
+gene	aph(3-ib, aph(6)-id [aph(3''-Ib, aph(6)-Id]	Candidate
+gene	aph6/str(B)	Candidate
+gene	CAT15/16	Candidate
+gene	ermA/B	Candidate
+gene	ermC/A	Candidate
+gene	linA/A’	Candidate
+gene	MsrA/MsrB	Candidate
+gene	msrA/D	Candidate
+gene	norB/C	Candidate
+gene	Rv1686c/87c	Candidate
+gene	Spr0812/0813	Candidate
+gene	tetK/L	Candidate
+gene	tetK/M	Candidate

@@ -1,0 +1,18 @@
+type,check,pass
+both,"""with reviews"" identical in both runs",True
+genes,PubMed run: WITH reviews equals live site,True
+genes,PubMed run: each WITHOUT tier = sum of entries moving into it,True
+genes,PubMed run: WITHOUT total = WITH total - disappeared,True
+genes,PubMed run: recovery loss = recovered-only-via-reviews entries,True
+mutations,PubMed run: WITH reviews equals live site,True
+mutations,PubMed run: each WITHOUT tier = sum of entries moving into it,True
+mutations,PubMed run: WITHOUT total = WITH total - disappeared,True
+mutations,PubMed run: recovery loss = recovered-only-via-reviews entries,True
+genes,extraction-label run: WITH reviews equals live site,True
+genes,extraction-label run: each WITHOUT tier = sum of entries moving into it,True
+genes,extraction-label run: WITHOUT total = WITH total - disappeared,True
+genes,extraction-label run: recovery loss = recovered-only-via-reviews entries,True
+mutations,extraction-label run: WITH reviews equals live site,True
+mutations,extraction-label run: each WITHOUT tier = sum of entries moving into it,True
+mutations,extraction-label run: WITHOUT total = WITH total - disappeared,True
+mutations,extraction-label run: recovery loss = recovered-only-via-reviews entries,True

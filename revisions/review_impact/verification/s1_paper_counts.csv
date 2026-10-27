@@ -1,0 +1,28 @@
+metric,value,source,field,how
+1a retrieval run in repo: valid PMIDs,2627,pipeline/03_scripts_dld/reports/REPORT_SUMMARY.md,Corpus totals,read
+1a retrieval run in repo: verified full text,1596,pipeline/03_scripts_dld/reports/REPORT_SUMMARY.md,Validated text totals,read
+"1a 117,112 in pipeline notes","117,112",pipeline/readme_pipeline.txt,STEP 5 Input / Output (lines ~350-376),text search
+1b result entries (all keys),117112,paper/extraction_summary_batch1..6.json,results (keys),count keys
+1b distinct numeric PMIDs,117110,paper/extraction_summary_batch1..6.json,results (keys),keys that are all digits
+"1b non-PMID key ""10103189 copy""",success,paper/extraction_summary_batch1..6.json,"results[key].status, full_output.pmid",full_output.pmid = '10103189'
+"1b non-PMID key ""papers_downloaded""",irrelevant,paper/extraction_summary_batch1..6.json,"results[key].status, full_output.pmid",full_output.pmid = '10049269.txt'
+1b status success (all keys),64276,paper/extraction_summary_batch1..6.json,results[*].status,count
+1b status success (numeric PMIDs),64275,paper/extraction_summary_batch1..6.json,results[*].status,count
+1b status irrelevant (all keys),52836,paper/extraction_summary_batch1..6.json,results[*].status,count
+1b status irrelevant (numeric PMIDs),52835,paper/extraction_summary_batch1..6.json,results[*].status,count
+1b status error (all keys),0,paper/extraction_summary_batch1..6.json,results[*].status,count
+1b status error (numeric PMIDs),0,paper/extraction_summary_batch1..6.json,results[*].status,count
+1b header field total_papers (sum of batches),117112,paper/extraction_summary_batch1..6.json,total_papers,sum
+1b header field success (sum of batches),64276,paper/extraction_summary_batch1..6.json,success,sum
+1b header field reviews (sum of batches),1550,paper/extraction_summary_batch1..6.json,reviews,sum
+1b header field irrelevant (sum of batches),52836,paper/extraction_summary_batch1..6.json,irrelevant,sum
+1b header field errors (sum of batches),0,paper/extraction_summary_batch1..6.json,errors,sum
+"1c distinct PMIDs, gene file",14060,pipeline/06_final_output/Full_list_genes_Reslit_harmonized_antib_bact.csv,PMID,"split on , ; numeric only"
+"1c distinct PMIDs, mutation file",4716,pipeline/06_final_output/Full_list_mutations_Reslit_antib_bact.csv,PMID,same
+"1c distinct PMIDs, union",17385,both files,PMID,union
+1c union PMIDs not in extraction summaries,0,,,set difference
+"1d site DB: distinct ResLit PMIDs, amr_genes",14060,website/data/reslit.db,amr_genes.paper_pmid,source_database = 'Reslit'
+"1d site DB: distinct ResLit PMIDs, amr_mutations",4716,website/data/reslit.db,amr_mutations.paper_pmid,source_database = 'Reslit'
+"1d site DB: distinct ResLit PMIDs, union",17385,website/data/reslit.db,paper_pmid,union
+1d site DB: papers table rows (all sources),19642,website/data/reslit.db,papers.pmid,"raw PMID cells, incl. reference-database and multi-PMID cells"
+"1d site 'Publications' figure (all sources, numeric)",19565,website/data/reslit.db,paper_pmid (genes + mutations),getDistinctPaperCount() rule in lib/actions/browse.ts

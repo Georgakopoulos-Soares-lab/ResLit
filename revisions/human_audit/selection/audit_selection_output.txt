@@ -1,0 +1,124 @@
+Reading input files ...
+NOTE: reslit_genes_all_2026-10-14-1.csv: fixed 2020 double-quote prime mark(s) in gene names while reading (input file unchanged)
+NOTE: reslit_genes_all_2026-10-14-1.csv: repaired 1 malformed line(s) (first: [3031])
+NOTE: reslit_mutations_all_2026-10-14-1.csv: fixed 1 double-quote prime mark(s) in gene names while reading (input file unchanged)
+NOTE: 36 unique entities have several genes in one name (by tier: {'Candidate': 13, 'Confirmed': 11, 'Established': 7, 'Supported': 5}). Kept as they are for the audit; list written to audit_merged_gene_names.tsv. '/'-names may be legitimate CARD names (e.g. AAC6_30/AAC6_Ib) - review the list.
+
+Linking entities to papers: 70,944 entity-paper records, 17,385 papers ...
+NOTE: 79 Candidate records (target >=100). Raise the Candidate allocation in ALLOC for a narrower Candidate confidence interval.
+Writing Excel files ...
+== Rows in the export files, by tier ==
+entity_type   gene  mutation     All
+Tier                                
+Candidate     1479     11212   12691
+Confirmed    71134     18063   89197
+Established    432      3003    3435
+Supported     3218      2682    5900
+All          76263     34960  111223 
+
+== UNIQUE entities per tier (case-insensitive names; approximate) ==
+entity_type  gene  mutation    All
+Tier                              
+Candidate    1253      9055  10308
+Confirmed    1176      1738   2914
+Established   337      2300   2637
+Supported     242       399    641
+All          3008     13492  16500
+   (172 entities have rows with different tiers; the strongest is shown here, the row's own tier is used for the audit)
+
+ResLit rows in the exports: 80,274 of 111,223 (tiers: {'Confirmed': 61684, 'Candidate': 12691, 'Supported': 5899})
+
+== Sampling frame: papers per stratum ==
+stratum_tier  entity_type
+Candidate     gene             858
+              mutation        2540
+Confirmed     gene           10594
+              mutation        1144
+Supported     gene            1722
+              mutation         527 
+
+== ResLit entries per selected paper ==
+            sampling_stratum assigned_to  Candidate  Supported  Confirmed  genes  mutations  records
+PMID                                                                                                
+30783004      Candidate-gene           A          2          0          0      2          0        2
+35935201      Candidate-gene           A          2          1         48     51          0       51
+18809935      Candidate-gene           A          1          0          0      1          0        1
+30890721      Candidate-gene           A          2          0          0      2          0        2
+30986214      Candidate-gene           A          2          1          9     10          2       12
+33109179      Candidate-gene           A          1          4          9     14          0       14
+32752603  Candidate-mutation           A          2          1          2      0          5        5
+21628545  Candidate-mutation           A          1          0          0      0          1        1
+34827322  Candidate-mutation           A          3          0          1      0          4        4
+34962128  Candidate-mutation           A          2          0          0      0          2        2
+34431477  Candidate-mutation           A          2          0          1      1          2        3
+32284381      Confirmed-gene           A          0          0          1      1          0        1
+39026143  Confirmed-mutation           A          0          0          9      0          9        9
+30013375  Confirmed-mutation           A          0          0          2      0          2        2
+30951531              Random           A          0          0          3      3          0        3
+28373195              Random           A          0          0          1      1          0        1
+32404021      Supported-gene           A          0          1         13     14          0       14
+29601176      Supported-gene           A          0          1          0      1          0        1
+24399879  Supported-mutation           A          0          1          1      0          2        2
+37692467  Supported-mutation           A          0          1          9      0         10       10
+39058024      Candidate-gene           B          1          1          0      2          0        2
+11083656      Candidate-gene           B          1          0          0      1          0        1
+39211793      Candidate-gene           B          1          0         12     13          0       13
+36980322      Candidate-gene           B          6          4          2     12          0       12
+38331708      Candidate-gene           B          7          0         22     22          7       29
+23541540  Candidate-mutation           B          1          0          0      0          1        1
+38134888  Candidate-mutation           B         26          1          7      2         32       34
+31615959  Candidate-mutation           B          1          0          0      0          1        1
+27600558  Candidate-mutation           B          1          0          0      0          1        1
+31851309  Candidate-mutation           B          3          0          0      0          3        3
+36823420  Candidate-mutation           B          1          0          2      2          1        3
+24755996      Confirmed-gene           B          0          0          2      2          0        2
+8524852   Confirmed-mutation           B          0          0          2      0          2        2
+26645270              Random           B          0          0          1      1          0        1
+19364397              Random           B          0          0          3      0          3        3
+16965699              Random           B          0          0          1      1          0        1
+41331437      Supported-gene           B          0          1          4      5          0        5
+24130555      Supported-gene           B          0          1          2      3          0        3
+22253562  Supported-mutation           B          0          3          2      0          5        5
+39314806  Supported-mutation           B          0          1          0      0          1        1
+24281307      Candidate-gene        BOTH          5          3          3     11          0       11
+36000914      Candidate-gene        BOTH          1          0          1      2          0        2
+29110699  Candidate-mutation        BOTH          1          2          2      0          5        5
+35178041  Candidate-mutation        BOTH          3          0          6      1          8        9
+29513730      Confirmed-gene        BOTH          0          0          1      1          0        1
+40604919      Confirmed-gene        BOTH          0          0          3      3          0        3
+30211194  Confirmed-mutation        BOTH          0          0          1      0          1        1
+36160259              Random        BOTH          0          0          5      5          0        5
+22876180      Supported-gene        BOTH          0          1          6      7          0        7
+40175930  Supported-mutation        BOTH          0          2          1      0          3        3 
+
+== Totals per annotator (ResLit records in each annotator's papers) ==
+  Annotator A: 30 papers, 187 ResLit records (Confirmed 138, Supported 19, Candidate 30; genes 131, mutations 56)
+  Annotator B: 30 papers, 170 ResLit records (Confirmed 91, Supported 20, Candidate 59; genes 96, mutations 74)
+  Shared (kappa) subset: 10 papers, 47 ResLit records
+  All 50 papers: 310 ResLit records
+
+== Selected 50 papers ==
+assigned_to          A   B  BOTH  All
+sampling_stratum                     
+Candidate-gene       6   5     2   13
+Candidate-mutation   5   6     2   13
+Confirmed-gene       1   1     2    4
+Confirmed-mutation   2   1     1    4
+Random               2   3     1    6
+Supported-gene       2   2     1    5
+Supported-mutation   2   2     1    5
+All                 20  20    10   50 
+
+== ResLit records to compare (tier x type) ==
+entity_type  gene  mutation  All
+Tier                            
+Candidate      30        49   79
+Confirmed     147        53  200
+Supported      20        11   31
+All           197       113  310 
+
+Wrote audit_annotator_A_step1_blind.xlsx (30 papers)
+Wrote audit_annotator_B_step1_blind.xlsx (30 papers)
+Wrote audit_reslit_records.tsv (310 records; NOT for the annotators)
+Wrote audit_MASTER_50papers.xlsx
+Wrote audit_selected_papers.tsv and audit_selection_log.txt

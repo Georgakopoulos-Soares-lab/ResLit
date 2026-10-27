@@ -1,0 +1,12 @@
+item,value,note
+PubMed mapping file,revisions/paper_type/pubmed_paper_types.csv,md5 b9e7749bcfd224d8506514004651ebd9; identical to repo copy: True
+PubMed rows,19565,all numeric PMIDs in the 4 release CSVs (ResLit + reference)
+PubMed fetched,"2026-10-20, file times 15:04 (+03:00)",revisions/paper_type/pubmed_cache.jsonl / revisions/paper_type/pubmed_paper_types.csv mtime
+PubMed PMIDs not found,2,"200386180, 85862590 -> blank Paper_Type, treated as not review"
+PubMed PMIDs found with no publication type,0,
+contributing PMIDs with PubMed type 'Review',477,
+contributing PMIDs with PubMed type 'Systematic Review',38,
+contributing PMIDs with PubMed type 'Meta-Analysis',22,
+contributing PMIDs with PubMed type 'Scoping Review',2,
+contributing PMIDs: Meta-Analysis or Scoping Review without Review/Systematic Review,8,not counted as review under the rule used
+DB rows checked: paper_type vs PubMed mapping (amr_genes + amr_mutations),111171,mismatches: 0

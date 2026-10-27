@@ -1,0 +1,3 @@
+seed=2026 n_papers=50 overlap=10
+genes=reslit_genes_all_2026-10-14-1.csv mutations=reslit_mutations_all_2026-10-14-1.csv
+final_allocation={('Candidate', 'gene'): 13, ('Candidate', 'mutation'): 13, ('Supported', 'gene'): 5, ('Supported', 'mutation'): 5, ('Confirmed', 'gene'): 4, ('Confirmed', 'mutation'): 4, ('Random', 'any'): 6}

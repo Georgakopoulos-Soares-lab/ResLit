@@ -1,0 +1,311 @@
+record_id	PMID	PubMed	assigned_to	sampling_stratum	Tier	type	gene	allele	nucleotide_change	protein_change	organism	resistance
+R00000	8524852	https://pubmed.ncbi.nlm.nih.gov/8524852/	B	Confirmed-mutation	Confirmed	mutation	gyrA			S83L	Escherichia coli	quinolones
+R00001	8524852	https://pubmed.ncbi.nlm.nih.gov/8524852/	B	Confirmed-mutation	Confirmed	mutation	parC			S80I	Escherichia coli	quinolones
+R00002	11083656	https://pubmed.ncbi.nlm.nih.gov/11083656/	B	Candidate-gene	Candidate	gene	vand4	vanD4			Enterococcus faecium	glycopeptides
+R00003	16965699	https://pubmed.ncbi.nlm.nih.gov/16965699/	B	Random	Confirmed	gene	blaKPC	blaKPC-1 | blaKPC-2 | blaKPC-3			Klebsiella pneumoniae; Serratia marcescens | Klebsiella pneumoniae	carbapenems
+R00004	18809935	https://pubmed.ncbi.nlm.nih.gov/18809935/	A	Candidate-gene	Candidate	gene	teta(42)	TetA(42)			Bacillus thuringiensis; Microbacterium oxydans; Staphylococcus saprophyticus subsp. saprophyticus; Paenibacillus jamilae; Pseudomonas pavonaceae	tetracycline
+R00005	19364397	https://pubmed.ncbi.nlm.nih.gov/19364397/	B	Random	Confirmed	mutation	gyrA			S83L	Escherichia coli	ciprofloxacin
+R00006	19364397	https://pubmed.ncbi.nlm.nih.gov/19364397/	B	Random	Confirmed	mutation	parC			E84K	Escherichia coli	ciprofloxacin
+R00007	19364397	https://pubmed.ncbi.nlm.nih.gov/19364397/	B	Random	Confirmed	mutation	parC			S80I	Escherichia coli	ciprofloxacin
+R00008	21628545	https://pubmed.ncbi.nlm.nih.gov/21628545/	A	Candidate-mutation	Candidate	mutation	gyrA		G242A		Streptococcus pneumoniae	ciprofloxacin|levofloxacin|moxifloxacin
+R00009	22253562	https://pubmed.ncbi.nlm.nih.gov/22253562/	B	Supported-mutation	Supported	mutation	rpoB			H526D	Mycobacterium tuberculosis	rifampicin
+R00010	22253562	https://pubmed.ncbi.nlm.nih.gov/22253562/	B	Supported-mutation	Supported	mutation	rpoB			S531L	Mycobacterium tuberculosis	rifampicin
+R00011	22253562	https://pubmed.ncbi.nlm.nih.gov/22253562/	B	Supported-mutation	Supported	mutation	rpoB			S531W	Mycobacterium tuberculosis	rifampicin
+R00012	22253562	https://pubmed.ncbi.nlm.nih.gov/22253562/	B	Supported-mutation	Confirmed	mutation	rpoB			H526L	Mycobacterium tuberculosis	rifampicin
+R00013	22253562	https://pubmed.ncbi.nlm.nih.gov/22253562/	B	Supported-mutation	Confirmed	mutation	rpoB			H526Y	Mycobacterium tuberculosis	rifampicin
+R00014	22876180	https://pubmed.ncbi.nlm.nih.gov/22876180/	BOTH	Supported-gene	Supported	gene	aacA4	aacA4			Pseudomonas aeruginosa SM; Acinetobacter baylyi SD6	spectinomycin
+R00015	22876180	https://pubmed.ncbi.nlm.nih.gov/22876180/	BOTH	Supported-gene	Confirmed	gene	aadA1	AadA1			Acinetobacter baumannii; Acinetobacter baylyi	aminoglycosides
+R00016	22876180	https://pubmed.ncbi.nlm.nih.gov/22876180/	BOTH	Supported-gene	Confirmed	gene	aadA2	AadA2			Salmonella enterica serovar Rissen 486; Acinetobacter baylyi SD5; Acinetobacter baylyi SD6	streptomycin; spectinomycin
+R00017	22876180	https://pubmed.ncbi.nlm.nih.gov/22876180/	BOTH	Supported-gene	Confirmed	gene	dfrA12	DfrA12			Salmonella enterica serovar Rissen 486; Acinetobacter baylyi SD5	trimethoprim
+R00018	22876180	https://pubmed.ncbi.nlm.nih.gov/22876180/	BOTH	Supported-gene	Confirmed	gene	blaIMP	blaIMP-5			Acinetobacter baumannii 65FFC; Acinetobacter baylyi SD3	cefotaxime
+R00019	22876180	https://pubmed.ncbi.nlm.nih.gov/22876180/	BOTH	Supported-gene	Confirmed	gene	blaPSE	blaPSE			Acinetobacter baylyi BD413	penicillin
+R00020	22876180	https://pubmed.ncbi.nlm.nih.gov/22876180/	BOTH	Supported-gene	Confirmed	gene	catA2	catA2			Acinetobacter baylyi BD413; Acinetobacter baumannii 064	phenicols
+R00021	23541540	https://pubmed.ncbi.nlm.nih.gov/23541540/	B	Candidate-mutation	Candidate	mutation	erm41		A2058G		Mycobacterium abscessus	clarithromycin
+R00022	24130555	https://pubmed.ncbi.nlm.nih.gov/24130555/	B	Supported-gene	Supported	gene	aphA1	aphA1			Mannheimia haemolytica	neomycin
+R00023	24130555	https://pubmed.ncbi.nlm.nih.gov/24130555/	B	Supported-gene	Confirmed	gene	tet(H)	Tet(H)			Mannheimia haemolytica	oxytetracycline
+R00024	24130555	https://pubmed.ncbi.nlm.nih.gov/24130555/	B	Supported-gene	Confirmed	gene	blaROB	blaROB-1			Mannheimia haemolytica	ampicillin; penicillin
+R00025	24281307	https://pubmed.ncbi.nlm.nih.gov/24281307/	BOTH	Candidate-gene	Candidate	gene	iniA	iniA			M. tuberculosis; M. bovis BCG	isoniazid; ethambutol
+R00026	24281307	https://pubmed.ncbi.nlm.nih.gov/24281307/	BOTH	Candidate-gene	Candidate	gene	jefA	jefA			Mycobacterium tuberculosis	isoniazid; ethambutol
+R00027	24281307	https://pubmed.ncbi.nlm.nih.gov/24281307/	BOTH	Candidate-gene	Candidate	gene	mmpL7	mmpL7			Mycobacterium tuberculosis	isoniazid
+R00028	24281307	https://pubmed.ncbi.nlm.nih.gov/24281307/	BOTH	Candidate-gene	Candidate	gene	Rv1218c	rv1218c			Mycobacterium tuberculosis	novobiocin
+R00029	24281307	https://pubmed.ncbi.nlm.nih.gov/24281307/	BOTH	Candidate-gene	Candidate	gene	Rv2686c	rv2686c			Mycobacterium tuberculosis	fluoroquinolones
+R00030	24281307	https://pubmed.ncbi.nlm.nih.gov/24281307/	BOTH	Candidate-gene	Supported	gene	Rv0194	Rv0194			Mycobacterium tuberculosis	ampicillin; phenicols; streptomycin; novobiocin
+R00031	24281307	https://pubmed.ncbi.nlm.nih.gov/24281307/	BOTH	Candidate-gene	Supported	gene	Rv1410c	Rv1410c			Mycobacterium tuberculosis	rifampicin
+R00032	24281307	https://pubmed.ncbi.nlm.nih.gov/24281307/	BOTH	Candidate-gene	Supported	gene	mmr	mmr			Mycobacterium tuberculosis	erythromycin
+R00033	24281307	https://pubmed.ncbi.nlm.nih.gov/24281307/	BOTH	Candidate-gene	Confirmed	gene	lfrA	lfrA			Mycobacterium smegmatis	fluoroquinolones
+R00034	24281307	https://pubmed.ncbi.nlm.nih.gov/24281307/	BOTH	Candidate-gene	Confirmed	gene	tap	tap			Mycobacterium tuberculosis	tetracycline
+R00035	24281307	https://pubmed.ncbi.nlm.nih.gov/24281307/	BOTH	Candidate-gene	Confirmed	gene	tet(V)	tetV			M. smegmatis; M. fortuitum	tetracycline
+R00036	24399879	https://pubmed.ncbi.nlm.nih.gov/24399879/	A	Supported-mutation	Supported	mutation	rpoB			S531L	Mycobacterium tuberculosis	rifampicin
+R00037	24399879	https://pubmed.ncbi.nlm.nih.gov/24399879/	A	Supported-mutation	Confirmed	mutation	katG			S315T	Mycobacterium tuberculosis	isoniazid
+R00038	24755996	https://pubmed.ncbi.nlm.nih.gov/24755996/	B	Confirmed-gene	Confirmed	gene	blaCMY	blaCMY-2			Escherichia coli	cephalothin; ceftazidime; cefepime
+R00039	24755996	https://pubmed.ncbi.nlm.nih.gov/24755996/	B	Confirmed-gene	Confirmed	gene	blaCTX-M	blaCTX-M-2 | blaCTX-M-14			Escherichia coli	cephalothin; ceftazidime; cefepime
+R00040	26645270	https://pubmed.ncbi.nlm.nih.gov/26645270/	B	Random	Confirmed	gene	aac(6')-I	AAC(6')-Ih			Acinetobacter gyllenbergii; Acinetobacter baumannii; Escherichia coli	amikacin; netilmicin; tobramycin
+R00041	27600558	https://pubmed.ncbi.nlm.nih.gov/27600558/	B	Candidate-mutation	Candidate	mutation	yycH		G81A	W27*	Staphylococcus aureus	vancomycin
+R00042	28373195	https://pubmed.ncbi.nlm.nih.gov/28373195/	A	Random	Confirmed	gene	mcr-1	mcr-1			Escherichia coli; Klebsiella pneumoniae; Acinetobacter baumannii; Pseudomonas aeruginosa	colistin
+R00043	29110699	https://pubmed.ncbi.nlm.nih.gov/29110699/	BOTH	Candidate-mutation	Candidate	mutation	gyrA			A1401G	Mycobacterium tuberculosis	fluoroquinolones
+R00044	29110699	https://pubmed.ncbi.nlm.nih.gov/29110699/	BOTH	Candidate-mutation	Supported	mutation	inhA			T8A		isoniazid
+R00045	29110699	https://pubmed.ncbi.nlm.nih.gov/29110699/	BOTH	Candidate-mutation	Supported	mutation	rpoB			D516V	Mycobacterium tuberculosis	rifampicin
+R00046	29110699	https://pubmed.ncbi.nlm.nih.gov/29110699/	BOTH	Candidate-mutation	Confirmed	mutation	gyrA			D94G	Mycobacterium tuberculosis	fluoroquinolones
+R00047	29110699	https://pubmed.ncbi.nlm.nih.gov/29110699/	BOTH	Candidate-mutation	Confirmed	mutation	katG			S315T	Mycobacterium tuberculosis	isoniazid
+R00048	29513730	https://pubmed.ncbi.nlm.nih.gov/29513730/	BOTH	Confirmed-gene	Confirmed	gene	aph(3')-Ia	aph(3')-I			Salmonella enterica serovar Hadar; Salmonella enterica serovar Senftenberg	kanamycin
+R00049	29601176	https://pubmed.ncbi.nlm.nih.gov/29601176/	A	Supported-gene	Supported	gene	eis	eis			Mycobacterium tuberculosis	kanamycin
+R00050	30013375	https://pubmed.ncbi.nlm.nih.gov/30013375/	A	Confirmed-mutation	Confirmed	mutation	gyrA			S83L		fluoroquinolones
+R00051	30013375	https://pubmed.ncbi.nlm.nih.gov/30013375/	A	Confirmed-mutation	Confirmed	mutation	parC			S80R		fluoroquinolones
+R00052	30211194	https://pubmed.ncbi.nlm.nih.gov/30211194/	BOTH	Confirmed-mutation	Confirmed	mutation	parE			S458L	Shigella flexneri	nalidixic acid|ciprofloxacin
+R00053	30783004	https://pubmed.ncbi.nlm.nih.gov/30783004/	A	Candidate-gene	Candidate	gene	spr1885	spr1885			Streptococcus pneumoniae	trimethoprim
+R00054	30783004	https://pubmed.ncbi.nlm.nih.gov/30783004/	A	Candidate-gene	Candidate	gene	spr1887	spr1887			Streptococcus pneumoniae	trimethoprim
+R00055	30890721	https://pubmed.ncbi.nlm.nih.gov/30890721/	A	Candidate-gene	Candidate	gene	sdeab	sdeAB			Escherichia coli; Serratia marcescens	erythromycin; phenicols; tetracycline; benzalkonium chloride; novobiocin; ethidium bromide
+R00056	30890721	https://pubmed.ncbi.nlm.nih.gov/30890721/	A	Candidate-gene	Candidate	gene	sdexy	sdeXY			Escherichia coli; Serratia marcescens	norfloxacin; erythromycin; phenicols; tetracycline; benzalkonium chloride; triclosan; novobiocin; ethidium bromide
+R00057	30951531	https://pubmed.ncbi.nlm.nih.gov/30951531/	A	Random	Confirmed	gene	blaCMY	blaCMY-2			Escherichia coli	cefoxitin; ceftazidime; ceftriaxone
+R00058	30951531	https://pubmed.ncbi.nlm.nih.gov/30951531/	A	Random	Confirmed	gene	blaCTX-M	blaCTX-M-65 | blaCTX-M-55 | blaCTX-M-3			Escherichia coli	ceftazidime; ceftriaxone
+R00059	30951531	https://pubmed.ncbi.nlm.nih.gov/30951531/	A	Random	Confirmed	gene	mcr-1	mcr-1			Escherichia coli	colistin
+R00060	30986214	https://pubmed.ncbi.nlm.nih.gov/30986214/	A	Candidate-gene	Candidate	gene	dfrA51	dfrA51			Salmonella enterica subsp. enterica serovar Enteritidis; Salmonella enterica subsp. enterica serovar Typhimurium	trimethoprim
+R00061	30986214	https://pubmed.ncbi.nlm.nih.gov/30986214/	A	Candidate-gene	Candidate	gene	tet(g)_2	tet(G)_2			Salmonella enterica subsp. enterica serovar Enteritidis; Salmonella enterica subsp. enterica serovar Typhimurium	tetracycline
+R00062	30986214	https://pubmed.ncbi.nlm.nih.gov/30986214/	A	Candidate-gene	Supported	gene	sul2_2	sul2_2			Salmonella enterica subsp. enterica serovar Enteritidis; Salmonella enterica subsp. enterica serovar Typhimurium	sulfamethoxazole
+R00063	30986214	https://pubmed.ncbi.nlm.nih.gov/30986214/	A	Candidate-gene	Confirmed	gene	floR2	FloR2			Salmonella enterica subsp. enterica serovar Enteritidis; Salmonella enterica subsp. enterica serovar Typhimurium	phenicols
+R00064	30986214	https://pubmed.ncbi.nlm.nih.gov/30986214/	A	Candidate-gene	Confirmed	gene	aac(6')	aac(6')-Iaa_1			Salmonella enterica subsp. enterica serovar Enteritidis; Salmonella enterica subsp. enterica serovar Typhimurium	amikacin; gentamicin; tobramycin
+R00065	30986214	https://pubmed.ncbi.nlm.nih.gov/30986214/	A	Candidate-gene	Confirmed	gene	aph(3')-H48	aph(3'' )-Ib_5 | aph(3')-Ia_1			Salmonella enterica subsp. enterica serovar Enteritidis; Salmonella enterica subsp. enterica serovar Typhimurium	gentamicin; tobramycin
+R00066	30986214	https://pubmed.ncbi.nlm.nih.gov/30986214/	A	Candidate-gene	Confirmed	gene	aph(6)	aph(6)-Id_1			Salmonella enterica subsp. enterica serovar Enteritidis; Salmonella enterica subsp. enterica serovar Typhimurium	gentamicin; tobramycin
+R00067	30986214	https://pubmed.ncbi.nlm.nih.gov/30986214/	A	Candidate-gene	Confirmed	gene	blaCARB	blaCARB-21			Salmonella enterica subsp. enterica serovar Typhimurium	imipenem; meropenem
+R00068	30986214	https://pubmed.ncbi.nlm.nih.gov/30986214/	A	Candidate-gene	Confirmed	gene	blaTEM	blaTEM-1B_1			Salmonella enterica subsp. enterica serovar Enteritidis	ampicillin
+R00069	30986214	https://pubmed.ncbi.nlm.nih.gov/30986214/	A	Candidate-gene	Confirmed	mutation	gyrA			D87N	Salmonella enterica	ciprofloxacin
+R00070	30986214	https://pubmed.ncbi.nlm.nih.gov/30986214/	A	Candidate-gene	Confirmed	mutation	gyrA			S83Y	Salmonella enterica	ciprofloxacin
+R00071	30986214	https://pubmed.ncbi.nlm.nih.gov/30986214/	A	Candidate-gene	Confirmed	gene	tetA(60)	tet(A)_6			Salmonella enterica subsp. enterica serovar Enteritidis; Salmonella enterica subsp. enterica serovar Typhimurium	tetracycline
+R00072	31615959	https://pubmed.ncbi.nlm.nih.gov/31615959/	B	Candidate-mutation	Candidate	mutation	rpoB			S443F	Rhodococcus equi	rifampicin
+R00073	31851309	https://pubmed.ncbi.nlm.nih.gov/31851309/	B	Candidate-mutation	Candidate	mutation	fabI			L12P	Enterococcus faecalis	triclosan
+R00074	31851309	https://pubmed.ncbi.nlm.nih.gov/31851309/	B	Candidate-mutation	Candidate	mutation	parC			T242A	Enterococcus faecalis	ciprofloxacin
+R00075	31851309	https://pubmed.ncbi.nlm.nih.gov/31851309/	B	Candidate-mutation	Candidate	mutation	rpsJ			G11S		doxycycline
+R00076	32284381	https://pubmed.ncbi.nlm.nih.gov/32284381/	A	Confirmed-gene	Confirmed	gene	ampC	ampC			Enterobacter cloacae; Escherichia coli	ceftazidime avibactam; cefiderocol
+R00077	32404021	https://pubmed.ncbi.nlm.nih.gov/32404021/	A	Supported-gene	Supported	gene	oqxab	oqxAB			Klebsiella pneumoniae	tetracycline
+R00078	32404021	https://pubmed.ncbi.nlm.nih.gov/32404021/	A	Supported-gene	Confirmed	gene	aac(3)-IId	AAC(3)-IId			Klebsiella pneumoniae	gentamicin; tobramycin
+R00079	32404021	https://pubmed.ncbi.nlm.nih.gov/32404021/	A	Supported-gene	Confirmed	gene	aac(6')-Ib-cr	AAC(6')-Ib-cr			Klebsiella pneumoniae	gentamicin; tobramycin
+R00080	32404021	https://pubmed.ncbi.nlm.nih.gov/32404021/	A	Supported-gene	Confirmed	gene	floR	FloR			Klebsiella pneumoniae	fluoroquinolones
+R00081	32404021	https://pubmed.ncbi.nlm.nih.gov/32404021/	A	Supported-gene	Confirmed	gene	sul2	Sul2			Klebsiella pneumoniae	sulfamethoxazole
+R00082	32404021	https://pubmed.ncbi.nlm.nih.gov/32404021/	A	Supported-gene	Confirmed	gene	blaCTX-M	blaCTX-M-15 | blaCTX-M-27			Klebsiella pneumoniae	cephalosporins
+R00083	32404021	https://pubmed.ncbi.nlm.nih.gov/32404021/	A	Supported-gene	Confirmed	gene	blaLAP	blaLAP-2			Klebsiella pneumoniae	cephalosporins
+R00084	32404021	https://pubmed.ncbi.nlm.nih.gov/32404021/	A	Supported-gene	Confirmed	gene	blaSHV	blaSHV-11			Klebsiella pneumoniae	ampicillin; amoxicillin
+R00085	32404021	https://pubmed.ncbi.nlm.nih.gov/32404021/	A	Supported-gene	Confirmed	gene	catB	catB			Klebsiella pneumoniae	phenicols
+R00086	32404021	https://pubmed.ncbi.nlm.nih.gov/32404021/	A	Supported-gene	Confirmed	gene	dfrA	dfrA			Klebsiella pneumoniae	trimethoprim
+R00087	32404021	https://pubmed.ncbi.nlm.nih.gov/32404021/	A	Supported-gene	Confirmed	gene	fosA	fosA			Klebsiella pneumoniae	fosfomycin
+R00088	32404021	https://pubmed.ncbi.nlm.nih.gov/32404021/	A	Supported-gene	Confirmed	gene	qnrB	qnrB			Klebsiella pneumoniae	fluoroquinolones
+R00089	32404021	https://pubmed.ncbi.nlm.nih.gov/32404021/	A	Supported-gene	Confirmed	gene	qnrS	qnrS			Klebsiella pneumoniae	fluoroquinolones
+R00090	32404021	https://pubmed.ncbi.nlm.nih.gov/32404021/	A	Supported-gene	Confirmed	gene	tetA	tetA			Klebsiella pneumoniae	tetracycline
+R00091	32752603	https://pubmed.ncbi.nlm.nih.gov/32752603/	A	Candidate-mutation	Candidate	mutation	rpoB			A532V	Mycobacterium tuberculosis	rifampicin
+R00092	32752603	https://pubmed.ncbi.nlm.nih.gov/32752603/	A	Candidate-mutation	Candidate	mutation	rpoB			L530P	Mycobacterium tuberculosis	rifampicin
+R00093	32752603	https://pubmed.ncbi.nlm.nih.gov/32752603/	A	Candidate-mutation	Supported	mutation	rpoB			S531W	Mycobacterium tuberculosis	rifampicin
+R00094	32752603	https://pubmed.ncbi.nlm.nih.gov/32752603/	A	Candidate-mutation	Confirmed	mutation	rpoB			L533P	Mycobacterium tuberculosis	rifampicin
+R00095	32752603	https://pubmed.ncbi.nlm.nih.gov/32752603/	A	Candidate-mutation	Confirmed	mutation	rpoB			S531F	Mycobacterium tuberculosis	rifampicin
+R00096	33109179	https://pubmed.ncbi.nlm.nih.gov/33109179/	A	Candidate-gene	Candidate	gene	mdtL	mdtl			Escherichia coli	aminoglycosides
+R00097	33109179	https://pubmed.ncbi.nlm.nih.gov/33109179/	A	Candidate-gene	Supported	gene	mdtK	MdtK			Escherichia coli	aminoglycosides
+R00098	33109179	https://pubmed.ncbi.nlm.nih.gov/33109179/	A	Candidate-gene	Supported	gene	tolC	TolC			Escherichia coli	aminoglycosides
+R00099	33109179	https://pubmed.ncbi.nlm.nih.gov/33109179/	A	Candidate-gene	Supported	gene	ksgA	ksgA			Escherichia coli	aminoglycosides
+R00100	33109179	https://pubmed.ncbi.nlm.nih.gov/33109179/	A	Candidate-gene	Supported	gene	mdf(a)	mdf(A)			Escherichia coli	aminoglycosides
+R00101	33109179	https://pubmed.ncbi.nlm.nih.gov/33109179/	A	Candidate-gene	Confirmed	gene	acrA	acrA			Escherichia coli	aminoglycosides
+R00102	33109179	https://pubmed.ncbi.nlm.nih.gov/33109179/	A	Candidate-gene	Confirmed	gene	acrB	acrB			Escherichia coli	aminoglycosides
+R00103	33109179	https://pubmed.ncbi.nlm.nih.gov/33109179/	A	Candidate-gene	Confirmed	gene	arnA	arnA			Escherichia coli	aminoglycosides
+R00104	33109179	https://pubmed.ncbi.nlm.nih.gov/33109179/	A	Candidate-gene	Confirmed	gene	bacA	bacA			Escherichia coli	aminoglycosides
+R00105	33109179	https://pubmed.ncbi.nlm.nih.gov/33109179/	A	Candidate-gene	Confirmed	gene	emrE	emrE			Escherichia coli	aminoglycosides
+R00106	33109179	https://pubmed.ncbi.nlm.nih.gov/33109179/	A	Candidate-gene	Confirmed	gene	mdtE	mdtE			Escherichia coli	aminoglycosides
+R00107	33109179	https://pubmed.ncbi.nlm.nih.gov/33109179/	A	Candidate-gene	Confirmed	gene	mdtG	mdtG			Escherichia coli	aminoglycosides
+R00108	33109179	https://pubmed.ncbi.nlm.nih.gov/33109179/	A	Candidate-gene	Confirmed	gene	mdtN	mdtN			Escherichia coli	aminoglycosides
+R00109	33109179	https://pubmed.ncbi.nlm.nih.gov/33109179/	A	Candidate-gene	Confirmed	gene	mdtP	mdtP			Escherichia coli	aminoglycosides
+R00110	34431477	https://pubmed.ncbi.nlm.nih.gov/34431477/	A	Candidate-mutation	Candidate	mutation	adeL		C-103T		Acinetobacter baumannii	ceftazidime
+R00111	34431477	https://pubmed.ncbi.nlm.nih.gov/34431477/	A	Candidate-mutation	Candidate	mutation	parC			G35E	Acinetobacter baumannii	ciprofloxacin
+R00112	34431477	https://pubmed.ncbi.nlm.nih.gov/34431477/	A	Candidate-mutation	Confirmed	gene	adeJ	adeJ			Acinetobacter baumannii	ceftazidime
+R00113	34827322	https://pubmed.ncbi.nlm.nih.gov/34827322/	A	Candidate-mutation	Candidate	mutation	rplD			G114D	Rhodothermus marinus	erythromycin
+R00114	34827322	https://pubmed.ncbi.nlm.nih.gov/34827322/	A	Candidate-mutation	Candidate	mutation	rplK			A140G	Rhodothermus marinus	erythromycin
+R00115	34827322	https://pubmed.ncbi.nlm.nih.gov/34827322/	A	Candidate-mutation	Candidate	mutation	rplV			G114D	Rhodothermus marinus	erythromycin
+R00116	34827322	https://pubmed.ncbi.nlm.nih.gov/34827322/	A	Candidate-mutation	Confirmed	mutation	rpoB			S450L	Rhodothermus marinus	rifampicin
+R00117	34962128	https://pubmed.ncbi.nlm.nih.gov/34962128/	A	Candidate-mutation	Candidate	mutation	acrR			W178R	E. coli	tetracycline
+R00118	34962128	https://pubmed.ncbi.nlm.nih.gov/34962128/	A	Candidate-mutation	Candidate	mutation	marR			M74I	E. coli	tetracycline
+R00119	35178041	https://pubmed.ncbi.nlm.nih.gov/35178041/	BOTH	Candidate-mutation	Candidate	mutation	cls		G59C	A20P		daptomycin
+R00120	35178041	https://pubmed.ncbi.nlm.nih.gov/35178041/	BOTH	Candidate-mutation	Candidate	mutation	cls		G799A	R267S		daptomycin
+R00121	35178041	https://pubmed.ncbi.nlm.nih.gov/35178041/	BOTH	Candidate-mutation	Candidate	mutation	cls		G110A	V37A		daptomycin
+R00122	35178041	https://pubmed.ncbi.nlm.nih.gov/35178041/	BOTH	Candidate-mutation	Confirmed	gene	optrA	OptrA			Enterococcus faecalis; Enterococcus faecium	linezolid
+R00123	35178041	https://pubmed.ncbi.nlm.nih.gov/35178041/	BOTH	Candidate-mutation	Confirmed	mutation	cls		C643G	H215R		daptomycin
+R00124	35178041	https://pubmed.ncbi.nlm.nih.gov/35178041/	BOTH	Candidate-mutation	Confirmed	mutation	cls		A39G	N13S		daptomycin
+R00125	35178041	https://pubmed.ncbi.nlm.nih.gov/35178041/	BOTH	Candidate-mutation	Confirmed	mutation	cls		C631T	R211Q		daptomycin
+R00126	35178041	https://pubmed.ncbi.nlm.nih.gov/35178041/	BOTH	Candidate-mutation	Confirmed	mutation	liaR			W73C	Enterococcus faecium	daptomycin
+R00127	35178041	https://pubmed.ncbi.nlm.nih.gov/35178041/	BOTH	Candidate-mutation	Confirmed	mutation	liaS		A359G	T120A	Enterococcus faecium	daptomycin
+R00128	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Candidate	gene	dfr 2d	dfr 2d			Escherichia coli	trimethoprim
+R00129	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Candidate	gene	sat2a	sat2A			Escherichia coli	streptothricin
+R00130	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Supported	gene	teta(b)	tetA(B)			Escherichia coli	tetracycline
+R00131	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	aac(3)-IId	AAC(3)-IId			Escherichia coli	streptomycin
+R00132	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	aac(6')-Ib-cr	AAC(6')-Ib-cr			Escherichia coli	streptomycin
+R00133	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	aph(3')-Ia	APH(3')-Ia			Escherichia coli	streptomycin
+R00134	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	aadA12	AadA12			Escherichia coli	streptomycin
+R00135	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	aadA15	AadA15			Escherichia coli	streptomycin
+R00136	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	aadA5	AadA5			Escherichia coli	streptomycin
+R00137	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	aadA6	AadA6			Escherichia coli	streptomycin
+R00138	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	catB3	CatB3			Escherichia coli	phenicols
+R00139	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	dfrA1	DfrA1			Escherichia coli	trimethoprim
+R00140	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	dfrA12	DfrA12			Escherichia coli	trimethoprim
+R00141	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	dfrA14	DfrA14			Escherichia coli	trimethoprim
+R00142	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	dfrA17	DfrA17			Escherichia coli	trimethoprim
+R00143	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	dfrA21	DfrA21			Escherichia coli	trimethoprim
+R00144	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	dfrA22	DfrA22			Escherichia coli	trimethoprim
+R00145	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	dfrA8	DfrA8			Escherichia coli	trimethoprim
+R00146	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	dfrB4	DfrB4			Escherichia coli	trimethoprim
+R00147	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	floR	FloR			Escherichia coli	ciprofloxacin; ofloxacin; norfloxacin; enrofloxacin
+R00148	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	mef(B)	Mef(B)			Escherichia coli	macrolides
+R00149	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	sul1	Sul1			Escherichia coli	sulfamethoxazole
+R00150	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	sul2	Sul2			Escherichia coli	sulfamethoxazole
+R00151	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	tet(D)	Tet(D)			Escherichia coli	tetracycline
+R00152	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	aac(3)-C1264	aac 3-pEK516			Escherichia coli	streptomycin
+R00153	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	aac(6')	AAC(6')-Ib9 | aac 6-Ib_a			Escherichia coli	streptomycin
+R00154	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	aac(6')-Ib	AAC(6')-Ib4 | AAC(6')-Ib3			Escherichia coli	streptomycin
+R00155	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	aadA2	strA | AadA2			Escherichia coli	streptomycin
+R00156	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	aadA22	aadA22_b			Escherichia coli	streptomycin
+R00157	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	aadA24	aadA24			Escherichia coli	streptomycin
+R00158	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	ant(3'')-Ia	ant(3'')-Ia | ant3-1a			Escherichia coli	streptomycin
+R00159	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	blaACT	blaACT-25			Escherichia coli	ampicillin
+R00160	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	blaCTX-M	blaCTX-M-15 | blaCTX-M-55 | blaCTX-M-64 | blaCTX-M-65			Escherichia coli	ceftazidime; cefotaxime
+R00161	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	blaOXA	blaOXA-1			Escherichia coli	ampicillin
+R00162	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	blaSHV	blaSHV-28			Escherichia coli	ampicillin
+R00163	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	blaTEM	blaTEM-1B			Escherichia coli	ampicillin
+R00164	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	catA1	catA1			Escherichia coli	phenicols
+R00165	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	cml	cml			Escherichia coli	phenicols
+R00166	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	erm(B)	ErmB			Escherichia coli	macrolides
+R00167	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	fosA	fosA			Escherichia coli	fosfomycin
+R00168	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	mph(A)	mph(A)			Escherichia coli	macrolides
+R00169	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	mph(B)	mphB			Escherichia coli	macrolides
+R00170	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	oqxA	oqx A10 | oqx A8			Escherichia coli	ciprofloxacin; ofloxacin; norfloxacin; enrofloxacin
+R00171	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	oqxB	oqx B17			Escherichia coli	ciprofloxacin; ofloxacin; norfloxacin; enrofloxacin
+R00172	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	qepA	qepA | QepA4 | QepA2			Escherichia coli	ciprofloxacin; ofloxacin; norfloxacin; enrofloxacin
+R00173	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	qnrB	QnrB1			Escherichia coli	ciprofloxacin; norfloxacin
+R00174	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	qnrS	QnrS1 | QnrS4			Escherichia coli	ciprofloxacin; norfloxacin
+R00175	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	qnrS3	qnrS3			Escherichia coli	norfloxacin
+R00176	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	sul3	sul 3-v1			Escherichia coli	sulfamethoxazole
+R00177	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	tet(A)	tet -A-v2			Escherichia coli	tetracycline
+R00178	35935201	https://pubmed.ncbi.nlm.nih.gov/35935201/	A	Candidate-gene	Confirmed	gene	tetA	tetA			Escherichia coli	tetracycline
+R00179	36000914	https://pubmed.ncbi.nlm.nih.gov/36000914/	BOTH	Candidate-gene	Candidate	gene	aph(33)-ib	aph(33')-Ib			Avibacterium paragallinarum	aminoglycosides
+R00180	36000914	https://pubmed.ncbi.nlm.nih.gov/36000914/	BOTH	Candidate-gene	Confirmed	gene	tet(B)	Tet(B)			Avibacterium paragallinarum	tetracycline
+R00181	36160259	https://pubmed.ncbi.nlm.nih.gov/36160259/	BOTH	Random	Confirmed	gene	chrB	ChrB				macrolides; lincosamides; streptogramin b
+R00182	36160259	https://pubmed.ncbi.nlm.nih.gov/36160259/	BOTH	Random	Confirmed	gene	dfrA42	DfrA42				trimethoprim
+R00183	36160259	https://pubmed.ncbi.nlm.nih.gov/36160259/	BOTH	Random	Confirmed	gene	tet(52)	Tet(52)				tetracycline
+R00184	36160259	https://pubmed.ncbi.nlm.nih.gov/36160259/	BOTH	Random	Confirmed	gene	car(A)	carA				aminoglycosides
+R00185	36160259	https://pubmed.ncbi.nlm.nih.gov/36160259/	BOTH	Random	Confirmed	gene	mcr-7	MCR-7.1				polymyxins
+R00186	36823420	https://pubmed.ncbi.nlm.nih.gov/36823420/	B	Candidate-mutation	Candidate	mutation	cat		C516G	T172A	Escherichia coli	phenicols
+R00187	36823420	https://pubmed.ncbi.nlm.nih.gov/36823420/	B	Candidate-mutation	Confirmed	gene	catA1	cat			Escherichia coli	phenicols
+R00188	36823420	https://pubmed.ncbi.nlm.nih.gov/36823420/	B	Candidate-mutation	Confirmed	gene	tetA	tetA			Escherichia coli	tetracycline
+R00189	36980322	https://pubmed.ncbi.nlm.nih.gov/36980322/	B	Candidate-gene	Candidate	gene	kdpB	kdpB			Klebsiella pneumoniae	polymyxins
+R00190	36980322	https://pubmed.ncbi.nlm.nih.gov/36980322/	B	Candidate-gene	Candidate	gene	oppA	oppA			Klebsiella pneumoniae	polymyxins
+R00191	36980322	https://pubmed.ncbi.nlm.nih.gov/36980322/	B	Candidate-gene	Candidate	gene	oppC	oppC			Klebsiella pneumoniae	polymyxins
+R00192	36980322	https://pubmed.ncbi.nlm.nih.gov/36980322/	B	Candidate-gene	Candidate	gene	oppF	oppF			Klebsiella pneumoniae	polymyxins
+R00193	36980322	https://pubmed.ncbi.nlm.nih.gov/36980322/	B	Candidate-gene	Candidate	gene	wecH	wecH			Klebsiella pneumoniae	polymyxins
+R00194	36980322	https://pubmed.ncbi.nlm.nih.gov/36980322/	B	Candidate-gene	Candidate	gene	yddW	yddW			Klebsiella pneumoniae	colistin
+R00195	36980322	https://pubmed.ncbi.nlm.nih.gov/36980322/	B	Candidate-gene	Supported	gene	kexD	kexD			Klebsiella pneumoniae	fluoroquinolones; tetracycline; phenicols
+R00196	36980322	https://pubmed.ncbi.nlm.nih.gov/36980322/	B	Candidate-gene	Supported	gene	ompK35	ompK35			Klebsiella pneumoniae	carbapenems
+R00197	36980322	https://pubmed.ncbi.nlm.nih.gov/36980322/	B	Candidate-gene	Supported	gene	ompK36	ompK36			Klebsiella pneumoniae	carbapenems
+R00198	36980322	https://pubmed.ncbi.nlm.nih.gov/36980322/	B	Candidate-gene	Supported	gene	pmrD	pmrD			Klebsiella pneumoniae	colistin
+R00199	36980322	https://pubmed.ncbi.nlm.nih.gov/36980322/	B	Candidate-gene	Confirmed	gene	acrA	acrA			Klebsiella pneumoniae	fluoroquinolones; tetracycline; phenicols
+R00200	36980322	https://pubmed.ncbi.nlm.nih.gov/36980322/	B	Candidate-gene	Confirmed	gene	arnA	arnA			Klebsiella pneumoniae	colistin
+R00201	37692467	https://pubmed.ncbi.nlm.nih.gov/37692467/	A	Supported-mutation	Supported	mutation	fabG1		C-15T		Mycobacterium tuberculosis	isoniazid|ethionamide
+R00202	37692467	https://pubmed.ncbi.nlm.nih.gov/37692467/	A	Supported-mutation	Confirmed	mutation	embB			M306I	Mycobacterium tuberculosis	ethambutol
+R00203	37692467	https://pubmed.ncbi.nlm.nih.gov/37692467/	A	Supported-mutation	Confirmed	mutation	embB			M306V	Mycobacterium tuberculosis	ethambutol
+R00204	37692467	https://pubmed.ncbi.nlm.nih.gov/37692467/	A	Supported-mutation	Confirmed	mutation	gyrA			A90V		ofloxacin
+R00205	37692467	https://pubmed.ncbi.nlm.nih.gov/37692467/	A	Supported-mutation	Confirmed	mutation	gyrA			D94G		ofloxacin
+R00206	37692467	https://pubmed.ncbi.nlm.nih.gov/37692467/	A	Supported-mutation	Confirmed	mutation	katG			S315T	Mycobacterium tuberculosis	isoniazid
+R00207	37692467	https://pubmed.ncbi.nlm.nih.gov/37692467/	A	Supported-mutation	Confirmed	mutation	rpoB			S450L	Mycobacterium tuberculosis	rifampicin
+R00208	37692467	https://pubmed.ncbi.nlm.nih.gov/37692467/	A	Supported-mutation	Confirmed	mutation	rpsL			K43R	Mycobacterium tuberculosis	streptomycin
+R00209	37692467	https://pubmed.ncbi.nlm.nih.gov/37692467/	A	Supported-mutation	Confirmed	mutation	rpsL			K88R	Mycobacterium tuberculosis	streptomycin
+R00210	37692467	https://pubmed.ncbi.nlm.nih.gov/37692467/	A	Supported-mutation	Confirmed	mutation	rrs		A1401G		Mycobacterium tuberculosis	kanamycin|capreomycin
+R00211	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			A217S		bedaquiline
+R00212	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			A35A		bedaquiline
+R00213	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			A63M		bedaquiline
+R00214	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE		GCA->CCC	A65P		bedaquiline
+R00215	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			D120N		bedaquiline
+R00216	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			D32A		bedaquiline
+R00217	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			D32G		bedaquiline
+R00218	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			D32V		bedaquiline
+R00219	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			D776N		bedaquiline
+R00220	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			E142K		bedaquiline
+R00221	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			E65D		bedaquiline
+R00222	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			E65E		bedaquiline
+R00223	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			G125D		bedaquiline
+R00224	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			G24G		bedaquiline
+R00225	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			G49G		bedaquiline
+R00226	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			G62G		bedaquiline
+R00227	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			H7R		bedaquiline
+R00228	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			L59V		bedaquiline
+R00229	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			Q215R		bedaquiline
+R00230	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			V31I		bedaquiline
+R00231	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			V5M		bedaquiline
+R00232	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			V62V		bedaquiline
+R00233	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	atpE			W88G		bedaquiline
+R00234	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	gene	prpE	prpE			Mycobacterium smegmatis	bedaquiline
+R00235	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	prpE			S465P	M. smegmatis	bedaquiline
+R00236	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Candidate	mutation	rpoB			D776N		bedaquiline
+R00237	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Supported	gene	atpE	atpE			Mycobacterium abscessus; Mycobacterium avium; Mycobacterium intracellulare; Mycobacterium smegmatis; Mycobacterium fortuitum; Mycobacterium kansasii; Mycobacterium xenopi; Mycobacterium flavescens; Mycobacterium novocastrense; Mycobacterium shimoidei; Mycobacterium phlei; Mycobacterium vaccae; Mycobacterium kansasii; Mycobacterium simiae; Mycobacterium scrofulaceum; Mycobacterium hiberniae; Mycobacterium interjectum; Mycobacterium szulgai; Mycobacterium terrae; Mycobacterium conspicuum; Mycobacterium novocastrense; Mycobacterium xenopi; Mycobacterium chelonae; Mycobacterium gordonae; Mycobacterium simiae; Mycobacterium scrofulaceum; Mycobacterium triviale; Mycobacterium agri; Mycobacterium aichiense; Mycobacterium aurum; Mycobacterium austroafricanum; Mycobacterium chitae; Mycobacterium chubuense; Mycobacterium cosmeticum; Mycobacterium diernhoferi; Mycobacterium fallax; Mycobacterium farcinogenes; Mycobacterium flavescens; Mycobacterium gadium; Mycobacterium gilvum; Mycobacterium goodii; Mycobacterium mucogenicum; Mycobacterium neoaurum; Mycobacterium obuense; Mycobacterium parafortuitum; Mycobacterium peregrinum; Mycobacterium phlei; Mycobacterium porcinum; Mycobacterium pulveris; Mycobacterium senegalense; Mycobacterium septicum; Mycobacterium simiae; Mycobacterium sphagni; Mycobacterium smegmatis; Mycobacterium thermoresistibile; Mycobacterium tokaiense; Mycobacterium vaccae; Mycobacterium tuberculosi	bedaquiline
+R00238	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Confirmed	mutation	atpE			A63P		bedaquiline
+R00239	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Confirmed	mutation	atpE			A64P		bedaquiline
+R00240	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Confirmed	mutation	atpE			D28A		bedaquiline
+R00241	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Confirmed	mutation	atpE			D28G		bedaquiline
+R00242	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Confirmed	mutation	atpE			D28V		bedaquiline
+R00243	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Confirmed	mutation	atpE			E61D		bedaquiline
+R00244	38134888	https://pubmed.ncbi.nlm.nih.gov/38134888/	B	Candidate-mutation	Confirmed	mutation	atpE			I66M		bedaquiline
+R00245	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Candidate	gene	aade1	aadE1			Campylobacter coli; Campylobacter jejuni	streptomycin
+R00246	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Candidate	gene	aade2	aadE2			Campylobacter coli; Campylobacter jejuni	streptomycin
+R00247	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Candidate	gene	aade3	aadE3			Campylobacter coli	streptomycin
+R00248	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Candidate	mutation	blaOXA-193		G-57T		Campylobacter coli | Campylobacter jejuni	ampicillin
+R00249	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Candidate	gene	cata9	catA9			Campylobacter coli; Campylobacter jejuni	phenicols
+R00250	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Candidate	mutation	tet(W)			D171N	Campylobacter spp.	tetracycline
+R00251	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Candidate	mutation	tet(W)			G579D	Campylobacter spp.	tetracycline
+R00252	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	gene	aph(2'')-If	APH(2'')-If			Campylobacter coli; Campylobacter jejuni	gentamicin; kanamycin
+R00253	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	gene	aph(3')-IIIa	APH(3')-IIIa			Campylobacter coli; Campylobacter jejuni	kanamycin; gentamicin
+R00254	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	gene	aadE	AadE			Campylobacter coli; Campylobacter jejuni	streptomycin
+R00255	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	gene	fexA	FexA			Campylobacter coli; Campylobacter jejuni	florfenicol
+R00256	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	gene	sat4	Sat4			Campylobacter coli; Campylobacter jejuni	nourseothricin
+R00257	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	gene	tet(L)	Tet(L)			Campylobacter jejuni	tetracycline
+R00258	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	gene	tet(O)	Tet(O)			Campylobacter coli; Campylobacter jejuni	tetracycline
+R00259	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	gene	tet(W)	Tet(W)			Campylobacter jejuni	tetracycline
+R00260	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	gene	aac(6')-Ie/aph(2'')	aac(6')-Ie-aph(2'')-Ia			Campylobacter coli; Campylobacter jejuni	gentamicin; kanamycin
+R00261	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	gene	aad9	aad9			Campylobacter coli; Campylobacter jejuni	spectinomycin
+R00262	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	gene	aadE-Cc	aadE-Cc			Campylobacter coli	streptomycin
+R00263	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	gene	aph(2'')-G141	aph(2''-li1)			Campylobacter coli	gentamicin
+R00264	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	gene	blaOXA	blaOXA | blaOXA-193 | blaOXA-489 | blaOXA-184			Campylobacter coli; Campylobacter jejuni | Campylobacter jejuni; Campylobacter coli | Campylobacter jejuni	ampicillin
+R00265	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	gene	catA	catA			Campylobacter coli; Campylobacter jejuni	phenicols
+R00266	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	gene	catA13	catA13			Campylobacter coli; Campylobacter jejuni	phenicols
+R00267	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	gene	erm(B)	ErmB			Campylobacter coli; Campylobacter jejuni	macrolides
+R00268	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	mutation	gyrA			T86I	Campylobacter jejuni | Campylobacter coli	ciprofloxacin|nalidixic acid
+R00269	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	mutation	gyrA			T86V	Campylobacter jejuni | Campylobacter coli	ciprofloxacin|nalidixic acid
+R00270	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	gene	lnu(C)	lnuC			Campylobacter coli; Campylobacter jejuni | Campylobacter jejuni	lincomycin
+R00271	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	mutation	rpsL			K43R	Campylobacter spp.	streptomycin
+R00272	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	mutation	rpsL			K88R	Campylobacter spp.	streptomycin
+R00273	38331708	https://pubmed.ncbi.nlm.nih.gov/38331708/	B	Candidate-gene	Confirmed	gene	tet(O/32/O)	tet(O/M/O) | Tet(O/32/O)			Campylobacter coli | Campylobacter jejuni; Campylobacter coli	tetracycline
+R00274	39026143	https://pubmed.ncbi.nlm.nih.gov/39026143/	A	Confirmed-mutation	Confirmed	mutation	gyrA			D87A	Klebsiella pneumoniae	fluoroquinolones
+R00275	39026143	https://pubmed.ncbi.nlm.nih.gov/39026143/	A	Confirmed-mutation	Confirmed	mutation	gyrA			D87G	Klebsiella pneumoniae	fluoroquinolones
+R00276	39026143	https://pubmed.ncbi.nlm.nih.gov/39026143/	A	Confirmed-mutation	Confirmed	mutation	gyrA			D87N	Klebsiella pneumoniae	fluoroquinolones
+R00277	39026143	https://pubmed.ncbi.nlm.nih.gov/39026143/	A	Confirmed-mutation	Confirmed	mutation	gyrA			D87Y	Klebsiella pneumoniae	fluoroquinolones
+R00278	39026143	https://pubmed.ncbi.nlm.nih.gov/39026143/	A	Confirmed-mutation	Confirmed	mutation	gyrA			S83F	Klebsiella pneumoniae	fluoroquinolones
+R00279	39026143	https://pubmed.ncbi.nlm.nih.gov/39026143/	A	Confirmed-mutation	Confirmed	mutation	gyrA			S83I	Klebsiella pneumoniae	fluoroquinolones
+R00280	39026143	https://pubmed.ncbi.nlm.nih.gov/39026143/	A	Confirmed-mutation	Confirmed	mutation	gyrA			S83Y	Klebsiella pneumoniae	fluoroquinolones
+R00281	39026143	https://pubmed.ncbi.nlm.nih.gov/39026143/	A	Confirmed-mutation	Confirmed	mutation	parC			E84K	Klebsiella pneumoniae	fluoroquinolones
+R00282	39026143	https://pubmed.ncbi.nlm.nih.gov/39026143/	A	Confirmed-mutation	Confirmed	mutation	parC			S80I	Klebsiella pneumoniae	fluoroquinolones
+R00283	39058024	https://pubmed.ncbi.nlm.nih.gov/39058024/	B	Candidate-gene	Candidate	gene	ftsW	ftsW			Enterococcus faecalis	cephalosporins
+R00284	39058024	https://pubmed.ncbi.nlm.nih.gov/39058024/	B	Candidate-gene	Supported	gene	pbpB	pbpB			Enterococcus faecalis	cephalosporins
+R00285	39211793	https://pubmed.ncbi.nlm.nih.gov/39211793/	B	Candidate-gene	Candidate	gene	mdtQ	MdtQ			Klebsiella pneumoniae	cephalosporins
+R00286	39211793	https://pubmed.ncbi.nlm.nih.gov/39211793/	B	Candidate-gene	Confirmed	gene	catB7	CatB7			Pseudomonas aeruginosa	phenicols
+R00287	39211793	https://pubmed.ncbi.nlm.nih.gov/39211793/	B	Candidate-gene	Confirmed	gene	sul1	Sul1			Klebsiella pneumoniae; Pseudomonas aeruginosa | Pseudomonas aeruginosa	sulfonamides
+R00288	39211793	https://pubmed.ncbi.nlm.nih.gov/39211793/	B	Candidate-gene	Confirmed	gene	aph(3')-H48	aph(3')-la | aph(3')-llb			Klebsiella pneumoniae | Pseudomonas aeruginosa	aminoglycosides
+R00289	39211793	https://pubmed.ncbi.nlm.nih.gov/39211793/	B	Candidate-gene	Confirmed	gene	blaDHA	blaDHA-1			Klebsiella pneumoniae	beta lactams
+R00290	39211793	https://pubmed.ncbi.nlm.nih.gov/39211793/	B	Candidate-gene	Confirmed	gene	blaDIM	blaDIM-1			Pseudomonas aeruginosa	carbapenems
+R00291	39211793	https://pubmed.ncbi.nlm.nih.gov/39211793/	B	Candidate-gene	Confirmed	gene	blaOKP-A	blaOKP-A			Klebsiella pneumoniae	beta lactams
+R00292	39211793	https://pubmed.ncbi.nlm.nih.gov/39211793/	B	Candidate-gene	Confirmed	gene	blaOXA	blaOXA-488			Pseudomonas aeruginosa	beta lactams
+R00293	39211793	https://pubmed.ncbi.nlm.nih.gov/39211793/	B	Candidate-gene	Confirmed	gene	blaSHV	blaSHV-11			Klebsiella pneumoniae	carbapenems
+R00294	39211793	https://pubmed.ncbi.nlm.nih.gov/39211793/	B	Candidate-gene	Confirmed	gene	dfrA	dfrA			Klebsiella pneumoniae	trimethoprim
+R00295	39211793	https://pubmed.ncbi.nlm.nih.gov/39211793/	B	Candidate-gene	Confirmed	gene	fosA	fosA			Pseudomonas aeruginosa	fosfomycin
+R00296	39211793	https://pubmed.ncbi.nlm.nih.gov/39211793/	B	Candidate-gene	Confirmed	gene	qacE	qacE			Klebsiella pneumoniae	quaternary ammonium compounds
+R00297	39211793	https://pubmed.ncbi.nlm.nih.gov/39211793/	B	Candidate-gene	Confirmed	gene	qnrB	QnrB1 | QnrB4			Klebsiella pneumoniae	quinolones
+R00298	39314806	https://pubmed.ncbi.nlm.nih.gov/39314806/	B	Supported-mutation	Supported	mutation	fabG1		C-15T		Mycobacterium tuberculosis	isoniazid
+R00299	40175930	https://pubmed.ncbi.nlm.nih.gov/40175930/	BOTH	Supported-mutation	Supported	mutation	inhA		C-15T		Mycobacterium tuberculosis	isoniazid
+R00300	40175930	https://pubmed.ncbi.nlm.nih.gov/40175930/	BOTH	Supported-mutation	Supported	mutation	rpoB			S531L	Mycobacterium tuberculosis	rifampicin
+R00301	40175930	https://pubmed.ncbi.nlm.nih.gov/40175930/	BOTH	Supported-mutation	Confirmed	mutation	katG		G944C	S315T	Mycobacterium tuberculosis	isoniazid
+R00302	40604919	https://pubmed.ncbi.nlm.nih.gov/40604919/	BOTH	Confirmed-gene	Confirmed	gene	penA	pen			Staphylococcus aureus; Enterococcus faecium; Streptococcus agalactiae	penicillin
+R00303	40604919	https://pubmed.ncbi.nlm.nih.gov/40604919/	BOTH	Confirmed-gene	Confirmed	gene	sul1	sul			Staphylococcus aureus; Enterococcus faecium; Streptococcus agalactiae	sulfonamides
+R00304	40604919	https://pubmed.ncbi.nlm.nih.gov/40604919/	BOTH	Confirmed-gene	Confirmed	gene	tet(A)	tet			Staphylococcus aureus; Enterococcus faecium; Streptococcus agalactiae	tetracycline
+R00305	41331437	https://pubmed.ncbi.nlm.nih.gov/41331437/	B	Supported-gene	Supported	gene	aacA4	aacA4			Klebsiella pneumoniae	aminoglycosides
+R00306	41331437	https://pubmed.ncbi.nlm.nih.gov/41331437/	B	Supported-gene	Confirmed	gene	aadA2	AadA2			Klebsiella pneumoniae	aminoglycosides
+R00307	41331437	https://pubmed.ncbi.nlm.nih.gov/41331437/	B	Supported-gene	Confirmed	gene	aadA5	AadA5			Klebsiella pneumoniae	aminoglycosides
+R00308	41331437	https://pubmed.ncbi.nlm.nih.gov/41331437/	B	Supported-gene	Confirmed	gene	catB8	CatB8			Klebsiella pneumoniae	phenicols
+R00309	41331437	https://pubmed.ncbi.nlm.nih.gov/41331437/	B	Supported-gene	Confirmed	gene	blaNDM	blaNDM-1			Klebsiella pneumoniae	carbapenems

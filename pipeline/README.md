@@ -14,19 +14,19 @@ the step numbers in that file.
 
 ## Stages
 
-| # | Folder | Stage | Status in this repo |
+| # | Folder | Stage | In this archive |
 |---|---|---|---|
-| 1 | [`01_pubmed_search/`](01_pubmed_search/) | PubMed keyword search across ~80 hand-crafted AMR queries (ESearch, year/month/day recursion to work around the 9,999-result cap) | Notebook only; output (2,057,492 PMIDs) not included — too large |  PubTator3 + MeSH hybrid classifier — narrows to 1,420,586 PMIDs |
-| 3 | [`02_biomistral_filtering/`](02_biomistral_filtering/) | BioMistral-7B few-shot YES/NO relevance screen on title/abstract/MeSH/PubTator flags 
-| 4 | [`03_scripts_dld/`](03_scripts_dld/) | Full-text retrieval: OA cascade → publisher-API cascade → merge/dedupe/body-validate
-| 5 | [`04_read_papers/`](04_read_papers/) | Qwen3-30B-A3B (via vLLM) two-pass structured extraction of genes/mutations, with a field-by-field "atomic auditor" verification pass | Scripts only; 117,112 papers processed
-| 6 | [`05_harmonised_pipeline/`](05_harmonised_pipeline/) + [`06_final_output/`](06_final_output/) | Post-extraction cleaning, gene/organism/antibiotic-name normalization, harmonization against CARD/ResFinder/NCBI Reference Gene Catalog | **Full scripts + final tables included** |
-
+| 1 | [`01_pubmed_search/`](01_pubmed_search/) | PubMed keyword search across ~80 hand-crafted AMR queries (ESearch, year/month/day recursion to work around the 9,999-result cap) | Notebook (`pubmed_fetch.ipynb`); PMID list in `../pmid_lists/` |
+| 2 | [`01_pubmed_search/`](01_pubmed_search/) | PubTator3 + MeSH hybrid classifier | Notebook (`reslit_classifier.ipynb`); PMID list in `../pmid_lists/` |
+| 3 | [`02_biomistral_filtering/`](02_biomistral_filtering/) | BioMistral-7B few-shot YES/NO relevance screen on title/abstract/MeSH/PubTator flags | Scripts + SLURM launchers; PMID list in `../pmid_lists/` |
+| 4 | [`03_scripts_dld/`](03_scripts_dld/) | Full-text retrieval: OA cascade → publisher-API cascade → merge/dedupe/body-validate | Scripts and retrieval reports; full texts not included (publisher licensing) |
+| 5 | [`04_read_papers/`](04_read_papers/) | Qwen3-30B-A3B (via vLLM) two-pass structured extraction of genes/mutations, with a field-by-field "atomic auditor" verification pass | Scripts; raw model output in `../llm_extractions/` |
+| 6 | [`05_harmonised_pipeline/`](05_harmonised_pipeline/) + [`06_final_output/`](06_final_output/) | Post-extraction cleaning, gene/organism/antibiotic-name normalization, harmonization against CARD/ResFinder/NCBI Reference Gene Catalog | **Full scripts + final tables** |
 
 ## Final deliverables
 
-- [`06_final_output/Full_list_genes_Reslit_harmonized_antib_bact.csv`](06_final_output/Full_list_genes_Reslit_harmonized_antib_bact.csv) — 54,175 rows
-- [`06_final_output/Full_list_mutations_Reslit_antib_bact.csv`](06_final_output/Full_list_mutations_Reslit_antib_bact.csv) — 26,094 rows
+- [`06_final_output/Full_list_genes_Reslit_harmonized_antib_bact.csv`](06_final_output/Full_list_genes_Reslit_harmonized_antib_bact.csv) — 54,181 rows
+- [`06_final_output/Full_list_mutations_Reslit_antib_bact.csv`](06_final_output/Full_list_mutations_Reslit_antib_bact.csv) — 26,042 rows
 - Plus the equivalent external-database comparison tables under
   [`05_harmonised_pipeline/other_databases/`](05_harmonised_pipeline/other_databases/)
   (CARD + ResFinder + NCBI Reference Gene Catalog, merged and harmonized).
@@ -47,12 +47,8 @@ Several large, regenerable, or third-party artifacts are left out to keep
 this repo a reasonable size — each stage's own README documents exactly how
 to regenerate what it needs:
 
-- Raw PMID lists from Stages 1–2 (millions of rows) and the PubTator3/MeSH
-  classifier code itself (Stage 2 was never migrated into this repo).
-- Per-batch BioMistral scoring CSVs and SLURM logs (Stage 3 filtering).
-- Raw Qwen3/vLLM extraction JSON (`extraction_summary_batch1-6.json`,
-  ~250 MB total) — Stage 5's raw model output; only the downstream converter
-  scripts and final harmonized tables survive here.
+- The full-text articles (publisher licensing). The PMID lists of every
+  stage are in `../pmid_lists/` and the raw LLM output in `../llm_extractions/`.
 - Large external reference dumps used by the harmonization scripts
   (`Bacteria_genes_all.txt`, ~99 MB; `Bacteria.gene_info`, ~1.4 GB, from
   NCBI's Gene database) and intermediate scratch CSVs — see

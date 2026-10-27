@@ -1,0 +1,12 @@
+metric,value,ci95_low,ci95_high
+"TP (BioMistral YES, judged Y)",58.0,,
+"FP (BioMistral YES, judged N)",42.0,,
+"FN (BioMistral NO, judged Y)",8.0,,
+"TN (BioMistral NO, judged N)",92.0,,
+Precision / PPV (sample),0.58,0.4820630799889527,0.672017750814887
+NPV (sample),0.92,0.8500173312059693,0.9589070305141891
+Recall / sensitivity (population-weighted),0.7017764956844972,0.5699590135463702,0.8625462180470426
+Specificity (population-weighted),0.870945957353413,0.8446463325579695,0.8977083267767919
+Prevalence of relevant papers (population-weighted),0.2025212568234037,0.1578187060045953,0.25046743059519105
+"Raw agreement (200-row sample, stratified)",0.75,,
+"Cohen's kappa (200-row sample, stratified)",0.5,,

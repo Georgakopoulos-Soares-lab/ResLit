@@ -1,0 +1,19 @@
+Stage 3 BioMistral-7B abstract screening - validation sample population
+Sources (de-duplicated by PMID):
+  /work/11252/skulakis/projects/reslit/biomistral_filtering/results_first_run.csv
+  /work/11252/skulakis/projects/reslit/vista/results_300000/passed_cleaned_300000.csv
+  /work/11252/skulakis/projects/reslit/vista/results_600000/passed_cleaned_600000.csv
+  /work/11252/skulakis/projects/reslit/vista/results_900000/passed_cleaned_900000.csv
+Total screened (unique PMIDs): 1420582
+Predicted YES: 356262
+Predicted NO:  1064320
+YES rule: is_amr == True OR prediction == 'True' (matches passed_pmids_*.csv)
+Few-shot PMIDs excluded before sampling: 10027979, 10049269, 11557503, 12726767, 1522070 (present in population: none)
+Excluded for missing/empty abstract: YES=38126 NO=84167
+Sampling pools after exclusions: YES=318136 NO=980153
+Full-abstract rule: stored abstract must contain every AbstractText section
+  of raw_xml (stored abstracts are often truncated at inline tags)
+  YES: 125 candidates checked, 25 rejected as truncated
+  NO: 114 candidates checked, 14 rejected as truncated
+Sample: 100 YES + 100 NO, numpy default_rng seed 2026
+Row order shuffled with pandas random_state 2026
